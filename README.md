@@ -10,7 +10,8 @@ region-aware consent/data-export/erasure framework.
 
 See [ARCHITECTURE.md](./ARCHITECTURE.md) for the full design, what's built
 vs. deferred (audio/video calling, native apps, E2EE, etc.), and the
-reasoning behind the auth model.
+reasoning behind the auth model. See [DEPLOY.md](./DEPLOY.md) to put this
+somewhere real users can reach it.
 
 ## Getting started
 

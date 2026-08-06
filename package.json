@@ -8,7 +8,8 @@
     "start": "NODE_ENV=production tsx server.ts",
     "lint": "eslint",
     "prisma:migrate": "prisma migrate dev",
-    "prisma:studio": "prisma studio"
+    "prisma:studio": "prisma studio",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@prisma/adapter-pg": "^7.9.1",
