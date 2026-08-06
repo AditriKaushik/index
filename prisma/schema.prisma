@@ -1,0 +1,235 @@
+// Prisma schema for the social platform.
+// See ARCHITECTURE.md for the reasoning behind the auth/device/compliance model.
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum UserStatus {
+  ACTIVE
+  SUSPENDED
+  DEACTIVATED
+  DELETED
+}
+
+model User {
+  id              String    @id @default(cuid())
+  displayName     String
+  email           String?   @unique
+  phone           String?   @unique
+  emailVerifiedAt DateTime?
+  phoneVerifiedAt DateTime?
+  // ISO 3166-1 alpha-2 region declared/detected at signup; drives which
+  // consent/compliance ruleset applies (see ARCHITECTURE.md "Compliance").
+  region          String?
+  dateOfBirth     DateTime?
+  status          UserStatus @default(ACTIVE)
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  devices        Device[]
+  sessions       Session[]
+  otpCodes       OtpCode[]
+  consentRecords ConsentRecord[]
+  dataRequests   DataRequest[]
+  memberships    ConversationMember[]
+  messages       Message[]
+  auditLogs      AuditLog[]
+}
+
+model Device {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  // Client-generated stable identifier (persisted in secure storage / keychain).
+  // Substitutes for a hardware IMEI, which browsers never expose and modern
+  // mobile OSes restrict — see ARCHITECTURE.md "Device identity".
+  deviceKey String   @unique
+  label     String?
+  platform  String?
+  userAgent String?
+  // Hashed quick-unlock PIN, scoped to this device only.
+  pinHash   String?
+  lastIp     String?
+  lastRegion String?
+  lastSeenAt DateTime @default(now())
+  createdAt  DateTime @default(now())
+  trusted    Boolean  @default(false)
+
+  passkeys Passkey[]
+  sessions Session[]
+
+  @@index([userId])
+}
+
+model Passkey {
+  id           String   @id @default(cuid())
+  deviceId     String
+  device       Device   @relation(fields: [deviceId], references: [id], onDelete: Cascade)
+  userId       String
+  credentialId String   @unique
+  publicKey    Bytes
+  counter      BigInt   @default(0)
+  transports   String?
+  createdAt    DateTime @default(now())
+
+  @@index([userId])
+}
+
+model Session {
+  id               String    @id @default(cuid())
+  userId           String
+  user             User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  deviceId         String
+  device           Device    @relation(fields: [deviceId], references: [id], onDelete: Cascade)
+  refreshTokenHash String    @unique
+  expiresAt        DateTime
+  revokedAt        DateTime?
+  createdAt        DateTime  @default(now())
+
+  @@index([userId])
+  @@index([deviceId])
+}
+
+enum OtpChannel {
+  SMS
+  EMAIL
+}
+
+enum OtpPurpose {
+  SIGNUP
+  LOGIN
+  VERIFY_CONTACT
+}
+
+model OtpCode {
+  id         String     @id @default(cuid())
+  userId     String?
+  user       User?      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  target     String
+  channel    OtpChannel
+  purpose    OtpPurpose
+  codeHash   String
+  expiresAt  DateTime
+  consumedAt DateTime?
+  attempts   Int        @default(0)
+  createdAt  DateTime   @default(now())
+
+  @@index([target, purpose])
+}
+
+model Conversation {
+  id        String   @id @default(cuid())
+  isGroup   Boolean  @default(false)
+  title     String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  members  ConversationMember[]
+  messages Message[]
+}
+
+enum MemberRole {
+  OWNER
+  ADMIN
+  MEMBER
+}
+
+model ConversationMember {
+  id             String       @id @default(cuid())
+  conversationId String
+  conversation   Conversation @relation(fields: [conversationId], references: [id], onDelete: Cascade)
+  userId         String
+  user           User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  role           MemberRole   @default(MEMBER)
+  joinedAt       DateTime     @default(now())
+  lastReadAt     DateTime?
+
+  @@unique([conversationId, userId])
+  @@index([userId])
+}
+
+enum MessageType {
+  TEXT
+  AUDIO
+  VIDEO
+  IMAGE
+  FILE
+  SYSTEM
+}
+
+model Message {
+  id             String       @id @default(cuid())
+  conversationId String
+  conversation   Conversation @relation(fields: [conversationId], references: [id], onDelete: Cascade)
+  senderId       String
+  sender         User         @relation(fields: [senderId], references: [id], onDelete: Cascade)
+  type           MessageType  @default(TEXT)
+  body           String?
+  mediaUrl       String?
+  createdAt      DateTime     @default(now())
+  editedAt       DateTime?
+  // Soft delete so a user's own "delete for me" / retraction requests are
+  // honored without other members' history disappearing retroactively.
+  deletedAt      DateTime?
+
+  @@index([conversationId, createdAt])
+  @@index([senderId])
+}
+
+model ConsentRecord {
+  id            String   @id @default(cuid())
+  userId        String
+  user          User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  policyKey     String
+  policyVersion String
+  region        String
+  granted       Boolean
+  grantedAt     DateTime @default(now())
+
+  @@index([userId])
+}
+
+enum DataRequestType {
+  EXPORT
+  DELETE
+}
+
+enum DataRequestStatus {
+  PENDING
+  PROCESSING
+  COMPLETED
+  FAILED
+}
+
+model DataRequest {
+  id          String            @id @default(cuid())
+  userId      String
+  user        User              @relation(fields: [userId], references: [id], onDelete: Cascade)
+  type        DataRequestType
+  status      DataRequestStatus @default(PENDING)
+  requestedAt DateTime          @default(now())
+  completedAt DateTime?
+  exportUrl   String?
+
+  @@index([userId])
+}
+
+model AuditLog {
+  id        String   @id @default(cuid())
+  userId    String?
+  user      User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+  action    String
+  metadata  Json?
+  ip        String?
+  region    String?
+  createdAt DateTime @default(now())
+
+  @@index([userId])
+  @@index([action])
+}
