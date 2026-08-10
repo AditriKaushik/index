@@ -118,6 +118,24 @@ ul.reasons li{margin:5px 0}
 .btn.primary{background:var(--blue);color:#fff;border-color:var(--blue)}
 footer{color:var(--muted);font-size:12px;text-align:center;padding:20px}
 .note{font-size:12px;color:var(--muted)}
+.radar-wrap{display:flex;justify-content:center;padding:4px 0 2px}
+.radar-wrap svg{width:100%;max-width:250px;height:auto;overflow:visible}
+.radar-grid{fill:none;stroke:var(--line)}
+.radar-axis{stroke:var(--line-soft);stroke-width:1}
+.radar-fill{fill:var(--blue);fill-opacity:.2;stroke:var(--blue);stroke-width:2;transition:d .35s ease}
+.radar-label{font-size:8.5px;fill:var(--muted);font-family:var(--font-body)}
+.band-block{margin-top:16px}
+.band-heading{display:flex;justify-content:space-between;font-size:12px;color:var(--muted);font-family:var(--font-mono)}
+.band-track{position:relative;height:7px;border-radius:999px;background:var(--track);margin-top:8px;border:1px solid var(--line)}
+.band-range{position:absolute;top:-1px;bottom:-1px;background:rgba(47,85,151,.32);border-radius:999px}
+.band-point{position:absolute;top:-4px;width:13px;height:13px;border-radius:50%;background:var(--blue);border:2px solid var(--card);transform:translateX(-50%);box-shadow:0 0 0 1px var(--blue)}
+.band-flip{margin-top:8px;font-size:12px}
+.weights .row{display:flex;justify-content:space-between;gap:10px;padding:7px 0;border-bottom:1px dashed var(--line-soft);font-size:13px}
+.weights .row:last-child{border-bottom:0}
+.weights .pts{font-family:var(--font-mono);font-variant-numeric:tabular-nums;color:var(--muted);flex:none}
+.assess-grid{display:grid;grid-template-columns:1fr 1fr .9fr;gap:16px;margin-top:18px;align-items:start}
+@media(max-width:900px){.assess-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.assess-grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -239,17 +257,46 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:20px}
 <div class="meter-track"><div class="meter-bar" id="scoreBar"></div></div>
 <div class="meter-label"><span>Setup-quality score</span><span id="scoreLabel">0 / 100</span></div>
 </div>
+<div class="band-block">
+<div class="band-heading"><span>Sensitivity band</span><span id="bandLabel">— to —</span></div>
+<div class="band-track"><div class="band-range" id="bandRange"></div><div class="band-point" id="bandPoint"></div></div>
+<div class="band-flip" id="bandFlip"></div>
+</div>
 </div>
 
-<div class="fields" style="grid-template-columns:1.1fr .9fr;margin-top:18px;align-items:start">
+<div class="assess-grid">
 <div>
 <h3>Reasoning</h3>
 <ul class="reasons" id="reasonList"></ul>
 </div>
 <div>
+<h3>Factor radar</h3>
+<div class="radar-wrap" id="radarWrap"></div>
+</div>
+<div>
 <h3>Score breakdown</h3>
 <div class="breakdown" id="breakdownList"></div>
 </div>
+</div>
+</section>
+
+<section class="card methodology">
+<h2>Methodology &amp; why not "AI"</h2><div class="cardnote">Full transparency on how the score above is actually computed.</div>
+<p>This is a <strong>deterministic, rules-based multi-factor model</strong>, not a trained machine-learning system. It encodes the framework document's own thresholds — the ±0.30% relative-strength cut, the RSI 55–70 momentum band, the regime/structure gates from its decision tree — as fixed, published weights. Every point in the score above is traceable to one of these rules; nothing is learned or hidden.</p>
+<p>A "neural network" label was deliberately left off. A real one needs a historical dataset of setups and outcomes to train on, and none exists here — this page has no live market feed and no trade history. Wrapping the same hand-set weights in a neural-network claim wouldn't add predictive power, only false authority, which is precisely the failure mode that turns trading into gambling.</p>
+<h3>How to earn a real probability number</h3>
+<p>Log every trade this page scores — direction, inputs, verdict, and the actual outcome — for at least 30–50 trades, then compute your own win rate and expectancy by score band using the <a href="index.html#backtest">back-test scorecard</a> in the full framework. That empirical, personal hit-rate is a real probability. This score is the disciplined, auditable checklist that gets you there without curve-fitting on day one.</p>
+<h3>Weights used (out of 100, plus a news adjustment)</h3>
+<div class="weights">
+<div class="row"><span>Market regime aligned with trade direction</span><span class="pts">15 pts</span></div>
+<div class="row"><span>Price on the trade side of VWAP</span><span class="pts">12 pts</span></div>
+<div class="row"><span>9/20 EMA trend aligned</span><span class="pts">12 pts</span></div>
+<div class="row"><span>RSI(14) in the 55–70 momentum band</span><span class="pts">12 pts</span></div>
+<div class="row"><span>Relative strength vs Nifty ≥ ±0.30%</span><span class="pts">15 pts</span></div>
+<div class="row"><span>Volume / participation stronger than normal</span><span class="pts">12 pts</span></div>
+<div class="row"><span>Breakout confirmed by hold/retest</span><span class="pts">12 pts</span></div>
+<div class="row"><span>Reward clears the ₹ target, net of real charges</span><span class="pts">10 pts</span></div>
+<div class="row"><span>News/event adjustment</span><span class="pts">−20 to +8 pts</span></div>
 </div>
 </section>
 
@@ -295,18 +342,10 @@ function computeSizing(){
 function normalizedRSI(rsi){ return direction==='long' ? rsi : 100-rsi; }
 function normalizedRS(stockRet,niftyRet){ const rs=stockRet-niftyRet; return direction==='long' ? rs : -rs; }
 
-function score(){
- const sizing=computeSizing();
- const targetProfit=num('targetProfit');
- const requiredPct = sizing.capital>0 ? targetProfit/sizing.capital*100 : 0;
- const sizingClearsTarget = sizing.netPct >= requiredPct && sizing.feasible;
-
- const regime=$('regime').value, vwap=$('vwap').value, ema=$('ema').value;
- const rsi=num('rsi'), stockRet=num('stockRet'), niftyRet=num('niftyRet');
- const volume=$('volume').value, structure=$('structure').value, news=$('news').value;
-
- const nRsi=normalizedRSI(rsi), nRs=normalizedRS(stockRet,niftyRet);
-
+// Pure function: given already-normalized readings + fixed categorical/sizing state, returns the
+// checklist items and their point totals. Kept separate from score() so the same rules can be
+// re-run against perturbed readings for the sensitivity band without duplicating the weight table.
+function computeItemsNormalized(nRsi,nRs,regime,vwap,ema,volume,structure,sizingClearsTarget,sizingFeasible){
  const items=[];
  items.push({label:'Market regime',pts: regime==='trend'?15:regime==='range'?8:0, max:15,
    state: regime==='trend'?'pass':regime==='range'?'part':'fail'});
@@ -326,8 +365,25 @@ function score(){
    state: volume==='strong'?'pass':volume==='normal'?'part':'fail'});
  items.push({label:'Setup structure',pts: structure==='confirmed'?12:structure==='forming'?5:0, max:12,
    state: structure==='confirmed'?'pass':structure==='forming'?'part':'fail'});
- items.push({label:'Reward reaches target, net of costs',pts: sizingClearsTarget?10:(sizing.feasible?4:0), max:10,
-   state: sizingClearsTarget?'pass':(sizing.feasible?'part':'fail')});
+ items.push({label:'Reward reaches target, net of costs',pts: sizingClearsTarget?10:(sizingFeasible?4:0), max:10,
+   state: sizingClearsTarget?'pass':(sizingFeasible?'part':'fail')});
+ return items;
+}
+
+function tierOf(finalScore,hardGate){ return hardGate ? 'no' : finalScore>=70?'go':finalScore>=50?'wait':'no'; }
+
+function score(){
+ const sizing=computeSizing();
+ const targetProfit=num('targetProfit');
+ const requiredPct = sizing.capital>0 ? targetProfit/sizing.capital*100 : 0;
+ const sizingClearsTarget = sizing.netPct >= requiredPct && sizing.feasible;
+
+ const regime=$('regime').value, vwap=$('vwap').value, ema=$('ema').value;
+ const rsi=num('rsi'), stockRet=num('stockRet'), niftyRet=num('niftyRet');
+ const volume=$('volume').value, structure=$('structure').value, news=$('news').value;
+
+ const nRsi=normalizedRSI(rsi), nRs=normalizedRS(stockRet,niftyRet);
+ const items=computeItemsNormalized(nRsi,nRs,regime,vwap,ema,volume,structure,sizingClearsTarget,sizing.feasible);
 
  let base=items.reduce((s,i)=>s+i.pts,0);
  let newsPts=0;
@@ -335,6 +391,16 @@ function score(){
  else if(news==='conflicts') newsPts=-20;
  else if(news==='macro') newsPts=-15;
  const finalScore=Math.max(0,Math.min(100,base+newsPts));
+
+ // Sensitivity band: RSI and relative-strength readings carry the most live measurement noise
+ // (a slightly different candle close, a slightly different Nifty snapshot). Re-score at plausible
+ // low/high readings — everything else held fixed — to show how stable the verdict actually is.
+ const RSI_NOISE=3, RS_NOISE=0.15;
+ const lowItems=computeItemsNormalized(nRsi-RSI_NOISE,nRs-RS_NOISE,regime,vwap,ema,volume,structure,sizingClearsTarget,sizing.feasible);
+ const highItems=computeItemsNormalized(nRsi+RSI_NOISE,nRs+RS_NOISE,regime,vwap,ema,volume,structure,sizingClearsTarget,sizing.feasible);
+ const lowScore=Math.max(0,Math.min(100,lowItems.reduce((s,i)=>s+i.pts,0)+newsPts));
+ const highScore=Math.max(0,Math.min(100,highItems.reduce((s,i)=>s+i.pts,0)+newsPts));
+ const rsFlipsNegative = (nRs-RS_NOISE) < 0 && nRs >= 0;
 
  const hardGates=[];
  if(regime==='choppy') hardGates.push('No clear market regime — the framework calls for no trade / reduced activity here.');
@@ -346,6 +412,7 @@ function score(){
  if(structure==='chasing') softCaps.push('Entry chases an already-extended move rather than a hold/retest — the framework prefers waiting.');
  if(news==='macro') softCaps.push('A high-impact macro/earnings event raises uncertainty — consider waiting for post-event confirmation or trading smaller.');
  if(sizing.feasible && !sizingClearsTarget) softCaps.push(`Net profit at target is ${sizing.netPct.toFixed(2)}% of capital, short of the ${requiredPct.toFixed(2)}% objective — widen the reward multiple or tighten the stop.`);
+ if(rsFlipsNegative) softCaps.push('Relative strength is close to zero — a slightly weaker reading would fail this factor outright.');
 
  let verdict, tag, headline, sub, cls;
  if(hardGates.length){
@@ -370,7 +437,30 @@ function score(){
    sub = 'Too few conditions align with the checklist today.';
  }
 
- return {items,newsPts,finalScore,sizing,requiredPct,sizingClearsTarget,hardGates,softCaps,verdict,cls,tag,headline,sub};
+ const bandFlips = tierOf(lowScore,false) !== tierOf(highScore,false);
+
+ return {items,newsPts,finalScore,lowScore,highScore,bandFlips,sizing,requiredPct,sizingClearsTarget,hardGates,softCaps,verdict,cls,tag,headline,sub};
+}
+
+function buildRadarSVG(items){
+ const cx=110, cy=105, R=78, n=items.length;
+ const angle=i=>-Math.PI/2 + i*(2*Math.PI/n);
+ const pt=(i,v)=>{const a=angle(i);return [cx+R*v*Math.cos(a), cy+R*v*Math.sin(a)];};
+ const rings=[0.25,0.5,0.75,1].map(v=>{
+   const pts=items.map((_,i)=>pt(i,v).join(',')).join(' ');
+   return `<polygon class="radar-grid" points="${pts}"/>`;
+ }).join('');
+ const axes=items.map((_,i)=>{const [x,y]=pt(i,1);return `<line class="radar-axis" x1="${cx}" y1="${cy}" x2="${x}" y2="${y}"/>`;}).join('');
+ const dataPts=items.map((it,i)=>pt(i, Math.max(0,Math.min(1,it.pts/it.max))).join(',')).join(' ');
+ const short={'Market regime':'Regime','Price vs VWAP':'VWAP','9/20 EMA trend':'EMA','RSI(14) band':'RSI',
+   'Relative strength vs Nifty':'RS','Volume / participation':'Vol','Setup structure':'Structure',
+   'Reward reaches target, net of costs':'R:R'};
+ const labels=items.map((it,i)=>{
+   const [x,y]=pt(i,1.2);
+   const anchor = Math.abs(x-cx)<4 ? 'middle' : (x>cx?'start':'end');
+   return `<text class="radar-label" x="${x}" y="${y}" text-anchor="${anchor}" dominant-baseline="middle">${short[it.label]||it.label}</text>`;
+ }).join('');
+ return `<svg viewBox="0 0 220 210" role="img" aria-label="Radar chart of the eight checklist factors">${rings}${axes}<polygon class="radar-fill" points="${dataPts}"/>${labels}</svg>`;
 }
 
 function render(){
@@ -383,6 +473,16 @@ function render(){
  $('scoreBar').style.width=r.finalScore+'%';
  $('scoreLabel').textContent=`${r.finalScore} / 100`;
 
+ $('bandLabel').textContent=`${r.lowScore} to ${r.highScore}`;
+ $('bandRange').style.left=r.lowScore+'%';
+ $('bandRange').style.width=Math.max(0,r.highScore-r.lowScore)+'%';
+ $('bandPoint').style.left=r.finalScore+'%';
+ $('bandFlip').innerHTML = r.bandFlips
+   ? '<span style="color:var(--amber)">⚠ The verdict tier changes across this band — treat today\'s readings as borderline and wait for a cleaner confirmation.</span>'
+   : '<span class="note">Verdict tier holds steady across plausible RSI/relative-strength reading noise.</span>';
+
+ $('radarWrap').innerHTML = buildRadarSVG(r.items);
+
  $('breakdownList').innerHTML=r.items.map(i=>{
    const icon=i.state==='pass'?'✓':i.state==='part'?'△':'✗';
    return `<div class="row"><span class="icon ${i.state}">${icon}</span><span class="label">${i.label}</span><span class="pts">${i.pts}/${i.max}</span></div>`;
@@ -392,6 +492,7 @@ function render(){
  if(!reasons.length){
    reasons.push(`Setup-quality score ${r.finalScore}/100 against a 70-point threshold for a full trade signal.`);
  }
+ reasons.push(`Sensitivity band ${r.lowScore}–${r.highScore} against plausible RSI (±3) and relative-strength (±0.15%) reading noise.`);
  reasons.push(`At the ${r.sizing.R}R target (${INR(r.sizing.target)}), estimated net P&L is ${INR(r.sizing.net)} (${r.sizing.netPct.toFixed(2)}% of ${INR(r.sizing.capital)} capital) against a ${r.requiredPct.toFixed(2)}% objective.`);
  $('reasonList').innerHTML=reasons.map(t=>`<li>${t}</li>`).join('');
 
