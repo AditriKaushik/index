@@ -4,6 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Today's Trade Decision — NSE Intraday</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icons/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="theme-color" content="#17365d">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="TradeCall">
 <style>
 :root{
  --ink:#172033;--muted:#5b6579;--navy:#17365d;--blue:#2f5597;
@@ -136,6 +144,11 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:20px}
 .assess-grid{display:grid;grid-template-columns:1fr 1fr .9fr;gap:16px;margin-top:18px;align-items:start}
 @media(max-width:900px){.assess-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:560px){.assess-grid{grid-template-columns:1fr}}
+.install-banner{display:none;align-items:center;gap:12px;background:var(--soft-bg);border:1px solid var(--soft-border);border-radius:12px;padding:12px 14px;margin-bottom:16px;font-size:13.5px}
+.install-banner.show{display:flex}
+.install-banner .msg{flex:1}
+.install-banner button{flex:none}
+.install-banner .dismiss{background:transparent;border:0;color:var(--muted);cursor:pointer;font-size:18px;line-height:1;padding:4px 6px}
 </style>
 </head>
 <body>
@@ -146,6 +159,12 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:20px}
 </div></header>
 
 <main><div class="wrap grid">
+
+<div class="card install-banner" id="installBanner" style="grid-column:span 12">
+<span class="msg" id="installMsg">Install this as an app on your phone for one-tap, offline access.</span>
+<button type="button" class="btn primary" id="installBtn">Install app</button>
+<button type="button" class="dismiss" id="installDismiss" aria-label="Dismiss">✕</button>
+</div>
 
 <section class="card">
 <div class="callout"><strong>How this works:</strong> this page cannot see live prices or news by itself — it is a static, frontend-only checklist. Read the indicators off your own charting/broker screen and today's headlines, enter what you see below, and it applies the framework's own rules (relative-strength threshold, regime gate, EMA/RSI/volume/structure checklist, cost-adjusted sizing) to produce a verdict. The score is an indicative setup-quality read, <strong>not</strong> a statistically validated probability of profit — SEBI's 2024 study found roughly 7 in 10 individual intraday equity traders lost money over the period studied.</div>
@@ -512,5 +531,43 @@ function update(){ render(); }
  .forEach(id=>{ const el=$(id); el.addEventListener('input',update); el.addEventListener('change',update); });
 
 update();
+
+// --- Install as app -------------------------------------------------------
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => { navigator.serviceWorker.register('sw.js').catch(()=>{}); });
+}
+(function installBanner(){
+  const isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
+  if (isStandalone) return;
+  if (localStorage.getItem('installBannerDismissed') === '1') return;
+  const banner=$('installBanner'), msg=$('installMsg'), btn=$('installBtn'), dismiss=$('installDismiss');
+  let deferredPrompt=null;
+  const isIOS = /iphone|ipad|ipod/i.test(navigator.userAgent);
+
+  window.addEventListener('beforeinstallprompt', e => {
+    e.preventDefault();
+    deferredPrompt = e;
+    banner.classList.add('show');
+  });
+
+  if (isIOS) {
+    msg.textContent = 'Install as an app: tap the Share icon, then "Add to Home Screen".';
+    btn.style.display = 'none';
+    banner.classList.add('show');
+  }
+
+  btn.addEventListener('click', async () => {
+    if (!deferredPrompt) return;
+    deferredPrompt.prompt();
+    await deferredPrompt.userChoice;
+    deferredPrompt = null;
+    banner.classList.remove('show');
+  });
+  dismiss.addEventListener('click', () => {
+    banner.classList.remove('show');
+    localStorage.setItem('installBannerDismissed','1');
+  });
+  window.addEventListener('appinstalled', () => { banner.classList.remove('show'); });
+})();
 </script>
 </body></html>

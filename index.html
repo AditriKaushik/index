@@ -4,6 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>₹1 Lakh NSE Intraday Framework</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icons/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="theme-color" content="#17365d">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="TradeCall">
 <style>
 :root{
  --ink:#172033;--muted:#5b6579;--navy:#17365d;--blue:#2f5597;
@@ -102,11 +110,21 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:20px}
 .hint{font-size:12px;color:var(--bad);min-height:16px;margin-top:-6px}
 @media(max-width:480px){.card{padding:16px}h2{font-size:20px}}
 @media (prefers-reduced-motion:reduce){*{transition-duration:.01ms!important;animation-duration:.01ms!important}}
+.install-banner{display:none;align-items:center;gap:12px;background:var(--soft-bg);border:1px solid var(--soft-border);border-radius:12px;padding:12px 14px;font-size:13.5px}
+.install-banner.show{display:flex}
+.install-banner .msg{flex:1}
+.install-banner button{flex:none}
+.install-banner .dismiss{background:transparent;border:0;color:var(--muted);cursor:pointer;font-size:18px;line-height:1;padding:4px 6px}
 </style>
 </head>
 <body>
 <header><div class="wrap"><h1>₹1 Lakh NSE Intraday Framework</h1><div class="sub">1% daily profit objective • Paytm Money / IIFL • Cash equity • Risk-first</div><div class="badge">Prepared 10 Aug 2026 • Educational / back-testing use</div><div style="margin-top:12px"><a href="trade-decision.html" style="color:#fff;opacity:.85;font-size:13px;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.4)">Today's Trade Decision — get a Yes / No / Marginal read →</a></div></div></header>
 <main><div class="wrap grid">
+<div class="card install-banner" id="installBanner">
+<span class="msg" id="installMsg">Install this as an app on your phone for one-tap, offline access.</span>
+<button type="button" class="btn" id="installBtn">Install app</button>
+<button type="button" class="dismiss" id="installDismiss" aria-label="Dismiss">✕</button>
+</div>
 <section class="card"><div class="callout"><strong>Important:</strong> A 1% daily return cannot be guaranteed. Treat +1% as a stop-trading objective on favorable days, not a daily quota. Any trade can lose money, and a stop order does not guarantee the exact exit price.</div></section>
 <section class="card"><h2>Interactive cost & target calculator</h2>
 <div class="fields three">
@@ -258,5 +276,43 @@ try{
 }catch(e){}
 
 updateCostCalc();updatePositionCalc();updateRS();updateChecklist(false);
+
+// --- Install as app -------------------------------------------------------
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => { navigator.serviceWorker.register('sw.js').catch(()=>{}); });
+}
+(function installBanner(){
+  const isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
+  if (isStandalone) return;
+  if (localStorage.getItem('installBannerDismissed') === '1') return;
+  const banner=document.getElementById('installBanner'), msg=document.getElementById('installMsg'), btn=document.getElementById('installBtn'), dismiss=document.getElementById('installDismiss');
+  let deferredPrompt=null;
+  const isIOS = /iphone|ipad|ipod/i.test(navigator.userAgent);
+
+  window.addEventListener('beforeinstallprompt', e => {
+    e.preventDefault();
+    deferredPrompt = e;
+    banner.classList.add('show');
+  });
+
+  if (isIOS) {
+    msg.textContent = 'Install as an app: tap the Share icon, then "Add to Home Screen".';
+    btn.style.display = 'none';
+    banner.classList.add('show');
+  }
+
+  btn.addEventListener('click', async () => {
+    if (!deferredPrompt) return;
+    deferredPrompt.prompt();
+    await deferredPrompt.userChoice;
+    deferredPrompt = null;
+    banner.classList.remove('show');
+  });
+  dismiss.addEventListener('click', () => {
+    banner.classList.remove('show');
+    localStorage.setItem('installBannerDismissed','1');
+  });
+  window.addEventListener('appinstalled', () => { banner.classList.remove('show'); });
+})();
 </script>
 </body></html>
