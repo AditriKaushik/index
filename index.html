@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>₹1 Lakh NSE Intraday Framework</title>
+<style>
+:root{--ink:#172033;--muted:#667085;--navy:#17365d;--blue:#2f5597;--bg:#f5f7fb;--card:#fff;--line:#dfe5ee;--warn:#fff4ce;--ok:#eaf5e5;--soft:#eaf2f8;--bad:#fff0f0}
+*{box-sizing:border-box} body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55}
+header{background:linear-gradient(135deg,var(--navy),var(--blue));color:#fff;padding:38px 20px 30px} .wrap{max-width:1120px;margin:0 auto}
+h1{font-size:clamp(30px,5vw,48px);line-height:1.05;margin:0 0 9px}.sub{opacity:.9;font-size:17px}.badge{display:inline-block;background:rgba(255,255,255,.16);padding:5px 10px;border-radius:999px;font-size:12px;margin-top:13px}
+main{padding:22px 18px 50px}.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:16px}.card{grid-column:span 12;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;box-shadow:0 5px 18px rgba(20,35,70,.05)} .half{grid-column:span 6}.third{grid-column:span 4}@media(max-width:820px){.half,.third{grid-column:span 12}}
+h2{margin:0 0 14px;color:var(--navy);font-size:23px;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap} h3{color:var(--blue);margin:18px 0 8px} p{margin:8px 0 12px}.callout{padding:14px 16px;border-radius:12px;background:var(--warn);border:1px solid #ecd77c;transition:background .25s,border-color .25s}.callout.ok{background:var(--ok);border-color:#b8d6ad}.callout.soft{background:var(--soft);border-color:#c9dae9}.callout.bad{background:var(--bad);border-color:#e9c8c8}
+label{font-size:12px;color:var(--muted);display:block;margin-bottom:5px}.fields{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.fields.three{grid-template-columns:repeat(3,1fr)}@media(max-width:650px){.fields,.fields.three{grid-template-columns:1fr}} input,select{width:100%;padding:10px 11px;border:1px solid #cfd7e3;border-radius:10px;font-size:15px;background:#fff;color:var(--ink);transition:border-color .15s,box-shadow .15s} input:focus,select:focus{outline:none;border-color:var(--blue);box-shadow:0 0 0 3px rgba(47,85,151,.15)} input.invalid{border-color:#c0392b;box-shadow:0 0 0 3px rgba(192,57,43,.12)}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:15px}@media(max-width:760px){.kpis{grid-template-columns:repeat(2,1fr)}}@media(max-width:420px){.kpis{grid-template-columns:1fr}}.kpi{background:#f8fafc;border:1px solid var(--line);border-radius:12px;padding:12px;transition:background .2s,border-color .2s}.kpi small{color:var(--muted);display:block}.kpi strong{font-size:19px;color:var(--navy);word-break:break-word}.kpi.pos{background:var(--ok);border-color:#b8d6ad}.kpi.pos strong{color:#2e7d32}.kpi.neg{background:var(--bad);border-color:#e9c8c8}.kpi.neg strong{color:#c0392b}
+.tablewrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin-top:4px}
+table{width:100%;border-collapse:collapse;font-size:14px;min-width:420px}th,td{border-bottom:1px solid var(--line);padding:9px 8px;text-align:right}th:first-child,td:first-child{text-align:left}th{background:#f3f6fa;color:var(--navy);position:sticky;top:0} ul,ol{padding-left:22px}.formula{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;background:#f6f8fa;padding:10px 12px;border-radius:9px;overflow:auto}.pill{display:inline-block;padding:4px 9px;border-radius:999px;background:#eef3fa;color:var(--navy);font-size:12px;font-weight:600;margin:2px}
+.checklist label{display:flex;gap:9px;align-items:flex-start;font-size:14px;color:var(--ink);padding:7px 0;border-bottom:1px dashed #e7ebf1;cursor:pointer} .checklist label:hover{background:#fafbfd} .checklist input{width:auto;margin-top:4px;accent-color:var(--blue);min-width:16px;min-height:16px}
+.progress-wrap{display:flex;align-items:center;gap:10px;margin-bottom:6px} .progress-track{flex:1;height:8px;border-radius:999px;background:#eef1f6;overflow:hidden} .progress-bar{height:100%;width:0%;background:linear-gradient(90deg,var(--blue),var(--navy));transition:width .25s ease} .progress-label{font-size:12px;color:var(--muted);white-space:nowrap}
+.btn{border:1px solid #cfd7e3;background:#f3f6fa;color:var(--navy);border-radius:9px;padding:7px 12px;font-size:12px;cursor:pointer;font-weight:600;transition:background .15s} .btn:hover{background:#e7edf6} .btn:active{transform:translateY(1px)}
+footer{color:var(--muted);font-size:12px;text-align:center;padding:20px}.sources a{color:#275ca8;text-decoration:none;word-break:break-word}.sources li{margin:8px 0}.note{font-size:12px;color:var(--muted)}
+.hint{font-size:12px;color:#c0392b;min-height:16px;margin-top:-6px}
+@media(max-width:480px){.card{padding:16px}h2{font-size:20px}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><h1>₹1 Lakh NSE Intraday Framework</h1><div class="sub">1% daily profit objective • Paytm Money / IIFL • Cash equity • Risk-first</div><div class="badge">Prepared 10 Aug 2026 • Educational / back-testing use</div></div></header>
+<main><div class="wrap grid">
+<section class="card"><div class="callout"><strong>Important:</strong> A 1% daily return cannot be guaranteed. Treat +1% as a stop-trading objective on favorable days, not a daily quota. Any trade can lose money, and a stop order does not guarantee the exact exit price.</div></section>
+<section class="card"><h2>Interactive cost & target calculator</h2>
+<div class="fields three">
+<div><label for="capital">Capital / buy turnover (₹)</label><input id="capital" type="number" min="1000" step="1000" value="100000" inputmode="decimal"></div>
+<div><label for="targetPct">Gross target move (%)</label><input id="targetPct" type="number" step="0.05" value="1" inputmode="decimal"></div>
+<div><label for="broker">Broker</label><select id="broker"><option>Paytm Money</option><option>IIFL Online Plus</option></select></div>
+</div>
+<div class="hint" id="costHint"></div>
+<div class="kpis">
+<div class="kpi" id="kpiGross"><small>Gross P&L</small><strong id="gross">—</strong></div>
+<div class="kpi" id="kpiCharges"><small>Estimated charges</small><strong id="totalCharges">—</strong></div>
+<div class="kpi" id="kpiNet"><small>Net before income tax/slippage</small><strong id="net">—</strong></div>
+<div class="kpi" id="kpiReq"><small>Move needed for ₹1,000 net</small><strong id="reqMove">—</strong></div>
+</div>
+<div class="tablewrap" style="margin-top:14px"><table><thead><tr><th>Component</th><th>Estimate</th></tr></thead><tbody id="chargeRows"></tbody></table></div>
+<p class="note">Estimator assumptions: NSE cash-equity intraday; STT 0.025% sell side; stamp duty 0.003% buy side; NSE transaction charge ₹2.97/lakh each side; SEBI turnover ₹10/crore; GST 18% applied to brokerage + NSE transaction + SEBI fee. Broker tariffs can differ by account.</p>
+</section>
+
+<section class="card half"><h2>Position-size calculator</h2><div class="fields">
+<div><label for="entry">Entry price (₹)</label><input id="entry" type="number" step="0.05" value="1010" inputmode="decimal"></div>
+<div><label for="stop">Stop price (₹)</label><input id="stop" type="number" step="0.05" value="1006" inputmode="decimal"></div>
+<div><label for="risk">Maximum planned risk (₹)</label><input id="risk" type="number" step="50" value="300" inputmode="decimal"></div>
+<div><label for="rMult">Reward multiple (R)</label><input id="rMult" type="number" step="0.25" value="2" inputmode="decimal"></div>
+</div>
+<div class="hint" id="posHint"></div>
+<div class="kpis">
+<div class="kpi"><small>Risk/share</small><strong id="riskShare">—</strong></div><div class="kpi"><small>Quantity</small><strong id="qty">—</strong></div><div class="kpi"><small>Capital used</small><strong id="capUsed">—</strong></div><div class="kpi"><small>R-target price</small><strong id="rTarget">—</strong></div></div>
+<div class="formula">Quantity = min( floor(₹ risk ÷ |Entry − Stop|), floor(Capital ÷ Entry) )</div></section>
+
+<section class="card half"><h2>Default daily rules</h2><div class="callout soft"><strong>Risk first:</strong> The daily objective is subordinate to the daily loss limit.</div>
+<div class="tablewrap"><table><tbody><tr><td>Per-trade planned risk</td><td><strong>₹300</strong></td></tr><tr><td>Daily planned loss limit</td><td><strong>₹600</strong></td></tr><tr><td>Maximum trades</td><td><strong>2–3</strong></td></tr><tr><td>Normal reward objective</td><td><strong>2R–2.5R</strong></td></tr><tr><td>New-entry preference</td><td><strong>~09:30–14:45</strong></td></tr><tr><td>+₹1,000 net reached</td><td><strong>Stop trading</strong></td></tr><tr><td>~−₹600 reached</td><td><strong>Stop trading</strong></td></tr><tr><td>No A-grade setup</td><td><strong>₹0 day is valid</strong></td></tr></tbody></table></div></section>
+
+<section class="card half"><h2>A-grade long checklist <span class="btn" id="resetChecklist" role="button" tabindex="0">Reset</span></h2>
+<div class="progress-wrap"><div class="progress-track"><div class="progress-bar" id="checklistBar"></div></div><div class="progress-label" id="checklistLabel">0 / 8</div></div>
+<div class="callout soft" id="checklistVerdict" style="margin-bottom:10px">Tick each condition as you confirm it live or in back-test review.</div>
+<div class="checklist" id="checklistItems">
+<label><input type="checkbox"> Nifty / broad market is constructive, not repeatedly whipsawing through VWAP.</label>
+<label><input type="checkbox"> Stock is above VWAP with positive short-term structure.</label>
+<label><input type="checkbox"> 9 EMA is above 20 EMA on the execution chart.</label>
+<label><input type="checkbox"> RSI(14) is roughly 55–70, used only as confirmation.</label>
+<label><input type="checkbox"> Stock has positive relative strength versus Nifty.</label>
+<label><input type="checkbox"> Breakout has stronger-than-normal participation / volume.</label>
+<label><input type="checkbox"> Breakout level / VWAP holds on a retest; no extended-candle chase.</label>
+<label><input type="checkbox"> Realistic target offers at least 2× planned risk.</label>
+</div><p class="note">For shorts, reverse the directional conditions. These are filters to test, not guarantees. Progress is saved in this browser only.</p></section>
+
+<section class="card half"><h2>Relative strength & ATR</h2>
+<h3>Relative strength calculator</h3>
+<div class="fields">
+<div><label for="stockRet">Stock intraday return (%)</label><input id="stockRet" type="number" step="0.05" value="0.85" inputmode="decimal"></div>
+<div><label for="niftyRet">Nifty intraday return (%)</label><input id="niftyRet" type="number" step="0.05" value="0.20" inputmode="decimal"></div>
+</div>
+<div class="callout" id="rsResult" style="margin-top:10px">RS = +0.65% — set threshold ≈ ±0.30% while back-testing.</div>
+<h3>ATR stop idea</h3><p>Back-test a stop distance around <strong>0.75–1.0 × 5-minute ATR(14)</strong>, but only when the stop also lies beyond a valid structure invalidation. Higher volatility should generally reduce quantity.</p>
+</section>
+
+<section class="card"><h2>Opening-range + VWAP workflow</h2><ol><li><strong>09:15–09:30:</strong> establish the opening range; avoid rushing into opening noise.</li><li>Identify market regime: trending, ranging, or choppy.</li><li>Screen only very liquid stocks showing relative strength/weakness and participation.</li><li>Wait for a defined breakout/structure close rather than a one-tick breach.</li><li>Prefer a successful hold/retest of the breakout level or VWAP.</li><li>Before ordering: write entry, stop, quantity, rupee risk, target and estimated costs.</li><li>Do not move the stop farther away merely to avoid realizing a loss.</li></ol></section>
+
+<section class="card"><h2>Back-test scorecard</h2><div class="fields three"><span class="pill">100+ trades</span><span class="pill">Net expectancy</span><span class="pill">Profit factor</span><span class="pill">Max drawdown</span><span class="pill">R multiples</span><span class="pill">Slippage included</span></div>
+<div class="tablewrap"><table><thead><tr><th>Metric</th><th>Formula / definition</th></tr></thead><tbody><tr><td>Win rate</td><td>Winners ÷ total trades</td></tr><tr><td>Average winner</td><td>Total winning P&L ÷ winners</td></tr><tr><td>Average loser</td><td>Total losing P&L ÷ losers</td></tr><tr><td>Profit factor</td><td>Gross wins ÷ gross losses</td></tr><tr><td>Gross expectancy</td><td>(Win% × Avg win) − (Loss% × Avg loss)</td></tr><tr><td>Net expectancy</td><td>Gross expectancy − average charges/slippage</td></tr><tr><td>R multiple</td><td>Trade P&L ÷ initial planned risk</td></tr><tr><td>Maximum drawdown</td><td>Largest peak-to-trough strategy decline</td></tr></tbody></table></div>
+<p><strong>Example:</strong> 45% wins × ₹750 average winner − 55% losses × ₹275 average loser = ₹186.25 gross expectancy/trade. If costs/slippage average ₹75, net expectancy = ₹111.25/trade.</p></section>
+
+<section class="card"><h2>Journal template</h2><p>Date/time • Symbol • Market regime • Long/short • Setup • Entry/stop/target • Quantity • Initial ₹ risk • VWAP/EMA/RSI/RS/volume context • Exit reason • Gross P&L • Charges • Slippage • Net P&L • R multiple • Rule violation • Screenshot/notes.</p></section>
+
+<section class="card"><h2>Tax and risk notes</h2><div class="callout bad"><strong>Do not subtract a universal tax % per trade.</strong> Intraday share transactions settled without delivery are generally treated as speculative transactions for income-tax purposes, and current ITR-3 materials separately capture intraday/speculative-business income. Annual tax depends on the complete tax situation. Keep contract notes and use a qualified tax professional.</div>
+<ul><li>No indicator or formula guarantees a profitable trade or a 1% daily return.</li><li>Stop orders can fill worse than the planned stop price.</li><li>Spread, slippage, gaps, news, liquidity and operational issues can enlarge losses.</li><li>Never increase risk after a loss to recover the day.</li><li>The framework is educational/back-testing material, not a personalized securities recommendation.</li></ul></section>
+
+<section class="card sources"><h2>Official sources checked</h2><ul>
+<li><a href="https://www.nseindia.com/static/invest/first-time-investor-sebi-turnover-fees-stt-other-levies" target="_blank" rel="noopener">NSE — SEBI turnover fees, stamp duty, GST and STT</a></li>
+<li><a href="https://nsearchives.nseindia.com/content/circulars/FA64232.pdf" target="_blank" rel="noopener">NSE circular — cash-market transaction charge ₹2.97/lakh each side</a></li>
+<li><a href="https://www.paytmmoney.com/stocks/pricing" target="_blank" rel="noopener">Paytm Money — Stocks pricing</a></li>
+<li><a href="https://www.iiflcapital.com/brokerage-charges" target="_blank" rel="noopener">IIFL Capital — Brokerage Charges / Online Plus</a></li>
+<li><a href="https://www.sebi.gov.in/media-and-notifications/press-releases/jul-2024/sebi-study-finds-that-7-out-of-10-individual-intraday-traders-in-equity-cash-segment-make-losses_84948.html" target="_blank" rel="noopener">SEBI — 7 out of 10 individual intraday cash-equity traders made losses</a></li>
+<li><a href="https://www.incometaxindia.gov.in/w/section-43-59" target="_blank" rel="noopener">Income Tax — Section 43 / speculative transaction definition</a></li>
+<li><a href="https://www.incometaxindia.gov.in/documents/d/guest/itr-3-2026-eng-pdf" target="_blank" rel="noopener">Income Tax — ITR-3 2026</a></li>
+</ul><p class="note">Verify broker tariffs and statutory rates before live use; they can change.</p></section>
+</div></main><footer>₹1 Lakh NSE Intraday Framework • Prepared 10 Aug 2026</footer>
+<script>
+const INR = n => new Intl.NumberFormat('en-IN',{style:'currency',currency:'INR',maximumFractionDigits:2}).format(n);
+const num = id => { const el=document.getElementById(id), v=parseFloat(el.value); const ok=el.value!==''&&!isNaN(v); el.classList.toggle('invalid',!ok); return ok?v:0; };
+
+function calcCharges(buy,sell,broker){
+ let bb,bs;if(broker==='Paytm Money'){bb=Math.min(buy*.025,20);bs=Math.min(sell*.025,20)}else{bb=buy*.00025;bs=sell*.00025}
+ const brokerage=bb+bs, stt=sell*.00025, stamp=buy*.00003, exchange=(buy+sell)*.0000297, sebi=(buy+sell)*.000001, gst=.18*(brokerage+exchange+sebi);return {brokerage,stt,stamp,exchange,sebi,gst,total:brokerage+stt+stamp+exchange+sebi+gst};}
+function requiredMove(buy,broker,targetNet){if(buy<=0)return 0;let lo=-.01,hi=.20;for(let k=0;k<80;k++){let m=(lo+hi)/2,sell=buy*(1+m),c=calcCharges(buy,sell,broker).total,net=sell-buy-c;if(net<targetNet)lo=m;else hi=m}return hi*100}
+
+function setKpiTone(el,val){el.classList.remove('pos','neg');if(val>0)el.classList.add('pos');else if(val<0)el.classList.add('neg')}
+
+function updateCostCalc(){
+ const buy=num('capital'),pct=num('targetPct'),broker=document.getElementById('broker').value;
+ const hint=document.getElementById('costHint');
+ hint.textContent = buy<=0 ? 'Enter a capital amount greater than 0.' : '';
+ const sell=buy*(1+pct/100),c=calcCharges(buy,sell,broker),gross=sell-buy,net=gross-c.total;
+ document.getElementById('gross').textContent=INR(gross);
+ document.getElementById('totalCharges').textContent=INR(c.total);
+ document.getElementById('net').textContent=INR(net);
+ document.getElementById('reqMove').textContent=requiredMove(buy,broker,1000).toFixed(3)+'%';
+ setKpiTone(document.getElementById('kpiGross'),gross);
+ setKpiTone(document.getElementById('kpiNet'),net);
+ const labels=[['Brokerage','brokerage'],['STT (sell)','stt'],['Stamp duty (buy)','stamp'],['NSE transaction charge','exchange'],['SEBI turnover fee','sebi'],['GST','gst'],['Total','total']];
+ document.getElementById('chargeRows').innerHTML=labels.map(x=>`<tr><td>${x[0]}</td><td><strong>${INR(c[x[1]])}</strong></td></tr>`).join('');
+}
+
+function updatePositionCalc(){
+ const buy=num('capital'),entry=num('entry'),stop=num('stop'),risk=num('risk'),R=num('rMult');
+ const hint=document.getElementById('posHint');
+ const rs=Math.abs(entry-stop);
+ hint.textContent = entry===stop && entry!==0 ? 'Entry and stop cannot be equal.' : '';
+ let qty=rs>0?Math.floor(risk/rs):0;
+ qty=Math.max(0,Math.min(qty,entry>0?Math.floor(buy/entry):0));
+ const dir=stop<entry?1:(stop>entry?-1:0),target=entry+dir*rs*R;
+ document.getElementById('riskShare').textContent=INR(rs);
+ document.getElementById('qty').textContent=qty.toLocaleString('en-IN');
+ document.getElementById('capUsed').textContent=INR(qty*entry);
+ document.getElementById('rTarget').textContent=entry?INR(target):'—';
+}
+
+function updateRS(){
+ const s=num('stockRet'),n=num('niftyRet'),rs=s-n;
+ const box=document.getElementById('rsResult');
+ const sign=rs>=0?'+':'';
+ box.textContent=`RS = ${sign}${rs.toFixed(2)}% — set threshold ≈ ±0.30% while back-testing.`;
+ box.className='callout '+(rs>=0.30?'ok':(rs<=-0.30?'bad':'soft'));
+}
+
+['capital','targetPct'].forEach(id=>document.getElementById(id).addEventListener('input',()=>{updateCostCalc();updatePositionCalc();}));
+document.getElementById('broker').addEventListener('change',updateCostCalc);
+['entry','stop','risk','rMult'].forEach(id=>document.getElementById(id).addEventListener('input',updatePositionCalc));
+['stockRet','niftyRet'].forEach(id=>document.getElementById(id).addEventListener('input',updateRS));
+
+const CHECKLIST_KEY='nseIntradayChecklistV1';
+const checklistBoxes=[...document.querySelectorAll('#checklistItems input[type=checkbox]')];
+function updateChecklist(save){
+ const total=checklistBoxes.length, checked=checklistBoxes.filter(b=>b.checked).length;
+ document.getElementById('checklistBar').style.width=(checked/total*100)+'%';
+ document.getElementById('checklistLabel').textContent=`${checked} / ${total}`;
+ const verdict=document.getElementById('checklistVerdict');
+ if(checked===total){verdict.textContent='All conditions confirmed — an A-grade setup by this checklist, still no guarantee of profit.';verdict.className='callout ok';}
+ else if(checked>=total-2){verdict.textContent='Close, but one or more conditions unconfirmed — review before sizing up.';verdict.className='callout soft';}
+ else {verdict.textContent='Tick each condition as you confirm it live or in back-test review.';verdict.className='callout';}
+ if(save){try{localStorage.setItem(CHECKLIST_KEY,JSON.stringify(checklistBoxes.map(b=>b.checked)));}catch(e){}}
+}
+checklistBoxes.forEach(b=>b.addEventListener('change',()=>updateChecklist(true)));
+document.getElementById('resetChecklist').addEventListener('click',()=>{checklistBoxes.forEach(b=>b.checked=false);updateChecklist(true);});
+document.getElementById('resetChecklist').addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();document.getElementById('resetChecklist').click();}});
+try{
+ const saved=JSON.parse(localStorage.getItem(CHECKLIST_KEY)||'null');
+ if(Array.isArray(saved)&&saved.length===checklistBoxes.length){checklistBoxes.forEach((b,i)=>b.checked=!!saved[i]);}
+}catch(e){}
+
+updateCostCalc();updatePositionCalc();updateRS();updateChecklist(false);
+</script>
+</body></html>
