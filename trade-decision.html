@@ -173,7 +173,88 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:20px}
 <section class="card half">
 <h2>1 · Trade &amp; sizing</h2><div class="cardnote">What you intend to trade and how it's sized.</div>
 <div class="fields">
-<div><label for="symbol">Symbol (optional, for the readout)</label><input id="symbol" type="text" placeholder="e.g. RELIANCE" maxlength="20"></div>
+<div><label for="symbol">NSE stock</label><input id="symbol" type="text" list="nseStocks" placeholder="Start typing… e.g. RELIANCE" maxlength="20" autocomplete="off">
+<datalist id="nseStocks">
+<option value="RELIANCE">RELIANCE — Reliance Industries</option>
+<option value="TCS">TCS — Tata Consultancy Services</option>
+<option value="HDFCBANK">HDFCBANK — HDFC Bank</option>
+<option value="ICICIBANK">ICICIBANK — ICICI Bank</option>
+<option value="INFY">INFY — Infosys</option>
+<option value="HINDUNILVR">HINDUNILVR — Hindustan Unilever</option>
+<option value="ITC">ITC — ITC Ltd</option>
+<option value="SBIN">SBIN — State Bank of India</option>
+<option value="BHARTIARTL">BHARTIARTL — Bharti Airtel</option>
+<option value="KOTAKBANK">KOTAKBANK — Kotak Mahindra Bank</option>
+<option value="LT">LT — Larsen &amp; Toubro</option>
+<option value="AXISBANK">AXISBANK — Axis Bank</option>
+<option value="BAJFINANCE">BAJFINANCE — Bajaj Finance</option>
+<option value="ASIANPAINT">ASIANPAINT — Asian Paints</option>
+<option value="MARUTI">MARUTI — Maruti Suzuki</option>
+<option value="SUNPHARMA">SUNPHARMA — Sun Pharmaceutical</option>
+<option value="TITAN">TITAN — Titan Company</option>
+<option value="ULTRACEMCO">ULTRACEMCO — UltraTech Cement</option>
+<option value="NESTLEIND">NESTLEIND — Nestlé India</option>
+<option value="WIPRO">WIPRO — Wipro</option>
+<option value="ONGC">ONGC — Oil &amp; Natural Gas Corp</option>
+<option value="NTPC">NTPC — NTPC Ltd</option>
+<option value="POWERGRID">POWERGRID — Power Grid Corp</option>
+<option value="M&M">M&amp;M — Mahindra &amp; Mahindra</option>
+<option value="TATAMOTORS">TATAMOTORS — Tata Motors</option>
+<option value="TATASTEEL">TATASTEEL — Tata Steel</option>
+<option value="JSWSTEEL">JSWSTEEL — JSW Steel</option>
+<option value="ADANIENT">ADANIENT — Adani Enterprises</option>
+<option value="ADANIPORTS">ADANIPORTS — Adani Ports</option>
+<option value="COALINDIA">COALINDIA — Coal India</option>
+<option value="HCLTECH">HCLTECH — HCL Technologies</option>
+<option value="TECHM">TECHM — Tech Mahindra</option>
+<option value="DRREDDY">DRREDDY — Dr. Reddy's Labs</option>
+<option value="CIPLA">CIPLA — Cipla</option>
+<option value="DIVISLAB">DIVISLAB — Divi's Laboratories</option>
+<option value="GRASIM">GRASIM — Grasim Industries</option>
+<option value="BRITANNIA">BRITANNIA — Britannia Industries</option>
+<option value="EICHERMOT">EICHERMOT — Eicher Motors</option>
+<option value="HEROMOTOCO">HEROMOTOCO — Hero MotoCorp</option>
+<option value="BAJAJ-AUTO">BAJAJ-AUTO — Bajaj Auto</option>
+<option value="BAJAJFINSV">BAJAJFINSV — Bajaj Finserv</option>
+<option value="HDFCLIFE">HDFCLIFE — HDFC Life Insurance</option>
+<option value="SBILIFE">SBILIFE — SBI Life Insurance</option>
+<option value="INDUSINDBK">INDUSINDBK — IndusInd Bank</option>
+<option value="UPL">UPL — UPL Ltd</option>
+<option value="APOLLOHOSP">APOLLOHOSP — Apollo Hospitals</option>
+<option value="TATACONSUM">TATACONSUM — Tata Consumer Products</option>
+<option value="BPCL">BPCL — Bharat Petroleum</option>
+<option value="HINDALCO">HINDALCO — Hindalco Industries</option>
+<option value="SHREECEM">SHREECEM — Shree Cement</option>
+<option value="DLF">DLF — DLF Ltd</option>
+<option value="PIDILITIND">PIDILITIND — Pidilite Industries</option>
+<option value="GODREJCP">GODREJCP — Godrej Consumer Products</option>
+<option value="DABUR">DABUR — Dabur India</option>
+<option value="HAVELLS">HAVELLS — Havells India</option>
+<option value="SIEMENS">SIEMENS — Siemens Ltd</option>
+<option value="BOSCHLTD">BOSCHLTD — Bosch Ltd</option>
+<option value="VEDANTA">VEDANTA — Vedanta Ltd</option>
+<option value="GAIL">GAIL — GAIL India</option>
+<option value="IOC">IOC — Indian Oil Corp</option>
+<option value="BANKBARODA">BANKBARODA — Bank of Baroda</option>
+<option value="PNB">PNB — Punjab National Bank</option>
+<option value="CANBK">CANBK — Canara Bank</option>
+<option value="ZOMATO">ZOMATO — Eternal (Zomato)</option>
+<option value="TRENT">TRENT — Trent Ltd</option>
+<option value="ADANIGREEN">ADANIGREEN — Adani Green Energy</option>
+<option value="ADANIPOWER">ADANIPOWER — Adani Power</option>
+<option value="AMBUJACEM">AMBUJACEM — Ambuja Cements</option>
+<option value="ACC">ACC — ACC Ltd</option>
+<option value="TATAPOWER">TATAPOWER — Tata Power</option>
+<option value="BEL">BEL — Bharat Electronics</option>
+<option value="IRCTC">IRCTC — Indian Railway Catering &amp; Tourism</option>
+<option value="PFC">PFC — Power Finance Corp</option>
+<option value="RECLTD">RECLTD — REC Ltd</option>
+<option value="LTIM">LTIM — LTIMindtree</option>
+<option value="MOTHERSON">MOTHERSON — Samvardhana Motherson</option>
+<option value="INDIGO">INDIGO — InterGlobe Aviation</option>
+</datalist>
+<p class="note" style="margin:5px 0 0">Static reference list of well-known NSE symbols for quick, correctly-spelled entry — not live prices. Any other NSE symbol can still be typed directly.</p>
+</div>
 <div><label for="direction">Intended direction</label>
 <div class="seg" role="group" aria-label="Intended direction">
 <button type="button" id="dirLong" aria-pressed="true">Long</button>
@@ -230,11 +311,20 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:20px}
 <option value="flat">Flat / just crossing</option>
 <option value="against">Against trade direction</option>
 </select></div>
-<div><label for="rsi">RSI(14) reading</label><input id="rsi" type="number" min="0" max="100" step="1" value="62"></div>
+<div><label for="rsi">Momentum (RSI)</label>
+<select id="rsi">
+<option value="strong" selected>Strong in this direction</option>
+<option value="moderate">Moderate</option>
+<option value="weak">Weak / against this direction</option>
+</select></div>
 </div>
-<div class="fields" style="margin-top:12px">
-<div><label for="stockRet">Stock intraday return so far (%)</label><input id="stockRet" type="number" step="0.05" value="0.85"></div>
-<div><label for="niftyRet">Nifty intraday return so far (%)</label><input id="niftyRet" type="number" step="0.05" value="0.20"></div>
+<div style="margin-top:12px">
+<label for="relStrength">Relative strength vs Nifty</label>
+<select id="relStrength">
+<option value="lead" selected>Clearly favors this trade</option>
+<option value="slight">Slightly favors this trade</option>
+<option value="lag">Roughly neutral or against this trade</option>
+</select>
 </div>
 </fieldset>
 <fieldset>
@@ -358,8 +448,11 @@ function computeSizing(){
  return {capital,entry,stop,risk,R,riskPerShare,qty,target,net,netPct,feasible:qty>0 && target>0 && net>0};
 }
 
-function normalizedRSI(rsi){ return direction==='long' ? rsi : 100-rsi; }
-function normalizedRS(stockRet,niftyRet){ const rs=stockRet-niftyRet; return direction==='long' ? rs : -rs; }
+// Momentum and relative-strength are picked as direction-relative quick choices (not typed
+// numbers), so these map straight to the already-normalized point-tier values the scoring
+// below expects — no separate long/short sign-flip needed.
+const RSI_PROXY = { strong: 62, moderate: 52, weak: 35 };
+const RS_PROXY = { lead: 0.45, slight: 0.10, lag: -0.10 };
 
 // Pure function: given already-normalized readings + fixed categorical/sizing state, returns the
 // checklist items and their point totals. Kept separate from score() so the same rules can be
@@ -398,10 +491,9 @@ function score(){
  const sizingClearsTarget = sizing.netPct >= requiredPct && sizing.feasible;
 
  const regime=$('regime').value, vwap=$('vwap').value, ema=$('ema').value;
- const rsi=num('rsi'), stockRet=num('stockRet'), niftyRet=num('niftyRet');
  const volume=$('volume').value, structure=$('structure').value, news=$('news').value;
 
- const nRsi=normalizedRSI(rsi), nRs=normalizedRS(stockRet,niftyRet);
+ const nRsi=RSI_PROXY[$('rsi').value], nRs=RS_PROXY[$('relStrength').value];
  const items=computeItemsNormalized(nRsi,nRs,regime,vwap,ema,volume,structure,sizingClearsTarget,sizing.feasible);
 
  let base=items.reduce((s,i)=>s+i.pts,0);
@@ -527,7 +619,7 @@ function render(){
 
 function update(){ render(); }
 
-['capital','targetProfit','broker','entry','stop','risk','rMult','regime','vwap','ema','rsi','stockRet','niftyRet','volume','structure','news','symbol']
+['capital','targetProfit','broker','entry','stop','risk','rMult','regime','vwap','ema','rsi','relStrength','volume','structure','news','symbol']
  .forEach(id=>{ const el=$(id); el.addEventListener('input',update); el.addEventListener('change',update); });
 
 update();
