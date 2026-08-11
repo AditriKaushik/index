@@ -1,0 +1,19 @@
+name = "nse-trade-decision-proxy"
+main = "worker/index.js"
+compatibility_date = "2026-08-01"
+
+# Create with: wrangler kv:namespace create PM_KV
+# then replace the id below with the one it prints.
+kv_namespaces = [
+  { binding = "PM_KV", id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID" }
+]
+
+[vars]
+# Set to your GitHub Pages origin once known, e.g. "https://aditrikaushik.github.io"
+ALLOWED_ORIGIN = "*"
+
+# Secrets (set via `wrangler secret put NAME` or the deploy workflow's GitHub Actions secrets):
+#   PM_API_KEY        - from developer.paytmmoney.com app registration
+#   PM_API_SECRET      - from developer.paytmmoney.com app registration
+#   APP_SHARED_SECRET  - any random string you make up; shared between this Worker and the frontend
+#                        to keep the /quote endpoint from being called by strangers who find the URL

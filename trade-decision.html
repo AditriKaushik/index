@@ -149,6 +149,22 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:20px}
 .install-banner .msg{flex:1}
 .install-banner button{flex:none}
 .install-banner .dismiss{background:transparent;border:0;color:var(--muted);cursor:pointer;font-size:18px;line-height:1;padding:4px 6px}
+.livedata{background:var(--surface-3);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin-top:12px}
+.livedata-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.livedata-status{font-size:12px;color:var(--muted);display:flex;align-items:center;gap:6px}
+.livedata-dot{width:8px;height:8px;border-radius:50%;background:var(--muted);flex:none}
+.livedata-dot.on{background:var(--good)}
+.livedata-dot.off{background:var(--bad)}
+.livedata-result{display:none;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:10px}
+.livedata-result.show{display:grid}
+@media(max-width:480px){.livedata-result{grid-template-columns:repeat(2,1fr)}}
+.livedata-result .kpi{padding:8px 10px}
+.livedata-result .kpi strong{font-size:15px}
+.livedata-error{font-size:12.5px;color:var(--bad);margin-top:8px}
+.livedata-setup{margin-top:10px;padding-top:10px;border-top:1px dashed var(--line-soft);display:none}
+.livedata-setup.show{display:block}
+.livedata-setup .fields{grid-template-columns:1fr 1fr}
+@media(max-width:560px){.livedata-setup .fields{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -262,6 +278,32 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:20px}
 <button type="button" id="dirShort" aria-pressed="false">Short</button>
 </div></div>
 </div>
+
+<div class="livedata">
+<div class="livedata-row">
+<span class="livedata-status" id="ldStatus"><span class="livedata-dot" id="ldDot"></span><span id="ldStatusText">Live data not set up</span></span>
+<button type="button" class="btn" id="ldLoginBtn" style="display:none">Log in to Paytm Money</button>
+<button type="button" class="btn primary" id="ldFetchBtn" style="display:none">Fetch live data</button>
+<button type="button" class="btn" id="ldSetupToggle">⚙ Set up</button>
+</div>
+<div class="livedata-result" id="ldResult">
+<div class="kpi"><small>Price</small><strong id="ldPrice">—</strong></div>
+<div class="kpi"><small>Day's high</small><strong id="ldHigh">—</strong></div>
+<div class="kpi"><small>Day's low</small><strong id="ldLow">—</strong></div>
+<div class="kpi"><small>Volume</small><strong id="ldVolume">—</strong></div>
+</div>
+<button type="button" class="btn" id="ldUseEntry" style="display:none;margin-top:8px">Use price as Entry</button>
+<div class="livedata-error" id="ldError"></div>
+<div class="livedata-setup" id="ldSetup">
+<p class="note" style="margin:0 0 8px">One-time setup: paste the URL of your deployed Cloudflare Worker proxy and its shared secret (see the repo's PWA/live-data setup docs). This talks to Paytm Money via your own backend — this page never sees your broker password.</p>
+<div class="fields">
+<div><label for="ldWorkerUrl">Worker URL</label><input id="ldWorkerUrl" type="text" placeholder="https://nse-trade-decision-proxy.your-subdomain.workers.dev"></div>
+<div><label for="ldSecret">Shared secret</label><input id="ldSecret" type="text" placeholder="matches APP_SHARED_SECRET"></div>
+</div>
+<button type="button" class="btn primary" id="ldSaveSetup" style="margin-top:8px">Save</button>
+</div>
+</div>
+
 <div class="fields three" style="margin-top:12px">
 <div><label for="capital">Day's capital (₹)</label><input id="capital" type="number" min="1000" step="1000" value="100000"></div>
 <div><label for="targetProfit">Target profit today (₹)</label><input id="targetProfit" type="number" min="0" step="50" value="1000"></div>
@@ -624,6 +666,101 @@ function update(){ render(); }
  .forEach(id=>{ const el=$(id); el.addEventListener('input',update); el.addEventListener('change',update); });
 
 update();
+
+// --- Live data (Paytm Money via Cloudflare Worker proxy) -------------------
+(function liveData(){
+  const LS_URL='ldWorkerUrl', LS_SECRET='ldSecret';
+  const dot=$('ldDot'), statusText=$('ldStatusText'), loginBtn=$('ldLoginBtn'), fetchBtn=$('ldFetchBtn');
+  const setupToggle=$('ldSetupToggle'), setup=$('ldSetup'), urlInput=$('ldWorkerUrl'), secretInput=$('ldSecret'), saveBtn=$('ldSaveSetup');
+  const resultBox=$('ldResult'), errorBox=$('ldError'), useEntryBtn=$('ldUseEntry');
+  let lastPrice=null;
+
+  function getConfig(){
+    return { url: (localStorage.getItem(LS_URL)||'').replace(/\/$/,''), secret: localStorage.getItem(LS_SECRET)||'' };
+  }
+  function isConfigured(){ return !!getConfig().url; }
+
+  function setStatus(state, text){ // state: 'off' | 'on' | 'unknown'
+    dot.className = 'livedata-dot' + (state==='off'?' off':state==='on'?' on':'');
+    statusText.textContent = text;
+  }
+
+  async function refreshStatus(){
+    if (!isConfigured()){
+      setStatus('off','Live data not set up');
+      loginBtn.style.display='none'; fetchBtn.style.display='none';
+      return;
+    }
+    const { url } = getConfig();
+    try {
+      const r = await fetch(url + '/status');
+      const d = await r.json();
+      if (d.loggedIn){
+        setStatus('on','Paytm Money connected');
+        loginBtn.style.display='none'; fetchBtn.style.display='';
+      } else {
+        setStatus('off','Not logged in');
+        loginBtn.style.display=''; fetchBtn.style.display='none';
+      }
+    } catch(e){
+      setStatus('off','Backend unreachable');
+      loginBtn.style.display='none'; fetchBtn.style.display='none';
+    }
+  }
+
+  setupToggle.addEventListener('click', ()=>{
+    const { url, secret } = getConfig();
+    urlInput.value = url; secretInput.value = secret;
+    setup.classList.toggle('show');
+  });
+  saveBtn.addEventListener('click', ()=>{
+    localStorage.setItem(LS_URL, urlInput.value.trim());
+    localStorage.setItem(LS_SECRET, secretInput.value.trim());
+    setup.classList.remove('show');
+    refreshStatus();
+  });
+  loginBtn.addEventListener('click', ()=>{
+    const { url } = getConfig();
+    if (url) window.open(url + '/login', '_blank');
+  });
+
+  fetchBtn.addEventListener('click', async ()=>{
+    const symbol = $('symbol').value.trim().toUpperCase();
+    errorBox.textContent=''; resultBox.classList.remove('show'); useEntryBtn.style.display='none'; lastPrice=null;
+    if (!symbol){ errorBox.textContent='Pick or type an NSE symbol first.'; return; }
+    const { url, secret } = getConfig();
+    fetchBtn.textContent='Fetching…'; fetchBtn.disabled=true;
+    try {
+      const r = await fetch(`${url}/quote?symbol=${encodeURIComponent(symbol)}&key=${encodeURIComponent(secret)}`);
+      const d = await r.json();
+      if (!r.ok){
+        if (d.error==='not_logged_in'){ errorBox.textContent='Session expired - log in again.'; setStatus('off','Not logged in'); loginBtn.style.display=''; fetchBtn.style.display='none'; }
+        else if (d.error==='symbol_not_found'){ errorBox.textContent=`"${symbol}" wasn't found in the NSE security master.`; }
+        else if (d.error==='unauthorized'){ errorBox.textContent='Shared secret does not match the backend - check Set up.'; }
+        else { errorBox.textContent='Could not fetch live data: ' + (d.error||('HTTP '+r.status)); }
+        return;
+      }
+      $('ldPrice').textContent = d.price!=null ? INR(d.price) : '—';
+      $('ldHigh').textContent = d.high!=null ? INR(d.high) : '—';
+      $('ldLow').textContent = d.low!=null ? INR(d.low) : '—';
+      $('ldVolume').textContent = d.volume!=null ? d.volume.toLocaleString('en-IN') : '—';
+      resultBox.classList.add('show');
+      if (d.price!=null){ lastPrice=d.price; useEntryBtn.style.display=''; }
+    } catch(e){
+      errorBox.textContent='Network error reaching the backend.';
+    } finally {
+      fetchBtn.textContent='Fetch live data'; fetchBtn.disabled=false;
+    }
+  });
+
+  useEntryBtn.addEventListener('click', ()=>{
+    if (lastPrice==null) return;
+    $('entry').value = lastPrice;
+    update();
+  });
+
+  refreshStatus();
+})();
 
 // --- Install as app -------------------------------------------------------
 if ('serviceWorker' in navigator) {
