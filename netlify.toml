@@ -1,0 +1,9 @@
+# =====================================================================
+# Netlify picks this up automatically, so importing this repository
+# needs no base directory or build settings entered by hand.
+#
+# The site itself is the OMR portal in omr/.
+# =====================================================================
+
+[build]
+  base = "omr"

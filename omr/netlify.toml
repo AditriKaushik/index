@@ -1,0 +1,42 @@
+# =====================================================================
+# Mahendra's Online OMR Portal - Netlify configuration
+#
+# Required environment variables (Netlify -> Site settings -> Environment):
+#   DATABASE_URL    Neon connection string (the POOLED one)
+#   SESSION_SECRET  any long random string, at least 16 characters
+# =====================================================================
+
+[build]
+  publish = "public"
+  functions = "netlify/functions"
+  command = "echo 'static site - nothing to build'"
+
+[functions]
+  node_bundler = "esbuild"
+
+# Everything under /api goes to the single API function.
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/api/:splat"
+  status = 200
+
+# Friendly URLs for the pages.
+[[redirects]]
+  from = "/omr"
+  to = "/omr.html"
+  status = 200
+[[redirects]]
+  from = "/result"
+  to = "/result.html"
+  status = 200
+[[redirects]]
+  from = "/admin"
+  to = "/admin.html"
+  status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    Referrer-Policy = "same-origin"
