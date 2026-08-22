@@ -23,8 +23,36 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
+
+      # Publish an explicit allowlist rather than the repo root. Pages serves
+      # files as-is and never executes PHP, so uploading everything would
+      # expose the omr/ portal's source - including the database credentials
+      # in omr/config/config.php - to anyone who asks for the URL. The
+      # .htaccess files that protect those directories on Apache have no
+      # effect on Pages.
+      - name: Assemble the published site
+        run: |
+          mkdir -p _site
+          cp index.html trade-decision.html manifest.json sw.js _site/
+          cp -r icons _site/
+
+      # Belt and braces: refuse to deploy if anything server-side ever ends
+      # up staged, so a future change to the copy step above cannot quietly
+      # start publishing source.
+      - name: Refuse to publish server-side files
+        run: |
+          leaked=$(find _site \( -name '*.php' -o -name '*.sql' -o -name '.htaccess' \) -print)
+          if [ -n "$leaked" ]; then
+            echo "::error::Server-side files must never be published to GitHub Pages:"
+            echo "$leaked"
+            exit 1
+          fi
+          echo "Staged for publication:"
+          find _site -type f | sort
+
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: _site
+
       - id: deployment
         uses: actions/deploy-pages@v4
