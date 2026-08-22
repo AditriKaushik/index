@@ -1,0 +1,228 @@
+/* =====================================================================
+   Mahendra's Online OMR Portal
+   Single stylesheet, no external dependencies.
+   ===================================================================== */
+
+:root{
+  --navy:#17365d; --navy-2:#122a4b; --blue:#2f5597; --blue-soft:#eaf0fa;
+  --ink:#1a2233; --muted:#5d6880; --line:#dde3ec; --line-soft:#eaeef4;
+  --paper:#f4f7fb; --card:#ffffff;
+  --good:#1e7a42; --good-bg:#e7f5ec; --good-line:#b7dfc4;
+  --bad:#b3261e;  --bad-bg:#fdecea;  --bad-line:#f2c6c2;
+  --warn:#8a6100; --warn-bg:#fff6e0; --warn-line:#efd79a;
+  --gold:#b7891b;
+  --radius:12px;
+  --font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0; font-family:var(--font); background:var(--paper); color:var(--ink);
+  line-height:1.55; -webkit-text-size-adjust:100%;
+}
+a{color:var(--blue)}
+h1,h2,h3{margin:0 0 .5rem; line-height:1.2}
+h1{font-size:clamp(20px,3.4vw,28px)}
+h2{font-size:clamp(17px,2.6vw,21px)}
+h3{font-size:16px}
+.muted{color:var(--muted)}
+.small{font-size:13px}
+.mono{font-family:var(--mono)}
+.right{text-align:right}
+.center{text-align:center}
+.nowrap{white-space:nowrap}
+
+/* ---------- layout ---------- */
+.wrap{max-width:1180px;margin:0 auto;padding:0 16px}
+.stack>*+*{margin-top:16px}
+.row{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.row.between{justify-content:space-between}
+.grow{flex:1 1 auto;min-width:0}
+
+.topbar{background:linear-gradient(135deg,var(--navy-2),var(--blue));color:#fff;padding:12px 0}
+.topbar a{color:#fff;text-decoration:none}
+.topbar .brand{font-weight:700;font-size:17px;letter-spacing:.2px}
+.topbar .brand span{opacity:.8;font-weight:400;font-size:13px;display:block}
+.nav{display:flex;gap:4px;flex-wrap:wrap;margin-top:10px}
+.nav a{
+  padding:6px 12px;border-radius:999px;font-size:14px;
+  background:rgba(255,255,255,.12);transition:background .15s;
+}
+.nav a:hover{background:rgba(255,255,255,.24)}
+.nav a.on{background:#fff;color:var(--navy)}
+
+main{padding:22px 0 60px}
+
+/* ---------- cards ---------- */
+.card{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  padding:18px;box-shadow:0 3px 12px rgba(20,35,70,.05);
+}
+.card h2{margin-bottom:4px}
+.card-head{border-bottom:1px solid var(--line-soft);margin:-18px -18px 16px;padding:14px 18px;
+  background:var(--blue-soft);border-radius:var(--radius) var(--radius) 0 0}
+.card-head h2{margin:0}
+
+.cols{display:grid;gap:16px}
+@media(min-width:820px){
+  .cols-2{grid-template-columns:1fr 1fr}
+  .cols-3{grid-template-columns:repeat(3,1fr)}
+  .cols-sidebar{grid-template-columns:1fr 320px}
+}
+
+/* ---------- stat tiles ---------- */
+.tiles{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(140px,1fr))}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:14px}
+.tile .k{font-size:12px;text-transform:uppercase;letter-spacing:.6px;color:var(--muted)}
+.tile .v{font-size:26px;font-weight:700;font-variant-numeric:tabular-nums;margin-top:2px}
+.tile.good .v{color:var(--good)} .tile.bad .v{color:var(--bad)}
+.tile.hero{background:linear-gradient(135deg,var(--navy-2),var(--blue));border-color:transparent;color:#fff}
+.tile.hero .k{color:rgba(255,255,255,.75)}
+
+/* ---------- forms ---------- */
+label{display:block;font-size:13px;font-weight:600;color:var(--muted);margin-bottom:4px}
+input[type=text],input[type=password],input[type=number],input[type=tel],select,textarea{
+  width:100%;padding:10px 12px;border:1px solid #c9d2e0;border-radius:9px;
+  font:inherit;font-size:15px;background:#fff;color:var(--ink);
+}
+textarea{font-family:var(--mono);font-size:13px;line-height:1.5;resize:vertical}
+input:focus,select:focus,textarea:focus{
+  outline:none;border-color:var(--blue);box-shadow:0 0 0 3px rgba(47,85,151,.15);
+}
+.field{margin-bottom:14px}
+.hint{font-size:12px;color:var(--muted);margin-top:4px;font-weight:400}
+
+.btn{
+  display:inline-block;padding:10px 18px;border-radius:9px;border:1px solid transparent;
+  background:var(--blue);color:#fff;font:inherit;font-weight:600;font-size:15px;
+  cursor:pointer;text-decoration:none;text-align:center;transition:filter .15s;
+}
+.btn:hover{filter:brightness(1.08)}
+.btn:disabled{opacity:.55;cursor:not-allowed}
+.btn.ghost{background:#fff;color:var(--blue);border-color:#c2cee0}
+.btn.danger{background:var(--bad)}
+.btn.good{background:var(--good)}
+.btn.sm{padding:6px 12px;font-size:13px}
+.btn.block{display:block;width:100%}
+
+/* ---------- notices ---------- */
+.note{padding:11px 14px;border-radius:9px;border:1px solid;font-size:14px}
+.note.ok{background:var(--good-bg);border-color:var(--good-line);color:var(--good)}
+.note.err{background:var(--bad-bg);border-color:var(--bad-line);color:var(--bad)}
+.note.warn{background:var(--warn-bg);border-color:var(--warn-line);color:var(--warn)}
+.note.info{background:var(--blue-soft);border-color:#c5d5ee;color:var(--navy)}
+
+/* ---------- tables ---------- */
+.table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{padding:9px 11px;text-align:left;border-bottom:1px solid var(--line-soft)}
+th{background:var(--blue-soft);color:var(--navy);font-size:12px;text-transform:uppercase;
+  letter-spacing:.5px;white-space:nowrap;position:sticky;top:0}
+tbody tr:hover{background:#f8fafd}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+.rank-1{color:var(--gold);font-weight:700}
+.rank-2,.rank-3{font-weight:700}
+
+.pill{display:inline-block;padding:2px 9px;border-radius:999px;font-size:12px;font-weight:600}
+.pill.draft{background:#eef1f6;color:#55607a}
+.pill.open{background:var(--good-bg);color:var(--good)}
+.pill.closed{background:var(--warn-bg);color:var(--warn)}
+.pill.published{background:var(--blue-soft);color:var(--navy)}
+
+/* =====================================================================
+   The OMR sheet
+   ===================================================================== */
+.omr-bar{
+  position:sticky;top:0;z-index:20;background:rgba(255,255,255,.96);
+  backdrop-filter:blur(8px);border-bottom:1px solid var(--line);
+  padding:10px 0;margin-bottom:16px;
+}
+.progress{height:7px;background:#e6ebf3;border-radius:99px;overflow:hidden;margin-top:8px}
+.progress i{display:block;height:100%;background:linear-gradient(90deg,var(--blue),var(--good));
+  width:0;transition:width .25s}
+.save-state{font-size:12px;font-weight:600;color:var(--muted);min-height:18px}
+.save-state.saving{color:var(--warn)}
+.save-state.saved{color:var(--good)}
+.save-state.error{color:var(--bad)}
+
+.sheet{display:grid;gap:8px;grid-template-columns:repeat(auto-fill,minmax(210px,1fr))}
+.qrow{
+  display:flex;align-items:center;gap:8px;padding:7px 9px;
+  border:1px solid var(--line);border-radius:10px;background:#fff;
+}
+.qrow.done{border-color:#b9cdea;background:#f7faff}
+.qnum{
+  width:34px;flex:0 0 34px;text-align:right;font-weight:700;font-size:13px;
+  color:var(--muted);font-variant-numeric:tabular-nums;
+}
+.bubbles{display:flex;gap:5px;flex:1 1 auto}
+.bub{
+  width:31px;height:31px;flex:0 0 31px;border-radius:50%;
+  border:1.5px solid #b9c3d4;background:#fff;color:var(--muted);
+  font:600 13px/1 var(--font);cursor:pointer;
+  display:flex;align-items:center;justify-content:center;
+  transition:background .12s,border-color .12s,color .12s,transform .08s;
+  -webkit-tap-highlight-color:transparent;
+}
+.bub:hover{border-color:var(--blue);color:var(--blue)}
+.bub:active{transform:scale(.92)}
+.bub.on{background:var(--blue);border-color:var(--blue);color:#fff}
+.bub:focus-visible{outline:3px solid rgba(47,85,151,.35);outline-offset:1px}
+.clr{
+  flex:0 0 26px;width:26px;height:26px;border-radius:6px;border:1px solid transparent;
+  background:transparent;color:#b7c0d0;cursor:pointer;font-size:17px;line-height:1;
+}
+.clr:hover{background:var(--bad-bg);color:var(--bad)}
+.qrow:not(.done) .clr{visibility:hidden}
+
+.section-head{
+  grid-column:1/-1;margin:14px 0 2px;padding:7px 12px;background:var(--blue-soft);
+  border-left:4px solid var(--blue);border-radius:0 8px 8px 0;
+  font-weight:700;font-size:14px;color:var(--navy);
+}
+.section-head .sm{font-weight:400;color:var(--muted);font-size:12px}
+
+/* review-mode colouring on the result page */
+.bub.correct{background:var(--good);border-color:var(--good);color:#fff}
+.bub.wrongpick{background:var(--bad);border-color:var(--bad);color:#fff}
+.bub.wasright{border-color:var(--good);border-width:2.5px;color:var(--good);background:var(--good-bg)}
+.qrow.q-correct{border-color:var(--good-line);background:var(--good-bg)}
+.qrow.q-wrong{border-color:var(--bad-line);background:var(--bad-bg)}
+.qrow.q-skip{background:#fafbfd}
+
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--muted)}
+.legend i{display:inline-block;width:13px;height:13px;border-radius:50%;margin-right:5px;
+  vertical-align:-2px;border:1.5px solid}
+.legend .l-c{background:var(--good);border-color:var(--good)}
+.legend .l-w{background:var(--bad);border-color:var(--bad)}
+.legend .l-r{background:var(--good-bg);border-color:var(--good)}
+.legend .l-s{background:#fff;border-color:#b9c3d4}
+
+/* ---------- login split screen ---------- */
+.login-wrap{min-height:100vh;display:grid;grid-template-columns:1fr}
+@media(min-width:940px){.login-wrap{grid-template-columns:1.15fr 1fr}}
+.login-hero{
+  background:linear-gradient(135deg,var(--navy-2) 0%,var(--blue) 100%);
+  color:#fff;padding:48px 40px;display:none;flex-direction:column;justify-content:center;
+}
+@media(min-width:940px){.login-hero{display:flex}}
+.login-hero h1{font-size:38px;line-height:1.1;margin-bottom:14px}
+.login-hero p{opacity:.9;max-width:44ch}
+.login-hero ul{padding-left:18px;opacity:.9;line-height:1.9;margin:18px 0 0}
+.login-panel{display:flex;align-items:center;justify-content:center;padding:32px 20px;background:#fff}
+.login-box{width:100%;max-width:380px}
+
+.tabs{display:flex;gap:6px;background:#eef2f8;padding:4px;border-radius:10px;margin-bottom:20px}
+.tabs button{
+  flex:1;padding:9px;border:0;border-radius:7px;background:transparent;
+  font:600 14px var(--font);color:var(--muted);cursor:pointer;
+}
+.tabs button.on{background:#fff;color:var(--navy);box-shadow:0 1px 4px rgba(20,35,70,.12)}
+
+@media print{
+  .topbar,.nav,.btn,.omr-bar,.no-print{display:none!important}
+  body{background:#fff}
+  .card{box-shadow:none;border-color:#ccc;break-inside:avoid}
+}
