@@ -1,0 +1,10 @@
+{
+  "name": "bank-offline-speed-test",
+  "private": true,
+  "description": "Generator for the bilingual Bank Offline Speed Test papers.",
+  "scripts": {
+    "build": "node build.js '../Bank Offline ST-01.docx'",
+    "verify": "node verify-math.js && node verify-puzzles.js"
+  },
+  "dependencies": { "docx": "^9.0.0" }
+}
