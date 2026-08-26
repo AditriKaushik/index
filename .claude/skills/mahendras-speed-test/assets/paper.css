@@ -1,0 +1,91 @@
+/* Mahendra's Speed Test — house format.
+   Geometry is measured, not invented; see reference/house-style.md before changing a number.
+   The running header and footer are NOT in this stylesheet — Chromium cannot position a
+   repeating footer correctly in paged media, so scripts/build.mjs stamps them onto the
+   rendered PDF instead. This file owns the body only. */
+
+@page {
+  size: 595.276pt 841.89pt;              /* A4 */
+  margin: 87.6pt 52.4pt 104pt 55pt;      /* content band x 55->543, y 87.6->737.9 */
+}
+
+:root {
+  --band:   #CFD1D3;
+  --ink:    #231F20;
+  --body:   12pt;
+  --lead:   14.4pt;
+  --colw:   236.5pt;
+  --labelw: 37pt;        /* hanging gutter: text x - label x  (92 - 55) */
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+
+body {
+  font-family: "Times New Roman", Times, "Liberation Serif", serif;
+  font-size: var(--body);
+  line-height: var(--lead);
+  color: #000;
+}
+
+.hi { font-family: Kokila, "Nirmala UI", "Noto Sans Devanagari", sans-serif; }
+
+/* ---------- masthead (page 1 only) ---------- */
+.masthead { text-align: center; margin: 0 0 8pt; }
+.masthead .lockup { display: flex; align-items: center; justify-content: center; gap: 7pt; line-height: 1; }
+.masthead .lockup img { height: 32pt; }
+.masthead .wordmark { font-style: italic; font-weight: 700; font-size: 25pt; letter-spacing: -.4pt; }
+.masthead .st { font-family: Arial, Helvetica, sans-serif; font-weight: 700; font-size: 18pt; letter-spacing: .3pt; }
+.masthead .code { font-family: Arial, Helvetica, sans-serif; font-weight: 700; font-size: 20pt; margin-top: 4pt; line-height: 1.1; }
+.masthead .sub  { font-family: Arial, Helvetica, sans-serif; font-weight: 700; font-size: 10.5pt; margin-top: 3pt; }
+
+.info { display: flex; gap: 16pt; font-size: 11pt; line-height: 15.5pt; margin: 8pt 0 0; }
+.info > div { flex: 1; }
+.info .disc { font-size: 10.5pt; }
+.rollbox { display: inline-flex; vertical-align: -3pt; }
+.rollbox i { display: block; width: 15pt; height: 15pt; border: .8pt solid #000; border-right: none; }
+.rollbox i:last-child { border-right: .8pt solid #000; }
+
+/* ---------- section banner (spans both columns) ---------- */
+.banner { background: var(--band); height: 19pt; margin: 6pt 0 4pt;
+  display: flex; align-items: center; justify-content: center; gap: 0; break-after: avoid; }
+.banner .en { font-family: Arial, Helvetica, sans-serif; font-weight: 700; font-size: 12.6pt; }
+.banner .hi { font-size: 15pt; font-weight: 700; }
+
+/* ---------- parallel bilingual sections ---------- */
+table.par { width: 488pt; border-collapse: collapse; table-layout: fixed; }
+table.par td { width: var(--colw); vertical-align: top; padding: 0 8pt 0 0; }
+table.par td + td { padding: 0 0 0 15pt; }
+table.par tr { break-inside: avoid; }
+
+/* ---------- English section: continuous two-column flow ---------- */
+.flow { column-count: 2; column-gap: 15pt; }
+.flow .q, .flow .dir { break-inside: avoid; }
+
+/* ---------- question block: label in its own gutter, content beside it ---------- */
+.q, .dir { display: grid; grid-template-columns: var(--labelw) 1fr; margin: 0 0 5pt; }
+.q > .lbl, .dir > .lbl { grid-column: 1; }
+.q > :not(.lbl), .dir > :not(.lbl) { grid-column: 2; min-width: 0; }
+/* Directions are bold in the English section only; elsewhere the production
+   papers set them at regular weight. In English the instruction line is bold
+   but the sentence or passage under it is not. */
+.dir { font-weight: 400; }
+.flow .dir, .flow .dir .qtext { font-weight: 700; }
+.flow .q > .qtext { font-weight: 700; }
+.flow .q .stem, .flow .q .passage, .flow .q ul.opts { font-weight: 400; }
+.qtext, .dir .qtext { text-align: justify; }
+.stem { margin: 2pt 0 0; text-align: justify; }
+.passage { margin: 2pt 0 0; }
+.passage p { text-align: justify; margin: 0 0 3pt; }
+
+/* option layouts — the builder picks the class from option length */
+ul.opts { list-style: none; margin: 2pt 0 0; padding: 0; }
+ul.opts li { margin: 0; break-inside: avoid; }
+ul.opts.c3 { display: grid; grid-template-columns: 75pt 63pt 1fr; }
+ul.opts.c2 { display: grid; grid-template-columns: 1fr 1fr; column-gap: 4pt; }
+/* a trailing 5th option takes the rest of its row instead of squeezing into one cell */
+ul.opts.c3 > li:nth-child(5):last-child { grid-column: 2 / -1; }
+ul.opts.c2 > li:nth-child(5):last-child { grid-column: 1 / -1; }
+
+figure.fig { margin: 3pt 0; text-align: center; break-inside: avoid; }
+figure.fig img { max-width: 100%; }
