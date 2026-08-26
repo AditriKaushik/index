@@ -71,11 +71,12 @@ function renderSection(sec, style) {
 }
 
 function masthead(b, logo) {
-  const mark = logo ? `<img src="${logo}">` : '';
+  // logo.png is the emblem + "Mahendra's" lockup; only fall back to type when it is absent
+  const mark = logo ? `<img src="${logo}">` : '<span class="wordmark">Mahendra&rsquo;s</span>';
   const sub = b.subtitle ? `<div class="sub">${esc(b.subtitle)}</div>` : '';
   const boxes = '<span class="rollbox">' + '<i></i>'.repeat(b.rollDigits ?? 9) + '</span>';
   return `<div class="masthead">
-    <div class="lockup">${mark}<span class="wordmark">Mahendra&rsquo;s</span><span class="st">SPEED TEST</span></div>
+    <div class="lockup">${mark}<span class="st">SPEED TEST</span></div>
     <div class="code">${esc(b.exam)} ${esc(b.code)}</div>${sub}
   </div>
   <div class="info">
@@ -121,19 +122,31 @@ const BAND = rgb(0.812, 0.818, 0.824);   // #CFD1D3
 const BAR  = rgb(0.820, 0.826, 0.832);   // #D1D3D5
 const INK  = rgb(0.137, 0.122, 0.125);   // #231F20
 
-async function stampChrome(pdfBytes, paper, logoBytes) {
-  const doc = await PDFDocument.load(pdfBytes);
+const WM_SIZE = 395;   // the emblem is drawn 395 x 395 pt, centred on the page
+
+async function stampChrome(pdfBytes, paper, logoBytes, wmBytes) {
+  // The watermark has to sit UNDER the text, and pdf-lib only ever appends to a page's
+  // content stream. So build a fresh document: watermark first, then the rendered page
+  // embedded on top of it, then the chrome on top of that.
+  const src = await PDFDocument.load(pdfBytes);
+  const doc = await PDFDocument.create();
   const timesBold = await doc.embedFont(StandardFonts.TimesRomanBold);
   const helvBold  = await doc.embedFont(StandardFonts.HelveticaBold);
   const helvObl   = await doc.embedFont(StandardFonts.HelveticaBoldOblique);
   const logo = logoBytes ? await doc.embedPng(logoBytes) : null;
+  const wm   = wmBytes   ? await doc.embedPng(wmBytes)   : null;
 
   const title = `${paper.brand.exam} ${paper.brand.code}`;
   const URL = 'www.mahendras.org';
-  const pages = doc.getPages();
+  const embedded = await doc.embedPages(src.getPages());
 
-  pages.forEach((page, i) => {
-    const H = page.getHeight();
+  embedded.forEach((ep, i) => {
+    const { width: W, height: H } = src.getPage(i).getSize();
+    const page = doc.addPage([W, H]);
+
+    if (wm) page.drawImage(wm, { x: (W - WM_SIZE) / 2, y: (H - WM_SIZE) / 2,
+                                 width: WM_SIZE, height: WM_SIZE });
+    page.drawPage(ep, { x: 0, y: 0, width: W, height: H });
     const Y = top => H - top;                 // measured-from-top -> pdf-lib y
     const odd = (i + 1) % 2 === 1;            // page 1 is odd
 
@@ -162,12 +175,12 @@ async function stampChrome(pdfBytes, paper, logoBytes) {
     page.drawText(num, { x: chevX + (50 - nw) / 2, y: fy + 6, size: 10, font: helvBold,
                          color: rgb(1, 1, 1) });
 
-    const markX = odd ? 55 : 448;
+    // footer wordmark: the production files draw logo.png at 121 x 18 pt
     if (logo) {
-      const s = 18 / logo.height;
-      page.drawImage(logo, { x: markX, y: fy + 1, width: logo.width * s, height: 18 });
+      const lw = 18 * (logo.width / logo.height);
+      page.drawImage(logo, { x: odd ? 55 : 543 - lw, y: fy + 1, width: lw, height: 18 });
     } else {
-      page.drawText("Mahendra's", { x: markX, y: fy + 5.5, size: 13, font: timesBold, color: INK });
+      page.drawText("Mahendra's", { x: odd ? 55 : 448, y: fy + 5.5, size: 13, font: timesBold, color: INK });
     }
   });
   return doc.save();
@@ -201,8 +214,10 @@ if (import.meta.url === pathToFileURL(process.argv[1]).href) {
     `--print-to-pdf=${out}`, pathToFileURL(tmp).href,
   ], { stdio: ['ignore', 'ignore', 'ignore'] });
 
+  const wmPath = join(ROOT, 'assets', 'watermark.png');
   const stamped = await stampChrome(readFileSync(out), paper,
-                                    existsSync(logoPath) ? readFileSync(logoPath) : null);
+                                    existsSync(logoPath) ? readFileSync(logoPath) : null,
+                                    existsSync(wmPath) ? readFileSync(wmPath) : null);
   writeFileSync(out, stamped);
 
   const n = paper.sections.reduce((a, s) => a + s.items.filter(i => i.n).length, 0);

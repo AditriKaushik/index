@@ -65,11 +65,19 @@ a footer near the page bottom wraps and swaps with the header from page 2 onward
 and confirmed; `reference/house-style.md` records the detail. Stamping is also what makes the
 odd/even mirroring work.
 
-## The logo
+## Brand assets
 
-Drop the real wordmark at `assets/logo.png` before rendering anything that leaves the building.
-Without it the template falls back to a plain type wordmark, which is fine for proofing and
-**not** fine for publication.
+Both live in `assets/` and were lifted out of the production PDFs, so they are the same files
+InDesign uses — do not redraw or substitute them.
+
+| File | What it is | Where it lands |
+|---|---|---|
+| `logo.png` | 487 x 78 mono emblem + `Mahendra's` lockup | masthead at 220 x 33 pt, footer at 121 x 18 pt |
+| `watermark.png` | pen-in-hand emblem, `#F2F3F3` on transparency | 395 x 395 pt, centred, behind the text on every page |
+
+The papers print greyscale, so `logo.png` is **monochrome by design**. Swapping in the colour
+version will not match the production files. Both assets are optional — the template falls back
+to a type wordmark and no watermark — but a paper that leaves the building should have them.
 
 ## Answer keys
 

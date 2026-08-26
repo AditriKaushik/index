@@ -80,10 +80,28 @@ Logo left / number right on odd pages; mirrored on even.
 pdf-lib's standard fonts map cleanly onto the house fonts: `Times-Bold` for the footer title,
 `Helvetica-Bold` for the page number, `Helvetica-BoldOblique` for the header URL.
 
+## Watermark
+
+The pen-in-hand emblem sits behind the text on **every** page: 395 x 395 pt, centred
+(production files place it at (104,211)-(500,607) on odd pages and (98,228)-(494,623) on even —
+i.e. page centre, give or take a few points). Sampled line colour is `#F2F3F3`.
+
+In the source PDFs the emblem is a 256 x 221 JPEG whose levels span only 0-15 — visually solid
+black until the levels are stretched, at which point the line art appears as light-on-dark. The
+bundled `assets/watermark.png` is that recovered artwork, re-tinted and moved onto an alpha
+channel. It is deliberately drawn square from a non-square source, which is what the production
+files do, so the emblem is stretched slightly — matching them matters more than the aspect.
+
+Because the watermark must sit *under* the text and pdf-lib only appends to a content stream,
+`build.mjs` rebuilds the document: it draws the watermark on a fresh page, then stamps the
+Chromium-rendered page on top as an embedded XObject, then the chrome. Page 1 therefore carries
+three images (masthead logo, footer logo, watermark) and later pages two — the same counts as
+the production files.
+
 ## Masthead (page 1 only)
 
 ```
-        [logo]  Mahendra's  SPEED TEST
+        [logo.png]  SPEED TEST
               BANK GENERAL ST-30
         (FOR ALL BANK, INSURANCE & RELATED EXAMS)     <- BANK only
 
@@ -96,6 +114,8 @@ Reasoning : 25, English : 25, Maths : 25, GA : 25
 ```
 
 Left block is a plain text stack; right block carries the roll-number boxes (9 cells).
+`logo.png` already contains the wordmark, so the masthead sets only `SPEED TEST` beside it —
+printing a text `Mahendra's` as well would double the wordmark.
 
 ## Section banner
 
