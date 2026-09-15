@@ -115,6 +115,7 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:20px}
 .sources a{color:var(--link);text-decoration:none;word-break:break-word}
 .sources li{margin:8px 0;font-size:13.5px}
 .note{font-size:12px;color:var(--muted)}
+.rownote{font-size:11.5px;color:var(--muted);font-style:italic;margin-top:4px;max-width:46ch}
 /* pipeline */
 .flow{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:14px 0}
 .stage{background:var(--surface-3);border:1px solid var(--line);border-radius:12px;padding:12px;position:relative}
@@ -173,12 +174,19 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:20px}
 <section class="card" id="radar"><h2>1. Vacancy radar <span class="step">WHAT WE ARE WRITING FOR</span></h2>
 <p class="lede">Every content decision starts here. A recruitment cycle enters the radar the day a calendar or notification is published, and leaves it the day the final result is out. Nothing is commissioned for an exam that is not on this board.</p>
 
-<div class="callout bad"><strong>Source-of-truth rule.</strong> The rows below are the last published or tentative positions collected on 15 Sep 2026 from commission calendars and aggregator reporting. They are a <em>planning</em> snapshot, not an authority. Before any item is scheduled or any date is printed on a promotional asset, the owner re-verifies it on the official portal (ssc.gov.in, ibps.in, sbi.co.in/careers, rrbapply.gov.in and the zonal RRBs, rbi.org.in, and the state board site) and stamps the <em>Verified on</em> field. A row unverified for more than 14 days is shown amber on the dashboard and blocks publication of date-bearing assets.</div>
+<div class="callout bad"><strong>Source-of-truth rule.</strong> No row below has been checked against the issuing authority. Each was reconciled on 15 Sep 2026 across independent secondary reports, and carries the confidence that pass produced:
+<ul style="margin:8px 0 4px">
+<li><span class="pill ok">Reconciled</span> two or more independent sources agree on the figure or date. Safe to plan against; still not safe to print.</li>
+<li><span class="pill a">Disputed</span> sources contradict each other. Blocked for any date-bearing asset until the official notice settles it.</li>
+<li><span class="pill b">Calendar-only</span> a tentative window from a published calendar, with no confirmation. Treat as a planning placeholder — the SSC CGL 2026 row is the cautionary case: the calendar said May&ndash;June, the exam moved to 30 Sep&ndash;30 Oct.</li>
+</ul>
+Each exam name links to the portal that owns the answer. Before a cycle is commissioned or any date reaches a promotional asset, the owner opens that link, confirms the row and re-stamps it. A row not re-checked within 14 days goes amber on the dashboard and blocks publication of date-bearing assets.</div>
 
 <div class="filters">
 <div><label for="fStream">Stream</label><select id="fStream"><option value="">All streams</option><option>Bank</option><option>SSC</option><option>Railway</option><option>Police</option><option>Other</option></select></div>
 <div><label for="fTier">Priority tier</label><select id="fTier"><option value="">All tiers</option><option value="A">A — Flagship</option><option value="B">B — Core</option><option value="C">C — Long tail</option></select></div>
 <div><label for="fStatus">Stage</label><select id="fStatus"><option value="">All stages</option><option>Live</option><option>Announced</option><option>Expected</option><option>Post-exam</option></select></div>
+<div><label for="fConf">Source check</label><select id="fConf"><option value="">Any confidence</option><option>Reconciled</option><option>Disputed</option><option>Calendar-only</option></select></div>
 <div><label for="fSearch">Search</label><input id="fSearch" type="search" placeholder="e.g. constable, clerk, RRB"></div>
 <div style="flex:0"><label>&nbsp;</label><button class="btn" id="fReset" type="button">Reset</button></div>
 </div>
@@ -188,7 +196,7 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:20px}
 <div class="tablewrap"><table id="radarTable">
 <thead><tr>
 <th>Exam / post</th><th>Body</th><th>Tier</th><th>Notification window</th><th>Exam window</th>
-<th class="num">Vacancies (last known)</th><th class="num">Aspirant scale</th><th>Stage</th><th>Verified on</th>
+<th class="num">Vacancies</th><th class="num">Aspirant scale</th><th>Stage</th><th>Source check</th>
 </tr></thead><tbody></tbody></table></div>
 <p class="note" id="radarCount"></p>
 
@@ -588,20 +596,23 @@ pipeline_days = 6 for Tier A, 4 for Tier B, 3 for Tier C  (section 5 SLA sum)</d
 <ul>
 <li><a href="https://ssc.gov.in">ssc.gov.in</a> — Staff Selection Commission: calendar, notifications, CGL / CHSL / MTS / GD / CPO / Stenographer / JE / Selection Post</li>
 <li><a href="https://www.ibps.in">ibps.in</a> — IBPS: CRP calendar for PO, Clerk, SO and RRB</li>
-<li><a href="https://sbi.co.in/web/careers">sbi.co.in/web/careers</a> — State Bank of India recruitment</li>
+<li><a href="https://sbi.bank.in">sbi.bank.in</a> — State Bank of India recruitment (the 2026 cycle is being run from this domain, not the older careers path)</li>
 <li><a href="https://www.rrbapply.gov.in">rrbapply.gov.in</a> and the zonal RRB sites — Railway Recruitment Boards</li>
 <li><a href="https://www.rbi.org.in/Scripts/Vacancies.aspx">rbi.org.in vacancies</a> — RBI Grade B and Assistant</li>
 <li>State boards — <a href="https://uppbpb.gov.in">uppbpb.gov.in</a>, <a href="https://esb.mp.gov.in">esb.mp.gov.in</a>, <a href="https://csbc.bihar.gov.in">csbc.bihar.gov.in</a>, <a href="https://police.rajasthan.gov.in">police.rajasthan.gov.in</a>, <a href="http://upsssc.gov.in">upsssc.gov.in</a></li>
 </ul>
-<h4>Planning snapshot collected 15 Sep 2026 — secondary reporting, to be re-verified at source</h4>
+<h4>Reconciliation pass, 15 Sep 2026 — secondary reporting only</h4>
+<div class="callout soft" style="margin-bottom:10px"><strong>What this pass was, and was not.</strong> The rows were cross-checked across independent secondary reports and several were corrected as a result: SSC CGL 2026 Tier 1 had moved to 30 Sep&ndash;30 Oct 2026 with 12,256 vacancies; RRB Group D and UP Police Constable had already sat their written exams and belong in the post-exam posture; IBPS PO and Clerk vacancies were published as 7,565 and 11,403; SSC MTS as 7,948; the RRB NTPC row was split into the three live CENs. None of this reached the issuing portals — every official site was unreachable from the environment this was prepared in — so the confidence column records reconciliation, not verification, and the at-source pass is still outstanding.</div>
 <ul>
 <li><a href="https://www.mahendras.org/blogs/ssc-exam-calendar">SSC exam calendar 2026&ndash;27 summary</a> and <a href="https://www.mahendras.org/blogs/ibps-exam-calendar">IBPS exam calendar 2026&ndash;27 summary</a></li>
 <li><a href="https://www.mahendras.org/blogs/ssc-gd-constable-notification">SSC GD Constable 2026&ndash;27 notification tracker</a></li>
-<li><a href="https://www.adda247.com/exams/bank/ibps-calendar-2026/">IBPS calendar 2026&ndash;27 dates</a>, <a href="https://www.practicemock.com/blog/sbi-clerk-notification-2026/">SBI Clerk 2026 vacancy and dates</a>, <a href="https://www.practicemock.com/sbi-po-notification/">SBI PO 2026</a></li>
+<li><a href="https://www.adda247.com/exams/bank/ibps-calendar-2026/">IBPS calendar 2026&ndash;27 dates</a>, <a href="https://www.adda247.com/ibps-clerk">IBPS Clerk 11,403 vacancies</a>, <a href="https://www.adda247.com/jobs/ibps-po/">IBPS PO 7,565 vacancies</a>, <a href="https://www.practicemock.com/blog/sbi-clerk-notification-2026/">SBI Clerk 2026 vacancy and dates</a>, <a href="https://www.practicemock.com/sbi-po-notification/">SBI PO 2026</a>, <a href="https://www.careerpower.in/sbi-clerk.html">SBI Clerk schedule (conflicting Mains date)</a></li>
+<li><a href="https://www.pw.live/ssc/exams/ssc-cgl-2026-exam">SSC CGL 2026 &mdash; 12,256 vacancies, Tier 1 30 Sep&ndash;30 Oct 2026</a>, <a href="https://www.mahendras.org/blogs/ssc-mts-notification">SSC MTS 2026 &mdash; 7,948 vacancies</a></li>
 <li><a href="https://www.pw.live/state-psc/exams/mp-police-constable-recruitment-2026">MP Police Constable 2026</a>, <a href="https://www.pw.live/state-govt-jobs/exams/up-police-constable">UP Police Constable</a>, <a href="https://competition.careers360.com/articles/rajasthan-police-recruitment">Rajasthan Police</a></li>
-<li><a href="https://www.class24.study/blog/railway-recruitment-2026-27-upcoming-rrb-group-d-alp-ntpc-technician-je-vacancies">Railway recruitment 2026&ndash;27 outlook</a>, <a href="https://testbook.com/railway-jobs/rrb-secunderabad">RRB zonal vacancy reporting</a></li>
+<li><a href="https://www.class24.study/blog/railway-recruitment-2026-27-upcoming-rrb-group-d-alp-ntpc-technician-je-vacancies">Railway recruitment 2026&ndash;27 outlook</a>, <a href="https://www.pw.live/railway/exams/rrb-group-d-notification-2026">RRB Group D &mdash; 22,195 vacancies, CBT Aug 2026</a>, <a href="https://testbook.com/news/rrb-ntpc-new-vacancy-2026-27/">RRB NTPC &mdash; 5,165 approved for the next CEN</a>, <a href="https://testbook.com/rrb-ntpc-ug">RRB NTPC UG &mdash; 3,058 vacancies, CBT-2 17 Sep 2026</a></li>
+<li><a href="https://www.careerpower.in/blog/up-police-constable-exam-date-2026">UP Police Constable &mdash; written exam held 8&ndash;10 Jun 2026</a>, <a href="https://www.adda247.com/exams/mp/mp-police-constable-vacancy-2026-notification/">MP Police &mdash; 7,500 posts (6,800 GD + 700 SAF)</a></li>
 </ul>
-<p class="note">Aggregator reporting is used here to draw the shape of the year so that capacity can be planned in advance. It is not a substitute for the commission's own notice, and no figure from this column should ever appear on a published asset without a source check.</p>
+<p class="note">Aggregator reporting is used here to draw the shape of the year so that capacity can be planned in advance. It is not a substitute for the commission's own notice, and no figure from this column should ever appear on a published asset without a source check. Where two aggregators disagreed, the row is marked <span class="pill a">Disputed</span> rather than resolved by picking the more common answer.</p>
 </section>
 
 </div></main>
@@ -614,47 +625,49 @@ var V = '15 Sep 2026';
 /* Planning snapshot. `date` is the anchor exam date used by the planner; every row is
    tentative until re-verified on the official portal and the `verified` stamp is refreshed. */
 var EXAMS = [
- {n:"IBPS PO / MT (CRP PO-XVI)",b:"IBPS",s:"Bank",t:"A",notif:"Jul 2026",ex:"Prelims 22–23 Aug 2026 · Mains 4 Oct 2026",vac:"To be announced",asp:25,st:"Live",date:"2026-10-04",ver:V},
- {n:"IBPS Clerk (CRP CSA-XV)",b:"IBPS",s:"Bank",t:"A",notif:"Aug–Sep 2026",ex:"Prelims 10–11 Oct 2026 · Mains 27 Dec 2026",vac:"To be announced",asp:30,st:"Live",date:"2026-10-10",ver:V},
- {n:"IBPS RRB Officer Scale I",b:"IBPS",s:"Bank",t:"B",notif:"Apply 1–21 Sep 2026",ex:"Prelims 21–22 Nov 2026 · Mains 20 Dec 2026",vac:"≈5,523 reported",asp:12,st:"Live",date:"2026-11-21",ver:V},
- {n:"IBPS RRB Office Assistant",b:"IBPS",s:"Bank",t:"B",notif:"Apply 1–21 Sep 2026",ex:"Prelims 6, 12–13 Dec 2026 · Mains 30 Jan 2027",vac:"To be announced",asp:15,st:"Live",date:"2026-12-06",ver:V},
- {n:"IBPS SO (Specialist Officer)",b:"IBPS",s:"Bank",t:"C",notif:"Nov 2026 (expected)",ex:"Prelims Dec 2026 – Jan 2027",vac:"To be announced",asp:2,st:"Expected",date:"2026-12-27",ver:V},
- {n:"SBI PO",b:"SBI",s:"Bank",t:"A",notif:"2026 cycle released",ex:"Prelims Aug 2026 · Mains Sep 2026 · Interview Oct–Nov 2026",vac:"≈1,500",asp:20,st:"Live",date:"2026-09-30",ver:V},
- {n:"SBI Clerk (Junior Associate)",b:"SBI",s:"Bank",t:"A",notif:"2026 cycle released",ex:"Prelims 26–27 Sep & 3 Oct 2026 · Mains 23 Nov 2026",vac:"≈9,766",asp:35,st:"Live",date:"2026-09-26",ver:V},
- {n:"RBI Assistant",b:"RBI",s:"Bank",t:"B",notif:"Sep–Oct 2026 (expected)",ex:"Prelims Nov–Dec 2026",vac:"To be announced",asp:8,st:"Expected",date:"2026-12-01",ver:V},
- {n:"RBI Grade B",b:"RBI",s:"Bank",t:"C",notif:"Mar–Jul 2027 (expected)",ex:"Phase 1 mid 2027",vac:"To be announced",asp:2,st:"Expected",date:"2027-06-15",ver:V},
- {n:"NABARD Grade A",b:"NABARD",s:"Bank",t:"C",notif:"Mid 2027 (expected)",ex:"Phase 1 Aug–Sep 2027",vac:"To be announced",asp:1.5,st:"Expected",date:"2027-08-15",ver:V},
- {n:"LIC AAO / ADO",b:"LIC",s:"Bank",t:"C",notif:"Irregular",ex:"To be announced",vac:"To be announced",asp:3,st:"Expected",date:"",ver:V},
+ {n:"IBPS PO / MT (CRP PO-XVI)",b:"IBPS",s:"Bank",t:"A",notif:"2026 cycle, applications closed",ex:"Prelims 22–23 Aug 2026 · Mains 4 Oct 2026",vac:"7,565",asp:25,st:"Live",date:"2026-10-04",src:"https://www.ibps.in",conf:"Reconciled",note:""},
+ {n:"IBPS Clerk / CSA (CRP CSA-XVI)",b:"IBPS",s:"Bank",t:"A",notif:"Notification out; correction window used",ex:"Prelims 10–11 Oct 2026 · Mains 27 Dec 2026",vac:"11,403",asp:30,st:"Live",date:"2026-10-10",src:"https://www.ibps.in",conf:"Reconciled",note:""},
+ {n:"IBPS RRB Officer Scale I",b:"IBPS",s:"Bank",t:"B",notif:"Apply 1–21 Sep 2026",ex:"Prelims 21–22 Nov 2026 · Mains 20 Dec 2026",vac:"≈5,523",asp:12,st:"Live",date:"2026-11-21",src:"https://www.ibps.in",conf:"Reconciled",note:"Vacancy figure seen in one source only — confirm on the CRP notice."},
+ {n:"IBPS RRB Office Assistant",b:"IBPS",s:"Bank",t:"B",notif:"Apply 1–21 Sep 2026",ex:"Prelims 6, 12–13 Dec 2026 · Mains 30 Jan 2027",vac:"To be announced",asp:15,st:"Live",date:"2026-12-06",src:"https://www.ibps.in",conf:"Reconciled",note:""},
+ {n:"IBPS SO (Specialist Officer)",b:"IBPS",s:"Bank",t:"C",notif:"Nov 2026 (expected)",ex:"Prelims Dec 2026 – Jan 2027",vac:"To be announced",asp:2,st:"Expected",date:"2026-12-27",src:"https://www.ibps.in",conf:"Calendar-only",note:""},
+ {n:"SBI PO",b:"SBI",s:"Bank",t:"A",notif:"2026 cycle released",ex:"Prelims Aug 2026 · Mains Sep 2026 · Interview Oct–Nov 2026",vac:"≈1,500",asp:20,st:"Live",date:"2026-09-30",src:"https://sbi.bank.in",conf:"Calendar-only",note:"Mains date not pinned in reconciliation — treat the anchor date as indicative."},
+ {n:"SBI Clerk (Junior Associate)",b:"SBI",s:"Bank",t:"A",notif:"Registration closed 31 Aug 2026 · backlog paper 16 Sep 2026",ex:"Prelims 26–27 Sep & 3 Oct 2026 · Mains 23 or 26 Nov 2026",vac:"9,766",asp:35,st:"Live",date:"2026-09-26",src:"https://sbi.bank.in",conf:"Disputed",note:"Sources give both 23 Nov and 26 Nov for Mains. Do not print either date until the SBI notice is checked."},
+ {n:"RBI Assistant",b:"RBI",s:"Bank",t:"B",notif:"Sep–Oct 2026 (expected)",ex:"Prelims Nov–Dec 2026",vac:"To be announced",asp:8,st:"Expected",date:"2026-12-01",src:"https://www.rbi.org.in/Scripts/Vacancies.aspx",conf:"Calendar-only",note:""},
+ {n:"RBI Grade B",b:"RBI",s:"Bank",t:"C",notif:"Mar–Jul 2027 (expected)",ex:"Phase 1 mid 2027",vac:"To be announced",asp:2,st:"Expected",date:"2027-06-15",src:"https://www.rbi.org.in/Scripts/Vacancies.aspx",conf:"Calendar-only",note:""},
+ {n:"NABARD Grade A",b:"NABARD",s:"Bank",t:"C",notif:"Mid 2027 (expected)",ex:"Phase 1 Aug–Sep 2027",vac:"To be announced",asp:1.5,st:"Expected",date:"2027-08-15",src:"https://www.nabard.org/careers.aspx",conf:"Calendar-only",note:""},
+ {n:"LIC AAO / ADO",b:"LIC",s:"Bank",t:"C",notif:"Irregular",ex:"To be announced",vac:"To be announced",asp:3,st:"Expected",date:"",src:"https://licindia.in/careers",conf:"Calendar-only",note:""},
 
- {n:"SSC CGL 2026 (Tier 2)",b:"SSC",s:"SSC",t:"A",notif:"Per SSC calendar 2026–27",ex:"Tier 1 May–Jun 2026 · Tier 2 later in 2026",vac:"To be announced",asp:30,st:"Live",date:"2026-12-05",ver:V},
- {n:"SSC CGL 2027",b:"SSC",s:"SSC",t:"A",notif:"Feb–Mar 2027 (expected)",ex:"Tier 1 mid 2027",vac:"To be announced",asp:30,st:"Expected",date:"2027-06-01",ver:V},
- {n:"SSC CHSL 2026",b:"SSC",s:"SSC",t:"A",notif:"Per SSC calendar 2026–27",ex:"Tier 1 Jul–Sep 2026",vac:"To be announced",asp:25,st:"Post-exam",date:"2026-09-05",ver:V},
- {n:"SSC MTS & Havaldar 2026",b:"SSC",s:"SSC",t:"A",notif:"Jun 2026, applications closed Jul 2026",ex:"CBE Sep–Nov 2026",vac:"To be announced",asp:30,st:"Live",date:"2026-10-20",ver:V},
- {n:"SSC GD Constable 2026–27",b:"SSC / CAPF",s:"SSC",t:"A",notif:"30 Sep 2026, apply through Oct 2026",ex:"CBE Jan–Feb 2027",vac:"25,487 in the previous cycle",asp:45,st:"Announced",date:"2027-01-20",ver:V},
- {n:"SSC CPO — SI in Delhi Police & CAPF",b:"SSC",s:"SSC",t:"B",notif:"Per SSC calendar",ex:"Paper 1 mid 2027",vac:"To be announced",asp:6,st:"Expected",date:"2027-06-20",ver:V},
- {n:"SSC Stenographer Grade C & D",b:"SSC",s:"SSC",t:"C",notif:"Per SSC calendar",ex:"CBE 2027",vac:"To be announced",asp:1.5,st:"Expected",date:"2027-02-15",ver:V},
- {n:"SSC JE (Civil / Mech / Elec)",b:"SSC",s:"SSC",t:"C",notif:"Per SSC calendar",ex:"Paper 1 2027",vac:"To be announced",asp:1.5,st:"Expected",date:"2027-03-15",ver:V},
- {n:"SSC Selection Post (Phase)",b:"SSC",s:"SSC",t:"C",notif:"Annual phase notice",ex:"CBE 2027",vac:"Multiple categories",asp:2,st:"Expected",date:"2027-04-15",ver:V},
- {n:"Delhi Police Constable / Head Constable",b:"SSC / DP",s:"SSC",t:"B",notif:"As announced",ex:"CBE 2027",vac:"To be announced",asp:7,st:"Expected",date:"2027-03-01",ver:V},
+ {n:"SSC CGL 2026",b:"SSC",s:"SSC",t:"A",notif:"Notification out",ex:"Tier 1 CBE 30 Sep – 30 Oct 2026 · Tier 2 Dec 2026",vac:"12,256",asp:30,st:"Live",date:"2026-09-30",src:"https://ssc.gov.in",conf:"Reconciled",note:"Tier 1 moved out of the May–Jun window shown in the published calendar — the calendar is stale on this row."},
+ {n:"SSC CGL 2027",b:"SSC",s:"SSC",t:"A",notif:"Feb–Mar 2027 (expected)",ex:"Tier 1 mid 2027",vac:"To be announced",asp:30,st:"Expected",date:"2027-06-01",src:"https://ssc.gov.in",conf:"Calendar-only",note:""},
+ {n:"SSC CHSL 2026",b:"SSC",s:"SSC",t:"A",notif:"Per SSC calendar 2026–27",ex:"Tier 1 Jul–Sep 2026",vac:"To be announced",asp:25,st:"Post-exam",date:"2026-09-05",src:"https://ssc.gov.in",conf:"Calendar-only",note:"Calendar window only; actual Tier 1 dates not confirmed in reconciliation."},
+ {n:"SSC MTS & Havaldar 2026",b:"SSC",s:"SSC",t:"A",notif:"Scheduled 30 Jun 2026, postponed",ex:"CBE Sep–Nov 2026",vac:"7,948",asp:30,st:"Live",date:"2026-10-20",src:"https://ssc.gov.in",conf:"Reconciled",note:""},
+ {n:"SSC GD Constable 2026–27",b:"SSC / CAPF",s:"SSC",t:"A",notif:"30 Sep 2026 · apply 30 Sep – 31 Oct 2026",ex:"CBE Jan–Feb 2027",vac:"To be announced (25,487 last cycle)",asp:45,st:"Announced",date:"2027-01-20",src:"https://ssc.gov.in",conf:"Reconciled",note:""},
+ {n:"SSC CPO — SI in Delhi Police & CAPF",b:"SSC",s:"SSC",t:"B",notif:"Per SSC calendar",ex:"Paper 1 mid 2027",vac:"To be announced",asp:6,st:"Expected",date:"2027-06-20",src:"https://ssc.gov.in",conf:"Calendar-only",note:""},
+ {n:"SSC Stenographer Grade C & D",b:"SSC",s:"SSC",t:"C",notif:"Per SSC calendar",ex:"CBE 2027",vac:"To be announced",asp:1.5,st:"Expected",date:"2027-02-15",src:"https://ssc.gov.in",conf:"Calendar-only",note:""},
+ {n:"SSC JE (Civil / Mech / Elec)",b:"SSC",s:"SSC",t:"C",notif:"Per SSC calendar",ex:"Paper 1 2027",vac:"To be announced",asp:1.5,st:"Expected",date:"2027-03-15",src:"https://ssc.gov.in",conf:"Calendar-only",note:""},
+ {n:"SSC Selection Post (Phase)",b:"SSC",s:"SSC",t:"C",notif:"Annual phase notice",ex:"CBE 2027",vac:"Multiple categories",asp:2,st:"Expected",date:"2027-04-15",src:"https://ssc.gov.in",conf:"Calendar-only",note:""},
+ {n:"Delhi Police Constable / Head Constable",b:"SSC / DP",s:"SSC",t:"B",notif:"As announced",ex:"CBE 2027",vac:"To be announced",asp:7,st:"Expected",date:"2027-03-01",src:"https://ssc.gov.in",conf:"Calendar-only",note:""},
 
- {n:"RRB Group D (Level 1)",b:"RRB",s:"Railway",t:"A",notif:"2026 cycle",ex:"CBT phased 2026–27",vac:"≈22,000+ aggregate reported",asp:40,st:"Live",date:"2026-11-15",ver:V},
- {n:"RRB NTPC (Graduate & Under-graduate)",b:"RRB",s:"Railway",t:"A",notif:"Mid 2026",ex:"CBT-1 late 2026 – 2027",vac:"To be announced",asp:35,st:"Announced",date:"2027-01-10",ver:V},
- {n:"RRB ALP & Technician",b:"RRB",s:"Railway",t:"B",notif:"2026–27 (expected)",ex:"CBT-1 2027",vac:"10,000+ expected",asp:18,st:"Expected",date:"2027-03-10",ver:V},
- {n:"RPF Constable / SI",b:"RPF",s:"Railway",t:"B",notif:"As announced",ex:"CBT 2027",vac:"To be announced",asp:10,st:"Expected",date:"2027-04-05",ver:V},
- {n:"RRB JE",b:"RRB",s:"Railway",t:"C",notif:"As announced",ex:"CBT-1 2027",vac:"To be announced",asp:3,st:"Expected",date:"2027-05-10",ver:V},
- {n:"RRB Paramedical & Ministerial",b:"RRB",s:"Railway",t:"C",notif:"As announced",ex:"CBT 2027",vac:"To be announced",asp:1.5,st:"Expected",date:"2027-06-10",ver:V},
+ {n:"RRB Group D — Level 1 (CEN 09/2025)",b:"RRB",s:"Railway",t:"A",notif:"30 Jan 2026 · applications closed 9 Mar 2026",ex:"CBT 3–25 Aug 2026 · answer key out, result awaited",vac:"22,195",asp:40,st:"Post-exam",date:"2026-08-25",src:"https://www.rrbapply.gov.in",conf:"Reconciled",note:"Exam is over. Content posture is result, cut-off and next-stage, not prelims preparation."},
+ {n:"RRB NTPC Graduate (CEN 06/2025)",b:"RRB",s:"Railway",t:"A",notif:"2025–26 cycle",ex:"CBT stages running through 2026",vac:"5,810",asp:35,st:"Live",date:"",src:"https://www.rrbapply.gov.in",conf:"Reconciled",note:"Stage dates not pinned in reconciliation — check the zonal RRB notice before scheduling."},
+ {n:"RRB NTPC Under-Graduate (CEN 07/2025)",b:"RRB",s:"Railway",t:"A",notif:"2025–26 cycle",ex:"CBT-1 7 May – 21 Jun 2026 · CBT-2 17 Sep 2026",vac:"3,058",asp:30,st:"Live",date:"2026-09-17",src:"https://www.rrbapply.gov.in",conf:"Reconciled",note:""},
+ {n:"RRB NTPC 2026–27 (new CEN)",b:"RRB",s:"Railway",t:"A",notif:"CEN expected Oct 2026 or later",ex:"To be announced",vac:"5,165 approved (3,477 GR + 1,688 UG)",asp:35,st:"Expected",date:"",src:"https://www.rrbapply.gov.in",conf:"Reconciled",note:"Board approval figure, not a released CEN. Open the cycle on notification day."},
+ {n:"RRB ALP & Technician",b:"RRB",s:"Railway",t:"B",notif:"2026–27 (expected)",ex:"CBT-1 2027",vac:"10,000+ expected",asp:18,st:"Expected",date:"2027-03-10",src:"https://www.rrbapply.gov.in",conf:"Calendar-only",note:""},
+ {n:"RPF Constable / SI",b:"RPF",s:"Railway",t:"B",notif:"As announced",ex:"CBT 2027",vac:"To be announced",asp:10,st:"Expected",date:"2027-04-05",src:"https://www.rrbapply.gov.in",conf:"Calendar-only",note:""},
+ {n:"RRB JE",b:"RRB",s:"Railway",t:"C",notif:"As announced",ex:"CBT-1 2027",vac:"To be announced",asp:3,st:"Expected",date:"2027-05-10",src:"https://www.rrbapply.gov.in",conf:"Calendar-only",note:""},
+ {n:"RRB Paramedical & Ministerial",b:"RRB",s:"Railway",t:"C",notif:"As announced",ex:"CBT 2027",vac:"To be announced",asp:1.5,st:"Expected",date:"2027-06-10",src:"https://www.rrbapply.gov.in",conf:"Calendar-only",note:""},
 
- {n:"UP Police Constable (Civil, PAC, SSF, Jail Warder)",b:"UPPRPB",s:"Police",t:"A",notif:"Applications 31 Dec 2025 – 30 Jan 2026",ex:"Written 2026 · PST/PET thereafter",vac:"32,679",asp:45,st:"Live",date:"2026-11-01",ver:V},
- {n:"MP Police Constable (GD)",b:"MPESB",s:"Police",t:"B",notif:"9 Sep 2026 · apply 22 Sep – 6 Oct 2026",ex:"Tentatively 19 Nov 2026",vac:"7,500",asp:10,st:"Announced",date:"2026-11-19",ver:V},
- {n:"Bihar Police Constable / Operator",b:"CSBC",s:"Police",t:"B",notif:"2026 cycle",ex:"Written 2026–27",vac:"993 (Operator)",asp:12,st:"Announced",date:"2026-12-15",ver:V},
- {n:"Rajasthan Police Constable",b:"Raj. Police",s:"Police",t:"B",notif:"2026 cycle",ex:"Written 2026–27",vac:"To be announced",asp:9,st:"Expected",date:"2027-02-01",ver:V},
- {n:"UP Police SI / ASI",b:"UPPRPB",s:"Police",t:"B",notif:"As announced",ex:"Written 2027",vac:"To be announced",asp:8,st:"Expected",date:"2027-03-20",ver:V},
- {n:"State Jail Warder / Forest Guard (various)",b:"State boards",s:"Police",t:"C",notif:"Rolling",ex:"Rolling",vac:"Varies by state",asp:4,st:"Expected",date:"",ver:V},
+ {n:"UP Police Constable (Civil, PAC, SSF, Jail Warder)",b:"UPPRPB",s:"Police",t:"A",notif:"Applications 31 Dec 2025 – 30 Jan 2026",ex:"Written 8–10 Jun 2026 · result and PET/PST stage",vac:"32,679",asp:45,st:"Post-exam",date:"2026-06-10",src:"https://uppbpb.gov.in",conf:"Reconciled",note:"Written exam is over. Commission PET/PST and document-verification material, not written-paper practice."},
+ {n:"MP Police Constable (GD)",b:"MPESB",s:"Police",t:"B",notif:"9 Sep 2026 · apply 22 Sep – 6 Oct 2026",ex:"Tentatively 19 Nov 2026",vac:"7,500 (6,800 GD + 700 SAF)",asp:10,st:"Announced",date:"2026-11-19",src:"https://esb.mp.gov.in",conf:"Reconciled",note:""},
+ {n:"Bihar Police Constable / Operator",b:"CSBC",s:"Police",t:"B",notif:"2026 cycle",ex:"Written 2026–27",vac:"993 (Operator)",asp:12,st:"Announced",date:"2026-12-15",src:"https://csbc.bihar.gov.in",conf:"Calendar-only",note:""},
+ {n:"Rajasthan Police Constable",b:"Raj. Police",s:"Police",t:"B",notif:"2026 cycle",ex:"Written 2026–27",vac:"To be announced",asp:9,st:"Expected",date:"2027-02-01",src:"https://police.rajasthan.gov.in",conf:"Calendar-only",note:""},
+ {n:"UP Police SI / ASI",b:"UPPRPB",s:"Police",t:"B",notif:"As announced",ex:"Written 2027",vac:"To be announced",asp:8,st:"Expected",date:"2027-03-20",src:"https://uppbpb.gov.in",conf:"Calendar-only",note:""},
+ {n:"State Jail Warder / Forest Guard (various)",b:"State boards",s:"Police",t:"C",notif:"Rolling",ex:"Rolling",vac:"Varies by state",asp:4,st:"Expected",date:"",src:"",conf:"Calendar-only",note:""},
 
- {n:"UPSSSC PET",b:"UPSSSC",s:"Other",t:"B",notif:"Annual",ex:"Written 2026–27",vac:"Gateway test for UPSSSC posts",asp:20,st:"Expected",date:"2026-12-20",ver:V},
- {n:"Bihar SSC Inter / Graduate Level",b:"BSSC",s:"Other",t:"C",notif:"As announced",ex:"Prelims 2027",vac:"To be announced",asp:6,st:"Expected",date:"2027-02-20",ver:V},
- {n:"India Post GDS",b:"Dept. of Posts",s:"Other",t:"C",notif:"Merit-based cycles",ex:"No written exam",vac:"Cycle-wise",asp:8,st:"Expected",date:"",ver:V},
- {n:"CTET / State TET",b:"CBSE / states",s:"Other",t:"C",notif:"Twice yearly",ex:"Dec 2026 · Jul 2027",vac:"Eligibility certification",asp:25,st:"Expected",date:"2026-12-13",ver:V}
+ {n:"UPSSSC PET",b:"UPSSSC",s:"Other",t:"B",notif:"Annual",ex:"Written 2026–27",vac:"Gateway test for UPSSSC posts",asp:20,st:"Expected",date:"2026-12-20",src:"http://upsssc.gov.in",conf:"Calendar-only",note:""},
+ {n:"Bihar SSC Inter / Graduate Level",b:"BSSC",s:"Other",t:"C",notif:"As announced",ex:"Prelims 2027",vac:"To be announced",asp:6,st:"Expected",date:"2027-02-20",src:"https://bssc.bihar.gov.in",conf:"Calendar-only",note:""},
+ {n:"India Post GDS",b:"Dept. of Posts",s:"Other",t:"C",notif:"Merit-based cycles",ex:"No written exam",vac:"Cycle-wise",asp:8,st:"Expected",date:"",src:"https://indiapostgdsonline.gov.in",conf:"Calendar-only",note:""},
+ {n:"CTET / State TET",b:"CBSE / states",s:"Other",t:"C",notif:"Twice yearly",ex:"Dec 2026 · Jul 2027",vac:"Eligibility certification",asp:25,st:"Expected",date:"2026-12-13",src:"https://ctet.nic.in",conf:"Calendar-only",note:""}
 ];
 
 /* ---------- helpers ---------- */
@@ -669,11 +682,12 @@ function esc(s){ return String(s).replace(/[&<>"]/g,function(c){return({'&':'&am
 /* ---------- 1. radar ---------- */
 function renderRadar(){
   var st=$('fStream').value, ti=$('fTier').value, sg=$('fStatus').value,
-      q=$('fSearch').value.trim().toLowerCase();
+      cf=$('fConf').value, q=$('fSearch').value.trim().toLowerCase();
   var rows=EXAMS.filter(function(e){
     if(st && e.s!==st) return false;
     if(ti && e.t!==ti) return false;
     if(sg && e.st!==sg) return false;
+    if(cf && e.conf!==cf) return false;
     if(q && (e.n+' '+e.b+' '+e.s).toLowerCase().indexOf(q)<0) return false;
     return true;
   });
@@ -682,7 +696,10 @@ function renderRadar(){
     var d=parse(e.date), dd=d?daysBetween(TODAY,d):null;
     var countdown = dd===null ? '' : (dd>=0 ? ' <span class="pill">T&minus;'+dd+' d</span>' : ' <span class="pill">'+Math.abs(dd)+' d ago</span>');
     var tr=document.createElement('tr');
-    tr.innerHTML='<td><strong>'+esc(e.n)+'</strong>'+countdown+'</td>'+
+    var name = e.src ? '<a href="'+esc(e.src)+'" target="_blank" rel="noopener"><strong>'+esc(e.n)+'</strong></a>'
+                     : '<strong>'+esc(e.n)+'</strong>';
+    var note = e.note ? '<div class="rownote">'+esc(e.note)+'</div>' : '';
+    tr.innerHTML='<td>'+name+countdown+note+'</td>'+
       '<td>'+esc(e.b)+'</td>'+
       '<td><span class="pill '+e.t.toLowerCase()+'">'+e.t+'</span></td>'+
       '<td>'+esc(e.notif)+'</td>'+
@@ -690,34 +707,28 @@ function renderRadar(){
       '<td class="num">'+esc(e.vac)+'</td>'+
       '<td class="num">~'+e.asp+' lakh</td>'+
       '<td>'+esc(e.st)+'</td>'+
-      '<td class="note">'+esc(e.ver)+'</td>';
+      '<td><span class="pill '+CONFCLS[e.conf]+'">'+esc(e.conf)+'</span></td>';
     tb.appendChild(tr);
   });
-  $('radarCount').textContent=rows.length+' of '+EXAMS.length+' cycles shown. Aspirant scale is an order-of-magnitude planning estimate, not a measured figure.';
+  $('radarCount').textContent=rows.length+' of '+EXAMS.length+' cycles shown. Exam names link to the issuing portal — that is where the row gets confirmed. Aspirant scale is an order-of-magnitude planning estimate, not a measured figure.';
 
   var tierA=rows.filter(function(e){return e.t==='A'}).length;
   var live=rows.filter(function(e){return e.st==='Live'||e.st==='Announced'}).length;
   var upcoming=rows.map(function(e){return parse(e.date)}).filter(function(d){return d&&d>=TODAY})
                    .sort(function(a,b){return a-b});
   var nextIn = upcoming.length? daysBetween(TODAY,upcoming[0])+' days' : '—';
-  var reach = rows.reduce(function(s,e){return s+e.asp},0);
   $('radarKpis').innerHTML=
     tile('Cycles on radar',rows.length,'')+
     tile('Tier A flagships',tierA,tierA>6?'warn':'')+
     tile('Live or announced',live,'pos')+
     tile('Next exam in',nextIn,'')+
-    tile('Combined aspirant pool','~'+Math.round(reach)+' lakh','')+
-    tile('Rows stale (> 14 days)',staleCount(rows),staleCount(rows)?'neg':'pos')+
+    tile('Calendar-only rows',cnt(rows,'Calendar-only'),cnt(rows,'Calendar-only')?'warn':'pos')+
+    tile('Disputed rows',cnt(rows,'Disputed'),cnt(rows,'Disputed')?'neg':'pos')+
     tile('Print-lock windows open',rows.filter(function(e){var d=parse(e.date);return d&&daysBetween(TODAY,d)>=30&&daysBetween(TODAY,d)<=120}).length,'')+
     tile('In content freeze (T−2)',rows.filter(function(e){var d=parse(e.date);var n=d?daysBetween(TODAY,d):99;return n>=0&&n<=2}).length,'');
 }
-function staleCount(rows){
-  // A row is stale when its source check is older than the 14-day alert threshold in 8.5.
-  return rows.filter(function(e){
-    var d=new Date(Date.parse(e.ver));
-    return isNaN(d) ? true : daysBetween(d,TODAY)>14;
-  }).length;
-}
+var CONFCLS={'Reconciled':'ok','Disputed':'a','Calendar-only':'b'};
+function cnt(rows,conf){ return rows.filter(function(e){return e.conf===conf}).length; }
 function tile(label,val,cls){
   return '<div class="kpi '+(cls||'')+'"><small>'+label+'</small><strong>'+val+'</strong></div>';
 }
@@ -854,10 +865,11 @@ function updateGates(){
 }
 
 /* ---------- wiring ---------- */
-['fStream','fTier','fStatus'].forEach(function(id){ $(id).addEventListener('change',renderRadar); });
+['fStream','fTier','fStatus','fConf'].forEach(function(id){ $(id).addEventListener('change',renderRadar); });
 $('fSearch').addEventListener('input',renderRadar);
 $('fReset').addEventListener('click',function(){
-  $('fStream').value=''; $('fTier').value=''; $('fStatus').value=''; $('fSearch').value=''; renderRadar();
+  $('fStream').value=''; $('fTier').value=''; $('fStatus').value='';
+  $('fConf').value=''; $('fSearch').value=''; renderRadar();
 });
 ['pTier','pDate','pLang','pStages','pCap','pOffline'].forEach(function(id){
   $(id).addEventListener('input',renderPlanner); $(id).addEventListener('change',renderPlanner);
