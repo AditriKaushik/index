@@ -1,0 +1,889 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Exam Content Operations — Vacancy Radar, Production Pipeline & Info Dashboard Blueprint</title>
+<meta name="description" content="Operating blueprint for competitive-exam content: vacancy radar for Bank, SSC, Railway and State Police cycles, content-mix decisioning, the create-audit-correct-review-approve-publish pipeline, and the specification for the information dashboard that runs it.">
+<link rel="icon" href="icons/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="theme-color" content="#17365d">
+<style>
+:root{
+ --ink:#172033;--muted:#5b6579;--navy:#17365d;--blue:#2f5597;
+ --paper:#f5f7fb;--card:#ffffff;--line:#dfe5ee;--line-soft:#e7ebf1;
+ --surface-2:#f3f6fa;--surface-2-hover:#e7edf6;--surface-3:#f8fafc;
+ --code-bg:#f6f8fa;--track:#eef1f6;--input-bg:#ffffff;--input-border:#cfd7e3;--link:#275ca8;
+ --good:#1e7a42;--good-bg:#e7f5ec;--good-border:#b7dfc4;
+ --bad:#b3261e;--bad-bg:#fdecea;--bad-border:#f2c6c2;
+ --warn:#8a6100;--warn-bg:#fff4ce;--warn-border:#ecd77c;--soft-bg:#eaf2f8;--soft-border:#c9dae9;
+ --focus-ring:rgba(47,85,151,.18);
+ --font-display:Georgia,'Iowan Old Style','Palatino Linotype','Book Antiqua',serif;
+ --font-body:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+ --font-mono:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace;
+}
+@media (prefers-color-scheme:dark){
+ :root:not([data-theme="light"]){
+  --ink:#e7ecf7;--muted:#96a2ba;--navy:#8fb6e8;--blue:#7fb0e0;
+  --paper:#0e131e;--card:#171e2c;--line:#2a3448;--line-soft:#242c3d;
+  --surface-2:#1b2334;--surface-2-hover:#232c40;--surface-3:#141b28;
+  --code-bg:#131a26;--track:#212a3b;--input-bg:#10161f;--input-border:#33405a;--link:#8fc1f2;
+  --good:#6fd695;--good-bg:#15301f;--good-border:#2b5138;
+  --bad:#ff9b93;--bad-bg:#38201d;--bad-border:#5c332f;
+  --warn:#e8c96a;--warn-bg:#3a3220;--warn-border:#5c5330;--soft-bg:#182739;--soft-border:#2c435c;
+  --focus-ring:rgba(143,182,232,.22);
+ }
+}
+:root[data-theme="dark"]{
+ --ink:#e7ecf7;--muted:#96a2ba;--navy:#8fb6e8;--blue:#7fb0e0;
+ --paper:#0e131e;--card:#171e2c;--line:#2a3448;--line-soft:#242c3d;
+ --surface-2:#1b2334;--surface-2-hover:#232c40;--surface-3:#141b28;
+ --code-bg:#131a26;--track:#212a3b;--input-bg:#10161f;--input-border:#33405a;--link:#8fc1f2;
+ --good:#6fd695;--good-bg:#15301f;--good-border:#2b5138;
+ --bad:#ff9b93;--bad-bg:#38201d;--bad-border:#5c332f;
+ --warn:#e8c96a;--warn-bg:#3a3220;--warn-border:#5c5330;--soft-bg:#182739;--soft-border:#2c435c;
+ --focus-ring:rgba(143,182,232,.22);
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:var(--font-body);background:var(--paper);color:var(--ink);line-height:1.55}
+header{background:linear-gradient(135deg,#122a4b,#2f5597);color:#fff;padding:38px 20px 30px}
+.wrap{max-width:1180px;margin:0 auto}
+h1{font-family:var(--font-display);font-weight:700;font-size:clamp(28px,4.6vw,44px);line-height:1.06;margin:0 0 9px;text-wrap:balance;letter-spacing:.2px}
+.sub{opacity:.92;font-size:17px;max-width:74ch}
+.badge{display:inline-block;background:rgba(255,255,255,.16);padding:5px 10px;border-radius:999px;font-size:12px;margin:13px 6px 0 0}
+nav.toc{margin-top:16px;display:flex;flex-wrap:wrap;gap:8px}
+nav.toc a{color:#fff;opacity:.88;font-size:12.5px;text-decoration:none;border:1px solid rgba(255,255,255,.28);padding:4px 10px;border-radius:999px}
+nav.toc a:hover{opacity:1;background:rgba(255,255,255,.12)}
+main{padding:22px 18px 50px}
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:16px}
+.card{grid-column:span 12;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;box-shadow:0 5px 18px rgba(20,35,70,.05)}
+.half{grid-column:span 6}.third{grid-column:span 4}.twothird{grid-column:span 8}
+@media(max-width:900px){.half,.third,.twothird{grid-column:span 12}}
+h2{font-family:var(--font-display);font-weight:700;margin:0 0 6px;color:var(--navy);font-size:23px;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;text-wrap:balance}
+h2 .step{font-family:var(--font-mono);font-size:12px;color:var(--muted);font-weight:400;letter-spacing:.5px}
+h3{font-family:var(--font-display);font-weight:700;color:var(--blue);margin:20px 0 8px;font-size:17.5px}
+h4{margin:14px 0 6px;font-size:13.5px;color:var(--navy);letter-spacing:.3px;text-transform:uppercase}
+p{margin:8px 0 12px}
+.lede{color:var(--muted);font-size:14.5px;margin-top:0}
+.callout{padding:14px 16px;border-radius:12px;background:var(--warn-bg);border:1px solid var(--warn-border);transition:background .25s,border-color .25s;font-size:14px}
+.callout.ok{background:var(--good-bg);border-color:var(--good-border)}
+.callout.soft{background:var(--soft-bg);border-color:var(--soft-border)}
+.callout.bad{background:var(--bad-bg);border-color:var(--bad-border)}
+label{font-size:12px;color:var(--muted);display:block;margin-bottom:5px;letter-spacing:.2px}
+.fields{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.fields.three{grid-template-columns:repeat(3,1fr)}
+.fields.four{grid-template-columns:repeat(4,1fr)}
+@media(max-width:700px){.fields,.fields.three,.fields.four{grid-template-columns:1fr}}
+input,select{width:100%;padding:10px 11px;border:1px solid var(--input-border);border-radius:10px;font-size:15px;background:var(--input-bg);color:var(--ink);transition:border-color .15s,box-shadow .15s;font-family:var(--font-body)}
+input[type="number"],input[type="date"]{font-family:var(--font-mono);font-variant-numeric:tabular-nums}
+input:focus,select:focus{outline:none;border-color:var(--blue);box-shadow:0 0 0 3px var(--focus-ring)}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:15px}
+@media(max-width:820px){.kpis{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:420px){.kpis{grid-template-columns:1fr}}
+.kpi{background:var(--surface-3);border:1px solid var(--line);border-radius:12px;padding:12px;transition:background .2s,border-color .2s}
+.kpi small{color:var(--muted);display:block;letter-spacing:.2px;font-size:11.5px}
+.kpi strong{font-family:var(--font-mono);font-variant-numeric:tabular-nums;font-size:19px;color:var(--navy);word-break:break-word;display:block;margin-top:2px}
+.kpi.pos{background:var(--good-bg);border-color:var(--good-border)}.kpi.pos strong{color:var(--good)}
+.kpi.neg{background:var(--bad-bg);border-color:var(--bad-border)}.kpi.neg strong{color:var(--bad)}
+.kpi.warn{background:var(--warn-bg);border-color:var(--warn-border)}.kpi.warn strong{color:var(--warn)}
+.tablewrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin-top:8px}
+table{width:100%;border-collapse:collapse;font-size:13.5px;min-width:520px}
+th,td{border-bottom:1px solid var(--line);padding:9px 8px;text-align:left;vertical-align:top}
+th{background:var(--surface-2);color:var(--navy);position:sticky;top:0;font-family:var(--font-body);font-weight:600;font-size:12.5px;letter-spacing:.2px;z-index:1}
+td.num,th.num{text-align:right;font-family:var(--font-mono);font-variant-numeric:tabular-nums}
+tbody tr:hover{background:var(--surface-2)}
+ul,ol{padding-left:22px;margin:8px 0 12px}
+li{margin:5px 0}
+.formula{font-family:var(--font-mono);background:var(--code-bg);padding:10px 12px;border-radius:9px;overflow:auto;color:var(--ink);font-size:12.5px;white-space:pre}
+.pill{display:inline-block;padding:3px 9px;border-radius:999px;background:var(--surface-2);color:var(--navy);font-size:11.5px;font-weight:600;margin:2px;white-space:nowrap}
+.pill.a{background:var(--bad-bg);color:var(--bad);border:1px solid var(--bad-border)}
+.pill.b{background:var(--warn-bg);color:var(--warn);border:1px solid var(--warn-border)}
+.pill.c{background:var(--soft-bg);color:var(--blue);border:1px solid var(--soft-border)}
+.pill.ok{background:var(--good-bg);color:var(--good);border:1px solid var(--good-border)}
+.checklist label{display:flex;gap:9px;align-items:flex-start;font-size:13.5px;color:var(--ink);padding:7px 0;border-bottom:1px dashed var(--line-soft);cursor:pointer;text-transform:none;letter-spacing:0}
+.checklist label:hover{background:var(--surface-2)}
+.checklist input{width:auto;margin-top:4px;accent-color:var(--blue);min-width:16px;min-height:16px}
+.progress-wrap{display:flex;align-items:center;gap:10px;margin-bottom:6px}
+.progress-track{flex:1;height:8px;border-radius:999px;background:var(--track);overflow:hidden}
+.progress-bar{height:100%;width:0%;background:linear-gradient(90deg,var(--blue),var(--navy));transition:width .25s ease}
+.progress-label{font-size:12px;color:var(--muted);white-space:nowrap;font-family:var(--font-mono)}
+.btn{border:1px solid var(--input-border);background:var(--surface-2);color:var(--navy);border-radius:9px;padding:7px 12px;font-size:12px;cursor:pointer;font-weight:600;transition:background .15s}
+.btn:hover{background:var(--surface-2-hover)}
+.btn:active{transform:translateY(1px)}
+.btn:focus-visible,a:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+footer{color:var(--muted);font-size:12px;text-align:center;padding:20px}
+.sources a{color:var(--link);text-decoration:none;word-break:break-word}
+.sources li{margin:8px 0;font-size:13.5px}
+.note{font-size:12px;color:var(--muted)}
+.rownote{font-size:11.5px;color:var(--muted);font-style:italic;margin-top:4px;max-width:46ch}
+/* pipeline */
+.flow{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:14px 0}
+.stage{background:var(--surface-3);border:1px solid var(--line);border-radius:12px;padding:12px;position:relative}
+.stage .n{font-family:var(--font-mono);font-size:11px;color:var(--muted)}
+.stage b{display:block;color:var(--navy);font-size:14px;margin:3px 0 4px}
+.stage .who{font-size:11.5px;color:var(--muted)}
+.stage .sla{font-family:var(--font-mono);font-size:11.5px;color:var(--blue);margin-top:5px;display:block}
+/* kanban mock */
+.kan{display:grid;grid-template-columns:repeat(auto-fit,minmax(135px,1fr));gap:9px}
+.kancol{background:var(--surface-3);border:1px solid var(--line);border-radius:12px;padding:9px}
+.kancol h5{margin:0 0 7px;font-size:11.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.4px;display:flex;justify-content:space-between}
+.kancard{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--blue);border-radius:8px;padding:7px 8px;margin-bottom:6px;font-size:11.5px}
+.kancard.late{border-left-color:var(--bad)}
+.kancard.risk{border-left-color:var(--warn)}
+.kancard b{display:block;font-size:12px;color:var(--ink)}
+.kancard span{color:var(--muted);font-family:var(--font-mono);font-size:10.5px}
+/* wireframe */
+.wire{border:1px dashed var(--input-border);border-radius:12px;padding:12px;background:var(--surface-3)}
+.wire .row{display:grid;gap:9px;margin-bottom:9px}
+.wbox{border:1px dashed var(--input-border);border-radius:9px;padding:10px;min-height:56px;background:var(--card)}
+.wbox b{display:block;font-size:12px;color:var(--navy)}
+.wbox small{color:var(--muted);font-size:11px}
+.bar{height:7px;border-radius:999px;background:var(--track);overflow:hidden;margin-top:6px}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--blue),var(--navy))}
+.bar i.g{background:var(--good)}.bar i.r{background:var(--bad)}.bar i.y{background:#d8a72a}
+.legend{display:flex;flex-wrap:wrap;gap:12px;font-size:11.5px;color:var(--muted);margin-top:8px}
+.legend span::before{content:'';display:inline-block;width:9px;height:9px;border-radius:3px;margin-right:5px;vertical-align:middle}
+.legend .l1::before{background:var(--good)}.legend .l2::before{background:#d8a72a}.legend .l3::before{background:var(--bad)}
+.filters{display:flex;flex-wrap:wrap;gap:8px;align-items:end;margin-bottom:6px}
+.filters>div{min-width:150px;flex:1}
+@media(max-width:520px){.card{padding:16px}h2{font-size:20px}}
+@media (prefers-reduced-motion:reduce){*{transition-duration:.01ms!important;animation-duration:.01ms!important}}
+@media print{header{background:#17365d!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}.card{break-inside:avoid;box-shadow:none}nav.toc{display:none}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<h1>Exam Content Operations Blueprint</h1>
+<div class="sub">Vacancy radar for Bank, SSC, Railway and State Police cycles &bull; content-mix and volume decisioning &bull; the create &rarr; audit &rarr; correct &rarr; review &rarr; approve &rarr; publish pipeline &bull; and the specification for the information dashboard that runs all of it.</div>
+<div><span class="badge">Prepared 15 Sep 2026</span><span class="badge">Cycle FY 2026&ndash;27</span><span class="badge">Owner: Head of Content</span></div>
+<nav class="toc">
+<a href="#radar">1. Vacancy radar</a>
+<a href="#decision">2. Decision rules</a>
+<a href="#planner">3. Volume planner</a>
+<a href="#types">4. Content types</a>
+<a href="#pipeline">5. Pipeline &amp; SLA</a>
+<a href="#calendar">6. T&minus; schedule</a>
+<a href="#qa">7. Audit gates</a>
+<a href="#dash">8. Dashboard blueprint</a>
+<a href="#build">9. Build plan</a>
+<a href="#sources">Sources</a>
+</nav>
+</div></header>
+<main class="wrap"><div class="grid">
+
+<section class="card" id="radar"><h2>1. Vacancy radar <span class="step">WHAT WE ARE WRITING FOR</span></h2>
+<p class="lede">Every content decision starts here. A recruitment cycle enters the radar the day a calendar or notification is published, and leaves it the day the final result is out. Nothing is commissioned for an exam that is not on this board.</p>
+
+<div class="callout bad"><strong>Source-of-truth rule.</strong> No row below has been checked against the issuing authority. Each was reconciled on 15 Sep 2026 across independent secondary reports, and carries the confidence that pass produced:
+<ul style="margin:8px 0 4px">
+<li><span class="pill ok">Reconciled</span> two or more independent sources agree on the figure or date. Safe to plan against; still not safe to print.</li>
+<li><span class="pill a">Disputed</span> sources contradict each other. Blocked for any date-bearing asset until the official notice settles it.</li>
+<li><span class="pill b">Calendar-only</span> a tentative window from a published calendar, with no confirmation. Treat as a planning placeholder — the SSC CGL 2026 row is the cautionary case: the calendar said May&ndash;June, the exam moved to 30 Sep&ndash;30 Oct.</li>
+</ul>
+Each exam name links to the portal that owns the answer. Before a cycle is commissioned or any date reaches a promotional asset, the owner opens that link, confirms the row and re-stamps it. A row not re-checked within 14 days goes amber on the dashboard and blocks publication of date-bearing assets.</div>
+
+<div class="filters">
+<div><label for="fStream">Stream</label><select id="fStream"><option value="">All streams</option><option>Bank</option><option>SSC</option><option>Railway</option><option>Police</option><option>Other</option></select></div>
+<div><label for="fTier">Priority tier</label><select id="fTier"><option value="">All tiers</option><option value="A">A — Flagship</option><option value="B">B — Core</option><option value="C">C — Long tail</option></select></div>
+<div><label for="fStatus">Stage</label><select id="fStatus"><option value="">All stages</option><option>Live</option><option>Announced</option><option>Expected</option><option>Post-exam</option></select></div>
+<div><label for="fConf">Source check</label><select id="fConf"><option value="">Any confidence</option><option>Reconciled</option><option>Disputed</option><option>Calendar-only</option></select></div>
+<div><label for="fSearch">Search</label><input id="fSearch" type="search" placeholder="e.g. constable, clerk, RRB"></div>
+<div style="flex:0"><label>&nbsp;</label><button class="btn" id="fReset" type="button">Reset</button></div>
+</div>
+
+<div class="kpis" id="radarKpis"></div>
+
+<div class="tablewrap"><table id="radarTable">
+<thead><tr>
+<th>Exam / post</th><th>Body</th><th>Tier</th><th>Notification window</th><th>Exam window</th>
+<th class="num">Vacancies</th><th class="num">Aspirant scale</th><th>Stage</th><th>Source check</th>
+</tr></thead><tbody></tbody></table></div>
+<p class="note" id="radarCount"></p>
+
+<h3>How a row is graded</h3>
+<div class="tablewrap"><table>
+<thead><tr><th>Tier</th><th>Qualifies when</th><th>Content posture</th><th>Share of capacity</th></tr></thead>
+<tbody>
+<tr><td><span class="pill a">A — Flagship</span></td><td>National cycle, roughly 10 lakh+ applicants, annual and predictable, or a state cycle above 25,000 posts</td><td>Full stack: online + offline mocks, printed kit, reference library, campaign, live analysis on exam day</td><td class="num">55%</td></tr>
+<tr><td><span class="pill b">B — Core</span></td><td>2&ndash;10 lakh applicants, or a strong regional cycle with repeat demand</td><td>Online mocks + reference material + digital promo; offline mocks only in the 45 days before the exam</td><td class="num">30%</td></tr>
+<tr><td><span class="pill c">C — Long tail</span></td><td>Below 2 lakh applicants, irregular calendar, or a niche/technical post</td><td>Reuse-first: retarget existing banks, one dedicated mock series, a syllabus PDF and a notification blog</td><td class="num">15%</td></tr>
+</tbody></table></div>
+<p class="note">Capacity shares are of the content team's planned person-days for the quarter, not of item counts. Long-tail cycles are deliberately capped so that a flagship notification never finds the team fully committed.</p>
+</section>
+
+<section class="card" id="decision"><h2>2. Decision rules — type, quantity, frequency, schedule <span class="step">HOW WE CHOOSE</span></h2>
+<p class="lede">Four decisions are taken for each cycle, in this order, at the cycle-opening meeting held within 48 hours of a notification or calendar release. Each has a default so that nothing waits on a debate.</p>
+
+<h3>2.1 Type — what gets made</h3>
+<div class="tablewrap"><table>
+<thead><tr><th>Trigger condition</th><th>Types switched on</th><th>Types withheld</th></tr></thead>
+<tbody>
+<tr><td>Calendar published, notification not yet out</td><td>Reference material, syllabus &amp; eligibility explainer, foundation online mocks, awareness promo</td><td>Printed kit, offline mocks, date-bearing creatives</td></tr>
+<tr><td>Notification out, Tier A or B</td><td>Full online mock series, study material kit, reference library refresh, launch campaign, exam-info assets</td><td>&mdash;</td></tr>
+<tr><td>Notification out, Tier C</td><td>One mock series built from existing banks, syllabus PDF, notification blog, organic social only</td><td>Printed kit, offline mocks, paid campaign</td></tr>
+<tr><td>Inside 45 days to exam</td><td>Offline OMR mocks, full-length online mocks at weekly cadence, revision capsules, admit-card and centre assets</td><td>New long-form reference books (lead time no longer fits)</td></tr>
+<tr><td>Inside 7 days to exam</td><td>Last-mile capsules, predicted-paper mock, exam-day instructions</td><td>Anything needing more than a 48-hour pipeline</td></tr>
+<tr><td>Exam over, result awaited</td><td>Shift-wise analysis, answer key, cut-off view, next-stage (Mains/PET/PST) material</td><td>Prelims-level acquisition promo for that cycle</td></tr>
+</tbody></table></div>
+
+<h3>2.2 Quantity — how much</h3>
+<p>Volume is a function of tier, stage count and language count, not of enthusiasm. The baseline below is per cycle, per language, and is what the planner in section 3 computes from.</p>
+<div class="tablewrap"><table>
+<thead><tr><th>Content type</th><th class="num">Tier A</th><th class="num">Tier B</th><th class="num">Tier C</th><th>Unit</th></tr></thead>
+<tbody>
+<tr><td>Online mock — full length</td><td class="num">40</td><td class="num">20</td><td class="num">8</td><td>test</td></tr>
+<tr><td>Online mock — sectional</td><td class="num">120</td><td class="num">60</td><td class="num">24</td><td>test</td></tr>
+<tr><td>Online mock — topic quiz</td><td class="num">180</td><td class="num">90</td><td class="num">30</td><td>quiz (10&ndash;15 Q)</td></tr>
+<tr><td>Offline mock — OMR, centre based</td><td class="num">8</td><td class="num">4</td><td class="num">0</td><td>paper + OMR + key</td></tr>
+<tr><td>Study material kit</td><td class="num">1</td><td class="num">1</td><td class="num">0</td><td>kit (6&ndash;10 booklets)</td></tr>
+<tr><td>Reference study material</td><td class="num">30</td><td class="num">16</td><td class="num">6</td><td>chapter module / e-book</td></tr>
+<tr><td>Promotional material</td><td class="num">45</td><td class="num">22</td><td class="num">8</td><td>creative / video / mailer</td></tr>
+<tr><td>Others — analysis, keys, predictors, blogs</td><td class="num">35</td><td class="num">18</td><td class="num">7</td><td>asset</td></tr>
+</tbody></table></div>
+<div class="callout soft"><strong>Bilingual multiplier.</strong> Hindi and English are treated as two deliverables of one item, not one item. Translation and language review add 35% to the person-day estimate but do <em>not</em> double the authoring cost, because the question design, answer key and solution logic are authored once. The planner applies a 1.35&times; factor per additional language.</div>
+
+<h3>2.3 Frequency — the standing cadence</h3>
+<div class="tablewrap"><table>
+<thead><tr><th>Cadence</th><th>Standing commitments</th><th>Owner</th><th>Publish slot</th></tr></thead>
+<tbody>
+<tr><td>Daily</td><td>Current-affairs quiz (10 Q), one topic quiz per core subject, one vocabulary/editorial capsule, notification-watch sweep of official portals</td><td>Subject leads + CA desk</td><td>07:00 quiz, 19:00 capsule</td></tr>
+<tr><td>Weekly</td><td>One full-length mock per live Tier A/B cycle, weekly CA compilation PDF, one blog per active notification, one promo burst</td><td>Test desk + editorial</td><td>Sunday 10:00 mock, Saturday 18:00 PDF</td></tr>
+<tr><td>Fortnightly</td><td>Offline OMR mock for cycles inside T&minus;90, kit stock and reprint review, defect-trend review</td><td>Publishing ops</td><td>Alternate Sundays</td></tr>
+<tr><td>Monthly</td><td>Monthly CA magazine, reference-library refresh against pattern changes, content performance review, capacity re-forecast</td><td>Head of Content</td><td>First working day</td></tr>
+<tr><td>Event-driven</td><td>Notification explainer within 4 h of release; admit-card and exam-day assets within 6 h; shift analysis within 3 h of each shift ending; answer key within 24 h; result and cut-off view within 12 h</td><td>Rapid desk (standing rota)</td><td>On trigger</td></tr>
+</tbody></table></div>
+
+<h3>2.4 Schedule — when it ships</h3>
+<p>Every item is scheduled backwards from the exam date, never forwards from the day work starts. The T&minus; ladder in section 6 is the default; the planner converts it into real dates. Two scheduling constraints override everything else:</p>
+<ul>
+<li><strong>Freeze at T&minus;2.</strong> No new content of any type is published in the final 48 hours except the exam-day instruction asset. Late material creates anxiety and generates support load without changing outcomes.</li>
+<li><strong>Print lock at T&minus;30.</strong> Anything going to press &mdash; kits, OMR papers &mdash; is locked and approved 30 days out, because print plus dispatch to centres is a 14&ndash;21 day path that cannot be compressed.</li>
+</ul>
+</section>
+
+<section class="card" id="planner"><h2>3. Cycle volume &amp; effort planner <span class="step">INTERACTIVE</span></h2>
+<p class="lede">Pick a cycle from the radar, or set the inputs by hand. The planner returns the commissioned quantity per content type, the person-days it consumes, the team size that cadence implies, and the last safe commissioning date.</p>
+<div class="fields four">
+<div><label for="pExam">Cycle from radar</label><select id="pExam"></select></div>
+<div><label for="pTier">Priority tier</label><select id="pTier"><option value="A">A — Flagship</option><option value="B">B — Core</option><option value="C">C — Long tail</option></select></div>
+<div><label for="pDate">Exam date (first shift)</label><input id="pDate" type="date"></div>
+<div><label for="pLang">Languages</label><select id="pLang"><option value="1">1 — English only</option><option value="2" selected>2 — Hindi + English</option><option value="3">3 — + one regional</option></select></div>
+</div>
+<div class="fields three" style="margin-top:12px">
+<div><label for="pStages">Selection stages to cover</label><select id="pStages"><option value="1">1 — single paper</option><option value="2" selected>2 — Prelims + Mains</option><option value="3">3 — + Descriptive / PET-PST / Typing</option><option value="4">4 — + Interview / DV</option></select></div>
+<div><label for="pCap">Available person-days per week</label><input id="pCap" type="number" min="1" step="1" value="45"></div>
+<div><label for="pOffline">Offline OMR mocks</label><select id="pOffline"><option value="1" selected>As per tier baseline</option><option value="0">Suppress — no centre exams</option></select></div>
+</div>
+
+<div class="kpis" id="plannerKpis"></div>
+<p class="note" id="plannerVerdict"></p>
+
+<div class="tablewrap"><table id="plannerTable">
+<thead><tr><th>Content type</th><th class="num">Items</th><th class="num">Deliverables (all languages)</th><th class="num">Person-days</th><th>Commission by</th><th>First publish</th></tr></thead>
+<tbody></tbody>
+<tfoot><tr><th>Total</th><th class="num" id="ptItems"></th><th class="num" id="ptDeliv"></th><th class="num" id="ptDays"></th><th colspan="2"></th></tr></tfoot>
+</table></div>
+
+<h4>Effort constants used</h4>
+<div class="formula">person_days(type) = items x stage_factor x unit_effort x (1 + 0.35 x (languages - 1))
+
+unit_effort   full-length mock 1.20  | sectional 0.45 | topic quiz 0.15
+              offline OMR mock 1.60  | study kit 14.0 | reference module 1.10
+              promotional asset 0.30 | other asset   0.35
+stage_factor  1 stage 0.75 | 2 stages 1.00 | 3 stages 1.15 | 4 stages 1.25
+              (applies to mocks and reference material only)
+weeks_needed  = total_person_days / weekly_capacity
+commission_by = exam_date - (T-ladder offset for that type) - pipeline_days
+pipeline_days = 6 for Tier A, 4 for Tier B, 3 for Tier C  (section 5 SLA sum)</div>
+<p class="note">Unit effort is one author-day equivalent including solution writing, not raw question-setting time. Recalibrate these constants each quarter from actual logged time in the production tracker &mdash; they are the single biggest lever on forecast accuracy, and they drift as the team gets faster on a given exam pattern.</p>
+</section>
+
+<section class="card" id="types"><h2>4. The six content types <span class="step">SPECIFICATION</span></h2>
+<p class="lede">Each type has one definition, one owner, one lead time and one definition of done. Anything that does not fit these six is filed under Others and gets a named sub-type before it is commissioned.</p>
+
+<div class="tablewrap"><table>
+<thead><tr><th>#</th><th>Type</th><th>Unit of work</th><th>Primary owner</th><th>Lead time</th><th>Definition of done</th></tr></thead>
+<tbody>
+<tr><td class="num">1</td><td><strong>Online mock test</strong></td><td>One test = paper blueprint + questions + options + key + solution + difficulty tags + timing rules</td><td>Test desk / subject SME</td><td>6 days Tier A</td><td>Loaded on the test engine, dry-run attempted by two reviewers, scoring and negative marking verified, analytics tags present, scheduled with a release time</td></tr>
+<tr><td class="num">2</td><td><strong>Offline mock test</strong></td><td>Print-ready question paper + OMR sheet + key + centre instruction sheet + evaluation template</td><td>Test desk + publishing ops</td><td>21 days incl. print &amp; dispatch</td><td>Proof signed, print order released, centre-wise quantities dispatched, key sealed until the declared release time, evaluation window booked</td></tr>
+<tr><td class="num">3</td><td><strong>Study material kit</strong></td><td>One saleable bundle: 6&ndash;10 booklets mapped to the full syllabus, plus practice sets and an index</td><td>Content head + design</td><td>35&ndash;45 days</td><td>Every syllabus node covered and traceable to the official notification, ISBN/SKU assigned, price and MRP approved, print proof approved, stock in the warehouse</td></tr>
+<tr><td class="num">4</td><td><strong>Reference study material</strong></td><td>One chapter module, e-book, formula sheet, CA compilation or capsule</td><td>Subject lead</td><td>4 days</td><td>Fact-checked with a cited source for every claim, versioned, tagged to exam + subject + topic + difficulty, published to the library with a review-by date</td></tr>
+<tr><td class="num">5</td><td><strong>Promotional material</strong></td><td>One creative, video, mailer, landing page or notification post</td><td>Marketing, with content sign-off</td><td>2 days</td><td>Claims verified against the official notification, no unverifiable success claims, dates and prices correct, disclaimer present, UTM and channel schedule set</td></tr>
+<tr><td class="num">6</td><td><strong>Others</strong></td><td>Exam analysis, answer key, cut-off view, notification explainer, counselling/DV guide, PET-PST guide, doubt-session script, seminar deck</td><td>Rapid desk</td><td>3&ndash;24 hours</td><td>Published within the event SLA, marked provisional where it is an estimate, corrected within 6 h of any official contradiction</td></tr>
+</tbody></table></div>
+
+<h3>Cross-cutting requirements for every type</h3>
+<ul>
+<li><strong>Metadata before content.</strong> No item is created without exam, cycle, tier, stage, subject, topic, difficulty, language, author, version and intended publish slot. Untagged content cannot be found, reused, or measured, and it is what makes a library expensive instead of an asset.</li>
+<li><strong>Reuse before authoring.</strong> The brief must record what was searched in the existing bank and why it was insufficient. Target: at least 40% of Tier C volume served from reuse.</li>
+<li><strong>Single source of numbers.</strong> Vacancy counts, dates, fees and cut-offs come from the radar record, not from the author's memory or a competitor's page.</li>
+<li><strong>Versioning.</strong> Published items are never edited in place; a correction creates v2 with a changelog line and, where the item is date-bearing, a visible "updated on" stamp.</li>
+</ul>
+</section>
+
+<section class="card" id="pipeline"><h2>5. Production pipeline &amp; service levels <span class="step">HOW WORK MOVES</span></h2>
+<p class="lede">One pipeline for all six content types. The stage names are the same everywhere so that a single board shows the whole department, and so that "where is it?" always has a one-word answer.</p>
+
+<div class="flow">
+<div class="stage"><span class="n">STAGE 0</span><b>Brief &amp; allocate</b><span class="who">Head of Content</span><span class="sla">SLA 4 h</span></div>
+<div class="stage"><span class="n">STAGE 1</span><b>Create</b><span class="who">Author / subject SME</span><span class="sla">SLA 1&ndash;3 days</span></div>
+<div class="stage"><span class="n">STAGE 2</span><b>Audit</b><span class="who">Second SME (never the author)</span><span class="sla">SLA 24 h</span></div>
+<div class="stage"><span class="n">STAGE 3</span><b>Correct</b><span class="who">Original author</span><span class="sla">SLA 12 h</span></div>
+<div class="stage"><span class="n">STAGE 4</span><b>Final review</b><span class="who">Language &amp; format editor</span><span class="sla">SLA 12 h</span></div>
+<div class="stage"><span class="n">STAGE 5</span><b>Approve</b><span class="who">Head of Content</span><span class="sla">SLA 6 h</span></div>
+<div class="stage"><span class="n">STAGE 6</span><b>Publish</b><span class="who">Publishing ops</span><span class="sla">SLA 6 h, to slot</span></div>
+<div class="stage"><span class="n">STAGE 7</span><b>Monitor</b><span class="who">Analytics</span><span class="sla">7 / 30 day reads</span></div>
+</div>
+
+<div class="tablewrap"><table>
+<thead><tr><th>Stage</th><th>Entry criteria</th><th>What happens</th><th>Exit criteria</th><th>Rejects to</th></tr></thead>
+<tbody>
+<tr><td><strong>0. Brief &amp; allocate</strong></td><td>Cycle is on the radar and tiered</td><td>Blueprint, quantity, language set, due dates and named owner recorded; reuse search logged</td><td>Work item exists in the tracker with all metadata and a commission-by date</td><td>&mdash;</td></tr>
+<tr><td><strong>1. Create</strong></td><td>Brief accepted by the author</td><td>Authoring against the blueprint, with the key and full solution written at the same time as the question</td><td>Self-check sheet signed; every question has a key and a worked solution</td><td>Back to brief if the blueprint is unworkable</td></tr>
+<tr><td><strong>2. Audit</strong></td><td>Item is complete, not partial</td><td>Independent technical and factual audit against the gate list in section 7; each defect logged with a severity</td><td>Audit sheet filed with a defect count and a pass / fail call</td><td>Fail &rarr; stage 3</td></tr>
+<tr><td><strong>3. Correct</strong></td><td>Audit sheet with at least one defect</td><td>Author fixes and replies to every logged defect individually &mdash; a defect is never closed silently</td><td>All defects marked resolved or formally contested</td><td>Returns to stage 2 for re-audit</td></tr>
+<tr><td><strong>4. Final review</strong></td><td>Zero open critical or major defects</td><td>Language, bilingual parity, house style, formatting, print/screen readiness, metadata completeness</td><td>Editor sign-off recorded</td><td>Minor fixes done in place; substantive issues &rarr; stage 3</td></tr>
+<tr><td><strong>5. Approve</strong></td><td>Editor sign-off present</td><td>Release decision: scope, timing, pricing and risk. This is an accountability gate, not a fifth proofread</td><td>Named approver, timestamp, release slot</td><td>Rejection returns to stage 1 with a written reason</td></tr>
+<tr><td><strong>6. Publish</strong></td><td>Approved and slotted</td><td>Load to the engine / library / press / channel; scheduled, not published ad hoc; post-publish smoke check</td><td>Live at the declared time and verified by a second pair of eyes</td><td>Rollback to draft on a failed smoke check</td></tr>
+<tr><td><strong>7. Monitor</strong></td><td>Item is live</td><td>Attempt rate, completion, difficulty realisation vs. intent, reported errors, revenue where applicable</td><td>7-day and 30-day reads attached to the item record</td><td>Triggers a correction item if defects surface in the field</td></tr>
+</tbody></table></div>
+
+<h3>Loop control</h3>
+<ul>
+<li><strong>Two-loop limit.</strong> An item may go around create &rarr; audit &rarr; correct twice. A third failed audit escalates to the Head of Content, who either reassigns the item or kills it. Endless polishing is the commonest way a content calendar quietly slips.</li>
+<li><strong>Auditor independence.</strong> The auditor is never the author and never reports to the author. On a small desk, cross-audit between subject leads; the rule that matters is that no one signs off their own work.</li>
+<li><strong>Emergency lane.</strong> Event-driven items (shift analysis, answer key, notification explainer) run a compressed pipeline: create &rarr; audit &rarr; approve, with the editor review folded into the audit and a 3-hour total SLA. They are marked <em>provisional</em> on publication and re-reviewed within 24 hours.</li>
+<li><strong>Stop-the-line.</strong> A factual error found in live content outranks all scheduled work. Correction is published within 6 hours, the item is versioned, and the defect is entered in the trend review.</li>
+</ul>
+
+<h3>RACI</h3>
+<div class="tablewrap"><table>
+<thead><tr><th>Activity</th><th>Responsible</th><th>Accountable</th><th>Consulted</th><th>Informed</th></tr></thead>
+<tbody>
+<tr><td>Radar upkeep &amp; tiering</td><td>Research desk</td><td>Head of Content</td><td>Marketing, Academics</td><td>All</td></tr>
+<tr><td>Quantity &amp; calendar commitment</td><td>Head of Content</td><td>Head of Content</td><td>Subject leads, Ops</td><td>Management</td></tr>
+<tr><td>Authoring</td><td>Author / SME</td><td>Subject lead</td><td>Test desk</td><td>Head of Content</td></tr>
+<tr><td>Audit</td><td>Second SME</td><td>Subject lead</td><td>Author</td><td>Head of Content</td></tr>
+<tr><td>Final review</td><td>Editor</td><td>Head of Content</td><td>Design, Translation</td><td>Author</td></tr>
+<tr><td>Approval</td><td>Head of Content</td><td>Head of Content</td><td>Marketing (for promo), Finance (for priced items)</td><td>All</td></tr>
+<tr><td>Publish &amp; schedule</td><td>Publishing ops</td><td>Head of Content</td><td>Tech, Print vendor</td><td>Marketing, Support</td></tr>
+<tr><td>Post-publish correction</td><td>Author</td><td>Head of Content</td><td>Auditor</td><td>Support, Marketing</td></tr>
+</tbody></table></div>
+</section>
+
+<section class="card" id="calendar"><h2>6. The T&minus; publishing ladder <span class="step">DEFAULT SCHEDULE</span></h2>
+<p class="lede">Offsets are counted back from the first exam shift. The planner in section 3 turns these into calendar dates for a selected cycle. Commission-by dates sit one pipeline length earlier than the publish date shown here.</p>
+<div class="tablewrap"><table>
+<thead><tr><th>Offset</th><th>What publishes</th><th>Types</th><th>Why then</th></tr></thead>
+<tbody>
+<tr><td><strong>Calendar day</strong></td><td>Cycle explainer, expected-vacancy view, "start now" study plan</td><td>Others, Promo</td><td>First-mover capture of search and social interest before competitors</td></tr>
+<tr><td><strong>Notification day (T&minus;4 h)</strong></td><td>Notification explainer, eligibility &amp; fee table, syllabus PDF, apply-link post</td><td>Others, Reference, Promo</td><td>Highest single-day traffic of the entire cycle</td></tr>
+<tr><td><strong>T&minus;120 to T&minus;90</strong></td><td>Reference library build-out, foundation topic quizzes, kit announcement</td><td>Reference, Online mock, Promo</td><td>Serious aspirants pick a provider in this window</td></tr>
+<tr><td><strong>T&minus;90</strong></td><td>Study material kit in stock; sectional mock series opens; first offline OMR mock</td><td>Kit, Online mock, Offline mock</td><td>Print and dispatch path needs the runway</td></tr>
+<tr><td><strong>T&minus;60</strong></td><td>Full-length mock series opens, weekly cadence begins; mid-cycle campaign</td><td>Online mock, Promo</td><td>Aspirants switch from learning to testing at roughly two months</td></tr>
+<tr><td><strong>T&minus;45</strong></td><td>Offline mocks go fortnightly; previous-year paper sets; sectional intensification</td><td>Offline mock, Online mock</td><td>Exam-hall stamina and OMR discipline need repetition</td></tr>
+<tr><td><strong>T&minus;30</strong></td><td><strong>Print lock.</strong> Revision capsules, formula and one-liner sheets, CA compilation for the exam window</td><td>Reference, Others</td><td>Nothing that requires press time can be commissioned after this point</td></tr>
+<tr><td><strong>T&minus;15</strong></td><td>Admit-card guide, centre and document checklist, predicted-paper mock, strategy live session</td><td>Others, Online mock, Promo</td><td>Anxiety peaks; practical guidance outperforms new theory</td></tr>
+<tr><td><strong>T&minus;7</strong></td><td>Last-mile capsules, high-yield revision, do's and don'ts, final full-length mock</td><td>Reference, Online mock</td><td>Retention window for revision material</td></tr>
+<tr><td><strong>T&minus;2</strong></td><td><strong>Content freeze.</strong> Exam-day instruction asset only</td><td>Others</td><td>New material this late harms more than it helps</td></tr>
+<tr><td><strong>Exam day +3 h per shift</strong></td><td>Shift-wise analysis, good-attempt guidance, memory-based questions</td><td>Others</td><td>Perishable within hours; the single strongest organic acquisition asset</td></tr>
+<tr><td><strong>T+1 to T+3</strong></td><td>Answer key, response-sheet walkthrough, cut-off view, next-stage material opens</td><td>Others, Online mock, Reference</td><td>Converts the prelims audience into the Mains audience</td></tr>
+<tr><td><strong>Result day</strong></td><td>Result explainer, selection stories, next-stage campaign, cycle retrospective</td><td>Promo, Others</td><td>Proof of outcomes drives the next cycle's enrolment</td></tr>
+</tbody></table></div>
+</section>
+
+<section class="card" id="qa"><h2>7. Audit gates <span class="step">QUALITY</span></h2>
+<p class="lede">The audit at stage 2 is this list, not a general impression. Severity decides the route: a <em>critical</em> defect blocks publication outright, a <em>major</em> defect must be fixed before final review, a <em>minor</em> defect may be waived by the editor with a note.</p>
+<div class="progress-wrap"><div class="progress-track"><div class="progress-bar" id="qaBar"></div></div><span class="progress-label" id="qaLabel">0 / 0</span><button class="btn" id="qaReset" type="button">Reset</button></div>
+<div class="checklist" id="qaList"></div>
+<p class="note">Ticks are stored in this browser only, as a working aid. The system of record is the audit sheet attached to the item in the production tracker.</p>
+
+<h3>Defect severity</h3>
+<div class="tablewrap"><table>
+<thead><tr><th>Severity</th><th>Examples</th><th>Route</th><th>Target rate</th></tr></thead>
+<tbody>
+<tr><td><span class="pill a">Critical</span></td><td>Wrong answer key, question outside the notified syllabus, factual error in a date or vacancy figure, copied content, wrong marking scheme, bilingual meaning mismatch</td><td>Blocks publication; if already live, corrected within 6 h</td><td class="num">0 per 100 items</td></tr>
+<tr><td><span class="pill b">Major</span></td><td>Ambiguous option, duplicate of an item published within 12 months, difficulty far from the declared band, missing solution, unsourced current-affairs claim</td><td>Must clear before stage 4</td><td class="num">&le; 3 per 100</td></tr>
+<tr><td><span class="pill c">Minor</span></td><td>Typography, spacing, house-style deviation, tag refinement, image quality</td><td>Editor may waive with a note</td><td class="num">&le; 12 per 100</td></tr>
+</tbody></table></div>
+</section>
+
+<section class="card" id="dash"><h2>8. Information dashboard — blueprint <span class="step">THE SPECIFICATION</span></h2>
+<p class="lede">One dashboard, seven screens, four layers. It answers four questions and is designed to answer nothing else: <strong>what is coming</strong>, <strong>are we covered</strong>, <strong>is it moving</strong>, and <strong>is it any good</strong>. Every panel below names its source, its refresh and the decision it drives &mdash; a panel that drives no decision does not get built.</p>
+
+<h3>8.1 Architecture</h3>
+<div class="tablewrap"><table>
+<thead><tr><th>Layer</th><th>Contents</th><th>Owner</th><th>Update path</th></tr></thead>
+<tbody>
+<tr><td><strong>L0 &mdash; Sources</strong></td><td>Official portals (SSC, IBPS, SBI, RRB zonal, RBI, state boards); production tracker; test engine; content library / CMS; print vendor and warehouse; CRM and sales; web and app analytics; ad platforms; support ticket queue</td><td>Research desk, Ops, Tech</td><td>Portal watch is a named daily duty with a logged timestamp; systems push on a schedule</td></tr>
+<tr><td><strong>L1 &mdash; Model</strong></td><td>Eight entities: <code>exam</code>, <code>cycle</code>, <code>content_item</code>, <code>production_task</code>, <code>review_event</code>, <code>release_slot</code>, <code>consumption</code>, <code>person</code></td><td>Tech + Head of Content</td><td>Schema change needs sign-off; tags are a controlled vocabulary, not free text</td></tr>
+<tr><td><strong>L2 &mdash; Metrics</strong></td><td>The 14 measures in 8.3, each with one written formula and one owner. No metric exists in two definitions</td><td>Head of Content</td><td>Definitions reviewed quarterly and versioned</td></tr>
+<tr><td><strong>L3 &mdash; Surfaces</strong></td><td>Seven screens (8.2), role-filtered; plus alerts pushed to the channel where the owner already works</td><td>Head of Content</td><td>New panel requires a named decision it will change</td></tr>
+</tbody></table></div>
+
+<h3>8.2 Screens</h3>
+<div class="tablewrap"><table>
+<thead><tr><th>#</th><th>Screen</th><th>Primary user</th><th>Panels</th><th>Refresh</th><th>Decision it drives</th></tr></thead>
+<tbody>
+<tr><td class="num">1</td><td><strong>Executive overview</strong></td><td>Management, Head of Content</td><td>Coverage index by tier; on-time publication %; first-pass yield; open critical defects; cycles at risk; month-to-date output vs. plan; cost per item</td><td>Hourly</td><td>Where to move capacity this week</td></tr>
+<tr><td class="num">2</td><td><strong>Vacancy radar</strong></td><td>Research desk, Marketing</td><td>Cycle cards with T&minus; countdown; notification-watch freshness; vacancy counts; new-notification feed; stale-row alert; tier distribution</td><td>15 min during notification season</td><td>What to open a cycle for, and when</td></tr>
+<tr><td class="num">3</td><td><strong>Production board</strong></td><td>Subject leads, Ops</td><td>Kanban by pipeline stage; WIP per person; ageing items; SLA breaches; blocked list; re-audit loop counter</td><td>Real time</td><td>What each person picks up next</td></tr>
+<tr><td class="num">4</td><td><strong>Quality board</strong></td><td>Auditors, Head of Content</td><td>Defect density by author, subject and type; severity mix; first-pass yield trend; reopened-in-field defects; two-loop escalations</td><td>Daily</td><td>Who needs coaching; which blueprint is wrong</td></tr>
+<tr><td class="num">5</td><td><strong>Release calendar</strong></td><td>Ops, Marketing</td><td>Month grid of scheduled slots; T&minus; ladder adherence per cycle; freeze and print-lock markers; slot collisions</td><td>Hourly</td><td>What ships this week, and what collides</td></tr>
+<tr><td class="num">6</td><td><strong>Consumption &amp; outcome</strong></td><td>Head of Content, Marketing</td><td>Attempt and completion rate per mock; average score vs. intended difficulty; library reads; kit sales and returns; support tickets per item; enrolment attributed to cycle</td><td>Daily</td><td>What to make more of, and what to retire</td></tr>
+<tr><td class="num">7</td><td><strong>Cost &amp; inventory</strong></td><td>Ops, Finance</td><td>Person-days consumed vs. planned; print cost per kit; warehouse stock and days-of-cover; dispatch status per centre; reprint trigger list</td><td>Daily</td><td>Reprint, dispatch and hiring calls</td></tr>
+</tbody></table></div>
+
+<h3>8.3 Metric dictionary</h3>
+<div class="tablewrap"><table>
+<thead><tr><th>Metric</th><th>Formula</th><th>Target</th><th>Screen</th></tr></thead>
+<tbody>
+<tr><td>Coverage index</td><td>published items &divide; planned items for the cycle stage-to-date</td><td>&ge; 95% at every T&minus; gate</td><td>1, 2</td></tr>
+<tr><td>Syllabus coverage</td><td>distinct syllabus nodes with at least one live item &divide; total nodes in the notification</td><td>100% by T&minus;45</td><td>1, 4</td></tr>
+<tr><td>On-time publication</td><td>items live in their declared slot &divide; items scheduled</td><td>&ge; 95%</td><td>1, 5</td></tr>
+<tr><td>Pipeline cycle time</td><td>median hours, stage 1 entry &rarr; stage 6 exit</td><td>&le; 144 h Tier A, &le; 96 h Tier B</td><td>3</td></tr>
+<tr><td>Stage SLA breach rate</td><td>tasks exceeding stage SLA &divide; tasks completed in stage</td><td>&le; 10%</td><td>3</td></tr>
+<tr><td>First-pass yield</td><td>items clearing audit with zero critical or major defects &divide; items audited</td><td>&ge; 85%</td><td>1, 4</td></tr>
+<tr><td>Defect density</td><td>defects logged &divide; 100 questions or 100 pages</td><td>&le; 15 total, 0 critical</td><td>4</td></tr>
+<tr><td>Rework rate</td><td>items entering stage 3 more than once &divide; items audited</td><td>&le; 12%</td><td>3, 4</td></tr>
+<tr><td>Field defect rate</td><td>defects reported after publication &divide; live items</td><td>&le; 1%</td><td>4, 6</td></tr>
+<tr><td>WIP per author</td><td>open items in stages 1&ndash;4 per person</td><td>&le; 5</td><td>3</td></tr>
+<tr><td>Reuse ratio</td><td>items served from the existing bank &divide; items delivered</td><td>&ge; 40% on Tier C</td><td>1, 6</td></tr>
+<tr><td>Attempt rate</td><td>unique attempts &divide; eligible learners, per mock</td><td>&ge; 35% Tier A</td><td>6</td></tr>
+<tr><td>Difficulty realisation</td><td>|intended difficulty band &minus; observed band from score distribution|</td><td>within one band on 90% of tests</td><td>4, 6</td></tr>
+<tr><td>Cost per delivered item</td><td>(person-days &times; loaded day rate + direct print cost) &divide; items</td><td>tracked, trending down per tier</td><td>1, 7</td></tr>
+</tbody></table></div>
+
+<h3>8.4 Core table — <code>content_item</code></h3>
+<div class="formula">content_item
+  item_id           PK, immutable
+  cycle_id          FK -> cycle          exam + year + stage
+  type              enum: online_mock | offline_mock | kit | reference | promo | other
+  sub_type          e.g. full_length, sectional, topic_quiz, analysis, answer_key
+  title, language   language: hi | en | regional_xx
+  subject, topic    controlled vocabulary, mapped to the notified syllabus node
+  difficulty        easy | moderate | hard   (intended)
+  blueprint_ref     FK -> paper blueprint, for tests
+  author_id         FK -> person
+  auditor_id        FK -> person           enforced <> author_id
+  editor_id, approver_id
+  stage             0..7 pipeline stage
+  loop_count        int, escalates at 2
+  planned_publish   timestamp, from the T- ladder
+  actual_publish    timestamp
+  version           int, with changelog
+  reuse_source_id   nullable FK -> content_item
+  effort_days       decimal, logged not estimated
+  status            draft | in_audit | correcting | in_review | approved | live | retired
+  created_at, updated_at</div>
+<p class="note">The two fields most often skipped and most needed later are <code>effort_days</code> (logged, not estimated &mdash; it is what recalibrates the planner) and <code>reuse_source_id</code> (it is what proves the library is an asset). The constraint <code>auditor_id &lt;&gt; author_id</code> should be enforced in the database, not left to discipline.</p>
+
+<h3>8.5 Alerts</h3>
+<div class="tablewrap"><table>
+<thead><tr><th>Trigger</th><th>Severity</th><th>Goes to</th><th>Expected action</th></tr></thead>
+<tbody>
+<tr><td>New notification or calendar detected on a watched portal</td><td>High</td><td>Head of Content, Research, Marketing</td><td>Cycle-opening meeting within 48 h; explainer live within 4 h</td></tr>
+<tr><td>Radar row unverified for &gt; 14 days</td><td>Medium</td><td>Research desk</td><td>Re-verify at source; date-bearing assets blocked meanwhile</td></tr>
+<tr><td>Coverage below 95% at a T&minus; gate</td><td>High</td><td>Head of Content, subject lead</td><td>Re-allocate capacity or cut scope explicitly</td></tr>
+<tr><td>Stage SLA breached by &gt; 24 h</td><td>Medium</td><td>Stage owner, subject lead</td><td>Unblock or reassign the same day</td></tr>
+<tr><td>Critical defect logged, or any defect found in live content</td><td>Critical</td><td>Head of Content, author, support</td><td>Stop-the-line; correction live within 6 h</td></tr>
+<tr><td>Third audit loop on one item</td><td>Medium</td><td>Head of Content</td><td>Reassign or kill the item; do not keep polishing</td></tr>
+<tr><td>Kit stock below 15% of cycle forecast, or dispatch not confirmed at T&minus;20</td><td>High</td><td>Ops, Finance</td><td>Reprint order or centre re-allocation</td></tr>
+<tr><td>Attempt rate below half the tier target 72 h after release</td><td>Low</td><td>Marketing, Head of Content</td><td>Re-promote, or review the release slot</td></tr>
+<tr><td>Print lock at T&minus;30 approaching with an unapproved print item</td><td>High</td><td>Head of Content, Ops</td><td>Approve, expedite, or drop from the cycle</td></tr>
+</tbody></table></div>
+
+<h3>8.6 Wireframe — executive overview</h3>
+<p class="note">Indicative layout with sample figures, to be read as a specification of arrangement and hierarchy, not as real data.</p>
+<div class="wire">
+<div class="row" style="grid-template-columns:repeat(4,1fr)">
+<div class="wbox"><b>Coverage index</b><small>All live cycles, stage-to-date</small><div style="font-family:var(--font-mono);font-size:21px;color:var(--good)">92%</div><div class="bar"><i class="g" style="width:92%"></i></div></div>
+<div class="wbox"><b>On-time publication</b><small>Rolling 30 days</small><div style="font-family:var(--font-mono);font-size:21px;color:#d8a72a">88%</div><div class="bar"><i class="y" style="width:88%"></i></div></div>
+<div class="wbox"><b>First-pass yield</b><small>Audited this month</small><div style="font-family:var(--font-mono);font-size:21px;color:var(--good)">86%</div><div class="bar"><i class="g" style="width:86%"></i></div></div>
+<div class="wbox"><b>Open critical defects</b><small>Blocking publication</small><div style="font-family:var(--font-mono);font-size:21px;color:var(--bad)">2</div><div class="bar"><i class="r" style="width:12%"></i></div></div>
+</div>
+<div class="row" style="grid-template-columns:2fr 1fr">
+<div class="wbox"><b>Cycles at risk &mdash; coverage vs. T&minus; gate</b><small>Sorted by days to exam</small>
+<div style="margin-top:8px;font-size:11.5px">
+<div style="margin:7px 0">SSC GD Constable &mdash; T&minus;127 &nbsp;<span class="pill a">Tier A</span><div class="bar"><i class="g" style="width:96%"></i></div></div>
+<div style="margin:7px 0">IBPS Clerk Prelims &mdash; T&minus;25 &nbsp;<span class="pill a">Tier A</span><div class="bar"><i class="y" style="width:81%"></i></div></div>
+<div style="margin:7px 0">MP Police Constable &mdash; T&minus;65 &nbsp;<span class="pill b">Tier B</span><div class="bar"><i class="r" style="width:58%"></i></div></div>
+<div style="margin:7px 0">IBPS RRB Officer I &mdash; T&minus;67 &nbsp;<span class="pill b">Tier B</span><div class="bar"><i class="g" style="width:93%"></i></div></div>
+</div>
+<div class="legend"><span class="l1">&ge; 95% on plan</span><span class="l2">85&ndash;94% watch</span><span class="l3">&lt; 85% intervene</span></div>
+</div>
+<div class="wbox"><b>Output vs. plan, MTD</b><small>Items delivered</small>
+<div style="margin-top:8px;font-size:11.5px">
+<div>Online mocks <span style="float:right;font-family:var(--font-mono)">148 / 160</span><div class="bar"><i class="g" style="width:93%"></i></div></div>
+<div style="margin-top:7px">Reference <span style="float:right;font-family:var(--font-mono)">41 / 44</span><div class="bar"><i class="g" style="width:93%"></i></div></div>
+<div style="margin-top:7px">Offline OMR <span style="float:right;font-family:var(--font-mono)">3 / 6</span><div class="bar"><i class="r" style="width:50%"></i></div></div>
+<div style="margin-top:7px">Promo <span style="float:right;font-family:var(--font-mono)">57 / 60</span><div class="bar"><i class="g" style="width:95%"></i></div></div>
+</div></div>
+</div>
+</div>
+
+<h3>8.7 Wireframe — production board</h3>
+<div class="kan">
+<div class="kancol"><h5>Brief <span>4</span></h5>
+<div class="kancard"><b>CGL 2027 blueprint</b><span>Head &middot; due 17 Sep</span></div>
+<div class="kancard"><b>GD reasoning bank</b><span>Subject lead &middot; due 18 Sep</span></div>
+</div>
+<div class="kancol"><h5>Create <span>11</span></h5>
+<div class="kancard"><b>IBPS Clerk FLT-14</b><span>A. Sharma &middot; 2 d left</span></div>
+<div class="kancard risk"><b>MP Police GK set 6</b><span>R. Verma &middot; due today</span></div>
+<div class="kancard"><b>CA capsule &mdash; Sep</b><span>CA desk &middot; 3 d left</span></div>
+</div>
+<div class="kancol"><h5>Audit <span>7</span></h5>
+<div class="kancard late"><b>RRB NTPC sectional 9</b><span>SLA +31 h</span></div>
+<div class="kancard"><b>SBI Clerk FLT-08</b><span>due in 9 h</span></div>
+</div>
+<div class="kancol"><h5>Correct <span>5</span></h5>
+<div class="kancard"><b>GD Maths set 3</b><span>loop 2 of 2</span></div>
+</div>
+<div class="kancol"><h5>Review <span>6</span></h5>
+<div class="kancard"><b>Kit booklet 4 (HI)</b><span>bilingual parity</span></div>
+</div>
+<div class="kancol"><h5>Approve <span>3</span></h5>
+<div class="kancard"><b>OMR mock 5 proof</b><span>print lock T&minus;30</span></div>
+</div>
+<div class="kancol"><h5>Publish <span>9</span></h5>
+<div class="kancard"><b>Weekly CA PDF</b><span>slot Sat 18:00</span></div>
+</div>
+</div>
+<p class="note" style="margin-top:10px">Column WIP limits are enforced, not advisory: Create 5 per author, Audit 8 per auditor. A full column stops intake &mdash; that is the mechanism that keeps cycle time honest.</p>
+
+<h3>8.8 Role-based views</h3>
+<div class="tablewrap"><table>
+<thead><tr><th>Role</th><th>Lands on</th><th>Can edit</th><th>Cannot see</th></tr></thead>
+<tbody>
+<tr><td>Management</td><td>Screen 1 only, monthly rollup</td><td>Nothing</td><td>Individual author names on the quality board</td></tr>
+<tr><td>Head of Content</td><td>Screen 1, with drill-through to all</td><td>Tiering, plan, approvals, metric definitions</td><td>&mdash;</td></tr>
+<tr><td>Subject lead</td><td>Screen 3 filtered to their subject</td><td>Allocation and due dates in their scope</td><td>Cost and salary-derived figures</td></tr>
+<tr><td>Author / SME</td><td>Their own task list</td><td>Their items up to stage 2 handoff</td><td>Other authors' defect records</td></tr>
+<tr><td>Auditor / editor</td><td>Their queue, oldest first</td><td>Defect logs, sign-offs</td><td>Cost panels</td></tr>
+<tr><td>Publishing ops</td><td>Screens 5 and 7</td><td>Slots, dispatch, stock</td><td>Draft content before approval</td></tr>
+<tr><td>Marketing</td><td>Screens 2 and 6</td><td>Campaign fields</td><td>Unapproved content, defect detail</td></tr>
+</tbody></table></div>
+
+<h3>8.9 Implementation options</h3>
+<div class="tablewrap"><table>
+<thead><tr><th>Option</th><th>Stack</th><th>Stands up in</th><th>Choose when</th><th>Limits</th></tr></thead>
+<tbody>
+<tr><td><strong>A. Spreadsheet-first</strong></td><td>Google Sheets as the tracker + Looker Studio for screens 1, 2, 5</td><td>1&ndash;2 weeks</td><td>You need the operating discipline before the tooling; team under about 25</td><td>No WIP enforcement, no <code>auditor &lt;&gt; author</code> constraint, breaks past a few thousand rows</td></tr>
+<tr><td><strong>B. Work-management platform</strong></td><td>Notion / ClickUp / Jira for the pipeline + its native dashboards, with a nightly export for screens 6 and 7</td><td>3&ndash;5 weeks</td><td>The bottleneck is workflow and accountability, not analysis</td><td>Weak at consumption analytics; per-seat cost grows</td></tr>
+<tr><td><strong>C. Warehouse-backed</strong></td><td>Postgres or BigQuery holding the eight entities + Metabase or Superset + scheduled jobs from the test engine, CMS and CRM</td><td>8&ndash;12 weeks</td><td>You need item-level economics, reuse tracking and difficulty realisation</td><td>Needs an owner with SQL and a data-quality routine</td></tr>
+</tbody></table></div>
+<div class="callout soft"><strong>Recommendation.</strong> Start at A for one flagship cycle, because the schema and the metric definitions &mdash; not the tool &mdash; are what usually fail first, and a spreadsheet exposes that within a fortnight. Move the pipeline to B once the stage definitions have survived a full cycle, and add C only when the questions being asked are about cost per item, reuse and difficulty realisation, which A and B genuinely cannot answer.</div>
+</section>
+
+<section class="card" id="build"><h2>9. Standing up the system <span class="step">90-DAY PLAN</span></h2>
+<div class="tablewrap"><table>
+<thead><tr><th>Phase</th><th>Days</th><th>Deliverable</th><th>Done when</th></tr></thead>
+<tbody>
+<tr><td><strong>0. Baseline</strong></td><td>1&ndash;10</td><td>Radar populated and verified for every cycle in the next 12 months; tiering agreed; existing library audited and tagged</td><td>Every live cycle has a verified row and a tier</td></tr>
+<tr><td><strong>1. Definitions</strong></td><td>7&ndash;20</td><td>The 14 metrics written down with one formula each; the eight entities and the <code>content_item</code> schema agreed; controlled vocabulary for subject and topic</td><td>Two people compute the same number from the same definition</td></tr>
+<tr><td><strong>2. Pipeline</strong></td><td>15&ndash;35</td><td>Stages 0&ndash;7 running for one flagship cycle, with SLAs, the two-loop rule and auditor independence enforced</td><td>One full cycle of items moves end to end with timestamps at every stage</td></tr>
+<tr><td><strong>3. Dashboard v1</strong></td><td>30&ndash;55</td><td>Option A build: screens 1, 2, 3, 5 on the tracker data</td><td>The Monday review is run off the dashboard, not off a slide deck</td></tr>
+<tr><td><strong>4. Quality loop</strong></td><td>45&ndash;70</td><td>Audit gates in use, defect severity logged, first-pass yield and defect density trending by author and subject</td><td>Coaching decisions are made from the quality board</td></tr>
+<tr><td><strong>5. Consumption</strong></td><td>60&ndash;80</td><td>Test engine and library analytics joined to <code>item_id</code>; screens 6 and 7 live</td><td>Attempt rate and difficulty realisation available per test</td></tr>
+<tr><td><strong>6. Recalibrate</strong></td><td>80&ndash;90</td><td>Effort constants in the planner replaced with logged actuals; tier capacity shares reviewed; alert thresholds tuned</td><td>Forecast error on the next cycle is within 15%</td></tr>
+</tbody></table></div>
+<div class="callout"><strong>The two failure modes to guard against.</strong> First, building screens before the metric definitions are written down &mdash; you get a dashboard nobody trusts because every panel can be argued with. Second, tracking production but never joining it to consumption, so the team optimises for items shipped rather than items attempted. Both are cheap to prevent at phase 1 and expensive to retrofit at phase 5.</div>
+</section>
+
+<section class="card sources" id="sources"><h2>Sources &amp; verification points</h2>
+<h4>Official portals — the only authority for dates, vacancies and eligibility</h4>
+<ul>
+<li><a href="https://ssc.gov.in">ssc.gov.in</a> — Staff Selection Commission: calendar, notifications, CGL / CHSL / MTS / GD / CPO / Stenographer / JE / Selection Post</li>
+<li><a href="https://www.ibps.in">ibps.in</a> — IBPS: CRP calendar for PO, Clerk, SO and RRB</li>
+<li><a href="https://sbi.bank.in">sbi.bank.in</a> — State Bank of India recruitment (the 2026 cycle is being run from this domain, not the older careers path)</li>
+<li><a href="https://www.rrbapply.gov.in">rrbapply.gov.in</a> and the zonal RRB sites — Railway Recruitment Boards</li>
+<li><a href="https://www.rbi.org.in/Scripts/Vacancies.aspx">rbi.org.in vacancies</a> — RBI Grade B and Assistant</li>
+<li>State boards — <a href="https://uppbpb.gov.in">uppbpb.gov.in</a>, <a href="https://esb.mp.gov.in">esb.mp.gov.in</a>, <a href="https://csbc.bihar.gov.in">csbc.bihar.gov.in</a>, <a href="https://police.rajasthan.gov.in">police.rajasthan.gov.in</a>, <a href="http://upsssc.gov.in">upsssc.gov.in</a></li>
+</ul>
+<h4>Reconciliation pass, 15 Sep 2026 — secondary reporting only</h4>
+<div class="callout soft" style="margin-bottom:10px"><strong>What this pass was, and was not.</strong> The rows were cross-checked across independent secondary reports and several were corrected as a result: SSC CGL 2026 Tier 1 had moved to 30 Sep&ndash;30 Oct 2026 with 12,256 vacancies; RRB Group D and UP Police Constable had already sat their written exams and belong in the post-exam posture; IBPS PO and Clerk vacancies were published as 7,565 and 11,403; SSC MTS as 7,948; the RRB NTPC row was split into the three live CENs. None of this reached the issuing portals — every official site was unreachable from the environment this was prepared in — so the confidence column records reconciliation, not verification, and the at-source pass is still outstanding.</div>
+<ul>
+<li><a href="https://www.mahendras.org/blogs/ssc-exam-calendar">SSC exam calendar 2026&ndash;27 summary</a> and <a href="https://www.mahendras.org/blogs/ibps-exam-calendar">IBPS exam calendar 2026&ndash;27 summary</a></li>
+<li><a href="https://www.mahendras.org/blogs/ssc-gd-constable-notification">SSC GD Constable 2026&ndash;27 notification tracker</a></li>
+<li><a href="https://www.adda247.com/exams/bank/ibps-calendar-2026/">IBPS calendar 2026&ndash;27 dates</a>, <a href="https://www.adda247.com/ibps-clerk">IBPS Clerk 11,403 vacancies</a>, <a href="https://www.adda247.com/jobs/ibps-po/">IBPS PO 7,565 vacancies</a>, <a href="https://www.practicemock.com/blog/sbi-clerk-notification-2026/">SBI Clerk 2026 vacancy and dates</a>, <a href="https://www.practicemock.com/sbi-po-notification/">SBI PO 2026</a>, <a href="https://www.careerpower.in/sbi-clerk.html">SBI Clerk schedule (conflicting Mains date)</a></li>
+<li><a href="https://www.pw.live/ssc/exams/ssc-cgl-2026-exam">SSC CGL 2026 &mdash; 12,256 vacancies, Tier 1 30 Sep&ndash;30 Oct 2026</a>, <a href="https://www.mahendras.org/blogs/ssc-mts-notification">SSC MTS 2026 &mdash; 7,948 vacancies</a></li>
+<li><a href="https://www.pw.live/state-psc/exams/mp-police-constable-recruitment-2026">MP Police Constable 2026</a>, <a href="https://www.pw.live/state-govt-jobs/exams/up-police-constable">UP Police Constable</a>, <a href="https://competition.careers360.com/articles/rajasthan-police-recruitment">Rajasthan Police</a></li>
+<li><a href="https://www.class24.study/blog/railway-recruitment-2026-27-upcoming-rrb-group-d-alp-ntpc-technician-je-vacancies">Railway recruitment 2026&ndash;27 outlook</a>, <a href="https://www.pw.live/railway/exams/rrb-group-d-notification-2026">RRB Group D &mdash; 22,195 vacancies, CBT Aug 2026</a>, <a href="https://testbook.com/news/rrb-ntpc-new-vacancy-2026-27/">RRB NTPC &mdash; 5,165 approved for the next CEN</a>, <a href="https://testbook.com/rrb-ntpc-ug">RRB NTPC UG &mdash; 3,058 vacancies, CBT-2 17 Sep 2026</a></li>
+<li><a href="https://www.careerpower.in/blog/up-police-constable-exam-date-2026">UP Police Constable &mdash; written exam held 8&ndash;10 Jun 2026</a>, <a href="https://www.adda247.com/exams/mp/mp-police-constable-vacancy-2026-notification/">MP Police &mdash; 7,500 posts (6,800 GD + 700 SAF)</a></li>
+</ul>
+<p class="note">Aggregator reporting is used here to draw the shape of the year so that capacity can be planned in advance. It is not a substitute for the commission's own notice, and no figure from this column should ever appear on a published asset without a source check. Where two aggregators disagreed, the row is marked <span class="pill a">Disputed</span> rather than resolved by picking the more common answer.</p>
+</section>
+
+</div></main>
+<footer><div class="wrap">Exam Content Operations Blueprint &bull; prepared 15 Sep 2026 &bull; planning document, dates and vacancy figures require verification at the official portal before publication.</div></footer>
+<script>
+"use strict";
+var TODAY = new Date(2026,8,15); // 15 Sep 2026 — planning reference date
+var V = '15 Sep 2026';
+
+/* Planning snapshot. `date` is the anchor exam date used by the planner; every row is
+   tentative until re-verified on the official portal and the `verified` stamp is refreshed. */
+var EXAMS = [
+ {n:"IBPS PO / MT (CRP PO-XVI)",b:"IBPS",s:"Bank",t:"A",notif:"2026 cycle, applications closed",ex:"Prelims 22–23 Aug 2026 · Mains 4 Oct 2026",vac:"7,565",asp:25,st:"Live",date:"2026-10-04",src:"https://www.ibps.in",conf:"Reconciled",note:""},
+ {n:"IBPS Clerk / CSA (CRP CSA-XVI)",b:"IBPS",s:"Bank",t:"A",notif:"Notification out; correction window used",ex:"Prelims 10–11 Oct 2026 · Mains 27 Dec 2026",vac:"11,403",asp:30,st:"Live",date:"2026-10-10",src:"https://www.ibps.in",conf:"Reconciled",note:""},
+ {n:"IBPS RRB Officer Scale I",b:"IBPS",s:"Bank",t:"B",notif:"Apply 1–21 Sep 2026",ex:"Prelims 21–22 Nov 2026 · Mains 20 Dec 2026",vac:"≈5,523",asp:12,st:"Live",date:"2026-11-21",src:"https://www.ibps.in",conf:"Reconciled",note:"Vacancy figure seen in one source only — confirm on the CRP notice."},
+ {n:"IBPS RRB Office Assistant",b:"IBPS",s:"Bank",t:"B",notif:"Apply 1–21 Sep 2026",ex:"Prelims 6, 12–13 Dec 2026 · Mains 30 Jan 2027",vac:"To be announced",asp:15,st:"Live",date:"2026-12-06",src:"https://www.ibps.in",conf:"Reconciled",note:""},
+ {n:"IBPS SO (Specialist Officer)",b:"IBPS",s:"Bank",t:"C",notif:"Nov 2026 (expected)",ex:"Prelims Dec 2026 – Jan 2027",vac:"To be announced",asp:2,st:"Expected",date:"2026-12-27",src:"https://www.ibps.in",conf:"Calendar-only",note:""},
+ {n:"SBI PO",b:"SBI",s:"Bank",t:"A",notif:"2026 cycle released",ex:"Prelims Aug 2026 · Mains Sep 2026 · Interview Oct–Nov 2026",vac:"≈1,500",asp:20,st:"Live",date:"2026-09-30",src:"https://sbi.bank.in",conf:"Calendar-only",note:"Mains date not pinned in reconciliation — treat the anchor date as indicative."},
+ {n:"SBI Clerk (Junior Associate)",b:"SBI",s:"Bank",t:"A",notif:"Registration closed 31 Aug 2026 · backlog paper 16 Sep 2026",ex:"Prelims 26–27 Sep & 3 Oct 2026 · Mains 23 or 26 Nov 2026",vac:"9,766",asp:35,st:"Live",date:"2026-09-26",src:"https://sbi.bank.in",conf:"Disputed",note:"Sources give both 23 Nov and 26 Nov for Mains. Do not print either date until the SBI notice is checked."},
+ {n:"RBI Assistant",b:"RBI",s:"Bank",t:"B",notif:"Sep–Oct 2026 (expected)",ex:"Prelims Nov–Dec 2026",vac:"To be announced",asp:8,st:"Expected",date:"2026-12-01",src:"https://www.rbi.org.in/Scripts/Vacancies.aspx",conf:"Calendar-only",note:""},
+ {n:"RBI Grade B",b:"RBI",s:"Bank",t:"C",notif:"Mar–Jul 2027 (expected)",ex:"Phase 1 mid 2027",vac:"To be announced",asp:2,st:"Expected",date:"2027-06-15",src:"https://www.rbi.org.in/Scripts/Vacancies.aspx",conf:"Calendar-only",note:""},
+ {n:"NABARD Grade A",b:"NABARD",s:"Bank",t:"C",notif:"Mid 2027 (expected)",ex:"Phase 1 Aug–Sep 2027",vac:"To be announced",asp:1.5,st:"Expected",date:"2027-08-15",src:"https://www.nabard.org/careers.aspx",conf:"Calendar-only",note:""},
+ {n:"LIC AAO / ADO",b:"LIC",s:"Bank",t:"C",notif:"Irregular",ex:"To be announced",vac:"To be announced",asp:3,st:"Expected",date:"",src:"https://licindia.in/careers",conf:"Calendar-only",note:""},
+
+ {n:"SSC CGL 2026",b:"SSC",s:"SSC",t:"A",notif:"Notification out",ex:"Tier 1 CBE 30 Sep – 30 Oct 2026 · Tier 2 Dec 2026",vac:"12,256",asp:30,st:"Live",date:"2026-09-30",src:"https://ssc.gov.in",conf:"Reconciled",note:"Tier 1 moved out of the May–Jun window shown in the published calendar — the calendar is stale on this row."},
+ {n:"SSC CGL 2027",b:"SSC",s:"SSC",t:"A",notif:"Feb–Mar 2027 (expected)",ex:"Tier 1 mid 2027",vac:"To be announced",asp:30,st:"Expected",date:"2027-06-01",src:"https://ssc.gov.in",conf:"Calendar-only",note:""},
+ {n:"SSC CHSL 2026",b:"SSC",s:"SSC",t:"A",notif:"Per SSC calendar 2026–27",ex:"Tier 1 Jul–Sep 2026",vac:"To be announced",asp:25,st:"Post-exam",date:"2026-09-05",src:"https://ssc.gov.in",conf:"Calendar-only",note:"Calendar window only; actual Tier 1 dates not confirmed in reconciliation."},
+ {n:"SSC MTS & Havaldar 2026",b:"SSC",s:"SSC",t:"A",notif:"Scheduled 30 Jun 2026, postponed",ex:"CBE Sep–Nov 2026",vac:"7,948",asp:30,st:"Live",date:"2026-10-20",src:"https://ssc.gov.in",conf:"Reconciled",note:""},
+ {n:"SSC GD Constable 2026–27",b:"SSC / CAPF",s:"SSC",t:"A",notif:"30 Sep 2026 · apply 30 Sep – 31 Oct 2026",ex:"CBE Jan–Feb 2027",vac:"To be announced (25,487 last cycle)",asp:45,st:"Announced",date:"2027-01-20",src:"https://ssc.gov.in",conf:"Reconciled",note:""},
+ {n:"SSC CPO — SI in Delhi Police & CAPF",b:"SSC",s:"SSC",t:"B",notif:"Per SSC calendar",ex:"Paper 1 mid 2027",vac:"To be announced",asp:6,st:"Expected",date:"2027-06-20",src:"https://ssc.gov.in",conf:"Calendar-only",note:""},
+ {n:"SSC Stenographer Grade C & D",b:"SSC",s:"SSC",t:"C",notif:"Per SSC calendar",ex:"CBE 2027",vac:"To be announced",asp:1.5,st:"Expected",date:"2027-02-15",src:"https://ssc.gov.in",conf:"Calendar-only",note:""},
+ {n:"SSC JE (Civil / Mech / Elec)",b:"SSC",s:"SSC",t:"C",notif:"Per SSC calendar",ex:"Paper 1 2027",vac:"To be announced",asp:1.5,st:"Expected",date:"2027-03-15",src:"https://ssc.gov.in",conf:"Calendar-only",note:""},
+ {n:"SSC Selection Post (Phase)",b:"SSC",s:"SSC",t:"C",notif:"Annual phase notice",ex:"CBE 2027",vac:"Multiple categories",asp:2,st:"Expected",date:"2027-04-15",src:"https://ssc.gov.in",conf:"Calendar-only",note:""},
+ {n:"Delhi Police Constable / Head Constable",b:"SSC / DP",s:"SSC",t:"B",notif:"As announced",ex:"CBE 2027",vac:"To be announced",asp:7,st:"Expected",date:"2027-03-01",src:"https://ssc.gov.in",conf:"Calendar-only",note:""},
+
+ {n:"RRB Group D — Level 1 (CEN 09/2025)",b:"RRB",s:"Railway",t:"A",notif:"30 Jan 2026 · applications closed 9 Mar 2026",ex:"CBT 3–25 Aug 2026 · answer key out, result awaited",vac:"22,195",asp:40,st:"Post-exam",date:"2026-08-25",src:"https://www.rrbapply.gov.in",conf:"Reconciled",note:"Exam is over. Content posture is result, cut-off and next-stage, not prelims preparation."},
+ {n:"RRB NTPC Graduate (CEN 06/2025)",b:"RRB",s:"Railway",t:"A",notif:"2025–26 cycle",ex:"CBT stages running through 2026",vac:"5,810",asp:35,st:"Live",date:"",src:"https://www.rrbapply.gov.in",conf:"Reconciled",note:"Stage dates not pinned in reconciliation — check the zonal RRB notice before scheduling."},
+ {n:"RRB NTPC Under-Graduate (CEN 07/2025)",b:"RRB",s:"Railway",t:"A",notif:"2025–26 cycle",ex:"CBT-1 7 May – 21 Jun 2026 · CBT-2 17 Sep 2026",vac:"3,058",asp:30,st:"Live",date:"2026-09-17",src:"https://www.rrbapply.gov.in",conf:"Reconciled",note:""},
+ {n:"RRB NTPC 2026–27 (new CEN)",b:"RRB",s:"Railway",t:"A",notif:"CEN expected Oct 2026 or later",ex:"To be announced",vac:"5,165 approved (3,477 GR + 1,688 UG)",asp:35,st:"Expected",date:"",src:"https://www.rrbapply.gov.in",conf:"Reconciled",note:"Board approval figure, not a released CEN. Open the cycle on notification day."},
+ {n:"RRB ALP & Technician",b:"RRB",s:"Railway",t:"B",notif:"2026–27 (expected)",ex:"CBT-1 2027",vac:"10,000+ expected",asp:18,st:"Expected",date:"2027-03-10",src:"https://www.rrbapply.gov.in",conf:"Calendar-only",note:""},
+ {n:"RPF Constable / SI",b:"RPF",s:"Railway",t:"B",notif:"As announced",ex:"CBT 2027",vac:"To be announced",asp:10,st:"Expected",date:"2027-04-05",src:"https://www.rrbapply.gov.in",conf:"Calendar-only",note:""},
+ {n:"RRB JE",b:"RRB",s:"Railway",t:"C",notif:"As announced",ex:"CBT-1 2027",vac:"To be announced",asp:3,st:"Expected",date:"2027-05-10",src:"https://www.rrbapply.gov.in",conf:"Calendar-only",note:""},
+ {n:"RRB Paramedical & Ministerial",b:"RRB",s:"Railway",t:"C",notif:"As announced",ex:"CBT 2027",vac:"To be announced",asp:1.5,st:"Expected",date:"2027-06-10",src:"https://www.rrbapply.gov.in",conf:"Calendar-only",note:""},
+
+ {n:"UP Police Constable (Civil, PAC, SSF, Jail Warder)",b:"UPPRPB",s:"Police",t:"A",notif:"Applications 31 Dec 2025 – 30 Jan 2026",ex:"Written 8–10 Jun 2026 · result and PET/PST stage",vac:"32,679",asp:45,st:"Post-exam",date:"2026-06-10",src:"https://uppbpb.gov.in",conf:"Reconciled",note:"Written exam is over. Commission PET/PST and document-verification material, not written-paper practice."},
+ {n:"MP Police Constable (GD)",b:"MPESB",s:"Police",t:"B",notif:"9 Sep 2026 · apply 22 Sep – 6 Oct 2026",ex:"Tentatively 19 Nov 2026",vac:"7,500 (6,800 GD + 700 SAF)",asp:10,st:"Announced",date:"2026-11-19",src:"https://esb.mp.gov.in",conf:"Reconciled",note:""},
+ {n:"Bihar Police Constable / Operator",b:"CSBC",s:"Police",t:"B",notif:"2026 cycle",ex:"Written 2026–27",vac:"993 (Operator)",asp:12,st:"Announced",date:"2026-12-15",src:"https://csbc.bihar.gov.in",conf:"Calendar-only",note:""},
+ {n:"Rajasthan Police Constable",b:"Raj. Police",s:"Police",t:"B",notif:"2026 cycle",ex:"Written 2026–27",vac:"To be announced",asp:9,st:"Expected",date:"2027-02-01",src:"https://police.rajasthan.gov.in",conf:"Calendar-only",note:""},
+ {n:"UP Police SI / ASI",b:"UPPRPB",s:"Police",t:"B",notif:"As announced",ex:"Written 2027",vac:"To be announced",asp:8,st:"Expected",date:"2027-03-20",src:"https://uppbpb.gov.in",conf:"Calendar-only",note:""},
+ {n:"State Jail Warder / Forest Guard (various)",b:"State boards",s:"Police",t:"C",notif:"Rolling",ex:"Rolling",vac:"Varies by state",asp:4,st:"Expected",date:"",src:"",conf:"Calendar-only",note:""},
+
+ {n:"UPSSSC PET",b:"UPSSSC",s:"Other",t:"B",notif:"Annual",ex:"Written 2026–27",vac:"Gateway test for UPSSSC posts",asp:20,st:"Expected",date:"2026-12-20",src:"http://upsssc.gov.in",conf:"Calendar-only",note:""},
+ {n:"Bihar SSC Inter / Graduate Level",b:"BSSC",s:"Other",t:"C",notif:"As announced",ex:"Prelims 2027",vac:"To be announced",asp:6,st:"Expected",date:"2027-02-20",src:"https://bssc.bihar.gov.in",conf:"Calendar-only",note:""},
+ {n:"India Post GDS",b:"Dept. of Posts",s:"Other",t:"C",notif:"Merit-based cycles",ex:"No written exam",vac:"Cycle-wise",asp:8,st:"Expected",date:"",src:"https://indiapostgdsonline.gov.in",conf:"Calendar-only",note:""},
+ {n:"CTET / State TET",b:"CBSE / states",s:"Other",t:"C",notif:"Twice yearly",ex:"Dec 2026 · Jul 2027",vac:"Eligibility certification",asp:25,st:"Expected",date:"2026-12-13",src:"https://ctet.nic.in",conf:"Calendar-only",note:""}
+];
+
+/* ---------- helpers ---------- */
+function $(id){return document.getElementById(id)}
+function fmt(d){ if(!d) return "—";
+  return d.toLocaleDateString('en-IN',{day:'2-digit',month:'short',year:'numeric'}); }
+function parse(s){ if(!s) return null; var p=s.split('-'); return new Date(+p[0],+p[1]-1,+p[2]); }
+function daysBetween(a,b){ return Math.round((b-a)/86400000); }
+function addDays(d,n){ var x=new Date(d.getTime()); x.setDate(x.getDate()+n); return x; }
+function esc(s){ return String(s).replace(/[&<>"]/g,function(c){return({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'})[c]}); }
+
+/* ---------- 1. radar ---------- */
+function renderRadar(){
+  var st=$('fStream').value, ti=$('fTier').value, sg=$('fStatus').value,
+      cf=$('fConf').value, q=$('fSearch').value.trim().toLowerCase();
+  var rows=EXAMS.filter(function(e){
+    if(st && e.s!==st) return false;
+    if(ti && e.t!==ti) return false;
+    if(sg && e.st!==sg) return false;
+    if(cf && e.conf!==cf) return false;
+    if(q && (e.n+' '+e.b+' '+e.s).toLowerCase().indexOf(q)<0) return false;
+    return true;
+  });
+  var tb=$('radarTable').querySelector('tbody'); tb.innerHTML='';
+  rows.forEach(function(e){
+    var d=parse(e.date), dd=d?daysBetween(TODAY,d):null;
+    var countdown = dd===null ? '' : (dd>=0 ? ' <span class="pill">T&minus;'+dd+' d</span>' : ' <span class="pill">'+Math.abs(dd)+' d ago</span>');
+    var tr=document.createElement('tr');
+    var name = e.src ? '<a href="'+esc(e.src)+'" target="_blank" rel="noopener"><strong>'+esc(e.n)+'</strong></a>'
+                     : '<strong>'+esc(e.n)+'</strong>';
+    var note = e.note ? '<div class="rownote">'+esc(e.note)+'</div>' : '';
+    tr.innerHTML='<td>'+name+countdown+note+'</td>'+
+      '<td>'+esc(e.b)+'</td>'+
+      '<td><span class="pill '+e.t.toLowerCase()+'">'+e.t+'</span></td>'+
+      '<td>'+esc(e.notif)+'</td>'+
+      '<td>'+esc(e.ex)+'</td>'+
+      '<td class="num">'+esc(e.vac)+'</td>'+
+      '<td class="num">~'+e.asp+' lakh</td>'+
+      '<td>'+esc(e.st)+'</td>'+
+      '<td><span class="pill '+CONFCLS[e.conf]+'">'+esc(e.conf)+'</span></td>';
+    tb.appendChild(tr);
+  });
+  $('radarCount').textContent=rows.length+' of '+EXAMS.length+' cycles shown. Exam names link to the issuing portal — that is where the row gets confirmed. Aspirant scale is an order-of-magnitude planning estimate, not a measured figure.';
+
+  var tierA=rows.filter(function(e){return e.t==='A'}).length;
+  var live=rows.filter(function(e){return e.st==='Live'||e.st==='Announced'}).length;
+  var upcoming=rows.map(function(e){return parse(e.date)}).filter(function(d){return d&&d>=TODAY})
+                   .sort(function(a,b){return a-b});
+  var nextIn = upcoming.length? daysBetween(TODAY,upcoming[0])+' days' : '—';
+  $('radarKpis').innerHTML=
+    tile('Cycles on radar',rows.length,'')+
+    tile('Tier A flagships',tierA,tierA>6?'warn':'')+
+    tile('Live or announced',live,'pos')+
+    tile('Next exam in',nextIn,'')+
+    tile('Calendar-only rows',cnt(rows,'Calendar-only'),cnt(rows,'Calendar-only')?'warn':'pos')+
+    tile('Disputed rows',cnt(rows,'Disputed'),cnt(rows,'Disputed')?'neg':'pos')+
+    tile('Print-lock windows open',rows.filter(function(e){var d=parse(e.date);return d&&daysBetween(TODAY,d)>=30&&daysBetween(TODAY,d)<=120}).length,'')+
+    tile('In content freeze (T−2)',rows.filter(function(e){var d=parse(e.date);var n=d?daysBetween(TODAY,d):99;return n>=0&&n<=2}).length,'');
+}
+var CONFCLS={'Reconciled':'ok','Disputed':'a','Calendar-only':'b'};
+function cnt(rows,conf){ return rows.filter(function(e){return e.conf===conf}).length; }
+function tile(label,val,cls){
+  return '<div class="kpi '+(cls||'')+'"><small>'+label+'</small><strong>'+val+'</strong></div>';
+}
+
+/* ---------- 3. planner ---------- */
+var BASE={
+ 'Online mock — full length':{A:40,B:20,C:8,eff:1.20,off:60,stage:true},
+ 'Online mock — sectional':{A:120,B:60,C:24,eff:0.45,off:90,stage:true},
+ 'Online mock — topic quiz':{A:180,B:90,C:30,eff:0.15,off:120,stage:true},
+ 'Offline mock — OMR':{A:8,B:4,C:0,eff:1.60,off:90,stage:false},
+ 'Study material kit':{A:1,B:1,C:0,eff:14.0,off:90,stage:false},
+ 'Reference study material':{A:30,B:16,C:6,eff:1.10,off:120,stage:true},
+ 'Promotional material':{A:45,B:22,C:8,eff:0.30,off:120,stage:false},
+ 'Others — analysis, keys, blogs':{A:35,B:18,C:7,eff:0.35,off:30,stage:false}
+};
+var STAGEF={1:0.75,2:1.00,3:1.15,4:1.25};
+var PIPE={A:6,B:4,C:3};
+
+function renderPlanner(){
+  var tier=$('pTier').value, L=+$('pLang').value, stages=$('pStages').value,
+      cap=Math.max(1,+$('pCap').value||1), offOn=$('pOffline').value==='1',
+      exam=parse($('pDate').value);
+  var lang=1+0.35*(L-1), sf=STAGEF[stages]||1, pipe=PIPE[tier];
+  var tb=$('plannerTable').querySelector('tbody'); tb.innerHTML='';
+  var ti=0,td=0,tp=0,earliest=null;
+
+  Object.keys(BASE).forEach(function(k){
+    var c=BASE[k], items=c[tier];
+    if(k.indexOf('Offline')===0 && !offOn) items=0;
+    if(items===0){ return; }
+    var deliv=Math.round(items*L);
+    var days=items*(c.stage?sf:1)*c.eff*lang;
+    ti+=items; td+=deliv; tp+=days;
+    var pub = exam? addDays(exam,-c.off) : null;
+    var com = pub? addDays(pub,-pipe) : null;
+    if(com && (!earliest || com<earliest)) earliest=com;
+    var overdue = com && com<TODAY;
+    var tr=document.createElement('tr');
+    tr.innerHTML='<td>'+k+'</td><td class="num">'+items+'</td><td class="num">'+deliv+'</td>'+
+      '<td class="num">'+days.toFixed(1)+'</td>'+
+      '<td class="num"'+(overdue?' style="color:var(--bad);font-weight:600"':'')+'>'+fmt(com)+(overdue?' ⚠':'')+'</td>'+
+      '<td class="num">'+fmt(pub)+'</td>';
+    tb.appendChild(tr);
+  });
+  $('ptItems').textContent=ti; $('ptDeliv').textContent=td; $('ptDays').textContent=tp.toFixed(1);
+
+  var weeksNeeded=tp/cap;
+  var weeksAvail= exam? Math.max(0,daysBetween(TODAY,exam)/7) : 0;
+  var headroom= weeksAvail>0 ? (1-weeksNeeded/weeksAvail) : null;
+  var people=Math.ceil(tp/(weeksAvail>0?Math.max(weeksAvail,1):12)/5);
+  var cls = headroom===null?'':(headroom>=0.2?'pos':(headroom>=0?'warn':'neg'));
+
+  $('plannerKpis').innerHTML=
+    tile('Items commissioned',ti,'')+
+    tile('Deliverables (all languages)',td,'')+
+    tile('Person-days',tp.toFixed(0),'')+
+    tile('Weeks of work at stated capacity',weeksNeeded.toFixed(1),'')+
+    tile('Weeks available to exam',weeksAvail?weeksAvail.toFixed(1):'—',cls)+
+    tile('Full-time equivalents implied',people||'—','')+
+    tile('Pipeline length (tier)',pipe+' days','')+
+    tile('Earliest commission-by',fmt(earliest),earliest&&earliest<TODAY?'neg':'');
+
+  var v;
+  if(!exam){ v='Set an exam date to get commission-by and publish dates.'; }
+  else if(headroom===null||weeksAvail===0){ v='The exam date has passed — switch to the post-exam asset set (analysis, key, next-stage material).'; }
+  else if(headroom<0){ v='Over-committed: the plan needs '+weeksNeeded.toFixed(1)+' weeks of capacity against '+weeksAvail.toFixed(1)+' weeks of runway. Cut scope explicitly — drop the offline series, reduce sectional volume, or step the cycle down a tier — rather than letting it slip silently.'; }
+  else if(headroom<0.2){ v='Tight: '+weeksNeeded.toFixed(1)+' weeks of work against '+weeksAvail.toFixed(1)+' weeks of runway, with under 20% headroom. Any reallocation to another cycle will break this one.'; }
+  else { v='Feasible: '+weeksNeeded.toFixed(1)+' weeks of work against '+weeksAvail.toFixed(1)+' weeks of runway. Hold the surplus for event-driven work, which is not costed above.'; }
+  $('plannerVerdict').textContent=v;
+}
+
+function initPlanner(){
+  var sel=$('pExam');
+  sel.innerHTML='<option value="">— set inputs manually —</option>';
+  EXAMS.forEach(function(e,i){
+    if(!e.date) return;
+    var o=document.createElement('option'); o.value=i; o.textContent=e.n; sel.appendChild(o);
+  });
+  sel.addEventListener('change',function(){
+    var e=EXAMS[+sel.value];
+    if(e){ $('pTier').value=e.t; $('pDate').value=e.date; renderPlanner(); }
+  });
+  // default to the nearest Tier A cycle that still has a full planning runway
+  var cand=EXAMS.map(function(e,i){return {i:i,d:parse(e.date),t:e.t}})
+                .filter(function(x){return x.d&&x.d>=TODAY&&x.t==='A'})
+                .sort(function(a,b){return a.d-b.d});
+  var pick=cand.filter(function(x){return daysBetween(TODAY,x.d)>=90})[0]||cand[0];
+  if(pick){ sel.value=pick.i; $('pTier').value=EXAMS[pick.i].t; $('pDate').value=EXAMS[pick.i].date; }
+}
+
+/* ---------- 7. audit gates ---------- */
+var GATES=[
+ ['Critical','Every question maps to a node of the syllabus in the current official notification — not last year’s'],
+ ['Critical','Answer key independently re-solved by the auditor; every key matches the worked solution'],
+ ['Critical','Marking scheme, negative marking, sectional timing and cut-off rules match the official pattern'],
+ ['Critical','Every factual and current-affairs claim carries a citation with a date'],
+ ['Critical','Hindi and English versions carry the same meaning, the same difficulty and the same answer'],
+ ['Critical','Plagiarism and copyright cleared: no lifted passage, image or question set'],
+ ['Major','No duplicate of an item published in the last 12 months (checked against the bank, not memory)'],
+ ['Major','Difficulty distribution within the declared band — default easy 30 / moderate 50 / hard 20'],
+ ['Major','Each question has exactly one defensible answer; distractors are plausible and non-overlapping'],
+ ['Major','Full worked solution present, written to teach the method rather than to state the answer'],
+ ['Major','Data, figures, tables and passages legible at the delivery size — screen and print checked separately'],
+ ['Major','Metadata complete: exam, cycle, stage, subject, topic, difficulty, language, version, author'],
+ ['Minor','House style, typography, numbering and option lettering consistent'],
+ ['Minor','OMR layout, bubble alignment and centre instructions verified on a physical proof (offline only)'],
+ ['Minor','Promotional claims carry no unverifiable success figures; disclaimer and dates present'],
+ ['Minor','Accessibility: contrast, font size and alt text on the digital version']
+];
+function renderGates(){
+  var box=$('qaList'); box.innerHTML='';
+  var saved={};
+  try{ saved=JSON.parse(localStorage.getItem('contentops.gates')||'{}'); }catch(e){}
+  GATES.forEach(function(g,i){
+    var l=document.createElement('label');
+    var cls=g[0]==='Critical'?'a':(g[0]==='Major'?'b':'c');
+    l.innerHTML='<input type="checkbox" data-i="'+i+'"'+(saved[i]?' checked':'')+'>'+
+      '<span><span class="pill '+cls+'">'+g[0]+'</span> '+g[1]+'</span>';
+    box.appendChild(l);
+  });
+  box.addEventListener('change',function(ev){
+    if(ev.target.type!=='checkbox') return;
+    var s={}; box.querySelectorAll('input').forEach(function(c){ if(c.checked) s[c.dataset.i]=1; });
+    try{ localStorage.setItem('contentops.gates',JSON.stringify(s)); }catch(e){}
+    updateGates();
+  });
+  updateGates();
+}
+function updateGates(){
+  var all=$('qaList').querySelectorAll('input');
+  var done=0; all.forEach(function(c){ if(c.checked) done++; });
+  $('qaBar').style.width=(all.length?done/all.length*100:0)+'%';
+  $('qaLabel').textContent=done+' / '+all.length+' gates cleared';
+}
+
+/* ---------- wiring ---------- */
+['fStream','fTier','fStatus','fConf'].forEach(function(id){ $(id).addEventListener('change',renderRadar); });
+$('fSearch').addEventListener('input',renderRadar);
+$('fReset').addEventListener('click',function(){
+  $('fStream').value=''; $('fTier').value=''; $('fStatus').value='';
+  $('fConf').value=''; $('fSearch').value=''; renderRadar();
+});
+['pTier','pDate','pLang','pStages','pCap','pOffline'].forEach(function(id){
+  $(id).addEventListener('input',renderPlanner); $(id).addEventListener('change',renderPlanner);
+});
+$('qaReset').addEventListener('click',function(){
+  try{ localStorage.removeItem('contentops.gates'); }catch(e){}
+  $('qaList').querySelectorAll('input').forEach(function(c){ c.checked=false; });
+  updateGates();
+});
+
+renderRadar();
+initPlanner();
+renderPlanner();
+renderGates();
+</script>
+</body>
+</html>
