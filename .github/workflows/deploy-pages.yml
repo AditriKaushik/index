@@ -35,6 +35,9 @@ jobs:
           mkdir -p _site
           cp index.html trade-decision.html manifest.json sw.js _site/
           cp -r icons _site/
+          # The Guardian app is self-contained under guardian/ - page, service
+          # worker, manifest and icons - so it copies across as one directory.
+          cp -r guardian _site/
 
       # Belt and braces: refuse to deploy if anything server-side ever ends
       # up staged, so a future change to the copy step above cannot quietly

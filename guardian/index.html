@@ -1,0 +1,2001 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Guardian — Live Safety Sharing</title>
+<meta name="description" content="Share your live location, voice and camera with the people you trust — one tap to start, one tap to stop, end-to-end encrypted.">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="theme-color" content="#0f766e">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Guardian">
+<meta name="referrer" content="no-referrer">
+<style>
+:root{
+ --ink:#10212a;--muted:#55707c;--brand:#0f766e;--brand-deep:#0b4f5c;--brand-soft:#e3f2f0;
+ --paper:#f2f6f6;--card:#ffffff;--line:#d8e3e5;--line-soft:#e6eeef;
+ --surface-2:#f1f6f6;--surface-3:#f8fbfb;
+ --sos:#c0271c;--sos-bg:#fdecea;--sos-border:#f0c3bd;
+ --good:#137a4e;--good-bg:#e6f5ec;--good-border:#b2ddc3;
+ --warn:#8a5a00;--warn-bg:#fdf3dd;--warn-border:#ecd79a;
+ --focus:rgba(15,118,110,.22);--on-brand:#ffffff;
+ --font-body:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+ --font-mono:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace;
+ --radius:16px;
+ --safe-b:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+ :root:not([data-theme="light"]){
+  --ink:#e6eef1;--muted:#93a7b0;--brand:#4fd1c0;--brand-deep:#7fe0d2;--brand-soft:#11333a;
+  --paper:#0a1418;--card:#121f26;--line:#24373f;--line-soft:#1d2e35;
+  --surface-2:#16252c;--surface-3:#101c22;
+  --sos:#ff8b80;--sos-bg:#38201d;--sos-border:#5e332e;
+  --good:#63d69b;--good-bg:#12301f;--good-border:#28513a;
+  --warn:#f0c869;--warn-bg:#33290f;--warn-border:#57451b;
+  --focus:rgba(79,209,192,.26);--on-brand:#04231f;
+ }
+}
+:root[data-theme="dark"]{
+ --ink:#e6eef1;--muted:#93a7b0;--brand:#4fd1c0;--brand-deep:#7fe0d2;--brand-soft:#11333a;
+ --paper:#0a1418;--card:#121f26;--line:#24373f;--line-soft:#1d2e35;
+ --surface-2:#16252c;--surface-3:#101c22;
+ --sos:#ff8b80;--sos-bg:#38201d;--sos-border:#5e332e;
+ --good:#63d69b;--good-bg:#12301f;--good-border:#28513a;
+ --warn:#f0c869;--warn-bg:#33290f;--warn-border:#57451b;
+ --focus:rgba(79,209,192,.26);--on-brand:#04231f;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+ margin:0;font-family:var(--font-body);background:var(--paper);color:var(--ink);
+ line-height:1.5;-webkit-text-size-adjust:100%;overflow-x:hidden;
+}
+button,input,select,textarea{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-radius:10px}
+.hidden{display:none !important}
+
+/* ---------- App frame ---------- */
+.app{max-width:600px;margin:0 auto;padding:0 16px calc(28px + var(--safe-b));min-height:100%}
+.topbar{
+ display:flex;align-items:center;gap:10px;padding:14px 0 10px;
+}
+.logo{width:34px;height:34px;border-radius:10px;flex:none}
+.brandname{font-weight:700;font-size:18px;letter-spacing:.2px}
+.brandsub{font-size:12px;color:var(--muted);margin-top:-2px}
+.topbar .spacer{flex:1}
+.iconbtn{
+ background:var(--card);border:1px solid var(--line);border-radius:12px;width:40px;height:40px;
+ display:grid;place-items:center;font-size:17px;flex:none;
+}
+.iconbtn:hover{background:var(--surface-2)}
+
+.card{
+ background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+ padding:16px;margin:0 0 14px;
+}
+.card h2{margin:0 0 4px;font-size:17px;letter-spacing:.1px}
+.card .hint{margin:0 0 12px;color:var(--muted);font-size:13.5px}
+.label{display:block;font-size:13px;font-weight:600;color:var(--muted);margin:0 0 6px;letter-spacing:.2px}
+
+input[type=text],input[type=tel],input[type=number],select,textarea{
+ width:100%;background:var(--surface-3);border:1px solid var(--line);
+ border-radius:12px;padding:12px 13px;font-size:16px;
+}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--brand);box-shadow:0 0 0 4px var(--focus)}
+
+/* ---------- Big primary actions ---------- */
+.bigbtn{
+ width:100%;border:0;border-radius:18px;padding:20px 18px;font-size:19px;font-weight:700;
+ color:var(--on-brand);background:linear-gradient(160deg,var(--brand-deep),var(--brand));
+ display:flex;align-items:center;justify-content:center;gap:10px;letter-spacing:.2px;
+ box-shadow:0 8px 22px rgba(11,79,92,.22);
+}
+.bigbtn:active{transform:translateY(1px)}
+.bigbtn .sub{display:block;font-size:13px;font-weight:500;opacity:.85}
+.bigbtn.stop{color:#fff;background:linear-gradient(160deg,#8f1d15,#c0271c);box-shadow:0 8px 22px rgba(160,40,30,.25)}
+.bigbtn.sos{color:#fff;background:linear-gradient(160deg,#a61f14,#e0452f);box-shadow:0 8px 24px rgba(200,50,35,.3)}
+.bigbtn[disabled]{opacity:.55;box-shadow:none}
+
+.btn{
+ border:1px solid var(--line);background:var(--card);border-radius:12px;padding:11px 14px;
+ font-size:15px;font-weight:600;display:inline-flex;align-items:center;gap:8px;justify-content:center;
+}
+.btn:hover{background:var(--surface-2)}
+.btn.primary{background:var(--brand);border-color:transparent;color:var(--on-brand)}
+.btn.primary:hover{filter:brightness(1.06)}
+.btn.danger{color:var(--sos);border-color:var(--sos-border)}
+.btn.wide{width:100%}
+.btn[disabled]{opacity:.5;cursor:not-allowed}
+.btnrow{display:flex;gap:8px;flex-wrap:wrap}
+.btnrow>*{flex:1 1 auto}
+
+/* ---------- Toggle tiles ---------- */
+.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}
+.tile{
+ background:var(--surface-3);border:2px solid var(--line);border-radius:14px;
+ padding:13px 8px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:5px;
+ font-size:13px;font-weight:600;color:var(--muted);transition:border-color .12s,background .12s,color .12s;
+}
+.tile .em{font-size:23px;line-height:1}
+.tile[aria-pressed="true"]{border-color:var(--brand);background:var(--brand-soft);color:var(--brand)}
+.tile .state{font-size:11px;font-weight:600;opacity:.8}
+
+/* ---------- Chips ---------- */
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{
+ border:1px solid var(--line);background:var(--surface-3);border-radius:999px;
+ padding:9px 15px;font-size:14px;font-weight:600;color:var(--muted);
+}
+.chip[aria-pressed="true"]{background:var(--brand);border-color:transparent;color:var(--on-brand)}
+
+/* ---------- Status banner ---------- */
+.banner{
+ border-radius:var(--radius);padding:14px 16px;margin:0 0 14px;display:flex;gap:12px;align-items:center;
+ background:var(--good-bg);border:1px solid var(--good-border);
+}
+.banner .dot{width:12px;height:12px;border-radius:50%;background:var(--good);flex:none;animation:pulse 1.8s infinite}
+.banner.alarm{background:var(--sos-bg);border-color:var(--sos-border)}
+.banner.alarm .dot{background:var(--sos)}
+.banner.idle{background:var(--surface-2);border-color:var(--line)}
+.banner.idle .dot{background:var(--muted);animation:none}
+.banner .t{font-weight:700;font-size:15px}
+.banner .s{font-size:13px;color:var(--muted)}
+@keyframes pulse{0%{box-shadow:0 0 0 0 currentColor;opacity:1}70%{box-shadow:0 0 0 9px transparent;opacity:.75}100%{box-shadow:0 0 0 0 transparent;opacity:1}}
+
+/* ---------- Link share ---------- */
+.linkbox{
+ display:flex;align-items:center;gap:8px;background:var(--surface-3);border:1px dashed var(--line);
+ border-radius:12px;padding:10px 12px;font-family:var(--font-mono);font-size:12.5px;
+ word-break:break-all;color:var(--muted);
+}
+.sharegrid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:10px}
+
+/* ---------- Readouts ---------- */
+.readout{display:grid;grid-template-columns:repeat(2,1fr);gap:9px}
+.stat{background:var(--surface-3);border:1px solid var(--line-soft);border-radius:12px;padding:10px 11px}
+.stat .k{font-size:11px;text-transform:uppercase;letter-spacing:.6px;color:var(--muted);font-weight:700}
+.stat .v{font-size:16px;font-weight:700;margin-top:2px;font-variant-numeric:tabular-nums}
+.stat .v small{font-size:12px;font-weight:600;color:var(--muted)}
+
+.people{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+.people li{display:flex;align-items:center;gap:10px;background:var(--surface-3);border:1px solid var(--line-soft);border-radius:12px;padding:10px 12px}
+.people .who{font-weight:600;font-size:14.5px}
+.people .when{font-size:12px;color:var(--muted)}
+.avatar{width:32px;height:32px;border-radius:50%;background:var(--brand-soft);color:var(--brand);display:grid;place-items:center;font-weight:700;font-size:14px;flex:none}
+
+/* ---------- Notices ---------- */
+.notice{border-radius:12px;padding:11px 13px;font-size:13.5px;border:1px solid}
+.notice.info{background:var(--surface-2);border-color:var(--line);color:var(--muted)}
+.notice.warn{background:var(--warn-bg);border-color:var(--warn-border);color:var(--warn)}
+.notice.alarm{background:var(--sos-bg);border-color:var(--sos-border);color:var(--sos)}
+.notice.good{background:var(--good-bg);border-color:var(--good-border);color:var(--good)}
+.notice+.notice{margin-top:8px}
+.lock{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;color:var(--good);font-weight:600}
+
+/* ---------- Consent prompt ---------- */
+.ask{background:var(--warn-bg);border:1px solid var(--warn-border);border-radius:14px;padding:13px;margin-bottom:10px}
+.ask .q{font-weight:700;font-size:15px;margin-bottom:9px;color:var(--ink)}
+
+/* ---------- Media ---------- */
+.selfie{width:100%;max-height:34vh;border-radius:14px;background:#000;object-fit:cover;display:block}
+.remote{width:100%;border-radius:14px;background:#000;object-fit:cover;display:block;max-height:46vh}
+
+/* ---------- Chat ---------- */
+.chatlog{display:flex;flex-direction:column;gap:6px;max-height:34vh;overflow:auto;margin-bottom:9px}
+.msg{padding:8px 11px;border-radius:13px;font-size:14px;max-width:85%;background:var(--surface-2);border:1px solid var(--line-soft)}
+.msg.me{align-self:flex-end;background:var(--brand-soft);border-color:transparent}
+.msg .nm{display:block;font-size:11px;color:var(--muted);font-weight:700;margin-bottom:1px}
+.chatbar{display:flex;gap:8px}
+.chatbar input{flex:1}
+
+/* ---------- Watcher map layout ---------- */
+body.watching{overflow:hidden}
+.watchwrap{position:fixed;inset:0;display:flex;flex-direction:column}
+#map{flex:1;width:100%;background:var(--surface-2)}
+.mapfallback{flex:1;display:grid;place-items:center;padding:24px;text-align:center;color:var(--muted)}
+.watchtop{
+ background:var(--card);border-bottom:1px solid var(--line);padding:calc(10px + env(safe-area-inset-top,0px)) 14px 10px;
+ display:flex;align-items:center;gap:11px;
+}
+.watchtop .who{font-weight:700;font-size:16px;line-height:1.2}
+.watchtop .meta{font-size:12.5px;color:var(--muted)}
+.watchsheet{
+ background:var(--card);border-top:1px solid var(--line);padding:12px 14px calc(12px + var(--safe-b));
+ max-height:58vh;overflow:auto;
+}
+.grab{width:38px;height:4px;border-radius:99px;background:var(--line);margin:0 auto 10px}
+
+/* ---------- Toast ---------- */
+#toast{
+ position:fixed;left:50%;transform:translateX(-50%);bottom:calc(20px + var(--safe-b));
+ background:#0d1f26;color:#fff;padding:11px 16px;border-radius:999px;font-size:14px;font-weight:600;
+ z-index:9000;box-shadow:0 8px 24px rgba(0,0,0,.28);max-width:92vw;text-align:center;
+ opacity:0;pointer-events:none;transition:opacity .18s,transform .18s;
+}
+#toast.show{opacity:1;transform:translateX(-50%) translateY(-4px)}
+
+/* ---------- Sticky stop bar while sharing ---------- */
+.stickystop{margin-top:4px;
+ position:sticky;bottom:0;padding:10px 0 calc(6px + var(--safe-b));
+ background:linear-gradient(to top,var(--paper) 72%,transparent);z-index:50;
+}
+.sronly{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+details.more{border:1px solid var(--line);border-radius:12px;padding:10px 13px;background:var(--surface-3);margin-top:10px}
+details.more summary{font-weight:600;font-size:14px;cursor:pointer;color:var(--muted)}
+details.more[open] summary{margin-bottom:9px}
+.kv{font-size:13px;color:var(--muted)}
+.kv b{color:var(--ink)}
+footer{color:var(--muted);font-size:12.5px;text-align:center;padding:10px 4px 0}
+a{color:var(--brand)}
+</style>
+</head>
+<body>
+<div id="toast" role="status" aria-live="polite"></div>
+
+<!-- =====================================================================
+     VIEW 1 - Home. What someone sees when they open the app to share.
+     One decision (what to share), one button.
+     ================================================================== -->
+<div class="app" id="view-home">
+  <div class="topbar">
+    <img class="logo" src="icons/icon-192.png" alt="" width="34" height="34">
+    <div>
+      <div class="brandname">Guardian</div>
+      <div class="brandsub">Live sharing with people you trust</div>
+    </div>
+    <div class="spacer"></div>
+    <button class="iconbtn" id="btn-theme" title="Switch light / dark" aria-label="Switch light or dark theme">◐</button>
+    <button class="iconbtn" id="btn-settings" title="Settings" aria-label="Settings">⚙</button>
+  </div>
+
+  <div class="banner idle" id="home-banner">
+    <span class="dot"></span>
+    <div>
+      <div class="t">Nothing is being shared</div>
+      <div class="s">Sharing only ever starts when you tap the button below.</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>What do you want to share?</h2>
+    <p class="hint">Tap to turn each one on or off. You can change any of these while you are sharing.</p>
+    <div class="tiles">
+      <button class="tile" id="t-loc" aria-pressed="true">
+        <span class="em" aria-hidden="true">📍</span>
+        <span>Location</span>
+        <span class="state">On</span>
+      </button>
+      <button class="tile" id="t-mic" aria-pressed="false">
+        <span class="em" aria-hidden="true">🎙</span>
+        <span>Voice</span>
+        <span class="state">Off</span>
+      </button>
+      <button class="tile" id="t-cam" aria-pressed="false">
+        <span class="em" aria-hidden="true">📷</span>
+        <span>Camera</span>
+        <span class="state">Off</span>
+      </button>
+    </div>
+
+    <div style="margin-top:16px">
+      <span class="label">Stop sharing automatically after</span>
+      <div class="chips" id="duration-chips">
+        <button class="chip" data-mins="15">15 min</button>
+        <button class="chip" data-mins="60" aria-pressed="true">1 hour</button>
+        <button class="chip" data-mins="240">4 hours</button>
+        <button class="chip" data-mins="480">8 hours</button>
+        <button class="chip" data-mins="0">Until I stop</button>
+      </div>
+    </div>
+
+    <div style="margin-top:16px">
+      <label class="label" for="my-name">Your name (so they know who it is)</label>
+      <input type="text" id="my-name" placeholder="e.g. Aditri" autocomplete="nickname" maxlength="40">
+    </div>
+  </div>
+
+  <button class="bigbtn" id="btn-start">
+    <span aria-hidden="true">▶</span>
+    <span>Start sharing<span class="sub" id="start-sub">Location · 1 hour</span></span>
+  </button>
+
+  <div class="card" style="margin-top:14px">
+    <h2>In an emergency</h2>
+    <p class="hint">One tap turns on location and voice for 4 hours and opens your phone's share sheet so you can send the link to anyone, fast.</p>
+    <button class="bigbtn sos" id="btn-sos">
+      <span aria-hidden="true">🆘</span><span>SOS — share now</span>
+    </button>
+    <div class="btnrow" style="margin-top:10px">
+      <a class="btn danger" id="btn-call" href="tel:112">📞 Call <span id="call-number">112</span></a>
+      <button class="btn" id="btn-siren">🔊 Sound alarm</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Safe-arrival timer</h2>
+    <p class="hint">Heading out? Set a timer. If you don't tap <b>I'm safe</b> before it runs out, Guardian starts sharing on its own and sounds an alarm.</p>
+    <div class="btnrow">
+      <input type="number" id="timer-mins" min="1" max="720" step="1" value="20" inputmode="numeric" aria-label="Minutes until I should arrive" style="flex:0 1 110px">
+      <button class="btn primary" id="btn-timer-start" style="flex:1 1 auto">Start timer</button>
+    </div>
+    <div id="timer-live" class="hidden" style="margin-top:11px">
+      <div class="notice warn" id="timer-text">Timer running</div>
+      <div class="btnrow" style="margin-top:8px">
+        <button class="btn primary" id="btn-timer-safe">✓ I'm safe</button>
+        <button class="btn" id="btn-timer-add">+10 min</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>How this protects you</h2>
+    <ul class="kv" style="margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px">
+      <li><b>End-to-end encrypted.</b> Your location, voice and video are encrypted on your phone with a key that is part of the link itself. The server relays scrambled bytes and can never read them.</li>
+      <li><b>Nothing is stored.</b> No account, no history, no database. When you stop, there is nothing left to leak.</li>
+      <li><b>You are always in control.</b> Sharing starts only when you tap, it shows on screen the whole time, it stops on a timer, and one tap ends it.</li>
+      <li><b>It cannot be hidden.</b> Guardian has no silent or invisible mode on purpose — it is for sharing with people you choose, not for watching someone without their knowledge.</li>
+    </ul>
+  </div>
+
+  <div class="card hidden" id="setup-needed">
+    <h2>One-time setup needed</h2>
+    <p class="hint">Guardian needs the address of your relay server (the small Cloudflare Worker in this repo) before it can connect two phones together.</p>
+    <label class="label" for="relay-url-home">Relay address</label>
+    <input type="text" id="relay-url-home" placeholder="https://your-worker.workers.dev" autocapitalize="off" autocorrect="off" spellcheck="false">
+    <div class="btnrow" style="margin-top:9px"><button class="btn primary wide" id="btn-relay-save">Save</button></div>
+  </div>
+
+  <footer>Works best added to your home screen. <a href="#" id="link-help">How it works</a></footer>
+</div>
+
+<!-- =====================================================================
+     VIEW 2 - Sharing. The live state, with stopping never more than
+     one tap away.
+     ================================================================== -->
+<div class="app hidden" id="view-live">
+  <div class="topbar">
+    <img class="logo" src="icons/icon-192.png" alt="" width="34" height="34">
+    <div>
+      <div class="brandname">You're sharing</div>
+      <div class="brandsub" id="live-conn">Connecting…</div>
+    </div>
+    <div class="spacer"></div>
+    <button class="iconbtn" id="btn-theme-2" title="Switch light / dark" aria-label="Switch light or dark theme">◐</button>
+  </div>
+
+  <div class="banner" id="live-banner">
+    <span class="dot"></span>
+    <div>
+      <div class="t" id="live-what">Location is live</div>
+      <div class="s" id="live-time">Stops automatically in 1 hour</div>
+    </div>
+  </div>
+
+  <div id="ask-host"></div>
+
+  <div class="card">
+    <h2>Send this link</h2>
+    <p class="hint">Anyone with this link can see what you are sharing, until you stop. Send it only to people you trust.</p>
+    <div class="linkbox"><span id="share-link">…</span></div>
+    <div class="sharegrid">
+      <button class="btn primary" id="btn-share">📤 Share</button>
+      <button class="btn" id="btn-copy">📋 Copy</button>
+      <a class="btn" id="btn-whatsapp" target="_blank" rel="noopener">💬 WhatsApp</a>
+      <a class="btn" id="btn-sms">✉️ SMS</a>
+    </div>
+    <div class="lock" style="margin-top:10px"><span aria-hidden="true">🔒</span> End-to-end encrypted — the key is inside the link, not on the server</div>
+  </div>
+
+  <div class="card">
+    <h2>Watching now <span id="watch-count" style="color:var(--muted);font-weight:600"></span></h2>
+    <ul class="people" id="watchers"><li><div class="avatar">·</div><div><div class="who">No one yet</div><div class="when">Send the link above</div></div></li></ul>
+  </div>
+
+  <div class="card">
+    <h2>Live from your phone</h2>
+    <div class="readout" id="live-readout">
+      <div class="stat"><div class="k">Accuracy</div><div class="v" id="s-acc">—</div></div>
+      <div class="stat"><div class="k">Speed</div><div class="v" id="s-spd">—</div></div>
+      <div class="stat"><div class="k">Last fix</div><div class="v" id="s-age">—</div></div>
+      <div class="stat"><div class="k">Battery</div><div class="v" id="s-bat">—</div></div>
+    </div>
+    <div class="notice info" id="geo-note" style="margin-top:10px">Waiting for your first GPS fix…</div>
+    <video class="selfie hidden" id="selfie" playsinline muted autoplay></video>
+    <div class="tiles" style="margin-top:12px">
+      <button class="tile" id="t2-loc" aria-pressed="true"><span class="em" aria-hidden="true">📍</span><span>Location</span><span class="state">On</span></button>
+      <button class="tile" id="t2-mic" aria-pressed="false"><span class="em" aria-hidden="true">🎙</span><span>Voice</span><span class="state">Off</span></button>
+      <button class="tile" id="t2-cam" aria-pressed="false"><span class="em" aria-hidden="true">📷</span><span>Camera</span><span class="state">Off</span></button>
+    </div>
+    <div class="btnrow" style="margin-top:10px">
+      <button class="btn" id="btn-flip">🔄 Flip camera</button>
+      <button class="btn" id="btn-extend">＋ Add 30 min</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Messages</h2>
+    <div class="chatlog" id="chat-live" aria-live="polite"></div>
+    <form class="chatbar" id="chatform-live">
+      <input type="text" id="chatinput-live" placeholder="Send a message…" maxlength="500" autocomplete="off">
+      <button class="btn primary" type="submit">Send</button>
+    </form>
+  </div>
+
+  <div class="card">
+    <h2>Emergency</h2>
+    <div class="btnrow">
+      <button class="btn danger" id="btn-sos-2">🆘 Alert watchers</button>
+      <a class="btn danger" id="btn-call-2" href="tel:112">📞 Call</a>
+      <button class="btn" id="btn-siren-2">🔊 Alarm</button>
+    </div>
+  </div>
+
+  <details class="more">
+    <summary>Link and privacy options</summary>
+    <p class="kv" style="margin:0 0 9px">Replacing the link instantly kills the old one — use it if you sent the link to the wrong person. Everyone watching will be disconnected and will need the new link.</p>
+    <button class="btn danger wide" id="btn-revoke">Replace link and disconnect everyone</button>
+  </details>
+
+  <div class="stickystop">
+    <button class="bigbtn stop" id="btn-stop"><span aria-hidden="true">■</span> Stop sharing</button>
+  </div>
+</div>
+
+<!-- =====================================================================
+     VIEW 3 - Watching. Opened by tapping the shared link. Map first,
+     everything else in a sheet underneath.
+     ================================================================== -->
+<div class="watchwrap hidden" id="view-watch">
+  <div class="watchtop">
+    <div class="avatar" id="w-avatar">?</div>
+    <div style="min-width:0;flex:1">
+      <div class="who" id="w-name">Connecting…</div>
+      <div class="meta" id="w-meta">Opening the encrypted link</div>
+    </div>
+    <button class="iconbtn" id="btn-w-maps" title="Open in maps" aria-label="Open in maps">🧭</button>
+  </div>
+
+  <div id="map"></div>
+  <div class="mapfallback hidden" id="map-fallback">
+    <div>
+      <div style="font-size:34px" aria-hidden="true">📍</div>
+      <div id="fallback-coords" style="font-family:var(--font-mono);font-size:15px;color:var(--ink);margin:8px 0">—</div>
+      <div style="font-size:13px">The map couldn't load, but the live position is still coming through.</div>
+    </div>
+  </div>
+
+  <div class="watchsheet">
+    <div class="grab"></div>
+    <div id="w-alarm" class="notice alarm hidden" style="margin-bottom:10px"><b>🆘 SOS</b> — they raised an emergency alert.</div>
+    <div id="w-ended" class="notice info hidden" style="margin-bottom:10px">Sharing has ended.</div>
+
+    <video class="remote hidden" id="remote-video" playsinline autoplay></video>
+    <audio id="remote-audio" autoplay></audio>
+    <button class="btn primary wide hidden" id="btn-unmute" style="margin-top:10px">🔈 Tap to hear them</button>
+
+    <div class="readout" style="margin-top:10px">
+      <div class="stat"><div class="k">Updated</div><div class="v" id="w-age">—</div></div>
+      <div class="stat"><div class="k">Accuracy</div><div class="v" id="w-acc">—</div></div>
+      <div class="stat"><div class="k">Speed</div><div class="v" id="w-spd">—</div></div>
+      <div class="stat"><div class="k">Battery</div><div class="v" id="w-bat">—</div></div>
+    </div>
+
+    <div class="btnrow" style="margin-top:10px">
+      <button class="btn" id="btn-ask-mic">🎙 Ask for voice</button>
+      <button class="btn" id="btn-ask-cam">📷 Ask for camera</button>
+    </div>
+    <p class="kv" style="margin:8px 0 0">They have to tap <b>Allow</b> on their phone — you can ask, never switch it on for them.</p>
+
+    <div style="margin-top:14px">
+      <div class="chatlog" id="chat-watch" aria-live="polite"></div>
+      <form class="chatbar" id="chatform-watch">
+        <input type="text" id="chatinput-watch" placeholder="Send a message…" maxlength="500" autocomplete="off">
+        <button class="btn primary" type="submit">Send</button>
+      </form>
+    </div>
+
+    <div class="lock" style="margin-top:12px"><span aria-hidden="true">🔒</span> End-to-end encrypted</div>
+  </div>
+</div>
+
+<!-- =====================================================================
+     VIEW 4 - Settings, and the plain-language explainer.
+     ================================================================== -->
+<div class="app hidden" id="view-settings">
+  <div class="topbar">
+    <button class="iconbtn" id="btn-back">←</button>
+    <div><div class="brandname">Settings</div></div>
+  </div>
+
+  <div class="card">
+    <h2>Relay server</h2>
+    <p class="hint">The small server that passes encrypted messages between phones. It never holds the key, so it cannot read anything you share.</p>
+    <label class="label" for="relay-url">Address</label>
+    <input type="text" id="relay-url" placeholder="https://your-worker.workers.dev" autocapitalize="off" autocorrect="off" spellcheck="false">
+    <div class="btnrow" style="margin-top:9px">
+      <button class="btn" id="btn-relay-test">Test connection</button>
+      <button class="btn primary" id="btn-relay-save-2">Save</button>
+    </div>
+    <div id="relay-status" class="notice info" style="margin-top:9px">Not tested yet.</div>
+  </div>
+
+  <div class="card">
+    <h2>Emergency number</h2>
+    <p class="hint">The number the Call button dials. 112 works across India; use 911, 999 or your local number elsewhere.</p>
+    <input type="tel" id="emergency-number" value="112" inputmode="tel" maxlength="20">
+    <div class="btnrow" style="margin-top:9px"><button class="btn primary wide" id="btn-save-number">Save</button></div>
+  </div>
+
+  <div class="card">
+    <h2>Alerts</h2>
+    <p class="hint">Let Guardian buzz and notify you when someone you are watching raises an SOS, even if this tab is in the background.</p>
+    <button class="btn wide" id="btn-notif">Turn on alerts</button>
+  </div>
+
+  <div class="card" id="help-card">
+    <h2>How Guardian works</h2>
+    <p class="hint" style="color:var(--ink)">In plain words:</p>
+    <ol class="kv" style="margin:0;padding-left:20px;display:flex;flex-direction:column;gap:8px">
+      <li>You choose what to share and tap <b>Start sharing</b>. Your phone asks for location, microphone or camera permission — nothing turns on without your yes.</li>
+      <li>Guardian makes a one-off link. Part of that link is a secret key that never leaves your phone and is never sent to the server, because the part after the <b>#</b> in a web address is never transmitted.</li>
+      <li>Everything you share is locked with that key before it leaves your phone (AES-256-GCM). The relay sees only scrambled bytes and the size of them.</li>
+      <li>Whoever opens the link has the key, so their phone can unlock it. Voice and video skip the server entirely and travel phone-to-phone over WebRTC, itself encrypted.</li>
+      <li>When the timer ends, when you tap stop, or when you close the app, the sharing ends and nothing remains anywhere.</li>
+    </ol>
+    <div class="notice warn" style="margin-top:12px"><b>One honest limitation:</b> this is a web app, so if you lock your phone or switch apps for a long time, the browser may pause location updates. Keep Guardian on screen during a journey that matters, or add it to your home screen, where it keeps running longer.</div>
+    <div class="notice info" style="margin-top:8px">Guardian is a way to stay in touch with people who care about you. It is not a way to monitor someone without their knowledge, and it is built so it cannot be used that way: the person sharing must tap start, and their phone shows it the whole time.</div>
+  </div>
+</div>
+
+<script>
+(() => {
+'use strict';
+
+// ===========================================================================
+// Guardian - live location, voice and camera sharing with people you trust.
+//
+// Two rules shape this whole file:
+//   1. Anything personal is encrypted on this device before it goes anywhere.
+//      The key is generated here and travels only inside the fragment of the
+//      share link (the part after "#"), which browsers never send to a server.
+//   2. Nothing turns on without a tap, and stopping is always one tap away.
+// ===========================================================================
+
+const $ = (id) => document.getElementById(id);
+const LS = {
+  relay: 'guardian.relay',
+  name: 'guardian.name',
+  watcherName: 'guardian.watcherName',
+  number: 'guardian.number',
+  theme: 'guardian.theme',
+  session: 'guardian.session',
+  timer: 'guardian.timer',
+};
+
+// If you deploy the Worker in this repo, put its address here and the app
+// needs no setup at all. Otherwise it is asked for once and remembered.
+const BUILTIN_RELAY = '';
+
+const FALLBACK_ICE = [{ urls: ['stun:stun.cloudflare.com:3478', 'stun:stun.l.google.com:19302'] }];
+
+const S = {
+  role: null,            // 'share' | 'watch' | null
+  relay: '',
+  room: null,
+  key: null,             // CryptoKey
+  keyB64: null,
+  ws: null,
+  wsWanted: false,
+  backoff: 1000,
+  pingTimer: null,
+  peerId: null,
+  peers: new Map(),      // peerId -> { role, joinedAt }
+  share: { loc: true, mic: false, cam: false },
+  durationMins: 60,
+  endsAt: 0,
+  name: '',
+  sharing: false,
+  stream: null,
+  facing: 'environment',
+  pcs: new Map(),        // peerId -> RTCPeerConnection
+  gen: 0,                // media generation, so a watcher knows to rebuild
+  watchGen: -1,
+  watchPc: null,
+  pendingIce: [],
+  ice: FALLBACK_ICE,
+  geoWatchId: null,
+  lastPos: null,
+  lastSentAt: 0,
+  battery: null,
+  wakeLock: null,
+  sos: false,
+  trail: [],
+  map: null, marker: null, circle: null, line: null,
+  remoteName: 'Someone',
+  remoteShare: { loc: false, mic: false, cam: false },
+  remoteEndsAt: 0,
+  lastRemoteFix: 0,
+  ended: false,
+};
+
+// ---- Small helpers --------------------------------------------------------
+
+let toastTimer = null;
+function toast(msg, ms = 2600) {
+  const el = $('toast');
+  el.textContent = msg;
+  el.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => el.classList.remove('show'), ms);
+}
+
+function buzz(pattern) {
+  try { navigator.vibrate && navigator.vibrate(pattern); } catch {}
+}
+
+function show(view) {
+  for (const id of ['view-home', 'view-live', 'view-watch', 'view-settings']) {
+    $(id).classList.toggle('hidden', id !== view);
+  }
+  document.body.classList.toggle('watching', view === 'view-watch');
+  window.scrollTo(0, 0);
+}
+
+function fmtDuration(ms) {
+  if (ms <= 0) return 'now';
+  const mins = Math.round(ms / 60000);
+  if (mins < 60) return mins + (mins === 1 ? ' minute' : ' minutes');
+  const h = Math.floor(mins / 60), m = mins % 60;
+  return h + (h === 1 ? ' hour' : ' hours') + (m ? ' ' + m + ' min' : '');
+}
+
+function fmtAge(ms) {
+  if (ms < 0) return 'just now';
+  const s = Math.round(ms / 1000);
+  if (s < 5) return 'just now';
+  if (s < 60) return s + 's ago';
+  const m = Math.floor(s / 60);
+  if (m < 60) return m + 'm ago';
+  return Math.floor(m / 60) + 'h ago';
+}
+
+function initials(name) {
+  const t = (name || '').trim();
+  if (!t) return '?';
+  const parts = t.split(/\s+/);
+  return ((parts[0][0] || '') + (parts[1] ? parts[1][0] : '')).toUpperCase();
+}
+
+function escapeText(s) {
+  return String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+}
+
+// ---- Encryption -----------------------------------------------------------
+// AES-256-GCM. One random key per sharing session, carried in the link.
+
+function b64u(bytes) {
+  let s = '';
+  for (const b of bytes) s += String.fromCharCode(b);
+  return btoa(s).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+}
+
+function unb64u(str) {
+  const padded = str.replace(/-/g, '+').replace(/_/g, '/');
+  const bin = atob(padded + '='.repeat((4 - (padded.length % 4)) % 4));
+  const out = new Uint8Array(bin.length);
+  for (let i = 0; i < bin.length; i++) out[i] = bin.charCodeAt(i);
+  return out;
+}
+
+async function newSessionKey() {
+  const raw = crypto.getRandomValues(new Uint8Array(32));
+  S.keyB64 = b64u(raw);
+  S.key = await importKey(raw);
+}
+
+function importKey(raw) {
+  return crypto.subtle.importKey('raw', raw, 'AES-GCM', false, ['encrypt', 'decrypt']);
+}
+
+async function seal(obj) {
+  const iv = crypto.getRandomValues(new Uint8Array(12));
+  const data = new TextEncoder().encode(JSON.stringify(obj));
+  const ct = await crypto.subtle.encrypt({ name: 'AES-GCM', iv }, S.key, data);
+  return { iv: b64u(iv), ct: b64u(new Uint8Array(ct)) };
+}
+
+async function unseal(ivB64, ctB64) {
+  const plain = await crypto.subtle.decrypt(
+    { name: 'AES-GCM', iv: unb64u(ivB64) }, S.key, unb64u(ctB64)
+  );
+  return JSON.parse(new TextDecoder().decode(plain));
+}
+
+function newRoomId() {
+  return b64u(crypto.getRandomValues(new Uint8Array(12)));
+}
+
+// ---- Relay connection -----------------------------------------------------
+// A WebSocket to the Worker. It forwards sealed envelopes between the phones
+// in one room and retains the last position so a late joiner sees it at once.
+
+function relayBase() {
+  return (S.relay || '').replace(/\/+$/, '');
+}
+
+function connect(onReady) {
+  if (!relayBase()) { setConn('No relay server set up yet'); return; }
+  S.wsWanted = true;
+  const wsUrl = relayBase().replace(/^http/, 'ws') +
+    `/guardian/ws?room=${encodeURIComponent(S.room)}&role=${S.role}`;
+
+  let ws;
+  try { ws = new WebSocket(wsUrl); } catch { scheduleReconnect(onReady); return; }
+  S.ws = ws;
+  setConn('Connecting…');
+
+  ws.onopen = () => {
+    S.backoff = 1000;
+    setConn('Connected');
+    clearInterval(S.pingTimer);
+    S.pingTimer = setInterval(() => {
+      if (S.ws && S.ws.readyState === 1) { try { S.ws.send('{"t":"ping"}'); } catch {} }
+    }, 30000);
+  };
+
+  ws.onmessage = async (ev) => {
+    let msg;
+    try { msg = JSON.parse(ev.data); } catch { return; }
+
+    if (msg.t === 'welcome') {
+      S.peerId = msg.peerId;
+      S.peers.clear();
+      for (const p of msg.peers || []) S.peers.set(p.peerId, { role: p.role, joinedAt: Date.now() });
+      onPeersChanged();
+      if (onReady) onReady();
+      return;
+    }
+    if (msg.t === 'peer-join') {
+      S.peers.set(msg.peerId, { role: msg.role, joinedAt: Date.now() });
+      onPeersChanged();
+      onPeerJoin(msg.peerId, msg.role);
+      return;
+    }
+    if (msg.t === 'peer-leave') {
+      S.peers.delete(msg.peerId);
+      closePeer(msg.peerId);
+      onPeersChanged();
+      return;
+    }
+    if (msg.t === 'error') {
+      if (msg.code === 'rate_limited') setConn('Slowing down…');
+      return;
+    }
+    if (msg.t === 'relay') {
+      let inner;
+      try {
+        inner = await unseal(msg.iv, msg.ct);
+      } catch {
+        return; // not ours to read - a stale retained message from another key
+      }
+      handleMessage(msg.from, inner);
+    }
+  };
+
+  ws.onclose = () => { clearInterval(S.pingTimer); S.ws = null; if (S.wsWanted) { setConn('Reconnecting…'); scheduleReconnect(onReady); } };
+  ws.onerror = () => { try { ws.close(); } catch {} };
+}
+
+function scheduleReconnect(onReady) {
+  if (!S.wsWanted) return;
+  const wait = S.backoff;
+  S.backoff = Math.min(S.backoff * 2, 15000);
+  setTimeout(() => { if (S.wsWanted) connect(onReady); }, wait);
+}
+
+function disconnect() {
+  S.wsWanted = false;
+  clearInterval(S.pingTimer);
+  if (S.ws) { try { S.ws.close(); } catch {} }
+  S.ws = null;
+  S.peers.clear();
+}
+
+async function sendMsg(obj, opts = {}) {
+  if (!S.ws || S.ws.readyState !== 1) return;
+  const sealed = await seal(obj);
+  const env = { t: 'relay', iv: sealed.iv, ct: sealed.ct };
+  if (opts.to) env.to = opts.to;
+  if (opts.retain) env.retain = opts.retain;
+  try { S.ws.send(JSON.stringify(env)); } catch {}
+}
+
+function setConn(text) {
+  if (S.role === 'share') $('live-conn').textContent = text;
+}
+
+async function loadIceServers() {
+  if (!relayBase()) return;
+  try {
+    const r = await fetch(relayBase() + '/guardian/ice', { cache: 'no-store' });
+    const data = await r.json();
+    if (data && Array.isArray(data.iceServers) && data.iceServers.length) S.ice = data.iceServers;
+  } catch { /* the STUN fallback is already in place */ }
+}
+
+// ===========================================================================
+// Message routing
+// ===========================================================================
+
+function handleMessage(from, m) {
+  if (!m || typeof m.k !== 'string') return;
+  if (S.role === 'share') return handleAsSharer(from, m);
+  if (S.role === 'watch') return handleAsWatcher(from, m);
+}
+
+function onPeersChanged() {
+  if (S.role === 'share') renderWatchers();
+}
+
+function onPeerJoin(peerId, role) {
+  if (S.role === 'share' && role === 'watch') {
+    toast('Someone opened your link');
+    buzz(40);
+    broadcastState();
+    if (S.lastPos) sendPos(true);
+    if (S.stream) offerTo(peerId);
+  }
+  if (S.role === 'watch' && role === 'share') {
+    setWatchMeta('Reconnected');
+  }
+}
+
+function closePeer(peerId) {
+  const pc = S.pcs.get(peerId);
+  if (pc) { try { pc.close(); } catch {} S.pcs.delete(peerId); }
+}
+
+// ===========================================================================
+// SHARER
+// ===========================================================================
+
+function handleAsSharer(from, m) {
+  switch (m.k) {
+    case 'ask':
+      showAsk(from, m.want);
+      break;
+    case 'chat':
+      addChat('chat-live', m.name || 'They', m.text, false);
+      buzz(30);
+      break;
+    case 'hello':
+      if (S.peers.has(from)) S.peers.get(from).name = m.name;
+      renderWatchers();
+      break;
+    case 'sdp': {
+      const pc = S.pcs.get(from);
+      if (!pc || !m.sdp || m.sdp.type !== 'answer') return;
+      pc.setRemoteDescription(m.sdp).then(() => flushIce(pc)).catch(() => {});
+      break;
+    }
+    case 'ice':
+      addIce(S.pcs.get(from), m.c);
+      break;
+  }
+}
+
+function broadcastState() {
+  return sendMsg({
+    k: 'state',
+    name: S.name || 'A friend',
+    share: { ...S.share },
+    endsAt: S.endsAt,
+    gen: S.gen,
+    sos: S.sos,
+    ended: !S.sharing,
+  }, { retain: 'state' });
+}
+
+// ---- Location -------------------------------------------------------------
+
+function startGeo() {
+  if (!navigator.geolocation) {
+    $('geo-note').className = 'notice warn';
+    $('geo-note').textContent = 'This browser cannot share location.';
+    return;
+  }
+  if (S.geoWatchId !== null) return;
+  S.geoWatchId = navigator.geolocation.watchPosition(onPosition, onGeoError, {
+    enableHighAccuracy: true, maximumAge: 4000, timeout: 25000,
+  });
+}
+
+function stopGeo() {
+  if (S.geoWatchId !== null) {
+    navigator.geolocation.clearWatch(S.geoWatchId);
+    S.geoWatchId = null;
+  }
+}
+
+function onPosition(pos) {
+  const c = pos.coords;
+  const prev = S.lastPos;
+  S.lastPos = {
+    lat: c.latitude, lng: c.longitude, acc: c.accuracy,
+    spd: (typeof c.speed === 'number' && c.speed >= 0) ? c.speed : null,
+    hdg: (typeof c.heading === 'number' && !Number.isNaN(c.heading)) ? c.heading : null,
+    ts: pos.timestamp || Date.now(),
+  };
+  $('geo-note').className = 'notice good';
+  $('geo-note').textContent = 'Location is live and encrypted.';
+  updateLiveReadout();
+
+  // Send on real movement, or at least every 8 seconds, so a stationary phone
+  // does not burn battery and a moving one still looks smooth on the map.
+  const moved = prev ? distanceMetres(prev, S.lastPos) : Infinity;
+  if (moved >= 10 || Date.now() - S.lastSentAt >= 8000) sendPos();
+}
+
+function onGeoError(err) {
+  const note = $('geo-note');
+  note.className = 'notice warn';
+  if (err.code === 1) {
+    note.textContent = 'Location permission was refused. Allow it in your browser settings, then tap Location again.';
+    setTile('loc', false);
+  } else if (err.code === 3) {
+    note.textContent = 'Still looking for a GPS fix — this can take a moment indoors.';
+  } else {
+    note.textContent = 'Location is unavailable right now. Trying again…';
+  }
+}
+
+function sendPos(force) {
+  if (!S.lastPos || !S.share.loc) return;
+  S.lastSentAt = Date.now();
+  const b = S.battery;
+  sendMsg({
+    k: 'loc',
+    lat: round6(S.lastPos.lat), lng: round6(S.lastPos.lng),
+    acc: Math.round(S.lastPos.acc || 0),
+    spd: S.lastPos.spd, hdg: S.lastPos.hdg, ts: S.lastPos.ts,
+    bat: b ? Math.round(b.level * 100) : null,
+    chg: b ? !!b.charging : null,
+  }, { retain: 'loc' });
+  if (force) broadcastState();
+}
+
+function round6(n) { return Math.round(n * 1e6) / 1e6; }
+
+function distanceMetres(a, b) {
+  const R = 6371000, toRad = Math.PI / 180;
+  const dLat = (b.lat - a.lat) * toRad, dLng = (b.lng - a.lng) * toRad;
+  const la1 = a.lat * toRad, la2 = b.lat * toRad;
+  const h = Math.sin(dLat / 2) ** 2 + Math.cos(la1) * Math.cos(la2) * Math.sin(dLng / 2) ** 2;
+  return 2 * R * Math.asin(Math.min(1, Math.sqrt(h)));
+}
+
+// ---- Microphone and camera ------------------------------------------------
+
+async function applyMedia() {
+  const wantMic = S.share.mic, wantCam = S.share.cam;
+
+  if (!wantMic && !wantCam) {
+    stopStream();
+    $('selfie').classList.add('hidden');
+    await rebuildPeerConnections();
+    return;
+  }
+
+  let stream;
+  try {
+    stream = await navigator.mediaDevices.getUserMedia({
+      audio: wantMic ? { echoCancellation: true, noiseSuppression: true, autoGainControl: true } : false,
+      video: wantCam ? { facingMode: S.facing, width: { ideal: 1280 }, height: { ideal: 720 } } : false,
+    });
+  } catch (err) {
+    const denied = err && (err.name === 'NotAllowedError' || err.name === 'SecurityError');
+    toast(denied ? 'Permission refused — allow it in your browser settings' : 'Could not open the microphone or camera');
+    if (wantMic) setTile('mic', false);
+    if (wantCam) setTile('cam', false);
+    await rebuildPeerConnections();
+    return;
+  }
+
+  stopStream();
+  S.stream = stream;
+  const selfie = $('selfie');
+  if (wantCam) {
+    selfie.srcObject = stream;
+    selfie.classList.remove('hidden');
+    selfie.play().catch(() => {});
+  } else {
+    selfie.srcObject = null;
+    selfie.classList.add('hidden');
+  }
+  await rebuildPeerConnections();
+}
+
+function stopStream() {
+  if (S.stream) {
+    for (const t of S.stream.getTracks()) { try { t.stop(); } catch {} }
+    S.stream = null;
+  }
+}
+
+// Each change of what is being shared bumps a generation number and rebuilds
+// the peer connections. Renegotiating in place is fiddly and fails in odd ways
+// on mobile Safari; a clean rebuild costs about a second and always works.
+async function rebuildPeerConnections() {
+  for (const pc of S.pcs.values()) { try { pc.close(); } catch {} }
+  S.pcs.clear();
+  S.gen++;
+  await broadcastState();
+  if (!S.stream) return;
+  for (const [peerId, p] of S.peers) {
+    if (p.role === 'watch') offerTo(peerId);
+  }
+}
+
+async function offerTo(peerId) {
+  if (!S.stream) return;
+  const pc = new RTCPeerConnection({ iceServers: S.ice });
+  pc._pending = [];
+  S.pcs.set(peerId, pc);
+  for (const track of S.stream.getTracks()) pc.addTrack(track, S.stream);
+  pc.onicecandidate = (e) => {
+    if (e.candidate) sendMsg({ k: 'ice', c: e.candidate.toJSON() }, { to: peerId });
+  };
+  pc.onconnectionstatechange = () => {
+    if (pc.connectionState === 'failed') {
+      toast('Voice/video could not connect on this network');
+    }
+  };
+  try {
+    const offer = await pc.createOffer();
+    await pc.setLocalDescription(offer);
+    await sendMsg({ k: 'sdp', sdp: { type: offer.type, sdp: offer.sdp }, gen: S.gen }, { to: peerId });
+  } catch { /* the watcher will get a fresh offer on the next change */ }
+}
+
+function addIce(pc, c) {
+  if (!pc || !c) return;
+  if (!pc.remoteDescription) { pc._pending.push(c); return; }
+  pc.addIceCandidate(c).catch(() => {});
+}
+
+function flushIce(pc) {
+  if (!pc || !pc._pending) return;
+  for (const c of pc._pending) pc.addIceCandidate(c).catch(() => {});
+  pc._pending = [];
+}
+
+// ---- Consent prompts ------------------------------------------------------
+
+function showAsk(fromId, want) {
+  if (want !== 'mic' && want !== 'cam') return;
+  const who = (S.peers.get(fromId) || {}).name || 'Someone watching';
+  const label = want === 'mic' ? 'turn on your microphone' : 'turn on your camera';
+  const host = $('ask-host');
+  const box = document.createElement('div');
+  box.className = 'ask';
+  box.innerHTML = `<div class="q">${escapeText(who)} is asking you to ${label}.</div>
+    <div class="btnrow"><button class="btn primary">Allow</button><button class="btn">Not now</button></div>`;
+  const [allow, deny] = box.querySelectorAll('button');
+  allow.onclick = () => { box.remove(); setTile(want, true); };
+  deny.onclick = () => { box.remove(); sendMsg({ k: 'deny', want }, { to: fromId }); };
+  host.appendChild(box);
+  buzz([60, 60, 60]);
+  setTimeout(() => box.remove(), 60000);
+}
+
+// ---- Sharer UI ------------------------------------------------------------
+
+function renderWatchers() {
+  if (S.role !== 'share') return;
+  const list = [...S.peers.entries()].filter(([, p]) => p.role === 'watch');
+  const ul = $('watchers');
+  $('watch-count').textContent = list.length ? `· ${list.length}` : '';
+  if (!list.length) {
+    ul.innerHTML = '<li><div class="avatar">·</div><div><div class="who">No one yet</div><div class="when">Send the link above</div></div></li>';
+    return;
+  }
+  ul.innerHTML = '';
+  for (const [, p] of list) {
+    const li = document.createElement('li');
+    const nm = p.name || 'Someone';
+    li.innerHTML = `<div class="avatar">${escapeText(initials(nm))}</div>
+      <div><div class="who">${escapeText(nm)}</div><div class="when">Joined ${fmtAge(Date.now() - p.joinedAt)}</div></div>`;
+    ul.appendChild(li);
+  }
+}
+
+function updateLiveReadout() {
+  const p = S.lastPos;
+  $('s-acc').innerHTML = p ? `${Math.round(p.acc)}<small> m</small>` : '—';
+  $('s-spd').innerHTML = p && p.spd != null ? `${Math.round(p.spd * 3.6)}<small> km/h</small>` : '—';
+  $('s-age').textContent = p ? fmtAge(Date.now() - p.ts) : '—';
+  const b = S.battery;
+  $('s-bat').innerHTML = b ? `${Math.round(b.level * 100)}<small>%${b.charging ? ' ⚡' : ''}</small>` : '—';
+
+  const parts = [];
+  if (S.share.loc) parts.push('Location');
+  if (S.share.mic) parts.push('Voice');
+  if (S.share.cam) parts.push('Camera');
+  $('live-what').textContent = parts.length ? parts.join(' · ') + (parts.length > 1 ? ' are live' : ' is live') : 'Connected, sharing nothing';
+  $('live-time').textContent = S.endsAt
+    ? `Stops automatically in ${fmtDuration(S.endsAt - Date.now())}`
+    : 'Stays on until you tap stop';
+  $('live-banner').className = 'banner' + (S.sos ? ' alarm' : '');
+}
+
+function renderShareLink() {
+  const url = shareUrl();
+  $('share-link').textContent = url;
+  const text = S.sos
+    ? `I need help. Follow me live: ${url}`
+    : `Follow my live location on Guardian: ${url}`;
+  $('btn-whatsapp').href = 'https://wa.me/?text=' + encodeURIComponent(text);
+  $('btn-sms').href = 'sms:?&body=' + encodeURIComponent(text);
+}
+
+function shareUrl() {
+  const base = location.origin + location.pathname.replace(/index\.html$/, '');
+  const q = relayBase() && relayBase() !== BUILTIN_RELAY ? '?r=' + encodeURIComponent(relayBase()) : '';
+  return `${base}${q}#v1.${S.room}.${S.keyB64}`;
+}
+
+// ---- Start / stop ---------------------------------------------------------
+
+async function startSharing(opts = {}) {
+  if (!relayBase()) { promptForRelay(); return; }
+  if (!S.share.loc && !S.share.mic && !S.share.cam) {
+    toast('Turn on at least one of location, voice or camera');
+    return;
+  }
+
+  S.role = 'share';
+  S.sharing = true;
+  S.ended = false;
+  S.sos = !!opts.sos;
+  S.name = ($('my-name').value || '').trim();
+  localStorage.setItem(LS.name, S.name);
+  if (!S.room) { S.room = newRoomId(); await newSessionKey(); }
+  S.endsAt = S.durationMins ? Date.now() + S.durationMins * 60000 : 0;
+
+  show('view-live');
+  renderShareLink();
+  updateLiveReadout();
+  renderWatchers();
+  syncTiles();
+
+  loadIceServers();
+  connect(() => { broadcastState(); if (S.lastPos) sendPos(true); });
+
+  if (S.share.loc) startGeo();
+  if (S.share.mic || S.share.cam) await applyMedia();
+
+  keepAwake();
+  startHeartbeat();
+  saveSession();
+  if (opts.sos) { sendMsg({ k: 'sos', ts: Date.now() }); buzz([120, 80, 120, 80, 240]); }
+}
+
+async function stopSharing(opts = {}) {
+  S.sharing = false;
+  await broadcastState();                 // tells watchers the session ended
+  await new Promise((r) => setTimeout(r, 180)); // let it leave the socket
+  stopGeo();
+  stopStream();
+  for (const pc of S.pcs.values()) { try { pc.close(); } catch {} }
+  S.pcs.clear();
+  disconnect();
+  releaseWake();
+  stopHeartbeat();
+  siren(false);
+  S.sos = false;
+  S.room = null; S.key = null; S.keyB64 = null;   // the old link is now dead
+  S.lastPos = null;
+  clearSession();
+  $('selfie').srcObject = null;
+  $('selfie').classList.add('hidden');
+  $('ask-host').innerHTML = '';
+  $('chat-live').innerHTML = '';
+  if (!opts.quiet) toast('Sharing stopped. The link no longer works.');
+  show('view-home');
+  refreshHome();
+}
+
+async function revokeLink() {
+  const hadMedia = !!S.stream;
+  disconnect();
+  for (const pc of S.pcs.values()) { try { pc.close(); } catch {} }
+  S.pcs.clear();
+  S.room = newRoomId();
+  await newSessionKey();
+  renderShareLink();
+  connect(() => { broadcastState(); if (S.lastPos) sendPos(true); });
+  saveSession();
+  toast('New link created — the old one is dead');
+  buzz(60);
+  if (hadMedia) S.gen++;
+}
+
+let heartbeat = null;
+function startHeartbeat() {
+  stopHeartbeat();
+  heartbeat = setInterval(() => {
+    if (!S.sharing) return;
+    updateLiveReadout();
+    renderWatchers();
+    if (S.endsAt && Date.now() >= S.endsAt) {
+      toast('Time is up — sharing stopped');
+      buzz([80, 60, 80]);
+      stopSharing({ quiet: true });
+      return;
+    }
+    if (S.lastPos && Date.now() - S.lastSentAt > 12000) sendPos();
+    saveSession();
+    remindOccasionally();
+  }, 5000);
+}
+function stopHeartbeat() { if (heartbeat) { clearInterval(heartbeat); heartbeat = null; } }
+
+let lastReminder = Date.now();
+function remindOccasionally() {
+  // A quiet nudge every ten minutes, so sharing can never be left running by
+  // accident without the phone saying so.
+  if (Date.now() - lastReminder < 600000) return;
+  lastReminder = Date.now();
+  toast('Reminder: you are still sharing live');
+  buzz(50);
+}
+
+async function keepAwake() {
+  try {
+    if ('wakeLock' in navigator) S.wakeLock = await navigator.wakeLock.request('screen');
+  } catch { /* not fatal - the screen may just sleep sooner */ }
+}
+function releaseWake() {
+  try { S.wakeLock && S.wakeLock.release(); } catch {}
+  S.wakeLock = null;
+}
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'visible' && S.sharing && !S.wakeLock) keepAwake();
+});
+
+// ---- Session persistence (so a reload does not kill a live link) ----------
+
+function saveSession() {
+  if (!S.sharing || !S.room) return;
+  try {
+    localStorage.setItem(LS.session, JSON.stringify({
+      room: S.room, key: S.keyB64, endsAt: S.endsAt, share: S.share,
+      name: S.name, sos: S.sos, beat: Date.now(),
+    }));
+  } catch {}
+}
+function clearSession() { try { localStorage.removeItem(LS.session); } catch {} }
+
+async function resumeSessionIfFresh() {
+  let saved;
+  try { saved = JSON.parse(localStorage.getItem(LS.session) || 'null'); } catch { return false; }
+  if (!saved || !saved.room || !saved.key) return false;
+  const stale = Date.now() - (saved.beat || 0) > 120000;
+  const expired = saved.endsAt && Date.now() >= saved.endsAt;
+  if (stale || expired) { clearSession(); return false; }
+
+  S.room = saved.room;
+  S.keyB64 = saved.key;
+  S.key = await importKey(unb64u(saved.key));
+  S.share = Object.assign({ loc: true, mic: false, cam: false }, saved.share);
+  S.endsAt = saved.endsAt;
+  S.name = saved.name || '';
+  S.sos = !!saved.sos;
+  S.role = 'share';
+  S.sharing = true;
+
+  show('view-live');
+  syncTiles();
+  renderShareLink();
+  updateLiveReadout();
+  loadIceServers();
+  connect(() => broadcastState());
+  if (S.share.loc) startGeo();
+  if (S.share.mic || S.share.cam) applyMedia();
+  keepAwake();
+  startHeartbeat();
+  toast('Still sharing — your link is unchanged');
+  return true;
+}
+
+// ---- Toggle tiles ---------------------------------------------------------
+
+function setTile(which, on) {
+  S.share[which] = on;
+  syncTiles();
+  if (S.sharing) {
+    if (which === 'loc') { on ? startGeo() : stopGeo(); if (!on) $('geo-note').textContent = 'Location sharing is off.'; }
+    else applyMedia();
+    broadcastState();
+    updateLiveReadout();
+    saveSession();
+  }
+  updateStartSub();
+}
+
+function syncTiles() {
+  for (const k of ['loc', 'mic', 'cam']) {
+    for (const prefix of ['t-', 't2-']) {
+      const el = $(prefix + k);
+      if (!el) continue;
+      el.setAttribute('aria-pressed', String(S.share[k]));
+      el.querySelector('.state').textContent = S.share[k] ? 'On' : 'Off';
+    }
+  }
+  $('btn-flip').classList.toggle('hidden', !S.share.cam);
+}
+
+function updateStartSub() {
+  const parts = [];
+  if (S.share.loc) parts.push('Location');
+  if (S.share.mic) parts.push('Voice');
+  if (S.share.cam) parts.push('Camera');
+  const dur = S.durationMins ? fmtDuration(S.durationMins * 60000) : 'until I stop';
+  $('start-sub').textContent = (parts.join(' · ') || 'Nothing selected') + ' · ' + dur;
+  $('btn-start').disabled = parts.length === 0;
+}
+
+// ===========================================================================
+// WATCHER - what the spouse, parent or friend sees after tapping the link
+// ===========================================================================
+
+function handleAsWatcher(from, m) {
+  switch (m.k) {
+    case 'state':
+      S.remoteName = m.name || 'Someone';
+      S.remoteShare = m.share || {};
+      S.remoteEndsAt = m.endsAt || 0;
+      $('w-name').textContent = S.remoteName;
+      $('w-avatar').textContent = initials(S.remoteName);
+      if (m.sos) raiseSosAlert();
+      if (m.ended) markEnded();
+      else { S.ended = false; $('w-ended').classList.add('hidden'); }
+      if (typeof m.gen === 'number' && m.gen !== S.watchGen) {
+        S.watchGen = m.gen;
+        resetWatchPc();
+      }
+      updateWatchMeta();
+      break;
+
+    case 'loc':
+      S.lastRemoteFix = Date.now();
+      onRemotePosition(m);
+      break;
+
+    case 'sdp':
+      if (!m.sdp || m.sdp.type !== 'offer') return;
+      answerOffer(from, m);
+      break;
+
+    case 'ice':
+      // Candidates can overtake the offer they belong to; hold them until the
+      // connection exists, otherwise the call quietly never connects.
+      if (S.watchPc) addIce(S.watchPc, m.c);
+      else S.pendingIce.push(m.c);
+      break;
+
+    case 'chat':
+      addChat('chat-watch', m.name || S.remoteName, m.text, false);
+      buzz(30);
+      break;
+
+    case 'sos':
+      raiseSosAlert();
+      break;
+
+    case 'deny':
+      toast(m.want === 'mic' ? 'They kept the microphone off' : 'They kept the camera off');
+      break;
+
+    case 'end':
+      markEnded();
+      break;
+  }
+}
+
+function sharerPeerId() {
+  for (const [id, p] of S.peers) if (p.role === 'share') return id;
+  return null;
+}
+
+function setWatchMeta(text) { $('w-meta').textContent = text; }
+
+function updateWatchMeta() {
+  if (S.ended) { setWatchMeta('Sharing has ended'); return; }
+  const live = [];
+  if (S.remoteShare.loc) live.push('location');
+  if (S.remoteShare.mic) live.push('voice');
+  if (S.remoteShare.cam) live.push('camera');
+  const age = S.lastRemoteFix ? ' · ' + fmtAge(Date.now() - S.lastRemoteFix) : '';
+  setWatchMeta((live.length ? 'Sharing ' + live.join(', ') : 'Connected') + age);
+  $('btn-ask-mic').disabled = !!S.remoteShare.mic;
+  $('btn-ask-cam').disabled = !!S.remoteShare.cam;
+}
+
+function markEnded() {
+  S.ended = true;
+  $('w-ended').classList.remove('hidden');
+  updateWatchMeta();
+}
+
+async function answerOffer(from, m) {
+  if (typeof m.gen === 'number' && m.gen !== S.watchGen) { S.watchGen = m.gen; resetWatchPc(); }
+  let pc = S.watchPc;
+  if (!pc) pc = createWatchPc(from);
+  try {
+    await pc.setRemoteDescription(m.sdp);
+    flushIce(pc);
+    const answer = await pc.createAnswer();
+    await pc.setLocalDescription(answer);
+    await sendMsg({ k: 'sdp', sdp: { type: answer.type, sdp: answer.sdp } }, { to: from });
+  } catch { /* a fresh offer follows any change on their side */ }
+}
+
+function createWatchPc(peerId) {
+  const pc = new RTCPeerConnection({ iceServers: S.ice });
+  pc._pending = [];
+  pc.onicecandidate = (e) => { if (e.candidate) sendMsg({ k: 'ice', c: e.candidate.toJSON() }, { to: peerId }); };
+  pc.ontrack = (e) => {
+    const [stream] = e.streams;
+    if (!stream) return;
+    if (e.track.kind === 'video') {
+      const v = $('remote-video');
+      v.srcObject = stream;
+      v.classList.remove('hidden');
+      v.play().catch(() => {});
+    } else {
+      const a = $('remote-audio');
+      a.srcObject = stream;
+      a.play().then(() => $('btn-unmute').classList.add('hidden'))
+        .catch(() => $('btn-unmute').classList.remove('hidden'));
+    }
+  };
+  pc.onconnectionstatechange = () => {
+    if (pc.connectionState === 'failed') toast('Voice/video could not connect — location is still live');
+  };
+  S.watchPc = pc;
+  for (const c of S.pendingIce) pc._pending.push(c);
+  S.pendingIce = [];
+  return pc;
+}
+
+function resetWatchPc() {
+  if (S.watchPc) { try { S.watchPc.close(); } catch {} S.watchPc = null; }
+  S.pendingIce = [];
+  const v = $('remote-video');
+  v.srcObject = null;
+  v.classList.add('hidden');
+  $('remote-audio').srcObject = null;
+  $('btn-unmute').classList.add('hidden');
+}
+
+function raiseSosAlert() {
+  if ($('w-alarm').classList.contains('hidden')) {
+    buzz([200, 100, 200, 100, 400]);
+    notify('🆘 ' + S.remoteName + ' needs help', 'They raised an emergency alert. Tap to see where they are.');
+    siren(true);
+  }
+  $('w-alarm').classList.remove('hidden');
+}
+
+// ---- The map --------------------------------------------------------------
+
+function onRemotePosition(m) {
+  const pos = { lat: m.lat, lng: m.lng, acc: m.acc, ts: m.ts };
+  S.trail.push([m.lat, m.lng]);
+  if (S.trail.length > 300) S.trail.shift();
+
+  $('w-acc').innerHTML = m.acc != null ? `${m.acc}<small> m</small>` : '—';
+  $('w-spd').innerHTML = m.spd != null ? `${Math.round(m.spd * 3.6)}<small> km/h</small>` : '—';
+  $('w-bat').innerHTML = m.bat != null ? `${m.bat}<small>%${m.chg ? ' ⚡' : ''}</small>` : '—';
+  $('fallback-coords').textContent = m.lat.toFixed(5) + ', ' + m.lng.toFixed(5);
+  $('btn-w-maps').onclick = () => window.open(`https://www.google.com/maps?q=${m.lat},${m.lng}`, '_blank', 'noopener');
+
+  updateWatchMeta();
+  drawOnMap(pos);
+}
+
+function drawOnMap(pos) {
+  if (!S.map || !window.L) return;
+  const L = window.L;
+  const latlng = [pos.lat, pos.lng];
+  if (!S.marker) {
+    S.marker = L.marker(latlng).addTo(S.map);
+    S.circle = L.circle(latlng, { radius: pos.acc || 0, color: '#0f766e', weight: 1, fillColor: '#0f766e', fillOpacity: 0.12 }).addTo(S.map);
+    S.line = L.polyline(S.trail, { color: '#0f766e', weight: 3, opacity: 0.6 }).addTo(S.map);
+    S.map.setView(latlng, 16);
+  } else {
+    S.marker.setLatLng(latlng);
+    S.circle.setLatLng(latlng).setRadius(pos.acc || 0);
+    S.line.setLatLngs(S.trail);
+    if (S.followMap !== false) S.map.panTo(latlng, { animate: true });
+  }
+}
+
+function loadLeaflet() {
+  return new Promise((resolve, reject) => {
+    const css = document.createElement('link');
+    css.rel = 'stylesheet';
+    css.href = 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css';
+    document.head.appendChild(css);
+    const js = document.createElement('script');
+    js.src = 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js';
+    js.onload = resolve;
+    js.onerror = reject;
+    document.head.appendChild(js);
+    setTimeout(() => (window.L ? resolve() : reject(new Error('timeout'))), 9000);
+  });
+}
+
+async function initMap() {
+  try {
+    await loadLeaflet();
+    if (!window.L) throw new Error('no leaflet');
+    S.map = window.L.map('map', { zoomControl: true, attributionControl: true });
+    S.map.setView([20.5937, 78.9629], 4);
+    window.L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; OpenStreetMap contributors',
+    }).addTo(S.map);
+    S.map.on('dragstart', () => { S.followMap = false; });
+    setTimeout(() => S.map && S.map.invalidateSize(), 250);
+    window.addEventListener('resize', () => S.map && S.map.invalidateSize());
+    if (S.trail.length) drawOnMap({ lat: S.trail.at(-1)[0], lng: S.trail.at(-1)[1], acc: 0 });
+  } catch {
+    $('map').classList.add('hidden');
+    $('map-fallback').classList.remove('hidden');
+  }
+}
+
+async function startWatching(room, keyB64) {
+  S.role = 'watch';
+  S.room = room;
+  S.keyB64 = keyB64;
+  try {
+    S.key = await importKey(unb64u(keyB64));
+  } catch {
+    document.body.innerHTML = '<div class="app"><div class="card"><h2>This link is damaged</h2><p class="hint">Ask them to send it again — part of it is missing, and without that part nothing can be decrypted.</p></div></div>';
+    return;
+  }
+  show('view-watch');
+  $('btn-w-maps').onclick = () => toast('Waiting for their first position…');
+  initMap();
+  await loadIceServers();
+  connect(() => {
+    sendMsg({ k: 'hello', name: localStorage.getItem(LS.watcherName) || '' });
+  });
+  setInterval(() => { if (S.role === 'watch') updateWatchMeta(); $('w-age').textContent = S.lastRemoteFix ? fmtAge(Date.now() - S.lastRemoteFix) : '—'; }, 1000);
+}
+
+function askFor(want) {
+  const to = sharerPeerId();
+  if (!to) { toast('They are not connected right now'); return; }
+  sendMsg({ k: 'ask', want }, { to });
+  toast(want === 'mic' ? 'Asked them to turn on voice' : 'Asked them to turn on the camera');
+  requestNotifications();
+}
+
+// ===========================================================================
+// Messages, alarm, alerts
+// ===========================================================================
+
+function addChat(logId, name, text, mine) {
+  const log = $(logId);
+  const div = document.createElement('div');
+  div.className = 'msg' + (mine ? ' me' : '');
+  div.innerHTML = `<span class="nm">${escapeText(mine ? 'You' : name)}</span>${escapeText(text)}`;
+  log.appendChild(div);
+  log.scrollTop = log.scrollHeight;
+}
+
+function sendChat(inputId, logId) {
+  const input = $(inputId);
+  const text = input.value.trim();
+  if (!text) return;
+  const myName = S.role === 'share'
+    ? (S.name || 'They')
+    : (localStorage.getItem(LS.watcherName) || 'Watching');
+  sendMsg({ k: 'chat', text, name: myName });
+  addChat(logId, myName, text, true);
+  input.value = '';
+}
+
+let audioCtx = null, sirenNodes = null;
+function ensureAudio() {
+  try {
+    if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    if (audioCtx.state === 'suspended') audioCtx.resume();
+  } catch {}
+}
+
+function siren(on) {
+  if (on) {
+    ensureAudio();
+    if (!audioCtx || sirenNodes) return;
+    const osc = audioCtx.createOscillator();
+    const gain = audioCtx.createGain();
+    osc.type = 'sawtooth';
+    gain.gain.value = 0.18;
+    osc.connect(gain).connect(audioCtx.destination);
+    const t0 = audioCtx.currentTime;
+    osc.frequency.setValueAtTime(680, t0);
+    // A rising-falling two-tone, repeated - the sound people recognise as an alarm.
+    for (let i = 0; i < 600; i++) {
+      osc.frequency.linearRampToValueAtTime(i % 2 ? 680 : 1180, t0 + i * 0.6);
+    }
+    osc.start();
+    sirenNodes = { osc, gain };
+    $('btn-siren').textContent = '🔇 Stop alarm';
+    $('btn-siren-2').textContent = '🔇 Stop';
+  } else {
+    if (sirenNodes) {
+      try { sirenNodes.osc.stop(); } catch {}
+      sirenNodes = null;
+    }
+    $('btn-siren').textContent = '🔊 Sound alarm';
+    $('btn-siren-2').textContent = '🔊 Alarm';
+  }
+}
+
+function requestNotifications() {
+  try {
+    if ('Notification' in window && Notification.permission === 'default') Notification.requestPermission();
+  } catch {}
+}
+
+function notify(title, body) {
+  try {
+    if ('Notification' in window && Notification.permission === 'granted') {
+      new Notification(title, { body, icon: 'icons/icon-192.png', tag: 'guardian-sos', renotify: true });
+    }
+  } catch {}
+}
+
+// ===========================================================================
+// Emergency and safe-arrival timer
+// ===========================================================================
+
+async function nativeShare() {
+  const url = shareUrl();
+  const text = S.sos ? `I need help. Follow me live: ${url}` : `Follow my live location: ${url}`;
+  if (navigator.share) {
+    try { await navigator.share({ title: 'Guardian — live location', text }); return true; } catch { /* dismissed */ }
+  }
+  return copyLink();
+}
+
+async function copyLink() {
+  try {
+    await navigator.clipboard.writeText(shareUrl());
+    toast('Link copied — paste it to them');
+    return true;
+  } catch {
+    toast('Copy the link shown above and send it');
+    return false;
+  }
+}
+
+async function doSos(opts = {}) {
+  if (!relayBase()) { promptForRelay(); return; }
+  ensureAudio();
+  if (!S.room) { S.room = newRoomId(); await newSessionKey(); }
+
+  S.sos = true;
+  S.share.loc = true;
+  S.share.mic = true;
+  S.durationMins = 240;
+  selectDuration(240);
+  syncTiles();
+  renderShareLink();
+
+  // Opened straight away, while the tap that triggered this still counts as a
+  // user gesture - iOS will not open the share sheet otherwise.
+  if (!opts.silent) nativeShare();
+
+  if (!S.sharing) {
+    await startSharing({ sos: true });
+  } else {
+    S.endsAt = Date.now() + 240 * 60000;
+    await applyMedia();
+    if (S.share.loc) startGeo();
+    await broadcastState();
+    sendMsg({ k: 'sos', ts: Date.now() });
+    updateLiveReadout();
+  }
+  buzz([150, 80, 150, 80, 300]);
+}
+
+let timerInterval = null, timerEndsAt = 0;
+
+function startTimer(mins) {
+  ensureAudio();
+  timerEndsAt = Date.now() + mins * 60000;
+  try { localStorage.setItem(LS.timer, String(timerEndsAt)); } catch {}
+  $('timer-live').classList.remove('hidden');
+  $('btn-timer-start').textContent = 'Restart timer';
+  clearInterval(timerInterval);
+  timerInterval = setInterval(tickTimer, 1000);
+  tickTimer();
+}
+
+function tickTimer() {
+  const left = timerEndsAt - Date.now();
+  if (left <= 0) { endTimer(); onTimerExpired(); return; }
+  const mins = Math.floor(left / 60000), secs = Math.floor((left % 60000) / 1000);
+  $('timer-text').innerHTML = `<b>${mins}:${String(secs).padStart(2, '0')}</b> left — tap <b>I'm safe</b> when you arrive, or Guardian starts sharing on its own.`;
+  if (left < 120000 && left > 119000) { toast('2 minutes left on your safe-arrival timer'); buzz([80, 60, 80]); }
+}
+
+function endTimer() {
+  clearInterval(timerInterval);
+  timerInterval = null;
+  timerEndsAt = 0;
+  try { localStorage.removeItem(LS.timer); } catch {}
+  $('timer-live').classList.add('hidden');
+  $('btn-timer-start').textContent = 'Start timer';
+}
+
+function onTimerExpired() {
+  toast('Safe-arrival timer ran out — starting to share');
+  siren(true);
+  doSos({ silent: true });
+}
+
+// ===========================================================================
+// Settings, theme, home screen
+// ===========================================================================
+
+function applyTheme() {
+  const saved = localStorage.getItem(LS.theme);
+  if (saved) document.documentElement.setAttribute('data-theme', saved);
+}
+
+function toggleTheme() {
+  const now = document.documentElement.getAttribute('data-theme');
+  const dark = now ? now === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+  const next = dark ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', next);
+  try { localStorage.setItem(LS.theme, next); } catch {}
+}
+
+function promptForRelay() {
+  $('setup-needed').classList.remove('hidden');
+  $('setup-needed').scrollIntoView({ behavior: 'smooth', block: 'center' });
+  toast('Add your relay address first');
+}
+
+function saveRelay(value) {
+  const url = (value || '').trim().replace(/\/+$/, '');
+  if (url && !/^https:\/\//i.test(url)) { toast('The address must start with https://'); return false; }
+  S.relay = url;
+  try { localStorage.setItem(LS.relay, url); } catch {}
+  $('relay-url').value = url;
+  $('relay-url-home').value = url;
+  $('setup-needed').classList.toggle('hidden', !!url);
+  toast(url ? 'Relay saved' : 'Relay cleared');
+  return true;
+}
+
+async function testRelay() {
+  const el = $('relay-status');
+  if (!relayBase()) { el.className = 'notice warn'; el.textContent = 'Enter an address first.'; return; }
+  el.className = 'notice info';
+  el.textContent = 'Testing…';
+  try {
+    const r = await fetch(relayBase() + '/guardian/health', { cache: 'no-store' });
+    const d = await r.json();
+    if (d && d.ok) {
+      el.className = 'notice good';
+      el.textContent = d.turn
+        ? 'Relay is up, and a TURN relay is configured — voice and video will work on most networks.'
+        : 'Relay is up. Location will always work; voice and video may fail on strict mobile networks until a TURN server is configured.';
+    } else throw new Error('bad');
+  } catch {
+    el.className = 'notice warn';
+    el.textContent = 'Could not reach that address. Check the URL and that the Worker is deployed.';
+  }
+}
+
+function refreshHome() {
+  $('my-name').value = S.name || localStorage.getItem(LS.name) || '';
+  $('setup-needed').classList.toggle('hidden', !!relayBase());
+  const num = localStorage.getItem(LS.number) || '112';
+  $('call-number').textContent = num;
+  $('btn-call').href = 'tel:' + num;
+  $('btn-call-2').href = 'tel:' + num;
+  $('emergency-number').value = num;
+  $('relay-url').value = relayBase();
+  $('relay-url-home').value = relayBase();
+  syncTiles();
+  updateStartSub();
+}
+
+function selectDuration(mins) {
+  S.durationMins = mins;
+  for (const chip of document.querySelectorAll('#duration-chips .chip')) {
+    chip.setAttribute('aria-pressed', String(Number(chip.dataset.mins) === mins));
+  }
+  updateStartSub();
+}
+
+// ===========================================================================
+// Wiring and boot
+// ===========================================================================
+
+function wireEvents() {
+  document.addEventListener('pointerdown', ensureAudio, { once: true });
+
+  $('t-loc').onclick = () => setTile('loc', !S.share.loc);
+  $('t-mic').onclick = () => setTile('mic', !S.share.mic);
+  $('t-cam').onclick = () => setTile('cam', !S.share.cam);
+  $('t2-loc').onclick = () => setTile('loc', !S.share.loc);
+  $('t2-mic').onclick = () => setTile('mic', !S.share.mic);
+  $('t2-cam').onclick = () => setTile('cam', !S.share.cam);
+
+  for (const chip of document.querySelectorAll('#duration-chips .chip')) {
+    chip.onclick = () => selectDuration(Number(chip.dataset.mins));
+  }
+
+  $('btn-start').onclick = () => startSharing();
+  $('btn-stop').onclick = () => {
+    if (confirm('Stop sharing? The link you sent will stop working immediately.')) stopSharing();
+  };
+  $('btn-revoke').onclick = () => {
+    if (confirm('Create a new link and disconnect everyone watching?')) revokeLink();
+  };
+  $('btn-extend').onclick = () => {
+    if (!S.endsAt) { toast('Already set to run until you stop'); return; }
+    S.endsAt += 30 * 60000;
+    broadcastState(); updateLiveReadout(); saveSession();
+    toast('Added 30 minutes');
+  };
+  $('btn-flip').onclick = async () => {
+    S.facing = S.facing === 'user' ? 'environment' : 'user';
+    if (S.share.cam) await applyMedia();
+  };
+
+  $('btn-share').onclick = () => nativeShare();
+  $('btn-copy').onclick = () => copyLink();
+
+  $('btn-sos').onclick = () => doSos();
+  $('btn-sos-2').onclick = () => doSos();
+  $('btn-siren').onclick = () => siren(!sirenNodes);
+  $('btn-siren-2').onclick = () => siren(!sirenNodes);
+
+  $('btn-timer-start').onclick = () => {
+    const mins = Math.max(1, Math.min(720, Number($('timer-mins').value) || 20));
+    startTimer(mins);
+    toast(`Timer set for ${mins} minutes`);
+  };
+  $('btn-timer-safe').onclick = () => { endTimer(); siren(false); toast('Glad you made it 💚'); };
+  $('btn-timer-add').onclick = () => { if (timerEndsAt) { timerEndsAt += 600000; tickTimer(); toast('Added 10 minutes'); } };
+
+  $('btn-settings').onclick = () => { refreshHome(); show('view-settings'); };
+  $('btn-back').onclick = () => show(S.sharing ? 'view-live' : 'view-home');
+  $('link-help').onclick = (e) => { e.preventDefault(); show('view-settings'); $('help-card').scrollIntoView({ behavior: 'smooth' }); };
+  $('btn-theme').onclick = toggleTheme;
+  $('btn-theme-2').onclick = toggleTheme;
+
+  $('btn-relay-save').onclick = () => saveRelay($('relay-url-home').value);
+  $('btn-relay-save-2').onclick = () => saveRelay($('relay-url').value);
+  $('btn-relay-test').onclick = testRelay;
+  $('btn-save-number').onclick = () => {
+    const n = ($('emergency-number').value || '').replace(/[^\d+*#]/g, '') || '112';
+    try { localStorage.setItem(LS.number, n); } catch {}
+    refreshHome();
+    toast('Emergency number saved');
+  };
+  $('btn-notif').onclick = () => {
+    requestNotifications();
+    toast('Alerts requested — allow them in the browser prompt');
+  };
+
+  $('my-name').oninput = () => { S.name = $('my-name').value.trim(); };
+
+  $('chatform-live').onsubmit = (e) => { e.preventDefault(); sendChat('chatinput-live', 'chat-live'); };
+  $('chatform-watch').onsubmit = (e) => { e.preventDefault(); sendChat('chatinput-watch', 'chat-watch'); };
+
+  $('btn-ask-mic').onclick = () => askFor('mic');
+  $('btn-ask-cam').onclick = () => askFor('cam');
+  $('btn-unmute').onclick = () => {
+    ensureAudio();
+    const a = $('remote-audio');
+    a.muted = false;
+    a.play().then(() => $('btn-unmute').classList.add('hidden')).catch(() => toast('Tap once more to allow sound'));
+  };
+  $('w-alarm').onclick = () => siren(false);
+
+  window.addEventListener('beforeunload', (e) => {
+    if (S.sharing) { saveSession(); e.preventDefault(); e.returnValue = ''; }
+  });
+}
+
+function registerSW() {
+  if (!('serviceWorker' in navigator)) return;
+  navigator.serviceWorker.register('sw.js').catch(() => {});
+}
+
+async function boot() {
+  applyTheme();
+  wireEvents();
+
+  if (!window.isSecureContext) {
+    document.body.insertAdjacentHTML('afterbegin',
+      '<div class="app"><div class="notice warn" style="margin-top:14px">Guardian needs a secure (https) connection before a browser will give it your location, microphone or camera.</div></div>');
+  }
+
+  const params = new URLSearchParams(location.search);
+  const fromLink = params.get('r');
+  S.relay = (fromLink || localStorage.getItem(LS.relay) || BUILTIN_RELAY || '').replace(/\/+$/, '');
+  S.name = localStorage.getItem(LS.name) || '';
+
+  const match = /^v1\.([A-Za-z0-9_-]{8,64})\.([A-Za-z0-9_-]{40,50})$/.exec(location.hash.slice(1));
+  if (match) {
+    if (!relayBase()) {
+      document.body.innerHTML = '<div class="app"><div class="card"><h2>This link is missing its server</h2><p class="hint">The link does not say which relay server to use. Ask them to resend it from the Guardian app.</p></div></div>';
+      return;
+    }
+    registerSW();
+    startWatching(match[1], match[2]);
+    return;
+  }
+
+  refreshHome();
+  selectDuration(60);
+  initBattery();
+  registerSW();
+
+  // Launched from the home-screen "SOS" shortcut: start straight away. The
+  // share sheet needs a tap of its own, so the live view leads with Share.
+  if (params.get('sos') === '1' && relayBase()) {
+    doSos({ silent: true }).then(() => toast('SOS started — now tap Share to send the link'));
+    return;
+  }
+
+  // A saved timer survives a reload - it is a safety promise, not a UI state.
+  const savedTimer = Number(localStorage.getItem(LS.timer) || 0);
+  if (savedTimer > Date.now()) {
+    timerEndsAt = savedTimer;
+    $('timer-live').classList.remove('hidden');
+    clearInterval(timerInterval);
+    timerInterval = setInterval(tickTimer, 1000);
+    tickTimer();
+  } else if (savedTimer) {
+    try { localStorage.removeItem(LS.timer); } catch {}
+  }
+
+  await resumeSessionIfFresh();
+}
+
+async function initBattery() {
+  try {
+    if (navigator.getBattery) {
+      S.battery = await navigator.getBattery();
+      const refresh = () => { if (S.sharing) { updateLiveReadout(); sendPos(); } };
+      S.battery.addEventListener('levelchange', refresh);
+      S.battery.addEventListener('chargingchange', refresh);
+    }
+  } catch {}
+}
+
+boot();
+})();
+</script>
+</body>
+</html>
