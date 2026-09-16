@@ -1,0 +1,87 @@
+name: Build Guardian APK
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'android/**'
+      - 'guardian/**'
+      - '.github/workflows/build-apk.yml'
+  pull_request:
+    paths:
+      - 'android/**'
+      - 'guardian/**'
+      - '.github/workflows/build-apk.yml'
+  workflow_dispatch:
+  release:
+    types: [published]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # The Android SDK is already on the runner image; this only picks the JDK
+      # that AGP 8.5 expects.
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      # The APK carries its own copy of guardian/, so a stale copy would ship an
+      # app that disagrees with the website. The Gradle build copies it in; this
+      # just proves the source is there before we start.
+      - name: Check the web app is present
+        run: test -f guardian/index.html && test -f guardian/manifest.webmanifest
+
+      # Optional. With no keystore secret the release APK is signed with the
+      # debug key instead, which still installs - it just cannot be updated by a
+      # later properly-signed build.
+      - name: Decode the signing keystore
+        id: keystore
+        env:
+          KEYSTORE_B64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+        run: |
+          if [ -n "$KEYSTORE_B64" ]; then
+            printf '%s' "$KEYSTORE_B64" | base64 -d > "$RUNNER_TEMP/guardian.jks"
+            echo "path=$RUNNER_TEMP/guardian.jks" >> "$GITHUB_OUTPUT"
+            echo "Release APK will be signed with the supplied key."
+          else
+            echo "No ANDROID_KEYSTORE_BASE64 secret set - signing the release APK with the debug key."
+          fi
+
+      - name: Build
+        working-directory: android
+        env:
+          ANDROID_KEYSTORE_FILE: ${{ steps.keystore.outputs.path }}
+          ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
+        run: |
+          ./gradlew --no-daemon \
+            -PguardianVersionCode=${{ github.run_number }} \
+            -PguardianVersionName=1.0.${{ github.run_number }} \
+            assembleDebug assembleRelease
+
+      - name: Name the outputs
+        id: apks
+        run: |
+          mkdir -p dist
+          cp android/app/build/outputs/apk/debug/app-debug.apk dist/guardian-debug.apk
+          cp android/app/build/outputs/apk/release/app-release.apk dist/guardian-release.apk
+          echo "Built:"
+          ls -lh dist
+          sha256sum dist/*.apk
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: guardian-apk
+          path: dist/*.apk
+          if-no-files-found: error
+          retention-days: 90

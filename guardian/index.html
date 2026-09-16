@@ -548,7 +548,7 @@ a{color:var(--brand)}
       <li>Whoever opens the link has the key, so their phone can unlock it. Voice and video skip the server entirely and travel phone-to-phone over WebRTC, itself encrypted.</li>
       <li>When the timer ends, when you tap stop, or when you close the app, the sharing ends and nothing remains anywhere.</li>
     </ol>
-    <div class="notice warn" style="margin-top:12px"><b>One honest limitation:</b> this is a web app, so if you lock your phone or switch apps for a long time, the browser may pause location updates. Keep Guardian on screen during a journey that matters, or add it to your home screen, where it keeps running longer.</div>
+    <div class="notice warn" id="limitation-note" style="margin-top:12px"><b>One honest limitation:</b> this is a web app, so if you lock your phone or switch apps for a long time, the browser may pause location updates. Keep Guardian on screen during a journey that matters, or add it to your home screen, where it keeps running longer.</div>
     <div class="notice info" style="margin-top:8px">Guardian is a way to stay in touch with people who care about you. It is not a way to monitor someone without their knowledge, and it is built so it cannot be used that way: the person sharing must tap start, and their phone shows it the whole time.</div>
   </div>
 </div>
@@ -623,6 +623,34 @@ const S = {
   lastRemoteFix: 0,
   ended: false,
 };
+
+// ---- The Android app, when we are running inside it ------------------------
+// Everything below degrades to nothing in a plain browser: the app is the same
+// code either way, and the APK only adds what a browser cannot do.
+
+function nativeHost() {
+  try {
+    const h = window.GuardianHost;
+    return (h && typeof h.isNativeApp === 'function' && h.isNativeApp()) ? h : null;
+  } catch { return null; }
+}
+
+let lastHostState = '';
+function notifyHost() {
+  const host = nativeHost();
+  if (!host) return;
+  const parts = [];
+  if (S.share.loc) parts.push('Location');
+  if (S.share.mic) parts.push('Voice');
+  if (S.share.cam) parts.push('Camera');
+  const summary = S.sos ? 'Emergency — ' + parts.join(' · ') : parts.join(' · ');
+  const sig = [S.sharing, S.share.loc, S.share.mic, summary].join('|');
+  if (sig === lastHostState) return;   // the bridge is not a heartbeat
+  lastHostState = sig;
+  try {
+    host.setSharing(!!S.sharing, !!(S.sharing && S.share.loc), !!(S.sharing && S.share.mic), summary);
+  } catch {}
+}
 
 // ---- Small helpers --------------------------------------------------------
 
@@ -1145,7 +1173,16 @@ function renderShareLink() {
 }
 
 function shareUrl() {
-  const base = location.origin + location.pathname.replace(/index\.html$/, '');
+  // Inside the APK the page is served from a private address that means nothing
+  // to anyone else, so links are built from the public one the app was built
+  // with instead.
+  let base = '';
+  const host = nativeHost();
+  if (host) {
+    try { base = String(host.publicBase() || '').replace(/index\.html$/, ''); } catch {}
+    if (base && !base.endsWith('/')) base += '/';
+  }
+  if (!base) base = location.origin + location.pathname.replace(/index\.html$/, '');
   const q = relayBase() && relayBase() !== BUILTIN_RELAY ? '?r=' + encodeURIComponent(relayBase()) : '';
   return `${base}${q}#v1.${S.room}.${S.keyB64}`;
 }
@@ -1183,6 +1220,7 @@ async function startSharing(opts = {}) {
   keepAwake();
   startHeartbeat();
   saveSession();
+  notifyHost();
   if (opts.sos) { sendMsg({ k: 'sos', ts: Date.now() }); buzz([120, 80, 120, 80, 240]); }
 }
 
@@ -1206,6 +1244,7 @@ async function stopSharing(opts = {}) {
   $('selfie').classList.add('hidden');
   $('ask-host').innerHTML = '';
   $('chat-live').innerHTML = '';
+  notifyHost();
   if (!opts.quiet) toast('Sharing stopped. The link no longer works.');
   show('view-home');
   refreshHome();
@@ -1241,6 +1280,7 @@ function startHeartbeat() {
     }
     if (S.lastPos && Date.now() - S.lastSentAt > 12000) sendPos();
     saveSession();
+    notifyHost();
     remindOccasionally();
   }, 5000);
 }
@@ -1310,6 +1350,7 @@ async function resumeSessionIfFresh() {
   if (S.share.mic || S.share.cam) applyMedia();
   keepAwake();
   startHeartbeat();
+  notifyHost();
   toast('Still sharing — your link is unchanged');
   return true;
 }
@@ -1325,6 +1366,7 @@ function setTile(which, on) {
     broadcastState();
     updateLiveReadout();
     saveSession();
+    notifyHost();
   }
   updateStartSub();
 }
@@ -1841,6 +1883,10 @@ function selectDuration(mins) {
 function wireEvents() {
   document.addEventListener('pointerdown', ensureAudio, { once: true });
 
+  // The Android notification's "Stop sharing" action calls this. The page owns
+  // the session, so the host asks rather than tearing anything down itself.
+  window.__guardianStop = () => { if (S.sharing) stopSharing(); };
+
   $('t-loc').onclick = () => setTile('loc', !S.share.loc);
   $('t-mic').onclick = () => setTile('mic', !S.share.mic);
   $('t-cam').onclick = () => setTile('cam', !S.share.cam);
@@ -1934,6 +1980,14 @@ function registerSW() {
 async function boot() {
   applyTheme();
   wireEvents();
+
+  if (nativeHost()) {
+    const note = $('limitation-note');
+    if (note) {
+      note.className = 'notice good';
+      note.innerHTML = '<b>You are using the Android app.</b> Sharing keeps running with the screen off and the phone in your pocket — a notification stays up the whole time it does, and tapping <b>Stop sharing</b> there ends it.';
+    }
+  }
 
   if (!window.isSecureContext) {
     document.body.insertAdjacentHTML('afterbegin',

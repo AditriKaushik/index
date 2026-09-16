@@ -41,13 +41,18 @@ to tap start, and their phone shows that it is sharing the whole time. It is
 built for people who want to be found, not for watching someone who hasn't
 agreed.
 
-## The honest limitation
+## The honest limitation, and the Android app that fixes it
 
-This is a web app, not a native one. If the phone is locked or Guardian is left
-in the background for a long time, the browser may throttle or pause location
-updates. Guardian holds a screen wake lock while sharing, which helps, and
-adding it to the home screen helps more — but for a long journey, keep it on
-screen. A native app is the only real fix for this, and this app is not one.
+In a browser, if the phone is locked or Guardian is left in the background for a
+long time, the browser may throttle or pause location updates. A screen wake lock
+while sharing helps, and adding it to the home screen helps more — but for a long
+journey in a browser, keep it on screen.
+
+The **[Android app](../android)** removes this limitation: it wraps this same page
+and holds a foreground service for the length of a session, so sharing keeps
+running with the screen off and the phone in a pocket, with a permanent
+notification saying so. Same code, same encryption — it only adds what a browser
+is not allowed to do.
 
 ## Setup
 
@@ -99,6 +104,7 @@ two phones to each other.
 | `manifest.webmanifest` | Home-screen install metadata and the SOS shortcut |
 | `icons/` | App icons |
 | `../worker/guardian.js` | The relay: routes plus the `SafetyRoom` Durable Object |
+| `../android/` | The Android app that wraps this page (see its README) |
 
 ## Browser support
 
@@ -106,3 +112,7 @@ Chrome, Edge and Samsung Internet on Android, and Safari on iOS 16.4+, all
 support what this needs (WebCrypto, WebRTC, geolocation, service workers).
 Screen Wake Lock and the Battery API are absent on iOS; the app works without
 them and simply shows less.
+
+On Android, the [APK](../android) is the better way to run it. On iOS there is no
+equivalent — Apple gives web apps no way to keep running in the background — so
+keep the screen on during a journey that matters.

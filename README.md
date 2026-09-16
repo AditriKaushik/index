@@ -6,6 +6,7 @@ Cloudflare Worker that backs them.
 | App | What it is |
 | --- | --- |
 | [`guardian/`](guardian/) | **Guardian** — share your live location, voice and camera with people you trust. One tap to start, one tap to stop, end-to-end encrypted. |
+| [`android/`](android/) | Guardian as an installable Android app, so sharing keeps running with the screen off. Built by CI — download the APK from the Actions tab. |
 | `trade-decision.html` | NSE intraday trade-decision framework, calculators and journal |
 | `index.html` | The ₹1 lakh NSE intraday framework write-up |
 
