@@ -18,7 +18,7 @@ const ROLES = new Set(['share', 'watch']);
 
 // Guard rails for a room. These are about keeping one link from being turned
 // into a broadcast channel or a flooding target, not about product limits.
-const MAX_PEERS = 8;
+const MAX_PEERS = 12;
 const MAX_MESSAGE_BYTES = 96 * 1024; // an encrypted SDP offer is a few KB
 const RATE_WINDOW_MS = 10_000;
 const RATE_MAX_MESSAGES = 120;

@@ -1,66 +1,60 @@
-# Guardian — live safety sharing
+# Guardian — live group sharing
 
-Share your live location, voice and camera with the people you trust — your
-spouse, your parents, a friend — with one tap, and stop it with one tap.
+A small private group where the people you trust — your family, a few friends —
+can see each other live. Turn **Location**, **Voice** or **Camera** on for the
+group once, and after that anyone in the group can look whenever they want. No
+tapping "accept" every time; you granted it once, they can reach it any time.
+Turn it off and no one can access it any more.
 
-It is a web app, so there is nothing to install: send someone the link and it
-opens on whatever phone they already have.
+It is a web app, so there is nothing to install: make a group, send the link,
+and it opens on whatever phone people already have. An [Android app](../android)
+wraps the same page so your sharing keeps working with the screen off.
 
-## What it does
+## How it works
 
-- **Live location** on a map, with accuracy, speed and the sharer's battery
-  level, updating as they move.
-- **Live voice** and **live camera**, phone-to-phone.
-- **SOS** — one tap turns on location and voice for four hours and opens the
-  phone's share sheet so the link goes out fast.
-- **Safe-arrival timer** — "I should be there in 20 minutes". If you don't tap
-  *I'm safe*, Guardian starts sharing on its own and sounds an alarm.
-- **Messages** both ways, in case talking isn't possible.
-- Auto-stop on a timer, and a one-tap *replace link* that kills a link you sent
-  to the wrong person.
+1. **Make a group** (or open a link someone sent you). Everyone who opens the
+   same link is in the same private group.
+2. **Choose what you share.** Three switches — Location, Voice, Camera. On means
+   the group can access it any time; off means no one can.
+3. **See anyone.** Tap a member to see their live position on a map, and to hear
+   or watch them if they have voice or camera on. Their phone serves it
+   automatically, because they already turned it on for the group.
 
-## How the privacy works
+## What "any time" really means
 
-Every sharing session generates a random AES-256-GCM key in the browser. That
-key is written into the fragment of the share link — the part after the `#` —
-which browsers **never** send to a server. So:
+Honest about the limits, because a safety app should be:
 
-- Location, messages and the WebRTC handshake are encrypted on the phone
-  before they leave it. The relay server sees a room id and ciphertext.
-- Voice and video never touch the server at all; they go peer-to-peer over
-  WebRTC, which is itself encrypted (DTLS-SRTP).
-- There is no account, no database and no history. Stopping ends the session
-  and the link stops working.
+- **Location and voice** keep flowing while that person's Guardian is running.
+  The [Android app](../android) keeps it running in the background with the
+  screen off. In a plain browser the tab has to stay open.
+- **Camera** works only while that person has Guardian on screen — phones never
+  let a normal app use the camera in the background, and that is not something a
+  safety app should try to defeat.
+- If someone fully closes the app, nothing can reach their phone until they open
+  it again.
 
-A consequence worth understanding: **anyone holding the link can watch.**
-Treat it like a key. If it goes astray, open *Link and privacy options* and
-replace it.
+## Privacy
 
-Guardian has no hidden or background mode, deliberately. The person sharing has
-to tap start, and their phone shows that it is sharing the whole time. It is
-built for people who want to be found, not for watching someone who hasn't
-agreed.
-
-## The honest limitation, and the Android app that fixes it
-
-In a browser, if the phone is locked or Guardian is left in the background for a
-long time, the browser may throttle or pause location updates. A screen wake lock
-while sharing helps, and adding it to the home screen helps more — but for a long
-journey in a browser, keep it on screen.
-
-The **[Android app](../android)** removes this limitation: it wraps this same page
-and holds a foreground service for the length of a session, so sharing keeps
-running with the screen off and the phone in a pocket, with a permanent
-notification saying so. Same code, same encryption — it only adds what a browser
-is not allowed to do.
+- **End-to-end encrypted.** Each group has a random AES-256-GCM key generated in
+  the browser and carried in the group link's fragment (after `#`), which
+  browsers never send to a server. Location and the WebRTC handshake are
+  encrypted before they leave the phone; voice and video go peer-to-peer. The
+  relay only ever forwards ciphertext.
+- **No accounts, no history, no database.** The relay knows a room id and passes
+  scrambled bytes; it never sees who is in a group or where they are.
+- **Nothing hidden.** Whatever you turn on, your own phone shows it (a live
+  camera preview, and on Android an ongoing notification), and one tap turns it
+  off. Guardian has no invisible mode — it is for people who agreed to be in a
+  group together, not for watching someone who did not.
+- **Treat the link like a key.** Anyone who has it can join the group. If it
+  goes to the wrong person, make a new group and share that instead.
 
 ## Setup
 
-The app is static and can be served from GitHub Pages as-is. It needs one small
-relay server — the Cloudflare Worker already in this repository — to introduce
-two phones to each other.
+The app is static (GitHub Pages serves it as-is) and needs one small relay
+server — the Cloudflare Worker in this repo — to introduce phones to each other.
 
-1. **Deploy the Worker.** From the repository root:
+1. **Deploy the Worker** from the repo root:
 
    ```
    npx wrangler kv namespace create PM_KV     # if you have not already
@@ -68,51 +62,33 @@ two phones to each other.
    npx wrangler deploy
    ```
 
-   The Worker exposes `/guardian/ws`, `/guardian/ice` and `/guardian/health`
-   alongside the existing trade-tool routes. The `SAFETY_ROOMS` Durable Object
-   binding and its migration are already in `wrangler.toml`; SQLite-backed
-   Durable Objects work on the Workers free plan.
+   It serves `/guardian/ws`, `/guardian/ice` and `/guardian/health`. The
+   `SAFETY_ROOMS` Durable Object binding and its migration are already in
+   `wrangler.toml`, and work on the Workers free plan.
 
-2. **Point the app at it.** Open the app, tap ⚙ and paste the Worker address
-   (`https://<name>.<subdomain>.workers.dev`), or — better — set `BUILTIN_RELAY`
-   near the top of the script in `guardian/index.html` so it needs no setup at
-   all. The address is carried inside every share link, so people receiving a
-   link never have to configure anything.
+2. **Point the app at it.** Open the app, tap ⚙ and paste the Worker address, or
+   set `BUILTIN_RELAY` near the top of the script in `guardian/index.html` so it
+   needs no setup. The address travels inside every group link, so people you
+   invite never configure anything.
 
-3. **Optional: a TURN server.** Location always works. Voice and video use
-   STUN only by default, which fails on roughly one mobile network in ten
-   (symmetric NAT). To fix that, set three Worker secrets:
-
-   ```
-   npx wrangler secret put TURN_URL
-   npx wrangler secret put TURN_USERNAME
-   npx wrangler secret put TURN_CREDENTIAL
-   ```
-
-   Cloudflare Calls, Twilio and a self-hosted coturn all work. `/guardian/health`
-   reports whether one is configured, and Settings → *Test connection* shows it.
-
-4. **Optional: lock down the origin.** Set `ALLOWED_ORIGIN` in `wrangler.toml`
-   to your Pages origin so the relay only accepts sockets from your own site.
+3. **Optional: a TURN server** for voice/video on strict mobile networks. Set
+   `TURN_URL`, `TURN_USERNAME`, `TURN_CREDENTIAL` as Worker secrets. Location
+   always works without it; `/guardian/health` reports whether one is set.
 
 ## Files
 
 | File | What it is |
 | --- | --- |
-| `index.html` | The whole app — UI, crypto, geolocation, WebRTC |
-| `sw.js` | Service worker, scoped to `/guardian/`, caches the shell for offline start |
-| `manifest.webmanifest` | Home-screen install metadata and the SOS shortcut |
+| `index.html` | The whole app — group UI, crypto, geolocation, WebRTC |
+| `sw.js` | Service worker, caches the app shell for an instant, offline start |
+| `manifest.webmanifest` | Home-screen install metadata |
 | `icons/` | App icons |
-| `../worker/guardian.js` | The relay: routes plus the `SafetyRoom` Durable Object |
-| `../android/` | The Android app that wraps this page (see its README) |
+| `../worker/guardian.js` | The relay: routes plus the `SafetyRoom` Durable Object (up to 12 per group) |
+| `../android/` | The Android app that wraps this page |
 
 ## Browser support
 
-Chrome, Edge and Samsung Internet on Android, and Safari on iOS 16.4+, all
-support what this needs (WebCrypto, WebRTC, geolocation, service workers).
-Screen Wake Lock and the Battery API are absent on iOS; the app works without
-them and simply shows less.
-
-On Android, the [APK](../android) is the better way to run it. On iOS there is no
-equivalent — Apple gives web apps no way to keep running in the background — so
-keep the screen on during a journey that matters.
+Chrome, Edge and Samsung Internet on Android, and Safari on iOS 16.4+, support
+what this needs. On Android the [APK](../android) is the better way to run it; on
+iOS there is no way to keep a web app running in the background, so keep the
+screen on when it matters.
