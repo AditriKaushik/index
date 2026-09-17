@@ -5,7 +5,7 @@ compatibility_date = "2026-08-01"
 # Create with: wrangler kv:namespace create PM_KV
 # then replace the id below with the one it prints.
 kv_namespaces = [
-  { binding = "PM_KV", id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID" }
+  { binding = "PM_KV", id = "05ab52d15e034ec0bfc7ea4c8e90f8e7" }
 ]
 
 [vars]
@@ -17,3 +17,24 @@ ALLOWED_ORIGIN = "*"
 #   PM_API_SECRET      - from developer.paytmmoney.com app registration
 #   APP_SHARED_SECRET  - any random string you make up; shared between this Worker and the frontend
 #                        to keep the /quote endpoint from being called by strangers who find the URL
+
+# ---- Guardian live-safety-sharing app (guardian/) --------------------------
+# A Durable Object gives each sharing session one consistent, in-memory room to
+# relay through, which KV cannot do: KV reads are cached for up to a minute, and
+# a minute-old position is the wrong answer for a live tracker.
+[[durable_objects.bindings]]
+name = "SAFETY_ROOMS"
+class_name = "SafetyRoom"
+
+# SQLite-backed Durable Objects are available on the Workers free plan. The room
+# keeps no stored state - it is a relay - but the class still needs a migration.
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["SafetyRoom"]
+
+# Optional Guardian secrets (`wrangler secret put NAME`). Without them, live
+# location still works everywhere; voice and camera fall back to STUN only and
+# will fail on the stricter mobile networks that need a relay:
+#   TURN_URL          - e.g. "turn:turn.example.com:3478?transport=udp"
+#   TURN_USERNAME     - TURN credential username
+#   TURN_CREDENTIAL   - TURN credential password

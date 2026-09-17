@@ -11,13 +11,21 @@
 //                              for an access token and stores it in KV until next midnight IST
 //   GET  /status             -> { loggedIn: boolean }
 //   GET  /quote?symbol=X&key=SHARED_SECRET -> { price, high, low, volume, ... }
+//   ANY  /guardian/*        -> Guardian live-safety-sharing relay (see guardian.js)
 //
 // Required bindings (see wrangler.toml / repo setup docs):
-//   KV namespace  PM_KV
-//   secrets       PM_API_KEY, PM_API_SECRET, APP_SHARED_SECRET
-//   vars          ALLOWED_ORIGIN (optional, defaults to "*")
+//   KV namespace     PM_KV
+//   Durable Object   SAFETY_ROOMS (Guardian only)
+//   secrets          PM_API_KEY, PM_API_SECRET, APP_SHARED_SECRET
+//                    TURN_URL, TURN_USERNAME, TURN_CREDENTIAL (Guardian, optional)
+//   vars             ALLOWED_ORIGIN (optional, defaults to "*")
+
+import { handleGuardian, SafetyRoom } from './guardian.js';
 
 const PM_HOST = 'https://developer.paytmmoney.com';
+
+// Durable Object class for the Guardian live-sharing rooms (see guardian.js).
+export { SafetyRoom };
 
 export default {
   async fetch(request, env, ctx) {
@@ -29,6 +37,9 @@ export default {
     }
 
     try {
+      if (url.pathname === '/guardian' || url.pathname.startsWith('/guardian/')) {
+        return await handleGuardian(request, url, env, cors);
+      }
       if (url.pathname === '/login') return handleLogin(url, env);
       if (url.pathname === '/callback') return await handleCallback(url, env);
       if (url.pathname === '/status') return await handleStatus(env, cors);

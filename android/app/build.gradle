@@ -1,0 +1,90 @@
+plugins {
+    id 'com.android.application'
+}
+
+// Resolved up front and assigned with `=` below. Groovy's command-expression
+// syntax makes `versionCode (x) as int` parse as `(versionCode(x)) as int`,
+// which casts a void return and fails the build with "Value is null".
+def versionCodeValue = Integer.parseInt((project.findProperty('guardianVersionCode') ?: '1').toString())
+def versionNameValue = (project.findProperty('guardianVersionName') ?: '1.0').toString()
+def publicBase = (project.findProperty('guardianPublicBase')
+        ?: 'https://aditrikaushik.github.io/index/guardian/').toString()
+def keystorePath = System.getenv('ANDROID_KEYSTORE_FILE')
+
+android {
+    namespace 'org.mahendras.guardian'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "org.mahendras.guardian"
+        minSdk 24
+        targetSdk 34
+        versionCode = versionCodeValue
+        versionName = versionNameValue
+
+        buildConfigField "String", "PUBLIC_BASE", "\"${publicBase}\""
+    }
+
+    buildFeatures {
+        buildConfig = true
+    }
+
+    // A release build is signed with a real key when one is supplied through the
+    // environment, and with the debug key otherwise. An unsigned APK cannot be
+    // installed at all, and a build that produces something uninstallable is not
+    // much use to someone who just wants the app on their phone.
+    signingConfigs {
+        if (keystorePath) {
+            release {
+                storeFile file(keystorePath)
+                storePassword System.getenv('ANDROID_KEYSTORE_PASSWORD')
+                keyAlias System.getenv('ANDROID_KEY_ALIAS')
+                keyPassword System.getenv('ANDROID_KEY_PASSWORD')
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            signingConfig = keystorePath ? signingConfigs.release : signingConfigs.debug
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    implementation 'androidx.core:core:1.13.1'
+    implementation 'androidx.webkit:webkit:1.11.0'
+}
+
+// The APK carries its own copy of the web app, so it opens instantly and keeps
+// working with no signal and no site deployed. Copying at build time means
+// there is exactly one source of truth: ../guardian.
+def webSource = rootProject.file('../guardian')
+def webAssets = new File(layout.buildDirectory.get().asFile, 'generated/webapp')
+
+tasks.register('syncWebApp', Copy) {
+    from(webSource) {
+        exclude 'README.md'
+    }
+    into new File(webAssets, 'guardian')
+    doFirst {
+        if (!webSource.exists()) {
+            throw new GradleException("Cannot find the web app at ${webSource} - build this project from inside the repository.")
+        }
+    }
+}
+
+android.sourceSets.main.assets.srcDir(webAssets)
+
+// preBuild runs ahead of everything, including asset merging, so the copy is
+// always in place before anything looks for it.
+tasks.named('preBuild') {
+    dependsOn 'syncWebApp'
+}
