@@ -128,6 +128,11 @@ body.viewing{overflow:hidden}
 .stat .v small{font-size:12px;font-weight:600;color:var(--muted)}
 
 .selfie{width:100%;max-height:30vh;border-radius:14px;background:#000;object-fit:cover;display:block;margin-top:10px}
+.miclive{display:flex;align-items:center;gap:9px;margin-top:11px;padding:10px 12px;border-radius:12px;background:var(--good-bg);border:1px solid var(--good-border);color:var(--good);font-size:13px;font-weight:600}
+.miclive .mdot{font-size:16px;line-height:1}
+.miclive .mtext{flex:none}
+.miclive .mbar{flex:1;height:8px;border-radius:99px;background:var(--surface-3);overflow:hidden;min-width:60px}
+.miclive .mbar i{display:block;height:100%;width:0%;background:var(--good);border-radius:99px;transition:width .08s linear}
 
 #toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(20px + var(--safe-b));background:#0d1f26;color:#fff;padding:11px 16px;border-radius:999px;font-size:14px;font-weight:600;z-index:9000;box-shadow:0 8px 24px rgba(0,0,0,.28);max-width:92vw;text-align:center;opacity:0;pointer-events:none;transition:opacity .18s,transform .18s}
 #toast.show{opacity:1;transform:translateX(-50%) translateY(-4px)}
@@ -206,6 +211,11 @@ a{color:var(--brand)}
       <button class="tile" id="t-loc" aria-pressed="false"><span class="em" aria-hidden="true">📍</span><span>Location</span><span class="state">Off</span></button>
       <button class="tile" id="t-mic" aria-pressed="false"><span class="em" aria-hidden="true">🎙</span><span>Voice</span><span class="state">Off</span></button>
       <button class="tile" id="t-cam" aria-pressed="false"><span class="em" aria-hidden="true">📷</span><span>Camera</span><span class="state">Off</span></button>
+    </div>
+    <div class="miclive hidden" id="mic-live">
+      <span class="mdot" aria-hidden="true">🎙</span>
+      <span class="mtext">Mic is live — speak and this moves</span>
+      <span class="mbar"><i id="mic-bar"></i></span>
     </div>
     <video class="selfie hidden" id="selfie" playsinline muted autoplay></video>
     <div class="btnrow" style="margin-top:10px">
@@ -498,9 +508,49 @@ async function applyMedia(){
   const selfie=$('selfie');
   if(wantCam){selfie.srcObject=stream;selfie.classList.remove('hidden');selfie.play().catch(()=>{});}
   else{selfie.srcObject=null;selfie.classList.add('hidden');}
+  // Mic has no picture, so people cannot tell it is on. Show a live level bar
+  // that moves when they speak — proof the microphone is actually capturing.
+  if(wantMic) startMicMeter(stream); else stopMicMeter();
   rebuildServe();
 }
-function stopStream(){if(S.stream){for(const t of S.stream.getTracks())try{t.stop();}catch{}S.stream=null;}}
+function stopStream(){stopMicMeter();if(S.stream){for(const t of S.stream.getTracks())try{t.stop();}catch{}S.stream=null;}}
+
+// ---- Live mic level meter -------------------------------------------------
+let micCtx=null, micAnalyser=null, micRaf=null;
+function startMicMeter(stream){
+  const track=stream.getAudioTracks()[0];
+  if(!track){ stopMicMeter(); return; }
+  $('mic-live').classList.remove('hidden');
+  try{
+    if(!micCtx) micCtx=new (window.AudioContext||window.webkitAudioContext)();
+    if(micCtx.state==='suspended') micCtx.resume();
+    const src=micCtx.createMediaStreamSource(stream);
+    micAnalyser=micCtx.createAnalyser();
+    micAnalyser.fftSize=512;
+    src.connect(micAnalyser);
+    const buf=new Uint8Array(micAnalyser.frequencyBinCount);
+    const bar=$('mic-bar');
+    const tick=()=>{
+      if(!micAnalyser)return;
+      micAnalyser.getByteTimeDomainData(buf);
+      let peak=0;
+      for(let i=0;i<buf.length;i++){const v=Math.abs(buf[i]-128);if(v>peak)peak=v;}
+      // 0..128 → a lively 0..100% with a little floor so silence still shows a sliver
+      const pct=Math.min(100, Math.round((peak/128)*180)+2);
+      bar.style.width=pct+'%';
+      micRaf=requestAnimationFrame(tick);
+    };
+    tick();
+  }catch{
+    // Web Audio blocked — fall back to just showing the "Mic is live" label.
+    $('mic-live').querySelector('.mbar').style.display='none';
+  }
+}
+function stopMicMeter(){
+  if(micRaf){cancelAnimationFrame(micRaf);micRaf=null;}
+  micAnalyser=null;
+  const el=$('mic-live'); if(el){el.classList.add('hidden');const b=$('mic-bar');if(b)b.style.width='0%';}
+}
 
 // One peer connection per viewer. Rebuild them all when my media changes.
 function rebuildServe(){
