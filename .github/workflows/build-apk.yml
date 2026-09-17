@@ -17,7 +17,7 @@ on:
     types: [published]
 
 permissions:
-  contents: read
+  contents: write   # to attach the APKs to the apk-latest release
 
 jobs:
   build:
@@ -70,7 +70,6 @@ jobs:
             assembleDebug assembleRelease
 
       - name: Name the outputs
-        id: apks
         run: |
           mkdir -p dist
           cp android/app/build/outputs/apk/debug/app-debug.apk dist/guardian-debug.apk
@@ -85,3 +84,43 @@ jobs:
           path: dist/*.apk
           if-no-files-found: error
           retention-days: 90
+
+      # An Actions artifact needs a GitHub login and arrives as a zip, which is
+      # painful on exactly the device this app is for. A release asset is a plain
+      # link that Android hands straight to the installer, and this one tag always
+      # points at the newest build, so the link never has to change.
+      #
+      # Restricted to this repository's own branches: a fork's pull request must
+      # not be able to publish something people are told to install.
+      - name: Publish the rolling APK release
+        if: ${{ github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: apk-latest
+          COMMIT: ${{ github.event.pull_request.head.sha || github.sha }}
+        run: |
+          {
+            echo "Guardian for Android, built from \`$COMMIT\` by [run $GITHUB_RUN_NUMBER](https://github.com/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID)."
+            echo
+            echo "### [Download guardian-release.apk](https://github.com/$GITHUB_REPOSITORY/releases/download/$TAG/guardian-release.apk)"
+            echo
+            echo "Open that link on the phone and Android offers to install it. The first time, you have to allow installing apps from your browser."
+            echo
+            echo "Signed with the debug key unless repository signing secrets are set: it installs, but a later properly-signed build cannot upgrade over it."
+            echo
+            echo "This tag always points at the most recent build, so the link never changes."
+          } > "$RUNNER_TEMP/notes.md"
+
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release edit "$TAG" --notes-file "$RUNNER_TEMP/notes.md" --prerelease
+          else
+            gh release create "$TAG" \
+              --prerelease \
+              --target "$COMMIT" \
+              --title "Guardian APK (latest build)" \
+              --notes-file "$RUNNER_TEMP/notes.md"
+          fi
+
+          gh release upload "$TAG" dist/guardian-debug.apk dist/guardian-release.apk --clobber
+
+          echo "Direct download: https://github.com/$GITHUB_REPOSITORY/releases/download/$TAG/guardian-release.apk"

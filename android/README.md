@@ -31,12 +31,20 @@ SOS button. The APK adds capability, never a second implementation.
 
 ## Getting the APK
 
-**From CI (no tools needed).** Every push that touches `android/` or `guardian/`
-runs [Build Guardian APK](../.github/workflows/build-apk.yml). Open the run in the
-Actions tab and download the `guardian-apk` artifact: it holds
-`guardian-debug.apk` and `guardian-release.apk`. Either installs — Android will
-ask you to allow installing from that source. `workflow_dispatch` lets you build
-one on demand.
+**On the phone, one tap:**
+
+> **https://github.com/AditriKaushik/index/releases/download/apk-latest/guardian-release.apk**
+
+Open that on the phone and Android offers to install it — no GitHub login, no zip
+to unpack. The first time, you have to allow installing apps from your browser.
+The `apk-latest` tag is refreshed by every build, so the link never changes.
+
+**From the Actions tab**, if you would rather have the exact APKs from one run:
+every push touching `android/` or `guardian/` runs
+[Build Guardian APK](../.github/workflows/build-apk.yml), and each run uploads a
+`guardian-apk` artifact holding `guardian-debug.apk` and `guardian-release.apk`.
+That route needs a GitHub login and arrives as a zip. `workflow_dispatch` lets
+you build one on demand.
 
 **Locally**, with a JDK 17 and the Android SDK installed:
 
