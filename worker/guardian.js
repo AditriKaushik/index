@@ -28,11 +28,12 @@ export async function handleGuardian(request, url, env, cors) {
   const path = url.pathname.replace(/^\/guardian/, '') || '/';
 
   if (path === '/health') {
-    return jsonResponse({ ok: true, turn: Boolean(env.TURN_URL) }, 200, cors);
+    const turn = Boolean(env.TURN_URL || (env.CF_TURN_KEY_ID && env.CF_TURN_API_TOKEN));
+    return jsonResponse({ ok: true, turn }, 200, cors);
   }
 
   if (path === '/ice') {
-    return jsonResponse({ iceServers: iceServers(env) }, 200, cors);
+    return jsonResponse({ iceServers: await iceServers(env) }, 200, cors);
   }
 
   if (path === '/ws') {
@@ -59,13 +60,26 @@ export async function handleGuardian(request, url, env, cors) {
   return jsonResponse({ error: 'not_found' }, 404, cors);
 }
 
-function iceServers(env) {
+// A TURN relay is what makes voice and video connect on mobile networks with
+// symmetric NAT. It is optional - location sharing never needs it - so /ice
+// always returns at least STUN and the app degrades rather than fails.
+async function iceServers(env) {
   const servers = [
     { urls: ['stun:stun.cloudflare.com:3478', 'stun:stun.l.google.com:19302'] },
   ];
-  // A TURN relay is what makes voice and video work on mobile networks with
-  // symmetric NAT. It is optional - location sharing never needs it - so the
-  // app degrades rather than fails when these secrets are not set.
+
+  // Preferred: Cloudflare Realtime TURN. Mints short-lived credentials on demand
+  // (nothing long-lived to leak) and needs no separate provider account - just
+  // two Worker secrets, CF_TURN_KEY_ID and CF_TURN_API_TOKEN. If the call fails
+  // for any reason we fall through to static creds / STUN so /ice never breaks.
+  if (env.CF_TURN_KEY_ID && env.CF_TURN_API_TOKEN) {
+    try {
+      const cf = await mintCloudflareTurn(env);
+      if (cf) { servers.push(cf); return servers; }
+    } catch (_) { /* fall through */ }
+  }
+
+  // Static credentials from any other provider (Metered, coturn, Twilio, ...).
   if (env.TURN_URL && env.TURN_USERNAME && env.TURN_CREDENTIAL) {
     servers.push({
       urls: env.TURN_URL.split(',').map((u) => u.trim()).filter(Boolean),
@@ -74,6 +88,26 @@ function iceServers(env) {
     });
   }
   return servers;
+}
+
+async function mintCloudflareTurn(env) {
+  const resp = await fetch(
+    `https://rtc.live.cloudflare.com/v1/turn/keys/${encodeURIComponent(env.CF_TURN_KEY_ID)}/credentials/generate`,
+    {
+      method: 'POST',
+      headers: { Authorization: `Bearer ${env.CF_TURN_API_TOKEN}`, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ ttl: 86400 }),
+    }
+  );
+  if (!resp.ok) throw new Error(`cloudflare turn HTTP ${resp.status}`);
+  const data = await resp.json().catch(() => null);
+  const ice = data && data.iceServers;
+  if (!ice || !ice.urls) return null;
+  return {
+    urls: Array.isArray(ice.urls) ? ice.urls : [ice.urls],
+    username: ice.username,
+    credential: ice.credential,
+  };
 }
 
 function originAllowed(request, env) {
