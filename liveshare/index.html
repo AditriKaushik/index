@@ -367,12 +367,35 @@ async function begin(r){
   else { show("watch"); }
 }
 
+/* Open the microphone, working around device/WebView quirks. Some Android
+   phones reject the default request with NotReadableError ("busy") but accept
+   a plainer one with the audio-processing effects turned off, and a stuck mic
+   often frees a moment later — so we try a few times with a short wait. */
+async function getMic(){
+  const tries = [
+    { audio:true },
+    { audio:{ echoCancellation:false, noiseSuppression:false, autoGainControl:false } },
+    { audio:{ echoCancellation:false, noiseSuppression:false, autoGainControl:false, channelCount:1 } }
+  ];
+  let lastErr;
+  for(let i=0;i<tries.length;i++){
+    try{ return await navigator.mediaDevices.getUserMedia(tries[i]); }
+    catch(e){
+      lastErr = e; const n = e && e.name;
+      // These will never be fixed by retrying, so give up immediately.
+      if(n==="NotAllowedError" || n==="SecurityError" || n==="NotFoundError") throw e;
+      await new Promise(r=>setTimeout(r, 500));   // busy/aborted/over-constrained: wait, then try a simpler request
+    }
+  }
+  throw lastErr;
+}
+
 /* ---------- SENDER ---------- */
 async function startSender(){
   show("send");
   try{
     if(!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) throw new Error("unsupported");
-    localStream = await navigator.mediaDevices.getUserMedia({ audio:true });
+    localStream = await getMic();
   }catch(e){
     const n = (e && e.name) ? e.name : String(e);
     if(n==="NotAllowedError" || n==="SecurityError") toast("Microphone is blocked. Allow the mic for Live Share in Settings, then try again.");
