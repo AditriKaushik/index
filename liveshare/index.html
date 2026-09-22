@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Live Share</title>
+<meta name="description" content="Share your live location and voice with one person you trust, end-to-end encrypted. No account, no server.">
+<meta name="theme-color" content="#1f6feb">
+<style>
+  :root{
+    --bg:#f3f5f9; --card:#ffffff; --ink:#141a22; --muted:#5c6773;
+    --line:#dde3ec; --brand:#1f6feb; --brand-ink:#ffffff;
+    --good:#127a3e; --good-bg:#e6f6ec; --stop:#c02718; --stop-bg:#fdecea;
+    --shadow:0 8px 30px rgba(20,30,50,.08);
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#0c1016; --card:#151b24; --ink:#e8edf4; --muted:#93a1b2;
+      --line:#26303c; --brand:#4d9bff; --brand-ink:#04121f;
+      --good:#5fd08a; --good-bg:#12301f; --stop:#ff8a7d; --stop-bg:#3a201d;
+      --shadow:0 8px 30px rgba(0,0,0,.4);
+    }
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    background:var(--bg); color:var(--ink);
+    -webkit-text-size-adjust:100%; line-height:1.5;
+    padding:max(16px,env(safe-area-inset-top)) 16px calc(24px + env(safe-area-inset-bottom));
+  }
+  .wrap{max-width:520px; margin:0 auto}
+  h1{font-size:26px; margin:6px 0 2px; letter-spacing:-.02em}
+  .tag{color:var(--muted); margin:0 0 20px; font-size:15px}
+  .card{background:var(--card); border:1px solid var(--line); border-radius:18px;
+        padding:20px; box-shadow:var(--shadow); margin-bottom:16px}
+  label{display:block; font-weight:600; margin:0 0 6px}
+  .hint{color:var(--muted); font-size:13.5px; margin:6px 0 0}
+  input[type=text], textarea{
+    width:100%; font-size:16px; font-family:inherit; color:var(--ink);
+    background:var(--bg); border:1.5px solid var(--line); border-radius:12px;
+    padding:13px 14px;
+  }
+  textarea{resize:vertical; min-height:96px; word-break:break-all; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:13px}
+  input:focus, textarea:focus{outline:none; border-color:var(--brand)}
+  .btn{
+    display:flex; align-items:center; justify-content:center; gap:8px;
+    width:100%; font-size:17px; font-weight:700; font-family:inherit;
+    padding:15px 18px; border-radius:14px; border:none; cursor:pointer;
+    background:var(--brand); color:var(--brand-ink); margin-top:14px;
+  }
+  .btn.sec{background:transparent; color:var(--brand); border:1.5px solid var(--brand); font-weight:600}
+  .btn.stop{background:var(--stop); color:#fff}
+  .btn:disabled{opacity:.5; cursor:default}
+  .btn.small{width:auto; font-size:14px; padding:9px 14px; margin:0}
+  .row{display:flex; gap:10px; flex-wrap:wrap}
+  .roles{display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:16px}
+  .role{
+    text-align:center; padding:20px 12px; border-radius:16px; cursor:pointer;
+    border:1.5px solid var(--line); background:var(--bg);
+  }
+  .role .em{font-size:30px; display:block; margin-bottom:6px}
+  .role .t{font-weight:700}
+  .role .d{font-size:13px; color:var(--muted); margin-top:2px}
+  .hidden{display:none !important}
+  .banner{border-radius:12px; padding:12px 14px; font-weight:600; font-size:14px; margin-bottom:14px}
+  .banner.live{background:var(--stop-bg); color:var(--stop)}
+  .banner.ok{background:var(--good-bg); color:var(--good)}
+  .step{font-size:12px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--muted); margin:18px 0 8px}
+  .step:first-of-type{margin-top:0}
+  .meter{height:12px; border-radius:99px; background:var(--line); overflow:hidden; margin-top:8px}
+  .meter > i{display:block; height:100%; width:0%; background:var(--good); transition:width .08s linear}
+  .stat{display:flex; justify-content:space-between; padding:8px 0; border-bottom:1px solid var(--line); font-size:15px}
+  .stat:last-child{border-bottom:none}
+  .stat b{font-variant-numeric:tabular-nums}
+  .dot{width:9px; height:9px; border-radius:99px; background:var(--muted); display:inline-block; margin-right:7px; vertical-align:middle}
+  .dot.on{background:var(--good)}
+  .dot.wait{background:#e0a800}
+  a.maplink{color:var(--brand); font-weight:600; text-decoration:none}
+  #toast{position:fixed; left:50%; bottom:24px; transform:translateX(-50%);
+    background:#0d1622; color:#fff; padding:11px 16px; border-radius:99px; font-size:14px;
+    font-weight:600; opacity:0; pointer-events:none; transition:opacity .2s; z-index:50; max-width:90vw}
+  #toast.show{opacity:.96}
+  .lock{font-size:13px; color:var(--muted); margin-top:10px}
+  .lock b{color:var(--good)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Live Share</h1>
+  <p class="tag">Share your live location and voice with one person you trust. End‑to‑end encrypted. No account, nothing to install.</p>
+
+  <!-- ============ SCREEN 1: choose ============ -->
+  <section id="s-start" class="card">
+    <label for="secret">1. Pick a secret word</label>
+    <input id="secret" type="text" autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="e.g. bluewhale42" inputmode="text">
+    <p class="hint">Both phones must type the <b>same secret word</b>. It is the key: the location and voice can only be read by someone who knows it. Agree on it in person or over a call — don’t send it in the same message as the code.</p>
+
+    <div class="step" style="margin-top:18px">2. Pick your side</div>
+    <div class="roles">
+      <div class="role" id="pick-send">
+        <span class="em">📡</span>
+        <div class="t">Share</div>
+        <div class="d">This phone sends its location &amp; voice</div>
+      </div>
+      <div class="role" id="pick-watch">
+        <span class="em">👀</span>
+        <div class="t">Watch</div>
+        <div class="d">See &amp; hear the other phone</div>
+      </div>
+    </div>
+    <p class="lock">🔒 Everything is scrambled with your secret before it leaves the phone. <b>No one else — not even us — can read it.</b> There is no hidden mode: while you share, this phone shows it plainly.</p>
+  </section>
+
+  <!-- ============ SCREEN 2: SENDER ============ -->
+  <section id="s-send" class="card hidden">
+    <div id="send-live" class="banner live hidden">🔴 You are sharing your live location and microphone.</div>
+
+    <div class="step">Step 1 — send this invite</div>
+    <p class="hint">Send this code to the watcher (WhatsApp, SMS, anything). It’s scrambled, so it’s safe to send.</p>
+    <textarea id="send-offer" readonly placeholder="Preparing…"></textarea>
+    <div class="row" style="margin-top:10px">
+      <button class="btn small" id="send-share">Send code</button>
+      <button class="btn small sec" id="send-copy">Copy</button>
+    </div>
+
+    <div class="step">Step 2 — paste their reply</div>
+    <p class="hint">They’ll send a reply code back. Paste it here to connect.</p>
+    <textarea id="send-answer" placeholder="Paste the reply code here"></textarea>
+    <button class="btn" id="send-connect">Connect</button>
+
+    <div id="send-status" class="hidden">
+      <div class="step">You are live</div>
+      <div class="stat"><span><span class="dot on"></span>Connection</span><b id="send-conn">connected</b></div>
+      <div class="stat"><span>Microphone level</span><b id="send-miclabel">on</b></div>
+      <div class="meter"><i id="send-mic"></i></div>
+      <div class="stat"><span>Location sent</span><b id="send-loc">waiting…</b></div>
+      <button class="btn stop" id="send-stop">■ Stop sharing</button>
+    </div>
+  </section>
+
+  <!-- ============ SCREEN 3: WATCHER ============ -->
+  <section id="s-watch" class="card hidden">
+    <div class="step">Step 1 — paste their invite</div>
+    <p class="hint">Paste the code the sharer sent you.</p>
+    <textarea id="watch-offer" placeholder="Paste the invite code here"></textarea>
+    <button class="btn" id="watch-make">Make reply code</button>
+
+    <div id="watch-reply" class="hidden">
+      <div class="step">Step 2 — send this reply back</div>
+      <p class="hint">Send this reply code to the sharer. Once they paste it, you’ll be connected.</p>
+      <textarea id="watch-answer" readonly></textarea>
+      <div class="row" style="margin-top:10px">
+        <button class="btn small" id="watch-share">Send reply</button>
+        <button class="btn small sec" id="watch-copy">Copy</button>
+      </div>
+    </div>
+
+    <div id="watch-live" class="hidden">
+      <div class="banner ok" id="watch-banner">Connecting…</div>
+      <div class="step">Live location</div>
+      <div class="stat"><span>Latitude</span><b id="w-lat">—</b></div>
+      <div class="stat"><span>Longitude</span><b id="w-lon">—</b></div>
+      <div class="stat"><span>Accuracy</span><b id="w-acc">—</b></div>
+      <div class="stat"><span>Updated</span><b id="w-time">—</b></div>
+      <a id="w-map" class="maplink" href="#" target="_blank" rel="noopener" style="display:inline-block;margin-top:12px">📍 Open live location in Google Maps</a>
+      <div class="step" style="margin-top:18px">Live voice</div>
+      <div class="stat"><span><span class="dot" id="w-audiodot"></span>Microphone</span><b id="w-audio">waiting…</b></div>
+      <audio id="w-sound" autoplay playsinline></audio>
+      <button class="btn stop" id="watch-stop" style="margin-top:16px">■ Stop watching</button>
+    </div>
+  </section>
+
+  <button class="btn sec hidden" id="back">← Start over</button>
+</div>
+
+<div id="toast"></div>
+
+<script>
+"use strict";
+const $ = id => document.getElementById(id);
+const enc = new TextEncoder(), dec = new TextDecoder();
+const ICE = { iceServers: [
+  { urls: "stun:stun.l.google.com:19302" },
+  { urls: "stun:stun1.l.google.com:19302" }
+] };
+
+let pc = null, dc = null, localStream = null, key = null, salt = null;
+let geoWatch = null, audioCtx = null, rafId = null, role = null;
+
+function toast(m){ const t=$("toast"); t.textContent=m; t.classList.add("show"); clearTimeout(t._h); t._h=setTimeout(()=>t.classList.remove("show"),2200); }
+
+/* ---------- tiny base64 + crypto helpers ---------- */
+function b64(bytes){ let s=""; const B=bytes; for(let i=0;i<B.length;i++) s+=String.fromCharCode(B[i]); return btoa(s); }
+function unb64(str){ const bin=atob(str); const u=new Uint8Array(bin.length); for(let i=0;i<bin.length;i++) u[i]=bin.charCodeAt(i); return u; }
+
+async function deriveKey(passphrase, saltBytes){
+  const base = await crypto.subtle.importKey("raw", enc.encode(passphrase), "PBKDF2", false, ["deriveKey"]);
+  return crypto.subtle.deriveKey(
+    { name:"PBKDF2", salt:saltBytes, iterations:150000, hash:"SHA-256" },
+    base, { name:"AES-GCM", length:256 }, false, ["encrypt","decrypt"]);
+}
+async function encryptText(text){
+  const iv = crypto.getRandomValues(new Uint8Array(12));
+  const ct = new Uint8Array(await crypto.subtle.encrypt({name:"AES-GCM",iv}, key, enc.encode(text)));
+  const packed = new Uint8Array(iv.length+ct.length); packed.set(iv); packed.set(ct, iv.length);
+  return b64(packed);
+}
+async function decryptText(packedB64){
+  const raw = unb64(packedB64), iv = raw.slice(0,12), ct = raw.slice(12);
+  const pt = await crypto.subtle.decrypt({name:"AES-GCM",iv}, key, ct);
+  return dec.decode(pt);
+}
+/* A pairing code is  saltB64 : encryptedSdpB64  */
+async function makeCode(sdpObj){ return b64(salt) + ":" + await encryptText(JSON.stringify(sdpObj)); }
+async function readCode(code){
+  const [saltPart, payload] = code.trim().split(":");
+  if(!saltPart || !payload) throw new Error("That doesn’t look like a valid code.");
+  if(!salt){ salt = unb64(saltPart); key = await deriveKey($("secret").value.trim(), salt); }
+  return JSON.parse(await decryptText(payload));
+}
+
+/* wait until ICE candidates are gathered, so the code is complete (no server needed) */
+function waitIce(){
+  return new Promise(res=>{
+    if(pc.iceGatheringState==="complete") return res();
+    const check=()=>{ if(pc.iceGatheringState==="complete"){ pc.removeEventListener("icegatheringstatechange",check); res(); } };
+    pc.addEventListener("icegatheringstatechange", check);
+    setTimeout(res, 5000); // fallback so a slow network can’t hang us forever
+  });
+}
+
+async function shareOrCopy(text, verb){
+  try{
+    if(navigator.share){ await navigator.share({ text }); return; }
+  }catch(e){ if(e && e.name==="AbortError") return; }
+  try{ await navigator.clipboard.writeText(text); toast(verb+" — copied, now paste it to the other person"); }
+  catch(e){ toast("Select the code and copy it manually"); }
+}
+
+/* ---------- screen switching ---------- */
+function show(which){
+  $("s-start").classList.toggle("hidden", which!=="start");
+  $("s-send").classList.toggle("hidden", which!=="send");
+  $("s-watch").classList.toggle("hidden", which!=="watch");
+  $("back").classList.toggle("hidden", which==="start");
+}
+
+/* ---------- role selection ---------- */
+$("pick-send").onclick = ()=>begin("send");
+$("pick-watch").onclick = ()=>begin("watch");
+
+async function begin(r){
+  const secret = $("secret").value.trim();
+  if(secret.length < 4){ toast("Type a secret word first (at least 4 letters)"); $("secret").focus(); return; }
+  role = r;
+  if(r==="send") await startSender();
+  else { show("watch"); }
+}
+
+/* ---------- SENDER ---------- */
+async function startSender(){
+  show("send");
+  try{
+    localStream = await navigator.mediaDevices.getUserMedia({ audio:true });
+  }catch(e){ toast("Microphone permission is needed to share voice"); show("start"); return; }
+
+  salt = crypto.getRandomValues(new Uint8Array(16));
+  key = await deriveKey($("secret").value.trim(), salt);
+
+  pc = new RTCPeerConnection(ICE);
+  localStream.getTracks().forEach(t=>pc.addTrack(t, localStream));
+  dc = pc.createDataChannel("live");
+  dc.onopen = onSenderConnected;
+  pc.onconnectionstatechange = ()=>{ $("send-conn").textContent = pc.connectionState;
+    if(pc.connectionState==="failed") toast("Couldn’t connect. Check the secret matches and try new codes."); };
+
+  const offer = await pc.createOffer();
+  await pc.setLocalDescription(offer);
+  await waitIce();
+  $("send-offer").value = await makeCode(pc.localDescription);
+  startMicMeter();
+}
+
+$("send-share").onclick = ()=>shareOrCopy($("send-offer").value, "Invite");
+$("send-copy").onclick  = ()=>shareOrCopy($("send-offer").value, "Invite");
+
+$("send-connect").onclick = async ()=>{
+  const code = $("send-answer").value;
+  if(!code.trim()){ toast("Paste the reply code first"); return; }
+  try{
+    const answer = await readCode(code);
+    await pc.setRemoteDescription(answer);
+    toast("Connecting…");
+  }catch(e){ toast("That reply code didn’t work. Check the secret word matches."); }
+};
+
+function onSenderConnected(){
+  $("send-live").classList.remove("hidden");
+  $("send-status").classList.remove("hidden");
+  // start streaming live location over the encrypted data channel
+  if(navigator.geolocation){
+    geoWatch = navigator.geolocation.watchPosition(async pos=>{
+      const c = pos.coords;
+      const msg = { lat:+c.latitude.toFixed(6), lon:+c.longitude.toFixed(6), acc:Math.round(c.accuracy||0), t:Date.now() };
+      try{ if(dc.readyState==="open") dc.send(await encryptText(JSON.stringify(msg))); }catch(e){}
+      $("send-loc").textContent = msg.lat+", "+msg.lon;
+    }, err=>{ $("send-loc").textContent = "location blocked"; toast("Location permission was refused"); },
+    { enableHighAccuracy:true, maximumAge:3000, timeout:20000 });
+  } else { $("send-loc").textContent = "not supported"; }
+}
+
+function startMicMeter(){
+  try{
+    audioCtx = new (window.AudioContext||window.webkitAudioContext)();
+    const src = audioCtx.createMediaStreamSource(localStream);
+    const an = audioCtx.createAnalyser(); an.fftSize = 256;
+    src.connect(an);
+    const data = new Uint8Array(an.frequencyBinCount);
+    const tick = ()=>{
+      an.getByteTimeDomainData(data);
+      let peak = 0; for(let i=0;i<data.length;i++){ const v=Math.abs(data[i]-128); if(v>peak) peak=v; }
+      $("send-mic").style.width = Math.min(100, Math.round(peak/128*100*1.6)) + "%";
+      rafId = requestAnimationFrame(tick);
+    };
+    tick();
+  }catch(e){}
+}
+
+$("send-stop").onclick = stopAll;
+
+/* ---------- WATCHER ---------- */
+$("watch-make").onclick = async ()=>{
+  const code = $("watch-offer").value;
+  if(!code.trim()){ toast("Paste the invite code first"); return; }
+  try{
+    pc = new RTCPeerConnection(ICE);
+    pc.ontrack = ev=>{ $("w-sound").srcObject = ev.streams[0]; $("w-audiodot").classList.add("on"); $("w-audio").textContent="live"; };
+    pc.ondatachannel = ev=>{ dc = ev.channel; dc.onmessage = onLocationMsg; };
+    pc.onconnectionstatechange = ()=>{
+      const st = pc.connectionState;
+      $("watch-banner").textContent = st==="connected" ? "🟢 Connected — receiving live" : "Connection: "+st;
+      if(st==="failed") toast("Couldn’t connect. Check the secret matches.");
+    };
+    const offer = await readCode(code);         // sets salt + key from the code
+    await pc.setRemoteDescription(offer);
+    const answer = await pc.createAnswer();
+    await pc.setLocalDescription(answer);
+    await waitIce();
+    $("watch-answer").value = await makeCode(pc.localDescription);
+    $("watch-reply").classList.remove("hidden");
+    $("watch-live").classList.remove("hidden");
+  }catch(e){ toast("That invite code didn’t work. Check the secret word matches."); }
+};
+
+$("watch-share").onclick = ()=>shareOrCopy($("watch-answer").value, "Reply");
+$("watch-copy").onclick  = ()=>shareOrCopy($("watch-answer").value, "Reply");
+
+async function onLocationMsg(ev){
+  try{
+    const m = JSON.parse(await decryptText(ev.data));
+    $("w-lat").textContent = m.lat;
+    $("w-lon").textContent = m.lon;
+    $("w-acc").textContent = "±" + m.acc + " m";
+    $("w-time").textContent = new Date(m.t).toLocaleTimeString();
+    $("w-map").href = "https://www.google.com/maps?q=" + m.lat + "," + m.lon;
+  }catch(e){}
+}
+
+$("watch-stop").onclick = stopAll;
+
+/* ---------- teardown ---------- */
+function stopAll(){
+  if(geoWatch!=null){ navigator.geolocation.clearWatch(geoWatch); geoWatch=null; }
+  if(rafId){ cancelAnimationFrame(rafId); rafId=null; }
+  if(audioCtx){ try{ audioCtx.close(); }catch(e){} audioCtx=null; }
+  if(localStream){ localStream.getTracks().forEach(t=>t.stop()); localStream=null; }
+  if(dc){ try{ dc.close(); }catch(e){} dc=null; }
+  if(pc){ try{ pc.close(); }catch(e){} pc=null; }
+  key=null; salt=null; role=null;
+  // reset fields
+  ["send-offer","send-answer","watch-offer","watch-answer"].forEach(id=>$(id).value="");
+  $("send-live").classList.add("hidden"); $("send-status").classList.add("hidden");
+  $("watch-reply").classList.add("hidden"); $("watch-live").classList.add("hidden");
+  $("send-mic").style.width="0%";
+  $("w-audiodot").classList.remove("on"); $("w-audio").textContent="waiting…";
+  show("start");
+  toast("Stopped. Nothing is being shared.");
+}
+$("back").onclick = ()=>{ if(pc||localStream){ stopAll(); } else show("start"); };
+
+/* Refuse to run without a secure context, where the crypto/mic/location APIs are blocked. */
+if(!window.isSecureContext || !navigator.mediaDevices || !window.crypto?.subtle){
+  document.querySelector(".wrap").innerHTML =
+    '<h1>Live Share</h1><div class="card"><p>This app needs a secure connection (an <b>https://</b> address). ' +
+    'Open it over https and it will work.</p></div>';
+}
+</script>
+</body>
+</html>
