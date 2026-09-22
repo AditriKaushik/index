@@ -85,6 +85,16 @@
   #toast.show{opacity:.96}
   .lock{font-size:13px; color:var(--muted); margin-top:10px}
   .lock b{color:var(--good)}
+  /* QR code shown for pairing */
+  .qr{background:#fff; border-radius:14px; padding:12px; margin-top:6px; display:flex; justify-content:center}
+  .qr svg, .qr img{width:100%; max-width:280px; height:auto; image-rendering:pixelated}
+  .qr:empty{display:none}
+  /* Full-screen camera scanner */
+  #scan{position:fixed; inset:0; background:#000; z-index:100; display:flex; flex-direction:column; align-items:center; justify-content:center}
+  #scan video{width:100%; height:100%; object-fit:cover; position:absolute; inset:0}
+  #scan .frame{position:relative; z-index:2; width:70vw; max-width:320px; aspect-ratio:1; border:3px solid #fff; border-radius:18px; box-shadow:0 0 0 100vmax rgba(0,0,0,.45)}
+  #scan .lbl{position:relative; z-index:2; color:#fff; font-weight:600; margin-top:22px; text-align:center; padding:0 20px}
+  #scan .btn{position:relative; z-index:2; width:auto; margin-top:26px; padding:12px 26px}
 </style>
 </head>
 <body>
@@ -118,18 +128,21 @@
   <section id="s-send" class="card hidden">
     <div id="send-live" class="banner live hidden">🔴 You are sharing your live location and microphone.</div>
 
-    <div class="step">Step 1 — send this invite</div>
-    <p class="hint">You don’t need to read this code — just tap <b>Send code</b> and pick WhatsApp, SMS, anything. It’s scrambled, so it’s safe to send.</p>
-    <textarea id="send-offer" class="code" readonly placeholder="Preparing…"></textarea>
+    <div class="step">Step 1 — give the watcher this invite</div>
+    <p class="hint">Easiest: let the watcher <b>scan this QR</b>. Or tap <b>Send code</b> to send it (WhatsApp, SMS) — it’s scrambled, so it’s safe to send.</p>
+    <div id="send-offer-qr" class="qr"></div>
     <div class="row" style="margin-top:10px">
       <button class="btn small" id="send-share">Send code</button>
       <button class="btn small sec" id="send-copy">Copy</button>
+      <button class="btn small sec" id="send-showcode">Show code</button>
     </div>
+    <textarea id="send-offer" class="code hidden" readonly placeholder="Preparing…"></textarea>
 
-    <div class="step">Step 2 — paste their reply</div>
-    <p class="hint">They’ll send a reply code back. Paste it here to connect.</p>
-    <textarea id="send-answer" placeholder="Paste the reply code here"></textarea>
-    <button class="btn" id="send-connect">Connect</button>
+    <div class="step">Step 2 — get their reply</div>
+    <p class="hint">They’ll send a reply back. Scan their QR, or paste their reply code.</p>
+    <button class="btn" id="send-scan">📷 Scan their reply</button>
+    <textarea id="send-answer" placeholder="…or paste the reply code here"></textarea>
+    <button class="btn sec" id="send-connect">Connect from pasted code</button>
 
     <div id="send-status" class="hidden">
       <div class="step">You are live</div>
@@ -143,19 +156,22 @@
 
   <!-- ============ SCREEN 3: WATCHER ============ -->
   <section id="s-watch" class="card hidden">
-    <div class="step">Step 1 — paste their invite</div>
-    <p class="hint">Paste the code the sharer sent you.</p>
-    <textarea id="watch-offer" placeholder="Paste the invite code here"></textarea>
-    <button class="btn" id="watch-make">Make reply code</button>
+    <div class="step">Step 1 — get their invite</div>
+    <p class="hint">Easiest: <b>scan the sharer’s QR</b>. Or paste the invite code they sent you.</p>
+    <button class="btn" id="watch-scan">📷 Scan their invite</button>
+    <textarea id="watch-offer" placeholder="…or paste the invite code here"></textarea>
+    <button class="btn sec" id="watch-make">Make reply from pasted code</button>
 
     <div id="watch-reply" class="hidden">
-      <div class="step">Step 2 — send this reply back</div>
-      <p class="hint">Just tap <b>Send reply</b> and send it to the sharer. Once they paste it, you’ll be connected.</p>
-      <textarea id="watch-answer" class="code" readonly></textarea>
+      <div class="step">Step 2 — give the sharer this reply</div>
+      <p class="hint">Easiest: let the sharer <b>scan this QR</b>. Or tap <b>Send reply</b> to send it back. Once they have it, you’re connected.</p>
+      <div id="watch-answer-qr" class="qr"></div>
       <div class="row" style="margin-top:10px">
         <button class="btn small" id="watch-share">Send reply</button>
         <button class="btn small sec" id="watch-copy">Copy</button>
+        <button class="btn small sec" id="watch-showcode">Show code</button>
       </div>
+      <textarea id="watch-answer" class="code hidden" readonly></textarea>
     </div>
 
     <div id="watch-live" class="hidden">
@@ -176,8 +192,18 @@
   <button class="btn sec hidden" id="back">← Start over</button>
 </div>
 
+<!-- camera QR scanner -->
+<div id="scan" class="hidden">
+  <video id="scan-video" playsinline muted></video>
+  <div class="frame"></div>
+  <div class="lbl">Point the camera at the other phone’s QR code</div>
+  <button class="btn stop" id="scan-cancel">Cancel</button>
+</div>
+
 <div id="toast"></div>
 
+<script src="vendor/qrcode.min.js"></script>
+<script src="vendor/jsQR.min.js"></script>
 <script>
 "use strict";
 const $ = id => document.getElementById(id);
@@ -254,6 +280,48 @@ async function shareOrCopy(text, verb){
   catch(e){ toast("Select the code and copy it manually"); }
 }
 
+/* ---------- QR: show a code as a QR, and reveal the raw code on request ---------- */
+function drawQR(elId, text){
+  try{
+    const qr = qrcode(0, "L");        // auto version, low error-correction = most capacity
+    qr.addData(text, "Byte");
+    qr.make();
+    $(elId).innerHTML = qr.createSvgTag({ cellSize:4, margin:2, scalable:true });
+  }catch(e){ $(elId).innerHTML = ""; toast("Code’s a bit long for a QR — use Send instead"); }
+}
+function toggleCode(id){ const el=$(id); el.classList.toggle("hidden"); if(!el.classList.contains("hidden")) el.focus(); }
+
+/* ---------- QR: scan the other phone’s code with the camera ---------- */
+let scanStream=null, scanRAF=null, scanCB=null;
+const scanCanvas=document.createElement("canvas");
+async function startScan(cb){
+  if(!window.jsQR){ toast("Scanning isn’t available here — paste the code instead"); return; }
+  scanCB = cb;
+  try{ scanStream = await navigator.mediaDevices.getUserMedia({ video:{ facingMode:"environment" } }); }
+  catch(e){ toast("Camera permission is needed to scan"); return; }
+  const v=$("scan-video"); v.srcObject=scanStream;
+  try{ await v.play(); }catch(e){}
+  $("scan").classList.remove("hidden");
+  const ctx=scanCanvas.getContext("2d", { willReadFrequently:true });
+  const loop=()=>{
+    if(v.readyState>=2 && v.videoWidth){
+      scanCanvas.width=v.videoWidth; scanCanvas.height=v.videoHeight;
+      ctx.drawImage(v,0,0,scanCanvas.width,scanCanvas.height);
+      const img=ctx.getImageData(0,0,scanCanvas.width,scanCanvas.height);
+      const res=jsQR(img.data, img.width, img.height, { inversionAttempts:"dontInvert" });
+      if(res && res.data){ const cb=scanCB; stopScan(); toast("Scanned ✓"); cb(res.data.trim()); return; }
+    }
+    scanRAF=requestAnimationFrame(loop);
+  };
+  scanRAF=requestAnimationFrame(loop);
+}
+function stopScan(){
+  if(scanRAF){ cancelAnimationFrame(scanRAF); scanRAF=null; }
+  if(scanStream){ scanStream.getTracks().forEach(t=>t.stop()); scanStream=null; }
+  $("scan").classList.add("hidden"); scanCB=null;
+}
+$("scan-cancel").onclick = stopScan;
+
 /* ---------- screen switching ---------- */
 function show(which){
   $("s-start").classList.toggle("hidden", which!=="start");
@@ -294,22 +362,27 @@ async function startSender(){
   const offer = await pc.createOffer();
   await pc.setLocalDescription(offer);
   await waitIce();
-  $("send-offer").value = await makeCode(pc.localDescription);
+  const code = await makeCode(pc.localDescription);
+  $("send-offer").value = code;
+  drawQR("send-offer-qr", code);
   startMicMeter();
 }
 
 $("send-share").onclick = ()=>shareOrCopy($("send-offer").value, "Invite");
 $("send-copy").onclick  = ()=>shareOrCopy($("send-offer").value, "Invite");
+$("send-showcode").onclick = ()=>toggleCode("send-offer");
+$("send-scan").onclick = ()=>startScan(code=>{ $("send-answer").value = code; sendConnect(); });
+$("send-connect").onclick = sendConnect;
 
-$("send-connect").onclick = async ()=>{
+async function sendConnect(){
   const code = $("send-answer").value;
-  if(!code.trim()){ toast("Paste the reply code first"); return; }
+  if(!code.trim()){ toast("Paste the reply code first, or tap Scan"); return; }
   try{
     const answer = await readCode(code);
     await pc.setRemoteDescription(answer);
     toast("Connecting…");
-  }catch(e){ toast("That reply code didn’t work. Check the secret word matches."); }
-};
+  }catch(e){ toast("That reply didn’t work. Check the secret word matches."); }
+}
 
 function onSenderConnected(){
   $("send-live").classList.remove("hidden");
@@ -346,9 +419,12 @@ function startMicMeter(){
 $("send-stop").onclick = stopAll;
 
 /* ---------- WATCHER ---------- */
-$("watch-make").onclick = async ()=>{
+$("watch-scan").onclick = ()=>startScan(code=>{ $("watch-offer").value = code; watchMake(); });
+$("watch-make").onclick = watchMake;
+
+async function watchMake(){
   const code = $("watch-offer").value;
-  if(!code.trim()){ toast("Paste the invite code first"); return; }
+  if(!code.trim()){ toast("Paste the invite code first, or tap Scan"); return; }
   try{
     pc = new RTCPeerConnection(ICE);
     pc.ontrack = ev=>{ $("w-sound").srcObject = ev.streams[0]; $("w-audiodot").classList.add("on"); $("w-audio").textContent="live"; };
@@ -363,14 +439,17 @@ $("watch-make").onclick = async ()=>{
     const answer = await pc.createAnswer();
     await pc.setLocalDescription(answer);
     await waitIce();
-    $("watch-answer").value = await makeCode(pc.localDescription);
+    const replyCode = await makeCode(pc.localDescription);
+    $("watch-answer").value = replyCode;
+    drawQR("watch-answer-qr", replyCode);
     $("watch-reply").classList.remove("hidden");
     $("watch-live").classList.remove("hidden");
-  }catch(e){ toast("That invite code didn’t work. Check the secret word matches."); }
-};
+  }catch(e){ toast("That invite didn’t work. Check the secret word matches."); }
+}
 
 $("watch-share").onclick = ()=>shareOrCopy($("watch-answer").value, "Reply");
 $("watch-copy").onclick  = ()=>shareOrCopy($("watch-answer").value, "Reply");
+$("watch-showcode").onclick = ()=>toggleCode("watch-answer");
 
 async function onLocationMsg(ev){
   try{
@@ -387,6 +466,7 @@ $("watch-stop").onclick = stopAll;
 
 /* ---------- teardown ---------- */
 function stopAll(){
+  stopScan();
   if(geoWatch!=null){ navigator.geolocation.clearWatch(geoWatch); geoWatch=null; }
   if(rafId){ cancelAnimationFrame(rafId); rafId=null; }
   if(audioCtx){ try{ audioCtx.close(); }catch(e){} audioCtx=null; }
@@ -396,6 +476,8 @@ function stopAll(){
   key=null; salt=null; role=null;
   // reset fields
   ["send-offer","send-answer","watch-offer","watch-answer"].forEach(id=>$(id).value="");
+  $("send-offer-qr").innerHTML=""; $("watch-answer-qr").innerHTML="";
+  $("send-offer").classList.add("hidden"); $("watch-answer").classList.add("hidden");
   $("send-live").classList.add("hidden"); $("send-status").classList.add("hidden");
   $("watch-reply").classList.add("hidden"); $("watch-live").classList.add("hidden");
   $("send-mic").style.width="0%";
