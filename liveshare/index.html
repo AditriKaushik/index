@@ -151,6 +151,7 @@
       <div class="meter"><i id="send-mic"></i></div>
       <div class="stat"><span>Location sent</span><b id="send-loc">waiting…</b></div>
       <button class="btn stop" id="send-stop">■ Stop sharing</button>
+      <p class="hint">Stays live until the watcher stops — or until you stop it here. Keep this tab open; the screen is held awake so it doesn’t drop.</p>
     </div>
   </section>
 
@@ -186,6 +187,7 @@
       <div class="stat"><span><span class="dot" id="w-audiodot"></span>Microphone</span><b id="w-audio">waiting…</b></div>
       <audio id="w-sound" autoplay playsinline></audio>
       <button class="btn stop" id="watch-stop" style="margin-top:16px">■ Stop watching</button>
+      <p class="hint">Stays connected until you tap Stop. Keep this tab open; the screen is held awake so it doesn’t drop.</p>
     </div>
   </section>
 
@@ -212,8 +214,19 @@ const ICE = { iceServers: [ { urls: "stun:stun.l.google.com:19302" } ] };
 
 let pc = null, dc = null, localStream = null, key = null, salt = null;
 let geoWatch = null, audioCtx = null, rafId = null, role = null;
+let wakeLock = null, kaTimer = null, lastPos = null;
 
 function toast(m){ const t=$("toast"); t.textContent=m; t.classList.add("show"); clearTimeout(t._h); t._h=setTimeout(()=>t.classList.remove("show"),2200); }
+
+/* Keep the session alive: hold the screen awake so the phone doesn't sleep and
+   drop the connection. Wake locks are released when the tab is hidden, so we
+   re-take it whenever the page becomes visible again while a session is live. */
+async function keepAwake(){
+  try{ if("wakeLock" in navigator && !wakeLock){ wakeLock = await navigator.wakeLock.request("screen"); wakeLock.addEventListener("release", ()=>{ wakeLock = null; }); } }catch(e){}
+}
+function releaseWake(){ try{ if(wakeLock) wakeLock.release(); }catch(e){} wakeLock = null; }
+function sessionActive(){ return !!(localStream || pc); }
+document.addEventListener("visibilitychange", ()=>{ if(document.visibilityState==="visible" && sessionActive()) keepAwake(); });
 
 /* ---------- tiny base64 + crypto helpers ---------- */
 function b64(bytes){ let s=""; const B=bytes; for(let i=0;i<B.length;i++) s+=String.fromCharCode(B[i]); return btoa(s); }
@@ -356,8 +369,14 @@ async function startSender(){
   localStream.getTracks().forEach(t=>pc.addTrack(t, localStream));
   dc = pc.createDataChannel("live");
   dc.onopen = onSenderConnected;
-  pc.onconnectionstatechange = ()=>{ $("send-conn").textContent = pc.connectionState;
-    if(pc.connectionState==="failed") toast("Couldn’t connect. Check the secret matches and try new codes."); };
+  pc.onconnectionstatechange = ()=>{
+    const st = pc.connectionState;
+    $("send-conn").textContent = st==="disconnected" ? "reconnecting…" : st;
+    if(st==="connected") keepAwake();
+    // "disconnected" is usually a brief blip — WebRTC recovers on its own, so
+    // we do NOT tear down. Only a hard failure needs a fresh pairing.
+    if(st==="failed") toast("Connection lost — the network dropped it. Start over to reconnect.");
+  };
 
   const offer = await pc.createOffer();
   await pc.setLocalDescription(offer);
@@ -387,16 +406,23 @@ async function sendConnect(){
 function onSenderConnected(){
   $("send-live").classList.remove("hidden");
   $("send-status").classList.remove("hidden");
+  keepAwake();
   // start streaming live location over the encrypted data channel
   if(navigator.geolocation){
     geoWatch = navigator.geolocation.watchPosition(async pos=>{
       const c = pos.coords;
-      const msg = { lat:+c.latitude.toFixed(6), lon:+c.longitude.toFixed(6), acc:Math.round(c.accuracy||0), t:Date.now() };
-      try{ if(dc.readyState==="open") dc.send(await encryptText(JSON.stringify(msg))); }catch(e){}
-      $("send-loc").textContent = msg.lat+", "+msg.lon;
+      lastPos = { lat:+c.latitude.toFixed(6), lon:+c.longitude.toFixed(6), acc:Math.round(c.accuracy||0), t:Date.now() };
+      try{ if(dc && dc.readyState==="open") dc.send(await encryptText(JSON.stringify(lastPos))); }catch(e){}
+      $("send-loc").textContent = lastPos.lat+", "+lastPos.lon;
     }, err=>{ $("send-loc").textContent = "location blocked"; toast("Location permission was refused"); },
     { enableHighAccuracy:true, maximumAge:3000, timeout:20000 });
   } else { $("send-loc").textContent = "not supported"; }
+  // Heartbeat: even when standing still, send a tiny keepalive so the link
+  // stays healthy and the watcher can tell we're still there.
+  clearInterval(kaTimer);
+  kaTimer = setInterval(async ()=>{
+    try{ if(dc && dc.readyState==="open") dc.send(await encryptText(JSON.stringify(lastPos ? {...lastPos, t:Date.now()} : {ping:Date.now()}))); }catch(e){}
+  }, 10000);
 }
 
 function startMicMeter(){
@@ -431,8 +457,10 @@ async function watchMake(){
     pc.ondatachannel = ev=>{ dc = ev.channel; dc.onmessage = onLocationMsg; };
     pc.onconnectionstatechange = ()=>{
       const st = pc.connectionState;
-      $("watch-banner").textContent = st==="connected" ? "🟢 Connected — receiving live" : "Connection: "+st;
-      if(st==="failed") toast("Couldn’t connect. Check the secret matches.");
+      if(st==="connected"){ $("watch-banner").textContent = "🟢 Connected — receiving live"; keepAwake(); }
+      else if(st==="disconnected"){ $("watch-banner").textContent = "🟠 Reconnecting…"; }   // brief blip; do not tear down
+      else if(st==="failed"){ $("watch-banner").textContent = "🔴 Connection lost"; toast("Connection lost — the network dropped it. Start over to reconnect."); }
+      else { $("watch-banner").textContent = "Connection: "+st; }
     };
     const offer = await readCode(code);         // sets salt + key from the code
     await pc.setRemoteDescription(offer);
@@ -454,6 +482,7 @@ $("watch-showcode").onclick = ()=>toggleCode("watch-answer");
 async function onLocationMsg(ev){
   try{
     const m = JSON.parse(await decryptText(ev.data));
+    if(m.lat==null) return;   // keepalive heartbeat with no position yet — nothing to show
     $("w-lat").textContent = m.lat;
     $("w-lon").textContent = m.lon;
     $("w-acc").textContent = "±" + m.acc + " m";
@@ -467,6 +496,9 @@ $("watch-stop").onclick = stopAll;
 /* ---------- teardown ---------- */
 function stopAll(){
   stopScan();
+  releaseWake();
+  if(kaTimer){ clearInterval(kaTimer); kaTimer=null; }
+  lastPos=null;
   if(geoWatch!=null){ navigator.geolocation.clearWatch(geoWatch); geoWatch=null; }
   if(rafId){ cancelAnimationFrame(rafId); rafId=null; }
   if(audioCtx){ try{ audioCtx.close(); }catch(e){} audioCtx=null; }

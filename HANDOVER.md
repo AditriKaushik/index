@@ -184,7 +184,14 @@ Globals exposed: `window.jsQR(...)` and `qrcode(...)`.
   Send/paste fallback always works.
 - **Backgrounding.** In a browser tab, sharing stops if the tab is closed;
   iOS Safari can't keep a web app running in the background. (Guardian's Android
-  wrapper solved this but was removed for simplicity.)
+  wrapper solved this but was removed for simplicity.) The session otherwise
+  persists until someone taps Stop: the app holds a **screen wake lock**
+  (`navigator.wakeLock`, re-acquired on `visibilitychange`) so the phone doesn't
+  sleep and drop the link, sends a **10s keepalive** on the data channel, and
+  treats a transient `disconnected` as "Reconnecting…" rather than tearing down
+  (only `failed` is fatal). A hard failure still needs a fresh pair-up, because
+  ICE restart can't be re-signalled without a server. The sharer keeps the
+  ability to stop their own mic/location by design (consent).
 - **Permissions.** Needs mic + location (sharer) and camera (to scan QR).
 - **One-to-one.** Exactly two phones per session, by design.
 
