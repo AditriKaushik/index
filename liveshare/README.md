@@ -11,11 +11,14 @@ It is a single web page. Open the link on both phones and you are done.
    the key — agree on it in person or over a call, and don't send it in the
    same message as the code below.
 2. One person taps **Share**, the other taps **Watch**.
-3. The sharer's phone shows an **invite code** — send it to the watcher (paste
-   it into WhatsApp, SMS, anything).
-4. The watcher pastes it, gets a **reply code**, and sends that back.
-5. The sharer pastes the reply, and they're connected. The watcher now sees the
-   sharer's location on a live map link and hears their microphone.
+3. The sharer's phone shows an **invite QR**. The watcher taps **Scan their
+   invite** and points the camera at it. (If the phones aren't together, the
+   sharer can tap **Send code** to send it over WhatsApp/SMS and the watcher
+   pastes it instead — both work.)
+4. The watcher's phone then shows a **reply QR**. The sharer taps **Scan their
+   reply** and points at it (or the watcher sends the reply code back).
+5. They're connected. The watcher now sees the sharer's location on a live map
+   link and hears their microphone.
 
 Either side can tap **Stop** at any time and nothing more is shared.
 
@@ -52,4 +55,9 @@ switched off on insecure pages.
 
 | File | What it is |
 | --- | --- |
-| `index.html` | The whole app — UI, encryption, location, microphone, WebRTC |
+| `index.html` | The whole app — UI, encryption, location, microphone, WebRTC, QR |
+| `vendor/qrcode.min.js` | QR **encoder** (qrcode-generator, MIT) — draws the invite/reply QR |
+| `vendor/jsQR.min.js` | QR **decoder** (jsQR, Apache-2.0) — reads a QR from the camera |
+
+The two `vendor/` files are the only third-party code, both served from this
+site (no CDN), so the app stays self-contained and works offline once loaded.
