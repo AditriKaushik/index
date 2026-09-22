@@ -42,8 +42,17 @@ Either side can tap **Stop** at any time and nothing more is shared.
 
 Because there is no relay server, the two phones connect directly. On most
 Wi-Fi and mobile networks that works. On a few strict networks the direct
-connection can't form; if that happens, try again on Wi-Fi. (Location and voice
-both need the page to stay open on the sharing phone.)
+connection can't form; if that happens, try again on Wi-Fi.
+
+**Staying connected.** Once connected, the session stays live until someone
+taps Stop — it does not time out. While a session is running the app holds a
+screen **wake lock** so the phone doesn't sleep and drop the link, and sends a
+small heartbeat every 10 seconds. Brief network wobbles show "Reconnecting…"
+and recover on their own without re-pairing. Two things still end it: the page
+being **fully closed** (both location and voice need the sharing page open —
+on iOS a web app can't run in the background at all), and a **hard** network
+failure, which needs a fresh pair-up. The sharer can always stop sharing their
+own microphone and location — that is deliberate and cannot be taken away.
 
 ## Browser support
 
