@@ -6,6 +6,7 @@ Cloudflare Worker that backs them.
 | App | What it is |
 | --- | --- |
 | [`liveshare/`](liveshare/) | **Live Share** — share your live location and voice with one person you trust, end-to-end encrypted. One web page, no account, no server. |
+| [`android/`](android/) | Live Share as an installable Android app, so sharing keeps running with the screen off. [Download the APK](https://github.com/AditriKaushik/index/releases/download/apk-latest/liveshare-release.apk) — the link always points at the newest build. |
 | `trade-decision.html` | NSE intraday trade-decision framework, calculators and journal |
 | `index.html` | The ₹1 lakh NSE intraday framework write-up |
 

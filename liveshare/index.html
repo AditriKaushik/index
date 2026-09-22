@@ -226,6 +226,18 @@ async function keepAwake(){
 }
 function releaseWake(){ try{ if(wakeLock) wakeLock.release(); }catch(e){} wakeLock = null; }
 function sessionActive(){ return !!(localStream || pc); }
+
+/* When wrapped in the Live Share Android app, ask it to run a foreground
+   service so the microphone and location keep transmitting with the screen
+   locked or the phone asleep — something a plain browser tab cannot do. In a
+   normal browser LiveShareHost is absent and these calls are no-ops. */
+function nativeSharing(active){
+  try{
+    if(window.LiveShareHost && LiveShareHost.setSharing){
+      LiveShareHost.setSharing(active, true, true, active ? "Sharing live location & microphone" : "");
+    }
+  }catch(e){}
+}
 document.addEventListener("visibilitychange", ()=>{ if(document.visibilityState==="visible" && sessionActive()) keepAwake(); });
 
 /* ---------- tiny base64 + crypto helpers ---------- */
@@ -407,6 +419,7 @@ function onSenderConnected(){
   $("send-live").classList.remove("hidden");
   $("send-status").classList.remove("hidden");
   keepAwake();
+  nativeSharing(true);   // keep transmitting with the screen off (Android app only)
   // start streaming live location over the encrypted data channel
   if(navigator.geolocation){
     geoWatch = navigator.geolocation.watchPosition(async pos=>{
@@ -497,6 +510,7 @@ $("watch-stop").onclick = stopAll;
 function stopAll(){
   stopScan();
   releaseWake();
+  nativeSharing(false);   // stop the Android foreground service, if any
   if(kaTimer){ clearInterval(kaTimer); kaTimer=null; }
   lastPos=null;
   if(geoWatch!=null){ navigator.geolocation.clearWatch(geoWatch); geoWatch=null; }
@@ -518,6 +532,9 @@ function stopAll(){
   toast("Stopped. Nothing is being shared.");
 }
 $("back").onclick = ()=>{ if(pc||localStream){ stopAll(); } else show("start"); };
+
+/* The Android app's notification "Stop" button calls this. */
+window.__liveShareStop = function(){ stopAll(); };
 
 /* Refuse to run without a secure context, where the crypto/mic/location APIs are blocked. */
 if(!window.isSecureContext || !navigator.mediaDevices || !window.crypto?.subtle){
