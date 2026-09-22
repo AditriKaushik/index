@@ -182,6 +182,16 @@ public class MainActivity extends Activity {
             wanted.add(Manifest.permission.ACCESS_FINE_LOCATION);
             wanted.add(Manifest.permission.ACCESS_COARSE_LOCATION);
         }
+        // Ask for the microphone (and camera, for scanning QR) up front. If we
+        // wait until the page calls getUserMedia, the WebView's PermissionRequest
+        // can be invalidated while the system dialog is showing, and getUserMedia
+        // then rejects even though the OS permission ends up granted.
+        if (!granted(Manifest.permission.RECORD_AUDIO)) {
+            wanted.add(Manifest.permission.RECORD_AUDIO);
+        }
+        if (!granted(Manifest.permission.CAMERA)) {
+            wanted.add(Manifest.permission.CAMERA);
+        }
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU
                 && !granted(Manifest.permission.POST_NOTIFICATIONS)) {
             wanted.add(Manifest.permission.POST_NOTIFICATIONS);

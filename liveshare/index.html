@@ -371,8 +371,16 @@ async function begin(r){
 async function startSender(){
   show("send");
   try{
+    if(!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) throw new Error("unsupported");
     localStream = await navigator.mediaDevices.getUserMedia({ audio:true });
-  }catch(e){ toast("Microphone permission is needed to share voice"); show("start"); return; }
+  }catch(e){
+    const n = (e && e.name) ? e.name : String(e);
+    if(n==="NotAllowedError" || n==="SecurityError") toast("Microphone is blocked. Allow the mic for Live Share in Settings, then try again.");
+    else if(n==="NotReadableError" || n==="AbortError") toast("The mic is busy — close other apps using it (a call, a recorder) and try again.");
+    else if(n==="NotFoundError" || n==="OverconstrainedError") toast("No microphone was found on this device.");
+    else toast("Couldn’t start the mic ("+n+"). Try again.");
+    show("start"); return;
+  }
 
   salt = crypto.getRandomValues(new Uint8Array(16));
   key = await deriveKey($("secret").value.trim(), salt);
