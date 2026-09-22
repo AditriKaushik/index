@@ -41,7 +41,9 @@
     background:var(--bg); border:1.5px solid var(--line); border-radius:12px;
     padding:13px 14px;
   }
-  textarea{resize:vertical; min-height:96px; word-break:break-all; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:13px}
+  textarea{resize:vertical; min-height:88px; word-break:break-all; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:13px}
+  /* The generated codes are just something to send, not to read — keep them small and calm. */
+  textarea.code{min-height:52px; max-height:72px; font-size:11px; color:var(--muted); background:var(--bg)}
   input:focus, textarea:focus{outline:none; border-color:var(--brand)}
   .btn{
     display:flex; align-items:center; justify-content:center; gap:8px;
@@ -117,8 +119,8 @@
     <div id="send-live" class="banner live hidden">🔴 You are sharing your live location and microphone.</div>
 
     <div class="step">Step 1 — send this invite</div>
-    <p class="hint">Send this code to the watcher (WhatsApp, SMS, anything). It’s scrambled, so it’s safe to send.</p>
-    <textarea id="send-offer" readonly placeholder="Preparing…"></textarea>
+    <p class="hint">You don’t need to read this code — just tap <b>Send code</b> and pick WhatsApp, SMS, anything. It’s scrambled, so it’s safe to send.</p>
+    <textarea id="send-offer" class="code" readonly placeholder="Preparing…"></textarea>
     <div class="row" style="margin-top:10px">
       <button class="btn small" id="send-share">Send code</button>
       <button class="btn small sec" id="send-copy">Copy</button>
@@ -148,8 +150,8 @@
 
     <div id="watch-reply" class="hidden">
       <div class="step">Step 2 — send this reply back</div>
-      <p class="hint">Send this reply code to the sharer. Once they paste it, you’ll be connected.</p>
-      <textarea id="watch-answer" readonly></textarea>
+      <p class="hint">Just tap <b>Send reply</b> and send it to the sharer. Once they paste it, you’ll be connected.</p>
+      <textarea id="watch-answer" class="code" readonly></textarea>
       <div class="row" style="margin-top:10px">
         <button class="btn small" id="watch-share">Send reply</button>
         <button class="btn small sec" id="watch-copy">Copy</button>
@@ -180,10 +182,7 @@
 "use strict";
 const $ = id => document.getElementById(id);
 const enc = new TextEncoder(), dec = new TextDecoder();
-const ICE = { iceServers: [
-  { urls: "stun:stun.l.google.com:19302" },
-  { urls: "stun:stun1.l.google.com:19302" }
-] };
+const ICE = { iceServers: [ { urls: "stun:stun.l.google.com:19302" } ] };
 
 let pc = null, dc = null, localStream = null, key = null, salt = null;
 let geoWatch = null, audioCtx = null, rafId = null, role = null;
@@ -200,24 +199,41 @@ async function deriveKey(passphrase, saltBytes){
     { name:"PBKDF2", salt:saltBytes, iterations:150000, hash:"SHA-256" },
     base, { name:"AES-GCM", length:256 }, false, ["encrypt","decrypt"]);
 }
-async function encryptText(text){
+async function sealBytes(plain){
   const iv = crypto.getRandomValues(new Uint8Array(12));
-  const ct = new Uint8Array(await crypto.subtle.encrypt({name:"AES-GCM",iv}, key, enc.encode(text)));
+  const ct = new Uint8Array(await crypto.subtle.encrypt({name:"AES-GCM",iv}, key, plain));
   const packed = new Uint8Array(iv.length+ct.length); packed.set(iv); packed.set(ct, iv.length);
-  return b64(packed);
+  return packed;
 }
-async function decryptText(packedB64){
-  const raw = unb64(packedB64), iv = raw.slice(0,12), ct = raw.slice(12);
-  const pt = await crypto.subtle.decrypt({name:"AES-GCM",iv}, key, ct);
-  return dec.decode(pt);
+async function openBytes(packed){
+  const iv = packed.slice(0,12), ct = packed.slice(12);
+  return new Uint8Array(await crypto.subtle.decrypt({name:"AES-GCM",iv}, key, ct));
 }
-/* A pairing code is  saltB64 : encryptedSdpB64  */
-async function makeCode(sdpObj){ return b64(salt) + ":" + await encryptText(JSON.stringify(sdpObj)); }
+async function encryptText(text){ return b64(await sealBytes(enc.encode(text))); }
+async function decryptText(packedB64){ return dec.decode(await openBytes(unb64(packedB64))); }
+
+/* Squeeze the connection details right down before they go in the code. */
+async function deflate(bytes){
+  const cs = new CompressionStream("deflate-raw");
+  const w = cs.writable.getWriter(); w.write(bytes); w.close();
+  return new Uint8Array(await new Response(cs.readable).arrayBuffer());
+}
+async function inflate(bytes){
+  const ds = new DecompressionStream("deflate-raw");
+  const w = ds.writable.getWriter(); w.write(bytes); w.close();
+  return new Uint8Array(await new Response(ds.readable).arrayBuffer());
+}
+
+/* A pairing code is  saltB64 : encrypted(compressed(sdp))  */
+async function makeCode(sdpObj){
+  const packed = await sealBytes(await deflate(enc.encode(JSON.stringify(sdpObj))));
+  return b64(salt) + ":" + b64(packed);
+}
 async function readCode(code){
-  const [saltPart, payload] = code.trim().split(":");
+  const [saltPart, payload] = code.trim().replace(/\s+/g,"").split(":");
   if(!saltPart || !payload) throw new Error("That doesn’t look like a valid code.");
   if(!salt){ salt = unb64(saltPart); key = await deriveKey($("secret").value.trim(), salt); }
-  return JSON.parse(await decryptText(payload));
+  return JSON.parse(dec.decode(await inflate(await openBytes(unb64(payload)))));
 }
 
 /* wait until ICE candidates are gathered, so the code is complete (no server needed) */
