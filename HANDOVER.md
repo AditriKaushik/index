@@ -62,8 +62,16 @@ index/
 ├─ icons/                     # UNRELATED: trade-tool icons
 ├─ worker/index.js            # Cloudflare Worker: Paytm Money quote proxy (trade tool only)
 ├─ wrangler.toml              # Worker config (trade tool only; Guardian bindings removed)
+├─ android/                   # Live Share as an Android app (background sharing)
+│  ├─ app/src/main/java/org/mahendras/guardian/   # package name kept from earlier
+│  │  ├─ MainActivity.java     # WebView + permissions + JS bridge (LiveShareHost)
+│  │  ├─ SharingService.java   # foreground service that keeps sharing alive
+│  │  └─ GuardianApp.java      # notification channel
+│  ├─ app/src/main/AndroidManifest.xml
+│  └─ app/build.gradle         # bundles ../liveshare into assets at build time
 ├─ .github/workflows/
 │  ├─ deploy-pages.yml         # publishes the static site to GitHub Pages
+│  ├─ build-apk.yml            # builds + publishes the Android APK (apk-latest release)
 │  └─ deploy-worker.yml        # deploys the Worker
 └─ HANDOVER.md                # this file
 ```
@@ -182,9 +190,13 @@ Globals exposed: `window.jsQR(...)` and `qrcode(...)`.
 - **QR density.** The code is ~1250 chars → a version-25ish QR. It scans fine
   but benefits from screen brightness up and a steady hand ~15 cm away. The
   Send/paste fallback always works.
-- **Backgrounding.** In a browser tab, sharing stops if the tab is closed;
-  iOS Safari can't keep a web app running in the background. (Guardian's Android
-  wrapper solved this but was removed for simplicity.) The session otherwise
+- **Backgrounding.** In a browser tab, sharing stops when the screen locks or
+  the phone sleeps, and iOS Safari can't run a web app in the background at all.
+  The **Android app** (`android/`) solves this on Android: the page calls
+  `LiveShareHost.setSharing(true,…)` on connect, which starts a foreground
+  service (location + microphone types, partial wake lock, ongoing
+  notification) that keeps the WebView's JS — and so the sending — alive with
+  the screen off. iOS has no equivalent. The session otherwise
   persists until someone taps Stop: the app holds a **screen wake lock**
   (`navigator.wakeLock`, re-acquired on `visibilitychange`) so the phone doesn't
   sleep and drop the link, sends a **10s keepalive** on the data channel, and
