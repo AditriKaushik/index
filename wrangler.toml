@@ -17,3 +17,21 @@ ALLOWED_ORIGIN = "*"
 #   PM_API_SECRET      - from developer.paytmmoney.com app registration
 #   APP_SHARED_SECRET  - any random string you make up; shared between this Worker and the frontend
 #                        to keep the /quote endpoint from being called by strangers who find the URL
+
+# ---- Live Share signaling relay (liveshare/) -------------------------------
+# A Durable Object gives each pairing one in-memory room to relay the encrypted
+# WebRTC handshake through. It stores nothing - location, voice and video go
+# peer-to-peer and never touch the server.
+[[durable_objects.bindings]]
+name = "SAFETY_ROOMS"
+class_name = "SafetyRoom"
+
+# SQLite-backed Durable Objects work on the Workers free plan. The room keeps no
+# stored state - it is a relay - but the class still needs a migration.
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["SafetyRoom"]
+
+# Optional TURN for voice/video on strict mobile networks (location never needs
+# it). Either Cloudflare Realtime TURN (CF_TURN_KEY_ID, CF_TURN_API_TOKEN) or a
+# static provider (TURN_URL, TURN_USERNAME, TURN_CREDENTIAL), set as secrets.

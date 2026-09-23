@@ -10,12 +10,19 @@ it, how it deploys, and what is left to do.
 
 ## 1. What this project is
 
-**Live Share** (`liveshare/`) is a tiny, single-page web app that lets one
-person share their **live location** and **live microphone** with one trusted
-person, **end-to-end encrypted**, with **no account and no server**. The two
-phones connect directly (peer-to-peer over WebRTC). It replaced an earlier,
-much heavier app called *Guardian* (which used a Cloudflare relay, a group
-model, camera sharing, and a native Android wrapper) — all of that was removed.
+**Live Share** (`liveshare/`) is a single-page web app that lets people share
+their **live location** and **live microphone** with someone they trust,
+**end-to-end encrypted**, with **no account and nothing stored**. Media travels
+peer-to-peer over WebRTC. Pairing is now **link-based**: open the same link on
+both phones → tap Share / Watch → auto-connected, no codes.
+
+This uses a small **signaling relay** (the Cloudflare Worker in `worker/`,
+recovered from the earlier *Guardian* app) purely to introduce the two phones —
+it forwards only encrypted bytes and stores nothing. History: the app started
+as Guardian (relay + group + camera + Android), was cut down to a serverless
+copy/paste-code app, and then — because code/QR pairing was too hard for
+non-technical users — moved back to relay-based one-link pairing while staying
+minimal (1 sharer → N watchers, location + optional voice).
 
 Design intent: simple enough for a non-technical person, and deliberately
 **consent-based and visible** (a sharing phone always shows it is sharing;
@@ -60,7 +67,8 @@ index/
 ├─ trade-decision.html        # UNRELATED: NSE trade-decision tool
 ├─ manifest.json, sw.js       # UNRELATED: PWA bits for the trade tool
 ├─ icons/                     # UNRELATED: trade-tool icons
-├─ worker/index.js            # Cloudflare Worker: Paytm Money quote proxy (trade tool only)
+├─ worker/index.js            # Cloudflare Worker: trade-tool quote proxy + Live Share relay routes
+├─ worker/guardian.js         # the Live Share signaling relay (SafetyRoom Durable Object)
 ├─ wrangler.toml              # Worker config (trade tool only; Guardian bindings removed)
 ├─ android/                   # Live Share as an Android app (background sharing)
 │  ├─ app/src/main/java/org/mahendras/guardian/   # package name kept from earlier
@@ -76,55 +84,49 @@ index/
 └─ HANDOVER.md                # this file
 ```
 
-Live Share needs **no** Worker. The Worker and `wrangler.toml` are only for the
-NSE trade tool; Guardian's relay, Durable Object binding and TURN config were
-stripped out of them.
+The Worker (`worker/index.js` + `worker/guardian.js`) now serves **both** the
+NSE trade tool's quote proxy **and** Live Share's signaling relay (mounted at
+`/guardian/*`). `wrangler.toml` carries the `SAFETY_ROOMS` Durable Object
+binding + migration. Live Share cannot pair without this relay deployed.
 
 ---
 
 ## 4. How Live Share works
 
-### Roles
-On open, the user types a **secret word** and taps **Share** (sends location +
-mic) or **Watch** (receives). Everything is in `liveshare/index.html`.
+### Link + roles
+`index.html` reads the link fragment `#<room>.<keyB64>[.<relayB64>]`:
+`room` is a random id, `keyB64` is the 32-byte AES-256-GCM key (never sent to a
+server), and the optional third part carries the relay address so invitees
+configure nothing. **Create a link** generates room+key and bakes in the relay
+(from `BUILTIN_RELAY` or the Advanced box / localStorage). Both phones open the
+link → tap **Share** or **Watch**.
 
-### Pairing (serverless)
-Standard WebRTC needs the two peers to exchange an SDP "offer" and "answer".
-With no signaling server, they are exchanged as **pairing codes**:
-
-1. Sharer creates an offer, waits for ICE gathering to finish (non-trickle),
-   and turns it into an **invite code**.
-2. Watcher ingests the invite, creates an answer, and produces a **reply code**.
-3. Sharer ingests the reply → connected.
-
-Codes can be exchanged three ways (all supported):
-- **QR (default):** each side renders its code as a QR; the other side taps
-  **Scan** and reads it with the camera. No typing.
-- **Send:** `navigator.share` (WhatsApp/SMS/etc.), with a clipboard fallback.
-- **Paste:** a "Show code" toggle reveals the raw text box.
+### Pairing (relay-signalled, automatic)
+The relay (`worker/guardian.js`, a `SafetyRoom` Durable Object) is a WebSocket
+rendezvous: `welcome` / `peer-join` / `peer-leave` presence, and `relay`
+messages `{iv,ct}` that it forwards (optionally targeted with `to`, stamped with
+`from`) without decrypting. The client:
+1. Connects `wss://<relay>/guardian/ws?room=…&role=share|watch`.
+2. **Sharer** offers to every `watch` peer (one `RTCPeerConnection` each →
+   supports 1 sharer → N watchers), sending encrypted `{k:'offer'|'ice'}`.
+3. **Watcher** answers (`{k:'answer'|'ice'}`). Only the sharer offers, so no
+   glare. Trickle ICE, candidates queued until the remote description is set.
+4. Then location (encrypted, over the data channel) + optional voice (WebRTC
+   media, DTLS-SRTP) flow peer-to-peer. STUN/TURN come from `/guardian/ice`.
 
 ### Encryption
-- The secret word → an **AES-256-GCM** key via **PBKDF2** (150k iterations,
-  SHA-256, random 16-byte salt). The salt is carried in the code as
-  `saltB64 : payloadB64`.
-- The pairing codes are **compressed** (`deflate-raw`) then encrypted, so an
-  intercepted code without the secret word is useless. Compression roughly
-  halves the code (~2945 → ~1249 chars on a real offer).
-- Live **location** messages on the WebRTC data channel are also AES-GCM
-  encrypted per message.
-- Live **voice** rides WebRTC media, which is encrypted by DTLS-SRTP between
-  the two peers.
-- Only server touched at runtime: Google's public **STUN** (`stun.l.google.com`)
-  to help the peers find each other — it never sees location or audio.
+- Key = 32 random bytes carried in the link fragment → `importKey` AES-256-GCM.
+- `seal(obj)`→`{iv,ct}` / `open_(iv,ct)`; every signaling payload and every
+  location update is sealed. The relay only ever sees ciphertext.
+- Voice/video ride WebRTC's own DTLS-SRTP.
 
 ### Key functions in `index.html`
-- `deriveKey`, `sealBytes` / `openBytes`, `encryptText` / `decryptText`
-- `deflate` / `inflate` (CompressionStream / DecompressionStream)
-- `makeCode` / `readCode` — build/parse a pairing code (`salt : encrypted(compressed(sdp))`)
-- `startSender`, `sendConnect`, `onSenderConnected`, `startMicMeter`
-- `watchMake`, `onLocationMsg`
-- `drawQR` (qrcode-generator), `startScan` / `stopScan` (jsQR + camera)
-- `stopAll` — full teardown (stops tracks, watch, scanner; clears QR/codes)
+- `parseHash` / `buildLink` / `currentLink`, `importKey`, `seal` / `open_`
+- `connect` / `onWs` / `relaySend` / `handleSignal` — relay signaling
+- `startShare` / `offerTo` / `startGeo` / `getMic` / `startMicMeter`
+- `startWatch` / `onLocationMsg`
+- `keepAwake` / `releaseWake`, `nativeSharing` (Android bridge)
+- `startScan` / `stopScan` (jsQR — scan a link), `shareLink`, `leave` (teardown)
 
 ### Consent / safety design
 Sharing is always visible: a red "You are sharing…" banner, a live mic-level
