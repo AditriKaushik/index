@@ -14,16 +14,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      # Deploys the Worker code (Live Share relay + trade-tool routes). Only the
+      # two Cloudflare credentials are required. The trade tool's own secrets
+      # (PM_API_KEY, PM_API_SECRET, APP_SHARED_SECRET) are NOT pushed here so a
+      # deploy for the relay never fails just because they aren't set — set them
+      # separately with `wrangler secret put <NAME>` if/when the trade tool is used.
       - name: Deploy to Cloudflare Workers
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          secrets: |
-            PM_API_KEY
-            PM_API_SECRET
-            APP_SHARED_SECRET
-        env:
-          PM_API_KEY: ${{ secrets.PM_API_KEY }}
-          PM_API_SECRET: ${{ secrets.PM_API_SECRET }}
-          APP_SHARED_SECRET: ${{ secrets.APP_SHARED_SECRET }}
