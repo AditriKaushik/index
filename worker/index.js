@@ -17,7 +17,12 @@
 //   secrets          PM_API_KEY, PM_API_SECRET, APP_SHARED_SECRET
 //   vars             ALLOWED_ORIGIN (optional, defaults to "*")
 
+import { handleGuardian, SafetyRoom } from './guardian.js';
+
 const PM_HOST = 'https://developer.paytmmoney.com';
+
+// Durable Object class for the Live Share signaling rooms (see guardian.js).
+export { SafetyRoom };
 
 export default {
   async fetch(request, env, ctx) {
@@ -29,6 +34,11 @@ export default {
     }
 
     try {
+      // Live Share signaling relay (WebSocket rendezvous + ICE config). It only
+      // forwards encrypted bytes between two phones and stores nothing.
+      if (url.pathname === '/guardian' || url.pathname.startsWith('/guardian/')) {
+        return await handleGuardian(request, url, env, cors);
+      }
       if (url.pathname === '/login') return handleLogin(url, env);
       if (url.pathname === '/callback') return await handleCallback(url, env);
       if (url.pathname === '/status') return await handleStatus(env, cors);

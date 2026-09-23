@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Live Share</title>
-<meta name="description" content="Share your live location and voice with one person you trust, end-to-end encrypted. No account, no server.">
+<meta name="description" content="Share your live location and voice with people you trust, end-to-end encrypted. Open one link — no codes, nothing stored.">
 <meta name="theme-color" content="#1f6feb">
 <style>
   :root{
@@ -36,15 +36,11 @@
         padding:20px; box-shadow:var(--shadow); margin-bottom:16px}
   label{display:block; font-weight:600; margin:0 0 6px}
   .hint{color:var(--muted); font-size:13.5px; margin:6px 0 0}
-  input[type=text], textarea{
+  input[type=text]{
     width:100%; font-size:16px; font-family:inherit; color:var(--ink);
-    background:var(--bg); border:1.5px solid var(--line); border-radius:12px;
-    padding:13px 14px;
+    background:var(--bg); border:1.5px solid var(--line); border-radius:12px; padding:13px 14px;
   }
-  textarea{resize:vertical; min-height:88px; word-break:break-all; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:13px}
-  /* The generated codes are just something to send, not to read — keep them small and calm. */
-  textarea.code{min-height:52px; max-height:72px; font-size:11px; color:var(--muted); background:var(--bg)}
-  input:focus, textarea:focus{outline:none; border-color:var(--brand)}
+  input:focus{outline:none; border-color:var(--brand)}
   .btn{
     display:flex; align-items:center; justify-content:center; gap:8px;
     width:100%; font-size:17px; font-weight:700; font-family:inherit;
@@ -57,10 +53,8 @@
   .btn.small{width:auto; font-size:14px; padding:9px 14px; margin:0}
   .row{display:flex; gap:10px; flex-wrap:wrap}
   .roles{display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:16px}
-  .role{
-    text-align:center; padding:20px 12px; border-radius:16px; cursor:pointer;
-    border:1.5px solid var(--line); background:var(--bg);
-  }
+  .role{text-align:center; padding:20px 12px; border-radius:16px; cursor:pointer; border:1.5px solid var(--line); background:var(--bg)}
+  .role.on{border-color:var(--brand); background:var(--good-bg)}
   .role .em{font-size:30px; display:block; margin-bottom:6px}
   .role .t{font-weight:700}
   .role .d{font-size:13px; color:var(--muted); margin-top:2px}
@@ -68,6 +62,7 @@
   .banner{border-radius:12px; padding:12px 14px; font-weight:600; font-size:14px; margin-bottom:14px}
   .banner.live{background:var(--stop-bg); color:var(--stop)}
   .banner.ok{background:var(--good-bg); color:var(--good)}
+  .banner.wait{background:var(--bg); color:var(--muted); border:1px solid var(--line)}
   .step{font-size:12px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--muted); margin:18px 0 8px}
   .step:first-of-type{margin-top:0}
   .meter{height:12px; border-radius:99px; background:var(--line); overflow:hidden; margin-top:8px}
@@ -76,20 +71,17 @@
   .stat:last-child{border-bottom:none}
   .stat b{font-variant-numeric:tabular-nums}
   .dot{width:9px; height:9px; border-radius:99px; background:var(--muted); display:inline-block; margin-right:7px; vertical-align:middle}
-  .dot.on{background:var(--good)}
-  .dot.wait{background:#e0a800}
+  .dot.on{background:var(--good)} .dot.wait{background:#e0a800}
   a.maplink{color:var(--brand); font-weight:600; text-decoration:none}
-  #toast{position:fixed; left:50%; bottom:24px; transform:translateX(-50%);
-    background:#0d1622; color:#fff; padding:11px 16px; border-radius:99px; font-size:14px;
-    font-weight:600; opacity:0; pointer-events:none; transition:opacity .2s; z-index:50; max-width:90vw}
+  .linkbox{background:var(--bg); border:1px solid var(--line); border-radius:12px; padding:11px 13px; font-size:12.5px; word-break:break-all; color:var(--muted); margin-top:6px; font-family:ui-monospace,Menlo,monospace}
+  #toast{position:fixed; left:50%; bottom:24px; transform:translateX(-50%); background:#0d1622; color:#fff; padding:11px 16px; border-radius:99px; font-size:14px; font-weight:600; opacity:0; pointer-events:none; transition:opacity .2s; z-index:50; max-width:90vw; text-align:center}
   #toast.show{opacity:.96}
   .lock{font-size:13px; color:var(--muted); margin-top:10px}
   .lock b{color:var(--good)}
-  /* QR code shown for pairing */
-  .qr{background:#fff; border-radius:14px; padding:12px; margin-top:6px; display:flex; justify-content:center}
-  .qr svg, .qr img{width:100%; max-width:280px; height:auto; image-rendering:pixelated}
+  .qr{background:#fff; border-radius:14px; padding:12px; margin-top:10px; display:flex; justify-content:center}
+  .qr svg, .qr img{width:100%; max-width:250px; height:auto; image-rendering:pixelated}
   .qr:empty{display:none}
-  /* Full-screen camera scanner */
+  details{margin-top:14px} summary{cursor:pointer; color:var(--muted); font-size:13.5px; font-weight:600}
   #scan{position:fixed; inset:0; background:#000; z-index:100; display:flex; flex-direction:column; align-items:center; justify-content:center}
   #scan video{width:100%; height:100%; object-fit:cover; position:absolute; inset:0}
   #scan .frame{position:relative; z-index:2; width:70vw; max-width:320px; aspect-ratio:1; border:3px solid #fff; border-radius:18px; box-shadow:0 0 0 100vmax rgba(0,0,0,.45)}
@@ -100,83 +92,60 @@
 <body>
 <div class="wrap">
   <h1>Live Share</h1>
-  <p class="tag">Share your live location and voice with one person you trust. End‑to‑end encrypted. No account, nothing to install.</p>
+  <p class="tag">Share your live location and voice with someone you trust. Open one link on both phones — no codes. End‑to‑end encrypted; nothing is stored.</p>
 
-  <!-- ============ SCREEN 1: choose ============ -->
+  <!-- ============ START: create or join ============ -->
   <section id="s-start" class="card">
-    <label for="secret">1. Pick a secret word</label>
-    <input id="secret" type="text" autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="e.g. bluewhale42" inputmode="text">
-    <p class="hint">Both phones must type the <b>same secret word</b>. It is the key: the location and voice can only be read by someone who knows it. Agree on it in person or over a call — don’t send it in the same message as the code.</p>
+    <div class="step">Start a group</div>
+    <p class="hint">Make a private link and send it to the person you want to connect with (family, a friend). Whoever opens it is in your group.</p>
+    <button class="btn" id="create">➕ Create a link</button>
+    <div class="step" style="margin-top:22px">Or join one</div>
+    <p class="hint">Someone sent you a link? Open it, or scan it here.</p>
+    <button class="btn sec" id="scan-join">📷 Scan a link</button>
+    <input id="join-url" type="text" autocomplete="off" spellcheck="false" placeholder="…or paste the link here" style="margin-top:10px">
+    <button class="btn sec" id="join">Open link</button>
 
-    <div class="step" style="margin-top:18px">2. Pick your side</div>
+    <details id="relay-adv">
+      <summary>Advanced: relay server</summary>
+      <p class="hint">Live Share connects the two phones through a tiny relay you host (it only passes encrypted bytes, stores nothing). Paste your relay address once — it gets baked into every link you create, so people you invite never set anything.</p>
+      <input id="relay-in" type="text" autocomplete="off" spellcheck="false" placeholder="https://your-worker.workers.dev" style="margin-top:8px">
+      <button class="btn sec small" id="relay-save" style="margin-top:10px">Save relay</button>
+    </details>
+    <p class="lock">🔒 The key lives inside the link (after the <b>#</b>), which browsers never send to a server. Location, voice and video travel <b>directly between the phones</b>, encrypted. Nothing is stored anywhere.</p>
+  </section>
+
+  <!-- ============ GROUP: invite + choose role ============ -->
+  <section id="s-group" class="card hidden">
+    <div id="conn-banner" class="banner wait">Connecting…</div>
+
+    <div class="step">Invite someone to this group</div>
+    <p class="hint">Send this link, or let them scan the QR. Anyone with it can join, so treat it like a key.</p>
+    <div class="row" style="margin-top:6px">
+      <button class="btn small" id="invite-share">📤 Send link</button>
+      <button class="btn small sec" id="invite-copy">Copy</button>
+    </div>
+    <div id="link-qr" class="qr"></div>
+
+    <div class="step" style="margin-top:20px">What do you want to do?</div>
     <div class="roles">
-      <div class="role" id="pick-send">
-        <span class="em">📡</span>
-        <div class="t">Share</div>
-        <div class="d">This phone sends its location &amp; voice</div>
-      </div>
-      <div class="role" id="pick-watch">
-        <span class="em">👀</span>
-        <div class="t">Watch</div>
-        <div class="d">See &amp; hear the other phone</div>
-      </div>
-    </div>
-    <p class="lock">🔒 Everything is scrambled with your secret before it leaves the phone. <b>No one else — not even us — can read it.</b> There is no hidden mode: while you share, this phone shows it plainly.</p>
-  </section>
-
-  <!-- ============ SCREEN 2: SENDER ============ -->
-  <section id="s-send" class="card hidden">
-    <div id="send-live" class="banner live hidden">🔴 You are sharing your live location and microphone.</div>
-
-    <div class="step">Step 1 — give the watcher this invite</div>
-    <p class="hint">Easiest: let the watcher <b>scan this QR</b>. Or tap <b>Send code</b> to send it (WhatsApp, SMS) — it’s scrambled, so it’s safe to send.</p>
-    <div id="send-offer-qr" class="qr"></div>
-    <div class="row" style="margin-top:10px">
-      <button class="btn small" id="send-share">Send code</button>
-      <button class="btn small sec" id="send-copy">Copy</button>
-      <button class="btn small sec" id="send-showcode">Show code</button>
-    </div>
-    <textarea id="send-offer" class="code hidden" readonly placeholder="Preparing…"></textarea>
-
-    <div class="step">Step 2 — get their reply</div>
-    <p class="hint">They’ll send a reply back. Scan their QR, or paste their reply code.</p>
-    <button class="btn" id="send-scan">📷 Scan their reply</button>
-    <textarea id="send-answer" placeholder="…or paste the reply code here"></textarea>
-    <button class="btn sec" id="send-connect">Connect from pasted code</button>
-
-    <div id="send-status" class="hidden">
-      <div class="step">You are live</div>
-      <div class="stat"><span><span class="dot on"></span>Connection</span><b id="send-conn">connected</b></div>
-      <div class="stat"><span>Microphone level</span><b id="send-miclabel">on</b></div>
-      <div class="meter"><i id="send-mic"></i></div>
-      <div class="stat"><span>Location sent</span><b id="send-loc">waiting…</b></div>
-      <button class="btn stop" id="send-stop">■ Stop sharing</button>
-      <p class="hint">Stays live until the watcher stops — or until you stop it here. Keep this tab open; the screen is held awake so it doesn’t drop.</p>
-    </div>
-  </section>
-
-  <!-- ============ SCREEN 3: WATCHER ============ -->
-  <section id="s-watch" class="card hidden">
-    <div class="step">Step 1 — get their invite</div>
-    <p class="hint">Easiest: <b>scan the sharer’s QR</b>. Or paste the invite code they sent you.</p>
-    <button class="btn" id="watch-scan">📷 Scan their invite</button>
-    <textarea id="watch-offer" placeholder="…or paste the invite code here"></textarea>
-    <button class="btn sec" id="watch-make">Make reply from pasted code</button>
-
-    <div id="watch-reply" class="hidden">
-      <div class="step">Step 2 — give the sharer this reply</div>
-      <p class="hint">Easiest: let the sharer <b>scan this QR</b>. Or tap <b>Send reply</b> to send it back. Once they have it, you’re connected.</p>
-      <div id="watch-answer-qr" class="qr"></div>
-      <div class="row" style="margin-top:10px">
-        <button class="btn small" id="watch-share">Send reply</button>
-        <button class="btn small sec" id="watch-copy">Copy</button>
-        <button class="btn small sec" id="watch-showcode">Show code</button>
-      </div>
-      <textarea id="watch-answer" class="code hidden" readonly></textarea>
+      <div class="role" id="pick-share"><span class="em">📡</span><div class="t">Share</div><div class="d">Send my live location &amp; voice</div></div>
+      <div class="role" id="pick-watch"><span class="em">👀</span><div class="t">Watch</div><div class="d">See &amp; hear someone sharing</div></div>
     </div>
 
-    <div id="watch-live" class="hidden">
-      <div class="banner ok" id="watch-banner">Connecting…</div>
+    <!-- sharing status -->
+    <div id="share-status" class="hidden">
+      <div id="share-live" class="banner live" style="margin-top:16px">🔴 You are sharing your live location and microphone.</div>
+      <div class="stat"><span><span class="dot on"></span>Watching you</span><b id="share-viewers">0 people</b></div>
+      <div class="stat"><span>Microphone</span><b id="share-miclabel">on</b></div>
+      <div class="meter"><i id="share-mic"></i></div>
+      <div class="stat"><span>Location sent</span><b id="share-loc">waiting…</b></div>
+      <button class="btn stop" id="share-stop">■ Stop sharing</button>
+      <p class="hint">Keeps sharing until you stop. In a browser tab, keep it open; the Android app keeps it running with the screen off.</p>
+    </div>
+
+    <!-- watching status -->
+    <div id="watch-status" class="hidden">
+      <div id="watch-banner" class="banner wait" style="margin-top:16px">Waiting for the other person to start sharing…</div>
       <div class="step">Live location</div>
       <div class="stat"><span>Latitude</span><b id="w-lat">—</b></div>
       <div class="stat"><span>Longitude</span><b id="w-lon">—</b></div>
@@ -187,21 +156,18 @@
       <div class="stat"><span><span class="dot" id="w-audiodot"></span>Microphone</span><b id="w-audio">waiting…</b></div>
       <audio id="w-sound" autoplay playsinline></audio>
       <button class="btn stop" id="watch-stop" style="margin-top:16px">■ Stop watching</button>
-      <p class="hint">Stays connected until you tap Stop. Keep this tab open; the screen is held awake so it doesn’t drop.</p>
     </div>
   </section>
 
-  <button class="btn sec hidden" id="back">← Start over</button>
+  <button class="btn sec hidden" id="leave">← Leave group</button>
 </div>
 
-<!-- camera QR scanner -->
 <div id="scan" class="hidden">
   <video id="scan-video" playsinline muted></video>
   <div class="frame"></div>
-  <div class="lbl">Point the camera at the other phone’s QR code</div>
+  <div class="lbl">Point the camera at the group's QR code</div>
   <button class="btn stop" id="scan-cancel">Cancel</button>
 </div>
-
 <div id="toast"></div>
 
 <script src="vendor/qrcode.min.js"></script>
@@ -210,376 +176,329 @@
 "use strict";
 const $ = id => document.getElementById(id);
 const enc = new TextEncoder(), dec = new TextDecoder();
-const ICE = { iceServers: [ { urls: "stun:stun.l.google.com:19302" } ] };
 
-let pc = null, dc = null, localStream = null, key = null, salt = null;
-let geoWatch = null, audioCtx = null, rafId = null, role = null;
-let wakeLock = null, kaTimer = null, lastPos = null;
+/* Set this to your deployed relay (Cloudflare Worker) so people never configure
+   anything. Leave "" to require it in Advanced / the link. e.g.
+   const BUILTIN_RELAY = "https://nse-trade-decision-proxy.yourname.workers.dev"; */
+const BUILTIN_RELAY = "";
 
-function toast(m){ const t=$("toast"); t.textContent=m; t.classList.add("show"); clearTimeout(t._h); t._h=setTimeout(()=>t.classList.remove("show"),2200); }
+const FALLBACK_ICE = { iceServers: [ { urls: ["stun:stun.l.google.com:19302", "stun:stun.cloudflare.com:3478"] } ] };
 
-/* Keep the session alive: hold the screen awake so the phone doesn't sleep and
-   drop the connection. Wake locks are released when the tab is hidden, so we
-   re-take it whenever the page becomes visible again while a session is live. */
-async function keepAwake(){
-  try{ if("wakeLock" in navigator && !wakeLock){ wakeLock = await navigator.wakeLock.request("screen"); wakeLock.addEventListener("release", ()=>{ wakeLock = null; }); } }catch(e){}
-}
-function releaseWake(){ try{ if(wakeLock) wakeLock.release(); }catch(e){} wakeLock = null; }
-function sessionActive(){ return !!(localStream || pc); }
+let ws=null, myId=null, key=null, room=null, relay=null, role=null;
+let localStream=null, geoWatch=null, lastPos=null, kaTimer=null, audioCtx=null, rafId=null, wakeLock=null;
+let iceConfig = FALLBACK_ICE, reconnectTimer=null, closing=false;
+const viewers = new Map();          // I am sharer: watcherPeerId -> {pc, dc, cands, ready}
+let watchPc=null, watchCands=[], watchFrom=null;   // I am watcher
 
-/* When wrapped in the Live Share Android app, ask it to run a foreground
-   service so the microphone and location keep transmitting with the screen
-   locked or the phone asleep — something a plain browser tab cannot do. In a
-   normal browser LiveShareHost is absent and these calls are no-ops. */
-function nativeSharing(active, mic){
-  try{
-    if(window.LiveShareHost && LiveShareHost.setSharing){
-      LiveShareHost.setSharing(active, true, !!mic, active ? (mic ? "Sharing live location & microphone" : "Sharing live location") : "");
-    }
-  }catch(e){}
-}
-document.addEventListener("visibilitychange", ()=>{ if(document.visibilityState==="visible" && sessionActive()) keepAwake(); });
+function toast(m){ const t=$("toast"); t.textContent=m; t.classList.add("show"); clearTimeout(t._h); t._h=setTimeout(()=>t.classList.remove("show"),2400); }
 
-/* ---------- tiny base64 + crypto helpers ---------- */
-function b64(bytes){ let s=""; const B=bytes; for(let i=0;i<B.length;i++) s+=String.fromCharCode(B[i]); return btoa(s); }
-function unb64(str){ const bin=atob(str); const u=new Uint8Array(bin.length); for(let i=0;i<bin.length;i++) u[i]=bin.charCodeAt(i); return u; }
-
-async function deriveKey(passphrase, saltBytes){
-  const base = await crypto.subtle.importKey("raw", enc.encode(passphrase), "PBKDF2", false, ["deriveKey"]);
-  return crypto.subtle.deriveKey(
-    { name:"PBKDF2", salt:saltBytes, iterations:150000, hash:"SHA-256" },
-    base, { name:"AES-GCM", length:256 }, false, ["encrypt","decrypt"]);
-}
-async function sealBytes(plain){
+/* ---------- base64url + crypto ---------- */
+function b64u(bytes){ let s=""; for(let i=0;i<bytes.length;i++) s+=String.fromCharCode(bytes[i]); return btoa(s).replace(/\+/g,"-").replace(/\//g,"_").replace(/=+$/,""); }
+function unb64u(str){ str=str.replace(/-/g,"+").replace(/_/g,"/"); while(str.length%4) str+="="; const bin=atob(str); const u=new Uint8Array(bin.length); for(let i=0;i<bin.length;i++) u[i]=bin.charCodeAt(i); return u; }
+function strToB64u(s){ return b64u(enc.encode(s)); }
+function b64uToStr(s){ return dec.decode(unb64u(s)); }
+function importKey(raw){ return crypto.subtle.importKey("raw", raw, "AES-GCM", false, ["encrypt","decrypt"]); }
+async function seal(obj){
   const iv = crypto.getRandomValues(new Uint8Array(12));
-  const ct = new Uint8Array(await crypto.subtle.encrypt({name:"AES-GCM",iv}, key, plain));
-  const packed = new Uint8Array(iv.length+ct.length); packed.set(iv); packed.set(ct, iv.length);
-  return packed;
+  const ct = new Uint8Array(await crypto.subtle.encrypt({name:"AES-GCM",iv}, key, enc.encode(JSON.stringify(obj))));
+  return { iv:b64u(iv), ct:b64u(ct) };
 }
-async function openBytes(packed){
-  const iv = packed.slice(0,12), ct = packed.slice(12);
-  return new Uint8Array(await crypto.subtle.decrypt({name:"AES-GCM",iv}, key, ct));
-}
-async function encryptText(text){ return b64(await sealBytes(enc.encode(text))); }
-async function decryptText(packedB64){ return dec.decode(await openBytes(unb64(packedB64))); }
-
-/* Squeeze the connection details right down before they go in the code. */
-async function deflate(bytes){
-  const cs = new CompressionStream("deflate-raw");
-  const w = cs.writable.getWriter(); w.write(bytes); w.close();
-  return new Uint8Array(await new Response(cs.readable).arrayBuffer());
-}
-async function inflate(bytes){
-  const ds = new DecompressionStream("deflate-raw");
-  const w = ds.writable.getWriter(); w.write(bytes); w.close();
-  return new Uint8Array(await new Response(ds.readable).arrayBuffer());
+async function open_(iv, ct){
+  const pt = await crypto.subtle.decrypt({name:"AES-GCM", iv:unb64u(iv)}, key, unb64u(ct));
+  return JSON.parse(dec.decode(pt));
 }
 
-/* A pairing code is  saltB64 : encrypted(compressed(sdp))  */
-async function makeCode(sdpObj){
-  const packed = await sealBytes(await deflate(enc.encode(JSON.stringify(sdpObj))));
-  return b64(salt) + ":" + b64(packed);
-}
-async function readCode(code){
-  const [saltPart, payload] = code.trim().replace(/\s+/g,"").split(":");
-  if(!saltPart || !payload) throw new Error("That doesn’t look like a valid code.");
-  if(!salt){ salt = unb64(saltPart); key = await deriveKey($("secret").value.trim(), salt); }
-  return JSON.parse(dec.decode(await inflate(await openBytes(unb64(payload)))));
-}
+/* ---------- link / relay ---------- */
+function storedRelay(){ try{ return localStorage.getItem("ls_relay") || ""; }catch(e){ return ""; } }
+function normRelay(u){ u=(u||"").trim(); if(!u) return ""; if(!/^https?:\/\//.test(u)) u="https://"+u; return u.replace(/\/+$/,""); }
+function currentRelay(){ return normRelay(BUILTIN_RELAY) || storedRelay() || ""; }
 
-/* wait until ICE candidates are gathered, so the code is complete (no server needed) */
-function waitIce(){
-  return new Promise(res=>{
-    if(pc.iceGatheringState==="complete") return res();
-    const check=()=>{ if(pc.iceGatheringState==="complete"){ pc.removeEventListener("icegatheringstatechange",check); res(); } };
-    pc.addEventListener("icegatheringstatechange", check);
-    setTimeout(res, 5000); // fallback so a slow network can’t hang us forever
-  });
+function parseHash(){
+  const h = location.hash.replace(/^#/, "");
+  if(!h) return null;
+  const p = h.split(".");
+  if(p.length < 2) return null;
+  if(!/^[A-Za-z0-9_-]{8,64}$/.test(p[0])) return null;
+  let r = null; try{ if(p[2]) r = b64uToStr(p[2]); }catch(e){}
+  return { room:p[0], keyB64:p[1], relay:r };
 }
+function buildLink(rm, keyB64, rl){
+  const base = location.origin + location.pathname;
+  let h = rm + "." + keyB64;
+  const useRelay = normRelay(BUILTIN_RELAY) ? "" : rl;   // don't bake it if the app already has one built in
+  if(useRelay) h += "." + strToB64u(normRelay(useRelay));
+  return base + "#" + h;
+}
+function currentLink(){ return buildLink(room, b64u(currentKeyRaw), relay); }
 
-async function shareOrCopy(text, verb){
-  try{
-    if(navigator.share){ await navigator.share({ text }); return; }
-  }catch(e){ if(e && e.name==="AbortError") return; }
-  try{ await navigator.clipboard.writeText(text); toast(verb+" — copied, now paste it to the other person"); }
-  catch(e){ toast("Select the code and copy it manually"); }
-}
+let currentKeyRaw = null;
 
-/* ---------- QR: show a code as a QR, and reveal the raw code on request ---------- */
-function drawQR(elId, text){
-  try{
-    const qr = qrcode(0, "L");        // auto version, low error-correction = most capacity
-    qr.addData(text, "Byte");
-    qr.make();
-    $(elId).innerHTML = qr.createSvgTag({ cellSize:4, margin:2, scalable:true });
-  }catch(e){ $(elId).innerHTML = ""; toast("Code’s a bit long for a QR — use Send instead"); }
-}
-function toggleCode(id){ const el=$(id); el.classList.toggle("hidden"); if(!el.classList.contains("hidden")) el.focus(); }
-
-/* ---------- QR: scan the other phone’s code with the camera ---------- */
-let scanStream=null, scanRAF=null, scanCB=null;
-const scanCanvas=document.createElement("canvas");
-async function startScan(cb){
-  if(!window.jsQR){ toast("Scanning isn’t available here — paste the code instead"); return; }
-  scanCB = cb;
-  try{ scanStream = await navigator.mediaDevices.getUserMedia({ video:{ facingMode:"environment" } }); }
-  catch(e){ toast("Camera permission is needed to scan"); return; }
-  const v=$("scan-video"); v.srcObject=scanStream;
-  try{ await v.play(); }catch(e){}
-  $("scan").classList.remove("hidden");
-  const ctx=scanCanvas.getContext("2d", { willReadFrequently:true });
-  const loop=()=>{
-    if(v.readyState>=2 && v.videoWidth){
-      scanCanvas.width=v.videoWidth; scanCanvas.height=v.videoHeight;
-      ctx.drawImage(v,0,0,scanCanvas.width,scanCanvas.height);
-      const img=ctx.getImageData(0,0,scanCanvas.width,scanCanvas.height);
-      const res=jsQR(img.data, img.width, img.height, { inversionAttempts:"dontInvert" });
-      if(res && res.data){ const cb=scanCB; stopScan(); toast("Scanned ✓"); cb(res.data.trim()); return; }
-    }
-    scanRAF=requestAnimationFrame(loop);
-  };
-  scanRAF=requestAnimationFrame(loop);
-}
-function stopScan(){
-  if(scanRAF){ cancelAnimationFrame(scanRAF); scanRAF=null; }
-  if(scanStream){ scanStream.getTracks().forEach(t=>t.stop()); scanStream=null; }
-  $("scan").classList.add("hidden"); scanCB=null;
-}
-$("scan-cancel").onclick = stopScan;
-
-/* ---------- screen switching ---------- */
+/* ---------- screens ---------- */
 function show(which){
   $("s-start").classList.toggle("hidden", which!=="start");
-  $("s-send").classList.toggle("hidden", which!=="send");
-  $("s-watch").classList.toggle("hidden", which!=="watch");
-  $("back").classList.toggle("hidden", which==="start");
+  $("s-group").classList.toggle("hidden", which!=="group");
+  $("leave").classList.toggle("hidden", which==="start");
 }
 
-/* ---------- role selection ---------- */
-$("pick-send").onclick = ()=>begin("send");
-$("pick-watch").onclick = ()=>begin("watch");
+/* ---------- start screen ---------- */
+$("relay-in").value = storedRelay();
+if(normRelay(BUILTIN_RELAY)) $("relay-adv").classList.add("hidden");
+$("relay-save").onclick = ()=>{ const v=normRelay($("relay-in").value); try{ localStorage.setItem("ls_relay", v); }catch(e){} toast(v ? "Relay saved" : "Relay cleared"); };
 
-async function begin(r){
-  const secret = $("secret").value.trim();
-  if(secret.length < 4){ toast("Type a secret word first (at least 4 letters)"); $("secret").focus(); return; }
-  role = r;
-  if(r==="send") await startSender();
-  else { show("watch"); }
+$("create").onclick = async ()=>{
+  const r = currentRelay();
+  if(!r){ toast("First set your relay under ‘Advanced’, then create a link."); $("relay-adv").open=true; $("relay-in").focus(); return; }
+  currentKeyRaw = crypto.getRandomValues(new Uint8Array(32));
+  room = b64u(crypto.getRandomValues(new Uint8Array(12)));   // 16 chars
+  relay = r;
+  key = await importKey(currentKeyRaw);
+  location.hash = buildLink(room, b64u(currentKeyRaw), relay).split("#")[1];
+  await enterGroup();
+};
+$("join").onclick = ()=>{ const u=$("join-url").value.trim(); if(!u){ toast("Paste a link first"); return; } try{ location.href = u; }catch(e){ toast("That doesn’t look like a link"); } };
+$("scan-join").onclick = ()=>startScan(txt=>{ try{ location.href = txt; }catch(e){ toast("That QR isn’t a Live Share link"); } });
+
+/* ---------- entering a group from the link ---------- */
+async function enterGroup(){
+  const p = parseHash();
+  if(!p) { show("start"); return; }
+  room = p.room;
+  currentKeyRaw = unb64u(p.keyB64);
+  key = await importKey(currentKeyRaw);
+  relay = normRelay(p.relay) || currentRelay();
+  if(!relay){ toast("This link has no relay set. Ask the sender to recreate it after setting a relay."); show("start"); return; }
+  show("group");
+  $("link-qr").innerHTML=""; try{ const qr=qrcode(0,"M"); qr.addData(currentLink(),"Byte"); qr.make(); $("link-qr").innerHTML=qr.createSvgTag({cellSize:4,margin:2,scalable:true}); }catch(e){}
+  connect();
 }
 
-/* Open the microphone, working around device/WebView quirks. Some Android
-   phones reject the default request with NotReadableError ("busy") but accept
-   a plainer one with the audio-processing effects turned off, and a stuck mic
-   often frees a moment later — so we try a few times with a short wait. */
+/* ---------- signaling over the relay ---------- */
+function connect(){
+  if(!relay || !role && role!==null){ /* role may be null until chosen; still connect to receive presence */ }
+  closing=false;
+  const url = relay.replace(/^http/,"ws") + "/guardian/ws?room=" + encodeURIComponent(room) + "&role=" + (role||"watch");
+  try{ ws = new WebSocket(url); }catch(e){ setConn("relay error"); return; }
+  ws.onopen = ()=>{ setConn("connected to group"); ws._ka=setInterval(()=>{ try{ ws.send(JSON.stringify({t:"ping"})); }catch(e){} }, 25000); };
+  ws.onmessage = onWs;
+  ws.onerror = ()=>setConn("relay error");
+  ws.onclose = ()=>{ clearInterval(ws && ws._ka); if(closing) return; setConn("reconnecting…"); scheduleReconnect(); };
+}
+function scheduleReconnect(){ clearTimeout(reconnectTimer); reconnectTimer=setTimeout(()=>{ if(!closing) connect(); }, 3000); }
+function setConn(t){ const b=$("conn-banner"); if(b) b.textContent = ({"connected to group":"🟢 In your group — ready","reconnecting…":"🟠 Reconnecting…","relay error":"🔴 Can’t reach the relay"})[t] || t; }
+
+async function relaySend(to, payload){ try{ const e=await seal(payload); ws.send(JSON.stringify({t:"relay", to, iv:e.iv, ct:e.ct})); }catch(err){} }
+
+async function onWs(ev){
+  let m; try{ m=JSON.parse(ev.data); }catch(e){ return; }
+  if(m.t==="welcome"){
+    myId=m.peerId;
+    setConn("connected to group");
+    if(role==="share") for(const pr of (m.peers||[])) if(pr.role==="watch") offerTo(pr.peerId);
+    return;
+  }
+  if(m.t==="peer-join"){
+    if(role==="share" && m.role==="watch") offerTo(m.peerId);
+    return;
+  }
+  if(m.t==="peer-leave"){ dropPeer(m.peerId); return; }
+  if(m.t==="relay" && m.iv && m.ct){
+    let payload; try{ payload = await open_(m.iv, m.ct); }catch(e){ return; }   // not our key → ignore
+    handleSignal(m.from, payload);
+    return;
+  }
+}
+
+async function handleSignal(from, msg){
+  if(msg.k==="offer" && role==="watch"){
+    watchFrom = from;
+    watchPc = new RTCPeerConnection(iceConfig); watchCands=[];
+    watchPc.ontrack = e=>{ $("w-sound").srcObject = e.streams[0]; $("w-audiodot").classList.add("on"); $("w-audio").textContent="live"; };
+    watchPc.ondatachannel = e=>{ e.channel.onmessage = onLocationMsg; };
+    watchPc.onicecandidate = e=>{ if(e.candidate) relaySend(from, {k:"ice", cand:e.candidate}); };
+    watchPc.onconnectionstatechange = ()=>{ const s=watchPc.connectionState; const b=$("watch-banner");
+      if(s==="connected"){ b.className="banner ok"; b.textContent="🟢 Connected — receiving live"; keepAwake(); }
+      else if(s==="disconnected"){ b.className="banner wait"; b.textContent="🟠 Reconnecting…"; }
+      else if(s==="failed"){ b.className="banner live"; b.textContent="🔴 Connection lost — try again"; } };
+    await watchPc.setRemoteDescription(msg.sdp);
+    for(const c of watchCands){ try{ await watchPc.addIceCandidate(c); }catch(e){} } watchCands=[];
+    const ans = await watchPc.createAnswer(); await watchPc.setLocalDescription(ans);
+    relaySend(from, {k:"answer", sdp:watchPc.localDescription});
+  }
+  else if(msg.k==="answer" && role==="share"){
+    const v = viewers.get(from); if(!v) return;
+    await v.pc.setRemoteDescription(msg.sdp);
+    for(const c of v.cands){ try{ await v.pc.addIceCandidate(c); }catch(e){} } v.cands=[];
+  }
+  else if(msg.k==="ice"){
+    if(role==="watch" && watchPc){ if(watchPc.remoteDescription) { try{ await watchPc.addIceCandidate(msg.cand); }catch(e){} } else watchCands.push(msg.cand); }
+    else if(role==="share"){ const v=viewers.get(from); if(v){ if(v.pc.remoteDescription){ try{ await v.pc.addIceCandidate(msg.cand); }catch(e){} } else v.cands.push(msg.cand); } }
+  }
+}
+
+function dropPeer(pid){
+  const v=viewers.get(pid); if(v){ try{ v.pc.close(); }catch(e){} viewers.delete(pid); updateViewers(); }
+  if(role==="watch" && pid===watchFrom){ try{ watchPc && watchPc.close(); }catch(e){} watchPc=null; const b=$("watch-banner"); b.className="banner wait"; b.textContent="Waiting for the other person to start sharing…"; }
+}
+
+/* ---------- role: SHARE (source) ---------- */
+$("pick-share").onclick = ()=>{ if(role) return; startShare(); };
+$("pick-watch").onclick = ()=>{ if(role) return; startWatch(); };
+
+async function startShare(){
+  role="share"; $("pick-share").classList.add("on"); $("pick-watch").style.display="none";
+  localStream = null;
+  try{ localStream = await getMic(); }
+  catch(e){ const n=e&&e.name;
+    if(n==="NotAllowedError"||n==="SecurityError") toast("Mic blocked — sharing location only.");
+    else if(n==="NotReadableError"||n==="AbortError") toast("Mic busy — sharing location only.");
+    else toast("No voice — sharing location only."); }
+  const hasMic=!!localStream;
+  $("share-status").classList.remove("hidden");
+  $("share-live").textContent = hasMic ? "🔴 You are sharing your live location and microphone." : "🔴 You are sharing your live location (voice off — no mic).";
+  $("share-miclabel").textContent = hasMic ? "on" : "off (no mic)";
+  keepAwake(); nativeSharing(true, hasMic);
+  if(hasMic) startMicMeter();
+  startGeo();
+  // reconnect the WS with role=share so the relay tells watchers we're a source
+  reconnectAs();
+}
+
+function offerTo(pid){
+  if(viewers.has(pid)) return;
+  const pc = new RTCPeerConnection(iceConfig);
+  const v = { pc, dc:null, cands:[] }; viewers.set(pid, v); updateViewers();
+  if(localStream) localStream.getTracks().forEach(t=>pc.addTrack(t, localStream));
+  const dc = pc.createDataChannel("live"); v.dc = dc;
+  dc.onopen = async ()=>{ if(lastPos){ try{ dc.send(JSON.stringify(await seal(lastPos))); }catch(e){} } };
+  pc.onicecandidate = e=>{ if(e.candidate) relaySend(pid, {k:"ice", cand:e.candidate}); };
+  pc.onconnectionstatechange = ()=>{ if(["failed","closed","disconnected"].includes(pc.connectionState) && pc.connectionState!=="disconnected"){} updateViewers(); };
+  pc.createOffer().then(o=>pc.setLocalDescription(o)).then(()=>relaySend(pid, {k:"offer", sdp:pc.localDescription}));
+}
+
+function updateViewers(){
+  let n=0; for(const v of viewers.values()){ const s=v.pc.connectionState; if(s==="connected"||s==="connecting"||s==="new") n++; }
+  $("share-viewers").textContent = n===1 ? "1 person" : n+" people";
+}
+
+function startGeo(){
+  if(!navigator.geolocation){ $("share-loc").textContent="not supported"; return; }
+  geoWatch = navigator.geolocation.watchPosition(async pos=>{
+    const c=pos.coords;
+    lastPos = { lat:+c.latitude.toFixed(6), lon:+c.longitude.toFixed(6), acc:Math.round(c.accuracy||0), t:Date.now() };
+    $("share-loc").textContent = lastPos.lat+", "+lastPos.lon;
+    const env = await seal(lastPos);
+    for(const v of viewers.values()) if(v.dc && v.dc.readyState==="open") try{ v.dc.send(JSON.stringify(env)); }catch(e){}
+  }, err=>{ $("share-loc").textContent = "location blocked"; }, { enableHighAccuracy:true, maximumAge:3000, timeout:20000 });
+  clearInterval(kaTimer);
+  kaTimer = setInterval(async ()=>{ const env = await seal(lastPos ? {...lastPos, t:Date.now()} : {ping:Date.now()});
+    for(const v of viewers.values()) if(v.dc && v.dc.readyState==="open") try{ v.dc.send(JSON.stringify(env)); }catch(e){} }, 10000);
+}
+
 async function getMic(){
-  const tries = [
-    { audio:true },
-    { audio:{ echoCancellation:false, noiseSuppression:false, autoGainControl:false } },
-    { audio:{ echoCancellation:false, noiseSuppression:false, autoGainControl:false, channelCount:1 } }
-  ];
-  let lastErr;
+  const tries = [ {audio:true},
+    {audio:{echoCancellation:false, noiseSuppression:false, autoGainControl:false}},
+    {audio:{echoCancellation:false, noiseSuppression:false, autoGainControl:false, channelCount:1}} ];
+  let last;
+  if(!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) throw new Error("unsupported");
   for(let i=0;i<tries.length;i++){
     try{ return await navigator.mediaDevices.getUserMedia(tries[i]); }
-    catch(e){
-      lastErr = e; const n = e && e.name;
-      // These will never be fixed by retrying, so give up immediately.
-      if(n==="NotAllowedError" || n==="SecurityError" || n==="NotFoundError") throw e;
-      await new Promise(r=>setTimeout(r, 500));   // busy/aborted/over-constrained: wait, then try a simpler request
-    }
+    catch(e){ last=e; const n=e&&e.name; if(n==="NotAllowedError"||n==="SecurityError"||n==="NotFoundError") throw e; await new Promise(r=>setTimeout(r,500)); }
   }
-  throw lastErr;
+  throw last;
 }
-
-/* ---------- SENDER ---------- */
-async function startSender(){
-  show("send");
-  // The microphone is a bonus, not a requirement: if a device won't give it,
-  // we still share live location. Voice turns on automatically when a mic is
-  // available. This is why a "mic busy" phone can still be useful.
-  localStream = null;
-  try{
-    if(!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) throw new Error("unsupported");
-    localStream = await getMic();
-  }catch(e){
-    const n = (e && e.name) ? e.name : String(e);
-    if(n==="NotAllowedError" || n==="SecurityError") toast("Mic blocked — sharing location only. Allow the mic in Settings to add voice.");
-    else if(n==="NotReadableError" || n==="AbortError") toast("Mic is busy — sharing location only. Free the mic to add voice.");
-    else if(n==="NotFoundError" || n==="OverconstrainedError") toast("No microphone — sharing location only.");
-    else toast("No voice ("+n+") — sharing location only.");
-  }
-
-  salt = crypto.getRandomValues(new Uint8Array(16));
-  key = await deriveKey($("secret").value.trim(), salt);
-
-  pc = new RTCPeerConnection(ICE);
-  if(localStream) localStream.getTracks().forEach(t=>pc.addTrack(t, localStream));
-  dc = pc.createDataChannel("live");
-  dc.onopen = onSenderConnected;
-  pc.onconnectionstatechange = ()=>{
-    const st = pc.connectionState;
-    $("send-conn").textContent = st==="disconnected" ? "reconnecting…" : st;
-    if(st==="connected") keepAwake();
-    // "disconnected" is usually a brief blip — WebRTC recovers on its own, so
-    // we do NOT tear down. Only a hard failure needs a fresh pairing.
-    if(st==="failed") toast("Connection lost — the network dropped it. Start over to reconnect.");
-  };
-
-  const offer = await pc.createOffer();
-  await pc.setLocalDescription(offer);
-  await waitIce();
-  const code = await makeCode(pc.localDescription);
-  $("send-offer").value = code;
-  drawQR("send-offer-qr", code);
-  if(localStream) startMicMeter();
-}
-
-$("send-share").onclick = ()=>shareOrCopy($("send-offer").value, "Invite");
-$("send-copy").onclick  = ()=>shareOrCopy($("send-offer").value, "Invite");
-$("send-showcode").onclick = ()=>toggleCode("send-offer");
-$("send-scan").onclick = ()=>startScan(code=>{ $("send-answer").value = code; sendConnect(); });
-$("send-connect").onclick = sendConnect;
-
-async function sendConnect(){
-  const code = $("send-answer").value;
-  if(!code.trim()){ toast("Paste the reply code first, or tap Scan"); return; }
-  try{
-    const answer = await readCode(code);
-    await pc.setRemoteDescription(answer);
-    toast("Connecting…");
-  }catch(e){ toast("That reply didn’t work. Check the secret word matches."); }
-}
-
-function onSenderConnected(){
-  const hasMic = !!localStream;
-  $("send-live").textContent = hasMic
-    ? "🔴 You are sharing your live location and microphone."
-    : "🔴 You are sharing your live location (voice off — no mic).";
-  $("send-live").classList.remove("hidden");
-  $("send-status").classList.remove("hidden");
-  $("send-miclabel").textContent = hasMic ? "on" : "off (no mic)";
-  keepAwake();
-  nativeSharing(true, hasMic);   // keep transmitting with the screen off (Android app only)
-  // start streaming live location over the encrypted data channel
-  if(navigator.geolocation){
-    geoWatch = navigator.geolocation.watchPosition(async pos=>{
-      const c = pos.coords;
-      lastPos = { lat:+c.latitude.toFixed(6), lon:+c.longitude.toFixed(6), acc:Math.round(c.accuracy||0), t:Date.now() };
-      try{ if(dc && dc.readyState==="open") dc.send(await encryptText(JSON.stringify(lastPos))); }catch(e){}
-      $("send-loc").textContent = lastPos.lat+", "+lastPos.lon;
-    }, err=>{ $("send-loc").textContent = "location blocked"; toast("Location permission was refused"); },
-    { enableHighAccuracy:true, maximumAge:3000, timeout:20000 });
-  } else { $("send-loc").textContent = "not supported"; }
-  // Heartbeat: even when standing still, send a tiny keepalive so the link
-  // stays healthy and the watcher can tell we're still there.
-  clearInterval(kaTimer);
-  kaTimer = setInterval(async ()=>{
-    try{ if(dc && dc.readyState==="open") dc.send(await encryptText(JSON.stringify(lastPos ? {...lastPos, t:Date.now()} : {ping:Date.now()}))); }catch(e){}
-  }, 10000);
-}
-
 function startMicMeter(){
   try{
     audioCtx = new (window.AudioContext||window.webkitAudioContext)();
-    const src = audioCtx.createMediaStreamSource(localStream);
-    const an = audioCtx.createAnalyser(); an.fftSize = 256;
-    src.connect(an);
-    const data = new Uint8Array(an.frequencyBinCount);
-    const tick = ()=>{
-      an.getByteTimeDomainData(data);
-      let peak = 0; for(let i=0;i<data.length;i++){ const v=Math.abs(data[i]-128); if(v>peak) peak=v; }
-      $("send-mic").style.width = Math.min(100, Math.round(peak/128*100*1.6)) + "%";
-      rafId = requestAnimationFrame(tick);
-    };
+    const src=audioCtx.createMediaStreamSource(localStream); const an=audioCtx.createAnalyser(); an.fftSize=256; src.connect(an);
+    const data=new Uint8Array(an.frequencyBinCount);
+    const tick=()=>{ an.getByteTimeDomainData(data); let peak=0; for(let i=0;i<data.length;i++){ const v=Math.abs(data[i]-128); if(v>peak)peak=v; } $("share-mic").style.width=Math.min(100,Math.round(peak/128*160))+"%"; rafId=requestAnimationFrame(tick); };
     tick();
   }catch(e){}
 }
 
-$("send-stop").onclick = stopAll;
-
-/* ---------- WATCHER ---------- */
-$("watch-scan").onclick = ()=>startScan(code=>{ $("watch-offer").value = code; watchMake(); });
-$("watch-make").onclick = watchMake;
-
-async function watchMake(){
-  const code = $("watch-offer").value;
-  if(!code.trim()){ toast("Paste the invite code first, or tap Scan"); return; }
-  try{
-    pc = new RTCPeerConnection(ICE);
-    pc.ontrack = ev=>{ $("w-sound").srcObject = ev.streams[0]; $("w-audiodot").classList.add("on"); $("w-audio").textContent="live"; };
-    pc.ondatachannel = ev=>{ dc = ev.channel; dc.onmessage = onLocationMsg; };
-    pc.onconnectionstatechange = ()=>{
-      const st = pc.connectionState;
-      if(st==="connected"){ $("watch-banner").textContent = "🟢 Connected — receiving live"; keepAwake(); }
-      else if(st==="disconnected"){ $("watch-banner").textContent = "🟠 Reconnecting…"; }   // brief blip; do not tear down
-      else if(st==="failed"){ $("watch-banner").textContent = "🔴 Connection lost"; toast("Connection lost — the network dropped it. Start over to reconnect."); }
-      else { $("watch-banner").textContent = "Connection: "+st; }
-    };
-    const offer = await readCode(code);         // sets salt + key from the code
-    await pc.setRemoteDescription(offer);
-    const answer = await pc.createAnswer();
-    await pc.setLocalDescription(answer);
-    await waitIce();
-    const replyCode = await makeCode(pc.localDescription);
-    $("watch-answer").value = replyCode;
-    drawQR("watch-answer-qr", replyCode);
-    $("watch-reply").classList.remove("hidden");
-    $("watch-live").classList.remove("hidden");
-  }catch(e){ toast("That invite didn’t work. Check the secret word matches."); }
+/* ---------- role: WATCH (viewer) ---------- */
+async function startWatch(){
+  role="watch"; $("pick-watch").classList.add("on"); $("pick-share").style.display="none";
+  $("watch-status").classList.remove("hidden");
+  keepAwake();
+  reconnectAs();
 }
-
-$("watch-share").onclick = ()=>shareOrCopy($("watch-answer").value, "Reply");
-$("watch-copy").onclick  = ()=>shareOrCopy($("watch-answer").value, "Reply");
-$("watch-showcode").onclick = ()=>toggleCode("watch-answer");
 
 async function onLocationMsg(ev){
   try{
-    const m = JSON.parse(await decryptText(ev.data));
-    if(m.lat==null) return;   // keepalive heartbeat with no position yet — nothing to show
-    $("w-lat").textContent = m.lat;
-    $("w-lon").textContent = m.lon;
-    $("w-acc").textContent = "±" + m.acc + " m";
-    $("w-time").textContent = new Date(m.t).toLocaleTimeString();
-    $("w-map").href = "https://www.google.com/maps?q=" + m.lat + "," + m.lon;
+    const o = JSON.parse(ev.data);
+    const m = await open_(o.iv, o.ct);
+    if(m.lat==null) return;   // keepalive
+    $("w-lat").textContent=m.lat; $("w-lon").textContent=m.lon;
+    $("w-acc").textContent="±"+m.acc+" m"; $("w-time").textContent=new Date(m.t).toLocaleTimeString();
+    $("w-map").href="https://www.google.com/maps?q="+m.lat+","+m.lon;
   }catch(e){}
 }
 
-$("watch-stop").onclick = stopAll;
+/* Reconnect the WS so the relay records our new role (share/watch). */
+function reconnectAs(){ try{ closing=true; if(ws) ws.close(); }catch(e){} closing=false; connect(); }
 
-/* ---------- teardown ---------- */
-function stopAll(){
-  stopScan();
-  releaseWake();
-  nativeSharing(false);   // stop the Android foreground service, if any
+/* ---------- wake lock + native bridge ---------- */
+async function keepAwake(){ try{ if("wakeLock" in navigator && !wakeLock){ wakeLock=await navigator.wakeLock.request("screen"); wakeLock.addEventListener("release",()=>{wakeLock=null;}); } }catch(e){} }
+function releaseWake(){ try{ if(wakeLock) wakeLock.release(); }catch(e){} wakeLock=null; }
+document.addEventListener("visibilitychange", ()=>{ if(document.visibilityState==="visible" && role) keepAwake(); });
+function nativeSharing(active, mic){ try{ if(window.LiveShareHost && LiveShareHost.setSharing) LiveShareHost.setSharing(active, true, !!mic, active ? (mic?"Sharing live location & microphone":"Sharing live location") : ""); }catch(e){} }
+
+/* ---------- share / copy the link ---------- */
+async function shareLink(){
+  const link = currentLink();
+  try{ if(navigator.share){ await navigator.share({ title:"Live Share", text:"Join my Live Share group:", url:link }); return; } }
+  catch(e){ if(e&&e.name==="AbortError") return; }
+  try{ await navigator.clipboard.writeText(link); toast("Link copied — send it to the other person"); }catch(e){ toast("Copy the link from the box below"); }
+}
+$("invite-share").onclick = shareLink;
+$("invite-copy").onclick = shareLink;
+
+/* ---------- QR scanner (to join by scanning a link) ---------- */
+let scanStream=null, scanRAF=null, scanCB=null; const scanCanvas=document.createElement("canvas");
+async function startScan(cb){
+  if(!window.jsQR){ toast("Scanning isn’t available here — paste the link instead"); return; }
+  scanCB=cb;
+  try{ scanStream=await navigator.mediaDevices.getUserMedia({video:{facingMode:"environment"}}); }catch(e){ toast("Camera permission is needed to scan"); return; }
+  const v=$("scan-video"); v.srcObject=scanStream; try{ await v.play(); }catch(e){}
+  $("scan").classList.remove("hidden");
+  const ctx=scanCanvas.getContext("2d",{willReadFrequently:true});
+  const loop=()=>{ if(v.readyState>=2 && v.videoWidth){ scanCanvas.width=v.videoWidth; scanCanvas.height=v.videoHeight; ctx.drawImage(v,0,0); const img=ctx.getImageData(0,0,scanCanvas.width,scanCanvas.height); const r=jsQR(img.data,img.width,img.height,{inversionAttempts:"dontInvert"}); if(r&&r.data){ const cb=scanCB; stopScan(); cb(r.data.trim()); return; } } scanRAF=requestAnimationFrame(loop); };
+  scanRAF=requestAnimationFrame(loop);
+}
+function stopScan(){ if(scanRAF){cancelAnimationFrame(scanRAF); scanRAF=null;} if(scanStream){scanStream.getTracks().forEach(t=>t.stop()); scanStream=null;} $("scan").classList.add("hidden"); scanCB=null; }
+$("scan-cancel").onclick = stopScan;
+
+/* ---------- leave / teardown ---------- */
+function leave(){
+  closing=true; stopScan(); releaseWake(); nativeSharing(false,false);
   if(kaTimer){ clearInterval(kaTimer); kaTimer=null; }
-  lastPos=null;
   if(geoWatch!=null){ navigator.geolocation.clearWatch(geoWatch); geoWatch=null; }
   if(rafId){ cancelAnimationFrame(rafId); rafId=null; }
-  if(audioCtx){ try{ audioCtx.close(); }catch(e){} audioCtx=null; }
+  if(audioCtx){ try{audioCtx.close();}catch(e){} audioCtx=null; }
   if(localStream){ localStream.getTracks().forEach(t=>t.stop()); localStream=null; }
-  if(dc){ try{ dc.close(); }catch(e){} dc=null; }
-  if(pc){ try{ pc.close(); }catch(e){} pc=null; }
-  key=null; salt=null; role=null;
-  // reset fields
-  ["send-offer","send-answer","watch-offer","watch-answer"].forEach(id=>$(id).value="");
-  $("send-offer-qr").innerHTML=""; $("watch-answer-qr").innerHTML="";
-  $("send-offer").classList.add("hidden"); $("watch-answer").classList.add("hidden");
-  $("send-live").classList.add("hidden"); $("send-status").classList.add("hidden");
-  $("watch-reply").classList.add("hidden"); $("watch-live").classList.add("hidden");
-  $("send-mic").style.width="0%";
-  $("w-audiodot").classList.remove("on"); $("w-audio").textContent="waiting…";
+  for(const v of viewers.values()){ try{v.pc.close();}catch(e){} } viewers.clear();
+  if(watchPc){ try{watchPc.close();}catch(e){} watchPc=null; }
+  if(ws){ try{ws.close();}catch(e){} ws=null; }
+  role=null; lastPos=null;
+  location.hash="";
+  $("share-status").classList.add("hidden"); $("watch-status").classList.add("hidden");
+  $("pick-share").classList.remove("on"); $("pick-watch").classList.remove("on");
+  $("pick-share").style.display=""; $("pick-watch").style.display="";
+  $("share-mic").style.width="0%"; $("w-audiodot").classList.remove("on"); $("w-audio").textContent="waiting…";
   show("start");
-  toast("Stopped. Nothing is being shared.");
+  toast("You left the group. Nothing is being shared.");
 }
-$("back").onclick = ()=>{ if(pc||localStream){ stopAll(); } else show("start"); };
+$("leave").onclick = leave;
 
-/* The Android app's notification "Stop" button calls this. */
-window.__liveShareStop = function(){ stopAll(); };
-
-/* Refuse to run without a secure context, where the crypto/mic/location APIs are blocked. */
-if(!window.isSecureContext || !navigator.mediaDevices || !window.crypto?.subtle){
-  document.querySelector(".wrap").innerHTML =
-    '<h1>Live Share</h1><div class="card"><p>This app needs a secure connection (an <b>https://</b> address). ' +
-    'Open it over https and it will work.</p></div>';
+/* ---------- boot ---------- */
+window.addEventListener("hashchange", ()=>{ if(!role) enterGroup(); });
+if(!window.isSecureContext || !navigator.mediaDevices || !window.crypto || !window.crypto.subtle){
+  document.querySelector(".wrap").innerHTML = '<h1>Live Share</h1><div class="card"><p>This app needs a secure connection (an <b>https://</b> address). Open it over https and it will work.</p></div>';
+} else if(parseHash()){
+  enterGroup();
+} else {
+  show("start");
 }
 </script>
 </body>
