@@ -44,6 +44,11 @@ Because there is no relay server, the two phones connect directly. On most
 Wi-Fi and mobile networks that works. On a few strict networks the direct
 connection can't form; if that happens, try again on Wi-Fi.
 
+**Voice is optional.** If a phone won't give the microphone (some Android
+devices, e.g. strict Xiaomi/Samsung setups, hold the mic system-wide), the
+sharer still shares **live location** — voice simply stays off, and turns on by
+itself on any device whose mic is free. A mic problem never blocks location.
+
 **Staying connected.** Once connected, the session stays live until someone
 taps Stop — it does not time out. While a session is running the app holds a
 screen **wake lock** so the phone doesn't sleep and drop the link, and sends a
