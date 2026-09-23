@@ -231,10 +231,10 @@ function sessionActive(){ return !!(localStream || pc); }
    service so the microphone and location keep transmitting with the screen
    locked or the phone asleep — something a plain browser tab cannot do. In a
    normal browser LiveShareHost is absent and these calls are no-ops. */
-function nativeSharing(active){
+function nativeSharing(active, mic){
   try{
     if(window.LiveShareHost && LiveShareHost.setSharing){
-      LiveShareHost.setSharing(active, true, true, active ? "Sharing live location & microphone" : "");
+      LiveShareHost.setSharing(active, true, !!mic, active ? (mic ? "Sharing live location & microphone" : "Sharing live location") : "");
     }
   }catch(e){}
 }
@@ -393,23 +393,26 @@ async function getMic(){
 /* ---------- SENDER ---------- */
 async function startSender(){
   show("send");
+  // The microphone is a bonus, not a requirement: if a device won't give it,
+  // we still share live location. Voice turns on automatically when a mic is
+  // available. This is why a "mic busy" phone can still be useful.
+  localStream = null;
   try{
     if(!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) throw new Error("unsupported");
     localStream = await getMic();
   }catch(e){
     const n = (e && e.name) ? e.name : String(e);
-    if(n==="NotAllowedError" || n==="SecurityError") toast("Microphone is blocked. Allow the mic for Live Share in Settings, then try again.");
-    else if(n==="NotReadableError" || n==="AbortError") toast("The mic is busy — close other apps using it (a call, a recorder) and try again.");
-    else if(n==="NotFoundError" || n==="OverconstrainedError") toast("No microphone was found on this device.");
-    else toast("Couldn’t start the mic ("+n+"). Try again.");
-    show("start"); return;
+    if(n==="NotAllowedError" || n==="SecurityError") toast("Mic blocked — sharing location only. Allow the mic in Settings to add voice.");
+    else if(n==="NotReadableError" || n==="AbortError") toast("Mic is busy — sharing location only. Free the mic to add voice.");
+    else if(n==="NotFoundError" || n==="OverconstrainedError") toast("No microphone — sharing location only.");
+    else toast("No voice ("+n+") — sharing location only.");
   }
 
   salt = crypto.getRandomValues(new Uint8Array(16));
   key = await deriveKey($("secret").value.trim(), salt);
 
   pc = new RTCPeerConnection(ICE);
-  localStream.getTracks().forEach(t=>pc.addTrack(t, localStream));
+  if(localStream) localStream.getTracks().forEach(t=>pc.addTrack(t, localStream));
   dc = pc.createDataChannel("live");
   dc.onopen = onSenderConnected;
   pc.onconnectionstatechange = ()=>{
@@ -427,7 +430,7 @@ async function startSender(){
   const code = await makeCode(pc.localDescription);
   $("send-offer").value = code;
   drawQR("send-offer-qr", code);
-  startMicMeter();
+  if(localStream) startMicMeter();
 }
 
 $("send-share").onclick = ()=>shareOrCopy($("send-offer").value, "Invite");
@@ -447,10 +450,15 @@ async function sendConnect(){
 }
 
 function onSenderConnected(){
+  const hasMic = !!localStream;
+  $("send-live").textContent = hasMic
+    ? "🔴 You are sharing your live location and microphone."
+    : "🔴 You are sharing your live location (voice off — no mic).";
   $("send-live").classList.remove("hidden");
   $("send-status").classList.remove("hidden");
+  $("send-miclabel").textContent = hasMic ? "on" : "off (no mic)";
   keepAwake();
-  nativeSharing(true);   // keep transmitting with the screen off (Android app only)
+  nativeSharing(true, hasMic);   // keep transmitting with the screen off (Android app only)
   // start streaming live location over the encrypted data channel
   if(navigator.geolocation){
     geoWatch = navigator.geolocation.watchPosition(async pos=>{
