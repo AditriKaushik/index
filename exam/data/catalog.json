@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-10T07:32:21.119Z",
+ "generatedAt": "2026-10-10T07:32:44.578Z",
  "exams": [
   {
    "id": "afcat",
@@ -1121,6 +1121,64 @@
    },
    "stage": "CBT 1 (Graduate level)",
    "durationMinutes": 90,
+   "totalQuestions": 100,
+   "questionCount": 60,
+   "hasHindi": false,
+   "quality": {
+    "verified": 100,
+    "relevance": 100
+   }
+  },
+  {
+   "id": "sbi-po",
+   "name": "SBI PO",
+   "fullName": "State Bank of India – Probationary Officers Recruitment",
+   "nameHi": "एसबीआई पीओ",
+   "category": "banking",
+   "conductingBody": "State Bank of India (Central Recruitment & Promotion Department)",
+   "officialSite": "https://sbi.bank.in/web/careers",
+   "level": "national",
+   "frequency": "Once a year",
+   "approxCandidates": "≈6–10 lakh applicants (recent cycles, unofficial estimates)",
+   "eligibility": "Graduate in any discipline (final-year students may apply provisionally); 21–30 years (relaxation for reserved categories)",
+   "notification": {
+    "status": "ongoing",
+    "summary": "SBI PO 2026 (Advt. CRPD/PO/2026-27/09) is in progress: prelims were held on 1–2 Aug 2026, the prelims result was declared on 28 Aug 2026 and the mains was held on 12 Sep 2026; Phase III (psychometric test, group exercise and interview) is next. Reports mention ≈1,500 vacancies. Dates are from news portals; SBI's careers page could not be opened from the research environment.",
+    "importantDates": [
+     {
+      "event": "Notification & registration",
+      "date": "Jun–Jul 2026"
+     },
+     {
+      "event": "Prelims admit card",
+      "date": "22 Jul 2026"
+     },
+     {
+      "event": "Prelims exam",
+      "date": "1–2 Aug 2026"
+     },
+     {
+      "event": "Prelims result",
+      "date": "28 Aug 2026"
+     },
+     {
+      "event": "Mains exam",
+      "date": "12 Sep 2026"
+     },
+     {
+      "event": "Phase III (psychometric test, GE & interview)",
+      "date": "Oct–Nov 2026 (expected)"
+     },
+     {
+      "event": "Final result",
+      "date": "Dec 2026 (expected)"
+     }
+    ],
+    "source": "https://www.freepressjournal.in/amp/education/sbi-po-prelims-result-2026-declared-at-sbibankin-mains-exam-on-september-12",
+    "checkedOn": "2026-10-10"
+   },
+   "stage": "Phase I – Preliminary Examination",
+   "durationMinutes": 60,
    "totalQuestions": 100,
    "questionCount": 60,
    "hasHindi": false,
