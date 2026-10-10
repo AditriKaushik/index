@@ -37,6 +37,12 @@ jobs:
           cp -r icons _site/
           # Live Share is a single self-contained page under liveshare/.
           cp -r liveshare _site/
+          # MockPariksha: the app plus its data (catalog + one JSON per exam).
+          mkdir -p _site/exam/data
+          cp exam/index.html exam/styles.css _site/exam/
+          cp -r exam/js _site/exam/
+          cp exam/data/catalog.json _site/exam/data/
+          cp -r exam/data/exams _site/exam/data/
 
       # Belt and braces: refuse to deploy if anything server-side ever ends
       # up staged, so a future change to the copy step above cannot quietly

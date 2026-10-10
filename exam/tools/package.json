@@ -1,0 +1,13 @@
+{
+  "name": "mockpariksha-tools",
+  "private": true,
+  "type": "module",
+  "description": "Offline tools that grow and proof-read the question banks. Not shipped to the website.",
+  "scripts": {
+    "grow": "node grow-bank.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "latest",
+    "zod": "^3.25.0"
+  }
+}
