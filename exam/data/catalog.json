@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-10T07:34:49.371Z",
+ "generatedAt": "2026-10-10T07:36:25.725Z",
  "exams": [
   {
    "id": "afcat",
@@ -572,6 +572,56 @@
    "stage": "Paper II (Classes VI–VIII) – Mathematics & Science",
    "durationMinutes": 150,
    "totalQuestions": 150,
+   "questionCount": 60,
+   "hasHindi": false,
+   "quality": {
+    "verified": 100,
+    "relevance": 100
+   }
+  },
+  {
+   "id": "cuet-ug",
+   "name": "CUET UG",
+   "fullName": "Common University Entrance Test – Undergraduate",
+   "nameHi": "सीयूईटी यूजी",
+   "category": "university",
+   "conductingBody": "National Testing Agency (NTA)",
+   "officialSite": "https://cuet.nta.nic.in",
+   "level": "national",
+   "frequency": "Once a year (May–June)",
+   "approxCandidates": "15.69 lakh registered and 11.64 lakh appeared (CUET UG 2026)",
+   "eligibility": "Passed or appearing in Class 12 (or equivalent). No age limit. Each university sets its own subject and percentage requirements.",
+   "notification": {
+    "status": "result-out",
+    "summary": "CUET UG 2026 was held in CBT mode from 11 May 2026. Some papers were rescheduled to 31 May and 6–7 Jun because of Eid-ul-Azha. The result was declared on 23 Jun 2026: 15,68,867 candidates registered and 11,64,098 appeared. University admissions and counselling for 2026–27 are complete or wrapping up. The CUET UG 2027 notification is expected around Jan–Feb 2027 (the 2026 notification came out on 3 Jan 2026). Dates come from news reports via web search; cuet.nta.nic.in could not be reached from the research sandbox.",
+    "importantDates": [
+     {
+      "event": "CUET UG 2026 notification & registration",
+      "date": "3 Jan 2026 (reported)"
+     },
+     {
+      "event": "CUET UG 2026 exam (CBT)",
+      "date": "11 May – 7 Jun 2026 (incl. rescheduled dates)"
+     },
+     {
+      "event": "CUET UG 2026 result",
+      "date": "23 Jun 2026"
+     },
+     {
+      "event": "CUET UG 2027 notification",
+      "date": "Jan–Feb 2027 (expected)"
+     },
+     {
+      "event": "CUET UG 2027 exam",
+      "date": "May 2027 (expected)"
+     }
+    ],
+    "source": "https://cuet.nta.nic.in (official). Result figures from the NTA press release as reported by IANS (ianslive.in, 23 Jun 2026) and ETV Bharat.",
+    "checkedOn": "2026-10-10"
+   },
+   "stage": "General Aptitude Test + English (Language) test",
+   "durationMinutes": 120,
+   "totalQuestions": 100,
    "questionCount": 60,
    "hasHindi": false,
    "quality": {
@@ -1275,6 +1325,64 @@
    },
    "stage": "CBT 1 (Graduate level)",
    "durationMinutes": 90,
+   "totalQuestions": 100,
+   "questionCount": 60,
+   "hasHindi": false,
+   "quality": {
+    "verified": 100,
+    "relevance": 100
+   }
+  },
+  {
+   "id": "sbi-clerk",
+   "name": "SBI Clerk",
+   "fullName": "State Bank of India – Junior Associates (Customer Support & Sales) Recruitment",
+   "nameHi": "एसबीआई क्लर्क",
+   "category": "banking",
+   "conductingBody": "State Bank of India (Central Recruitment & Promotion Department)",
+   "officialSite": "https://sbi.bank.in/web/careers",
+   "level": "national",
+   "frequency": "Once a year",
+   "approxCandidates": "≈15–25 lakh applicants (recent cycles, unofficial estimates)",
+   "eligibility": "Graduate in any discipline; 20–28 years as on 1 Apr 2026 (relaxation for reserved categories); knowledge of the local language of the state applied for",
+   "notification": {
+    "status": "ongoing",
+    "summary": "SBI Junior Associate 2026 (Advt. CRPD/CR/2026-27/17, ≈7,680 regular vacancies, plus a separate SC/ST/OBC backlog drive CRPD/CR/SPLDRIVE/2026-27/16) closed registration on 31 Aug 2026. Regular prelims were held on 26–27 Sep 2026; the prelims result is awaited and mains is tentatively in late Nov 2026. Figures are from news/job portals (vacancy counts vary between sources); the SBI careers page could not be opened from the research environment.",
+    "importantDates": [
+     {
+      "event": "Backlog-drive notification",
+      "date": "7 Aug 2026"
+     },
+     {
+      "event": "Regular notification & registration",
+      "date": "11–31 Aug 2026"
+     },
+     {
+      "event": "Backlog prelims",
+      "date": "16 Sep 2026 (reported)"
+     },
+     {
+      "event": "Regular prelims",
+      "date": "26–27 Sep 2026"
+     },
+     {
+      "event": "Prelims result",
+      "date": "Oct–Nov 2026 (awaited)"
+     },
+     {
+      "event": "Mains exam",
+      "date": "≈23 Nov 2026 (tentative)"
+     },
+     {
+      "event": "Local Language Proficiency Test / final result",
+      "date": "Early 2027 (expected)"
+     }
+    ],
+    "source": "https://www.bankersadda.com/sbi-clerk-prelims-exam-date-2026-out/",
+    "checkedOn": "2026-10-10"
+   },
+   "stage": "Preliminary Examination",
+   "durationMinutes": 60,
    "totalQuestions": 100,
    "questionCount": 60,
    "hasHindi": false,
