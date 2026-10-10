@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-10T07:32:44.578Z",
+ "generatedAt": "2026-10-10T07:33:24.640Z",
  "exams": [
   {
    "id": "afcat",
@@ -530,6 +530,64 @@
    }
   },
   {
+   "id": "gate-cse",
+   "name": "GATE CSE",
+   "fullName": "Graduate Aptitude Test in Engineering – Computer Science & Information Technology (CS)",
+   "nameHi": "गेट कंप्यूटर साइंस",
+   "category": "postgraduate",
+   "conductingBody": "IISc Bangalore and seven IITs on rotation for the National Coordination Board–GATE, Ministry of Education (GATE 2027: IIT Madras)",
+   "officialSite": "https://gate2027.iitm.ac.in",
+   "level": "national",
+   "frequency": "Once a year (February)",
+   "approxCandidates": "≈2.6 lakh registered and ≈2.1 lakh appeared for the CS paper in GATE 2026 (aggregator figures). GATE 2026 CS qualifying cut-off: 30 (General), 27 (OBC-NCL/EWS), 20 (SC/ST/PwD).",
+   "eligibility": "Students in the 3rd year or higher of any UG programme, or graduates in engineering, technology, science, commerce or arts. No age limit. A candidate may take up to two papers from the allowed combinations.",
+   "notification": {
+    "status": "ongoing",
+    "summary": "GATE 2027 is being organised by IIT Madras. Registration on GOAPS opened in Aug/early Sep 2026 (reports differ). The regular-fee deadline was extended to 5 Oct 2026, and the late-fee window runs until 12 Oct 2026. The exams are scheduled on 6, 7, 13, 14, 20 and 21 Feb 2027, with results on 19 Mar 2027. DigiLocker-based verification is mandatory for Indian candidates. Dates come from news reports via web search; gate2027.iitm.ac.in could not be reached from the research sandbox.",
+    "importantDates": [
+     {
+      "event": "GOAPS registration opened",
+      "date": "Aug–Sep 2026 (reports differ: 14 Aug or 2 Sep)"
+     },
+     {
+      "event": "Registration closed (regular fee, extended)",
+      "date": "5 Oct 2026"
+     },
+     {
+      "event": "Registration with late fee",
+      "date": "Until 12 Oct 2026"
+     },
+     {
+      "event": "Application correction window",
+      "date": "14–21 Oct 2026 (reported)"
+     },
+     {
+      "event": "Admit card",
+      "date": "3–4 Jan 2027 (reported)"
+     },
+     {
+      "event": "Exam days (CS slot to be announced)",
+      "date": "6, 7, 13, 14, 20, 21 Feb 2027"
+     },
+     {
+      "event": "Result",
+      "date": "19 Mar 2027"
+     }
+    ],
+    "source": "https://gate2027.iitm.ac.in (official), dates as reported by Careers360 (engineering.careers360.com/articles/gate-exam-dates) and CareerIndia",
+    "checkedOn": "2026-10-10"
+   },
+   "stage": "GATE CS paper (single stage)",
+   "durationMinutes": 180,
+   "totalQuestions": 65,
+   "questionCount": 60,
+   "hasHindi": false,
+   "quality": {
+    "verified": 100,
+    "relevance": 100
+   }
+  },
+  {
    "id": "ibps-clerk",
    "name": "IBPS Clerk",
    "fullName": "Institute of Banking Personnel Selection – Common Recruitment Process for Customer Service Associates (CRP CSA / Clerk)",
@@ -788,6 +846,52 @@
    "stage": "Selection Test",
    "durationMinutes": 120,
    "totalQuestions": 80,
+   "questionCount": 60,
+   "hasHindi": false,
+   "quality": {
+    "verified": 100,
+    "relevance": 100
+   }
+  },
+  {
+   "id": "mht-cet",
+   "name": "MHT-CET (PCM)",
+   "fullName": "Maharashtra Common Entrance Test – PCM Group",
+   "nameHi": "एमएचटी-सीईटी (पीसीएम)",
+   "category": "engineering",
+   "conductingBody": "State Common Entrance Test Cell, Maharashtra",
+   "officialSite": "https://cetcell.mahacet.org",
+   "level": "state",
+   "frequency": "Once a year, with two attempts proposed for the 2027 cycle",
+   "approxCandidates": "≈4–5 lakh PCM-group registrations per year (2025–26 cycles; ≈7+ lakh across PCM and PCB)",
+   "eligibility": "Class 12 (or appearing) with Physics, Mathematics and Chemistry/Biology/Technical vocational subject; domicile rules apply for state-quota seats",
+   "notification": {
+    "status": "expected",
+    "summary": "A CET Cell notice dated 28 Sep 2026 (as reported) indicates the first attempt of MHT-CET 2027 will be held between 15 Dec 2026 and 15 Jan 2027, with a second attempt expected around April 2027. The detailed information brochure, registration window and exact PCM dates had not been published as of 10 Oct 2026.",
+    "importantDates": [
+     {
+      "event": "Registration",
+      "date": "Oct 2026 (expected)"
+     },
+     {
+      "event": "First attempt (PCM & PCB)",
+      "date": "15 Dec 2026 – 15 Jan 2027 (window per CET Cell notice; exact PCM dates awaited)"
+     },
+     {
+      "event": "Second attempt",
+      "date": "Apr 2027 (expected, unconfirmed)"
+     },
+     {
+      "event": "Result",
+      "date": "May–Jun 2027 (expected)"
+     }
+    ],
+    "source": "https://articles.findmycollege.com/news/mht-cet-2027-first-attempt-from-december-15-registration-expected-in-october/ (news report of CET Cell notice; confirm on cetcell.mahacet.org)",
+    "checkedOn": "2026-10-10"
+   },
+   "stage": "PCM group paper",
+   "durationMinutes": 180,
+   "totalQuestions": 150,
    "questionCount": 60,
    "hasHindi": false,
    "quality": {
