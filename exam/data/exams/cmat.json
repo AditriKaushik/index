@@ -1,0 +1,1246 @@
+{
+  "id": "cmat",
+  "name": "CMAT",
+  "fullName": "Common Management Admission Test",
+  "nameHi": "कॉमन मैनेजमेंट एडमिशन टेस्ट (सीमैट)",
+  "category": "management",
+  "conductingBody": "National Testing Agency (NTA), for AICTE-approved institutions",
+  "officialSite": "https://cmat.nta.nic.in",
+  "level": "national",
+  "frequency": "Once a year (January/February)",
+  "approxCandidates": "≈53,500 registered, ≈41,900 appeared (CMAT 2026)",
+  "eligibility": "Bachelor's degree in any discipline; final-year students may apply; no age limit",
+  "notification": {
+    "status": "expected",
+    "summary": "As of 10 Oct 2026 NTA has not released the CMAT 2027 information bulletin. Based on past cycles (CMAT 2026 notified in Oct–Nov 2025, exam 25 Jan 2026, result 17 Feb 2026), the notification is expected around Oct–Nov 2026 with the exam in late January 2027. Checked via web search on 2026-10-10; all 2027 dates below are tentative.",
+    "importantDates": [
+      {
+        "event": "CMAT 2027 notification & registration",
+        "date": "Oct–Nov 2026 (expected)"
+      },
+      {
+        "event": "Admit card",
+        "date": "mid/late Jan 2027 (expected)"
+      },
+      {
+        "event": "CMAT 2027 exam",
+        "date": "late Jan 2027 (expected; not yet announced)"
+      },
+      {
+        "event": "Result",
+        "date": "Feb 2027 (expected)"
+      },
+      {
+        "event": "Previous cycle (CMAT 2026) exam / result",
+        "date": "25 Jan 2026 / 17 Feb 2026"
+      }
+    ],
+    "source": "https://cmat.nta.nic.in",
+    "checkedOn": "2026-10-10"
+  },
+  "pattern": {
+    "stage": "CMAT (single computer-based test)",
+    "mode": "CBT",
+    "durationMinutes": 180,
+    "totalQuestions": 100,
+    "totalMarks": 400,
+    "marking": {
+      "correct": 4,
+      "wrong": -1,
+      "unattempted": 0
+    },
+    "sections": [
+      {
+        "id": "quant",
+        "name": "Quantitative Techniques & Data Interpretation",
+        "questions": 20,
+        "marks": 80
+      },
+      {
+        "id": "logical",
+        "name": "Logical Reasoning",
+        "questions": 20,
+        "marks": 80
+      },
+      {
+        "id": "language",
+        "name": "Language Comprehension",
+        "questions": 20,
+        "marks": 80
+      },
+      {
+        "id": "ga",
+        "name": "General Awareness",
+        "questions": 20,
+        "marks": 80
+      },
+      {
+        "id": "ie",
+        "name": "Innovation & Entrepreneurship",
+        "questions": 20,
+        "marks": 80
+      }
+    ],
+    "notes": "Single shift, no sectional time limit; candidates may move freely between sections. The Innovation & Entrepreneurship section was added in 2021 and has stayed since."
+  },
+  "trendAnalysis": {
+    "yearsAnalyzed": [
+      2024,
+      2025,
+      2026
+    ],
+    "summary": "The CMAT pattern (100 questions, 400 marks, 3 hours, five equal sections) has been unchanged in 2024–2026. The paper is easy to moderate overall: Quant is arithmetic-heavy with one or two DI tables, Logical Reasoning favours series, coding, blood relations, syllogisms and small arrangements, and Language Comprehension mixes short RCs with vocabulary and grammar. General Awareness is the most unpredictable section, blending current affairs with static GK, while Innovation & Entrepreneurship tests entrepreneurship theory, Indian start-up schemes and business terminology — a high-scoring section for those who prepare it. Accuracy matters because of the −1 penalty.",
+    "topics": [
+      {
+        "section": "quant",
+        "topic": "Percentages, Profit-Loss & Interest",
+        "weightage": 30,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "quant",
+        "topic": "Ratio, Mixtures & Averages",
+        "weightage": 15,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "quant",
+        "topic": "Time-Speed-Distance & Work",
+        "weightage": 15,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "quant",
+        "topic": "Algebra & Number System",
+        "weightage": 15,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "quant",
+        "topic": "Geometry & Mensuration",
+        "weightage": 10,
+        "trend": "falling",
+        "difficulty": "medium"
+      },
+      {
+        "section": "quant",
+        "topic": "Data Interpretation",
+        "weightage": 15,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "logical",
+        "topic": "Number & Letter Series",
+        "weightage": 15,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "logical",
+        "topic": "Coding-Decoding",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "logical",
+        "topic": "Blood Relations & Directions",
+        "weightage": 15,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "logical",
+        "topic": "Seating Arrangement & Puzzles",
+        "weightage": 20,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "logical",
+        "topic": "Syllogisms & Statement-Assumption",
+        "weightage": 25,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "logical",
+        "topic": "Analogy & Classification",
+        "weightage": 15,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "language",
+        "topic": "Reading Comprehension",
+        "weightage": 30,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "language",
+        "topic": "Vocabulary (Synonyms, Antonyms, Idioms)",
+        "weightage": 25,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "language",
+        "topic": "Grammar & Error Spotting",
+        "weightage": 25,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "language",
+        "topic": "Sentence Arrangement & Completion",
+        "weightage": 20,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "ga",
+        "topic": "Current Affairs",
+        "weightage": 35,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "ga",
+        "topic": "Economy & Business",
+        "weightage": 25,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "ga",
+        "topic": "Polity & History",
+        "weightage": 20,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "ga",
+        "topic": "Geography & Science",
+        "weightage": 10,
+        "trend": "falling",
+        "difficulty": "easy"
+      },
+      {
+        "section": "ga",
+        "topic": "Sports, Awards & Books",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "ie",
+        "topic": "Entrepreneurship Concepts & Theories",
+        "weightage": 30,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "ie",
+        "topic": "Startup Ecosystem & Government Schemes",
+        "weightage": 25,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "ie",
+        "topic": "Business Models, Funding & Finance",
+        "weightage": 20,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "ie",
+        "topic": "Innovation & IPR",
+        "weightage": 15,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "ie",
+        "topic": "Famous Entrepreneurs & Companies",
+        "weightage": 10,
+        "trend": "falling",
+        "difficulty": "easy"
+      }
+    ]
+  },
+  "resources": {
+    "pyqAvailable": true,
+    "officialPYQ": "https://cmat.nta.nic.in",
+    "officialMock": "https://nta.ac.in",
+    "notes": "NTA displays each candidate's recorded responses together with the question paper and provisional answer key on the CMAT portal for challenges after the exam, and publishes the final answer key with the result. Free official mock tests are available through NTA's mock-test portal (nta.ac.in / the NTA 'National Test Abhyas' app)."
+  },
+  "questions": [
+    {
+      "id": "cmat-001",
+      "section": "quant",
+      "topic": "Percentages, Profit-Loss & Interest",
+      "difficulty": "easy",
+      "question": "A's salary is 25% more than B's salary. By what percentage is B's salary less than A's?",
+      "options": [
+        "15%",
+        "20%",
+        "22.5%",
+        "25%"
+      ],
+      "answer": 1,
+      "explanation": "If B = 100, A = 125. B is less than A by 25/125 = 20%.",
+      "verified": true
+    },
+    {
+      "id": "cmat-002",
+      "section": "quant",
+      "topic": "Percentages, Profit-Loss & Interest",
+      "difficulty": "easy",
+      "question": "An article sold for ₹540 results in a loss of 10%. At what price should it be sold to gain 15%?",
+      "options": [
+        "₹621",
+        "₹690",
+        "₹675",
+        "₹700"
+      ],
+      "answer": 1,
+      "explanation": "CP = 540/0.9 = ₹600. SP for 15% gain = 600 × 1.15 = ₹690.",
+      "verified": true
+    },
+    {
+      "id": "cmat-003",
+      "section": "quant",
+      "topic": "Percentages, Profit-Loss & Interest",
+      "difficulty": "easy",
+      "question": "What is the simple interest on ₹8,000 at 12.5% per annum for 4 years?",
+      "options": [
+        "₹4,000",
+        "₹3,600",
+        "₹4,400",
+        "₹5,000"
+      ],
+      "answer": 0,
+      "explanation": "SI = 8,000 × 12.5 × 4 / 100 = ₹4,000.",
+      "verified": true
+    },
+    {
+      "id": "cmat-004",
+      "section": "quant",
+      "topic": "Percentages, Profit-Loss & Interest",
+      "difficulty": "medium",
+      "question": "What is the compound interest on ₹10,000 for 1 year at 20% per annum, compounded half-yearly?",
+      "options": [
+        "₹2,000",
+        "₹2,100",
+        "₹2,050",
+        "₹2,200"
+      ],
+      "answer": 1,
+      "explanation": "Half-yearly rate 10% for 2 periods: 10,000 × 1.1² = 12,100. CI = ₹2,100.",
+      "verified": true
+    },
+    {
+      "id": "cmat-005",
+      "section": "quant",
+      "topic": "Ratio, Mixtures & Averages",
+      "difficulty": "medium",
+      "question": "₹7,800 is divided among A, B and C in the ratio 1/2 : 1/3 : 1/4. What is B's share?",
+      "options": [
+        "₹2,400",
+        "₹1,800",
+        "₹2,600",
+        "₹3,600"
+      ],
+      "answer": 0,
+      "explanation": "Multiply by 12: 6 : 4 : 3 (13 parts). One part = 7,800/13 = 600. B = 4 × 600 = ₹2,400.",
+      "verified": true
+    },
+    {
+      "id": "cmat-006",
+      "section": "quant",
+      "topic": "Ratio, Mixtures & Averages",
+      "difficulty": "easy",
+      "question": "The average of five consecutive odd numbers is 27. What is the largest of them?",
+      "options": [
+        "29",
+        "33",
+        "31",
+        "35"
+      ],
+      "answer": 2,
+      "explanation": "The middle number equals the average, 27; the numbers are 23, 25, 27, 29, 31. Largest = 31.",
+      "verified": true
+    },
+    {
+      "id": "cmat-007",
+      "section": "quant",
+      "topic": "Time-Speed-Distance & Work",
+      "difficulty": "easy",
+      "question": "A person travels from home to office at 40 km/h and returns along the same route at 60 km/h. What is the average speed for the whole journey?",
+      "options": [
+        "45 km/h",
+        "50 km/h",
+        "52 km/h",
+        "48 km/h"
+      ],
+      "answer": 3,
+      "explanation": "For equal distances, average speed = 2 × 40 × 60 / (40 + 60) = 4800/100 = 48 km/h.",
+      "verified": true
+    },
+    {
+      "id": "cmat-008",
+      "section": "quant",
+      "topic": "Time-Speed-Distance & Work",
+      "difficulty": "easy",
+      "question": "12 workers can complete a job in 18 days. In how many days can 8 workers complete the same job, working at the same rate?",
+      "options": [
+        "12",
+        "24",
+        "30",
+        "27"
+      ],
+      "answer": 3,
+      "explanation": "Total work = 12 × 18 = 216 worker-days. 216/8 = 27 days.",
+      "verified": true
+    },
+    {
+      "id": "cmat-009",
+      "section": "quant",
+      "topic": "Algebra & Number System",
+      "difficulty": "easy",
+      "question": "If 3x − 2y = 7 and x + y = 9, what is the value of xy?",
+      "options": [
+        "15",
+        "18",
+        "20",
+        "24"
+      ],
+      "answer": 2,
+      "explanation": "From x + y = 9: 2x + 2y = 18. Adding to 3x − 2y = 7 gives 5x = 25, x = 5, y = 4. xy = 20.",
+      "verified": true
+    },
+    {
+      "id": "cmat-010",
+      "section": "quant",
+      "topic": "Algebra & Number System",
+      "difficulty": "medium",
+      "question": "What is the smallest number which, when divided by 12, 18 and 30, leaves a remainder of 5 in each case?",
+      "options": [
+        "185",
+        "175",
+        "180",
+        "365"
+      ],
+      "answer": 0,
+      "explanation": "LCM(12, 18, 30) = 180. Required number = 180 + 5 = 185.",
+      "verified": true
+    },
+    {
+      "id": "cmat-011",
+      "section": "quant",
+      "topic": "Geometry & Mensuration",
+      "difficulty": "easy",
+      "question": "The circumference of a circle is 44 cm. What is its area? (Take π = 22/7.)",
+      "options": [
+        "144 cm²",
+        "154 cm²",
+        "176 cm²",
+        "616 cm²"
+      ],
+      "answer": 1,
+      "explanation": "2πr = 44 → r = 7 cm. Area = (22/7) × 49 = 154 cm².",
+      "verified": true
+    },
+    {
+      "id": "cmat-012",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "medium",
+      "question": "A company's annual expenditure (₹ lakh) is: Salaries 300, Raw material 450, Transport 150, Advertising 100.\n\nBy what percentage is the expenditure on raw material more than that on salaries?",
+      "options": [
+        "33.3%",
+        "45%",
+        "50%",
+        "150%"
+      ],
+      "answer": 2,
+      "explanation": "(450 − 300)/300 × 100 = 50%.",
+      "verified": true
+    },
+    {
+      "id": "cmat-013",
+      "section": "logical",
+      "topic": "Number & Letter Series",
+      "difficulty": "easy",
+      "question": "Find the next term: 3, 8, 15, 24, 35, ?",
+      "options": [
+        "46",
+        "48",
+        "49",
+        "50"
+      ],
+      "answer": 1,
+      "explanation": "Terms are n² − 1 for n = 2, 3, 4, 5, 6, so next is 7² − 1 = 48 (differences 5, 7, 9, 11, 13).",
+      "verified": true
+    },
+    {
+      "id": "cmat-014",
+      "section": "logical",
+      "topic": "Number & Letter Series",
+      "difficulty": "easy",
+      "question": "Find the next letter: B, E, I, N, ?",
+      "options": [
+        "U",
+        "T",
+        "R",
+        "S"
+      ],
+      "answer": 1,
+      "explanation": "Positions 2, 5, 9, 14 increase by 3, 4, 5; next is 14 + 6 = 20, i.e. T.",
+      "verified": true
+    },
+    {
+      "id": "cmat-015",
+      "section": "logical",
+      "topic": "Coding-Decoding",
+      "difficulty": "easy",
+      "question": "If MANGO is written as NBOHP in a certain code, how is APPLE written in that code?",
+      "options": [
+        "BPQMF",
+        "ZOOKD",
+        "BQQMF",
+        "BQQME"
+      ],
+      "answer": 2,
+      "explanation": "Each letter is shifted one place forward: A→B, P→Q, P→Q, L→M, E→F.",
+      "verified": true
+    },
+    {
+      "id": "cmat-016",
+      "section": "logical",
+      "topic": "Coding-Decoding",
+      "difficulty": "medium",
+      "question": "In a certain code language, 'sky is blue' is written as 'ka la pa', 'blue sea' as 'pa ta', and 'sea is deep' as 'ta la ma'. What is the code for 'sky'?",
+      "options": [
+        "la",
+        "ka",
+        "ta",
+        "pa"
+      ],
+      "answer": 1,
+      "explanation": "'blue' is common to the first two → 'pa'; 'sea' common to the last two → 'ta'; 'is' common to first and third → 'la'. The remaining code in the first sentence, 'ka', is 'sky'.",
+      "verified": true
+    },
+    {
+      "id": "cmat-017",
+      "section": "logical",
+      "topic": "Blood Relations & Directions",
+      "difficulty": "easy",
+      "question": "Pointing to a man, Rina said, \"He is the son of my grandfather's only son.\" How is the man related to Rina?",
+      "options": [
+        "Uncle",
+        "Cousin",
+        "Father",
+        "Brother"
+      ],
+      "answer": 3,
+      "explanation": "Her grandfather's only son is Rina's father; his son is Rina's brother.",
+      "verified": true
+    },
+    {
+      "id": "cmat-018",
+      "section": "logical",
+      "topic": "Blood Relations & Directions",
+      "difficulty": "easy",
+      "question": "Ravi walks 10 m south, turns left and walks 6 m, then turns left again and walks 10 m. How far and in which direction is he from his starting point?",
+      "options": [
+        "6 m east",
+        "6 m west",
+        "10 m north",
+        "16 m east"
+      ],
+      "answer": 0,
+      "explanation": "South 10 m; a left turn while facing south points east (6 m); another left turn points north (10 m), cancelling the southward walk. He is 6 m east of the start.",
+      "verified": true
+    },
+    {
+      "id": "cmat-019",
+      "section": "logical",
+      "topic": "Seating Arrangement & Puzzles",
+      "difficulty": "medium",
+      "question": "P, Q, R, S and T sit in a row facing north. R sits in the middle. P sits at the extreme left. T sits immediately to the right of R. Q does not sit next to P. Who sits second from the left?",
+      "options": [
+        "R",
+        "T",
+        "S",
+        "Q"
+      ],
+      "answer": 2,
+      "explanation": "Positions 1–5 from the left: P = 1, R = 3, T = 4. Q cannot be in 2 (next to P), so Q = 5 and S = 2.",
+      "verified": true
+    },
+    {
+      "id": "cmat-020",
+      "section": "logical",
+      "topic": "Seating Arrangement & Puzzles",
+      "difficulty": "easy",
+      "question": "In a class of 40 students, Amit ranks 12th from the top. Neha is 5 ranks below Amit. What is Neha's rank from the bottom?",
+      "options": [
+        "24th",
+        "25th",
+        "23rd",
+        "28th"
+      ],
+      "answer": 0,
+      "explanation": "Neha is 17th from the top. Rank from bottom = 40 − 17 + 1 = 24.",
+      "verified": true
+    },
+    {
+      "id": "cmat-021",
+      "section": "logical",
+      "topic": "Syllogisms & Statement-Assumption",
+      "difficulty": "medium",
+      "question": "Statements: All pens are books. Some books are bags.\nConclusions: I. Some pens are bags. II. Some bags are books.\nWhich conclusion(s) follow?",
+      "options": [
+        "Only II follows",
+        "Only I follows",
+        "Both I and II follow",
+        "Neither I nor II follows"
+      ],
+      "answer": 0,
+      "explanation": "'Some books are bags' converts to 'Some bags are books' (II follows). The books that are bags need not include any pens, so I does not necessarily follow.",
+      "verified": true
+    },
+    {
+      "id": "cmat-022",
+      "section": "logical",
+      "topic": "Syllogisms & Statement-Assumption",
+      "difficulty": "medium",
+      "question": "Statements: No cat is a dog. All dogs are animals.\nConclusions: I. Some animals are not cats. II. No animal is a cat.\nWhich conclusion(s) follow?",
+      "options": [
+        "Both I and II follow",
+        "Only II follows",
+        "Neither I nor II follows",
+        "Only I follows"
+      ],
+      "answer": 3,
+      "explanation": "All dogs are animals and no dog is a cat, so those animals that are dogs are not cats: I follows. Nothing prevents some other animals from being cats, so II does not follow.",
+      "verified": true
+    },
+    {
+      "id": "cmat-023",
+      "section": "logical",
+      "topic": "Syllogisms & Statement-Assumption",
+      "difficulty": "medium",
+      "question": "Statement: \"Use BrightSmile toothpaste for stronger teeth,\" says an advertisement.\nAssumptions: I. People want stronger teeth. II. All other toothpastes weaken teeth.\nWhich assumption(s) is/are implicit?",
+      "options": [
+        "Neither I nor II is implicit",
+        "Only I is implicit",
+        "Only II is implicit",
+        "Both I and II are implicit"
+      ],
+      "answer": 1,
+      "explanation": "An advertisement promising stronger teeth assumes people value that outcome (I). It does not assume other toothpastes actively weaken teeth (II).",
+      "verified": true
+    },
+    {
+      "id": "cmat-024",
+      "section": "logical",
+      "topic": "Analogy & Classification",
+      "difficulty": "easy",
+      "question": "Find the odd one out: Copper, Iron, Brass, Aluminium",
+      "options": [
+        "Aluminium",
+        "Copper",
+        "Brass",
+        "Iron"
+      ],
+      "answer": 2,
+      "explanation": "Copper, iron and aluminium are elements (pure metals); brass is an alloy of copper and zinc.",
+      "verified": true
+    },
+    {
+      "id": "cmat-025",
+      "section": "language",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"Small businesses often fail not because their products are poor but because they run out of cash. A firm can be profitable on paper while its money is tied up in unpaid invoices and unsold stock. Experienced owners therefore watch cash flow as closely as profit, and they negotiate payment terms as carefully as prices.\"\n\nAccording to the passage, why might a profitable small business still fail?",
+      "options": [
+        "Its products are usually of poor quality.",
+        "Experienced owners ignore profit figures.",
+        "Its cash may be locked up in unpaid invoices and inventory.",
+        "It charges prices that are too low."
+      ],
+      "answer": 2,
+      "explanation": "The passage says a firm 'can be profitable on paper while its money is tied up in unpaid invoices and unsold stock', leading to a cash shortage.",
+      "verified": true
+    },
+    {
+      "id": "cmat-026",
+      "section": "language",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"The first electric lights in Indian cities were not seen merely as conveniences. Newspapers of the time described them as symbols of progress, and municipal councils competed to be the first to illuminate their main streets. Light, in other words, was as much a statement as a service.\"\n\nThe phrase 'as much a statement as a service' suggests that early electric lighting was:",
+      "options": [
+        "useless in practice",
+        "valued for its symbolic meaning as well as its practical use",
+        "opposed by newspapers",
+        "installed only in villages"
+      ],
+      "answer": 1,
+      "explanation": "The passage notes that lighting was seen as a 'symbol of progress' and a matter of civic pride, in addition to being a convenience.",
+      "verified": true
+    },
+    {
+      "id": "cmat-027",
+      "section": "language",
+      "topic": "Reading Comprehension",
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\n\"Bamboo is technically a grass, not a tree. Some species can grow nearly a metre in a single day, and many reach full height within a few months. Because it regrows from its roots after cutting, bamboo can be harvested repeatedly without replanting, which makes it attractive as a sustainable building material.\"\n\nWhich feature of bamboo makes it a sustainable building material, according to the passage?",
+      "options": [
+        "It grows only in a few months of the year.",
+        "It is stronger than steel.",
+        "It regrows from its roots after being cut, so it need not be replanted.",
+        "It is a type of tree."
+      ],
+      "answer": 2,
+      "explanation": "The passage links sustainability to bamboo regrowing from its roots, allowing repeated harvest without replanting. It explicitly says bamboo is a grass, and says nothing about steel.",
+      "verified": true
+    },
+    {
+      "id": "cmat-028",
+      "section": "language",
+      "topic": "Vocabulary (Synonyms, Antonyms, Idioms)",
+      "difficulty": "easy",
+      "question": "Choose the word most similar in meaning to BENEVOLENT.",
+      "options": [
+        "Proud",
+        "Lazy",
+        "Cruel",
+        "Kind"
+      ],
+      "answer": 3,
+      "explanation": "Benevolent means well-meaning and kindly.",
+      "verified": true
+    },
+    {
+      "id": "cmat-029",
+      "section": "language",
+      "topic": "Vocabulary (Synonyms, Antonyms, Idioms)",
+      "difficulty": "easy",
+      "question": "Choose the word most nearly OPPOSITE in meaning to SCARCE.",
+      "options": [
+        "Meagre",
+        "Abundant",
+        "Insufficient",
+        "Rare"
+      ],
+      "answer": 1,
+      "explanation": "Scarce means in short supply; its opposite is abundant. Rare, meagre and insufficient are close in meaning to scarce.",
+      "verified": true
+    },
+    {
+      "id": "cmat-030",
+      "section": "language",
+      "topic": "Vocabulary (Synonyms, Antonyms, Idioms)",
+      "difficulty": "easy",
+      "question": "Choose the correct meaning of the idiom: 'to burn the midnight oil'.",
+      "options": [
+        "To celebrate late at night",
+        "To waste resources",
+        "To lose one's temper",
+        "To work or study late into the night"
+      ],
+      "answer": 3,
+      "explanation": "The idiom means to stay up late working or studying.",
+      "verified": true
+    },
+    {
+      "id": "cmat-031",
+      "section": "language",
+      "topic": "Vocabulary (Synonyms, Antonyms, Idioms)",
+      "difficulty": "medium",
+      "question": "Choose the one word for: 'One who knows everything'.",
+      "options": [
+        "Omniscient",
+        "Omnivorous",
+        "Omnipotent",
+        "Omnipresent"
+      ],
+      "answer": 0,
+      "explanation": "Omniscient = all-knowing; omnipotent = all-powerful; omnipresent = present everywhere; omnivorous = eating all kinds of food.",
+      "verified": true
+    },
+    {
+      "id": "cmat-032",
+      "section": "language",
+      "topic": "Grammar & Error Spotting",
+      "difficulty": "easy",
+      "question": "Identify the part of the sentence that contains an error.\n\"He is (A) / senior than me (B) / in the company (C) / by three years. (D)\"",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 1,
+      "explanation": "'Senior' takes 'to', not 'than': 'senior to me'. So the error is in part B.",
+      "verified": true
+    },
+    {
+      "id": "cmat-033",
+      "section": "language",
+      "topic": "Grammar & Error Spotting",
+      "difficulty": "medium",
+      "question": "Choose the grammatically correct sentence.",
+      "options": [
+        "The committee have submit its report.",
+        "The committee have submitted its report.",
+        "The committee has submitted their report.",
+        "The committee has submitted its report."
+      ],
+      "answer": 3,
+      "explanation": "Treating the committee as a single body, the singular verb 'has' and singular pronoun 'its' must agree; the other options mix singular and plural or misuse the verb form.",
+      "verified": true
+    },
+    {
+      "id": "cmat-034",
+      "section": "language",
+      "topic": "Grammar & Error Spotting",
+      "difficulty": "easy",
+      "question": "Fill in the blank with the correct preposition: \"She has been working here ______ 2019.\"",
+      "options": [
+        "since",
+        "by",
+        "from",
+        "for"
+      ],
+      "answer": 0,
+      "explanation": "With the present perfect continuous and a point in time (2019), 'since' is correct; 'for' is used with a period of time.",
+      "verified": true
+    },
+    {
+      "id": "cmat-035",
+      "section": "language",
+      "topic": "Sentence Arrangement & Completion",
+      "difficulty": "medium",
+      "question": "Arrange the sentences in a logical order.\nP. Within a few years, the small shop had grown into a chain of twenty stores.\nQ. In 2010, Kavita opened a tiny shop selling handmade soaps.\nR. Today, the brand exports to more than fifteen countries.\nS. Customers liked the natural ingredients and kept coming back.",
+      "options": [
+        "QSRP",
+        "QPSR",
+        "SQPR",
+        "QSPR"
+      ],
+      "answer": 3,
+      "explanation": "Q (the start) → S (why customers returned) → P (growth within a few years) → R (today's position).",
+      "verified": true
+    },
+    {
+      "id": "cmat-036",
+      "section": "language",
+      "topic": "Sentence Arrangement & Completion",
+      "difficulty": "easy",
+      "question": "Choose the word that best completes the sentence: \"Despite repeated warnings, he remained ______ about the risks and invested all his savings in a single stock.\"",
+      "options": [
+        "cautious",
+        "vigilant",
+        "anxious",
+        "complacent"
+      ],
+      "answer": 3,
+      "explanation": "'Despite repeated warnings' and investing everything in one stock indicate he was unconcerned — complacent. Cautious, anxious and vigilant contradict his action.",
+      "verified": true
+    },
+    {
+      "id": "cmat-037",
+      "section": "ga",
+      "topic": "Current Affairs",
+      "difficulty": "easy",
+      "question": "Who took oath as the 53rd Chief Justice of India in November 2025?",
+      "options": [
+        "Justice Surya Kant",
+        "Justice B. R. Gavai",
+        "Justice Sanjiv Khanna",
+        "Justice D. Y. Chandrachud"
+      ],
+      "answer": 0,
+      "explanation": "Justice Surya Kant was sworn in as the 53rd CJI on 24 November 2025, succeeding Justice B. R. Gavai.",
+      "verified": true
+    },
+    {
+      "id": "cmat-038",
+      "section": "ga",
+      "topic": "Current Affairs",
+      "difficulty": "easy",
+      "question": "Who was elected Vice-President of India in September 2025?",
+      "options": [
+        "C. P. Radhakrishnan",
+        "M. Venkaiah Naidu",
+        "Om Birla",
+        "Jagdeep Dhankhar"
+      ],
+      "answer": 0,
+      "explanation": "C. P. Radhakrishnan was elected the 15th Vice-President on 9 September 2025 after Jagdeep Dhankhar resigned in July 2025.",
+      "verified": true
+    },
+    {
+      "id": "cmat-039",
+      "section": "ga",
+      "topic": "Current Affairs",
+      "difficulty": "easy",
+      "question": "Which country won the ICC Women's Cricket World Cup held in 2025?",
+      "options": [
+        "South Africa",
+        "Australia",
+        "India",
+        "England"
+      ],
+      "answer": 2,
+      "explanation": "India beat South Africa in the final at Navi Mumbai on 2 November 2025 to win its first Women's World Cup.",
+      "verified": true
+    },
+    {
+      "id": "cmat-040",
+      "section": "ga",
+      "topic": "Current Affairs",
+      "difficulty": "medium",
+      "question": "Which Indian astronaut became the first Indian to visit the International Space Station, on the Axiom-4 mission in 2025?",
+      "options": [
+        "Ajit Krishnan",
+        "Shubhanshu Shukla",
+        "Prasanth Nair",
+        "Rakesh Sharma"
+      ],
+      "answer": 1,
+      "explanation": "Group Captain Shubhanshu Shukla flew on Axiom-4 (June–July 2025). Prasanth Nair was his backup; Rakesh Sharma flew to Salyut 7 in 1984.",
+      "verified": true
+    },
+    {
+      "id": "cmat-041",
+      "section": "ga",
+      "topic": "Current Affairs",
+      "difficulty": "medium",
+      "question": "Which country hosted the G20 Leaders' Summit in November 2025, the first held in Africa?",
+      "options": [
+        "Egypt",
+        "South Africa",
+        "Nigeria",
+        "Kenya"
+      ],
+      "answer": 1,
+      "explanation": "South Africa held the 2025 G20 presidency and hosted the leaders' summit in Johannesburg.",
+      "verified": true
+    },
+    {
+      "id": "cmat-042",
+      "section": "ga",
+      "topic": "Economy & Business",
+      "difficulty": "medium",
+      "question": "Under the GST rate rationalisation effective from 22 September 2025, most goods and services were placed in which two principal slabs?",
+      "options": [
+        "5% and 18%",
+        "5% and 12%",
+        "12% and 28%",
+        "18% and 28%"
+      ],
+      "answer": 0,
+      "explanation": "The GST Council merged the 12% and 28% slabs into a two-slab structure of 5% and 18% for most items, with a special higher rate for a few luxury/sin goods.",
+      "verified": true
+    },
+    {
+      "id": "cmat-043",
+      "section": "ga",
+      "topic": "Economy & Business",
+      "difficulty": "easy",
+      "question": "Where is the headquarters of the Asian Development Bank?",
+      "options": [
+        "Manila",
+        "Beijing",
+        "Singapore",
+        "Tokyo"
+      ],
+      "answer": 0,
+      "explanation": "The ADB, founded in 1966, is headquartered in Mandaluyong, Metro Manila, Philippines.",
+      "verified": true
+    },
+    {
+      "id": "cmat-044",
+      "section": "ga",
+      "topic": "Economy & Business",
+      "difficulty": "easy",
+      "question": "NITI Aayog was set up in 2015 to replace which body?",
+      "options": [
+        "Planning Commission",
+        "Reserve Bank of India",
+        "National Development Council",
+        "Finance Commission"
+      ],
+      "answer": 0,
+      "explanation": "NITI Aayog replaced the Planning Commission on 1 January 2015.",
+      "verified": true
+    },
+    {
+      "id": "cmat-045",
+      "section": "ga",
+      "topic": "Polity & History",
+      "difficulty": "medium",
+      "question": "Fundamental Duties were added to the Constitution of India by which amendment?",
+      "options": [
+        "44th Amendment, 1978",
+        "73rd Amendment, 1992",
+        "42nd Amendment, 1976",
+        "86th Amendment, 2002"
+      ],
+      "answer": 2,
+      "explanation": "The 42nd Amendment (1976) inserted Part IVA (Article 51A) on Fundamental Duties, on the recommendation of the Swaran Singh Committee.",
+      "verified": true
+    },
+    {
+      "id": "cmat-046",
+      "section": "ga",
+      "topic": "Polity & History",
+      "difficulty": "easy",
+      "question": "In which year did Mahatma Gandhi lead the Dandi March (Salt Satyagraha)?",
+      "options": [
+        "1930",
+        "1919",
+        "1920",
+        "1942"
+      ],
+      "answer": 0,
+      "explanation": "The Dandi March began on 12 March 1930 and reached Dandi on 6 April 1930.",
+      "verified": true
+    },
+    {
+      "id": "cmat-047",
+      "section": "ga",
+      "topic": "Geography & Science",
+      "difficulty": "easy",
+      "question": "Which gas makes up the largest share of the Earth's atmosphere by volume?",
+      "options": [
+        "Carbon dioxide",
+        "Nitrogen",
+        "Oxygen",
+        "Argon"
+      ],
+      "answer": 1,
+      "explanation": "Nitrogen is about 78% of dry air by volume, oxygen about 21%.",
+      "verified": true
+    },
+    {
+      "id": "cmat-048",
+      "section": "ga",
+      "topic": "Sports, Awards & Books",
+      "difficulty": "easy",
+      "question": "'Wings of Fire' is the autobiography of:",
+      "options": [
+        "Homi J. Bhabha",
+        "Vikram Sarabhai",
+        "C. V. Raman",
+        "A. P. J. Abdul Kalam"
+      ],
+      "answer": 3,
+      "explanation": "'Wings of Fire' (1999), co-written with Arun Tiwari, is Dr A. P. J. Abdul Kalam's autobiography.",
+      "verified": true
+    },
+    {
+      "id": "cmat-049",
+      "section": "ie",
+      "topic": "Entrepreneurship Concepts & Theories",
+      "difficulty": "easy",
+      "question": "The concept of 'creative destruction', describing how innovation replaces old industries and products, is most closely associated with:",
+      "options": [
+        "Peter Drucker",
+        "Adam Smith",
+        "John Maynard Keynes",
+        "Joseph Schumpeter"
+      ],
+      "answer": 3,
+      "explanation": "Joseph Schumpeter developed the idea of creative destruction and saw the entrepreneur as an innovator.",
+      "verified": true
+    },
+    {
+      "id": "cmat-050",
+      "section": "ie",
+      "topic": "Entrepreneurship Concepts & Theories",
+      "difficulty": "medium",
+      "question": "Which economist is credited with first introducing the term 'entrepreneur' into economic theory, describing the entrepreneur as a bearer of uncertainty?",
+      "options": [
+        "Frank Knight",
+        "Richard Cantillon",
+        "Jean-Baptiste Say",
+        "Alfred Marshall"
+      ],
+      "answer": 1,
+      "explanation": "Richard Cantillon (18th century) introduced the term, describing entrepreneurs as those who buy at certain prices and sell at uncertain ones. Say and Knight developed the idea later.",
+      "verified": true
+    },
+    {
+      "id": "cmat-051",
+      "section": "ie",
+      "topic": "Entrepreneurship Concepts & Theories",
+      "difficulty": "medium",
+      "question": "According to David McClelland, entrepreneurial behaviour is driven mainly by a high need for:",
+      "options": [
+        "leisure",
+        "achievement",
+        "security",
+        "affiliation"
+      ],
+      "answer": 1,
+      "explanation": "McClelland's theory identifies a high need for achievement (n-Ach) as the key motive of entrepreneurs.",
+      "verified": true
+    },
+    {
+      "id": "cmat-052",
+      "section": "ie",
+      "topic": "Entrepreneurship Concepts & Theories",
+      "difficulty": "easy",
+      "question": "An employee who behaves like an entrepreneur within an existing organisation, developing new products or ventures, is called a/an:",
+      "options": [
+        "franchisee",
+        "sole proprietor",
+        "intrapreneur",
+        "angel investor"
+      ],
+      "answer": 2,
+      "explanation": "An intrapreneur innovates and takes initiative inside an established company, using its resources.",
+      "verified": true
+    },
+    {
+      "id": "cmat-053",
+      "section": "ie",
+      "topic": "Startup Ecosystem & Government Schemes",
+      "difficulty": "easy",
+      "question": "The Government of India launched the 'Startup India' initiative in which year?",
+      "options": [
+        "2014",
+        "2015",
+        "2018",
+        "2016"
+      ],
+      "answer": 3,
+      "explanation": "Startup India was launched on 16 January 2016.",
+      "verified": true
+    },
+    {
+      "id": "cmat-054",
+      "section": "ie",
+      "topic": "Startup Ecosystem & Government Schemes",
+      "difficulty": "medium",
+      "question": "Which government department grants official recognition to start-ups under the Startup India initiative?",
+      "options": [
+        "Ministry of Corporate Affairs",
+        "Department of Science and Technology",
+        "Department for Promotion of Industry and Internal Trade (DPIIT)",
+        "Department of Financial Services"
+      ],
+      "answer": 2,
+      "explanation": "Start-ups are recognised by DPIIT, under the Ministry of Commerce and Industry, which makes them eligible for tax and other benefits.",
+      "verified": true
+    },
+    {
+      "id": "cmat-055",
+      "section": "ie",
+      "topic": "Startup Ecosystem & Government Schemes",
+      "difficulty": "medium",
+      "question": "The Atal Innovation Mission (AIM), which runs Atal Tinkering Labs and Atal Incubation Centres, functions under:",
+      "options": [
+        "NITI Aayog",
+        "Reserve Bank of India",
+        "Ministry of Education",
+        "SEBI"
+      ],
+      "answer": 0,
+      "explanation": "AIM was set up in 2016 as the Government of India's flagship innovation initiative under NITI Aayog.",
+      "verified": true
+    },
+    {
+      "id": "cmat-056",
+      "section": "ie",
+      "topic": "Startup Ecosystem & Government Schemes",
+      "difficulty": "medium",
+      "question": "Under the Pradhan Mantri MUDRA Yojana, loans in the 'Shishu' category are available up to:",
+      "options": [
+        "₹5 lakh",
+        "₹10 lakh",
+        "₹50,000",
+        "₹20 lakh"
+      ],
+      "answer": 2,
+      "explanation": "Shishu covers loans up to ₹50,000; Kishore ₹50,000–₹5 lakh; Tarun ₹5–10 lakh; and Tarun Plus (added in 2024) ₹10–20 lakh.",
+      "verified": true
+    },
+    {
+      "id": "cmat-057",
+      "section": "ie",
+      "topic": "Business Models, Funding & Finance",
+      "difficulty": "easy",
+      "question": "In start-up terminology, a 'unicorn' is a privately held start-up valued at more than:",
+      "options": [
+        "US$100 million",
+        "US$1 billion",
+        "US$10 billion",
+        "US$500 million"
+      ],
+      "answer": 1,
+      "explanation": "The term, coined by investor Aileen Lee in 2013, denotes a private start-up valued above US$1 billion.",
+      "verified": true
+    },
+    {
+      "id": "cmat-058",
+      "section": "ie",
+      "topic": "Business Models, Funding & Finance",
+      "difficulty": "medium",
+      "question": "In the Lean Startup approach, a version of a new product with just enough features to test it with early customers and gather feedback is called a:",
+      "options": [
+        "Prototype patent",
+        "Break-even product",
+        "Unique Selling Proposition (USP)",
+        "Minimum Viable Product (MVP)"
+      ],
+      "answer": 3,
+      "explanation": "An MVP lets a start-up validate its assumptions with minimum effort; the term was popularised by Eric Ries.",
+      "verified": true
+    },
+    {
+      "id": "cmat-059",
+      "section": "ie",
+      "topic": "Innovation & IPR",
+      "difficulty": "easy",
+      "question": "What is the term of a patent granted in India, counted from the date of filing of the application?",
+      "options": [
+        "10 years",
+        "15 years",
+        "60 years",
+        "20 years"
+      ],
+      "answer": 3,
+      "explanation": "Under Section 53 of the Patents Act, 1970, the term of every patent is 20 years from the filing date.",
+      "verified": true
+    },
+    {
+      "id": "cmat-060",
+      "section": "ie",
+      "topic": "Famous Entrepreneurs & Companies",
+      "difficulty": "easy",
+      "question": "The e-commerce company Flipkart was founded in 2007 by:",
+      "options": [
+        "Kunal Bahl and Rohit Bansal",
+        "Deepinder Goyal and Pankaj Chaddah",
+        "Sachin Bansal and Binny Bansal",
+        "Bhavish Aggarwal and Ankit Bhati"
+      ],
+      "answer": 2,
+      "explanation": "Sachin Bansal and Binny Bansal founded Flipkart in Bengaluru in 2007. The others founded Snapdeal, Ola and Zomato respectively.",
+      "verified": true
+    }
+  ]
+}

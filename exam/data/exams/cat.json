@@ -1,0 +1,1199 @@
+{
+  "id": "cat",
+  "name": "CAT",
+  "fullName": "Common Admission Test (IIMs)",
+  "nameHi": "कॉमन एडमिशन टेस्ट (कैट)",
+  "category": "management",
+  "conductingBody": "Indian Institutes of Management (convening IIM rotates; IIM Indore for CAT 2026)",
+  "officialSite": "https://iimcat.ac.in",
+  "level": "national",
+  "frequency": "Once a year (late November)",
+  "approxCandidates": "≈2.95 lakh registered, ≈2.58 lakh appeared (CAT 2025)",
+  "eligibility": "Bachelor's degree with at least 50% marks (45% for SC/ST/PwD); final-year students may apply",
+  "notification": {
+    "status": "closed",
+    "summary": "CAT 2026 notification was released in late July 2026 by IIM Indore (convenor). Registration ran from 3 Aug to 15 Sep 2026 and is now closed; the exam is on Sunday 29 Nov 2026 in three slots. Checked via web search on 2026-10-10 (dates as reported by news/coaching sites citing iimcat.ac.in).",
+    "importantDates": [
+      {
+        "event": "Notification",
+        "date": "26 Jul 2026"
+      },
+      {
+        "event": "Registration window",
+        "date": "3 Aug – 15 Sep 2026 (closed)"
+      },
+      {
+        "event": "Admit card download",
+        "date": "from early Nov 2026 (≈4 Nov, tentative)"
+      },
+      {
+        "event": "CAT 2026 exam (3 slots)",
+        "date": "29 Nov 2026"
+      },
+      {
+        "event": "Result",
+        "date": "late Dec 2026 / early Jan 2027 (tentative)"
+      }
+    ],
+    "source": "https://iimcat.ac.in",
+    "checkedOn": "2026-10-10"
+  },
+  "pattern": {
+    "stage": "CAT (single computer-based test)",
+    "mode": "CBT",
+    "durationMinutes": 120,
+    "totalQuestions": 68,
+    "totalMarks": 204,
+    "marking": {
+      "correct": 3,
+      "wrong": -1,
+      "unattempted": 0
+    },
+    "sections": [
+      {
+        "id": "varc",
+        "name": "Verbal Ability & Reading Comprehension",
+        "questions": 24,
+        "marks": 72
+      },
+      {
+        "id": "dilr",
+        "name": "Data Interpretation & Logical Reasoning",
+        "questions": 22,
+        "marks": 66
+      },
+      {
+        "id": "qa",
+        "name": "Quantitative Ability",
+        "questions": 22,
+        "marks": 66
+      }
+    ],
+    "notes": "Strict sectional timing: 40 minutes per section, fixed order VARC → DILR → QA, no switching. Mix of MCQs (+3/−1) and TITA (type-in-the-answer, +3/0, no negative marking). In this mock all TITA-type items (para-jumbles, numeric answers) are presented as 4-option MCQs. Scores are normalised across the three slots. Question count per section has varied slightly (66–68 total) between years."
+  },
+  "trendAnalysis": {
+    "yearsAnalyzed": [
+      2023,
+      2024,
+      2025
+    ],
+    "summary": "Since 2023 CAT has kept the 120-minute, 3×40-minute format with 66–68 questions (68 in 2024 and 2025: VARC 24, DILR 22, QA 22). VARC is dominated by four RC passages (16 questions); verbal ability is para-jumbles, odd-sentence-out and para-summary, mostly TITA. DILR has been the toughest section in 2024–2025 with four or five lengthy sets — scheduling/arrangement, tables with missing data, tournaments and set/Venn-based puzzles. QA is arithmetic- and algebra-heavy (together ≈60%), with geometry the next most important; 2025 Slot 3 QA was reported as particularly hard. Overall difficulty: moderate to difficult; selection of sets/questions matters more than speed.",
+    "topics": [
+      {
+        "section": "varc",
+        "topic": "Reading Comprehension",
+        "weightage": 67,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "varc",
+        "topic": "Para Jumbles",
+        "weightage": 12,
+        "trend": "stable",
+        "difficulty": "hard"
+      },
+      {
+        "section": "varc",
+        "topic": "Odd Sentence Out",
+        "weightage": 9,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "varc",
+        "topic": "Para Summary",
+        "weightage": 12,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "dilr",
+        "topic": "Arrangements & Scheduling",
+        "weightage": 23,
+        "trend": "rising",
+        "difficulty": "hard"
+      },
+      {
+        "section": "dilr",
+        "topic": "Tables & Data Interpretation",
+        "weightage": 23,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "dilr",
+        "topic": "Games & Tournaments",
+        "weightage": 14,
+        "trend": "stable",
+        "difficulty": "hard"
+      },
+      {
+        "section": "dilr",
+        "topic": "Venn Diagrams & Set-based Puzzles",
+        "weightage": 14,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "dilr",
+        "topic": "Routes & Networks",
+        "weightage": 9,
+        "trend": "falling",
+        "difficulty": "medium"
+      },
+      {
+        "section": "dilr",
+        "topic": "Selection & Conditional Logic",
+        "weightage": 17,
+        "trend": "rising",
+        "difficulty": "hard"
+      },
+      {
+        "section": "qa",
+        "topic": "Percentages & Profit-Loss",
+        "weightage": 9,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "qa",
+        "topic": "Ratio, Proportion & Mixtures",
+        "weightage": 9,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "qa",
+        "topic": "Time-Speed-Distance & Work",
+        "weightage": 13,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "qa",
+        "topic": "Averages & Interest",
+        "weightage": 7,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "qa",
+        "topic": "Linear & Quadratic Equations",
+        "weightage": 9,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "qa",
+        "topic": "Inequalities & Functions",
+        "weightage": 9,
+        "trend": "rising",
+        "difficulty": "hard"
+      },
+      {
+        "section": "qa",
+        "topic": "Progressions & Series",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "qa",
+        "topic": "Logarithms & Surds",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "qa",
+        "topic": "Geometry & Mensuration",
+        "weightage": 18,
+        "trend": "stable",
+        "difficulty": "hard"
+      },
+      {
+        "section": "qa",
+        "topic": "Number System",
+        "weightage": 10,
+        "trend": "falling",
+        "difficulty": "medium"
+      },
+      {
+        "section": "qa",
+        "topic": "Modern Maths (P&C, Probability, Sets)",
+        "weightage": 7,
+        "trend": "stable",
+        "difficulty": "medium"
+      }
+    ]
+  },
+  "resources": {
+    "pyqAvailable": true,
+    "officialPYQ": null,
+    "officialMock": "https://iimcat.ac.in",
+    "notes": "IIMs publish an official mock test and the tutorial on iimcat.ac.in before the exam, and release candidate response sheets plus provisional answer keys (with an objection window) after the exam. A consolidated official question-paper archive is not maintained; full slot-wise papers circulate via memory-based/response-sheet reconstructions by coaching institutes."
+  },
+  "questions": [
+    {
+      "id": "cat-001",
+      "section": "varc",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"City planners once treated street trees as ornaments, the first item to be cut when budgets tightened. Heat maps have changed that conversation. On a summer afternoon, a treeless asphalt street can be several degrees hotter than a shaded one a few hundred metres away, and the difference is felt most by people who cannot retreat into air-conditioned rooms. Trees, in this light, are less decoration than infrastructure—as essential as drains or streetlights—and their uneven distribution across neighbourhoods is a question of fairness, not taste.\"\n\nWhich of the following best captures the main point of the passage?",
+      "options": [
+        "Air-conditioning has made street trees unnecessary for most urban residents.",
+        "Street trees should be regarded as public infrastructure whose unequal distribution raises concerns of equity.",
+        "Heat maps are the most accurate tool available to city planners for measuring temperature.",
+        "Budget cuts are the primary reason cities have fewer trees than they did in the past."
+      ],
+      "answer": 1,
+      "explanation": "The passage moves from 'ornaments' to 'less decoration than infrastructure' and ends with distribution as 'a question of fairness'. The other options pick up peripheral details (heat maps, budgets) or contradict the passage (air-conditioning).",
+      "verified": true
+    },
+    {
+      "id": "cat-002",
+      "section": "varc",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"Before writing became common, communities preserved their histories in song, genealogy and proverb. Scholars once dismissed such oral records as unreliable, assuming that each retelling distorted the original. Yet studies of long-lived oral traditions show that certain elements—place names, sequences of rulers, descriptions of landscapes—can remain remarkably stable across centuries, precisely because they are embedded in fixed metres and repeated at communal rituals. What changes is the ornament; what persists is the scaffolding.\"\n\nIt can be inferred from the passage that the stability of some oral records is chiefly due to:",
+      "options": [
+        "the formal structures and ritual repetition in which they are embedded",
+        "the absence of any change in the stories over time",
+        "the fact that oral communities had fewer events to remember",
+        "the efforts of scholars who wrote the traditions down"
+      ],
+      "answer": 0,
+      "explanation": "The passage says the elements remain stable 'precisely because they are embedded in fixed metres and repeated at communal rituals'. It explicitly allows that the 'ornament' changes, so 'absence of any change' is wrong.",
+      "verified": true
+    },
+    {
+      "id": "cat-003",
+      "section": "varc",
+      "topic": "Reading Comprehension",
+      "difficulty": "hard",
+      "question": "Read the passage and answer the question.\n\n\"When a measure becomes the yardstick by which people are rewarded, people learn to move the measure rather than the thing it was meant to track. A hospital judged on waiting times may reclassify patients instead of treating them faster; a school judged on pass rates may steer weaker students away from examinations. None of this requires bad faith—only ordinary ingenuity applied to the wrong target. The lesson is not that numbers are useless, but that any single number, once it carries consequences, will gradually drift away from the reality it once reflected.\"\n\nThe author would most likely agree with which of the following?",
+      "options": [
+        "Distortion of indicators is mostly the result of deliberate dishonesty.",
+        "Hospitals are more prone than schools to manipulating their indicators.",
+        "Institutions should avoid tying high stakes to any single indicator.",
+        "Quantitative indicators should be abandoned in public administration."
+      ],
+      "answer": 2,
+      "explanation": "The author explicitly says 'numbers are not useless' (eliminating abandonment) and that distortion 'does not require bad faith'. The problem identified is 'any single number, once it carries consequences', which supports avoiding high stakes on one indicator. Nothing compares hospitals and schools.",
+      "verified": true
+    },
+    {
+      "id": "cat-004",
+      "section": "varc",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"Lists of 'untranslatable words' are perennially popular: a term for the melancholy of a rainy Sunday, another for the warmth of a shared meal. Such lists flatter our sense that each language guards a private world. But the very fact that the list-maker can explain each word in a sentence or two of English undercuts the claim. What is difficult is not translation but compression—finding a single word where another language would need a phrase. That is a fact about vocabulary, not a wall between minds.\"\n\nThe author's attitude towards the claim that some words are 'untranslatable' is best described as:",
+      "options": [
+        "nostalgic",
+        "enthusiastic",
+        "sceptical",
+        "indifferent"
+      ],
+      "answer": 2,
+      "explanation": "The author argues that the explanations themselves 'undercut the claim' and that the problem is compression, 'not a wall between minds' — a sceptical stance.",
+      "verified": true
+    },
+    {
+      "id": "cat-005",
+      "section": "varc",
+      "topic": "Reading Comprehension",
+      "difficulty": "hard",
+      "question": "Read the passage and answer the question.\n\n\"Fungal threads that link the roots of neighbouring trees have been celebrated as a 'forest internet' through which mother trees nurture their young and warn neighbours of danger. The image is appealing, and some experiments do show carbon and signalling chemicals moving between plants. But many of the most quoted findings come from a handful of small studies, some in greenhouse conditions, and the direction and size of transfers in real forests remain disputed. The danger is not that the metaphor is entirely false, but that its charm has outrun the evidence.\"\n\nWhich of the following statements is the author most likely to endorse?",
+      "options": [
+        "Greenhouse experiments are worthless for studying forests.",
+        "Mother trees have been conclusively shown to nurture their own seedlings.",
+        "Popular accounts of fungal networks claim more than current evidence can support.",
+        "Fungal networks play no role in moving substances between plants."
+      ],
+      "answer": 2,
+      "explanation": "The author concedes some transfer occurs ('not entirely false') but warns that 'its charm has outrun the evidence'. The second and fourth options are too absolute; the author questions the reach of greenhouse studies but does not call them worthless.",
+      "verified": true
+    },
+    {
+      "id": "cat-006",
+      "section": "varc",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"A map is never a neutral copy of the land. Every map chooses what to show and what to leave blank, which names to print and in which language, where to place the centre and how to bend a round earth onto a flat page. The colonial surveyor who marked a forest as 'unoccupied' was not merely recording a fact; he was preparing an argument about who could claim it. To read a map critically, then, is to ask not only 'Is this accurate?' but also 'Whose purposes does this accuracy serve?'\"\n\nThe example of the colonial surveyor is used primarily to:",
+      "options": [
+        "show that colonial maps were less accurate than modern ones",
+        "illustrate that mapping choices can carry political claims",
+        "argue that forests should never be shown on maps",
+        "explain the technical difficulty of projecting a sphere onto a plane"
+      ],
+      "answer": 1,
+      "explanation": "The surveyor's label 'unoccupied' is described as 'preparing an argument about who could claim it' — an illustration of the passage's thesis that maps embody choices and purposes. Accuracy comparisons and projection techniques are not the point of the example.",
+      "verified": true
+    },
+    {
+      "id": "cat-007",
+      "section": "varc",
+      "topic": "Reading Comprehension",
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\n\"Musicians often say that the notes are only half of music; the rest is the silence between them. A pause before the final chord can create more tension than any added instrument, and a melody that never rests quickly becomes exhausting to hear. Beginners tend to fill every gap, fearing that silence will be heard as a mistake. Experienced performers learn to trust the rest, letting the listener lean forward into the space they have left.\"\n\nThe phrase 'trust the rest' most nearly means:",
+      "options": [
+        "take regular breaks during practice",
+        "have the confidence to use pauses deliberately",
+        "rely on the other musicians to play correctly",
+        "believe that the remaining notes will be easy"
+      ],
+      "answer": 1,
+      "explanation": "In context, 'rest' is the musical pause. Beginners 'fill every gap', while experienced performers allow the silence, i.e. use pauses with confidence.",
+      "verified": true
+    },
+    {
+      "id": "cat-008",
+      "section": "varc",
+      "topic": "Reading Comprehension",
+      "difficulty": "hard",
+      "question": "Read the passage and answer the question.\n\n\"Some economists argue that automation will not cause lasting unemployment because, historically, every wave of labour-saving machinery has eventually created more jobs than it destroyed. Displaced weavers and farmhands, they note, found work in factories and later in offices. The argument assumes that new tasks will keep appearing for which human labour is cheaper or better than machines.\"\n\nWhich of the following, if true, would most weaken the economists' argument?",
+      "options": [
+        "Office work today employs a larger share of the workforce than agriculture.",
+        "Current technologies are increasingly able to perform the very kinds of new tasks that previously absorbed displaced workers.",
+        "Many weavers who lost their jobs in the nineteenth century later found factory employment.",
+        "Some new industries have emerged in the last decade that employ large numbers of people."
+      ],
+      "answer": 1,
+      "explanation": "The argument rests on the assumption that new tasks will keep favouring humans. If machines can also do the new kinds of tasks, the historical pattern need not repeat. The other options support or are neutral to the argument.",
+      "verified": true
+    },
+    {
+      "id": "cat-009",
+      "section": "varc",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"Demands to return artefacts taken during colonial rule are often answered with the claim that great museums are 'universal', holding objects in trust for all humanity. The difficulty is that the trust was never offered by those whose heritage it holds. A guardianship one party declares on behalf of another, without consent, is hard to distinguish from possession. That does not mean every object must go back, but it does mean the burden of justification lies with those who wish to keep them.\"\n\nWhich of the following best describes the author's position?",
+      "options": [
+        "Universal museums are the best guardians of the world's heritage.",
+        "All artefacts acquired during colonial rule must be returned immediately.",
+        "The question of returning artefacts cannot be resolved by argument.",
+        "Museums holding contested artefacts must justify retaining them, though not every object must necessarily be returned."
+      ],
+      "answer": 3,
+      "explanation": "The author rejects the 'universal museum' defence as lacking consent but explicitly says 'that does not mean every object must go back'; the conclusion is that 'the burden of justification lies with those who wish to keep them'.",
+      "verified": true
+    },
+    {
+      "id": "cat-010",
+      "section": "varc",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"A language rarely dies because its speakers are forbidden to use it. More often it fades because parents conclude that their children will prosper more in another tongue. Each family's choice is reasonable; the sum of those choices is the silence of a language that took thousands of years to form. Revival efforts that rely only on school lessons therefore tend to struggle, because they do not alter the calculation that led parents to switch in the first place.\"\n\nAccording to the passage, school-based revival efforts often fail because they:",
+      "options": [
+        "begin only after the last fluent speaker has died",
+        "do not change the economic and social incentives that led families to abandon the language",
+        "teach the language using outdated methods",
+        "are usually banned by governments"
+      ],
+      "answer": 1,
+      "explanation": "The passage says such efforts 'do not alter the calculation that led parents to switch' — the perceived prospects of children in another language.",
+      "verified": true
+    },
+    {
+      "id": "cat-011",
+      "section": "varc",
+      "topic": "Reading Comprehension",
+      "difficulty": "hard",
+      "question": "Read the passage and answer the question.\n\n\"Students cramming through the night assume that the hours gained for study outweigh the hours lost to sleep. Laboratory work suggests otherwise. During deep sleep the brain appears to replay and reorganise the day's experiences, strengthening some connections and pruning others. Material learned and then 'slept on' is often recalled better than material learned without sleep, even when total study time is the same. The all-nighter, in short, may sacrifice exactly the process that turns study into memory.\"\n\nThe final sentence of the passage serves to:",
+      "options": [
+        "summarise the views of students who cram",
+        "question the reliability of laboratory studies",
+        "introduce a counter-argument to the research",
+        "draw a practical conclusion from the research described"
+      ],
+      "answer": 3,
+      "explanation": "After describing findings on sleep and recall, the last sentence ('in short') applies them to the all-nighter — a practical conclusion, not a counter-argument.",
+      "verified": true
+    },
+    {
+      "id": "cat-012",
+      "section": "varc",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"Forecasting the Indian monsoon was once a matter of statistical rules linking rainfall to distant signals such as snow cover or ocean temperatures. These rules worked until they did not: relationships that held for decades weakened as the climate itself shifted. Modern forecasters therefore lean increasingly on dynamical models that simulate the atmosphere and oceans from physical laws. The models are far from perfect, but their errors can at least be traced to causes, whereas a broken statistical link simply stops working without explanation.\"\n\nWhich of the following can be inferred from the passage?",
+      "options": [
+        "Snow cover has no connection with monsoon rainfall.",
+        "One advantage of dynamical models is that their failures can be diagnosed.",
+        "Statistical rules never produced useful monsoon forecasts.",
+        "Dynamical models now forecast the monsoon without error."
+      ],
+      "answer": 1,
+      "explanation": "The passage contrasts model errors that 'can be traced to causes' with statistical links that fail 'without explanation'. It says statistical rules worked for decades and that models are 'far from perfect', ruling out the other options.",
+      "verified": true
+    },
+    {
+      "id": "cat-013",
+      "section": "varc",
+      "topic": "Reading Comprehension",
+      "difficulty": "hard",
+      "question": "Read the passage and answer the question.\n\n\"We praise efficiency so habitually that it is easy to forget it is a ratio, not a virtue. Producing more with less is admirable only if the 'more' is worth having and the 'less' does not include things we should have valued—attention, care, the slow accumulation of skill. A craftsman who spends a week on a chair that a factory makes in an hour is inefficient by one measure and richly productive by another: he is making not only a chair but a craftsman.\"\n\nThe central claim of the passage is that:",
+      "options": [
+        "craftsmen are always more productive than factories",
+        "factory production should be replaced by handicraft",
+        "efficiency is valuable only relative to what is being produced and what is being given up",
+        "attention and care cannot be measured"
+      ],
+      "answer": 2,
+      "explanation": "The author calls efficiency 'a ratio, not a virtue', admirable only if the output is worthwhile and the inputs saved are not things we should value. The craftsman example illustrates that what counts as productive depends on what we measure; it does not argue for replacing factories.",
+      "verified": true
+    },
+    {
+      "id": "cat-014",
+      "section": "varc",
+      "topic": "Para Jumbles",
+      "difficulty": "medium",
+      "question": "The four sentences below, when properly sequenced, form a coherent paragraph. Choose the most logical order.\n\n1. Yet the same property that makes plastic so useful—its resistance to decay—is what makes it so troublesome once it is thrown away.\n2. Plastic became the defining material of the twentieth century because it was cheap, light and almost indestructible.\n3. A bottle discarded today may outlast not only its owner but several generations of that owner's descendants.\n4. Recycling was supposed to resolve this tension, but only a small fraction of all plastic ever made has actually been recycled.",
+      "options": [
+        "1324",
+        "2143",
+        "2314",
+        "2134"
+      ],
+      "answer": 3,
+      "explanation": "2 introduces plastic and its indestructibility; 1 ('Yet the same property') turns that into a problem; 3 illustrates how long discarded plastic lasts; 4 refers to 'this tension' and the failed remedy.",
+      "verified": true
+    },
+    {
+      "id": "cat-015",
+      "section": "varc",
+      "topic": "Para Jumbles",
+      "difficulty": "hard",
+      "question": "The four sentences below, when properly sequenced, form a coherent paragraph. Choose the most logical order.\n\n1. The first treats ability as a fixed quantity that must constantly be displayed and protected.\n2. Psychologists often describe two broad attitudes that people bring to learning.\n3. The second treats ability as something that grows with effort, so that a mistake becomes information rather than a verdict.\n4. Under such a view, every error feels like a judgement on one's worth and is therefore to be avoided.",
+      "options": [
+        "2143",
+        "1423",
+        "2134",
+        "2314"
+      ],
+      "answer": 0,
+      "explanation": "2 introduces 'two broad attitudes'; 1 describes 'the first'; 4 ('Under such a view') elaborates the first; 3 presents 'the second', contrasting mistakes as information with 4's 'judgement'.",
+      "verified": true
+    },
+    {
+      "id": "cat-016",
+      "section": "varc",
+      "topic": "Para Jumbles",
+      "difficulty": "medium",
+      "question": "The four sentences below, when properly sequenced, form a coherent paragraph. Choose the most logical order.\n\n1. They called the method 'dead reckoning': estimating position from speed, heading and the time elapsed.\n2. Small errors in any of those quantities, however, accumulated with every hour at sea.\n3. Before satellites, sailors far from land had to work out where they were using arithmetic alone.\n4. This is why a reliable marine clock was hailed as a triumph, for it removed the largest single source of error.",
+      "options": [
+        "1324",
+        "3142",
+        "3214",
+        "3124"
+      ],
+      "answer": 3,
+      "explanation": "3 sets the context; 1 names the method ('They' = sailors); 2 points out errors in 'those quantities' (speed, heading, time); 4 explains why an accurate clock solved the problem.",
+      "verified": true
+    },
+    {
+      "id": "cat-017",
+      "section": "varc",
+      "topic": "Odd Sentence Out",
+      "difficulty": "medium",
+      "question": "Five sentences are given below. Four of them form a coherent paragraph. Identify the sentence that does NOT belong.\n\n1. Honeybees communicate the location of food through a 'waggle dance' performed inside the hive.\n2. The angle of the dance relative to the vertical indicates the direction of the food relative to the sun.\n3. The duration of each waggle run conveys how far away the food lies.\n4. Bumblebees, by contrast, are larger and can fly at lower temperatures than honeybees.\n5. Foragers that follow the dance can then fly almost directly to the flowers.",
+      "options": [
+        "Sentence 5",
+        "Sentence 2",
+        "Sentence 4",
+        "Sentence 3"
+      ],
+      "answer": 2,
+      "explanation": "Sentences 1, 2, 3 and 5 explain how the waggle dance encodes and transmits the location of food. Sentence 4 shifts to the physical traits of bumblebees, which has nothing to do with communication.",
+      "verified": true
+    },
+    {
+      "id": "cat-018",
+      "section": "varc",
+      "topic": "Odd Sentence Out",
+      "difficulty": "medium",
+      "question": "Five sentences are given below. Four of them form a coherent paragraph. Identify the sentence that does NOT belong.\n\n1. A city's street pattern shapes how its residents move, meet and trade.\n2. Long, straight avenues favour fast traffic but often discourage people from lingering.\n3. Narrow, irregular lanes slow movement and tend to encourage chance encounters and small shops.\n4. Planners have therefore begun to treat street design as social policy and not merely as engineering.\n5. Many medieval towns were built on hilltops for reasons of defence.",
+      "options": [
+        "Sentence 3",
+        "Sentence 2",
+        "Sentence 5",
+        "Sentence 4"
+      ],
+      "answer": 2,
+      "explanation": "Sentences 1–4 argue that street design shapes social life and so is a policy matter. Sentence 5 about the defensive siting of medieval towns is off-topic.",
+      "verified": true
+    },
+    {
+      "id": "cat-019",
+      "section": "varc",
+      "topic": "Para Summary",
+      "difficulty": "medium",
+      "question": "Choose the option that best captures the essence of the passage.\n\n\"Public libraries are often described as warehouses of books whose usefulness is fading in a digital age. But visit one on a weekday and you will find job-seekers using computers, students who have no quiet place at home, elderly readers attending a reading circle and parents at a toddlers' story hour. The library survives not because of what it stores but because it is one of the few indoor public spaces where no one is required to buy anything.\"",
+      "options": [
+        "Libraries remain valuable mainly as free, non-commercial public spaces serving many needs, not merely as stores of books.",
+        "Digital technology has made public libraries obsolete.",
+        "Libraries should stop buying books and invest only in computers.",
+        "Elderly readers and toddlers are the main users of public libraries today."
+      ],
+      "answer": 0,
+      "explanation": "The passage rebuts the 'warehouse of books' view and concludes that the library's value lies in being a space 'where no one is required to buy anything', used by many groups.",
+      "verified": true
+    },
+    {
+      "id": "cat-020",
+      "section": "varc",
+      "topic": "Para Summary",
+      "difficulty": "hard",
+      "question": "Choose the option that best captures the essence of the passage.\n\n\"Genetic tests sold directly to consumers promise to reveal ancestry and disease risk from a few drops of saliva. The ancestry estimates, however, depend on reference databases that over-represent some populations, so the same sample can receive different answers from different companies. Risk scores, meanwhile, often express small shifts in probability that buyers read as destiny. The tests are not fraudulent, but their outputs are far less definite than their marketing implies.\"",
+      "options": [
+        "Ancestry results are reliable while disease-risk scores are not.",
+        "Reference databases for genetic tests represent all populations equally.",
+        "Consumer genetic tests are fraudulent and should be banned.",
+        "Consumer genetic tests give results that are less certain and more method-dependent than their marketing suggests."
+      ],
+      "answer": 3,
+      "explanation": "The passage explicitly says the tests are 'not fraudulent' but less definite than claimed, citing database bias (ancestry) and misread probabilities (risk). Both kinds of output are questioned.",
+      "verified": true
+    },
+    {
+      "id": "cat-021",
+      "section": "varc",
+      "topic": "Para Summary",
+      "difficulty": "medium",
+      "question": "Choose the option that best captures the essence of the passage.\n\n\"A cricket team that wins a close match by one run tends to analyse what went right, while a team that loses by one run dissects every mistake. Yet the two performances may have been almost identical. Judging decisions by outcomes alone rewards luck and punishes sound choices that happened to fail. Better teams review the quality of each decision given what was known at the time, regardless of the result.\"",
+      "options": [
+        "Teams should avoid reviewing matches they have won.",
+        "Teams that lose close matches usually make more mistakes than winning teams.",
+        "Decisions should be evaluated on their quality at the time they were made rather than solely on their outcomes.",
+        "Luck plays no part in the result of a cricket match."
+      ],
+      "answer": 2,
+      "explanation": "The core idea is that outcome-based judgement is misleading because of luck; decisions should be judged on the information available when they were made.",
+      "verified": true
+    },
+    {
+      "id": "cat-022",
+      "section": "dilr",
+      "topic": "Arrangements & Scheduling",
+      "difficulty": "medium",
+      "question": "Seven people—A, B, C, D, E, F and G—sit in a row in seats numbered 1 to 7 from left to right. 'Left of' means a lower seat number.\n• D sits in seat 4.\n• Exactly two people sit between A and D.\n• B sits immediately to the left of C.\n• E sits at one of the two ends.\n• F does not sit next to D.\n• G sits somewhere to the right of A, and F sits somewhere to the right of G.\n• B does not sit next to E.\n\nWho sits immediately to the right of D?",
+      "options": [
+        "G",
+        "C",
+        "E",
+        "F"
+      ],
+      "answer": 0,
+      "explanation": "|A − 4| = 3, so A is in seat 1 or 7; since G is right of A and F right of G, A = 1, and then E (an end) = 7. Seats 2, 3, 5, 6 remain for B, C, F, G. If B–C took 5–6, then G = 2 and F = 3, putting F next to D ✗. So B = 2, C = 3, G = 5, F = 6 (B is not next to E ✓). Seat 5, immediately right of D, is G.",
+      "verified": true
+    },
+    {
+      "id": "cat-023",
+      "section": "dilr",
+      "topic": "Arrangements & Scheduling",
+      "difficulty": "hard",
+      "question": "Eight people—P, Q, R, S, T, U, V and W—sit at equal spacing around a circular table, facing the centre. Directions below are stated as 'clockwise' or 'anticlockwise' when viewed from above.\n• Q sits directly opposite P.\n• R is the immediate clockwise neighbour of P.\n• S is the immediate anticlockwise neighbour of Q.\n• T sits directly opposite S.\n• U sits next to R.\n• V does not sit next to T.\n\nWho sits directly opposite U?",
+      "options": [
+        "V",
+        "P",
+        "T",
+        "W"
+      ],
+      "answer": 3,
+      "explanation": "Number seats 0–7 clockwise with P = 0. Then Q = 4, R = 1, S = 3, T = 7. U is next to R and seat 0 is taken, so U = 2. V and W take 5 and 6; V cannot be next to T (7), so V = 5 and W = 6. Opposite U (2) is seat 6, i.e. W.",
+      "verified": true
+    },
+    {
+      "id": "cat-024",
+      "section": "dilr",
+      "topic": "Arrangements & Scheduling",
+      "difficulty": "hard",
+      "question": "Six tasks—A, B, C, D, E and F—are to be done one at a time in six consecutive slots numbered 1 to 6.\n• C is in an even-numbered slot.\n• F is done immediately after A.\n• E is done later than both B and D.\n• B is done before D, but B and D are not in adjacent slots.\n• D is not in slot 1, and A is not in slot 5.\n• Exactly two tasks are done between A and C.\n\nWhich task is done in slot 4?",
+      "options": [
+        "B",
+        "E",
+        "C",
+        "D"
+      ],
+      "answer": 2,
+      "explanation": "A and F are consecutive and |A − C| = 3 with C even. Trying cases: C=2 → A=5 (forbidden). C=4 → A=1, F=2; then B, D, E fill 3, 5, 6; E must come after B and D, so E = 6, and B before D gives B = 3, D = 5 (B, D not adjacent ✓). C=6 → A=3, F=4, leaving B, D, E for 1, 2, 5: B=1, D=2 are adjacent ✗. So the order is A F B C D E, and slot 4 holds C.",
+      "verified": true
+    },
+    {
+      "id": "cat-025",
+      "section": "dilr",
+      "topic": "Arrangements & Scheduling",
+      "difficulty": "medium",
+      "question": "Six people—J, K, L, M, N and O—live on the six floors of a building, one per floor; floor 1 is the lowest and floor 6 the highest.\n• L lives on either the top or the bottom floor.\n• O lives on the floor immediately above K.\n• K lives above M, and M does not live on floor 1.\n• Exactly one floor separates J and N, and J lives above N.\n• N lives on an odd-numbered floor.\n• J and L do not live on adjacent floors.\n\nWho lives on floor 2?",
+      "options": [
+        "K",
+        "M",
+        "N",
+        "J"
+      ],
+      "answer": 1,
+      "explanation": "N is odd and J = N + 2. If L = 1, then N = 3, J = 5, leaving floors 2, 4, 6 for M, K, O — but O must be directly above K, impossible. So L = 6. N = 3, J = 5 would put J next to L, so N = 1, J = 3. Floors 2, 4, 5 go to M, K, O with O directly above K and K above M: M = 2, K = 4, O = 5. Hence M is on floor 2.",
+      "verified": true
+    },
+    {
+      "id": "cat-026",
+      "section": "dilr",
+      "topic": "Tables & Data Interpretation",
+      "difficulty": "easy",
+      "question": "The table shows annual revenue (₹ crore) of four companies.\n\nCompany | 2023 | 2024 | 2025\nAlpha | 400 | 460 | 552\nBeta | 500 | 540 | 567\nGamma | 300 | 360 | 396\nDelta | 600 | 630 | 693\n\nWhich company recorded the highest percentage growth in revenue in 2025 over 2024?",
+      "options": [
+        "Alpha",
+        "Delta",
+        "Beta",
+        "Gamma"
+      ],
+      "answer": 0,
+      "explanation": "Growth 2025 over 2024: Alpha 92/460 = 20%; Beta 27/540 = 5%; Gamma 36/360 = 10%; Delta 63/630 = 10%. Alpha is highest.",
+      "verified": true
+    },
+    {
+      "id": "cat-027",
+      "section": "dilr",
+      "topic": "Tables & Data Interpretation",
+      "difficulty": "medium",
+      "question": "The table shows annual revenue (₹ crore) of four companies.\n\nCompany | 2023 | 2024 | 2025\nAlpha | 400 | 460 | 552\nBeta | 500 | 540 | 567\nGamma | 300 | 360 | 396\nDelta | 600 | 630 | 693\n\nBy approximately what percentage did the combined revenue of the four companies grow in 2025 over 2024?",
+      "options": [
+        "9%",
+        "10%",
+        "11%",
+        "12%"
+      ],
+      "answer": 2,
+      "explanation": "Total 2024 = 460 + 540 + 360 + 630 = 1990. Total 2025 = 552 + 567 + 396 + 693 = 2208. Growth = 218/1990 ≈ 10.95% ≈ 11%.",
+      "verified": true
+    },
+    {
+      "id": "cat-028",
+      "section": "dilr",
+      "topic": "Tables & Data Interpretation",
+      "difficulty": "medium",
+      "question": "A firm sells two products. Units sold (in thousands) in each quarter of a year are:\n\nQuarter | Q1 | Q2 | Q3 | Q4\nProduct X | 12 | 15 | 18 | 15\nProduct Y | 20 | 18 | 22 | 20\n\nProduct X sells at ₹250 per unit and Product Y at ₹150 per unit throughout the year. In how many quarters did revenue from X exceed revenue from Y?",
+      "options": [
+        "3",
+        "1",
+        "2",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "Revenue (₹ thousand): Q1 X 3000, Y 3000 (equal, not exceeding); Q2 3750 vs 2700; Q3 4500 vs 3300; Q4 3750 vs 3000. X exceeds Y in Q2, Q3 and Q4 → 3 quarters.",
+      "verified": true
+    },
+    {
+      "id": "cat-029",
+      "section": "dilr",
+      "topic": "Tables & Data Interpretation",
+      "difficulty": "medium",
+      "question": "A college has five departments. The number of students and the percentage of girls in each are:\n\nDepartment | Students | Girls (%)\nArts | 400 | 60\nScience | 500 | 44\nCommerce | 300 | 50\nEngineering | 600 | 25\nLaw | 200 | 55\n\nWhat percentage of all students in the college are boys?",
+      "options": [
+        "54.5%",
+        "56.5%",
+        "55.5%",
+        "57.5%"
+      ],
+      "answer": 1,
+      "explanation": "Girls = 240 + 220 + 150 + 150 + 110 = 870 of 2000 students. Boys = 1130, i.e. 1130/2000 = 56.5%.",
+      "verified": true
+    },
+    {
+      "id": "cat-030",
+      "section": "dilr",
+      "topic": "Games & Tournaments",
+      "difficulty": "hard",
+      "question": "Four teams A, B, C and D played a single round-robin football tournament (each pair met once). A win earned 3 points, a draw 1 point and a loss 0. Final points: A 7, B 5, C 4, D 0.\n\nWhich of the following must be true?",
+      "options": [
+        "C and D drew their match.",
+        "C beat B.",
+        "B and C drew their match.",
+        "A beat B."
+      ],
+      "answer": 2,
+      "explanation": "Six matches give 18 points if none is drawn; each draw removes 1. Total = 16, so exactly 2 draws. D lost all three. A (7) = 2W 1D, B (5) = 1W 2D, C (4) = 1W 1D. Draw involvements total 4 = 2 draws, with B in both, so B drew with A and with C. Then A beat C and D, B beat D, C beat D.",
+      "verified": true
+    },
+    {
+      "id": "cat-031",
+      "section": "dilr",
+      "topic": "Games & Tournaments",
+      "difficulty": "medium",
+      "question": "Eight teams play a single round-robin tournament (every pair plays exactly once). A win gives 2 points, a loss 0, and there are no draws. At the end, all eight teams have different point totals.\n\nHow many points does the team finishing 4th have?",
+      "options": [
+        "6",
+        "7",
+        "10",
+        "8"
+      ],
+      "answer": 3,
+      "explanation": "There are C(8,2) = 28 matches, so 56 points in all. Scores are distinct even numbers between 0 and 14; there are exactly eight such values (0, 2, …, 14) and they sum to 56, so the scores are 14, 12, 10, 8, 6, 4, 2, 0. The 4th-placed team has 8.",
+      "verified": true
+    },
+    {
+      "id": "cat-032",
+      "section": "dilr",
+      "topic": "Games & Tournaments",
+      "difficulty": "hard",
+      "question": "Eight players seeded 1 (strongest) to 8 play a knockout tournament. Quarter-finals: 1 v 8, 4 v 5, 2 v 7, 3 v 6. Semi-finals: winner(1 v 8) v winner(4 v 5), and winner(2 v 7) v winner(3 v 6); the semi-final winners meet in the final. A match is an 'upset' if the higher-numbered seed wins. Seed 5 reached the final, and seed 6 won the tournament.\n\nWhat is the minimum possible number of upsets in the tournament?",
+      "options": [
+        "3",
+        "5",
+        "4",
+        "6"
+      ],
+      "answer": 1,
+      "explanation": "Seed 5 beat seed 4 (upset) and then beat the winner of 1 v 8: if 1 won, 5 beating 1 is an upset; if 8 won, that quarter-final was an upset — either way 1 more. Seed 6 beat 3 (upset) and then the winner of 2 v 7 — again exactly one upset either way. Final: 6 beat 5 (upset). Minimum = 2 + 1 + 1 + 1 = 5.",
+      "verified": true
+    },
+    {
+      "id": "cat-033",
+      "section": "dilr",
+      "topic": "Venn Diagrams & Set-based Puzzles",
+      "difficulty": "medium",
+      "question": "In a group of 200 students, 120 study French, 90 study German and 70 study Spanish. 40 study both French and German, 30 both German and Spanish, 35 both French and Spanish, and 15 study all three.\n\nHow many students study exactly one of these languages?",
+      "options": [
+        "100",
+        "125",
+        "190",
+        "115"
+      ],
+      "answer": 3,
+      "explanation": "Only French = 120 − 40 − 35 + 15 = 60; only German = 90 − 40 − 30 + 15 = 35; only Spanish = 70 − 30 − 35 + 15 = 20. Exactly one = 60 + 35 + 20 = 115.",
+      "verified": true
+    },
+    {
+      "id": "cat-034",
+      "section": "dilr",
+      "topic": "Venn Diagrams & Set-based Puzzles",
+      "difficulty": "hard",
+      "question": "In a survey of 100 people, 80 like tea, 75 like coffee and 70 like juice.\n\nWhat is the minimum number of people who must like all three drinks?",
+      "options": [
+        "25",
+        "20",
+        "30",
+        "45"
+      ],
+      "answer": 0,
+      "explanation": "People NOT liking tea, coffee and juice number at most 20, 25 and 30 respectively. Even if these groups are disjoint, at most 75 people miss at least one drink, so at least 100 − 75 = 25 like all three (equivalently 80 + 75 + 70 − 2×100 = 25).",
+      "verified": true
+    },
+    {
+      "id": "cat-035",
+      "section": "dilr",
+      "topic": "Venn Diagrams & Set-based Puzzles",
+      "difficulty": "medium",
+      "question": "Each of 60 employees knows at least one of Python, Java and SQL. 35 know Python, 30 know Java and 28 know SQL. Exactly 15 employees know exactly two of these.\n\nHow many employees know all three?",
+      "options": [
+        "9",
+        "6",
+        "12",
+        "15"
+      ],
+      "answer": 0,
+      "explanation": "Let x₁, x₂, x₃ be numbers knowing exactly one, two, three. x₁ + x₂ + x₃ = 60 and x₁ + 2x₂ + 3x₃ = 35 + 30 + 28 = 93. Subtracting: x₂ + 2x₃ = 33 → 15 + 2x₃ = 33 → x₃ = 9.",
+      "verified": true
+    },
+    {
+      "id": "cat-036",
+      "section": "dilr",
+      "topic": "Routes & Networks",
+      "difficulty": "medium",
+      "question": "Six towns A–F are connected by two-way roads with the following lengths (km): A–B 4, A–C 2, B–C 1, B–D 5, C–D 8, C–E 10, D–E 2, D–F 6, E–F 3. There are no other roads.\n\nWhat is the length of the shortest route from A to F?",
+      "options": [
+        "12 km",
+        "14 km",
+        "15 km",
+        "13 km"
+      ],
+      "answer": 3,
+      "explanation": "Shortest distances from A: C = 2, B = 3 (via C), D = 8 (via B), E = 10 (via D, or directly from C), F = min(8 + 6, 10 + 3) = 13. Route A–C–B–D–E–F = 2 + 1 + 5 + 2 + 3 = 13 km.",
+      "verified": true
+    },
+    {
+      "id": "cat-037",
+      "section": "dilr",
+      "topic": "Routes & Networks",
+      "difficulty": "medium",
+      "question": "A courier moves along a street grid whose intersections are at points (x, y) with x = 0, 1, 2, 3, 4 and y = 0, 1, 2, 3. He travels from (0, 0) to (4, 3) moving only east (x increases by 1) or north (y increases by 1) at each step. The intersection (2, 1) is closed and cannot be passed through.\n\nHow many different routes are possible?",
+      "options": [
+        "18",
+        "20",
+        "35",
+        "17"
+      ],
+      "answer": 3,
+      "explanation": "Without restriction: C(7, 3) = 35 routes. Routes through (2, 1): C(3, 1) × C(4, 2) = 3 × 6 = 18. Valid routes = 35 − 18 = 17.",
+      "verified": true
+    },
+    {
+      "id": "cat-038",
+      "section": "dilr",
+      "topic": "Selection & Conditional Logic",
+      "difficulty": "hard",
+      "question": "A team of five is to be chosen from four engineers (A, B, C, D) and four managers (P, Q, R, S), with at least two engineers and at least two managers.\n• A and P cannot both be chosen.\n• If B is chosen, Q must be chosen.\n• C and R must be chosen together or not at all.\n• D and S cannot both be chosen.\n\nHow many different teams are possible?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": 2,
+      "explanation": "Enumerating all 5-member teams satisfying the rules gives: {A,B,C,Q,R}, {A,C,D,Q,R}, {A,C,Q,R,S}, {B,C,D,Q,R}, {B,C,P,Q,R}, {B,C,Q,R,S}, {C,D,P,Q,R}. (Without C–R, two engineers and three managers or vice versa cannot be completed without breaking the A–P, B–Q or D–S rule.) Total = 7.",
+      "verified": true
+    },
+    {
+      "id": "cat-039",
+      "section": "dilr",
+      "topic": "Selection & Conditional Logic",
+      "difficulty": "medium",
+      "question": "A shop sells five different items priced ₹30, ₹45, ₹60, ₹75 and ₹90. A customer must buy exactly three different items, spending at most ₹180 in total, and at least one of the items must cost more than ₹70.\n\nIn how many ways can the customer choose the items?",
+      "options": [
+        "4",
+        "6",
+        "7",
+        "5"
+      ],
+      "answer": 3,
+      "explanation": "Valid sets: {30, 45, 75} = 150, {30, 45, 90} = 165, {30, 60, 75} = 165, {30, 60, 90} = 180, {45, 60, 75} = 180. Others either exceed ₹180 or ({30, 45, 60}) contain no item above ₹70. Total = 5.",
+      "verified": true
+    },
+    {
+      "id": "cat-040",
+      "section": "dilr",
+      "topic": "Selection & Conditional Logic",
+      "difficulty": "medium",
+      "question": "Exactly three of five projects—K, L, M, N and O—are to be approved.\n• If K is approved, L is not approved.\n• M is approved only if N is approved.\n• O is approved.\n• At least one of K and M is approved.\n\nWhich project must be approved?",
+      "options": [
+        "N",
+        "K",
+        "M",
+        "L"
+      ],
+      "answer": 0,
+      "explanation": "O is in, so two of K, L, M, N are chosen. Options with K: K cannot go with L; K with M needs N (too many); K with N → {K, N, O}. Options without K: M must be in, so N must be in → {M, N, O}. In both possible sets, N is approved; K, L and M are not forced.",
+      "verified": true
+    },
+    {
+      "id": "cat-041",
+      "section": "qa",
+      "topic": "Percentages & Profit-Loss",
+      "difficulty": "medium",
+      "question": "A trader marks an article 40% above its cost price and then allows two successive discounts of 10% and x%. If he still makes a profit of 13.4%, what is x?",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "15"
+      ],
+      "answer": 1,
+      "explanation": "SP = 1.4 × 0.9 × (1 − x/100) × CP = 1.134 CP → 1.26(1 − x/100) = 1.134 → 1 − x/100 = 0.9 → x = 10.",
+      "verified": true
+    },
+    {
+      "id": "cat-042",
+      "section": "qa",
+      "topic": "Percentages & Profit-Loss",
+      "difficulty": "easy",
+      "question": "The population of a town rose by 20% in the first year, fell by 25% in the second year and rose by 10% in the third year, reaching 29,700. What was the population at the start?",
+      "options": [
+        "27,000",
+        "30,000",
+        "31,500",
+        "33,000"
+      ],
+      "answer": 1,
+      "explanation": "Multiplier = 1.2 × 0.75 × 1.1 = 0.99. Initial = 29,700 / 0.99 = 30,000.",
+      "verified": true
+    },
+    {
+      "id": "cat-043",
+      "section": "qa",
+      "topic": "Ratio, Proportion & Mixtures",
+      "difficulty": "medium",
+      "question": "A vessel holds 60 litres of milk and water in the ratio 7 : 3. Twenty litres of the mixture are removed and replaced with water. What is the new ratio of milk to water?",
+      "options": [
+        "2 : 3",
+        "7 : 8",
+        "7 : 5",
+        "14 : 11"
+      ],
+      "answer": 1,
+      "explanation": "Initially milk 42 L, water 18 L. Removing 20 L (one-third) leaves milk 28, water 12. Adding 20 L water → 28 : 32 = 7 : 8.",
+      "verified": true
+    },
+    {
+      "id": "cat-044",
+      "section": "qa",
+      "topic": "Ratio, Proportion & Mixtures",
+      "difficulty": "medium",
+      "question": "The present ages of A and B are in the ratio 3 : 4. Six years ago the ratio was 3 : 5. What will be the sum of their ages five years from now?",
+      "options": [
+        "34",
+        "38",
+        "36",
+        "40"
+      ],
+      "answer": 1,
+      "explanation": "(3k − 6)/(4k − 6) = 3/5 → 15k − 30 = 12k − 18 → k = 4. Ages 12 and 16; in five years 17 + 21 = 38.",
+      "verified": true
+    },
+    {
+      "id": "cat-045",
+      "section": "qa",
+      "topic": "Time-Speed-Distance & Work",
+      "difficulty": "medium",
+      "question": "Two trains of lengths 180 m and 120 m cross each other in 10 seconds when moving in opposite directions, and the faster one overtakes the slower in 30 seconds when they move in the same direction. What is the speed of the faster train?",
+      "options": [
+        "54 km/h",
+        "72 km/h",
+        "60 km/h",
+        "90 km/h"
+      ],
+      "answer": 1,
+      "explanation": "Total length 300 m. Sum of speeds = 300/10 = 30 m/s; difference = 300/30 = 10 m/s. Faster = 20 m/s = 72 km/h.",
+      "verified": true
+    },
+    {
+      "id": "cat-046",
+      "section": "qa",
+      "topic": "Time-Speed-Distance & Work",
+      "difficulty": "medium",
+      "question": "A and B together can finish a job in 12 days, B and C together in 15 days, and C and A together in 20 days. In how many days can A alone finish it?",
+      "options": [
+        "30",
+        "24",
+        "36",
+        "40"
+      ],
+      "answer": 0,
+      "explanation": "2(a + b + c) = 1/12 + 1/15 + 1/20 = 12/60 = 1/5, so a + b + c = 1/10. a = 1/10 − 1/15 = 1/30 → 30 days.",
+      "verified": true
+    },
+    {
+      "id": "cat-047",
+      "section": "qa",
+      "topic": "Time-Speed-Distance & Work",
+      "difficulty": "hard",
+      "question": "A boat travels 30 km upstream and 44 km downstream in 10 hours. It travels 40 km upstream and 55 km downstream in 13 hours. What is the speed of the stream?",
+      "options": [
+        "2 km/h",
+        "4 km/h",
+        "3 km/h",
+        "5 km/h"
+      ],
+      "answer": 2,
+      "explanation": "Let u = 1/(upstream speed), d = 1/(downstream speed). 30u + 44d = 10 and 40u + 55d = 13. Multiply by 4 and 3: 120u + 176d = 40, 120u + 165d = 39 → 11d = 1, d = 1/11 → downstream 11 km/h. Then 30u = 6 → upstream 5 km/h. Stream = (11 − 5)/2 = 3 km/h.",
+      "verified": true
+    },
+    {
+      "id": "cat-048",
+      "section": "qa",
+      "topic": "Averages & Interest",
+      "difficulty": "easy",
+      "question": "The difference between compound interest (compounded annually) and simple interest on a sum for 2 years at 10% per annum is ₹150. What is the sum?",
+      "options": [
+        "₹12,000",
+        "₹18,000",
+        "₹15,000",
+        "₹20,000"
+      ],
+      "answer": 2,
+      "explanation": "For 2 years, CI − SI = P(r/100)² = P × 0.01 = 150 → P = ₹15,000.",
+      "verified": true
+    },
+    {
+      "id": "cat-049",
+      "section": "qa",
+      "topic": "Linear & Quadratic Equations",
+      "difficulty": "medium",
+      "question": "The roots of x² − 11x + k = 0 are in the ratio 5 : 6. What is k?",
+      "options": [
+        "24",
+        "28",
+        "36",
+        "30"
+      ],
+      "answer": 3,
+      "explanation": "Roots 5t and 6t: sum 11t = 11 → t = 1. Roots 5 and 6, so k = product = 30.",
+      "verified": true
+    },
+    {
+      "id": "cat-050",
+      "section": "qa",
+      "topic": "Linear & Quadratic Equations",
+      "difficulty": "medium",
+      "question": "For how many integer values of k does the equation x² + kx + 16 = 0 have no real roots?",
+      "options": [
+        "14",
+        "16",
+        "17",
+        "15"
+      ],
+      "answer": 3,
+      "explanation": "No real roots ⇔ k² − 64 < 0 ⇔ −8 < k < 8, i.e. k = −7, …, 7: 15 integers.",
+      "verified": true
+    },
+    {
+      "id": "cat-051",
+      "section": "qa",
+      "topic": "Inequalities & Functions",
+      "difficulty": "medium",
+      "question": "How many integers x satisfy |x − 2| + |x + 3| ≤ 9?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "answer": 1,
+      "explanation": "For −3 ≤ x ≤ 2 the sum is 5 (valid). For x > 2: 2x + 1 ≤ 9 → x ≤ 4. For x < −3: −2x − 1 ≤ 9 → x ≥ −5. So −5 ≤ x ≤ 4: 10 integers.",
+      "verified": true
+    },
+    {
+      "id": "cat-052",
+      "section": "qa",
+      "topic": "Inequalities & Functions",
+      "difficulty": "hard",
+      "question": "Let f(x) = 2x + 3 and g(x) = x² − 1. What is the sum of all real values of x for which f(g(x)) = g(f(x))?",
+      "options": [
+        "−6",
+        "−3",
+        "3",
+        "6"
+      ],
+      "answer": 0,
+      "explanation": "f(g(x)) = 2x² + 1; g(f(x)) = (2x + 3)² − 1 = 4x² + 12x + 8. Equating: 2x² + 12x + 7 = 0, discriminant 144 − 56 = 88 > 0, so both roots are real; sum = −12/2 = −6.",
+      "verified": true
+    },
+    {
+      "id": "cat-053",
+      "section": "qa",
+      "topic": "Progressions & Series",
+      "difficulty": "medium",
+      "question": "In an arithmetic progression, the sum of the first 10 terms is 155 and the sum of the first 20 terms is 610. What is the 25th term?",
+      "options": [
+        "71",
+        "77",
+        "80",
+        "74"
+      ],
+      "answer": 3,
+      "explanation": "5(2a + 9d) = 155 → 2a + 9d = 31; 10(2a + 19d) = 610 → 2a + 19d = 61. So d = 3, a = 2. T₂₅ = 2 + 24 × 3 = 74.",
+      "verified": true
+    },
+    {
+      "id": "cat-054",
+      "section": "qa",
+      "topic": "Logarithms & Surds",
+      "difficulty": "medium",
+      "question": "If log₂x + log₄x + log₁₆x = 7, what is x?",
+      "options": [
+        "16",
+        "8",
+        "32",
+        "64"
+      ],
+      "answer": 0,
+      "explanation": "log₄x = (log₂x)/2 and log₁₆x = (log₂x)/4. So (7/4)·log₂x = 7 → log₂x = 4 → x = 16.",
+      "verified": true
+    },
+    {
+      "id": "cat-055",
+      "section": "qa",
+      "topic": "Geometry & Mensuration",
+      "difficulty": "easy",
+      "question": "A right-angled triangle has legs of 20 cm and 21 cm. What is the radius of its inscribed circle?",
+      "options": [
+        "5 cm",
+        "7 cm",
+        "6 cm",
+        "8 cm"
+      ],
+      "answer": 2,
+      "explanation": "Hypotenuse = √(400 + 441) = 29. For a right triangle, r = (a + b − c)/2 = (20 + 21 − 29)/2 = 6 cm.",
+      "verified": true
+    },
+    {
+      "id": "cat-056",
+      "section": "qa",
+      "topic": "Geometry & Mensuration",
+      "difficulty": "hard",
+      "question": "In a circle of radius 13 cm, two parallel chords of lengths 24 cm and 10 cm lie on opposite sides of the centre. What is the distance between the chords?",
+      "options": [
+        "17 cm",
+        "7 cm",
+        "12 cm",
+        "19 cm"
+      ],
+      "answer": 0,
+      "explanation": "Distance of the 24 cm chord from centre = √(169 − 144) = 5; of the 10 cm chord = √(169 − 25) = 12. On opposite sides: 5 + 12 = 17 cm.",
+      "verified": true
+    },
+    {
+      "id": "cat-057",
+      "section": "qa",
+      "topic": "Geometry & Mensuration",
+      "difficulty": "medium",
+      "question": "A solid metal cylinder of radius 6 cm and height 8 cm is melted and recast into solid spheres of radius 2 cm each. How many spheres are obtained?",
+      "options": [
+        "24",
+        "30",
+        "27",
+        "36"
+      ],
+      "answer": 2,
+      "explanation": "Cylinder volume = π·36·8 = 288π. Sphere volume = (4/3)π·8 = 32π/3. Number = 288π ÷ (32π/3) = 27.",
+      "verified": true
+    },
+    {
+      "id": "cat-058",
+      "section": "qa",
+      "topic": "Number System",
+      "difficulty": "medium",
+      "question": "What is the remainder when 7¹⁰⁰ is divided by 13?",
+      "options": [
+        "9",
+        "3",
+        "10",
+        "12"
+      ],
+      "answer": 0,
+      "explanation": "7² = 49 ≡ 10, 7⁴ ≡ 100 ≡ 9, 7⁶ ≡ 7⁴·7² ≡ 90 ≡ 12 ≡ −1, so 7¹² ≡ 1 (mod 13). 100 = 12·8 + 4, so 7¹⁰⁰ ≡ 7⁴ ≡ 9.",
+      "verified": true
+    },
+    {
+      "id": "cat-059",
+      "section": "qa",
+      "topic": "Number System",
+      "difficulty": "medium",
+      "question": "How many divisors of 720 are perfect squares?",
+      "options": [
+        "4",
+        "8",
+        "9",
+        "6"
+      ],
+      "answer": 3,
+      "explanation": "720 = 2⁴ · 3² · 5. A square divisor uses even exponents: 2 ∈ {0, 2, 4} (3 ways), 3 ∈ {0, 2} (2 ways), 5 ∈ {0} (1 way). Total 6.",
+      "verified": true
+    },
+    {
+      "id": "cat-060",
+      "section": "qa",
+      "topic": "Modern Maths (P&C, Probability, Sets)",
+      "difficulty": "medium",
+      "question": "How many four-digit numbers with all digits distinct can be formed using the digits 0, 1, 2, 3, 4, 5 that are divisible by 5?",
+      "options": [
+        "108",
+        "96",
+        "120",
+        "132"
+      ],
+      "answer": 0,
+      "explanation": "Ending in 0: remaining three places from 5 digits in order = 5 × 4 × 3 = 60. Ending in 5: first digit from {1, 2, 3, 4} (cannot be 0) = 4 ways, then 4 × 3 = 12 for the middle → 48. Total 108.",
+      "verified": true
+    }
+  ]
+}

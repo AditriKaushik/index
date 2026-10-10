@@ -1,0 +1,1173 @@
+{
+  "id": "gate-cse",
+  "name": "GATE CSE",
+  "fullName": "Graduate Aptitude Test in Engineering – Computer Science & Information Technology (CS)",
+  "nameHi": "गेट कंप्यूटर साइंस",
+  "category": "postgraduate",
+  "conductingBody": "IISc Bangalore and seven IITs on rotation for the National Coordination Board–GATE, Ministry of Education (GATE 2027: IIT Madras)",
+  "officialSite": "https://gate2027.iitm.ac.in",
+  "level": "national",
+  "frequency": "Once a year (February)",
+  "approxCandidates": "≈2.6 lakh registered and ≈2.1 lakh appeared for the CS paper in GATE 2026 (aggregator figures). GATE 2026 CS qualifying cut-off: 30 (General), 27 (OBC-NCL/EWS), 20 (SC/ST/PwD).",
+  "eligibility": "Students in the 3rd year or higher of any UG programme, or graduates in engineering, technology, science, commerce or arts. No age limit. A candidate may take up to two papers from the allowed combinations.",
+  "notification": {
+    "status": "ongoing",
+    "summary": "GATE 2027 is being organised by IIT Madras. Registration on GOAPS opened in Aug/early Sep 2026 (reports differ). The regular-fee deadline was extended to 5 Oct 2026, and the late-fee window runs until 12 Oct 2026. The exams are scheduled on 6, 7, 13, 14, 20 and 21 Feb 2027, with results on 19 Mar 2027. DigiLocker-based verification is mandatory for Indian candidates. Dates come from news reports via web search; gate2027.iitm.ac.in could not be reached from the research sandbox.",
+    "importantDates": [
+      {
+        "event": "GOAPS registration opened",
+        "date": "Aug–Sep 2026 (reports differ: 14 Aug or 2 Sep)"
+      },
+      {
+        "event": "Registration closed (regular fee, extended)",
+        "date": "5 Oct 2026"
+      },
+      {
+        "event": "Registration with late fee",
+        "date": "Until 12 Oct 2026"
+      },
+      {
+        "event": "Application correction window",
+        "date": "14–21 Oct 2026 (reported)"
+      },
+      {
+        "event": "Admit card",
+        "date": "3–4 Jan 2027 (reported)"
+      },
+      {
+        "event": "Exam days (CS slot to be announced)",
+        "date": "6, 7, 13, 14, 20, 21 Feb 2027"
+      },
+      {
+        "event": "Result",
+        "date": "19 Mar 2027"
+      }
+    ],
+    "source": "https://gate2027.iitm.ac.in (official), dates as reported by Careers360 (engineering.careers360.com/articles/gate-exam-dates) and CareerIndia",
+    "checkedOn": "2026-10-10"
+  },
+  "pattern": {
+    "stage": "GATE CS paper (single stage)",
+    "mode": "CBT",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "marking": {
+      "correct": 1,
+      "wrong": -0.33,
+      "unattempted": 0
+    },
+    "sections": [
+      {
+        "id": "ga",
+        "name": "General Aptitude",
+        "questions": 10,
+        "marks": 15
+      },
+      {
+        "id": "cs",
+        "name": "Computer Science & IT (incl. Engineering Mathematics)",
+        "questions": 55,
+        "marks": 85
+      }
+    ],
+    "notes": "Real paper: 65 questions for 100 marks. General Aptitude has 5 one-mark and 5 two-mark questions (15 marks). The CS section has 55 questions (85 marks), of which roughly 13 marks are Engineering Mathematics. Question types are MCQ, MSQ (multiple select) and NAT (numerical answer). Only MCQs carry negative marking: −1/3 for a 1-mark MCQ and −2/3 for a 2-mark MCQ. The 'marking' field above shows the 1-mark MCQ case, and 2-mark MCQs score +2 / −0.67. As instructed, this mock is MCQ-only: about 45–50% of the real CS paper consists of MSQ/NAT items, and these have been recast as single-answer MCQs. The question bank holds 60 original questions (10 GA + 50 CS). Since 2024 the CS paper has been held in two sessions (CS1/CS2), with scores normalised."
+  },
+  "trendAnalysis": {
+    "yearsAnalyzed": [
+      2024,
+      2025,
+      2026
+    ],
+    "summary": "This analysis covers GATE 2024 (IISc), 2025 (IIT Roorkee) and 2026 (IIT Guwahati) CS papers, each in two sessions. Difficulty is moderate to tough and calculation-heavy, with the CS1 and CS2 sets sometimes differing noticeably in difficulty. MSQ and NAT questions now make up close to half the paper, which makes guessing less effective. Programming & Data Structures (C code tracing, pointers, recursion, trees, hashing), Discrete Mathematics, OS, COA (caches, pipelining) and Theory of Computation remain the highest-weighted areas. Probability and Linear Algebra have grown at the expense of Calculus. General Aptitude (15 marks) is easy to moderate and highly scoring. The GATE 2026 CS qualifying cut-off was 30/100 (General).",
+    "topics": [
+      {
+        "section": "ga",
+        "topic": "Verbal Aptitude",
+        "weightage": 30,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "ga",
+        "topic": "Quantitative Aptitude",
+        "weightage": 40,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "ga",
+        "topic": "Analytical Aptitude",
+        "weightage": 20,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "ga",
+        "topic": "Spatial Aptitude",
+        "weightage": 10,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "cs",
+        "topic": "Discrete Mathematics",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "cs",
+        "topic": "Linear Algebra",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "cs",
+        "topic": "Calculus",
+        "weightage": 2,
+        "trend": "falling",
+        "difficulty": "easy"
+      },
+      {
+        "section": "cs",
+        "topic": "Probability & Statistics",
+        "weightage": 4,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "cs",
+        "topic": "Digital Logic",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "cs",
+        "topic": "Computer Organization & Architecture",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "hard"
+      },
+      {
+        "section": "cs",
+        "topic": "Programming & Data Structures",
+        "weightage": 12,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "cs",
+        "topic": "Algorithms",
+        "weightage": 9,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "cs",
+        "topic": "Theory of Computation",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "cs",
+        "topic": "Compiler Design",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "cs",
+        "topic": "Operating Systems",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "cs",
+        "topic": "Databases",
+        "weightage": 8,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "cs",
+        "topic": "Computer Networks",
+        "weightage": 9,
+        "trend": "stable",
+        "difficulty": "medium"
+      }
+    ]
+  },
+  "resources": {
+    "pyqAvailable": true,
+    "officialPYQ": "https://gate2027.iitm.ac.in",
+    "officialMock": "https://gate2027.iitm.ac.in",
+    "notes": "Each organising institute publishes the previous years' question papers and final answer keys on its GATE website (look for 'Previous Question Papers'), along with an official mock test link on the TCS iON interface. Candidates' response sheets and provisional keys are released after the exam. GATE 2024–26 papers were posted by IISc, IIT Roorkee and IIT Guwahati respectively."
+  },
+  "questions": [
+    {
+      "id": "gate-cse-001",
+      "section": "ga",
+      "topic": "Verbal Aptitude",
+      "difficulty": "easy",
+      "question": "Choose the word closest in meaning to EPHEMERAL.",
+      "options": [
+        "Short-lived",
+        "Delicate",
+        "Everlasting",
+        "Mysterious"
+      ],
+      "answer": 0,
+      "explanation": "Ephemeral means lasting for a very short time.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-002",
+      "section": "ga",
+      "topic": "Verbal Aptitude",
+      "difficulty": "medium",
+      "question": "Choose the correct option to fill the blank: \"Neither the manager nor the employees ______ aware of the revised policy.\"",
+      "options": [
+        "were",
+        "has been",
+        "was",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "With 'neither … nor', the verb agrees with the nearer subject. 'Employees' is plural and the sentence is in the past, so 'were' is correct.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-003",
+      "section": "ga",
+      "topic": "Verbal Aptitude",
+      "difficulty": "easy",
+      "question": "Pen : Writer :: Scalpel : ?",
+      "options": [
+        "Surgeon",
+        "Sculptor",
+        "Carpenter",
+        "Tailor"
+      ],
+      "answer": 0,
+      "explanation": "A pen is the primary tool of a writer, and a scalpel is the primary tool of a surgeon.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-004",
+      "section": "ga",
+      "topic": "Quantitative Aptitude",
+      "difficulty": "medium",
+      "question": "A can complete a job in 12 days and B in 18 days. They work together for 4 days, after which A leaves. In how many more days will B finish the remaining work?",
+      "options": [
+        "6",
+        "10",
+        "9",
+        "8"
+      ],
+      "answer": 3,
+      "explanation": "Together they do 1/12 + 1/18 = 5/36 per day, so in 4 days they do 20/36 = 5/9. The remaining 4/9 takes B (4/9) × 18 = 8 days.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-005",
+      "section": "ga",
+      "topic": "Quantitative Aptitude",
+      "difficulty": "medium",
+      "question": "Two fair six-sided dice are thrown. What is the probability that the sum of the numbers is a prime number?",
+      "options": [
+        "1/2",
+        "1/3",
+        "7/18",
+        "5/12"
+      ],
+      "answer": 3,
+      "explanation": "The prime sums are 2 (1 way), 3 (2), 5 (4), 7 (6) and 11 (2), giving 15 favourable outcomes. 15/36 = 5/12.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-006",
+      "section": "ga",
+      "topic": "Quantitative Aptitude",
+      "difficulty": "easy",
+      "question": "A 60-litre mixture contains milk and water in the ratio 2 : 1. How many litres of water must be added to make the ratio 1 : 1?",
+      "options": [
+        "20",
+        "15",
+        "30",
+        "10"
+      ],
+      "answer": 0,
+      "explanation": "The mixture has milk = 40 L and water = 20 L. For a 1 : 1 ratio, water must equal 40 L, so add 20 L.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-007",
+      "section": "ga",
+      "topic": "Quantitative Aptitude",
+      "difficulty": "medium",
+      "question": "What is the remainder when 2¹⁰⁰ is divided by 7?",
+      "options": [
+        "2",
+        "6",
+        "4",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "2³ = 8 ≡ 1 (mod 7). Since 100 = 3 × 33 + 1, 2¹⁰⁰ = (2³)³³ × 2 ≡ 2 (mod 7).",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-008",
+      "section": "ga",
+      "topic": "Analytical Aptitude",
+      "difficulty": "medium",
+      "question": "Statements: Some cats are dogs. No dog is a rat.\nWhich of the following conclusions definitely follows?",
+      "options": [
+        "Some cats are not rats",
+        "All dogs are cats",
+        "Some rats are cats",
+        "No cat is a rat"
+      ],
+      "answer": 0,
+      "explanation": "The cats that are dogs cannot be rats, so 'some cats are not rats' must be true. The other cats may or may not be rats, so the remaining options do not necessarily follow.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-009",
+      "section": "ga",
+      "topic": "Analytical Aptitude",
+      "difficulty": "medium",
+      "question": "What is the angle between the hour hand and the minute hand of a clock at 3:40?",
+      "options": [
+        "125°",
+        "130°",
+        "140°",
+        "120°"
+      ],
+      "answer": 1,
+      "explanation": "Angle = |30H − 5.5M| = |90 − 220| = 130°.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-010",
+      "section": "ga",
+      "topic": "Spatial Aptitude",
+      "difficulty": "medium",
+      "question": "A solid cube painted on all six faces is cut into 64 identical smaller cubes. How many of the small cubes have exactly two painted faces?",
+      "options": [
+        "24",
+        "32",
+        "8",
+        "16"
+      ],
+      "answer": 0,
+      "explanation": "With 4 cubes per edge, each of the 12 edges has 4 − 2 = 2 cubes with exactly two painted faces. 12 × 2 = 24.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-011",
+      "section": "cs",
+      "topic": "Discrete Mathematics",
+      "difficulty": "medium",
+      "question": "How many binary relations on a set of 3 elements are both reflexive and symmetric?",
+      "options": [
+        "8",
+        "512",
+        "16",
+        "64"
+      ],
+      "answer": 0,
+      "explanation": "Reflexivity fixes all 3 diagonal pairs. Symmetry pairs up the 6 off-diagonal entries into 3 unordered pairs, each of which is either in or out, giving 2³ = 8.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-012",
+      "section": "cs",
+      "topic": "Discrete Mathematics",
+      "difficulty": "medium",
+      "question": "Which of the following propositional formulas is a tautology?",
+      "options": [
+        "(p ∨ q) → (p ∧ q)",
+        "(p → q) → p",
+        "(p → q) ∨ (q → p)",
+        "(p → q) ∧ (q → p)"
+      ],
+      "answer": 2,
+      "explanation": "If p → q is false, then p = T and q = F, which makes q → p true. So the disjunction is always true. The others fail: (p → q) → p is false at p = F; (p ∨ q) → (p ∧ q) and the biconditional are false at p = T, q = F.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-013",
+      "section": "cs",
+      "topic": "Discrete Mathematics",
+      "difficulty": "easy",
+      "question": "What is the chromatic number of a cycle graph with 7 vertices (C₇)?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "7"
+      ],
+      "answer": 1,
+      "explanation": "A cycle of odd length is not bipartite, so it needs 3 colours, and 3 colours always suffice for a cycle.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-014",
+      "section": "cs",
+      "topic": "Discrete Mathematics",
+      "difficulty": "medium",
+      "question": "In how many ways can 10 identical balls be placed in 4 distinct boxes so that no box is empty?",
+      "options": [
+        "286",
+        "210",
+        "84",
+        "120"
+      ],
+      "answer": 2,
+      "explanation": "By stars and bars, the number of positive integer solutions of x₁ + x₂ + x₃ + x₄ = 10 is C(9, 3) = 84.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-015",
+      "section": "cs",
+      "topic": "Discrete Mathematics",
+      "difficulty": "medium",
+      "question": "How many generators does a cyclic group of order 12 have?",
+      "options": [
+        "2",
+        "6",
+        "12",
+        "4"
+      ],
+      "answer": 3,
+      "explanation": "A cyclic group of order n has φ(n) generators, and φ(12) = 4 (the elements 1, 5, 7, 11 in ℤ₁₂).",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-016",
+      "section": "cs",
+      "topic": "Linear Algebra",
+      "difficulty": "medium",
+      "question": "A 3 × 3 real matrix A has eigenvalues 1, 2 and 3. What is det(A² + I)?",
+      "options": [
+        "100",
+        "50",
+        "36",
+        "14"
+      ],
+      "answer": 0,
+      "explanation": "The eigenvalues of A² + I are λ² + 1, which are 2, 5 and 10. The determinant is their product: 2 × 5 × 10 = 100.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-017",
+      "section": "cs",
+      "topic": "Linear Algebra",
+      "difficulty": "easy",
+      "question": "What is the rank of the matrix [[1, 2, 3], [2, 4, 6], [1, 1, 1]]?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 2,
+      "explanation": "Row 2 = 2 × Row 1. Rows 1 and 3 are linearly independent, so the rank is 2.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-018",
+      "section": "cs",
+      "topic": "Calculus",
+      "difficulty": "easy",
+      "question": "What is the value of lim (x → 0) of (1 − cos x) / x²?",
+      "options": [
+        "1",
+        "1/2",
+        "0",
+        "∞"
+      ],
+      "answer": 1,
+      "explanation": "1 − cos x = 2 sin²(x/2), so the ratio is (1/2) × [sin(x/2)/(x/2)]², which tends to 1/2.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-019",
+      "section": "cs",
+      "topic": "Probability & Statistics",
+      "difficulty": "medium",
+      "question": "A box contains 4 red and 6 blue balls. Two balls are drawn at random without replacement. What is the probability that both are of the same colour?",
+      "options": [
+        "13/25",
+        "8/15",
+        "1/2",
+        "7/15"
+      ],
+      "answer": 3,
+      "explanation": "[C(4,2) + C(6,2)] / C(10,2) = (6 + 15) / 45 = 21/45 = 7/15.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-020",
+      "section": "cs",
+      "topic": "Probability & Statistics",
+      "difficulty": "medium",
+      "question": "A random variable X is uniformly distributed on the interval [0, 6]. What is Var(X)?",
+      "options": [
+        "9",
+        "6",
+        "2",
+        "3"
+      ],
+      "answer": 3,
+      "explanation": "For U[a, b], Var = (b − a)²/12 = 36/12 = 3.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-021",
+      "section": "cs",
+      "topic": "Digital Logic",
+      "difficulty": "medium",
+      "question": "What is the minimal sum-of-products form of F(A, B, C) = Σm(0, 2, 4, 5, 6), where A is the most significant bit?",
+      "options": [
+        "C′ + AB",
+        "C′ + A′B′",
+        "A′C′ + AB′",
+        "C′ + AB′"
+      ],
+      "answer": 3,
+      "explanation": "Minterms 0, 2, 4, 6 (all with C = 0) group to C′. Minterms 4 and 5 (A = 1, B = 0) group to AB′. So F = C′ + AB′.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-022",
+      "section": "cs",
+      "topic": "Digital Logic",
+      "difficulty": "easy",
+      "question": "What is the range of integers that can be represented in 8-bit two's complement?",
+      "options": [
+        "0 to 255",
+        "−128 to +128",
+        "−128 to +127",
+        "−127 to +127"
+      ],
+      "answer": 2,
+      "explanation": "An n-bit two's complement number ranges from −2ⁿ⁻¹ to 2ⁿ⁻¹ − 1, which for n = 8 is −128 to 127.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-023",
+      "section": "cs",
+      "topic": "Digital Logic",
+      "difficulty": "medium",
+      "question": "What is the minimum number of 2-to-1 multiplexers needed to build a 16-to-1 multiplexer?",
+      "options": [
+        "4",
+        "16",
+        "8",
+        "15"
+      ],
+      "answer": 3,
+      "explanation": "A tree of 2:1 muxes uses 8 + 4 + 2 + 1 = 15. In general, an n:1 mux needs n − 1 two-to-one muxes.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-024",
+      "section": "cs",
+      "topic": "Computer Organization & Architecture",
+      "difficulty": "medium",
+      "question": "A byte-addressable machine with 32-bit addresses has a 32 KB direct-mapped cache with 64-byte blocks. How many bits are in the tag field?",
+      "options": [
+        "9",
+        "6",
+        "17",
+        "15"
+      ],
+      "answer": 2,
+      "explanation": "Offset = log₂64 = 6 bits. Lines = 32 KB / 64 B = 512, so index = 9 bits. Tag = 32 − 9 − 6 = 17 bits.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-025",
+      "section": "cs",
+      "topic": "Computer Organization & Architecture",
+      "difficulty": "easy",
+      "question": "A 5-stage pipeline in which every stage takes one clock cycle executes 100 independent instructions with no stalls. How many clock cycles are needed?",
+      "options": [
+        "104",
+        "105",
+        "100",
+        "500"
+      ],
+      "answer": 0,
+      "explanation": "Cycles = k + (n − 1) = 5 + 99 = 104.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-026",
+      "section": "cs",
+      "topic": "Computer Organization & Architecture",
+      "difficulty": "easy",
+      "question": "A cache has a hit time of 1 ns, a miss rate of 5% and a miss penalty of 100 ns. What is the average memory access time?",
+      "options": [
+        "5.95 ns",
+        "5 ns",
+        "6 ns",
+        "101 ns"
+      ],
+      "answer": 2,
+      "explanation": "AMAT = hit time + miss rate × miss penalty = 1 + 0.05 × 100 = 6 ns.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-027",
+      "section": "cs",
+      "topic": "Computer Organization & Architecture",
+      "difficulty": "easy",
+      "question": "In which addressing mode is the operand value itself contained in the instruction?",
+      "options": [
+        "Direct",
+        "Immediate",
+        "Register",
+        "Indirect"
+      ],
+      "answer": 1,
+      "explanation": "In immediate addressing, the instruction carries the constant operand directly, for example ADD R1, #5.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-028",
+      "section": "cs",
+      "topic": "Computer Organization & Architecture",
+      "difficulty": "medium",
+      "question": "A 4-way set-associative cache of 64 KB uses 32-byte blocks. How many sets does the cache have?",
+      "options": [
+        "128",
+        "2048",
+        "512",
+        "256"
+      ],
+      "answer": 2,
+      "explanation": "Number of lines = 64 KB / 32 B = 2048. Sets = 2048 / 4 = 512.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-029",
+      "section": "cs",
+      "topic": "Programming & Data Structures",
+      "difficulty": "easy",
+      "question": "What does the following C function return for f(7)?\n\nint f(int n) {\n    if (n <= 1) return 1;\n    return n * f(n - 2);\n}",
+      "options": [
+        "35",
+        "105",
+        "5040",
+        "15"
+      ],
+      "answer": 1,
+      "explanation": "f(7) = 7 × f(5) = 7 × 5 × f(3) = 7 × 5 × 3 × f(1) = 105.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-030",
+      "section": "cs",
+      "topic": "Programming & Data Structures",
+      "difficulty": "medium",
+      "question": "What is printed by the following C code?\n\nint a[] = {10, 20, 30, 40, 50};\nint *p = a + 1;\nprintf(\"%d\", *(p + 2) + p[-1]);",
+      "options": [
+        "70",
+        "40",
+        "60",
+        "50"
+      ],
+      "answer": 3,
+      "explanation": "p points to a[1]. *(p + 2) = a[3] = 40 and p[-1] = a[0] = 10, so the sum is 50.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-031",
+      "section": "cs",
+      "topic": "Programming & Data Structures",
+      "difficulty": "medium",
+      "question": "What is printed by the following C program?\n\nint g(void) { static int c = 0; c += 2; return c; }\nint main(void) {\n    int s = 0;\n    for (int i = 0; i < 3; i++) s += g();\n    printf(\"%d\", s);\n    return 0;\n}",
+      "options": [
+        "2",
+        "18",
+        "6",
+        "12"
+      ],
+      "answer": 3,
+      "explanation": "The static variable c keeps its value between calls, so g returns 2, 4 and 6. s = 12.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-032",
+      "section": "cs",
+      "topic": "Programming & Data Structures",
+      "difficulty": "medium",
+      "question": "The keys 50, 30, 70, 20, 40, 60, 80, 35 are inserted in that order into an initially empty binary search tree. What is the post-order traversal of the resulting tree?",
+      "options": [
+        "20, 30, 35, 40, 50, 60, 70, 80",
+        "35, 20, 40, 30, 60, 70, 80, 50",
+        "20, 35, 40, 30, 60, 80, 70, 50",
+        "20, 40, 35, 30, 60, 80, 70, 50"
+      ],
+      "answer": 2,
+      "explanation": "The tree is 50 → (30 → 20, 40 → (35, –)), (70 → 60, 80). Post-order visits left, right, root: 20, 35, 40, 30, 60, 80, 70, 50.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-033",
+      "section": "cs",
+      "topic": "Programming & Data Structures",
+      "difficulty": "medium",
+      "question": "What is the value of the postfix expression 6 2 3 + − 3 8 2 / + * ?",
+      "options": [
+        "0",
+        "49",
+        "1",
+        "7"
+      ],
+      "answer": 3,
+      "explanation": "2 3 + = 5, then 6 5 − = 1. Next 8 2 / = 4 and 3 4 + = 7. Finally 1 × 7 = 7.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-034",
+      "section": "cs",
+      "topic": "Programming & Data Structures",
+      "difficulty": "medium",
+      "question": "Keys 12, 22, 32, 15, 25 are inserted in that order into an empty hash table of size 10 with h(k) = k mod 10 and linear probing. At which index is 25 stored?",
+      "options": [
+        "7",
+        "6",
+        "5",
+        "8"
+      ],
+      "answer": 1,
+      "explanation": "12 → 2, 22 → 3 (after collision), 32 → 4, 15 → 5. Then 25 hashes to 5, which is occupied, so it goes to 6.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-035",
+      "section": "cs",
+      "topic": "Algorithms",
+      "difficulty": "medium",
+      "question": "What is the asymptotic solution of the recurrence T(n) = 2T(n/2) + n log n?",
+      "options": [
+        "Θ(n log² n)",
+        "Θ(n log n)",
+        "Θ(n²)",
+        "Θ(n)"
+      ],
+      "answer": 0,
+      "explanation": "Here n^(log₂2) = n and f(n) = n log n = Θ(n log¹ n). By the extended case 2 of the master theorem, T(n) = Θ(n log² n).",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-036",
+      "section": "cs",
+      "topic": "Algorithms",
+      "difficulty": "easy",
+      "question": "Which sorting algorithm has a worst-case time complexity of O(n log n) and sorts in place with O(1) extra space?",
+      "options": [
+        "Merge sort",
+        "Heap sort",
+        "Quick sort",
+        "Insertion sort"
+      ],
+      "answer": 1,
+      "explanation": "Heap sort is O(n log n) in the worst case and in-place. Merge sort needs O(n) extra space, quick sort is O(n²) in the worst case, and insertion sort is O(n²).",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-037",
+      "section": "cs",
+      "topic": "Algorithms",
+      "difficulty": "medium",
+      "question": "An undirected graph on vertices A, B, C, D has edge weights AB = 1, AC = 4, AD = 3, BC = 2, BD = 5, CD = 6. What is the weight of its minimum spanning tree?",
+      "options": [
+        "6",
+        "7",
+        "10",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "Kruskal's algorithm picks AB (1), then BC (2), then AD (3), which connects all four vertices. Total = 6.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-038",
+      "section": "cs",
+      "topic": "Algorithms",
+      "difficulty": "hard",
+      "question": "What is the time complexity of the following code fragment in terms of n?\n\nfor (i = 1; i < n; i *= 2)\n    for (j = 0; j < i; j++)\n        count++;",
+      "options": [
+        "Θ(n²)",
+        "Θ(log n)",
+        "Θ(n log n)",
+        "Θ(n)"
+      ],
+      "answer": 3,
+      "explanation": "The inner loop runs i times for i = 1, 2, 4, …, < n. The total is a geometric sum below 2n, so the complexity is Θ(n).",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-039",
+      "section": "cs",
+      "topic": "Algorithms",
+      "difficulty": "medium",
+      "question": "What is the length of the longest common subsequence of the strings BACDBA and ABCBDA?",
+      "options": [
+        "3",
+        "4",
+        "2",
+        "5"
+      ],
+      "answer": 1,
+      "explanation": "One LCS is 'ACBA' (B-A-C-D-B-A against A-B-C-B-D-A). Dynamic programming confirms that the maximum length is 4.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-040",
+      "section": "cs",
+      "topic": "Theory of Computation",
+      "difficulty": "easy",
+      "question": "What is the minimum number of states in a DFA over {a, b} that accepts exactly the strings in which the number of a's is divisible by 3?",
+      "options": [
+        "6",
+        "4",
+        "2",
+        "3"
+      ],
+      "answer": 3,
+      "explanation": "The DFA only needs to track the count of a's mod 3, so it needs three states (remainders 0, 1, 2).",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-041",
+      "section": "cs",
+      "topic": "Theory of Computation",
+      "difficulty": "easy",
+      "question": "Which of the following languages is NOT context-free?",
+      "options": [
+        "{aⁿbⁿcⁿ | n ≥ 0}",
+        "{aⁿbⁿ | n ≥ 0}",
+        "{aⁿbᵐ | 0 ≤ n ≤ m}",
+        "{wwᴿ | w ∈ {a, b}*}"
+      ],
+      "answer": 0,
+      "explanation": "aⁿbⁿcⁿ requires matching three counts, which the pumping lemma for CFLs shows is impossible. The others can be generated by CFGs or recognised by PDAs.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-042",
+      "section": "cs",
+      "topic": "Theory of Computation",
+      "difficulty": "hard",
+      "question": "What is the minimum number of states in a DFA over {0, 1} that accepts all strings whose third symbol from the right end is 1?",
+      "options": [
+        "16",
+        "4",
+        "8",
+        "3"
+      ],
+      "answer": 2,
+      "explanation": "The DFA must remember the last 3 symbols, and all 2³ = 8 such suffixes are pairwise distinguishable. So 8 states are needed.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-043",
+      "section": "cs",
+      "topic": "Theory of Computation",
+      "difficulty": "medium",
+      "question": "Which of the following problems is undecidable?",
+      "options": [
+        "Whether a given string belongs to the language of a given CFG",
+        "Whether a given CFG generates the empty language",
+        "Whether a given Turing machine halts on the blank tape",
+        "Whether a given DFA accepts at least one string"
+      ],
+      "answer": 2,
+      "explanation": "The blank-tape halting problem reduces from the halting problem and is undecidable. DFA non-emptiness, CFG emptiness and CFG membership (CYK) are all decidable.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-044",
+      "section": "cs",
+      "topic": "Theory of Computation",
+      "difficulty": "medium",
+      "question": "Which regular expression denotes the set of all strings over {a, b} that do NOT contain 'aa' as a substring?",
+      "options": [
+        "(b + ab)*",
+        "(b + ba)*",
+        "(b + ab)*(ε + a)",
+        "(b + ab)*a*"
+      ],
+      "answer": 2,
+      "explanation": "Every a except possibly the last symbol must be followed by b, so the string splits into blocks of 'b' and 'ab' plus an optional final 'a'. (b + ab)* misses strings ending in a, (b + ba)* misses strings starting with a, and (b + ab)*a* allows 'aa'.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-045",
+      "section": "cs",
+      "topic": "Compiler Design",
+      "difficulty": "medium",
+      "question": "For the grammar S → AB, A → aA | ε, B → b | ε (with $ as the end marker), what is FOLLOW(A)?",
+      "options": [
+        "{$}",
+        "{a, b}",
+        "{b, $}",
+        "{a, b, $}"
+      ],
+      "answer": 2,
+      "explanation": "From S → AB, FOLLOW(A) contains FIRST(B) − {ε} = {b}. Since B can derive ε, it also contains FOLLOW(S) = {$}. So FOLLOW(A) = {b, $}.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-046",
+      "section": "cs",
+      "topic": "Compiler Design",
+      "difficulty": "easy",
+      "question": "In which phase of a compiler is an error such as adding an integer to a function name (a type mismatch) detected?",
+      "options": [
+        "Syntax analysis",
+        "Semantic analysis",
+        "Code optimisation",
+        "Lexical analysis"
+      ],
+      "answer": 1,
+      "explanation": "Type checking is performed during semantic analysis, using the symbol table and the syntax tree.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-047",
+      "section": "cs",
+      "topic": "Compiler Design",
+      "difficulty": "easy",
+      "question": "How many tokens does a C lexical analyser produce for the statement: int x = a1 + 25;",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "5"
+      ],
+      "answer": 1,
+      "explanation": "The tokens are int, x, =, a1, +, 25 and ; which makes 7.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-048",
+      "section": "cs",
+      "topic": "Operating Systems",
+      "difficulty": "hard",
+      "question": "Four processes arrive as follows (arrival time, CPU burst in ms): P1 (0, 7), P2 (1, 3), P3 (2, 8), P4 (4, 2). Under preemptive Shortest Remaining Time First scheduling, what is the average waiting time?",
+      "options": [
+        "5.25 ms",
+        "3.25 ms",
+        "4.50 ms",
+        "3.75 ms"
+      ],
+      "answer": 3,
+      "explanation": "The schedule is P1 0–1, P2 1–4, P4 4–6, P1 6–12, P3 12–20. Waiting times (completion − arrival − burst) are P1 = 5, P2 = 0, P3 = 10, P4 = 0. Average = 15/4 = 3.75 ms.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-049",
+      "section": "cs",
+      "topic": "Operating Systems",
+      "difficulty": "medium",
+      "question": "With 3 initially empty frames and LRU page replacement, how many page faults occur for the reference string 2, 3, 2, 1, 5, 2, 4, 5, 3, 2, 5, 2?",
+      "options": [
+        "9",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": 2,
+      "explanation": "The faults occur at 2, 3, 1, 5 (evicts 3), 4 (evicts 1), 3 (evicts 2) and 2 (evicts 4). That makes 7 faults; the other references are hits.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-050",
+      "section": "cs",
+      "topic": "Operating Systems",
+      "difficulty": "easy",
+      "question": "A counting semaphore is initialised to 10. Then 6 wait (P) operations and 4 signal (V) operations are performed on it. What is its final value?",
+      "options": [
+        "8",
+        "0",
+        "4",
+        "12"
+      ],
+      "answer": 0,
+      "explanation": "10 − 6 + 4 = 8. The value never goes negative, so no process blocks.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-051",
+      "section": "cs",
+      "topic": "Operating Systems",
+      "difficulty": "medium",
+      "question": "Three processes share a resource type, and each may need up to 4 instances. What is the minimum number of instances that guarantees the system can never deadlock?",
+      "options": [
+        "12",
+        "10",
+        "7",
+        "9"
+      ],
+      "answer": 1,
+      "explanation": "The worst case is that each process holds 3 instances (9 in total) while waiting for one more. One extra instance breaks the deadlock: 3 × (4 − 1) + 1 = 10.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-052",
+      "section": "cs",
+      "topic": "Operating Systems",
+      "difficulty": "medium",
+      "question": "A system uses 32-bit logical addresses, 4 KB pages and 4-byte page-table entries, with a single-level page table. What is the size of the page table per process?",
+      "options": [
+        "4 KB",
+        "16 MB",
+        "4 MB",
+        "1 MB"
+      ],
+      "answer": 2,
+      "explanation": "Number of pages = 2³² / 2¹² = 2²⁰. Size = 2²⁰ × 4 B = 4 MB.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-053",
+      "section": "cs",
+      "topic": "Databases",
+      "difficulty": "medium",
+      "question": "Relation R(A, B, C, D) has the functional dependencies A → B, B → C, C → D. What is the highest normal form that R satisfies?",
+      "options": [
+        "BCNF",
+        "3NF",
+        "2NF",
+        "1NF"
+      ],
+      "answer": 2,
+      "explanation": "The only candidate key is A. Because the key is a single attribute, there are no partial dependencies, so R is in 2NF. B → C and C → D are transitive dependencies of non-prime attributes, so R is not in 3NF.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-054",
+      "section": "cs",
+      "topic": "Databases",
+      "difficulty": "hard",
+      "question": "Relation R(A, B, C, D, E) has the functional dependencies AB → C, C → D, D → E, E → A. How many candidate keys does R have?",
+      "options": [
+        "3",
+        "1",
+        "2",
+        "4"
+      ],
+      "answer": 3,
+      "explanation": "B appears on no right-hand side, so it is in every key. AB⁺, BC⁺, BD⁺ and BE⁺ each equal ABCDE (for example BE: E → A, then AB → C → D). B alone is not a key, so the candidate keys are AB, BC, BD and BE.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-055",
+      "section": "cs",
+      "topic": "Databases",
+      "difficulty": "medium",
+      "question": "Table Emp(eid, dept, salary) contains the rows (1, A, 50), (2, A, 60), (3, B, 70), (4, B, 40), (5, B, 30), (6, C, 90). How many rows does this query return?\n\nSELECT dept, AVG(salary) FROM Emp\nGROUP BY dept\nHAVING COUNT(*) >= 2 AND AVG(salary) > 45;",
+      "options": [
+        "0",
+        "3",
+        "1",
+        "2"
+      ],
+      "answer": 3,
+      "explanation": "Dept A: count 2, average 55 → kept. Dept B: count 3, average 46.67 → kept. Dept C: count 1 → removed. So 2 rows are returned.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-056",
+      "section": "cs",
+      "topic": "Databases",
+      "difficulty": "medium",
+      "question": "Consider the schedule S: r1(X), r2(X), w1(X), w2(X). Which statement is true?",
+      "options": [
+        "S is conflict serializable and equivalent to T1 → T2",
+        "S is not conflict serializable",
+        "S is a serial schedule",
+        "S is conflict serializable and equivalent to T2 → T1"
+      ],
+      "answer": 1,
+      "explanation": "r1(X) before w2(X) gives the edge T1 → T2, and r2(X) before w1(X) gives the edge T2 → T1. The precedence graph has a cycle, so S is not conflict serializable.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-057",
+      "section": "cs",
+      "topic": "Computer Networks",
+      "difficulty": "easy",
+      "question": "How many usable host addresses does each subnet of 192.168.10.0/26 have?",
+      "options": [
+        "62",
+        "30",
+        "126",
+        "64"
+      ],
+      "answer": 0,
+      "explanation": "A /26 leaves 6 host bits: 2⁶ − 2 = 62 usable addresses (excluding the network and broadcast addresses).",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-058",
+      "section": "cs",
+      "topic": "Computer Networks",
+      "difficulty": "medium",
+      "question": "Which of the following IP addresses is in the same subnet as 172.16.45.14/20?",
+      "options": [
+        "172.16.31.255",
+        "172.16.47.200",
+        "172.16.48.1",
+        "172.16.64.10"
+      ],
+      "answer": 1,
+      "explanation": "A /20 mask is 255.255.240.0, so the third octet comes in blocks of 16. 45 lies in 32–47, giving the subnet 172.16.32.0 – 172.16.47.255. Only 172.16.47.200 falls in it.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-059",
+      "section": "cs",
+      "topic": "Computer Networks",
+      "difficulty": "medium",
+      "question": "In the Go-Back-N protocol with 3-bit sequence numbers, what is the maximum sender window size?",
+      "options": [
+        "3",
+        "7",
+        "8",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "For Go-Back-N the window is at most 2ⁿ − 1 = 7. Selective Repeat would allow 2ⁿ⁻¹ = 4.",
+      "verified": true
+    },
+    {
+      "id": "gate-cse-060",
+      "section": "cs",
+      "topic": "Computer Networks",
+      "difficulty": "hard",
+      "question": "A 10 Mbps link has a one-way propagation delay of 20 ms. Stop-and-wait is used with 1000-byte frames, and acknowledgement transmission time is negligible. What is the approximate link utilisation?",
+      "options": [
+        "0.98%",
+        "1.96%",
+        "3.85%",
+        "50%"
+      ],
+      "answer": 1,
+      "explanation": "Tₜ = 8000 bits / 10⁷ bps = 0.8 ms. Utilisation = Tₜ / (Tₜ + 2Tₚ) = 0.8 / (0.8 + 40) ≈ 1.96%.",
+      "verified": true
+    }
+  ]
+}

@@ -1,0 +1,1116 @@
+{
+  "id": "cuet-ug",
+  "name": "CUET UG",
+  "fullName": "Common University Entrance Test – Undergraduate",
+  "nameHi": "सीयूईटी यूजी",
+  "category": "university",
+  "conductingBody": "National Testing Agency (NTA)",
+  "officialSite": "https://cuet.nta.nic.in",
+  "level": "national",
+  "frequency": "Once a year (May–June)",
+  "approxCandidates": "15.69 lakh registered and 11.64 lakh appeared (CUET UG 2026)",
+  "eligibility": "Passed or appearing in Class 12 (or equivalent). No age limit. Each university sets its own subject and percentage requirements.",
+  "notification": {
+    "status": "result-out",
+    "summary": "CUET UG 2026 was held in CBT mode from 11 May 2026. Some papers were rescheduled to 31 May and 6–7 Jun because of Eid-ul-Azha. The result was declared on 23 Jun 2026: 15,68,867 candidates registered and 11,64,098 appeared. University admissions and counselling for 2026–27 are complete or wrapping up. The CUET UG 2027 notification is expected around Jan–Feb 2027 (the 2026 notification came out on 3 Jan 2026). Dates come from news reports via web search; cuet.nta.nic.in could not be reached from the research sandbox.",
+    "importantDates": [
+      {
+        "event": "CUET UG 2026 notification & registration",
+        "date": "3 Jan 2026 (reported)"
+      },
+      {
+        "event": "CUET UG 2026 exam (CBT)",
+        "date": "11 May – 7 Jun 2026 (incl. rescheduled dates)"
+      },
+      {
+        "event": "CUET UG 2026 result",
+        "date": "23 Jun 2026"
+      },
+      {
+        "event": "CUET UG 2027 notification",
+        "date": "Jan–Feb 2027 (expected)"
+      },
+      {
+        "event": "CUET UG 2027 exam",
+        "date": "May 2027 (expected)"
+      }
+    ],
+    "source": "https://cuet.nta.nic.in (official). Result figures from the NTA press release as reported by IANS (ianslive.in, 23 Jun 2026) and ETV Bharat.",
+    "checkedOn": "2026-10-10"
+  },
+  "pattern": {
+    "stage": "General Aptitude Test + English (Language) test",
+    "mode": "CBT",
+    "durationMinutes": 120,
+    "totalQuestions": 100,
+    "totalMarks": 500,
+    "marking": {
+      "correct": 5,
+      "wrong": -1,
+      "unattempted": 0
+    },
+    "sections": [
+      {
+        "id": "gt",
+        "name": "General Test (General Aptitude Test)",
+        "questions": 50,
+        "marks": 250
+      },
+      {
+        "id": "eng",
+        "name": "English (Language)",
+        "questions": 50,
+        "marks": 250
+      }
+    ],
+    "notes": "Since 2025, every CUET UG test has 50 compulsory questions in 60 minutes, scored +5 / −1. Candidates choose up to 5 tests from 37 (13 languages, 23 domain subjects and the General Aptitude Test). This mock combines two of those tests, the General Test and English, into a 120-minute, 100-question paper, and each section can also be run on its own in 60 minutes. Domain subjects follow the Class 12 NCERT syllabus and are not covered here. The question bank holds 60 original questions (30 per section). Scores are normalised percentiles per test."
+  },
+  "trendAnalysis": {
+    "yearsAnalyzed": [
+      2024,
+      2025,
+      2026
+    ],
+    "summary": "CUET UG 2024 was held in hybrid mode (pen-and-paper and CBT) with optional questions. From 2025 NTA reverted to CBT only, made all 50 questions compulsory with 60 minutes per test, and cut the maximum number of tests to 5, and 2026 continued this format. The General Test is easy to moderate: quantitative questions stay at about Class 8–10 level (percentages, ratio, averages, SI/CI, speed), and logical reasoning (series, coding, blood relations, directions, seating, syllogisms) has grown to roughly a third of the paper. GK has shifted towards static polity, history, geography and science, plus space and national schemes for current affairs. The English test is dominated by 2–3 reading passages (factual, narrative and literary), with the rest covering vocabulary, error spotting, voice and narration, idioms and sentence rearrangement. Time pressure rather than difficulty is the main challenge.",
+    "topics": [
+      {
+        "section": "gt",
+        "topic": "General Knowledge & Current Affairs",
+        "weightage": 25,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "gt",
+        "topic": "General Mental Ability",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "gt",
+        "topic": "Numerical Ability",
+        "weightage": 20,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "gt",
+        "topic": "Quantitative Reasoning",
+        "weightage": 15,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "gt",
+        "topic": "Logical & Analytical Reasoning",
+        "weightage": 30,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "eng",
+        "topic": "Reading Comprehension (factual, narrative, literary)",
+        "weightage": 40,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "eng",
+        "topic": "Vocabulary: Synonyms, Antonyms & Word Usage",
+        "weightage": 20,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "eng",
+        "topic": "Grammar: Error Detection, Fill-ups, Voice & Narration",
+        "weightage": 25,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "eng",
+        "topic": "Sentence Rearrangement",
+        "weightage": 7,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "eng",
+        "topic": "Idioms, Phrases & One-word Substitution",
+        "weightage": 8,
+        "trend": "stable",
+        "difficulty": "easy"
+      }
+    ]
+  },
+  "resources": {
+    "pyqAvailable": true,
+    "officialPYQ": "https://cuet.nta.nic.in",
+    "officialMock": "https://cuet.nta.nic.in",
+    "notes": "During the answer-key challenge window, NTA publishes the shift-wise question papers with provisional keys and each candidate's recorded responses on cuet.nta.nic.in. Final keys accompany the result. NTA does not keep a permanent public archive, so most full papers in circulation are memory-based or coaching reconstructions. The official syllabus PDFs for all 37 tests are on cuet.nta.nic.in."
+  },
+  "questions": [
+    {
+      "id": "cuet-ug-001",
+      "section": "gt",
+      "topic": "General Knowledge & Current Affairs",
+      "difficulty": "easy",
+      "question": "Which Article of the Constitution of India abolishes 'untouchability' and forbids its practice in any form?",
+      "options": [
+        "Article 17",
+        "Article 32",
+        "Article 14",
+        "Article 21"
+      ],
+      "answer": 0,
+      "explanation": "Article 17 abolishes untouchability. Article 14 guarantees equality before law, Article 21 life and personal liberty, and Article 32 constitutional remedies.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-002",
+      "section": "gt",
+      "topic": "General Knowledge & Current Affairs",
+      "difficulty": "medium",
+      "question": "The Tropic of Cancer does NOT pass through which of the following Indian states?",
+      "options": [
+        "Jharkhand",
+        "Tripura",
+        "Bihar",
+        "Mizoram"
+      ],
+      "answer": 2,
+      "explanation": "The Tropic of Cancer passes through Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram. It does not pass through Bihar.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-003",
+      "section": "gt",
+      "topic": "General Knowledge & Current Affairs",
+      "difficulty": "medium",
+      "question": "Who was the first Governor-General of independent India?",
+      "options": [
+        "C. Rajagopalachari",
+        "Lord Canning",
+        "Lord Mountbatten",
+        "Warren Hastings"
+      ],
+      "answer": 2,
+      "explanation": "Lord Mountbatten served as Governor-General from August 1947 to June 1948. C. Rajagopalachari was the first (and only) Indian Governor-General.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-004",
+      "section": "gt",
+      "topic": "General Knowledge & Current Affairs",
+      "difficulty": "easy",
+      "question": "Which gas makes up the largest share of the Earth's atmosphere by volume?",
+      "options": [
+        "Nitrogen",
+        "Argon",
+        "Oxygen",
+        "Carbon dioxide"
+      ],
+      "answer": 0,
+      "explanation": "Nitrogen makes up about 78% of the atmosphere, oxygen about 21% and argon about 0.93%.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-005",
+      "section": "gt",
+      "topic": "General Knowledge & Current Affairs",
+      "difficulty": "easy",
+      "question": "The Battle of Plassey was fought in:",
+      "options": [
+        "1764",
+        "1857",
+        "1761",
+        "1757"
+      ],
+      "answer": 3,
+      "explanation": "The Battle of Plassey took place in 1757. Buxar was fought in 1764 and the Third Battle of Panipat in 1761.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-006",
+      "section": "gt",
+      "topic": "General Knowledge & Current Affairs",
+      "difficulty": "medium",
+      "question": "India celebrates 23 August as 'National Space Day' because on that date in 2023:",
+      "options": [
+        "Chandrayaan-3's lander touched down near the Moon's south pole",
+        "Gaganyaan's first crewed mission was launched",
+        "Aditya-L1 was launched towards the Sun",
+        "Mangalyaan entered orbit around Mars"
+      ],
+      "answer": 0,
+      "explanation": "Chandrayaan-3's Vikram lander soft-landed near the lunar south pole on 23 Aug 2023. Aditya-L1 was launched on 2 Sep 2023, and Mangalyaan reached Mars orbit in 2014.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-007",
+      "section": "gt",
+      "topic": "General Knowledge & Current Affairs",
+      "difficulty": "medium",
+      "question": "In which year was the Reserve Bank of India established?",
+      "options": [
+        "1947",
+        "1949",
+        "1935",
+        "1969"
+      ],
+      "answer": 2,
+      "explanation": "The RBI was established on 1 April 1935 under the RBI Act, 1934. It was nationalised in 1949, and 14 commercial banks were nationalised in 1969.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-008",
+      "section": "gt",
+      "topic": "General Mental Ability",
+      "difficulty": "easy",
+      "question": "Find the odd one out: Mercury, Venus, Moon, Mars",
+      "options": [
+        "Moon",
+        "Mars",
+        "Venus",
+        "Mercury"
+      ],
+      "answer": 0,
+      "explanation": "Mercury, Venus and Mars are planets. The Moon is a natural satellite of the Earth.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-009",
+      "section": "gt",
+      "topic": "General Mental Ability",
+      "difficulty": "easy",
+      "question": "When the words Bridge, Brick, Bright, Bride and Brief are arranged in dictionary order, which word comes third?",
+      "options": [
+        "Bride",
+        "Brick",
+        "Bridge",
+        "Brief"
+      ],
+      "answer": 2,
+      "explanation": "The dictionary order is Brick, Bride, Bridge, Brief, Bright, so the third word is Bridge.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-010",
+      "section": "gt",
+      "topic": "General Mental Ability",
+      "difficulty": "easy",
+      "question": "1 January 2025 was a Wednesday. What day of the week was 1 January 2026?",
+      "options": [
+        "Tuesday",
+        "Thursday",
+        "Wednesday",
+        "Friday"
+      ],
+      "answer": 1,
+      "explanation": "2025 is not a leap year, so it has 365 days = 52 weeks + 1 day. The day therefore moves forward by one, to Thursday.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-011",
+      "section": "gt",
+      "topic": "Numerical Ability",
+      "difficulty": "easy",
+      "question": "What is 25% of 480 plus 40% of 250?",
+      "options": [
+        "240",
+        "220",
+        "200",
+        "210"
+      ],
+      "answer": 1,
+      "explanation": "25% of 480 = 120 and 40% of 250 = 100, so the total is 220.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-012",
+      "section": "gt",
+      "topic": "Numerical Ability",
+      "difficulty": "easy",
+      "question": "What is the simple interest on ₹8,000 at 6% per annum for 3 years?",
+      "options": [
+        "₹1,200",
+        "₹1,440",
+        "₹1,560",
+        "₹480"
+      ],
+      "answer": 1,
+      "explanation": "SI = P × R × T / 100 = 8000 × 6 × 3 / 100 = ₹1,440.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-013",
+      "section": "gt",
+      "topic": "Numerical Ability",
+      "difficulty": "medium",
+      "question": "The average of five numbers is 18. When one number is removed, the average of the remaining four becomes 16. What is the number that was removed?",
+      "options": [
+        "26",
+        "18",
+        "24",
+        "34"
+      ],
+      "answer": 0,
+      "explanation": "Total of five = 90 and total of four = 64, so the removed number is 90 − 64 = 26.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-014",
+      "section": "gt",
+      "topic": "Numerical Ability",
+      "difficulty": "medium",
+      "question": "A train 240 m long passes a pole in 12 seconds. What is its speed in km/h?",
+      "options": [
+        "20 km/h",
+        "60 km/h",
+        "80 km/h",
+        "72 km/h"
+      ],
+      "answer": 3,
+      "explanation": "Speed = 240 ÷ 12 = 20 m/s, and 20 × 18/5 = 72 km/h.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-015",
+      "section": "gt",
+      "topic": "Numerical Ability",
+      "difficulty": "easy",
+      "question": "An article bought for ₹600 is sold for ₹690. What is the profit percentage?",
+      "options": [
+        "13%",
+        "9%",
+        "18%",
+        "15%"
+      ],
+      "answer": 3,
+      "explanation": "Profit = ₹90, and 90 ÷ 600 × 100 = 15%.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-016",
+      "section": "gt",
+      "topic": "Numerical Ability",
+      "difficulty": "medium",
+      "question": "If A : B = 3 : 4 and B : C = 6 : 5, what is A : B : C?",
+      "options": [
+        "18 : 24 : 25",
+        "9 : 12 : 10",
+        "6 : 8 : 5",
+        "3 : 4 : 5"
+      ],
+      "answer": 1,
+      "explanation": "Make B common: A : B = 18 : 24 and B : C = 24 : 20, so A : B : C = 18 : 24 : 20 = 9 : 12 : 10.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-017",
+      "section": "gt",
+      "topic": "Quantitative Reasoning",
+      "difficulty": "medium",
+      "question": "If x + 1/x = 4, what is the value of x² + 1/x²?",
+      "options": [
+        "16",
+        "12",
+        "18",
+        "14"
+      ],
+      "answer": 3,
+      "explanation": "(x + 1/x)² = x² + 2 + 1/x², so x² + 1/x² = 16 − 2 = 14.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-018",
+      "section": "gt",
+      "topic": "Quantitative Reasoning",
+      "difficulty": "easy",
+      "question": "The circumference of a circle is 44 cm. What is its area? (Take π = 22/7.)",
+      "options": [
+        "308 cm²",
+        "88 cm²",
+        "154 cm²",
+        "616 cm²"
+      ],
+      "answer": 2,
+      "explanation": "2πr = 44 gives r = 7 cm, so the area is (22/7) × 49 = 154 cm².",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-019",
+      "section": "gt",
+      "topic": "Quantitative Reasoning",
+      "difficulty": "easy",
+      "question": "What is the mode of the data 3, 5, 7, 5, 9, 5, 7?",
+      "options": [
+        "5",
+        "9",
+        "3",
+        "7"
+      ],
+      "answer": 0,
+      "explanation": "5 occurs three times, more often than any other value.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-020",
+      "section": "gt",
+      "topic": "Quantitative Reasoning",
+      "difficulty": "medium",
+      "question": "How many cubes of edge 2 cm can be packed into a closed box with inner dimensions 10 cm × 8 cm × 6 cm?",
+      "options": [
+        "60",
+        "40",
+        "480",
+        "120"
+      ],
+      "answer": 0,
+      "explanation": "(10/2) × (8/2) × (6/2) = 5 × 4 × 3 = 60.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-021",
+      "section": "gt",
+      "topic": "Quantitative Reasoning",
+      "difficulty": "medium",
+      "question": "What is the smallest number that must be added to 1000 to make it exactly divisible by 37?",
+      "options": [
+        "26",
+        "1",
+        "11",
+        "36"
+      ],
+      "answer": 3,
+      "explanation": "37 × 27 = 999, so 1000 leaves a remainder of 1. Adding 37 − 1 = 36 gives 1036 = 37 × 28.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-022",
+      "section": "gt",
+      "topic": "Logical & Analytical Reasoning",
+      "difficulty": "easy",
+      "question": "Find the next number in the series: 4, 9, 19, 39, 79, ?",
+      "options": [
+        "159",
+        "149",
+        "160",
+        "158"
+      ],
+      "answer": 0,
+      "explanation": "Each term is (previous × 2) + 1, so 79 × 2 + 1 = 159.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-023",
+      "section": "gt",
+      "topic": "Logical & Analytical Reasoning",
+      "difficulty": "easy",
+      "question": "In a certain code, TEACHER is written as VGCEJGT. How is STUDENT written in that code?",
+      "options": [
+        "UVWFGPV",
+        "TUVEFOU",
+        "UVWFGOV",
+        "UVWEGPV"
+      ],
+      "answer": 0,
+      "explanation": "Each letter moves two places forward (T→V, E→G, …). So S→U, T→V, U→W, D→F, E→G, N→P, T→V, giving UVWFGPV.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-024",
+      "section": "gt",
+      "topic": "Logical & Analytical Reasoning",
+      "difficulty": "medium",
+      "question": "A is B's sister. C is B's mother. D is C's father. E is D's mother. How is A related to D?",
+      "options": [
+        "Granddaughter",
+        "Niece",
+        "Grandmother",
+        "Daughter"
+      ],
+      "answer": 0,
+      "explanation": "A is a daughter of C (B's mother), and C is D's child. So A is D's granddaughter.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-025",
+      "section": "gt",
+      "topic": "Logical & Analytical Reasoning",
+      "difficulty": "medium",
+      "question": "Riya walks 10 m north, turns right and walks 6 m, then turns right again and walks 18 m. How far is she now from her starting point?",
+      "options": [
+        "8 m",
+        "14 m",
+        "10 m",
+        "34 m"
+      ],
+      "answer": 2,
+      "explanation": "She ends 6 m east and 18 − 10 = 8 m south of the start. Distance = √(6² + 8²) = 10 m.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-026",
+      "section": "gt",
+      "topic": "Logical & Analytical Reasoning",
+      "difficulty": "medium",
+      "question": "Statements: All roses are flowers. Some flowers are red.\nConclusions: I. Some flowers are roses. II. Some roses are red.\nWhich conclusion(s) follow?",
+      "options": [
+        "Neither conclusion I nor II follows",
+        "Only conclusion II follows",
+        "Both conclusions I and II follow",
+        "Only conclusion I follows"
+      ],
+      "answer": 3,
+      "explanation": "'All roses are flowers' implies that some flowers are roses, so I follows. The red flowers need not include any roses, so II does not follow.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-027",
+      "section": "gt",
+      "topic": "Logical & Analytical Reasoning",
+      "difficulty": "easy",
+      "question": "In a row of 40 students, Ravi is 12th from the left end. What is his position from the right end?",
+      "options": [
+        "29th",
+        "27th",
+        "28th",
+        "30th"
+      ],
+      "answer": 0,
+      "explanation": "Position from the right = 40 − 12 + 1 = 29.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-028",
+      "section": "gt",
+      "topic": "Logical & Analytical Reasoning",
+      "difficulty": "hard",
+      "question": "Five friends P, Q, R, S and T sit in a row facing north. S sits in the middle. Q sits immediately to the right of P. R sits at one of the ends and to the left of S. T is not at either end. Who sits at the extreme right end?",
+      "options": [
+        "R",
+        "Q",
+        "T",
+        "P"
+      ],
+      "answer": 1,
+      "explanation": "Since S is 3rd and R is at an end to the left of S, R is 1st. P and Q must be adjacent (P then Q), so they take positions 4 and 5. T fills position 2. The order is R, T, S, P, Q, so Q is at the extreme right.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-029",
+      "section": "gt",
+      "topic": "Logical & Analytical Reasoning",
+      "difficulty": "easy",
+      "question": "Find the odd one out: 121, 144, 169, 196, 210",
+      "options": [
+        "210",
+        "196",
+        "169",
+        "121"
+      ],
+      "answer": 0,
+      "explanation": "121, 144, 169 and 196 are the perfect squares 11², 12², 13² and 14². 210 is not a perfect square.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-030",
+      "section": "gt",
+      "topic": "Logical & Analytical Reasoning",
+      "difficulty": "easy",
+      "question": "Choose the number that completes the analogy: 3 : 27 :: 5 : ?",
+      "options": [
+        "75",
+        "25",
+        "125",
+        "135"
+      ],
+      "answer": 2,
+      "explanation": "27 = 3³, so the second number is the cube of the first: 5³ = 125.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-031",
+      "section": "eng",
+      "topic": "Reading Comprehension (factual, narrative, literary)",
+      "difficulty": "easy",
+      "question": "Read the passage and answer.\n\n\"Microplastics – fragments smaller than five millimetres – have now been found from the summit of Everest to the floor of the Mariana Trench. Some are manufactured at that size, such as the microbeads once common in face scrubs; most, however, are the result of larger items breaking down under sunlight and waves. Because they are so small, they are easily swallowed by plankton and fish, and they can carry toxic chemicals that cling to their surfaces. Scientists are still debating how seriously they threaten human health, partly because measuring particles this tiny in blood or tissue is technically difficult. What is not in doubt is that their quantity is rising: global plastic production has roughly doubled in two decades, and only a small fraction is recycled. Many researchers therefore argue that the most effective remedy is not better clean-up technology but producing less plastic in the first place.\"\n\nAccording to the passage, most microplastics come from:",
+      "options": [
+        "Larger plastic items breaking down under sunlight and waves",
+        "Microbeads used in face scrubs",
+        "Plastic manufactured at a very small size",
+        "Chemicals released by plankton"
+      ],
+      "answer": 0,
+      "explanation": "The passage says some are manufactured small, but 'most, however, are the result of larger items breaking down under sunlight and waves'.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-032",
+      "section": "eng",
+      "topic": "Reading Comprehension (factual, narrative, literary)",
+      "difficulty": "medium",
+      "question": "Read the passage and answer.\n\n\"Microplastics – fragments smaller than five millimetres – have now been found from the summit of Everest to the floor of the Mariana Trench. Some are manufactured at that size, such as the microbeads once common in face scrubs; most, however, are the result of larger items breaking down under sunlight and waves. Because they are so small, they are easily swallowed by plankton and fish, and they can carry toxic chemicals that cling to their surfaces. Scientists are still debating how seriously they threaten human health, partly because measuring particles this tiny in blood or tissue is technically difficult. What is not in doubt is that their quantity is rising: global plastic production has roughly doubled in two decades, and only a small fraction is recycled. Many researchers therefore argue that the most effective remedy is not better clean-up technology but producing less plastic in the first place.\"\n\nWhy is the health risk of microplastics still debated?",
+      "options": [
+        "Fish do not swallow microplastics",
+        "Plastic production has been falling",
+        "Microplastics are found only in the deep ocean",
+        "It is technically difficult to measure such tiny particles in blood or tissue"
+      ],
+      "answer": 3,
+      "explanation": "The passage explains that the debate continues 'partly because measuring particles this tiny in blood or tissue is technically difficult'.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-033",
+      "section": "eng",
+      "topic": "Reading Comprehension (factual, narrative, literary)",
+      "difficulty": "medium",
+      "question": "Read the passage and answer.\n\n\"Microplastics – fragments smaller than five millimetres – have now been found from the summit of Everest to the floor of the Mariana Trench. Some are manufactured at that size, such as the microbeads once common in face scrubs; most, however, are the result of larger items breaking down under sunlight and waves. Because they are so small, they are easily swallowed by plankton and fish, and they can carry toxic chemicals that cling to their surfaces. Scientists are still debating how seriously they threaten human health, partly because measuring particles this tiny in blood or tissue is technically difficult. What is not in doubt is that their quantity is rising: global plastic production has roughly doubled in two decades, and only a small fraction is recycled. Many researchers therefore argue that the most effective remedy is not better clean-up technology but producing less plastic in the first place.\"\n\nWhich remedy do many researchers consider the most effective?",
+      "options": [
+        "Banning face scrubs",
+        "Recycling all plastic waste in the ocean",
+        "Developing better clean-up technology",
+        "Producing less plastic in the first place"
+      ],
+      "answer": 3,
+      "explanation": "The last sentence says the most effective remedy is 'not better clean-up technology but producing less plastic in the first place'.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-034",
+      "section": "eng",
+      "topic": "Reading Comprehension (factual, narrative, literary)",
+      "difficulty": "easy",
+      "question": "Read the passage and answer.\n\n\"Microplastics – fragments smaller than five millimetres – have now been found from the summit of Everest to the floor of the Mariana Trench. Some are manufactured at that size, such as the microbeads once common in face scrubs; most, however, are the result of larger items breaking down under sunlight and waves. Because they are so small, they are easily swallowed by plankton and fish, and they can carry toxic chemicals that cling to their surfaces. Scientists are still debating how seriously they threaten human health, partly because measuring particles this tiny in blood or tissue is technically difficult. What is not in doubt is that their quantity is rising: global plastic production has roughly doubled in two decades, and only a small fraction is recycled. Many researchers therefore argue that the most effective remedy is not better clean-up technology but producing less plastic in the first place.\"\n\nThe word 'cling', as used in the passage, means:",
+      "options": [
+        "Repel",
+        "Dissolve",
+        "Evaporate",
+        "Stick closely"
+      ],
+      "answer": 3,
+      "explanation": "Chemicals that 'cling to their surfaces' stick closely to the particles.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-035",
+      "section": "eng",
+      "topic": "Reading Comprehension (factual, narrative, literary)",
+      "difficulty": "medium",
+      "question": "Read the passage and answer.\n\n\"Microplastics – fragments smaller than five millimetres – have now been found from the summit of Everest to the floor of the Mariana Trench. Some are manufactured at that size, such as the microbeads once common in face scrubs; most, however, are the result of larger items breaking down under sunlight and waves. Because they are so small, they are easily swallowed by plankton and fish, and they can carry toxic chemicals that cling to their surfaces. Scientists are still debating how seriously they threaten human health, partly because measuring particles this tiny in blood or tissue is technically difficult. What is not in doubt is that their quantity is rising: global plastic production has roughly doubled in two decades, and only a small fraction is recycled. Many researchers therefore argue that the most effective remedy is not better clean-up technology but producing less plastic in the first place.\"\n\nWhich of the following is NOT stated in the passage?",
+      "options": [
+        "Global plastic production has roughly doubled in two decades",
+        "Microplastics have been proven to cause cancer in humans",
+        "Plankton can swallow microplastics",
+        "Microplastics have been found on the summit of Everest"
+      ],
+      "answer": 1,
+      "explanation": "The passage says the health threat is still being debated, so it makes no claim that microplastics have been proven to cause cancer.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-036",
+      "section": "eng",
+      "topic": "Reading Comprehension (factual, narrative, literary)",
+      "difficulty": "easy",
+      "question": "Read the passage and answer.\n\n\"Microplastics – fragments smaller than five millimetres – have now been found from the summit of Everest to the floor of the Mariana Trench. Some are manufactured at that size, such as the microbeads once common in face scrubs; most, however, are the result of larger items breaking down under sunlight and waves. Because they are so small, they are easily swallowed by plankton and fish, and they can carry toxic chemicals that cling to their surfaces. Scientists are still debating how seriously they threaten human health, partly because measuring particles this tiny in blood or tissue is technically difficult. What is not in doubt is that their quantity is rising: global plastic production has roughly doubled in two decades, and only a small fraction is recycled. Many researchers therefore argue that the most effective remedy is not better clean-up technology but producing less plastic in the first place.\"\n\nThe tone of the passage is best described as:",
+      "options": [
+        "Humorous and light-hearted",
+        "Nostalgic and sentimental",
+        "Sarcastic and mocking",
+        "Informative and cautionary"
+      ],
+      "answer": 3,
+      "explanation": "The passage presents facts objectively and warns about a growing problem.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-037",
+      "section": "eng",
+      "topic": "Reading Comprehension (factual, narrative, literary)",
+      "difficulty": "easy",
+      "question": "Read the passage and answer.\n\n\"When Meera's grandfather retired from the railways, he did something no one expected: he bought an old harmonium and enrolled in a music class full of ten-year-olds. The children giggled at first when the white-haired man fumbled with the simplest scales. He laughed along with them. Every evening, while the rest of the family watched television, the slow, wheezing notes of 'Sa Re Ga Ma' drifted from his room. Meera, embarrassed, once asked him why he bothered at his age. 'For forty years,' he said, 'I made sure trains arrived on time. Now I want to arrive somewhere myself.' Two winters later, at the colony's annual function, he played a full raga without a single mistake. Meera, sitting in the front row, was the first to stand up and clap.\"\n\nWhat did Meera's grandfather do after retiring?",
+      "options": [
+        "He started teaching music to children",
+        "He began organising the colony's annual function",
+        "He took a job at the railway station",
+        "He bought a harmonium and joined a music class"
+      ],
+      "answer": 3,
+      "explanation": "The opening sentence says he bought an old harmonium and enrolled in a music class full of ten-year-olds.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-038",
+      "section": "eng",
+      "topic": "Reading Comprehension (factual, narrative, literary)",
+      "difficulty": "easy",
+      "question": "Read the passage and answer.\n\n\"When Meera's grandfather retired from the railways, he did something no one expected: he bought an old harmonium and enrolled in a music class full of ten-year-olds. The children giggled at first when the white-haired man fumbled with the simplest scales. He laughed along with them. Every evening, while the rest of the family watched television, the slow, wheezing notes of 'Sa Re Ga Ma' drifted from his room. Meera, embarrassed, once asked him why he bothered at his age. 'For forty years,' he said, 'I made sure trains arrived on time. Now I want to arrive somewhere myself.' Two winters later, at the colony's annual function, he played a full raga without a single mistake. Meera, sitting in the front row, was the first to stand up and clap.\"\n\nHow did the grandfather react when the children giggled at him?",
+      "options": [
+        "He complained to the teacher",
+        "He laughed along with them",
+        "He left the class in anger",
+        "He stopped practising at home"
+      ],
+      "answer": 1,
+      "explanation": "The passage states simply: 'He laughed along with them.'",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-039",
+      "section": "eng",
+      "topic": "Reading Comprehension (factual, narrative, literary)",
+      "difficulty": "medium",
+      "question": "Read the passage and answer.\n\n\"When Meera's grandfather retired from the railways, he did something no one expected: he bought an old harmonium and enrolled in a music class full of ten-year-olds. The children giggled at first when the white-haired man fumbled with the simplest scales. He laughed along with them. Every evening, while the rest of the family watched television, the slow, wheezing notes of 'Sa Re Ga Ma' drifted from his room. Meera, embarrassed, once asked him why he bothered at his age. 'For forty years,' he said, 'I made sure trains arrived on time. Now I want to arrive somewhere myself.' Two winters later, at the colony's annual function, he played a full raga without a single mistake. Meera, sitting in the front row, was the first to stand up and clap.\"\n\nWhat does the grandfather mean by 'Now I want to arrive somewhere myself'?",
+      "options": [
+        "He wants to move out of his family's house",
+        "He wants to be on time for his music class",
+        "He wants to travel by train to a new city",
+        "He wants to achieve a personal goal of his own after years of serving others"
+      ],
+      "answer": 3,
+      "explanation": "He contrasts making trains arrive on time for others with reaching a destination of his own, here a personal goal in music. It is a metaphor.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-040",
+      "section": "eng",
+      "topic": "Reading Comprehension (factual, narrative, literary)",
+      "difficulty": "medium",
+      "question": "Read the passage and answer.\n\n\"When Meera's grandfather retired from the railways, he did something no one expected: he bought an old harmonium and enrolled in a music class full of ten-year-olds. The children giggled at first when the white-haired man fumbled with the simplest scales. He laughed along with them. Every evening, while the rest of the family watched television, the slow, wheezing notes of 'Sa Re Ga Ma' drifted from his room. Meera, embarrassed, once asked him why he bothered at his age. 'For forty years,' he said, 'I made sure trains arrived on time. Now I want to arrive somewhere myself.' Two winters later, at the colony's annual function, he played a full raga without a single mistake. Meera, sitting in the front row, was the first to stand up and clap.\"\n\nHow do Meera's feelings towards her grandfather's hobby change during the passage?",
+      "options": [
+        "From fear to relief",
+        "From embarrassment to pride",
+        "From pride to embarrassment",
+        "From indifference to anger"
+      ],
+      "answer": 1,
+      "explanation": "At first she is 'embarrassed', but at the end she is the first to stand up and clap, which shows pride and admiration.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-041",
+      "section": "eng",
+      "topic": "Reading Comprehension (factual, narrative, literary)",
+      "difficulty": "medium",
+      "question": "Read the passage and answer.\n\n\"When Meera's grandfather retired from the railways, he did something no one expected: he bought an old harmonium and enrolled in a music class full of ten-year-olds. The children giggled at first when the white-haired man fumbled with the simplest scales. He laughed along with them. Every evening, while the rest of the family watched television, the slow, wheezing notes of 'Sa Re Ga Ma' drifted from his room. Meera, embarrassed, once asked him why he bothered at his age. 'For forty years,' he said, 'I made sure trains arrived on time. Now I want to arrive somewhere myself.' Two winters later, at the colony's annual function, he played a full raga without a single mistake. Meera, sitting in the front row, was the first to stand up and clap.\"\n\nThe 'wheezing' notes of the harmonium are best described as:",
+      "options": [
+        "Loud and triumphant",
+        "Fast and lively",
+        "Breathy and laboured",
+        "Sweet and clear"
+      ],
+      "answer": 2,
+      "explanation": "Wheezing suggests a breathy, strained sound, which suits a beginner on an old harmonium.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-042",
+      "section": "eng",
+      "topic": "Reading Comprehension (factual, narrative, literary)",
+      "difficulty": "easy",
+      "question": "Read the passage and answer.\n\n\"When Meera's grandfather retired from the railways, he did something no one expected: he bought an old harmonium and enrolled in a music class full of ten-year-olds. The children giggled at first when the white-haired man fumbled with the simplest scales. He laughed along with them. Every evening, while the rest of the family watched television, the slow, wheezing notes of 'Sa Re Ga Ma' drifted from his room. Meera, embarrassed, once asked him why he bothered at his age. 'For forty years,' he said, 'I made sure trains arrived on time. Now I want to arrive somewhere myself.' Two winters later, at the colony's annual function, he played a full raga without a single mistake. Meera, sitting in the front row, was the first to stand up and clap.\"\n\nWhich is the most suitable title for the passage?",
+      "options": [
+        "Children Who Giggle",
+        "Never Too Late",
+        "The Railway Timetable",
+        "A Noisy Television"
+      ],
+      "answer": 1,
+      "explanation": "The story shows a retired man successfully learning music late in life.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-043",
+      "section": "eng",
+      "topic": "Vocabulary: Synonyms, Antonyms & Word Usage",
+      "difficulty": "easy",
+      "question": "Choose the word most similar in meaning to BENEVOLENT.",
+      "options": [
+        "Timid",
+        "Kind-hearted",
+        "Greedy",
+        "Hostile"
+      ],
+      "answer": 1,
+      "explanation": "Benevolent means well-meaning and kindly.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-044",
+      "section": "eng",
+      "topic": "Vocabulary: Synonyms, Antonyms & Word Usage",
+      "difficulty": "easy",
+      "question": "Choose the word most opposite in meaning to SCARCE.",
+      "options": [
+        "Rare",
+        "Abundant",
+        "Insufficient",
+        "Meagre"
+      ],
+      "answer": 1,
+      "explanation": "Scarce means in short supply, so its opposite is abundant. Rare, meagre and insufficient are near-synonyms of scarce.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-045",
+      "section": "eng",
+      "topic": "Vocabulary: Synonyms, Antonyms & Word Usage",
+      "difficulty": "easy",
+      "question": "Choose the word most similar in meaning to METICULOUS.",
+      "options": [
+        "Careless",
+        "Vague",
+        "Hasty",
+        "Painstaking"
+      ],
+      "answer": 3,
+      "explanation": "Meticulous means showing great attention to detail, that is, painstaking.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-046",
+      "section": "eng",
+      "topic": "Vocabulary: Synonyms, Antonyms & Word Usage",
+      "difficulty": "medium",
+      "question": "Choose the word most opposite in meaning to CANDID.",
+      "options": [
+        "Open",
+        "Frank",
+        "Evasive",
+        "Honest"
+      ],
+      "answer": 2,
+      "explanation": "Candid means frank and open, so its opposite is evasive.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-047",
+      "section": "eng",
+      "topic": "Vocabulary: Synonyms, Antonyms & Word Usage",
+      "difficulty": "easy",
+      "question": "Choose the correctly spelt word.",
+      "options": [
+        "Accomodation",
+        "Acommodation",
+        "Acomodation",
+        "Accommodation"
+      ],
+      "answer": 3,
+      "explanation": "The correct spelling has a double 'c' and a double 'm': accommodation.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-048",
+      "section": "eng",
+      "topic": "Vocabulary: Synonyms, Antonyms & Word Usage",
+      "difficulty": "easy",
+      "question": "Choose the correct word to fill the blank: \"The new rules will ______ all employees from next month.\"",
+      "options": [
+        "affection",
+        "effects",
+        "affect",
+        "effect"
+      ],
+      "answer": 2,
+      "explanation": "'Affect' is the verb meaning to influence. 'Effect' is usually a noun, or as a verb it means to bring about.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-049",
+      "section": "eng",
+      "topic": "Grammar: Error Detection, Fill-ups, Voice & Narration",
+      "difficulty": "medium",
+      "question": "Identify the part of the sentence that contains an error: \"Each of the boys / have finished / his homework / on time.\"",
+      "options": [
+        "on time",
+        "have finished",
+        "his homework",
+        "Each of the boys"
+      ],
+      "answer": 1,
+      "explanation": "'Each' is singular, so the verb must be 'has finished'.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-050",
+      "section": "eng",
+      "topic": "Grammar: Error Detection, Fill-ups, Voice & Narration",
+      "difficulty": "easy",
+      "question": "Fill in the blank: \"She has been living in Pune ______ 2019.\"",
+      "options": [
+        "by",
+        "for",
+        "since",
+        "from"
+      ],
+      "answer": 2,
+      "explanation": "'Since' is used with a point in time in the perfect continuous tense. 'For' is used with a period of time.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-051",
+      "section": "eng",
+      "topic": "Grammar: Error Detection, Fill-ups, Voice & Narration",
+      "difficulty": "medium",
+      "question": "Choose the correct passive form of: \"The committee will announce the results tomorrow.\"",
+      "options": [
+        "The results would be announced by the committee tomorrow.",
+        "The results are announced by the committee tomorrow.",
+        "The results will be announced by the committee tomorrow.",
+        "The results will announced by the committee tomorrow."
+      ],
+      "answer": 2,
+      "explanation": "Simple future passive = will be + past participle, so 'will be announced'.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-052",
+      "section": "eng",
+      "topic": "Grammar: Error Detection, Fill-ups, Voice & Narration",
+      "difficulty": "easy",
+      "question": "Choose the correct indirect speech of: He said, \"I am tired.\"",
+      "options": [
+        "He says that he was tired.",
+        "He said that I was tired.",
+        "He said that he was tired.",
+        "He said that he will be tired."
+      ],
+      "answer": 2,
+      "explanation": "With a past reporting verb, the present 'am' becomes 'was' and 'I' becomes 'he'.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-053",
+      "section": "eng",
+      "topic": "Grammar: Error Detection, Fill-ups, Voice & Narration",
+      "difficulty": "easy",
+      "question": "Fill in the blank: \"He is ______ honest man.\"",
+      "options": [
+        "no article needed",
+        "a",
+        "an",
+        "the"
+      ],
+      "answer": 2,
+      "explanation": "'Honest' begins with a vowel sound (the 'h' is silent), so it takes 'an'.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-054",
+      "section": "eng",
+      "topic": "Grammar: Error Detection, Fill-ups, Voice & Narration",
+      "difficulty": "medium",
+      "question": "Fill in the blank: \"He is senior ______ me by two years.\"",
+      "options": [
+        "to",
+        "from",
+        "than",
+        "over"
+      ],
+      "answer": 0,
+      "explanation": "Latin-origin comparatives such as senior, junior, superior and inferior take 'to', not 'than'.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-055",
+      "section": "eng",
+      "topic": "Grammar: Error Detection, Fill-ups, Voice & Narration",
+      "difficulty": "medium",
+      "question": "Fill in the blank: \"If I ______ you, I would apologise at once.\"",
+      "options": [
+        "will be",
+        "were",
+        "had",
+        "am"
+      ],
+      "answer": 1,
+      "explanation": "Hypothetical (second) conditionals use the subjunctive 'were' for all persons: 'If I were you…'.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-056",
+      "section": "eng",
+      "topic": "Sentence Rearrangement",
+      "difficulty": "medium",
+      "question": "Arrange the parts to form a meaningful sentence:\nP: the old library\nQ: was finally reopened\nR: after years of renovation\nS: in the town centre",
+      "options": [
+        "SQPR",
+        "PSQR",
+        "QRSP",
+        "QPSR"
+      ],
+      "answer": 1,
+      "explanation": "'The old library (P) in the town centre (S) was finally reopened (Q) after years of renovation (R).'",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-057",
+      "section": "eng",
+      "topic": "Sentence Rearrangement",
+      "difficulty": "medium",
+      "question": "The first sentence is given. Arrange P, Q, R and S to form a coherent paragraph.\n1. Ravi woke up an hour late.\nP: He ran all the way to the station.\nQ: But the train had already left.\nR: Skipping breakfast, he grabbed his bag.\nS: Disappointed, he waited an hour for the next one.",
+      "options": [
+        "RQPS",
+        "PRQS",
+        "QRPS",
+        "RPQS"
+      ],
+      "answer": 3,
+      "explanation": "He grabs his bag (R), runs to the station (P), finds the train gone (Q), and waits for the next one (S).",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-058",
+      "section": "eng",
+      "topic": "Idioms, Phrases & One-word Substitution",
+      "difficulty": "easy",
+      "question": "Choose the meaning of the idiom 'to burn the midnight oil'.",
+      "options": [
+        "To cook food late at night",
+        "To waste money carelessly",
+        "To work or study late into the night",
+        "To start a quarrel"
+      ],
+      "answer": 2,
+      "explanation": "'Burning the midnight oil' means staying up late working or studying.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-059",
+      "section": "eng",
+      "topic": "Idioms, Phrases & One-word Substitution",
+      "difficulty": "easy",
+      "question": "Choose the meaning of the phrase 'a blessing in disguise'.",
+      "options": [
+        "Something that seems bad at first but turns out to be good",
+        "A person who pretends to be religious",
+        "A reward that comes too late",
+        "A gift given secretly"
+      ],
+      "answer": 0,
+      "explanation": "A blessing in disguise is an apparent misfortune that later proves beneficial.",
+      "verified": true
+    },
+    {
+      "id": "cuet-ug-060",
+      "section": "eng",
+      "topic": "Idioms, Phrases & One-word Substitution",
+      "difficulty": "easy",
+      "question": "Choose the one word for: 'a person who can speak many languages'.",
+      "options": [
+        "Philanthropist",
+        "Polyglot",
+        "Bibliophile",
+        "Misanthrope"
+      ],
+      "answer": 1,
+      "explanation": "A polyglot knows many languages. A philanthropist helps others, a misanthrope dislikes people, and a bibliophile loves books.",
+      "verified": true
+    }
+  ]
+}

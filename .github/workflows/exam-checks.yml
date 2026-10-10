@@ -1,0 +1,25 @@
+name: MockPariksha checks
+
+on:
+  pull_request:
+    paths: ['exam/**', '.github/workflows/exam-checks.yml']
+  push:
+    branches: [main]
+    paths: ['exam/**']
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Unit tests (test engine, scoring, free/paid access)
+        run: node --test exam/test/*.test.mjs
+      - name: Proof-reading checks on every exam's question bank
+        run: node exam/data/validate.mjs
+      - name: catalog.json is up to date
+        run: |
+          node exam/data/build-catalog.mjs
+          git diff --quiet -I '"generatedAt"' -- exam/data/catalog.json || { echo "::error::Run 'node exam/data/build-catalog.mjs' and commit catalog.json"; exit 1; }

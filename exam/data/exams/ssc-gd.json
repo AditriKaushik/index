@@ -1,0 +1,1355 @@
+{
+  "id": "ssc-gd",
+  "name": "SSC GD Constable",
+  "fullName": "Staff Selection Commission – Constable (GD) in CAPFs, SSF, Assam Rifles (Rifleman GD) and NCB (Sepoy) Examination",
+  "nameHi": "एसएससी जीडी कांस्टेबल",
+  "category": "ssc",
+  "conductingBody": "Staff Selection Commission",
+  "officialSite": "https://ssc.gov.in",
+  "level": "national",
+  "frequency": "Once a year",
+  "approxCandidates": "≈45–50 lakh+ applicants in recent cycles (approx.)",
+  "eligibility": "Class 10 (matriculation) pass; 18–23 years (with category relaxations); physical standards and PET apply",
+  "notification": {
+    "status": "expected",
+    "summary": "The SSC calendar scheduled the GD Constable 2027 notification for 30 Sep 2026 with applications into October and the CBT in Jan–Mar 2027; as of 10 Oct 2026 its release could not be confirmed (reports suggest it may slip into October). The previous (2026) cycle had ≈25,487 tentative vacancies.",
+    "importantDates": [
+      {
+        "event": "Notification (as per SSC calendar)",
+        "date": "30 Sep 2026 (release not confirmed at check time)"
+      },
+      {
+        "event": "Last date to apply",
+        "date": "≈end Oct 2026 (tentative, to be confirmed)"
+      },
+      {
+        "event": "Computer Based Examination",
+        "date": "Jan – Mar 2027 (tentative)"
+      },
+      {
+        "event": "PET/PST, DME",
+        "date": "After CBT result (to be announced)"
+      }
+    ],
+    "source": "https://www.pw.live/ssc/exams/ssc-gd-2027-notification (secondary report of SSC calendar; official notices at https://ssc.gov.in)",
+    "checkedOn": "2026-10-10"
+  },
+  "pattern": {
+    "stage": "Computer Based Examination",
+    "mode": "CBT",
+    "durationMinutes": 60,
+    "totalQuestions": 80,
+    "totalMarks": 160,
+    "marking": {
+      "correct": 2,
+      "wrong": -0.25,
+      "unattempted": 0
+    },
+    "sections": [
+      {
+        "id": "reasoning",
+        "name": "General Intelligence & Reasoning",
+        "questions": 20,
+        "marks": 40
+      },
+      {
+        "id": "gk",
+        "name": "General Knowledge & General Awareness",
+        "questions": 20,
+        "marks": 40
+      },
+      {
+        "id": "maths",
+        "name": "Elementary Mathematics",
+        "questions": 20,
+        "marks": 40
+      },
+      {
+        "id": "english",
+        "name": "English / Hindi",
+        "questions": 20,
+        "marks": 40
+      }
+    ],
+    "notes": "Candidates choose English or Hindi for Part D. Questions are at matriculation level; the paper is available in English, Hindi and 13 regional languages. NCC certificate holders get bonus marks. Normalisation applies across shifts. This mock uses the English option for Part D."
+  },
+  "trendAnalysis": {
+    "yearsAnalyzed": [
+      2024,
+      2025,
+      2026
+    ],
+    "summary": "GD is the easiest SSC CBT, but with ~50 lakh applicants the cut-offs are high, so accuracy matters. Reasoning focuses on analogy, classification, series, coding, directions, blood relations and a few figure questions. Elementary Maths is arithmetic: number system, percentage, profit & loss, ratio, average, time-work, speed and basic mensuration. GK is static – history, polity, geography, science, culture and sports – with only a handful of current-affairs questions. English tests basic vocabulary and grammar plus a short passage.",
+    "topics": [
+      {
+        "section": "reasoning",
+        "topic": "Analogy",
+        "weightage": 15,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Classification",
+        "weightage": 15,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Number & Letter Series",
+        "weightage": 15,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Coding-Decoding",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Blood Relations",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Direction Sense",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Mathematical Operations",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Order & Ranking",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Missing Number",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Calendar & Clock",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Non-verbal (Mirror, Paper Folding, Figures)",
+        "weightage": 15,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "gk",
+        "topic": "History",
+        "weightage": 18,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "gk",
+        "topic": "Polity",
+        "weightage": 16,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "gk",
+        "topic": "Geography",
+        "weightage": 15,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "gk",
+        "topic": "Economy",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "gk",
+        "topic": "Physics",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "gk",
+        "topic": "Chemistry",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "gk",
+        "topic": "Biology",
+        "weightage": 8,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "gk",
+        "topic": "Art & Culture",
+        "weightage": 8,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "gk",
+        "topic": "Sports",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "gk",
+        "topic": "Defence & Static GK",
+        "weightage": 6,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "gk",
+        "topic": "Current Affairs",
+        "weightage": 6,
+        "trend": "falling",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Number System",
+        "weightage": 15,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "maths",
+        "topic": "HCF & LCM",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "maths",
+        "topic": "Simplification",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "maths",
+        "topic": "Percentage",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "maths",
+        "topic": "Profit & Loss",
+        "weightage": 15,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Simple & Compound Interest",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Ratio & Proportion",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "maths",
+        "topic": "Average",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "maths",
+        "topic": "Time & Work",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Time, Speed & Distance",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Mensuration",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "english",
+        "topic": "Synonyms",
+        "weightage": 12,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "english",
+        "topic": "Antonyms",
+        "weightage": 12,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "english",
+        "topic": "Idioms & Phrases",
+        "weightage": 8,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "english",
+        "topic": "One-word Substitution",
+        "weightage": 8,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "english",
+        "topic": "Spelling Correction",
+        "weightage": 8,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "english",
+        "topic": "Error Spotting",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "english",
+        "topic": "Fill in the Blanks",
+        "weightage": 16,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "english",
+        "topic": "Active & Passive Voice",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "english",
+        "topic": "Reading Comprehension",
+        "weightage": 15,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "english",
+        "topic": "Cloze Test",
+        "weightage": 7,
+        "trend": "stable",
+        "difficulty": "easy"
+      }
+    ]
+  },
+  "resources": {
+    "pyqAvailable": true,
+    "officialPYQ": "https://ssc.gov.in",
+    "officialMock": null,
+    "notes": "SSC releases tentative answer keys with each candidate's response sheet on ssc.gov.in after the CBT for a limited period; final keys are published after results. There is no permanent official PYQ archive; memory-based papers come from coaching sites."
+  },
+  "questions": [
+    {
+      "id": "ssc-gd-001",
+      "section": "reasoning",
+      "topic": "Analogy",
+      "difficulty": "easy",
+      "question": "Select the option that is related to the third word in the same way as the second word is related to the first.\nEye : See :: Tongue : ?",
+      "options": [
+        "Taste",
+        "Smell",
+        "Hear",
+        "Touch"
+      ],
+      "answer": 0,
+      "explanation": "The eye is used to see; the tongue is used to taste.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-002",
+      "section": "reasoning",
+      "topic": "Analogy",
+      "difficulty": "easy",
+      "question": "Select the number that is related to the third number in the same way as the second is related to the first.\n6 : 36 :: 7 : ?",
+      "options": [
+        "42",
+        "56",
+        "48",
+        "49"
+      ],
+      "answer": 3,
+      "explanation": "36 = 6². So 7² = 49.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-003",
+      "section": "reasoning",
+      "topic": "Classification",
+      "difficulty": "easy",
+      "question": "Select the odd one out.",
+      "options": [
+        "Triangle",
+        "Square",
+        "Circle",
+        "Rectangle"
+      ],
+      "answer": 2,
+      "explanation": "Triangle, square and rectangle are polygons with straight sides; a circle has no straight sides.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-004",
+      "section": "reasoning",
+      "topic": "Classification",
+      "difficulty": "medium",
+      "question": "Select the number that does not belong to the group.",
+      "options": [
+        "100",
+        "8",
+        "27",
+        "64"
+      ],
+      "answer": 0,
+      "explanation": "8 = 2³, 27 = 3³ and 64 = 4³ are perfect cubes; 100 is not.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-005",
+      "section": "reasoning",
+      "topic": "Number & Letter Series",
+      "difficulty": "easy",
+      "question": "Select the number that will come next in the series.\n1, 4, 9, 16, 25, ?",
+      "options": [
+        "30",
+        "35",
+        "49",
+        "36"
+      ],
+      "answer": 3,
+      "explanation": "Squares of 1, 2, 3, 4, 5 … next is 6² = 36.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-006",
+      "section": "reasoning",
+      "topic": "Number & Letter Series",
+      "difficulty": "medium",
+      "question": "Select the number that will come next in the series.\n7, 10, 16, 25, 37, ?",
+      "options": [
+        "50",
+        "52",
+        "49",
+        "55"
+      ],
+      "answer": 1,
+      "explanation": "Differences: 3, 6, 9, 12, so next difference is 15: 37 + 15 = 52.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-007",
+      "section": "reasoning",
+      "topic": "Number & Letter Series",
+      "difficulty": "medium",
+      "question": "Select the letter that will come next in the series.\nZ, X, U, Q, ?",
+      "options": [
+        "M",
+        "K",
+        "L",
+        "N"
+      ],
+      "answer": 2,
+      "explanation": "Positions 26, 24, 21, 17 (−2, −3, −4). Next −5 → 12 = L.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-008",
+      "section": "reasoning",
+      "topic": "Coding-Decoding",
+      "difficulty": "medium",
+      "question": "If FISH is written as GJTI in a certain code, how will BIRD be written in that code?",
+      "options": [
+        "CJSF",
+        "CJSE",
+        "AHQC",
+        "CKSE"
+      ],
+      "answer": 1,
+      "explanation": "Each letter moves one place forward: B→C, I→J, R→S, D→E.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-009",
+      "section": "reasoning",
+      "topic": "Coding-Decoding",
+      "difficulty": "medium",
+      "question": "In a certain code language, 'sky is blue' is written as 'ta na pa' and 'blue ink pot' is written as 'ka ta ri'. What is the code for 'blue'?",
+      "options": [
+        "na",
+        "pa",
+        "ta",
+        "ka"
+      ],
+      "answer": 2,
+      "explanation": "'blue' is the only word common to both sentences, and 'ta' is the only code common to both. So blue = ta.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-010",
+      "section": "reasoning",
+      "topic": "Blood Relations",
+      "difficulty": "medium",
+      "question": "R is a woman. P is the sister of Q, and Q is the son of R. How is R related to P?",
+      "options": [
+        "Mother",
+        "Aunt",
+        "Sister",
+        "Grandmother"
+      ],
+      "answer": 0,
+      "explanation": "Q is R's son and P is Q's sister, so P is also R's child. R is a woman, so R is P's mother.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-011",
+      "section": "reasoning",
+      "topic": "Direction Sense",
+      "difficulty": "medium",
+      "question": "Sunil is facing South. He turns left and then turns left again. Which direction is he facing now?",
+      "options": [
+        "South",
+        "East",
+        "West",
+        "North"
+      ],
+      "answer": 3,
+      "explanation": "Facing South, a left turn faces East; another left turn faces North.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-012",
+      "section": "reasoning",
+      "topic": "Mathematical Operations",
+      "difficulty": "medium",
+      "question": "If '+' means '−' and '−' means '+', what is the value of 25 + 10 − 5?",
+      "options": [
+        "30",
+        "10",
+        "40",
+        "20"
+      ],
+      "answer": 3,
+      "explanation": "25 − 10 + 5 = 20.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-013",
+      "section": "reasoning",
+      "topic": "Order & Ranking",
+      "difficulty": "easy",
+      "question": "In a row of 25 children, Raju is 10th from the left end. What is his position from the right end?",
+      "options": [
+        "16th",
+        "15th",
+        "14th",
+        "17th"
+      ],
+      "answer": 0,
+      "explanation": "25 − 10 + 1 = 16.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-014",
+      "section": "reasoning",
+      "topic": "Missing Number",
+      "difficulty": "hard",
+      "question": "Select the number that will come in place of the question mark (?).\n3, 6, 18, 72, ?",
+      "options": [
+        "288",
+        "360",
+        "432",
+        "216"
+      ],
+      "answer": 1,
+      "explanation": "Multiply by 2, 3, 4, then 5: 72 × 5 = 360.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-015",
+      "section": "reasoning",
+      "topic": "Calendar & Clock",
+      "difficulty": "hard",
+      "question": "How many times do the hour hand and the minute hand of a clock coincide in a day (24 hours)?",
+      "options": [
+        "24",
+        "23",
+        "22",
+        "44"
+      ],
+      "answer": 2,
+      "explanation": "The hands coincide once every 12/11 hours (≈65 5/11 minutes), i.e. 11 times in 12 hours, so 22 times in 24 hours.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-016",
+      "section": "gk",
+      "topic": "History",
+      "difficulty": "easy",
+      "question": "Who gave the slogan 'Do or Die' during the Quit India Movement?",
+      "options": [
+        "Subhas Chandra Bose",
+        "Mahatma Gandhi",
+        "Jawaharlal Nehru",
+        "Bhagat Singh"
+      ],
+      "answer": 1,
+      "explanation": "Gandhiji gave the call 'Do or Die' in his Quit India speech at Gowalia Tank, Bombay, on 8 August 1942.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-017",
+      "section": "gk",
+      "topic": "History",
+      "difficulty": "medium",
+      "question": "The First Battle of Panipat (1526) was fought between Babur and:",
+      "options": [
+        "Ibrahim Lodi",
+        "Rana Sanga",
+        "Hemu",
+        "Sher Shah Suri"
+      ],
+      "answer": 0,
+      "explanation": "Babur defeated Ibrahim Lodi in 1526, founding the Mughal Empire. Rana Sanga was defeated at Khanwa (1527).",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-018",
+      "section": "gk",
+      "topic": "History",
+      "difficulty": "medium",
+      "question": "Who founded the Arya Samaj?",
+      "options": [
+        "Raja Ram Mohan Roy",
+        "Swami Vivekananda",
+        "Swami Dayanand Saraswati",
+        "Keshab Chandra Sen"
+      ],
+      "answer": 2,
+      "explanation": "Swami Dayanand Saraswati founded the Arya Samaj in Bombay in 1875. Raja Ram Mohan Roy founded the Brahmo Samaj.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-019",
+      "section": "gk",
+      "topic": "Polity",
+      "difficulty": "easy",
+      "question": "Who is the Supreme Commander of the Indian Armed Forces?",
+      "options": [
+        "The Prime Minister",
+        "The Defence Minister",
+        "The Chief of Defence Staff",
+        "The President of India"
+      ],
+      "answer": 3,
+      "explanation": "Under Article 53(2), the supreme command of the Defence Forces is vested in the President.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-020",
+      "section": "gk",
+      "topic": "Polity",
+      "difficulty": "medium",
+      "question": "On which date was the Constitution of India adopted by the Constituent Assembly?",
+      "options": [
+        "26 January 1950",
+        "15 August 1947",
+        "26 November 1949",
+        "9 December 1946"
+      ],
+      "answer": 2,
+      "explanation": "The Constitution was adopted on 26 November 1949 (celebrated as Constitution Day) and came into force on 26 January 1950.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-021",
+      "section": "gk",
+      "topic": "Polity",
+      "difficulty": "hard",
+      "question": "How many Schedules are there in the Constitution of India at present?",
+      "options": [
+        "8",
+        "12",
+        "10",
+        "14"
+      ],
+      "answer": 1,
+      "explanation": "The original Constitution had 8 Schedules; there are 12 now (the 12th was added by the 74th Amendment, 1992).",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-022",
+      "section": "gk",
+      "topic": "Polity",
+      "difficulty": "hard",
+      "question": "Which Article of the Constitution of India provides for the Election Commission?",
+      "options": [
+        "Article 280",
+        "Article 312",
+        "Article 356",
+        "Article 324"
+      ],
+      "answer": 3,
+      "explanation": "Article 324 vests superintendence of elections in the Election Commission. 280 = Finance Commission, 312 = All-India Services, 356 = President's Rule.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-023",
+      "section": "gk",
+      "topic": "Geography",
+      "difficulty": "easy",
+      "question": "Which is the largest ocean in the world?",
+      "options": [
+        "Pacific Ocean",
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Arctic Ocean"
+      ],
+      "answer": 0,
+      "explanation": "The Pacific Ocean is the largest and deepest ocean.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-024",
+      "section": "gk",
+      "topic": "Geography",
+      "difficulty": "easy",
+      "question": "Which state of India is known as the 'Land of Five Rivers'?",
+      "options": [
+        "Haryana",
+        "Uttar Pradesh",
+        "Punjab",
+        "Bihar"
+      ],
+      "answer": 2,
+      "explanation": "Punjab means 'land of five waters' (Jhelum, Chenab, Ravi, Beas and Sutlej).",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-025",
+      "section": "gk",
+      "topic": "Geography",
+      "difficulty": "medium",
+      "question": "The Narmada river does NOT flow through which of the following states?",
+      "options": [
+        "Madhya Pradesh",
+        "Rajasthan",
+        "Gujarat",
+        "Maharashtra"
+      ],
+      "answer": 1,
+      "explanation": "The Narmada rises at Amarkantak (MP), forms part of the MP–Maharashtra border and enters Gujarat before reaching the Arabian Sea. It does not flow through Rajasthan.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-026",
+      "section": "gk",
+      "topic": "Economy",
+      "difficulty": "medium",
+      "question": "In India, currency notes of all denominations except the one-rupee note are issued by:",
+      "options": [
+        "Reserve Bank of India",
+        "Ministry of Finance",
+        "State Bank of India",
+        "Security Printing and Minting Corporation"
+      ],
+      "answer": 0,
+      "explanation": "The RBI issues all banknotes except the ₹1 note, which is issued by the Government of India (Ministry of Finance).",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-027",
+      "section": "gk",
+      "topic": "Physics",
+      "difficulty": "medium",
+      "question": "Which type of mirror is used as a rear-view mirror in vehicles?",
+      "options": [
+        "Concave mirror",
+        "Plane mirror",
+        "Cylindrical mirror",
+        "Convex mirror"
+      ],
+      "answer": 3,
+      "explanation": "A convex mirror gives an erect, diminished image and a wider field of view.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-028",
+      "section": "gk",
+      "topic": "Chemistry",
+      "difficulty": "easy",
+      "question": "Which gas is commonly used in fire extinguishers?",
+      "options": [
+        "Carbon dioxide",
+        "Oxygen",
+        "Hydrogen",
+        "Nitrogen dioxide"
+      ],
+      "answer": 0,
+      "explanation": "CO₂ is heavier than air, does not support combustion and cuts off oxygen from the fire.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-029",
+      "section": "gk",
+      "topic": "Biology",
+      "difficulty": "medium",
+      "question": "Which tissue in plants carries water from the roots to the leaves?",
+      "options": [
+        "Phloem",
+        "Cambium",
+        "Xylem",
+        "Epidermis"
+      ],
+      "answer": 2,
+      "explanation": "Xylem conducts water and minerals upward; phloem carries food.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-030",
+      "section": "gk",
+      "topic": "Defence & Static GK",
+      "difficulty": "medium",
+      "question": "Which Central Armed Police Force primarily guards India's border with China?",
+      "options": [
+        "Border Security Force (BSF)",
+        "Indo-Tibetan Border Police (ITBP)",
+        "Sashastra Seema Bal (SSB)",
+        "Assam Rifles"
+      ],
+      "answer": 1,
+      "explanation": "ITBP guards the India–China border. BSF guards the Pakistan and Bangladesh borders, SSB the Nepal and Bhutan borders, and Assam Rifles the Myanmar border.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-031",
+      "section": "maths",
+      "topic": "Number System",
+      "difficulty": "easy",
+      "question": "Which is the smallest prime number?",
+      "options": [
+        "1",
+        "3",
+        "0",
+        "2"
+      ],
+      "answer": 3,
+      "explanation": "2 is the smallest (and only even) prime number; 1 is neither prime nor composite.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-032",
+      "section": "maths",
+      "topic": "HCF & LCM",
+      "difficulty": "medium",
+      "question": "What is the HCF of 36 and 84?",
+      "options": [
+        "6",
+        "18",
+        "4",
+        "12"
+      ],
+      "answer": 3,
+      "explanation": "36 = 2²·3², 84 = 2²·3·7. HCF = 2² × 3 = 12.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-033",
+      "section": "maths",
+      "topic": "Percentage",
+      "difficulty": "easy",
+      "question": "What is 25% of 360?",
+      "options": [
+        "72",
+        "90",
+        "80",
+        "120"
+      ],
+      "answer": 1,
+      "explanation": "360 ÷ 4 = 90.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-034",
+      "section": "maths",
+      "topic": "Percentage",
+      "difficulty": "medium",
+      "question": "When a number is increased by 20%, it becomes 90. What is the number?",
+      "options": [
+        "75",
+        "72",
+        "70",
+        "80"
+      ],
+      "answer": 0,
+      "explanation": "1.2x = 90 → x = 75.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-035",
+      "section": "maths",
+      "topic": "Profit & Loss",
+      "difficulty": "medium",
+      "question": "The cost price of 10 pens is equal to the selling price of 8 pens. What is the profit percentage?",
+      "options": [
+        "20%",
+        "15%",
+        "25%",
+        "30%"
+      ],
+      "answer": 2,
+      "explanation": "Let CP of 1 pen = ₹1. SP of 8 pens = ₹10, so SP of 1 pen = 1.25. Profit = 25%.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-036",
+      "section": "maths",
+      "topic": "Profit & Loss",
+      "difficulty": "medium",
+      "question": "The marked price of a bag is ₹600. A discount of 15% is given. What is the selling price?",
+      "options": [
+        "₹510",
+        "₹585",
+        "₹500",
+        "₹525"
+      ],
+      "answer": 0,
+      "explanation": "SP = 600 × 0.85 = ₹510.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-037",
+      "section": "maths",
+      "topic": "Simple & Compound Interest",
+      "difficulty": "easy",
+      "question": "What is the simple interest on ₹2,000 at 5% per annum for 2 years?",
+      "options": [
+        "₹100",
+        "₹250",
+        "₹205",
+        "₹200"
+      ],
+      "answer": 3,
+      "explanation": "2000 × 5 × 2/100 = ₹200.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-038",
+      "section": "maths",
+      "topic": "Ratio & Proportion",
+      "difficulty": "medium",
+      "question": "If A : B = 2 : 3 and B : C = 4 : 5, what is A : C?",
+      "options": [
+        "2 : 5",
+        "8 : 15",
+        "4 : 15",
+        "8 : 5"
+      ],
+      "answer": 1,
+      "explanation": "A/C = (A/B) × (B/C) = (2/3) × (4/5) = 8/15.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-039",
+      "section": "maths",
+      "topic": "Average",
+      "difficulty": "easy",
+      "question": "What is the average of 12, 15, 18, 21 and 24?",
+      "options": [
+        "17",
+        "19",
+        "18",
+        "20"
+      ],
+      "answer": 2,
+      "explanation": "Sum = 90; 90 ÷ 5 = 18.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-040",
+      "section": "maths",
+      "topic": "Time & Work",
+      "difficulty": "hard",
+      "question": "A tap can fill a tank in 6 hours and another tap can empty the full tank in 9 hours. If both taps are opened together on an empty tank, in how many hours will it be filled?",
+      "options": [
+        "18",
+        "15",
+        "12",
+        "3"
+      ],
+      "answer": 0,
+      "explanation": "Net filling per hour = 1/6 − 1/9 = 1/18. Time = 18 hours.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-041",
+      "section": "maths",
+      "topic": "Time, Speed & Distance",
+      "difficulty": "medium",
+      "question": "A car covers 180 km in 3 hours. How long will it take to cover 300 km at the same speed?",
+      "options": [
+        "4 hours",
+        "6 hours",
+        "4.5 hours",
+        "5 hours"
+      ],
+      "answer": 3,
+      "explanation": "Speed = 60 km/h; 300 ÷ 60 = 5 hours.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-042",
+      "section": "maths",
+      "topic": "Mensuration",
+      "difficulty": "medium",
+      "question": "What is the volume of a cube whose edge is 5 cm?",
+      "options": [
+        "25 cm³",
+        "150 cm³",
+        "125 cm³",
+        "100 cm³"
+      ],
+      "answer": 2,
+      "explanation": "Volume = a³ = 125 cm³.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-043",
+      "section": "maths",
+      "topic": "Mensuration",
+      "difficulty": "medium",
+      "question": "The circumference of a circle is 44 cm. What is its area? (Take π = 22/7)",
+      "options": [
+        "144 cm²",
+        "154 cm²",
+        "616 cm²",
+        "176 cm²"
+      ],
+      "answer": 1,
+      "explanation": "2πr = 44 → r = 7 cm. Area = (22/7) × 49 = 154 cm².",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-044",
+      "section": "maths",
+      "topic": "Number System",
+      "difficulty": "medium",
+      "question": "What is the sum of all natural numbers from 1 to 50?",
+      "options": [
+        "1250",
+        "1225",
+        "1275",
+        "1300"
+      ],
+      "answer": 2,
+      "explanation": "n(n + 1)/2 = 50 × 51/2 = 1275.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-045",
+      "section": "maths",
+      "topic": "Profit & Loss",
+      "difficulty": "hard",
+      "question": "A shopkeeper sells two articles at ₹990 each. On one he gains 10% and on the other he loses 10%. What is his overall gain or loss?",
+      "options": [
+        "Gain of 1%",
+        "No profit, no loss",
+        "Loss of 2%",
+        "Loss of 1%"
+      ],
+      "answer": 3,
+      "explanation": "CP₁ = 990/1.1 = 900; CP₂ = 990/0.9 = 1100. Total CP = 2000, total SP = 1980 → loss of ₹20 = 1%.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-046",
+      "section": "english",
+      "topic": "Synonyms",
+      "difficulty": "easy",
+      "question": "Select the most appropriate synonym of the given word.\nHAPPY",
+      "options": [
+        "Joyful",
+        "Sad",
+        "Angry",
+        "Tired"
+      ],
+      "answer": 0,
+      "explanation": "Happy means joyful.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-047",
+      "section": "english",
+      "topic": "Synonyms",
+      "difficulty": "medium",
+      "question": "Select the most appropriate synonym of the given word.\nRAPID",
+      "options": [
+        "Slow",
+        "Swift",
+        "Steady",
+        "Gentle"
+      ],
+      "answer": 1,
+      "explanation": "Rapid means fast – swift.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-048",
+      "section": "english",
+      "topic": "Antonyms",
+      "difficulty": "easy",
+      "question": "Select the most appropriate antonym of the given word.\nANCIENT",
+      "options": [
+        "Old",
+        "Modern",
+        "Historic",
+        "Aged"
+      ],
+      "answer": 1,
+      "explanation": "Ancient (very old) is opposite to modern.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-049",
+      "section": "english",
+      "topic": "Antonyms",
+      "difficulty": "easy",
+      "question": "Select the most appropriate antonym of the given word.\nVICTORY",
+      "options": [
+        "Success",
+        "Triumph",
+        "Defeat",
+        "Win"
+      ],
+      "answer": 2,
+      "explanation": "The opposite of victory is defeat.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-050",
+      "section": "english",
+      "topic": "Idioms & Phrases",
+      "difficulty": "medium",
+      "question": "Select the most appropriate meaning of the idiom.\nTo break the ice",
+      "options": [
+        "To start a conversation and ease tension",
+        "To break something valuable",
+        "To lose one's temper",
+        "To end a friendship"
+      ],
+      "answer": 0,
+      "explanation": "'Break the ice' means to make people feel relaxed, especially by starting a conversation.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-051",
+      "section": "english",
+      "topic": "One-word Substitution",
+      "difficulty": "hard",
+      "question": "Select the one-word substitute for the given phrase.\nA place where birds are kept",
+      "options": [
+        "Apiary",
+        "Aquarium",
+        "Kennel",
+        "Aviary"
+      ],
+      "answer": 3,
+      "explanation": "Aviary = birds; apiary = bees; aquarium = fish; kennel = dogs.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-052",
+      "section": "english",
+      "topic": "Spelling Correction",
+      "difficulty": "medium",
+      "question": "Select the correctly spelt word.",
+      "options": [
+        "Goverment",
+        "Govermant",
+        "Government",
+        "Governmant"
+      ],
+      "answer": 2,
+      "explanation": "The correct spelling is 'government' (govern + ment).",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-053",
+      "section": "english",
+      "topic": "Error Spotting",
+      "difficulty": "medium",
+      "question": "The following sentence has been divided into parts. One of them may contain an error. Select the part that contains the error, or 'No error'.\nEach of the students / have a book / in his hand.",
+      "options": [
+        "Each of the students",
+        "have a book",
+        "in his hand",
+        "No error"
+      ],
+      "answer": 1,
+      "explanation": "'Each' is singular, so 'have' should be 'has'.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-054",
+      "section": "english",
+      "topic": "Fill in the Blanks",
+      "difficulty": "easy",
+      "question": "Select the most appropriate preposition to fill in the blank.\nHe is good ______ mathematics.",
+      "options": [
+        "in",
+        "at",
+        "on",
+        "for"
+      ],
+      "answer": 1,
+      "explanation": "The correct phrase is 'good at' a subject or skill.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-055",
+      "section": "english",
+      "topic": "Fill in the Blanks",
+      "difficulty": "medium",
+      "question": "Select the most appropriate option to fill in the blank.\nI have lived in this town ______ ten years.",
+      "options": [
+        "since",
+        "from",
+        "by",
+        "for"
+      ],
+      "answer": 3,
+      "explanation": "'For' is used with a period of time (ten years); 'since' with a point of time.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-056",
+      "section": "english",
+      "topic": "Fill in the Blanks",
+      "difficulty": "medium",
+      "question": "Select the most appropriate article to fill in the blank.\n______ sun rises in the east.",
+      "options": [
+        "The",
+        "A",
+        "An",
+        "No article"
+      ],
+      "answer": 0,
+      "explanation": "'The' is used before unique objects such as the sun and the moon.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-057",
+      "section": "english",
+      "topic": "Active & Passive Voice",
+      "difficulty": "hard",
+      "question": "Select the passive form of the given sentence.\nRahul is writing a letter.",
+      "options": [
+        "A letter is being written by Rahul.",
+        "A letter was being written by Rahul.",
+        "A letter is written by Rahul.",
+        "A letter has been written by Rahul."
+      ],
+      "answer": 0,
+      "explanation": "Present continuous active (is writing) becomes 'is being written' in the passive.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-058",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\nPhysical fitness is important for everyone, but it is essential for those who serve in the armed and police forces. A fit body helps a soldier carry heavy loads, march long distances and stay alert during long hours of duty. Fitness, however, is not only about strength. A balanced diet, enough sleep and a calm mind are equally important. Many training centres now include yoga and meditation in their daily schedule, because they help trainees control stress and stay focused under pressure.\n\nAccording to the passage, why is fitness essential for those who serve in the forces?",
+      "options": [
+        "It helps them get promoted quickly",
+        "It helps them carry heavy loads, march long distances and stay alert",
+        "It allows them to avoid training",
+        "It helps them sleep less"
+      ],
+      "answer": 1,
+      "explanation": "The passage says a fit body helps a soldier carry heavy loads, march long distances and stay alert.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-059",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nPhysical fitness is important for everyone, but it is essential for those who serve in the armed and police forces. A fit body helps a soldier carry heavy loads, march long distances and stay alert during long hours of duty. Fitness, however, is not only about strength. A balanced diet, enough sleep and a calm mind are equally important. Many training centres now include yoga and meditation in their daily schedule, because they help trainees control stress and stay focused under pressure.\n\nBesides strength, what does fitness include according to the passage?",
+      "options": [
+        "Expensive equipment and supplements",
+        "Only long-distance running",
+        "Strict silence during duty",
+        "A balanced diet, enough sleep and a calm mind"
+      ],
+      "answer": 3,
+      "explanation": "The passage states that a balanced diet, enough sleep and a calm mind are equally important.",
+      "verified": true
+    },
+    {
+      "id": "ssc-gd-060",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nPhysical fitness is important for everyone, but it is essential for those who serve in the armed and police forces. A fit body helps a soldier carry heavy loads, march long distances and stay alert during long hours of duty. Fitness, however, is not only about strength. A balanced diet, enough sleep and a calm mind are equally important. Many training centres now include yoga and meditation in their daily schedule, because they help trainees control stress and stay focused under pressure.\n\nWhy have many training centres added yoga and meditation to their schedules?",
+      "options": [
+        "They replace physical training completely",
+        "They are needed to pass the written exam",
+        "They help trainees control stress and stay focused",
+        "They reduce the hours of duty"
+      ],
+      "answer": 2,
+      "explanation": "Yoga and meditation help trainees control stress and stay focused under pressure.",
+      "verified": true
+    }
+  ]
+}

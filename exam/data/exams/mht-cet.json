@@ -1,0 +1,1496 @@
+{
+  "id": "mht-cet",
+  "name": "MHT-CET (PCM)",
+  "fullName": "Maharashtra Common Entrance Test – PCM Group",
+  "nameHi": "एमएचटी-सीईटी (पीसीएम)",
+  "category": "engineering",
+  "conductingBody": "State Common Entrance Test Cell, Maharashtra",
+  "officialSite": "https://cetcell.mahacet.org",
+  "level": "state",
+  "frequency": "Once a year, with two attempts proposed for the 2027 cycle",
+  "approxCandidates": "≈4–5 lakh PCM-group registrations per year (2025–26 cycles; ≈7+ lakh across PCM and PCB)",
+  "eligibility": "Class 12 (or appearing) with Physics, Mathematics and Chemistry/Biology/Technical vocational subject; domicile rules apply for state-quota seats",
+  "notification": {
+    "status": "expected",
+    "summary": "A CET Cell notice dated 28 Sep 2026 (as reported) indicates the first attempt of MHT-CET 2027 will be held between 15 Dec 2026 and 15 Jan 2027, with a second attempt expected around April 2027. The detailed information brochure, registration window and exact PCM dates had not been published as of 10 Oct 2026.",
+    "importantDates": [
+      {
+        "event": "Registration",
+        "date": "Oct 2026 (expected)"
+      },
+      {
+        "event": "First attempt (PCM & PCB)",
+        "date": "15 Dec 2026 – 15 Jan 2027 (window per CET Cell notice; exact PCM dates awaited)"
+      },
+      {
+        "event": "Second attempt",
+        "date": "Apr 2027 (expected, unconfirmed)"
+      },
+      {
+        "event": "Result",
+        "date": "May–Jun 2027 (expected)"
+      }
+    ],
+    "source": "https://articles.findmycollege.com/news/mht-cet-2027-first-attempt-from-december-15-registration-expected-in-october/ (news report of CET Cell notice; confirm on cetcell.mahacet.org)",
+    "checkedOn": "2026-10-10"
+  },
+  "pattern": {
+    "stage": "PCM group paper",
+    "mode": "CBT",
+    "durationMinutes": 180,
+    "totalQuestions": 150,
+    "totalMarks": 200,
+    "marking": {
+      "correct": 1,
+      "wrong": 0,
+      "unattempted": 0
+    },
+    "sections": [
+      {
+        "id": "physics",
+        "name": "Physics",
+        "questions": 50,
+        "marks": 50
+      },
+      {
+        "id": "chemistry",
+        "name": "Chemistry",
+        "questions": 50,
+        "marks": 50
+      },
+      {
+        "id": "maths",
+        "name": "Mathematics",
+        "questions": 50,
+        "marks": 100
+      }
+    ],
+    "notes": "Physics and Chemistry are one combined 90-minute paper (+1 each); Mathematics is a separate 90-minute paper with +2 per correct answer. No negative marking. About 80% of questions are from Maharashtra Class 12 syllabus and 20% from selected Class 11 chapters. Multi-shift exam; percentile scores are normalised."
+  },
+  "trendAnalysis": {
+    "yearsAnalyzed": [
+      2024,
+      2025,
+      2026
+    ],
+    "summary": "The paper is speed-oriented and mostly direct, with Maharashtra State Board (HSC) textbooks as the base. Mathematics carries double marks and is the deciding section; calculus (differentiation, integration, definite integrals, differential equations), vectors/3D, probability distributions and mathematical logic are the highest-yield areas. Physics stresses Class 12 chapters such as rotational dynamics, wave optics, electrostatics, current electricity and EMI with formula-based numericals. Chemistry is largely NCERT/HSC-text based, with solid state, solutions, electrochemistry, coordination and named organic reactions appearing every shift. Difficulty varies by shift (easy to moderate overall), so normalised percentiles matter.",
+    "topics": [
+      {
+        "section": "physics",
+        "topic": "Motion in a Plane & Laws of Motion (XI)",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "physics",
+        "topic": "Gravitation (XI)",
+        "weightage": 3,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "physics",
+        "topic": "Thermal Properties & Sound (XI)",
+        "weightage": 3,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "physics",
+        "topic": "Ray Optics (XI)",
+        "weightage": 3,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "physics",
+        "topic": "Semiconductors & Communication (XI)",
+        "weightage": 2,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "physics",
+        "topic": "Rotational Dynamics",
+        "weightage": 7,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "physics",
+        "topic": "Mechanical Properties of Fluids",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "physics",
+        "topic": "Kinetic Theory of Gases & Radiation",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "physics",
+        "topic": "Thermodynamics",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "physics",
+        "topic": "Oscillations",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "physics",
+        "topic": "Superposition of Waves",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "physics",
+        "topic": "Wave Optics",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "physics",
+        "topic": "Electrostatics",
+        "weightage": 7,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "physics",
+        "topic": "Current Electricity",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "physics",
+        "topic": "Magnetic Fields due to Electric Current",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "physics",
+        "topic": "Magnetic Materials",
+        "weightage": 3,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "physics",
+        "topic": "Electromagnetic Induction",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "physics",
+        "topic": "AC Circuits",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "physics",
+        "topic": "Dual Nature of Radiation & Matter",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "physics",
+        "topic": "Structure of Atoms & Nuclei",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "physics",
+        "topic": "Semiconductor Devices",
+        "weightage": 3,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Basic Concepts & Analytical Chemistry (XI)",
+        "weightage": 3,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Structure of Atom (XI)",
+        "weightage": 2,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Chemical Bonding (XI)",
+        "weightage": 3,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Redox Reactions & s-Block (XI)",
+        "weightage": 2,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "chemistry",
+        "topic": "States of Matter & Adsorption (XI)",
+        "weightage": 2,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Hydrocarbons & Basic Organic Chemistry (XI)",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Solid State",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Solutions",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Ionic Equilibria",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Chemical Thermodynamics",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Electrochemistry",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Chemical Kinetics",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Elements of Groups 16, 17 & 18",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Transition & Inner Transition Elements",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Coordination Compounds",
+        "weightage": 6,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Halogen Derivatives",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Alcohols, Phenols & Ethers",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Aldehydes, Ketones & Carboxylic Acids",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Amines",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Biomolecules",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Introduction to Polymer Chemistry",
+        "weightage": 3,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Green Chemistry & Nanochemistry",
+        "weightage": 2,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "maths",
+        "topic": "Trigonometry (XI)",
+        "weightage": 3,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "maths",
+        "topic": "Straight Line & Circle (XI)",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "maths",
+        "topic": "Conic Sections (XI)",
+        "weightage": 3,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Complex Numbers & Permutations (XI)",
+        "weightage": 3,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "maths",
+        "topic": "Probability & Dispersion (XI)",
+        "weightage": 3,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "maths",
+        "topic": "Functions, Limits & Continuity (XI)",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Mathematical Logic",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "maths",
+        "topic": "Matrices",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "maths",
+        "topic": "Trigonometric Functions",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Pair of Straight Lines",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Vectors",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Line and Plane",
+        "weightage": 7,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Linear Programming",
+        "weightage": 3,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "maths",
+        "topic": "Differentiation",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Applications of Derivatives",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Indefinite Integration",
+        "weightage": 7,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Definite Integration",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Application of Definite Integration",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Differential Equations",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Probability Distributions",
+        "weightage": 6,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Binomial Distribution",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      }
+    ]
+  },
+  "resources": {
+    "pyqAvailable": true,
+    "officialPYQ": null,
+    "officialMock": "https://cetcell.mahacet.org",
+    "notes": "The CET Cell does not publish full question papers for public download; candidates can view their own question paper, responses and provisional answer key during the objection window after the exam. Syllabus, sample/mock test links and notices appear on cetcell.mahacet.org. Shift-wise 'previous papers' sold or posted online are memory-based reconstructions, not official."
+  },
+  "questions": [
+    {
+      "id": "mht-cet-001",
+      "section": "physics",
+      "topic": "Rotational Dynamics",
+      "difficulty": "easy",
+      "question": "A horizontal disc rotates freely about its vertical axis at 30 rpm. An identical disc, initially at rest, is gently placed coaxially on it and both rotate together. The common angular speed is",
+      "options": [
+        "30 rpm",
+        "7.5 rpm",
+        "60 rpm",
+        "15 rpm"
+      ],
+      "answer": 3,
+      "explanation": "Angular momentum is conserved: Iω = 2Iω' ⇒ ω' = 15 rpm.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-002",
+      "section": "physics",
+      "topic": "Rotational Dynamics",
+      "difficulty": "easy",
+      "question": "The radius of gyration of a solid sphere of radius R about any diameter is",
+      "options": [
+        "√(2/3) R",
+        "R/√2",
+        "√(2/5) R",
+        "R"
+      ],
+      "answer": 2,
+      "explanation": "I = (2/5)MR² = MK² ⇒ K = √(2/5) R.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-003",
+      "section": "physics",
+      "topic": "Rotational Dynamics",
+      "difficulty": "medium",
+      "question": "A road of radius 50 m is banked such that tan θ = 0.2. The speed at which a vehicle can negotiate the curve without relying on friction is (g = 10 m/s²)",
+      "options": [
+        "5 m/s",
+        "20 m/s",
+        "100 m/s",
+        "10 m/s"
+      ],
+      "answer": 3,
+      "explanation": "v = √(rg tan θ) = √(50 × 10 × 0.2) = √100 = 10 m/s.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-004",
+      "section": "physics",
+      "topic": "Mechanical Properties of Fluids",
+      "difficulty": "medium",
+      "question": "Eight identical rain drops, each falling with terminal velocity v, coalesce into one big drop. The terminal velocity of the big drop is",
+      "options": [
+        "2v",
+        "4v",
+        "8v",
+        "v"
+      ],
+      "answer": 1,
+      "explanation": "Volume conserved: R³ = 8r³ ⇒ R = 2r. Terminal velocity ∝ r², so v' = 4v.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-005",
+      "section": "physics",
+      "topic": "Mechanical Properties of Fluids",
+      "difficulty": "easy",
+      "question": "The excess pressure inside a soap bubble of radius 1 cm (surface tension 0.03 N/m) is",
+      "options": [
+        "12 Pa",
+        "6 Pa",
+        "3 Pa",
+        "24 Pa"
+      ],
+      "answer": 0,
+      "explanation": "A soap bubble has two surfaces: ΔP = 4T/r = 4 × 0.03/0.01 = 12 Pa.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-006",
+      "section": "physics",
+      "topic": "Kinetic Theory of Gases & Radiation",
+      "difficulty": "easy",
+      "question": "If the absolute temperature of a black body is doubled, the total power it radiates becomes",
+      "options": [
+        "4 times",
+        "8 times",
+        "16 times",
+        "2 times"
+      ],
+      "answer": 2,
+      "explanation": "Stefan–Boltzmann law: P ∝ T⁴ ⇒ 2⁴ = 16.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-007",
+      "section": "physics",
+      "topic": "Thermodynamics",
+      "difficulty": "hard",
+      "question": "A diatomic ideal gas (γ = 1.4) at 300 K is compressed adiabatically to 1/32 of its initial volume. Its final temperature is",
+      "options": [
+        "600 K",
+        "2400 K",
+        "9600 K",
+        "1200 K"
+      ],
+      "answer": 3,
+      "explanation": "TV^(γ−1) = constant ⇒ T₂ = 300 × 32^0.4 = 300 × 2² = 1200 K (since 32^0.4 = 2^(5×0.4) = 4).",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-008",
+      "section": "physics",
+      "topic": "Oscillations",
+      "difficulty": "medium",
+      "question": "A mass on a spring oscillates with period T. If it is instead attached to two such identical springs connected in series, the period becomes",
+      "options": [
+        "T/√2",
+        "2T",
+        "T/2",
+        "√2 T"
+      ],
+      "answer": 3,
+      "explanation": "Series: k_eff = k/2. T ∝ 1/√k ⇒ T' = √2 T.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-009",
+      "section": "physics",
+      "topic": "Superposition of Waves",
+      "difficulty": "medium",
+      "question": "Tuning fork A (256 Hz) produces 4 beats per second with fork B. When B is loaded with a little wax, the beat frequency increases to 6 per second. The original frequency of B was",
+      "options": [
+        "260 Hz",
+        "252 Hz",
+        "250 Hz",
+        "262 Hz"
+      ],
+      "answer": 1,
+      "explanation": "B is 252 or 260 Hz. Loading lowers B's frequency; beats increase only if B was below A: 252 → lower gives more beats. So B = 252 Hz.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-010",
+      "section": "physics",
+      "topic": "Wave Optics",
+      "difficulty": "medium",
+      "question": "Light of wavelength 600 nm falls normally on a single slit of width 0.3 mm. The width of the central maximum on a screen 2 m away is",
+      "options": [
+        "4 mm",
+        "2 mm",
+        "8 mm",
+        "16 mm"
+      ],
+      "answer": 2,
+      "explanation": "Width = 2λD/a = 2 × 600×10⁻⁹ × 2/(0.3×10⁻³) = 8 × 10⁻³ m = 8 mm.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-011",
+      "section": "physics",
+      "topic": "Wave Optics",
+      "difficulty": "easy",
+      "question": "The Brewster angle for a transparent medium of refractive index √3 is",
+      "options": [
+        "60°",
+        "30°",
+        "45°",
+        "90°"
+      ],
+      "answer": 0,
+      "explanation": "tan i_p = μ = √3 ⇒ i_p = 60°.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-012",
+      "section": "physics",
+      "topic": "Electrostatics",
+      "difficulty": "easy",
+      "question": "Three capacitors of 2 μF, 3 μF and 6 μF are connected in series. The equivalent capacitance is",
+      "options": [
+        "11 μF",
+        "1 μF",
+        "2 μF",
+        "0.5 μF"
+      ],
+      "answer": 1,
+      "explanation": "1/C = 1/2 + 1/3 + 1/6 = 1 ⇒ C = 1 μF.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-013",
+      "section": "physics",
+      "topic": "Current Electricity",
+      "difficulty": "medium",
+      "question": "A uniform potentiometer wire 10 m long has a steady potential difference of 2 V across it. The balancing length for a cell of emf 1.5 V is",
+      "options": [
+        "5 m",
+        "6.67 m",
+        "7.5 m",
+        "3.75 m"
+      ],
+      "answer": 2,
+      "explanation": "Potential gradient = 2/10 = 0.2 V/m. Balancing length = 1.5/0.2 = 7.5 m.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-014",
+      "section": "physics",
+      "topic": "Magnetic Fields due to Electric Current",
+      "difficulty": "easy",
+      "question": "Two long parallel wires 1 m apart in vacuum each carry a current of 1 A. The force per metre length between them is",
+      "options": [
+        "1 × 10⁻⁷ N",
+        "2 × 10⁻⁷ N",
+        "4π × 10⁻⁷ N",
+        "2π × 10⁻⁷ N"
+      ],
+      "answer": 1,
+      "explanation": "F/l = μ₀I₁I₂/(2πd) = 4π×10⁻⁷ × 1 × 1/(2π × 1) = 2 × 10⁻⁷ N/m (the definition of the ampere).",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-015",
+      "section": "physics",
+      "topic": "Electromagnetic Induction",
+      "difficulty": "medium",
+      "question": "A coil of 500 turns and area 0.01 m² is held perpendicular to a magnetic field that decreases uniformly from 0.2 T to zero in 0.1 s. The magnitude of the induced emf is",
+      "options": [
+        "1 V",
+        "5 V",
+        "100 V",
+        "10 V"
+      ],
+      "answer": 3,
+      "explanation": "e = N A ΔB/Δt = 500 × 0.01 × 0.2/0.1 = 10 V.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-016",
+      "section": "physics",
+      "topic": "AC Circuits",
+      "difficulty": "hard",
+      "question": "A series LCR circuit has L = 2 H, C = 2 μF and R = 10 Ω. The quality factor of the circuit at resonance is",
+      "options": [
+        "10",
+        "1000",
+        "100",
+        "50"
+      ],
+      "answer": 2,
+      "explanation": "Q = (1/R)√(L/C) = (1/10)√(2/(2×10⁻⁶)) = (1/10) × 1000 = 100.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-017",
+      "section": "physics",
+      "topic": "Dual Nature of Radiation & Matter",
+      "difficulty": "medium",
+      "question": "Light of wavelength 400 nm falls on a metal of work function 2.5 eV. The maximum kinetic energy of the emitted photoelectrons is approximately (hc = 1240 eV nm)",
+      "options": [
+        "3.1 eV",
+        "0.6 eV",
+        "2.5 eV",
+        "5.6 eV"
+      ],
+      "answer": 1,
+      "explanation": "Photon energy = 1240/400 = 3.1 eV. K_max = 3.1 − 2.5 = 0.6 eV.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-018",
+      "section": "physics",
+      "topic": "Structure of Atoms & Nuclei",
+      "difficulty": "hard",
+      "question": "In Bohr's model, the ratio of the speed of the electron in the first orbit of hydrogen to the speed of light is approximately",
+      "options": [
+        "1/137",
+        "1/1837",
+        "1/37",
+        "137"
+      ],
+      "answer": 0,
+      "explanation": "v₁ = e²/(2ε₀h) ≈ 2.19 × 10⁶ m/s; v₁/c ≈ 1/137 (the fine-structure constant).",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-019",
+      "section": "physics",
+      "topic": "Semiconductor Devices",
+      "difficulty": "medium",
+      "question": "For a transistor, the common-base current gain α is 0.98. Its common-emitter current gain β is",
+      "options": [
+        "49",
+        "98",
+        "0.02",
+        "50"
+      ],
+      "answer": 0,
+      "explanation": "β = α/(1 − α) = 0.98/0.02 = 49.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-020",
+      "section": "physics",
+      "topic": "Motion in a Plane & Laws of Motion (XI)",
+      "difficulty": "medium",
+      "question": "A projectile is fired so as to achieve the maximum horizontal range of 100 m on level ground. The maximum height reached is",
+      "options": [
+        "50 m",
+        "100 m",
+        "12.5 m",
+        "25 m"
+      ],
+      "answer": 3,
+      "explanation": "Max range at 45°: R = u²/g. Height H = u² sin²45°/(2g) = R/4 = 25 m.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-021",
+      "section": "chemistry",
+      "topic": "Solid State",
+      "difficulty": "easy",
+      "question": "The packing efficiency of a body-centred cubic (bcc) lattice is approximately",
+      "options": [
+        "74%",
+        "68%",
+        "52.4%",
+        "32%"
+      ],
+      "answer": 1,
+      "explanation": "In bcc, 2 atoms per cell with 4r = √3 a; packing fraction = √3π/8 ≈ 0.68.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-022",
+      "section": "chemistry",
+      "topic": "Solid State",
+      "difficulty": "hard",
+      "question": "An element (molar mass 60 g mol⁻¹) crystallises in an fcc lattice with edge length 400 pm. Its density is approximately (N_A = 6.022 × 10²³ mol⁻¹)",
+      "options": [
+        "3.11 g cm⁻³",
+        "12.46 g cm⁻³",
+        "1.56 g cm⁻³",
+        "6.23 g cm⁻³"
+      ],
+      "answer": 3,
+      "explanation": "ρ = ZM/(a³N_A) = 4 × 60/((4 × 10⁻⁸ cm)³ × 6.022 × 10²³) = 240/38.54 ≈ 6.23 g cm⁻³.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-023",
+      "section": "chemistry",
+      "topic": "Solutions",
+      "difficulty": "medium",
+      "question": "The osmotic pressure of a 0.1 M aqueous glucose solution at 300 K is (R = 0.0821 L atm K⁻¹ mol⁻¹)",
+      "options": [
+        "24.6 atm",
+        "0.246 atm",
+        "2.46 atm",
+        "4.92 atm"
+      ],
+      "answer": 2,
+      "explanation": "π = CRT = 0.1 × 0.0821 × 300 ≈ 2.46 atm (glucose does not dissociate).",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-024",
+      "section": "chemistry",
+      "topic": "Ionic Equilibria",
+      "difficulty": "easy",
+      "question": "The pH of a 0.001 M aqueous NaOH solution at 25 °C is",
+      "options": [
+        "3",
+        "11",
+        "10",
+        "12"
+      ],
+      "answer": 1,
+      "explanation": "[OH⁻] = 10⁻³ ⇒ pOH = 3 ⇒ pH = 14 − 3 = 11.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-025",
+      "section": "chemistry",
+      "topic": "Ionic Equilibria",
+      "difficulty": "hard",
+      "question": "The degree of dissociation of 0.1 M acetic acid (Ka = 1.8 × 10⁻⁵) is approximately",
+      "options": [
+        "1.8 × 10⁻⁴",
+        "4.24 × 10⁻³",
+        "1.34 × 10⁻²",
+        "1.34 × 10⁻³"
+      ],
+      "answer": 2,
+      "explanation": "α = √(Ka/C) = √(1.8 × 10⁻⁴) ≈ 1.34 × 10⁻².",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-026",
+      "section": "chemistry",
+      "topic": "Chemical Thermodynamics",
+      "difficulty": "medium",
+      "question": "For N₂(g) + 3H₂(g) → 2NH₃(g) at temperature T, ΔH − ΔU equals",
+      "options": [
+        "+2RT",
+        "−RT",
+        "−2RT",
+        "0"
+      ],
+      "answer": 2,
+      "explanation": "ΔH = ΔU + Δn_gRT with Δn_g = 2 − 4 = −2, so ΔH − ΔU = −2RT.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-027",
+      "section": "chemistry",
+      "topic": "Electrochemistry",
+      "difficulty": "medium",
+      "question": "The mass of copper deposited from CuSO₄ solution by passing 0.5 faraday of electricity is (Cu = 63.5)",
+      "options": [
+        "15.9 g",
+        "31.75 g",
+        "63.5 g",
+        "7.94 g"
+      ],
+      "answer": 0,
+      "explanation": "Cu²⁺ + 2e⁻ → Cu: 0.5 F deposits 0.25 mol = 0.25 × 63.5 ≈ 15.9 g.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-028",
+      "section": "chemistry",
+      "topic": "Chemical Kinetics",
+      "difficulty": "easy",
+      "question": "The rate constant of a first-order reaction is 0.0693 min⁻¹. Its half-life is",
+      "options": [
+        "10 min",
+        "100 min",
+        "1 min",
+        "6.93 min"
+      ],
+      "answer": 0,
+      "explanation": "t½ = 0.693/k = 0.693/0.0693 = 10 min.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-029",
+      "section": "chemistry",
+      "topic": "Elements of Groups 16, 17 & 18",
+      "difficulty": "medium",
+      "question": "Which xenon compound has a square pyramidal shape?",
+      "options": [
+        "XeOF₄",
+        "XeF₄",
+        "XeO₃",
+        "XeF₂"
+      ],
+      "answer": 0,
+      "explanation": "XeOF₄ has 5 bond pairs and 1 lone pair (octahedral arrangement) ⇒ square pyramidal. XeF₄ is square planar, XeO₃ pyramidal, XeF₂ linear.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-030",
+      "section": "chemistry",
+      "topic": "Elements of Groups 16, 17 & 18",
+      "difficulty": "hard",
+      "question": "The oxidation state of sulphur in peroxodisulphuric acid (H₂S₂O₈) is",
+      "options": [
+        "+7",
+        "+5",
+        "+8",
+        "+6"
+      ],
+      "answer": 3,
+      "explanation": "H₂S₂O₈ contains one peroxide (–O–O–) link with O at −1. 2(+1) + 2x + 6(−2) + 2(−1) = 0 ⇒ x = +6. (Assuming all O as −2 wrongly gives +7.)",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-031",
+      "section": "chemistry",
+      "topic": "Transition & Inner Transition Elements",
+      "difficulty": "easy",
+      "question": "Which of the following ions is colourless in aqueous solution?",
+      "options": [
+        "Sc³⁺",
+        "Ti³⁺",
+        "Cu²⁺",
+        "Ni²⁺"
+      ],
+      "answer": 0,
+      "explanation": "Sc³⁺ is 3d⁰, so no d–d transition is possible. Ti³⁺ (d¹), Cu²⁺ (d⁹) and Ni²⁺ (d⁸) are coloured.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-032",
+      "section": "chemistry",
+      "topic": "Coordination Compounds",
+      "difficulty": "medium",
+      "question": "The IUPAC name of K₃[Fe(CN)₆] is",
+      "options": [
+        "Potassium hexacyanoiron(III)",
+        "Potassium hexacyanidoferrate(III)",
+        "Potassium hexacyanidoferrate(II)",
+        "Tripotassium hexacyanidoiron(III)"
+      ],
+      "answer": 1,
+      "explanation": "Anionic complex ⇒ metal named 'ferrate'; CN⁻ is 'cyanido'; Fe is +3 since 3(+1) + x + 6(−1) = 0.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-033",
+      "section": "chemistry",
+      "topic": "Halogen Derivatives",
+      "difficulty": "medium",
+      "question": "Chlorobenzene and methyl chloride are treated with sodium in dry ether. The main product is",
+      "options": [
+        "Biphenyl",
+        "Benzene",
+        "Chlorotoluene",
+        "Toluene"
+      ],
+      "answer": 3,
+      "explanation": "Wurtz–Fittig reaction couples the aryl and alkyl groups: C₆H₅Cl + CH₃Cl + 2Na → C₆H₅CH₃ + 2NaCl.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-034",
+      "section": "chemistry",
+      "topic": "Alcohols, Phenols & Ethers",
+      "difficulty": "easy",
+      "question": "Phenol on treatment with chloroform and aqueous NaOH, followed by acidification, gives mainly",
+      "options": [
+        "Salicylaldehyde",
+        "Salicylic acid",
+        "Benzoic acid",
+        "Chlorobenzene"
+      ],
+      "answer": 0,
+      "explanation": "Reimer–Tiemann reaction introduces –CHO at the ortho position to give 2-hydroxybenzaldehyde (salicylaldehyde).",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-035",
+      "section": "chemistry",
+      "topic": "Aldehydes, Ketones & Carboxylic Acids",
+      "difficulty": "medium",
+      "question": "Which of the following gives a positive Fehling's solution test?",
+      "options": [
+        "Ethanal",
+        "Benzaldehyde",
+        "Propanone",
+        "Acetophenone"
+      ],
+      "answer": 0,
+      "explanation": "Aliphatic aldehydes reduce Fehling's solution to red Cu₂O; aromatic aldehydes like benzaldehyde and ketones do not.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-036",
+      "section": "chemistry",
+      "topic": "Amines",
+      "difficulty": "medium",
+      "question": "Benzamide on treatment with Br₂ and aqueous NaOH (Hofmann bromamide degradation) gives",
+      "options": [
+        "Benzylamine",
+        "Benzoic acid",
+        "Aniline",
+        "Benzonitrile"
+      ],
+      "answer": 2,
+      "explanation": "Hofmann degradation removes the carbonyl carbon: C₆H₅CONH₂ → C₆H₅NH₂ (one carbon fewer).",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-037",
+      "section": "chemistry",
+      "topic": "Biomolecules",
+      "difficulty": "easy",
+      "question": "Which nitrogenous base is present in RNA but not in DNA?",
+      "options": [
+        "Thymine",
+        "Uracil",
+        "Adenine",
+        "Cytosine"
+      ],
+      "answer": 1,
+      "explanation": "RNA contains uracil in place of thymine; adenine and cytosine occur in both.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-038",
+      "section": "chemistry",
+      "topic": "Introduction to Polymer Chemistry",
+      "difficulty": "easy",
+      "question": "The monomer of natural rubber is",
+      "options": [
+        "Chloroprene",
+        "Buta-1,3-diene",
+        "Styrene",
+        "Isoprene"
+      ],
+      "answer": 3,
+      "explanation": "Natural rubber is cis-1,4-polyisoprene (2-methylbuta-1,3-diene). Chloroprene gives neoprene.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-039",
+      "section": "chemistry",
+      "topic": "Basic Concepts & Analytical Chemistry (XI)",
+      "difficulty": "medium",
+      "question": "The molarity of a solution containing 4 g of NaOH dissolved in water to make 500 mL of solution is",
+      "options": [
+        "0.1 M",
+        "0.4 M",
+        "2 M",
+        "0.2 M"
+      ],
+      "answer": 3,
+      "explanation": "4 g NaOH = 0.1 mol; molarity = 0.1/0.5 L = 0.2 M.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-040",
+      "section": "chemistry",
+      "topic": "Hydrocarbons & Basic Organic Chemistry (XI)",
+      "difficulty": "medium",
+      "question": "The numbers of σ and π bonds in but-1-en-3-yne (CH₂=CH–C≡CH) are",
+      "options": [
+        "6 σ and 3 π",
+        "7 σ and 2 π",
+        "5 σ and 4 π",
+        "7 σ and 3 π"
+      ],
+      "answer": 3,
+      "explanation": "σ bonds: 4 C–H + 3 C–C = 7. π bonds: 1 in C=C and 2 in C≡C = 3.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-041",
+      "section": "maths",
+      "topic": "Mathematical Logic",
+      "difficulty": "easy",
+      "question": "The negation of the statement 'All students are intelligent' is",
+      "options": [
+        "Some students are not intelligent",
+        "No student is intelligent",
+        "All students are not intelligent",
+        "Some students are intelligent"
+      ],
+      "answer": 0,
+      "explanation": "¬(∀x p(x)) ≡ ∃x ¬p(x): there exists at least one student who is not intelligent.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-042",
+      "section": "maths",
+      "topic": "Matrices",
+      "difficulty": "easy",
+      "question": "The inverse of the matrix A = [[2, 1], [5, 3]] (rows) is",
+      "options": [
+        "[[3, −1], [−5, 2]]",
+        "[[3, 1], [5, 2]]",
+        "[[−3, 1], [5, −2]]",
+        "[[2, −1], [−5, 3]]"
+      ],
+      "answer": 0,
+      "explanation": "|A| = 6 − 5 = 1. A⁻¹ = adj A/|A| = [[3, −1], [−5, 2]].",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-043",
+      "section": "maths",
+      "topic": "Trigonometric Functions",
+      "difficulty": "medium",
+      "question": "The principal value of sin⁻¹(sin(5π/6)) is",
+      "options": [
+        "5π/6",
+        "−π/6",
+        "π/6",
+        "π/3"
+      ],
+      "answer": 2,
+      "explanation": "sin(5π/6) = 1/2 and the principal range of sin⁻¹ is [−π/2, π/2], so the value is π/6.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-044",
+      "section": "maths",
+      "topic": "Pair of Straight Lines",
+      "difficulty": "medium",
+      "question": "The acute angle between the lines represented by x² − 4xy + y² = 0 is",
+      "options": [
+        "30°",
+        "45°",
+        "60°",
+        "90°"
+      ],
+      "answer": 2,
+      "explanation": "a = 1, 2h = −4 (h = −2), b = 1. tan θ = 2√(h² − ab)/|a + b| = 2√3/2 = √3 ⇒ θ = 60°.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-045",
+      "section": "maths",
+      "topic": "Vectors",
+      "difficulty": "medium",
+      "question": "The area of the triangle with vertices A(1, 1, 1), B(1, 2, 3) and C(2, 3, 1) is",
+      "options": [
+        "√21 sq units",
+        "21/2 sq units",
+        "√21/2 sq units",
+        "√14/2 sq units"
+      ],
+      "answer": 2,
+      "explanation": "AB = (0, 1, 2), AC = (1, 2, 0). AB × AC = (−4, 2, −1), magnitude √21. Area = √21/2.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-046",
+      "section": "maths",
+      "topic": "Line and Plane",
+      "difficulty": "medium",
+      "question": "The perpendicular distance of the point (2, 1, −1) from the plane x − 2y + 4z = 9 is",
+      "options": [
+        "5/√21",
+        "13/√21",
+        "13/21",
+        "√21"
+      ],
+      "answer": 1,
+      "explanation": "d = |2 − 2 − 4 − 9|/√(1 + 4 + 16) = 13/√21.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-047",
+      "section": "maths",
+      "topic": "Line and Plane",
+      "difficulty": "hard",
+      "question": "The angle between the line (x − 1)/2 = (y − 2)/1 = (z + 1)/(−2) and the plane x + y + 4z = 3 is",
+      "options": [
+        "sin⁻¹(5√2/18)",
+        "cos⁻¹(5√2/18)",
+        "sin⁻¹(5/18)",
+        "sin⁻¹(1/√2)"
+      ],
+      "answer": 0,
+      "explanation": "sin φ = |b·n|/(|b||n|) = |2 + 1 − 8|/(3 × √18) = 5/(9√2) = 5√2/18.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-048",
+      "section": "maths",
+      "topic": "Linear Programming",
+      "difficulty": "medium",
+      "question": "The maximum value of z = 3x + 2y subject to x + y ≤ 4, x ≤ 3, x ≥ 0, y ≥ 0 is",
+      "options": [
+        "12",
+        "9",
+        "8",
+        "11"
+      ],
+      "answer": 3,
+      "explanation": "Corner points: (0,0) → 0, (3,0) → 9, (3,1) → 11, (0,4) → 8. Maximum = 11 at (3, 1).",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-049",
+      "section": "maths",
+      "topic": "Differentiation",
+      "difficulty": "easy",
+      "question": "The derivative of xˣ at x = 1 is",
+      "options": [
+        "0",
+        "e",
+        "1",
+        "2"
+      ],
+      "answer": 2,
+      "explanation": "y = xˣ ⇒ dy/dx = xˣ(1 + ln x). At x = 1: 1 × (1 + 0) = 1.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-050",
+      "section": "maths",
+      "topic": "Differentiation",
+      "difficulty": "medium",
+      "question": "If x = a cos³t and y = a sin³t, then dy/dx equals",
+      "options": [
+        "tan t",
+        "−cot t",
+        "−tan²t",
+        "−tan t"
+      ],
+      "answer": 3,
+      "explanation": "dx/dt = −3a cos²t sin t, dy/dt = 3a sin²t cos t. dy/dx = −sin t/cos t = −tan t.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-051",
+      "section": "maths",
+      "topic": "Applications of Derivatives",
+      "difficulty": "medium",
+      "question": "The local minimum value of f(x) = x³ − 3x² + 4 is",
+      "options": [
+        "4",
+        "0",
+        "2",
+        "−4"
+      ],
+      "answer": 1,
+      "explanation": "f'(x) = 3x² − 6x = 0 ⇒ x = 0 or 2. f''(2) = 6 > 0, so the minimum is f(2) = 8 − 12 + 4 = 0.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-052",
+      "section": "maths",
+      "topic": "Indefinite Integration",
+      "difficulty": "medium",
+      "question": "∫ eˣ(1/x − 1/x²) dx equals",
+      "options": [
+        "eˣ/x² + C",
+        "eˣ/x + C",
+        "−eˣ/x + C",
+        "eˣ ln x + C"
+      ],
+      "answer": 1,
+      "explanation": "Using ∫ eˣ(f(x) + f'(x)) dx = eˣf(x) + C with f(x) = 1/x and f'(x) = −1/x².",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-053",
+      "section": "maths",
+      "topic": "Definite Integration",
+      "difficulty": "hard",
+      "question": "The value of ∫ from 0 to π/2 of log(tan x) dx is",
+      "options": [
+        "π/2",
+        "log 2",
+        "0",
+        "(π/4) log 2"
+      ],
+      "answer": 2,
+      "explanation": "Replacing x by π/2 − x turns log tan x into log cot x = −log tan x, so I = −I ⇒ I = 0.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-054",
+      "section": "maths",
+      "topic": "Application of Definite Integration",
+      "difficulty": "medium",
+      "question": "The area of the region bounded by the parabola y² = 4x and the line x = 1 is",
+      "options": [
+        "4/3 sq units",
+        "8/3 sq units",
+        "16/3 sq units",
+        "2/3 sq units"
+      ],
+      "answer": 1,
+      "explanation": "Area = 2∫₀¹ 2√x dx = 4 × (2/3) = 8/3.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-055",
+      "section": "maths",
+      "topic": "Differential Equations",
+      "difficulty": "easy",
+      "question": "The order and degree of the differential equation (d²y/dx²)³ + (dy/dx)⁴ + y = 0 are respectively",
+      "options": [
+        "2 and 3",
+        "3 and 2",
+        "2 and 4",
+        "4 and 3"
+      ],
+      "answer": 0,
+      "explanation": "Highest derivative is d²y/dx² (order 2), and its power is 3 (degree 3) since the equation is polynomial in derivatives.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-056",
+      "section": "maths",
+      "topic": "Probability Distributions",
+      "difficulty": "medium",
+      "question": "A random variable X takes values 0, 1, 2, 3 with probabilities k, 2k, 3k, 4k respectively. E(X) equals",
+      "options": [
+        "1",
+        "2",
+        "1.5",
+        "2.5"
+      ],
+      "answer": 1,
+      "explanation": "10k = 1 ⇒ k = 0.1. E(X) = 0(0.1) + 1(0.2) + 2(0.3) + 3(0.4) = 2.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-057",
+      "section": "maths",
+      "topic": "Binomial Distribution",
+      "difficulty": "hard",
+      "question": "A binomial random variable X has mean 4 and variance 3. Then P(X ≥ 1) is",
+      "options": [
+        "(3/4)¹⁶",
+        "1 − (3/4)¹⁶",
+        "1 − (1/4)¹⁶",
+        "16(1/4)(3/4)¹⁵"
+      ],
+      "answer": 1,
+      "explanation": "np = 4, npq = 3 ⇒ q = 3/4, p = 1/4, n = 16. P(X ≥ 1) = 1 − P(X = 0) = 1 − (3/4)¹⁶.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-058",
+      "section": "maths",
+      "topic": "Trigonometry (XI)",
+      "difficulty": "easy",
+      "question": "The value of sin 75° is",
+      "options": [
+        "(√6 + √2)/4",
+        "(√6 − √2)/4",
+        "(√3 + 1)/2",
+        "(√2 + 1)/2"
+      ],
+      "answer": 0,
+      "explanation": "sin(45° + 30°) = sin45°cos30° + cos45°sin30° = (√3 + 1)/(2√2) = (√6 + √2)/4.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-059",
+      "section": "maths",
+      "topic": "Conic Sections (XI)",
+      "difficulty": "medium",
+      "question": "The eccentricity of the ellipse 9x² + 16y² = 144 is",
+      "options": [
+        "3/4",
+        "5/4",
+        "√7/4",
+        "√7/3"
+      ],
+      "answer": 2,
+      "explanation": "x²/16 + y²/9 = 1: a² = 16, b² = 9. e = √(1 − 9/16) = √7/4.",
+      "verified": true
+    },
+    {
+      "id": "mht-cet-060",
+      "section": "maths",
+      "topic": "Complex Numbers & Permutations (XI)",
+      "difficulty": "easy",
+      "question": "The modulus of (3 + 4i)/(1 − i) is",
+      "options": [
+        "5",
+        "√2/5",
+        "5√2",
+        "5/√2"
+      ],
+      "answer": 3,
+      "explanation": "|z₁/z₂| = |3 + 4i|/|1 − i| = 5/√2.",
+      "verified": true
+    }
+  ]
+}
