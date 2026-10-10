@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-10T07:31:24.377Z",
+ "generatedAt": "2026-10-10T07:31:40.232Z",
  "exams": [
   {
    "id": "afcat",
@@ -44,6 +44,56 @@
    "stage": "AFCAT online test",
    "durationMinutes": 120,
    "totalQuestions": 100,
+   "questionCount": 60,
+   "hasHindi": false,
+   "quality": {
+    "verified": 100,
+    "relevance": 100
+   }
+  },
+  {
+   "id": "agniveer-army",
+   "name": "Agniveer Army GD",
+   "fullName": "Indian Army Agniveer (General Duty) – Online Common Entrance Examination",
+   "nameHi": "भारतीय सेना अग्निवीर (जनरल ड्यूटी) सामान्य प्रवेश परीक्षा",
+   "category": "defence",
+   "conductingBody": "Indian Army (Directorate General of Recruiting)",
+   "officialSite": "https://joinindianarmy.nic.in",
+   "level": "national",
+   "frequency": "Once a year",
+   "approxCandidates": "Several lakh registrations per cycle (approx.; the Army does not publish exact figures)",
+   "eligibility": "Class 10 with 45% aggregate and 33% in each subject. Age 17½–21 per the scheme; reports say the upper limit was raised to 22 for the 2026 registration cycle, so check the current notification",
+   "notification": {
+    "status": "result-out",
+    "summary": "Registration for recruiting year 2027 ran from 13 February to about 10 April 2026, and the online CEE was held from 1 to 16 June 2026. ARO-wise CEE results were published on 12 July 2026, and recruitment rallies (physical tests and medicals) followed from late July 2026. The next cycle's registration is expected around February–March 2027 on joinindianarmy.nic.in.",
+    "importantDates": [
+     {
+      "event": "Online registration (current cycle)",
+      "date": "13 Feb – ~10 Apr 2026 (closed)"
+     },
+     {
+      "event": "Online CEE",
+      "date": "1–16 Jun 2026 (held)"
+     },
+     {
+      "event": "CEE result (ARO-wise)",
+      "date": "12 Jul 2026 (declared)"
+     },
+     {
+      "event": "Recruitment rallies",
+      "date": "From ~20 Jul 2026 (ARO-wise)"
+     },
+     {
+      "event": "Next cycle registration",
+      "date": "Feb–Mar 2027 (expected)"
+     }
+    ],
+    "source": "https://www.latestly.com/india/information/indian-army-agniveer-cee-result-2026-declared-check-merit-lists-at-joinindianarmy-nic-in-7513753.html",
+    "checkedOn": "2026-10-10"
+   },
+   "stage": "Phase I – Online Common Entrance Examination (CEE), Agniveer GD",
+   "durationMinutes": 60,
+   "totalQuestions": 50,
    "questionCount": 60,
    "hasHindi": false,
    "quality": {

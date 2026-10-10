@@ -46,7 +46,9 @@ export function sectionMarking(exam, sectionId) {
   let correct = m.correct;
   if (sec && sec.marks && sec.questions) correct = +(sec.marks / sec.questions).toFixed(4);
   const ratio = m.correct ? m.wrong / m.correct : 0;
-  return { correct, wrong: +(correct * ratio).toFixed(4), unattempted: m.unattempted || 0 };
+  // a section may override negative marking, e.g. SSC MTS Session I has none
+  const wrong = typeof sec?.wrong === 'number' ? sec.wrong : +(correct * ratio).toFixed(4);
+  return { correct, wrong, unattempted: m.unattempted || 0 };
 }
 
 // ---------- picking questions ----------

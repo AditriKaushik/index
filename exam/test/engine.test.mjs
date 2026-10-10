@@ -85,3 +85,9 @@ test('access: free first day, then daily free quota, support pass unlocks', () =
   assert.equal(accessStatus(s, day2).reason, 'pass');
   assert.equal(canRequestSupport(s, day2 + 86400000), false);
 });
+
+test('a section can switch off negative marking', () => {
+  const e = { ...exam, pattern: { ...exam.pattern, sections: [{ ...exam.pattern.sections[0], wrong: 0 }, exam.pattern.sections[1]] } };
+  assert.equal(sectionMarking(e, 'a').wrong, 0);
+  assert.equal(sectionMarking(e, 'b').wrong, -1.5);
+});
