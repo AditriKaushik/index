@@ -1,0 +1,1398 @@
+{
+  "id": "jee-advanced",
+  "name": "JEE Advanced",
+  "fullName": "Joint Entrance Examination (Advanced)",
+  "nameHi": "जेईई एडवांस्ड",
+  "category": "engineering",
+  "conductingBody": "Joint Admission Board (JAB) – one of seven zonal IITs by rotation",
+  "officialSite": "https://jeeadv.ac.in",
+  "level": "national",
+  "frequency": "Once a year (May)",
+  "approxCandidates": "Top ≈2.5 lakh JEE Main qualifiers eligible; ≈1.8–1.9 lakh register and appear",
+  "eligibility": "Among top ≈2.5 lakh in JEE Main (category-wise); max 2 attempts in consecutive years; born on/after 1 Oct 2002 (5-yr relaxation SC/ST/PwD); Class 12 in 2026 or 2027",
+  "notification": {
+    "status": "expected",
+    "summary": "The 2026 exam was held by IIT Roorkee on 17 May 2026. As of 10 Oct 2026 the JAB had not announced the organising IIT or dates for JEE Advanced 2027 (IIT Delhi is widely expected by rotation but unconfirmed); the exam is expected in the second or third week of May 2027.",
+    "importantDates": [
+      {
+        "event": "Organising IIT / information brochure",
+        "date": "Dec 2026 – Mar 2027 (expected)"
+      },
+      {
+        "event": "Registration",
+        "date": "Late Apr – early May 2027 (expected, after JEE Main Session 2 result)"
+      },
+      {
+        "event": "Exam (Paper 1 & Paper 2, same day)",
+        "date": "Mid-May 2027 (expected)"
+      },
+      {
+        "event": "Result",
+        "date": "Early Jun 2027 (expected)"
+      }
+    ],
+    "source": "https://jeeadv.ac.in",
+    "checkedOn": "2026-10-10"
+  },
+  "pattern": {
+    "stage": "Paper 1",
+    "mode": "CBT",
+    "durationMinutes": 180,
+    "totalQuestions": 48,
+    "totalMarks": 180,
+    "marking": {
+      "correct": 3,
+      "wrong": -1,
+      "unattempted": 0
+    },
+    "sections": [
+      {
+        "id": "physics",
+        "name": "Physics",
+        "questions": 16,
+        "marks": 60
+      },
+      {
+        "id": "chemistry",
+        "name": "Chemistry",
+        "questions": 16,
+        "marks": 60
+      },
+      {
+        "id": "maths",
+        "name": "Mathematics",
+        "questions": 16,
+        "marks": 60
+      }
+    ],
+    "notes": "Two compulsory 3-hour papers on the same day; the structure changes every year. A recent Paper 1 (2025) had per subject: 4 single-correct MCQs (+3/−1), 3 one-or-more-correct MCQs (+4 with partial marking/−2), 6 non-negative integer questions (+4/0) and 4 matching-list MCQs (+3/−1); some 2026 analyses report 17 questions per subject. This mock simulates the single-correct MCQ format (+3/−1) only."
+  },
+  "trendAnalysis": {
+    "yearsAnalyzed": [
+      2024,
+      2025,
+      2026
+    ],
+    "summary": "JEE Advanced remains concept-integrating and lengthy; Mathematics and Physics have alternated as the toughest subject (Physics reported toughest in 2026, Mathematics in 2024). Calculus, probability, matrices and vectors/3D dominate Mathematics; mechanics (rotation, fluids), electrostatics/magnetism and modern physics dominate Physics. Chemistry is the most scoring section but physical chemistry numericals and mechanism-based organic questions have grown, while inorganic stays NCERT-anchored (coordination, p-block). Integer-type and matching questions keep guessing low; cut-offs have been around 25–30% of total marks for the common rank list.",
+    "topics": [
+      {
+        "section": "physics",
+        "topic": "General Physics & Measurements",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "physics",
+        "topic": "Kinematics",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "physics",
+        "topic": "Laws of Motion & Friction",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "physics",
+        "topic": "Work, Energy & Collisions",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "physics",
+        "topic": "Rotational Dynamics",
+        "weightage": 9,
+        "trend": "stable",
+        "difficulty": "hard"
+      },
+      {
+        "section": "physics",
+        "topic": "Gravitation",
+        "weightage": 3,
+        "trend": "falling",
+        "difficulty": "medium"
+      },
+      {
+        "section": "physics",
+        "topic": "Fluids, Elasticity & Surface Tension",
+        "weightage": 6,
+        "trend": "rising",
+        "difficulty": "hard"
+      },
+      {
+        "section": "physics",
+        "topic": "Thermal Physics & KTG",
+        "weightage": 9,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "physics",
+        "topic": "Simple Harmonic Motion",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "physics",
+        "topic": "Waves & Sound",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "physics",
+        "topic": "Electrostatics & Capacitors",
+        "weightage": 9,
+        "trend": "stable",
+        "difficulty": "hard"
+      },
+      {
+        "section": "physics",
+        "topic": "Current Electricity",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "physics",
+        "topic": "Magnetism",
+        "weightage": 7,
+        "trend": "stable",
+        "difficulty": "hard"
+      },
+      {
+        "section": "physics",
+        "topic": "Electromagnetic Induction & AC",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "hard"
+      },
+      {
+        "section": "physics",
+        "topic": "Ray Optics",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "physics",
+        "topic": "Wave Optics",
+        "weightage": 3,
+        "trend": "falling",
+        "difficulty": "medium"
+      },
+      {
+        "section": "physics",
+        "topic": "Modern Physics",
+        "weightage": 7,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Mole Concept & Stoichiometry",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Atomic Structure",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Chemical Bonding",
+        "weightage": 7,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Gaseous State",
+        "weightage": 3,
+        "trend": "falling",
+        "difficulty": "medium"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Thermodynamics & Thermochemistry",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Chemical & Ionic Equilibrium",
+        "weightage": 7,
+        "trend": "stable",
+        "difficulty": "hard"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Electrochemistry",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Chemical Kinetics",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Solutions & Colligative Properties",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "chemistry",
+        "topic": "p-Block Elements",
+        "weightage": 7,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "chemistry",
+        "topic": "s-Block & Metallurgy",
+        "weightage": 3,
+        "trend": "falling",
+        "difficulty": "easy"
+      },
+      {
+        "section": "chemistry",
+        "topic": "d-Block & Coordination Compounds",
+        "weightage": 9,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "chemistry",
+        "topic": "GOC & Isomerism",
+        "weightage": 9,
+        "trend": "rising",
+        "difficulty": "hard"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Hydrocarbons",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Haloalkanes, Alcohols, Phenols & Ethers",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Carbonyl Compounds & Carboxylic Acids",
+        "weightage": 7,
+        "trend": "stable",
+        "difficulty": "hard"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Amines & Nitrogen Compounds",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Biomolecules & Polymers",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "maths",
+        "topic": "Sets, Relations & Functions",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Complex Numbers",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "hard"
+      },
+      {
+        "section": "maths",
+        "topic": "Quadratic Equations",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Sequences & Series",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Permutations, Combinations & Binomial",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "hard"
+      },
+      {
+        "section": "maths",
+        "topic": "Matrices & Determinants",
+        "weightage": 9,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Probability",
+        "weightage": 10,
+        "trend": "rising",
+        "difficulty": "hard"
+      },
+      {
+        "section": "maths",
+        "topic": "Trigonometry",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Straight Lines & Circles",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Conic Sections",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "hard"
+      },
+      {
+        "section": "maths",
+        "topic": "Limits, Continuity & Differentiability",
+        "weightage": 7,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Applications of Derivatives",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Integral Calculus & Area",
+        "weightage": 11,
+        "trend": "stable",
+        "difficulty": "hard"
+      },
+      {
+        "section": "maths",
+        "topic": "Differential Equations",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Vectors & 3D Geometry",
+        "weightage": 10,
+        "trend": "rising",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  "resources": {
+    "pyqAvailable": true,
+    "officialPYQ": "https://jeeadv.ac.in/archive.html",
+    "officialMock": "https://jeeadv.ac.in",
+    "notes": "Every organising IIT publishes both question papers (English and Hindi) and the provisional/final answer keys on jeeadv.ac.in; older years are in the site's archive section. An official mock CBT link is posted on jeeadv.ac.in before registration."
+  },
+  "questions": [
+    {
+      "id": "jee-advanced-001",
+      "section": "physics",
+      "topic": "General Physics & Measurements",
+      "difficulty": "medium",
+      "question": "A screw gauge has pitch 0.5 mm and 50 circular divisions. With the jaws closed it reads +0.03 mm. When a wire is held between the jaws, the main scale shows 3.0 mm and the circular scale division 26 coincides with the reference line. The corrected diameter of the wire is",
+      "options": [
+        "3.23 mm",
+        "3.29 mm",
+        "3.26 mm",
+        "3.20 mm"
+      ],
+      "answer": 0,
+      "explanation": "Least count = 0.5/50 = 0.01 mm. Observed = 3.0 + 26 × 0.01 = 3.26 mm. Positive zero error is subtracted: 3.26 − 0.03 = 3.23 mm.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-002",
+      "section": "physics",
+      "topic": "General Physics & Measurements",
+      "difficulty": "easy",
+      "question": "In a simple-pendulum experiment g = 4π²L/T². If L is measured with 1% error and T with 2% error, the maximum percentage error in g is",
+      "options": [
+        "3%",
+        "4%",
+        "5%",
+        "1%"
+      ],
+      "answer": 2,
+      "explanation": "Δg/g = ΔL/L + 2ΔT/T = 1% + 4% = 5%.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-003",
+      "section": "physics",
+      "topic": "Kinematics",
+      "difficulty": "medium",
+      "question": "A projectile is launched from level ground at 20 m/s at 60° above the horizontal. After what time is its velocity perpendicular to its initial velocity? (g = 10 m/s²)",
+      "options": [
+        "2√3 s",
+        "2/√3 s",
+        "2 s",
+        "4/√3 s"
+      ],
+      "answer": 3,
+      "explanation": "v·u = u² − gt·u sinθ = 0 ⇒ t = u/(g sinθ) = 20/(10 × √3/2) = 4/√3 ≈ 2.31 s, which is less than the flight time 2√3 s, so it occurs in flight.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-004",
+      "section": "physics",
+      "topic": "Laws of Motion & Friction",
+      "difficulty": "medium",
+      "question": "Block A (2 kg) rests on block B (4 kg), which lies on a frictionless floor. The coefficient of friction between A and B is 0.5. A horizontal force F is applied to B. The largest F for which the blocks move together is (g = 10 m/s²)",
+      "options": [
+        "10 N",
+        "20 N",
+        "60 N",
+        "30 N"
+      ],
+      "answer": 3,
+      "explanation": "Friction can give A at most a = μg = 5 m/s². Moving together: F = (2 + 4) × 5 = 30 N.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-005",
+      "section": "physics",
+      "topic": "Work, Energy & Collisions",
+      "difficulty": "medium",
+      "question": "A ball of mass m moving with speed v collides head-on and elastically with a stationary ball of mass 2m. The fraction of the initial kinetic energy transferred to the heavier ball is",
+      "options": [
+        "8/9",
+        "1/9",
+        "2/3",
+        "4/9"
+      ],
+      "answer": 0,
+      "explanation": "Fraction transferred = 4m₁m₂/(m₁ + m₂)² = 4·m·2m/(3m)² = 8/9.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-006",
+      "section": "physics",
+      "topic": "Rotational Dynamics",
+      "difficulty": "hard",
+      "question": "A uniform disc of radius R spinning about its axis with angular speed ω₀ (centre at rest) is gently placed upright on its rim on a rough horizontal floor. When it starts pure rolling, the speed of its centre is",
+      "options": [
+        "ω₀R/3",
+        "ω₀R/2",
+        "2ω₀R/3",
+        "ω₀R"
+      ],
+      "answer": 0,
+      "explanation": "Friction acts at the contact point, so angular momentum about that point is conserved: ½MR²ω₀ = ½MR²ω + MvR with v = ωR ⇒ ½ω₀ = (3/2)ω ⇒ ω = ω₀/3, v = ω₀R/3.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-007",
+      "section": "physics",
+      "topic": "Rotational Dynamics",
+      "difficulty": "medium",
+      "question": "A solid cylinder and a thin hollow cylinder of equal mass and radius roll without slipping from rest down the same incline from the same height. The ratio of their times of descent (t_solid : t_hollow) is",
+      "options": [
+        "3 : 4",
+        "√3 : 2",
+        "2 : √3",
+        "4 : 3"
+      ],
+      "answer": 1,
+      "explanation": "a = g sinθ/(1 + k²/R²): solid 2g sinθ/3, hollow g sinθ/2. t ∝ 1/√a ⇒ t_s/t_h = √((1/2)/(2/3)) = √(3/4) = √3/2.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-008",
+      "section": "physics",
+      "topic": "Gravitation",
+      "difficulty": "easy",
+      "question": "A satellite moves in a circular orbit with speed v. The minimum additional speed it must be given (along its velocity) to escape the Earth's gravity is",
+      "options": [
+        "(√2 − 1)v",
+        "v",
+        "√2 v",
+        "(√3 − 1)v"
+      ],
+      "answer": 0,
+      "explanation": "Escape speed at the orbit radius is √2 times the orbital speed, so the extra speed needed is √2v − v = (√2 − 1)v.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-009",
+      "section": "physics",
+      "topic": "Fluids, Elasticity & Surface Tension",
+      "difficulty": "medium",
+      "question": "Water rises to a height h in a capillary tube on the ground. If the same experiment is done in a lift accelerating upward at g/2, the height of rise becomes",
+      "options": [
+        "3h/2",
+        "h/2",
+        "2h",
+        "2h/3"
+      ],
+      "answer": 3,
+      "explanation": "h = 2T cosθ/(rρg_eff). In the lift g_eff = g + g/2 = 3g/2, so h' = h/(3/2) = 2h/3.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-010",
+      "section": "physics",
+      "topic": "Thermal Physics & KTG",
+      "difficulty": "hard",
+      "question": "An ideal monatomic gas undergoes a process in which pressure is directly proportional to volume (P ∝ V). Its molar heat capacity for this process is",
+      "options": [
+        "3R/2",
+        "2R",
+        "5R/2",
+        "3R"
+      ],
+      "answer": 1,
+      "explanation": "P ∝ V means PV⁻¹ = constant, a polytropic process with n = −1. C = C_v − R/(n − 1) = 3R/2 + R/2 = 2R.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-011",
+      "section": "physics",
+      "topic": "Thermal Physics & KTG",
+      "difficulty": "medium",
+      "question": "Two rods of the same length and cross-section, with thermal conductivities K and 2K, are joined end to end. The effective thermal conductivity of the composite rod is",
+      "options": [
+        "3K/2",
+        "4K/3",
+        "3K",
+        "2K/3"
+      ],
+      "answer": 1,
+      "explanation": "Series thermal resistances: 2L/(K_eff A) = L/(KA) + L/(2KA) ⇒ K_eff = 2·K·2K/(K + 2K) = 4K/3.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-012",
+      "section": "physics",
+      "topic": "Waves & Sound",
+      "difficulty": "medium",
+      "question": "The fundamental frequency of a pipe closed at one end is 100 Hz. The second harmonic of an open pipe of the same length is",
+      "options": [
+        "200 Hz",
+        "300 Hz",
+        "400 Hz",
+        "100 Hz"
+      ],
+      "answer": 2,
+      "explanation": "Closed pipe: v/4L = 100 Hz ⇒ v/2L = 200 Hz is the open pipe's fundamental. Its second harmonic is 400 Hz.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-013",
+      "section": "physics",
+      "topic": "Electrostatics & Capacitors",
+      "difficulty": "medium",
+      "question": "A parallel-plate capacitor of capacitance C₀ (air) has a dielectric slab of constant 4 inserted, filling the full plate area and half the gap thickness. The new capacitance is",
+      "options": [
+        "5C₀/2",
+        "2C₀",
+        "5C₀/8",
+        "8C₀/5"
+      ],
+      "answer": 3,
+      "explanation": "C = ε₀A/(d/2 + d/(2·4)) = ε₀A/(5d/8) = 8C₀/5.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-014",
+      "section": "physics",
+      "topic": "Electrostatics & Capacitors",
+      "difficulty": "medium",
+      "question": "A solid non-conducting sphere of radius R carries charge Q uniformly through its volume. The ratio of the electric field at distance R/2 from the centre to that at distance 2R is",
+      "options": [
+        "1 : 2",
+        "1 : 1",
+        "2 : 1",
+        "4 : 1"
+      ],
+      "answer": 2,
+      "explanation": "Inside: E = kQr/R³ = kQ/(2R²) at R/2. Outside: E = kQ/(4R²) at 2R. Ratio = 2 : 1.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-015",
+      "section": "physics",
+      "topic": "Current Electricity",
+      "difficulty": "hard",
+      "question": "A capacitor is charged through a resistor from an ideal battery; the time constant is τ. The energy stored in the capacitor reaches half of its final value at time",
+      "options": [
+        "τ ln(2 + √2)",
+        "τ ln 2",
+        "τ ln √2",
+        "τ ln(√2 + 1)"
+      ],
+      "answer": 0,
+      "explanation": "U = U_f(1 − e^(−t/τ))². Setting this to U_f/2: 1 − e^(−t/τ) = 1/√2 ⇒ e^(−t/τ) = (√2 − 1)/√2 ⇒ t = τ ln(√2/(√2 − 1)) = τ ln(2 + √2).",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-016",
+      "section": "physics",
+      "topic": "Magnetism",
+      "difficulty": "medium",
+      "question": "A charged particle enters a uniform magnetic field with its velocity at 60° to the field. The ratio of the pitch of its helical path to the radius of the helix is",
+      "options": [
+        "2π√3",
+        "π/√3",
+        "2π/√3",
+        "√3π"
+      ],
+      "answer": 2,
+      "explanation": "Pitch = 2πm v cosθ/(qB); radius = m v sinθ/(qB). Ratio = 2π cot 60° = 2π/√3.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-017",
+      "section": "physics",
+      "topic": "Electromagnetic Induction & AC",
+      "difficulty": "hard",
+      "question": "In an L–R circuit connected to a battery at t = 0, the magnetic energy stored in the inductor reaches one-quarter of its final value at time (τ = L/R)",
+      "options": [
+        "τ ln 4",
+        "τ ln 2",
+        "τ ln(4/3)",
+        "2τ ln 2"
+      ],
+      "answer": 1,
+      "explanation": "U ∝ i², so U = U_f/4 when i = i₀/2: 1 − e^(−t/τ) = 1/2 ⇒ t = τ ln 2.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-018",
+      "section": "physics",
+      "topic": "Ray Optics",
+      "difficulty": "hard",
+      "question": "A thin plano-convex lens (refractive index 1.5) has its curved surface of radius 20 cm. Its plane surface is silvered. The system behaves like a concave mirror of focal length",
+      "options": [
+        "20 cm",
+        "40 cm",
+        "20/3 cm",
+        "10 cm"
+      ],
+      "answer": 0,
+      "explanation": "Lens focal length f = R/(μ − 1) = 40 cm. Silvered plane face (P_m = 0): P = 2/f = 1/20 cm⁻¹, so F = 20 cm, equivalent to R/(2(μ − 1)).",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-019",
+      "section": "physics",
+      "topic": "Modern Physics",
+      "difficulty": "easy",
+      "question": "The activity of a radioactive sample falls to 1/16 of its initial value in 40 days. The mean life of the nuclide is approximately",
+      "options": [
+        "10 days",
+        "6.93 days",
+        "20 days",
+        "14.4 days"
+      ],
+      "answer": 3,
+      "explanation": "1/16 = (1/2)⁴ ⇒ 4 half-lives = 40 days ⇒ T½ = 10 days. Mean life τ = T½/0.693 ≈ 14.4 days.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-020",
+      "section": "physics",
+      "topic": "Modern Physics",
+      "difficulty": "medium",
+      "question": "When light of wavelength 400 nm falls on a metal, the stopping potential is V₀. If 300 nm light is used instead, the stopping potential increases by approximately (hc = 1240 eV nm)",
+      "options": [
+        "0.52 V",
+        "3.1 V",
+        "4.1 V",
+        "1.03 V"
+      ],
+      "answer": 3,
+      "explanation": "ΔV = (hc/e)(1/300 − 1/400) = 1240 × (1/1200) ≈ 1.03 V; the work function cancels.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-021",
+      "section": "chemistry",
+      "topic": "Mole Concept & Stoichiometry",
+      "difficulty": "medium",
+      "question": "What volume of 0.1 M KMnO₄ is needed to oxidise 50 mL of 0.5 M FeSO₄ in acidic medium?",
+      "options": [
+        "50 mL",
+        "250 mL",
+        "10 mL",
+        "25 mL"
+      ],
+      "answer": 0,
+      "explanation": "MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O. Fe²⁺ = 25 mmol needs 5 mmol MnO₄⁻ = 50 mL of 0.1 M.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-022",
+      "section": "chemistry",
+      "topic": "Atomic Structure",
+      "difficulty": "easy",
+      "question": "According to Bohr's model, the energy of the electron in the third orbit of Li²⁺ is",
+      "options": [
+        "−13.6 eV",
+        "−1.51 eV",
+        "−122.4 eV",
+        "−40.8 eV"
+      ],
+      "answer": 0,
+      "explanation": "E = −13.6 Z²/n² eV = −13.6 × 9/9 = −13.6 eV.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-023",
+      "section": "chemistry",
+      "topic": "Chemical Bonding",
+      "difficulty": "medium",
+      "question": "Which of the following has the largest number of lone pairs on the central atom?",
+      "options": [
+        "ClF₃",
+        "XeF₂",
+        "IF₅",
+        "SF₄"
+      ],
+      "answer": 1,
+      "explanation": "Lone pairs on central atom: XeF₂ = 3, ClF₃ = 2, IF₅ = 1, SF₄ = 1.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-024",
+      "section": "chemistry",
+      "topic": "Chemical Bonding",
+      "difficulty": "medium",
+      "question": "Which pair of species is isostructural?",
+      "options": [
+        "SF₄ and XeF₄",
+        "BF₃ and NH₃",
+        "XeF₄ and ICl₄⁻",
+        "SO₃ and SO₃²⁻"
+      ],
+      "answer": 2,
+      "explanation": "XeF₄ and ICl₄⁻ both have 4 bond pairs + 2 lone pairs and are square planar. SF₄ is see-saw, NH₃ pyramidal vs BF₃ planar, SO₃²⁻ pyramidal vs SO₃ planar.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-025",
+      "section": "chemistry",
+      "topic": "Thermodynamics & Thermochemistry",
+      "difficulty": "medium",
+      "question": "Two moles of an ideal gas expand isothermally and reversibly at 300 K from 10 L to 100 L. The work done on the gas is (R = 8.314 J K⁻¹ mol⁻¹)",
+      "options": [
+        "−5.74 kJ",
+        "−11.5 kJ",
+        "+11.5 kJ",
+        "−4.99 kJ"
+      ],
+      "answer": 1,
+      "explanation": "w = −nRT ln(V₂/V₁) = −2 × 8.314 × 300 × 2.303 × log 10 ≈ −11.49 kJ.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-026",
+      "section": "chemistry",
+      "topic": "Chemical & Ionic Equilibrium",
+      "difficulty": "medium",
+      "question": "The pH of a 0.1 M aqueous solution of sodium acetate is (pKa of acetic acid = 4.74, 25 °C)",
+      "options": [
+        "5.13",
+        "9.87",
+        "7.00",
+        "8.87"
+      ],
+      "answer": 3,
+      "explanation": "Salt of weak acid and strong base: pH = 7 + ½(pKa + log C) = 7 + ½(4.74 − 1) = 8.87.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-027",
+      "section": "chemistry",
+      "topic": "Chemical & Ionic Equilibrium",
+      "difficulty": "hard",
+      "question": "N₂O₄(g) ⇌ 2NO₂(g) is 20% dissociated at equilibrium at a total pressure of 1 atm. Kp for the reaction is approximately",
+      "options": [
+        "0.16 atm",
+        "0.167 atm",
+        "0.04 atm",
+        "0.083 atm"
+      ],
+      "answer": 1,
+      "explanation": "Mole fractions: NO₂ = 2α/(1 + α), N₂O₄ = (1 − α)/(1 + α). Kp = 4α²P/(1 − α²) = 4(0.04)(1)/0.96 ≈ 0.167 atm.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-028",
+      "section": "chemistry",
+      "topic": "Electrochemistry",
+      "difficulty": "medium",
+      "question": "Given Λ°m (S cm² mol⁻¹): HCl = 426, NaCl = 126, CH₃COONa = 91. Λ°m of CH₃COOH is",
+      "options": [
+        "391 S cm² mol⁻¹",
+        "643 S cm² mol⁻¹",
+        "461 S cm² mol⁻¹",
+        "209 S cm² mol⁻¹"
+      ],
+      "answer": 0,
+      "explanation": "By Kohlrausch's law: Λ°(CH₃COOH) = Λ°(CH₃COONa) + Λ°(HCl) − Λ°(NaCl) = 91 + 426 − 126 = 391.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-029",
+      "section": "chemistry",
+      "topic": "Chemical Kinetics",
+      "difficulty": "hard",
+      "question": "The rate constant of a reaction doubles when the temperature rises from 300 K to 310 K. The activation energy is approximately (R = 8.314 J K⁻¹ mol⁻¹)",
+      "options": [
+        "5.36 kJ mol⁻¹",
+        "23.3 kJ mol⁻¹",
+        "53.6 kJ mol⁻¹",
+        "107 kJ mol⁻¹"
+      ],
+      "answer": 2,
+      "explanation": "log 2 = Ea/(2.303R) × (T₂ − T₁)/(T₁T₂) ⇒ Ea = 2.303 × 8.314 × 0.301 × (300 × 310/10) ≈ 53.6 kJ mol⁻¹.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-030",
+      "section": "chemistry",
+      "topic": "Solutions & Colligative Properties",
+      "difficulty": "medium",
+      "question": "An ideal solution contains 1 mol of A (P°A = 100 torr) and 3 mol of B (P°B = 60 torr). The mole fraction of A in the vapour in equilibrium is",
+      "options": [
+        "1/4",
+        "9/14",
+        "5/14",
+        "5/12"
+      ],
+      "answer": 2,
+      "explanation": "pA = 0.25 × 100 = 25 torr; pB = 0.75 × 60 = 45 torr; total 70 torr. yA = 25/70 = 5/14.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-031",
+      "section": "chemistry",
+      "topic": "p-Block Elements",
+      "difficulty": "medium",
+      "question": "Which oxoacid of phosphorus contains two P–H bonds?",
+      "options": [
+        "H₃PO₃",
+        "H₃PO₄",
+        "H₄P₂O₇",
+        "H₃PO₂"
+      ],
+      "answer": 3,
+      "explanation": "Hypophosphorous acid H₃PO₂ has one P–OH, one P=O and two P–H bonds (monobasic). H₃PO₃ has one P–H; H₃PO₄ and H₄P₂O₇ have none.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-032",
+      "section": "chemistry",
+      "topic": "s-Block & Metallurgy",
+      "difficulty": "easy",
+      "question": "Which ore is usually concentrated by froth flotation?",
+      "options": [
+        "Haematite",
+        "Bauxite",
+        "Cassiterite",
+        "Galena"
+      ],
+      "answer": 3,
+      "explanation": "Froth flotation is used for sulphide ores; galena is PbS. Haematite and cassiterite are oxides (gravity/magnetic methods) and bauxite is leached.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-033",
+      "section": "chemistry",
+      "topic": "d-Block & Coordination Compounds",
+      "difficulty": "medium",
+      "question": "Which complex is an inner-orbital (d²sp³) complex and diamagnetic?",
+      "options": [
+        "[Co(NH₃)₆]³⁺",
+        "[CoF₆]³⁻",
+        "[Fe(H₂O)₆]²⁺",
+        "[MnCl₄]²⁻"
+      ],
+      "answer": 0,
+      "explanation": "Co³⁺ (d⁶) with NH₃ is low spin: all six electrons paired in t₂g, d²sp³ hybridised. [CoF₆]³⁻ and [Fe(H₂O)₆]²⁺ are high spin; [MnCl₄]²⁻ is sp³ with 5 unpaired electrons.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-034",
+      "section": "chemistry",
+      "topic": "GOC & Isomerism",
+      "difficulty": "medium",
+      "question": "The total number of stereoisomers of 2,3-dibromobutane is",
+      "options": [
+        "4",
+        "2",
+        "3",
+        "1"
+      ],
+      "answer": 2,
+      "explanation": "Two stereocentres with identical substitution: (2R,3R), (2S,3S) enantiomers and one meso form = 3.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-035",
+      "section": "chemistry",
+      "topic": "GOC & Isomerism",
+      "difficulty": "hard",
+      "question": "The number of structurally isomeric alcohols with the molecular formula C₅H₁₂O is",
+      "options": [
+        "7",
+        "6",
+        "8",
+        "14"
+      ],
+      "answer": 2,
+      "explanation": "Pentan-1-ol, pentan-2-ol, pentan-3-ol, 2-methylbutan-1-ol, 2-methylbutan-2-ol, 3-methylbutan-2-ol, 3-methylbutan-1-ol and 2,2-dimethylpropan-1-ol = 8.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-036",
+      "section": "chemistry",
+      "topic": "Hydrocarbons",
+      "difficulty": "hard",
+      "question": "Benzene reacts with 1-chloro-2-methylpropane, (CH₃)₂CHCH₂Cl, in the presence of anhydrous AlCl₃. The major product is",
+      "options": [
+        "Isobutylbenzene",
+        "sec-Butylbenzene",
+        "n-Butylbenzene",
+        "tert-Butylbenzene"
+      ],
+      "answer": 3,
+      "explanation": "The primary carbocation (or its AlCl₃ complex) rearranges by a 1,2-hydride shift to the tertiary (CH₃)₃C⁺, which alkylates benzene to give tert-butylbenzene.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-037",
+      "section": "chemistry",
+      "topic": "Haloalkanes, Alcohols, Phenols & Ethers",
+      "difficulty": "medium",
+      "question": "(R)-2-Bromobutane reacts with aqueous NaOH by an SN2 mechanism. The product is",
+      "options": [
+        "(R)-Butan-2-ol",
+        "Racemic butan-2-ol",
+        "But-2-ene",
+        "(S)-Butan-2-ol"
+      ],
+      "answer": 3,
+      "explanation": "SN2 proceeds with backside attack and Walden inversion. OH replaces Br with the same priority ranking, so R becomes S.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-038",
+      "section": "chemistry",
+      "topic": "Carbonyl Compounds & Carboxylic Acids",
+      "difficulty": "medium",
+      "question": "Which of the following cannot undergo aldol condensation?",
+      "options": [
+        "Propanal",
+        "Propanone",
+        "2,2-Dimethylpropanal",
+        "Phenylethanal"
+      ],
+      "answer": 2,
+      "explanation": "Aldol condensation needs an α-hydrogen. (CH₃)₃C–CHO has no α-H (it undergoes Cannizzaro reaction instead).",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-039",
+      "section": "chemistry",
+      "topic": "Amines & Nitrogen Compounds",
+      "difficulty": "easy",
+      "question": "Aniline is diazotised with NaNO₂/HCl at 0–5 °C and the product is treated with CuCN/KCN. The final product is",
+      "options": [
+        "Benzylamine",
+        "Phenyl isocyanide",
+        "Benzonitrile",
+        "Benzoic acid"
+      ],
+      "answer": 2,
+      "explanation": "Sandmeyer reaction: C₆H₅N₂⁺Cl⁻ + CuCN → C₆H₅CN (benzonitrile) + N₂.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-040",
+      "section": "chemistry",
+      "topic": "Biomolecules & Polymers",
+      "difficulty": "easy",
+      "question": "Nylon-6,6 is obtained by condensation polymerisation of",
+      "options": [
+        "Caprolactam",
+        "Hexamethylenediamine and adipic acid",
+        "Ethylene glycol and terephthalic acid",
+        "Phenol and formaldehyde"
+      ],
+      "answer": 1,
+      "explanation": "Nylon-6,6 is the polyamide of H₂N(CH₂)₆NH₂ and HOOC(CH₂)₄COOH; caprolactam gives nylon-6, glycol + terephthalic acid gives PET, phenol + HCHO gives bakelite.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-041",
+      "section": "maths",
+      "topic": "Sets, Relations & Functions",
+      "difficulty": "medium",
+      "question": "The number of onto functions from a set with 4 elements to a set with 3 elements is",
+      "options": [
+        "81",
+        "24",
+        "12",
+        "36"
+      ],
+      "answer": 3,
+      "explanation": "By inclusion–exclusion: 3⁴ − C(3,1)2⁴ + C(3,2)1⁴ = 81 − 48 + 3 = 36.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-042",
+      "section": "maths",
+      "topic": "Complex Numbers",
+      "difficulty": "medium",
+      "question": "The number of complex numbers z satisfying z̄ = z² is",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "1"
+      ],
+      "answer": 2,
+      "explanation": "Taking moduli: |z| = |z|² ⇒ |z| = 0 or 1. z = 0 works. If |z| = 1, z̄ = 1/z so z³ = 1, giving three roots. Total 4.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-043",
+      "section": "maths",
+      "topic": "Quadratic Equations",
+      "difficulty": "medium",
+      "question": "Both roots of x² − 2kx + k² − 1 = 0 lie in the interval (−2, 4) if and only if k belongs to",
+      "options": [
+        "(−1, 3)",
+        "(−2, 4)",
+        "(−1, 4)",
+        "(0, 3)"
+      ],
+      "answer": 0,
+      "explanation": "The roots are k − 1 and k + 1. Need k − 1 > −2 and k + 1 < 4 ⇒ −1 < k < 3.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-044",
+      "section": "maths",
+      "topic": "Sequences & Series",
+      "difficulty": "medium",
+      "question": "a, b, c are in a non-constant geometric progression and a, 2b, 3c are in arithmetic progression. The common ratio of the GP is",
+      "options": [
+        "1/3",
+        "3",
+        "1/2",
+        "2"
+      ],
+      "answer": 0,
+      "explanation": "4b = a + 3c ⇒ 4ar = a + 3ar² ⇒ 3r² − 4r + 1 = 0 ⇒ r = 1 or 1/3. Non-constant ⇒ r = 1/3.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-045",
+      "section": "maths",
+      "topic": "Permutations, Combinations & Binomial",
+      "difficulty": "hard",
+      "question": "The number of non-negative integer solutions of x + y + z = 10 with each of x, y, z at most 5 is",
+      "options": [
+        "66",
+        "21",
+        "36",
+        "15"
+      ],
+      "answer": 1,
+      "explanation": "Total = C(12, 2) = 66. Solutions with x ≥ 6: x' + y + z = 4 ⇒ C(6, 2) = 15; times 3 variables = 45 (two variables ≥ 6 impossible). 66 − 45 = 21.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-046",
+      "section": "maths",
+      "topic": "Permutations, Combinations & Binomial",
+      "difficulty": "medium",
+      "question": "The remainder when 7¹⁰³ is divided by 25 is",
+      "options": [
+        "18",
+        "7",
+        "24",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "7² = 49 ≡ −1 (mod 25) ⇒ 7⁴ ≡ 1. 103 = 4 × 25 + 3, so 7¹⁰³ ≡ 7³ = 343 ≡ 343 − 325 = 18.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-047",
+      "section": "maths",
+      "topic": "Matrices & Determinants",
+      "difficulty": "medium",
+      "question": "For A = [[1, 2], [3, 4]] (rows), A² = αA + βI. Then (α, β) equals",
+      "options": [
+        "(5, −2)",
+        "(−5, 2)",
+        "(5, 2)",
+        "(2, 5)"
+      ],
+      "answer": 2,
+      "explanation": "Characteristic equation: λ² − (tr A)λ + det A = λ² − 5λ − 2 = 0. By Cayley–Hamilton, A² = 5A + 2I.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-048",
+      "section": "maths",
+      "topic": "Probability",
+      "difficulty": "medium",
+      "question": "Three fair dice are thrown. The probability that the sum of the numbers shown is 10 is",
+      "options": [
+        "1/8",
+        "1/6",
+        "25/216",
+        "1/4"
+      ],
+      "answer": 0,
+      "explanation": "Number of ordered triples (1–6) with sum 10 is 27 (coefficient of x¹⁰ in (x + … + x⁶)³). Probability = 27/216 = 1/8.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-049",
+      "section": "maths",
+      "topic": "Probability",
+      "difficulty": "hard",
+      "question": "A fair die is rolled 4 times. The probability that the largest number obtained is exactly 4 is",
+      "options": [
+        "256/1296",
+        "81/1296",
+        "175/1296",
+        "1/6"
+      ],
+      "answer": 2,
+      "explanation": "P(max ≤ 4) − P(max ≤ 3) = (4/6)⁴ − (3/6)⁴ = (256 − 81)/1296 = 175/1296.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-050",
+      "section": "maths",
+      "topic": "Trigonometry",
+      "difficulty": "easy",
+      "question": "The number of solutions of sin 2x = cos x in the interval [0, 2π] is",
+      "options": [
+        "2",
+        "4",
+        "3",
+        "6"
+      ],
+      "answer": 1,
+      "explanation": "cos x(2 sin x − 1) = 0 ⇒ cos x = 0 (x = π/2, 3π/2) or sin x = 1/2 (x = π/6, 5π/6). Total 4.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-051",
+      "section": "maths",
+      "topic": "Straight Lines & Circles",
+      "difficulty": "medium",
+      "question": "The length of the common chord of the circles x² + y² = 16 and (x − 6)² + y² = 16 is",
+      "options": [
+        "2√7",
+        "√7",
+        "4",
+        "2√3"
+      ],
+      "answer": 0,
+      "explanation": "Subtracting gives the chord x = 3. Half-length = √(16 − 9) = √7, so the chord is 2√7.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-052",
+      "section": "maths",
+      "topic": "Conic Sections",
+      "difficulty": "hard",
+      "question": "The normal to the parabola y² = 4x at the point (1, 2) meets the parabola again at",
+      "options": [
+        "(4, −4)",
+        "(9, 6)",
+        "(1, −2)",
+        "(9, −6)"
+      ],
+      "answer": 3,
+      "explanation": "(1, 2) is (at², 2at) with a = 1, t = 1. The normal at t meets the parabola again at t₂ = −t − 2/t = −3, i.e. (9, −6).",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-053",
+      "section": "maths",
+      "topic": "Conic Sections",
+      "difficulty": "easy",
+      "question": "The equation of the hyperbola (axes along the coordinate axes) with eccentricity 2 and distance between foci 16 is",
+      "options": [
+        "x²/48 − y²/16 = 1",
+        "x²/16 − y²/64 = 1",
+        "x²/4 − y²/12 = 1",
+        "x²/16 − y²/48 = 1"
+      ],
+      "answer": 3,
+      "explanation": "2ae = 16, e = 2 ⇒ a = 4. b² = a²(e² − 1) = 16 × 3 = 48.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-054",
+      "section": "maths",
+      "topic": "Limits, Continuity & Differentiability",
+      "difficulty": "medium",
+      "question": "The number of points in the open interval (0, 3) at which f(x) = [x²] is discontinuous ([·] = greatest integer function) is",
+      "options": [
+        "9",
+        "8",
+        "3",
+        "7"
+      ],
+      "answer": 1,
+      "explanation": "x² runs over (0, 9) and [x²] jumps whenever x² is an integer 1, 2, …, 8, i.e. at x = 1, √2, √3, 2, √5, √6, √7, √8: 8 points.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-055",
+      "section": "maths",
+      "topic": "Applications of Derivatives",
+      "difficulty": "easy",
+      "question": "The minimum value of f(x) = x² + 16/x for x > 0 is",
+      "options": [
+        "8",
+        "12",
+        "16",
+        "20"
+      ],
+      "answer": 1,
+      "explanation": "f'(x) = 2x − 16/x² = 0 ⇒ x³ = 8 ⇒ x = 2; f''(2) > 0. f(2) = 4 + 8 = 12.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-056",
+      "section": "maths",
+      "topic": "Integral Calculus & Area",
+      "difficulty": "hard",
+      "question": "The value of ∫ from 0 to π of x sin x/(1 + cos²x) dx is",
+      "options": [
+        "π/4",
+        "π²/4",
+        "π²/2",
+        "π²"
+      ],
+      "answer": 1,
+      "explanation": "Using x → π − x: I = (π/2)∫₀^π sin x/(1 + cos²x) dx = (π/2)[−tan⁻¹(cos x)]₀^π = (π/2)(π/4 + π/4) = π²/4.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-057",
+      "section": "maths",
+      "topic": "Integral Calculus & Area",
+      "difficulty": "medium",
+      "question": "The area of the region enclosed by y = |x| and y = 2 − x² is",
+      "options": [
+        "7/6 sq units",
+        "7/3 sq units",
+        "10/3 sq units",
+        "8/3 sq units"
+      ],
+      "answer": 1,
+      "explanation": "For x ≥ 0 the curves meet at x = 1. Area = 2∫₀¹ (2 − x² − x) dx = 2(2 − 1/3 − 1/2) = 7/3.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-058",
+      "section": "maths",
+      "topic": "Differential Equations",
+      "difficulty": "medium",
+      "question": "The general solution of dy/dx = y/x + tan(y/x) is",
+      "options": [
+        "cos(y/x) = Cx",
+        "sin(y/x) = C/x",
+        "sin(y/x) = Cx",
+        "tan(y/x) = Cx"
+      ],
+      "answer": 2,
+      "explanation": "Put y = vx: x dv/dx = tan v ⇒ cot v dv = dx/x ⇒ ln sin v = ln x + c ⇒ sin(y/x) = Cx.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-059",
+      "section": "maths",
+      "topic": "Vectors & 3D Geometry",
+      "difficulty": "medium",
+      "question": "If [a b c] = 4, the volume of the parallelepiped with coterminous edges a + b, b + c and c + a is",
+      "options": [
+        "4",
+        "8",
+        "16",
+        "12"
+      ],
+      "answer": 1,
+      "explanation": "[a+b  b+c  c+a] = 2[a b c] = 8.",
+      "verified": true
+    },
+    {
+      "id": "jee-advanced-060",
+      "section": "maths",
+      "topic": "Vectors & 3D Geometry",
+      "difficulty": "medium",
+      "question": "The image of the point (1, 2, 3) in the plane x + y + z = 0 is",
+      "options": [
+        "(−1, −2, −3)",
+        "(3, 2, 1)",
+        "(−1, 0, 1)",
+        "(−3, −2, −1)"
+      ],
+      "answer": 3,
+      "explanation": "Image = P − 2[(1 + 2 + 3)/3](1, 1, 1) = (1, 2, 3) − 4(1, 1, 1) = (−3, −2, −1). (−1, 0, 1) is only the foot of the perpendicular.",
+      "verified": true
+    }
+  ]
+}

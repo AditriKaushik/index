@@ -1,0 +1,1401 @@
+{
+  "id": "rrb-alp",
+  "name": "RRB ALP",
+  "fullName": "Railway Recruitment Boards – Assistant Loco Pilot Recruitment",
+  "nameHi": "आरआरबी सहायक लोको पायलट (एएलपी)",
+  "category": "railway",
+  "conductingBody": "Railway Recruitment Boards (Ministry of Railways)",
+  "officialSite": "https://www.rrbapply.gov.in",
+  "level": "national",
+  "frequency": "Annual (as per RRB calendar, usually notified in Jan–May)",
+  "approxCandidates": "≈8.4 lakh registrations reported for CEN 01/2026 (earlier cycles drew 18 lakh+)",
+  "eligibility": "10th pass + ITI/Course Completed Act Apprenticeship in notified trades, or Diploma/Degree in Mechanical/Electrical/Electronics/Automobile Engineering; 18–30 yrs (relaxation as per rules)",
+  "notification": {
+    "status": "released",
+    "summary": "CEN 01/2026 notified 11,127 Assistant Loco Pilot vacancies; online applications ran from 15 May to 14 June 2026. As per the RRB schedule notice of 21 Sep 2026, CBT 1 is tentatively scheduled for 3, 4 and 5 November 2026, with city intimation slips about 10 days and e-call letters about 4 days before each candidate's exam date.",
+    "importantDates": [
+      {
+        "event": "Online application window",
+        "date": "15 May – 14 Jun 2026"
+      },
+      {
+        "event": "Exam city intimation slip",
+        "date": "≈10 days before exam (late Oct 2026)"
+      },
+      {
+        "event": "E-call letter (admit card)",
+        "date": "≈4 days before exam"
+      },
+      {
+        "event": "CBT 1",
+        "date": "3–5 Nov 2026 (tentative)"
+      },
+      {
+        "event": "CBT 2 and CBAT",
+        "date": "After CBT 1 result (2027, tentative)"
+      }
+    ],
+    "source": "https://www.pw.live/news/rrb-alp-cbt-1-exam-date-2026-november-3-city-intimation-admit-card",
+    "checkedOn": "2026-10-10"
+  },
+  "pattern": {
+    "stage": "CBT 1",
+    "mode": "CBT",
+    "durationMinutes": 60,
+    "totalQuestions": 75,
+    "totalMarks": 75,
+    "marking": {
+      "correct": 1,
+      "wrong": -0.3333,
+      "unattempted": 0
+    },
+    "sections": [
+      {
+        "id": "maths",
+        "name": "Mathematics",
+        "questions": 20,
+        "marks": 20
+      },
+      {
+        "id": "reasoning",
+        "name": "General Intelligence & Reasoning",
+        "questions": 25,
+        "marks": 25
+      },
+      {
+        "id": "science",
+        "name": "General Science",
+        "questions": 20,
+        "marks": 20
+      },
+      {
+        "id": "ga",
+        "name": "General Awareness on Current Affairs",
+        "questions": 10,
+        "marks": 10
+      }
+    ],
+    "notes": "CBT 1 is a screening test: marks are not counted for the final merit list; candidates are shortlisted for CBT 2 (Part A 100 Q + qualifying trade Part B 75 Q) by normalised CBT 1 score. 1/3 negative marking. Qualifying percentage: UR/EWS 40%, OBC/SC 30%, ST 25%. CBAT (psycho test) and DV/Medical (A-1 standard) follow."
+  },
+  "trendAnalysis": {
+    "yearsAnalyzed": [
+      2024,
+      2025,
+      2026
+    ],
+    "summary": "ALP CBT 1 papers (CEN 01/2024 in Nov 2024, CEN 01/2025 in early 2026) were moderate with tight time – 75 questions in 60 minutes. Mathematics is calculation-heavy (simplification, mensuration, time-work/pipes, SI/CI, algebraic identities). Reasoning carries the most marks with series, coding, blood-relation codes, syllogism and data sufficiency; it is slightly tougher than Group D. General Science is NCERT Class 9–10 based with a noticeable share of physics numericals (motion, electricity, optics). GA is only 10 questions, mostly science-tech, sports and government current affairs. Good attempts are typically 55–62 out of 75.",
+    "topics": [
+      {
+        "section": "maths",
+        "topic": "Number System",
+        "weightage": 12,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "maths",
+        "topic": "BODMAS & Simplification",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "maths",
+        "topic": "Decimals & Fractions",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "maths",
+        "topic": "LCM & HCF",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "maths",
+        "topic": "Ratio & Proportion",
+        "weightage": 7,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Percentage",
+        "weightage": 8,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "maths",
+        "topic": "Mensuration",
+        "weightage": 8,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Time & Work",
+        "weightage": 7,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Time & Distance",
+        "weightage": 7,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Simple & Compound Interest",
+        "weightage": 7,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Profit & Loss",
+        "weightage": 7,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Algebra",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Geometry & Trigonometry",
+        "weightage": 5,
+        "trend": "rising",
+        "difficulty": "hard"
+      },
+      {
+        "section": "maths",
+        "topic": "Elementary Statistics",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Square Root, Age, Calendar & Clock, Pipes & Cistern",
+        "weightage": 3,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Analogies",
+        "weightage": 8,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Alphabetical & Number Series",
+        "weightage": 12,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Coding-Decoding",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Mathematical Operations",
+        "weightage": 7,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Relationships (Blood Relations)",
+        "weightage": 8,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Syllogism",
+        "weightage": 8,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Jumbling",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Venn Diagram",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Data Interpretation & Sufficiency",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "hard"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Conclusions & Decision Making",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Similarities, Differences & Classification",
+        "weightage": 8,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Analytical Reasoning (Puzzles & Arrangement)",
+        "weightage": 8,
+        "trend": "rising",
+        "difficulty": "hard"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Directions",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Statement – Arguments & Assumptions",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Mirror Image & Figure Counting",
+        "weightage": 3,
+        "trend": "falling",
+        "difficulty": "medium"
+      },
+      {
+        "section": "science",
+        "topic": "Physics: Units, Motion & Laws of Motion",
+        "weightage": 12,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "science",
+        "topic": "Physics: Work, Energy, Power & Gravitation",
+        "weightage": 7,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "science",
+        "topic": "Physics: Light & Optics",
+        "weightage": 9,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "science",
+        "topic": "Physics: Electricity & Magnetism",
+        "weightage": 9,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "science",
+        "topic": "Physics: Heat, Sound & Waves",
+        "weightage": 7,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "science",
+        "topic": "Chemistry: Matter, Atoms & Periodic Classification",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "science",
+        "topic": "Chemistry: Acids, Bases & Salts",
+        "weightage": 9,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "science",
+        "topic": "Chemistry: Metals, Non-metals & Carbon Compounds",
+        "weightage": 9,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "science",
+        "topic": "Chemistry: Chemical Reactions & Equations",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "science",
+        "topic": "Biology: Human Body, Health & Disease",
+        "weightage": 12,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "science",
+        "topic": "Biology: Life Processes in Plants",
+        "weightage": 7,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "science",
+        "topic": "Biology: Heredity, Evolution & Environment",
+        "weightage": 3,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "ga",
+        "topic": "Current Affairs: Science & Technology",
+        "weightage": 20,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "ga",
+        "topic": "Current Affairs: Sports",
+        "weightage": 15,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "ga",
+        "topic": "Culture & Personalities",
+        "weightage": 12,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "ga",
+        "topic": "Economics & Government Schemes",
+        "weightage": 13,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "ga",
+        "topic": "Politics & Governance",
+        "weightage": 15,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "ga",
+        "topic": "Indian History, Geography & Railways",
+        "weightage": 15,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "ga",
+        "topic": "Static GK",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "easy"
+      }
+    ]
+  },
+  "resources": {
+    "pyqAvailable": true,
+    "officialPYQ": null,
+    "officialMock": null,
+    "notes": "RRBs publish the question paper, provisional answer key and response sheet for each ALP CBT only during the objection window, through regional RRB websites (e.g. https://www.rrbcdg.gov.in, linked from https://www.rrbapply.gov.in). No permanent official PYQ archive exists; memory-based papers from coaching publishers are unofficial."
+  },
+  "questions": [
+    {
+      "id": "rrb-alp-001",
+      "section": "maths",
+      "topic": "Number System",
+      "difficulty": "easy",
+      "question": "Which of the following is a prime number?",
+      "options": [
+        "97",
+        "91",
+        "87",
+        "93"
+      ],
+      "answer": 0,
+      "explanation": "91 = 7 × 13, 87 = 3 × 29 and 93 = 3 × 31. 97 has no factor other than 1 and itself.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-002",
+      "section": "maths",
+      "topic": "BODMAS & Simplification",
+      "difficulty": "medium",
+      "question": "Simplify: 3/4 of 2/5 of 1500 − 20% of 900",
+      "options": [
+        "300",
+        "250",
+        "330",
+        "270"
+      ],
+      "answer": 3,
+      "explanation": "3/4 × 2/5 × 1500 = 450; 20% of 900 = 180; 450 − 180 = 270.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-003",
+      "section": "maths",
+      "topic": "LCM & HCF",
+      "difficulty": "hard",
+      "question": "What is the least three-digit number which, when divided by 6, 8 and 12, leaves a remainder of 3 in each case?",
+      "options": [
+        "147",
+        "123",
+        "99",
+        "111"
+      ],
+      "answer": 1,
+      "explanation": "LCM(6, 8, 12) = 24. Numbers are of the form 24k + 3: 99 (two-digit), then 123. So the answer is 123.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-004",
+      "section": "maths",
+      "topic": "Ratio & Proportion",
+      "difficulty": "medium",
+      "question": "If A : B = 2 : 3 and B : C = 4 : 5, then A : B : C is:",
+      "options": [
+        "8 : 12 : 15",
+        "2 : 3 : 5",
+        "8 : 12 : 5",
+        "4 : 6 : 5"
+      ],
+      "answer": 0,
+      "explanation": "Make B common: A : B = 8 : 12 and B : C = 12 : 15. So A : B : C = 8 : 12 : 15.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-005",
+      "section": "maths",
+      "topic": "Percentage",
+      "difficulty": "medium",
+      "question": "A number is first increased by 20% and then the result is decreased by 20%. What is the net change?",
+      "options": [
+        "No change",
+        "4% increase",
+        "4% decrease",
+        "2% decrease"
+      ],
+      "answer": 2,
+      "explanation": "Net effect = 20 − 20 − (20 × 20)/100 = −4%, i.e. a 4% decrease (100 → 120 → 96).",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-006",
+      "section": "maths",
+      "topic": "Mensuration",
+      "difficulty": "hard",
+      "question": "A solid metal sphere of radius 6 cm is melted and recast into a solid cylinder of radius 4 cm. What is the height of the cylinder?",
+      "options": [
+        "12 cm",
+        "24 cm",
+        "16 cm",
+        "18 cm"
+      ],
+      "answer": 3,
+      "explanation": "(4/3)π × 6³ = π × 4² × h ⇒ 288π = 16πh ⇒ h = 18 cm.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-007",
+      "section": "maths",
+      "topic": "Mensuration",
+      "difficulty": "easy",
+      "question": "The perimeter of a square is 48 cm. What is its area?",
+      "options": [
+        "196 cm²",
+        "96 cm²",
+        "121 cm²",
+        "144 cm²"
+      ],
+      "answer": 3,
+      "explanation": "Side = 48/4 = 12 cm. Area = 12² = 144 cm².",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-008",
+      "section": "maths",
+      "topic": "Square Root, Age, Calendar & Clock, Pipes & Cistern",
+      "difficulty": "medium",
+      "question": "Pipe A can fill a tank in 10 hours and pipe B can empty the full tank in 15 hours. If both are opened together on an empty tank, in how many hours will it be full?",
+      "options": [
+        "30 hours",
+        "25 hours",
+        "6 hours",
+        "12 hours"
+      ],
+      "answer": 0,
+      "explanation": "Net filling per hour = 1/10 − 1/15 = 1/30. So the tank fills in 30 hours.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-009",
+      "section": "maths",
+      "topic": "Time & Work",
+      "difficulty": "hard",
+      "question": "A and B can do a work in 12 days, B and C in 15 days, and C and A in 20 days. In how many days can A alone do it?",
+      "options": [
+        "20 days",
+        "30 days",
+        "60 days",
+        "40 days"
+      ],
+      "answer": 1,
+      "explanation": "2(A + B + C) = 1/12 + 1/15 + 1/20 = (5 + 4 + 3)/60 = 1/5, so A + B + C = 1/10. A = 1/10 − 1/15 (B + C) = 1/30. A alone takes 30 days.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-010",
+      "section": "maths",
+      "topic": "Time & Distance",
+      "difficulty": "medium",
+      "question": "A man travels from P to Q at 40 km/h and returns from Q to P at 60 km/h. What is his average speed for the whole journey?",
+      "options": [
+        "50 km/h",
+        "45 km/h",
+        "48 km/h",
+        "52 km/h"
+      ],
+      "answer": 2,
+      "explanation": "For equal distances, average speed = 2xy/(x + y) = 2 × 40 × 60 / 100 = 48 km/h.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-011",
+      "section": "maths",
+      "topic": "Simple & Compound Interest",
+      "difficulty": "easy",
+      "question": "At what rate of simple interest per annum will ₹2,500 amount to ₹3,100 in 4 years?",
+      "options": [
+        "5%",
+        "6%",
+        "8%",
+        "7.5%"
+      ],
+      "answer": 1,
+      "explanation": "SI = 3100 − 2500 = 600. R = 600 × 100 / (2500 × 4) = 6%.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-012",
+      "section": "maths",
+      "topic": "Simple & Compound Interest",
+      "difficulty": "medium",
+      "question": "A sum of money doubles itself in 5 years at compound interest (compounded annually). In how many years will it become 8 times itself?",
+      "options": [
+        "20 years",
+        "40 years",
+        "25 years",
+        "15 years"
+      ],
+      "answer": 3,
+      "explanation": "8 = 2³, so it takes 3 doubling periods = 3 × 5 = 15 years.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-013",
+      "section": "maths",
+      "topic": "Profit & Loss",
+      "difficulty": "medium",
+      "question": "A dishonest shopkeeper sells goods at cost price but uses a weight of 900 g instead of 1 kg. What is his gain percentage?",
+      "options": [
+        "11 1/9 %",
+        "10%",
+        "9 1/11 %",
+        "12.5%"
+      ],
+      "answer": 0,
+      "explanation": "He gives 900 g for the price of 1000 g. Gain% = 100/900 × 100 = 11 1/9 %.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-014",
+      "section": "maths",
+      "topic": "Algebra",
+      "difficulty": "hard",
+      "question": "If x − y = 4 and xy = 21, what is the value of x³ − y³?",
+      "options": [
+        "280",
+        "316",
+        "252",
+        "364"
+      ],
+      "answer": 1,
+      "explanation": "x³ − y³ = (x − y)³ + 3xy(x − y) = 64 + 3 × 21 × 4 = 64 + 252 = 316.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-015",
+      "section": "maths",
+      "topic": "Geometry & Trigonometry",
+      "difficulty": "easy",
+      "question": "The angles of a triangle are in the ratio 2 : 3 : 4. What is the largest angle?",
+      "options": [
+        "80°",
+        "60°",
+        "90°",
+        "75°"
+      ],
+      "answer": 0,
+      "explanation": "2x + 3x + 4x = 180° ⇒ x = 20°. Largest angle = 4 × 20° = 80°.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-016",
+      "section": "maths",
+      "topic": "Elementary Statistics",
+      "difficulty": "medium",
+      "question": "The mean of 5 observations is 12. If the observation 20 is removed, what is the mean of the remaining observations?",
+      "options": [
+        "8",
+        "11",
+        "10",
+        "9"
+      ],
+      "answer": 2,
+      "explanation": "Sum = 5 × 12 = 60. After removing 20, sum = 40 over 4 observations, mean = 10.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-017",
+      "section": "reasoning",
+      "topic": "Analogies",
+      "difficulty": "easy",
+      "question": "Doctor : Hospital :: Teacher : ?",
+      "options": [
+        "School",
+        "Student",
+        "Book",
+        "Chalk"
+      ],
+      "answer": 0,
+      "explanation": "A doctor works in a hospital; a teacher works in a school (person : workplace).",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-018",
+      "section": "reasoning",
+      "topic": "Analogies",
+      "difficulty": "medium",
+      "question": "ACE : BDF :: GIK : ?",
+      "options": [
+        "HIK",
+        "IJL",
+        "HJL",
+        "HJK"
+      ],
+      "answer": 2,
+      "explanation": "Each letter moves one step forward: A→B, C→D, E→F. Similarly G→H, I→J, K→L.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-019",
+      "section": "reasoning",
+      "topic": "Alphabetical & Number Series",
+      "difficulty": "medium",
+      "question": "Find the next number: 6, 11, 21, 41, 81, ?",
+      "options": [
+        "162",
+        "121",
+        "161",
+        "160"
+      ],
+      "answer": 2,
+      "explanation": "Each term = previous × 2 − 1: 81 × 2 − 1 = 161.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-020",
+      "section": "reasoning",
+      "topic": "Alphabetical & Number Series",
+      "difficulty": "hard",
+      "question": "Find the next letter: Z, W, S, N, ?",
+      "options": [
+        "I",
+        "H",
+        "G",
+        "J"
+      ],
+      "answer": 1,
+      "explanation": "Positions 26, 23, 19, 14 decrease by 3, 4, 5; next decrease is 6: 14 − 6 = 8 = H.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-021",
+      "section": "reasoning",
+      "topic": "Alphabetical & Number Series",
+      "difficulty": "hard",
+      "question": "Find the next number: 3, 4, 8, 17, 33, ?",
+      "options": [
+        "49",
+        "58",
+        "50",
+        "66"
+      ],
+      "answer": 1,
+      "explanation": "Differences are 1, 4, 9, 16 (squares); next difference is 25: 33 + 25 = 58.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-022",
+      "section": "reasoning",
+      "topic": "Coding-Decoding",
+      "difficulty": "easy",
+      "question": "If RED is coded as 27 (sum of alphabet positions), what is the code for BLUE?",
+      "options": [
+        "38",
+        "40",
+        "42",
+        "41"
+      ],
+      "answer": 1,
+      "explanation": "R(18) + E(5) + D(4) = 27. BLUE = B(2) + L(12) + U(21) + E(5) = 40.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-023",
+      "section": "reasoning",
+      "topic": "Coding-Decoding",
+      "difficulty": "medium",
+      "question": "In a code language, 'sky is blue' is written 'ka ta pa', 'blue is deep' is written 'ta na ka' and 'deep sea' is written 'na ra'. What is the code for 'sky'?",
+      "options": [
+        "ka",
+        "pa",
+        "ta",
+        "na"
+      ],
+      "answer": 1,
+      "explanation": "'is' and 'blue' are common to the first two sentences, so they are 'ka' and 'ta'. The remaining word 'sky' must be 'pa'.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-024",
+      "section": "reasoning",
+      "topic": "Mathematical Operations",
+      "difficulty": "medium",
+      "question": "If 3 # 4 = 25 and 5 # 12 = 169, then 6 # 8 = ?",
+      "options": [
+        "196",
+        "64",
+        "140",
+        "100"
+      ],
+      "answer": 3,
+      "explanation": "a # b = a² + b²: 9 + 16 = 25, 25 + 144 = 169. So 6 # 8 = 36 + 64 = 100.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-025",
+      "section": "reasoning",
+      "topic": "Relationships (Blood Relations)",
+      "difficulty": "hard",
+      "question": "A + B means A is the mother of B; A − B means A is the brother of B; A × B means A is the father of B; A ÷ B means A is the sister of B. Which expression shows that P is the maternal uncle of Q?",
+      "options": [
+        "P − M × Q",
+        "P − M + Q",
+        "P ÷ M + Q",
+        "P × M − Q"
+      ],
+      "answer": 1,
+      "explanation": "P − M + Q: P is the brother of M and M is the mother of Q, so P is Q's maternal uncle. P − M × Q makes P a paternal uncle; P ÷ M + Q makes P a maternal aunt; P × M − Q makes P the father of Q.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-026",
+      "section": "reasoning",
+      "topic": "Relationships (Blood Relations)",
+      "difficulty": "medium",
+      "question": "Introducing a woman, Aman (a man) said, 'She is the wife of my mother's only son.' How is the woman related to Aman?",
+      "options": [
+        "Wife",
+        "Sister-in-law",
+        "Sister",
+        "Mother"
+      ],
+      "answer": 0,
+      "explanation": "Aman is a man, so his mother's only son is Aman himself. The woman is his wife.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-027",
+      "section": "reasoning",
+      "topic": "Syllogism",
+      "difficulty": "medium",
+      "question": "Statements: Some books are pens. All pens are pencils.\nConclusions: I. Some books are pencils. II. Some pencils are books.\nWhich conclusion(s) follow?",
+      "options": [
+        "Only I follows",
+        "Only II follows",
+        "Both I and II follow",
+        "Neither I nor II follows"
+      ],
+      "answer": 2,
+      "explanation": "The books that are pens are also pencils, so some books are pencils (I), and its conversion 'some pencils are books' (II) also follows.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-028",
+      "section": "reasoning",
+      "topic": "Syllogism",
+      "difficulty": "hard",
+      "question": "Statements: All apples are fruits. No fruit is a vegetable.\nConclusions: I. No apple is a vegetable. II. Some vegetables are apples.\nWhich conclusion(s) follow?",
+      "options": [
+        "Only II follows",
+        "Both I and II follow",
+        "Only I follows",
+        "Neither I nor II follows"
+      ],
+      "answer": 2,
+      "explanation": "Apples lie inside fruits, which are completely separate from vegetables, so no apple is a vegetable (I). II contradicts I.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-029",
+      "section": "reasoning",
+      "topic": "Venn Diagram",
+      "difficulty": "medium",
+      "question": "Which set of classes is best represented by one circle lying completely inside a second circle, with a third circle completely separate from both?",
+      "options": [
+        "Rose, Flower, Car",
+        "Doctor, Male, Father",
+        "Mammal, Dog, Cat",
+        "India, Asia, World"
+      ],
+      "answer": 0,
+      "explanation": "All roses are flowers (one circle inside the other) and a car is unrelated to both. Mammal–Dog–Cat has two circles inside one; India–Asia–World is a chain of three nested circles; Doctor–Male–Father overlap.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-030",
+      "section": "reasoning",
+      "topic": "Directions",
+      "difficulty": "medium",
+      "question": "Rahul walks 5 km south, turns left and walks 3 km, then turns left again and walks 9 km. How far and in which direction is he from the starting point?",
+      "options": [
+        "5 km North-West",
+        "4 km North",
+        "5 km North-East",
+        "3 km East"
+      ],
+      "answer": 2,
+      "explanation": "From (0, 0): south 5 → (0, −5); left of south is east, 3 → (3, −5); left of east is north, 9 → (3, 4). Distance = √(3² + 4²) = 5 km, towards the North-East.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-031",
+      "section": "reasoning",
+      "topic": "Similarities, Differences & Classification",
+      "difficulty": "easy",
+      "question": "Select the odd one out: Triangle, Square, Circle, Rectangle",
+      "options": [
+        "Triangle",
+        "Square",
+        "Rectangle",
+        "Circle"
+      ],
+      "answer": 3,
+      "explanation": "Triangle, square and rectangle are polygons bounded by straight lines; a circle has no straight sides.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-032",
+      "section": "reasoning",
+      "topic": "Analytical Reasoning (Puzzles & Arrangement)",
+      "difficulty": "medium",
+      "question": "M, N, O, P and Q sit in a row facing north. O sits at the extreme right end. M sits second to the left of O. N sits to the immediate left of Q. Who sits at the extreme left end?",
+      "options": [
+        "Q",
+        "P",
+        "M",
+        "N"
+      ],
+      "answer": 3,
+      "explanation": "O = 5, so M = 3. N and Q must be adjacent with N on the left; only positions 1–2 are free together, so N = 1, Q = 2 and P = 4.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-033",
+      "section": "reasoning",
+      "topic": "Statement – Arguments & Assumptions",
+      "difficulty": "medium",
+      "question": "Statement: Should mobile phones be banned inside examination halls?\nArguments: I. Yes, they can be misused for cheating. II. No, almost everyone owns a mobile phone nowadays.\nWhich argument(s) are strong?",
+      "options": [
+        "Only argument II is strong",
+        "Both I and II are strong",
+        "Neither I nor II is strong",
+        "Only argument I is strong"
+      ],
+      "answer": 3,
+      "explanation": "I gives a direct, relevant reason related to the fairness of the exam. II (wide ownership) is irrelevant to whether phones should be allowed in an exam hall.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-034",
+      "section": "reasoning",
+      "topic": "Jumbling",
+      "difficulty": "easy",
+      "question": "Arrange the words in dictionary order: 1. Govern 2. Gossip 3. Gold 4. Goal",
+      "options": [
+        "3, 4, 2, 1",
+        "4, 3, 1, 2",
+        "4, 2, 3, 1",
+        "4, 3, 2, 1"
+      ],
+      "answer": 3,
+      "explanation": "Comparing the third letters: Goal (a), Gold (l), Gossip (s), Govern (v). Order: 4, 3, 2, 1.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-035",
+      "section": "reasoning",
+      "topic": "Data Interpretation & Sufficiency",
+      "difficulty": "hard",
+      "question": "Question: Is the integer x even?\nStatement I: x² is even.\nStatement II: x is a multiple of 3.\nWhich statement(s) are sufficient to answer the question?",
+      "options": [
+        "II alone is sufficient",
+        "Both I and II together are needed",
+        "I alone is sufficient",
+        "Neither I nor II is sufficient"
+      ],
+      "answer": 2,
+      "explanation": "If x² is even, x must be even (the square of an odd number is odd), so I answers the question. A multiple of 3 can be odd (3) or even (6), so II alone does not.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-036",
+      "section": "reasoning",
+      "topic": "Conclusions & Decision Making",
+      "difficulty": "medium",
+      "question": "Statement: Due to heavy rain, train services between two cities were cancelled for the day.\nConclusions: I. Heavy rain can disrupt train services. II. Trains never run during rain.\nWhich conclusion(s) follow?",
+      "options": [
+        "Only II follows",
+        "Only I follows",
+        "Both I and II follow",
+        "Neither I nor II follows"
+      ],
+      "answer": 1,
+      "explanation": "The statement shows rain disrupted services (I). One cancellation does not mean trains never run in rain, so II is an over-generalisation.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-037",
+      "section": "science",
+      "topic": "Physics: Units, Motion & Laws of Motion",
+      "difficulty": "easy",
+      "question": "What is the SI unit of power?",
+      "options": [
+        "Joule",
+        "Newton",
+        "Watt",
+        "Pascal"
+      ],
+      "answer": 2,
+      "explanation": "Power is the rate of doing work; 1 watt = 1 joule per second.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-038",
+      "section": "science",
+      "topic": "Physics: Units, Motion & Laws of Motion",
+      "difficulty": "medium",
+      "question": "A body moving at 20 m/s is brought to rest in 4 s by a uniform retardation. What is the magnitude of the retardation?",
+      "options": [
+        "4 m/s²",
+        "80 m/s²",
+        "10 m/s²",
+        "5 m/s²"
+      ],
+      "answer": 3,
+      "explanation": "a = (v − u)/t = (0 − 20)/4 = −5 m/s², so the retardation is 5 m/s².",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-039",
+      "section": "science",
+      "topic": "Physics: Work, Energy, Power & Gravitation",
+      "difficulty": "medium",
+      "question": "If the distance between two masses is doubled, the gravitational force between them becomes:",
+      "options": [
+        "One-fourth",
+        "One-half",
+        "Double",
+        "Four times"
+      ],
+      "answer": 0,
+      "explanation": "F ∝ 1/r². Doubling r makes the force 1/2² = 1/4 of its original value.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-040",
+      "section": "science",
+      "topic": "Physics: Work, Energy, Power & Gravitation",
+      "difficulty": "hard",
+      "question": "A crane lifts a load of 50 kg vertically through 10 m in 5 s. What is the power used? (g = 10 m/s²)",
+      "options": [
+        "500 W",
+        "2500 W",
+        "1000 W",
+        "100 W"
+      ],
+      "answer": 2,
+      "explanation": "Work = mgh = 50 × 10 × 10 = 5000 J. Power = 5000/5 = 1000 W.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-041",
+      "section": "science",
+      "topic": "Physics: Light & Optics",
+      "difficulty": "easy",
+      "question": "A concave mirror has a focal length of 15 cm. What is its radius of curvature?",
+      "options": [
+        "30 cm",
+        "7.5 cm",
+        "15 cm",
+        "45 cm"
+      ],
+      "answer": 0,
+      "explanation": "R = 2f = 2 × 15 = 30 cm.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-042",
+      "section": "science",
+      "topic": "Physics: Light & Optics",
+      "difficulty": "hard",
+      "question": "An object is placed 30 cm in front of a convex lens of focal length 20 cm. At what distance from the lens is the image formed?",
+      "options": [
+        "12 cm",
+        "50 cm",
+        "10 cm",
+        "60 cm"
+      ],
+      "answer": 3,
+      "explanation": "Lens formula 1/v − 1/u = 1/f with u = −30, f = +20: 1/v = 1/20 − 1/30 = 1/60, so v = +60 cm (real image on the other side).",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-043",
+      "section": "science",
+      "topic": "Physics: Electricity & Magnetism",
+      "difficulty": "easy",
+      "question": "A potential difference of 5 V is applied across a 10 Ω resistor. What current flows through it?",
+      "options": [
+        "2 A",
+        "0.5 A",
+        "50 A",
+        "5 A"
+      ],
+      "answer": 1,
+      "explanation": "By Ohm's law I = V/R = 5/10 = 0.5 A.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-044",
+      "section": "science",
+      "topic": "Physics: Electricity & Magnetism",
+      "difficulty": "hard",
+      "question": "A 1.5 kW heater is used for 2 hours every day. How much electrical energy does it consume in 30 days?",
+      "options": [
+        "45 kWh",
+        "60 kWh",
+        "180 kWh",
+        "90 kWh"
+      ],
+      "answer": 3,
+      "explanation": "Energy = 1.5 kW × 2 h × 30 = 90 kWh (90 units).",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-045",
+      "section": "science",
+      "topic": "Physics: Electricity & Magnetism",
+      "difficulty": "medium",
+      "question": "Which device converts mechanical energy into electrical energy?",
+      "options": [
+        "Electric generator",
+        "Electric motor",
+        "Transformer",
+        "Galvanometer"
+      ],
+      "answer": 0,
+      "explanation": "A generator (dynamo) works on electromagnetic induction to convert mechanical energy to electrical energy; a motor does the reverse.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-046",
+      "section": "science",
+      "topic": "Physics: Heat, Sound & Waves",
+      "difficulty": "medium",
+      "question": "In which of the following media does sound travel the fastest?",
+      "options": [
+        "Steel",
+        "Water",
+        "Air",
+        "Vacuum"
+      ],
+      "answer": 0,
+      "explanation": "Sound travels fastest in solids such as steel (≈5000 m/s), slower in water (≈1500 m/s), slower still in air (≈343 m/s), and cannot travel through vacuum.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-047",
+      "section": "science",
+      "topic": "Chemistry: Matter, Atoms & Periodic Classification",
+      "difficulty": "medium",
+      "question": "A sodium atom has atomic number 11 and mass number 23. How many neutrons does its nucleus contain?",
+      "options": [
+        "11",
+        "23",
+        "34",
+        "12"
+      ],
+      "answer": 3,
+      "explanation": "Neutrons = mass number − atomic number = 23 − 11 = 12.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-048",
+      "section": "science",
+      "topic": "Chemistry: Matter, Atoms & Periodic Classification",
+      "difficulty": "medium",
+      "question": "The Modern Periodic Table has:",
+      "options": [
+        "7 groups and 18 periods",
+        "16 groups and 7 periods",
+        "18 groups and 8 periods",
+        "18 groups and 7 periods"
+      ],
+      "answer": 3,
+      "explanation": "The long form of the Modern Periodic Table has 18 vertical columns (groups) and 7 horizontal rows (periods).",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-049",
+      "section": "science",
+      "topic": "Chemistry: Acids, Bases & Salts",
+      "difficulty": "medium",
+      "question": "The pH of human blood is about 7.4. This means blood is:",
+      "options": [
+        "Strongly acidic",
+        "Exactly neutral",
+        "Slightly acidic",
+        "Slightly basic"
+      ],
+      "answer": 3,
+      "explanation": "pH 7 is neutral; values above 7 are basic. 7.4 is slightly basic (alkaline).",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-050",
+      "section": "science",
+      "topic": "Chemistry: Metals, Non-metals & Carbon Compounds",
+      "difficulty": "medium",
+      "question": "Which of the following is the main ore of aluminium?",
+      "options": [
+        "Haematite",
+        "Bauxite",
+        "Galena",
+        "Cinnabar"
+      ],
+      "answer": 1,
+      "explanation": "Bauxite (Al₂O₃·2H₂O) is the ore of aluminium. Haematite is an iron ore, galena a lead ore and cinnabar a mercury ore.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-051",
+      "section": "science",
+      "topic": "Biology: Human Body, Health & Disease",
+      "difficulty": "medium",
+      "question": "Deficiency of iodine in the diet causes:",
+      "options": [
+        "Anaemia",
+        "Scurvy",
+        "Goitre",
+        "Rickets"
+      ],
+      "answer": 2,
+      "explanation": "Iodine is needed to make thyroxine; its deficiency causes goitre. Anaemia is linked to iron, scurvy to vitamin C and rickets to vitamin D.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-052",
+      "section": "science",
+      "topic": "Biology: Life Processes in Plants",
+      "difficulty": "easy",
+      "question": "The loss of water in the form of vapour from the aerial parts of a plant, mainly through stomata, is called:",
+      "options": [
+        "Respiration",
+        "Transpiration",
+        "Guttation",
+        "Translocation"
+      ],
+      "answer": 1,
+      "explanation": "Transpiration is the loss of water vapour through stomata. Guttation is loss of liquid water droplets; translocation is transport of food in phloem.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-053",
+      "section": "ga",
+      "topic": "Current Affairs: Science & Technology",
+      "difficulty": "easy",
+      "question": "Aditya-L1, launched by ISRO in September 2023, is India's first space-based mission to study:",
+      "options": [
+        "The Moon",
+        "Mars",
+        "The Sun",
+        "Venus"
+      ],
+      "answer": 2,
+      "explanation": "Aditya-L1 is a solar observatory placed in a halo orbit around Lagrange point L1 of the Sun–Earth system.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-054",
+      "section": "ga",
+      "topic": "Current Affairs: Sports",
+      "difficulty": "easy",
+      "question": "Which team won the ICC Men's T20 World Cup 2024?",
+      "options": [
+        "South Africa",
+        "India",
+        "Australia",
+        "England"
+      ],
+      "answer": 1,
+      "explanation": "India beat South Africa by 7 runs in the final at Barbados on 29 June 2024.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-055",
+      "section": "ga",
+      "topic": "Culture & Personalities",
+      "difficulty": "easy",
+      "question": "Who composed 'Vande Mataram', India's national song?",
+      "options": [
+        "Rabindranath Tagore",
+        "Bankim Chandra Chattopadhyay",
+        "Muhammad Iqbal",
+        "Sarojini Naidu"
+      ],
+      "answer": 1,
+      "explanation": "Vande Mataram is from Bankim Chandra Chattopadhyay's novel 'Anandamath' (1882). Tagore wrote the national anthem.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-056",
+      "section": "ga",
+      "topic": "Economics & Government Schemes",
+      "difficulty": "medium",
+      "question": "The 'Make in India' initiative was launched by the Government of India in which year?",
+      "options": [
+        "2014",
+        "2016",
+        "2012",
+        "2019"
+      ],
+      "answer": 0,
+      "explanation": "Make in India was launched on 25 September 2014 to promote manufacturing in India.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-057",
+      "section": "ga",
+      "topic": "Politics & Governance",
+      "difficulty": "medium",
+      "question": "Who appoints the Chief Election Commissioner of India?",
+      "options": [
+        "The Prime Minister",
+        "The Chief Justice of India",
+        "The President of India",
+        "The Speaker of the Lok Sabha"
+      ],
+      "answer": 2,
+      "explanation": "Under Article 324 the Chief Election Commissioner is appointed by the President (on the recommendation of a selection committee under the 2023 Act).",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-058",
+      "section": "ga",
+      "topic": "Indian History, Geography & Railways",
+      "difficulty": "medium",
+      "question": "India's first passenger train, which ran on 16 April 1853, operated between:",
+      "options": [
+        "Bori Bunder (Bombay) and Thane",
+        "Howrah and Hooghly",
+        "Royapuram and Arcot",
+        "Roorkee and Piran Kaliyar"
+      ],
+      "answer": 0,
+      "explanation": "The first passenger train in India ran 34 km from Bori Bunder in Bombay to Thane on 16 April 1853.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-059",
+      "section": "ga",
+      "topic": "Indian History, Geography & Railways",
+      "difficulty": "hard",
+      "question": "The Rail Coach Factory (RCF) of Indian Railways is located at:",
+      "options": [
+        "Chennai",
+        "Rae Bareli",
+        "Kapurthala",
+        "Varanasi"
+      ],
+      "answer": 2,
+      "explanation": "RCF is at Kapurthala (Punjab). Chennai has the Integral Coach Factory, Rae Bareli the Modern Coach Factory, and Varanasi the Banaras Locomotive Works.",
+      "verified": true
+    },
+    {
+      "id": "rrb-alp-060",
+      "section": "ga",
+      "topic": "Static GK",
+      "difficulty": "hard",
+      "question": "Before it was renamed in 2021, the Major Dhyan Chand Khel Ratna Award was named after:",
+      "options": [
+        "Rajiv Gandhi",
+        "Indira Gandhi",
+        "Jawaharlal Nehru",
+        "Sardar Vallabhbhai Patel"
+      ],
+      "answer": 0,
+      "explanation": "India's highest sporting honour, earlier the Rajiv Gandhi Khel Ratna, was renamed after hockey legend Major Dhyan Chand in August 2021.",
+      "verified": true
+    }
+  ]
+}

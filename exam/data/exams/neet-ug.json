@@ -1,0 +1,1540 @@
+{
+  "id": "neet-ug",
+  "name": "NEET UG",
+  "fullName": "National Eligibility cum Entrance Test (Undergraduate)",
+  "nameHi": "नीट यूजी",
+  "category": "medical",
+  "conductingBody": "National Testing Agency (NTA)",
+  "officialSite": "https://neet.nta.nic.in",
+  "level": "national",
+  "frequency": "Once a year (May)",
+  "approxCandidates": "≈22–23 lakh candidates (over 22 lakh appeared in the June 2026 re-exam)",
+  "eligibility": "Class 12 with Physics, Chemistry, Biology/Biotechnology and English (50% PCB for General, 40% SC/ST/OBC); minimum age 17 by 31 Dec of admission year; no upper age limit",
+  "notification": {
+    "status": "expected",
+    "summary": "NEET UG 2026 held on 3 May 2026 was cancelled by NTA after a confirmed paper leak; a pen-and-paper re-exam was held on 21 June 2026 (over 22 lakh appeared) with results in July 2026. For 2027 the Union Education Ministry has announced a shift to computer-based testing, but the final format, shifts/normalisation and the information bulletin were still awaited as of 10 Oct 2026.",
+    "importantDates": [
+      {
+        "event": "Information bulletin & registration",
+        "date": "Feb–Mar 2027 (expected)"
+      },
+      {
+        "event": "Exam",
+        "date": "May 2027 (expected; possibly multi-day CBT)"
+      },
+      {
+        "event": "Result",
+        "date": "Jun 2027 (expected)"
+      }
+    ],
+    "source": "https://medicaldialogues.in/amp/news/education/medical-admissions/neet-2027-to-shift-to-computer-based-test-nta-asks-aicte-to-identify-exam-centres-178572 (news report; confirm on neet.nta.nic.in)",
+    "checkedOn": "2026-10-10"
+  },
+  "pattern": {
+    "stage": "Single paper",
+    "mode": "Pen-and-paper (OMR) through 2026; CBT announced for 2027",
+    "durationMinutes": 180,
+    "totalQuestions": 180,
+    "totalMarks": 720,
+    "marking": {
+      "correct": 4,
+      "wrong": -1,
+      "unattempted": 0
+    },
+    "sections": [
+      {
+        "id": "physics",
+        "name": "Physics",
+        "questions": 45,
+        "marks": 180
+      },
+      {
+        "id": "chemistry",
+        "name": "Chemistry",
+        "questions": 45,
+        "marks": 180
+      },
+      {
+        "id": "botany",
+        "name": "Botany",
+        "questions": 45,
+        "marks": 180
+      },
+      {
+        "id": "zoology",
+        "name": "Zoology",
+        "questions": 45,
+        "marks": 180
+      }
+    ],
+    "notes": "Since 2025 all 180 questions are compulsory (the optional Section B was dropped) and the duration is 180 minutes. If NEET 2027 moves to multi-shift CBT, NTA has indicated scores would be normalised across shifts."
+  },
+  "trendAnalysis": {
+    "yearsAnalyzed": [
+      2024,
+      2025,
+      2026
+    ],
+    "summary": "Biology (90 questions) is overwhelmingly NCERT-line based, with genetics, molecular biology, human physiology, reproduction and ecology the highest-yield areas and a growing share of statement-based, match-the-column and assertion–reason items. Physics swung from moderate (2024) to the toughest section (2025, lengthy numericals in electrostatics, current electricity, optics and modern physics). Chemistry is moderate: physical chemistry numericals plus NCERT-text inorganic (bonding, coordination, p-block) and reaction-based organic. Cut-offs fell sharply in 2025 as difficulty rose; the 2026 re-exam was reported as moderate.",
+    "topics": [
+      {
+        "section": "physics",
+        "topic": "Units & Measurement",
+        "weightage": 3,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "physics",
+        "topic": "Kinematics",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "physics",
+        "topic": "Laws of Motion",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "physics",
+        "topic": "Work, Energy & Power",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "physics",
+        "topic": "System of Particles & Rotational Motion",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "physics",
+        "topic": "Gravitation",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "physics",
+        "topic": "Mechanical Properties of Solids & Fluids",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "physics",
+        "topic": "Thermal Properties & Thermodynamics",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "physics",
+        "topic": "Kinetic Theory of Gases",
+        "weightage": 2,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "physics",
+        "topic": "Oscillations & Waves",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "physics",
+        "topic": "Electrostatics",
+        "weightage": 8,
+        "trend": "rising",
+        "difficulty": "hard"
+      },
+      {
+        "section": "physics",
+        "topic": "Current Electricity",
+        "weightage": 9,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "physics",
+        "topic": "Magnetic Effects of Current & Magnetism",
+        "weightage": 7,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "physics",
+        "topic": "Electromagnetic Induction & AC",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "physics",
+        "topic": "Electromagnetic Waves",
+        "weightage": 2,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "physics",
+        "topic": "Ray Optics",
+        "weightage": 7,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "physics",
+        "topic": "Wave Optics",
+        "weightage": 3,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "physics",
+        "topic": "Dual Nature of Matter & Radiation",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "physics",
+        "topic": "Atoms & Nuclei",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "physics",
+        "topic": "Semiconductor Electronics",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Some Basic Concepts of Chemistry",
+        "weightage": 3,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Structure of Atom",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Classification & Periodicity",
+        "weightage": 3,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Chemical Bonding & Molecular Structure",
+        "weightage": 9,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Thermodynamics",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Equilibrium",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Redox Reactions",
+        "weightage": 2,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Solutions",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Electrochemistry",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Chemical Kinetics",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "chemistry",
+        "topic": "p-Block Elements",
+        "weightage": 7,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "chemistry",
+        "topic": "d- & f-Block Elements",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Coordination Compounds",
+        "weightage": 8,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Organic Chemistry: Basic Principles & Techniques",
+        "weightage": 8,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Hydrocarbons",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Haloalkanes & Haloarenes",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Alcohols, Phenols & Ethers",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Aldehydes, Ketones & Carboxylic Acids",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Amines",
+        "weightage": 3,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Biomolecules",
+        "weightage": 3,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "chemistry",
+        "topic": "Principles Related to Practical Chemistry",
+        "weightage": 2,
+        "trend": "rising",
+        "difficulty": "easy"
+      },
+      {
+        "section": "botany",
+        "topic": "Diversity in the Living World",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "botany",
+        "topic": "Plant Anatomy",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "botany",
+        "topic": "Morphology of Flowering Plants",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "botany",
+        "topic": "Cell: Structure & Function",
+        "weightage": 9,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "botany",
+        "topic": "Cell Cycle & Cell Division",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "botany",
+        "topic": "Photosynthesis in Higher Plants",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "botany",
+        "topic": "Respiration in Plants",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "botany",
+        "topic": "Plant Growth & Development",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "botany",
+        "topic": "Sexual Reproduction in Flowering Plants",
+        "weightage": 8,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "botany",
+        "topic": "Principles of Inheritance & Variation",
+        "weightage": 13,
+        "trend": "rising",
+        "difficulty": "hard"
+      },
+      {
+        "section": "botany",
+        "topic": "Molecular Basis of Inheritance",
+        "weightage": 13,
+        "trend": "rising",
+        "difficulty": "hard"
+      },
+      {
+        "section": "botany",
+        "topic": "Organisms & Populations",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "botany",
+        "topic": "Ecosystem",
+        "weightage": 7,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "botany",
+        "topic": "Biodiversity & Conservation",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "zoology",
+        "topic": "Animal Kingdom",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "zoology",
+        "topic": "Structural Organisation in Animals",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "zoology",
+        "topic": "Biomolecules",
+        "weightage": 7,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "zoology",
+        "topic": "Breathing & Exchange of Gases",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "zoology",
+        "topic": "Body Fluids & Circulation",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "zoology",
+        "topic": "Excretory Products & their Elimination",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "zoology",
+        "topic": "Locomotion & Movement",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "zoology",
+        "topic": "Neural Control & Coordination",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "zoology",
+        "topic": "Chemical Coordination & Integration",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "zoology",
+        "topic": "Human Reproduction",
+        "weightage": 9,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "zoology",
+        "topic": "Reproductive Health",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "zoology",
+        "topic": "Evolution",
+        "weightage": 8,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "zoology",
+        "topic": "Human Health & Disease",
+        "weightage": 8,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "zoology",
+        "topic": "Biotechnology: Principles & Processes",
+        "weightage": 8,
+        "trend": "rising",
+        "difficulty": "hard"
+      },
+      {
+        "section": "zoology",
+        "topic": "Biotechnology & its Applications",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      }
+    ]
+  },
+  "resources": {
+    "pyqAvailable": true,
+    "officialPYQ": "https://neet.nta.nic.in",
+    "officialMock": null,
+    "notes": "NTA releases the test-booklet codes' question papers with provisional and final answer keys on neet.nta.nic.in (and exams.nta.ac.in/NEET) after each exam; candidates see their OMR/response sheets during the challenge window. No dedicated official full-length mock is currently published; if the 2027 exam moves to CBT, NTA is expected to post a practice CBT."
+  },
+  "questions": [
+    {
+      "id": "neet-ug-001",
+      "section": "physics",
+      "topic": "Units & Measurement",
+      "difficulty": "easy",
+      "question": "Which of the following pairs of physical quantities have the same dimensions?",
+      "options": [
+        "Force and impulse",
+        "Work and torque",
+        "Pressure and momentum",
+        "Power and energy"
+      ],
+      "answer": 1,
+      "explanation": "Work = force × displacement and torque = force × lever arm both have dimensions ML²T⁻².",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-002",
+      "section": "physics",
+      "topic": "Laws of Motion",
+      "difficulty": "easy",
+      "question": "A person of mass 60 kg stands on a weighing scale in a lift moving downward with an acceleration of 2 m/s². The scale reads (g = 10 m/s²)",
+      "options": [
+        "480 N",
+        "600 N",
+        "720 N",
+        "0 N"
+      ],
+      "answer": 0,
+      "explanation": "Apparent weight = m(g − a) = 60 × (10 − 2) = 480 N.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-003",
+      "section": "physics",
+      "topic": "Work, Energy & Power",
+      "difficulty": "medium",
+      "question": "A spring of spring constant 200 N/m is compressed by 10 cm and used to launch a 0.5 kg block on a smooth horizontal surface. The speed of the block on leaving the spring is",
+      "options": [
+        "4 m/s",
+        "1 m/s",
+        "20 m/s",
+        "2 m/s"
+      ],
+      "answer": 3,
+      "explanation": "½kx² = ½mv² ⇒ v = x√(k/m) = 0.1 × √400 = 2 m/s.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-004",
+      "section": "physics",
+      "topic": "System of Particles & Rotational Motion",
+      "difficulty": "hard",
+      "question": "The moment of inertia of a thin uniform rod of mass M and length L about an axis perpendicular to it through a point at distance L/4 from one end is",
+      "options": [
+        "ML²/12",
+        "7ML²/48",
+        "ML²/3",
+        "5ML²/48"
+      ],
+      "answer": 1,
+      "explanation": "Parallel-axis theorem: I = ML²/12 + M(L/4)² = ML²/12 + ML²/16 = 7ML²/48.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-005",
+      "section": "physics",
+      "topic": "Mechanical Properties of Solids & Fluids",
+      "difficulty": "medium",
+      "question": "A wire extends by 1 mm under a certain load. Another wire of the same material, with twice the length and twice the radius, is subjected to the same load. Its extension is",
+      "options": [
+        "1 mm",
+        "2 mm",
+        "0.5 mm",
+        "0.25 mm"
+      ],
+      "answer": 2,
+      "explanation": "ΔL = FL/(πr²Y) ∝ L/r². New ΔL = 1 mm × 2/4 = 0.5 mm.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-006",
+      "section": "physics",
+      "topic": "Thermal Properties & Thermodynamics",
+      "difficulty": "easy",
+      "question": "A Carnot engine has an efficiency of 40% with its sink at 300 K. The temperature of the source is",
+      "options": [
+        "750 K",
+        "500 K",
+        "420 K",
+        "1200 K"
+      ],
+      "answer": 1,
+      "explanation": "η = 1 − T₂/T₁ ⇒ 0.4 = 1 − 300/T₁ ⇒ T₁ = 300/0.6 = 500 K.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-007",
+      "section": "physics",
+      "topic": "Oscillations & Waves",
+      "difficulty": "medium",
+      "question": "The length of a simple pendulum is increased by 21%. Its time period increases by",
+      "options": [
+        "21%",
+        "42%",
+        "4.6%",
+        "10%"
+      ],
+      "answer": 3,
+      "explanation": "T ∝ √L, so T' = T√1.21 = 1.1T, an increase of 10%.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-008",
+      "section": "physics",
+      "topic": "Electrostatics",
+      "difficulty": "hard",
+      "question": "Two identical small conducting spheres carrying equal charges repel each other with force F. A third identical uncharged sphere is touched first to one sphere, then to the other, and removed. The new force between the first two spheres (same separation) is",
+      "options": [
+        "F/2",
+        "3F/8",
+        "F/4",
+        "3F/4"
+      ],
+      "answer": 1,
+      "explanation": "Charges become q/2 on the first; the third then has q/2 and shares with the second: (q/2 + q)/2 = 3q/4. Force ∝ (q/2)(3q/4) = 3q²/8 ⇒ 3F/8.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-009",
+      "section": "physics",
+      "topic": "Current Electricity",
+      "difficulty": "medium",
+      "question": "In a metre bridge, a null point is found at 40 cm from the left end when an unknown resistance X is in the left gap and 12 Ω is in the right gap. The value of X is",
+      "options": [
+        "8 Ω",
+        "18 Ω",
+        "4.8 Ω",
+        "12 Ω"
+      ],
+      "answer": 0,
+      "explanation": "X/12 = 40/60 ⇒ X = 8 Ω.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-010",
+      "section": "physics",
+      "topic": "Magnetic Effects of Current & Magnetism",
+      "difficulty": "medium",
+      "question": "A circular coil of 100 turns and radius 10 cm carries a current of 1 A. The magnetic field at its centre is approximately (μ₀ = 4π × 10⁻⁷ T m A⁻¹)",
+      "options": [
+        "3.14 × 10⁻⁴ T",
+        "1.26 × 10⁻³ T",
+        "6.28 × 10⁻⁶ T",
+        "6.28 × 10⁻⁴ T"
+      ],
+      "answer": 3,
+      "explanation": "B = μ₀NI/(2R) = 4π×10⁻⁷ × 100 × 1/0.2 = 2π × 10⁻⁴ ≈ 6.28 × 10⁻⁴ T.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-011",
+      "section": "physics",
+      "topic": "Electromagnetic Induction & AC",
+      "difficulty": "hard",
+      "question": "A resistor of 30 Ω and an inductor of reactance 40 Ω are connected in series to a 200 V (rms) AC supply. The average power dissipated is",
+      "options": [
+        "800 W",
+        "640 W",
+        "1333 W",
+        "480 W"
+      ],
+      "answer": 3,
+      "explanation": "Z = √(30² + 40²) = 50 Ω; I_rms = 4 A. P = I²R = 16 × 30 = 480 W.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-012",
+      "section": "physics",
+      "topic": "Ray Optics",
+      "difficulty": "medium",
+      "question": "An object is placed 30 cm in front of a concave mirror of focal length 20 cm. The image formed is",
+      "options": [
+        "Real, inverted, 60 cm in front of the mirror, magnified 2 times",
+        "Virtual, erect, 60 cm behind the mirror, magnified 2 times",
+        "Real, inverted, 12 cm in front of the mirror, diminished",
+        "Real, erect, 60 cm in front of the mirror, magnified 3 times"
+      ],
+      "answer": 0,
+      "explanation": "1/v = 1/f − 1/u = −1/20 + 1/30 = −1/60 ⇒ v = −60 cm (real, in front). m = −v/u = −2 ⇒ inverted, twice the size.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-013",
+      "section": "physics",
+      "topic": "Atoms & Nuclei",
+      "difficulty": "easy",
+      "question": "After three half-lives, the fraction of a radioactive sample that has decayed is",
+      "options": [
+        "1/8",
+        "3/4",
+        "7/8",
+        "1/3"
+      ],
+      "answer": 2,
+      "explanation": "Remaining = (1/2)³ = 1/8, so decayed = 1 − 1/8 = 7/8.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-014",
+      "section": "physics",
+      "topic": "Semiconductor Electronics",
+      "difficulty": "easy",
+      "question": "A full-wave rectifier is fed with 50 Hz AC mains. The fundamental frequency of the ripple in its output is",
+      "options": [
+        "50 Hz",
+        "25 Hz",
+        "100 Hz",
+        "200 Hz"
+      ],
+      "answer": 2,
+      "explanation": "A full-wave rectifier gives one output pulse for each half cycle, so the ripple frequency is 2 × 50 = 100 Hz.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-015",
+      "section": "physics",
+      "topic": "Gravitation",
+      "difficulty": "medium",
+      "question": "If the Earth were to shrink so that its radius decreased by 1% with its mass unchanged, the acceleration due to gravity at its surface would",
+      "options": [
+        "increase by about 2%",
+        "decrease by about 2%",
+        "increase by about 1%",
+        "remain unchanged"
+      ],
+      "answer": 0,
+      "explanation": "g = GM/R² ⇒ Δg/g = −2ΔR/R = −2(−1%) = +2%.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-016",
+      "section": "chemistry",
+      "topic": "Some Basic Concepts of Chemistry",
+      "difficulty": "easy",
+      "question": "The total number of atoms present in 0.1 mol of methane (CH₄) is (N_A = 6.022 × 10²³)",
+      "options": [
+        "6.022 × 10²²",
+        "6.022 × 10²³",
+        "3.011 × 10²³",
+        "1.204 × 10²³"
+      ],
+      "answer": 2,
+      "explanation": "Each CH₄ has 5 atoms: 0.1 × 5 = 0.5 mol of atoms = 0.5 × 6.022 × 10²³ = 3.011 × 10²³.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-017",
+      "section": "chemistry",
+      "topic": "Structure of Atom",
+      "difficulty": "easy",
+      "question": "Which set of quantum numbers is NOT permissible for an electron?",
+      "options": [
+        "n = 3, l = 2, mₗ = −2, mₛ = −½",
+        "n = 2, l = 1, mₗ = 0, mₛ = +½",
+        "n = 4, l = 0, mₗ = 0, mₛ = −½",
+        "n = 2, l = 2, mₗ = 0, mₛ = +½"
+      ],
+      "answer": 3,
+      "explanation": "l can only take values 0 to n − 1; for n = 2, l = 2 is not allowed.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-018",
+      "section": "chemistry",
+      "topic": "Chemical Bonding & Molecular Structure",
+      "difficulty": "medium",
+      "question": "The hybridisation of the central atom and the shape of ClF₃ are",
+      "options": [
+        "sp², trigonal planar",
+        "sp³, trigonal pyramidal",
+        "sp³d, trigonal bipyramidal",
+        "sp³d, T-shaped"
+      ],
+      "answer": 3,
+      "explanation": "Cl has 3 bond pairs and 2 lone pairs (5 electron domains, sp³d). Lone pairs occupy equatorial positions, giving a T-shape.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-019",
+      "section": "chemistry",
+      "topic": "Chemical Bonding & Molecular Structure",
+      "difficulty": "easy",
+      "question": "Which of the following molecules has the largest bond angle?",
+      "options": [
+        "CH₄",
+        "BF₃",
+        "NH₃",
+        "H₂O"
+      ],
+      "answer": 1,
+      "explanation": "BF₃ is trigonal planar (120°); CH₄ 109.5°, NH₃ ≈ 107°, H₂O ≈ 104.5°.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-020",
+      "section": "chemistry",
+      "topic": "Thermodynamics",
+      "difficulty": "medium",
+      "question": "Given ΔcH° of CH₄ = −890.3, ΔfH° of CO₂ = −393.5 and ΔfH° of H₂O(l) = −285.8 kJ mol⁻¹. The standard enthalpy of formation of CH₄ is",
+      "options": [
+        "−74.8 kJ mol⁻¹",
+        "+74.8 kJ mol⁻¹",
+        "−211.0 kJ mol⁻¹",
+        "−1569.6 kJ mol⁻¹"
+      ],
+      "answer": 0,
+      "explanation": "CH₄ + 2O₂ → CO₂ + 2H₂O: −890.3 = (−393.5 + 2(−285.8)) − ΔfH(CH₄) ⇒ ΔfH(CH₄) = −965.1 + 890.3 = −74.8 kJ mol⁻¹.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-021",
+      "section": "chemistry",
+      "topic": "Equilibrium",
+      "difficulty": "hard",
+      "question": "The solubility product of Ag₂CrO₄ is 3.2 × 10⁻¹¹ at 25 °C. Its molar solubility in water is",
+      "options": [
+        "4 × 10⁻⁴ mol L⁻¹",
+        "2 × 10⁻⁴ mol L⁻¹",
+        "5.6 × 10⁻⁶ mol L⁻¹",
+        "1 × 10⁻⁴ mol L⁻¹"
+      ],
+      "answer": 1,
+      "explanation": "Ag₂CrO₄ ⇌ 2Ag⁺ + CrO₄²⁻: Ksp = (2s)²s = 4s³ ⇒ s³ = 8 × 10⁻¹² ⇒ s = 2 × 10⁻⁴ mol L⁻¹.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-022",
+      "section": "chemistry",
+      "topic": "Chemical Kinetics",
+      "difficulty": "medium",
+      "question": "For the rate law r = k[A]²[B], if [A] is doubled and [B] is halved, the rate becomes",
+      "options": [
+        "4 times",
+        "2 times",
+        "unchanged",
+        "8 times"
+      ],
+      "answer": 1,
+      "explanation": "r' = k(2[A])²([B]/2) = 4 × ½ × k[A]²[B] = 2r.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-023",
+      "section": "chemistry",
+      "topic": "p-Block Elements",
+      "difficulty": "medium",
+      "question": "Among the hydrides of group 15, the strongest reducing agent is",
+      "options": [
+        "BiH₃",
+        "NH₃",
+        "PH₃",
+        "SbH₃"
+      ],
+      "answer": 0,
+      "explanation": "Down the group the E–H bond becomes weaker, so reducing character increases: NH₃ < PH₃ < AsH₃ < SbH₃ < BiH₃.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-024",
+      "section": "chemistry",
+      "topic": "d- & f-Block Elements",
+      "difficulty": "easy",
+      "question": "A direct consequence of lanthanoid contraction is that",
+      "options": [
+        "Lanthanoids show only the +2 oxidation state",
+        "Atomic size increases from La to Lu",
+        "Zr and Hf have almost identical atomic radii",
+        "Basic strength of hydroxides increases from La(OH)₃ to Lu(OH)₃"
+      ],
+      "answer": 2,
+      "explanation": "Poor shielding by 4f electrons makes 5d elements nearly the same size as 4d ones (Zr 160 pm, Hf 159 pm). Radii decrease and basicity decreases across the series; +3 is the common state.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-025",
+      "section": "chemistry",
+      "topic": "Coordination Compounds",
+      "difficulty": "medium",
+      "question": "Which of the following complexes shows optical isomerism?",
+      "options": [
+        "trans-[Co(en)₂Cl₂]⁺",
+        "[Co(NH₃)₆]³⁺",
+        "trans-[Pt(NH₃)₂Cl₂]",
+        "cis-[Co(en)₂Cl₂]⁺"
+      ],
+      "answer": 3,
+      "explanation": "cis-[Co(en)₂Cl₂]⁺ has no plane of symmetry and exists as a pair of enantiomers. The trans isomer, the homoleptic complex and the square-planar Pt complex have mirror planes.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-026",
+      "section": "chemistry",
+      "topic": "Organic Chemistry: Basic Principles & Techniques",
+      "difficulty": "hard",
+      "question": "The correct order of acidic strength is",
+      "options": [
+        "Cl₃CCOOH > Cl₂CHCOOH > ClCH₂COOH > CH₃COOH",
+        "CH₃COOH > ClCH₂COOH > Cl₂CHCOOH > Cl₃CCOOH",
+        "Cl₂CHCOOH > Cl₃CCOOH > ClCH₂COOH > CH₃COOH",
+        "ClCH₂COOH > Cl₂CHCOOH > Cl₃CCOOH > CH₃COOH"
+      ],
+      "answer": 0,
+      "explanation": "Each Cl exerts an −I effect that stabilises the carboxylate ion; more Cl atoms give a stronger acid. CH₃ (+I) makes acetic acid the weakest.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-027",
+      "section": "chemistry",
+      "topic": "Hydrocarbons",
+      "difficulty": "medium",
+      "question": "Propene reacts with HBr in the presence of benzoyl peroxide. The major product is",
+      "options": [
+        "2-Bromopropane",
+        "1,2-Dibromopropane",
+        "Propane",
+        "1-Bromopropane"
+      ],
+      "answer": 3,
+      "explanation": "In the presence of peroxide, HBr adds by a free-radical mechanism (Kharasch effect), giving the anti-Markovnikov product CH₃CH₂CH₂Br.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-028",
+      "section": "chemistry",
+      "topic": "Aldehydes, Ketones & Carboxylic Acids",
+      "difficulty": "medium",
+      "question": "Acetophenone can be converted directly into ethylbenzene by",
+      "options": [
+        "LiAlH₄",
+        "NaBH₄",
+        "Zinc amalgam and concentrated HCl",
+        "H₂ over Pd–BaSO₄"
+      ],
+      "answer": 2,
+      "explanation": "Clemmensen reduction (Zn–Hg/conc. HCl) reduces C=O to CH₂. LiAlH₄ and NaBH₄ give the secondary alcohol; Pd–BaSO₄ (Rosenmund catalyst) does not reduce the ketone to the alkane.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-029",
+      "section": "chemistry",
+      "topic": "Amines",
+      "difficulty": "hard",
+      "question": "The correct order of basic strength of the following in aqueous solution is",
+      "options": [
+        "(C₂H₅)₃N > (C₂H₅)₂NH > C₂H₅NH₂ > NH₃",
+        "(C₂H₅)₂NH > (C₂H₅)₃N > C₂H₅NH₂ > NH₃",
+        "C₂H₅NH₂ > (C₂H₅)₂NH > (C₂H₅)₃N > NH₃",
+        "NH₃ > C₂H₅NH₂ > (C₂H₅)₂NH > (C₂H₅)₃N"
+      ],
+      "answer": 1,
+      "explanation": "In water, basicity depends on +I effect, solvation and steric hindrance; for ethyl amines the order is 2° > 3° > 1° > NH₃ (NCERT).",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-030",
+      "section": "chemistry",
+      "topic": "Biomolecules",
+      "difficulty": "medium",
+      "question": "On prolonged heating with HI, glucose gives",
+      "options": [
+        "Gluconic acid",
+        "Sorbitol",
+        "n-Hexane",
+        "Saccharic acid"
+      ],
+      "answer": 2,
+      "explanation": "Prolonged heating with HI reduces glucose to n-hexane, showing its six carbons are in a straight chain.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-031",
+      "section": "botany",
+      "topic": "Diversity in the Living World",
+      "difficulty": "easy",
+      "question": "Which organisms lack a cell wall and are the smallest living cells known that can survive without oxygen?",
+      "options": [
+        "Mycoplasma",
+        "Nostoc",
+        "Euglena",
+        "Chlamydomonas"
+      ],
+      "answer": 0,
+      "explanation": "Mycoplasma completely lacks a cell wall, is the smallest known living cell and can survive without oxygen.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-032",
+      "section": "botany",
+      "topic": "Plant Anatomy",
+      "difficulty": "medium",
+      "question": "Conjoint, collateral, closed vascular bundles scattered in the ground tissue and surrounded by a sclerenchymatous bundle sheath are characteristic of",
+      "options": [
+        "Monocot stem",
+        "Dicot stem",
+        "Dicot root",
+        "Monocot root"
+      ],
+      "answer": 0,
+      "explanation": "Monocot stems have numerous scattered, closed (no cambium) conjoint collateral bundles with sclerenchymatous sheaths; roots have radial bundles and dicot stems have bundles in a ring.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-033",
+      "section": "botany",
+      "topic": "Morphology of Flowering Plants",
+      "difficulty": "medium",
+      "question": "Marginal placentation is found in",
+      "options": [
+        "Mustard",
+        "Pea",
+        "Sunflower",
+        "Dianthus"
+      ],
+      "answer": 1,
+      "explanation": "In pea (Fabaceae) the ovules are borne along the ventral suture of a single-chambered ovary (marginal). Mustard has parietal, sunflower basal and Dianthus free-central placentation.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-034",
+      "section": "botany",
+      "topic": "Cell: Structure & Function",
+      "difficulty": "easy",
+      "question": "Which of the following cell organelles contains its own DNA and 70S ribosomes?",
+      "options": [
+        "Chloroplast",
+        "Golgi apparatus",
+        "Lysosome",
+        "Endoplasmic reticulum"
+      ],
+      "answer": 0,
+      "explanation": "Chloroplasts (and mitochondria) are semi-autonomous: they have circular DNA and 70S ribosomes.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-035",
+      "section": "botany",
+      "topic": "Cell: Structure & Function",
+      "difficulty": "medium",
+      "question": "According to NCERT, the membrane of the human erythrocyte has approximately",
+      "options": [
+        "40% protein and 52% lipid",
+        "60% protein and 40% lipid",
+        "52% protein and 40% lipid",
+        "20% protein and 80% lipid"
+      ],
+      "answer": 2,
+      "explanation": "Biochemical studies of human RBC membranes show about 52 per cent protein and 40 per cent lipids.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-036",
+      "section": "botany",
+      "topic": "Cell Cycle & Cell Division",
+      "difficulty": "medium",
+      "question": "Crossing over between non-sister chromatids of homologous chromosomes takes place during",
+      "options": [
+        "Zygotene",
+        "Pachytene",
+        "Diplotene",
+        "Diakinesis"
+      ],
+      "answer": 1,
+      "explanation": "Synapsis occurs in zygotene; exchange of segments (crossing over, aided by recombinase) occurs in pachytene; chiasmata become visible in diplotene.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-037",
+      "section": "botany",
+      "topic": "Photosynthesis in Higher Plants",
+      "difficulty": "hard",
+      "question": "To produce one molecule of glucose through the Calvin cycle, the number of ATP and NADPH molecules required is",
+      "options": [
+        "12 ATP and 18 NADPH",
+        "30 ATP and 12 NADPH",
+        "18 ATP and 18 NADPH",
+        "18 ATP and 12 NADPH"
+      ],
+      "answer": 3,
+      "explanation": "Each CO₂ fixed needs 3 ATP and 2 NADPH; six turns (6 CO₂) for one glucose need 18 ATP and 12 NADPH.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-038",
+      "section": "botany",
+      "topic": "Respiration in Plants",
+      "difficulty": "medium",
+      "question": "How many molecules of CO₂ are released in one turn of the Krebs cycle (oxidation of one acetyl CoA)?",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "6"
+      ],
+      "answer": 1,
+      "explanation": "Decarboxylation occurs at isocitrate → α-ketoglutarate and α-ketoglutarate → succinyl CoA: 2 CO₂ per acetyl CoA (the third CO₂ per pyruvate is released in the link reaction).",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-039",
+      "section": "botany",
+      "topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "medium",
+      "question": "How many meiotic divisions are needed to produce 100 pollen grains?",
+      "options": [
+        "100",
+        "50",
+        "25",
+        "125"
+      ],
+      "answer": 2,
+      "explanation": "Each microspore mother cell undergoes one meiosis to form a tetrad of four pollen grains: 100/4 = 25.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-040",
+      "section": "botany",
+      "topic": "Principles of Inheritance & Variation",
+      "difficulty": "hard",
+      "question": "In the cross AaBbCc × AaBbCc (independent assortment), the proportion of offspring with genotype AaBbcc is",
+      "options": [
+        "1/64",
+        "1/8",
+        "3/64",
+        "1/16"
+      ],
+      "answer": 3,
+      "explanation": "P(Aa) = 1/2, P(Bb) = 1/2, P(cc) = 1/4. Product = 1/16.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-041",
+      "section": "botany",
+      "topic": "Principles of Inheritance & Variation",
+      "difficulty": "medium",
+      "question": "A man with blood group A (genotype Iᴬi) marries a woman with blood group B (genotype Iᴮi). The probability that their child has blood group O is",
+      "options": [
+        "1/4",
+        "1/2",
+        "0",
+        "3/4"
+      ],
+      "answer": 0,
+      "explanation": "The child gets i from each parent with probability 1/2 × 1/2 = 1/4, giving genotype ii (group O).",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-042",
+      "section": "botany",
+      "topic": "Molecular Basis of Inheritance",
+      "difficulty": "hard",
+      "question": "A double-stranded DNA segment has 1000 base pairs, of which 300 are A–T pairs. The total number of hydrogen bonds between the two strands is",
+      "options": [
+        "2600",
+        "3000",
+        "2700",
+        "2300"
+      ],
+      "answer": 2,
+      "explanation": "A–T pairs have 2 H-bonds and G–C pairs 3. 300 × 2 + 700 × 3 = 600 + 2100 = 2700.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-043",
+      "section": "botany",
+      "topic": "Molecular Basis of Inheritance",
+      "difficulty": "medium",
+      "question": "In eukaryotes, the precursor of mRNA (hnRNA) is transcribed by",
+      "options": [
+        "RNA polymerase I",
+        "RNA polymerase III",
+        "RNA polymerase II",
+        "Primase"
+      ],
+      "answer": 2,
+      "explanation": "RNA polymerase I makes rRNAs (28S, 18S, 5.8S), III makes tRNA, 5S rRNA and snRNAs, and II makes hnRNA.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-044",
+      "section": "botany",
+      "topic": "Ecosystem",
+      "difficulty": "easy",
+      "question": "If producers in a food chain fix 10,000 J of energy, how much energy will be available to tertiary consumers according to the 10 per cent law?",
+      "options": [
+        "100 J",
+        "10 J",
+        "1 J",
+        "1000 J"
+      ],
+      "answer": 1,
+      "explanation": "Producers 10,000 J → primary 1000 J → secondary 100 J → tertiary 10 J.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-045",
+      "section": "botany",
+      "topic": "Biodiversity & Conservation",
+      "difficulty": "easy",
+      "question": "Which of the following is NOT one of the 'evil quartet' causes of biodiversity loss?",
+      "options": [
+        "Habitat loss and fragmentation",
+        "Over-exploitation",
+        "Alien species invasions",
+        "Afforestation"
+      ],
+      "answer": 3,
+      "explanation": "The evil quartet is habitat loss and fragmentation, over-exploitation, alien species invasions and co-extinctions.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-046",
+      "section": "zoology",
+      "topic": "Animal Kingdom",
+      "difficulty": "easy",
+      "question": "Which of the following animals has an open circulatory system?",
+      "options": [
+        "Earthworm",
+        "Frog",
+        "Cockroach",
+        "Shark"
+      ],
+      "answer": 2,
+      "explanation": "Arthropods such as the cockroach have an open circulatory system; annelids and vertebrates have closed systems.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-047",
+      "section": "zoology",
+      "topic": "Animal Kingdom",
+      "difficulty": "medium",
+      "question": "Which of the following is a pseudocoelomate animal?",
+      "options": [
+        "Taenia",
+        "Ascaris",
+        "Pheretima",
+        "Hydra"
+      ],
+      "answer": 1,
+      "explanation": "Aschelminthes (roundworms such as Ascaris) are pseudocoelomates. Taenia (flatworm) is acoelomate, Pheretima (annelid) is coelomate and Hydra is diploblastic.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-048",
+      "section": "zoology",
+      "topic": "Biomolecules",
+      "difficulty": "medium",
+      "question": "Inhibition of succinic dehydrogenase by malonate, which closely resembles the substrate succinate, is an example of",
+      "options": [
+        "Competitive inhibition",
+        "Non-competitive inhibition",
+        "Feedback activation",
+        "Allosteric activation"
+      ],
+      "answer": 0,
+      "explanation": "Malonate resembles succinate and competes for the active site of the enzyme: competitive inhibition.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-049",
+      "section": "zoology",
+      "topic": "Breathing & Exchange of Gases",
+      "difficulty": "easy",
+      "question": "Vital capacity of the lungs is equal to",
+      "options": [
+        "TV + IRV",
+        "RV + ERV",
+        "TV + RV + ERV + IRV",
+        "ERV + TV + IRV"
+      ],
+      "answer": 3,
+      "explanation": "Vital capacity = maximum air breathed out after a forced inspiration = ERV + TV + IRV. TV + IRV is inspiratory capacity, RV + ERV is FRC and the sum of all four is total lung capacity.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-050",
+      "section": "zoology",
+      "topic": "Body Fluids & Circulation",
+      "difficulty": "medium",
+      "question": "In a standard ECG, the QRS complex represents",
+      "options": [
+        "Depolarisation of the ventricles",
+        "Depolarisation of the atria",
+        "Repolarisation of the ventricles",
+        "Repolarisation of the atria"
+      ],
+      "answer": 0,
+      "explanation": "The P wave is atrial depolarisation, QRS is ventricular depolarisation and T is ventricular repolarisation.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-051",
+      "section": "zoology",
+      "topic": "Excretory Products & their Elimination",
+      "difficulty": "medium",
+      "question": "Which of the following causes vasodilation and decreases blood pressure, acting as a check on the renin–angiotensin mechanism?",
+      "options": [
+        "Angiotensin II",
+        "Aldosterone",
+        "Atrial natriuretic factor",
+        "Antidiuretic hormone"
+      ],
+      "answer": 2,
+      "explanation": "ANF released by the atrial walls causes vasodilation and lowers blood pressure; angiotensin II and ADH are vasoconstrictors and aldosterone increases Na⁺/water reabsorption.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-052",
+      "section": "zoology",
+      "topic": "Locomotion & Movement",
+      "difficulty": "medium",
+      "question": "During contraction of a skeletal muscle fibre, the length of which of the following remains unchanged?",
+      "options": [
+        "A-band",
+        "I-band",
+        "H-zone",
+        "Sarcomere"
+      ],
+      "answer": 0,
+      "explanation": "Thin filaments slide over thick filaments: I-bands and H-zone shorten and the sarcomere shortens, but the A-band (length of thick filaments) stays the same.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-053",
+      "section": "zoology",
+      "topic": "Chemical Coordination & Integration",
+      "difficulty": "easy",
+      "question": "Which hormone is released from the posterior pituitary?",
+      "options": [
+        "Oxytocin",
+        "Prolactin",
+        "Growth hormone",
+        "Thyroid stimulating hormone"
+      ],
+      "answer": 0,
+      "explanation": "The neurohypophysis stores and releases oxytocin and vasopressin made by the hypothalamus; the other three are adenohypophysis hormones.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-054",
+      "section": "zoology",
+      "topic": "Human Reproduction",
+      "difficulty": "hard",
+      "question": "Twenty primary oocytes and twenty primary spermatocytes complete gametogenesis. The numbers of ova and sperms formed are respectively",
+      "options": [
+        "80 and 80",
+        "20 and 20",
+        "40 and 80",
+        "20 and 80"
+      ],
+      "answer": 3,
+      "explanation": "Each primary oocyte gives one ovum (plus polar bodies) and each primary spermatocyte gives four sperms: 20 ova and 80 sperms.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-055",
+      "section": "zoology",
+      "topic": "Reproductive Health",
+      "difficulty": "medium",
+      "question": "Which of the following is a copper-releasing intrauterine device?",
+      "options": [
+        "Lippes loop",
+        "Multiload 375",
+        "Progestasert",
+        "LNG-20"
+      ],
+      "answer": 1,
+      "explanation": "Multiload 375 (like CuT and Cu7) releases copper ions. Lippes loop is non-medicated; Progestasert and LNG-20 release hormones.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-056",
+      "section": "zoology",
+      "topic": "Evolution",
+      "difficulty": "medium",
+      "question": "The wings of a butterfly and of a bird are",
+      "options": [
+        "Homologous organs showing divergent evolution",
+        "Vestigial organs",
+        "Analogous organs showing convergent evolution",
+        "Homologous organs showing convergent evolution"
+      ],
+      "answer": 2,
+      "explanation": "They perform the same function but have different structure and origin: analogous organs resulting from convergent evolution.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-057",
+      "section": "zoology",
+      "topic": "Evolution",
+      "difficulty": "hard",
+      "question": "In a population in Hardy–Weinberg equilibrium the frequency of a recessive allele is 0.3. The frequency of heterozygous individuals is",
+      "options": [
+        "0.21",
+        "0.49",
+        "0.09",
+        "0.42"
+      ],
+      "answer": 3,
+      "explanation": "p = 1 − 0.3 = 0.7. Heterozygotes = 2pq = 2 × 0.7 × 0.3 = 0.42.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-058",
+      "section": "zoology",
+      "topic": "Human Health & Disease",
+      "difficulty": "easy",
+      "question": "The infective stage of Plasmodium that enters the human body through the bite of a female Anopheles mosquito is the",
+      "options": [
+        "Gametocyte",
+        "Sporozoite",
+        "Merozoite",
+        "Trophozoite"
+      ],
+      "answer": 1,
+      "explanation": "Sporozoites from the mosquito's salivary glands are injected into human blood and first multiply in liver cells.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-059",
+      "section": "zoology",
+      "topic": "Biotechnology: Principles & Processes",
+      "difficulty": "hard",
+      "question": "A foreign gene is ligated into the BamHI site of the vector pBR322 and used to transform E. coli. The recombinant cells will",
+      "options": [
+        "grow on tetracycline medium but not on ampicillin medium",
+        "grow on both ampicillin and tetracycline media",
+        "grow on ampicillin medium but not on tetracycline medium",
+        "grow on neither medium"
+      ],
+      "answer": 2,
+      "explanation": "The BamHI site lies within the tetracycline-resistance gene (tetR). Insertion inactivates tetR while ampR remains functional.",
+      "verified": true
+    },
+    {
+      "id": "neet-ug-060",
+      "section": "zoology",
+      "topic": "Biotechnology & its Applications",
+      "difficulty": "medium",
+      "question": "RNA interference (RNAi) has been used to develop transgenic tobacco plants resistant to",
+      "options": [
+        "the cotton bollworm",
+        "the corn borer",
+        "the tobacco mosaic virus",
+        "the nematode Meloidogyne incognita"
+      ],
+      "answer": 3,
+      "explanation": "Nematode-specific genes were introduced to produce dsRNA that silences the specific mRNA of Meloidogyne incognita, protecting tobacco roots. Bt Cry proteins target bollworms and corn borer.",
+      "verified": true
+    }
+  ]
+}

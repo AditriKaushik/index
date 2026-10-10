@@ -1,0 +1,1229 @@
+{
+  "id": "nda",
+  "name": "NDA & NA",
+  "fullName": "UPSC National Defence Academy and Naval Academy Examination",
+  "nameHi": "राष्ट्रीय रक्षा अकादमी एवं नौसेना अकादमी परीक्षा",
+  "category": "defence",
+  "conductingBody": "Union Public Service Commission",
+  "officialSite": "https://upsc.gov.in",
+  "level": "national",
+  "frequency": "Twice a year (NDA I and NDA II)",
+  "approxCandidates": "≈4–6 lakh applicants per cycle (approx.); about 400 vacancies per cycle",
+  "eligibility": "Unmarried candidates aged 16½–19½ who have passed or are appearing in Class 12; Physics, Chemistry and Maths required for the Air Force, Navy and Naval Academy wings",
+  "notification": {
+    "status": "expected",
+    "summary": "NDA & NA (II) 2026 was held on 13 September 2026, and its written result is expected in October 2026. Per UPSC's Calendar 2027, the NDA & NA (I) 2027 notification is due on 2 December 2026 and the exam on 11 April 2027. Dates are provisional; upsc.gov.in itself could not be reached from the research sandbox.",
+    "importantDates": [
+      {
+        "event": "NDA (II) 2026 written exam",
+        "date": "13 Sep 2026 (held)"
+      },
+      {
+        "event": "NDA (II) 2026 written result",
+        "date": "Oct 2026 (expected)"
+      },
+      {
+        "event": "NDA (I) 2027 notification",
+        "date": "2 Dec 2026"
+      },
+      {
+        "event": "Last date to apply",
+        "date": "22 Dec 2026"
+      },
+      {
+        "event": "NDA (I) 2027 exam",
+        "date": "11 Apr 2027 (Sunday)"
+      },
+      {
+        "event": "NDA (II) 2027 exam",
+        "date": "19 Sep 2027 (tentative)"
+      }
+    ],
+    "source": "https://anantamias.com/upsc-calendar-2027/",
+    "checkedOn": "2026-10-10"
+  },
+  "pattern": {
+    "stage": "Written examination (Mathematics + General Ability Test)",
+    "mode": "Offline (OMR)",
+    "durationMinutes": 300,
+    "totalQuestions": 270,
+    "totalMarks": 900,
+    "marking": {
+      "correct": 2.5,
+      "wrong": -0.83,
+      "unattempted": 0
+    },
+    "sections": [
+      {
+        "id": "maths",
+        "name": "Mathematics (Paper I)",
+        "questions": 120,
+        "marks": 300,
+        "marking": {
+          "correct": 2.5,
+          "wrong": -0.83
+        }
+      },
+      {
+        "id": "gat-english",
+        "name": "GAT – Part A: English",
+        "questions": 50,
+        "marks": 200,
+        "marking": {
+          "correct": 4,
+          "wrong": -1.33
+        }
+      },
+      {
+        "id": "gat-gk",
+        "name": "GAT – Part B: General Knowledge",
+        "questions": 100,
+        "marks": 400,
+        "marking": {
+          "correct": 4,
+          "wrong": -1.33
+        }
+      }
+    ],
+    "notes": "There are two papers of 2½ hours each: Mathematics (120 questions × 2.5 marks) and the General Ability Test (150 questions × 4 marks; English 200 marks and GK 400 marks). Every wrong answer costs one-third of the question's marks, so the top-level 'marking' block gives the Maths values and each section carries its own 'marking'. The written test is followed by a 900-mark SSB interview. The bank holds 60 items in proportion (Maths 26, English 10, GK 24), so a short mock should be scored per section."
+  },
+  "trendAnalysis": {
+    "yearsAnalyzed": [
+      2024,
+      2025,
+      2026
+    ],
+    "summary": "The Maths paper is long and moderately tough. Algebra (complex numbers, quadratics, sequences, binomial, permutations and combinations) plus Calculus together give about 45% of it, and Statistics & Probability has grown recently. Time management, not concepts, is the main hurdle with 120 questions in 150 minutes. GAT English is easy to moderate and vocabulary-heavy (synonyms, antonyms, error spotting, comprehension). GAT GK is broad: Physics carries the most science weight, followed by History/Freedom Movement and Geography, with growing current-affairs and defence coverage. Overall difficulty has been stable over 2024–26, and Maths is the deciding paper.",
+    "topics": [
+      {
+        "section": "maths",
+        "topic": "Algebra",
+        "weightage": 22,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Matrices & Determinants",
+        "weightage": 8,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Trigonometry",
+        "weightage": 13,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Analytical Geometry (2D & 3D)",
+        "weightage": 12,
+        "trend": "stable",
+        "difficulty": "hard"
+      },
+      {
+        "section": "maths",
+        "topic": "Differential Calculus",
+        "weightage": 12,
+        "trend": "stable",
+        "difficulty": "hard"
+      },
+      {
+        "section": "maths",
+        "topic": "Integral Calculus & Differential Equations",
+        "weightage": 12,
+        "trend": "stable",
+        "difficulty": "hard"
+      },
+      {
+        "section": "maths",
+        "topic": "Vector Algebra",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Statistics & Probability",
+        "weightage": 15,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "gat-english",
+        "topic": "Vocabulary (Synonyms & Antonyms)",
+        "weightage": 20,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "gat-english",
+        "topic": "Spotting Errors",
+        "weightage": 15,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "gat-english",
+        "topic": "Sentence Improvement",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "gat-english",
+        "topic": "Fill in the Blanks",
+        "weightage": 15,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "gat-english",
+        "topic": "Ordering of Words/Sentences",
+        "weightage": 12,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "gat-english",
+        "topic": "Reading Comprehension",
+        "weightage": 18,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "gat-english",
+        "topic": "Cloze Test",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "gat-gk",
+        "topic": "Physics",
+        "weightage": 13,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "gat-gk",
+        "topic": "Chemistry",
+        "weightage": 9,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "gat-gk",
+        "topic": "General Science (Biology)",
+        "weightage": 8,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "gat-gk",
+        "topic": "History & Freedom Movement",
+        "weightage": 15,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "gat-gk",
+        "topic": "Geography",
+        "weightage": 15,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "gat-gk",
+        "topic": "Indian Polity",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "gat-gk",
+        "topic": "Economy",
+        "weightage": 7,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "gat-gk",
+        "topic": "Current Events & Defence",
+        "weightage": 23,
+        "trend": "rising",
+        "difficulty": "medium"
+      }
+    ]
+  },
+  "resources": {
+    "pyqAvailable": true,
+    "officialPYQ": "https://upsc.gov.in/examinations/previous-question-papers",
+    "officialMock": null,
+    "notes": "UPSC posts NDA question papers on upsc.gov.in (Previous Question Papers) after each exam. Official answer keys appear only after the final result of that cycle."
+  },
+  "questions": [
+    {
+      "id": "nda-001",
+      "section": "maths",
+      "topic": "Algebra",
+      "difficulty": "medium",
+      "question": "If ω is a non-real cube root of unity, then the value of (1 + ω − ω²)(1 − ω + ω²) is:",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "8"
+      ],
+      "answer": 2,
+      "explanation": "Since 1 + ω + ω² = 0: 1 + ω − ω² = −ω² − ω² = −2ω² and 1 − ω + ω² = −ω − ω = −2ω. Product = 4ω³ = 4.",
+      "verified": true
+    },
+    {
+      "id": "nda-002",
+      "section": "maths",
+      "topic": "Algebra",
+      "difficulty": "easy",
+      "question": "If α and β are the roots of x² − 5x + 6 = 0, then α³ + β³ equals:",
+      "options": [
+        "35",
+        "27",
+        "125",
+        "91"
+      ],
+      "answer": 0,
+      "explanation": "α + β = 5 and αβ = 6, so α³ + β³ = (α + β)³ − 3αβ(α + β) = 125 − 90 = 35. Check: the roots are 2 and 3, and 8 + 27 = 35.",
+      "verified": true
+    },
+    {
+      "id": "nda-003",
+      "section": "maths",
+      "topic": "Algebra",
+      "difficulty": "medium",
+      "question": "How many distinct arrangements can be made using all the letters of the word DEFENCE?",
+      "options": [
+        "5040",
+        "840",
+        "2520",
+        "420"
+      ],
+      "answer": 1,
+      "explanation": "DEFENCE has 7 letters with E repeated 3 times, so the count is 7!/3! = 5040/6 = 840.",
+      "verified": true
+    },
+    {
+      "id": "nda-004",
+      "section": "maths",
+      "topic": "Algebra",
+      "difficulty": "medium",
+      "question": "The middle term in the binomial expansion of (x + 1/x)¹⁰ is:",
+      "options": [
+        "252",
+        "210",
+        "120",
+        "462"
+      ],
+      "answer": 0,
+      "explanation": "There are 11 terms, so the middle term is T₆ = ¹⁰C₅ · x⁵ · (1/x)⁵ = 252.",
+      "verified": true
+    },
+    {
+      "id": "nda-005",
+      "section": "maths",
+      "topic": "Algebra",
+      "difficulty": "easy",
+      "question": "If log₂(log₃ x) = 1, then x equals:",
+      "options": [
+        "3",
+        "6",
+        "8",
+        "9"
+      ],
+      "answer": 3,
+      "explanation": "log₃ x = 2¹ = 2, so x = 3² = 9.",
+      "verified": true
+    },
+    {
+      "id": "nda-006",
+      "section": "maths",
+      "topic": "Algebra",
+      "difficulty": "easy",
+      "question": "In an arithmetic progression, the 5th term is 11 and the 11th term is 23. The 20th term is:",
+      "options": [
+        "39",
+        "41",
+        "43",
+        "45"
+      ],
+      "answer": 1,
+      "explanation": "a + 4d = 11 and a + 10d = 23 give d = 2 and a = 3. T₂₀ = 3 + 19 × 2 = 41.",
+      "verified": true
+    },
+    {
+      "id": "nda-007",
+      "section": "maths",
+      "topic": "Algebra",
+      "difficulty": "easy",
+      "question": "If n(A) = 20, n(B) = 15 and n(A ∪ B) = 28, then n(A ∩ B) is:",
+      "options": [
+        "13",
+        "8",
+        "5",
+        "7"
+      ],
+      "answer": 3,
+      "explanation": "n(A ∩ B) = n(A) + n(B) − n(A ∪ B) = 20 + 15 − 28 = 7.",
+      "verified": true
+    },
+    {
+      "id": "nda-008",
+      "section": "maths",
+      "topic": "Matrices & Determinants",
+      "difficulty": "medium",
+      "question": "If A = [[2, 3], [1, 4]], then det(adj A) equals:",
+      "options": [
+        "5",
+        "25",
+        "1/5",
+        "125"
+      ],
+      "answer": 0,
+      "explanation": "|A| = 8 − 3 = 5. For an n × n matrix, |adj A| = |A|ⁿ⁻¹, so with n = 2 the value is 5¹ = 5.",
+      "verified": true
+    },
+    {
+      "id": "nda-009",
+      "section": "maths",
+      "topic": "Matrices & Determinants",
+      "difficulty": "easy",
+      "question": "If A is a square matrix of order 3 with |A| = 4, then |2A| equals:",
+      "options": [
+        "8",
+        "16",
+        "32",
+        "64"
+      ],
+      "answer": 2,
+      "explanation": "|kA| = kⁿ|A| for an n × n matrix, so |2A| = 2³ × 4 = 32.",
+      "verified": true
+    },
+    {
+      "id": "nda-010",
+      "section": "maths",
+      "topic": "Trigonometry",
+      "difficulty": "easy",
+      "question": "The value of sin 15° · cos 15° is:",
+      "options": [
+        "1/2",
+        "1/4",
+        "√3/4",
+        "1/8"
+      ],
+      "answer": 1,
+      "explanation": "sin 15° cos 15° = ½ sin 30° = ½ × ½ = 1/4.",
+      "verified": true
+    },
+    {
+      "id": "nda-011",
+      "section": "maths",
+      "topic": "Trigonometry",
+      "difficulty": "medium",
+      "question": "If tan θ = 3/4 and θ lies in the third quadrant, then sin θ equals:",
+      "options": [
+        "3/5",
+        "4/5",
+        "−4/5",
+        "−3/5"
+      ],
+      "answer": 3,
+      "explanation": "With a 3-4-5 triangle, |sin θ| = 3/5. Sine is negative in the third quadrant, so sin θ = −3/5.",
+      "verified": true
+    },
+    {
+      "id": "nda-012",
+      "section": "maths",
+      "topic": "Trigonometry",
+      "difficulty": "medium",
+      "question": "The value of tan 1° · tan 2° · tan 3° · … · tan 89° is:",
+      "options": [
+        "0",
+        "√3",
+        "Undefined",
+        "1"
+      ],
+      "answer": 3,
+      "explanation": "Pair tan θ with tan(90° − θ) = cot θ, so each pair has product 1. The middle term, tan 45°, is also 1, so the whole product is 1.",
+      "verified": true
+    },
+    {
+      "id": "nda-013",
+      "section": "maths",
+      "topic": "Analytical Geometry (2D & 3D)",
+      "difficulty": "medium",
+      "question": "The distance between the parallel lines 3x + 4y − 7 = 0 and 6x + 8y + 6 = 0 is:",
+      "options": [
+        "1",
+        "2",
+        "13/5",
+        "4/5"
+      ],
+      "answer": 1,
+      "explanation": "Write the second line as 3x + 4y + 3 = 0. Distance = |−7 − 3| / √(3² + 4²) = 10/5 = 2.",
+      "verified": true
+    },
+    {
+      "id": "nda-014",
+      "section": "maths",
+      "topic": "Analytical Geometry (2D & 3D)",
+      "difficulty": "easy",
+      "question": "The eccentricity of the ellipse x²/25 + y²/16 = 1 is:",
+      "options": [
+        "4/5",
+        "3/4",
+        "3/5",
+        "5/3"
+      ],
+      "answer": 2,
+      "explanation": "a² = 25 and b² = 16, so e = √(1 − b²/a²) = √(9/25) = 3/5.",
+      "verified": true
+    },
+    {
+      "id": "nda-015",
+      "section": "maths",
+      "topic": "Analytical Geometry (2D & 3D)",
+      "difficulty": "medium",
+      "question": "If a line makes angles α, β and γ with the positive x, y and z axes respectively, then sin²α + sin²β + sin²γ equals:",
+      "options": [
+        "0",
+        "1",
+        "3",
+        "2"
+      ],
+      "answer": 3,
+      "explanation": "cos²α + cos²β + cos²γ = 1, so the sum of the sin² terms is 3 − 1 = 2.",
+      "verified": true
+    },
+    {
+      "id": "nda-016",
+      "section": "maths",
+      "topic": "Differential Calculus",
+      "difficulty": "easy",
+      "question": "The value of lim(x→0) (1 − cos 2x)/x² is:",
+      "options": [
+        "4",
+        "1/2",
+        "2",
+        "1"
+      ],
+      "answer": 2,
+      "explanation": "1 − cos 2x = 2 sin²x, so the limit is 2 · lim (sin x/x)² = 2.",
+      "verified": true
+    },
+    {
+      "id": "nda-017",
+      "section": "maths",
+      "topic": "Differential Calculus",
+      "difficulty": "medium",
+      "question": "If y = xˣ (x > 0), then dy/dx equals:",
+      "options": [
+        "xˣ(1 + ln x)",
+        "x · xˣ⁻¹",
+        "xˣ ln x",
+        "xˣ(1 − ln x)"
+      ],
+      "answer": 0,
+      "explanation": "ln y = x ln x, so (1/y) dy/dx = ln x + 1 and dy/dx = xˣ(1 + ln x).",
+      "verified": true
+    },
+    {
+      "id": "nda-018",
+      "section": "maths",
+      "topic": "Differential Calculus",
+      "difficulty": "easy",
+      "question": "The maximum value of sin x + cos x is:",
+      "options": [
+        "2",
+        "1",
+        "1/√2",
+        "√2"
+      ],
+      "answer": 3,
+      "explanation": "sin x + cos x = √2 sin(x + 45°), whose maximum is √2.",
+      "verified": true
+    },
+    {
+      "id": "nda-019",
+      "section": "maths",
+      "topic": "Integral Calculus & Differential Equations",
+      "difficulty": "medium",
+      "question": "The value of ∫₀^(π/2) sin²x dx is:",
+      "options": [
+        "π/2",
+        "π/4",
+        "1",
+        "π/8"
+      ],
+      "answer": 1,
+      "explanation": "sin²x = (1 − cos 2x)/2, so the integral is [x/2 − sin 2x/4] from 0 to π/2 = π/4.",
+      "verified": true
+    },
+    {
+      "id": "nda-020",
+      "section": "maths",
+      "topic": "Integral Calculus & Differential Equations",
+      "difficulty": "medium",
+      "question": "The area of the region bounded by the curves y = x² and y = x is:",
+      "options": [
+        "1/12",
+        "1/3",
+        "1/6",
+        "1/2"
+      ],
+      "answer": 2,
+      "explanation": "The curves meet at x = 0 and x = 1, and y = x lies above. Area = ∫₀¹ (x − x²) dx = 1/2 − 1/3 = 1/6 square unit.",
+      "verified": true
+    },
+    {
+      "id": "nda-021",
+      "section": "maths",
+      "topic": "Integral Calculus & Differential Equations",
+      "difficulty": "easy",
+      "question": "The order and degree of the differential equation (d²y/dx²)³ + (dy/dx)⁴ + y = 0 are respectively:",
+      "options": [
+        "2 and 3",
+        "3 and 2",
+        "2 and 4",
+        "4 and 2"
+      ],
+      "answer": 0,
+      "explanation": "The highest derivative is d²y/dx², so the order is 2. That derivative appears to the power 3, so the degree is 3.",
+      "verified": true
+    },
+    {
+      "id": "nda-022",
+      "section": "maths",
+      "topic": "Vector Algebra",
+      "difficulty": "easy",
+      "question": "For what value of λ are the vectors i + λj + 2k and 2i − j + k perpendicular?",
+      "options": [
+        "2",
+        "−4",
+        "4",
+        "0"
+      ],
+      "answer": 2,
+      "explanation": "The dot product must be zero: 2 − λ + 2 = 0, so λ = 4.",
+      "verified": true
+    },
+    {
+      "id": "nda-023",
+      "section": "maths",
+      "topic": "Vector Algebra",
+      "difficulty": "medium",
+      "question": "If |a| = 3 and |b| = 4, then |a × b|² + (a · b)² equals:",
+      "options": [
+        "7",
+        "12",
+        "49",
+        "144"
+      ],
+      "answer": 3,
+      "explanation": "|a × b|² + (a · b)² = |a|²|b|²(sin²θ + cos²θ) = 9 × 16 = 144 (Lagrange's identity).",
+      "verified": true
+    },
+    {
+      "id": "nda-024",
+      "section": "maths",
+      "topic": "Statistics & Probability",
+      "difficulty": "easy",
+      "question": "Two fair dice are thrown together. The probability that the sum of the numbers is 9 is:",
+      "options": [
+        "1/6",
+        "5/36",
+        "1/12",
+        "1/9"
+      ],
+      "answer": 3,
+      "explanation": "The favourable outcomes are (3,6), (4,5), (5,4) and (6,3), so P = 4/36 = 1/9.",
+      "verified": true
+    },
+    {
+      "id": "nda-025",
+      "section": "maths",
+      "topic": "Statistics & Probability",
+      "difficulty": "medium",
+      "question": "The variance of the first 10 natural numbers is:",
+      "options": [
+        "8.25",
+        "9.5",
+        "8",
+        "10"
+      ],
+      "answer": 0,
+      "explanation": "The variance of 1, 2, …, n is (n² − 1)/12 = 99/12 = 8.25.",
+      "verified": true
+    },
+    {
+      "id": "nda-026",
+      "section": "maths",
+      "topic": "Statistics & Probability",
+      "difficulty": "easy",
+      "question": "If A and B are independent events with P(A) = 0.5 and P(B) = 0.4, then P(A ∪ B) is:",
+      "options": [
+        "0.9",
+        "0.7",
+        "0.2",
+        "0.6"
+      ],
+      "answer": 1,
+      "explanation": "P(A ∩ B) = 0.5 × 0.4 = 0.2, so P(A ∪ B) = 0.5 + 0.4 − 0.2 = 0.7.",
+      "verified": true
+    },
+    {
+      "id": "nda-027",
+      "section": "gat-english",
+      "topic": "Vocabulary (Synonyms & Antonyms)",
+      "difficulty": "easy",
+      "question": "Choose the word most nearly SAME in meaning to AUDACIOUS.",
+      "options": [
+        "Timid",
+        "Bold",
+        "Noisy",
+        "Careful"
+      ],
+      "answer": 1,
+      "explanation": "Audacious means daring or bold.",
+      "verified": true
+    },
+    {
+      "id": "nda-028",
+      "section": "gat-english",
+      "topic": "Vocabulary (Synonyms & Antonyms)",
+      "difficulty": "easy",
+      "question": "Choose the word most nearly SAME in meaning to METICULOUS.",
+      "options": [
+        "Careless",
+        "Hasty",
+        "Painstaking",
+        "Generous"
+      ],
+      "answer": 2,
+      "explanation": "Meticulous means showing great attention to detail, that is, painstaking.",
+      "verified": true
+    },
+    {
+      "id": "nda-029",
+      "section": "gat-english",
+      "topic": "Vocabulary (Synonyms & Antonyms)",
+      "difficulty": "medium",
+      "question": "Choose the word most nearly OPPOSITE in meaning to AMELIORATE.",
+      "options": [
+        "Improve",
+        "Soothe",
+        "Mend",
+        "Worsen"
+      ],
+      "answer": 3,
+      "explanation": "Ameliorate means to make better, so its opposite is worsen.",
+      "verified": true
+    },
+    {
+      "id": "nda-030",
+      "section": "gat-english",
+      "topic": "Spotting Errors",
+      "difficulty": "medium",
+      "question": "Identify the part of the sentence that contains an error.\nNeither the captain nor the soldiers (A) / was aware of (B) / the change in plan. (C) / No error (D)",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 1,
+      "explanation": "With 'neither … nor', the verb agrees with the nearer subject. 'Soldiers' is plural, so part B should read 'were aware of'.",
+      "verified": true
+    },
+    {
+      "id": "nda-031",
+      "section": "gat-english",
+      "topic": "Spotting Errors",
+      "difficulty": "easy",
+      "question": "Identify the part of the sentence that contains an error.\nHe is one of the best cadet (A) / that the academy (B) / has ever produced. (C) / No error (D)",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 0,
+      "explanation": "'One of the best' takes a plural noun, so part A should read 'one of the best cadets'.",
+      "verified": true
+    },
+    {
+      "id": "nda-032",
+      "section": "gat-english",
+      "topic": "Sentence Improvement",
+      "difficulty": "medium",
+      "question": "Choose the best replacement for the underlined part. If none is needed, choose 'No improvement'.\n'If I was the commander, I would order a retreat.' (underlined: If I was)",
+      "options": [
+        "If I were",
+        "If I am",
+        "If I had been",
+        "No improvement"
+      ],
+      "answer": 0,
+      "explanation": "An unreal present condition takes the subjunctive 'were': 'If I were the commander, I would …'. 'Had been' would need 'would have ordered'.",
+      "verified": true
+    },
+    {
+      "id": "nda-033",
+      "section": "gat-english",
+      "topic": "Fill in the Blanks",
+      "difficulty": "easy",
+      "question": "Fill in the blank: The troops were asked to refrain ______ firing until ordered.",
+      "options": [
+        "to",
+        "from",
+        "of",
+        "against"
+      ],
+      "answer": 1,
+      "explanation": "'Refrain' is followed by 'from'.",
+      "verified": true
+    },
+    {
+      "id": "nda-034",
+      "section": "gat-english",
+      "topic": "Fill in the Blanks",
+      "difficulty": "medium",
+      "question": "Fill in the blank: Hardly had the train left the station ______ the alarm was raised.",
+      "options": [
+        "than",
+        "then",
+        "that",
+        "when"
+      ],
+      "answer": 3,
+      "explanation": "'Hardly/Scarcely … when' is the correct correlative. 'No sooner' pairs with 'than'.",
+      "verified": true
+    },
+    {
+      "id": "nda-035",
+      "section": "gat-english",
+      "topic": "Ordering of Words/Sentences",
+      "difficulty": "easy",
+      "question": "Arrange the parts to form a meaningful sentence:\nP: is the key to\nQ: Discipline\nR: success\nS: in any profession",
+      "options": [
+        "QPRS",
+        "PQRS",
+        "QRPS",
+        "SPQR"
+      ],
+      "answer": 0,
+      "explanation": "Q-P-R-S gives 'Discipline is the key to success in any profession.'",
+      "verified": true
+    },
+    {
+      "id": "nda-036",
+      "section": "gat-english",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n'The monsoon is often called the true finance minister of India. Although agriculture's share in national output has declined, nearly half of the workforce still depends on farming, and much of the cultivated area lacks assured irrigation. A weak monsoon therefore depresses rural incomes, which in turn reduces the demand for industrial goods.'\nAccording to the passage, why does a weak monsoon hurt industry?",
+      "options": [
+        "Factories depend directly on rainwater",
+        "Lower rural incomes reduce the demand for industrial goods",
+        "Agriculture's share in output has increased",
+        "Irrigation has expanded to all farmland"
+      ],
+      "answer": 1,
+      "explanation": "The last sentence links a weak monsoon to lower rural incomes and hence lower demand for industrial goods. The other options are either not stated or contradict the passage.",
+      "verified": true
+    },
+    {
+      "id": "nda-037",
+      "section": "gat-gk",
+      "topic": "Physics",
+      "difficulty": "easy",
+      "question": "A body of mass 2 kg moves with a speed of 3 m/s. Its kinetic energy is:",
+      "options": [
+        "6 J",
+        "9 J",
+        "18 J",
+        "3 J"
+      ],
+      "answer": 1,
+      "explanation": "KE = ½mv² = ½ × 2 × 3² = 9 J.",
+      "verified": true
+    },
+    {
+      "id": "nda-038",
+      "section": "gat-gk",
+      "topic": "Physics",
+      "difficulty": "easy",
+      "question": "The twinkling of stars is mainly due to:",
+      "options": [
+        "Dispersion of light",
+        "Reflection of light",
+        "Diffraction of light",
+        "Atmospheric refraction"
+      ],
+      "answer": 3,
+      "explanation": "Starlight is refracted by turbulent air layers whose refractive index keeps changing, so the apparent position and brightness of a star flicker.",
+      "verified": true
+    },
+    {
+      "id": "nda-039",
+      "section": "gat-gk",
+      "topic": "Physics",
+      "difficulty": "easy",
+      "question": "Three resistors of 6 Ω each are connected in parallel. Their equivalent resistance is:",
+      "options": [
+        "2 Ω",
+        "3 Ω",
+        "6 Ω",
+        "18 Ω"
+      ],
+      "answer": 0,
+      "explanation": "1/R = 1/6 + 1/6 + 1/6 = 1/2, so R = 2 Ω.",
+      "verified": true
+    },
+    {
+      "id": "nda-040",
+      "section": "gat-gk",
+      "topic": "Physics",
+      "difficulty": "easy",
+      "question": "In which of the following media does sound travel fastest?",
+      "options": [
+        "Air",
+        "Water",
+        "Steel",
+        "Vacuum"
+      ],
+      "answer": 2,
+      "explanation": "Sound travels fastest in solids such as steel (about 5,000 m/s), slower in water (about 1,500 m/s) and air (about 340 m/s). It cannot travel through a vacuum.",
+      "verified": true
+    },
+    {
+      "id": "nda-041",
+      "section": "gat-gk",
+      "topic": "Chemistry",
+      "difficulty": "easy",
+      "question": "The chemical name of baking soda is:",
+      "options": [
+        "Sodium carbonate",
+        "Sodium hydrogen carbonate",
+        "Calcium carbonate",
+        "Sodium chloride"
+      ],
+      "answer": 1,
+      "explanation": "Baking soda is sodium hydrogen carbonate (sodium bicarbonate), NaHCO₃. Washing soda is Na₂CO₃·10H₂O.",
+      "verified": true
+    },
+    {
+      "id": "nda-042",
+      "section": "gat-gk",
+      "topic": "Chemistry",
+      "difficulty": "easy",
+      "question": "Which gas is commonly filled in incandescent electric bulbs to prolong the life of the filament?",
+      "options": [
+        "Oxygen",
+        "Hydrogen",
+        "Argon",
+        "Chlorine"
+      ],
+      "answer": 2,
+      "explanation": "An inert gas such as argon (often mixed with nitrogen) slows evaporation of the tungsten filament and does not react with it.",
+      "verified": true
+    },
+    {
+      "id": "nda-043",
+      "section": "gat-gk",
+      "topic": "Chemistry",
+      "difficulty": "easy",
+      "question": "Rusting of iron requires the presence of:",
+      "options": [
+        "Both oxygen and moisture",
+        "Oxygen only",
+        "Moisture only",
+        "Nitrogen"
+      ],
+      "answer": 0,
+      "explanation": "Rust (hydrated iron(III) oxide) forms only when both oxygen and water are present.",
+      "verified": true
+    },
+    {
+      "id": "nda-044",
+      "section": "gat-gk",
+      "topic": "General Science (Biology)",
+      "difficulty": "easy",
+      "question": "Which vitamin is synthesised in the human skin on exposure to sunlight?",
+      "options": [
+        "Vitamin A",
+        "Vitamin C",
+        "Vitamin K",
+        "Vitamin D"
+      ],
+      "answer": 3,
+      "explanation": "Ultraviolet-B light converts 7-dehydrocholesterol in the skin into vitamin D₃.",
+      "verified": true
+    },
+    {
+      "id": "nda-045",
+      "section": "gat-gk",
+      "topic": "General Science (Biology)",
+      "difficulty": "easy",
+      "question": "Which blood group is known as the universal donor (for red cell transfusion)?",
+      "options": [
+        "O negative",
+        "AB positive",
+        "A positive",
+        "B negative"
+      ],
+      "answer": 0,
+      "explanation": "O-negative red cells carry no A, B or Rh(D) antigens, so they can be given to recipients of any group in an emergency.",
+      "verified": true
+    },
+    {
+      "id": "nda-046",
+      "section": "gat-gk",
+      "topic": "General Science (Biology)",
+      "difficulty": "easy",
+      "question": "Insulin is secreted by:",
+      "options": [
+        "Liver",
+        "Pancreas",
+        "Kidney",
+        "Thyroid"
+      ],
+      "answer": 1,
+      "explanation": "The beta cells of the islets of Langerhans in the pancreas secrete insulin.",
+      "verified": true
+    },
+    {
+      "id": "nda-047",
+      "section": "gat-gk",
+      "topic": "History & Freedom Movement",
+      "difficulty": "easy",
+      "question": "Who proclaimed the Provisional Government of Free India (Azad Hind) at Singapore in October 1943?",
+      "options": [
+        "Rash Behari Bose",
+        "Subhas Chandra Bose",
+        "Mohan Singh",
+        "Lala Har Dayal"
+      ],
+      "answer": 1,
+      "explanation": "Subhas Chandra Bose proclaimed the Azad Hind provisional government in Singapore on 21 October 1943 and led the Indian National Army.",
+      "verified": true
+    },
+    {
+      "id": "nda-048",
+      "section": "gat-gk",
+      "topic": "History & Freedom Movement",
+      "difficulty": "easy",
+      "question": "The Battle of Plassey (1757) was fought between the English East India Company and:",
+      "options": [
+        "Mir Qasim",
+        "Shuja-ud-Daula",
+        "Siraj-ud-Daulah",
+        "Tipu Sultan"
+      ],
+      "answer": 2,
+      "explanation": "Robert Clive defeated Siraj-ud-Daulah, the Nawab of Bengal, at Plassey in 1757.",
+      "verified": true
+    },
+    {
+      "id": "nda-049",
+      "section": "gat-gk",
+      "topic": "History & Freedom Movement",
+      "difficulty": "easy",
+      "question": "Who was the first and only Indian to hold the office of Governor-General of independent India?",
+      "options": [
+        "Lord Mountbatten",
+        "Rajendra Prasad",
+        "Sardar Patel",
+        "C. Rajagopalachari"
+      ],
+      "answer": 3,
+      "explanation": "C. Rajagopalachari succeeded Lord Mountbatten in June 1948 and held the post until it was abolished on 26 January 1950.",
+      "verified": true
+    },
+    {
+      "id": "nda-050",
+      "section": "gat-gk",
+      "topic": "History & Freedom Movement",
+      "difficulty": "easy",
+      "question": "In which year did Mahatma Gandhi undertake the Dandi March?",
+      "options": [
+        "1919",
+        "1922",
+        "1930",
+        "1942"
+      ],
+      "answer": 2,
+      "explanation": "The Dandi (Salt) March began from Sabarmati Ashram on 12 March 1930 and launched the Civil Disobedience Movement.",
+      "verified": true
+    },
+    {
+      "id": "nda-051",
+      "section": "gat-gk",
+      "topic": "Geography",
+      "difficulty": "easy",
+      "question": "The Palk Strait separates India from:",
+      "options": [
+        "Sri Lanka",
+        "Maldives",
+        "Myanmar",
+        "Indonesia"
+      ],
+      "answer": 0,
+      "explanation": "The Palk Strait lies between Tamil Nadu and northern Sri Lanka.",
+      "verified": true
+    },
+    {
+      "id": "nda-052",
+      "section": "gat-gk",
+      "topic": "Geography",
+      "difficulty": "easy",
+      "question": "The boundary line between India and Pakistan demarcated in 1947 is known as the:",
+      "options": [
+        "McMahon Line",
+        "Durand Line",
+        "Radcliffe Line",
+        "Maginot Line"
+      ],
+      "answer": 2,
+      "explanation": "The Radcliffe Line was drawn by Sir Cyril Radcliffe. The McMahon Line concerns India–China and the Durand Line Afghanistan–Pakistan.",
+      "verified": true
+    },
+    {
+      "id": "nda-053",
+      "section": "gat-gk",
+      "topic": "Geography",
+      "difficulty": "easy",
+      "question": "The Western Ghats are also known as the:",
+      "options": [
+        "Satpura",
+        "Aravalli",
+        "Nilgiri",
+        "Sahyadri"
+      ],
+      "answer": 3,
+      "explanation": "The Western Ghats are called the Sahyadri, especially in Maharashtra and Karnataka.",
+      "verified": true
+    },
+    {
+      "id": "nda-054",
+      "section": "gat-gk",
+      "topic": "Geography",
+      "difficulty": "easy",
+      "question": "The International Date Line roughly follows which meridian?",
+      "options": [
+        "0°",
+        "180°",
+        "90° E",
+        "66½° N"
+      ],
+      "answer": 1,
+      "explanation": "The International Date Line broadly follows the 180° meridian, with deviations to avoid splitting land areas.",
+      "verified": true
+    },
+    {
+      "id": "nda-055",
+      "section": "gat-gk",
+      "topic": "Indian Polity",
+      "difficulty": "easy",
+      "question": "Under the Constitution of India, the supreme command of the Defence Forces is vested in the:",
+      "options": [
+        "Prime Minister",
+        "Defence Minister",
+        "President",
+        "Chief of Defence Staff"
+      ],
+      "answer": 2,
+      "explanation": "Article 53(2) vests the supreme command of the Defence Forces in the President.",
+      "verified": true
+    },
+    {
+      "id": "nda-056",
+      "section": "gat-gk",
+      "topic": "Indian Polity",
+      "difficulty": "easy",
+      "question": "What is the minimum age required to become a member of the Lok Sabha?",
+      "options": [
+        "21 years",
+        "25 years",
+        "30 years",
+        "35 years"
+      ],
+      "answer": 1,
+      "explanation": "Article 84 requires a Lok Sabha member to be at least 25 years old (30 for the Rajya Sabha).",
+      "verified": true
+    },
+    {
+      "id": "nda-057",
+      "section": "gat-gk",
+      "topic": "Indian Polity",
+      "difficulty": "easy",
+      "question": "Fundamental Rights are contained in which Part of the Constitution of India?",
+      "options": [
+        "Part IV",
+        "Part II",
+        "Part IVA",
+        "Part III"
+      ],
+      "answer": 3,
+      "explanation": "Part III (Articles 12–35) covers Fundamental Rights. Part IV covers Directive Principles and Part IVA Fundamental Duties.",
+      "verified": true
+    },
+    {
+      "id": "nda-058",
+      "section": "gat-gk",
+      "topic": "Economy",
+      "difficulty": "easy",
+      "question": "Which of the following is a direct tax?",
+      "options": [
+        "Income tax",
+        "Goods and Services Tax",
+        "Customs duty",
+        "Excise duty"
+      ],
+      "answer": 0,
+      "explanation": "A direct tax is paid by the person on whom it is levied, as with income tax. GST, customs and excise are indirect taxes.",
+      "verified": true
+    },
+    {
+      "id": "nda-059",
+      "section": "gat-gk",
+      "topic": "Current Events & Defence",
+      "difficulty": "easy",
+      "question": "The Indian Military Academy, which trains officers for the Indian Army, is located at:",
+      "options": [
+        "Pune",
+        "Dehradun",
+        "Chennai",
+        "Ezhimala"
+      ],
+      "answer": 1,
+      "explanation": "IMA is at Dehradun. The NDA is at Khadakwasla (Pune), an OTA at Chennai and the Indian Naval Academy at Ezhimala.",
+      "verified": true
+    },
+    {
+      "id": "nda-060",
+      "section": "gat-gk",
+      "topic": "Current Events & Defence",
+      "difficulty": "medium",
+      "question": "Which rank in the Indian Navy is equivalent to a Colonel in the Indian Army?",
+      "options": [
+        "Commodore",
+        "Commander",
+        "Lieutenant Commander",
+        "Captain"
+      ],
+      "answer": 3,
+      "explanation": "Colonel (Army) = Captain (Navy) = Group Captain (Air Force).",
+      "verified": true
+    }
+  ]
+}

@@ -1,0 +1,1410 @@
+{
+  "id": "ctet-paper-2",
+  "name": "CTET Paper 2 (Maths & Science)",
+  "fullName": "Central Teacher Eligibility Test – Paper II (Elementary Stage, Classes VI–VIII), Mathematics & Science stream",
+  "nameHi": "सीटीईटी पेपर 2 (गणित एवं विज्ञान)",
+  "category": "teaching",
+  "conductingBody": "Central Board of Secondary Education (CBSE)",
+  "officialSite": "https://ctet.nic.in",
+  "level": "national",
+  "frequency": "Usually twice a year (sessions are sometimes skipped or shifted)",
+  "approxCandidates": "≈18.7 lakh appeared for Paper 2, both streams combined, in the Feb 2026 session (Papers 1 + 2 together: 26.5 lakh registered, 23.2 lakh appeared)",
+  "eligibility": "Graduation (50%) plus B.Ed, or Graduation plus a 2-year D.El.Ed, or a 4-year integrated B.A./B.Sc.Ed or B.El.Ed (final-year students may apply), as per NCTE norms. No upper age limit, and the certificate is valid for life.",
+  "notification": {
+    "status": "closed",
+    "summary": "The September 2026 (22nd) CTET was notified by CBSE around 11 May 2026 and scheduled in offline OMR mode on 6 Sep 2026. Applications are closed and the result is awaited. In the Feb 2026 session, Paper 2 had a pass rate of only 18.56% (3.47 lakh qualified); the result was declared on 30–31 Mar 2026. The next cycle's notification is expected around Nov–Dec 2026. Dates come from news reports found by web search on 2026-10-10, because ctet.nic.in could not be reached from the research sandbox. Verify on the official site.",
+    "importantDates": [
+      {
+        "event": "Notification & online registration opened (Sep 2026 session)",
+        "date": "11 May 2026 (reported)"
+      },
+      {
+        "event": "Last date to apply",
+        "date": "≈10 Jun 2026 (reported)"
+      },
+      {
+        "event": "Exam (Paper 1 & Paper 2, offline OMR)",
+        "date": "6 Sep 2026"
+      },
+      {
+        "event": "Provisional answer key + OMR challenge",
+        "date": "Sep–Oct 2026 (expected)"
+      },
+      {
+        "event": "Result",
+        "date": "Late Oct–Nov 2026 (expected)"
+      },
+      {
+        "event": "Next session notification (Feb 2027 cycle)",
+        "date": "Nov–Dec 2026 (expected)"
+      }
+    ],
+    "source": "https://ctet.nic.in (official), cross-checked with the CBSE Feb 2026 result notice https://www.cbse.gov.in/cbsenew/documents/PUBLIC_%20NOTICE_CTET_Feb_2026_RESULT_31032026.pdf and Careers360/PW news reports",
+    "checkedOn": "2026-10-10"
+  },
+  "pattern": {
+    "stage": "Paper II (Classes VI–VIII) – Mathematics & Science",
+    "mode": "Offline (OMR, pen & paper)",
+    "durationMinutes": 150,
+    "totalQuestions": 150,
+    "totalMarks": 150,
+    "marking": {
+      "correct": 1,
+      "wrong": 0,
+      "unattempted": 0
+    },
+    "sections": [
+      {
+        "id": "cdp",
+        "name": "Child Development & Pedagogy",
+        "questions": 30,
+        "marks": 30
+      },
+      {
+        "id": "lang1",
+        "name": "Language I (English)",
+        "questions": 30,
+        "marks": 30
+      },
+      {
+        "id": "lang2",
+        "name": "Language II (Hindi)",
+        "questions": 30,
+        "marks": 30
+      },
+      {
+        "id": "maths",
+        "name": "Mathematics (part of Maths & Science)",
+        "questions": 30,
+        "marks": 30
+      },
+      {
+        "id": "science",
+        "name": "Science (part of Maths & Science)",
+        "questions": 30,
+        "marks": 30
+      }
+    ],
+    "notes": "Real paper: 150 MCQs of 1 mark each, no negative marking, 2½ hours. Qualifying marks are 60% (90/150) for General and 55% (82/150) for SC/ST/OBC/PwD. Officially, 'Mathematics & Science' is a single 60-question section (30 Maths + 30 Science). It is split into two sections here only for analysis. Within each subject, about 20 questions test content (NCERT Classes VI–VIII) and 10 test pedagogy. This mock uses English as Language I and Hindi as Language II, and the languages must differ. The question bank holds 60 original questions (CDP 12, English 10, Hindi 8, Maths 15, Science 15), so a mock built from it is a scaled-down version of the full paper."
+  },
+  "trendAnalysis": {
+    "yearsAnalyzed": [
+      2024,
+      2026
+    ],
+    "summary": "This analysis covers the Jul 2024, Dec 2024 and Feb 2026 sessions. No CTET exam was held in calendar 2025: the Dec-2025 cycle was conducted on 8 Feb 2026. Paper 2 is consistently tougher than Paper 1, with only 18.56% passing in Feb 2026. The Maths & Science section is the most time-consuming: Maths content leans on geometry (angles, triangles, polygons, symmetry), integers/fractions and simple algebra, while Science content is drawn from NCERT Class VI–VIII topics (materials, the living world, electricity & magnets, light). Pedagogy questions now use classroom scenarios, for example van Hiele levels, error analysis, inquiry-based science and process skills. CDP for Paper 2 emphasises adolescence, Kohlberg, inclusive education (RPwD Act 2016) and NEP-2020 aligned assessment.",
+    "topics": [
+      {
+        "section": "cdp",
+        "topic": "Development & Its Principles",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "cdp",
+        "topic": "Heredity, Environment & Socialisation",
+        "weightage": 7,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "cdp",
+        "topic": "Piaget, Vygotsky & Kohlberg",
+        "weightage": 17,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "cdp",
+        "topic": "Progressive & Child-centred Education",
+        "weightage": 7,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "cdp",
+        "topic": "Intelligence & Multiple Intelligences",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "cdp",
+        "topic": "Language & Thought",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "cdp",
+        "topic": "Gender & Individual Differences",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "cdp",
+        "topic": "Assessment & CCE",
+        "weightage": 9,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "cdp",
+        "topic": "Inclusive Education & Children with Special Needs",
+        "weightage": 17,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "cdp",
+        "topic": "Learning & Pedagogy (motivation, errors, cognition)",
+        "weightage": 17,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "lang1",
+        "topic": "Unseen Passage (Prose)",
+        "weightage": 30,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "lang1",
+        "topic": "Unseen Poem",
+        "weightage": 20,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "lang1",
+        "topic": "Language Learning & Acquisition",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "lang1",
+        "topic": "Principles of Language Teaching",
+        "weightage": 8,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "lang1",
+        "topic": "Listening & Speaking Skills",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "lang1",
+        "topic": "Teaching-Learning Materials & Remedial Teaching",
+        "weightage": 8,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "lang1",
+        "topic": "Evaluating Language Proficiency",
+        "weightage": 8,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "lang1",
+        "topic": "Challenges of Teaching in Multilingual Classrooms",
+        "weightage": 10,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "lang2",
+        "topic": "Unseen Passage (Hindi)",
+        "weightage": 30,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "lang2",
+        "topic": "Grammar & Vocabulary (Hindi)",
+        "weightage": 20,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "lang2",
+        "topic": "Language Learning & Acquisition",
+        "weightage": 15,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "lang2",
+        "topic": "Developing LSRW Skills",
+        "weightage": 15,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "lang2",
+        "topic": "Assessment & Remedial Teaching",
+        "weightage": 10,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "lang2",
+        "topic": "Multilingualism in the Classroom",
+        "weightage": 10,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Number System",
+        "weightage": 16,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "maths",
+        "topic": "Algebra (incl. Ratio & Proportion)",
+        "weightage": 14,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Geometry",
+        "weightage": 20,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Mensuration",
+        "weightage": 9,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Data Handling",
+        "weightage": 7,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "maths",
+        "topic": "Nature of Mathematics & Logical Thinking",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Place of Maths in Curriculum & Language of Maths",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Community Mathematics",
+        "weightage": 3,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "maths",
+        "topic": "Evaluation in Mathematics",
+        "weightage": 6,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Error Analysis & Remedial Teaching",
+        "weightage": 8,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Problems of Teaching & Problem Solving",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "science",
+        "topic": "Food",
+        "weightage": 8,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "science",
+        "topic": "Materials",
+        "weightage": 12,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "science",
+        "topic": "The World of the Living",
+        "weightage": 14,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "science",
+        "topic": "Moving Things, People & Ideas",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "science",
+        "topic": "How Things Work (electricity & magnets)",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "science",
+        "topic": "Natural Phenomena (light & sound)",
+        "weightage": 8,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "science",
+        "topic": "Natural Resources",
+        "weightage": 8,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "science",
+        "topic": "Nature & Structure of Science",
+        "weightage": 7,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "science",
+        "topic": "Aims & Objectives of Science Teaching",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "science",
+        "topic": "Understanding & Appreciating Science",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "science",
+        "topic": "Approaches & Methods (inquiry, experiment, discovery)",
+        "weightage": 10,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "science",
+        "topic": "Innovation & Text Material/Aids",
+        "weightage": 3,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "science",
+        "topic": "Evaluation in Science",
+        "weightage": 3,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "science",
+        "topic": "Problems & Remedial Teaching",
+        "weightage": 2,
+        "trend": "stable",
+        "difficulty": "medium"
+      }
+    ]
+  },
+  "resources": {
+    "pyqAvailable": true,
+    "officialPYQ": null,
+    "officialMock": null,
+    "notes": "CBSE does not keep a public archive of CTET question papers. After each exam it posts the provisional answer key together with each candidate's scanned OMR sheet and question-paper set under 'Candidate Activity' on ctet.nic.in for a short challenge window. Final keys and result notices are published on ctet.nic.in and cbse.gov.in. Full past papers in circulation are reconstructions by coaching publishers, not official copies."
+  },
+  "questions": [
+    {
+      "id": "ctet-paper-2-001",
+      "section": "cdp",
+      "topic": "Learning & Pedagogy (motivation, errors, cognition)",
+      "difficulty": "easy",
+      "question": "Which of the following is an example of intrinsic motivation?",
+      "options": [
+        "A student studies hard to win a cash prize",
+        "A student solves extra puzzles because she enjoys the challenge",
+        "A student revises only because marks will be displayed on the notice board",
+        "A student completes homework to avoid a scolding"
+      ],
+      "answer": 1,
+      "explanation": "Intrinsic motivation comes from interest or enjoyment in the task itself. Prizes, avoiding punishment and public recognition are all external (extrinsic) motivators.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-002",
+      "section": "cdp",
+      "topic": "Language & Thought",
+      "difficulty": "medium",
+      "question": "According to Vygotsky, children talking aloud to themselves while solving a problem ('private speech'):",
+      "options": [
+        "Should be strictly discouraged in class",
+        "Is a sign of a speech disorder",
+        "Shows cognitive immaturity and serves no purpose",
+        "Helps them guide and regulate their own thinking"
+      ],
+      "answer": 3,
+      "explanation": "Vygotsky saw private speech as a tool for self-regulation that gradually becomes inner speech. Piaget, by contrast, considered egocentric speech to be non-functional.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-003",
+      "section": "cdp",
+      "topic": "Piaget, Vygotsky & Kohlberg",
+      "difficulty": "easy",
+      "question": "A 13-year-old can reason, \"If all metals conduct electricity and X is a metal, then X conducts electricity,\" and can systematically test hypotheses. According to Piaget, she is in the:",
+      "options": [
+        "Concrete operational stage",
+        "Sensorimotor stage",
+        "Formal operational stage",
+        "Pre-operational stage"
+      ],
+      "answer": 2,
+      "explanation": "Abstract, hypothetico-deductive reasoning develops in the formal operational stage (about 11 years onwards).",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-004",
+      "section": "cdp",
+      "topic": "Piaget, Vygotsky & Kohlberg",
+      "difficulty": "medium",
+      "question": "An adolescent says, \"We must obey traffic rules because society would collapse into chaos if everyone ignored laws.\" According to Kohlberg, this reasoning belongs to the:",
+      "options": [
+        "Instrumental purpose orientation",
+        "Law and order orientation",
+        "Social contract orientation",
+        "Punishment and obedience orientation"
+      ],
+      "answer": 1,
+      "explanation": "Upholding laws to maintain social order is Stage 4 (conventional level). Stage 5 (social contract) sees laws as agreements that can be changed for the greater good.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-005",
+      "section": "cdp",
+      "topic": "Development & Its Principles",
+      "difficulty": "easy",
+      "question": "Which statement best describes adolescence?",
+      "options": [
+        "It is marked by a decline in abstract thinking",
+        "It is a period of stable and unchanging emotions",
+        "It is a period of rapid physical change and a search for identity",
+        "It is marked by complete dependence on parents for decisions"
+      ],
+      "answer": 2,
+      "explanation": "Adolescence brings puberty-related physical changes and, as Erikson described, the crisis of identity versus role confusion.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-006",
+      "section": "cdp",
+      "topic": "Heredity, Environment & Socialisation",
+      "difficulty": "easy",
+      "question": "Which is considered the primary agent of socialisation for a child?",
+      "options": [
+        "Peer group",
+        "Mass media",
+        "Family",
+        "Workplace"
+      ],
+      "answer": 2,
+      "explanation": "The family is the first and primary agent of socialisation. School, peers and media are secondary agents.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-007",
+      "section": "cdp",
+      "topic": "Intelligence & Multiple Intelligences",
+      "difficulty": "medium",
+      "question": "Which of the following is NOT a component of Robert Sternberg's triarchic theory of intelligence?",
+      "options": [
+        "Analytical intelligence",
+        "Practical intelligence",
+        "Emotional intelligence",
+        "Creative intelligence"
+      ],
+      "answer": 2,
+      "explanation": "Sternberg's three components are analytical (componential), creative (experiential) and practical (contextual). Emotional intelligence was popularised by Salovey, Mayer and Goleman.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-008",
+      "section": "cdp",
+      "topic": "Assessment & CCE",
+      "difficulty": "easy",
+      "question": "In school-based assessment, a portfolio is:",
+      "options": [
+        "A single end-of-term written test",
+        "A purposeful collection of a learner's work over time that shows progress",
+        "A list of marks arranged in rank order",
+        "A record of a learner's attendance"
+      ],
+      "answer": 1,
+      "explanation": "Portfolios collect samples of a student's work over time and support assessment of growth and reflection.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-009",
+      "section": "cdp",
+      "topic": "Inclusive Education & Children with Special Needs",
+      "difficulty": "medium",
+      "question": "Which strategy is most helpful for a student with Attention Deficit Hyperactivity Disorder (ADHD)?",
+      "options": [
+        "Give long assignments to keep the student busy",
+        "Break tasks into short steps with clear instructions and frequent feedback",
+        "Allow no movement or breaks at all",
+        "Seat the student near the door and windows"
+      ],
+      "answer": 1,
+      "explanation": "Short, structured tasks with immediate feedback suit the attention span of learners with ADHD. Seating near distractions makes focusing harder.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-010",
+      "section": "cdp",
+      "topic": "Inclusive Education & Children with Special Needs",
+      "difficulty": "medium",
+      "question": "How many types of disabilities are recognised under the Rights of Persons with Disabilities (RPwD) Act, 2016?",
+      "options": [
+        "14",
+        "19",
+        "7",
+        "21"
+      ],
+      "answer": 3,
+      "explanation": "The RPwD Act, 2016 expanded the list of specified disabilities from 7 (in the 1995 Act) to 21.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-011",
+      "section": "cdp",
+      "topic": "Gender & Individual Differences",
+      "difficulty": "medium",
+      "question": "A Class VII science textbook shows only men as scientists. What is the most appropriate response from the teacher?",
+      "options": [
+        "Tell students that science suits boys better",
+        "Skip the chapter entirely",
+        "Discuss this with students and introduce examples of women scientists",
+        "Ask only girls to read about the scientists"
+      ],
+      "answer": 2,
+      "explanation": "Questioning gender bias in materials and offering counter-examples builds gender sensitivity.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-012",
+      "section": "cdp",
+      "topic": "Progressive & Child-centred Education",
+      "difficulty": "easy",
+      "question": "Who emphasised 'learning by doing' and described the school as a miniature society?",
+      "options": [
+        "E. L. Thorndike",
+        "B. F. Skinner",
+        "Ivan Pavlov",
+        "John Dewey"
+      ],
+      "answer": 3,
+      "explanation": "John Dewey, a pioneer of progressive education, advocated experiential learning and schools as democratic miniature societies.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-013",
+      "section": "lang1",
+      "topic": "Unseen Passage (Prose)",
+      "difficulty": "easy",
+      "question": "Read the passage and answer.\n\n\"Bamboo is often mistaken for a tree, but it is actually a grass – the largest member of the grass family. Some species can grow nearly a metre in a single day, making bamboo one of the fastest-growing plants on Earth. Because it regenerates from its own roots after harvesting, it does not need to be replanted. Builders in north-east India have used it for centuries to make homes, bridges and scaffolding, and today engineers are studying how it might replace steel in low-cost housing. However, untreated bamboo is vulnerable to insects and moisture, so it must be seasoned carefully before use.\"\n\nAccording to the passage, bamboo does not need to be replanted because:",
+      "options": [
+        "It regenerates from its own roots after harvesting",
+        "Builders reuse the same bamboo for many years",
+        "It belongs to the tree family",
+        "It is naturally resistant to insects"
+      ],
+      "answer": 0,
+      "explanation": "The passage states that bamboo 'regenerates from its own roots after harvesting', so it does not need to be replanted.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-014",
+      "section": "lang1",
+      "topic": "Unseen Passage (Prose)",
+      "difficulty": "medium",
+      "question": "Read the passage and answer.\n\n\"Bamboo is often mistaken for a tree, but it is actually a grass – the largest member of the grass family. Some species can grow nearly a metre in a single day, making bamboo one of the fastest-growing plants on Earth. Because it regenerates from its own roots after harvesting, it does not need to be replanted. Builders in north-east India have used it for centuries to make homes, bridges and scaffolding, and today engineers are studying how it might replace steel in low-cost housing. However, untreated bamboo is vulnerable to insects and moisture, so it must be seasoned carefully before use.\"\n\nWhich of the following is NOT supported by the passage?",
+      "options": [
+        "Bamboo has been used to build bridges",
+        "Engineers are studying bamboo as a substitute for steel",
+        "Untreated bamboo resists moisture well",
+        "Bamboo belongs to the grass family"
+      ],
+      "answer": 2,
+      "explanation": "The passage says untreated bamboo is vulnerable to moisture, so the claim that it resists moisture contradicts the passage.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-015",
+      "section": "lang1",
+      "topic": "Unseen Passage (Prose)",
+      "difficulty": "easy",
+      "question": "Read the passage and answer.\n\n\"Bamboo is often mistaken for a tree, but it is actually a grass – the largest member of the grass family. Some species can grow nearly a metre in a single day, making bamboo one of the fastest-growing plants on Earth. Because it regenerates from its own roots after harvesting, it does not need to be replanted. Builders in north-east India have used it for centuries to make homes, bridges and scaffolding, and today engineers are studying how it might replace steel in low-cost housing. However, untreated bamboo is vulnerable to insects and moisture, so it must be seasoned carefully before use.\"\n\nThe word 'vulnerable' in the passage most nearly means:",
+      "options": [
+        "Easily harmed",
+        "Very strong",
+        "Highly valuable",
+        "Flexible"
+      ],
+      "answer": 0,
+      "explanation": "Vulnerable means exposed to damage or harm. Untreated bamboo is easily damaged by insects and moisture.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-016",
+      "section": "lang1",
+      "topic": "Unseen Poem",
+      "difficulty": "medium",
+      "question": "Read the stanza and answer.\n\n\"Rain on the tin roof, a drummer at night,\nKnocking and rolling till morning's first light;\nThe frogs in the ditches sing loud as they please,\nAnd the wind tells its secrets in whispers to trees.\"\n\nIn the first line, the rain is called 'a drummer at night'. The figure of speech used is:",
+      "options": [
+        "Simile",
+        "Hyperbole",
+        "Metaphor",
+        "Irony"
+      ],
+      "answer": 2,
+      "explanation": "The rain is directly identified with a drummer, without 'like' or 'as', so it is a metaphor.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-017",
+      "section": "lang1",
+      "topic": "Unseen Poem",
+      "difficulty": "easy",
+      "question": "Read the stanza and answer.\n\n\"Rain on the tin roof, a drummer at night,\nKnocking and rolling till morning's first light;\nThe frogs in the ditches sing loud as they please,\nAnd the wind tells its secrets in whispers to trees.\"\n\nThe line 'And the wind tells its secrets in whispers to trees' is an example of:",
+      "options": [
+        "Pun",
+        "Personification",
+        "Simile",
+        "Oxymoron"
+      ],
+      "answer": 1,
+      "explanation": "The wind is given the human ability to tell secrets and whisper, so the line uses personification.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-018",
+      "section": "lang1",
+      "topic": "Principles of Language Teaching",
+      "difficulty": "medium",
+      "question": "Communicative Language Teaching (CLT) mainly focuses on:",
+      "options": [
+        "Using language for meaningful communication in real-life situations",
+        "Translating texts between English and the mother tongue",
+        "Achieving grammatical accuracy through drills alone",
+        "Memorising rules of grammar and spelling"
+      ],
+      "answer": 0,
+      "explanation": "CLT treats communicative competence as the goal and uses tasks such as role-plays and information-gap activities.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-019",
+      "section": "lang1",
+      "topic": "Teaching-Learning Materials & Remedial Teaching",
+      "difficulty": "medium",
+      "question": "Many Class VII students make subject–verb agreement errors in their written work. What is the most effective remedial approach?",
+      "options": [
+        "Give focused practice in meaningful writing tasks, with feedback and peer editing",
+        "Make students copy the rule ten times",
+        "Ignore the errors because they will disappear on their own",
+        "Deduct marks for every error without explanation"
+      ],
+      "answer": 0,
+      "explanation": "Remediation works best when the specific error is addressed in context with feedback, rather than through rote copying or punishment.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-020",
+      "section": "lang1",
+      "topic": "Evaluating Language Proficiency",
+      "difficulty": "medium",
+      "question": "A rubric for assessing students' paragraph writing should mainly include criteria such as:",
+      "options": [
+        "Neatness of handwriting only",
+        "Number of words written only",
+        "Number of pages filled",
+        "Content, organisation, vocabulary and grammatical accuracy"
+      ],
+      "answer": 3,
+      "explanation": "A writing rubric should reflect the components of good writing: ideas, organisation, language use and mechanics.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-021",
+      "section": "lang1",
+      "topic": "Listening & Speaking Skills",
+      "difficulty": "easy",
+      "question": "Reading a text quickly to get its general idea or gist is called:",
+      "options": [
+        "Intensive reading",
+        "Scanning",
+        "Skimming",
+        "Loud reading"
+      ],
+      "answer": 2,
+      "explanation": "Skimming is fast reading for the gist. Scanning is searching for specific information such as a date or name.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-022",
+      "section": "lang1",
+      "topic": "Challenges of Teaching in Multilingual Classrooms",
+      "difficulty": "medium",
+      "question": "'Language across the curriculum' implies that:",
+      "options": [
+        "Language learning is the responsibility of the language teacher alone",
+        "English should be taught only in the English period",
+        "Every subject teacher contributes to the development of students' language",
+        "Students' home languages should be kept out of school"
+      ],
+      "answer": 2,
+      "explanation": "Language develops through all subjects, so every teacher plays a part in building language proficiency.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-023",
+      "section": "lang2",
+      "topic": "Unseen Passage (Hindi)",
+      "difficulty": "easy",
+      "question": "गद्यांश पढ़कर प्रश्न का उत्तर दीजिए।\n\n\"पुस्तकें मनुष्य की सच्ची मित्र होती हैं। वे बिना किसी स्वार्थ के हमें ज्ञान देती हैं और कठिन समय में धैर्य बँधाती हैं। एक अच्छी पुस्तक पढ़ते समय हम लेखक के अनुभवों से जुड़ जाते हैं और नए विचारों से परिचित होते हैं। इसलिए विद्यार्थियों में पढ़ने की आदत बचपन से ही विकसित करनी चाहिए।\"\n\nगद्यांश के अनुसार पुस्तकें 'सच्ची मित्र' क्यों हैं?",
+      "options": [
+        "क्योंकि वे सस्ती होती हैं",
+        "क्योंकि वे केवल मनोरंजन करती हैं",
+        "क्योंकि वे बिना स्वार्थ के ज्ञान देती हैं",
+        "क्योंकि वे परीक्षा में अंक दिलाती हैं"
+      ],
+      "answer": 2,
+      "explanation": "गद्यांश में कहा गया है कि पुस्तकें 'बिना किसी स्वार्थ के हमें ज्ञान देती हैं', इसलिए वे सच्ची मित्र हैं।",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-024",
+      "section": "lang2",
+      "topic": "Unseen Passage (Hindi)",
+      "difficulty": "easy",
+      "question": "गद्यांश पढ़कर प्रश्न का उत्तर दीजिए।\n\n\"पुस्तकें मनुष्य की सच्ची मित्र होती हैं। वे बिना किसी स्वार्थ के हमें ज्ञान देती हैं और कठिन समय में धैर्य बँधाती हैं। एक अच्छी पुस्तक पढ़ते समय हम लेखक के अनुभवों से जुड़ जाते हैं और नए विचारों से परिचित होते हैं। इसलिए विद्यार्थियों में पढ़ने की आदत बचपन से ही विकसित करनी चाहिए।\"\n\n'स्वार्थ' शब्द का विलोम है —",
+      "options": [
+        "स्वहित",
+        "अर्थ",
+        "लाभ",
+        "परमार्थ"
+      ],
+      "answer": 3,
+      "explanation": "स्वार्थ (अपना हित) का विलोम परमार्थ (दूसरों का हित) है। 'स्वहित' स्वार्थ का समानार्थी है।",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-025",
+      "section": "lang2",
+      "topic": "Unseen Passage (Hindi)",
+      "difficulty": "medium",
+      "question": "गद्यांश पढ़कर प्रश्न का उत्तर दीजिए।\n\n\"पुस्तकें मनुष्य की सच्ची मित्र होती हैं। वे बिना किसी स्वार्थ के हमें ज्ञान देती हैं और कठिन समय में धैर्य बँधाती हैं। एक अच्छी पुस्तक पढ़ते समय हम लेखक के अनुभवों से जुड़ जाते हैं और नए विचारों से परिचित होते हैं। इसलिए विद्यार्थियों में पढ़ने की आदत बचपन से ही विकसित करनी चाहिए।\"\n\n'पढ़ने की आदत' में 'की' किस कारक का चिह्न है?",
+      "options": [
+        "संबंध कारक",
+        "करण कारक",
+        "अपादान कारक",
+        "कर्म कारक"
+      ],
+      "answer": 0,
+      "explanation": "का, के, की संबंध कारक के चिह्न हैं। कर्म का चिह्न 'को' है, करण का 'से/के द्वारा' है, और अपादान का 'से' (अलग होने के अर्थ में) है।",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-026",
+      "section": "lang2",
+      "topic": "Grammar & Vocabulary (Hindi)",
+      "difficulty": "easy",
+      "question": "'माता-पिता' में कौन-सा समास है?",
+      "options": [
+        "अव्ययीभाव",
+        "द्वंद्व",
+        "बहुव्रीहि",
+        "द्विगु"
+      ],
+      "answer": 1,
+      "explanation": "माता-पिता = माता और पिता। दोनों पद प्रधान हैं और 'और' का लोप है, अतः यह द्वंद्व समास है।",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-027",
+      "section": "lang2",
+      "topic": "Developing LSRW Skills",
+      "difficulty": "easy",
+      "question": "उच्च प्राथमिक स्तर पर 'सुनने' के कौशल का विकास करने के लिए सबसे उपयुक्त गतिविधि है —",
+      "options": [
+        "पाठ की नकल करवाना",
+        "कहानी या समाचार सुनाकर उस पर बातचीत और प्रश्न करना",
+        "सुलेख लिखवाना",
+        "शब्दों की वर्तनी रटवाना"
+      ],
+      "answer": 1,
+      "explanation": "सुनी हुई सामग्री पर बातचीत और प्रश्नों से ध्यानपूर्वक सुनने और समझने का कौशल विकसित होता है।",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-028",
+      "section": "lang2",
+      "topic": "Language Learning & Acquisition",
+      "difficulty": "medium",
+      "question": "उच्च प्राथमिक स्तर पर व्याकरण सिखाने का सबसे प्रभावी तरीका है —",
+      "options": [
+        "केवल व्याकरण की पुस्तक के अभ्यास करवाना",
+        "भाषा के प्रयोग के संदर्भ में व्याकरण सिखाना",
+        "व्याकरण के नियम और परिभाषाएँ रटवाना",
+        "व्याकरण को पाठ से अलग, केवल सूत्रों के रूप में पढ़ाना"
+      ],
+      "answer": 1,
+      "explanation": "व्याकरण संदर्भ में, यानी पाठों और भाषा-प्रयोग के माध्यम से, सिखाने पर अधिक सार्थक और स्थायी होता है।",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-029",
+      "section": "lang2",
+      "topic": "Assessment & Remedial Teaching",
+      "difficulty": "medium",
+      "question": "सतत और व्यापक आकलन के संदर्भ में भाषा-आकलन का मुख्य उद्देश्य है —",
+      "options": [
+        "केवल वार्षिक परीक्षा के अंक देना",
+        "बच्चों की आपस में तुलना करना",
+        "बच्चों को उत्तीर्ण या अनुत्तीर्ण घोषित करना",
+        "बच्चों की प्रगति जानकर शिक्षण-प्रक्रिया में सुधार करना"
+      ],
+      "answer": 3,
+      "explanation": "आकलन का उद्देश्य सीखने में सहायता करना है। उससे मिली जानकारी शिक्षण को बेहतर बनाने में प्रयुक्त होती है।",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-030",
+      "section": "lang2",
+      "topic": "Developing LSRW Skills",
+      "difficulty": "easy",
+      "question": "कविता शिक्षण का मुख्य उद्देश्य है —",
+      "options": [
+        "कविता को शब्दशः रटवाना",
+        "कविता के शब्द गिनवाना",
+        "आनंदानुभूति और सौंदर्यबोध का विकास",
+        "व्याकरण के नियम सिखाना"
+      ],
+      "answer": 2,
+      "explanation": "कविता शिक्षण का प्रमुख लक्ष्य रसानुभूति, कल्पना और सौंदर्यबोध का विकास है।",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-031",
+      "section": "maths",
+      "topic": "Number System",
+      "difficulty": "easy",
+      "question": "What is the HCF of 84 and 126?",
+      "options": [
+        "14",
+        "21",
+        "252",
+        "42"
+      ],
+      "answer": 3,
+      "explanation": "84 = 2² × 3 × 7 and 126 = 2 × 3² × 7. HCF = 2 × 3 × 7 = 42. (252 is the LCM.)",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-032",
+      "section": "maths",
+      "topic": "Number System",
+      "difficulty": "medium",
+      "question": "Find the value of (−12) × (−5) ÷ (−4) + 7.",
+      "options": [
+        "8",
+        "−8",
+        "22",
+        "−22"
+      ],
+      "answer": 1,
+      "explanation": "(−12) × (−5) = 60, then 60 ÷ (−4) = −15, and −15 + 7 = −8.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-033",
+      "section": "maths",
+      "topic": "Algebra (incl. Ratio & Proportion)",
+      "difficulty": "easy",
+      "question": "If 3x − 7 = 2x + 5, what is the value of 2x?",
+      "options": [
+        "2",
+        "24",
+        "6",
+        "12"
+      ],
+      "answer": 1,
+      "explanation": "3x − 2x = 5 + 7 gives x = 12, so 2x = 24.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-034",
+      "section": "maths",
+      "topic": "Algebra (incl. Ratio & Proportion)",
+      "difficulty": "easy",
+      "question": "₹720 is divided between two friends in the ratio 4 : 5. What is the larger share?",
+      "options": [
+        "₹400",
+        "₹320",
+        "₹360",
+        "₹450"
+      ],
+      "answer": 0,
+      "explanation": "Total parts = 9 and one part = 720 ÷ 9 = 80. Larger share = 5 × 80 = ₹400.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-035",
+      "section": "maths",
+      "topic": "Geometry",
+      "difficulty": "easy",
+      "question": "The angles of a triangle are in the ratio 2 : 3 : 4. What is the largest angle?",
+      "options": [
+        "80°",
+        "40°",
+        "90°",
+        "60°"
+      ],
+      "answer": 0,
+      "explanation": "The angles are 2k + 3k + 4k = 180°, so k = 20°. Largest angle = 4 × 20° = 80°.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-036",
+      "section": "maths",
+      "topic": "Geometry",
+      "difficulty": "medium",
+      "question": "What is the measure of each interior angle of a regular hexagon?",
+      "options": [
+        "120°",
+        "135°",
+        "60°",
+        "108°"
+      ],
+      "answer": 0,
+      "explanation": "Sum of interior angles = (6 − 2) × 180° = 720°. Each angle = 720° ÷ 6 = 120°.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-037",
+      "section": "maths",
+      "topic": "Geometry",
+      "difficulty": "medium",
+      "question": "A polyhedron has 8 vertices and 12 edges. How many faces does it have?",
+      "options": [
+        "10",
+        "8",
+        "4",
+        "6"
+      ],
+      "answer": 3,
+      "explanation": "Euler's formula: F + V − E = 2, so F = 2 − 8 + 12 = 6. (A cube is an example.)",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-038",
+      "section": "maths",
+      "topic": "Mensuration",
+      "difficulty": "medium",
+      "question": "The parallel sides of a trapezium are 10 cm and 16 cm, and the distance between them is 7 cm. What is its area?",
+      "options": [
+        "91 cm²",
+        "70 cm²",
+        "182 cm²",
+        "112 cm²"
+      ],
+      "answer": 0,
+      "explanation": "Area = ½ × (10 + 16) × 7 = ½ × 26 × 7 = 91 cm².",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-039",
+      "section": "maths",
+      "topic": "Mensuration",
+      "difficulty": "medium",
+      "question": "The volume of a cube is 343 cm³. What is its total surface area?",
+      "options": [
+        "196 cm²",
+        "294 cm²",
+        "343 cm²",
+        "245 cm²"
+      ],
+      "answer": 1,
+      "explanation": "Edge = ∛343 = 7 cm. Total surface area = 6 × 7² = 294 cm².",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-040",
+      "section": "maths",
+      "topic": "Data Handling",
+      "difficulty": "easy",
+      "question": "What is the median of the data 3, 8, 5, 12, 7, 10?",
+      "options": [
+        "7",
+        "9",
+        "8",
+        "7.5"
+      ],
+      "answer": 3,
+      "explanation": "Arranged in order: 3, 5, 7, 8, 10, 12. With an even count, the median is the mean of the 3rd and 4th values: (7 + 8) ÷ 2 = 7.5.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-041",
+      "section": "maths",
+      "topic": "Nature of Mathematics & Logical Thinking",
+      "difficulty": "hard",
+      "question": "A Class VI student says, \"A rectangle has four right angles and opposite sides equal,\" but insists that a square cannot be a rectangle. According to the van Hiele model, the student is at the level of:",
+      "options": [
+        "Analysis",
+        "Informal deduction",
+        "Rigour",
+        "Visualisation"
+      ],
+      "answer": 0,
+      "explanation": "At the analysis level, learners describe shapes by their properties but do not yet see relationships between classes of shapes. Seeing that a square is a special rectangle needs informal deduction.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-042",
+      "section": "maths",
+      "topic": "Error Analysis & Remedial Teaching",
+      "difficulty": "medium",
+      "question": "A student simplifies 3(x + 4) as 3x + 4. The error shows that the student:",
+      "options": [
+        "Has made a sign error",
+        "Has confused place value",
+        "Has wrongly added like terms",
+        "Has not correctly applied the distributive property"
+      ],
+      "answer": 3,
+      "explanation": "3(x + 4) = 3x + 12. The student multiplied only the first term inside the bracket, which is a misapplication of the distributive property.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-043",
+      "section": "maths",
+      "topic": "Problems of Teaching & Problem Solving",
+      "difficulty": "medium",
+      "question": "What is the correct sequence of George Pólya's four steps of problem solving?",
+      "options": [
+        "Carry out the plan → Understand the problem → Devise a plan → Look back",
+        "Devise a plan → Understand the problem → Look back → Carry out the plan",
+        "Understand the problem → Carry out the plan → Devise a plan → Look back",
+        "Understand the problem → Devise a plan → Carry out the plan → Look back"
+      ],
+      "answer": 3,
+      "explanation": "In How to Solve It, Pólya gives the steps as: understand, plan, execute, then review (look back).",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-044",
+      "section": "maths",
+      "topic": "Evaluation in Mathematics",
+      "difficulty": "medium",
+      "question": "Using open-ended questions in mathematics assessment mainly helps a teacher to:",
+      "options": [
+        "Test the memorisation of formulae",
+        "Assess students' different strategies and reasoning",
+        "Make all students reach the same single answer by the same method",
+        "Finish checking answer sheets quickly"
+      ],
+      "answer": 1,
+      "explanation": "Open-ended tasks allow several approaches or answers and show how students think.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-045",
+      "section": "maths",
+      "topic": "Nature of Mathematics & Logical Thinking",
+      "difficulty": "medium",
+      "question": "In mathematics, deductive reasoning means:",
+      "options": [
+        "Arriving at specific conclusions logically from accepted axioms or general statements",
+        "Making a general rule after observing a few examples",
+        "Recalling results from memory",
+        "Solving problems only by trial and error"
+      ],
+      "answer": 0,
+      "explanation": "Deduction moves from the general (axioms, theorems) to the specific. Generalising from examples is inductive reasoning.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-046",
+      "section": "science",
+      "topic": "Food",
+      "difficulty": "easy",
+      "question": "A food sample is tested with a few drops of dilute iodine solution. Which observation confirms the presence of starch?",
+      "options": [
+        "A translucent patch forms on paper",
+        "A blue-black colour appears",
+        "A violet colour appears",
+        "Lime water turns milky"
+      ],
+      "answer": 1,
+      "explanation": "Iodine turns blue-black with starch. A violet colour with copper sulphate and caustic soda indicates protein, and a translucent patch indicates fat.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-047",
+      "section": "science",
+      "topic": "Materials",
+      "difficulty": "easy",
+      "question": "Which of the following is a chemical change?",
+      "options": [
+        "Dissolving sugar in water",
+        "Cutting paper into pieces",
+        "Rusting of iron",
+        "Melting of ice"
+      ],
+      "answer": 2,
+      "explanation": "Rusting produces a new substance, iron oxide, so it is a chemical change. The others are physical changes.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-048",
+      "section": "science",
+      "topic": "Materials",
+      "difficulty": "easy",
+      "question": "Turmeric paper turns red when it is dipped in:",
+      "options": [
+        "Vinegar",
+        "Sugar solution",
+        "Lemon juice",
+        "Lime water"
+      ],
+      "answer": 3,
+      "explanation": "Turmeric is a natural indicator that turns red in basic solutions. Lime water (calcium hydroxide) is basic, lemon juice and vinegar are acidic, and sugar solution is neutral.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-049",
+      "section": "science",
+      "topic": "The World of the Living",
+      "difficulty": "easy",
+      "question": "In which cell organelle does photosynthesis take place?",
+      "options": [
+        "Chloroplast",
+        "Ribosome",
+        "Mitochondrion",
+        "Nucleus"
+      ],
+      "answer": 0,
+      "explanation": "Chloroplasts contain chlorophyll and are the site of photosynthesis. Mitochondria are the site of respiration.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-050",
+      "section": "science",
+      "topic": "The World of the Living",
+      "difficulty": "easy",
+      "question": "In human lungs, the exchange of oxygen and carbon dioxide takes place in the:",
+      "options": [
+        "Trachea",
+        "Bronchi",
+        "Larynx",
+        "Alveoli"
+      ],
+      "answer": 3,
+      "explanation": "Alveoli are tiny air sacs surrounded by capillaries, and gaseous exchange happens across their thin walls.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-051",
+      "section": "science",
+      "topic": "The World of the Living",
+      "difficulty": "medium",
+      "question": "Which of the following diseases is caused by a virus?",
+      "options": [
+        "Typhoid",
+        "Malaria",
+        "Tuberculosis",
+        "Polio"
+      ],
+      "answer": 3,
+      "explanation": "Polio is caused by the poliovirus. Typhoid and tuberculosis are bacterial, and malaria is caused by the protozoan Plasmodium.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-052",
+      "section": "science",
+      "topic": "How Things Work (electricity & magnets)",
+      "difficulty": "easy",
+      "question": "An electric fuse works on which effect of electric current?",
+      "options": [
+        "Magnetic effect",
+        "Heating effect",
+        "Lighting effect",
+        "Chemical effect"
+      ],
+      "answer": 1,
+      "explanation": "When too much current flows, the fuse wire heats up and melts, which breaks the circuit.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-053",
+      "section": "science",
+      "topic": "Natural Phenomena (light & sound)",
+      "difficulty": "easy",
+      "question": "The image formed by a plane mirror is:",
+      "options": [
+        "Real, inverted and of the same size as the object",
+        "Real, erect and diminished",
+        "Virtual, erect and magnified",
+        "Virtual, erect and of the same size as the object"
+      ],
+      "answer": 3,
+      "explanation": "A plane mirror forms a virtual, erect, laterally inverted image of the same size as the object, as far behind the mirror as the object is in front.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-054",
+      "section": "science",
+      "topic": "Moving Things, People & Ideas",
+      "difficulty": "easy",
+      "question": "A car covers 150 km in 2 hours 30 minutes. What is its average speed?",
+      "options": [
+        "75 km/h",
+        "375 km/h",
+        "60 km/h",
+        "50 km/h"
+      ],
+      "answer": 2,
+      "explanation": "Speed = distance ÷ time = 150 km ÷ 2.5 h = 60 km/h.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-055",
+      "section": "science",
+      "topic": "Natural Resources",
+      "difficulty": "easy",
+      "question": "Which of the following is an exhaustible natural resource?",
+      "options": [
+        "Coal",
+        "Wind energy",
+        "Air",
+        "Sunlight"
+      ],
+      "answer": 0,
+      "explanation": "Coal is a fossil fuel that forms over millions of years, so its reserves can be used up. Sunlight, wind and air are inexhaustible.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-056",
+      "section": "science",
+      "topic": "Approaches & Methods (inquiry, experiment, discovery)",
+      "difficulty": "medium",
+      "question": "In an inquiry-based science classroom, the teacher should mainly:",
+      "options": [
+        "Give definitions first and ask students to memorise them",
+        "Demonstrate every experiment while students copy the results",
+        "Encourage students to ask questions, make predictions and test them through investigation",
+        "Avoid questions that do not have a single textbook answer"
+      ],
+      "answer": 2,
+      "explanation": "Inquiry-based learning engages students in questioning, investigating and drawing conclusions from evidence.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-057",
+      "section": "science",
+      "topic": "Approaches & Methods (inquiry, experiment, discovery)",
+      "difficulty": "medium",
+      "question": "A student says, \"If I give more water to this plant, it will grow taller than the other one.\" Which science process skill is the student using?",
+      "options": [
+        "Observing",
+        "Measuring",
+        "Hypothesising",
+        "Classifying"
+      ],
+      "answer": 2,
+      "explanation": "The student states a testable, tentative explanation of the relationship between two variables. That is a hypothesis.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-058",
+      "section": "science",
+      "topic": "Nature & Structure of Science",
+      "difficulty": "easy",
+      "question": "Which statement best describes the nature of scientific knowledge?",
+      "options": [
+        "It is accepted only on the basis of authority",
+        "It is tentative and can be revised in the light of new evidence",
+        "It is absolute and can never change",
+        "It is a fixed collection of facts to be memorised"
+      ],
+      "answer": 1,
+      "explanation": "Science is a dynamic, evidence-based body of knowledge that is open to revision.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-059",
+      "section": "science",
+      "topic": "Evaluation in Science",
+      "difficulty": "medium",
+      "question": "Which is the most appropriate way to assess students' practical (laboratory) skills?",
+      "options": [
+        "Observing students as they perform the activity, using a checklist",
+        "Checking how neat their practical notebooks look",
+        "Giving a written multiple-choice test",
+        "Asking students to recite the procedure"
+      ],
+      "answer": 0,
+      "explanation": "Psychomotor skills are best assessed through direct observation of performance against defined criteria.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-2-060",
+      "section": "science",
+      "topic": "Problems & Remedial Teaching",
+      "difficulty": "medium",
+      "question": "Many students believe that heavier objects always fall faster than lighter ones. What is the most effective way for the teacher to address this misconception?",
+      "options": [
+        "Create cognitive conflict through a demonstration, followed by discussion",
+        "Tell students they are wrong and move on",
+        "Ask students to memorise the correct statement",
+        "Avoid the topic because it confuses students"
+      ],
+      "answer": 0,
+      "explanation": "Dropping objects of different mass together creates cognitive conflict. When students confront the discrepancy and discuss it, their concepts change.",
+      "verified": true
+    }
+  ]
+}

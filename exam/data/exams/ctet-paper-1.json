@@ -1,0 +1,1410 @@
+{
+  "id": "ctet-paper-1",
+  "name": "CTET Paper 1",
+  "fullName": "Central Teacher Eligibility Test – Paper I (Primary Stage, Classes I–V)",
+  "nameHi": "सीटीईटी पेपर 1",
+  "category": "teaching",
+  "conductingBody": "Central Board of Secondary Education (CBSE)",
+  "officialSite": "https://ctet.nic.in",
+  "level": "national",
+  "frequency": "Usually twice a year (sessions are sometimes skipped or shifted)",
+  "approxCandidates": "≈10.65 lakh appeared for Paper 1 in the Feb 2026 session (Papers 1 + 2 together: 26.5 lakh registered, 23.2 lakh appeared)",
+  "eligibility": "Senior Secondary (50%) plus a 2-year D.El.Ed or 4-year B.El.Ed (final-year students may apply), or an equivalent qualification under NCTE norms. No upper age limit, and the certificate is valid for life.",
+  "notification": {
+    "status": "closed",
+    "summary": "The September 2026 (22nd) CTET was notified by CBSE around 11 May 2026 and scheduled in offline OMR mode on 6 Sep 2026. Applications are closed and the result is awaited. The previous (Feb 2026) result was declared on 30–31 Mar 2026 with a 33.69% pass rate in Paper 1. The next cycle's notification is expected around Nov–Dec 2026. Dates come from news reports found by web search on 2026-10-10, because ctet.nic.in could not be reached from the research sandbox. Verify on the official site.",
+    "importantDates": [
+      {
+        "event": "Notification & online registration opened (Sep 2026 session)",
+        "date": "11 May 2026 (reported)"
+      },
+      {
+        "event": "Last date to apply",
+        "date": "≈10 Jun 2026 (reported)"
+      },
+      {
+        "event": "Exam (Paper 1 & Paper 2, offline OMR)",
+        "date": "6 Sep 2026"
+      },
+      {
+        "event": "Provisional answer key + OMR challenge",
+        "date": "Sep–Oct 2026 (expected)"
+      },
+      {
+        "event": "Result",
+        "date": "Late Oct–Nov 2026 (expected)"
+      },
+      {
+        "event": "Next session notification (Feb 2027 cycle)",
+        "date": "Nov–Dec 2026 (expected)"
+      }
+    ],
+    "source": "https://ctet.nic.in (official), cross-checked with the CBSE Feb 2026 result notice https://www.cbse.gov.in/cbsenew/documents/PUBLIC_%20NOTICE_CTET_Feb_2026_RESULT_31032026.pdf and Careers360/PW news reports",
+    "checkedOn": "2026-10-10"
+  },
+  "pattern": {
+    "stage": "Paper I (Classes I–V)",
+    "mode": "Offline (OMR, pen & paper)",
+    "durationMinutes": 150,
+    "totalQuestions": 150,
+    "totalMarks": 150,
+    "marking": {
+      "correct": 1,
+      "wrong": 0,
+      "unattempted": 0
+    },
+    "sections": [
+      {
+        "id": "cdp",
+        "name": "Child Development & Pedagogy",
+        "questions": 30,
+        "marks": 30
+      },
+      {
+        "id": "lang1",
+        "name": "Language I (English)",
+        "questions": 30,
+        "marks": 30
+      },
+      {
+        "id": "lang2",
+        "name": "Language II (Hindi)",
+        "questions": 30,
+        "marks": 30
+      },
+      {
+        "id": "maths",
+        "name": "Mathematics",
+        "questions": 30,
+        "marks": 30
+      },
+      {
+        "id": "evs",
+        "name": "Environmental Studies",
+        "questions": 30,
+        "marks": 30
+      }
+    ],
+    "notes": "Real paper: 150 MCQs of 1 mark each, no negative marking, 2½ hours. Qualifying marks are 60% (90/150) for General and 55% (82/150) for SC/ST/OBC/PwD. Candidates choose Language I and Language II from 20 languages, and they must be different. This mock uses English as Language I and Hindi as Language II. The question bank holds 60 original questions (12 per section), so a mock built from it is a scaled-down version of the full 150-question paper. About half of each Maths, EVS and Language section is pedagogy."
+  },
+  "trendAnalysis": {
+    "yearsAnalyzed": [
+      2024,
+      2026
+    ],
+    "summary": "This analysis covers the Jul 2024, Dec 2024 and Feb 2026 sessions. No CTET exam was held in calendar 2025: the Dec-2025 cycle was conducted on 8 Feb 2026. Overall difficulty is easy to moderate. CDP and the pedagogy halves of Maths and EVS decide the score, and they increasingly use classroom-scenario and NCF-2005/NEP-2020 based questions rather than definitions. Inclusive education (RPwD Act, learning disabilities), assessment for learning, and Piaget/Vygotsky applications are high-yield in CDP. Maths content stays at primary level (place value, fractions, time, measurement, patterns, data), while pedagogy focuses on error analysis and Van Hiele levels. EVS content is drawn from NCERT Looking Around (Classes III–V) themes such as animals, water, shelter and travel. The Feb 2026 Paper 1 pass rate was 33.69%.",
+    "topics": [
+      {
+        "section": "cdp",
+        "topic": "Development & Its Principles",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "cdp",
+        "topic": "Heredity, Environment & Socialisation",
+        "weightage": 7,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "cdp",
+        "topic": "Piaget, Vygotsky & Kohlberg",
+        "weightage": 17,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "cdp",
+        "topic": "Progressive & Child-centred Education",
+        "weightage": 7,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "cdp",
+        "topic": "Intelligence & Multiple Intelligences",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "cdp",
+        "topic": "Language & Thought",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "cdp",
+        "topic": "Gender & Individual Differences",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "cdp",
+        "topic": "Assessment & CCE",
+        "weightage": 9,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "cdp",
+        "topic": "Inclusive Education & Children with Special Needs",
+        "weightage": 17,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "cdp",
+        "topic": "Learning & Pedagogy (motivation, errors, cognition)",
+        "weightage": 17,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "lang1",
+        "topic": "Unseen Passage (Prose)",
+        "weightage": 30,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "lang1",
+        "topic": "Unseen Poem",
+        "weightage": 20,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "lang1",
+        "topic": "Language Learning & Acquisition",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "lang1",
+        "topic": "Principles of Language Teaching",
+        "weightage": 8,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "lang1",
+        "topic": "Listening & Speaking Skills",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "lang1",
+        "topic": "Teaching-Learning Materials & Remedial Teaching",
+        "weightage": 8,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "lang1",
+        "topic": "Evaluating Language Proficiency",
+        "weightage": 8,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "lang1",
+        "topic": "Challenges of Teaching in Multilingual Classrooms",
+        "weightage": 10,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "lang2",
+        "topic": "Unseen Passage (Hindi)",
+        "weightage": 30,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "lang2",
+        "topic": "Grammar & Vocabulary (Hindi)",
+        "weightage": 20,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "lang2",
+        "topic": "Language Learning & Acquisition",
+        "weightage": 15,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "lang2",
+        "topic": "Developing LSRW Skills",
+        "weightage": 15,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "lang2",
+        "topic": "Assessment & Remedial Teaching",
+        "weightage": 10,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "lang2",
+        "topic": "Multilingualism in the Classroom",
+        "weightage": 10,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Numbers & Operations",
+        "weightage": 16,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "maths",
+        "topic": "Geometry & Spatial Understanding",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "maths",
+        "topic": "Measurement (length, weight, time, money)",
+        "weightage": 12,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "maths",
+        "topic": "Area & Perimeter",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Data Handling & Patterns",
+        "weightage": 8,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "maths",
+        "topic": "Nature of Mathematics & Logical Thinking",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Place of Maths in Curriculum & Language of Maths",
+        "weightage": 8,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Community Mathematics",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "maths",
+        "topic": "Evaluation in Mathematics",
+        "weightage": 10,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Error Analysis & Problems of Teaching",
+        "weightage": 10,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "maths",
+        "topic": "Diagnostic & Remedial Teaching",
+        "weightage": 8,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "evs",
+        "topic": "Family & Friends (relationships, animals, plants, work & play)",
+        "weightage": 18,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "evs",
+        "topic": "Food",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "evs",
+        "topic": "Shelter",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "evs",
+        "topic": "Water",
+        "weightage": 7,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "evs",
+        "topic": "Travel",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "evs",
+        "topic": "Things We Make and Do",
+        "weightage": 3,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "evs",
+        "topic": "Maps, Directions & Public Health",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "evs",
+        "topic": "Concept & Scope of EVS",
+        "weightage": 8,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "evs",
+        "topic": "Significance of EVS & Integrated EVS",
+        "weightage": 8,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "evs",
+        "topic": "Environmental Studies & Environmental Education",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "evs",
+        "topic": "Learning Principles & Activities",
+        "weightage": 10,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "evs",
+        "topic": "Approaches to Presenting Concepts",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "evs",
+        "topic": "CCE in EVS",
+        "weightage": 8,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "evs",
+        "topic": "Teaching Material/Aids & Problems",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "easy"
+      }
+    ]
+  },
+  "resources": {
+    "pyqAvailable": true,
+    "officialPYQ": null,
+    "officialMock": null,
+    "notes": "CBSE does not keep a public archive of CTET question papers. After each exam it posts the provisional answer key together with each candidate's scanned OMR sheet and question-paper set under 'Candidate Activity' on ctet.nic.in for a short challenge window. Final keys and result notices are published on ctet.nic.in and cbse.gov.in. Full past papers in circulation are reconstructions by coaching publishers, not official copies."
+  },
+  "questions": [
+    {
+      "id": "ctet-paper-1-001",
+      "section": "cdp",
+      "topic": "Piaget, Vygotsky & Kohlberg",
+      "difficulty": "easy",
+      "question": "A four-year-old insists that the moon follows her when she walks because it wants to play with her. According to Piaget, this belief is an example of:",
+      "options": [
+        "Conservation",
+        "Hypothetico-deductive reasoning",
+        "Reversibility",
+        "Animism"
+      ],
+      "answer": 3,
+      "explanation": "In Piaget's pre-operational stage (2–7 years), children believe that lifeless objects have life, feelings and intentions. This is called animism.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-002",
+      "section": "cdp",
+      "topic": "Piaget, Vygotsky & Kohlberg",
+      "difficulty": "easy",
+      "question": "According to Vygotsky, the gap between what a learner can do independently and what she can do with the help of a more capable peer or adult is called the:",
+      "options": [
+        "Centration",
+        "Private speech",
+        "Equilibration",
+        "Zone of proximal development"
+      ],
+      "answer": 3,
+      "explanation": "Vygotsky called the region between independent performance and assisted performance the Zone of Proximal Development (ZPD). Instruction is most effective when it targets this zone.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-003",
+      "section": "cdp",
+      "topic": "Piaget, Vygotsky & Kohlberg",
+      "difficulty": "medium",
+      "question": "A child says, \"I will not take my friend's eraser without asking because the teacher will punish me.\" According to Kohlberg, the child's reasoning reflects the:",
+      "options": [
+        "Good boy–good girl orientation",
+        "Social contract orientation",
+        "Law and order orientation",
+        "Punishment and obedience orientation"
+      ],
+      "answer": 3,
+      "explanation": "The child judges the action by its consequence (punishment). This is Stage 1 of Kohlberg's pre-conventional level.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-004",
+      "section": "cdp",
+      "topic": "Development & Its Principles",
+      "difficulty": "easy",
+      "question": "A baby gains control over the head and neck before gaining control over the legs. This illustrates the:",
+      "options": [
+        "Cephalocaudal principle",
+        "Principle of discontinuity",
+        "Principle of irreversibility",
+        "Proximodistal principle"
+      ],
+      "answer": 0,
+      "explanation": "Development proceeds from head to tail (cephalocaudal). The proximodistal principle describes development from the centre of the body outward.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-005",
+      "section": "cdp",
+      "topic": "Heredity, Environment & Socialisation",
+      "difficulty": "easy",
+      "question": "Which statement about heredity and environment is correct?",
+      "options": [
+        "The influence of heredity ends at birth",
+        "Development is a product of the interaction between heredity and environment",
+        "Environment has no influence on physical growth",
+        "Heredity alone determines a child's intelligence"
+      ],
+      "answer": 1,
+      "explanation": "Heredity sets potential and environment (nutrition, stimulation, culture) shapes how it is realised. The two interact throughout life.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-006",
+      "section": "cdp",
+      "topic": "Progressive & Child-centred Education",
+      "difficulty": "easy",
+      "question": "In a child-centred classroom, the role of the teacher is primarily that of a:",
+      "options": [
+        "Disciplinarian who ensures complete silence",
+        "Facilitator who creates opportunities for learners to construct knowledge",
+        "Examiner who tests rote recall",
+        "Sole source of knowledge who transmits information"
+      ],
+      "answer": 1,
+      "explanation": "Progressive, child-centred education (NCF 2005) sees the teacher as a facilitator of active learning, not a transmitter of facts.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-007",
+      "section": "cdp",
+      "topic": "Intelligence & Multiple Intelligences",
+      "difficulty": "easy",
+      "question": "According to Howard Gardner, a child who easily understands the feelings of classmates and works well in groups shows strength in which intelligence?",
+      "options": [
+        "Intrapersonal",
+        "Logical-mathematical",
+        "Naturalistic",
+        "Interpersonal"
+      ],
+      "answer": 3,
+      "explanation": "Interpersonal intelligence is the ability to understand and interact effectively with others. Intrapersonal intelligence concerns understanding oneself.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-008",
+      "section": "cdp",
+      "topic": "Gender & Individual Differences",
+      "difficulty": "easy",
+      "question": "A teacher always asks girls to sweep the classroom and boys to carry the benches. This practice reflects:",
+      "options": [
+        "Gender sensitisation",
+        "Child-centred practice",
+        "Inclusive pedagogy",
+        "Gender stereotyping"
+      ],
+      "answer": 3,
+      "explanation": "Assigning tasks according to fixed notions of what boys and girls should do reinforces gender stereotypes.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-009",
+      "section": "cdp",
+      "topic": "Assessment & CCE",
+      "difficulty": "medium",
+      "question": "The main purpose of 'assessment for learning' is to:",
+      "options": [
+        "Give ongoing feedback that helps improve teaching and learning",
+        "Compare the performance of different schools",
+        "Certify students for promotion to the next class",
+        "Rank students at the end of the year"
+      ],
+      "answer": 0,
+      "explanation": "Assessment for learning (formative assessment) happens during instruction and uses feedback to improve learning. Ranking and certification are summative purposes.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-010",
+      "section": "cdp",
+      "topic": "Inclusive Education & Children with Special Needs",
+      "difficulty": "easy",
+      "question": "A child of average intelligence has persistent difficulty in decoding words, reverses letters while reading and reads very slowly. The child most likely has:",
+      "options": [
+        "Dyscalculia",
+        "Dysgraphia",
+        "Dyspraxia",
+        "Dyslexia"
+      ],
+      "answer": 3,
+      "explanation": "Dyslexia is a specific learning disability that affects reading and word decoding. Dyscalculia affects number skills, dysgraphia affects writing, and dyspraxia affects motor coordination.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-011",
+      "section": "cdp",
+      "topic": "Inclusive Education & Children with Special Needs",
+      "difficulty": "medium",
+      "question": "Which is the most appropriate practice for including a child with low vision in a regular classroom?",
+      "options": [
+        "Excuse the child from all classroom activities",
+        "Ask the child to depend only on a classmate's notes",
+        "Recommend that the child be shifted to a special school",
+        "Provide large-print, tactile and audio materials and seat the child where the board is clearly visible"
+      ],
+      "answer": 3,
+      "explanation": "Inclusive education adapts materials and seating so that the child participates fully alongside peers.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-012",
+      "section": "cdp",
+      "topic": "Learning & Pedagogy (motivation, errors, cognition)",
+      "difficulty": "easy",
+      "question": "From a constructivist point of view, the errors children make while learning are best seen as:",
+      "options": [
+        "Evidence of low intelligence",
+        "Unimportant details that the teacher should ignore",
+        "Signs of carelessness that must be penalised",
+        "Windows into children's thinking that help the teacher plan instruction"
+      ],
+      "answer": 3,
+      "explanation": "Errors reveal children's reasoning and misconceptions, so teachers use them diagnostically.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-013",
+      "section": "lang1",
+      "topic": "Unseen Passage (Prose)",
+      "difficulty": "easy",
+      "question": "Read the passage and answer.\n\n\"Every monsoon, the village of Kalpur faced the same problem: the only road to the school turned into a stream of mud, and children often missed classes for weeks. In 2019, a group of parents decided they would not wait any longer. Using stones from a nearby quarry and labour donated on weekends, they built a raised footpath along the edge of the fields. The work took four months. Today, attendance during the rainy season is almost as high as in any other season, and the footpath is maintained by the students themselves, who take turns clearing it every Saturday.\"\n\nWhy did children often miss classes in Kalpur?",
+      "options": [
+        "The quarry blocked the road to the school",
+        "The road to school turned into mud during the monsoon",
+        "Parents needed them to work in the fields",
+        "The school was closed during the rainy season"
+      ],
+      "answer": 1,
+      "explanation": "The passage says the only road to school 'turned into a stream of mud' every monsoon, so children missed classes.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-014",
+      "section": "lang1",
+      "topic": "Unseen Passage (Prose)",
+      "difficulty": "easy",
+      "question": "Read the passage and answer.\n\n\"Every monsoon, the village of Kalpur faced the same problem: the only road to the school turned into a stream of mud, and children often missed classes for weeks. In 2019, a group of parents decided they would not wait any longer. Using stones from a nearby quarry and labour donated on weekends, they built a raised footpath along the edge of the fields. The work took four months. Today, attendance during the rainy season is almost as high as in any other season, and the footpath is maintained by the students themselves, who take turns clearing it every Saturday.\"\n\nWho looks after the footpath today?",
+      "options": [
+        "The parents who built it",
+        "The owners of the quarry",
+        "The students, who take turns clearing it",
+        "The village panchayat"
+      ],
+      "answer": 2,
+      "explanation": "The last sentence says the footpath is maintained by the students, who take turns clearing it every Saturday.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-015",
+      "section": "lang1",
+      "topic": "Unseen Passage (Prose)",
+      "difficulty": "easy",
+      "question": "Read the passage and answer.\n\n\"Every monsoon, the village of Kalpur faced the same problem: the only road to the school turned into a stream of mud, and children often missed classes for weeks. In 2019, a group of parents decided they would not wait any longer. Using stones from a nearby quarry and labour donated on weekends, they built a raised footpath along the edge of the fields. The work took four months. Today, attendance during the rainy season is almost as high as in any other season, and the footpath is maintained by the students themselves, who take turns clearing it every Saturday.\"\n\nThe word 'donated' in the passage is closest in meaning to:",
+      "options": [
+        "Demanded",
+        "Borrowed",
+        "Sold",
+        "Given freely"
+      ],
+      "answer": 3,
+      "explanation": "To donate is to give something without payment. The parents gave their weekend labour free of cost.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-016",
+      "section": "lang1",
+      "topic": "Unseen Passage (Prose)",
+      "difficulty": "medium",
+      "question": "Read the passage and answer.\n\n\"Every monsoon, the village of Kalpur faced the same problem: the only road to the school turned into a stream of mud, and children often missed classes for weeks. In 2019, a group of parents decided they would not wait any longer. Using stones from a nearby quarry and labour donated on weekends, they built a raised footpath along the edge of the fields. The work took four months. Today, attendance during the rainy season is almost as high as in any other season, and the footpath is maintained by the students themselves, who take turns clearing it every Saturday.\"\n\nIn the phrase 'a raised footpath', the word 'raised' is used as:",
+      "options": [
+        "An adjective",
+        "An adverb",
+        "A finite verb",
+        "A noun"
+      ],
+      "answer": 0,
+      "explanation": "'Raised' (a past participle) describes the noun 'footpath', so here it functions as an adjective.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-017",
+      "section": "lang1",
+      "topic": "Unseen Poem",
+      "difficulty": "easy",
+      "question": "Read the stanza and answer.\n\n\"The old banyan by the river stands,\nIt holds the evening in its hands;\nThe birds come home, the shadows creep,\nAnd all the village falls asleep.\"\n\nThe line 'It holds the evening in its hands' contains which poetic device?",
+      "options": [
+        "Alliteration",
+        "Simile",
+        "Onomatopoeia",
+        "Personification"
+      ],
+      "answer": 3,
+      "explanation": "The banyan tree is given a human action (holding something in its hands). This is personification.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-018",
+      "section": "lang1",
+      "topic": "Unseen Poem",
+      "difficulty": "medium",
+      "question": "Read the stanza and answer.\n\n\"The old banyan by the river stands,\nIt holds the evening in its hands;\nThe birds come home, the shadows creep,\nAnd all the village falls asleep.\"\n\nThe rhyme scheme of the stanza is:",
+      "options": [
+        "aabb",
+        "abcb",
+        "abba",
+        "abab"
+      ],
+      "answer": 0,
+      "explanation": "stands/hands rhyme (a, a) and creep/asleep rhyme (b, b), so the scheme is aabb.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-019",
+      "section": "lang1",
+      "topic": "Language Learning & Acquisition",
+      "difficulty": "medium",
+      "question": "According to Stephen Krashen, children acquire a language most effectively when they:",
+      "options": [
+        "Are corrected immediately for every error",
+        "Receive plenty of comprehensible input in a low-anxiety environment",
+        "Translate every sentence into their mother tongue",
+        "Memorise grammar rules before using the language"
+      ],
+      "answer": 1,
+      "explanation": "Krashen's Input Hypothesis and Affective Filter Hypothesis say that acquisition happens through comprehensible input when anxiety is low.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-020",
+      "section": "lang1",
+      "topic": "Challenges of Teaching in Multilingual Classrooms",
+      "difficulty": "medium",
+      "question": "In an English class, many children use their home languages while discussing a story. The teacher should:",
+      "options": [
+        "Ignore the discussion and continue with the textbook",
+        "Use the home languages as a resource to build understanding and bridge to English",
+        "Fine children who speak in their home language",
+        "Ban the use of any language other than English"
+      ],
+      "answer": 1,
+      "explanation": "NCF 2005 recommends multilingualism as a resource. Children's home languages help them make meaning and transfer to English.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-021",
+      "section": "lang1",
+      "topic": "Teaching-Learning Materials & Remedial Teaching",
+      "difficulty": "medium",
+      "question": "A Class 2 child repeatedly confuses 'b' and 'd' while reading. The most appropriate first step for the teacher is to:",
+      "options": [
+        "Identify the difficulty and give multisensory practice, such as tracing and forming the letters",
+        "Ask the child to write each letter a hundred times",
+        "Tell the parents that the child cannot learn to read",
+        "Move the child to a lower class"
+      ],
+      "answer": 0,
+      "explanation": "Remedial teaching begins with diagnosis and then uses multisensory (visual, auditory, kinaesthetic, tactile) activities to fix letter orientation.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-022",
+      "section": "lang1",
+      "topic": "Evaluating Language Proficiency",
+      "difficulty": "easy",
+      "question": "Which is the most appropriate way to assess the speaking skills of Class 4 learners?",
+      "options": [
+        "A multiple-choice grammar test",
+        "A role-play or show-and-tell assessed with a simple rubric",
+        "A written fill-in-the-blanks worksheet",
+        "A dictation exercise"
+      ],
+      "answer": 1,
+      "explanation": "Speaking is assessed through actual oral performance. Role-play or show-and-tell, judged against criteria such as fluency and clarity, does this.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-023",
+      "section": "lang1",
+      "topic": "Principles of Language Teaching",
+      "difficulty": "medium",
+      "question": "The 'whole language' approach to teaching English in the primary classes emphasises:",
+      "options": [
+        "Learning language through meaningful, authentic texts and contexts",
+        "Drilling isolated letters and sounds before any reading",
+        "Translating texts word by word into the mother tongue",
+        "Memorising lists of words and their spellings"
+      ],
+      "answer": 0,
+      "explanation": "The whole language approach treats language as a whole system of meaning and uses real stories, conversations and texts instead of fragmented drills.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-024",
+      "section": "lang1",
+      "topic": "Listening & Speaking Skills",
+      "difficulty": "easy",
+      "question": "Which activity best develops the listening skill of Class 3 learners?",
+      "options": [
+        "Writing the spellings of difficult words",
+        "Copying sentences from the blackboard",
+        "Listening to a story and then arranging picture cards in the order of events",
+        "Reading a lesson silently"
+      ],
+      "answer": 2,
+      "explanation": "Sequencing pictures after listening requires children to attend to and understand spoken input, so it builds listening comprehension.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-025",
+      "section": "lang2",
+      "topic": "Unseen Passage (Hindi)",
+      "difficulty": "easy",
+      "question": "गद्यांश पढ़कर प्रश्न का उत्तर दीजिए।\n\n\"पानी हमारे जीवन का आधार है। धरती पर उपलब्ध कुल जल का बहुत छोटा भाग ही पीने योग्य है। बढ़ती जनसंख्या और लापरवाही के कारण यह सीमित भंडार तेज़ी से घट रहा है। यदि हम वर्षा के जल का संचयन करें, नलों को खुला न छोड़ें और नदियों को प्रदूषित होने से बचाएँ, तो आने वाली पीढ़ियों के लिए भी पर्याप्त जल बचा रहेगा।\"\n\nगद्यांश के अनुसार पीने योग्य जल का भंडार घटने का मुख्य कारण क्या है?",
+      "options": [
+        "वर्षा जल का संचयन",
+        "नदियों की संख्या बढ़ना",
+        "बढ़ती जनसंख्या और लापरवाही",
+        "अधिक वर्षा होना"
+      ],
+      "answer": 2,
+      "explanation": "गद्यांश में स्पष्ट लिखा है कि 'बढ़ती जनसंख्या और लापरवाही के कारण' सीमित भंडार घट रहा है।",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-026",
+      "section": "lang2",
+      "topic": "Unseen Passage (Hindi)",
+      "difficulty": "easy",
+      "question": "गद्यांश पढ़कर प्रश्न का उत्तर दीजिए।\n\n\"पानी हमारे जीवन का आधार है। धरती पर उपलब्ध कुल जल का बहुत छोटा भाग ही पीने योग्य है। बढ़ती जनसंख्या और लापरवाही के कारण यह सीमित भंडार तेज़ी से घट रहा है। यदि हम वर्षा के जल का संचयन करें, नलों को खुला न छोड़ें और नदियों को प्रदूषित होने से बचाएँ, तो आने वाली पीढ़ियों के लिए भी पर्याप्त जल बचा रहेगा।\"\n\n'संचयन' शब्द का अर्थ है —",
+      "options": [
+        "बहा देना",
+        "बेच देना",
+        "इकट्ठा करना",
+        "गरम करना"
+      ],
+      "answer": 2,
+      "explanation": "संचयन का अर्थ है एकत्र या इकट्ठा करना। वर्षा जल संचयन = वर्षा का पानी इकट्ठा करना।",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-027",
+      "section": "lang2",
+      "topic": "Unseen Passage (Hindi)",
+      "difficulty": "medium",
+      "question": "गद्यांश पढ़कर प्रश्न का उत्तर दीजिए।\n\n\"पानी हमारे जीवन का आधार है। धरती पर उपलब्ध कुल जल का बहुत छोटा भाग ही पीने योग्य है। बढ़ती जनसंख्या और लापरवाही के कारण यह सीमित भंडार तेज़ी से घट रहा है। यदि हम वर्षा के जल का संचयन करें, नलों को खुला न छोड़ें और नदियों को प्रदूषित होने से बचाएँ, तो आने वाली पीढ़ियों के लिए भी पर्याप्त जल बचा रहेगा।\"\n\n'जनसंख्या' शब्द में कौन-सा समास है?",
+      "options": [
+        "अव्ययीभाव",
+        "तत्पुरुष",
+        "बहुव्रीहि",
+        "द्वंद्व"
+      ],
+      "answer": 1,
+      "explanation": "जनसंख्या = जन की संख्या। यहाँ 'की' (संबंध) विभक्ति का लोप है, अतः यह षष्ठी तत्पुरुष समास है।",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-028",
+      "section": "lang2",
+      "topic": "Unseen Passage (Hindi)",
+      "difficulty": "easy",
+      "question": "गद्यांश पढ़कर प्रश्न का उत्तर दीजिए।\n\n\"पानी हमारे जीवन का आधार है। धरती पर उपलब्ध कुल जल का बहुत छोटा भाग ही पीने योग्य है। बढ़ती जनसंख्या और लापरवाही के कारण यह सीमित भंडार तेज़ी से घट रहा है। यदि हम वर्षा के जल का संचयन करें, नलों को खुला न छोड़ें और नदियों को प्रदूषित होने से बचाएँ, तो आने वाली पीढ़ियों के लिए भी पर्याप्त जल बचा रहेगा।\"\n\nगद्यांश के लिए सबसे उपयुक्त शीर्षक है —",
+      "options": [
+        "जनसंख्या वृद्धि",
+        "जल संरक्षण",
+        "नदियों की यात्रा",
+        "वर्षा ऋतु"
+      ],
+      "answer": 1,
+      "explanation": "पूरा गद्यांश जल के महत्व और उसे बचाने के उपायों पर केंद्रित है, अतः 'जल संरक्षण' उपयुक्त शीर्षक है।",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-029",
+      "section": "lang2",
+      "topic": "Grammar & Vocabulary (Hindi)",
+      "difficulty": "easy",
+      "question": "'विद्यालय' का सही संधि-विच्छेद है —",
+      "options": [
+        "विद्या + अलय",
+        "विद्या + आलय",
+        "विद्य + आलय",
+        "विद्या + लय"
+      ],
+      "answer": 1,
+      "explanation": "विद्या + आलय: आ + आ = आ (दीर्घ स्वर संधि), अतः विद्यालय।",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-030",
+      "section": "lang2",
+      "topic": "Grammar & Vocabulary (Hindi)",
+      "difficulty": "easy",
+      "question": "'सूर्य' का पर्यायवाची शब्द है —",
+      "options": [
+        "हिमकर",
+        "निशाकर",
+        "दिनकर",
+        "सुधाकर"
+      ],
+      "answer": 2,
+      "explanation": "दिनकर (दिन करने वाला) सूर्य का पर्याय है। निशाकर, सुधाकर और हिमकर चंद्रमा के पर्याय हैं।",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-031",
+      "section": "lang2",
+      "topic": "Grammar & Vocabulary (Hindi)",
+      "difficulty": "easy",
+      "question": "'अंधकार' का विलोम शब्द है —",
+      "options": [
+        "तिमिर",
+        "रात्रि",
+        "छाया",
+        "प्रकाश"
+      ],
+      "answer": 3,
+      "explanation": "अंधकार का विलोम प्रकाश है। तिमिर अंधकार का पर्यायवाची है।",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-032",
+      "section": "lang2",
+      "topic": "Language Learning & Acquisition",
+      "difficulty": "easy",
+      "question": "भाषा सीखने की प्रक्रिया में बच्चों द्वारा की गई त्रुटियाँ —",
+      "options": [
+        "सीखने की प्रक्रिया का स्वाभाविक हिस्सा हैं",
+        "बच्चे की बुद्धि की कमी दर्शाती हैं",
+        "शिक्षण की पूर्ण असफलता का प्रमाण हैं",
+        "दंड देने योग्य हैं"
+      ],
+      "answer": 0,
+      "explanation": "त्रुटियाँ बताती हैं कि बच्चा भाषा के नियम स्वयं गढ़ रहा है। ये सीखने का स्वाभाविक चरण हैं और शिक्षक को इनका उपयोग नैदानिक रूप से करना चाहिए।",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-033",
+      "section": "lang2",
+      "topic": "Developing LSRW Skills",
+      "difficulty": "medium",
+      "question": "प्राथमिक कक्षाओं में पढ़ने की रुचि और कौशल विकसित करने के लिए सबसे उपयुक्त उपाय है —",
+      "options": [
+        "व्याकरण के नियम याद करवाना",
+        "पाठ की बार-बार नकल करवाना",
+        "बच्चों को उनकी रुचि की कहानियाँ और बाल-साहित्य उपलब्ध कराना",
+        "केवल वर्णमाला रटवाना"
+      ],
+      "answer": 2,
+      "explanation": "सार्थक और रोचक बाल-साहित्य से बच्चे पढ़ने का आनंद लेते हैं और अर्थ ग्रहण करते हुए पढ़ना सीखते हैं।",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-034",
+      "section": "lang2",
+      "topic": "Multilingualism in the Classroom",
+      "difficulty": "medium",
+      "question": "कक्षा में अलग-अलग भाषाएँ बोलने वाले बच्चे हों तो हिंदी शिक्षक को चाहिए कि वह —",
+      "options": [
+        "केवल मानक हिंदी बोलने वाले बच्चों से प्रश्न पूछे",
+        "घर की भाषा बोलने पर अंक काट ले",
+        "कक्षा में घर की भाषा बोलने पर रोक लगा दे",
+        "बच्चों की घर की भाषाओं को सीखने के संसाधन के रूप में उपयोग करे"
+      ],
+      "answer": 3,
+      "explanation": "राष्ट्रीय पाठ्यचर्या की रूपरेखा 2005 के अनुसार बहुभाषिकता कक्षा के लिए एक संसाधन है।",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-035",
+      "section": "lang2",
+      "topic": "Assessment & Remedial Teaching",
+      "difficulty": "medium",
+      "question": "कक्षा 3 के बच्चों की मौखिक अभिव्यक्ति का आकलन करने का सबसे उपयुक्त तरीका है —",
+      "options": [
+        "श्रुतलेख लिखवाना",
+        "बहुविकल्पीय लिखित परीक्षा लेना",
+        "सुलेख का अभ्यास करवाना",
+        "किसी अनुभव या चित्र पर बच्चों से बातचीत करवाना"
+      ],
+      "answer": 3,
+      "explanation": "मौखिक अभिव्यक्ति का आकलन बोलने के अवसर देकर ही हो सकता है, जैसे अनुभव सुनाना या चित्र पर बातचीत करना।",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-036",
+      "section": "lang2",
+      "topic": "Language Learning & Acquisition",
+      "difficulty": "easy",
+      "question": "विद्यालय आने से पहले अधिकांश बच्चे —",
+      "options": [
+        "अपनी घर की भाषा में सार्थक संवाद करने की क्षमता लेकर आते हैं",
+        "भाषा से पूरी तरह अनजान होते हैं",
+        "केवल कुछ अक्षर पहचानते हैं",
+        "व्याकरण के सभी नियम जानते हैं"
+      ],
+      "answer": 0,
+      "explanation": "बच्चे परिवेश से भाषा अर्जित कर लेते हैं और विद्यालय आने तक अपनी भाषा में सहज संवाद कर पाते हैं।",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-037",
+      "section": "maths",
+      "topic": "Numbers & Operations",
+      "difficulty": "easy",
+      "question": "What is the difference between the place value and the face value of 7 in the number 47,215?",
+      "options": [
+        "6993",
+        "0",
+        "7000",
+        "7007"
+      ],
+      "answer": 0,
+      "explanation": "Place value of 7 = 7000 and face value = 7. Difference = 7000 − 7 = 6993.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-038",
+      "section": "maths",
+      "topic": "Numbers & Operations",
+      "difficulty": "easy",
+      "question": "Which of the following fractions is the greatest: 3/4, 5/8, 2/3, 7/12?",
+      "options": [
+        "7/12",
+        "3/4",
+        "5/8",
+        "2/3"
+      ],
+      "answer": 1,
+      "explanation": "With LCD 24: 3/4 = 18/24, 5/8 = 15/24, 2/3 = 16/24, 7/12 = 14/24. The greatest is 3/4.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-039",
+      "section": "maths",
+      "topic": "Measurement (length, weight, time, money)",
+      "difficulty": "easy",
+      "question": "A train leaves a station at 10:45 a.m. and reaches its destination at 2:20 p.m. on the same day. How long is the journey?",
+      "options": [
+        "4 h 35 min",
+        "4 h 25 min",
+        "3 h 35 min",
+        "3 h 25 min"
+      ],
+      "answer": 2,
+      "explanation": "10:45 a.m. → 1:45 p.m. is 3 h, and 1:45 p.m. → 2:20 p.m. is 35 min. Total = 3 h 35 min.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-040",
+      "section": "maths",
+      "topic": "Area & Perimeter",
+      "difficulty": "easy",
+      "question": "A rectangular garden is 12 m long and 8 m wide. How much wire is needed to fence it with 3 rounds of wire?",
+      "options": [
+        "40 m",
+        "120 m",
+        "96 m",
+        "288 m"
+      ],
+      "answer": 1,
+      "explanation": "Perimeter = 2(12 + 8) = 40 m. For 3 rounds, 3 × 40 = 120 m.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-041",
+      "section": "maths",
+      "topic": "Data Handling & Patterns",
+      "difficulty": "easy",
+      "question": "What comes next in the pattern 2, 5, 10, 17, 26, …?",
+      "options": [
+        "37",
+        "35",
+        "36",
+        "39"
+      ],
+      "answer": 0,
+      "explanation": "The differences are 3, 5, 7, 9, so the next difference is 11 and 26 + 11 = 37. (Equivalently, the terms are n² + 1.)",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-042",
+      "section": "maths",
+      "topic": "Measurement (length, weight, time, money)",
+      "difficulty": "easy",
+      "question": "Add: 3 kg 250 g + 1 kg 875 g = ?",
+      "options": [
+        "5 kg 125 g",
+        "5 kg 225 g",
+        "4 kg 125 g",
+        "5 kg 25 g"
+      ],
+      "answer": 0,
+      "explanation": "250 g + 875 g = 1125 g = 1 kg 125 g. Then 3 kg + 1 kg + 1 kg = 5 kg. Total = 5 kg 125 g.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-043",
+      "section": "maths",
+      "topic": "Data Handling & Patterns",
+      "difficulty": "medium",
+      "question": "In a pictograph, one symbol stands for 4 students. Class A is shown by 6½ symbols and Class B by 4 symbols. How many more students are in Class A than in Class B?",
+      "options": [
+        "10",
+        "2½",
+        "8",
+        "12"
+      ],
+      "answer": 0,
+      "explanation": "Class A = 6.5 × 4 = 26 and Class B = 4 × 4 = 16. Difference = 10.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-044",
+      "section": "maths",
+      "topic": "Place of Maths in Curriculum & Language of Maths",
+      "difficulty": "medium",
+      "question": "According to NCF 2005, the main goal of mathematics education in school is:",
+      "options": [
+        "Memorisation of formulae and tables",
+        "Mathematisation of the child's thought processes",
+        "Achieving speed in mechanical calculation",
+        "Producing professional mathematicians"
+      ],
+      "answer": 1,
+      "explanation": "NCF 2005 states that the main goal is the mathematisation of the child's thinking, that is, developing the ability to think and reason mathematically.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-045",
+      "section": "maths",
+      "topic": "Error Analysis & Problems of Teaching",
+      "difficulty": "medium",
+      "question": "A child writes 46 − 28 = 22. What is the most likely reason for the error?",
+      "options": [
+        "The child has not memorised multiplication tables",
+        "The child copied the numbers incorrectly",
+        "In each column the child subtracts the smaller digit from the larger one instead of regrouping",
+        "The child added the numbers instead of subtracting them"
+      ],
+      "answer": 2,
+      "explanation": "The child computed 8 − 6 = 2 in the ones column and 4 − 2 = 2 in the tens column. This is the classic 'smaller-from-larger' error: the child did not regroup. The correct answer is 18. Adding would give 74.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-046",
+      "section": "maths",
+      "topic": "Evaluation in Mathematics",
+      "difficulty": "medium",
+      "question": "Which task best assesses a Class 4 child's conceptual understanding of fractions?",
+      "options": [
+        "Shade 3/4 of a figure in two different ways and explain why both are correct",
+        "Recite that a fraction is 'numerator over denominator'",
+        "Write the definition of a fraction",
+        "Copy the fractions written on the blackboard"
+      ],
+      "answer": 0,
+      "explanation": "Representing a fraction in more than one way and justifying it shows understanding, not just recall.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-047",
+      "section": "maths",
+      "topic": "Nature of Mathematics & Logical Thinking",
+      "difficulty": "medium",
+      "question": "A child identifies a figure as a 'square' because 'it looks like a window', but cannot describe any of its properties. According to the van Hiele model, the child is at the level of:",
+      "options": [
+        "Informal deduction",
+        "Analysis",
+        "Rigour",
+        "Visualisation"
+      ],
+      "answer": 3,
+      "explanation": "At van Hiele Level 0 (visualisation), shapes are recognised by their overall appearance and not by their properties. Properties are noticed at Level 1 (analysis).",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-048",
+      "section": "maths",
+      "topic": "Diagnostic & Remedial Teaching",
+      "difficulty": "easy",
+      "question": "Which teaching aid is most useful for a child who has difficulty understanding place value?",
+      "options": [
+        "Written definitions in the textbook",
+        "A calculator",
+        "Base-ten blocks or bundles of ten sticks",
+        "Repeated chanting of number names"
+      ],
+      "answer": 2,
+      "explanation": "Concrete materials that physically group ones into tens make place value visible and manipulable.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-049",
+      "section": "evs",
+      "topic": "Family & Friends (relationships, animals, plants, work & play)",
+      "difficulty": "medium",
+      "question": "Which bird stitches the edges of leaves together with plant fibre to make its nest?",
+      "options": [
+        "Crow",
+        "Koel",
+        "Tailorbird",
+        "Weaver bird"
+      ],
+      "answer": 2,
+      "explanation": "The tailorbird punctures leaf edges and stitches them together to form a cup-shaped nest. The weaver bird weaves grass strips, the crow piles up twigs, and the koel lays its eggs in a crow's nest.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-050",
+      "section": "evs",
+      "topic": "Water",
+      "difficulty": "medium",
+      "question": "'Tanka' (or 'kund'), an underground tank used to collect rainwater for drinking, is a traditional water-harvesting structure mainly found in:",
+      "options": [
+        "Kerala",
+        "Meghalaya",
+        "Rajasthan",
+        "Himachal Pradesh"
+      ],
+      "answer": 2,
+      "explanation": "Tankas and kunds are typical of arid Rajasthan. Meghalaya is known for bamboo drip irrigation and Himachal Pradesh for kuhls.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-051",
+      "section": "evs",
+      "topic": "Food",
+      "difficulty": "medium",
+      "question": "When we eat a potato, which part of the plant are we eating?",
+      "options": [
+        "Fruit",
+        "Stem",
+        "Leaf",
+        "Root"
+      ],
+      "answer": 1,
+      "explanation": "A potato is a tuber, which is a swollen underground stem. Its 'eyes' are buds, and buds grow only on stems. A carrot, by contrast, is a root.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-052",
+      "section": "evs",
+      "topic": "Shelter",
+      "difficulty": "easy",
+      "question": "Houses built on bamboo or wooden stilts, raised above the ground, are most suitable for areas that:",
+      "options": [
+        "Receive heavy rainfall or are prone to floods",
+        "Face frequent sandstorms",
+        "Remain snow-covered for most of the year",
+        "Are hot and dry deserts"
+      ],
+      "answer": 0,
+      "explanation": "Stilt houses, as in Assam, keep living spaces above flood water and damp ground.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-053",
+      "section": "evs",
+      "topic": "Food",
+      "difficulty": "easy",
+      "question": "Which of the following is NOT a pulse?",
+      "options": [
+        "Masoor",
+        "Moong",
+        "Rice",
+        "Arhar"
+      ],
+      "answer": 2,
+      "explanation": "Arhar, moong and masoor are pulses (legumes). Rice is a cereal.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-054",
+      "section": "evs",
+      "topic": "Maps, Directions & Public Health",
+      "difficulty": "easy",
+      "question": "In the morning you stand facing the rising sun. Which direction is behind you?",
+      "options": [
+        "South",
+        "North",
+        "East",
+        "West"
+      ],
+      "answer": 3,
+      "explanation": "The sun rises in the east, so if you face east your back is towards the west.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-055",
+      "section": "evs",
+      "topic": "Water",
+      "difficulty": "easy",
+      "question": "Which is the safest way to make pond water fit for drinking at home?",
+      "options": [
+        "Adding a spoon of sugar",
+        "Boiling it for some time",
+        "Filtering it only through a cloth",
+        "Keeping it overnight in a covered pot"
+      ],
+      "answer": 1,
+      "explanation": "Boiling kills disease-causing germs. A cloth filter removes only visible impurities, and letting the water stand does not kill germs.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-056",
+      "section": "evs",
+      "topic": "Significance of EVS & Integrated EVS",
+      "difficulty": "medium",
+      "question": "As recommended by NCF 2005, EVS in Classes III to V integrates concepts from:",
+      "options": [
+        "History and geography only",
+        "Mathematics and languages",
+        "Science, social science and environmental education",
+        "Science only"
+      ],
+      "answer": 2,
+      "explanation": "NCF 2005 treats EVS at the primary stage as an integrated area drawing on science, social science and environmental education.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-057",
+      "section": "evs",
+      "topic": "Learning Principles & Activities",
+      "difficulty": "easy",
+      "question": "Which is the best way to teach Class III children about seed germination?",
+      "options": [
+        "Read the chapter aloud to the class",
+        "Dictate the definition of germination",
+        "Let children sow seeds and observe and record their growth over several days",
+        "Show a diagram of germination in the textbook"
+      ],
+      "answer": 2,
+      "explanation": "First-hand observation and recording over time builds understanding through experience, which is central to learning in EVS.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-058",
+      "section": "evs",
+      "topic": "CCE in EVS",
+      "difficulty": "medium",
+      "question": "Which of the following is one of the indicators NCERT suggests for assessing learning in EVS?",
+      "options": [
+        "Observation and recording",
+        "Neatness of handwriting",
+        "Memorisation of definitions",
+        "Speed of copying from the board"
+      ],
+      "answer": 0,
+      "explanation": "NCERT's EVS indicators include observation and recording, discussion, expression, explanation, classification, questioning, analysis, experimentation, concern for justice and equality, and cooperation.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-059",
+      "section": "evs",
+      "topic": "Approaches to Presenting Concepts",
+      "difficulty": "medium",
+      "question": "NCERT's EVS textbooks for Classes III–V present many concepts through narratives and real-life stories mainly to:",
+      "options": [
+        "Improve children's reading speed",
+        "Reduce the length of the syllabus",
+        "Connect concepts with children's own experiences and context",
+        "Entertain children without any learning goal"
+      ],
+      "answer": 2,
+      "explanation": "Narratives place concepts in familiar contexts, which helps children relate classroom learning to their lives.",
+      "verified": true
+    },
+    {
+      "id": "ctet-paper-1-060",
+      "section": "evs",
+      "topic": "Concept & Scope of EVS",
+      "difficulty": "easy",
+      "question": "Organising EVS around themes such as 'Family and Friends', 'Food', 'Shelter' and 'Water' aims to:",
+      "options": [
+        "Teach science and social science as separate subjects",
+        "Present knowledge in an integrated way drawn from the child's surroundings",
+        "Prepare children for competitive examinations",
+        "Present facts in isolation for memorisation"
+      ],
+      "answer": 1,
+      "explanation": "The theme-based approach integrates knowledge across disciplines, starting from the child's immediate environment.",
+      "verified": true
+    }
+  ]
+}

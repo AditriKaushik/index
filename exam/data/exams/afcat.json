@@ -1,0 +1,1275 @@
+{
+  "id": "afcat",
+  "name": "AFCAT",
+  "fullName": "Air Force Common Admission Test",
+  "nameHi": "वायु सेना सामान्य प्रवेश परीक्षा",
+  "category": "defence",
+  "conductingBody": "Indian Air Force",
+  "officialSite": "https://afcat.cdac.in",
+  "level": "national",
+  "frequency": "Twice a year (AFCAT 01 and AFCAT 02)",
+  "approxCandidates": "≈2–3 lakh applicants per cycle (approx.); about 250–350 vacancies per cycle",
+  "eligibility": "Graduate (B.E./B.Tech for Technical); 20–24 yrs for Flying branch, 20–26 yrs for Ground Duty branches",
+  "notification": {
+    "status": "expected",
+    "summary": "AFCAT 02/2026 was held on 8 August 2026, and the result was declared on 9 September 2026. AFCAT 01/2027 is expected to be notified in early-to-mid November 2026 (estimated from the previous cycle), with applications in November–December 2026 and the exam around late January to February 2027. Nothing has been confirmed on afcat.cdac.in yet.",
+    "importantDates": [
+      {
+        "event": "AFCAT 02/2026 exam",
+        "date": "8 Aug 2026 (held)"
+      },
+      {
+        "event": "AFCAT 02/2026 result",
+        "date": "9 Sep 2026 (declared)"
+      },
+      {
+        "event": "AFCAT 01/2027 notification",
+        "date": "Early–mid Nov 2026 (expected)"
+      },
+      {
+        "event": "Online registration",
+        "date": "Nov–Dec 2026 (expected)"
+      },
+      {
+        "event": "AFCAT 01/2027 exam",
+        "date": "Late Jan–Feb 2027 (expected)"
+      }
+    ],
+    "source": "https://competition.careers360.com/articles/afcat-2027",
+    "checkedOn": "2026-10-10"
+  },
+  "pattern": {
+    "stage": "AFCAT online test",
+    "mode": "CBT",
+    "durationMinutes": 120,
+    "totalQuestions": 100,
+    "totalMarks": 300,
+    "marking": {
+      "correct": 3,
+      "wrong": -1,
+      "unattempted": 0
+    },
+    "sections": [
+      {
+        "id": "ga",
+        "name": "General Awareness",
+        "questions": 25,
+        "marks": 75
+      },
+      {
+        "id": "english",
+        "name": "Verbal Ability in English",
+        "questions": 30,
+        "marks": 90
+      },
+      {
+        "id": "numerical",
+        "name": "Numerical Ability",
+        "questions": 20,
+        "marks": 60
+      },
+      {
+        "id": "reasoning",
+        "name": "Reasoning & Military Aptitude",
+        "questions": 25,
+        "marks": 75
+      }
+    ],
+    "notes": "Section counts are the usual split (GA 20–25, English 30, Numerical 18–20, Reasoning 25–27) and vary slightly from cycle to cycle. There is no sectional time limit. Ground Duty (Technical) applicants also take the Engineering Knowledge Test (50 questions, 150 marks, 45 minutes), which is not simulated. The bank leaves out the figure-based spatial items in Reasoning & Military Aptitude because they cannot be shown as text."
+  },
+  "trendAnalysis": {
+    "yearsAnalyzed": [
+      2024,
+      2025,
+      2026
+    ],
+    "summary": "The paper is moderate overall and speed matters, with 100 questions in 120 minutes and −1 per wrong answer. English (30 questions) is the highest-scoring area: synonyms, antonyms, idioms, error detection, completion and one passage. General Awareness leans on defence and aviation, static history and geography, and recent events (awards, sports, exercises). Numerical Ability stays at arithmetic level (percentages, speed–distance, ratios, interest) with simple calculations. Reasoning & Military Aptitude has many figure-based items (pattern completion, embedded and mirror images, dot situations) along with verbal analogy, series and coding. Difficulty and section mix have been stable over 2024–26.",
+    "topics": [
+      {
+        "section": "ga",
+        "topic": "History",
+        "weightage": 16,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "ga",
+        "topic": "Geography",
+        "weightage": 14,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "ga",
+        "topic": "Polity",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "ga",
+        "topic": "Economy",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "ga",
+        "topic": "Basic Science",
+        "weightage": 14,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "ga",
+        "topic": "Defence & Aviation",
+        "weightage": 20,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "ga",
+        "topic": "Art & Culture",
+        "weightage": 8,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "ga",
+        "topic": "Sports, Awards & Current Affairs",
+        "weightage": 12,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "english",
+        "topic": "Synonyms",
+        "weightage": 15,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "english",
+        "topic": "Antonyms",
+        "weightage": 15,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "english",
+        "topic": "Error Detection",
+        "weightage": 15,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "english",
+        "topic": "Sentence Completion",
+        "weightage": 15,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "english",
+        "topic": "Idioms & Phrases",
+        "weightage": 15,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "english",
+        "topic": "Reading Comprehension",
+        "weightage": 15,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "english",
+        "topic": "Cloze Test",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "numerical",
+        "topic": "Percentage",
+        "weightage": 15,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "numerical",
+        "topic": "Profit & Loss",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "numerical",
+        "topic": "Ratio & Proportion",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "numerical",
+        "topic": "Average",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "numerical",
+        "topic": "Simple & Compound Interest",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "numerical",
+        "topic": "Time & Work",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "numerical",
+        "topic": "Time, Speed & Distance",
+        "weightage": 15,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "numerical",
+        "topic": "Simplification & Decimal Fractions",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "numerical",
+        "topic": "Number System",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Verbal Analogy",
+        "weightage": 15,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Classification (Odd One Out)",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Number & Letter Series",
+        "weightage": 15,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Coding-Decoding",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Direction & Blood Relations",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Arrangement & Ranking",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Spatial & Non-verbal Reasoning",
+        "weightage": 30,
+        "trend": "stable",
+        "difficulty": "medium"
+      }
+    ]
+  },
+  "resources": {
+    "pyqAvailable": false,
+    "officialPYQ": null,
+    "officialMock": "https://afcat.cdac.in",
+    "notes": "The IAF does not officially publish past AFCAT papers. The AFCAT candidate portal (afcat.cdac.in) offers an online practice test and the syllabus, and provisional answer keys are shown to candidates there after each exam. Circulating 'previous papers' are memory-based."
+  },
+  "questions": [
+    {
+      "id": "afcat-001",
+      "section": "ga",
+      "topic": "History",
+      "difficulty": "easy",
+      "question": "The Battle of Haldighati (1576) was fought between the Mughal forces of Akbar and:",
+      "options": [
+        "Rana Sanga",
+        "Maharana Pratap",
+        "Hemu",
+        "Shivaji"
+      ],
+      "answer": 1,
+      "explanation": "Maharana Pratap of Mewar fought Akbar's army, led by Raja Man Singh, at Haldighati in 1576.",
+      "verified": true
+    },
+    {
+      "id": "afcat-002",
+      "section": "ga",
+      "topic": "History",
+      "difficulty": "easy",
+      "question": "Who founded the Maurya dynasty?",
+      "options": [
+        "Bindusara",
+        "Ashoka",
+        "Chandragupta Maurya",
+        "Bimbisara"
+      ],
+      "answer": 2,
+      "explanation": "Chandragupta Maurya, guided by Kautilya, overthrew the Nandas around 321 BCE and founded the dynasty. Bimbisara belonged to the earlier Haryanka dynasty.",
+      "verified": true
+    },
+    {
+      "id": "afcat-003",
+      "section": "ga",
+      "topic": "History",
+      "difficulty": "easy",
+      "question": "The Jallianwala Bagh massacre took place in the year:",
+      "options": [
+        "1905",
+        "1920",
+        "1922",
+        "1919"
+      ],
+      "answer": 3,
+      "explanation": "The massacre took place in Amritsar on 13 April 1919 (Baisakhi), when troops under General Dyer fired on a peaceful gathering.",
+      "verified": true
+    },
+    {
+      "id": "afcat-004",
+      "section": "ga",
+      "topic": "Geography",
+      "difficulty": "easy",
+      "question": "Which strait separates Asia from North America?",
+      "options": [
+        "Bering Strait",
+        "Davis Strait",
+        "Strait of Magellan",
+        "Strait of Dover"
+      ],
+      "answer": 0,
+      "explanation": "The Bering Strait lies between Russia's Chukotka Peninsula and Alaska.",
+      "verified": true
+    },
+    {
+      "id": "afcat-005",
+      "section": "ga",
+      "topic": "Geography",
+      "difficulty": "easy",
+      "question": "Loktak Lake, known for its floating 'phumdis', is located in:",
+      "options": [
+        "Assam",
+        "Mizoram",
+        "Meghalaya",
+        "Manipur"
+      ],
+      "answer": 3,
+      "explanation": "Loktak Lake is in Manipur. Keibul Lamjao, the world's only floating national park, lies on it.",
+      "verified": true
+    },
+    {
+      "id": "afcat-006",
+      "section": "ga",
+      "topic": "Polity",
+      "difficulty": "medium",
+      "question": "The President of India is elected by:",
+      "options": [
+        "Direct vote of the people",
+        "Elected members of both Houses of Parliament only",
+        "An electoral college of elected members of both Houses of Parliament and of the Legislative Assemblies of States (and of Delhi and Puducherry)",
+        "Members of the Lok Sabha only"
+      ],
+      "answer": 2,
+      "explanation": "Article 54 sets out the electoral college. Nominated members and members of Legislative Councils do not vote.",
+      "verified": true
+    },
+    {
+      "id": "afcat-007",
+      "section": "ga",
+      "topic": "Polity",
+      "difficulty": "easy",
+      "question": "Which Schedule of the Constitution of India lists the recognised languages?",
+      "options": [
+        "Seventh Schedule",
+        "Ninth Schedule",
+        "Tenth Schedule",
+        "Eighth Schedule"
+      ],
+      "answer": 3,
+      "explanation": "The Eighth Schedule lists 22 languages. The Seventh covers legislative lists, the Ninth protected laws and the Tenth anti-defection.",
+      "verified": true
+    },
+    {
+      "id": "afcat-008",
+      "section": "ga",
+      "topic": "Economy",
+      "difficulty": "easy",
+      "question": "NABARD primarily provides credit and refinance support for:",
+      "options": [
+        "Agriculture and rural development",
+        "Foreign trade",
+        "Urban housing",
+        "Stock market operations"
+      ],
+      "answer": 0,
+      "explanation": "The National Bank for Agriculture and Rural Development (1982) is the apex development bank for agriculture and the rural sector.",
+      "verified": true
+    },
+    {
+      "id": "afcat-009",
+      "section": "ga",
+      "topic": "Basic Science",
+      "difficulty": "easy",
+      "question": "Which instrument is used to measure atmospheric pressure?",
+      "options": [
+        "Hygrometer",
+        "Barometer",
+        "Anemometer",
+        "Thermometer"
+      ],
+      "answer": 1,
+      "explanation": "A barometer measures air pressure. A hygrometer measures humidity and an anemometer measures wind speed.",
+      "verified": true
+    },
+    {
+      "id": "afcat-010",
+      "section": "ga",
+      "topic": "Basic Science",
+      "difficulty": "medium",
+      "question": "The lift generated on an aircraft wing is commonly explained using:",
+      "options": [
+        "Archimedes' principle",
+        "Pascal's law",
+        "Bernoulli's principle",
+        "Hooke's law"
+      ],
+      "answer": 2,
+      "explanation": "Air moves faster over the cambered upper surface, so pressure there is lower than below (Bernoulli's principle), producing lift. Newton's third law also contributes.",
+      "verified": true
+    },
+    {
+      "id": "afcat-011",
+      "section": "ga",
+      "topic": "Defence & Aviation",
+      "difficulty": "easy",
+      "question": "Indian Air Force Day is observed every year on:",
+      "options": [
+        "8 October",
+        "15 January",
+        "4 December",
+        "26 July"
+      ],
+      "answer": 0,
+      "explanation": "The IAF was established on 8 October 1932. 15 January is Army Day, 4 December Navy Day and 26 July Kargil Vijay Diwas.",
+      "verified": true
+    },
+    {
+      "id": "afcat-012",
+      "section": "ga",
+      "topic": "Defence & Aviation",
+      "difficulty": "medium",
+      "question": "The motto of the Indian Air Force, 'Nabha Sparsham Deeptam', is taken from the:",
+      "options": [
+        "Rigveda",
+        "Bhagavad Gita",
+        "Mundaka Upanishad",
+        "Ramayana"
+      ],
+      "answer": 1,
+      "explanation": "The motto ('Touch the sky with glory') comes from Chapter 11 of the Bhagavad Gita.",
+      "verified": true
+    },
+    {
+      "id": "afcat-013",
+      "section": "ga",
+      "topic": "Defence & Aviation",
+      "difficulty": "easy",
+      "question": "'Tejas', developed indigenously in India, is a:",
+      "options": [
+        "Attack helicopter",
+        "Transport aircraft",
+        "Surface-to-air missile",
+        "Light combat aircraft"
+      ],
+      "answer": 3,
+      "explanation": "Tejas is a single-engine light combat aircraft designed by ADA and built by HAL.",
+      "verified": true
+    },
+    {
+      "id": "afcat-014",
+      "section": "ga",
+      "topic": "Art & Culture",
+      "difficulty": "easy",
+      "question": "Kathakali is a classical dance form of:",
+      "options": [
+        "Kerala",
+        "Tamil Nadu",
+        "Karnataka",
+        "Andhra Pradesh"
+      ],
+      "answer": 0,
+      "explanation": "Kathakali comes from Kerala and is known for elaborate make-up and costumes. Tamil Nadu's form is Bharatanatyam and Andhra Pradesh's is Kuchipudi.",
+      "verified": true
+    },
+    {
+      "id": "afcat-015",
+      "section": "ga",
+      "topic": "Sports, Awards & Current Affairs",
+      "difficulty": "easy",
+      "question": "The Durand Cup, one of the oldest tournaments in Asia, is associated with:",
+      "options": [
+        "Cricket",
+        "Hockey",
+        "Golf",
+        "Football"
+      ],
+      "answer": 3,
+      "explanation": "The Durand Cup, started in 1888, is a football tournament organised with the Indian Army's support.",
+      "verified": true
+    },
+    {
+      "id": "afcat-016",
+      "section": "english",
+      "topic": "Synonyms",
+      "difficulty": "easy",
+      "question": "Choose the word most nearly SAME in meaning to CANDID.",
+      "options": [
+        "Frank",
+        "Secretive",
+        "Cunning",
+        "Rude"
+      ],
+      "answer": 0,
+      "explanation": "Candid means frank or open.",
+      "verified": true
+    },
+    {
+      "id": "afcat-017",
+      "section": "english",
+      "topic": "Synonyms",
+      "difficulty": "easy",
+      "question": "Choose the word most nearly SAME in meaning to DILIGENT.",
+      "options": [
+        "Lazy",
+        "Industrious",
+        "Clever",
+        "Honest"
+      ],
+      "answer": 1,
+      "explanation": "Diligent means hard-working, that is, industrious.",
+      "verified": true
+    },
+    {
+      "id": "afcat-018",
+      "section": "english",
+      "topic": "Synonyms",
+      "difficulty": "medium",
+      "question": "Choose the word most nearly SAME in meaning to VINDICATE.",
+      "options": [
+        "Accuse",
+        "Punish",
+        "Exonerate",
+        "Deceive"
+      ],
+      "answer": 2,
+      "explanation": "To vindicate is to clear someone of blame or suspicion, that is, to exonerate.",
+      "verified": true
+    },
+    {
+      "id": "afcat-019",
+      "section": "english",
+      "topic": "Antonyms",
+      "difficulty": "easy",
+      "question": "Choose the word most nearly OPPOSITE in meaning to BENEVOLENT.",
+      "options": [
+        "Kind",
+        "Generous",
+        "Charitable",
+        "Malevolent"
+      ],
+      "answer": 3,
+      "explanation": "Benevolent means well-meaning, so its opposite is malevolent (wishing harm).",
+      "verified": true
+    },
+    {
+      "id": "afcat-020",
+      "section": "english",
+      "topic": "Antonyms",
+      "difficulty": "easy",
+      "question": "Choose the word most nearly OPPOSITE in meaning to SCARCE.",
+      "options": [
+        "Abundant",
+        "Rare",
+        "Meagre",
+        "Insufficient"
+      ],
+      "answer": 0,
+      "explanation": "Scarce means in short supply, so its opposite is abundant.",
+      "verified": true
+    },
+    {
+      "id": "afcat-021",
+      "section": "english",
+      "topic": "Antonyms",
+      "difficulty": "easy",
+      "question": "Choose the word most nearly OPPOSITE in meaning to TRANSPARENT.",
+      "options": [
+        "Clear",
+        "Opaque",
+        "Lucid",
+        "Obvious"
+      ],
+      "answer": 1,
+      "explanation": "Transparent means see-through, so its opposite is opaque.",
+      "verified": true
+    },
+    {
+      "id": "afcat-022",
+      "section": "english",
+      "topic": "Error Detection",
+      "difficulty": "easy",
+      "question": "Identify the part of the sentence that contains an error.\nOne of my friends (A) / are joining (B) / the Air Force next month. (C) / No error (D)",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 1,
+      "explanation": "The subject is 'One', which is singular, so part B should read 'is joining'.",
+      "verified": true
+    },
+    {
+      "id": "afcat-023",
+      "section": "english",
+      "topic": "Error Detection",
+      "difficulty": "easy",
+      "question": "Identify the part of the sentence that contains an error.\nEvery pilots in the squadron (A) / was briefed (B) / before the sortie. (C) / No error (D)",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 0,
+      "explanation": "'Every' takes a singular noun, so part A should read 'Every pilot'.",
+      "verified": true
+    },
+    {
+      "id": "afcat-024",
+      "section": "english",
+      "topic": "Error Detection",
+      "difficulty": "easy",
+      "question": "Identify the part of the sentence that contains an error.\nHe has been living (A) / in Bengaluru (B) / since five years. (C) / No error (D)",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 2,
+      "explanation": "'Since' marks a point in time and 'for' a period, so part C should read 'for five years'.",
+      "verified": true
+    },
+    {
+      "id": "afcat-025",
+      "section": "english",
+      "topic": "Sentence Completion",
+      "difficulty": "easy",
+      "question": "Fill in the blank: The aircraft took ______ smoothly despite the strong crosswind.",
+      "options": [
+        "up",
+        "off",
+        "in",
+        "over"
+      ],
+      "answer": 1,
+      "explanation": "'Take off' means to leave the ground and begin flying.",
+      "verified": true
+    },
+    {
+      "id": "afcat-026",
+      "section": "english",
+      "topic": "Sentence Completion",
+      "difficulty": "easy",
+      "question": "Fill in the blank: She is good ______ mathematics.",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "with"
+      ],
+      "answer": 2,
+      "explanation": "The standard usage is 'good at' a subject or skill.",
+      "verified": true
+    },
+    {
+      "id": "afcat-027",
+      "section": "english",
+      "topic": "Sentence Completion",
+      "difficulty": "medium",
+      "question": "Fill in the blank: If he had studied harder, he ______ the exam.",
+      "options": [
+        "will pass",
+        "would pass",
+        "had passed",
+        "would have passed"
+      ],
+      "answer": 3,
+      "explanation": "A third conditional (past unreal) takes 'had + past participle' in the if-clause and 'would have + past participle' in the main clause.",
+      "verified": true
+    },
+    {
+      "id": "afcat-028",
+      "section": "english",
+      "topic": "Idioms & Phrases",
+      "difficulty": "easy",
+      "question": "Choose the correct meaning of the idiom: 'to smell a rat'",
+      "options": [
+        "To suspect that something is wrong",
+        "To be dirty",
+        "To catch a thief",
+        "To be afraid"
+      ],
+      "answer": 0,
+      "explanation": "To smell a rat is to sense that something is wrong or suspicious.",
+      "verified": true
+    },
+    {
+      "id": "afcat-029",
+      "section": "english",
+      "topic": "Idioms & Phrases",
+      "difficulty": "easy",
+      "question": "Choose the correct meaning of the idiom: 'a feather in one's cap'",
+      "options": [
+        "A sign of cowardice",
+        "An achievement to be proud of",
+        "A light punishment",
+        "A useless gift"
+      ],
+      "answer": 1,
+      "explanation": "A feather in one's cap is an accomplishment one can be proud of.",
+      "verified": true
+    },
+    {
+      "id": "afcat-030",
+      "section": "english",
+      "topic": "Idioms & Phrases",
+      "difficulty": "easy",
+      "question": "Choose the correct meaning of the idiom: 'to hit the nail on the head'",
+      "options": [
+        "To hurt oneself",
+        "To act violently",
+        "To describe something exactly right",
+        "To work very hard"
+      ],
+      "answer": 2,
+      "explanation": "To hit the nail on the head is to say or do exactly the right thing or identify the precise point.",
+      "verified": true
+    },
+    {
+      "id": "afcat-031",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n'The first powered, controlled aeroplane flight by the Wright brothers in 1903 lasted only about twelve seconds. Yet that brief hop changed the course of history. Within a few decades aircraft were crossing oceans, and air power had become decisive in war. What made the Wrights succeed where others had failed was not a more powerful engine but their careful attention to control: they understood that an aircraft must be steered and balanced in the air, and they solved this problem through patient experiment.'\nAccording to the passage, the main reason for the Wright brothers' success was:",
+      "options": [
+        "A more powerful engine",
+        "Government funding",
+        "Careful attention to controlling and balancing the aircraft",
+        "Longer flights than their rivals"
+      ],
+      "answer": 2,
+      "explanation": "The passage says success came 'not [from] a more powerful engine but their careful attention to control'.",
+      "verified": true
+    },
+    {
+      "id": "afcat-032",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n'The first powered, controlled aeroplane flight by the Wright brothers in 1903 lasted only about twelve seconds. Yet that brief hop changed the course of history. Within a few decades aircraft were crossing oceans, and air power had become decisive in war. What made the Wrights succeed where others had failed was not a more powerful engine but their careful attention to control: they understood that an aircraft must be steered and balanced in the air, and they solved this problem through patient experiment.'\nAccording to the passage, the first powered, controlled flight lasted:",
+      "options": [
+        "About twelve seconds",
+        "About twelve minutes",
+        "Several hours",
+        "A few days"
+      ],
+      "answer": 0,
+      "explanation": "The first sentence states that the flight lasted only about twelve seconds.",
+      "verified": true
+    },
+    {
+      "id": "afcat-033",
+      "section": "english",
+      "topic": "Cloze Test",
+      "difficulty": "easy",
+      "question": "Fill in the blank with the most appropriate word: Discipline is the ______ on which every successful fighting force is built.",
+      "options": [
+        "roof",
+        "window",
+        "ceiling",
+        "foundation"
+      ],
+      "answer": 3,
+      "explanation": "Something is built on a foundation, which fits the metaphor.",
+      "verified": true
+    },
+    {
+      "id": "afcat-034",
+      "section": "numerical",
+      "topic": "Percentage",
+      "difficulty": "easy",
+      "question": "What is 20% of 30% of 500?",
+      "options": [
+        "15",
+        "30",
+        "60",
+        "300"
+      ],
+      "answer": 1,
+      "explanation": "30% of 500 = 150, and 20% of 150 = 30.",
+      "verified": true
+    },
+    {
+      "id": "afcat-035",
+      "section": "numerical",
+      "topic": "Percentage",
+      "difficulty": "medium",
+      "question": "A's salary is 25% more than B's. By what percentage is B's salary less than A's?",
+      "options": [
+        "25%",
+        "15%",
+        "20%",
+        "22%"
+      ],
+      "answer": 2,
+      "explanation": "Let B = 100, so A = 125. B is 25 less than A, which is 25/125 = 20% less.",
+      "verified": true
+    },
+    {
+      "id": "afcat-036",
+      "section": "numerical",
+      "topic": "Profit & Loss",
+      "difficulty": "easy",
+      "question": "An article bought for ₹800 is sold for ₹920. The profit per cent is:",
+      "options": [
+        "18%",
+        "12%",
+        "20%",
+        "15%"
+      ],
+      "answer": 3,
+      "explanation": "Profit = ₹120, which is 120/800 × 100 = 15%.",
+      "verified": true
+    },
+    {
+      "id": "afcat-037",
+      "section": "numerical",
+      "topic": "Ratio & Proportion",
+      "difficulty": "easy",
+      "question": "₹1,200 is divided between two persons in the ratio 3 : 5. The larger share is:",
+      "options": [
+        "₹450",
+        "₹720",
+        "₹750",
+        "₹800"
+      ],
+      "answer": 2,
+      "explanation": "The larger share is 5/8 × 1,200 = ₹750.",
+      "verified": true
+    },
+    {
+      "id": "afcat-038",
+      "section": "numerical",
+      "topic": "Average",
+      "difficulty": "medium",
+      "question": "The average of five numbers is 20. When one number is removed, the average of the remaining numbers becomes 18. The removed number is:",
+      "options": [
+        "28",
+        "22",
+        "20",
+        "30"
+      ],
+      "answer": 0,
+      "explanation": "Total = 100 and the remaining four total 72, so the removed number is 100 − 72 = 28.",
+      "verified": true
+    },
+    {
+      "id": "afcat-039",
+      "section": "numerical",
+      "topic": "Average",
+      "difficulty": "easy",
+      "question": "The average of the first 10 even natural numbers is:",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "20"
+      ],
+      "answer": 1,
+      "explanation": "The numbers 2, 4, …, 20 sum to 110, and 110/10 = 11.",
+      "verified": true
+    },
+    {
+      "id": "afcat-040",
+      "section": "numerical",
+      "topic": "Simple & Compound Interest",
+      "difficulty": "easy",
+      "question": "The simple interest on ₹5,000 at 8% per annum for 3 years is:",
+      "options": [
+        "₹1,000",
+        "₹1,260",
+        "₹1,500",
+        "₹1,200"
+      ],
+      "answer": 3,
+      "explanation": "SI = 5,000 × 8 × 3 / 100 = ₹1,200.",
+      "verified": true
+    },
+    {
+      "id": "afcat-041",
+      "section": "numerical",
+      "topic": "Time & Work",
+      "difficulty": "easy",
+      "question": "6 men can finish a piece of work in 10 days. In how many days can 15 men finish it?",
+      "options": [
+        "5",
+        "4",
+        "6",
+        "8"
+      ],
+      "answer": 1,
+      "explanation": "Total work = 6 × 10 = 60 man-days, so 15 men need 60/15 = 4 days.",
+      "verified": true
+    },
+    {
+      "id": "afcat-042",
+      "section": "numerical",
+      "topic": "Time, Speed & Distance",
+      "difficulty": "easy",
+      "question": "A car covers 180 km in 3 hours. Its speed in metres per second is:",
+      "options": [
+        "15 m/s",
+        "18 m/s",
+        "50/3 m/s",
+        "20 m/s"
+      ],
+      "answer": 2,
+      "explanation": "180/3 = 60 km/h, and 60 × 5/18 = 50/3 ≈ 16.67 m/s.",
+      "verified": true
+    },
+    {
+      "id": "afcat-043",
+      "section": "numerical",
+      "topic": "Time, Speed & Distance",
+      "difficulty": "medium",
+      "question": "A person travels from P to Q at 40 km/h and returns from Q to P at 60 km/h. His average speed for the whole journey is:",
+      "options": [
+        "50 km/h",
+        "45 km/h",
+        "52 km/h",
+        "48 km/h"
+      ],
+      "answer": 3,
+      "explanation": "For equal distances, average speed = 2xy/(x + y) = 2 × 40 × 60 / 100 = 48 km/h.",
+      "verified": true
+    },
+    {
+      "id": "afcat-044",
+      "section": "numerical",
+      "topic": "Simplification & Decimal Fractions",
+      "difficulty": "easy",
+      "question": "The value of 0.25 × 0.04 ÷ 0.001 is:",
+      "options": [
+        "10",
+        "1",
+        "100",
+        "0.1"
+      ],
+      "answer": 0,
+      "explanation": "0.25 × 0.04 = 0.01, and 0.01 ÷ 0.001 = 10.",
+      "verified": true
+    },
+    {
+      "id": "afcat-045",
+      "section": "numerical",
+      "topic": "Number System",
+      "difficulty": "easy",
+      "question": "The smallest number exactly divisible by 12, 15 and 20 is:",
+      "options": [
+        "120",
+        "180",
+        "60",
+        "240"
+      ],
+      "answer": 2,
+      "explanation": "LCM(12, 15, 20) = 60.",
+      "verified": true
+    },
+    {
+      "id": "afcat-046",
+      "section": "reasoning",
+      "topic": "Verbal Analogy",
+      "difficulty": "easy",
+      "question": "Altimeter : Altitude :: Odometer : ?",
+      "options": [
+        "Speed",
+        "Distance",
+        "Pressure",
+        "Fuel"
+      ],
+      "answer": 1,
+      "explanation": "An altimeter measures altitude and an odometer measures the distance travelled. Speed is measured by a speedometer.",
+      "verified": true
+    },
+    {
+      "id": "afcat-047",
+      "section": "reasoning",
+      "topic": "Verbal Analogy",
+      "difficulty": "easy",
+      "question": "3 : 27 :: 5 : ?",
+      "options": [
+        "25",
+        "75",
+        "125",
+        "225"
+      ],
+      "answer": 2,
+      "explanation": "3³ = 27, so the answer is 5³ = 125.",
+      "verified": true
+    },
+    {
+      "id": "afcat-048",
+      "section": "reasoning",
+      "topic": "Verbal Analogy",
+      "difficulty": "easy",
+      "question": "ACE : BDF :: GIK : ?",
+      "options": [
+        "HJL",
+        "HIJ",
+        "IKM",
+        "GHJ"
+      ],
+      "answer": 0,
+      "explanation": "Each letter moves one place forward: G→H, I→J, K→L.",
+      "verified": true
+    },
+    {
+      "id": "afcat-049",
+      "section": "reasoning",
+      "topic": "Classification (Odd One Out)",
+      "difficulty": "easy",
+      "question": "Find the odd one out:",
+      "options": [
+        "Rafale",
+        "BrahMos",
+        "Tejas",
+        "Sukhoi Su-30MKI"
+      ],
+      "answer": 1,
+      "explanation": "BrahMos is a cruise missile. The others are fighter aircraft.",
+      "verified": true
+    },
+    {
+      "id": "afcat-050",
+      "section": "reasoning",
+      "topic": "Classification (Odd One Out)",
+      "difficulty": "easy",
+      "question": "Find the odd one out:",
+      "options": [
+        "121",
+        "169",
+        "290",
+        "225"
+      ],
+      "answer": 2,
+      "explanation": "121 = 11², 169 = 13² and 225 = 15², but 290 is not a perfect square.",
+      "verified": true
+    },
+    {
+      "id": "afcat-051",
+      "section": "reasoning",
+      "topic": "Classification (Odd One Out)",
+      "difficulty": "easy",
+      "question": "Find the odd one out:",
+      "options": [
+        "Mercury",
+        "Venus",
+        "Mars",
+        "Moon"
+      ],
+      "answer": 3,
+      "explanation": "Mercury, Venus and Mars are planets, while the Moon is a natural satellite.",
+      "verified": true
+    },
+    {
+      "id": "afcat-052",
+      "section": "reasoning",
+      "topic": "Number & Letter Series",
+      "difficulty": "easy",
+      "question": "Find the next number in the series: 2, 6, 12, 20, 30, ?",
+      "options": [
+        "40",
+        "44",
+        "48",
+        "42"
+      ],
+      "answer": 3,
+      "explanation": "The terms are n(n + 1): 1×2, 2×3, 3×4, 4×5, 5×6, so the next is 6×7 = 42.",
+      "verified": true
+    },
+    {
+      "id": "afcat-053",
+      "section": "reasoning",
+      "topic": "Number & Letter Series",
+      "difficulty": "easy",
+      "question": "Find the next letter in the series: B, E, H, K, ?",
+      "options": [
+        "L",
+        "M",
+        "N",
+        "O"
+      ],
+      "answer": 2,
+      "explanation": "Each letter moves 3 places forward: K + 3 = N.",
+      "verified": true
+    },
+    {
+      "id": "afcat-054",
+      "section": "reasoning",
+      "topic": "Number & Letter Series",
+      "difficulty": "medium",
+      "question": "Find the next number in the series: 1, 4, 27, 256, ?",
+      "options": [
+        "3125",
+        "625",
+        "1024",
+        "3025"
+      ],
+      "answer": 0,
+      "explanation": "The terms are nⁿ: 1¹, 2², 3³, 4⁴, so the next is 5⁵ = 3125.",
+      "verified": true
+    },
+    {
+      "id": "afcat-055",
+      "section": "reasoning",
+      "topic": "Coding-Decoding",
+      "difficulty": "easy",
+      "question": "If AIR is coded as BJS, how is FORCE coded in the same language?",
+      "options": [
+        "GQSDF",
+        "GPSDF",
+        "GPSEF",
+        "HPSDF"
+      ],
+      "answer": 1,
+      "explanation": "Each letter moves one place forward: F→G, O→P, R→S, C→D, E→F gives GPSDF.",
+      "verified": true
+    },
+    {
+      "id": "afcat-056",
+      "section": "reasoning",
+      "topic": "Coding-Decoding",
+      "difficulty": "easy",
+      "question": "If SKY is written as 19-11-25, how is JET written in the same code?",
+      "options": [
+        "11-5-20",
+        "10-6-20",
+        "10-5-21",
+        "10-5-20"
+      ],
+      "answer": 3,
+      "explanation": "Each letter is replaced by its position in the alphabet: J = 10, E = 5, T = 20.",
+      "verified": true
+    },
+    {
+      "id": "afcat-057",
+      "section": "reasoning",
+      "topic": "Direction & Blood Relations",
+      "difficulty": "easy",
+      "question": "A man walks 5 km north, turns right and walks 3 km, then turns right again and walks 5 km. How far is he from his starting point and in which direction?",
+      "options": [
+        "3 km West",
+        "13 km North",
+        "3 km East",
+        "5 km South"
+      ],
+      "answer": 2,
+      "explanation": "North 5 km, then east 3 km, then south 5 km. The north–south movements cancel, so he ends 3 km east of the start.",
+      "verified": true
+    },
+    {
+      "id": "afcat-058",
+      "section": "reasoning",
+      "topic": "Direction & Blood Relations",
+      "difficulty": "medium",
+      "question": "Pointing to a man, Riya said, 'He is the son of my grandfather's only son.' How is the man related to Riya?",
+      "options": [
+        "Cousin",
+        "Brother",
+        "Uncle",
+        "Nephew"
+      ],
+      "answer": 1,
+      "explanation": "Her grandfather's only son is Riya's father, and her father's son is her brother.",
+      "verified": true
+    },
+    {
+      "id": "afcat-059",
+      "section": "reasoning",
+      "topic": "Arrangement & Ranking",
+      "difficulty": "easy",
+      "question": "In a row of 40 cadets, Arun is 12th from the left end. What is his position from the right end?",
+      "options": [
+        "28th",
+        "30th",
+        "29th",
+        "27th"
+      ],
+      "answer": 2,
+      "explanation": "Position from the right = 40 − 12 + 1 = 29th.",
+      "verified": true
+    },
+    {
+      "id": "afcat-060",
+      "section": "reasoning",
+      "topic": "Arrangement & Ranking",
+      "difficulty": "medium",
+      "question": "Five aircraft P, Q, R, S and T are parked in a row. R is at the extreme left and S is at the extreme right. P is immediately to the left of Q, and T is next to R. Which aircraft is in the middle?",
+      "options": [
+        "P",
+        "T",
+        "Q",
+        "S"
+      ],
+      "answer": 0,
+      "explanation": "R occupies position 1 and S position 5. T is next to R, so T is at 2, leaving P at 3 and Q at 4. The order is R T P Q S, so P is in the middle.",
+      "verified": true
+    }
+  ]
+}

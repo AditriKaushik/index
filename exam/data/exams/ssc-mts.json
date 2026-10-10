@@ -1,0 +1,1380 @@
+{
+  "id": "ssc-mts",
+  "name": "SSC MTS",
+  "fullName": "Staff Selection Commission – Multi-Tasking (Non-Technical) Staff and Havaldar (CBIC & CBN) Examination",
+  "nameHi": "एसएससी एमटीएस",
+  "category": "ssc",
+  "conductingBody": "Staff Selection Commission",
+  "officialSite": "https://ssc.gov.in",
+  "level": "national",
+  "frequency": "Once a year",
+  "approxCandidates": "Tens of lakhs of applicants per cycle (official 2026 figure not available at check time)",
+  "eligibility": "Class 10 (matriculation) pass; 18–25 years for MTS and 18–27 years for Havaldar and some MTS posts (with category relaxations)",
+  "notification": {
+    "status": "expected",
+    "summary": "The SSC 2026-27 calendar listed the MTS & Havaldar 2026 notification for 30 June 2026 with the CBT in Sep–Nov 2026, but as of 10 Oct 2026 it had not been confirmed as released; reports say it was postponed and is now expected around October 2026. The previous (2025) cycle had ≈7,948 posts, CBT held 4–15 Feb 2026 and Havaldar PET/PST in late Aug 2026.",
+    "importantDates": [
+      {
+        "event": "Notification (as per SSC calendar)",
+        "date": "30 Jun 2026 – postponed; expected Oct 2026 (unconfirmed)"
+      },
+      {
+        "event": "Application window",
+        "date": "≈30 days from notification (to be announced)"
+      },
+      {
+        "event": "Computer Based Examination",
+        "date": "Calendar window Sep–Nov 2026; likely to shift (to be announced)"
+      },
+      {
+        "event": "Previous cycle (2025) CBT",
+        "date": "4–15 Feb 2026"
+      },
+      {
+        "event": "Previous cycle Havaldar PET/PST",
+        "date": "24–31 Aug 2026 (as reported)"
+      }
+    ],
+    "source": "https://www.adda247.com/ssc-mts (secondary report; official notices at https://ssc.gov.in)",
+    "checkedOn": "2026-10-10"
+  },
+  "pattern": {
+    "stage": "Computer Based Examination (Session I + Session II)",
+    "mode": "CBT",
+    "durationMinutes": 90,
+    "totalQuestions": 90,
+    "totalMarks": 270,
+    "marking": {
+      "correct": 3,
+      "wrong": -1,
+      "unattempted": 0
+    },
+    "sections": [
+      {
+        "id": "numerical",
+        "name": "Numerical & Mathematical Ability (Session I)",
+        "questions": 20,
+        "marks": 60
+      },
+      {
+        "id": "reasoning",
+        "name": "Reasoning Ability & Problem Solving (Session I)",
+        "questions": 20,
+        "marks": 60
+      },
+      {
+        "id": "gk",
+        "name": "General Awareness (Session II)",
+        "questions": 25,
+        "marks": 75
+      },
+      {
+        "id": "english",
+        "name": "English Language & Comprehension (Session II)",
+        "questions": 25,
+        "marks": 75
+      }
+    ],
+    "notes": "Two sessions of 45 minutes each, both compulsory. Session I (Numerical + Reasoning) has NO negative marking and is qualifying; Session II (GA + English) has −1 per wrong answer and decides merit. Each question carries 3 marks. Havaldar candidates also take a PET/PST. The paper is available in English, Hindi and 13 regional languages."
+  },
+  "trendAnalysis": {
+    "yearsAnalyzed": [
+      2023,
+      2024,
+      2025
+    ],
+    "summary": "The MTS CBT is easy-to-moderate. Session I tests basic arithmetic (number system, percentage, profit & loss, ratio, average, time-work, speed and simple mensuration) and verbal/non-verbal reasoning (analogy, classification, series, coding, directions, blood relations). Session II decides merit: GA is mostly static GK (history, polity, geography, science, culture, sports) with a few current-affairs questions, and English covers vocabulary, basic grammar (articles, prepositions, tenses, subject–verb agreement) and a short comprehension/cloze. Because of the −1 penalty in Session II, accuracy in GA and English separates selected candidates.",
+    "topics": [
+      {
+        "section": "numerical",
+        "topic": "Number System",
+        "weightage": 15,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "numerical",
+        "topic": "HCF & LCM",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "numerical",
+        "topic": "Simplification",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "numerical",
+        "topic": "Percentage",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "numerical",
+        "topic": "Profit & Loss",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "numerical",
+        "topic": "Simple & Compound Interest",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "numerical",
+        "topic": "Ratio & Proportion",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "numerical",
+        "topic": "Average",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "numerical",
+        "topic": "Time & Work",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "numerical",
+        "topic": "Time, Speed & Distance",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "numerical",
+        "topic": "Mensuration",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "numerical",
+        "topic": "Geometry",
+        "weightage": 5,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Analogy",
+        "weightage": 15,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Classification",
+        "weightage": 15,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Number & Letter Series",
+        "weightage": 15,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Coding-Decoding",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Blood Relations",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Direction Sense",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Mathematical Operations",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Order & Ranking",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Missing Number",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Calendar & Clock",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Syllogism",
+        "weightage": 5,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "reasoning",
+        "topic": "Non-verbal (Mirror, Paper Folding, Figures)",
+        "weightage": 10,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "gk",
+        "topic": "History",
+        "weightage": 16,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "gk",
+        "topic": "Polity",
+        "weightage": 16,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "gk",
+        "topic": "Geography",
+        "weightage": 14,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "gk",
+        "topic": "Economy",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "gk",
+        "topic": "Physics",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "gk",
+        "topic": "Chemistry",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "gk",
+        "topic": "Biology",
+        "weightage": 8,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "gk",
+        "topic": "Art & Culture",
+        "weightage": 10,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "gk",
+        "topic": "Sports",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "gk",
+        "topic": "Current Affairs",
+        "weightage": 8,
+        "trend": "falling",
+        "difficulty": "medium"
+      },
+      {
+        "section": "gk",
+        "topic": "Books, Authors & Awards",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "english",
+        "topic": "Synonyms",
+        "weightage": 12,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "english",
+        "topic": "Antonyms",
+        "weightage": 12,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "english",
+        "topic": "Idioms & Phrases",
+        "weightage": 8,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "english",
+        "topic": "One-word Substitution",
+        "weightage": 8,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "english",
+        "topic": "Spelling Correction",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "english",
+        "topic": "Error Spotting",
+        "weightage": 12,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "english",
+        "topic": "Fill in the Blanks",
+        "weightage": 14,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "english",
+        "topic": "Sentence Improvement",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "english",
+        "topic": "Active & Passive Voice",
+        "weightage": 4,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "english",
+        "topic": "Reading Comprehension",
+        "weightage": 12,
+        "trend": "stable",
+        "difficulty": "easy"
+      },
+      {
+        "section": "english",
+        "topic": "Cloze Test",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "easy"
+      }
+    ]
+  },
+  "resources": {
+    "pyqAvailable": true,
+    "officialPYQ": "https://ssc.gov.in",
+    "officialMock": null,
+    "notes": "SSC releases tentative answer keys along with each candidate's response sheet (question paper) on ssc.gov.in for a short period after the CBT; there is no permanent official PYQ archive. Shift-wise memory-based papers are compiled by coaching sites."
+  },
+  "questions": [
+    {
+      "id": "ssc-mts-001",
+      "section": "numerical",
+      "topic": "Number System",
+      "difficulty": "easy",
+      "question": "What is the smallest number that must be added to 457 to make it exactly divisible by 9?",
+      "options": [
+        "1",
+        "3",
+        "2",
+        "4"
+      ],
+      "answer": 2,
+      "explanation": "Digit sum of 457 = 16. The next multiple of 9 is 18, so add 2 (459 = 9 × 51).",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-002",
+      "section": "numerical",
+      "topic": "HCF & LCM",
+      "difficulty": "medium",
+      "question": "What is the LCM of 12, 18 and 24?",
+      "options": [
+        "36",
+        "144",
+        "48",
+        "72"
+      ],
+      "answer": 3,
+      "explanation": "12 = 2²·3, 18 = 2·3², 24 = 2³·3. LCM = 2³ × 3² = 72.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-003",
+      "section": "numerical",
+      "topic": "Percentage",
+      "difficulty": "easy",
+      "question": "What is 15% of 480?",
+      "options": [
+        "68",
+        "75",
+        "64",
+        "72"
+      ],
+      "answer": 3,
+      "explanation": "480 × 15/100 = 72.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-004",
+      "section": "numerical",
+      "topic": "Profit & Loss",
+      "difficulty": "medium",
+      "question": "An article bought for ₹800 is sold for ₹920. What is the profit percentage?",
+      "options": [
+        "15%",
+        "12%",
+        "18%",
+        "20%"
+      ],
+      "answer": 0,
+      "explanation": "Profit = 120; 120/800 × 100 = 15%.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-005",
+      "section": "numerical",
+      "topic": "Simple & Compound Interest",
+      "difficulty": "medium",
+      "question": "At what rate of simple interest per annum will ₹2,500 amount to ₹3,100 in 3 years?",
+      "options": [
+        "6%",
+        "7%",
+        "8%",
+        "9%"
+      ],
+      "answer": 2,
+      "explanation": "SI = 600. Rate = 600 × 100/(2500 × 3) = 8%.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-006",
+      "section": "numerical",
+      "topic": "Ratio & Proportion",
+      "difficulty": "easy",
+      "question": "₹840 is divided between two persons in the ratio 3 : 4. What is the larger share?",
+      "options": [
+        "₹360",
+        "₹420",
+        "₹480",
+        "₹400"
+      ],
+      "answer": 2,
+      "explanation": "Larger share = 840 × 4/7 = ₹480.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-007",
+      "section": "numerical",
+      "topic": "Average",
+      "difficulty": "medium",
+      "question": "The average age of 5 boys is 16 years. When their teacher's age is included, the average becomes 20 years. What is the teacher's age?",
+      "options": [
+        "36 years",
+        "24 years",
+        "44 years",
+        "40 years"
+      ],
+      "answer": 3,
+      "explanation": "6 × 20 − 5 × 16 = 120 − 80 = 40 years.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-008",
+      "section": "numerical",
+      "topic": "Time & Work",
+      "difficulty": "medium",
+      "question": "A can finish a work in 10 days and B in 15 days. In how many days can they finish it working together?",
+      "options": [
+        "5",
+        "6",
+        "8",
+        "12.5"
+      ],
+      "answer": 1,
+      "explanation": "1/10 + 1/15 = 5/30 = 1/6, so 6 days.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-009",
+      "section": "numerical",
+      "topic": "Time, Speed & Distance",
+      "difficulty": "easy",
+      "question": "A speed of 54 km/h is equal to how many metres per second?",
+      "options": [
+        "15",
+        "18",
+        "12",
+        "20"
+      ],
+      "answer": 0,
+      "explanation": "54 × 5/18 = 15 m/s.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-010",
+      "section": "numerical",
+      "topic": "Mensuration",
+      "difficulty": "medium",
+      "question": "The perimeter of a rectangle is 46 cm and its length is 15 cm. What is its area?",
+      "options": [
+        "150 cm²",
+        "112 cm²",
+        "96 cm²",
+        "120 cm²"
+      ],
+      "answer": 3,
+      "explanation": "2(l + b) = 46 → l + b = 23 → b = 8. Area = 15 × 8 = 120 cm².",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-011",
+      "section": "numerical",
+      "topic": "Geometry",
+      "difficulty": "easy",
+      "question": "Two angles of a triangle are 48° and 67°. What is the third angle?",
+      "options": [
+        "75°",
+        "65°",
+        "55°",
+        "85°"
+      ],
+      "answer": 1,
+      "explanation": "180° − (48° + 67°) = 65°.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-012",
+      "section": "numerical",
+      "topic": "Simplification",
+      "difficulty": "medium",
+      "question": "Simplify: (0.25 × 0.25 − 0.15 × 0.15) ÷ (0.25 − 0.15)",
+      "options": [
+        "0.4",
+        "0.1",
+        "0.04",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "(a² − b²)/(a − b) = a + b = 0.25 + 0.15 = 0.4.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-013",
+      "section": "numerical",
+      "topic": "Simple & Compound Interest",
+      "difficulty": "hard",
+      "question": "A sum of money doubles itself in 8 years at simple interest. In how many years will it become four times itself at the same rate?",
+      "options": [
+        "16 years",
+        "32 years",
+        "24 years",
+        "20 years"
+      ],
+      "answer": 2,
+      "explanation": "Doubling means interest = P in 8 years, so rate = 12.5%. Four times needs interest = 3P, which takes 3 × 8 = 24 years.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-014",
+      "section": "reasoning",
+      "topic": "Analogy",
+      "difficulty": "easy",
+      "question": "Select the option that is related to the third word in the same way as the second word is related to the first.\nBird : Nest :: Bee : ?",
+      "options": [
+        "Hive",
+        "Den",
+        "Burrow",
+        "Stable"
+      ],
+      "answer": 0,
+      "explanation": "A bird lives in a nest; a bee lives in a hive.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-015",
+      "section": "reasoning",
+      "topic": "Analogy",
+      "difficulty": "easy",
+      "question": "Select the number that is related to the third number in the same way as the second is related to the first.\n5 : 25 :: 9 : ?",
+      "options": [
+        "72",
+        "90",
+        "18",
+        "81"
+      ],
+      "answer": 3,
+      "explanation": "25 = 5². So 9² = 81.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-016",
+      "section": "reasoning",
+      "topic": "Classification",
+      "difficulty": "easy",
+      "question": "Select the odd one out.",
+      "options": [
+        "Apple",
+        "Potato",
+        "Banana",
+        "Mango"
+      ],
+      "answer": 1,
+      "explanation": "Apple, banana and mango are fruits; potato is a vegetable (a stem tuber).",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-017",
+      "section": "reasoning",
+      "topic": "Number & Letter Series",
+      "difficulty": "easy",
+      "question": "Select the number that will come next in the series.\n2, 5, 10, 17, 26, ?",
+      "options": [
+        "35",
+        "36",
+        "37",
+        "39"
+      ],
+      "answer": 2,
+      "explanation": "Terms are n² + 1: 1+1, 4+1, 9+1, 16+1, 25+1, so next is 36 + 1 = 37.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-018",
+      "section": "reasoning",
+      "topic": "Number & Letter Series",
+      "difficulty": "medium",
+      "question": "Select the term that will come next in the series.\nAC, EG, IK, MO, ?",
+      "options": [
+        "QR",
+        "QS",
+        "PR",
+        "RT"
+      ],
+      "answer": 1,
+      "explanation": "Consecutive odd-position letters: A(1)C(3), E(5)G(7), I(9)K(11), M(13)O(15), then Q(17)S(19).",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-019",
+      "section": "reasoning",
+      "topic": "Coding-Decoding",
+      "difficulty": "medium",
+      "question": "If BOOK is written as CPPL in a certain code, how will WORD be written in that code?",
+      "options": [
+        "XPSF",
+        "VNQC",
+        "XPSE",
+        "XQSE"
+      ],
+      "answer": 2,
+      "explanation": "Each letter moves one step forward: W→X, O→P, R→S, D→E.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-020",
+      "section": "reasoning",
+      "topic": "Blood Relations",
+      "difficulty": "medium",
+      "question": "A is the father of B. C is the mother of A. How is C related to B?",
+      "options": [
+        "Mother",
+        "Aunt",
+        "Sister",
+        "Grandmother"
+      ],
+      "answer": 3,
+      "explanation": "C is the mother of B's father, i.e. B's (paternal) grandmother.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-021",
+      "section": "reasoning",
+      "topic": "Direction Sense",
+      "difficulty": "medium",
+      "question": "Mohan walks 5 km towards East and then 12 km towards North. How far is he from his starting point?",
+      "options": [
+        "13 km",
+        "17 km",
+        "7 km",
+        "12 km"
+      ],
+      "answer": 0,
+      "explanation": "Distance = √(5² + 12²) = √169 = 13 km.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-022",
+      "section": "reasoning",
+      "topic": "Mathematical Operations",
+      "difficulty": "medium",
+      "question": "If '×' means '+', '+' means '÷', '−' means '×' and '÷' means '−', what is the value of:\n20 + 4 − 3 × 6 ÷ 2",
+      "options": [
+        "21",
+        "17",
+        "23",
+        "19"
+      ],
+      "answer": 3,
+      "explanation": "Replace signs: 20 ÷ 4 × 3 + 6 − 2 = 5 × 3 + 6 − 2 = 15 + 4 = 19.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-023",
+      "section": "reasoning",
+      "topic": "Order & Ranking",
+      "difficulty": "easy",
+      "question": "In a queue, Amit is 7th from the front and 9th from the back. How many people are in the queue?",
+      "options": [
+        "16",
+        "15",
+        "14",
+        "17"
+      ],
+      "answer": 1,
+      "explanation": "7 + 9 − 1 = 15.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-024",
+      "section": "reasoning",
+      "topic": "Missing Number",
+      "difficulty": "medium",
+      "question": "Select the number that will come in place of the question mark (?).\n3, 12, 48, ?, 768",
+      "options": [
+        "192",
+        "144",
+        "196",
+        "180"
+      ],
+      "answer": 0,
+      "explanation": "Each term is multiplied by 4: 48 × 4 = 192 and 192 × 4 = 768 ✓.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-025",
+      "section": "reasoning",
+      "topic": "Calendar & Clock",
+      "difficulty": "hard",
+      "question": "If today is Wednesday, what day of the week will it be after 100 days?",
+      "options": [
+        "Thursday",
+        "Saturday",
+        "Friday",
+        "Tuesday"
+      ],
+      "answer": 2,
+      "explanation": "100 = 7 × 14 + 2. Two days after Wednesday is Friday.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-026",
+      "section": "reasoning",
+      "topic": "Syllogism",
+      "difficulty": "hard",
+      "question": "Statements:\nSome books are pens.\nAll pens are pencils.\nConclusions:\nI. Some books are pencils.\nII. All pencils are pens.\nWhich conclusion(s) follow(s)?",
+      "options": [
+        "Only conclusion II follows",
+        "Only conclusion I follows",
+        "Both I and II follow",
+        "Neither I nor II follows"
+      ],
+      "answer": 1,
+      "explanation": "The books that are pens are also pencils, so I follows. 'All pens are pencils' does not mean all pencils are pens, so II does not follow.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-027",
+      "section": "gk",
+      "topic": "History",
+      "difficulty": "easy",
+      "question": "Who is popularly known as the 'Iron Man of India'?",
+      "options": [
+        "Lal Bahadur Shastri",
+        "Subhas Chandra Bose",
+        "Sardar Vallabhbhai Patel",
+        "Bhagat Singh"
+      ],
+      "answer": 2,
+      "explanation": "Sardar Vallabhbhai Patel, who integrated the princely states after Independence, is called the Iron Man of India.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-028",
+      "section": "gk",
+      "topic": "History",
+      "difficulty": "medium",
+      "question": "In which year did Mahatma Gandhi begin the Dandi March?",
+      "options": [
+        "1930",
+        "1920",
+        "1942",
+        "1919"
+      ],
+      "answer": 0,
+      "explanation": "The Dandi (Salt) March began on 12 March 1930 from Sabarmati Ashram.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-029",
+      "section": "gk",
+      "topic": "History",
+      "difficulty": "medium",
+      "question": "Which Mughal emperor built the Red Fort in Delhi?",
+      "options": [
+        "Akbar",
+        "Aurangzeb",
+        "Humayun",
+        "Shah Jahan"
+      ],
+      "answer": 3,
+      "explanation": "Shah Jahan built the Red Fort (Lal Qila) when he shifted his capital to Shahjahanabad (completed 1648).",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-030",
+      "section": "gk",
+      "topic": "Polity",
+      "difficulty": "easy",
+      "question": "How many members can the President of India nominate to the Rajya Sabha?",
+      "options": [
+        "2",
+        "12",
+        "10",
+        "14"
+      ],
+      "answer": 1,
+      "explanation": "Under Article 80, the President nominates 12 members with expertise in literature, science, art and social service.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-031",
+      "section": "gk",
+      "topic": "Polity",
+      "difficulty": "medium",
+      "question": "Who administers the oath of office to the President of India?",
+      "options": [
+        "Vice-President of India",
+        "Prime Minister",
+        "Speaker of the Lok Sabha",
+        "Chief Justice of India"
+      ],
+      "answer": 3,
+      "explanation": "Under Article 60, the oath is administered by the Chief Justice of India (or, in his absence, the senior-most Supreme Court judge).",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-032",
+      "section": "gk",
+      "topic": "Polity",
+      "difficulty": "medium",
+      "question": "The Preamble declares India to be a Sovereign, Socialist, Secular, Democratic ______.",
+      "options": [
+        "Federation",
+        "Union",
+        "Republic",
+        "Commonwealth"
+      ],
+      "answer": 2,
+      "explanation": "The Preamble describes India as a Sovereign Socialist Secular Democratic Republic.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-033",
+      "section": "gk",
+      "topic": "Polity",
+      "difficulty": "hard",
+      "question": "Which Article of the Constitution of India abolishes untouchability?",
+      "options": [
+        "Article 17",
+        "Article 15",
+        "Article 23",
+        "Article 14"
+      ],
+      "answer": 0,
+      "explanation": "Article 17 abolishes untouchability and forbids its practice in any form.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-034",
+      "section": "gk",
+      "topic": "Geography",
+      "difficulty": "easy",
+      "question": "Which planet is known as the 'Red Planet'?",
+      "options": [
+        "Jupiter",
+        "Mars",
+        "Venus",
+        "Saturn"
+      ],
+      "answer": 1,
+      "explanation": "Mars looks red because of iron oxide on its surface.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-035",
+      "section": "gk",
+      "topic": "Geography",
+      "difficulty": "medium",
+      "question": "Loktak Lake, known for its floating 'phumdis', is located in which state?",
+      "options": [
+        "Assam",
+        "Meghalaya",
+        "Tripura",
+        "Manipur"
+      ],
+      "answer": 3,
+      "explanation": "Loktak Lake in Manipur has floating phumdis; Keibul Lamjao, the only floating national park, is on it.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-036",
+      "section": "gk",
+      "topic": "Geography",
+      "difficulty": "hard",
+      "question": "What is the name of the southernmost point of Indian territory?",
+      "options": [
+        "Kanyakumari",
+        "Rameswaram",
+        "Indira Point",
+        "Dhanushkodi"
+      ],
+      "answer": 2,
+      "explanation": "Indira Point on Great Nicobar Island is India's southernmost point; Kanyakumari is the southernmost point of the mainland.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-037",
+      "section": "gk",
+      "topic": "Economy",
+      "difficulty": "medium",
+      "question": "Where is the central office (headquarters) of the Reserve Bank of India located?",
+      "options": [
+        "Mumbai",
+        "New Delhi",
+        "Kolkata",
+        "Chennai"
+      ],
+      "answer": 0,
+      "explanation": "The RBI was set up in 1935 in Kolkata and moved its central office permanently to Mumbai in 1937.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-038",
+      "section": "gk",
+      "topic": "Physics",
+      "difficulty": "easy",
+      "question": "What is the SI unit of power?",
+      "options": [
+        "Watt",
+        "Joule",
+        "Newton",
+        "Pascal"
+      ],
+      "answer": 0,
+      "explanation": "Power is measured in watt (1 W = 1 J/s). Joule is the unit of work/energy.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-039",
+      "section": "gk",
+      "topic": "Chemistry",
+      "difficulty": "medium",
+      "question": "What is the pH value of pure water at 25 °C?",
+      "options": [
+        "0",
+        "14",
+        "7",
+        "5"
+      ],
+      "answer": 2,
+      "explanation": "Pure water is neutral, with pH 7 at 25 °C.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-040",
+      "section": "gk",
+      "topic": "Biology",
+      "difficulty": "easy",
+      "question": "Which of the following blood components starts the clotting of blood at a wound?",
+      "options": [
+        "Red blood cells",
+        "Lymphocytes",
+        "Monocytes",
+        "Platelets"
+      ],
+      "answer": 3,
+      "explanation": "Platelets (thrombocytes) gather at a wound and start clot formation.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-041",
+      "section": "gk",
+      "topic": "Biology",
+      "difficulty": "medium",
+      "question": "Deficiency of iodine in the diet causes which disease?",
+      "options": [
+        "Anaemia",
+        "Goitre",
+        "Rickets",
+        "Night blindness"
+      ],
+      "answer": 1,
+      "explanation": "Iodine is needed for thyroid hormones; its deficiency causes goitre (enlarged thyroid).",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-042",
+      "section": "gk",
+      "topic": "Art & Culture",
+      "difficulty": "medium",
+      "question": "Bharatanatyam is a classical dance form that originated in which state?",
+      "options": [
+        "Kerala",
+        "Andhra Pradesh",
+        "Tamil Nadu",
+        "Odisha"
+      ],
+      "answer": 2,
+      "explanation": "Bharatanatyam originated in Tamil Nadu. Kathakali is from Kerala, Kuchipudi from Andhra Pradesh and Odissi from Odisha.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-043",
+      "section": "gk",
+      "topic": "Sports",
+      "difficulty": "easy",
+      "question": "How many players of each team are on the field in a game of field hockey?",
+      "options": [
+        "11",
+        "9",
+        "7",
+        "6"
+      ],
+      "answer": 0,
+      "explanation": "A field hockey team has 11 players on the field, including the goalkeeper.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-044",
+      "section": "english",
+      "topic": "Synonyms",
+      "difficulty": "easy",
+      "question": "Select the most appropriate synonym of the given word.\nBRAVE",
+      "options": [
+        "Fearful",
+        "Weak",
+        "Lazy",
+        "Courageous"
+      ],
+      "answer": 3,
+      "explanation": "Brave means courageous.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-045",
+      "section": "english",
+      "topic": "Synonyms",
+      "difficulty": "easy",
+      "question": "Select the most appropriate synonym of the given word.\nANCIENT",
+      "options": [
+        "Modern",
+        "Old",
+        "Recent",
+        "Fresh"
+      ],
+      "answer": 1,
+      "explanation": "Ancient means very old.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-046",
+      "section": "english",
+      "topic": "Antonyms",
+      "difficulty": "easy",
+      "question": "Select the most appropriate antonym of the given word.\nEXPAND",
+      "options": [
+        "Enlarge",
+        "Spread",
+        "Contract",
+        "Extend"
+      ],
+      "answer": 2,
+      "explanation": "Expand (grow larger) is opposite to contract (become smaller).",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-047",
+      "section": "english",
+      "topic": "Antonyms",
+      "difficulty": "medium",
+      "question": "Select the most appropriate antonym of the given word.\nHUMBLE",
+      "options": [
+        "Modest",
+        "Polite",
+        "Meek",
+        "Arrogant"
+      ],
+      "answer": 3,
+      "explanation": "Humble means modest; its opposite is arrogant.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-048",
+      "section": "english",
+      "topic": "Idioms & Phrases",
+      "difficulty": "medium",
+      "question": "Select the most appropriate meaning of the idiom.\nOnce in a blue moon",
+      "options": [
+        "Very rarely",
+        "Every night",
+        "On a full-moon day",
+        "Very quickly"
+      ],
+      "answer": 0,
+      "explanation": "'Once in a blue moon' means very rarely.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-049",
+      "section": "english",
+      "topic": "One-word Substitution",
+      "difficulty": "medium",
+      "question": "Select the one-word substitute for the given phrase.\nOne who does not believe in the existence of God",
+      "options": [
+        "Theist",
+        "Atheist",
+        "Pagan",
+        "Optimist"
+      ],
+      "answer": 1,
+      "explanation": "An atheist does not believe in God; a theist does.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-050",
+      "section": "english",
+      "topic": "Spelling Correction",
+      "difficulty": "easy",
+      "question": "Select the correctly spelt word.",
+      "options": [
+        "Beutiful",
+        "Beautiful",
+        "Beautifull",
+        "Beatiful"
+      ],
+      "answer": 1,
+      "explanation": "The correct spelling is 'beautiful'.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-051",
+      "section": "english",
+      "topic": "Error Spotting",
+      "difficulty": "medium",
+      "question": "The following sentence has been divided into parts. One of them may contain an error. Select the part that contains the error, or 'No error'.\nShe / don't like / coffee.",
+      "options": [
+        "She",
+        "don't like",
+        "coffee",
+        "No error"
+      ],
+      "answer": 1,
+      "explanation": "With a third-person singular subject, use 'doesn't': She doesn't like coffee.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-052",
+      "section": "english",
+      "topic": "Error Spotting",
+      "difficulty": "medium",
+      "question": "The following sentence has been divided into parts. One of them may contain an error. Select the part that contains the error, or 'No error'.\nHe is / the most tallest boy / in the class.",
+      "options": [
+        "He is",
+        "the most tallest boy",
+        "in the class",
+        "No error"
+      ],
+      "answer": 1,
+      "explanation": "Double superlative: 'most tallest' should be 'tallest'.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-053",
+      "section": "english",
+      "topic": "Fill in the Blanks",
+      "difficulty": "easy",
+      "question": "Select the most appropriate preposition to fill in the blank.\nThe book is ______ the table.",
+      "options": [
+        "since",
+        "into",
+        "on",
+        "of"
+      ],
+      "answer": 2,
+      "explanation": "Something resting on a surface is 'on' it.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-054",
+      "section": "english",
+      "topic": "Fill in the Blanks",
+      "difficulty": "medium",
+      "question": "Select the most appropriate option to fill in the blank.\nIf it rains tomorrow, we ______ the match.",
+      "options": [
+        "will cancel",
+        "would cancel",
+        "cancelled",
+        "had cancelled"
+      ],
+      "answer": 0,
+      "explanation": "First conditional: If + simple present, will + base verb.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-055",
+      "section": "english",
+      "topic": "Fill in the Blanks",
+      "difficulty": "medium",
+      "question": "Select the most appropriate option to fill in the blank.\nShe waited for ______ hour at the station.",
+      "options": [
+        "a",
+        "many",
+        "much",
+        "an"
+      ],
+      "answer": 3,
+      "explanation": "'Hour' begins with a vowel sound (silent h), so the article is 'an'.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-056",
+      "section": "english",
+      "topic": "Sentence Improvement",
+      "difficulty": "hard",
+      "question": "Select the most appropriate option to improve the bracketed part of the sentence.\nI [am knowing] him for ten years.",
+      "options": [
+        "have known",
+        "knew",
+        "am known",
+        "No improvement"
+      ],
+      "answer": 0,
+      "explanation": "'Know' is a stative verb (not used in continuous form), and an action continuing up to now takes the present perfect: I have known him for ten years.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-057",
+      "section": "english",
+      "topic": "Active & Passive Voice",
+      "difficulty": "medium",
+      "question": "Select the passive form of the given sentence.\nThe boy kicked the ball.",
+      "options": [
+        "The ball is kicked by the boy.",
+        "The ball has been kicked by the boy.",
+        "The ball was being kicked by the boy.",
+        "The ball was kicked by the boy."
+      ],
+      "answer": 3,
+      "explanation": "Simple past active 'kicked' becomes 'was kicked' in the passive.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-058",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\nRani lived in a small village near a forest. Every morning she walked two kilometres to fetch water from a well, because there was no tap in her house. One summer the well dried up. Rani and her friends met the village head and asked for help. Together, the villagers dug a pond to collect rainwater. When the monsoon came, the pond filled up, and nobody had to walk far for water again. Rani learned that people working together can solve problems that seem too big for one person.\n\nWhy did Rani walk two kilometres every morning?",
+      "options": [
+        "To fetch water from a well",
+        "To go to school",
+        "To collect wood from the forest",
+        "To meet the village head"
+      ],
+      "answer": 0,
+      "explanation": "She walked two kilometres to fetch water from a well because there was no tap in her house.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-059",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\nRani lived in a small village near a forest. Every morning she walked two kilometres to fetch water from a well, because there was no tap in her house. One summer the well dried up. Rani and her friends met the village head and asked for help. Together, the villagers dug a pond to collect rainwater. When the monsoon came, the pond filled up, and nobody had to walk far for water again. Rani learned that people working together can solve problems that seem too big for one person.\n\nWhat did the villagers make to solve the water problem?",
+      "options": [
+        "A new well",
+        "A water tank on a hill",
+        "A pond to collect rainwater",
+        "A pipeline from the river"
+      ],
+      "answer": 2,
+      "explanation": "Together, the villagers dug a pond to collect rainwater.",
+      "verified": true
+    },
+    {
+      "id": "ssc-mts-060",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nRani lived in a small village near a forest. Every morning she walked two kilometres to fetch water from a well, because there was no tap in her house. One summer the well dried up. Rani and her friends met the village head and asked for help. Together, the villagers dug a pond to collect rainwater. When the monsoon came, the pond filled up, and nobody had to walk far for water again. Rani learned that people working together can solve problems that seem too big for one person.\n\nWhat is the main lesson of the passage?",
+      "options": [
+        "Wells always dry up in summer",
+        "People working together can solve big problems",
+        "Forests are dangerous places",
+        "Village heads solve every problem alone"
+      ],
+      "answer": 1,
+      "explanation": "The last sentence states that people working together can solve problems that seem too big for one person.",
+      "verified": true
+    }
+  ]
+}

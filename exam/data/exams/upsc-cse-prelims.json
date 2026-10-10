@@ -1,0 +1,1110 @@
+{
+  "id": "upsc-cse-prelims",
+  "name": "UPSC CSE Prelims",
+  "fullName": "Union Public Service Commission – Civil Services (Preliminary) Examination",
+  "nameHi": "यूपीएससी सिविल सेवा प्रारंभिक परीक्षा",
+  "category": "upsc",
+  "conductingBody": "Union Public Service Commission",
+  "officialSite": "https://upsc.gov.in",
+  "level": "national",
+  "frequency": "Once a year",
+  "approxCandidates": "≈9–13 lakh applicants and ≈5–6 lakh appearing each year (recent cycles); 13,343 qualified for Mains 2026",
+  "eligibility": "Graduate in any discipline; 21–32 yrs for General category (relaxations for reserved categories); attempt limits apply",
+  "notification": {
+    "status": "expected",
+    "summary": "CSE 2026: Prelims were held on 24 May 2026, the result came out on 15 June 2026 (13,343 qualified) and Mains began on 21 August 2026. Per UPSC's Calendar 2027 (released May 2026), the CSE 2027 notification is due on 13 January 2027 and Prelims on 23 May 2027. All dates are provisional, and upsc.gov.in itself could not be reached from the research sandbox.",
+    "importantDates": [
+      {
+        "event": "CSE 2027 notification",
+        "date": "13 Jan 2027 (as per UPSC Calendar 2027)"
+      },
+      {
+        "event": "Last date to apply",
+        "date": "2 Feb 2027"
+      },
+      {
+        "event": "Prelims 2027",
+        "date": "23 May 2027 (Sunday)"
+      },
+      {
+        "event": "Mains 2027",
+        "date": "From 20 Aug 2027 (tentative)"
+      },
+      {
+        "event": "CSE 2026 Prelims result",
+        "date": "15 Jun 2026 (declared)"
+      }
+    ],
+    "source": "https://visionias.in/blog/upsc-news/upsc-calendar-2027-out-cse-prelims-on-23-may-2027-check-exam-dates-download-pdf",
+    "checkedOn": "2026-10-10"
+  },
+  "pattern": {
+    "stage": "Preliminary – General Studies Paper I",
+    "mode": "Offline (OMR)",
+    "durationMinutes": 120,
+    "totalQuestions": 100,
+    "totalMarks": 200,
+    "marking": {
+      "correct": 2,
+      "wrong": -0.66,
+      "unattempted": 0
+    },
+    "sections": [
+      {
+        "id": "gs1",
+        "name": "General Studies Paper I",
+        "questions": 100,
+        "marks": 200
+      }
+    ],
+    "notes": "This mock covers GS Paper I only. GS Paper II (CSAT: 80 questions, 200 marks, 2 hours) is qualifying at 33% and is not simulated. A wrong answer costs one-third of the question's marks (0.66). The Mains cut-off is decided on GS Paper I marks alone. The question bank holds 60 items; the full paper has 100."
+  },
+  "trendAnalysis": {
+    "yearsAnalyzed": [
+      2024,
+      2025,
+      2026
+    ],
+    "summary": "Since 2023 the paper has leaned heavily on statement-based items ('how many of the above are correct', pairs, assertion–reason), which reward precise knowledge and make elimination harder. Polity (about 14–16 questions) and Economy (about 13–16) are the steady core. Environment, which peaked earlier in the decade, settled to about 9–12 in 2025–26. Science & Technology and International Relations/organisations have risen, with S&T at about 15–18 in 2026 by coaching-institute counts. History plus Art & Culture still yields about 20 questions, with growing culture coverage. Difficulty has stayed moderate-to-hard, with many current-affairs-linked static questions, and coaching tallies differ slightly by how each counts subjects.",
+    "topics": [
+      {
+        "section": "gs1",
+        "topic": "Indian Polity & Governance",
+        "weightage": 15,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "gs1",
+        "topic": "Indian Economy",
+        "weightage": 14,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "gs1",
+        "topic": "Environment & Ecology",
+        "weightage": 12,
+        "trend": "declining",
+        "difficulty": "medium"
+      },
+      {
+        "section": "gs1",
+        "topic": "Ancient & Medieval History",
+        "weightage": 7,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "gs1",
+        "topic": "Modern History & Freedom Struggle",
+        "weightage": 8,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "gs1",
+        "topic": "Art & Culture",
+        "weightage": 6,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "gs1",
+        "topic": "Geography (India & World)",
+        "weightage": 11,
+        "trend": "stable",
+        "difficulty": "medium"
+      },
+      {
+        "section": "gs1",
+        "topic": "Science & Technology",
+        "weightage": 12,
+        "trend": "rising",
+        "difficulty": "hard"
+      },
+      {
+        "section": "gs1",
+        "topic": "International Relations & Organisations",
+        "weightage": 9,
+        "trend": "rising",
+        "difficulty": "medium"
+      },
+      {
+        "section": "gs1",
+        "topic": "Current Affairs & Government Schemes",
+        "weightage": 6,
+        "trend": "stable",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  "resources": {
+    "pyqAvailable": true,
+    "officialPYQ": "https://upsc.gov.in/examinations/previous-question-papers",
+    "officialMock": null,
+    "notes": "UPSC posts question papers on upsc.gov.in under Examinations → Previous Question Papers soon after the exam. Official answer keys and cut-offs come out only after the whole CSE cycle ends with the final result."
+  },
+  "questions": [
+    {
+      "id": "upsc-cse-prelims-001",
+      "section": "gs1",
+      "topic": "Indian Polity & Governance",
+      "difficulty": "medium",
+      "question": "Consider the following statements regarding the Finance Commission of India:\n1. It is constituted by the President under Article 280 of the Constitution every fifth year or earlier.\n2. Its recommendations on the distribution of tax proceeds are binding on the Union Government.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 0,
+      "explanation": "Article 280 provides for a Finance Commission constituted by the President every five years or earlier. Its recommendations are advisory; the Union Government is not constitutionally bound to accept them. Hence only 1 is correct.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-002",
+      "section": "gs1",
+      "topic": "Indian Polity & Governance",
+      "difficulty": "medium",
+      "question": "Which of the following are listed as Fundamental Duties under Article 51A of the Constitution of India?\n1. To safeguard public property and to abjure violence\n2. To vote in elections to Parliament and State Legislatures\n3. To protect and improve the natural environment\n4. To pay taxes\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 and 3 only",
+        "2 and 4 only",
+        "1, 2 and 3 only",
+        "1, 3 and 4 only"
+      ],
+      "answer": 0,
+      "explanation": "Safeguarding public property (51A(i)) and protecting the natural environment (51A(g)) are Fundamental Duties. Voting and paying taxes are not listed in Article 51A.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-003",
+      "section": "gs1",
+      "topic": "Indian Polity & Governance",
+      "difficulty": "medium",
+      "question": "With reference to Money Bills, consider the following statements:\n1. The Rajya Sabha can withhold a Money Bill for a maximum period of fourteen days.\n2. The decision of the Speaker of the Lok Sabha on whether a Bill is a Money Bill is final.\n3. A Money Bill can be introduced in the Rajya Sabha with the prior recommendation of the President.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 0,
+      "explanation": "Article 109 limits the Rajya Sabha to 14 days; Article 110(3) makes the Speaker's decision final. A Money Bill can be introduced only in the Lok Sabha (Article 109(1)), so statement 3 is wrong.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-004",
+      "section": "gs1",
+      "topic": "Indian Polity & Governance",
+      "difficulty": "medium",
+      "question": "Consider the following statements:\n1. The 'basic structure' doctrine was first propounded by the Supreme Court in the Kesavananda Bharati case.\n2. In the Minerva Mills case, the Supreme Court held that the limited nature of Parliament's amending power is itself a basic feature of the Constitution.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 2,
+      "explanation": "Kesavananda Bharati (1973) laid down the basic structure doctrine. Minerva Mills (1980) struck down parts of the 42nd Amendment, holding that limited amending power is a basic feature. Both are correct.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-005",
+      "section": "gs1",
+      "topic": "Indian Polity & Governance",
+      "difficulty": "easy",
+      "question": "Which of the following are constitutional bodies?\n1. Election Commission of India\n2. NITI Aayog\n3. National Human Rights Commission\n4. Comptroller and Auditor General of India\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 and 4 only",
+        "1, 3 and 4 only",
+        "2 and 3 only",
+        "1, 2 and 4 only"
+      ],
+      "answer": 0,
+      "explanation": "The Election Commission (Art. 324) and CAG (Art. 148) are constitutional bodies. NHRC is statutory (Protection of Human Rights Act, 1993) and NITI Aayog was created by an executive resolution (2015).",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-006",
+      "section": "gs1",
+      "topic": "Indian Polity & Governance",
+      "difficulty": "medium",
+      "question": "With reference to the 73rd Constitutional Amendment Act, 1992, consider the following statements:\n1. Not less than one-third of the seats in Panchayats are reserved for women.\n2. Elections to Panchayats are conducted by the State Election Commission.\n3. The Eleventh Schedule lists 29 subjects that may be devolved to Panchayats.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 3,
+      "explanation": "Article 243D reserves not less than one-third seats for women; Article 243K vests elections in the State Election Commission; the Eleventh Schedule contains 29 subjects. All three are correct.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-007",
+      "section": "gs1",
+      "topic": "Indian Polity & Governance",
+      "difficulty": "medium",
+      "question": "Consider the following statements about the pardoning power:\n1. The President can grant pardon to a person sentenced by a court martial, whereas the Governor of a State cannot.\n2. The President exercises the pardoning power under Article 72 on the advice of the Union Council of Ministers.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 2,
+      "explanation": "Article 72(1)(a) covers court-martial sentences, which Article 161 does not give the Governor. The Supreme Court (Maru Ram, 1980; Kehar Singh, 1989) held that the President acts on ministerial advice. Both are correct.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-008",
+      "section": "gs1",
+      "topic": "Indian Polity & Governance",
+      "difficulty": "hard",
+      "question": "With reference to the Tenth Schedule (anti-defection law), consider the following statements:\n1. It was added by the 52nd Constitutional Amendment Act, 1985.\n2. A member is not disqualified if the original party merges with another party and at least two-thirds of the members of the legislature party agree to the merger.\n3. A 'split' involving one-third of the members of the legislature party continues to be a valid ground for exemption from disqualification.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 1,
+      "explanation": "The Tenth Schedule came with the 52nd Amendment (1985). Paragraph 4 protects mergers backed by two-thirds of the legislature party. The one-third 'split' exemption was deleted by the 91st Amendment (2003), so statement 3 is wrong.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-009",
+      "section": "gs1",
+      "topic": "Indian Polity & Governance",
+      "difficulty": "medium",
+      "question": "Consider the following statements regarding the Attorney General of India:\n1. He/she is appointed by the President and must be qualified to be appointed a Judge of the Supreme Court.\n2. He/she has the right to speak in either House of Parliament but not the right to vote.\n3. He/she is a member of the Union Cabinet.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 0,
+      "explanation": "Article 76 sets the appointment and qualification. Article 88 lets the AG speak in Parliament without a vote. The AG is not a member of the Union Cabinet, so statement 3 is wrong.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-010",
+      "section": "gs1",
+      "topic": "Indian Economy",
+      "difficulty": "easy",
+      "question": "If the Reserve Bank of India raises the policy repo rate, which of the following is/are likely?\n1. The cost of borrowing from the RBI for commercial banks increases.\n2. The step is generally aimed at containing inflation.\n3. The Cash Reserve Ratio rises automatically.\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 1,
+      "explanation": "The repo rate is what banks pay to borrow from the RBI, so a hike makes that borrowing dearer and tightens money supply to curb inflation. The CRR is a separate instrument and does not change automatically.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-011",
+      "section": "gs1",
+      "topic": "Indian Economy",
+      "difficulty": "medium",
+      "question": "In Union Budget terminology, Fiscal Deficit is equal to:",
+      "options": [
+        "Total expenditure minus revenue receipts",
+        "Total expenditure minus (revenue receipts + non-debt capital receipts)",
+        "Revenue expenditure minus revenue receipts",
+        "Revenue deficit minus grants for creation of capital assets"
+      ],
+      "answer": 1,
+      "explanation": "Fiscal deficit = total expenditure − (revenue receipts + recoveries of loans + other non-debt receipts such as disinvestment). It measures the government's total borrowing requirement. Option C is the revenue deficit and option D is the effective revenue deficit.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-012",
+      "section": "gs1",
+      "topic": "Indian Economy",
+      "difficulty": "medium",
+      "question": "In India's national accounts, 'Gross Value Added at basic prices + product taxes − product subsidies' gives:",
+      "options": [
+        "Net National Product",
+        "Gross National Product",
+        "Net Domestic Product",
+        "Gross Domestic Product"
+      ],
+      "answer": 3,
+      "explanation": "Since the 2011-12 base revision, GDP at market prices = GVA at basic prices + product taxes − product subsidies.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-013",
+      "section": "gs1",
+      "topic": "Indian Economy",
+      "difficulty": "medium",
+      "question": "With reference to Priority Sector Lending (PSL) norms of the RBI, consider the following statements:\n1. Agriculture is one of the categories under priority sector.\n2. PSL targets apply only to public sector banks.\n3. Micro, Small and Medium Enterprises are included in the priority sector.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 1,
+      "explanation": "Agriculture and MSMEs are PSL categories. PSL targets also apply to private sector banks, foreign banks (with prescribed thresholds), small finance banks and others, so statement 2 is wrong.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-014",
+      "section": "gs1",
+      "topic": "Indian Economy",
+      "difficulty": "medium",
+      "question": "Consider the following statements:\n1. The inflation target under India's flexible inflation targeting framework is set in terms of the Consumer Price Index (Combined).\n2. The Wholesale Price Index is compiled and released by the National Statistics Office.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 0,
+      "explanation": "The target (4% ± 2%) is defined on headline CPI-Combined, which the NSO (MoSPI) compiles. The WPI is released by the Office of the Economic Adviser, DPIIT (Ministry of Commerce & Industry), not the NSO.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-015",
+      "section": "gs1",
+      "topic": "Indian Economy",
+      "difficulty": "medium",
+      "question": "Which of the following are recorded in the current account of India's Balance of Payments?\n1. Remittances sent home by Indians working abroad\n2. Foreign Direct Investment inflows\n3. Exports of software services\n4. External Commercial Borrowings\nSelect the correct answer using the code given below.",
+      "options": [
+        "2 and 4 only",
+        "1, 2 and 3 only",
+        "1 and 3 only",
+        "1, 3 and 4 only"
+      ],
+      "answer": 2,
+      "explanation": "Private transfers (remittances) and services trade are current account items. FDI and ECBs are capital/financial account flows.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-016",
+      "section": "gs1",
+      "topic": "Indian Economy",
+      "difficulty": "medium",
+      "question": "Consider the following statements about the Monetary Policy Committee (MPC):\n1. It is constituted under the Reserve Bank of India Act, 1934 (as amended).\n2. It has six members, three of whom are from the RBI including the Governor.\n3. In case of a tie, the Governor has a second or casting vote.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 3,
+      "explanation": "Section 45ZB of the RBI Act (inserted in 2016) creates a six-member MPC: three RBI members including the Governor, who chairs it, and three external members. The Governor has a casting vote when votes are tied. All three statements are correct.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-017",
+      "section": "gs1",
+      "topic": "Indian Economy",
+      "difficulty": "medium",
+      "question": "With reference to Treasury Bills in India, consider the following statements:\n1. They are issued by the Government of India through the RBI.\n2. They are zero-coupon instruments issued at a discount and redeemed at face value.\n3. They have a maturity of more than one year.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "3 only",
+        "1 and 2 only",
+        "2 and 3 only"
+      ],
+      "answer": 2,
+      "explanation": "T-Bills are short-term money market instruments (91, 182 and 364 days) issued by the Central Government through the RBI at a discount. Their maturity is less than one year, so statement 3 is wrong.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-018",
+      "section": "gs1",
+      "topic": "Indian Economy",
+      "difficulty": "easy",
+      "question": "In government accounts, proceeds from disinvestment of the government's equity in public sector enterprises are classified as:",
+      "options": [
+        "Revenue receipt",
+        "Non-tax revenue",
+        "Debt capital receipt",
+        "Non-debt capital receipt"
+      ],
+      "answer": 3,
+      "explanation": "Disinvestment reduces the government's assets and creates no liability, so it is a non-debt capital receipt.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-019",
+      "section": "gs1",
+      "topic": "Environment & Ecology",
+      "difficulty": "medium",
+      "question": "Consider the following statements:\n1. The Ramsar Convention on Wetlands is a treaty administered under the United Nations Environment Programme (UNEP).\n2. The Montreux Record is a register of Ramsar sites where changes in ecological character have occurred, are occurring or are likely to occur.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 1,
+      "explanation": "The Ramsar Convention (1971) is an intergovernmental treaty that is not part of the UN/UNEP system; it has its own secretariat in Gland, Switzerland. The Montreux Record is correctly described.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-020",
+      "section": "gs1",
+      "topic": "Environment & Ecology",
+      "difficulty": "medium",
+      "question": "Which of the following greenhouse gases are covered under the Kyoto Protocol?\n1. Carbon dioxide\n2. Methane\n3. Nitrous oxide\n4. Sulphur hexafluoride\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 and 2 only",
+        "1, 2 and 3 only",
+        "2, 3 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "answer": 3,
+      "explanation": "The Kyoto basket covers CO₂, CH₄, N₂O, HFCs, PFCs and SF₆; NF₃ was added in the second commitment period. All four listed gases are included.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-021",
+      "section": "gs1",
+      "topic": "Environment & Ecology",
+      "difficulty": "medium",
+      "question": "Which was the first Indian biosphere reserve to be included in UNESCO's World Network of Biosphere Reserves?",
+      "options": [
+        "Sundarbans",
+        "Gulf of Mannar",
+        "Nilgiri",
+        "Nanda Devi"
+      ],
+      "answer": 2,
+      "explanation": "The Nilgiri Biosphere Reserve was the first Indian reserve added to the network, in 2000. Gulf of Mannar and Sundarbans followed in 2001 and Nanda Devi in 2004.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-022",
+      "section": "gs1",
+      "topic": "Environment & Ecology",
+      "difficulty": "easy",
+      "question": "Consider the following statements about eutrophication:\n1. It is commonly caused by excessive inflow of nitrates and phosphates into water bodies.\n2. It leads to an increase in dissolved oxygen in the deeper layers of the water body.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 0,
+      "explanation": "Nutrient enrichment causes algal blooms. When the algae die, decomposers consume oxygen, so dissolved oxygen falls (hypoxia) and does not rise. Only 1 is correct.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-023",
+      "section": "gs1",
+      "topic": "Environment & Ecology",
+      "difficulty": "easy",
+      "question": "Which of the following organisms can fix atmospheric nitrogen?\n1. Rhizobium\n2. Azotobacter\n3. Anabaena\n4. Penicillium\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 and 2 only",
+        "1, 2 and 3 only",
+        "2, 3 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "answer": 1,
+      "explanation": "Rhizobium (symbiotic), Azotobacter (free-living) and the cyanobacterium Anabaena fix nitrogen. Penicillium is a fungus and does not.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-024",
+      "section": "gs1",
+      "topic": "Environment & Ecology",
+      "difficulty": "medium",
+      "question": "With reference to the Kigali Amendment to the Montreal Protocol, consider the following statements:\n1. It aims at phasing down the production and consumption of hydrofluorocarbons (HFCs).\n2. HFCs are potent greenhouse gases with high global warming potential.\n3. HFCs are among the most significant ozone-depleting substances.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 0,
+      "explanation": "The Kigali Amendment (2016) phases down HFCs because of their high global warming potential. HFCs contain no chlorine or bromine and have negligible ozone-depletion potential, so statement 3 is wrong.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-025",
+      "section": "gs1",
+      "topic": "Environment & Ecology",
+      "difficulty": "easy",
+      "question": "Which one of the following ecological pyramids can never be inverted?",
+      "options": [
+        "Pyramid of numbers",
+        "Pyramid of biomass",
+        "Pyramid of energy",
+        "None of the above; all can be inverted"
+      ],
+      "answer": 2,
+      "explanation": "Energy is lost at every trophic transfer (roughly 10% passes on), so the pyramid of energy is always upright. Number and biomass pyramids can be inverted, for example in a tree ecosystem or in aquatic biomass.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-026",
+      "section": "gs1",
+      "topic": "Environment & Ecology",
+      "difficulty": "easy",
+      "question": "Consider the following statements about mangroves:\n1. Mangroves grow in the intertidal zones of tropical and subtropical coastlines.\n2. Pneumatophores help many mangrove species obtain oxygen in waterlogged, anaerobic soils.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 2,
+      "explanation": "Both statements are correct. Mangroves are salt-tolerant intertidal vegetation, and pneumatophores (aerial roots) allow gas exchange in oxygen-poor mud.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-027",
+      "section": "gs1",
+      "topic": "Environment & Ecology",
+      "difficulty": "medium",
+      "question": "Which of the following categories of protected areas are provided for under the Wildlife (Protection) Act, 1972?\n1. National Parks\n2. Conservation Reserves\n3. Community Reserves\n4. Biosphere Reserves\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "1, 2 and 3 only",
+        "1, 2, 3 and 4"
+      ],
+      "answer": 2,
+      "explanation": "Sanctuaries, National Parks, Conservation Reserves and Community Reserves (the last two added in 2003) are notified under the WPA. Biosphere Reserves come under a separate scheme linked to UNESCO's MAB programme, not the WPA.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-028",
+      "section": "gs1",
+      "topic": "Ancient & Medieval History",
+      "difficulty": "medium",
+      "question": "Consider the following pairs (Harappan site : feature):\n1. Lothal : dockyard\n2. Kalibangan : evidence of a ploughed field\n3. Dholavira : located in present-day Punjab\nWhich of the pairs given above are correctly matched?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 0,
+      "explanation": "Lothal (Gujarat) has a dockyard and Kalibangan (Rajasthan) has a pre-Harappan ploughed field. Dholavira is in the Kachchh district of Gujarat, so pair 3 is wrong.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-029",
+      "section": "gs1",
+      "topic": "Ancient & Medieval History",
+      "difficulty": "medium",
+      "question": "Consider the following statements about Buddhist Councils:\n1. The Third Buddhist Council was held at Pataliputra during the reign of Ashoka.\n2. The Fourth Buddhist Council was held in Kashmir during the reign of Kanishka.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 2,
+      "explanation": "Both are correct. The Third Council was held at Pataliputra under Ashoka, presided over by Moggaliputta Tissa. The Fourth was held in Kashmir (Kundalvana) under Kanishka, presided over by Vasumitra.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-030",
+      "section": "gs1",
+      "topic": "Ancient & Medieval History",
+      "difficulty": "easy",
+      "question": "The Telugu work 'Amuktamalyada' was composed by which of the following rulers?",
+      "options": [
+        "Allasani Peddana",
+        "Devaraya II",
+        "Harihara I",
+        "Krishnadevaraya"
+      ],
+      "answer": 3,
+      "explanation": "Krishnadevaraya of the Tuluva dynasty of Vijayanagara wrote Amuktamalyada in Telugu. Allasani Peddana was a poet at his court, not a ruler.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-031",
+      "section": "gs1",
+      "topic": "Ancient & Medieval History",
+      "difficulty": "medium",
+      "question": "Consider the following statements about the Mughal mansabdari system:\n1. 'Zat' indicated the personal rank and salary of a mansabdar, while 'sawar' indicated the number of horsemen he had to maintain.\n2. Mansabs were hereditary and passed automatically to the mansabdar's sons.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 0,
+      "explanation": "Statement 1 is correct. Mansabs were not hereditary: a mansabdar's rank ended with his service or death, and his sons had to earn their own. Only 1 is correct.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-032",
+      "section": "gs1",
+      "topic": "Modern History & Freedom Struggle",
+      "difficulty": "easy",
+      "question": "The resolution declaring 'Purna Swaraj' (complete independence) as the goal of the Indian National Congress was adopted at which session?",
+      "options": [
+        "Calcutta, 1928",
+        "Lahore, 1929",
+        "Karachi, 1931",
+        "Lucknow, 1916"
+      ],
+      "answer": 1,
+      "explanation": "The Lahore session of December 1929, presided over by Jawaharlal Nehru, adopted the Purna Swaraj resolution. 26 January 1930 was then observed as Independence Day.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-033",
+      "section": "gs1",
+      "topic": "Modern History & Freedom Struggle",
+      "difficulty": "medium",
+      "question": "Consider the following statements about the Karachi Session of the Indian National Congress (1931):\n1. It adopted resolutions on Fundamental Rights and the National Economic Programme.\n2. It was presided over by Sardar Vallabhbhai Patel.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 2,
+      "explanation": "Both are correct. Sardar Patel presided over the Karachi session (March 1931), which endorsed the Gandhi–Irwin Pact and adopted the Fundamental Rights and Economic Policy resolution.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-034",
+      "section": "gs1",
+      "topic": "Modern History & Freedom Struggle",
+      "difficulty": "medium",
+      "question": "Consider the following pairs (land revenue system : person associated):\n1. Permanent Settlement : Lord Cornwallis\n2. Ryotwari System : Thomas Munro\n3. Mahalwari System : Holt Mackenzie\nWhich of the pairs given above are correctly matched?",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 3,
+      "explanation": "All three pairs are correct. Cornwallis introduced the Permanent Settlement (1793), Munro (with Alexander Read) the Ryotwari system in Madras, and Holt Mackenzie (Regulation VII, 1822) the Mahalwari system.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-035",
+      "section": "gs1",
+      "topic": "Modern History & Freedom Struggle",
+      "difficulty": "medium",
+      "question": "Consider the following statements about the Government of India Act, 1935:\n1. It introduced dyarchy in the provinces.\n2. It provided for the establishment of a Federal Court.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 1,
+      "explanation": "The 1935 Act abolished provincial dyarchy (brought in by the 1919 Act), introduced provincial autonomy and proposed dyarchy at the Centre. It also set up the Federal Court, which began functioning in 1937. Only 2 is correct.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-036",
+      "section": "gs1",
+      "topic": "Modern History & Freedom Struggle",
+      "difficulty": "medium",
+      "question": "Consider the following statements about the Quit India Movement:\n1. The Quit India resolution was passed at the Bombay session of the All India Congress Committee in August 1942.\n2. Parallel governments were set up in places such as Ballia, Tamluk and Satara during the movement.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 2,
+      "explanation": "Both are correct. The AICC passed the resolution at Gowalia Tank, Bombay, on 8 August 1942, and parallel governments emerged at Ballia (UP), Tamluk (Bengal) and Satara (Maharashtra).",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-037",
+      "section": "gs1",
+      "topic": "Art & Culture",
+      "difficulty": "easy",
+      "question": "Consider the following pairs (classical dance : state of origin):\n1. Sattriya : Assam\n2. Mohiniyattam : Kerala\n3. Kuchipudi : Odisha\nWhich of the pairs given above are correctly matched?",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 1,
+      "explanation": "Sattriya comes from Assam and Mohiniyattam from Kerala. Kuchipudi comes from Andhra Pradesh, while Odisha's classical dance is Odissi.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-038",
+      "section": "gs1",
+      "topic": "Art & Culture",
+      "difficulty": "easy",
+      "question": "'Vimana' (the pyramidal tower over the sanctum) and elaborate 'gopurams' (gateway towers) are characteristic features of which style of temple architecture?",
+      "options": [
+        "Nagara",
+        "Vesara",
+        "Indo-Islamic",
+        "Dravida"
+      ],
+      "answer": 3,
+      "explanation": "Dravida-style temples of South India have a pyramidal vimana and, in later phases, towering gopurams. Nagara temples have a curvilinear shikhara.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-039",
+      "section": "gs1",
+      "topic": "Art & Culture",
+      "difficulty": "medium",
+      "question": "Consider the following statements:\n1. The Ajanta caves are exclusively Buddhist.\n2. The Ellora caves contain Buddhist, Hindu and Jain excavations.\n3. The Kailasa temple at Ellora was excavated under the Rashtrakutas.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 3,
+      "explanation": "All three are correct. Ajanta is entirely Buddhist, Ellora has 34 caves of the three faiths, and the Kailasa temple (Cave 16) is attributed to the Rashtrakuta king Krishna I.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-040",
+      "section": "gs1",
+      "topic": "Art & Culture",
+      "difficulty": "medium",
+      "question": "Consider the following statements about the Bhakti tradition:\n1. The Alvars were devotees of Vishnu, while the Nayanars were devotees of Shiva.\n2. Basavanna is associated with the Virashaiva (Lingayat) movement in Karnataka.\n3. Kabir composed his verses mainly in classical Sanskrit.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 0,
+      "explanation": "Statements 1 and 2 are correct. Kabir composed in a vernacular (Sadhukkadi/Hindavi), not in classical Sanskrit.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-041",
+      "section": "gs1",
+      "topic": "Geography (India & World)",
+      "difficulty": "easy",
+      "question": "Which of the following rivers flow westward and drain into the Arabian Sea?\n1. Narmada\n2. Tapi\n3. Mahanadi\n4. Sabarmati\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 and 2 only",
+        "1, 2 and 4 only",
+        "2, 3 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "answer": 1,
+      "explanation": "The Narmada, Tapi and Sabarmati are west-flowing rivers that drain into the Arabian Sea. The Mahanadi flows east into the Bay of Bengal.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-042",
+      "section": "gs1",
+      "topic": "Geography (India & World)",
+      "difficulty": "medium",
+      "question": "Consider the following statements about Western Disturbances:\n1. They originate over the Mediterranean region.\n2. The winter precipitation they bring is beneficial for rabi crops in north-west India.\n3. They are the main cause of rainfall during the retreating south-west monsoon.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 0,
+      "explanation": "Western Disturbances are extratropical cyclonic systems from the Mediterranean that bring winter rain and snow, which helps wheat and other rabi crops. They are not the cause of retreating-monsoon rainfall.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-043",
+      "section": "gs1",
+      "topic": "Geography (India & World)",
+      "difficulty": "medium",
+      "question": "Consider the following pairs (strait : water bodies it connects):\n1. Strait of Hormuz : Persian Gulf and Gulf of Oman\n2. Bab-el-Mandeb : Red Sea and Gulf of Aden\n3. Strait of Gibraltar : Black Sea and Mediterranean Sea\nHow many of the pairs given above are correctly matched?",
+      "options": [
+        "Only one pair",
+        "Only two pairs",
+        "All three pairs",
+        "None of the pairs"
+      ],
+      "answer": 1,
+      "explanation": "Pairs 1 and 2 are correct. The Strait of Gibraltar connects the Atlantic Ocean with the Mediterranean; the Black Sea joins the Mediterranean through the Bosporus and Dardanelles.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-044",
+      "section": "gs1",
+      "topic": "Geography (India & World)",
+      "difficulty": "easy",
+      "question": "Consider the following statements about black (regur) soils of India:\n1. They are formed largely by the weathering of basaltic lava rocks of the Deccan.\n2. They have a high moisture-retention capacity.\n3. They are rich in nitrogen and phosphorus.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 2 only",
+        "1, 2 and 3"
+      ],
+      "answer": 2,
+      "explanation": "Black soils derive from Deccan basalt, retain moisture well (they swell when wet and crack when dry) and are rich in lime, iron, magnesia and potash. They are generally poor in nitrogen, phosphorus and organic matter.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-045",
+      "section": "gs1",
+      "topic": "Geography (India & World)",
+      "difficulty": "medium",
+      "question": "Which of the following are cold ocean currents?\n1. Benguela Current\n2. Kuroshio Current\n3. Humboldt (Peru) Current\n4. Agulhas Current\nSelect the correct answer using the code given below.",
+      "options": [
+        "2 and 4 only",
+        "1, 3 and 4 only",
+        "1, 2 and 3 only",
+        "1 and 3 only"
+      ],
+      "answer": 3,
+      "explanation": "The Benguela (off south-west Africa) and Humboldt (off Peru–Chile) currents are cold. The Kuroshio and Agulhas currents are warm.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-046",
+      "section": "gs1",
+      "topic": "Geography (India & World)",
+      "difficulty": "easy",
+      "question": "The Tropic of Cancer does NOT pass through which of the following Indian states?",
+      "options": [
+        "Tripura",
+        "Chhattisgarh",
+        "Mizoram",
+        "Odisha"
+      ],
+      "answer": 3,
+      "explanation": "The Tropic of Cancer passes through Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram. Odisha lies entirely south of it.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-047",
+      "section": "gs1",
+      "topic": "Geography (India & World)",
+      "difficulty": "medium",
+      "question": "Consider the following statements about the Earth's atmosphere:\n1. The thickness of the troposphere is greatest over the equator.\n2. Most of the atmospheric ozone is found in the stratosphere.\n3. Temperature normally increases with height in the troposphere.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1 and 2 only"
+      ],
+      "answer": 3,
+      "explanation": "The troposphere is about 18 km thick at the equator and about 8 km at the poles, and roughly 90% of ozone lies in the stratosphere. Temperature normally falls with height in the troposphere (about 6.5 °C per km), so statement 3 is wrong.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-048",
+      "section": "gs1",
+      "topic": "Geography (India & World)",
+      "difficulty": "easy",
+      "question": "Which one of the following pairs (mountain pass : location) is NOT correctly matched?",
+      "options": [
+        "Shipki La : Himachal Pradesh",
+        "Nathu La : Sikkim",
+        "Bomdi La : Arunachal Pradesh",
+        "Zoji La : Arunachal Pradesh"
+      ],
+      "answer": 3,
+      "explanation": "Zoji La links the Kashmir Valley with Ladakh on the Srinagar–Leh route and is not in Arunachal Pradesh. The other three pairs are correct.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-049",
+      "section": "gs1",
+      "topic": "Science & Technology",
+      "difficulty": "easy",
+      "question": "Consider the following statements about mRNA vaccines:\n1. They deliver messenger RNA that instructs the body's cells to make an antigenic protein, which triggers an immune response.\n2. They work by permanently altering the DNA of the recipient's cells.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 0,
+      "explanation": "mRNA stays in the cytoplasm, is translated into the antigen and then degrades. It does not enter the nucleus or alter the recipient's DNA.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-050",
+      "section": "gs1",
+      "topic": "Science & Technology",
+      "difficulty": "medium",
+      "question": "Consider the following statements:\n1. A geostationary satellite orbits in the plane of the Earth's equator.\n2. Geostationary orbit lies at an altitude of about 36,000 km above the equator.\n3. Sun-synchronous polar orbits used for remote sensing lie at higher altitudes than the geostationary orbit.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 1,
+      "explanation": "A geostationary satellite sits about 35,786 km above the equator with a 24-hour period. Sun-synchronous orbits are low Earth orbits of roughly 600–900 km, so statement 3 is wrong.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-051",
+      "section": "gs1",
+      "topic": "Science & Technology",
+      "difficulty": "medium",
+      "question": "Consider the following statements about CRISPR-Cas9:\n1. It is derived from a naturally occurring adaptive immune mechanism in bacteria.\n2. Cas9 is an enzyme that cuts DNA at a specific location guided by a guide RNA.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 2,
+      "explanation": "Both are correct. Bacteria use CRISPR sequences to remember viral DNA, and in genome editing a guide RNA directs the Cas9 nuclease to cut DNA at the target site.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-052",
+      "section": "gs1",
+      "topic": "Science & Technology",
+      "difficulty": "easy",
+      "question": "The third stage of India's three-stage nuclear power programme is based on:",
+      "options": [
+        "Pressurised Heavy Water Reactors using natural uranium",
+        "Fast Breeder Reactors using plutonium-based fuel",
+        "Nuclear fusion reactors",
+        "Thorium-based reactors using uranium-233"
+      ],
+      "answer": 3,
+      "explanation": "Stage I uses PHWRs on natural uranium and Stage II uses Fast Breeder Reactors to breed fissile material. Stage III aims to use India's large thorium reserves, with thorium converted to U-233 as the fuel.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-053",
+      "section": "gs1",
+      "topic": "Science & Technology",
+      "difficulty": "easy",
+      "question": "Consider the following statements:\n1. Antibiotics are not effective against viral infections.\n2. Misuse of antibiotics in human medicine and livestock contributes to antimicrobial resistance.\n3. Penicillin was discovered by Louis Pasteur.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 1,
+      "explanation": "Antibiotics act on bacteria, not viruses, and their misuse drives antimicrobial resistance. Alexander Fleming discovered penicillin in 1928, so statement 3 is wrong.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-054",
+      "section": "gs1",
+      "topic": "Science & Technology",
+      "difficulty": "medium",
+      "question": "Consider the following statements about Light Emitting Diodes (LEDs):\n1. LEDs emit light through electroluminescence when electrons and holes recombine at a p-n junction.\n2. Efficient blue LEDs, which made white LED lighting possible, are based on gallium nitride semiconductors.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 2,
+      "explanation": "Both are correct. The 2014 Nobel Prize in Physics recognised the invention of efficient GaN-based blue LEDs.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-055",
+      "section": "gs1",
+      "topic": "Science & Technology",
+      "difficulty": "medium",
+      "question": "With reference to the Sun–Earth Lagrange point L1, consider the following statements:\n1. L1 lies on the line joining the Sun and the Earth, about 1.5 million km from the Earth.\n2. ISRO's Aditya-L1 solar observatory was placed in a halo orbit around L1.\n3. A spacecraft at L1 remains permanently in the Earth's shadow.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 0,
+      "explanation": "L1 lies about 1.5 million km sunward of the Earth, and Aditya-L1 operates in a halo orbit around it. From L1 a spacecraft views the Sun continuously without eclipses, so statement 3 is wrong.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-056",
+      "section": "gs1",
+      "topic": "International Relations & Organisations",
+      "difficulty": "easy",
+      "question": "Consider the following statements about the New Development Bank (NDB):\n1. It was established by the BRICS countries.\n2. Its headquarters is in Shanghai.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 2,
+      "explanation": "Both are correct. The NDB was set up under the 2014 Fortaleza agreement by Brazil, Russia, India, China and South Africa and is headquartered in Shanghai.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-057",
+      "section": "gs1",
+      "topic": "International Relations & Organisations",
+      "difficulty": "medium",
+      "question": "Consider the following statements about the UN Security Council:\n1. Its non-permanent members are elected by the General Assembly for two-year terms.\n2. A retiring non-permanent member is eligible for immediate re-election.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 0,
+      "explanation": "Article 23 of the UN Charter provides two-year terms for the 10 non-permanent members and states that a retiring member is not eligible for immediate re-election.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-058",
+      "section": "gs1",
+      "topic": "International Relations & Organisations",
+      "difficulty": "medium",
+      "question": "Consider the following statements about the G20:\n1. The G20 has a permanent secretariat headquartered in Geneva.\n2. The African Union was admitted as a permanent member of the G20 at the New Delhi Summit in 2023.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 1,
+      "explanation": "The G20 has no permanent secretariat; the rotating presidency, supported by a troika, runs it. The African Union joined as a permanent member at the September 2023 New Delhi Summit.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-059",
+      "section": "gs1",
+      "topic": "International Relations & Organisations",
+      "difficulty": "easy",
+      "question": "India is a member of which of the following groupings?\n1. Shanghai Cooperation Organisation (SCO)\n2. Quadrilateral Security Dialogue (Quad)\n3. North Atlantic Treaty Organization (NATO)\n4. Indian Ocean Rim Association (IORA)\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 and 2 only",
+        "1, 2 and 4 only",
+        "2 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "answer": 1,
+      "explanation": "India is a member of the SCO (since 2017), the Quad and IORA. It is not a member of NATO.",
+      "verified": true
+    },
+    {
+      "id": "upsc-cse-prelims-060",
+      "section": "gs1",
+      "topic": "International Relations & Organisations",
+      "difficulty": "medium",
+      "question": "Which one of the following currencies is NOT part of the basket that determines the value of the IMF's Special Drawing Rights (SDR)?",
+      "options": [
+        "Chinese renminbi",
+        "Japanese yen",
+        "Pound sterling",
+        "Swiss franc"
+      ],
+      "answer": 3,
+      "explanation": "The SDR basket has five currencies: the US dollar, euro, Chinese renminbi, Japanese yen and pound sterling. The Swiss franc is not included.",
+      "verified": true
+    }
+  ]
+}
