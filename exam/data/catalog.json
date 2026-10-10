@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-10T07:33:24.640Z",
+ "generatedAt": "2026-10-10T07:34:49.371Z",
  "exams": [
   {
    "id": "afcat",
@@ -414,6 +414,56 @@
    "stage": "CLAT UG (single offline paper)",
    "durationMinutes": 120,
    "totalQuestions": 120,
+   "questionCount": 60,
+   "hasHindi": false,
+   "quality": {
+    "verified": 100,
+    "relevance": 100
+   }
+  },
+  {
+   "id": "cmat",
+   "name": "CMAT",
+   "fullName": "Common Management Admission Test",
+   "nameHi": "कॉमन मैनेजमेंट एडमिशन टेस्ट (सीमैट)",
+   "category": "management",
+   "conductingBody": "National Testing Agency (NTA), for AICTE-approved institutions",
+   "officialSite": "https://cmat.nta.nic.in",
+   "level": "national",
+   "frequency": "Once a year (January/February)",
+   "approxCandidates": "≈53,500 registered, ≈41,900 appeared (CMAT 2026)",
+   "eligibility": "Bachelor's degree in any discipline; final-year students may apply; no age limit",
+   "notification": {
+    "status": "expected",
+    "summary": "As of 10 Oct 2026 NTA has not released the CMAT 2027 information bulletin. Based on past cycles (CMAT 2026 notified in Oct–Nov 2025, exam 25 Jan 2026, result 17 Feb 2026), the notification is expected around Oct–Nov 2026 with the exam in late January 2027. Checked via web search on 2026-10-10; all 2027 dates below are tentative.",
+    "importantDates": [
+     {
+      "event": "CMAT 2027 notification & registration",
+      "date": "Oct–Nov 2026 (expected)"
+     },
+     {
+      "event": "Admit card",
+      "date": "mid/late Jan 2027 (expected)"
+     },
+     {
+      "event": "CMAT 2027 exam",
+      "date": "late Jan 2027 (expected; not yet announced)"
+     },
+     {
+      "event": "Result",
+      "date": "Feb 2027 (expected)"
+     },
+     {
+      "event": "Previous cycle (CMAT 2026) exam / result",
+      "date": "25 Jan 2026 / 17 Feb 2026"
+     }
+    ],
+    "source": "https://cmat.nta.nic.in",
+    "checkedOn": "2026-10-10"
+   },
+   "stage": "CMAT (single computer-based test)",
+   "durationMinutes": 180,
+   "totalQuestions": 100,
    "questionCount": 60,
    "hasHindi": false,
    "quality": {
