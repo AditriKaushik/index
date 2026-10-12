@@ -96,7 +96,7 @@ async function viewHome(params) {
           <div class="row"><h3>${esc(e.name)}</h3>${statusBadge(e.notification)}</div>
           <div class="sub">${esc(hi() && e.nameHi ? e.nameHi : e.fullName)}</div>
           <div class="meta">${esc(e.conductingBody)} · ${esc(e.stage || '')}</div>
-          <div class="meta">${e.questionCount} ${t('practice questions', 'अभ्यास प्रश्न')} · ${t('relevance', 'प्रासंगिकता')} ${e.quality.relevance}%${e.hasHindi ? ' · हिंदी' : ''}</div>
+          <div class="meta">${e.questionCount} ${t('practice questions', 'अभ्यास प्रश्न')} · ${t('PYQ match', 'PYQ मिलान')} ${e.quality.pyqRelevance}%${e.hasHindi ? ' · हिंदी' : ''}</div>
         </a>`).join('') || `<p>${t('No exam found.', 'कोई परीक्षा नहीं मिली।')}</p>`}
     </div>`, 'home');
   document.getElementById('search').onsubmit = ev => { ev.preventDefault(); location.hash = `#/?q=${encodeURIComponent(new FormData(ev.target).get('q'))}${c ? '&c=' + c : ''}`; };
@@ -135,6 +135,9 @@ async function viewExam(id) {
   const verified = n ? Math.round(100 * e.questions.filter(q => q.verified).length / n) : 0;
   const keys = new Set(e.trendAnalysis.topics.map(x => `${x.section}|${x.topic}`));
   const relevance = n ? Math.round(100 * e.questions.filter(q => keys.has(`${q.section}|${q.topic}`)).length / n) : 0;
+  const pyq = n ? Math.round(e.questions.reduce((s, q) => s + (q.relevance?.score || 0), 0) / n) : 0;
+  const aiN = e.questions.filter(q => q.source === 'ai').length;
+  const arch = e.pyqBlueprint?.archetypes || [];
 
   shell(`
     <a href="#/" class="back">← ${t('All exams', 'सभी परीक्षाएँ')}</a>
@@ -167,7 +170,7 @@ async function viewExam(id) {
           <button class="btn" type="submit">${t('Start test', 'टेस्ट शुरू करें')}</button>
         </div>
       </form>
-      <p class="quality">✅ ${n} ${t('questions', 'प्रश्न')} · ${verified}% ${t('proof-read & verified', 'प्रूफ़-रीड व सत्यापित')} · ${relevance}% ${t('syllabus relevance', 'सिलेबस प्रासंगिकता')}</p>
+      <p class="quality">✅ ${n} ${t('questions', 'प्रश्न')} · ${verified}% ${t('proof-read & verified', 'प्रूफ़-रीड व सत्यापित')} · ${relevance}% ${t('syllabus relevance', 'सिलेबस प्रासंगिकता')} · ${t('PYQ match', 'PYQ मिलान')} ${pyq}% ${t('(every question ≥ 90%)', '(हर प्रश्न ≥ 90%)')}${aiN ? ` · ${aiN} ${t('AI-generated', 'AI-निर्मित')}` : ''}</p>
     </div>
 
     ${atts.length ? `<div class="card"><h2>${t('Your topic mastery', 'आपकी टॉपिक पकड़')}</h2>${masteryBars(mastery.slice(0, 12))}
@@ -191,6 +194,11 @@ async function viewExam(id) {
       ${secs.map(s => `<h3>${esc(s.name)}</h3><div class="bars">${topicsBySec(s).slice().sort((a, b) => b.weightage - a.weightage).map(x => `
         <div class="bar"><span class="lbl">${esc(x.topic)} <i class="trend ${esc(x.trend)}">${x.trend === 'rising' ? '▲' : x.trend === 'falling' ? '▼' : '■'}</i></span><span class="track"><span style="width:${Math.min(100, x.weightage)}%"></span></span><span class="val">${x.weightage}%</span></div>`).join('')}</div>`).join('')}
     </div>
+
+    ${arch.length ? `<div class="card"><h2>${t('Question patterns from previous papers', 'पिछले पेपरों के प्रश्न-पैटर्न')} (${esc((e.pyqBlueprint.yearsCovered || []).join(', '))})</h2>
+      <p class="muted">${t(`Every practice question is modelled on one of these ${arch.length} patterns seen in recent papers and scored ≥ 90% for PYQ match by an independent review.`, `हर अभ्यास प्रश्न हाल के पेपरों के इन ${arch.length} पैटर्न में से किसी एक पर आधारित है और स्वतंत्र समीक्षा में PYQ मिलान ≥ 90% पाया गया है।`)}</p>
+      ${secs.map(s => { const list = arch.filter(a => a.section === s.id); return list.length ? `<details><summary>${esc(s.name)} (${list.length})</summary><ul class="arch">${list.map(a => `<li><b>${esc(a.topic)}</b> — ${esc(a.pattern)} <span class="muted">(${esc((a.years || []).join(', '))}${a.frequency ? ' · ' + esc(a.frequency) : ''})</span></li>`).join('')}</ul></details>` : ''; }).join('')}
+    </div>` : ''}
 
     <div class="card"><h2>${t('Previous papers & official resources', 'पिछले पेपर व आधिकारिक संसाधन')}</h2>
       <p>${e.resources.pyqAvailable ? t('Previous-year papers are officially available.', 'पिछले वर्ष के पेपर आधिकारिक रूप से उपलब्ध हैं।') : t('Official previous-year papers are not published.', 'आधिकारिक पिछले पेपर प्रकाशित नहीं होते।')}</p>
@@ -338,6 +346,7 @@ async function viewResult(id) {
   const tips = recommendations(exam, r, mastery);
   const secName = sid => exam.pattern.sections.find(s => s.id === sid)?.name || sid;
   const byId = new Map(exam.questions.map(q => [q.id, q]));
+  const archById = new Map((exam.pyqBlueprint?.archetypes || []).map(a => [a.id, a]));
   const prev = all.filter(x => x.finishedAt < a.finishedAt && x.kind === a.kind).at(-1);
   const delta = prev ? Math.round((r.score / (r.maxScore || 1) - prev.result.score / (prev.result.maxScore || 1)) * 100) : null;
   const weakTopics = r.topics.map(x => ({ ...x, acc: x.total ? x.correct / x.total : 0 })).sort((p, q) => p.acc - q.acc);
@@ -379,7 +388,7 @@ async function viewResult(id) {
         <li class="${it.correct ? 'right' : it.answer == null ? 'skip' : 'wrong'}">
           <div class="qtext">${esc(q.question).replace(/\n/g, '<br>')}</div>
           <ul>${q.options.map((o, i) => `<li class="${i === q.answer ? 'ans' : ''} ${i === it.answer && !it.correct ? 'mine' : ''}"><b>${LETTERS[i]}</b> ${esc(o)}</li>`).join('')}</ul>
-          <div class="expl"><b>${it.correct ? '✔ ' + t('Correct', 'सही') : it.answer == null ? '— ' + t('Not attempted', 'प्रयास नहीं') : '✘ ' + t('Wrong', 'ग़लत')}</b> · ${esc(q.topic)} · ${q.difficulty} · ${Math.round(it.timeSec)}s<br>${esc(q.explanation)}</div>
+          <div class="expl"><b>${it.correct ? '✔ ' + t('Correct', 'सही') : it.answer == null ? '— ' + t('Not attempted', 'प्रयास नहीं') : '✘ ' + t('Wrong', 'ग़लत')}</b> · ${esc(q.topic)} · ${q.difficulty} · ${Math.round(it.timeSec)}s${q.relevance ? ` · <span class="pyq" title="${esc(q.relevance.note || '')}">${t('PYQ match', 'PYQ मिलान')} ${q.relevance.score}%</span>` : ''}${q.source === 'ai' ? ` · <span class="aitag">AI</span>` : ''}<br>${esc(q.explanation)}${archById.get(q.archetype) ? `<br><i>${t('PYQ pattern', 'PYQ पैटर्न')}: ${esc(archById.get(q.archetype).pattern)} (${esc(archById.get(q.archetype).years.join(', '))})</i>` : ''}</div>
         </li>`; }).join('')}</ol>
     </div>`);
 

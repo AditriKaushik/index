@@ -101,7 +101,13 @@ const avgSecondsPerQuestion = exam => (exam.pattern.durationMinutes * 60) / exam
 //   full   – mirrors the real pattern (scaled down evenly if the bank is small)
 //   custom – {sections?, topics?, count, difficulty}
 //   weak   – {weakTopics: [{section, topic, score}], count}
+// Only questions an independent review scored ≥ MIN_RELEVANCE against the
+// exam's previous-year papers (and re-solved) may be served. See data/RELEVANCE.md.
+export const MIN_RELEVANCE = 90;
+export const servable = q => q.verified === true && (q.relevance?.score ?? 0) >= MIN_RELEVANCE;
+
 export function buildTest(exam, kind, opts = {}, seed = Date.now()) {
+  exam = { ...exam, questions: exam.questions.filter(servable) };
   const rng = makeRng(seed);
   const seen = new Set(opts.seenIds || []);
   let picked = [];

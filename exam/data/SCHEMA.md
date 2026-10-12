@@ -42,6 +42,11 @@ Questions must be ORIGINAL, written in the style/difficulty/topic mix of the las
       { "section": "reasoning", "topic": "Coding-Decoding", "weightage": 8, "trend": "stable", "difficulty": "easy" }
     ]
   },
+  "pyqBlueprint": {                     // question types seen in the last 3 years' papers — see RELEVANCE.md
+    "yearsCovered": [2024, 2025, 2026],
+    "method": "How the patterns were compiled (official papers/answer keys, memory-based analyses …)",
+    "archetypes": [ { "id": "ssc-cgl-R07", "section": "reasoning", "topic": "Coding-Decoding", "pattern": "…", "years": [2024, 2025], "frequency": "1–2 per shift", "difficulty": "easy" } ]
+  },
   "resources": {
     "pyqAvailable": true,
     "officialPYQ": "https://… or null",
@@ -58,7 +63,10 @@ Questions must be ORIGINAL, written in the style/difficulty/topic mix of the las
       "options": ["A", "B", "C", "D"],  // exactly 4 unless the exam really uses another count
       "answer": 2,                      // 0-based index of the correct option
       "explanation": "Short worked solution showing why the answer is right.",
-      "verified": true                  // you re-solved it independently and got the same answer
+      "source": "ai",                   // "ai" (generated) or "curated" (first research round)
+      "archetype": "ssc-cgl-R07",       // a pyqBlueprint.archetypes[].id of the same section/topic
+      "relevance": { "score": 94, "by": "independent-review", "note": "why" },  // must be ≥ 90 (RELEVANCE.md)
+      "verified": true                  // an independent reviewer re-solved it and got the same answer
     }
   ]
 }

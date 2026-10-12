@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { buildTest, scoreAttempt, topicMastery, recommendations, apportion, sectionMarking } from '../js/engine.js';
+import { servable, buildTest, scoreAttempt, topicMastery, recommendations, apportion, sectionMarking } from '../js/engine.js';
 import { accessStatus, recordTestStart, grantSupportPass, canRequestSupport, PLAN } from '../js/access.js';
 
 // small synthetic exam: 2 sections, 3 topics, 40 questions
@@ -16,7 +16,7 @@ const exam = {
 const diffs = ['easy', 'medium', 'medium', 'hard'];
 for (let i = 0; i < 40; i++) {
   const sec = i < 20 ? 'a' : 'b';
-  exam.questions.push({ id: 'q' + i, section: sec, topic: sec === 'b' ? 'z' : i % 3 ? 'x' : 'y', difficulty: diffs[i % 4], options: ['1', '2', '3', '4'], answer: i % 4 });
+  exam.questions.push({ id: 'q' + i, section: sec, topic: sec === 'b' ? 'z' : i % 3 ? 'x' : 'y', difficulty: diffs[i % 4], options: ['1', '2', '3', '4'], answer: i % 4, verified: true, relevance: { score: 95 } });
 }
 
 test('apportion keeps the total and the proportions', () => {
@@ -90,4 +90,15 @@ test('a section can switch off negative marking', () => {
   const e = { ...exam, pattern: { ...exam.pattern, sections: [{ ...exam.pattern.sections[0], wrong: 0 }, exam.pattern.sections[1]] } };
   assert.equal(sectionMarking(e, 'a').wrong, 0);
   assert.equal(sectionMarking(e, 'b').wrong, -1.5);
+});
+
+test('questions below 90 PYQ relevance or unverified are never served', () => {
+  const e = { ...exam, questions: exam.questions.map((q, i) => (i % 2 ? { ...q, relevance: { score: 85 } } : i % 4 === 0 ? { ...q, verified: false } : q)) };
+  const ok = new Set(e.questions.filter(servable).map(q => q.id));
+  assert.equal(ok.size, 10);
+  for (const kind of ['full', 'custom', 'weak']) {
+    const t = buildTest(e, kind, { count: 40 }, 11);
+    assert.ok(t.questionIds.length > 0);
+    assert.ok(t.questionIds.every(id => ok.has(id)), kind);
+  }
 });
