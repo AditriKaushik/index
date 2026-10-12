@@ -10,10 +10,16 @@
 4. **Practise weak topics** — one tap builds a test from the topics you are weakest in. You can also build your own test (sections, topics, difficulty, number of questions).
 5. **Fair pricing** — first day unlimited and free; afterwards 1 free test every day forever; cheap day/week/month passes; and a free "support pass" for anyone who can't pay. Results and analysis are always free.
 
-## Quality ("proof-read, 90%+ relevance")
+## Quality: AI questions with PYQ relevance of 90 or more
 
-Every question is original (modelled on, never copied from, previous papers), tagged to a syllabus topic, and re-solved independently before it is marked `verified`.
-`node exam/data/validate.mjs` refuses any exam whose bank is below **90% syllabus relevance** or **100% verified**, has duplicate options, a bad answer key, etc. CI runs it on every PR.
+Every question a student sees has passed this pipeline (details in `data/RELEVANCE.md`):
+
+1. **PYQ blueprint.** For each exam, the question *patterns* that actually appeared in the last 3 years' papers (concept, format, typical trap, years seen) are listed in `pyqBlueprint`. They are described in our own words; no real question is copied.
+2. **AI writing.** Claude writes new questions, each one a fresh instance of a single blueprint pattern, in the real format: passage/DI sets, multi-correct, numerical (TITA), match-the-list, and SVG figures for non-verbal reasoning.
+3. **Blind independent review.** A separate reviewer gets a sheet *without the answer key* (`tools/review-sheet.mjs`), solves every question (with scripts for maths and brute force for puzzles), checks recent facts on the web, and scores PYQ relevance out of 100.
+4. **Gate.** `tools/apply-review.mjs` keeps a question only if the reviewer's answer matches the key, nothing is ambiguous, and the score is **90 or more**. The validator and the test engine both refuse anything else, so a student can never be served an unreviewed or low-scoring question.
+
+Current bank: 39 exams, 4,350 questions (2,858 AI-written). Every exam's average PYQ relevance is 91 or more, and no question scores below 90.
 
 ## Folder layout
 
@@ -38,12 +44,12 @@ exam/
 | Run locally | `cd exam && python3 -m http.server 8000` then open http://localhost:8000 |
 | Check all data | `node exam/data/validate.mjs` |
 | Rebuild the exam list after editing data | `node exam/data/build-catalog.mjs` |
-| Add questions with AI | `cd exam/tools && npm install && ANTHROPIC_API_KEY=… node grow-bank.mjs ssc-cgl 40` |
+| Add questions with AI (writer + blind reviewer, keeps only ≥ 90) | Actions tab → "MockPariksha – add AI questions" (needs the `ANTHROPIC_API_KEY` secret), or locally `cd exam/tools && npm install && ANTHROPIC_API_KEY=… node grow-bank.mjs ssc-cgl 40` |
 | Change prices / free tests | edit `PLAN` in `exam/js/access.js` |
 
 ## Not done yet (needs a decision or an account from the owner)
 
 - **Payments:** the pass buttons show "coming soon". Real UPI payments need a payment-gateway account (e.g. Razorpay/Cashfree) **and** a small server that verifies payments and issues passes — today the free/pass rules run on the user's phone, so they are an honour system.
 - **Accounts & cross-device progress:** progress is saved on the device only. Login (phone OTP) needs the same server.
-- **Bigger question banks:** each exam starts with ~60 verified questions, so full mocks are scaled down while keeping the real section ratio. `tools/grow-bank.mjs` can grow banks to full-paper size and beyond.
+- **Bigger question banks:** most exams have 100–175 approved questions, so a full mock may be shorter than the real paper (the section ratio is kept). The Actions workflow can keep growing the banks once an API key is added.
 - **Notifications auto-refresh:** status was researched once (date in each file). A scheduled job can re-check official sites regularly.

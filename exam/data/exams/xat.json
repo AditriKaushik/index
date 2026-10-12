@@ -1155,7 +1155,12 @@
       "explanation": "The SOP permits a retest to replace a failure only after an investigation finds a laboratory error, which has not happened, so signing (option 1) would breach the approved procedure. Option 2 sends the same doubtful batch to other patients. Going to the regulator (option 4) is premature when an internal escalation route exists and has not been tried. Option 3 follows the procedure, escalates through the right channel and still tries to address the deadline.",
       "source": "ai",
       "archetype": "xat-D01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Pharma QA release vs SOP: escalate via SOP to corporate QA - XAT 2024-25 ethics caselet shape; 4 options vs XAT's 5"
+      }
     },
     {
       "id": "xat-122",
@@ -1174,7 +1179,12 @@
       "explanation": "Only an assignable laboratory error, documented by the investigation, allows the retest to replace the failure under the SOP. A wrongly calibrated instrument is exactly such an error. A comfortable retest (option 2), other suppliers' practices (option 3) and a personal undertaking (option 4) leave the SOP condition unmet.",
       "source": "ai",
       "archetype": "xat-D01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Which fact justifies release: assignable lab error per SOP - good XAT 'most justify' twist"
+      }
     },
     {
       "id": "xat-123",
@@ -1193,7 +1203,12 @@
       "explanation": "Her signature would certify a release that breaches the approved SOP, so simple compliance (option 1) is not acceptable. Going to the media (option 3) skips the remaining internal remedies, and resigning silently (option 4) leaves the risk to patients unaddressed. Putting her dissent on record and using the formal ethics channel is the proportionate next step.",
       "source": "ai",
       "archetype": "xat-D01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Superior overrides: record objection then whistle-blower channel; distractors (media, quit) are XAT-typical"
+      }
     },
     {
       "id": "xat-124",
@@ -1212,26 +1227,12 @@
       "explanation": "Delays arise in the kitchen (riders wait 15–20 minutes at the counter), and the constraint is burner time at dinner. Moving preparation to idle afternoon hours relieves that constraint. A discount (option 1) adds demand at the bottleneck; more riders (option 2) do not speed up cooking; a third brand (option 3) adds load to the same kitchen.",
       "source": "ai",
       "archetype": "xat-D04",
-      "verified": false
-    },
-    {
-      "id": "xat-125",
-      "section": "dm",
-      "topic": "Business & Managerial Decisions",
-      "difficulty": "hard",
-      "passage": "xat-P02",
-      "question": "The delivery app offers Rasoi Rush \"priority listing\" in search results for an extra 5 per cent commission. The listing can be bought for chosen time slots. What should Kavya do?",
-      "options": [
-        "Buy it for the dinner slot, since that is when ratings and visibility have suffered most.",
-        "Buy it for the lunch slot, where the kitchen has spare capacity to serve additional orders quickly.",
-        "Buy it for all slots, since the fall in search position affects the whole day.",
-        "Decline it altogether until the dinner-time delays have been fixed."
-      ],
-      "answer": 1,
-      "explanation": "More dinner orders would lengthen delays further and push ratings lower, so options 1 and 3 worsen the problem. Declining outright (option 4) gives up a cheap way to use idle capacity. Since the listing can be bought slot-wise, using it at lunch — when the kitchen runs at 40 per cent — adds orders that can be delivered quickly and helps rebuild ratings.",
-      "source": "ai",
-      "archetype": "xat-D04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Cloud-kitchen capacity: pre-prep in idle hours targets burner constraint - XAT operations DM"
+      }
     },
     {
       "id": "xat-126",
@@ -1250,7 +1251,12 @@
       "explanation": "A second kitchen is worth leasing only if the extra peak-hour orders it would serve earn more than its cost. The lost or delayed orders and their contribution measure exactly that benefit against the ₹1.5 lakh rent. The other items describe the market around the site but not whether the added capacity would pay for itself.",
       "source": "ai",
       "archetype": "xat-D04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Information most useful for second-kitchen decision = lost orders x contribution; XAT info-needed item"
+      }
     },
     {
       "id": "xat-127",
@@ -1269,7 +1275,12 @@
       "explanation": "The problem is a relationship and role-clarity issue with a valuable colleague, six weeks before a release that needs his expertise. A private conversation that recognises his standing and settles who does what addresses it directly without public confrontation (option 2), without appearing to need the manager's protection at the first step (option 1), and without sidelining the team's best architect (option 4).",
       "source": "ai",
       "archetype": "xat-D07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Promoted over senior peer; private conversation first - matches XAT HR caselets, answer fairly obvious"
+      }
     },
     {
       "id": "xat-128",
@@ -1288,7 +1299,12 @@
       "explanation": "Nandini cannot undo the promotion or speak for the previous manager, so the career grievance belongs with Ritesh. She can, however, give Prakash real ownership where his strength lies, which also serves the release. Dismissing him (option 1) is needlessly cold; an informal shared lead (option 2) recreates the confusion; a conditional promise (option 3) is beyond her authority and looks like a bargain.",
       "source": "ai",
       "archetype": "xat-D07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Response to old promise: route career issue to Ritesh and give architectural ownership; reasonable XAT nuance"
+      }
     },
     {
       "id": "xat-129",
@@ -1307,7 +1323,12 @@
       "explanation": "A private agreement has already been tried and broken, and the breach now touches the client, whose complaint about communication led to her appointment. Recording it and bringing in the manager is the appropriate escalation, while still speaking to Prakash first. Withdrawing the design (option 1) may embarrass the team needlessly before it is even reviewed; ignoring it (option 2) invites repetition; a unilateral ban (option 4) is a disproportionate jump.",
       "source": "ai",
       "archetype": "xat-D07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Repeat breach: private talk + record + inform manager; graded escalation as XAT expects"
+      }
     },
     {
       "id": "xat-130",
@@ -1326,7 +1347,12 @@
       "explanation": "Rejecting the grant (option 1) would cut testing from twelve locations to five, weakening the very monitoring that holds polluters to account. Quiet acceptance (option 3) is what would really damage credibility if discovered. An apology condition (option 4) does nothing to protect independence. Transparent acceptance with firewalls around testing and publication preserves both the work and its credibility.",
       "source": "ai",
       "archetype": "xat-D02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Tainted CSR funding accepted with disclosure and independence conditions - classic XAT conflict-of-interest dilemma"
+      }
     },
     {
       "id": "xat-131",
@@ -1345,7 +1371,12 @@
       "explanation": "A conflict of interest is normally managed by disclosure and recusal: the board keeps a member whose interest bears on only one decision, and the decision is untainted. Forcing a resignation (option 3) is excessive; full participation (option 2) taints the decision; postponing (option 4) may cost the grant for no gain.",
       "source": "ai",
       "archetype": "xat-D02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Board member conflict: declare and recuse - correct but straightforward"
+      }
     },
     {
       "id": "xat-132",
@@ -1364,7 +1395,12 @@
       "explanation": "The grant was accepted on the promise that the funder would have no say over publication, and the reports are relied on by the media and the regulator. Treating the funder like any other polluter — with advance notice — keeps that promise. Delaying publication for the funder (option 1) or omitting it (option 3) is precisely the favour that would destroy credibility. Returning the money first (option 2) is unnecessary when the firewall has worked and would cut testing.",
       "source": "ai",
       "archetype": "xat-D02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Publish violation by funder as for any polluter; tests independence clause; good follow-up"
+      }
     },
     {
       "id": "xat-133",
@@ -1383,7 +1419,12 @@
       "explanation": "Spare capacity is 2,600 − 2,000 = 600 kg, so the supermarket can get only 600 kg: 600 × (950 − 700) − 50,000 = ₹1,00,000 (supplying 800 kg would give the tempting ₹1,50,000, but capacity does not allow it, and diverting retail coffee earning ₹500/kg to earn ₹250/kg makes no sense). The café adds 6,00,000 − 2,40,000 − 300 × 700 = ₹1,50,000 (forgetting the coffee cost gives ₹3,60,000). So the café is better, by ₹1,50,000.",
       "source": "ai",
       "archetype": "xat-D06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Contribution vs capacity: café ₹1.5L beats supermarket ₹1L (capacity-capped at 600 kg); XAT numeric DM"
+      }
     },
     {
       "id": "xat-134",
@@ -1402,7 +1443,12 @@
       "explanation": "The café uses 300 kg, leaving 600 − 300 = 300 kg of spare capacity for the supermarket. Café: +₹1,50,000. Supermarket: 300 × 250 − 50,000 = +₹25,000. Total ₹1,75,000. Adding the stand-alone figures (1,50,000 + 1,00,000) ignores the shared capacity.",
       "source": "ai",
       "archetype": "xat-D06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Both proposals within 600 kg spare: 1.5L + 25k = 1.75L; verified"
+      }
     },
     {
       "id": "xat-135",
@@ -1421,7 +1467,12 @@
       "explanation": "Night shift + 800 kg at ₹1,000: 800 × 300 − 50,000 − 1,20,000 = ₹70,000. Without the shift, 300 kg at ₹950: ₹25,000. Night shift + 600 kg at ₹950 (option 4): 600 × 250 − 50,000 − 1,20,000 = −₹20,000. Dropping the deal gives ₹0. The night shift with 800 kg is best (capacity 3,100 = 2,000 + 300 + 800).",
       "source": "ai",
       "archetype": "xat-D06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Night shift + 800 kg @1000 gives 70k vs 25k / -20k; verified, XAT-style what-if"
+      }
     },
     {
       "id": "xat-136",
@@ -1440,26 +1491,12 @@
       "explanation": "Rule 2 makes an exception \"on medical grounds\", and rule 1 gives students with documented medical needs first claim on single rooms. With only three such students and ten rooms, Ankit gets a single room; his CGPA rank and the disciplinary bar do not apply to a medical allotment.",
       "source": "ai",
       "archetype": "xat-D09",
-      "verified": false
-    },
-    {
-      "id": "xat-137",
-      "section": "dm",
-      "topic": "Analytical Decision Making (Rule-based Sets)",
-      "difficulty": "medium",
-      "passage": "xat-P06",
-      "question": "Bela, ranked 2nd in first-year CGPA, holds a single room. She goes on a ten-week exchange term. When she returns, every single room is occupied. What happens?",
-      "options": [
-        "She keeps her single room during the exchange, since she will return to the school.",
-        "She is placed in a double room.",
-        "She gets her original single room back, since she was allotted it on merit.",
-        "She is given the next single room that falls vacant, ahead of students ranked below her."
-      ],
-      "answer": 1,
-      "explanation": "Rule 3: an exchange of more than eight weeks means giving up the single room, and on return the student goes to a double room unless a single room is vacant at that time. None is vacant, and the rules give her no priority claim on a future vacancy.",
-      "source": "ai",
-      "archetype": "xat-D09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Rule set: medical-need exception overrides disciplinary bar; XAT rule-application set"
+      }
     },
     {
       "id": "xat-138",
@@ -1478,7 +1515,12 @@
       "explanation": "Esha is ineligible under rule 4 because her spouse will stay less than four months. Of the eligible applicants, Farhan (25 May) applied before Dev (1 June), and allotment is by date of application, so Farhan gets the quarter. The length of the spouse's stay above four months does not create priority.",
       "source": "ai",
       "archetype": "xat-D09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Family quarters: Esha fails 4-month spouse condition so Farhan by date; good clause interplay"
+      }
     },
     {
       "id": "xat-139",
@@ -1497,45 +1539,12 @@
       "explanation": "The merged store will be judged on online-order fulfilment, where Harish has the stronger record; Gauri's strength in sales and staff relations does not match this mandate as closely. Letting Gauri go (option 2) wastes a valued manager when a vacancy is two months away, and an external interview process (option 3) only delays a decision the facts already support.",
       "source": "ai",
       "archetype": "xat-D08",
-      "verified": false
-    },
-    {
-      "id": "xat-140",
-      "section": "dm",
-      "topic": "Interpersonal & HR Situations",
-      "difficulty": "hard",
-      "passage": "xat-P07",
-      "question": "On hearing the decision, Gauri tells Rohini that she feels her eight years of results have been ignored and that she may resign. What is the best response?",
-      "options": [
-        "Offer her a salary increase to stay on as deputy manager of the merged store.",
-        "Accept her resignation if she offers it, since the decision has been taken.",
-        "Meet her, explain the criteria used for the merged store's role, acknowledge her record, and confirm the Bhopal offer and interim role in writing.",
-        "Reverse the decision and appoint her to the merged store to retain her."
-      ],
-      "answer": 2,
-      "explanation": "Gauri's grievance is that her record was ignored; explaining the criteria transparently and putting the alternative offer on firm footing answers that directly. A deputy role under Harish (option 1) breaks company policy on two managers in one store and is likely to be seen as a demotion. Option 2 loses a valued manager without trying, and option 4 abandons a decision made on sound criteria.",
-      "source": "ai",
-      "archetype": "xat-D08",
-      "verified": false
-    },
-    {
-      "id": "xat-141",
-      "section": "dm",
-      "topic": "Interpersonal & HR Situations",
-      "difficulty": "medium",
-      "passage": "xat-P07",
-      "question": "Several employees of Gauri's old store send Rohini a petition asking that Gauri, not Harish, run the merged store. What should Rohini do?",
-      "options": [
-        "Ignore the petition, since staffing decisions are management's prerogative.",
-        "Ask Harish to address the employees and win them over on his own.",
-        "Meet the employees, explain why the merged store's mandate led to the choice, and invite their concerns about working conditions in the merged store.",
-        "Put the decision on hold until staff of both stores can vote on it."
-      ],
-      "answer": 2,
-      "explanation": "The petition signals anxiety among staff who must now work in the merged store. Explaining the decision and listening to their underlying concerns keeps the decision while addressing the anxiety. Ignoring it (option 1) breeds resentment; leaving it to Harish alone (option 2) puts the new manager in a difficult spot; a staff vote (option 4) is not an appropriate way to choose a manager.",
-      "source": "ai",
-      "archetype": "xat-D08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Choose manager by role mandate and redeploy other - XAT promotion/fairness caselet"
+      }
     },
     {
       "id": "xat-142",
@@ -1554,7 +1563,12 @@
       "explanation": "The author separates \"appointing the competent to tasks that require competence\", which is accepted, from \"a comprehensive theory of desert\", which runs into two difficulties and \"cannot bear the moral weight\". Option 1 rejects selection by merit, which the author explicitly keeps. Option 3 claims a vindication the passage does not report. Option 4 overstates one of the two difficulties.",
       "source": "ai",
       "archetype": "xat-V01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Meritocracy (Young/Sandel-type) passage main contention - squarely XAT socio-philosophical RC"
+      }
     },
     {
       "id": "xat-143",
@@ -1573,7 +1587,12 @@
       "explanation": "Young's point, endorsed in the passage, is that those at the bottom of a meritocracy lose \"the consolation that their position was an accident\" and are left with the verdict that it is their fault — i.e. believing low status undeserved is easier to bear. Option 1 is the opposite of \"declining to believe that the examination has revealed who deserves a good life\". Option 2 contradicts the claim that faithful reward of merit reproduces inequality. Option 4 contradicts the programmer–nurse example.",
       "source": "ai",
       "archetype": "xat-V02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Would-agree: undeserved status easier to bear; subtle inference from Young's point"
+      }
     },
     {
       "id": "xat-144",
@@ -1592,7 +1611,12 @@
       "explanation": "The example supports \"the second difficulty\", about what merit is worth: the programmer earns more \"because of the configuration of demand\". Option 2 restates the content without the point; option 3 is a prescription the author never makes; option 4 belongs to the first difficulty.",
       "source": "ai",
       "archetype": "xat-V03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Role of programmer/nurse example; option 3 confuses with first objection - good trap"
+      }
     },
     {
       "id": "xat-145",
@@ -1611,7 +1635,12 @@
       "explanation": "The first objection is that the capacities rewarded are shaped by unchosen circumstances, so rewarding them reproduces background inequality. If the performance of adopted children is unrelated to the circumstances of the families that raised them, the capacities that examinations reward are not being shaped by home environment, which undercuts the objection (option 4). Option 1 concerns selection, which the author accepts; option 2 supports the objection; option 3 is about beliefs, not the objection's truth.",
       "source": "ai",
       "archetype": "xat-V04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Weaken first objection via adoption study; option 1 strengthens - XAT-faithful"
+      }
     },
     {
       "id": "xat-146",
@@ -1630,7 +1659,12 @@
       "explanation": "The passage sets out Thompson's thesis, accepts its core despite later qualifications, and applies it to contemporary task-based work. Option 1 takes on the \"romantic contrast\" the passage treats with caution. Option 2 contradicts \"the core of the argument survives\". Option 4 is a supporting detail.",
       "source": "ai",
       "archetype": "xat-V01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Thompson time-discipline passage central concern; XAT historical-sociology RC"
+      }
     },
     {
       "id": "xat-147",
@@ -1649,7 +1683,12 @@
       "explanation": "The last paragraph says the old discipline has \"moved inside\": the task-paid worker \"must police her own hours\" and the line between working and living time \"becomes blurred again\". Option 1 is denied (\"without the continuity of rhythm\"). Option 2 is the view the author qualifies (\"to some this signals a liberation\"). Option 3 is about productivity, which the passage does not discuss.",
       "source": "ai",
       "archetype": "xat-V02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Inference on gig work self-policing; distractors from 'liberation' view"
+      }
     },
     {
       "id": "xat-148",
@@ -1668,7 +1707,12 @@
       "explanation": "They appear among the \"complications\" raised by later historians against the neat task-versus-clock opposition. The passage does not claim religious origins (option 2) or a borrowing (option 4), and they are counter-examples to irregular rhythms, not illustrations of them (option 3).",
       "source": "ai",
       "archetype": "xat-V03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Function of merchants/monasteries detail as critics' qualification"
+      }
     },
     {
       "id": "xat-149",
@@ -1687,7 +1731,12 @@
       "explanation": "The passage lists bells, clocking-in, fines for lateness, sermons on punctuality and campaigns against \"Saint Monday\". Paying for finished pieces is presented as the contrasting arrangement — the employer who pays for hours, \"rather than for finished pieces\", is the one with the interest in time discipline.",
       "source": "ai",
       "archetype": "xat-V03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "EXCEPT: piece-rate pay is opposite of hour-purchase; fair detail check"
+      }
     },
     {
       "id": "xat-150",
@@ -1706,7 +1755,12 @@
       "explanation": "\"Never once arrived\", \"each bank is only where he turns\" and the closing line — the river \"is what he crossed it for\" — locate his purpose in the crossing, not the shores. The poem shows no resentment (option 1; he answers talk of the bridge by remarking on the weather), passes no judgement on the travellers' valuation (option 3), and presents his staying as fidelity, not entrapment (option 4).",
       "source": "ai",
       "archetype": "xat-V12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Short poem central idea - XAT 2024-26 poem format; option 0 literal-livelihood trap"
+      }
     },
     {
       "id": "xat-151",
@@ -1725,7 +1779,12 @@
       "explanation": "Set against others' talk of the bridge as \"a gift, a road, a gain\", his attention to his rope and the sky shows quiet absorption in present work — neither anxiety (option 1) nor a prophecy (option 4). Nothing suggests he fails to understand (option 2); the last stanza shows he knows exactly what he will and will not do.",
       "source": "ai",
       "archetype": "xat-V12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Image meaning of 'reads the sky'; good"
+      }
     },
     {
       "id": "xat-152",
@@ -1744,25 +1803,12 @@
       "explanation": "The poem dwells on his steadiness, his indifference to payment in coin or prayer, and his fidelity to the river, without lament or mockery. It does not pity him (he is not presented as a victim), mock him, or mourn a lost past — the bridge is still only planned.",
       "source": "ai",
       "archetype": "xat-V12",
-      "verified": false
-    },
-    {
-      "id": "xat-153",
-      "section": "valr",
-      "topic": "Critical Reasoning",
-      "difficulty": "medium",
-      "question": "A city's transport department reports: \"Neighbourhoods with more bicycle lanes have fewer road accidents per resident. To reduce accidents across the city, we should build bicycle lanes in every neighbourhood.\"\n\nWhich of the following, if true, most seriously undermines the department's reasoning?",
-      "options": [
-        "Bicycle lanes are cheaper to build than most other road-safety measures.",
-        "Residents of neighbourhoods with bicycle lanes cycle more than residents of other neighbourhoods.",
-        "Some accidents in neighbourhoods with bicycle lanes involve cyclists.",
-        "Bicycle lanes have mostly been built in neighbourhoods that were already low-traffic and residential before the lanes were added."
-      ],
-      "answer": 3,
-      "explanation": "The argument infers that bicycle lanes cause fewer accidents from a correlation. If lanes were built where traffic was already light, low traffic could explain both the lanes and the low accident rate, so building lanes elsewhere may not help. Option 1 is about cost, option 3 is compatible with fewer accidents overall, and option 2 does not address the causal link.",
-      "source": "ai",
-      "archetype": "xat-V05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Tone admiring/respectful vs nostalgic; mildly debatable but defensible"
+      }
     },
     {
       "id": "xat-154",
@@ -1780,7 +1826,12 @@
       "explanation": "Attendance was voluntary, so the attendees may have been more ambitious or already better regarded. The conclusion holds only if this self-selection does not explain the higher promotion rate. Options 2 and 4 are not needed for the conclusion; option 3 is too strong — promotions need not depend only on leadership for the workshop to help.",
       "source": "ai",
       "archetype": "xat-V05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Self-selection assumption; standard CR"
+      }
     },
     {
       "id": "xat-155",
@@ -1798,25 +1849,12 @@
       "explanation": "\"Expanded the market\" means new consumption, not shifting buyers between packs or brands. Total category sales rising while the company's other packs held steady rules out cannibalisation and supports expansion. Option 1 suggests cannibalisation; option 2 suggests buyers switched from the rival; option 4 offers an alternative cause.",
       "source": "ai",
       "archetype": "xat-V06",
-      "verified": false
-    },
-    {
-      "id": "xat-156",
-      "section": "valr",
-      "topic": "Critical Reasoning",
-      "difficulty": "hard",
-      "question": "A hospital introduced a rule requiring doctors to wash their hands before and after every patient contact. Over the next year the rate of hospital-acquired infections fell by 30 per cent. The hospital's director credits the rule for the decline.\n\nWhich of the following, if true, would most weaken the director's claim?",
-      "options": [
-        "Compliance with the hand-washing rule, measured by observers, was above 90 per cent throughout the year.",
-        "Other hospitals in the city that did not introduce such a rule saw similar falls in hospital-acquired infections over the same year.",
-        "Hand-washing is known to reduce the transmission of many common bacteria.",
-        "The hospital admitted slightly more patients during the year than in the previous year."
-      ],
-      "answer": 1,
-      "explanation": "If comparable hospitals without the rule saw similar declines, some common factor (a seasonal pattern, a city-wide change) probably explains the fall, undercutting the credit given to the rule. Options 1 and 3 support the claim; option 4, more patients, would if anything make the decline more impressive.",
-      "source": "ai",
-      "archetype": "xat-V06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Strengthen market expansion vs cannibalisation; business-flavoured as XAT likes"
+      }
     },
     {
       "id": "xat-157",
@@ -1834,7 +1872,12 @@
       "explanation": "Take a manager on the audit committee. If that manager had completed the course, he would be allowed to approve expenses, and so could not be on the audit committee — a contradiction. So that manager has not completed the course, and option 4 must be true. Options 1, 3 and 2 may or may not be true.",
       "source": "ai",
       "archetype": "xat-V07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Deductive: audit-committee managers lack course - XAT conditional-logic item"
+      }
     },
     {
       "id": "xat-158",
@@ -1852,43 +1895,12 @@
       "explanation": "The argument infers that start-up growth caused manufacturing decline from two simultaneous trends; the causation may run the other way, with displaced manufacturing staff founding start-ups. Option 1 misdescribes the argument (it concludes only about the city). Option 2 is not assumed (the argument is about talent, not customers). Option 4 does not affect the reasoning.",
       "source": "ai",
       "archetype": "xat-V05",
-      "verified": false
-    },
-    {
-      "id": "xat-159",
-      "section": "valr",
-      "topic": "Para Jumbles & Odd Sentence",
-      "difficulty": "medium",
-      "question": "The sentences given below, when properly sequenced, form a coherent paragraph. Choose the most logical order.\n\nA. The planners' maps, however, showed only roads and plots, and treated the lanes between houses as empty space.\nB. When the old quarter of the town was redeveloped in the 1970s, the planners promised wider roads and modern housing.\nC. Within a decade, the new blocks stood half-empty while the displaced residents rebuilt their lanes on the edge of town.\nD. Those lanes were in fact where the quarter's workshops, markets and festivals took place.",
-      "options": [
-        "BADC",
-        "BDAC",
-        "ABDC",
-        "BACD"
-      ],
-      "answer": 0,
-      "explanation": "B introduces the redevelopment; A (\"however\") turns to what the plans missed — the lanes; D (\"Those lanes\") explains their real role; C gives the outcome. BDAC puts \"Those lanes\" before the lanes are mentioned; BACD ends on the explanation rather than the consequence.",
-      "source": "ai",
-      "archetype": "xat-V08",
-      "verified": false
-    },
-    {
-      "id": "xat-160",
-      "section": "valr",
-      "topic": "Para Jumbles & Odd Sentence",
-      "difficulty": "medium",
-      "question": "Four of the following five sentences form a coherent paragraph. Identify the sentence that does not belong.\n\n1. Monsoon forecasts in India have improved markedly over the last two decades, especially for the season as a whole.\n2. Forecasting the distribution of rain within the season — when the dry spells will come — remains far harder.\n3. For farmers, it is precisely these dry spells, falling at sowing or flowering, that decide the size of the harvest.\n4. A good seasonal total can therefore coexist with a poor crop.\n5. Groundwater irrigation has expanded rapidly in the same period, especially in north-western India.",
-      "options": [
-        "Sentence 2",
-        "Sentence 5",
-        "Sentence 3",
-        "Sentence 4"
-      ],
-      "answer": 1,
-      "explanation": "Sentences 1–4 argue that seasonal forecasts have improved but within-season dry spells, which decide harvests, remain hard to predict. Sentence 5 stays with Indian agriculture over the same period but shifts to irrigation, outside that thread.",
-      "source": "ai",
-      "archetype": "xat-V09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Reverse-causation flaw; adequate XAT-level flaw item"
+      }
     },
     {
       "id": "xat-161",
@@ -1906,25 +1918,12 @@
       "explanation": "Praise excessive enough to arouse suspicion is \"fulsome\", and the suspected motive must fit that excess: to \"flatter\" the minister. \"Measured\" and \"grudging\" praise would not arouse that suspicion, and \"lavish … expose\" pairs excessive praise with an incompatible motive.",
       "source": "ai",
       "archetype": "xat-V10",
-      "verified": false
-    },
-    {
-      "id": "xat-162",
-      "section": "valr",
-      "topic": "Vocabulary & Grammar",
-      "difficulty": "medium",
-      "question": "Which of the following sentences is grammatically correct?",
-      "options": [
-        "Not only the manager was absent, but the entire team had also left early.",
-        "Scarcely the meeting had begun when the power failed.",
-        "No sooner had the results been announced than the share price rose.",
-        "Hardly had the guests arrived than the speeches began."
-      ],
-      "answer": 2,
-      "explanation": "\"No sooner\" requires inversion (\"had the results been announced\") and is followed by \"than\" — option 3 is correct. Option 1 needs inversion after a fronted \"Not only\" (\"Not only was the manager absent…\"). Option 2 needs inversion (\"Scarcely had the meeting begun\"). Option 4 pairs \"Hardly\" with \"than\" instead of \"when\".",
-      "source": "ai",
-      "archetype": "xat-V11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Double-blank vocab 'fulsome...flatter'; XAT vocab-in-context"
+      }
     },
     {
       "id": "xat-163",
@@ -1943,7 +1942,12 @@
       "explanation": "Growth: A 180/1200 = 15%, B 270/900 = 30%, C 130/650 = 20%, D 160/400 = 40%, E 50/250 = 20%. D is highest; B has the largest absolute increase (₹270 crore), which is the trap.",
       "source": "ai",
       "archetype": "xat-Q17",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Table DI growth %, D 40%; SVG table rendered and matches text"
+      }
     },
     {
       "id": "xat-164",
@@ -1962,7 +1966,12 @@
       "explanation": "Net profit = revenue × margin: A 82.8, B 105.3, C 93.6, D 84.0, E −12 (₹ crore). B is highest even though D has the highest margin and A the highest revenue.",
       "source": "ai",
       "archetype": "xat-Q17",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Net profit with A as largest-revenue trap; verified B=105.3"
+      }
     },
     {
       "id": "xat-165",
@@ -1981,7 +1990,12 @@
       "explanation": "Revenue per unit = (revenue in ₹ crore × 10⁷)/(units in thousand × 10³): A 1,380/115 → ₹1.2 lakh, B 1,170/90 → ₹1.3 lakh, C 780/52 → ₹1.5 lakh, D 560/40 → ₹1.4 lakh, E 300/25 → ₹1.2 lakh. C is highest, although A sells the most units and has the highest revenue.",
       "source": "ai",
       "archetype": "xat-Q17",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Revenue per unit C=15k; straightforward"
+      }
     },
     {
       "id": "xat-166",
@@ -2000,7 +2014,12 @@
       "explanation": "Total revenue: 2024 ₹3,400 crore, 2025 ₹4,190 crore. Shares 2024 → 2025: A 35.29% → 32.94% (−2.35), B 26.47% → 27.92% (+1.45), C 19.12% → 18.62% (−0.50), D 11.76% → 13.37% (+1.60), E 7.35% → 7.16% (−0.19). A, despite the second-largest absolute revenue gain, lost the most share because it grew slower than the market (23.2%).",
       "source": "ai",
       "archetype": "xat-Q17",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Share-of-market fall in pp (A -2.36); harder XAT DI step"
+      }
     },
     {
       "id": "xat-167",
@@ -2019,7 +2038,12 @@
       "explanation": "Net revenue (₹ lakh): app 6,600 × 800 × 0.90 = 47.52; website 3,600 × 1,100 × 0.92 = 36.432; partner 1,800 × 1,500 × 0.96 = 25.92; total 109.872. App share = 47.52/109.872 ≈ 43%. 55% is the share of orders, not of net revenue.",
       "source": "ai",
       "archetype": "xat-Q18",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Net revenue share app 43%; verified"
+      }
     },
     {
       "id": "xat-168",
@@ -2038,7 +2062,12 @@
       "explanation": "660 orders move from the app (net ₹800 × 0.90 = ₹720 each) to the website (net ₹1,100 × 0.92 = ₹1,012 each). Gain = 660 × (1,012 − 720) = 660 × 292 = ₹1,92,720. Ignoring returns gives 660 × 300 = ₹1,98,000.",
       "source": "ai",
       "archetype": "xat-Q18",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "What-if channel shift +₹1,92,720; verified"
+      }
     },
     {
       "id": "xat-169",
@@ -2057,62 +2086,12 @@
       "explanation": "Shortfall = 36,43,200 − 25,92,000 = ₹10,51,200. Each partner order adds net ₹1,500 × 0.96 = ₹1,440. 10,51,200/1,440 = 730 orders. Ignoring returns (₹1,500 per order) gives about 701.",
       "source": "ai",
       "archetype": "xat-Q18",
-      "verified": false
-    },
-    {
-      "id": "xat-170",
-      "section": "qadi",
-      "topic": "Data Interpretation",
-      "difficulty": "medium",
-      "passage": "xat-P12",
-      "question": "What was the average net revenue per order across all channels in March?",
-      "options": [
-        "₹1,000",
-        "₹916",
-        "₹980",
-        "₹893"
-      ],
-      "answer": 1,
-      "explanation": "Total net revenue ₹1,09,87,200 ÷ 12,000 orders ≈ ₹915.6 ≈ ₹916. The gross average order value is 0.55 × 800 + 0.30 × 1,100 + 0.15 × 1,500 = ₹995, close to the ₹1,000 trap.",
-      "source": "ai",
-      "archetype": "xat-Q18",
-      "verified": false
-    },
-    {
-      "id": "xat-171",
-      "section": "qadi",
-      "topic": "Geometry & Mensuration",
-      "difficulty": "hard",
-      "question": "In triangle ABC, AB = 8 cm, AC = 6 cm and ∠BAC = 60°. What is the length of the bisector of ∠BAC, measured from A to side BC?",
-      "options": [
-        "24√3/7 cm",
-        "48/7 cm",
-        "√37 cm",
-        "12√3/7 cm"
-      ],
-      "answer": 0,
-      "explanation": "Area(ABC) = area(ABD) + area(ADC) with AD the bisector: ½·8·6·sin60° = ½·8·AD·sin30° + ½·6·AD·sin30°, so 24·(√3/2) = (7/2)·AD → AD = 24√3/7 cm (≈ 5.94). √37 is the median from A (½√(2·64 + 2·36 − 52)), and 48/7 = 2bc/(b + c) omits the cos 30° factor — both common mix-ups.",
-      "source": "ai",
-      "archetype": "xat-Q10",
-      "verified": false
-    },
-    {
-      "id": "xat-172",
-      "section": "qadi",
-      "topic": "Geometry & Mensuration",
-      "difficulty": "hard",
-      "question": "A circle is inscribed in a regular hexagon of side 6 cm. What is the area of the region inside the hexagon but outside the circle?",
-      "options": [
-        "(54√3 − 36π) cm²",
-        "(54√3 − 27π) cm²",
-        "(36√3 − 27π) cm²",
-        "(54√3 − 9π) cm²"
-      ],
-      "answer": 1,
-      "explanation": "Hexagon area = (3√3/2) × 6² = 54√3. The inradius is the apothem 6 × √3/2 = 3√3, so the circle's area is 27π. Required area = 54√3 − 27π cm². Using the side (6) as the radius gives 36π.",
-      "source": "ai",
-      "archetype": "xat-Q10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Additional partner orders 730; verified, near-miss distractors 700/701"
+      }
     },
     {
       "id": "xat-173",
@@ -2130,61 +2109,12 @@
       "explanation": "Take A(0, 0), B(10, 0), C(10, 10), D(0, 10); E(10, 5), F(5, 10). AE: (10t, 5t); BF: (10 − 5s, 10s). Solving, s = 0.4, t = 0.8, so P = (8, 4). Area ABP = ½ × 10 × 4 = 20 cm². (AE ⟂ BF, a useful check.)",
       "source": "ai",
       "archetype": "xat-Q10",
-      "verified": false
-    },
-    {
-      "id": "xat-174",
-      "section": "qadi",
-      "topic": "Geometry & Mensuration",
-      "difficulty": "medium",
-      "question": "The sides of a triangle are 7 cm, 8 cm and 9 cm. What is the length of the median drawn to the side of length 8 cm?",
-      "options": [
-        "6.5 cm",
-        "8 cm",
-        "√45 cm",
-        "7 cm"
-      ],
-      "answer": 3,
-      "explanation": "Median to side a: m = ½√(2b² + 2c² − a²) = ½√(2·49 + 2·81 − 64) = ½√196 = 7 cm.",
-      "source": "ai",
-      "archetype": "xat-Q10",
-      "verified": false
-    },
-    {
-      "id": "xat-175",
-      "section": "qadi",
-      "topic": "Geometry & Mensuration",
-      "difficulty": "medium",
-      "question": "What is the area of the triangle formed by the lines y = x, y = −x and y = 2x − 6?",
-      "options": [
-        "24 sq. units",
-        "18 sq. units",
-        "6 sq. units",
-        "12 sq. units"
-      ],
-      "answer": 3,
-      "explanation": "Vertices: y = x and y = −x meet at (0, 0); y = x and y = 2x − 6 at (6, 6); y = −x and y = 2x − 6 at (2, −2). Area = ½|6·(−2) − 6·2| = ½ × 24 = 12.",
-      "source": "ai",
-      "archetype": "xat-Q11",
-      "verified": false
-    },
-    {
-      "id": "xat-176",
-      "section": "qadi",
-      "topic": "Geometry & Mensuration",
-      "difficulty": "hard",
-      "question": "A sphere is placed inside a right circular cone of base radius 6 cm and height 8 cm so that it touches the base and the curved surface of the cone. What is the radius of the sphere?",
-      "options": [
-        "3 cm",
-        "2.4 cm",
-        "4 cm",
-        "3.6 cm"
-      ],
-      "answer": 0,
-      "explanation": "The axial cross-section is an isosceles triangle with base 12 and slant sides √(6² + 8²) = 10. The sphere's radius is the triangle's inradius: area/semi-perimeter = (½ × 12 × 8)/((10 + 10 + 12)/2) = 48/16 = 3 cm.",
-      "source": "ai",
-      "archetype": "xat-Q12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Midpoint-line intersection in square, area 20; coordinate approach, XAT-like"
+      }
     },
     {
       "id": "xat-177",
@@ -2202,25 +2132,12 @@
       "explanation": "For two circles of radii r₁, r₂ touching each other and a line, the length of the line between the points of contact is 2√(r₁r₂). For the small circle of radius r: 2√(9r) + 2√(4r) = 2√36 = 12 → 5√r = 6 → r = 36/25 = 1.44 cm.",
       "source": "ai",
       "archetype": "xat-Q10",
-      "verified": false
-    },
-    {
-      "id": "xat-178",
-      "section": "qadi",
-      "topic": "Algebra",
-      "difficulty": "medium",
-      "question": "If a + 1/a = √5, what is the value of a⁶ + 1/a⁶?",
-      "options": [
-        "20",
-        "18",
-        "27",
-        "16"
-      ],
-      "answer": 1,
-      "explanation": "a³ + 1/a³ = (a + 1/a)³ − 3(a + 1/a) = 5√5 − 3√5 = 2√5. Then a⁶ + 1/a⁶ = (a³ + 1/a³)² − 2 = 20 − 2 = 18. Forgetting the −2 gives 20.",
-      "source": "ai",
-      "archetype": "xat-Q06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Three mutually tangent circles on a line, 1/√r rule -> 1.44; XAT geometry flavour"
+      }
     },
     {
       "id": "xat-179",
@@ -2238,7 +2155,12 @@
       "explanation": "For each z, x + 2y = 12 − 3z has ⌊(12 − 3z)/2⌋ + 1 solutions: z = 0 → 7, z = 1 → 5, z = 2 → 4, z = 3 → 2, z = 4 → 1. Total 19.",
       "source": "ai",
       "archetype": "xat-Q07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Non-negative solutions of x+2y+3z=12 = 19; XAT counting style"
+      }
     },
     {
       "id": "xat-180",
@@ -2256,25 +2178,12 @@
       "explanation": "Pair f(k/10) with f(1 − k/10): (1/10, 9/10), (2/10, 8/10), (3/10, 7/10), (4/10, 6/10) give 4 × 2 = 8. The middle term: x = 1/2 gives 2f(1/2) = 2, so f(1/2) = 1. Total 9.",
       "source": "ai",
       "archetype": "xat-Q08",
-      "verified": false
-    },
-    {
-      "id": "xat-181",
-      "section": "qadi",
-      "topic": "Algebra",
-      "difficulty": "medium",
-      "question": "What is the sum of all three-digit numbers that leave a remainder of 2 when divided by 7?",
-      "options": [
-        "70,692",
-        "70,140",
-        "71,240",
-        "69,596"
-      ],
-      "answer": 0,
-      "explanation": "100 = 7 × 14 + 2 is the first such number and 996 = 7 × 142 + 2 the last. They form an AP with difference 7 and (996 − 100)/7 + 1 = 129 terms. Sum = 129 × (100 + 996)/2 = 129 × 548 = 70,692.",
-      "source": "ai",
-      "archetype": "xat-Q09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "f(x)+f(1-x)=2 sum with middle term f(1/2) trap (8 vs 9); XAT-like"
+      }
     },
     {
       "id": "xat-182",
@@ -2292,7 +2201,12 @@
       "explanation": "Let cost price be 100 per article. For 5 articles (cost 500) he receives 4 × 140 × (1 − d/100). Profit 5%: 560(1 − d/100) = 525 → 1 − d/100 = 0.9375 → d = 6.25.",
       "source": "ai",
       "archetype": "xat-Q01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Mark-up + discount + 'one free with four' -> d=6.25; XAT commerce arithmetic"
+      }
     },
     {
       "id": "xat-183",
@@ -2310,43 +2224,12 @@
       "explanation": "First meeting: 20t = 30(t − 0.5) → t = 1.5 h, at 30 km. Bilal reaches Y at 0.5 + 2 = 2.5 h, when Asha is at 50 km. The 10-km gap closes at 50 km/h in 0.2 h, during which Asha covers 4 km: the second meeting is 54 km from X.",
       "source": "ai",
       "archetype": "xat-Q02",
-      "verified": false
-    },
-    {
-      "id": "xat-184",
-      "section": "qadi",
-      "topic": "Arithmetic",
-      "difficulty": "medium",
-      "question": "Pipes A and B can fill a tank in 12 hours and 15 hours respectively, and pipe C can empty the full tank in 20 hours. All three are opened together at 8:00 a.m. on an empty tank, and C is closed at 10:00 a.m. At what time will the tank be full?",
-      "options": [
-        "2:40 p.m.",
-        "3:20 p.m.",
-        "4:00 p.m.",
-        "6:00 p.m."
-      ],
-      "answer": 1,
-      "explanation": "Together the rate is 1/12 + 1/15 − 1/20 = 6/60 = 1/10 per hour; in 2 hours 1/5 is filled. A and B then fill 9/60 = 3/20 per hour, so the remaining 4/5 takes (4/5)/(3/20) = 16/3 h = 5 h 20 min after 10:00 a.m., i.e. 3:20 p.m.",
-      "source": "ai",
-      "archetype": "xat-Q03",
-      "verified": false
-    },
-    {
-      "id": "xat-185",
-      "section": "qadi",
-      "topic": "Number System",
-      "difficulty": "medium",
-      "question": "The HCF of two positive integers is 18 and their LCM is 1,080. How many such (unordered) pairs of integers are there?",
-      "options": [
-        "4",
-        "6",
-        "3",
-        "8"
-      ],
-      "answer": 0,
-      "explanation": "Write the numbers as 18m and 18n with m, n coprime; then 18mn = 1,080, so mn = 60 = 2² × 3 × 5. Coprime splits of 60 send each prime power wholly to one side: 2^(3 − 1) = 4 unordered pairs — (1, 60), (3, 20), (4, 15), (5, 12) — i.e. (18, 1080), (54, 360), (72, 270), (90, 216). Counting all factor pairs of 60 gives the trap answer 6.",
-      "source": "ai",
-      "archetype": "xat-Q14",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Second meeting after overtaking and turnaround at 54 km; verified by simulation, 30 km distractor = first meeting"
+      }
     },
     {
       "id": "xat-186",
@@ -2364,7 +2247,12 @@
       "explanation": "Choose 3 rows: C(8, 3) = 56; choose 3 columns: 56; match rows to columns: 3! = 6. Total 56 × 56 × 6 = 18,816. Omitting the 3! gives 3,136; treating the squares as ordered gives 56,448.",
       "source": "ai",
       "archetype": "xat-Q15",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "3 squares no shared row/column = C(8,3)²·3! = 18816; distractors from ordering errors"
+      }
     },
     {
       "id": "xat-187",
@@ -2382,7 +2270,12 @@
       "explanation": "Justice Surya Kant was sworn in as the 53rd Chief Justice of India on 24 November 2025, succeeding Justice B. R. Gavai. Justices Vikram Nath and B. V. Nagarathna are in the line of seniority for later terms.",
       "source": "ai",
       "archetype": "xat-G01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "CJI Surya Kant (24 Nov 2025) - XAT appointments GK; window ageing for XAT 2027"
+      }
     },
     {
       "id": "xat-188",
@@ -2400,7 +2293,12 @@
       "explanation": "C. P. Radhakrishnan, then Governor of Maharashtra, won the September 2025 vice-presidential election against the opposition candidate B. Sudershan Reddy. Harivansh is Deputy Chairman of the Rajya Sabha and Om Birla is Lok Sabha Speaker.",
       "source": "ai",
       "archetype": "xat-G01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "VP C. P. Radhakrishnan (Sept 2025); B. Sudershan Reddy as rival-candidate distractor"
+      }
     },
     {
       "id": "xat-189",
@@ -2418,7 +2316,12 @@
       "explanation": "Cardinal Prevost took the name Leo XIV on his election on 8 May 2025, succeeding Pope Francis.",
       "source": "ai",
       "archetype": "xat-G01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Pope Leo XIV; verified, XAT-style world appointment"
+      }
     },
     {
       "id": "xat-190",
@@ -2436,7 +2339,12 @@
       "explanation": "Carney was Governor of the Bank of Canada (2008–13) and then the first non-Briton to be Governor of the Bank of England (2013–20). He became Liberal leader and Prime Minister in March 2025 and won the April 2025 election.",
       "source": "ai",
       "archetype": "xat-G01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Carney: Bank of Canada and Bank of England; good business-GK angle"
+      }
     },
     {
       "id": "xat-191",
@@ -2454,7 +2362,12 @@
       "explanation": "John Clarke, Michel Devoret and John Martinis won the 2025 physics prize for showing quantum tunnelling and quantised energy levels in a superconducting circuit — groundwork for superconducting qubits. The other options describe the 2023, 2024 and 2016 prizes.",
       "source": "ai",
       "archetype": "xat-G02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Physics Nobel 2025 macroscopic quantum tunnelling; distractors from prior years"
+      }
     },
     {
       "id": "xat-192",
@@ -2472,7 +2385,12 @@
       "explanation": "The 2025 chemistry prize recognised metal–organic frameworks (MOFs), porous crystalline materials used, for example, to capture carbon dioxide or harvest water from air. Protein design (2024), quantum dots (2023) and click chemistry (2022) were earlier prizes.",
       "source": "ai",
       "archetype": "xat-G02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Chemistry Nobel 2025 MOFs; prior-year distractors"
+      }
     },
     {
       "id": "xat-193",
@@ -2490,7 +2408,12 @@
       "explanation": "The 2025 prize was for discoveries concerning peripheral immune tolerance — how regulatory T cells keep the immune system from attacking the body. The other options were the 2024, 2023 and 2021 prizes.",
       "source": "ai",
       "archetype": "xat-G02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Medicine Nobel 2025 peripheral immune tolerance; prior-year distractors"
+      }
     },
     {
       "id": "xat-194",
@@ -2508,7 +2431,12 @@
       "explanation": "David Szalay's Flesh won the 2025 Booker Prize. Kiran Desai's novel was on the 2025 shortlist; Orbital and Prophet Song won in 2024 and 2023.",
       "source": "ai",
       "archetype": "xat-G02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Booker 2025 Flesh by David Szalay; Kiran Desai shortlist distractor - good"
+      }
     },
     {
       "id": "xat-195",
@@ -2526,7 +2454,12 @@
       "explanation": "Malayalam actor Mohanlal was named for the Dadasaheb Phalke Award (for 2023), presented at the 71st National Film Awards. Mithun Chakraborty received the previous award and Rajinikanth the one for 2019.",
       "source": "ai",
       "archetype": "xat-G02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Phalke Award to Mohanlal (Sept 2025)"
+      }
     },
     {
       "id": "xat-196",
@@ -2544,7 +2477,12 @@
       "explanation": "Hindi writer Vinod Kumar Shukla of Chhattisgarh received the 59th Jnanpith Award (for 2024). Gulzar shared the 58th; Damodar Mauzo and Nilmani Phookan received the 57th and 56th.",
       "source": "ai",
       "archetype": "xat-G02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "59th Jnanpith Vinod Kumar Shukla; prior winners as distractors"
+      }
     },
     {
       "id": "xat-197",
@@ -2562,43 +2500,12 @@
       "explanation": "Türkiye will host COP31 in Antalya, while Australia leads the negotiations as part of a compromise between the two bidders. Belém hosted COP30; Bonn hosts the intersessional meetings; Adelaide was Australia's proposed venue.",
       "source": "ai",
       "archetype": "xat-G03",
-      "verified": false
-    },
-    {
-      "id": "xat-198",
-      "section": "gk",
-      "topic": "Current Affairs",
-      "difficulty": "medium",
-      "question": "The G20 Leaders' Summit of November 2025, the first to be held on the African continent, took place in",
-      "options": [
-        "Johannesburg",
-        "Cape Town",
-        "Nairobi",
-        "Rio de Janeiro"
-      ],
-      "answer": 0,
-      "explanation": "South Africa hosted the 2025 G20 summit in Johannesburg on 22–23 November. Rio de Janeiro hosted the 2024 summit; the United States holds the presidency in 2026.",
-      "source": "ai",
-      "archetype": "xat-G03",
-      "verified": false
-    },
-    {
-      "id": "xat-199",
-      "section": "gk",
-      "topic": "Science & Sports",
-      "difficulty": "easy",
-      "question": "India won the ICC Women's Cricket World Cup for the first time in November 2025, beating which team in the final?",
-      "options": [
-        "Australia",
-        "England",
-        "South Africa",
-        "New Zealand"
-      ],
-      "answer": 2,
-      "explanation": "India beat South Africa by 52 runs in the final at Navi Mumbai on 2 November 2025 to win its first Women's ODI World Cup.",
-      "source": "ai",
-      "archetype": "xat-G08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "COP31 in Antalya with Australia presiding over negotiations - verified via web"
+      }
     },
     {
       "id": "xat-200",
@@ -2616,7 +2523,12 @@
       "explanation": "Divya Deshmukh beat Koneru Humpy in the tie-break of an all-Indian final in Batumi, Georgia, and the win also earned her the Grandmaster title.",
       "source": "ai",
       "archetype": "xat-G08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "FIDE Women's World Cup 2025 Divya Deshmukh"
+      }
     },
     {
       "id": "xat-201",
@@ -2634,7 +2546,12 @@
       "explanation": "The \"GST 2.0\" reform merged the earlier 5/12/18/28% structure into two main slabs of 5% and 18%, with a 40% rate for select luxury and sin goods.",
       "source": "ai",
       "archetype": "xat-G04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "GST 2.0 slabs 5/18 + 40%; XAT business-economy GK core"
+      }
     },
     {
       "id": "xat-202",
@@ -2652,7 +2569,12 @@
       "explanation": "The four codes are the Code on Wages, 2019; the Industrial Relations Code, 2020; the Code on Social Security, 2020; and the Occupational Safety, Health and Working Conditions Code, 2020. There is no \"Code on Minimum Employment Guarantee\".",
       "source": "ai",
       "archetype": "xat-G04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Four labour codes (in force 21 Nov 2025, verified); NOT-one-of format"
+      }
     },
     {
       "id": "xat-203",
@@ -2670,7 +2592,12 @@
       "explanation": "The new Act uses a single \"tax year\" — the financial year in which income is earned — in place of the previous-year/assessment-year pair of the 1961 Act.",
       "source": "ai",
       "archetype": "xat-G04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Income-tax Act 2025 'tax year' concept, verified; strong economy-GK item"
+      }
     },
     {
       "id": "xat-204",
@@ -2688,7 +2615,12 @@
       "explanation": "Since April 2022 the Standing Deposit Facility (SDF), an uncollateralised deposit window, has been the floor of the corridor, replacing the fixed-rate reverse repo. The MSF rate (aligned with the bank rate) is the ceiling.",
       "source": "ai",
       "archetype": "xat-G04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "SDF as LAF corridor floor - static banking GK XAT asks"
+      }
     },
     {
       "id": "xat-205",
@@ -2706,25 +2638,12 @@
       "explanation": "The demerger, effective in October 2025, placed the commercial-vehicle business and the passenger-vehicle business (including electric vehicles and Jaguar Land Rover) in separate listed companies.",
       "source": "ai",
       "archetype": "xat-G05",
-      "verified": false
-    },
-    {
-      "id": "xat-206",
-      "section": "gk",
-      "topic": "Business & Economy",
-      "difficulty": "hard",
-      "question": "Kenvue, the maker of Tylenol, Band-Aid and Listerine that Kimberly-Clark agreed in November 2025 to acquire, had been spun off in 2023 from",
-      "options": [
-        "Pfizer",
-        "Johnson & Johnson",
-        "Procter & Gamble",
-        "GSK"
-      ],
-      "answer": 1,
-      "explanation": "Kenvue is the former consumer-health division of Johnson & Johnson, separated in 2023. Kimberly-Clark announced a cash-and-stock deal to buy it in November 2025.",
-      "source": "ai",
-      "archetype": "xat-G05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Tata Motors CV/PV demerger 2025; corporate-news archetype"
+      }
     },
     {
       "id": "xat-207",
@@ -2742,7 +2661,12 @@
       "explanation": "Nvidia crossed a US$5 trillion market capitalisation on 29 October 2025, driven by demand for its AI chips, a few months after becoming the first to cross US$4 trillion.",
       "source": "ai",
       "archetype": "xat-G05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Nvidia first $5tn company (Oct 2025)"
+      }
     },
     {
       "id": "xat-208",
@@ -2760,7 +2684,12 @@
       "explanation": "The Shompen are hunter-gatherers of the interior forests of Great Nicobar. North Sentinel is home to the Sentinelese, Little Andaman to the Onge, and Car Nicobar to the Nicobarese.",
       "source": "ai",
       "archetype": "xat-G06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Shompen of Great Nicobar - static geography with current hook"
+      }
     },
     {
       "id": "xat-209",
@@ -2778,7 +2707,12 @@
       "explanation": "Article 324(5) provides that the CEC shall not be removed except in like manner and on the like grounds as a judge of the Supreme Court — i.e. by an address of both Houses with a special majority on grounds of proved misbehaviour or incapacity. Other Election Commissioners can be removed on the CEC's recommendation.",
       "source": "ai",
       "archetype": "xat-G07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "CEC removal like SC judge (Art 324(5)); static polity"
+      }
     }
   ]
 }
