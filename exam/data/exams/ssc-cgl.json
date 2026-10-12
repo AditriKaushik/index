@@ -472,6 +472,1211 @@
       }
     ]
   },
+  "pyqBlueprint": {
+    "yearsCovered": [
+      2023,
+      2024,
+      2025
+    ],
+    "method": "Compiled from the commission's published question-paper/response-sheet format and from shift-wise memory-based papers and topic-wise analyses published by coaching sites (Testbook, Adda247, PW, Careers360 day-wise analyses) for the 2023–2025 cycles, cross-checked against the writer's own knowledge of SSC papers. Live web fetches during this round returned only summary pages (SSC barred public discussion of 2025 papers), so question-type detail relies mainly on prior knowledge of the papers; frequencies are approximate per-shift counts. Figure-based (non-verbal) archetypes are recorded but only text-renderable variants are used for generated questions.",
+    "archetypes": [
+      {
+        "id": "ssc-cgl-R01",
+        "section": "reasoning",
+        "topic": "Analogy",
+        "pattern": "Word-pair analogy (A : B :: C : ?) built on a semantic relation – worker : tool, product : raw material, organ : function, instrument : quantity measured, young one : animal; distractors are words of the same category that do not share the relation.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-cgl-R02",
+        "section": "reasoning",
+        "topic": "Analogy",
+        "pattern": "Number-pair/triad analogy where the second term comes from an arithmetic rule on the first (n² ± k, n³ ± k, ×k ± c, digit operations); often framed with two example pairs and a note to operate on whole numbers without splitting digits; distractors satisfy the rule for only one pair or come from ±1 slips.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-R03",
+        "section": "reasoning",
+        "topic": "Analogy",
+        "pattern": "Letter-cluster analogy (ABCD : EFGH :: ? ) where each letter moves by a fixed or alternating +/− shift or is replaced by its opposite letter (A↔Z); distractors differ in exactly one letter.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-R04",
+        "section": "reasoning",
+        "topic": "Classification",
+        "pattern": "Odd-one-out among four words/objects by category or property (three belong to one class, e.g. instruments, organs, rivers of one state); the trap is a surface feature shared by the odd item.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-cgl-R05",
+        "section": "reasoning",
+        "topic": "Classification",
+        "pattern": "Odd number / number-pair / triad out of four where three follow one arithmetic rule (squares, primes, (a, b, c) with c = a×b − k, divisibility); the odd option breaks the rule by a small margin.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-R06",
+        "section": "reasoning",
+        "topic": "Classification",
+        "pattern": "Odd letter-cluster out of four where three clusters have the same positional gaps (e.g. +2, +3 or opposite-letter pairs) and one breaks the gap pattern.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-R07",
+        "section": "reasoning",
+        "topic": "Number & Letter Series",
+        "pattern": "Number series with one missing/next term following a two-step rule (×k + c, alternating operations, differences forming squares/primes or their own series).",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-R08",
+        "section": "reasoning",
+        "topic": "Number & Letter Series",
+        "pattern": "Letter or alphanumeric cluster series (e.g. three-letter groups with each position advancing by its own increment, possibly mixed with numbers); find the next cluster; distractors shift one position wrongly.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-R09",
+        "section": "reasoning",
+        "topic": "Coding-Decoding",
+        "pattern": "Word → letter code by a positional rule (each letter shifted by +k/−k, alternate shifts, reversal then shift, or opposite letters); decode the rule from one example and encode a new word.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-R10",
+        "section": "reasoning",
+        "topic": "Coding-Decoding",
+        "pattern": "Word → number code from alphabet positions (sum of positions, sum × k, sum of reverse positions, number of letters × k); apply the rule to a new word; distractors use forward instead of reverse positions.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-R11",
+        "section": "reasoning",
+        "topic": "Coding-Decoding",
+        "pattern": "Sentence coding: two or three short sentences coded as groups of code words; identify the code of a given word by finding the common word/code between statements.",
+        "years": [
+          2023,
+          2024
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-cgl-R12",
+        "section": "reasoning",
+        "topic": "Blood Relations",
+        "pattern": "Verbal chain / introduction ('pointing to a photo…') blood relation: trace 3–4 links and name the relation; traps are gender assumptions and the paternal/maternal side.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-R13",
+        "section": "reasoning",
+        "topic": "Blood Relations",
+        "pattern": "Coded blood relations: symbols (A + B, A × B, A − B …) stand for relations; decode an expression to find how two people are related, or which expression makes a given relation true.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-R14",
+        "section": "reasoning",
+        "topic": "Direction Sense",
+        "pattern": "Walking path of 3–5 legs with left/right turns; find the shortest distance and/or direction from the start (often a Pythagorean triple); or the final facing direction after a sequence of left/right/clockwise turns; traps are direction after a 'right turn' and adding instead of subtracting legs.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-cgl-R15",
+        "section": "reasoning",
+        "topic": "Syllogism",
+        "pattern": "Two/three statements ('All/Some/No') with two conclusions; decide which follow, including 'Some … are not' and possibility-type conclusions; trap is reversing 'All A are B'.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-R16",
+        "section": "reasoning",
+        "topic": "Mathematical Operations",
+        "pattern": "Symbol substitution: '+' means '×', '−' means '÷' etc.; rewrite and evaluate an expression with BODMAS; distractors come from left-to-right evaluation.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-R17",
+        "section": "reasoning",
+        "topic": "Mathematical Operations",
+        "pattern": "Which two signs (or two numbers) must be interchanged to make a given equation correct; each option names a pair of signs to swap.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-R18",
+        "section": "reasoning",
+        "topic": "Missing Number",
+        "pattern": "Missing term inside a number sequence (often the middle term) built from a mixed rule such as ×1 + 1, ×2 + 2, ×3 + 3 … or alternating × and +; find the term that replaces '?'.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ssc-cgl-R19",
+        "section": "reasoning",
+        "topic": "Missing Number",
+        "pattern": "Defined-operation missing number: from two or three solved examples (a ★ b = …) infer the rule (a² + b², (a + b)², a×b + a …) and apply it; distractors fit just one example.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-R20",
+        "section": "reasoning",
+        "topic": "Missing Number",
+        "pattern": "Number grid / figure (given as rows): each row or column follows the same rule (e.g. third = first × second − k, or sum of squares); find the missing number.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ssc-cgl-R21",
+        "section": "reasoning",
+        "topic": "Order & Ranking",
+        "pattern": "Position from both ends: total in a row/class from two ranks, rank from the other end, persons between two people, or a short comparison chain (taller/older) to find who is at a rank; trap is ±1 counting.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-cgl-R22",
+        "section": "reasoning",
+        "topic": "Dictionary Order",
+        "pattern": "Arrange 5 words in dictionary order (common prefix, differing late letters) or find which word comes at a given position.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-cgl-R23",
+        "section": "reasoning",
+        "topic": "Calendar & Clock",
+        "pattern": "Calendar: day of the week for a date given a reference date (odd-days counting across leap years) or after n days.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-R24",
+        "section": "reasoning",
+        "topic": "Calendar & Clock",
+        "pattern": "Clock angle between the hands at a given time (30H − 5.5M) or time when hands coincide/are opposite.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-R25",
+        "section": "reasoning",
+        "topic": "Venn Diagram",
+        "pattern": "Overlapping groups described as counts in each region of a three-circle Venn diagram; find how many belong to an exact combination (e.g. both A and B but not C).",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-cgl-R26",
+        "section": "reasoning",
+        "topic": "Venn Diagram",
+        "pattern": "Choose the description of the Venn diagram that best represents three classes (one inside another, partial overlap, disjoint).",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-cgl-R27",
+        "section": "reasoning",
+        "topic": "Seating Arrangement & Puzzles",
+        "pattern": "Linear or circular seating of 5–7 persons with 4–6 clues (immediate neighbour, 'second to the left', ends); question asks who sits at a position or between two people.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ssc-cgl-R28",
+        "section": "reasoning",
+        "topic": "Mirror & Water Image",
+        "pattern": "Mirror image of a clock time or of an alphanumeric/number string (vertical mirror on the right); time question solved by 11:60 − time.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-cgl-R29",
+        "section": "reasoning",
+        "topic": "Paper Folding & Cutting",
+        "pattern": "A square sheet is folded once or twice and punched/cut; predict how it looks (number/position of holes) when unfolded.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-R30",
+        "section": "reasoning",
+        "topic": "Embedded & Counting Figures",
+        "pattern": "Count triangles/squares in a figure built from a square or triangle with diagonals and mid-lines.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-R31",
+        "section": "reasoning",
+        "topic": "Cubes & Dice",
+        "pattern": "Dice: from two or three positions of the same die, find the face opposite to a given face; or a painted cube cut into n³ small cubes – count cubes with 0/1/2/3 painted faces.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-G01",
+        "section": "gk",
+        "topic": "History",
+        "pattern": "Ancient and medieval India: dynasty founders, capitals, rulers' titles, Buddhist/Jain councils, Delhi Sultanate/Mughal/Vijayanagara rulers, battles with years and administrative reforms; distractors are rulers of the same or adjacent dynasty.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-G02",
+        "section": "gk",
+        "topic": "History",
+        "pattern": "Modern India and freedom struggle: founders of organisations/newspapers, INC sessions and presidents, movements with years, Governors-General and their acts.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-G03",
+        "section": "gk",
+        "topic": "Polity",
+        "pattern": "Article-number question: which Article deals with a given provision (FR, DPSP, office, emergency, finance); distractors are nearby Article numbers.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-G04",
+        "section": "gk",
+        "topic": "Polity",
+        "pattern": "Constitution-making, Preamble, amendments, schedules and parts with their subject matter (e.g. which Schedule/amendment added X); distractors are adjacent schedules/amendments.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-G05",
+        "section": "gk",
+        "topic": "Polity",
+        "pattern": "Constitutional/statutory offices: appointment, qualification (age), tenure, removal, oath, and borrowed features of the Constitution.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-G06",
+        "section": "gk",
+        "topic": "Geography",
+        "pattern": "Indian physical geography: rivers (origin, tributaries, states), lakes, passes, hills, national parks and their states.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-G07",
+        "section": "gk",
+        "topic": "Geography",
+        "pattern": "Soils, crops, minerals, climate and resources of India (which soil/crop/mineral/region; seasons and winds).",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-G08",
+        "section": "gk",
+        "topic": "Geography",
+        "pattern": "World/physical geography: atmosphere layers, ocean currents, straits, planets, latitudes and landforms.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-G09",
+        "section": "gk",
+        "topic": "Economy",
+        "pattern": "Banking and monetary policy: RBI instruments (repo, CRR, SLR), functions, institutions and their headquarters.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-G10",
+        "section": "gk",
+        "topic": "Economy",
+        "pattern": "Economic concepts and planning: GDP/GNP, deficits, inflation measures, Five-Year Plans, taxes, government schemes and their launch.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-G11",
+        "section": "gk",
+        "topic": "Physics",
+        "pattern": "Physics: SI units and instruments, and everyday phenomena (mirrors/lenses, dispersion, sound speed, heat, electricity).",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-cgl-G12",
+        "section": "gk",
+        "topic": "Chemistry",
+        "pattern": "Chemistry: common names/formulae of compounds, ores and alloys, acids in foods, pH, gases and periodic-table facts.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-cgl-G13",
+        "section": "gk",
+        "topic": "Biology",
+        "pattern": "Human biology: vitamins/minerals and deficiency diseases, organs and glands, blood, diseases and their causative agents.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-cgl-G14",
+        "section": "gk",
+        "topic": "Biology",
+        "pattern": "Plant biology and classification: tissues, photosynthesis, plant hormones, cell organelles, scientists behind classification.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-G15",
+        "section": "gk",
+        "topic": "Art & Culture",
+        "pattern": "Performing arts and festivals: classical/folk dances, festivals and fairs with their states, instruments and their maestros.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-G16",
+        "section": "gk",
+        "topic": "Art & Culture",
+        "pattern": "Temples, monuments and architectural styles with their builders/dynasties and locations.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ssc-cgl-G17",
+        "section": "gk",
+        "topic": "Current Affairs",
+        "pattern": "Recent national/international events of the last 1–2 years: summits and hosts, missions, schemes and major appointments.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–3 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-G18",
+        "section": "gk",
+        "topic": "Sports",
+        "pattern": "Sports: number of players, terms and trophies of a sport, venues, and recent Olympic/Asian Games/World Cup results involving India.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-cgl-G19",
+        "section": "gk",
+        "topic": "Books, Authors & Awards",
+        "pattern": "Book–author matching (classical and contemporary, including autobiographies) and literary/national award facts.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-Q01",
+        "section": "quant",
+        "topic": "Number System",
+        "pattern": "Unit digit of a power/product or remainder of a large power on division (cyclicity); distractors are adjacent cycle values.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-Q02",
+        "section": "quant",
+        "topic": "Number System",
+        "pattern": "Divisibility and number properties: smallest digit/number to add or subtract for divisibility by 9, 11, 8, which number is divisible, count of factors, primes, or sum of numbers in a range.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-Q03",
+        "section": "quant",
+        "topic": "Simplification",
+        "pattern": "BODMAS simplification with fractions/decimals/brackets or 'value of ?' equations; distractors come from wrong operation order.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-cgl-Q04",
+        "section": "quant",
+        "topic": "Percentage",
+        "pattern": "Basic/successive percentage: x% of a number, net effect of successive increases/decreases, or price rise vs consumption cut.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-cgl-Q05",
+        "section": "quant",
+        "topic": "Percentage",
+        "pattern": "Percentage word problems: election votes, pass-fail marks, salary spent/saved; find the total or the difference.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-Q06",
+        "section": "quant",
+        "topic": "Profit & Loss",
+        "pattern": "Marked price above cost with a discount (or successive discounts) – find profit % or marked price.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-Q07",
+        "section": "quant",
+        "topic": "Profit & Loss",
+        "pattern": "Cost/selling price relation: profit % from CP and SP, CP from SP and gain %, CP of x items = SP of y items, two articles sold at the same price, or false-weight dealers.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-Q08",
+        "section": "quant",
+        "topic": "Simple & Compound Interest",
+        "pattern": "Simple interest: find rate/time/principal from amounts, or the time to become n times.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-cgl-Q09",
+        "section": "quant",
+        "topic": "Simple & Compound Interest",
+        "pattern": "Compound interest for 2–3 years, CI − SI difference, or half-yearly compounding.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-Q10",
+        "section": "quant",
+        "topic": "Ratio & Proportion",
+        "pattern": "Divide an amount in a given (sometimes fractional) ratio, or find shares/partnership profit.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-cgl-Q11",
+        "section": "quant",
+        "topic": "Ratio & Proportion",
+        "pattern": "Ratio change: number added/subtracted to change a ratio, combined ratio A : B : C, or mean/third proportional.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-Q12",
+        "section": "quant",
+        "topic": "Average",
+        "pattern": "Average: simple or consecutive-number averages, inclusion/exclusion/replacement of a member (teacher's age, wrong entry corrected), or overlap of first-k and last-k averages.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-Q13",
+        "section": "quant",
+        "topic": "Time & Work",
+        "pattern": "Two/three workers with individual days; together, one leaves after some days, or efficiency ratio problems.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-Q14",
+        "section": "quant",
+        "topic": "Time & Work",
+        "pattern": "Pipes and cisterns (filling and emptying pipes together) or men-days (M₁D₁ = M₂D₂) proportionality.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-Q15",
+        "section": "quant",
+        "topic": "Time, Speed & Distance",
+        "pattern": "Trains crossing a pole/platform/another train (same or opposite direction) with km/h ↔ m/s conversion.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-Q16",
+        "section": "quant",
+        "topic": "Time, Speed & Distance",
+        "pattern": "Average speed for to-and-fro journeys, relative speed/chase problems, or boats and streams.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-Q17",
+        "section": "quant",
+        "topic": "Algebra",
+        "pattern": "Reciprocal identities: given x ± 1/x = k, find x² + 1/x², x³ ± 1/x³ or x⁴ + 1/x⁴; distractors from sign slips.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ssc-cgl-Q18",
+        "section": "quant",
+        "topic": "Algebra",
+        "pattern": "Symmetric identities in a, b, c: (a + b + c)², a³ + b³ + c³ − 3abc, or a + b + c = 0 shortcuts; also surds like (√a ± √b).",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ssc-cgl-Q19",
+        "section": "quant",
+        "topic": "Geometry",
+        "pattern": "Triangle properties: angle at incentre/orthocentre, angle-bisector/median length, similarity ratios, Pythagorean right-triangle facts.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ssc-cgl-Q20",
+        "section": "quant",
+        "topic": "Geometry",
+        "pattern": "Circle theorems: chords intersecting, tangent length, angle in a semicircle, cyclic quadrilateral opposite angles.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ssc-cgl-Q21",
+        "section": "quant",
+        "topic": "Geometry",
+        "pattern": "Polygons and lines: interior/exterior angles, number of sides or diagonals, angles of a triangle with given ratios.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-Q22",
+        "section": "quant",
+        "topic": "Mensuration",
+        "pattern": "2-D mensuration: area/perimeter of rectangles, triangles (Heron's), circles and sectors, change in area with change in dimensions.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-Q23",
+        "section": "quant",
+        "topic": "Mensuration",
+        "pattern": "3-D mensuration: volume/surface area of cube, cuboid, cylinder, cone, sphere/hemisphere; melting and recasting.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-Q24",
+        "section": "quant",
+        "topic": "Trigonometry",
+        "pattern": "Standard-angle values and identity simplification (sin²θ + cos²θ, complementary angles like tan 10° tan 80°).",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-Q25",
+        "section": "quant",
+        "topic": "Trigonometry",
+        "pattern": "Conditional trigonometry: given sec θ + tan θ, tan θ = a/b or similar, find another ratio/expression.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ssc-cgl-Q26",
+        "section": "quant",
+        "topic": "Data Interpretation",
+        "pattern": "Small table/bar data (given in text) for 4–6 years or items: ratio, percentage increase, average or difference between categories.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 set per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-E01",
+        "section": "english",
+        "topic": "Reading Comprehension",
+        "pattern": "Factual RC question on a 150–250-word passage: answer is stated in the passage; distractors use passage words with altered meaning.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-cgl-E02",
+        "section": "english",
+        "topic": "Reading Comprehension",
+        "pattern": "Inference/main-idea/title RC question: choose the central theme or what the author implies.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-E03",
+        "section": "english",
+        "topic": "Reading Comprehension",
+        "pattern": "Vocabulary/tone in context: synonym/antonym of a word used in the passage or the author's tone.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-E04",
+        "section": "english",
+        "topic": "Cloze Test",
+        "pattern": "Cloze passage with five numbered blanks; each item tests contextual vocabulary, a connector or a preposition; distractors are near-synonyms that fail the collocation.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "5 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-E05",
+        "section": "english",
+        "topic": "Fill in the Blanks",
+        "pattern": "Single-sentence blank requiring the contextually correct word (collocation, near-synonym choice).",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-E06",
+        "section": "english",
+        "topic": "Fill in the Blanks",
+        "pattern": "Single-sentence blank testing grammar – prepositions, articles, tense, conjunctions.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-cgl-E07",
+        "section": "english",
+        "topic": "Synonyms",
+        "pattern": "Synonym of a standalone or underlined word (moderate CGL-level vocabulary); distractors include antonyms and look-alike words.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-E08",
+        "section": "english",
+        "topic": "Antonyms",
+        "pattern": "Antonym of a standalone or underlined word; the trap option is a synonym of the given word.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-E09",
+        "section": "english",
+        "topic": "Idioms & Phrases",
+        "pattern": "Meaning of a common idiom/phrase (or the idiom that fits a sentence); distractors are literal readings.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-E10",
+        "section": "english",
+        "topic": "One-word Substitution",
+        "pattern": "One-word substitute for a descriptive phrase (persons, -cide, -phobia, -archy words); distractors are related words of the same family.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-E11",
+        "section": "english",
+        "topic": "Spelling Correction",
+        "pattern": "Select the correctly (or incorrectly) spelt word among four look-alike spellings (double letters, ie/ei, -ance/-ence).",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-cgl-E12",
+        "section": "english",
+        "topic": "Error Spotting",
+        "pattern": "Sentence split into 3–4 segments; error in subject–verb agreement, pronoun or noun number (each/one of/neither…nor, uncountable nouns).",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-E13",
+        "section": "english",
+        "topic": "Error Spotting",
+        "pattern": "Sentence split into segments; error in tense sequence, preposition, comparative/superlative, or conjunction pairs (hardly…when, no sooner…than).",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ssc-cgl-E14",
+        "section": "english",
+        "topic": "Sentence Improvement",
+        "pattern": "Improve the bracketed/underlined part: tense, conditional, preposition or idiom usage; 'No improvement' sometimes an option.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-E15",
+        "section": "english",
+        "topic": "Active & Passive Voice",
+        "pattern": "Change active to passive (or vice versa) across tenses, including questions and modals; distractors change the tense.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cgl-E16",
+        "section": "english",
+        "topic": "Direct & Indirect Speech",
+        "pattern": "Direct ↔ indirect speech: reporting verb change, backshift of tense, pronoun and time-word changes; imperatives with 'ordered/requested'.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      }
+    ]
+  },
   "resources": {
     "pyqAvailable": true,
     "officialPYQ": "https://ssc.gov.in",
@@ -493,7 +1698,9 @@
       ],
       "answer": 1,
       "explanation": "169 = 13². So the answer is 17² = 289.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-R02",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-002",
@@ -509,7 +1716,9 @@
       ],
       "answer": 3,
       "explanation": "Each letter is replaced by its opposite letter (positions add up to 27): D↔W, F↔U, H↔S, J↔Q. So K→P, M→N, O→L, Q→J, giving PNLJ.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-R03",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-003",
@@ -525,7 +1734,9 @@
       ],
       "answer": 1,
       "explanation": "121 = 11², 169 = 13² and 225 = 15² are perfect squares; 290 is not.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-R05",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-004",
@@ -541,7 +1752,9 @@
       ],
       "answer": 0,
       "explanation": "Pattern: ×2 + 1, ×2 + 2, ×2 + 3, ×2 + 4 … So 106 × 2 + 5 = 217.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-R07",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-005",
@@ -557,7 +1770,9 @@
       ],
       "answer": 3,
       "explanation": "First letters: A, C, F, J (+2, +3, +4) → next +5 = O. Second letters: Z, X, U, Q (−2, −3, −4) → next −5 = L. Answer: OL.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-R08",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-006",
@@ -573,7 +1788,9 @@
       ],
       "answer": 1,
       "explanation": "Each letter is replaced by its opposite letter (A↔Z, B↔Y …): T→G, A→Z, B→Y, L→O, E→V. So C→X, H→S, A→Z, I→R, R→I = XSZRI.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-R09",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-007",
@@ -589,7 +1806,9 @@
       ],
       "answer": 2,
       "explanation": "The word is reversed and each letter is moved one step forward: PAINT → TNIAP → UOJBQ. BRUSH → HSURB → ITVSC.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-R09",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-008",
@@ -605,7 +1824,9 @@
       ],
       "answer": 3,
       "explanation": "B is C's daughter and A is B's brother, so A is C's son. D is C's father, so A is D's grandson.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-R12",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-009",
@@ -621,7 +1842,9 @@
       ],
       "answer": 0,
       "explanation": "Take start (0, 0). North 10 → (0, 10); right = East 6 → (6, 10); right = South 18 → (6, −8); right = West 6 → (0, −8). He is 8 m South of the start.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-R14",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-010",
@@ -637,7 +1860,9 @@
       ],
       "answer": 2,
       "explanation": "The cats that are dogs cannot be rats, so 'Some cats are not rats' is certain. Other cats may or may not be rats, so II does not follow.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-R15",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-011",
@@ -653,7 +1878,9 @@
       ],
       "answer": 1,
       "explanation": "Replace the signs: 16 ÷ 4 × 3 + 8 − 5 = 4 × 3 + 8 − 5 = 12 + 8 − 5 = 15.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-R16",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-012",
@@ -669,7 +1896,9 @@
       ],
       "answer": 0,
       "explanation": "a # b = a² + b²: 9 + 16 = 25, 25 + 144 = 169. So 8 # 15 = 64 + 225 = 289.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-R19",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-013",
@@ -685,7 +1914,9 @@
       ],
       "answer": 3,
       "explanation": "Position from right = 40 − 14 + 1 = 27.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-R21",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-014",
@@ -701,7 +1932,9 @@
       ],
       "answer": 1,
       "explanation": "Plane comes before Planet (it is its prefix). Then compare the 5th letters: Plan-e(t), Plan-k, Plan-n, Plan-t → Planet, Plank, Planner, Plant. Order: Plane, Planet, Plank, Planner, Plant = 3, 2, 5, 4, 1.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-R22",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-015",
@@ -717,7 +1950,9 @@
       ],
       "answer": 0,
       "explanation": "From 15 Aug 2024 to 15 Aug 2025 there is no 29 February, so +1 day (Friday). From 15 Aug 2025 to 15 Aug 2026 there is again no 29 February, so +1 day → Saturday.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-R23",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-016",
@@ -733,7 +1968,9 @@
       ],
       "answer": 2,
       "explanation": "Chandragupta Maurya founded the Maurya Empire around 321 BCE with the help of Chanakya (Kautilya).",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-G01",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-017",
@@ -749,7 +1986,9 @@
       ],
       "answer": 3,
       "explanation": "The Battle of Plassey was fought on 23 June 1757 between Robert Clive's East India Company forces and Nawab Siraj-ud-Daulah. Buxar was 1764 and the Third Battle of Panipat 1761.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-G02",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-018",
@@ -765,7 +2004,9 @@
       ],
       "answer": 2,
       "explanation": "Gopal Krishna Gokhale founded the Servants of India Society in Pune in 1905.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-G02",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-019",
@@ -781,7 +2022,9 @@
       ],
       "answer": 0,
       "explanation": "The 42nd Amendment Act, 1976, added Part IV-A (Article 51A) on Fundamental Duties, on the recommendation of the Swaran Singh Committee.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-G04",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-020",
@@ -797,7 +2040,9 @@
       ],
       "answer": 3,
       "explanation": "Article 61 deals with impeachment of the President. Article 72 is the pardoning power, Article 56 the term of office and Article 74 the Council of Ministers.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-G03",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-021",
@@ -813,7 +2058,9 @@
       ],
       "answer": 1,
       "explanation": "The Tenth Schedule was added by the 52nd Amendment Act, 1985 and deals with anti-defection.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-G04",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-022",
@@ -829,7 +2076,9 @@
       ],
       "answer": 1,
       "explanation": "Rajasthan is the largest state by area (about 3.42 lakh km²), followed by Madhya Pradesh and Maharashtra.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-G06",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-023",
@@ -845,7 +2094,9 @@
       ],
       "answer": 3,
       "explanation": "The Palk Strait lies between Tamil Nadu and the northern part of Sri Lanka.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-G06",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-024",
@@ -861,7 +2112,9 @@
       ],
       "answer": 2,
       "explanation": "The Godavari, the longest river of peninsular India, is called the Dakshin Ganga (Ganga of the South).",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-G06",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-025",
@@ -877,7 +2130,9 @@
       ],
       "answer": 0,
       "explanation": "Under Article 279A, the GST Council is chaired by the Union Finance Minister; state finance ministers are members.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-G10",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-026",
@@ -893,7 +2148,9 @@
       ],
       "answer": 1,
       "explanation": "Repo (repurchase) rate is the rate at which the RBI lends to banks against eligible securities. The rate at which the RBI absorbs funds from banks is the reverse repo / SDF rate.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-G09",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-027",
@@ -909,7 +2166,9 @@
       ],
       "answer": 0,
       "explanation": "Charge is measured in coulomb (C). Ampere is the unit of current, volt of potential difference and ohm of resistance.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-G11",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-028",
@@ -925,7 +2184,9 @@
       ],
       "answer": 3,
       "explanation": "Baking soda is sodium hydrogen carbonate (sodium bicarbonate), NaHCO₃. Na₂CO₃ is washing soda (anhydrous form).",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-G12",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-029",
@@ -941,7 +2202,9 @@
       ],
       "answer": 2,
       "explanation": "Vitamin C (ascorbic acid) deficiency causes scurvy (bleeding gums). Vitamin A → night blindness, D → rickets, B₁ → beriberi.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-G13",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-030",
@@ -957,7 +2220,9 @@
       ],
       "answer": 2,
       "explanation": "The Konark Sun Temple (13th century) was built by King Narasimhadeva I of the Eastern Ganga dynasty. It is a UNESCO World Heritage Site.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-G16",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-031",
@@ -973,7 +2238,9 @@
       ],
       "answer": 0,
       "explanation": "Unit digits of powers of 7 repeat in the cycle 7, 9, 3, 1. 35 = 4 × 8 + 3, so the unit digit is the 3rd in the cycle = 3.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-Q01",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-032",
@@ -989,7 +2256,9 @@
       ],
       "answer": 1,
       "explanation": "Number = 72 ÷ 0.40 = 180. 75% of 180 = 135.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-Q04",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-033",
@@ -1005,7 +2274,9 @@
       ],
       "answer": 3,
       "explanation": "Let CP = 100. MP = 140. SP = 140 × 0.85 = 119. Profit = 19%.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-Q06",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-034",
@@ -1021,7 +2292,9 @@
       ],
       "answer": 2,
       "explanation": "For 2 years, CI − SI = P(r/100)² = 12000 × (0.1)² = ₹120.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-Q09",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-035",
@@ -1037,7 +2310,9 @@
       ],
       "answer": 1,
       "explanation": "Multiply by 12: 1/2 : 1/3 : 1/4 = 6 : 4 : 3 (13 parts). One part = 7800 ÷ 13 = 600. B = 4 × 600 = ₹2,400.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-Q10",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-036",
@@ -1053,7 +2328,9 @@
       ],
       "answer": 3,
       "explanation": "Sum of all = 550. First six = 294, last six = 312. The 6th number is counted twice: 294 + 312 − 550 = 56.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-Q12",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-037",
@@ -1069,7 +2346,9 @@
       ],
       "answer": 0,
       "explanation": "Together per day = 1/12 + 1/18 = 5/36. In 4 days = 20/36 = 5/9. Remaining 4/9 is done by B in (4/9) × 18 = 8 days.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-Q13",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-038",
@@ -1085,7 +2364,9 @@
       ],
       "answer": 3,
       "explanation": "Distance = 240 + 360 = 600 m; speed = 600/30 = 20 m/s = 20 × 18/5 = 72 km/h.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-Q15",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-039",
@@ -1101,7 +2382,9 @@
       ],
       "answer": 0,
       "explanation": "x³ + 1/x³ = (x + 1/x)³ − 3(x + 1/x) = 125 − 15 = 110.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-Q17",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-040",
@@ -1117,7 +2400,9 @@
       ],
       "answer": 2,
       "explanation": "(a + b + c)² = a² + b² + c² + 2(ab + bc + ca) → 144 = 50 + 2S → S = 47.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-Q18",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-041",
@@ -1133,7 +2418,9 @@
       ],
       "answer": 1,
       "explanation": "∠BOC = 90° + ∠A/2 = 90° + 35° = 125°.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-Q19",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-042",
@@ -1149,7 +2436,9 @@
       ],
       "answer": 0,
       "explanation": "By the intersecting chords theorem, AP × PB = CP × PD → 24 = 3 × PD → PD = 8 cm.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-Q20",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-043",
@@ -1165,7 +2454,9 @@
       ],
       "answer": 2,
       "explanation": "Surface area = 4πr² = 4 × (22/7) × 441 = 4 × 22 × 63 = 5544 cm².",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-Q23",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-044",
@@ -1181,7 +2472,9 @@
       ],
       "answer": 1,
       "explanation": "Since sec²θ − tan²θ = 1, sec θ − tan θ = 1/3. Adding: 2 sec θ = 10/3 → sec θ = 5/3; tan θ = 4/3. sin θ = tan θ / sec θ = 4/5.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-Q25",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-045",
@@ -1197,7 +2490,9 @@
       ],
       "answer": 3,
       "explanation": "Five-year average = (120 + 150 + 135 + 180 + 210)/5 = 795/5 = 159. Years above 159: 2024 (180) and 2025 (210). Their average = 390/2 = 195.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-Q26",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-046",
@@ -1213,7 +2508,9 @@
       ],
       "answer": 2,
       "explanation": "Abundant means existing in large quantities – plentiful. Scarce is its antonym.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-E07",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-047",
@@ -1229,7 +2526,9 @@
       ],
       "answer": 0,
       "explanation": "Frugal means economical/sparing; its opposite is extravagant. Thrifty is a synonym.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-E08",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-048",
@@ -1245,7 +2544,9 @@
       ],
       "answer": 3,
       "explanation": "'Burn the midnight oil' means to stay up late working or studying.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-E09",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-049",
@@ -1261,7 +2562,9 @@
       ],
       "answer": 1,
       "explanation": "Insolvent = unable to pay debts. Inept = unskilled; impudent = disrespectful.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-E10",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-050",
@@ -1277,7 +2580,9 @@
       ],
       "answer": 0,
       "explanation": "The correct spelling has double 'c' and double 'm': accommodate.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-E11",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-051",
@@ -1293,7 +2598,9 @@
       ],
       "answer": 2,
       "explanation": "With 'neither … nor', the verb agrees with the nearer subject. 'Assistants' is plural, so 'was' should be 'were'.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-E12",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-052",
@@ -1309,7 +2616,9 @@
       ],
       "answer": 2,
       "explanation": "'Hardly' is followed by 'when', not 'than': Hardly had I reached the station when the train left.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-E13",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-053",
@@ -1325,7 +2634,9 @@
       ],
       "answer": 0,
       "explanation": "For an imaginary/hypothetical present condition, the subjunctive 'were' is used: If I were the Prime Minister…",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-E14",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-054",
@@ -1341,7 +2652,9 @@
       ],
       "answer": 2,
       "explanation": "Present perfect active (has approved) becomes present perfect passive (has been approved).",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-E15",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-055",
@@ -1357,7 +2670,9 @@
       ],
       "answer": 1,
       "explanation": "'Said to' → 'told'; 'will' → 'would'; 'I' → 'she', 'you' → 'me'; 'tomorrow' → 'the next day'.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-E16",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-056",
@@ -1373,7 +2688,9 @@
       ],
       "answer": 3,
       "explanation": "Both parties would praise only a fair, unbiased decision – 'impartial'.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-E05",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-057",
@@ -1389,7 +2706,9 @@
       ],
       "answer": 3,
       "explanation": "The passage says their tangled roots slow incoming waves and trap sediment, protecting the shore from erosion and storm surges.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-E01",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-058",
@@ -1405,7 +2724,9 @@
       ],
       "answer": 0,
       "explanation": "The passage states that most of the carbon is locked in waterlogged soil where it decays very slowly.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-E01",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-059",
@@ -1421,7 +2742,9 @@
       ],
       "answer": 2,
       "explanation": "Mangroves being cleared at an 'alarming' rate means at a worrying, disturbing rate.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-E03",
+      "source": "curated"
     },
     {
       "id": "ssc-cgl-060",
@@ -1437,7 +2760,1089 @@
       ],
       "answer": 1,
       "explanation": "'Despite' signals contrast, so the residents did not leave. 'Refuse' takes a to-infinitive; 'deny' and 'reject' do not ('denied to leave' is incorrect).",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cgl-E04",
+      "source": "curated"
+    },
+    {
+      "id": "ssc-cgl-061",
+      "section": "reasoning",
+      "topic": "Analogy",
+      "difficulty": "medium",
+      "question": "Select the option that is related to the third number in the same way as the second number is related to the first number and the sixth number is related to the fifth number.\n(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits.)\n7 : 52 :: 11 : ? :: 4 : 19",
+      "options": [
+        "118",
+        "132",
+        "124",
+        "125"
+      ],
+      "answer": 2,
+      "explanation": "Rule: n² + 3. 7² + 3 = 52 and 4² + 3 = 19, so 11² + 3 = 124.",
+      "source": "ai",
+      "archetype": "ssc-cgl-R02",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-062",
+      "section": "reasoning",
+      "topic": "Analogy",
+      "difficulty": "easy",
+      "question": "Select the option that is related to the third word in the same way as the second word is related to the first word.\nThermometer : Temperature :: Anemometer : ?",
+      "options": [
+        "Humidity",
+        "Air pressure",
+        "Rainfall",
+        "Wind speed"
+      ],
+      "answer": 3,
+      "explanation": "A thermometer measures temperature; an anemometer measures wind speed (humidity – hygrometer, pressure – barometer, rainfall – rain gauge).",
+      "source": "ai",
+      "archetype": "ssc-cgl-R01",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-063",
+      "section": "reasoning",
+      "topic": "Classification",
+      "difficulty": "medium",
+      "question": "Three of the following four number-triads are alike in a certain way and one is different. Select the one that is different.\n(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits.)",
+      "options": [
+        "(3, 8, 25)",
+        "(4, 9, 31)",
+        "(5, 7, 30)",
+        "(6, 3, 13)"
+      ],
+      "answer": 0,
+      "explanation": "In the others, third = first × second − 5: 4×9−5 = 31, 5×7−5 = 30, 6×3−5 = 13. But 3×8−5 = 19, not 25.",
+      "source": "ai",
+      "archetype": "ssc-cgl-R05",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-064",
+      "section": "reasoning",
+      "topic": "Classification",
+      "difficulty": "easy",
+      "question": "Three of the following four words are alike in a certain way and one is different. Pick the odd one out.",
+      "options": [
+        "Kidney",
+        "Femur",
+        "Liver",
+        "Pancreas"
+      ],
+      "answer": 1,
+      "explanation": "Kidney, liver and pancreas are organs; the femur is a bone.",
+      "source": "ai",
+      "archetype": "ssc-cgl-R04",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-065",
+      "section": "reasoning",
+      "topic": "Number & Letter Series",
+      "difficulty": "medium",
+      "question": "Select the number that will come in place of the question mark (?) in the following series.\n3, 7, 16, 35, 74, ?",
+      "options": [
+        "151",
+        "153",
+        "149",
+        "155"
+      ],
+      "answer": 1,
+      "explanation": "×2 + 1, ×2 + 2, ×2 + 3, ×2 + 4, so the next term is 74 × 2 + 5 = 153.",
+      "source": "ai",
+      "archetype": "ssc-cgl-R07",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-066",
+      "section": "reasoning",
+      "topic": "Number & Letter Series",
+      "difficulty": "medium",
+      "question": "Select the letter-cluster that will come next in the following series.\nBDG, EGJ, HJM, KMP, ?",
+      "options": [
+        "NOS",
+        "MPS",
+        "NPT",
+        "NPS"
+      ],
+      "answer": 3,
+      "explanation": "Each letter moves +3: K→N, M→P, P→S, giving NPS.",
+      "source": "ai",
+      "archetype": "ssc-cgl-R08",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-067",
+      "section": "reasoning",
+      "topic": "Coding-Decoding",
+      "difficulty": "medium",
+      "question": "In a certain code language, 'MANGO' is written as 'QIPCO'. How will 'LEMON' be written in that language?",
+      "options": [
+        "NGOQP",
+        "PQOGM",
+        "PQOGN",
+        "QPOGN"
+      ],
+      "answer": 2,
+      "explanation": "Each letter is moved +2 (MANGO → OCPIQ) and the result is reversed (QIPCO). LEMON → NGOQP → reversed PQOGN.",
+      "source": "ai",
+      "archetype": "ssc-cgl-R09",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-068",
+      "section": "reasoning",
+      "topic": "Coding-Decoding",
+      "difficulty": "medium",
+      "question": "In a certain code language, 'FACE' is coded as 30 and 'BEAD' is coded as 24. How will 'DEAF' be coded in that language?",
+      "options": [
+        "32",
+        "16",
+        "34",
+        "30"
+      ],
+      "answer": 0,
+      "explanation": "Code = 2 × (sum of alphabet positions). FACE: 6+1+3+5 = 15 → 30; BEAD: 2+5+1+4 = 12 → 24; DEAF: 4+5+1+6 = 16 → 32.",
+      "source": "ai",
+      "archetype": "ssc-cgl-R10",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-069",
+      "section": "reasoning",
+      "topic": "Mathematical Operations",
+      "difficulty": "medium",
+      "question": "Which two mathematical signs should be interchanged to make the given equation correct?\n24 − 6 + 3 × 4 ÷ 5 = 21",
+      "options": [
+        "÷ and +",
+        "− and +",
+        "× and ÷",
+        "− and ÷"
+      ],
+      "answer": 0,
+      "explanation": "Interchanging ÷ and + gives 24 − 6 ÷ 3 × 4 + 5 = 24 − 8 + 5 = 21. The other swaps give 27.6, 21.75 and 11.",
+      "source": "ai",
+      "archetype": "ssc-cgl-R17",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-070",
+      "section": "reasoning",
+      "topic": "Mathematical Operations",
+      "difficulty": "medium",
+      "question": "If '+' means '−', '−' means '×', '×' means '÷' and '÷' means '+', what will be the value of the following expression?\n48 × 6 ÷ 9 − 3 + 15",
+      "options": [
+        "26",
+        "20",
+        "14",
+        "36"
+      ],
+      "answer": 1,
+      "explanation": "Substituting: 48 ÷ 6 + 9 × 3 − 15 = 8 + 27 − 15 = 20.",
+      "source": "ai",
+      "archetype": "ssc-cgl-R16",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-071",
+      "section": "reasoning",
+      "topic": "Missing Number",
+      "difficulty": "medium",
+      "question": "If 6 ★ 4 = 52, 7 ★ 3 = 58 and 5 ★ 2 = 29, then what is the value of 8 ★ 5?",
+      "options": [
+        "80",
+        "93",
+        "169",
+        "89"
+      ],
+      "answer": 3,
+      "explanation": "a ★ b = a² + b²: 36+16 = 52, 49+9 = 58, 25+4 = 29. So 8 ★ 5 = 64 + 25 = 89.",
+      "source": "ai",
+      "archetype": "ssc-cgl-R19",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-072",
+      "section": "reasoning",
+      "topic": "Missing Number",
+      "difficulty": "hard",
+      "question": "Select the number that will come in place of the question mark (?) in the following series.\n5, 6, 14, 45, ?, 925",
+      "options": [
+        "180",
+        "186",
+        "184",
+        "190"
+      ],
+      "answer": 2,
+      "explanation": "×1 + 1, ×2 + 2, ×3 + 3, ×4 + 4, ×5 + 5: 45 × 4 + 4 = 184, and 184 × 5 + 5 = 925 confirms it.",
+      "source": "ai",
+      "archetype": "ssc-cgl-R18",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-073",
+      "section": "reasoning",
+      "topic": "Blood Relations",
+      "difficulty": "medium",
+      "question": "In a certain code language, 'A + B' means 'A is the father of B', 'A − B' means 'A is the wife of B', 'A × B' means 'A is the brother of B' and 'A ÷ B' means 'A is the daughter of B'.\nIf P ÷ Q + R × S, how is P related to S?",
+      "options": [
+        "Sister",
+        "Daughter",
+        "Mother",
+        "Niece"
+      ],
+      "answer": 0,
+      "explanation": "P is the daughter of Q, Q is the father of R, and R is the brother of S. So P and S are both children of Q; P is female, hence P is S's sister.",
+      "source": "ai",
+      "archetype": "ssc-cgl-R13",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-074",
+      "section": "reasoning",
+      "topic": "Cubes & Dice",
+      "difficulty": "medium",
+      "question": "A cube of side 5 cm is painted red on all its faces and then cut into 125 small cubes of side 1 cm each. How many small cubes have exactly two faces painted?",
+      "options": [
+        "24",
+        "36",
+        "48",
+        "54"
+      ],
+      "answer": 1,
+      "explanation": "Cubes with exactly two painted faces lie on the edges, excluding corners: 12 × (5 − 2) = 36.",
+      "source": "ai",
+      "archetype": "ssc-cgl-R31",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-075",
+      "section": "reasoning",
+      "topic": "Seating Arrangement & Puzzles",
+      "difficulty": "hard",
+      "question": "Six friends A, B, C, D, E and F are sitting in a straight row, all facing north. B sits at one of the extreme ends. C sits second to the right of B. D sits immediately to the right of C. A sits between B and C. F does not sit at an extreme end.\nWho sits immediately to the left of F?",
+      "options": [
+        "E",
+        "C",
+        "D",
+        "A"
+      ],
+      "answer": 2,
+      "explanation": "B cannot be at the right end (C is to his right), so B is 1st from the left, A 2nd, C 3rd, D 4th. F is not at an end, so F is 5th and E 6th. D is immediately to the left of F.",
+      "source": "ai",
+      "archetype": "ssc-cgl-R27",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-076",
+      "section": "gk",
+      "topic": "History",
+      "difficulty": "medium",
+      "question": "The Fourth Buddhist Council was held in Kashmir under the patronage of which ruler?",
+      "options": [
+        "Ashoka",
+        "Ajatashatru",
+        "Harshavardhana",
+        "Kanishka"
+      ],
+      "answer": 3,
+      "explanation": "The Fourth Buddhist Council was convened in Kashmir under the Kushana ruler Kanishka; Ashoka patronised the Third Council and Ajatashatru the First.",
+      "source": "ai",
+      "archetype": "ssc-cgl-G01",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-077",
+      "section": "gk",
+      "topic": "History",
+      "difficulty": "medium",
+      "question": "The Marathi newspaper 'Kesari' was started in 1881 by which nationalist leader (along with his associates)?",
+      "options": [
+        "Gopal Krishna Gokhale",
+        "Dadabhai Naoroji",
+        "Bipin Chandra Pal",
+        "Bal Gangadhar Tilak"
+      ],
+      "answer": 3,
+      "explanation": "Kesari (Marathi) and Mahratta (English) were started by Bal Gangadhar Tilak with Agarkar and others in 1881.",
+      "source": "ai",
+      "archetype": "ssc-cgl-G02",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-078",
+      "section": "gk",
+      "topic": "Polity",
+      "difficulty": "medium",
+      "question": "Which Article of the Constitution of India directs the State to endeavour to secure a Uniform Civil Code for citizens?",
+      "options": [
+        "Article 48",
+        "Article 44",
+        "Article 40",
+        "Article 51"
+      ],
+      "answer": 1,
+      "explanation": "Article 44 (a Directive Principle) deals with the Uniform Civil Code. Article 40 – village panchayats, 48 – agriculture and animal husbandry, 51 – international peace.",
+      "source": "ai",
+      "archetype": "ssc-cgl-G03",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-079",
+      "section": "gk",
+      "topic": "Polity",
+      "difficulty": "easy",
+      "question": "What is the minimum age prescribed by the Constitution of India for a person to be elected as the President of India?",
+      "options": [
+        "30 years",
+        "25 years",
+        "35 years",
+        "40 years"
+      ],
+      "answer": 2,
+      "explanation": "Article 58 requires the President to have completed 35 years of age.",
+      "source": "ai",
+      "archetype": "ssc-cgl-G05",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-080",
+      "section": "gk",
+      "topic": "Geography",
+      "difficulty": "medium",
+      "question": "Dudhwa National Park is located in which state of India?",
+      "options": [
+        "Uttar Pradesh",
+        "Uttarakhand",
+        "Madhya Pradesh",
+        "Bihar"
+      ],
+      "answer": 0,
+      "explanation": "Dudhwa National Park is in the Lakhimpur Kheri district of Uttar Pradesh, on the Indo-Nepal border.",
+      "source": "ai",
+      "archetype": "ssc-cgl-G06",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-081",
+      "section": "gk",
+      "topic": "Geography",
+      "difficulty": "easy",
+      "question": "The ozone layer that absorbs most of the Sun's ultraviolet radiation lies in which layer of the atmosphere?",
+      "options": [
+        "Troposphere",
+        "Mesosphere",
+        "Thermosphere",
+        "Stratosphere"
+      ],
+      "answer": 3,
+      "explanation": "The ozone layer lies in the stratosphere, roughly 15–35 km above the Earth's surface.",
+      "source": "ai",
+      "archetype": "ssc-cgl-G08",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-082",
+      "section": "gk",
+      "topic": "Economy",
+      "difficulty": "medium",
+      "question": "Which of the following is a qualitative (selective) instrument of credit control used by the Reserve Bank of India?",
+      "options": [
+        "Cash Reserve Ratio",
+        "Statutory Liquidity Ratio",
+        "Moral suasion",
+        "Bank rate"
+      ],
+      "answer": 2,
+      "explanation": "CRR, SLR and the bank rate are quantitative tools; moral suasion is a qualitative/selective method.",
+      "source": "ai",
+      "archetype": "ssc-cgl-G09",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-083",
+      "section": "gk",
+      "topic": "Physics",
+      "difficulty": "medium",
+      "question": "What is the SI unit of magnetic flux?",
+      "options": [
+        "Weber",
+        "Tesla",
+        "Henry",
+        "Gauss"
+      ],
+      "answer": 0,
+      "explanation": "Magnetic flux is measured in weber (Wb); tesla is the unit of magnetic flux density and henry of inductance.",
+      "source": "ai",
+      "archetype": "ssc-cgl-G11",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-084",
+      "section": "gk",
+      "topic": "Chemistry",
+      "difficulty": "medium",
+      "question": "What is the chemical name of Plaster of Paris?",
+      "options": [
+        "Calcium sulphate dihydrate",
+        "Calcium sulphate hemihydrate",
+        "Calcium carbonate",
+        "Calcium oxychloride"
+      ],
+      "answer": 1,
+      "explanation": "Plaster of Paris is CaSO₄·½H₂O, calcium sulphate hemihydrate; the dihydrate is gypsum and calcium oxychloride is bleaching powder.",
+      "source": "ai",
+      "archetype": "ssc-cgl-G12",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-085",
+      "section": "gk",
+      "topic": "Biology",
+      "difficulty": "easy",
+      "question": "Which endocrine gland is often called the 'master gland' of the human body?",
+      "options": [
+        "Thyroid gland",
+        "Adrenal gland",
+        "Pituitary gland",
+        "Pancreas"
+      ],
+      "answer": 2,
+      "explanation": "The pituitary gland regulates several other endocrine glands, hence 'master gland'.",
+      "source": "ai",
+      "archetype": "ssc-cgl-G13",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-086",
+      "section": "gk",
+      "topic": "Art & Culture",
+      "difficulty": "easy",
+      "question": "Kuchipudi is a classical dance form that originated in which present-day state?",
+      "options": [
+        "Kerala",
+        "Andhra Pradesh",
+        "Karnataka",
+        "Odisha"
+      ],
+      "answer": 1,
+      "explanation": "Kuchipudi takes its name from a village in the Krishna district of Andhra Pradesh.",
+      "source": "ai",
+      "archetype": "ssc-cgl-G15",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-087",
+      "section": "gk",
+      "topic": "Art & Culture",
+      "difficulty": "hard",
+      "question": "The rock-cut Kailasa temple (Cave 16) at Ellora was built under the patronage of which dynasty?",
+      "options": [
+        "Chalukyas of Badami",
+        "Pallava",
+        "Chola",
+        "Rashtrakuta"
+      ],
+      "answer": 3,
+      "explanation": "The Kailasa temple was excavated in the 8th century under the Rashtrakuta king Krishna I.",
+      "source": "ai",
+      "archetype": "ssc-cgl-G16",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-088",
+      "section": "gk",
+      "topic": "Current Affairs",
+      "difficulty": "medium",
+      "question": "What was the name of the lander of India's Chandrayaan-3 mission that touched down near the Moon's south pole in August 2023?",
+      "options": [
+        "Vikram",
+        "Pragyan",
+        "Aryabhata",
+        "Shakti"
+      ],
+      "answer": 0,
+      "explanation": "The lander was Vikram; Pragyan was the rover it carried. The landing site was later named 'Shiv Shakti' point.",
+      "source": "ai",
+      "archetype": "ssc-cgl-G17",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-089",
+      "section": "gk",
+      "topic": "Sports",
+      "difficulty": "easy",
+      "question": "The Durand Cup, one of the oldest tournaments of its kind in Asia, is associated with which sport?",
+      "options": [
+        "Hockey",
+        "Cricket",
+        "Football",
+        "Golf"
+      ],
+      "answer": 2,
+      "explanation": "The Durand Cup (started 1888) is a football tournament.",
+      "source": "ai",
+      "archetype": "ssc-cgl-G18",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-090",
+      "section": "gk",
+      "topic": "Books, Authors & Awards",
+      "difficulty": "medium",
+      "question": "Who is the author of the novel 'Train to Pakistan'?",
+      "options": [
+        "Khushwant Singh",
+        "Mulk Raj Anand",
+        "R. K. Narayan",
+        "Amitav Ghosh"
+      ],
+      "answer": 0,
+      "explanation": "'Train to Pakistan' (1956), set during Partition, was written by Khushwant Singh.",
+      "source": "ai",
+      "archetype": "ssc-cgl-G19",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-091",
+      "section": "quant",
+      "topic": "Algebra",
+      "difficulty": "hard",
+      "question": "If x − 1/x = 3, what is the value of x³ − 1/x³?",
+      "options": [
+        "27",
+        "18",
+        "30",
+        "36"
+      ],
+      "answer": 3,
+      "explanation": "x³ − 1/x³ = (x − 1/x)³ + 3(x − 1/x) = 27 + 9 = 36.",
+      "source": "ai",
+      "archetype": "ssc-cgl-Q17",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-092",
+      "section": "quant",
+      "topic": "Algebra",
+      "difficulty": "hard",
+      "question": "If a + b + c = 9 and ab + bc + ca = 23, what is the value of a³ + b³ + c³ − 3abc?",
+      "options": [
+        "99",
+        "108",
+        "126",
+        "117"
+      ],
+      "answer": 1,
+      "explanation": "a² + b² + c² = 81 − 46 = 35. a³ + b³ + c³ − 3abc = (a + b + c)(a² + b² + c² − ab − bc − ca) = 9 × (35 − 23) = 108.",
+      "source": "ai",
+      "archetype": "ssc-cgl-Q18",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-093",
+      "section": "quant",
+      "topic": "Geometry",
+      "difficulty": "medium",
+      "question": "In △ABC, D and E are points on AB and AC respectively such that DE ∥ BC. If AD = 4 cm, DB = 6 cm and DE = 5 cm, what is the length of BC?",
+      "options": [
+        "7.5 cm",
+        "10 cm",
+        "12.5 cm",
+        "15 cm"
+      ],
+      "answer": 2,
+      "explanation": "△ADE ~ △ABC, so DE/BC = AD/AB = 4/10. BC = 5 × 10/4 = 12.5 cm.",
+      "source": "ai",
+      "archetype": "ssc-cgl-Q19",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-094",
+      "section": "quant",
+      "topic": "Geometry",
+      "difficulty": "medium",
+      "question": "From an external point P, a tangent PT is drawn to a circle with centre O and radius 7 cm. If OP = 25 cm, what is the length of PT?",
+      "options": [
+        "18 cm",
+        "26 cm",
+        "21 cm",
+        "24 cm"
+      ],
+      "answer": 3,
+      "explanation": "OT ⊥ PT, so PT = √(25² − 7²) = √576 = 24 cm.",
+      "source": "ai",
+      "archetype": "ssc-cgl-Q20",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-095",
+      "section": "quant",
+      "topic": "Trigonometry",
+      "difficulty": "medium",
+      "question": "What is the value of tan 15° × tan 25° × tan 45° × tan 65° × tan 75°?",
+      "options": [
+        "1",
+        "0",
+        "√3",
+        "1/√3"
+      ],
+      "answer": 0,
+      "explanation": "tan θ × tan(90° − θ) = 1, so tan15°·tan75° = 1, tan25°·tan65° = 1 and tan45° = 1. Product = 1.",
+      "source": "ai",
+      "archetype": "ssc-cgl-Q24",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-096",
+      "section": "quant",
+      "topic": "Trigonometry",
+      "difficulty": "hard",
+      "question": "If cosec θ − cot θ = 1/3, what is the value of cos θ?",
+      "options": [
+        "3/5",
+        "4/5",
+        "3/4",
+        "4/3"
+      ],
+      "answer": 1,
+      "explanation": "cosec²θ − cot²θ = 1, so cosec θ + cot θ = 3. Adding: cosec θ = 5/3, cot θ = 4/3. cos θ = cot θ / cosec θ = 4/5.",
+      "source": "ai",
+      "archetype": "ssc-cgl-Q25",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-097",
+      "section": "quant",
+      "topic": "Mensuration",
+      "difficulty": "medium",
+      "question": "A solid metallic sphere of radius 6 cm is melted and recast into small solid spheres of radius 2 cm each. How many small spheres are obtained?",
+      "options": [
+        "9",
+        "36",
+        "27",
+        "18"
+      ],
+      "answer": 2,
+      "explanation": "Number = (6/2)³ = 27, since volume varies as r³.",
+      "source": "ai",
+      "archetype": "ssc-cgl-Q23",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-098",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "medium",
+      "question": "The number of laptops sold by a store in five years is: 2021 – 240, 2022 – 300, 2023 – 270, 2024 – 360, 2025 – 330. By what percentage did the sales in 2024 exceed the sales in 2022?",
+      "options": [
+        "16⅔%",
+        "25%",
+        "18%",
+        "20%"
+      ],
+      "answer": 3,
+      "explanation": "(360 − 300)/300 × 100 = 20%. (16⅔% would wrongly use 360 as the base.)",
+      "source": "ai",
+      "archetype": "ssc-cgl-Q26",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-099",
+      "section": "quant",
+      "topic": "Number System",
+      "difficulty": "medium",
+      "question": "If the six-digit number 6x4932 is divisible by 11, what is the value of the digit x?",
+      "options": [
+        "2",
+        "4",
+        "7",
+        "9"
+      ],
+      "answer": 0,
+      "explanation": "(6 + 4 + 3) − (x + 9 + 2) = 2 − x must be 0 or a multiple of 11, so x = 2 (624932 = 11 × 56812).",
+      "source": "ai",
+      "archetype": "ssc-cgl-Q02",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-100",
+      "section": "quant",
+      "topic": "Profit & Loss",
+      "difficulty": "medium",
+      "question": "A trader marks his goods 25% above the cost price and allows two successive discounts of 10% and 4%. What is his profit percentage?",
+      "options": [
+        "11%",
+        "8%",
+        "10%",
+        "6%"
+      ],
+      "answer": 1,
+      "explanation": "SP = 1.25 × 0.90 × 0.96 = 1.08 of CP, so profit = 8%. (11% comes from simply subtracting 14% from 25%.)",
+      "source": "ai",
+      "archetype": "ssc-cgl-Q06",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-101",
+      "section": "quant",
+      "topic": "Simple & Compound Interest",
+      "difficulty": "medium",
+      "question": "The compound interest on a certain sum for 2 years at 10% per annum, compounded annually, is ₹1,680. What is the simple interest on the same sum for the same period at the same rate?",
+      "options": [
+        "₹1,520",
+        "₹1,640",
+        "₹1,600",
+        "₹1,580"
+      ],
+      "answer": 2,
+      "explanation": "CI for 2 years at 10% = 21% of P, so P = 1680/0.21 = ₹8,000. SI = 8000 × 10 × 2/100 = ₹1,600.",
+      "source": "ai",
+      "archetype": "ssc-cgl-Q09",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-102",
+      "section": "quant",
+      "topic": "Ratio & Proportion",
+      "difficulty": "medium",
+      "question": "The incomes of A and B are in the ratio 5 : 4 and their expenditures are in the ratio 3 : 2. If each of them saves ₹8,000, what is A's income?",
+      "options": [
+        "₹20,000",
+        "₹16,000",
+        "₹24,000",
+        "₹18,000"
+      ],
+      "answer": 0,
+      "explanation": "5x − 3y = 8000 and 4x − 2y = 8000. From the second, y = 2x − 4000; substituting, 5x − 6x + 12000 = 8000, so x = 4000. A's income = 5x = ₹20,000.",
+      "source": "ai",
+      "archetype": "ssc-cgl-Q11",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-103",
+      "section": "quant",
+      "topic": "Time, Speed & Distance",
+      "difficulty": "medium",
+      "question": "Two trains of lengths 180 m and 120 m are running on parallel tracks in the same direction at 72 km/h and 54 km/h respectively. In how much time will the faster train completely cross the slower train?",
+      "options": [
+        "30 seconds",
+        "60 seconds",
+        "45 seconds",
+        "75 seconds"
+      ],
+      "answer": 1,
+      "explanation": "Relative speed = 72 − 54 = 18 km/h = 5 m/s. Distance = 180 + 120 = 300 m. Time = 300/5 = 60 s.",
+      "source": "ai",
+      "archetype": "ssc-cgl-Q15",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-104",
+      "section": "quant",
+      "topic": "Time & Work",
+      "difficulty": "medium",
+      "question": "A and B can complete a piece of work in 20 days and 30 days respectively. They start working together, but A leaves 5 days before the work is completed. In how many days is the whole work completed?",
+      "options": [
+        "12",
+        "14",
+        "18",
+        "15"
+      ],
+      "answer": 3,
+      "explanation": "Let the work take t days. A works (t − 5) days, B works t days: (t − 5)/20 + t/30 = 1 → 3t − 15 + 2t = 60 → t = 15.",
+      "source": "ai",
+      "archetype": "ssc-cgl-Q13",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-105",
+      "section": "quant",
+      "topic": "Percentage",
+      "difficulty": "medium",
+      "question": "In an examination, 35% of the candidates failed in Mathematics, 25% failed in English and 10% failed in both subjects. If 1,000 candidates passed in both subjects, how many candidates appeared in the examination?",
+      "options": [
+        "2,500",
+        "1,800",
+        "2,000",
+        "2,200"
+      ],
+      "answer": 2,
+      "explanation": "Failed in at least one = 35 + 25 − 10 = 50%, so 50% passed in both. Total = 1000/0.5 = 2,000.",
+      "source": "ai",
+      "archetype": "ssc-cgl-Q05",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-106",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\nCities are often several degrees warmer than the countryside around them, a phenomenon known as the urban heat island. Concrete, asphalt and brick absorb sunlight during the day and release the stored heat slowly after sunset, so city nights remain uncomfortably warm. Tall buildings trap this heat further by blocking the breeze, while the steady stream of vehicles and air-conditioners adds waste heat of its own. The consequences are not trivial: higher night temperatures increase electricity demand, worsen air quality and pose a serious risk to the elderly and to outdoor workers. Planners, however, have discovered that the problem can be eased with modest measures. Trees and parks cool their surroundings by providing shade and releasing moisture, and roofs painted in light colours reflect much of the sunlight that would otherwise be absorbed. Some cities now require new buildings to include green roofs. None of these steps can make a city as cool as a village, but together they can make urban summers far more bearable.\n\nAccording to the passage, why do city nights remain warm?",
+      "options": [
+        "Building materials release the heat they stored during the day",
+        "Villages send warm winds into cities at night",
+        "Light-coloured roofs absorb more sunlight",
+        "Parks release moisture after sunset"
+      ],
+      "answer": 0,
+      "explanation": "The passage says concrete, asphalt and brick absorb sunlight by day and release the stored heat slowly after sunset.",
+      "source": "ai",
+      "archetype": "ssc-cgl-E01",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-107",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nCities are often several degrees warmer than the countryside around them, a phenomenon known as the urban heat island. Concrete, asphalt and brick absorb sunlight during the day and release the stored heat slowly after sunset, so city nights remain uncomfortably warm. Tall buildings trap this heat further by blocking the breeze, while the steady stream of vehicles and air-conditioners adds waste heat of its own. The consequences are not trivial: higher night temperatures increase electricity demand, worsen air quality and pose a serious risk to the elderly and to outdoor workers. Planners, however, have discovered that the problem can be eased with modest measures. Trees and parks cool their surroundings by providing shade and releasing moisture, and roofs painted in light colours reflect much of the sunlight that would otherwise be absorbed. Some cities now require new buildings to include green roofs. None of these steps can make a city as cool as a village, but together they can make urban summers far more bearable.\n\nWhich of the following best expresses the main idea of the passage?",
+      "options": [
+        "Cities should be abandoned for villages to escape the heat",
+        "Air-conditioners are the only cause of urban heat islands",
+        "Green roofs make cities cooler than the countryside",
+        "Cities trap extra heat, but simple planning measures can reduce the effect"
+      ],
+      "answer": 3,
+      "explanation": "The passage explains why cities are hotter and then describes modest measures (trees, light roofs, green roofs) that ease the problem; it says they cannot make a city as cool as a village.",
+      "source": "ai",
+      "archetype": "ssc-cgl-E02",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-108",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nCities are often several degrees warmer than the countryside around them, a phenomenon known as the urban heat island. Concrete, asphalt and brick absorb sunlight during the day and release the stored heat slowly after sunset, so city nights remain uncomfortably warm. Tall buildings trap this heat further by blocking the breeze, while the steady stream of vehicles and air-conditioners adds waste heat of its own. The consequences are not trivial: higher night temperatures increase electricity demand, worsen air quality and pose a serious risk to the elderly and to outdoor workers. Planners, however, have discovered that the problem can be eased with modest measures. Trees and parks cool their surroundings by providing shade and releasing moisture, and roofs painted in light colours reflect much of the sunlight that would otherwise be absorbed. Some cities now require new buildings to include green roofs. None of these steps can make a city as cool as a village, but together they can make urban summers far more bearable.\n\nSelect the most appropriate ANTONYM of the word 'trivial' as used in the passage.",
+      "options": [
+        "Minor",
+        "Significant",
+        "Petty",
+        "Ordinary"
+      ],
+      "answer": 1,
+      "explanation": "'Trivial' means of little importance; its opposite is 'significant'. 'Minor' and 'petty' are synonyms.",
+      "source": "ai",
+      "archetype": "ssc-cgl-E03",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-109",
+      "section": "english",
+      "topic": "Cloze Test",
+      "difficulty": "medium",
+      "question": "Read the passage and select the most appropriate option for the numbered blank.\n\nVolunteering is often seen as something people do for others, but it (1) ______ the volunteer as well. Studies suggest that those who give their time regularly report lower stress and a stronger sense of purpose. Helping at a shelter or teaching children to read (2) ______ people into contact with others they might never have met. Such experiences broaden their outlook and (3) ______ their confidence. (4) ______, volunteering need not take up a great deal of time; even a few hours a month can make a (5) ______ difference.\n\nSelect the most appropriate option for blank (2).",
+      "options": [
+        "holds",
+        "brings",
+        "makes",
+        "gives"
+      ],
+      "answer": 1,
+      "explanation": "'Brings people into contact with' is the correct collocation.",
+      "source": "ai",
+      "archetype": "ssc-cgl-E04",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-110",
+      "section": "english",
+      "topic": "Cloze Test",
+      "difficulty": "medium",
+      "question": "Read the passage and select the most appropriate option for the numbered blank.\n\nVolunteering is often seen as something people do for others, but it (1) ______ the volunteer as well. Studies suggest that those who give their time regularly report lower stress and a stronger sense of purpose. Helping at a shelter or teaching children to read (2) ______ people into contact with others they might never have met. Such experiences broaden their outlook and (3) ______ their confidence. (4) ______, volunteering need not take up a great deal of time; even a few hours a month can make a (5) ______ difference.\n\nSelect the most appropriate option for blank (5).",
+      "options": [
+        "negligible",
+        "minor",
+        "trivial",
+        "considerable"
+      ],
+      "answer": 3,
+      "explanation": "The sentence stresses that even a few hours help, so 'a considerable difference' fits; the other options contradict the positive point.",
+      "source": "ai",
+      "archetype": "ssc-cgl-E04",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-111",
+      "section": "english",
+      "topic": "Synonyms",
+      "difficulty": "medium",
+      "question": "Select the most appropriate synonym of the given word.\nOBSTINATE",
+      "options": [
+        "Stubborn",
+        "Obedient",
+        "Flexible",
+        "Anxious"
+      ],
+      "answer": 0,
+      "explanation": "Obstinate means refusing to change one's opinion – stubborn. 'Obedient' and 'flexible' are nearly opposite.",
+      "source": "ai",
+      "archetype": "ssc-cgl-E07",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-112",
+      "section": "english",
+      "topic": "Antonyms",
+      "difficulty": "medium",
+      "question": "Select the most appropriate antonym of the given word.\nAUGMENT",
+      "options": [
+        "Enlarge",
+        "Amplify",
+        "Diminish",
+        "Sustain"
+      ],
+      "answer": 2,
+      "explanation": "Augment means to increase; its antonym is diminish. 'Enlarge' and 'amplify' are synonyms.",
+      "source": "ai",
+      "archetype": "ssc-cgl-E08",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-113",
+      "section": "english",
+      "topic": "Idioms & Phrases",
+      "difficulty": "medium",
+      "question": "Select the most appropriate meaning of the given idiom.\nTo leave no stone unturned",
+      "options": [
+        "To remove all obstacles from a road",
+        "To make every possible effort",
+        "To refuse to change one's opinion",
+        "To search only in familiar places"
+      ],
+      "answer": 1,
+      "explanation": "'To leave no stone unturned' means to try every possible way to achieve something.",
+      "source": "ai",
+      "archetype": "ssc-cgl-E09",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-114",
+      "section": "english",
+      "topic": "One-word Substitution",
+      "difficulty": "medium",
+      "question": "Select the option that can be used as a one-word substitute for the given group of words.\nA person who is new to a profession or activity",
+      "options": [
+        "Novice",
+        "Veteran",
+        "Connoisseur",
+        "Mentor"
+      ],
+      "answer": 0,
+      "explanation": "A novice is a beginner; a veteran is highly experienced, a connoisseur an expert judge, a mentor a guide.",
+      "source": "ai",
+      "archetype": "ssc-cgl-E10",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-115",
+      "section": "english",
+      "topic": "Spelling Correction",
+      "difficulty": "easy",
+      "question": "Select the INCORRECTLY spelt word.",
+      "options": [
+        "Committee",
+        "Occurrence",
+        "Millennium",
+        "Embarass"
+      ],
+      "answer": 3,
+      "explanation": "The correct spelling is 'embarrass' (double r, double s).",
+      "source": "ai",
+      "archetype": "ssc-cgl-E11",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-116",
+      "section": "english",
+      "topic": "Error Spotting",
+      "difficulty": "medium",
+      "question": "The following sentence has been divided into parts. One of them may contain an error. Select the part that contains the error, or 'No error'.\nThe quality of the mangoes supplied / by these farmers / are better than last year's",
+      "options": [
+        "The quality of the mangoes supplied",
+        "by these farmers",
+        "are better than last year's",
+        "No error"
+      ],
+      "answer": 2,
+      "explanation": "The subject is 'the quality' (singular), so the verb should be 'is better', not 'are better'.",
+      "source": "ai",
+      "archetype": "ssc-cgl-E12",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-117",
+      "section": "english",
+      "topic": "Error Spotting",
+      "difficulty": "hard",
+      "question": "The following sentence has been divided into parts. One of them may contain an error. Select the part that contains the error, or 'No error'.\nNo sooner had the guests arrived / when the lights / went out suddenly",
+      "options": [
+        "No sooner had the guests arrived",
+        "when the lights",
+        "went out suddenly",
+        "No error"
+      ],
+      "answer": 1,
+      "explanation": "'No sooner' is followed by 'than', not 'when': 'No sooner had the guests arrived than the lights went out.'",
+      "source": "ai",
+      "archetype": "ssc-cgl-E13",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-118",
+      "section": "english",
+      "topic": "Sentence Improvement",
+      "difficulty": "medium",
+      "question": "Select the most appropriate option that can substitute the bracketed part of the sentence.\nIf you [would have told] me earlier, I could have helped you.",
+      "options": [
+        "have told",
+        "would tell",
+        "had told",
+        "No substitution required"
+      ],
+      "answer": 2,
+      "explanation": "In a third conditional, the if-clause takes the past perfect: 'If you had told me earlier, I could have helped you.'",
+      "source": "ai",
+      "archetype": "ssc-cgl-E14",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-119",
+      "section": "english",
+      "topic": "Fill in the Blanks",
+      "difficulty": "medium",
+      "question": "Select the most appropriate option to fill in the blank.\nThe minister's speech was so ______ that even his critics were moved by it.",
+      "options": [
+        "eloquent",
+        "tedious",
+        "ambiguous",
+        "abrupt"
+      ],
+      "answer": 0,
+      "explanation": "Only a fluent, persuasive (eloquent) speech would move even critics.",
+      "source": "ai",
+      "archetype": "ssc-cgl-E05",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-120",
+      "section": "english",
+      "topic": "Active & Passive Voice",
+      "difficulty": "medium",
+      "question": "Select the option that expresses the given sentence in passive voice.\nThe workers were repairing the bridge.",
+      "options": [
+        "The bridge had been repaired by the workers.",
+        "The bridge was repaired by the workers.",
+        "The bridge was being repaired by the workers.",
+        "The bridge is being repaired by the workers."
+      ],
+      "answer": 2,
+      "explanation": "Past continuous active (were repairing) becomes 'was being + V3' in the passive.",
+      "source": "ai",
+      "archetype": "ssc-cgl-E15",
+      "verified": false
     }
   ]
 }

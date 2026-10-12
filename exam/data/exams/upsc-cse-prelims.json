@@ -145,6 +145,541 @@
     "officialMock": null,
     "notes": "UPSC posts question papers on upsc.gov.in under Examinations → Previous Question Papers soon after the exam. Official answer keys and cut-offs come out only after the whole CSE cycle ends with the final result."
   },
+  "pyqBlueprint": {
+    "yearsCovered": [
+      2024,
+      2025,
+      2026
+    ],
+    "method": "Compiled from the published GS Paper I question papers (UPSC posts them after the exam) and from post-exam subject-wise analyses by coaching institutes (VisionIAS, IASGyan, NextIAS) for 2024 and 2025, which report about 60–67% multi-statement items, a steady stream of 'Statement-I/Statement-II' items and 'how many pairs are correctly matched' items. The 2026 paper is covered from memory-based analyses and the writer's own knowledge, because the full text of those pages could not be fetched (WebSearch gave only summaries). Archetypes describe the recurring formats in our own words; no real question is reproduced.",
+    "archetypes": [
+      {
+        "id": "upsc-cse-prelims-G01",
+        "section": "gs1",
+        "topic": "Indian Polity & Governance",
+        "pattern": "Constitutional/statutory office (CAG, Finance Commission, Election Commission, Attorney General): 3 statements on appointment, tenure, removal and post-retirement bars; 'how many are correct'. Trap: one statement swaps a statutory rule for a constitutional one.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "upsc-cse-prelims-G02",
+        "section": "gs1",
+        "topic": "Indian Polity & Governance",
+        "pattern": "Parliamentary procedure (Money Bills, joint sitting, no-confidence motion, Speaker's role) as numbered statements; trap is a plausible but wrong procedural detail.",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "upsc-cse-prelims-G03",
+        "section": "gs1",
+        "topic": "Indian Polity & Governance",
+        "pattern": "Classify provisions (Fundamental Rights vs DPSP vs Fundamental Duties, Schedules, anti-defection) and pick the right code from a list of 3–4 items.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "upsc-cse-prelims-G04",
+        "section": "gs1",
+        "topic": "Indian Polity & Governance",
+        "pattern": "Landmark Supreme Court judgments and doctrines (basic structure, Art 21 expansion, Art 356 review, reservation limits): statements pairing case with holding.",
+        "years": [
+          2024,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "upsc-cse-prelims-G05",
+        "section": "gs1",
+        "topic": "Indian Polity & Governance",
+        "pattern": "Powers of President/Governor (ordinance, pardon, discretion) in the Statement-I/Statement-II format; trap: Statement-II is false or does not explain I.",
+        "years": [
+          2025,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "upsc-cse-prelims-G06",
+        "section": "gs1",
+        "topic": "Indian Polity & Governance",
+        "pattern": "Local government and federal provisions (73rd/74th Amendments, District Planning Committee, State Election Commission, Fifth/Sixth Schedule): 'how many correct'.",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "upsc-cse-prelims-G07",
+        "section": "gs1",
+        "topic": "Indian Polity & Governance",
+        "pattern": "Count or select which listed bodies are constitutional (vs statutory/executive), e.g. NCSC, NCBC, GST Council, NHRC, CVC, NITI Aayog.",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "upsc-cse-prelims-G08",
+        "section": "gs1",
+        "topic": "Indian Economy",
+        "pattern": "RBI monetary tools (repo, CRR, SLR, OMO, MPC) and their effects on liquidity and money supply; statements or Statement-I/II; trap reverses the direction of an effect.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "upsc-cse-prelims-G09",
+        "section": "gs1",
+        "topic": "Indian Economy",
+        "pattern": "Budget and fiscal terms (fiscal/primary/revenue deficit, capital vs revenue receipts, disinvestment): definition item or 'select the capital receipts' code.",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "upsc-cse-prelims-G10",
+        "section": "gs1",
+        "topic": "Indian Economy",
+        "pattern": "National income and price indices (GDP, GNP, NDP, GVA, CPI vs WPI, NSO/Office of Economic Adviser): statements with one definitional twist.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "upsc-cse-prelims-G11",
+        "section": "gs1",
+        "topic": "Indian Economy",
+        "pattern": "Banking and financial instruments/institutions (T-bills, payments and small finance banks, PSL, bonds, NBFCs): 'how many correct'.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2 per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "upsc-cse-prelims-G12",
+        "section": "gs1",
+        "topic": "Indian Economy",
+        "pattern": "External sector: which items go to current vs capital account of BoP, ECB/FDI/FPI, exchange-rate effects; statement or Statement-I/II format.",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "upsc-cse-prelims-G13",
+        "section": "gs1",
+        "topic": "Indian Economy",
+        "pattern": "Agricultural economy and pricing (MSP, CACP, FRP for sugarcane, procurement): statements on institutional status and legal basis.",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "upsc-cse-prelims-G14",
+        "section": "gs1",
+        "topic": "Environment & Ecology",
+        "pattern": "International environmental conventions and protocols (Ramsar, CITES, CMS, Montreal/Kigali, Kyoto, Paris): statements on scope, legal nature and India's role.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "upsc-cse-prelims-G15",
+        "section": "gs1",
+        "topic": "Environment & Ecology",
+        "pattern": "Protected areas and species (national parks to states, endemic species, IUCN/WPA status, UNESCO MAB): pairs 'how many correctly matched' or single pick.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "upsc-cse-prelims-G16",
+        "section": "gs1",
+        "topic": "Environment & Ecology",
+        "pattern": "Core ecology concepts (food chains/pyramids, succession, eutrophication, nitrogen fixation): statements testing a common misconception.",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "upsc-cse-prelims-G17",
+        "section": "gs1",
+        "topic": "Environment & Ecology",
+        "pattern": "Climate and pollution science (greenhouse gases, GWP, aerosols, black carbon, carbon capture): 'how many of the above' with 4 items.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "upsc-cse-prelims-G18",
+        "section": "gs1",
+        "topic": "Environment & Ecology",
+        "pattern": "Ecosystem processes (mangroves, wetlands, coral reefs) in Statement-I/Statement-II format.",
+        "years": [
+          2025,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "upsc-cse-prelims-G19",
+        "section": "gs1",
+        "topic": "Ancient & Medieval History",
+        "pattern": "Ancient sites, inscriptions and rulers matched as pairs (Harappan sites, prashastis, rock edicts): 'how many pairs correctly matched'.",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "upsc-cse-prelims-G20",
+        "section": "gs1",
+        "topic": "Ancient & Medieval History",
+        "pattern": "Buddhism/Jainism and philosophical schools: councils, doctrines, language of preaching; statements.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "upsc-cse-prelims-G21",
+        "section": "gs1",
+        "topic": "Ancient & Medieval History",
+        "pattern": "Medieval administration, terms and literature (iqta, mansab, amara-nayaka, Vijayanagara and Sultanate facts): definition item or statements.",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "upsc-cse-prelims-G22",
+        "section": "gs1",
+        "topic": "Modern History & Freedom Struggle",
+        "pattern": "INC sessions, presidents and resolutions (Lahore, Karachi, Calcutta 1917, etc.): single pick or statements.",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "upsc-cse-prelims-G23",
+        "section": "gs1",
+        "topic": "Modern History & Freedom Struggle",
+        "pattern": "Colonial Acts and policies (Charter Acts, 1909/1919/1935 Acts, land revenue systems, Governors-General): statements or pairs.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "upsc-cse-prelims-G24",
+        "section": "gs1",
+        "topic": "Modern History & Freedom Struggle",
+        "pattern": "Movements, organisations and personalities (Non-Cooperation, Quit India, reform societies and founders): pairs or Statement-I/II.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "upsc-cse-prelims-G25",
+        "section": "gs1",
+        "topic": "Art & Culture",
+        "pattern": "Performing and visual art forms matched to states/regions (dances, paintings, crafts): 'how many pairs correctly matched'.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "upsc-cse-prelims-G26",
+        "section": "gs1",
+        "topic": "Art & Culture",
+        "pattern": "Temple, cave and sculptural traditions (Nagara/Dravida/Vesara, Ajanta–Ellora, Gandhara/Mathura/Amaravati schools): statements.",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "upsc-cse-prelims-G27",
+        "section": "gs1",
+        "topic": "Art & Culture",
+        "pattern": "Bhakti and Sufi traditions: saints, orders, practices and regions; statements with code options.",
+        "years": [
+          2025,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "upsc-cse-prelims-G28",
+        "section": "gs1",
+        "topic": "Geography (India & World)",
+        "pattern": "Indian rivers and drainage (west/east flowing, tributaries of a basin): select the right code.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "upsc-cse-prelims-G29",
+        "section": "gs1",
+        "topic": "Geography (India & World)",
+        "pattern": "Climatology (monsoon mechanism, western disturbances, orographic rain, atmosphere layers): statements or Statement-I/II.",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "upsc-cse-prelims-G30",
+        "section": "gs1",
+        "topic": "Geography (India & World)",
+        "pattern": "World map items: seas/straits and bordering countries ('how many of these countries border X').",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "upsc-cse-prelims-G31",
+        "section": "gs1",
+        "topic": "Geography (India & World)",
+        "pattern": "Soils, minerals and crops of India: properties statements (black/laterite/alluvial soils).",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "upsc-cse-prelims-G32",
+        "section": "gs1",
+        "topic": "Geography (India & World)",
+        "pattern": "Physical geography processes (ocean currents, cyclones, El Niño/La Niña): statements or single pick.",
+        "years": [
+          2024,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "upsc-cse-prelims-G33",
+        "section": "gs1",
+        "topic": "Geography (India & World)",
+        "pattern": "Location facts of India (Tropic of Cancer states, international borders, mountain passes): 'which one is NOT' single pick.",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "upsc-cse-prelims-G34",
+        "section": "gs1",
+        "topic": "Science & Technology",
+        "pattern": "Biotechnology and health (vaccines, CRISPR, monoclonal antibodies, GM crops, antimicrobial resistance): statements or Statement-I/II.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2–3 per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "upsc-cse-prelims-G35",
+        "section": "gs1",
+        "topic": "Science & Technology",
+        "pattern": "Space technology (orbits, launch vehicles, ISRO/NASA missions, Lagrange points): 'how many correct'.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2 per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "upsc-cse-prelims-G36",
+        "section": "gs1",
+        "topic": "Science & Technology",
+        "pattern": "Energy and emerging technology (nuclear programme, hydrogen types, quantum computing, LEDs, batteries): statements.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2–3 per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "upsc-cse-prelims-G37",
+        "section": "gs1",
+        "topic": "Science & Technology",
+        "pattern": "Applied everyday physics/chemistry (optics, materials, household phenomena): single-answer item.",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "upsc-cse-prelims-G38",
+        "section": "gs1",
+        "topic": "International Relations & Organisations",
+        "pattern": "International organisations: membership, HQ, functions and status (UNSC, WTO, IAEA, G20): statements or Statement-I/II.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "upsc-cse-prelims-G39",
+        "section": "gs1",
+        "topic": "International Relations & Organisations",
+        "pattern": "Membership of groupings (SCO, Quad, BIMSTEC, BRICS, IORA): 'how many of these countries are members' or 'which is NOT a member'.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "upsc-cse-prelims-G40",
+        "section": "gs1",
+        "topic": "International Relations & Organisations",
+        "pattern": "International financial institutions (IMF/SDR, World Bank, AIIB, NDB): shareholding, HQ, membership statements.",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "upsc-cse-prelims-G41",
+        "section": "gs1",
+        "topic": "Current Affairs & Government Schemes",
+        "pattern": "Flagship government schemes (nodal ministry, eligibility, funding pattern, targets): 'how many correct'.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "upsc-cse-prelims-G42",
+        "section": "gs1",
+        "topic": "Current Affairs & Government Schemes",
+        "pattern": "Reports and indices matched to publishing organisations: pairs or single pick.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      }
+    ]
+  },
   "questions": [
     {
       "id": "upsc-cse-prelims-001",
@@ -160,7 +695,9 @@
       ],
       "answer": 0,
       "explanation": "Article 280 provides for a Finance Commission constituted by the President every five years or earlier. Its recommendations are advisory; the Union Government is not constitutionally bound to accept them. Hence only 1 is correct.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G01",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-002",
@@ -176,7 +713,9 @@
       ],
       "answer": 0,
       "explanation": "Safeguarding public property (51A(i)) and protecting the natural environment (51A(g)) are Fundamental Duties. Voting and paying taxes are not listed in Article 51A.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G03",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-003",
@@ -192,7 +731,9 @@
       ],
       "answer": 0,
       "explanation": "Article 109 limits the Rajya Sabha to 14 days; Article 110(3) makes the Speaker's decision final. A Money Bill can be introduced only in the Lok Sabha (Article 109(1)), so statement 3 is wrong.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G02",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-004",
@@ -208,7 +749,9 @@
       ],
       "answer": 2,
       "explanation": "Kesavananda Bharati (1973) laid down the basic structure doctrine. Minerva Mills (1980) struck down parts of the 42nd Amendment, holding that limited amending power is a basic feature. Both are correct.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G04",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-005",
@@ -224,7 +767,9 @@
       ],
       "answer": 0,
       "explanation": "The Election Commission (Art. 324) and CAG (Art. 148) are constitutional bodies. NHRC is statutory (Protection of Human Rights Act, 1993) and NITI Aayog was created by an executive resolution (2015).",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G07",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-006",
@@ -240,7 +785,9 @@
       ],
       "answer": 3,
       "explanation": "Article 243D reserves not less than one-third seats for women; Article 243K vests elections in the State Election Commission; the Eleventh Schedule contains 29 subjects. All three are correct.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G06",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-007",
@@ -256,7 +803,9 @@
       ],
       "answer": 2,
       "explanation": "Article 72(1)(a) covers court-martial sentences, which Article 161 does not give the Governor. The Supreme Court (Maru Ram, 1980; Kehar Singh, 1989) held that the President acts on ministerial advice. Both are correct.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G05",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-008",
@@ -272,7 +821,9 @@
       ],
       "answer": 1,
       "explanation": "The Tenth Schedule came with the 52nd Amendment (1985). Paragraph 4 protects mergers backed by two-thirds of the legislature party. The one-third 'split' exemption was deleted by the 91st Amendment (2003), so statement 3 is wrong.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G03",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-009",
@@ -288,7 +839,9 @@
       ],
       "answer": 0,
       "explanation": "Article 76 sets the appointment and qualification. Article 88 lets the AG speak in Parliament without a vote. The AG is not a member of the Union Cabinet, so statement 3 is wrong.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G01",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-010",
@@ -304,7 +857,9 @@
       ],
       "answer": 1,
       "explanation": "The repo rate is what banks pay to borrow from the RBI, so a hike makes that borrowing dearer and tightens money supply to curb inflation. The CRR is a separate instrument and does not change automatically.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G08",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-011",
@@ -320,7 +875,9 @@
       ],
       "answer": 1,
       "explanation": "Fiscal deficit = total expenditure − (revenue receipts + recoveries of loans + other non-debt receipts such as disinvestment). It measures the government's total borrowing requirement. Option C is the revenue deficit and option D is the effective revenue deficit.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G09",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-012",
@@ -336,7 +893,9 @@
       ],
       "answer": 3,
       "explanation": "Since the 2011-12 base revision, GDP at market prices = GVA at basic prices + product taxes − product subsidies.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G10",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-013",
@@ -352,7 +911,9 @@
       ],
       "answer": 1,
       "explanation": "Agriculture and MSMEs are PSL categories. PSL targets also apply to private sector banks, foreign banks (with prescribed thresholds), small finance banks and others, so statement 2 is wrong.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G11",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-014",
@@ -368,7 +929,9 @@
       ],
       "answer": 0,
       "explanation": "The target (4% ± 2%) is defined on headline CPI-Combined, which the NSO (MoSPI) compiles. The WPI is released by the Office of the Economic Adviser, DPIIT (Ministry of Commerce & Industry), not the NSO.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G10",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-015",
@@ -384,7 +947,9 @@
       ],
       "answer": 2,
       "explanation": "Private transfers (remittances) and services trade are current account items. FDI and ECBs are capital/financial account flows.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G12",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-016",
@@ -400,7 +965,9 @@
       ],
       "answer": 3,
       "explanation": "Section 45ZB of the RBI Act (inserted in 2016) creates a six-member MPC: three RBI members including the Governor, who chairs it, and three external members. The Governor has a casting vote when votes are tied. All three statements are correct.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G08",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-017",
@@ -416,7 +983,9 @@
       ],
       "answer": 2,
       "explanation": "T-Bills are short-term money market instruments (91, 182 and 364 days) issued by the Central Government through the RBI at a discount. Their maturity is less than one year, so statement 3 is wrong.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G11",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-018",
@@ -432,7 +1001,9 @@
       ],
       "answer": 3,
       "explanation": "Disinvestment reduces the government's assets and creates no liability, so it is a non-debt capital receipt.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G09",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-019",
@@ -448,7 +1019,9 @@
       ],
       "answer": 1,
       "explanation": "The Ramsar Convention (1971) is an intergovernmental treaty that is not part of the UN/UNEP system; it has its own secretariat in Gland, Switzerland. The Montreux Record is correctly described.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G14",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-020",
@@ -464,7 +1037,9 @@
       ],
       "answer": 3,
       "explanation": "The Kyoto basket covers CO₂, CH₄, N₂O, HFCs, PFCs and SF₆; NF₃ was added in the second commitment period. All four listed gases are included.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G14",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-021",
@@ -480,7 +1055,9 @@
       ],
       "answer": 2,
       "explanation": "The Nilgiri Biosphere Reserve was the first Indian reserve added to the network, in 2000. Gulf of Mannar and Sundarbans followed in 2001 and Nanda Devi in 2004.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G15",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-022",
@@ -496,7 +1073,9 @@
       ],
       "answer": 0,
       "explanation": "Nutrient enrichment causes algal blooms. When the algae die, decomposers consume oxygen, so dissolved oxygen falls (hypoxia) and does not rise. Only 1 is correct.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G16",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-023",
@@ -512,7 +1091,9 @@
       ],
       "answer": 1,
       "explanation": "Rhizobium (symbiotic), Azotobacter (free-living) and the cyanobacterium Anabaena fix nitrogen. Penicillium is a fungus and does not.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G16",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-024",
@@ -528,7 +1109,9 @@
       ],
       "answer": 0,
       "explanation": "The Kigali Amendment (2016) phases down HFCs because of their high global warming potential. HFCs contain no chlorine or bromine and have negligible ozone-depletion potential, so statement 3 is wrong.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G14",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-025",
@@ -544,7 +1127,9 @@
       ],
       "answer": 2,
       "explanation": "Energy is lost at every trophic transfer (roughly 10% passes on), so the pyramid of energy is always upright. Number and biomass pyramids can be inverted, for example in a tree ecosystem or in aquatic biomass.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G16",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-026",
@@ -560,7 +1145,9 @@
       ],
       "answer": 2,
       "explanation": "Both statements are correct. Mangroves are salt-tolerant intertidal vegetation, and pneumatophores (aerial roots) allow gas exchange in oxygen-poor mud.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G18",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-027",
@@ -576,7 +1163,9 @@
       ],
       "answer": 2,
       "explanation": "Sanctuaries, National Parks, Conservation Reserves and Community Reserves (the last two added in 2003) are notified under the WPA. Biosphere Reserves come under a separate scheme linked to UNESCO's MAB programme, not the WPA.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G15",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-028",
@@ -592,7 +1181,9 @@
       ],
       "answer": 0,
       "explanation": "Lothal (Gujarat) has a dockyard and Kalibangan (Rajasthan) has a pre-Harappan ploughed field. Dholavira is in the Kachchh district of Gujarat, so pair 3 is wrong.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G19",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-029",
@@ -608,7 +1199,9 @@
       ],
       "answer": 2,
       "explanation": "Both are correct. The Third Council was held at Pataliputra under Ashoka, presided over by Moggaliputta Tissa. The Fourth was held in Kashmir (Kundalvana) under Kanishka, presided over by Vasumitra.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G20",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-030",
@@ -624,7 +1217,9 @@
       ],
       "answer": 3,
       "explanation": "Krishnadevaraya of the Tuluva dynasty of Vijayanagara wrote Amuktamalyada in Telugu. Allasani Peddana was a poet at his court, not a ruler.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G21",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-031",
@@ -640,7 +1235,9 @@
       ],
       "answer": 0,
       "explanation": "Statement 1 is correct. Mansabs were not hereditary: a mansabdar's rank ended with his service or death, and his sons had to earn their own. Only 1 is correct.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G21",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-032",
@@ -656,7 +1253,9 @@
       ],
       "answer": 1,
       "explanation": "The Lahore session of December 1929, presided over by Jawaharlal Nehru, adopted the Purna Swaraj resolution. 26 January 1930 was then observed as Independence Day.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G22",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-033",
@@ -672,7 +1271,9 @@
       ],
       "answer": 2,
       "explanation": "Both are correct. Sardar Patel presided over the Karachi session (March 1931), which endorsed the Gandhi–Irwin Pact and adopted the Fundamental Rights and Economic Policy resolution.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G22",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-034",
@@ -688,7 +1289,9 @@
       ],
       "answer": 3,
       "explanation": "All three pairs are correct. Cornwallis introduced the Permanent Settlement (1793), Munro (with Alexander Read) the Ryotwari system in Madras, and Holt Mackenzie (Regulation VII, 1822) the Mahalwari system.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G23",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-035",
@@ -704,7 +1307,9 @@
       ],
       "answer": 1,
       "explanation": "The 1935 Act abolished provincial dyarchy (brought in by the 1919 Act), introduced provincial autonomy and proposed dyarchy at the Centre. It also set up the Federal Court, which began functioning in 1937. Only 2 is correct.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G23",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-036",
@@ -720,7 +1325,9 @@
       ],
       "answer": 2,
       "explanation": "Both are correct. The AICC passed the resolution at Gowalia Tank, Bombay, on 8 August 1942, and parallel governments emerged at Ballia (UP), Tamluk (Bengal) and Satara (Maharashtra).",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G24",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-037",
@@ -736,7 +1343,9 @@
       ],
       "answer": 1,
       "explanation": "Sattriya comes from Assam and Mohiniyattam from Kerala. Kuchipudi comes from Andhra Pradesh, while Odisha's classical dance is Odissi.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G25",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-038",
@@ -752,7 +1361,9 @@
       ],
       "answer": 3,
       "explanation": "Dravida-style temples of South India have a pyramidal vimana and, in later phases, towering gopurams. Nagara temples have a curvilinear shikhara.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G26",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-039",
@@ -768,7 +1379,9 @@
       ],
       "answer": 3,
       "explanation": "All three are correct. Ajanta is entirely Buddhist, Ellora has 34 caves of the three faiths, and the Kailasa temple (Cave 16) is attributed to the Rashtrakuta king Krishna I.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G26",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-040",
@@ -784,7 +1397,9 @@
       ],
       "answer": 0,
       "explanation": "Statements 1 and 2 are correct. Kabir composed in a vernacular (Sadhukkadi/Hindavi), not in classical Sanskrit.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G27",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-041",
@@ -800,7 +1415,9 @@
       ],
       "answer": 1,
       "explanation": "The Narmada, Tapi and Sabarmati are west-flowing rivers that drain into the Arabian Sea. The Mahanadi flows east into the Bay of Bengal.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G28",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-042",
@@ -816,7 +1433,9 @@
       ],
       "answer": 0,
       "explanation": "Western Disturbances are extratropical cyclonic systems from the Mediterranean that bring winter rain and snow, which helps wheat and other rabi crops. They are not the cause of retreating-monsoon rainfall.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G29",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-043",
@@ -832,7 +1451,9 @@
       ],
       "answer": 1,
       "explanation": "Pairs 1 and 2 are correct. The Strait of Gibraltar connects the Atlantic Ocean with the Mediterranean; the Black Sea joins the Mediterranean through the Bosporus and Dardanelles.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G30",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-044",
@@ -848,7 +1469,9 @@
       ],
       "answer": 2,
       "explanation": "Black soils derive from Deccan basalt, retain moisture well (they swell when wet and crack when dry) and are rich in lime, iron, magnesia and potash. They are generally poor in nitrogen, phosphorus and organic matter.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G31",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-045",
@@ -864,7 +1487,9 @@
       ],
       "answer": 3,
       "explanation": "The Benguela (off south-west Africa) and Humboldt (off Peru–Chile) currents are cold. The Kuroshio and Agulhas currents are warm.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G32",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-046",
@@ -880,7 +1505,9 @@
       ],
       "answer": 3,
       "explanation": "The Tropic of Cancer passes through Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram. Odisha lies entirely south of it.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G33",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-047",
@@ -896,7 +1523,9 @@
       ],
       "answer": 3,
       "explanation": "The troposphere is about 18 km thick at the equator and about 8 km at the poles, and roughly 90% of ozone lies in the stratosphere. Temperature normally falls with height in the troposphere (about 6.5 °C per km), so statement 3 is wrong.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G29",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-048",
@@ -912,7 +1541,9 @@
       ],
       "answer": 3,
       "explanation": "Zoji La links the Kashmir Valley with Ladakh on the Srinagar–Leh route and is not in Arunachal Pradesh. The other three pairs are correct.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G33",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-049",
@@ -928,7 +1559,9 @@
       ],
       "answer": 0,
       "explanation": "mRNA stays in the cytoplasm, is translated into the antigen and then degrades. It does not enter the nucleus or alter the recipient's DNA.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G34",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-050",
@@ -944,7 +1577,9 @@
       ],
       "answer": 1,
       "explanation": "A geostationary satellite sits about 35,786 km above the equator with a 24-hour period. Sun-synchronous orbits are low Earth orbits of roughly 600–900 km, so statement 3 is wrong.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G35",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-051",
@@ -960,7 +1595,9 @@
       ],
       "answer": 2,
       "explanation": "Both are correct. Bacteria use CRISPR sequences to remember viral DNA, and in genome editing a guide RNA directs the Cas9 nuclease to cut DNA at the target site.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G34",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-052",
@@ -976,7 +1613,9 @@
       ],
       "answer": 3,
       "explanation": "Stage I uses PHWRs on natural uranium and Stage II uses Fast Breeder Reactors to breed fissile material. Stage III aims to use India's large thorium reserves, with thorium converted to U-233 as the fuel.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G36",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-053",
@@ -992,7 +1631,9 @@
       ],
       "answer": 1,
       "explanation": "Antibiotics act on bacteria, not viruses, and their misuse drives antimicrobial resistance. Alexander Fleming discovered penicillin in 1928, so statement 3 is wrong.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G34",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-054",
@@ -1008,7 +1649,9 @@
       ],
       "answer": 2,
       "explanation": "Both are correct. The 2014 Nobel Prize in Physics recognised the invention of efficient GaN-based blue LEDs.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G36",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-055",
@@ -1024,7 +1667,9 @@
       ],
       "answer": 0,
       "explanation": "L1 lies about 1.5 million km sunward of the Earth, and Aditya-L1 operates in a halo orbit around it. From L1 a spacecraft views the Sun continuously without eclipses, so statement 3 is wrong.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G35",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-056",
@@ -1040,7 +1685,9 @@
       ],
       "answer": 2,
       "explanation": "Both are correct. The NDB was set up under the 2014 Fortaleza agreement by Brazil, Russia, India, China and South Africa and is headquartered in Shanghai.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G40",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-057",
@@ -1056,7 +1703,9 @@
       ],
       "answer": 0,
       "explanation": "Article 23 of the UN Charter provides two-year terms for the 10 non-permanent members and states that a retiring member is not eligible for immediate re-election.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G38",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-058",
@@ -1072,7 +1721,9 @@
       ],
       "answer": 1,
       "explanation": "The G20 has no permanent secretariat; the rotating presidency, supported by a troika, runs it. The African Union joined as a permanent member at the September 2023 New Delhi Summit.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G38",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-059",
@@ -1088,7 +1739,9 @@
       ],
       "answer": 1,
       "explanation": "India is a member of the SCO (since 2017), the Quad and IORA. It is not a member of NATO.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G39",
+      "source": "curated"
     },
     {
       "id": "upsc-cse-prelims-060",
@@ -1104,7 +1757,1089 @@
       ],
       "answer": 3,
       "explanation": "The SDR basket has five currencies: the US dollar, euro, Chinese renminbi, Japanese yen and pound sterling. The Swiss franc is not included.",
-      "verified": true
+      "verified": true,
+      "archetype": "upsc-cse-prelims-G40",
+      "source": "curated"
+    },
+    {
+      "id": "upsc-cse-prelims-061",
+      "section": "gs1",
+      "topic": "Indian Polity & Governance",
+      "difficulty": "medium",
+      "question": "Consider the following statements about the Comptroller and Auditor General of India (CAG):\n1. The CAG is appointed by the President by warrant under his hand and seal.\n2. The CAG holds office for a term of six years or until the age of 65 years, whichever is earlier.\n3. After ceasing to hold office, the CAG is eligible for further office under the Government of India.\nHow many of the above statements are correct?",
+      "options": [
+        "Only one",
+        "Only two",
+        "All three",
+        "None"
+      ],
+      "answer": 1,
+      "explanation": "Statement 1 is Article 148(1). Statement 2 is the tenure under the CAG (Duties, Powers and Conditions of Service) Act, 1971. Statement 3 is wrong: Article 148(4) makes the CAG ineligible for further office under the Union or any State. So two are correct.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G01",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-062",
+      "section": "gs1",
+      "topic": "Indian Polity & Governance",
+      "difficulty": "hard",
+      "question": "Consider the following statements about the Election Commission of India:\n1. The Constitution does not prescribe the qualifications of the members of the Election Commission.\n2. The Constitution fixes the term of office of the Election Commissioners at six years.\n3. Under the 2023 law on their appointment, the Chief Justice of India is a member of the Selection Committee that recommends the Chief Election Commissioner.\nHow many of the above statements are correct?",
+      "options": [
+        "Only one",
+        "Only two",
+        "All three",
+        "None"
+      ],
+      "answer": 0,
+      "explanation": "Only statement 1 is correct. Article 324 leaves tenure and conditions of service to law, so the six-year term comes from statute, not the Constitution. The 2023 Act's Selection Committee is the Prime Minister, the Leader of the Opposition (or leader of the largest opposition party) in the Lok Sabha and a Union Cabinet Minister; the Chief Justice is not on it.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G01",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-063",
+      "section": "gs1",
+      "topic": "Indian Polity & Governance",
+      "difficulty": "medium",
+      "question": "Consider the following statements:\nStatement-I: A Bill to amend the Constitution cannot be passed at a joint sitting of the two Houses of Parliament.\nStatement-II: Article 368 requires a Constitution Amendment Bill to be passed by each House separately by a special majority.\nWhich one of the following is correct in respect of the above statements?",
+      "options": [
+        "Both Statement-I and Statement-II are correct and Statement-II explains Statement-I",
+        "Both Statement-I and Statement-II are correct, but Statement-II does not explain Statement-I",
+        "Statement-I is correct, but Statement-II is incorrect",
+        "Statement-I is incorrect, but Statement-II is correct"
+      ],
+      "answer": 0,
+      "explanation": "Both are correct. Because Article 368 requires passage in each House separately by a special majority, a deadlock on an amendment Bill cannot be resolved by a joint sitting under Article 108. Statement-II is the reason for Statement-I.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G02",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-064",
+      "section": "gs1",
+      "topic": "Indian Polity & Governance",
+      "difficulty": "medium",
+      "question": "Consider the following statements:\n1. The Speaker of the Lok Sabha presides over a joint sitting of the two Houses of Parliament.\n2. A motion of no-confidence in the Council of Ministers needs the support of at least 50 members to be admitted.\n3. A motion of no-confidence can be moved only in the Lok Sabha.\nHow many of the above statements are correct?",
+      "options": [
+        "Only one",
+        "Only two",
+        "All three",
+        "None"
+      ],
+      "answer": 2,
+      "explanation": "All three are correct. Article 118(4) makes the Speaker preside over a joint sitting. Under the Lok Sabha Rules of Procedure, leave to move a no-confidence motion needs at least 50 members. The Council of Ministers is collectively responsible to the Lok Sabha only (Article 75(3)), so the motion lies only there.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G02",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-065",
+      "section": "gs1",
+      "topic": "Indian Polity & Governance",
+      "difficulty": "medium",
+      "question": "Which of the following are Directive Principles of State Policy under the Constitution of India?\n1. Securing a uniform civil code for citizens\n2. Separation of the judiciary from the executive\n3. Protection of monuments and places of national importance\n4. Abolition of untouchability\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 and 2 only",
+        "2 and 4 only",
+        "1, 2, 3 and 4",
+        "1, 2 and 3 only"
+      ],
+      "answer": 3,
+      "explanation": "Items 1, 2 and 3 are Articles 44, 50 and 49 (Part IV). Abolition of untouchability is a Fundamental Right under Article 17 (Part III).",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G03",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-066",
+      "section": "gs1",
+      "topic": "Indian Polity & Governance",
+      "difficulty": "medium",
+      "question": "Consider the following statements:\n1. In the Indra Sawhney case, the Supreme Court upheld reservation for Other Backward Classes but excluded the 'creamy layer'.\n2. In the S.R. Bommai case, the Supreme Court held that a proclamation under Article 356 is subject to judicial review.\n3. In the Maneka Gandhi case, the Supreme Court held that the procedure depriving a person of personal liberty must be just, fair and reasonable.\nHow many of the above statements are correct?",
+      "options": [
+        "Only one",
+        "Only two",
+        "All three",
+        "None"
+      ],
+      "answer": 2,
+      "explanation": "All three correctly state the holdings: Indra Sawhney (1992) on OBC reservation and the creamy layer, S.R. Bommai (1994) on judicial review of President's Rule, and Maneka Gandhi (1978) reading 'procedure established by law' in Article 21 as fair, just and reasonable.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G04",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-067",
+      "section": "gs1",
+      "topic": "Indian Polity & Governance",
+      "difficulty": "medium",
+      "question": "Consider the following statements:\nStatement-I: An ordinance promulgated by the President ceases to operate at the expiry of six weeks from the reassembly of Parliament, unless disapproved earlier.\nStatement-II: The President can promulgate an ordinance only when both Houses of Parliament are in session.\nWhich one of the following is correct in respect of the above statements?",
+      "options": [
+        "Both Statement-I and Statement-II are correct and Statement-II explains Statement-I",
+        "Both Statement-I and Statement-II are correct, but Statement-II does not explain Statement-I",
+        "Statement-I is correct, but Statement-II is incorrect",
+        "Statement-I is incorrect, but Statement-II is correct"
+      ],
+      "answer": 2,
+      "explanation": "Statement-I restates Article 123(2)(a). Statement-II is wrong: Article 123 allows an ordinance only when both Houses are NOT in session (or one is not in session).",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G05",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-068",
+      "section": "gs1",
+      "topic": "Indian Polity & Governance",
+      "difficulty": "medium",
+      "question": "With reference to the 74th Constitutional Amendment Act, 1992, consider the following statements:\n1. It added the Twelfth Schedule, which lists 18 functional items for municipalities.\n2. It provides for a District Planning Committee to consolidate the plans prepared by panchayats and municipalities.\n3. It requires each State to set up a separate election commission for municipalities, distinct from the one for panchayats.\nHow many of the above statements are correct?",
+      "options": [
+        "Only one",
+        "Only two",
+        "All three",
+        "None"
+      ],
+      "answer": 1,
+      "explanation": "Statements 1 and 2 are correct (Twelfth Schedule; Article 243ZD). Statement 3 is wrong: Article 243ZA vests municipal elections in the same State Election Commission referred to in Article 243K.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G06",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-069",
+      "section": "gs1",
+      "topic": "Indian Polity & Governance",
+      "difficulty": "medium",
+      "question": "Consider the following bodies:\n1. National Commission for Scheduled Castes\n2. National Commission for Backward Classes\n3. National Human Rights Commission\n4. Central Vigilance Commission\n5. Goods and Services Tax Council\nHow many of the above are constitutional bodies?",
+      "options": [
+        "Only two",
+        "Only three",
+        "Only four",
+        "All five"
+      ],
+      "answer": 1,
+      "explanation": "NCSC (Article 338), NCBC (Article 338B, after the 102nd Amendment, 2018) and the GST Council (Article 279A) are constitutional. The NHRC (Protection of Human Rights Act, 1993) and the CVC (CVC Act, 2003) are statutory. So three.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G07",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-070",
+      "section": "gs1",
+      "topic": "Indian Economy",
+      "difficulty": "medium",
+      "question": "Consider the following statements:\n1. Banks do not earn any interest from the RBI on the balances they keep to meet the Cash Reserve Ratio.\n2. The Statutory Liquidity Ratio is maintained by banks as deposits with the RBI.\n3. A reduction in the Cash Reserve Ratio lowers the money multiplier.\nHow many of the above statements are correct?",
+      "options": [
+        "Only one",
+        "Only two",
+        "All three",
+        "None"
+      ],
+      "answer": 0,
+      "explanation": "Only statement 1 is correct. SLR assets (cash, gold, approved securities) are held by the banks themselves, not deposited with the RBI. A CRR cut frees reserves and raises the money multiplier.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G08",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-071",
+      "section": "gs1",
+      "topic": "Indian Economy",
+      "difficulty": "medium",
+      "question": "Consider the following statements:\nStatement-I: When the RBI buys government securities through open market operations, liquidity in the banking system increases.\nStatement-II: In an open market purchase, the RBI pays for the securities by crediting the reserve balances of banks.\nWhich one of the following is correct in respect of the above statements?",
+      "options": [
+        "Both Statement-I and Statement-II are correct and Statement-II explains Statement-I",
+        "Both Statement-I and Statement-II are correct, but Statement-II does not explain Statement-I",
+        "Statement-I is correct, but Statement-II is incorrect",
+        "Statement-I is incorrect, but Statement-II is correct"
+      ],
+      "answer": 0,
+      "explanation": "Both are correct and II explains I: paying for the securities adds to banks' reserves with the RBI, which is an injection of liquidity.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G08",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-072",
+      "section": "gs1",
+      "topic": "Indian Economy",
+      "difficulty": "medium",
+      "question": "Which of the following are capital receipts of the Government of India?\n1. Recovery of loans given to States\n2. Proceeds from disinvestment\n3. Dividends received from public sector enterprises\n4. Market borrowings\nSelect the correct answer using the code given below.",
+      "options": [
+        "2 and 3 only",
+        "1, 2 and 4 only",
+        "1, 3 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "answer": 1,
+      "explanation": "Loan recoveries, disinvestment and borrowings either create a liability or reduce an asset, so they are capital receipts. Dividends are non-tax revenue receipts.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G09",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-073",
+      "section": "gs1",
+      "topic": "Indian Economy",
+      "difficulty": "medium",
+      "question": "In government budgeting, 'primary deficit' is equal to:",
+      "options": [
+        "Revenue deficit minus interest payments",
+        "Fiscal deficit minus revenue deficit",
+        "Revenue deficit minus grants for creation of capital assets",
+        "Fiscal deficit minus interest payments"
+      ],
+      "answer": 3,
+      "explanation": "Primary deficit removes interest payments on past debt from the fiscal deficit. Revenue deficit minus grants for capital assets is the effective revenue deficit.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G09",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-074",
+      "section": "gs1",
+      "topic": "Indian Economy",
+      "difficulty": "medium",
+      "question": "Consider the following statements:\n1. Gross National Product equals Gross Domestic Product plus net factor income from abroad.\n2. Net Domestic Product equals Gross Domestic Product minus depreciation.\n3. If net factor income from abroad is negative, GNP is larger than GDP.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 0,
+      "explanation": "Statements 1 and 2 are standard identities. If net factor income from abroad is negative, GNP = GDP + (a negative number), so GNP is smaller than GDP; statement 3 is wrong.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G10",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-075",
+      "section": "gs1",
+      "topic": "Indian Economy",
+      "difficulty": "hard",
+      "question": "With reference to payments banks in India, consider the following statements:\n1. They cannot issue credit cards.\n2. They can issue debit cards.\n3. They must invest at least 75% of their demand deposit balances in SLR-eligible Government securities or treasury bills.\n4. They cannot undertake lending activities.\nHow many of the above statements are correct?",
+      "options": [
+        "Only one",
+        "Only two",
+        "Only three",
+        "All four"
+      ],
+      "answer": 3,
+      "explanation": "All four are features of the RBI's licensing guidelines for payments banks: no lending and no credit cards, debit cards allowed, and at least 75% of demand deposits parked in SLR-eligible government paper.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G11",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-076",
+      "section": "gs1",
+      "topic": "Indian Economy",
+      "difficulty": "medium",
+      "question": "Consider the following statements:\nStatement-I: Fresh External Commercial Borrowings raised by Indian companies are recorded in the capital account of India's Balance of Payments.\nStatement-II: Interest paid on such borrowings is also recorded in the capital account.\nWhich one of the following is correct in respect of the above statements?",
+      "options": [
+        "Both Statement-I and Statement-II are correct and Statement-II explains Statement-I",
+        "Both Statement-I and Statement-II are correct, but Statement-II does not explain Statement-I",
+        "Statement-I is correct, but Statement-II is incorrect",
+        "Statement-I is incorrect, but Statement-II is correct"
+      ],
+      "answer": 2,
+      "explanation": "The borrowing itself changes India's external liabilities, so it is a capital account item. Interest payments are investment income (primary income) in the current account, so Statement-II is wrong.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G12",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-077",
+      "section": "gs1",
+      "topic": "Indian Economy",
+      "difficulty": "medium",
+      "question": "Consider the following statements:\n1. The Government of India announces Minimum Support Prices after considering the recommendations of the Commission for Agricultural Costs and Prices (CACP).\n2. The CACP is a statutory body.\n3. The Fair and Remunerative Price of sugarcane is fixed under the Sugarcane (Control) Order, 1966.\nHow many of the above statements are correct?",
+      "options": [
+        "Only one",
+        "Only two",
+        "All three",
+        "None"
+      ],
+      "answer": 1,
+      "explanation": "Statements 1 and 3 are correct. The CACP is an attached office of the Ministry of Agriculture and Farmers Welfare, not a statutory body.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G13",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-078",
+      "section": "gs1",
+      "topic": "Environment & Ecology",
+      "difficulty": "medium",
+      "question": "Consider the following statements:\n1. CITES is legally binding on its Parties, but it does not take the place of national laws.\n2. The Convention on the Conservation of Migratory Species of Wild Animals is also known as the Bonn Convention.\n3. India hosted the thirteenth Conference of the Parties (COP13) of the Convention on Migratory Species at Gandhinagar in 2020.\nHow many of the above statements are correct?",
+      "options": [
+        "Only one",
+        "Only two",
+        "All three",
+        "None"
+      ],
+      "answer": 2,
+      "explanation": "All three are correct. CITES binds Parties, who implement it through their own laws. The CMS was signed at Bonn in 1979, and its COP13 was held at Gandhinagar, Gujarat, in February 2020.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G14",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-079",
+      "section": "gs1",
+      "topic": "Environment & Ecology",
+      "difficulty": "medium",
+      "question": "Consider the following statements:\nStatement-I: Under the Paris Agreement, the emission-reduction targets in each country's Nationally Determined Contribution are set by that country itself.\nStatement-II: The Paris Agreement requires Parties to communicate a new or updated Nationally Determined Contribution every five years.\nWhich one of the following is correct in respect of the above statements?",
+      "options": [
+        "Both Statement-I and Statement-II are correct and Statement-II explains Statement-I",
+        "Both Statement-I and Statement-II are correct, but Statement-II does not explain Statement-I",
+        "Statement-I is correct, but Statement-II is incorrect",
+        "Statement-I is incorrect, but Statement-II is correct"
+      ],
+      "answer": 1,
+      "explanation": "Both are true. Statement-I describes the bottom-up nature of NDCs; Statement-II describes the five-yearly update cycle. The update cycle does not explain why targets are self-determined.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G14",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-080",
+      "section": "gs1",
+      "topic": "Environment & Ecology",
+      "difficulty": "medium",
+      "question": "Consider the following pairs (protected area : State):\n1. Dachigam National Park : Jammu and Kashmir\n2. Namdapha National Park : Arunachal Pradesh\n3. Silent Valley National Park : Tamil Nadu\n4. Bandhavgarh National Park : Madhya Pradesh\nHow many of the pairs given above are correctly matched?",
+      "options": [
+        "Only one pair",
+        "Only two pairs",
+        "Only three pairs",
+        "All four pairs"
+      ],
+      "answer": 2,
+      "explanation": "Silent Valley is in Palakkad district, Kerala. The other three pairs are correct.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G15",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-081",
+      "section": "gs1",
+      "topic": "Environment & Ecology",
+      "difficulty": "medium",
+      "question": "Which one of the following animals is endemic to the Western Ghats?",
+      "options": [
+        "Hoolock gibbon",
+        "Red panda",
+        "Snow leopard",
+        "Lion-tailed macaque"
+      ],
+      "answer": 3,
+      "explanation": "The lion-tailed macaque is found only in the Western Ghats. The hoolock gibbon is found in north-east India, and the red panda and snow leopard in the Himalaya.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G15",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-082",
+      "section": "gs1",
+      "topic": "Environment & Ecology",
+      "difficulty": "medium",
+      "question": "Consider the following statements about ecological succession:\n1. Primary succession begins in areas where no soil exists, such as bare rock.\n2. Lichens are often pioneer species on bare rock.\n3. Secondary succession is generally slower than primary succession.\nHow many of the above statements are correct?",
+      "options": [
+        "Only one",
+        "Only two",
+        "All three",
+        "None"
+      ],
+      "answer": 1,
+      "explanation": "Statements 1 and 2 are correct. Secondary succession starts where soil already exists (after a fire or abandoned farmland), so it is faster than primary succession.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G16",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-083",
+      "section": "gs1",
+      "topic": "Environment & Ecology",
+      "difficulty": "hard",
+      "question": "Consider the following statements:\n1. Methane has a higher 100-year global warming potential than carbon dioxide.\n2. Nitrous oxide is a greenhouse gas.\n3. Water vapour is a greenhouse gas.\n4. Sulphate aerosols have a net warming effect on the climate.\nHow many of the above statements are correct?",
+      "options": [
+        "Only one",
+        "Only two",
+        "Only three",
+        "All four"
+      ],
+      "answer": 2,
+      "explanation": "Statements 1–3 are correct. Sulphate aerosols reflect sunlight and help cloud formation, so their net effect is cooling, not warming.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G17",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-084",
+      "section": "gs1",
+      "topic": "Environment & Ecology",
+      "difficulty": "medium",
+      "question": "Consider the following statements:\nStatement-I: Coral bleaching occurs when corals under thermal stress expel the symbiotic algae (zooxanthellae) living in their tissues.\nStatement-II: Reef-building corals are found mostly in cold, deep waters of high latitudes.\nWhich one of the following is correct in respect of the above statements?",
+      "options": [
+        "Both Statement-I and Statement-II are correct and Statement-II explains Statement-I",
+        "Both Statement-I and Statement-II are correct, but Statement-II does not explain Statement-I",
+        "Statement-I is correct, but Statement-II is incorrect",
+        "Statement-I is incorrect, but Statement-II is correct"
+      ],
+      "answer": 2,
+      "explanation": "Statement-I is correct. Reef-building corals need warm, shallow, clear tropical waters (roughly 20–30 °C), so Statement-II is wrong.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G18",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-085",
+      "section": "gs1",
+      "topic": "Ancient & Medieval History",
+      "difficulty": "medium",
+      "question": "Consider the following pairs (inscription : ruler associated):\n1. Hathigumpha inscription : Kharavela\n2. Prayag Prashasti (Allahabad Pillar) : Samudragupta\n3. Aihole inscription : Pulakeshin II\n4. Junagadh inscription : Harshavardhana\nHow many of the pairs given above are correctly matched?",
+      "options": [
+        "Only one pair",
+        "Only two pairs",
+        "Only three pairs",
+        "All four pairs"
+      ],
+      "answer": 2,
+      "explanation": "Pairs 1–3 are correct (the Aihole inscription was composed by Ravikirti for Pulakeshin II). The Junagadh (Girnar) inscription is that of the Shaka ruler Rudradaman I.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G19",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-086",
+      "section": "gs1",
+      "topic": "Ancient & Medieval History",
+      "difficulty": "medium",
+      "question": "Consider the following statements about Jainism:\n1. Mahavira is regarded as the twenty-fourth Tirthankara.\n2. Jainism does not accept the authority of the Vedas.\n3. Mahavira preached in Sanskrit.\nHow many of the above statements are correct?",
+      "options": [
+        "Only one",
+        "Only two",
+        "All three",
+        "None"
+      ],
+      "answer": 1,
+      "explanation": "Statements 1 and 2 are correct. Mahavira preached in Ardhamagadhi, a Prakrit, not in Sanskrit.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G20",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-087",
+      "section": "gs1",
+      "topic": "Ancient & Medieval History",
+      "difficulty": "medium",
+      "question": "In the Delhi Sultanate, the term 'iqta' referred to:",
+      "options": [
+        "A tax levied on non-Muslims",
+        "Akbar's system of measuring land for revenue",
+        "A tax on the use of canal water",
+        "An assignment of the revenue of a territory to an officer in lieu of salary"
+      ],
+      "answer": 3,
+      "explanation": "An iqta was a revenue assignment held by an iqtadar in return for military and administrative service. Jizya was the tax on non-Muslims, and zabt was Akbar's land-measurement system.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G21",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-088",
+      "section": "gs1",
+      "topic": "Ancient & Medieval History",
+      "difficulty": "medium",
+      "question": "Consider the following statements about the Vijayanagara Empire:\n1. It was founded by Harihara and Bukka in the fourteenth century.\n2. Its power declined after the Battle of Talikota in 1565.\n3. Krishnadevaraya belonged to the Sangama dynasty.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 0,
+      "explanation": "Statements 1 and 2 are correct (founded c. 1336; Talikota 1565). Krishnadevaraya belonged to the Tuluva dynasty.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G21",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-089",
+      "section": "gs1",
+      "topic": "Modern History & Freedom Struggle",
+      "difficulty": "medium",
+      "question": "Annie Besant, the first woman to preside over the Indian National Congress, presided over which session?",
+      "options": [
+        "Lucknow, 1916",
+        "Belgaum, 1924",
+        "Kanpur, 1925",
+        "Calcutta, 1917"
+      ],
+      "answer": 3,
+      "explanation": "Annie Besant presided over the Calcutta session of 1917. Kanpur 1925 was presided over by Sarojini Naidu, the first Indian woman president; Belgaum 1924 by Gandhi; Lucknow 1916 by A.C. Majumdar.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G22",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-090",
+      "section": "gs1",
+      "topic": "Modern History & Freedom Struggle",
+      "difficulty": "medium",
+      "question": "With reference to the Indian Councils Act, 1909, consider the following statements:\n1. It introduced separate electorates for Muslims.\n2. Following these reforms, Satyendra Prasad Sinha became the first Indian member of the Viceroy's Executive Council.\n3. It introduced a bicameral legislature at the Centre.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 1,
+      "explanation": "The Morley–Minto reforms introduced separate electorates, and S.P. Sinha joined the Viceroy's Executive Council as Law Member. A bicameral central legislature came only with the Government of India Act, 1919.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G23",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-091",
+      "section": "gs1",
+      "topic": "Modern History & Freedom Struggle",
+      "difficulty": "medium",
+      "question": "Consider the following pairs (Governor-General/Viceroy : associated measure):\n1. Lord Dalhousie : Doctrine of Lapse\n2. Lord Wellesley : Subsidiary Alliance\n3. Lord Ripon : Ilbert Bill\n4. Lord Curzon : Vernacular Press Act\nHow many of the pairs given above are correctly matched?",
+      "options": [
+        "Only one pair",
+        "Only two pairs",
+        "Only three pairs",
+        "All four pairs"
+      ],
+      "answer": 2,
+      "explanation": "Pairs 1–3 are correct. The Vernacular Press Act (1878) was passed under Lord Lytton; Curzon is associated with the Partition of Bengal (1905).",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G23",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-092",
+      "section": "gs1",
+      "topic": "Modern History & Freedom Struggle",
+      "difficulty": "easy",
+      "question": "Consider the following pairs (organisation : founder):\n1. Servants of India Society : Gopal Krishna Gokhale\n2. Satyashodhak Samaj : Jyotirao Phule\n3. Self-Respect Movement : E.V. Ramasamy\n4. Prarthana Samaj : Atmaram Pandurang\nHow many of the pairs given above are correctly matched?",
+      "options": [
+        "Only one pair",
+        "Only two pairs",
+        "Only three pairs",
+        "All four pairs"
+      ],
+      "answer": 3,
+      "explanation": "All four are correct: Gokhale (1905), Phule (1873), E.V. Ramasamy 'Periyar' (1925) and Atmaram Pandurang (1867, with the support of Keshab Chandra Sen).",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G24",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-093",
+      "section": "gs1",
+      "topic": "Modern History & Freedom Struggle",
+      "difficulty": "medium",
+      "question": "Consider the following statements:\nStatement-I: Mahatma Gandhi withdrew the Non-Cooperation Movement in February 1922.\nStatement-II: At Chauri Chaura, a crowd set fire to a police station, killing the policemen inside.\nWhich one of the following is correct in respect of the above statements?",
+      "options": [
+        "Both Statement-I and Statement-II are correct and Statement-II explains Statement-I",
+        "Both Statement-I and Statement-II are correct, but Statement-II does not explain Statement-I",
+        "Statement-I is correct, but Statement-II is incorrect",
+        "Statement-I is incorrect, but Statement-II is correct"
+      ],
+      "answer": 0,
+      "explanation": "Both are correct, and Gandhi called off the movement precisely because the Chauri Chaura violence (5 February 1922) showed that the movement was turning violent.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G24",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-094",
+      "section": "gs1",
+      "topic": "Art & Culture",
+      "difficulty": "medium",
+      "question": "Consider the following pairs (painting tradition : State):\n1. Madhubani : Bihar\n2. Pattachitra : Odisha\n3. Warli : Gujarat\n4. Kalamkari : Assam\nHow many of the pairs given above are correctly matched?",
+      "options": [
+        "Only one pair",
+        "Only two pairs",
+        "Only three pairs",
+        "All four pairs"
+      ],
+      "answer": 1,
+      "explanation": "Madhubani (Bihar) and Pattachitra (Odisha) are correct. Warli is a tribal art of Maharashtra, and Kalamkari is associated with Andhra Pradesh and Telangana.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G25",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-095",
+      "section": "gs1",
+      "topic": "Art & Culture",
+      "difficulty": "medium",
+      "question": "Consider the following statements:\n1. Nagara-style temples generally have a curvilinear shikhara over the sanctum.\n2. The Vesara style combines features of the Nagara and Dravida styles.\n3. The Khajuraho temples are built in the Dravida style.\nHow many of the above statements are correct?",
+      "options": [
+        "Only one",
+        "Only two",
+        "All three",
+        "None"
+      ],
+      "answer": 1,
+      "explanation": "Statements 1 and 2 are correct. The Khajuraho temples (Chandelas) are classic Nagara temples.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G26",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-096",
+      "section": "gs1",
+      "topic": "Art & Culture",
+      "difficulty": "medium",
+      "question": "Consider the following statements about Sufism in India:\n1. The Chishti order was established in India by Khwaja Muinuddin Chishti.\n2. Nizamuddin Auliya belonged to the Suhrawardi order.\n3. Sama (devotional music) was an important practice of the Chishtis.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 3 only",
+        "2 only",
+        "1, 2 and 3",
+        "2 and 3 only"
+      ],
+      "answer": 0,
+      "explanation": "Statements 1 and 3 are correct. Nizamuddin Auliya was a Chishti saint of Delhi, not a Suhrawardi.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G27",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-097",
+      "section": "gs1",
+      "topic": "Art & Culture",
+      "difficulty": "medium",
+      "question": "Consider the following statements:\n1. The Gandhara school of sculpture shows strong Greco-Roman influence.\n2. The Mathura school mainly used spotted red sandstone.\n3. The Amaravati school flourished in the Krishna valley under the Satavahanas.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 3,
+      "explanation": "All three are correct: Gandhara art is Indo-Greek in style, Mathura sculptures are typically in spotted red sandstone, and the Amaravati school developed in the lower Krishna valley under Satavahana patronage.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G26",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-098",
+      "section": "gs1",
+      "topic": "Geography (India & World)",
+      "difficulty": "medium",
+      "question": "Which of the following are tributaries of the Godavari?\n1. Indravati\n2. Pranhita\n3. Manjira\n4. Bhima\nSelect the correct answer using the code given below.",
+      "options": [
+        "2 and 4 only",
+        "1, 3 and 4 only",
+        "1, 2, 3 and 4",
+        "1, 2 and 3 only"
+      ],
+      "answer": 3,
+      "explanation": "Indravati, Pranhita and Manjira join the Godavari. The Bhima is a tributary of the Krishna.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G28",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-099",
+      "section": "gs1",
+      "topic": "Geography (India & World)",
+      "difficulty": "medium",
+      "question": "Consider the following statements:\nStatement-I: Mawsynram and Cherrapunji receive very heavy rainfall during the south-west monsoon.\nStatement-II: The funnel-shaped valleys and steep south-facing slopes of the Khasi Hills force moist Bay of Bengal winds to rise sharply.\nWhich one of the following is correct in respect of the above statements?",
+      "options": [
+        "Both Statement-I and Statement-II are correct and Statement-II explains Statement-I",
+        "Both Statement-I and Statement-II are correct, but Statement-II does not explain Statement-I",
+        "Statement-I is correct, but Statement-II is incorrect",
+        "Statement-I is incorrect, but Statement-II is correct"
+      ],
+      "answer": 0,
+      "explanation": "Both are correct, and II explains I: the forced ascent of moisture-laden Bay of Bengal winds over the Khasi Hills gives intense orographic rainfall.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G29",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-100",
+      "section": "gs1",
+      "topic": "Geography (India & World)",
+      "difficulty": "medium",
+      "question": "Consider the following countries:\n1. Armenia\n2. Azerbaijan\n3. Kazakhstan\n4. Turkmenistan\n5. Uzbekistan\nHow many of the above countries border the Caspian Sea?",
+      "options": [
+        "Only two",
+        "Only three",
+        "Only four",
+        "All five"
+      ],
+      "answer": 1,
+      "explanation": "Azerbaijan, Kazakhstan and Turkmenistan border the Caspian Sea (with Russia and Iran). Armenia and Uzbekistan do not.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G30",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-101",
+      "section": "gs1",
+      "topic": "Geography (India & World)",
+      "difficulty": "medium",
+      "question": "Consider the following statements:\n1. Laterite soils develop under high temperature and heavy rainfall with intense leaching.\n2. Laterite soils are rich in oxides of iron and aluminium.\n3. Khadar alluvium is older than Bhangar alluvium.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 0,
+      "explanation": "Statements 1 and 2 are correct. Khadar is the newer alluvium of the flood plains; Bhangar is the older alluvium.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G31",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-102",
+      "section": "gs1",
+      "topic": "Geography (India & World)",
+      "difficulty": "medium",
+      "question": "Consider the following statements about tropical cyclones:\n1. They do not form very close to the Equator because the Coriolis force is negligible there.\n2. They draw their energy from the latent heat released by condensation.\n3. In the Northern Hemisphere they rotate clockwise.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 0,
+      "explanation": "Statements 1 and 2 are correct. Northern Hemisphere cyclones rotate anticlockwise.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G32",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-103",
+      "section": "gs1",
+      "topic": "Geography (India & World)",
+      "difficulty": "medium",
+      "question": "Which one of the following States does NOT share a border with Bangladesh?",
+      "options": [
+        "Meghalaya",
+        "Mizoram",
+        "Tripura",
+        "Manipur"
+      ],
+      "answer": 3,
+      "explanation": "West Bengal, Assam, Meghalaya, Tripura and Mizoram border Bangladesh. Manipur borders Myanmar, not Bangladesh.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G33",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-104",
+      "section": "gs1",
+      "topic": "Geography (India & World)",
+      "difficulty": "medium",
+      "question": "Which one of the following is a characteristic of an El Niño event?",
+      "options": [
+        "Strengthening of the easterly trade winds across the Pacific",
+        "Increased upwelling of cold water off the coast of Peru",
+        "Cooling of the eastern Pacific accompanied by heavy rain over Indonesia",
+        "Unusual warming of sea-surface waters in the central and eastern equatorial Pacific"
+      ],
+      "answer": 3,
+      "explanation": "El Niño is the warm phase: trade winds weaken, upwelling off Peru decreases and the central–eastern Pacific warms. The other options describe La Niña-type conditions.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G32",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-105",
+      "section": "gs1",
+      "topic": "Science & Technology",
+      "difficulty": "hard",
+      "question": "Consider the following statements:\n1. Monoclonal antibodies are produced from a single clone of cells, such as a hybridoma.\n2. Gene therapy aims to treat a disease by correcting or replacing a defective gene.\n3. All vaccines contain live but weakened pathogens.\nHow many of the above statements are correct?",
+      "options": [
+        "Only one",
+        "Only two",
+        "All three",
+        "None"
+      ],
+      "answer": 1,
+      "explanation": "Statements 1 and 2 are correct. Many vaccines are inactivated, subunit, toxoid or mRNA vaccines and contain no live pathogen.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G34",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-106",
+      "section": "gs1",
+      "topic": "Science & Technology",
+      "difficulty": "medium",
+      "question": "Consider the following statements:\nStatement-I: Bt cotton is resistant to attack by bollworms.\nStatement-II: Bt cotton carries a gene from the bacterium Bacillus thuringiensis that produces a protein toxic to certain insect larvae.\nWhich one of the following is correct in respect of the above statements?",
+      "options": [
+        "Both Statement-I and Statement-II are correct and Statement-II explains Statement-I",
+        "Both Statement-I and Statement-II are correct, but Statement-II does not explain Statement-I",
+        "Statement-I is correct, but Statement-II is incorrect",
+        "Statement-I is incorrect, but Statement-II is correct"
+      ],
+      "answer": 0,
+      "explanation": "Both are correct and II explains I: the Cry protein made by the inserted Bt gene kills bollworm larvae that feed on the plant.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G34",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-107",
+      "section": "gs1",
+      "topic": "Science & Technology",
+      "difficulty": "medium",
+      "question": "Consider the following statements:\n1. The PSLV is mainly used to place satellites in Sun-synchronous polar orbits.\n2. The LVM3 (earlier GSLV Mk III) uses an indigenously developed cryogenic upper stage.\n3. In the Chandrayaan-3 mission, the lander was named Vikram and the rover Pragyan.\nHow many of the above statements are correct?",
+      "options": [
+        "Only one",
+        "Only two",
+        "All three",
+        "None"
+      ],
+      "answer": 2,
+      "explanation": "All three are correct. The LVM3 uses the indigenous C25 cryogenic stage, and Chandrayaan-3's Vikram lander and Pragyan rover landed near the lunar south pole in August 2023.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G35",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-108",
+      "section": "gs1",
+      "topic": "Science & Technology",
+      "difficulty": "hard",
+      "question": "With reference to the NISAR satellite, consider the following statements:\n1. It is a joint Earth-observation mission of NASA and ISRO.\n2. It carries synthetic aperture radars operating in the L-band and the S-band.\n3. It was launched on a PSLV rocket.\nHow many of the above statements are correct?",
+      "options": [
+        "Only one",
+        "Only two",
+        "All three",
+        "None"
+      ],
+      "answer": 1,
+      "explanation": "Statements 1 and 2 are correct. NISAR was launched in July 2025 on GSLV-F16 from Sriharikota, not on a PSLV.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G35",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-109",
+      "section": "gs1",
+      "topic": "Science & Technology",
+      "difficulty": "hard",
+      "question": "Consider the following statements:\n1. A qubit can exist in a superposition of the states 0 and 1.\n2. Quantum entanglement allows information to be sent faster than light.\n3. Silicon is the most widely used semiconductor material in integrated circuits.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 2,
+      "explanation": "Statements 1 and 3 are correct. Entanglement produces correlations, but it cannot transmit information faster than light (the no-communication theorem).",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G36",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-110",
+      "section": "gs1",
+      "topic": "Science & Technology",
+      "difficulty": "medium",
+      "question": "Consider the following statements:\n1. Green hydrogen is produced by electrolysis of water using renewable electricity.\n2. Grey hydrogen is produced from natural gas without capturing the carbon dioxide released.\n3. Burning hydrogen in air releases carbon dioxide.\n4. Blue hydrogen is made from fossil fuels with carbon capture and storage.\nHow many of the above statements are correct?",
+      "options": [
+        "Only one",
+        "Only two",
+        "Only three",
+        "All four"
+      ],
+      "answer": 2,
+      "explanation": "Statements 1, 2 and 4 are correct. Hydrogen burns to form water; it releases no carbon dioxide.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G36",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-111",
+      "section": "gs1",
+      "topic": "Science & Technology",
+      "difficulty": "medium",
+      "question": "Which one of the following is based on total internal reflection of light?",
+      "options": [
+        "Blue colour of the clear sky",
+        "Twinkling of stars",
+        "Formation of shadows",
+        "Transmission of signals through optical fibres"
+      ],
+      "answer": 3,
+      "explanation": "Optical fibres guide light by repeated total internal reflection at the core–cladding boundary. The blue sky is due to scattering, twinkling to atmospheric refraction, and shadows to rectilinear propagation.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G37",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-112",
+      "section": "gs1",
+      "topic": "International Relations & Organisations",
+      "difficulty": "medium",
+      "question": "Consider the following statements about the World Trade Organization (WTO):\n1. It succeeded the GATT as the organisation governing world trade in 1995.\n2. Its decisions are generally taken by consensus.\n3. The Ministerial Conference is its highest decision-making body.\n4. India is a founding member of the WTO.\nHow many of the above statements are correct?",
+      "options": [
+        "Only one",
+        "Only two",
+        "Only three",
+        "All four"
+      ],
+      "answer": 3,
+      "explanation": "All four are correct. The WTO came into being on 1 January 1995; it normally decides by consensus; the Ministerial Conference is its top body; and India has been a member since its founding (and was a GATT contracting party from 1948).",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G38",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-113",
+      "section": "gs1",
+      "topic": "International Relations & Organisations",
+      "difficulty": "medium",
+      "question": "Consider the following countries:\n1. Bangladesh\n2. Myanmar\n3. Nepal\n4. Maldives\n5. Thailand\nHow many of the above are members of BIMSTEC?",
+      "options": [
+        "Only two",
+        "Only three",
+        "Only four",
+        "All five"
+      ],
+      "answer": 2,
+      "explanation": "BIMSTEC has seven members: Bangladesh, Bhutan, India, Myanmar, Nepal, Sri Lanka and Thailand. The Maldives is not a member, so four of the listed countries are members.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G39",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-114",
+      "section": "gs1",
+      "topic": "International Relations & Organisations",
+      "difficulty": "medium",
+      "question": "Which one of the following countries is NOT a member of BRICS?",
+      "options": [
+        "Indonesia",
+        "Ethiopia",
+        "Egypt",
+        "Argentina"
+      ],
+      "answer": 3,
+      "explanation": "Egypt and Ethiopia joined BRICS in 2024 and Indonesia in January 2025. Argentina was invited in 2023 but declined to join.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G39",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-115",
+      "section": "gs1",
+      "topic": "International Relations & Organisations",
+      "difficulty": "medium",
+      "question": "Consider the following statements about the Asian Infrastructure Investment Bank (AIIB):\n1. Its headquarters is in Beijing.\n2. India is its second-largest shareholder.\n3. The United States is one of its founding members.\nHow many of the above statements are correct?",
+      "options": [
+        "Only one",
+        "Only two",
+        "All three",
+        "None"
+      ],
+      "answer": 1,
+      "explanation": "Statements 1 and 2 are correct; China is the largest shareholder and India the second-largest. The United States is not a member of the AIIB.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G40",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-116",
+      "section": "gs1",
+      "topic": "International Relations & Organisations",
+      "difficulty": "medium",
+      "question": "Consider the following statements:\nStatement-I: The International Atomic Energy Agency reports to both the UN General Assembly and the UN Security Council.\nStatement-II: The International Atomic Energy Agency is a specialised agency of the United Nations.\nWhich one of the following is correct in respect of the above statements?",
+      "options": [
+        "Both Statement-I and Statement-II are correct and Statement-II explains Statement-I",
+        "Both Statement-I and Statement-II are correct, but Statement-II does not explain Statement-I",
+        "Statement-I is correct, but Statement-II is incorrect",
+        "Statement-I is incorrect, but Statement-II is correct"
+      ],
+      "answer": 2,
+      "explanation": "Statement-I is correct. The IAEA is an autonomous organisation related to the UN through a special agreement; it is not a UN specialised agency, so Statement-II is wrong.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G38",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-117",
+      "section": "gs1",
+      "topic": "Current Affairs & Government Schemes",
+      "difficulty": "medium",
+      "question": "With reference to Ayushman Bharat – Pradhan Mantri Jan Arogya Yojana (AB PM-JAY), consider the following statements:\n1. It provides health cover of up to ₹5 lakh per family per year for secondary and tertiary hospitalisation.\n2. Since 2024, all senior citizens aged 70 years and above are eligible irrespective of income.\n3. It is a Central Sector Scheme fully funded by the Union Government.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 0,
+      "explanation": "Statements 1 and 2 are correct; the extension to everyone aged 70+ was approved in 2024. PM-JAY is a Centrally Sponsored Scheme with costs shared between the Centre and States, so statement 3 is wrong.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G41",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-118",
+      "section": "gs1",
+      "topic": "Current Affairs & Government Schemes",
+      "difficulty": "medium",
+      "question": "With reference to PM Surya Ghar: Muft Bijli Yojana, consider the following statements:\n1. It aims to install rooftop solar systems in one crore households.\n2. It aims to provide up to 300 units of free electricity per month to the beneficiary households.\n3. It is implemented by the Ministry of Power.\nHow many of the above statements are correct?",
+      "options": [
+        "Only one",
+        "Only two",
+        "All three",
+        "None"
+      ],
+      "answer": 1,
+      "explanation": "Statements 1 and 2 are correct (scheme approved in February 2024). The nodal ministry is the Ministry of New and Renewable Energy, not the Ministry of Power.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G41",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-119",
+      "section": "gs1",
+      "topic": "Current Affairs & Government Schemes",
+      "difficulty": "medium",
+      "question": "Consider the following pairs (report : publisher):\n1. World Economic Outlook : International Monetary Fund\n2. Global Gender Gap Report : World Economic Forum\n3. Human Development Report : World Bank\n4. World Investment Report : UNCTAD\nHow many of the pairs given above are correctly matched?",
+      "options": [
+        "Only one pair",
+        "Only two pairs",
+        "Only three pairs",
+        "All four pairs"
+      ],
+      "answer": 2,
+      "explanation": "Pairs 1, 2 and 4 are correct. The Human Development Report is published by the UNDP.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G42",
+      "verified": false
+    },
+    {
+      "id": "upsc-cse-prelims-120",
+      "section": "gs1",
+      "topic": "Current Affairs & Government Schemes",
+      "difficulty": "medium",
+      "question": "The Global Hunger Index is published by:",
+      "options": [
+        "Concern Worldwide and Welthungerhilfe",
+        "Food and Agriculture Organization",
+        "World Food Programme",
+        "International Fund for Agricultural Development"
+      ],
+      "answer": 0,
+      "explanation": "The Global Hunger Index is a peer-reviewed annual report published jointly by the NGOs Concern Worldwide and Welthungerhilfe.",
+      "source": "ai",
+      "archetype": "upsc-cse-prelims-G42",
+      "verified": false
     }
   ]
 }

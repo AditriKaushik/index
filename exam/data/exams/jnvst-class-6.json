@@ -246,6 +246,557 @@
       }
     ]
   },
+  "pyqBlueprint": {
+    "yearsCovered": [
+      2024,
+      2025,
+      2026
+    ],
+    "method": "Compiled from the JNVST 2024 paper and the Phase-1/Phase-2 papers of JNVST 2025 and 2026 as reproduced in unofficial answer keys and solved-paper compilations (Careers360 answer-key pages, Arihant solved papers; found via web search, Oct 2026) and the writer's own knowledge of these papers. Official NVS papers could not be fetched. The real Mental Ability Test is figure-based (10 parts × 4); each archetype describes the figure pattern, and the mock renders it as an equivalent text item testing the same skill.",
+    "archetypes": [
+      {
+        "id": "jnvst-class-6-M01",
+        "section": "mental-ability",
+        "topic": "Odd One Out",
+        "pattern": "Four of five figures share a property (category, closed/open, symmetry); pick the one that differs – text version: four items of a category with one misfit",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2 of 4 items in Part I",
+        "difficulty": "easy"
+      },
+      {
+        "id": "jnvst-class-6-M02",
+        "section": "mental-ability",
+        "topic": "Odd One Out",
+        "pattern": "Odd item by a number/letter property (multiples, consecutive letters, sides of shapes)",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2 of 4 items in Part I",
+        "difficulty": "easy"
+      },
+      {
+        "id": "jnvst-class-6-M03",
+        "section": "mental-ability",
+        "topic": "Figure Matching",
+        "pattern": "Find the exact copy of a given figure among near-identical options (one element swapped, flipped or changed)",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2–3 of 4 items in Part II",
+        "difficulty": "easy"
+      },
+      {
+        "id": "jnvst-class-6-M04",
+        "section": "mental-ability",
+        "topic": "Figure Matching",
+        "pattern": "Match a sequence of small symbols/shapes where distractors swap two adjacent elements",
+        "years": [
+          2025,
+          2026
+        ],
+        "frequency": "1–2 of 4 items in Part II",
+        "difficulty": "easy"
+      },
+      {
+        "id": "jnvst-class-6-M05",
+        "section": "mental-ability",
+        "topic": "Pattern Completion",
+        "pattern": "Complete a grid where each row follows one rule (product, sum, difference); find the missing cell",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2 of 4 items in Part III",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jnvst-class-6-M06",
+        "section": "mental-ability",
+        "topic": "Pattern Completion",
+        "pattern": "Complete a symmetric square design: given one quarter, find the missing quarter by reflection about the centre lines",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2 of 4 items in Part III",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jnvst-class-6-M07",
+        "section": "mental-ability",
+        "topic": "Figure Series Completion",
+        "pattern": "Next term in a progression (elements added, ×2+1 growth, triangular numbers, letter skips)",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2–3 of 4 items in Part IV",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jnvst-class-6-M08",
+        "section": "mental-ability",
+        "topic": "Figure Series Completion",
+        "pattern": "Element rotates by a fixed angle (45°/90°) each step; predict its position after n steps",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 of 4 items in Part IV",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jnvst-class-6-M09",
+        "section": "mental-ability",
+        "topic": "Analogy",
+        "pattern": "A : B :: C : ? – same relation (part–whole, number of sides, object–body part)",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2–3 of 4 items in Part V",
+        "difficulty": "easy"
+      },
+      {
+        "id": "jnvst-class-6-M10",
+        "section": "mental-ability",
+        "topic": "Analogy",
+        "pattern": "Analogy by transformation: letter shift, power or count change applied to the second pair",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 of 4 items in Part V",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jnvst-class-6-M11",
+        "section": "mental-ability",
+        "topic": "Geometrical Figure Completion",
+        "pattern": "Which pieces join to make a complete square/circle/triangle; or what shapes result when a figure is cut",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2–3 of 4 items in Part VI",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jnvst-class-6-M12",
+        "section": "mental-ability",
+        "topic": "Geometrical Figure Completion",
+        "pattern": "How many pieces/parts are needed or formed to complete a figure (counting parts of a divided shape)",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 of 4 items in Part VI",
+        "difficulty": "easy"
+      },
+      {
+        "id": "jnvst-class-6-M13",
+        "section": "mental-ability",
+        "topic": "Mirror Imaging",
+        "pattern": "Mirror image (vertical mirror) of letters, words or a clock face",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "3 of 4 items in Part VII",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jnvst-class-6-M14",
+        "section": "mental-ability",
+        "topic": "Mirror Imaging",
+        "pattern": "Which letter/digit stays unchanged in a vertical or water (horizontal) mirror",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 of 4 items in Part VII",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jnvst-class-6-M15",
+        "section": "mental-ability",
+        "topic": "Punched Hole Pattern",
+        "pattern": "Paper folded 1–3 times and punched; number of holes after unfolding (doubles with each fold)",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2–3 of 4 items in Part VIII",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jnvst-class-6-M16",
+        "section": "mental-ability",
+        "topic": "Punched Hole Pattern",
+        "pattern": "Position of holes after unfolding – mirror positions across the fold line",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 of 4 items in Part VIII",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jnvst-class-6-M17",
+        "section": "mental-ability",
+        "topic": "Space Visualisation",
+        "pattern": "Dice: opposite/adjacent faces using opposite-sum-7 or two views of the same die",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2 of 4 items in Part IX",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jnvst-class-6-M18",
+        "section": "mental-ability",
+        "topic": "Space Visualisation",
+        "pattern": "Painted cube cut into small cubes; count cubes with 0/1/2/3 painted faces, or identify which shape/net forms a cube",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2 of 4 items in Part IX",
+        "difficulty": "hard"
+      },
+      {
+        "id": "jnvst-class-6-M19",
+        "section": "mental-ability",
+        "topic": "Embedded Figure",
+        "pattern": "Find the option in which the given small figure is hidden – text version: hidden word inside a longer word",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2–3 of 4 items in Part X",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jnvst-class-6-M20",
+        "section": "mental-ability",
+        "topic": "Embedded Figure",
+        "pattern": "Count the triangles/squares hidden in a composite figure",
+        "years": [
+          2025,
+          2026
+        ],
+        "frequency": "1–2 of 4 items in Part X",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jnvst-class-6-A01",
+        "section": "arithmetic",
+        "topic": "Number System & Numeration",
+        "pattern": "Place value/face value, expanded form, comparison of large numbers",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "jnvst-class-6-A02",
+        "section": "arithmetic",
+        "topic": "Number System & Numeration",
+        "pattern": "Form the smallest/largest number from given digits; Roman numerals; even/odd and prime facts",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "jnvst-class-6-A03",
+        "section": "arithmetic",
+        "topic": "LCM & HCF",
+        "pattern": "LCM/HCF of small numbers, often as a word problem (bells, remainder, greatest length)",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "jnvst-class-6-A04",
+        "section": "arithmetic",
+        "topic": "Fractions & Decimals",
+        "pattern": "Add/subtract fractions in a word problem ('what fraction is left'); compare fractions",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jnvst-class-6-A05",
+        "section": "arithmetic",
+        "topic": "Fractions & Decimals",
+        "pattern": "Decimal multiplication/division with place-value traps (0.01 vs 0.1)",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jnvst-class-6-A06",
+        "section": "arithmetic",
+        "topic": "Four Fundamental Operations",
+        "pattern": "Multi-step word problem with ×, ÷, +, − (boxes, items, money)",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "jnvst-class-6-A07",
+        "section": "arithmetic",
+        "topic": "Percentage & Profit-Loss",
+        "pattern": "Percentage of a quantity or the complementary part (boys/girls, pass/fail)",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "jnvst-class-6-A08",
+        "section": "arithmetic",
+        "topic": "Percentage & Profit-Loss",
+        "pattern": "Profit/loss and profit/loss per cent from CP and SP",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jnvst-class-6-A09",
+        "section": "arithmetic",
+        "topic": "Simple Interest",
+        "pattern": "SI, rate or time using SI = P × R × T / 100",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jnvst-class-6-A10",
+        "section": "arithmetic",
+        "topic": "Distance, Time & Speed",
+        "pattern": "Distance = speed × time with hours/minutes, or same speed for a new distance",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jnvst-class-6-A11",
+        "section": "arithmetic",
+        "topic": "Measurement (Length, Mass, Time, Capacity)",
+        "pattern": "Unit conversion and addition of compound units (km–m, kg–g, L–mL)",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "jnvst-class-6-A12",
+        "section": "arithmetic",
+        "topic": "Measurement (Length, Mass, Time, Capacity)",
+        "pattern": "Time duration between two clock times / hours–minutes conversion",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "jnvst-class-6-A13",
+        "section": "arithmetic",
+        "topic": "Perimeter, Area & Volume",
+        "pattern": "Perimeter/area of squares and rectangles, including tiles needed or equal perimeters",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jnvst-class-6-A14",
+        "section": "arithmetic",
+        "topic": "Perimeter, Area & Volume",
+        "pattern": "Volume of cube/cuboid",
+        "years": [
+          2025,
+          2026
+        ],
+        "frequency": "0–1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jnvst-class-6-A15",
+        "section": "arithmetic",
+        "topic": "Angles & Shapes",
+        "pattern": "Angles of triangles, clock-hand turning, right/straight angles",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "jnvst-class-6-A16",
+        "section": "arithmetic",
+        "topic": "Angles & Shapes",
+        "pattern": "Properties of shapes: sides, vertices, diagonals",
+        "years": [
+          2025,
+          2026
+        ],
+        "frequency": "0–1 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "jnvst-class-6-L01",
+        "section": "language",
+        "topic": "Reading Comprehension – Factual",
+        "pattern": "Direct-detail question (who/what/where) answered by one sentence of a short passage",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2–3 per passage",
+        "difficulty": "easy"
+      },
+      {
+        "id": "jnvst-class-6-L02",
+        "section": "language",
+        "topic": "Reading Comprehension – Factual",
+        "pattern": "'Why' question whose answer is a stated reason in the passage; distractors are details from other sentences",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per passage",
+        "difficulty": "easy"
+      },
+      {
+        "id": "jnvst-class-6-L03",
+        "section": "language",
+        "topic": "Vocabulary in Context",
+        "pattern": "Meaning of a word/phrase as used in the passage",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per passage",
+        "difficulty": "easy"
+      },
+      {
+        "id": "jnvst-class-6-L04",
+        "section": "language",
+        "topic": "Vocabulary in Context",
+        "pattern": "Synonym/opposite of a word taken from the passage",
+        "years": [
+          2025,
+          2026
+        ],
+        "frequency": "0–1 per passage",
+        "difficulty": "easy"
+      },
+      {
+        "id": "jnvst-class-6-L05",
+        "section": "language",
+        "topic": "Inference & Title",
+        "pattern": "Most suitable title for the passage",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "0–1 per passage",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jnvst-class-6-L06",
+        "section": "language",
+        "topic": "Inference & Title",
+        "pattern": "Inference: quality of a character, main idea or lesson of the passage",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per passage",
+        "difficulty": "medium"
+      }
+    ]
+  },
   "resources": {
     "pyqAvailable": true,
     "officialPYQ": null,
@@ -267,7 +818,9 @@
       ],
       "answer": 1,
       "explanation": "Apple, mango and banana are fruits; potato is a vegetable (an underground stem).",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-M01",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-002",
@@ -283,7 +836,9 @@
       ],
       "answer": 2,
       "explanation": "4, 8 and 12 are even numbers (and multiples of 4); 15 is odd.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-M02",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-003",
@@ -299,7 +854,9 @@
       ],
       "answer": 3,
       "explanation": "AB, CD and EF are pairs of consecutive letters; in GI the letter H is skipped.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-M02",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-004",
@@ -315,7 +872,9 @@
       ],
       "answer": 1,
       "explanation": "Circle, square and triangle are flat (2-D) figures; a cube is a solid (3-D) figure.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-M01",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-005",
@@ -331,7 +890,9 @@
       ],
       "answer": 2,
       "explanation": "These are squares: 1², 2², 3², 4², so the next term is 5² = 25.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-M07",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-006",
@@ -347,7 +908,9 @@
       ],
       "answer": 2,
       "explanation": "Each letter goes two steps back in the alphabet: T − 2 = R.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-M07",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-007",
@@ -363,7 +926,9 @@
       ],
       "answer": 3,
       "explanation": "The first letter moves forward (A, B, C, D) and the second moves backward (Z, Y, X, W): DW.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-M07",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-008",
@@ -379,7 +944,9 @@
       ],
       "answer": 3,
       "explanation": "The number of sides increases by one each time: 3, 4, 5, so the next shape has 6 sides – a hexagon.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-M07",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-009",
@@ -395,7 +962,9 @@
       ],
       "answer": 2,
       "explanation": "North → East (1) → South (2) → West (3).",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-M08",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-010",
@@ -411,7 +980,9 @@
       ],
       "answer": 0,
       "explanation": "Each term is double the previous one: 40 × 2 = 80.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-M07",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-011",
@@ -427,7 +998,9 @@
       ],
       "answer": 3,
       "explanation": "A bird lives in a nest; a bee lives in a hive. A den is for a lion, a burrow for a rabbit and a stable for a horse.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-M09",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-012",
@@ -443,7 +1016,9 @@
       ],
       "answer": 3,
       "explanation": "A square has 4 sides; a triangle has 3 sides.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-M09",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-013",
@@ -459,7 +1034,9 @@
       ],
       "answer": 2,
       "explanation": "2³ = 8, so 3³ = 27.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-M10",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-014",
@@ -475,7 +1052,9 @@
       ],
       "answer": 0,
       "explanation": "Each letter of ACE moves one step forward to make BDF. So G→H, I→J, K→L gives HJL.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-M10",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-015",
@@ -491,7 +1070,9 @@
       ],
       "answer": 1,
       "explanation": "An upright (vertical) mirror swaps left and right but keeps up and down. The bowl of 'b' moves from the right side to the left, so it looks like 'd'.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-M13",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-016",
@@ -507,7 +1088,9 @@
       ],
       "answer": 0,
       "explanation": "An upright mirror reverses left and right. 'A' has a vertical line of symmetry, so it looks the same. B, E and K are symmetric only about a horizontal line, so they look reversed.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-M14",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-017",
@@ -523,7 +1106,9 @@
       ],
       "answer": 2,
       "explanation": "For a mirror image of a clock, actual time = 12:00 − time shown = 12:00 − 3:00 = 9:00. (At 9:00 the hour hand points left; in the mirror it appears to point right, like 3:00.)",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-M13",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-018",
@@ -539,7 +1124,9 @@
       ],
       "answer": 3,
       "explanation": "An upright mirror reverses the order of letters; because T, O and M look the same when flipped, the image reads MOT.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-M13",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-019",
@@ -555,7 +1142,9 @@
       ],
       "answer": 1,
       "explanation": "Only BD8QP6 matches every character in the same order; the others swap P/Q, B/D or 8/6.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-M03",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-020",
@@ -571,7 +1160,9 @@
       ],
       "answer": 1,
       "explanation": "Compare character by character: only MN5W2V matches. The others swap M/N, W/V or 5/2.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-M03",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-021",
@@ -587,7 +1178,9 @@
       ],
       "answer": 1,
       "explanation": "In each row every number is double the one before it: 10 × 2 = 20.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-M05",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-022",
@@ -603,7 +1196,9 @@
       ],
       "answer": 0,
       "explanation": "In each row, first number + second number = third number: 6 + 1 = 7.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-M05",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-023",
@@ -619,7 +1214,9 @@
       ],
       "answer": 3,
       "explanation": "Joining two equal isosceles right triangles along the hypotenuse gives four equal sides and four right angles – a square.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-M11",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-024",
@@ -635,7 +1232,9 @@
       ],
       "answer": 1,
       "explanation": "The two diagonals cross at the centre and make 4 equal triangles.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-M12",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-025",
@@ -651,7 +1250,9 @@
       ],
       "answer": 0,
       "explanation": "The punch goes through 2 layers, so 2 holes appear, placed symmetrically about the fold line.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-M15",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-026",
@@ -667,7 +1268,9 @@
       ],
       "answer": 0,
       "explanation": "Two folds make 4 layers, so one punch makes 4 holes.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-M15",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-027",
@@ -683,7 +1286,9 @@
       ],
       "answer": 0,
       "explanation": "2 + 5 = 7, so 5 is opposite 2.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-M17",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-028",
@@ -699,7 +1304,9 @@
       ],
       "answer": 0,
       "explanation": "A 3 × 3 × 3 cube has only one cube hidden in the centre: (3 − 2)³ = 1.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-M18",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-029",
@@ -715,7 +1322,9 @@
       ],
       "answer": 0,
       "explanation": "CATER-PILLAR contains PILLAR as a continuous part. The other words do not appear as continuous letters.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-M19",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-030",
@@ -731,7 +1340,9 @@
       ],
       "answer": 1,
       "explanation": "PL-ANT contains 'ANT'. PAINT has 'AINT', TAN has the letters in a different order, and NEAT does not contain it.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-M19",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-031",
@@ -747,7 +1358,9 @@
       ],
       "answer": 3,
       "explanation": "7 is in the thousands place, so its place value is 7 × 1000 = 7,000.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-A01",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-032",
@@ -763,7 +1376,9 @@
       ],
       "answer": 2,
       "explanation": "XL = 40 and IV = 4, so XLIV = 44.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-A02",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-033",
@@ -779,7 +1394,9 @@
       ],
       "answer": 3,
       "explanation": "Multiples of 8: 8, 16, 24 … 24 is the first one divisible by both 4 and 6.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-A03",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-034",
@@ -795,7 +1412,9 @@
       ],
       "answer": 1,
       "explanation": "36 = 12 × 3 and 48 = 12 × 4, and 3 and 4 have no common factor, so the HCF is 12.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-A03",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-035",
@@ -811,7 +1430,9 @@
       ],
       "answer": 0,
       "explanation": "3/4 = 6/8, and 6/8 + 1/8 = 7/8.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-A04",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-036",
@@ -827,7 +1448,9 @@
       ],
       "answer": 0,
       "explanation": "25 × 4 = 100; there are 3 decimal places in total, so the answer is 0.100 = 0.1.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-A05",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-037",
@@ -843,7 +1466,9 @@
       ],
       "answer": 2,
       "explanation": "25% = 1/4, and 360 ÷ 4 = 90.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-A07",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-038",
@@ -859,7 +1484,9 @@
       ],
       "answer": 0,
       "explanation": "Profit = ₹50; profit % = 50/250 × 100 = 20%.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-A08",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-039",
@@ -875,7 +1502,9 @@
       ],
       "answer": 3,
       "explanation": "SI = 800 × 5 × 3 / 100 = ₹120.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-A09",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-040",
@@ -891,7 +1520,9 @@
       ],
       "answer": 1,
       "explanation": "Distance = speed × time = 60 × 2.5 = 150 km.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-A10",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-041",
@@ -907,7 +1538,9 @@
       ],
       "answer": 1,
       "explanation": "3 km = 3,000 m; 3,000 + 250 = 3,250 m.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-A11",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-042",
@@ -923,7 +1556,9 @@
       ],
       "answer": 0,
       "explanation": "2 hours = 120 minutes and ½ hour = 30 minutes; total 150 minutes.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-A12",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-043",
@@ -939,7 +1574,9 @@
       ],
       "answer": 1,
       "explanation": "Perimeter = 4 × side = 4 × 9 = 36 cm.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-A13",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-044",
@@ -955,7 +1592,9 @@
       ],
       "answer": 2,
       "explanation": "Area = length × breadth = 15 × 8 = 120 m².",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-A13",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-045",
@@ -971,7 +1610,9 @@
       ],
       "answer": 1,
       "explanation": "All three angles are equal and add up to 180°, so each is 60°.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-A15",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-046",
@@ -987,7 +1628,9 @@
       ],
       "answer": 3,
       "explanation": "The passage says that every summer the pond dried up, so the women had to fetch water from three kilometres away.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-L01",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-047",
@@ -1003,7 +1646,9 @@
       ],
       "answer": 0,
       "explanation": "'One year, the school teacher, Mr. Rao, asked the children to help.'",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-L01",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-048",
@@ -1019,7 +1664,9 @@
       ],
       "answer": 2,
       "explanation": "They dug channels 'so that rainwater from the fields would flow into it' (the pond).",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-L02",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-049",
@@ -1035,7 +1682,9 @@
       ],
       "answer": 2,
       "explanation": "The brim is the top edge of a container, so 'filled to the brim' means completely full.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-L03",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-050",
@@ -1051,7 +1700,9 @@
       ],
       "answer": 3,
       "explanation": "The passage is about how the villagers cleaned and refilled their pond, so 'Saving the Village Pond' fits best.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-L05",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-051",
@@ -1067,7 +1718,9 @@
       ],
       "answer": 2,
       "explanation": "'The queen lays eggs, while the workers do almost all the other jobs.'",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-L01",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-052",
@@ -1083,7 +1736,9 @@
       ],
       "answer": 0,
       "explanation": "The dance is performed 'to tell the others where the flowers are'.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-L02",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-053",
@@ -1099,7 +1754,9 @@
       ],
       "answer": 2,
       "explanation": "'They build the honeycomb with wax.'",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-L01",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-054",
@@ -1115,7 +1772,9 @@
       ],
       "answer": 1,
       "explanation": "The last sentence says bees carry pollen from flower to flower, which helps plants produce fruits and seeds.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-L06",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-055",
@@ -1131,7 +1790,9 @@
       ],
       "answer": 1,
       "explanation": "The first sentence explains it: 'large groups called colonies'.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-L03",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-056",
@@ -1147,7 +1808,9 @@
       ],
       "answer": 2,
       "explanation": "'Meena found a purse lying near the bus stop.'",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-L01",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-057",
@@ -1163,7 +1826,9 @@
       ],
       "answer": 3,
       "explanation": "'Meena went to the nearby police chowki and handed over the purse.'",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-L01",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-058",
@@ -1179,7 +1844,9 @@
       ],
       "answer": 3,
       "explanation": "Mr. Chand said the money was meant for his wife's medicines.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-L01",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-059",
@@ -1195,7 +1862,9 @@
       ],
       "answer": 3,
       "explanation": "Returning the lost purse with the money, even when late for school, shows honesty.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-L06",
+      "source": "curated"
     },
     {
       "id": "jnvst-class-6-060",
@@ -1211,7 +1880,1089 @@
       ],
       "answer": 2,
       "explanation": "'The principal praised Meena in the morning assembly'; her classmates clapped.",
-      "verified": true
+      "verified": true,
+      "archetype": "jnvst-class-6-L01",
+      "source": "curated"
+    },
+    {
+      "id": "jnvst-class-6-061",
+      "section": "mental-ability",
+      "topic": "Odd One Out",
+      "difficulty": "easy",
+      "question": "Find the odd one out.",
+      "options": [
+        "Rose",
+        "Neem",
+        "Lotus",
+        "Lily"
+      ],
+      "answer": 1,
+      "explanation": "Rose, lotus and lily are flowers; neem is a tree.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-M01",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-062",
+      "section": "mental-ability",
+      "topic": "Odd One Out",
+      "difficulty": "easy",
+      "question": "Find the odd one out.",
+      "options": [
+        "35",
+        "21",
+        "54",
+        "49"
+      ],
+      "answer": 2,
+      "explanation": "21, 35 and 49 are multiples of 7; 54 is not.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-M02",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-063",
+      "section": "mental-ability",
+      "topic": "Odd One Out",
+      "difficulty": "easy",
+      "question": "Find the odd letter-group out.",
+      "options": [
+        "STU",
+        "PQR",
+        "DEF",
+        "JLM"
+      ],
+      "answer": 3,
+      "explanation": "PQR, DEF and STU are three consecutive letters; in JLM the letter K is skipped.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-M02",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-064",
+      "section": "mental-ability",
+      "topic": "Figure Matching",
+      "difficulty": "easy",
+      "question": "Which option is exactly the same as K7RZ3M?",
+      "options": [
+        "K7ZR3M",
+        "K7RZ3M",
+        "K1RZ3M",
+        "K7RZ8M"
+      ],
+      "answer": 1,
+      "explanation": "Only K7RZ3M matches every character in order; the others swap R/Z or change 7→1 or 3→8.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-M03",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-065",
+      "section": "mental-ability",
+      "topic": "Figure Matching",
+      "difficulty": "easy",
+      "question": "Which option is exactly the same as ▲●■◆?",
+      "options": [
+        "●▲■◆",
+        "▲■●◆",
+        "▲●■◆",
+        "▲●◆■"
+      ],
+      "answer": 2,
+      "explanation": "The distractors each swap two neighbouring symbols; only ▲●■◆ keeps the original order.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-M04",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-066",
+      "section": "mental-ability",
+      "topic": "Figure Matching",
+      "difficulty": "medium",
+      "question": "Which option is exactly the same as pqbd96?",
+      "options": [
+        "qpbd96",
+        "pqdb96",
+        "pqbd96",
+        "pqbd69"
+      ],
+      "answer": 2,
+      "explanation": "Mirror-type letters (p/q, b/d) and digits (6/9) are swapped in the distractors; only pqbd96 is identical.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-M03",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-067",
+      "section": "mental-ability",
+      "topic": "Pattern Completion",
+      "difficulty": "medium",
+      "question": "Find the missing number. Row 1: 4, 5, 20. Row 2: 3, 6, 18. Row 3: 7, 2, ?",
+      "options": [
+        "16",
+        "9",
+        "12",
+        "14"
+      ],
+      "answer": 3,
+      "explanation": "In each row the third number is the product of the first two: 4 × 5 = 20, 3 × 6 = 18, so 7 × 2 = 14.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-M05",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-068",
+      "section": "mental-ability",
+      "topic": "Pattern Completion",
+      "difficulty": "medium",
+      "question": "Find the missing number. Row 1: 10, 4, 6. Row 2: 15, 7, 8. Row 3: 20, 9, ?",
+      "options": [
+        "10",
+        "29",
+        "12",
+        "11"
+      ],
+      "answer": 3,
+      "explanation": "In each row the third number = first − second: 10 − 4 = 6, 15 − 7 = 8, so 20 − 9 = 11.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-M05",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-069",
+      "section": "mental-ability",
+      "topic": "Pattern Completion",
+      "difficulty": "medium",
+      "question": "A square design is divided into four equal quarters. The top-left quarter shows an arrow ↖ pointing to its outer corner. The design is symmetric about both its vertical and horizontal centre lines. What does the bottom-right quarter show?",
+      "options": [
+        "↗",
+        "↖",
+        "↘",
+        "↙"
+      ],
+      "answer": 2,
+      "explanation": "Reflecting ↖ about the vertical line gives ↗ in the top-right quarter; reflecting that about the horizontal line gives ↘ in the bottom-right quarter.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-M06",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-070",
+      "section": "mental-ability",
+      "topic": "Figure Series Completion",
+      "difficulty": "medium",
+      "question": "What comes next in the series: 2, 5, 11, 23, ?",
+      "options": [
+        "47",
+        "46",
+        "45",
+        "35"
+      ],
+      "answer": 0,
+      "explanation": "Each term = previous term × 2 + 1: 23 × 2 + 1 = 47.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-M07",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-071",
+      "section": "mental-ability",
+      "topic": "Figure Series Completion",
+      "difficulty": "medium",
+      "question": "In a figure series, a clock hand starts pointing at 12 and turns 45° anticlockwise at every step. At which number does it point after 4 steps?",
+      "options": [
+        "12",
+        "9",
+        "3",
+        "6"
+      ],
+      "answer": 3,
+      "explanation": "4 × 45° = 180°. Turning half a circle from 12 (in either direction) brings the hand to 6.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-M08",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-072",
+      "section": "mental-ability",
+      "topic": "Figure Series Completion",
+      "difficulty": "medium",
+      "question": "Dots are arranged in triangles: the 1st figure has 1 dot, the 2nd has 3, the 3rd has 6 and the 4th has 10. How many dots will the 5th figure have?",
+      "options": [
+        "20",
+        "14",
+        "16",
+        "15"
+      ],
+      "answer": 3,
+      "explanation": "Each new row adds one more dot than the last: +2, +3, +4, so the next step is +5: 10 + 5 = 15.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-M07",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-073",
+      "section": "mental-ability",
+      "topic": "Analogy",
+      "difficulty": "easy",
+      "question": "Fish : Fins :: Bird : ?",
+      "options": [
+        "Nest",
+        "Beak",
+        "Wings",
+        "Sky"
+      ],
+      "answer": 2,
+      "explanation": "A fish moves with its fins; a bird moves with its wings.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-M09",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-074",
+      "section": "mental-ability",
+      "topic": "Analogy",
+      "difficulty": "easy",
+      "question": "Pentagon : 5 :: Hexagon : ?",
+      "options": [
+        "6",
+        "5",
+        "7",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "A pentagon has 5 sides; a hexagon has 6 sides.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-M09",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-075",
+      "section": "mental-ability",
+      "topic": "Analogy",
+      "difficulty": "medium",
+      "question": "AB : DE :: PQ : ?",
+      "options": [
+        "RS",
+        "ST",
+        "TU",
+        "SU"
+      ],
+      "answer": 1,
+      "explanation": "Each letter moves three places forward: A→D, B→E; so P→S, Q→T, giving ST.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-M10",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-076",
+      "section": "mental-ability",
+      "topic": "Geometrical Figure Completion",
+      "difficulty": "easy",
+      "question": "Which pair of pieces can be joined to make one complete circle?",
+      "options": [
+        "Two semicircles",
+        "Two quarter-circles",
+        "A semicircle and a quarter-circle",
+        "Three quarter-circles"
+      ],
+      "answer": 0,
+      "explanation": "Two halves make a whole: two semicircles form a full circle. The other pairs cover only ½, ¾ or ¾ of a circle.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-M11",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-077",
+      "section": "mental-ability",
+      "topic": "Geometrical Figure Completion",
+      "difficulty": "easy",
+      "question": "A rectangle is cut along one of its diagonals. Which shapes are the two pieces?",
+      "options": [
+        "Two equilateral triangles",
+        "Two squares",
+        "Two right-angled triangles",
+        "Two trapeziums"
+      ],
+      "answer": 2,
+      "explanation": "A diagonal joins opposite corners, so each piece keeps one 90° corner of the rectangle: two right-angled triangles.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-M11",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-078",
+      "section": "mental-ability",
+      "topic": "Geometrical Figure Completion",
+      "difficulty": "easy",
+      "question": "Three identical small squares are placed side by side in a row. How many more such squares are needed to make one big square of 3 × 3?",
+      "options": [
+        "4",
+        "3",
+        "9",
+        "6"
+      ],
+      "answer": 3,
+      "explanation": "A 3 × 3 square needs 9 small squares; 9 − 3 = 6 more are needed.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-M12",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-079",
+      "section": "mental-ability",
+      "topic": "Mirror Imaging",
+      "difficulty": "medium",
+      "question": "The word MAT is written on a card and seen in an upright mirror placed beside it. Since M, A and T each look the same in such a mirror, what does the image read?",
+      "options": [
+        "MAT",
+        "TAM",
+        "ATM",
+        "TMA"
+      ],
+      "answer": 1,
+      "explanation": "A side mirror reverses left and right, so the letter order is reversed; each letter is unchanged, giving TAM.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-M13",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-080",
+      "section": "mental-ability",
+      "topic": "Mirror Imaging",
+      "difficulty": "hard",
+      "question": "A wall clock without numbers, seen in a mirror, appears to show 4:00. What is the actual time?",
+      "options": [
+        "4:00",
+        "8:00",
+        "6:00",
+        "10:00"
+      ],
+      "answer": 1,
+      "explanation": "For whole hours, actual time = 12:00 − mirror time = 12:00 − 4:00 = 8:00.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-M13",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-081",
+      "section": "mental-ability",
+      "topic": "Mirror Imaging",
+      "difficulty": "medium",
+      "question": "Which of these digits looks exactly the same when its image is seen in water (a mirror placed below it)?",
+      "options": [
+        "4",
+        "3",
+        "7",
+        "6"
+      ],
+      "answer": 1,
+      "explanation": "A water image flips top and bottom. The digit 3 is symmetric about a horizontal line, so it looks the same; 4, 7 and 6 change.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-M14",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-082",
+      "section": "mental-ability",
+      "topic": "Punched Hole Pattern",
+      "difficulty": "medium",
+      "question": "A square sheet of paper is folded in half three times, one fold after another. One hole is then punched through all the layers. How many holes will there be when the sheet is fully unfolded?",
+      "options": [
+        "8",
+        "4",
+        "6",
+        "3"
+      ],
+      "answer": 0,
+      "explanation": "Each fold doubles the layers: 2 × 2 × 2 = 8 layers, so one punch makes 8 holes.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-M15",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-083",
+      "section": "mental-ability",
+      "topic": "Punched Hole Pattern",
+      "difficulty": "medium",
+      "question": "A sheet of paper is folded along its vertical middle line so that the left half lies exactly on the right half. One hole is punched in the upper part of the folded sheet. Where will the holes be after unfolding?",
+      "options": [
+        "Only one hole, in the upper right",
+        "One hole in the upper half and one in the lower half",
+        "Two holes, both on the right half",
+        "Two holes in the upper half, one on each side of the fold line"
+      ],
+      "answer": 3,
+      "explanation": "The punch passes through both halves, so the holes appear at mirror positions on either side of the vertical fold, both in the upper half.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-M16",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-084",
+      "section": "mental-ability",
+      "topic": "Punched Hole Pattern",
+      "difficulty": "easy",
+      "question": "A square sheet of paper is folded once along a diagonal to make a triangle. Two holes are punched through the folded sheet. How many holes will there be when it is unfolded?",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "answer": 1,
+      "explanation": "One fold makes two layers, so each of the 2 punches makes 2 holes: 2 × 2 = 4.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-M15",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-085",
+      "section": "mental-ability",
+      "topic": "Space Visualisation",
+      "difficulty": "medium",
+      "question": "On a standard dice the numbers on opposite faces add up to 7. Which pair of numbers can never be seen on adjacent (touching) faces?",
+      "options": [
+        "3 and 4",
+        "1 and 2",
+        "2 and 3",
+        "5 and 6"
+      ],
+      "answer": 0,
+      "explanation": "3 + 4 = 7, so 3 and 4 are on opposite faces and can never touch. The other pairs do not add to 7.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-M17",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-086",
+      "section": "mental-ability",
+      "topic": "Space Visualisation",
+      "difficulty": "hard",
+      "question": "A wooden cube painted on all faces is cut into 27 equal smaller cubes. How many small cubes have exactly two faces painted?",
+      "options": [
+        "12",
+        "8",
+        "6",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "Cubes with two painted faces lie on the edges but not at corners: 12 edges × 1 = 12. (8 are corners, 6 face-centres, 1 hidden.)",
+      "source": "ai",
+      "archetype": "jnvst-class-6-M18",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-087",
+      "section": "mental-ability",
+      "topic": "Space Visualisation",
+      "difficulty": "medium",
+      "question": "A cube painted red on all faces is cut into 8 equal smaller cubes. How many small cubes have exactly three faces painted?",
+      "options": [
+        "8",
+        "4",
+        "6",
+        "0"
+      ],
+      "answer": 0,
+      "explanation": "Cutting into 2 × 2 × 2 makes every small cube a corner cube, so all 8 have three painted faces.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-M18",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-088",
+      "section": "mental-ability",
+      "topic": "Embedded Figure",
+      "difficulty": "medium",
+      "question": "Which of these words is hidden (letters together, in the same order) in the word TEMPERATURE?",
+      "options": [
+        "RAT",
+        "PUT",
+        "MAP",
+        "TAP"
+      ],
+      "answer": 0,
+      "explanation": "TEMPE-RAT-URE contains R, A, T together. The letters of PUT, MAP and TAP do not appear together in that order.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-M19",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-089",
+      "section": "mental-ability",
+      "topic": "Embedded Figure",
+      "difficulty": "hard",
+      "question": "A square has both of its diagonals drawn. How many triangles are there in the figure in all?",
+      "options": [
+        "8",
+        "4",
+        "6",
+        "10"
+      ],
+      "answer": 0,
+      "explanation": "The diagonals make 4 small triangles, and each pair of neighbouring small triangles forms a bigger triangle (4 more): 4 + 4 = 8.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-M20",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-090",
+      "section": "mental-ability",
+      "topic": "Embedded Figure",
+      "difficulty": "easy",
+      "question": "In which of these words is the word CAR hidden (letters together, in the same order)?",
+      "options": [
+        "CRAB",
+        "SCARF",
+        "RACE",
+        "ARCH"
+      ],
+      "answer": 1,
+      "explanation": "S-CAR-F contains C, A, R together in order; the other words have these letters in a different order.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-M19",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-091",
+      "section": "arithmetic",
+      "topic": "Number System & Numeration",
+      "difficulty": "medium",
+      "question": "What is the smallest 5-digit number that can be formed using the digits 4, 0, 7, 2 and 9, each used only once?",
+      "options": [
+        "20749",
+        "02479",
+        "24079",
+        "20479"
+      ],
+      "answer": 3,
+      "explanation": "0 cannot be the first digit, so start with the next smallest, 2, then write the rest in increasing order: 20479.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-A02",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-092",
+      "section": "arithmetic",
+      "topic": "Number System & Numeration",
+      "difficulty": "easy",
+      "question": "What is the difference between the place value and the face value of 6 in 56,812?",
+      "options": [
+        "5,000",
+        "6,006",
+        "5,994",
+        "6,000"
+      ],
+      "answer": 2,
+      "explanation": "Place value of 6 = 6,000; face value = 6. Difference = 6,000 − 6 = 5,994.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-A01",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-093",
+      "section": "arithmetic",
+      "topic": "LCM & HCF",
+      "difficulty": "medium",
+      "question": "What is the smallest number which, when divided by 6, 8 and 12, leaves a remainder of 3 in each case?",
+      "options": [
+        "99",
+        "24",
+        "51",
+        "27"
+      ],
+      "answer": 3,
+      "explanation": "LCM of 6, 8, 12 = 24; required number = 24 + 3 = 27.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-A03",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-094",
+      "section": "arithmetic",
+      "topic": "Fractions & Decimals",
+      "difficulty": "medium",
+      "question": "Riya ate 2/5 of a cake and Mohan ate 1/4 of it. What fraction of the cake is left?",
+      "options": [
+        "13/20",
+        "7/20",
+        "3/9",
+        "1/3"
+      ],
+      "answer": 1,
+      "explanation": "Eaten = 2/5 + 1/4 = 8/20 + 5/20 = 13/20. Left = 1 − 13/20 = 7/20.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-A04",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-095",
+      "section": "arithmetic",
+      "topic": "Fractions & Decimals",
+      "difficulty": "medium",
+      "question": "4.5 ÷ 0.09 = ?",
+      "options": [
+        "50",
+        "5",
+        "0.5",
+        "500"
+      ],
+      "answer": 0,
+      "explanation": "4.5 ÷ 0.09 = 450 ÷ 9 = 50.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-A05",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-096",
+      "section": "arithmetic",
+      "topic": "Four Fundamental Operations",
+      "difficulty": "easy",
+      "question": "A school bought 24 boxes of chalk with 36 chalks in each box. If 150 chalks have been used, how many are left?",
+      "options": [
+        "714",
+        "724",
+        "704",
+        "864"
+      ],
+      "answer": 0,
+      "explanation": "24 × 36 = 864 chalks; 864 − 150 = 714 are left.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-A06",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-097",
+      "section": "arithmetic",
+      "topic": "Percentage & Profit-Loss",
+      "difficulty": "easy",
+      "question": "In a class of 40 students, 35% are girls. How many boys are there in the class?",
+      "options": [
+        "24",
+        "14",
+        "26",
+        "35"
+      ],
+      "answer": 2,
+      "explanation": "Girls = 35% of 40 = 14, so boys = 40 − 14 = 26.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-A07",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-098",
+      "section": "arithmetic",
+      "topic": "Percentage & Profit-Loss",
+      "difficulty": "medium",
+      "question": "A shopkeeper buys a bag for ₹480 and sells it at a loss of ₹60. What is his loss per cent?",
+      "options": [
+        "12.5%",
+        "15%",
+        "10%",
+        "12%"
+      ],
+      "answer": 0,
+      "explanation": "Loss % = 60/480 × 100 = 12.5%.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-A08",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-099",
+      "section": "arithmetic",
+      "topic": "Simple Interest",
+      "difficulty": "medium",
+      "question": "At what rate per cent per year will ₹600 earn a simple interest of ₹90 in 3 years?",
+      "options": [
+        "15%",
+        "3%",
+        "6%",
+        "5%"
+      ],
+      "answer": 3,
+      "explanation": "R = SI × 100/(P × T) = 90 × 100/(600 × 3) = 5%.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-A09",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-100",
+      "section": "arithmetic",
+      "topic": "Distance, Time & Speed",
+      "difficulty": "easy",
+      "question": "A cyclist covers 36 km in 3 hours. At the same speed, how long will he take to cover 60 km?",
+      "options": [
+        "4 hours",
+        "5 hours",
+        "6 hours",
+        "4½ hours"
+      ],
+      "answer": 1,
+      "explanation": "Speed = 36 ÷ 3 = 12 km/h. Time = 60 ÷ 12 = 5 hours.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-A10",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-101",
+      "section": "arithmetic",
+      "topic": "Measurement (Length, Mass, Time, Capacity)",
+      "difficulty": "medium",
+      "question": "5 kg 40 g + 2 kg 975 g = ?",
+      "options": [
+        "8 kg 150 g",
+        "8 kg 15 g",
+        "7 kg 915 g",
+        "8 kg 1 g"
+      ],
+      "answer": 1,
+      "explanation": "5,040 g + 2,975 g = 8,015 g = 8 kg 15 g.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-A11",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-102",
+      "section": "arithmetic",
+      "topic": "Measurement (Length, Mass, Time, Capacity)",
+      "difficulty": "easy",
+      "question": "A train leaves a station at 10:45 a.m. and reaches its destination at 3:20 p.m. the same day. How long is the journey?",
+      "options": [
+        "4 h 35 min",
+        "5 h 35 min",
+        "4 h 25 min",
+        "5 h 25 min"
+      ],
+      "answer": 0,
+      "explanation": "10:45 a.m. to 2:45 p.m. is 4 h; 2:45 p.m. to 3:20 p.m. is 35 min. Total 4 h 35 min.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-A12",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-103",
+      "section": "arithmetic",
+      "topic": "Perimeter, Area & Volume",
+      "difficulty": "medium",
+      "question": "A room is 6 m long and 4 m wide. How many square tiles of side 50 cm are needed to cover its floor?",
+      "options": [
+        "48",
+        "96",
+        "24",
+        "120"
+      ],
+      "answer": 1,
+      "explanation": "Floor = 600 cm × 400 cm. Tiles along length = 12, along width = 8; 12 × 8 = 96.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-A13",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-104",
+      "section": "arithmetic",
+      "topic": "Perimeter, Area & Volume",
+      "difficulty": "medium",
+      "question": "The perimeter of a square is equal to the perimeter of a rectangle 14 cm long and 10 cm wide. What is the side of the square?",
+      "options": [
+        "10 cm",
+        "24 cm",
+        "12 cm",
+        "14 cm"
+      ],
+      "answer": 2,
+      "explanation": "Perimeter of rectangle = 2 × (14 + 10) = 48 cm; side of square = 48 ÷ 4 = 12 cm.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-A13",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-105",
+      "section": "arithmetic",
+      "topic": "Angles & Shapes",
+      "difficulty": "easy",
+      "question": "Through how many degrees does the minute hand of a clock turn in 20 minutes?",
+      "options": [
+        "60°",
+        "120°",
+        "100°",
+        "200°"
+      ],
+      "answer": 1,
+      "explanation": "The minute hand turns 360° in 60 minutes, i.e. 6° per minute: 20 × 6° = 120°.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-A15",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-106",
+      "section": "language",
+      "topic": "Reading Comprehension – Factual",
+      "difficulty": "easy",
+      "question": "Passage: Arjun lived in a village at the edge of a forest. Every morning he took his family's goats to graze on the hillside. One hot afternoon he noticed smoke rising from the dry grass near the forest. He knew that even a small fire could spread quickly in the strong summer wind. Arjun ran to the nearest house, which had a mobile phone, and called the forest office. Then he alerted the villagers, who carried buckets of water and beat the flames with green branches. By the time the forest guards arrived, the fire was almost out. The forest officer thanked Arjun and gave him a book about the birds and animals of the forest.\n\nQuestion: What did Arjun do every morning?",
+      "options": [
+        "He collected dry grass for the fire",
+        "He went to school in the town",
+        "He worked at the forest office",
+        "He took the goats to graze on the hillside"
+      ],
+      "answer": 3,
+      "explanation": "The passage says that every morning he took his family's goats to graze on the hillside.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-L01",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-107",
+      "section": "language",
+      "topic": "Reading Comprehension – Factual",
+      "difficulty": "easy",
+      "question": "Passage: Arjun lived in a village at the edge of a forest. Every morning he took his family's goats to graze on the hillside. One hot afternoon he noticed smoke rising from the dry grass near the forest. He knew that even a small fire could spread quickly in the strong summer wind. Arjun ran to the nearest house, which had a mobile phone, and called the forest office. Then he alerted the villagers, who carried buckets of water and beat the flames with green branches. By the time the forest guards arrived, the fire was almost out. The forest officer thanked Arjun and gave him a book about the birds and animals of the forest.\n\nQuestion: Why was Arjun worried when he saw the smoke?",
+      "options": [
+        "A small fire could spread quickly in the strong wind",
+        "He was afraid of the forest guards",
+        "His goats were lost in the forest",
+        "The phone was not working"
+      ],
+      "answer": 0,
+      "explanation": "He knew that even a small fire could spread quickly in the strong summer wind.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-L02",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-108",
+      "section": "language",
+      "topic": "Reading Comprehension – Factual",
+      "difficulty": "easy",
+      "question": "Passage: Arjun lived in a village at the edge of a forest. Every morning he took his family's goats to graze on the hillside. One hot afternoon he noticed smoke rising from the dry grass near the forest. He knew that even a small fire could spread quickly in the strong summer wind. Arjun ran to the nearest house, which had a mobile phone, and called the forest office. Then he alerted the villagers, who carried buckets of water and beat the flames with green branches. By the time the forest guards arrived, the fire was almost out. The forest officer thanked Arjun and gave him a book about the birds and animals of the forest.\n\nQuestion: How did the villagers fight the fire?",
+      "options": [
+        "By calling a fire engine from the city",
+        "With sand and stones",
+        "With buckets of water and green branches",
+        "By cutting down the trees"
+      ],
+      "answer": 2,
+      "explanation": "The villagers carried buckets of water and beat the flames with green branches.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-L01",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-109",
+      "section": "language",
+      "topic": "Vocabulary in Context",
+      "difficulty": "easy",
+      "question": "Passage: Arjun lived in a village at the edge of a forest. Every morning he took his family's goats to graze on the hillside. One hot afternoon he noticed smoke rising from the dry grass near the forest. He knew that even a small fire could spread quickly in the strong summer wind. Arjun ran to the nearest house, which had a mobile phone, and called the forest office. Then he alerted the villagers, who carried buckets of water and beat the flames with green branches. By the time the forest guards arrived, the fire was almost out. The forest officer thanked Arjun and gave him a book about the birds and animals of the forest.\n\nQuestion: In the passage, the word 'graze' means:",
+      "options": [
+        "to sleep in the shade",
+        "to run very fast",
+        "to eat grass in a field",
+        "to drink water from a pond"
+      ],
+      "answer": 2,
+      "explanation": "Goats are taken to graze, i.e. to feed on growing grass.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-L03",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-110",
+      "section": "language",
+      "topic": "Inference & Title",
+      "difficulty": "medium",
+      "question": "Passage: Arjun lived in a village at the edge of a forest. Every morning he took his family's goats to graze on the hillside. One hot afternoon he noticed smoke rising from the dry grass near the forest. He knew that even a small fire could spread quickly in the strong summer wind. Arjun ran to the nearest house, which had a mobile phone, and called the forest office. Then he alerted the villagers, who carried buckets of water and beat the flames with green branches. By the time the forest guards arrived, the fire was almost out. The forest officer thanked Arjun and gave him a book about the birds and animals of the forest.\n\nQuestion: Which quality of Arjun does the story mainly show?",
+      "options": [
+        "Love of books",
+        "Laziness",
+        "Fear of animals",
+        "Alertness and quick thinking"
+      ],
+      "answer": 3,
+      "explanation": "He noticed the smoke, understood the danger and acted at once by calling the forest office and alerting the villagers.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-L06",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-111",
+      "section": "language",
+      "topic": "Reading Comprehension – Factual",
+      "difficulty": "easy",
+      "question": "Passage: The camel is well suited to life in the desert. Its long legs keep its body away from the hot sand, and its broad, padded feet do not sink into it. Long eyelashes and nostrils that can close protect it from blowing sand. Many people believe that a camel stores water in its hump, but this is not true. The hump is a store of fat, which the animal uses for energy when food is scarce. A thirsty camel can drink a very large amount of water in a few minutes. Because it can carry heavy loads across long distances of sand, the camel is often called the 'ship of the desert'.\n\nQuestion: What does a camel store in its hump?",
+      "options": [
+        "Sand",
+        "Water",
+        "Fat",
+        "Milk"
+      ],
+      "answer": 2,
+      "explanation": "The passage says the hump is a store of fat, not water.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-L01",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-112",
+      "section": "language",
+      "topic": "Reading Comprehension – Factual",
+      "difficulty": "easy",
+      "question": "Passage: The camel is well suited to life in the desert. Its long legs keep its body away from the hot sand, and its broad, padded feet do not sink into it. Long eyelashes and nostrils that can close protect it from blowing sand. Many people believe that a camel stores water in its hump, but this is not true. The hump is a store of fat, which the animal uses for energy when food is scarce. A thirsty camel can drink a very large amount of water in a few minutes. Because it can carry heavy loads across long distances of sand, the camel is often called the 'ship of the desert'.\n\nQuestion: Why do a camel's feet not sink into the sand?",
+      "options": [
+        "They are broad and padded",
+        "They are very small",
+        "They are covered with long hair",
+        "The camel walks only on hard rocks"
+      ],
+      "answer": 0,
+      "explanation": "Its broad, padded feet do not sink into the sand.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-L02",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-113",
+      "section": "language",
+      "topic": "Reading Comprehension – Factual",
+      "difficulty": "easy",
+      "question": "Passage: The camel is well suited to life in the desert. Its long legs keep its body away from the hot sand, and its broad, padded feet do not sink into it. Long eyelashes and nostrils that can close protect it from blowing sand. Many people believe that a camel stores water in its hump, but this is not true. The hump is a store of fat, which the animal uses for energy when food is scarce. A thirsty camel can drink a very large amount of water in a few minutes. Because it can carry heavy loads across long distances of sand, the camel is often called the 'ship of the desert'.\n\nQuestion: Why is the camel called the 'ship of the desert'?",
+      "options": [
+        "It looks like a boat",
+        "It can swim across rivers",
+        "It can carry heavy loads across long distances of sand",
+        "It drinks a lot of water"
+      ],
+      "answer": 2,
+      "explanation": "The last sentence gives the reason: it carries heavy loads across long distances of sand.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-L02",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-114",
+      "section": "language",
+      "topic": "Vocabulary in Context",
+      "difficulty": "easy",
+      "question": "Passage: The camel is well suited to life in the desert. Its long legs keep its body away from the hot sand, and its broad, padded feet do not sink into it. Long eyelashes and nostrils that can close protect it from blowing sand. Many people believe that a camel stores water in its hump, but this is not true. The hump is a store of fat, which the animal uses for energy when food is scarce. A thirsty camel can drink a very large amount of water in a few minutes. Because it can carry heavy loads across long distances of sand, the camel is often called the 'ship of the desert'.\n\nQuestion: In the passage, the word 'scarce' means:",
+      "options": [
+        "very tasty",
+        "not easily available",
+        "fresh and green",
+        "too heavy"
+      ],
+      "answer": 1,
+      "explanation": "The camel uses its stored fat when food is scarce, i.e. when there is not enough food.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-L03",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-115",
+      "section": "language",
+      "topic": "Inference & Title",
+      "difficulty": "medium",
+      "question": "Passage: The camel is well suited to life in the desert. Its long legs keep its body away from the hot sand, and its broad, padded feet do not sink into it. Long eyelashes and nostrils that can close protect it from blowing sand. Many people believe that a camel stores water in its hump, but this is not true. The hump is a store of fat, which the animal uses for energy when food is scarce. A thirsty camel can drink a very large amount of water in a few minutes. Because it can carry heavy loads across long distances of sand, the camel is often called the 'ship of the desert'.\n\nQuestion: Which is the most suitable title for the passage?",
+      "options": [
+        "Life in a Big City",
+        "The Ship of the Desert",
+        "How to Ride a Camel",
+        "Water in the Hump"
+      ],
+      "answer": 1,
+      "explanation": "The passage describes how the camel is suited to the desert and explains its nickname; 'Water in the Hump' is the belief the passage says is wrong.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-L05",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-116",
+      "section": "language",
+      "topic": "Reading Comprehension – Factual",
+      "difficulty": "easy",
+      "question": "Passage: Paper is made from wood pulp, so every sheet we waste means that more trees have to be cut. Old newspapers, notebooks and cartons can be recycled. At a recycling unit, used paper is first soaked in water and beaten into a soft pulp. The ink is washed away, and the clean pulp is pressed and dried into new sheets. Making paper in this way uses less water and energy than making it from fresh wood. Students can help by writing on both sides of a page, using old calendars as book covers and keeping waste paper separate from wet kitchen waste.\n\nQuestion: What is paper made from, according to the passage?",
+      "options": [
+        "Plastic",
+        "Cotton cloth",
+        "Wood pulp",
+        "Kitchen waste"
+      ],
+      "answer": 2,
+      "explanation": "The first sentence says paper is made from wood pulp.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-L01",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-117",
+      "section": "language",
+      "topic": "Reading Comprehension – Factual",
+      "difficulty": "easy",
+      "question": "Passage: Paper is made from wood pulp, so every sheet we waste means that more trees have to be cut. Old newspapers, notebooks and cartons can be recycled. At a recycling unit, used paper is first soaked in water and beaten into a soft pulp. The ink is washed away, and the clean pulp is pressed and dried into new sheets. Making paper in this way uses less water and energy than making it from fresh wood. Students can help by writing on both sides of a page, using old calendars as book covers and keeping waste paper separate from wet kitchen waste.\n\nQuestion: What happens to used paper first at a recycling unit?",
+      "options": [
+        "It is cut into small cards",
+        "It is burnt to make ash",
+        "It is printed again",
+        "It is soaked in water and beaten into pulp"
+      ],
+      "answer": 3,
+      "explanation": "Used paper is first soaked in water and beaten into a soft pulp.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-L01",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-118",
+      "section": "language",
+      "topic": "Reading Comprehension – Factual",
+      "difficulty": "easy",
+      "question": "Passage: Paper is made from wood pulp, so every sheet we waste means that more trees have to be cut. Old newspapers, notebooks and cartons can be recycled. At a recycling unit, used paper is first soaked in water and beaten into a soft pulp. The ink is washed away, and the clean pulp is pressed and dried into new sheets. Making paper in this way uses less water and energy than making it from fresh wood. Students can help by writing on both sides of a page, using old calendars as book covers and keeping waste paper separate from wet kitchen waste.\n\nQuestion: According to the passage, how can students help?",
+      "options": [
+        "By throwing old calendars away",
+        "By buying new notebooks every month",
+        "By mixing paper with kitchen waste",
+        "By writing on both sides of a page"
+      ],
+      "answer": 3,
+      "explanation": "The passage lists writing on both sides of a page, using old calendars as covers and keeping paper separate from wet waste.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-L01",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-119",
+      "section": "language",
+      "topic": "Vocabulary in Context",
+      "difficulty": "easy",
+      "question": "Passage: Paper is made from wood pulp, so every sheet we waste means that more trees have to be cut. Old newspapers, notebooks and cartons can be recycled. At a recycling unit, used paper is first soaked in water and beaten into a soft pulp. The ink is washed away, and the clean pulp is pressed and dried into new sheets. Making paper in this way uses less water and energy than making it from fresh wood. Students can help by writing on both sides of a page, using old calendars as book covers and keeping waste paper separate from wet kitchen waste.\n\nQuestion: In the passage, 'keeping waste paper separate from wet kitchen waste' means keeping it:",
+      "options": [
+        "together in one bin",
+        "wet and soft",
+        "inside the kitchen",
+        "apart, not mixed with it"
+      ],
+      "answer": 3,
+      "explanation": "Separate means apart or not mixed.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-L03",
+      "verified": false
+    },
+    {
+      "id": "jnvst-class-6-120",
+      "section": "language",
+      "topic": "Inference & Title",
+      "difficulty": "medium",
+      "question": "Passage: Paper is made from wood pulp, so every sheet we waste means that more trees have to be cut. Old newspapers, notebooks and cartons can be recycled. At a recycling unit, used paper is first soaked in water and beaten into a soft pulp. The ink is washed away, and the clean pulp is pressed and dried into new sheets. Making paper in this way uses less water and energy than making it from fresh wood. Students can help by writing on both sides of a page, using old calendars as book covers and keeping waste paper separate from wet kitchen waste.\n\nQuestion: What is the main idea of the passage?",
+      "options": [
+        "Paper is made only in big factories",
+        "Newspapers are better than notebooks",
+        "Recycling paper saves trees, water and energy",
+        "Kitchen waste can be turned into paper"
+      ],
+      "answer": 2,
+      "explanation": "The passage explains how paper is recycled and why it helps – fewer trees cut and less water and energy used.",
+      "source": "ai",
+      "archetype": "jnvst-class-6-L06",
+      "verified": false
     }
   ]
 }
