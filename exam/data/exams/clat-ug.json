@@ -272,6 +272,668 @@
       }
     ]
   },
+  "pyqBlueprint": {
+    "yearsCovered": [
+      2024,
+      2025,
+      2026
+    ],
+    "method": "Compiled from the Consortium of NLUs' published question papers and answer keys for CLAT 2024, CLAT 2025 and CLAT 2026 (held 3 Dec 2023, 1 Dec 2024 and 7 Dec 2025) as summarised in post-exam analyses (IMS, Hitbullseye, LegalEdge, CLAT NLTI) found via web search; the full papers could not be fetched in this session, so section-wise question types were consolidated from those analyses and the writer's own knowledge. Notable 2026 shift: Logical Reasoning carried more analytical/arithmetical items (puzzles, blood relations, directions) alongside critical-reasoning passages. All patterns are paraphrased; no actual question or passage is reproduced.",
+    "archetypes": [
+      {
+        "id": "clat-ug-E01",
+        "section": "english",
+        "topic": "Main Idea & Summary",
+        "pattern": "Op-ed style passage (≈450 words) on a public-policy or legal theme; 'main idea / central argument' with distractors that are partial, extreme or contrary",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per passage set",
+        "difficulty": "medium"
+      },
+      {
+        "id": "clat-ug-E02",
+        "section": "english",
+        "topic": "Main Idea & Summary",
+        "pattern": "Best summary or most appropriate title for the passage; wrong titles are too narrow (one example) or too broad/extreme",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 in most sets",
+        "difficulty": "medium"
+      },
+      {
+        "id": "clat-ug-E03",
+        "section": "english",
+        "topic": "Inference",
+        "pattern": "What can be inferred from the passage or from a specific statement/example in it; distractors overreach or contradict",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per set",
+        "difficulty": "medium"
+      },
+      {
+        "id": "clat-ug-E04",
+        "section": "english",
+        "topic": "Inference",
+        "pattern": "What the author would agree with / what a character's remark implies; tests reading of stance rather than literal detail",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per set",
+        "difficulty": "medium"
+      },
+      {
+        "id": "clat-ug-E05",
+        "section": "english",
+        "topic": "Vocabulary in Context",
+        "pattern": "Meaning of a word as used in the passage; distractors include the word's other (literal or unrelated) senses",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per set",
+        "difficulty": "easy"
+      },
+      {
+        "id": "clat-ug-E06",
+        "section": "english",
+        "topic": "Vocabulary in Context",
+        "pattern": "Meaning of an idiom or figurative phrase used in the passage",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "occasional",
+        "difficulty": "easy"
+      },
+      {
+        "id": "clat-ug-E07",
+        "section": "english",
+        "topic": "Tone & Author's Purpose",
+        "pattern": "Tone/attitude of the author, options pairing close adjectives (concerned vs indignant, ironic vs mournful)",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "≈1 per paper set",
+        "difficulty": "medium"
+      },
+      {
+        "id": "clat-ug-E08",
+        "section": "english",
+        "topic": "Tone & Author's Purpose",
+        "pattern": "Primary purpose of the passage or a paragraph (to propose, critique, compare, examine both sides)",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "≈1 per paper set",
+        "difficulty": "medium"
+      },
+      {
+        "id": "clat-ug-E09",
+        "section": "english",
+        "topic": "Grammar & Usage in Context",
+        "pattern": "Fill-in or correct-usage item set inside a passage sentence: subject–verb agreement with 'along with/neither…nor', tense",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "clat-ug-G01",
+        "section": "gk",
+        "topic": "National Affairs & Polity",
+        "pattern": "Passage on a national political event (election, appointment, census) followed by a question on the related constitutional office or Article",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "clat-ug-G02",
+        "section": "gk",
+        "topic": "National Affairs & Polity",
+        "pattern": "Passage on a national initiative, security operation or commemoration; question on its background facts",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "clat-ug-G03",
+        "section": "gk",
+        "topic": "International Affairs & Organisations",
+        "pattern": "Passage on an international summit or grouping (G20, COP, BRICS); question on host, membership or presidency",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "clat-ug-G04",
+        "section": "gk",
+        "topic": "International Affairs & Organisations",
+        "pattern": "Passage on an international organisation, treaty or leader; question on headquarters, origin or office-holder",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "clat-ug-G05",
+        "section": "gk",
+        "topic": "Economy & Budget",
+        "pattern": "Passage on GST, RBI policy or the Budget; question on the constitutional/statutory basis (Article, committee composition)",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "clat-ug-G06",
+        "section": "gk",
+        "topic": "Economy & Budget",
+        "pattern": "Passage on an economic reform (tax code, labour codes); question on its scope or key numbers",
+        "years": [
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "clat-ug-G07",
+        "section": "gk",
+        "topic": "Science, Technology & Environment",
+        "pattern": "Passage on a space mission or science Nobel; question on the agency, partner or discovery",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "clat-ug-G08",
+        "section": "gk",
+        "topic": "Science, Technology & Environment",
+        "pattern": "Passage on climate negotiations or conservation; question on the agreement's goals or programme history",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "clat-ug-G09",
+        "section": "gk",
+        "topic": "Sports, Awards & Culture",
+        "pattern": "Passage on a sporting event or award; question on venue, winner or the awarding body",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "clat-ug-G10",
+        "section": "gk",
+        "topic": "Legal & Constitutional Developments",
+        "pattern": "Passage on a Supreme Court reference/judgment or new criminal law; question on the constitutional provision or statute replaced",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "clat-ug-G11",
+        "section": "gk",
+        "topic": "Legal & Constitutional Developments",
+        "pattern": "Passage on a newly enacted or amended statute (data protection, waqf, online gaming); question on its year, name or core prohibition",
+        "years": [
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "clat-ug-L01",
+        "section": "legal",
+        "topic": "Law of Torts",
+        "pattern": "Principle of negligence (duty, breach, foreseeability) applied to facts where the defendant took reasonable care or the plaintiff's own conduct caused harm",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "clat-ug-L02",
+        "section": "legal",
+        "topic": "Law of Torts",
+        "pattern": "Strict/absolute liability and defences (volenti, act of God, rescue doctrine) applied to a fact situation",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "clat-ug-L03",
+        "section": "legal",
+        "topic": "Law of Torts",
+        "pattern": "Vicarious liability: was the employee acting in the course of employment or on a 'frolic of his own'?",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "clat-ug-L04",
+        "section": "legal",
+        "topic": "Law of Contract",
+        "pattern": "Offer/acceptance and communication rules (postal acceptance, revocation timing, silence)",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "clat-ug-L05",
+        "section": "legal",
+        "topic": "Law of Contract",
+        "pattern": "Consideration, capacity (minor's agreement void ab initio) and free consent applied to facts",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "clat-ug-L06",
+        "section": "legal",
+        "topic": "Law of Contract",
+        "pattern": "Frustration, void agreements and remoteness of damages (loss not in parties' contemplation)",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "clat-ug-L07",
+        "section": "legal",
+        "topic": "Criminal Law (BNS)",
+        "pattern": "Property offences under the BNS—theft, extortion, cheating—where one ingredient (taking out of possession, fear of injury, dishonest inducement) decides the case",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "clat-ug-L08",
+        "section": "legal",
+        "topic": "Criminal Law (BNS)",
+        "pattern": "General exceptions: private defence limits, child below seven, mistake of fact in good faith",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "clat-ug-L09",
+        "section": "legal",
+        "topic": "Criminal Law (BNS)",
+        "pattern": "Joint liability/common intention and the gradation of homicide offences",
+        "years": [
+          2024,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "clat-ug-L10",
+        "section": "legal",
+        "topic": "Constitutional Law",
+        "pattern": "Article 14/15 reasonable classification (intelligible differentia and rational nexus) applied to a State measure",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "clat-ug-L11",
+        "section": "legal",
+        "topic": "Constitutional Law",
+        "pattern": "Article 19 freedoms and whether a restriction falls within the permitted grounds and is reasonable/proportionate",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "clat-ug-L12",
+        "section": "legal",
+        "topic": "Constitutional Law",
+        "pattern": "Article 20 protections (ex post facto penalty, self-incrimination) applied to facts",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "clat-ug-L13",
+        "section": "legal",
+        "topic": "Intellectual Property & Special Statutes",
+        "pattern": "IP principles: idea–expression dichotomy in copyright, deceptive similarity in trademarks",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "clat-ug-L14",
+        "section": "legal",
+        "topic": "Intellectual Property & Special Statutes",
+        "pattern": "Special statutes (Consumer Protection Act, RTI etc.): does the person fall within the statutory definition?",
+        "years": [
+          2025,
+          2026
+        ],
+        "frequency": "occasional",
+        "difficulty": "medium"
+      },
+      {
+        "id": "clat-ug-L15",
+        "section": "legal",
+        "topic": "International & Environmental Law",
+        "pattern": "Environmental principles (polluter pays, precautionary principle) or diplomatic immunity applied to facts",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "clat-ug-R01",
+        "section": "logical",
+        "topic": "Assumptions & Inferences",
+        "pattern": "Short argument passage; identify the assumption on which the conclusion depends",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "clat-ug-R02",
+        "section": "logical",
+        "topic": "Assumptions & Inferences",
+        "pattern": "What can most reasonably be inferred from data or claims in the passage",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "clat-ug-R03",
+        "section": "logical",
+        "topic": "Strengthen & Weaken",
+        "pattern": "Which option most weakens a causal claim (confounder, alternative explanation, survivorship)",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "clat-ug-R04",
+        "section": "logical",
+        "topic": "Strengthen & Weaken",
+        "pattern": "Which option most strengthens a claim (control group, ruling out alternatives)",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "clat-ug-R05",
+        "section": "logical",
+        "topic": "Conclusions & Main Point",
+        "pattern": "Categorical statements; which conclusion must be true (syllogistic)",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "clat-ug-R06",
+        "section": "logical",
+        "topic": "Conclusions & Main Point",
+        "pattern": "Identify the main conclusion of an argument, or the conclusion best supported by the passage",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "clat-ug-R07",
+        "section": "logical",
+        "topic": "Analogies & Logical Relationships",
+        "pattern": "Analogy between legal/institutional terms or role pairs",
+        "years": [
+          2024,
+          2026
+        ],
+        "frequency": "occasional",
+        "difficulty": "easy"
+      },
+      {
+        "id": "clat-ug-R08",
+        "section": "logical",
+        "topic": "Analytical Puzzles",
+        "pattern": "Blood relations and direction-sense puzzles (more frequent in 2026)",
+        "years": [
+          2025,
+          2026
+        ],
+        "frequency": "1–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "clat-ug-R09",
+        "section": "logical",
+        "topic": "Analytical Puzzles",
+        "pattern": "Ordering/scheduling puzzles: comparisons of rank, days or experience",
+        "years": [
+          2024,
+          2026
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "clat-ug-Q01",
+        "section": "quant",
+        "topic": "Data Interpretation (Caselets & Tables)",
+        "pattern": "Caselet with percentages of sub-groups (applications, cases); compute totals or shares",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 set per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "clat-ug-Q02",
+        "section": "quant",
+        "topic": "Data Interpretation (Caselets & Tables)",
+        "pattern": "Table of figures for several units; aggregate rates where averaging percentages is the trap",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 set per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "clat-ug-Q03",
+        "section": "quant",
+        "topic": "Percentages, Ratio & Averages",
+        "pattern": "Ratio changes when a group is added or removed",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "clat-ug-Q04",
+        "section": "quant",
+        "topic": "Percentages, Ratio & Averages",
+        "pattern": "Averages with correction or replacement of a member",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "clat-ug-Q05",
+        "section": "quant",
+        "topic": "Percentages, Ratio & Averages",
+        "pattern": "Partnership: profit shared in proportion to capital × time",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "occasional",
+        "difficulty": "medium"
+      },
+      {
+        "id": "clat-ug-Q06",
+        "section": "quant",
+        "topic": "Profit-Loss, Interest & Mensuration",
+        "pattern": "Mark-up/discount and successive sale profit-loss chains",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "clat-ug-Q07",
+        "section": "quant",
+        "topic": "Profit-Loss, Interest & Mensuration",
+        "pattern": "Compound interest repayment or mensuration cost problems (carpeting, fencing)",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      }
+    ]
+  },
   "resources": {
     "pyqAvailable": true,
     "officialPYQ": "https://consortiumofnlus.ac.in",
@@ -293,7 +955,9 @@
       ],
       "answer": 0,
       "explanation": "The passage contrasts the popular image of eloquence with the 'quieter' reality that cases are decided by preparation; the house-on-sand image reinforces this.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-E01",
+      "source": "curated"
     },
     {
       "id": "clat-ug-002",
@@ -309,7 +973,9 @@
       ],
       "answer": 2,
       "explanation": "Seeing the gains from the meal, she said she had been 'asking for the wrong thing first' — implying food should have been the priority, not that books are useless.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-E04",
+      "source": "curated"
     },
     {
       "id": "clat-ug-003",
@@ -325,7 +991,9 @@
       ],
       "answer": 2,
       "explanation": "Because both opposing sides could claim the report supported them, it must have been ambiguous — open to more than one interpretation.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-E05",
+      "source": "curated"
     },
     {
       "id": "clat-ug-004",
@@ -341,7 +1009,9 @@
       ],
       "answer": 1,
       "explanation": "The cycle of 'bright faith' and abandonment, and the closing hint that the problem lies with us, are wry and mildly mocking — gentle irony, not anger or grief.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-E07",
+      "source": "curated"
     },
     {
       "id": "clat-ug-005",
@@ -357,7 +1027,9 @@
       ],
       "answer": 0,
       "explanation": "The last sentence says the downstream party may be poorer 'even when every promised litre is delivered', because timing and silt also matter. The passage does not allege violations or say silt is harmful.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-E03",
+      "source": "curated"
     },
     {
       "id": "clat-ug-006",
@@ -373,7 +1045,9 @@
       ],
       "answer": 1,
       "explanation": "The author rejects the 'courtesy' framing and argues that knowability of the law, through translation, is a condition of legitimacy and of the rule of law. 'Always exploit' overstates the passage's 'possible point of error'.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-E01",
+      "source": "curated"
     },
     {
       "id": "clat-ug-007",
@@ -389,7 +1063,9 @@
       ],
       "answer": 1,
       "explanation": "Walk-outs and public accusations indicate hostility; 'acrimonious' means bitter or angry.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-E05",
+      "source": "curated"
     },
     {
       "id": "clat-ug-008",
@@ -405,7 +1081,9 @@
       ],
       "answer": 2,
       "explanation": "With 'neither…nor', the verb agrees with the nearer subject, 'lawyers' (plural), and the sentence is in the past tense: 'were'.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-E09",
+      "source": "curated"
     },
     {
       "id": "clat-ug-009",
@@ -421,7 +1099,9 @@
       ],
       "answer": 3,
       "explanation": "The author sets out two positions and then offers 'a third path' — contextual explanation — as preferable to both.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-E08",
+      "source": "curated"
     },
     {
       "id": "clat-ug-010",
@@ -437,7 +1117,9 @@
       ],
       "answer": 2,
       "explanation": "He 'had simply never asked' his customers, so the fear of losing parking rested on an assumption that turned out to be wrong; footfall was unchanged.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-E03",
+      "source": "curated"
     },
     {
       "id": "clat-ug-011",
@@ -453,7 +1135,9 @@
       ],
       "answer": 1,
       "explanation": "The author argues 'seen to be done' is not about appearances but about verifiability. The passage does not say secret decisions are always unfair — only that their fairness cannot be checked.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-E02",
+      "source": "curated"
     },
     {
       "id": "clat-ug-012",
@@ -469,7 +1153,9 @@
       ],
       "answer": 1,
       "explanation": "The statement was long and technical yet left readers 'no clearer' — it obscured the matter, which is what obfuscation means.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-E05",
+      "source": "curated"
     },
     {
       "id": "clat-ug-013",
@@ -485,7 +1171,9 @@
       ],
       "answer": 3,
       "explanation": "Article 124 establishes the Supreme Court and, in clause (2), provides for appointment of its judges by the President. Article 217 concerns High Court judges, Article 32 the right to constitutional remedies, and Article 143 the President's advisory reference.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-G10",
+      "source": "curated"
     },
     {
       "id": "clat-ug-014",
@@ -501,7 +1189,9 @@
       ],
       "answer": 3,
       "explanation": "The BSA replaced the Indian Evidence Act, 1872; the BNS replaced the IPC and the BNSS replaced the CrPC.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-G10",
+      "source": "curated"
     },
     {
       "id": "clat-ug-015",
@@ -517,7 +1207,9 @@
       ],
       "answer": 2,
       "explanation": "Article 279A (inserted by the 101st Amendment, 2016) provides for the GST Council. Article 246A gives the power to levy GST, Article 280 deals with the Finance Commission, and Article 112 with the Annual Financial Statement (Budget).",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-G05",
+      "source": "curated"
     },
     {
       "id": "clat-ug-016",
@@ -533,7 +1225,9 @@
       ],
       "answer": 0,
       "explanation": "Rakesh Sharma flew aboard the Soviet Soyuz T-11 to the Salyut 7 station in 1984. Kalpana Chawla was an American astronaut of Indian origin; Ravish Malhotra was Sharma's backup.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-G07",
+      "source": "curated"
     },
     {
       "id": "clat-ug-017",
@@ -549,7 +1243,9 @@
       ],
       "answer": 1,
       "explanation": "NISAR stands for NASA–ISRO Synthetic Aperture Radar; it is a collaboration between ISRO and the US agency NASA.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-G07",
+      "source": "curated"
     },
     {
       "id": "clat-ug-018",
@@ -565,7 +1261,9 @@
       ],
       "answer": 0,
       "explanation": "The 1960 treaty was brokered by the World Bank (then the International Bank for Reconstruction and Development), which is also a signatory for certain provisions.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-G04",
+      "source": "curated"
     },
     {
       "id": "clat-ug-019",
@@ -581,7 +1279,9 @@
       ],
       "answer": 1,
       "explanation": "Belém is the capital of the state of Pará in northern Brazil, at the mouth of the Amazon.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-G03",
+      "source": "curated"
     },
     {
       "id": "clat-ug-020",
@@ -597,7 +1297,9 @@
       ],
       "answer": 2,
       "explanation": "The AU was admitted as a permanent member at the New Delhi G20 Summit under India's presidency in September 2023.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-G03",
+      "source": "curated"
     },
     {
       "id": "clat-ug-021",
@@ -613,7 +1315,9 @@
       ],
       "answer": 3,
       "explanation": "Article 64 makes the Vice-President the ex officio Chairman of the Council of States (Rajya Sabha).",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-G01",
+      "source": "curated"
     },
     {
       "id": "clat-ug-022",
@@ -629,7 +1333,9 @@
       ],
       "answer": 2,
       "explanation": "Census is Entry 69 of List I (Union List), so Parliament has exclusive power to legislate on it.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-G01",
+      "source": "curated"
     },
     {
       "id": "clat-ug-023",
@@ -645,7 +1351,9 @@
       ],
       "answer": 2,
       "explanation": "The Digital Personal Data Protection Act was passed by Parliament and received Presidential assent in August 2023; the rules followed in November 2025.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-G11",
+      "source": "curated"
     },
     {
       "id": "clat-ug-024",
@@ -661,7 +1369,9 @@
       ],
       "answer": 3,
       "explanation": "The ICC moved its headquarters from Lord's, London, to Dubai in 2005, where it remains.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-G09",
+      "source": "curated"
     },
     {
       "id": "clat-ug-025",
@@ -677,7 +1387,9 @@
       ],
       "answer": 0,
       "explanation": "In accordance with Alfred Nobel's will, the Peace Prize is awarded by the Norwegian Nobel Committee and presented in Oslo.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-G09",
+      "source": "curated"
     },
     {
       "id": "clat-ug-026",
@@ -693,7 +1405,9 @@
       ],
       "answer": 2,
       "explanation": "Under Section 45ZB of the RBI Act, 1934, the MPC has six members: the Governor (chair), a Deputy Governor, one RBI officer and three external members appointed by the Centre.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-G05",
+      "source": "curated"
     },
     {
       "id": "clat-ug-027",
@@ -709,7 +1423,9 @@
       ],
       "answer": 1,
       "explanation": "Article 112 requires the President to cause the Annual Financial Statement to be laid before both Houses. Article 110 defines Money Bills, Article 265 bars tax without authority of law, and Article 280 concerns the Finance Commission.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-G05",
+      "source": "curated"
     },
     {
       "id": "clat-ug-028",
@@ -725,7 +1441,9 @@
       ],
       "answer": 1,
       "explanation": "The principle imposes liability for escape 'even if he was not negligent'. A crack from ordinary wear is not an extraordinary natural event, so the act-of-God exception does not apply; intent is irrelevant.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-L02",
+      "source": "curated"
     },
     {
       "id": "clat-ug-029",
@@ -741,7 +1459,9 @@
       ],
       "answer": 3,
       "explanation": "Being struck by a six is an ordinary, known risk of watching cricket from the stands, and the stadium met usual standards, so there is no breach and the voluntary-acceptance principle bars the claim. Ticket price is irrelevant.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-L02",
+      "source": "curated"
     },
     {
       "id": "clat-ug-030",
@@ -757,7 +1477,9 @@
       ],
       "answer": 0,
       "explanation": "Sunil was delivering a parcel — the very work he was employed to do — only by a forbidden route. That is an unauthorised manner of doing authorised work, not a frolic of his own, so QuickMart is vicariously liable.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-L03",
+      "source": "curated"
     },
     {
       "id": "clat-ug-031",
@@ -773,7 +1495,9 @@
       ],
       "answer": 3,
       "explanation": "Though there is no consideration, the stated exception applies: written, registered, out of natural love and affection, between near relatives (father and daughter). So the agreement is enforceable.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-L05",
+      "source": "curated"
     },
     {
       "id": "clat-ug-032",
@@ -789,7 +1513,9 @@
       ],
       "answer": 1,
       "explanation": "The principle says silence is not acceptance even if the offeror declares it will be. Gita never communicated acceptance, so there is no contract. Adequacy of price is irrelevant.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-L04",
+      "source": "curated"
     },
     {
       "id": "clat-ug-033",
@@ -805,7 +1531,9 @@
       ],
       "answer": 2,
       "explanation": "After the contract was made, performance became unlawful through no fault of Lata, so the contract became void at that point; it was valid when made, so it was not void from the start.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-L06",
+      "source": "curated"
     },
     {
       "id": "clat-ug-034",
@@ -821,7 +1549,9 @@
       ],
       "answer": 2,
       "explanation": "Theft requires taking out of another's possession without consent. Neha obtained possession with Ritu's consent; her later dishonest sale may be another offence (such as criminal breach of trust or misappropriation), but on the stated principle it is not theft.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-L07",
+      "source": "curated"
     },
     {
       "id": "clat-ug-035",
@@ -837,7 +1567,9 @@
       ],
       "answer": 1,
       "explanation": "Once Vikram was disarmed and fleeing, there was no continuing apprehension of danger, so the right had ended; the later beating was retaliation, not defence.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-L08",
+      "source": "curated"
     },
     {
       "id": "clat-ug-036",
@@ -853,7 +1585,9 @@
       ],
       "answer": 3,
       "explanation": "Under the first limb, any act of a child under seven is not an offence, regardless of understanding. The maturity test applies only to children between seven and twelve.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-L08",
+      "source": "curated"
     },
     {
       "id": "clat-ug-037",
@@ -869,7 +1603,9 @@
       ],
       "answer": 1,
       "explanation": "The principle permits classification meeting both tests. 'Licensed less than a year' is an intelligible basis and is rationally linked to reducing accidents by inexperienced drivers. The principle does not demand identical treatment, nor allow arbitrary classification.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-L10",
+      "source": "curated"
     },
     {
       "id": "clat-ug-038",
@@ -885,7 +1621,9 @@
       ],
       "answer": 0,
       "explanation": "Article 20(1) bars a penalty greater than that under the law in force when the offence was committed. In January the fine was ₹200, so that is the maximum; the act was an offence at the time, so he can still be punished.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-L12",
+      "source": "curated"
     },
     {
       "id": "clat-ug-039",
@@ -901,7 +1639,9 @@
       ],
       "answer": 2,
       "explanation": "Restrictions are allowed 'only' on the listed grounds; protecting investor confidence is not one of them. The option that speech can never be restricted contradicts Article 19(2).",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-L11",
+      "source": "curated"
     },
     {
       "id": "clat-ug-040",
@@ -917,7 +1657,9 @@
       ],
       "answer": 0,
       "explanation": "Only the general idea (a girl disguised as a boy to play a sport) is shared; characters, dialogue, settings and plot are B's own. Ideas are not protected, so there is no infringement.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-L13",
+      "source": "curated"
     },
     {
       "id": "clat-ug-041",
@@ -933,7 +1675,9 @@
       ],
       "answer": 0,
       "explanation": "The principle makes the polluter pay 'irrespective of whether the activity was otherwise lawful'. The tannery caused the contamination, so it bears the cost.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-L15",
+      "source": "curated"
     },
     {
       "id": "clat-ug-042",
@@ -949,7 +1693,9 @@
       ],
       "answer": 3,
       "explanation": "Immunity from the receiving State's criminal jurisdiction applies regardless of where the act occurred or how serious it is, and waiver must be express — silence is not enough. So he cannot be prosecuted in India unless X expressly waives immunity.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-L15",
+      "source": "curated"
     },
     {
       "id": "clat-ug-043",
@@ -965,7 +1711,9 @@
       ],
       "answer": 0,
       "explanation": "For removing bus tailpipe emissions to improve air quality, diesel buses must be a meaningful source of that pollution. Cost, universal ridership and the energy mix are not needed for this conclusion about air along routes.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-R01",
+      "source": "curated"
     },
     {
       "id": "clat-ug-044",
@@ -981,7 +1729,9 @@
       ],
       "answer": 3,
       "explanation": "If music students also get more maths tuition, the higher scores may be caused by that tuition (or family resources), not music — an alternative explanation that weakens the causal claim.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-R03",
+      "source": "curated"
     },
     {
       "id": "clat-ug-045",
@@ -997,7 +1747,9 @@
       ],
       "answer": 3,
       "explanation": "A control comparison showing no decline elsewhere rules out a general trend as the cause. A rise in neighbouring streets suggests displacement rather than deterrence; cost and opinion are irrelevant.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-R04",
+      "source": "curated"
     },
     {
       "id": "clat-ug-046",
@@ -1013,7 +1765,9 @@
       ],
       "answer": 0,
       "explanation": "Some law students are in the moot court society, and no moot court member is in the drama club, so those law students are not in the drama club. The other options do not follow: debating-club members may or may not overlap with the moot court or drama club.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-R05",
+      "source": "curated"
     },
     {
       "id": "clat-ug-047",
@@ -1029,7 +1783,9 @@
       ],
       "answer": 1,
       "explanation": "Closing early 'to reduce electricity costs' presupposes that evening opening consumes significant electricity. The notice offers an alternative to late-studying students, so it does not assume no one studies after 6 pm.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-R01",
+      "source": "curated"
     },
     {
       "id": "clat-ug-048",
@@ -1045,7 +1801,9 @@
       ],
       "answer": 1,
       "explanation": "A legislature's function is to enact laws; likewise the judiciary's function is to adjudicate. Debate is not the executive's defining function, lawyers do not legislate, and police do not sentence.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-R07",
+      "source": "curated"
     },
     {
       "id": "clat-ug-049",
@@ -1061,7 +1819,9 @@
       ],
       "answer": 0,
       "explanation": "P and Q are siblings, children of R; T is P's mother, so T is the mother of R's children. R's gender is not given: if R is the mother, R = T and S is T's father; if R is the father, T is R's wife and S is T's father-in-law. Hence 'father or father-in-law' is the only option that must be true.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-R08",
+      "source": "curated"
     },
     {
       "id": "clat-ug-050",
@@ -1077,7 +1837,9 @@
       ],
       "answer": 3,
       "explanation": "Net north–south: +5 − 9 = −4 (4 km south). Net east–west: right from north = east 3 km; after turning right twice she faces south, then a left turn faces east, another 3 km: 6 km east. Distance = √(4² + 6²) = √52 ≈ 7.2 km, south-east.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-R08",
+      "source": "curated"
     },
     {
       "id": "clat-ug-051",
@@ -1093,7 +1855,9 @@
       ],
       "answer": 3,
       "explanation": "The supply of graduates grew much faster than litigation work, consistent with greater competition, which matches young lawyers' reports. The other options go beyond the information.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-R02",
+      "source": "curated"
     },
     {
       "id": "clat-ug-052",
@@ -1109,7 +1873,9 @@
       ],
       "answer": 2,
       "explanation": "The claim rests on employees being better rested. Evidence that they became more fatigued and output did not rise undercuts both the premise and the conclusion.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-R03",
+      "source": "curated"
     },
     {
       "id": "clat-ug-053",
@@ -1125,7 +1891,9 @@
       ],
       "answer": 0,
       "explanation": "The city has fines but almost no enforcement and dirty streets; neighbours have smaller fines but regular enforcement and cleaner streets. This supports the role of certainty over size of penalty.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-R06",
+      "source": "curated"
     },
     {
       "id": "clat-ug-054",
@@ -1141,7 +1909,9 @@
       ],
       "answer": 3,
       "explanation": "C is on Wednesday, so B–D (consecutive) must be Mon–Tue or Thu–Fri. If B were Monday, A could not be before B. So B = Thu, D = Fri. A and E take Mon and Tue; E is not on Monday, so A = Monday, E = Tuesday.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-R09",
+      "source": "curated"
     },
     {
       "id": "clat-ug-055",
@@ -1157,7 +1927,9 @@
       ],
       "answer": 3,
       "explanation": "Civil = 960, mediated = 240. Criminal = 1,440, compounded = 144. Total = 240 + 144 = 384.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-Q01",
+      "source": "curated"
     },
     {
       "id": "clat-ug-056",
@@ -1173,7 +1945,9 @@
       ],
       "answer": 0,
       "explanation": "Women in Years 1–4 = 0.45 × 500 = 225; Year 5 = 50. Total 275 of 600 = 45.83% ≈ 45.8%.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-Q02",
+      "source": "curated"
     },
     {
       "id": "clat-ug-057",
@@ -1189,7 +1963,9 @@
       ],
       "answer": 0,
       "explanation": "Correct total = 40 × 62 − 84 + 48 = 2,480 − 36 = 2,444. Average = 2,444/40 = 61.1.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-Q04",
+      "source": "curated"
     },
     {
       "id": "clat-ug-058",
@@ -1205,7 +1981,9 @@
       ],
       "answer": 2,
       "explanation": "Capital × months: X 40,000 × 6 = 2,40,000; Y 60,000 × 12 = 7,20,000; Z 50,000 × 12 = 6,00,000. Ratio 4 : 12 : 10 (26 parts). Z = 10/26 × 1,30,000 = ₹50,000. (Ignoring time would wrongly give 5/15 × 1,30,000 ≈ ₹43,333.)",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-Q05",
+      "source": "curated"
     },
     {
       "id": "clat-ug-059",
@@ -1221,7 +1999,9 @@
       ],
       "answer": 2,
       "explanation": "Marked price = ₹1,000; sale price = ₹900. Profit = ₹100 on ₹800 = 12.5%.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-Q06",
+      "source": "curated"
     },
     {
       "id": "clat-ug-060",
@@ -1237,7 +2017,1089 @@
       ],
       "answer": 1,
       "explanation": "After year 1: 50,000 × 1.1 = 55,000; after repaying 25,000, balance 30,000. After year 2: 30,000 × 1.1 = ₹33,000.",
-      "verified": true
+      "verified": true,
+      "archetype": "clat-ug-Q07",
+      "source": "curated"
+    },
+    {
+      "id": "clat-ug-061",
+      "section": "english",
+      "topic": "Main Idea & Summary",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"Nearly three of every four prisoners in India's jails are undertrials—people who have not been convicted of anything. Many are poor, cannot furnish bail, and remain in custody for longer than the sentence they would receive if found guilty. The law already recognises the problem: an undertrial who has spent half of the maximum term prescribed for the alleged offence is entitled to be considered for release. Yet the provision is applied unevenly, because it depends on someone—a jail officer, a legal-aid lawyer, a judge—noticing that the threshold has been crossed. A right that must be discovered before it can be claimed is, for most prisoners, a right that does not exist.\"\n\nWhich of the following best expresses the main idea of the passage?",
+      "options": [
+        "Most undertrial prisoners are eventually found guilty of the offences with which they are charged.",
+        "Jail officers deliberately keep eligible undertrials in custody.",
+        "The statutory provision for releasing long-detained undertrials should be repealed.",
+        "Legal safeguards for undertrials fail in practice when their use depends on someone identifying the prisoners who qualify."
+      ],
+      "answer": 3,
+      "explanation": "The passage concedes that the law provides for release but argues it fails because the right must be 'discovered before it can be claimed'. Nothing is said about conviction rates, repeal is the opposite of the author's concern, and no deliberate misconduct by officers is alleged.",
+      "source": "ai",
+      "archetype": "clat-ug-E01",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-062",
+      "section": "english",
+      "topic": "Main Idea & Summary",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"When two neighbours quarrel over a boundary wall, a court can decide who owns the disputed strip of land, but it cannot make them neighbours again. Mediation, which asks the parties to craft their own settlement with the help of a neutral person, aims at something courts rarely attempt: a resolution both sides can live with afterwards. The Mediation Act, 2023 gave this process a statutory framework in India. Critics worry that weaker parties, unable to afford a long trial, may be pressured into unfair compromises. The answer, supporters argue, is not to abandon mediation but to ensure that walking away from it remains a genuine option.\"\n\nWhich of the following is the most appropriate title for the passage?",
+      "options": [
+        "How Courts Decide Boundary Disputes",
+        "Beyond Winning and Losing: The Promise and Limits of Mediation",
+        "Why Mediation Should Replace the Courts",
+        "The Mediation Act, 2023: A Clause-by-Clause Guide"
+      ],
+      "answer": 1,
+      "explanation": "The passage presents mediation's aim (a settlement both sides can live with), a criticism (pressure on weaker parties) and a response—promise and limits. The boundary dispute is only an opening example; the Act is mentioned once; replacing courts is never proposed.",
+      "source": "ai",
+      "archetype": "clat-ug-E02",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-063",
+      "section": "english",
+      "topic": "Inference",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"Lenders increasingly decide who gets a loan using models trained on past repayment data. The appeal is obvious: a model is consistent, fast and immune to a loan officer's bad mood. But a model learns from history, and history is not neutral. If, in the past, women rarely held property in their own names, the data contain few successful women borrowers with collateral, and the model learns to treat applicants who resemble them as risky. The model has never been told anyone's gender; it simply finds proxies, such as the absence of a property record, that track gender closely.\"\n\nWhich of the following can be inferred from the passage?",
+      "options": [
+        "Property records are unreliable predictors of loan repayment.",
+        "Women are inherently riskier borrowers than men.",
+        "A lending model can reproduce past exclusion even if gender is never one of its inputs.",
+        "Lenders deliberately programme their models to discriminate against women."
+      ],
+      "answer": 2,
+      "explanation": "The passage says the model 'has never been told anyone's gender' yet uses proxies that track it, so it can replicate historical exclusion. It attributes the pattern to history, not to women's riskiness or to deliberate programming, and it does not question the reliability of property records.",
+      "source": "ai",
+      "archetype": "clat-ug-E03",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-064",
+      "section": "english",
+      "topic": "Inference",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"Ahmedabad's heat action plan, prepared after a deadly heatwave in 2010, did not rely on sophisticated technology. It relied on telling people early and acting before the first hot day: text-message alerts, drinking-water points at bus stops, hospitals that stocked ice packs and cleared beds in advance rather than after the first deaths. Several other cities later copied the plan's documents almost word for word, but not its routines, and found that a plan which exists only on paper does little when the thermometer climbs.\"\n\nWhich of the following can be inferred from the passage?",
+      "options": [
+        "Ahmedabad's plan succeeded mainly because of advanced weather-forecasting technology.",
+        "The cities that copied Ahmedabad's plan experienced more heatwaves than Ahmedabad.",
+        "A heat action plan works only if its measures are actually put in place before extreme heat arrives.",
+        "Text-message alerts are the most important element of any heat action plan."
+      ],
+      "answer": 2,
+      "explanation": "The contrast between Ahmedabad's routines and the cities that copied only the documents shows that implementation in advance is what matters. The passage says the plan 'did not rely on sophisticated technology'; it does not compare the frequency of heatwaves or rank the alerts above other measures.",
+      "source": "ai",
+      "archetype": "clat-ug-E03",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-065",
+      "section": "english",
+      "topic": "Inference",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"A dissenting judgment changes nothing in the case before the court; the majority's order is carried out regardless. Yet dissents have a way of outliving majorities. In 1976, during the Emergency, Justice H. R. Khanna stood alone in insisting that the right to life could not be suspended, and he paid for it with the Chief Justiceship. Four decades later, a nine-judge bench of the Supreme Court expressly overruled the majority in that habeas corpus case and endorsed his reasoning. A dissent, as one judge put it, is an appeal to the intelligence of a future day.\"\n\nThe author would most likely agree that:",
+      "options": [
+        "judges should avoid dissenting in order to preserve the unity of the court",
+        "a dissent's value may lie in shaping future law even when it has no effect on the case in which it is written",
+        "majority judgments of the Supreme Court are usually overruled within a few decades",
+        "Justice Khanna's dissent was immediately adopted by Parliament"
+      ],
+      "answer": 1,
+      "explanation": "The passage says a dissent changes nothing in the immediate case but can be vindicated later, as Justice Khanna's was. Parliament is not mentioned, the author admires the dissent, and one example does not show that majorities are usually overruled.",
+      "source": "ai",
+      "archetype": "clat-ug-E04",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-066",
+      "section": "english",
+      "topic": "Vocabulary in Context",
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\n\"Officials were sanguine about the new e-filing portal, predicting that the backlog of pending cases would fall within a year. Lawyers who had used the pilot version were less hopeful: the portal crashed during peak hours and rejected scanned documents above a small size.\"\n\nAs used in the passage, 'sanguine' most nearly means:",
+      "options": [
+        "indifferent",
+        "anxious",
+        "optimistic",
+        "bloodthirsty"
+      ],
+      "answer": 2,
+      "explanation": "Officials predicted the backlog would fall, and lawyers were 'less hopeful'—so the officials were hopeful, i.e. optimistic. 'Bloodthirsty' plays on the word's root (blood), not its meaning here.",
+      "source": "ai",
+      "archetype": "clat-ug-E05",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-067",
+      "section": "english",
+      "topic": "Vocabulary in Context",
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\n\"The company won its lawsuit against the former employee, but the three-year battle cost it more in legal fees than the damages it was awarded, and the publicity drove away two major clients. Analysts described the outcome as a pyrrhic victory.\"\n\nThe phrase 'pyrrhic victory', as used in the passage, refers to:",
+      "options": [
+        "a victory obtained through deception",
+        "a win achieved at such great cost that it is hardly worth having",
+        "a victory that is later overturned on appeal",
+        "an unexpected win by the weaker side"
+      ],
+      "answer": 1,
+      "explanation": "The company won, but the fees exceeded the damages and it lost clients—a win whose cost outweighed its benefit.",
+      "source": "ai",
+      "archetype": "clat-ug-E06",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-068",
+      "section": "english",
+      "topic": "Tone & Author's Purpose",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"Every year, lakhs of teenagers move to coaching towns, where days are divided between classes, tests and rank lists. Some flourish. Many others begin to measure their worth by a single number published every Sunday. It would be easy to blame the coaching institutes alone, but they sell what parents buy and what an examination system with very few seats rewards. If we want children to stop treating a rank as a verdict on their lives, the adults around them—parents, schools and policymakers—will have to stop treating it that way first.\"\n\nThe tone of the passage is best described as:",
+      "options": [
+        "detached and purely statistical",
+        "concerned and reflective, calling for shared responsibility",
+        "celebratory of the competitive spirit of coaching towns",
+        "indignant, blaming coaching institutes for the problem"
+      ],
+      "answer": 1,
+      "explanation": "The author worries about students' self-worth but explicitly declines to blame institutes alone, urging parents, schools and policymakers to change—concerned and reflective. There is no indignation, celebration or statistical detachment.",
+      "source": "ai",
+      "archetype": "clat-ug-E07",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-069",
+      "section": "english",
+      "topic": "Tone & Author's Purpose",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"Some countries have adopted a 'right to disconnect', allowing employees to ignore work calls and messages outside working hours without penalty. Supporters argue that constant availability erodes rest and family life and that only a legal right can protect employees who fear seeming uncommitted. Opponents reply that rigid rules suit factories better than teams spread across time zones, where one person's evening is another's morning. A middle path may lie in requiring firms to agree on response-time norms with their employees, rather than in either a blanket ban or no rule at all.\"\n\nThe primary purpose of the passage is to:",
+      "options": [
+        "explain how workplace messaging applications function",
+        "criticise employees who reply to messages late at night",
+        "examine the arguments for and against a right to disconnect and suggest a compromise",
+        "demand immediate legislation banning all after-hours work messages"
+      ],
+      "answer": 2,
+      "explanation": "The passage sets out supporters' and opponents' views and ends with 'a middle path'. It rejects a blanket ban, says nothing technical about apps, and does not criticise employees.",
+      "source": "ai",
+      "archetype": "clat-ug-E08",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-070",
+      "section": "english",
+      "topic": "Main Idea & Summary",
+      "difficulty": "hard",
+      "question": "Read the passage and answer the question.\n\n\"Following precedent is sometimes mocked as doing something only because it was done before. But the doctrine serves people who will never enter a courtroom. A landlord and a tenant who know how courts have read a lease can settle their dispute without litigation; a business can draft a contract knowing how its clauses will be interpreted. Precedent's real audience is not the judge but everyone who must arrange their affairs in the shadow of the law. That is also why overruling a long-settled precedent should be rare: the cost falls on people who relied on it.\"\n\nThe author's central argument is that:",
+      "options": [
+        "most disputes between landlords and tenants end up in court",
+        "judges follow precedent mainly out of habit",
+        "settled precedents should never be overruled",
+        "precedent matters chiefly because it lets people plan and settle their affairs predictably, which also justifies caution in overruling it"
+      ],
+      "answer": 3,
+      "explanation": "The author rebuts the 'habit' mockery by pointing to predictability for people outside court and draws the consequence that overruling should be 'rare'—not never. The landlord example shows disputes settled without litigation.",
+      "source": "ai",
+      "archetype": "clat-ug-E01",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-071",
+      "section": "english",
+      "topic": "Inference",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"When a highway cuts through a forest, the animals on either side do not merely lose a strip of land. A tiger population split in two becomes two smaller populations, each more vulnerable to inbreeding and local extinction. On the stretch of National Highway 44 that passes between the Pench and Kanha landscapes in Madhya Pradesh, engineers built a series of animal underpasses beneath an elevated road, and camera traps have since recorded tigers, leopards and deer using them. The cost was considerable, but it bought something no compensation payment could: a forest that still functions as one.\"\n\nWhich of the following can be inferred from the passage?",
+      "options": [
+        "Highways should never be built near forests.",
+        "Tigers generally avoid using man-made structures.",
+        "Underpasses eliminate all risks that highways pose to tigers.",
+        "The main harm of a road through a forest may lie in dividing animal populations rather than in the land the road occupies."
+      ],
+      "answer": 3,
+      "explanation": "The passage says animals 'do not merely lose a strip of land'—fragmentation of populations is the deeper harm. Camera traps show tigers using the underpasses (contradicting the third option); 'all risks' and 'never' overreach.",
+      "source": "ai",
+      "archetype": "clat-ug-E03",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-072",
+      "section": "english",
+      "topic": "Grammar & Usage in Context",
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\n\"The committee, along with its two advisers, ____ expected to submit its report before the end of the session, and the Speaker has fixed a date for the debate.\"\n\nChoose the word that correctly fills the blank.",
+      "options": [
+        "have been",
+        "are",
+        "is",
+        "were"
+      ],
+      "answer": 2,
+      "explanation": "The subject is 'The committee' (singular); a phrase introduced by 'along with' does not change the number of the subject. The present tense matches 'has fixed', so 'is' is correct.",
+      "source": "ai",
+      "archetype": "clat-ug-E09",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-073",
+      "section": "gk",
+      "topic": "National Affairs & Polity",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"After the NDA's victory in the Bihar Assembly election held in November 2025, Nitish Kumar was sworn in as Chief Minister for a record tenth time. The Governor administered the oath of office and secrecy to him and to the members of his council of ministers at a ceremony in Patna.\"\n\nUnder which Article of the Constitution of India is the Chief Minister of a State appointed by the Governor?",
+      "options": [
+        "Article 164",
+        "Article 75",
+        "Article 154",
+        "Article 163"
+      ],
+      "answer": 0,
+      "explanation": "Article 164(1) provides that the Chief Minister shall be appointed by the Governor and other ministers on the Chief Minister's advice. Article 163 deals with the council of ministers aiding the Governor, 154 with the State's executive power, and 75 with the Union Prime Minister.",
+      "source": "ai",
+      "archetype": "clat-ug-G01",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-074",
+      "section": "gk",
+      "topic": "National Affairs & Polity",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"The Constitution (One Hundred and Twenty-Ninth Amendment) Bill, 2024, which seeks to enable simultaneous elections to the Lok Sabha and State Legislative Assemblies, was introduced in the Lok Sabha in December 2024 and referred to a Joint Parliamentary Committee. The Bill followed the report of a High-Level Committee on simultaneous elections submitted in March 2024.\"\n\nWho chaired the High-Level Committee on simultaneous elections?",
+      "options": [
+        "Ram Nath Kovind",
+        "Ranjan Gogoi",
+        "Arjun Ram Meghwal",
+        "Rajiv Kumar"
+      ],
+      "answer": 0,
+      "explanation": "The High-Level Committee on 'One Nation, One Election', constituted in 2023, was chaired by former President Ram Nath Kovind and submitted its report in March 2024.",
+      "source": "ai",
+      "archetype": "clat-ug-G01",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-075",
+      "section": "gk",
+      "topic": "National Affairs & Polity",
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\n\"In May 2025, the Indian armed forces carried out precision strikes on terrorist infrastructure across the border under 'Operation Sindoor'. The government described the operation as a measured response to a terror attack in which 26 people, most of them tourists, were killed in April 2025.\"\n\nThe terror attack to which Operation Sindoor was a response took place at:",
+      "options": [
+        "Uri",
+        "Pulwama",
+        "Gulmarg",
+        "Pahalgam"
+      ],
+      "answer": 3,
+      "explanation": "Operation Sindoor (7 May 2025) followed the 22 April 2025 attack near Pahalgam in Jammu and Kashmir. Pulwama (2019) and Uri (2016) were earlier attacks.",
+      "source": "ai",
+      "archetype": "clat-ug-G02",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-076",
+      "section": "gk",
+      "topic": "National Affairs & Polity",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"On 7 November 2025, the Government of India launched a year-long commemoration marking 150 years of 'Vande Mataram'. The song, adopted as the National Song, was composed by Bankim Chandra Chattopadhyay and later became a rallying cry of the freedom struggle.\"\n\nIn which of Bankim Chandra Chattopadhyay's novels did 'Vande Mataram' appear?",
+      "options": [
+        "Kapalkundala",
+        "Durgeshnandini",
+        "Anandamath",
+        "Devi Chaudhurani"
+      ],
+      "answer": 2,
+      "explanation": "'Vande Mataram' was included in Bankim Chandra's novel Anandamath (1882). The other three are also his novels, which is what makes them plausible distractors.",
+      "source": "ai",
+      "archetype": "clat-ug-G02",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-077",
+      "section": "gk",
+      "topic": "International Affairs & Organisations",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"South Africa hosted the G20 Leaders' Summit in Johannesburg in November 2025, the first G20 summit held in Africa. At the end of its presidency, South Africa handed over the rotating presidency of the group for 2026.\"\n\nWhich country holds the G20 presidency in 2026?",
+      "options": [
+        "United States",
+        "Brazil",
+        "India",
+        "United Kingdom"
+      ],
+      "answer": 0,
+      "explanation": "The G20 presidency passed from South Africa (2025) to the United States for 2026. India held it in 2023 and Brazil in 2024.",
+      "source": "ai",
+      "archetype": "clat-ug-G03",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-078",
+      "section": "gk",
+      "topic": "International Affairs & Organisations",
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\n\"In May 2025, the College of Cardinals elected Cardinal Robert Francis Prevost as Pope. Taking the name Leo XIV, he became the first Pope born in the United States and the head of the Catholic Church and the Vatican City State.\"\n\nWhom did Pope Leo XIV succeed?",
+      "options": [
+        "Pope John XXIII",
+        "Pope John Paul II",
+        "Pope Francis",
+        "Pope Benedict XVI"
+      ],
+      "answer": 2,
+      "explanation": "Pope Leo XIV was elected after the death of Pope Francis in April 2025. Benedict XVI resigned in 2013 and was succeeded by Francis.",
+      "source": "ai",
+      "archetype": "clat-ug-G04",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-079",
+      "section": "gk",
+      "topic": "International Affairs & Organisations",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"Ngozi Okonjo-Iweala began her second term as Director-General of the World Trade Organization on 1 September 2025, after members reappointed her by consensus. She is the first woman and the first African to lead the organisation, which administers the rules of international trade.\"\n\nWhere is the headquarters of the World Trade Organization?",
+      "options": [
+        "Vienna",
+        "Paris",
+        "New York",
+        "Geneva"
+      ],
+      "answer": 3,
+      "explanation": "The WTO, established in 1995, is headquartered in Geneva, Switzerland.",
+      "source": "ai",
+      "archetype": "clat-ug-G04",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-080",
+      "section": "gk",
+      "topic": "Economy & Budget",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"The Income-tax Act, 2025, which replaces the Income-tax Act, 1961, came into force on 1 April 2026. It simplifies the language of the law and replaces the familiar concepts of 'previous year' and 'assessment year' with a single 'tax year'.\"\n\nWhich Article of the Constitution of India provides that no tax shall be levied or collected except by authority of law?",
+      "options": [
+        "Article 265",
+        "Article 280",
+        "Article 112",
+        "Article 266"
+      ],
+      "answer": 0,
+      "explanation": "Article 265 bars any tax except by authority of law. Article 266 deals with the Consolidated Fund, 112 with the Annual Financial Statement, and 280 with the Finance Commission.",
+      "source": "ai",
+      "archetype": "clat-ug-G06",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-081",
+      "section": "gk",
+      "topic": "Economy & Budget",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"On 21 November 2025, the Government of India brought into force the four Labour Codes—the Code on Wages, the Industrial Relations Code, the Code on Social Security and the Occupational Safety, Health and Working Conditions Code. The codes were enacted in 2019 and 2020 to simplify India's labour regulation.\"\n\nHow many existing central labour laws were consolidated into the four Labour Codes?",
+      "options": [
+        "4",
+        "44",
+        "21",
+        "29"
+      ],
+      "answer": 3,
+      "explanation": "The four Labour Codes subsume 29 central labour laws.",
+      "source": "ai",
+      "archetype": "clat-ug-G06",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-082",
+      "section": "gk",
+      "topic": "Science, Technology & Environment",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"The 2025 Nobel Prize in Physics was awarded to John Clarke, Michel H. Devoret and John M. Martinis. Their experiments in the 1980s, using superconducting electrical circuits, laid foundations for today's quantum technologies, including superconducting quantum computers.\"\n\nFor which discovery were they awarded the prize?",
+      "options": [
+        "Efficient blue light-emitting diodes",
+        "The first observation of gravitational waves",
+        "Macroscopic quantum mechanical tunnelling and energy quantisation in an electric circuit",
+        "Experimental methods that generate attosecond pulses of light"
+      ],
+      "answer": 2,
+      "explanation": "The 2025 prize cited macroscopic quantum tunnelling and energy quantisation in an electric circuit. Blue LEDs (2014), gravitational waves (2017) and attosecond pulses (2023) were earlier physics prizes.",
+      "source": "ai",
+      "archetype": "clat-ug-G07",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-083",
+      "section": "gk",
+      "topic": "Science, Technology & Environment",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"The UN Climate Change Conference, COP30, met in Belém, Brazil, in November 2025, ten years after the Paris Agreement was adopted. Negotiators reviewed new national climate pledges, which together still fall short of the Agreement's temperature goal.\"\n\nThe Paris Agreement aims to hold the increase in global average temperature to well below how many degrees Celsius above pre-industrial levels, while pursuing efforts to limit it to 1.5 °C?",
+      "options": [
+        "2.5 °C",
+        "2 °C",
+        "1 °C",
+        "3 °C"
+      ],
+      "answer": 1,
+      "explanation": "Article 2 of the Paris Agreement (2015) sets the goal of holding warming well below 2 °C above pre-industrial levels while pursuing efforts to limit it to 1.5 °C.",
+      "source": "ai",
+      "archetype": "clat-ug-G08",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-084",
+      "section": "gk",
+      "topic": "Sports, Awards & Culture",
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\n\"In July 2025, 19-year-old Divya Deshmukh won the FIDE Women's World Cup in Batumi, Georgia, defeating a more experienced Indian compatriot in an all-Indian final decided in tie-breaks. The victory also earned her the Grandmaster title.\"\n\nWhom did Divya Deshmukh defeat in the final?",
+      "options": [
+        "R. Vaishali",
+        "D. Harika",
+        "Tan Zhongyi",
+        "Koneru Humpy"
+      ],
+      "answer": 3,
+      "explanation": "Divya Deshmukh beat Koneru Humpy in the all-Indian final of the 2025 FIDE Women's World Cup in Batumi.",
+      "source": "ai",
+      "archetype": "clat-ug-G09",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-085",
+      "section": "gk",
+      "topic": "Legal & Constitutional Developments",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"In November 2025, a five-judge Constitution Bench gave its opinion on a reference made by the President on whether courts can fix timelines for Governors and the President to act on Bills passed by State Legislatures. The Bench held that such timelines cannot be judicially imposed and that the concept of 'deemed assent' is not permissible.\"\n\nUnder which Article of the Constitution can the President refer a question of law to the Supreme Court for its opinion?",
+      "options": [
+        "Article 32",
+        "Article 200",
+        "Article 143",
+        "Article 131"
+      ],
+      "answer": 2,
+      "explanation": "Article 143 confers advisory jurisdiction on the Supreme Court on references by the President. Article 200 governs the Governor's assent to Bills, which was the subject of the reference—hence a tempting distractor.",
+      "source": "ai",
+      "archetype": "clat-ug-G10",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-086",
+      "section": "gk",
+      "topic": "Legal & Constitutional Developments",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"The Waqf (Amendment) Act, 2025, passed by Parliament in April 2025, changed the composition of waqf boards, the process of registering waqf properties and the powers of survey. The amending Act also renamed the principal law, the Waqf Act, 1995.\"\n\nWhat is the new name given to the Waqf Act, 1995 by the 2025 amendment?",
+      "options": [
+        "Central Waqf Council Act, 1995",
+        "Unified Waqf Management, Empowerment, Efficiency and Development Act, 1995",
+        "Waqf Properties (Registration and Survey) Act, 1995",
+        "National Waqf Regulation and Protection Act, 1995"
+      ],
+      "answer": 1,
+      "explanation": "The 2025 amendment renamed the principal Act the Unified Waqf Management, Empowerment, Efficiency and Development (UMEED) Act, 1995.",
+      "source": "ai",
+      "archetype": "clat-ug-G11",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-087",
+      "section": "gk",
+      "topic": "Legal & Constitutional Developments",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"The Promotion and Regulation of Online Gaming Act, 2025 was passed by Parliament in August 2025. It seeks to promote e-sports and online social games while addressing concerns about addiction and financial losses suffered by players.\"\n\nWhich of the following does the Act prohibit?",
+      "options": [
+        "Offering and advertising online money games played for stakes",
+        "Organising e-sports tournaments",
+        "Online chess and other skill-based social games",
+        "All mobile games for users below 18 years"
+      ],
+      "answer": 0,
+      "explanation": "The Act bans online money games (where users deposit money in expectation of winnings), along with their advertisement and related transactions, while promoting e-sports and social games.",
+      "source": "ai",
+      "archetype": "clat-ug-G11",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-088",
+      "section": "legal",
+      "topic": "Law of Torts",
+      "difficulty": "medium",
+      "question": "Read the principle and facts and answer the question.\n\nPrinciple: A person is liable in negligence if he owes a duty of care to another, breaches that duty by failing to take the care a reasonable person would take in the circumstances, and the breach causes foreseeable harm. A person who has taken all reasonable precautions is not liable.\n\nFacts: A supermarket mops one aisle during business hours and places two large, brightly coloured 'Wet Floor' boards at either end of the aisle. Raj, reading messages on his phone, walks past one board without looking up, slips and breaks his wrist.\n\nIs the supermarket liable to Raj in negligence?",
+      "options": [
+        "No, because it took the precautions a reasonable shop would take to warn customers of the wet floor.",
+        "Yes, because the floor should never be mopped during business hours.",
+        "No, because Raj was not a paying customer at the time of the fall.",
+        "Yes, because a shop owes a duty of care to every customer and Raj was injured on its premises."
+      ],
+      "answer": 0,
+      "explanation": "Duty exists, but there is no breach: clearly visible warning boards at both ends are reasonable precautions, and the principle excuses a defendant who took them. Injury on the premises alone does not establish negligence, and nothing suggests Raj was not a customer.",
+      "source": "ai",
+      "archetype": "clat-ug-L01",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-089",
+      "section": "legal",
+      "topic": "Law of Torts",
+      "difficulty": "medium",
+      "question": "Read the principle and facts and answer the question.\n\nPrinciple: An employer is liable for a wrong committed by an employee in the course of employment, including an authorised act done in an unauthorised manner. The employer is not liable where the employee, at the time of the wrong, was acting purely for his own purposes, unconnected with his work (a 'frolic of his own').\n\nFacts: Manoj drives a delivery van for SpeedCart. On a Sunday, when he is off duty, he takes the van from the depot without permission to drive his family to a wedding in another town, and negligently injures a cyclist, Farah.\n\nIs SpeedCart liable to Farah?",
+      "options": [
+        "No, because Manoj was using the van for his own purposes, unconnected with his work.",
+        "Yes, because Manoj is a SpeedCart employee and was driving its van.",
+        "Yes, because taking the van was an authorised act done in an unauthorised manner.",
+        "No, because Farah should have avoided the van."
+      ],
+      "answer": 0,
+      "explanation": "Manoj was off duty and drove without permission for a family trip—a frolic of his own, not the company's work. Ownership of the van and his status as an employee are not enough; there was no authorised act to perform.",
+      "source": "ai",
+      "archetype": "clat-ug-L03",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-090",
+      "section": "legal",
+      "topic": "Law of Torts",
+      "difficulty": "medium",
+      "question": "Read the principle and facts and answer the question.\n\nPrinciple: A person who voluntarily consents to a known risk cannot claim damages for harm resulting from it (volenti non fit injuria). However, a person who takes a risk to rescue others from a danger created by the defendant's negligence is not treated as having consented to that risk.\n\nFacts: Gopal negligently leaves his bullock cart unattended on a busy market street. The bullocks bolt towards a group of schoolchildren. Ravi, a shopkeeper, runs out and stops the animals, saving the children but suffering serious injuries.\n\nCan Ravi recover damages from Gopal?",
+      "options": [
+        "Yes, because a rescuer of people endangered by the defendant's negligence is not treated as consenting to the risk.",
+        "No, because Ravi knowingly and voluntarily exposed himself to the risk.",
+        "No, because Gopal did not intend the bullocks to bolt.",
+        "Yes, but only if one of the children was actually injured."
+      ],
+      "answer": 0,
+      "explanation": "The general volenti rule would bar a person who knowingly takes a risk, but the principle's exception covers rescuers facing a danger created by the defendant's negligence. Intention is irrelevant to negligence, and the children need not be harmed for the rescuer to recover.",
+      "source": "ai",
+      "archetype": "clat-ug-L02",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-091",
+      "section": "legal",
+      "topic": "Law of Contract",
+      "difficulty": "hard",
+      "question": "Read the principle and facts and answer the question.\n\nPrinciple: Communication of an acceptance is complete as against the proposer when it is put in the course of transmission to him, so as to be out of the acceptor's power. A proposal may be revoked at any time before the communication of its acceptance is complete as against the proposer. Communication of a revocation is complete as against the person to whom it is made when it comes to his knowledge.\n\nFacts: On 1 March, Asha posts a letter offering to sell her flat to Bilal for ₹60 lakh. Bilal receives it on 3 March and posts a letter of acceptance on 5 March. Asha had changed her mind and posted a letter of revocation on 4 March, which reaches Bilal on 6 March.\n\nIs there a binding contract between Asha and Bilal?",
+      "options": [
+        "Yes, because the acceptance was complete against Asha on 5 March, before her revocation reached Bilal on 6 March.",
+        "No, because Asha posted her revocation on 4 March, before Bilal posted his acceptance.",
+        "Yes, because an offer to sell immovable property cannot be revoked once made.",
+        "No, because Asha had not received Bilal's letter of acceptance when she revoked the offer."
+      ],
+      "answer": 0,
+      "explanation": "Revocation takes effect against Bilal only when it reaches him (6 March). Bilal's acceptance was complete against Asha when posted on 5 March, so the revocation came too late. Posting a revocation is not enough, and offers relating to property can be revoked in time.",
+      "source": "ai",
+      "archetype": "clat-ug-L04",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-092",
+      "section": "legal",
+      "topic": "Law of Contract",
+      "difficulty": "medium",
+      "question": "Read the principle and facts and answer the question.\n\nPrinciple: An agreement with a person who has not attained the age of majority (18 years) is void from the beginning and cannot be enforced against that person, even if he has falsely represented himself to be an adult.\n\nFacts: Kunal, aged 17, tells a moneylender, Sethji, that he is 19, and borrows ₹2 lakh, signing a promissory note. Sethji later discovers Kunal's true age and sues him to recover the loan.\n\nWill Sethji succeed?",
+      "options": [
+        "No, but only because the amount borrowed exceeds ₹1 lakh.",
+        "Yes, because Kunal lied about his age and cannot take advantage of his own fraud.",
+        "Yes, because Kunal signed a promissory note.",
+        "No, because an agreement with a minor is void from the beginning even if the minor misrepresented his age."
+      ],
+      "answer": 3,
+      "explanation": "The principle makes a minor's agreement void ab initio and expressly says false representation of age makes no difference. Signing a note does not cure a void agreement, and the amount is irrelevant.",
+      "source": "ai",
+      "archetype": "clat-ug-L05",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-093",
+      "section": "legal",
+      "topic": "Law of Contract",
+      "difficulty": "hard",
+      "question": "Read the principle and facts and answer the question.\n\nPrinciple: When a contract is broken, the injured party may recover compensation for loss which naturally arose in the usual course of things from the breach, or which the parties knew, when they made the contract, to be likely to result from the breach. No compensation is given for remote or indirect loss.\n\nFacts: Harish, who runs a small flour mill, hands a broken crankshaft to TransFast couriers for delivery to a repair workshop, telling them only that it is 'machinery'. TransFast delivers it five days late. Harish had no spare crankshaft, so the mill stood idle throughout, and he lost ₹80,000 in profits. TransFast did not know this.\n\nCan Harish recover the lost profits from TransFast?",
+      "options": [
+        "No, because the crankshaft reached the workshop in the end.",
+        "Yes, because the late delivery was a breach of contract and the loss followed from it.",
+        "No, because TransFast did not know that the delay would stop the mill, so the loss of profits was not within the parties' contemplation.",
+        "Yes, because couriers are always liable for every consequence of delay."
+      ],
+      "answer": 2,
+      "explanation": "Mills often keep spares; a courier told only 'machinery' would not expect a delay to halt production. The lost profits neither arose in the usual course of things nor were known to be likely, so they are too remote. Breach alone does not make every loss recoverable.",
+      "source": "ai",
+      "archetype": "clat-ug-L06",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-094",
+      "section": "legal",
+      "topic": "Criminal Law (BNS)",
+      "difficulty": "medium",
+      "question": "Read the principle and facts and answer the question.\n\nPrinciple: Whoever intentionally puts any person in fear of any injury to that person or to any other, and thereby dishonestly induces the person so put in fear to deliver any property to any person, commits extortion. 'Injury' includes any harm illegally caused to a person in body, mind, reputation or property.\n\nFacts: Aman obtains private photographs of his former colleague Sneha and messages her that he will post them online unless she transfers ₹50,000 to his account. Frightened, Sneha transfers the money.\n\nHas Aman committed extortion?",
+      "options": [
+        "No, because Sneha transferred the money herself through her bank.",
+        "No, because Aman committed theft rather than extortion.",
+        "Yes, because he put Sneha in fear of injury to her reputation and thereby induced her to deliver money.",
+        "No, because he did not threaten Sneha with any physical harm."
+      ],
+      "answer": 2,
+      "explanation": "'Injury' includes harm to reputation, so the threat suffices; the delivery of money induced by fear completes extortion. Delivery by the victim's own act is characteristic of extortion, which distinguishes it from theft.",
+      "source": "ai",
+      "archetype": "clat-ug-L07",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-095",
+      "section": "legal",
+      "topic": "Criminal Law (BNS)",
+      "difficulty": "medium",
+      "question": "Read the principle and facts and answer the question.\n\nPrinciple: Nothing is an offence which is done by a person who, by reason of a mistake of fact and not by reason of a mistake of law, in good faith believes himself to be justified by law in doing it.\n\nFacts: The police circulate the photograph of an absconding murder accused. Sub-Inspector Rekha sees a man at a bus stand who closely resembles the photograph and, after comparing his face with it carefully, arrests him. The man turns out to be an innocent traveller.\n\nHas Rekha committed an offence by arresting him?",
+      "options": [
+        "No, because police officers can never be prosecuted for arrests.",
+        "Yes, because she arrested an innocent person.",
+        "Yes, because a mistake about a person's identity is a mistake of law.",
+        "No, because she acted in good faith under a mistake of fact, believing herself justified by law."
+      ],
+      "answer": 3,
+      "explanation": "Rekha's error concerned a fact (the man's identity), she checked carefully, and she believed the arrest was authorised by law—exactly the exception. Identity is a fact, not law; police officers are not immune in general.",
+      "source": "ai",
+      "archetype": "clat-ug-L08",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-096",
+      "section": "legal",
+      "topic": "Criminal Law (BNS)",
+      "difficulty": "hard",
+      "question": "Read the principle and facts and answer the question.\n\nPrinciple: When a criminal act is done by several persons in furtherance of the common intention of all, each of them is liable for that act in the same manner as if it were done by him alone. A person is not liable under this rule for an act of another that was not in furtherance of the intention they shared.\n\nFacts: Dinesh and Lalit plan to break into a shop at night, when they believe it will be empty, and steal cash. They agree that no one is to be harmed. Inside, a night watchman surprises them. Without any warning to Dinesh, Lalit pulls out a knife that Dinesh did not know he was carrying and fatally stabs the watchman. Dinesh flees.\n\nIs Dinesh liable for the killing under the principle?",
+      "options": [
+        "No, because the killing was not done in furtherance of the common intention, which was only to steal from an empty shop.",
+        "Yes, because every participant in a crime is liable for everything done during it.",
+        "No, because he ran away after the stabbing.",
+        "Yes, because he was present at the scene with Lalit."
+      ],
+      "answer": 0,
+      "explanation": "Their shared intention was theft without harm; Dinesh neither knew of the knife nor shared any intention to kill, so the stabbing was not in furtherance of the common intention. Presence alone is not enough, and fleeing afterwards is irrelevant to liability.",
+      "source": "ai",
+      "archetype": "clat-ug-L09",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-097",
+      "section": "legal",
+      "topic": "Constitutional Law",
+      "difficulty": "hard",
+      "question": "Read the principle and facts and answer the question.\n\nPrinciple: Every citizen has the right to practise any profession or carry on any occupation, trade or business. The State may impose reasonable restrictions on this right in the interests of the general public. A restriction is unreasonable if it is excessive or disproportionate to the object it seeks to achieve, for instance where narrower measures would serve the purpose.\n\nFacts: To ease congestion in three crowded markets in its capital, a State government issues an order permanently banning street vending everywhere in the State.\n\nIs the order likely to be valid?",
+      "options": [
+        "No, because the State can never restrict the right to carry on a trade.",
+        "Yes, because street vending is not a profession or business.",
+        "No, because a permanent State-wide ban is disproportionate to the aim of easing congestion in three markets.",
+        "Yes, because easing traffic congestion is in the interests of the general public."
+      ],
+      "answer": 2,
+      "explanation": "Public interest is a valid aim, but the measure goes far beyond it—banning vending everywhere, permanently, to solve a problem in three markets; narrower measures (vending zones, timings) would serve. Street vending is an occupation, and restrictions are allowed if reasonable.",
+      "source": "ai",
+      "archetype": "clat-ug-L11",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-098",
+      "section": "legal",
+      "topic": "Constitutional Law",
+      "difficulty": "medium",
+      "question": "Read the principle and facts and answer the question.\n\nPrinciple: No person accused of any offence shall be compelled to be a witness against himself. Courts have held that this protects an accused from being compelled to make testimonial statements based on personal knowledge, but not from being required to give physical evidence such as fingerprints, a specimen signature or a sample of handwriting.\n\nFacts: In a forgery case, the magistrate directs the accused, Prakash, to give specimen samples of his handwriting so that they can be compared with the forged document. Prakash refuses, claiming that the order violates his right against self-incrimination.\n\nIs Prakash's objection valid?",
+      "options": [
+        "No, because giving a handwriting specimen is physical evidence, not a compelled testimonial statement.",
+        "Yes, because an accused can never be asked to provide anything to the court.",
+        "Yes, because the specimen may be used to prove him guilty.",
+        "No, because the right against self-incrimination does not apply in forgery cases."
+      ],
+      "answer": 0,
+      "explanation": "The principle limits protection to testimonial statements and expressly excludes handwriting samples. That the evidence may incriminate him does not convert it into testimony; the right applies to all offences.",
+      "source": "ai",
+      "archetype": "clat-ug-L12",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-099",
+      "section": "legal",
+      "topic": "Constitutional Law",
+      "difficulty": "hard",
+      "question": "Read the principle and facts and answer the question.\n\nPrinciple: The State shall not deny any person equality before the law or the equal protection of the laws. However, the State may classify persons for a law or scheme if the classification is based on an intelligible differentia and that differentia has a rational nexus with the object of the law. Nothing prevents the State from making special provisions for women.\n\nFacts: To increase women's participation in the workforce, a State introduces free travel for women on its public buses. Mohit, a male daily commuter, challenges the scheme as discriminatory.\n\nIs the scheme likely to be upheld?",
+      "options": [
+        "Yes, because it is a special provision for women with a rational link to the object of increasing their workforce participation.",
+        "No, because every scheme must treat men and women identically.",
+        "No, because free travel is not related to employment.",
+        "Yes, because the State can make any classification it likes in welfare schemes."
+      ],
+      "answer": 0,
+      "explanation": "Gender is an intelligible differentia, cheaper mobility rationally serves the aim of women's workforce participation, and the principle expressly allows special provisions for women. Equality does not mean identical treatment, but nor may the State classify arbitrarily.",
+      "source": "ai",
+      "archetype": "clat-ug-L10",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-100",
+      "section": "legal",
+      "topic": "Intellectual Property & Special Statutes",
+      "difficulty": "medium",
+      "question": "Read the principle and facts and answer the question.\n\nPrinciple: A registered trademark is infringed when a person, in the course of trade, uses a mark that is identical or deceptively similar to it in relation to the same or similar goods, such that it is likely to cause confusion in the minds of the public or to suggest an association with the registered proprietor.\n\nFacts: 'Glowmint' is a registered trademark for toothpaste sold in green-and-white packaging. A new company launches a toothpaste called 'Glomint' in similar green-and-white packaging and sells it in the same shops at a slightly lower price.\n\nHas the new company infringed the 'Glowmint' trademark?",
+      "options": [
+        "No, because 'Glomint' is spelt differently from 'Glowmint'.",
+        "Yes, because 'Glomint' is deceptively similar and is used for the same goods, making confusion likely.",
+        "Yes, because no two toothpastes may have green packaging.",
+        "No, because the new toothpaste is cheaper, so buyers can tell the difference."
+      ],
+      "answer": 1,
+      "explanation": "The marks are nearly identical in sound and look, used for identical goods in the same shops—a likelihood of confusion. A small spelling change does not avoid deceptive similarity, and price differences do not dispel confusion; colour alone is not the test.",
+      "source": "ai",
+      "archetype": "clat-ug-L13",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-101",
+      "section": "legal",
+      "topic": "Intellectual Property & Special Statutes",
+      "difficulty": "medium",
+      "question": "Read the principle and facts and answer the question.\n\nPrinciple: Under consumer protection law, a 'consumer' is a person who buys goods or hires services for consideration, but does not include a person who obtains goods for resale or for any commercial purpose.\n\nFacts: Ajay, a dealer in home appliances, buys 50 refrigerators from a manufacturer to sell in his showroom. Twelve of them turn out to be defective. Ajay files a complaint before the Consumer Commission against the manufacturer.\n\nIs Ajay a 'consumer' entitled to file the complaint?",
+      "options": [
+        "No, because a complaint can be filed only for services, not goods.",
+        "No, because he bought the refrigerators for resale.",
+        "Yes, because the refrigerators were defective.",
+        "Yes, because he paid for the refrigerators."
+      ],
+      "answer": 1,
+      "explanation": "The definition excludes a person who obtains goods for resale; Ajay bought stock for his showroom. Payment and defects do not override the exclusion, and goods are covered by the definition.",
+      "source": "ai",
+      "archetype": "clat-ug-L14",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-102",
+      "section": "legal",
+      "topic": "International & Environmental Law",
+      "difficulty": "medium",
+      "question": "Read the principle and facts and answer the question.\n\nPrinciple: Under the precautionary principle, where there are threats of serious or irreversible damage to the environment, lack of full scientific certainty shall not be used as a reason for postponing measures to prevent environmental degradation. The burden of proving that a proposed activity is environmentally benign lies on the person proposing it.\n\nFacts: ChemCo applies to set up a chemical unit beside a wetland that hosts migratory birds. Expert studies on whether its effluents would harm the wetland are inconclusive. ChemCo argues that unless the State proves its unit will cause harm, permission cannot be refused.\n\nWhich of the following is correct?",
+      "options": [
+        "The wetland can be protected only if the birds are an endangered species.",
+        "Permission must be granted until the studies become conclusive.",
+        "ChemCo's argument fails, because it must show that its unit is environmentally benign, and uncertainty does not favour it.",
+        "ChemCo's argument succeeds, because the State has not proved that harm will occur."
+      ],
+      "answer": 2,
+      "explanation": "The principle places the burden on the proponent and says scientific uncertainty is no reason to delay protection. So the State need not prove harm; inconclusive studies count against ChemCo. The principle has no endangered-species condition.",
+      "source": "ai",
+      "archetype": "clat-ug-L15",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-103",
+      "section": "logical",
+      "topic": "Assumptions & Inferences",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"A coaching centre advertises: 'The average CLAT score of our students last year was 20 marks higher than the national average. Join us, and your score will rise too.'\"\n\nThe advertisement assumes that:",
+      "options": [
+        "the national average score will be the same this year",
+        "the centre has more teachers than its competitors",
+        "all students who join the centre study equally hard",
+        "the higher average score is due to the centre's coaching rather than to the centre admitting students who were already strong"
+      ],
+      "answer": 3,
+      "explanation": "The claim that joining will raise your score holds only if coaching caused the gap; if the centre simply enrolled stronger students, the advertisement's conclusion collapses. The other options are not needed for the argument.",
+      "source": "ai",
+      "archetype": "clat-ug-R01",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-104",
+      "section": "logical",
+      "topic": "Assumptions & Inferences",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"All court hearings should be live-streamed. When citizens can see how judges conduct cases, their trust in the judiciary will increase.\"\n\nWhich of the following is an assumption on which the argument depends?",
+      "options": [
+        "Judges behave differently when they are being filmed.",
+        "Most citizens watch court proceedings every day.",
+        "Live-streaming equipment is inexpensive.",
+        "Greater visibility of court proceedings will lead people to trust the courts more rather than less."
+      ],
+      "answer": 3,
+      "explanation": "The argument moves from visibility to increased trust, so it must assume that seeing proceedings improves rather than damages public trust. Daily viewing, cost and behaviour change are not required.",
+      "source": "ai",
+      "archetype": "clat-ug-R01",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-105",
+      "section": "logical",
+      "topic": "Assumptions & Inferences",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"In the past five years, the number of electric two-wheelers registered in the city has tripled, while the number of public charging points has risen by only 20%. Yet complaints to the municipal helpline about the lack of charging facilities have remained roughly the same each year.\"\n\nWhich of the following can most reasonably be inferred?",
+      "options": [
+        "Many electric two-wheeler owners probably charge their vehicles somewhere other than public charging points.",
+        "Public charging points in the city are mostly unused.",
+        "Electric two-wheeler sales will fall in the coming years.",
+        "The municipal helpline does not record complaints accurately."
+      ],
+      "answer": 0,
+      "explanation": "With three times as many vehicles and only 20% more public points, flat complaints suggest most owners do not depend on public points—for example, they charge at home. The other options are unsupported speculation.",
+      "source": "ai",
+      "archetype": "clat-ug-R02",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-106",
+      "section": "logical",
+      "topic": "Strengthen & Weaken",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"After the city banned thin plastic carry bags, the volume of plastic bags collected at its landfills fell by 40%. The municipal commissioner concluded that the ban has reduced the city's plastic waste.\"\n\nWhich of the following, if true, most weakens the commissioner's conclusion?",
+      "options": [
+        "Cloth bags are more expensive than plastic carry bags.",
+        "Several other cities have also banned thin plastic carry bags.",
+        "Shopkeepers initially opposed the ban but later accepted it.",
+        "Since the ban, sales of thicker plastic garbage bags, which the ban does not cover, have risen sharply, and the total weight of plastic waste at the landfills has increased."
+      ],
+      "answer": 3,
+      "explanation": "The conclusion concerns total plastic waste, but the evidence counts only carry bags. If substitute plastic bags rose and total plastic waste by weight increased, the conclusion fails. The other options do not bear on the city's total plastic waste.",
+      "source": "ai",
+      "archetype": "clat-ug-R03",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-107",
+      "section": "logical",
+      "topic": "Strengthen & Weaken",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"Researchers found that attendance rose by 15% in schools that introduced a free mid-day meal. They concluded that the meal programme increased school attendance.\"\n\nWhich of the following, if true, most strengthens the researchers' conclusion?",
+      "options": [
+        "The meals served in the programme met recommended nutritional standards.",
+        "In comparable nearby schools that did not introduce the meal during the same period, attendance remained unchanged.",
+        "Attendance in the schools had been falling for several years before the meal was introduced.",
+        "Parents said they liked the idea of a free meal for their children."
+      ],
+      "answer": 1,
+      "explanation": "A comparison group without the meal whose attendance stayed flat rules out a general rise (season, policy, economy) as the cause. Nutrition and parental approval do not show causation, and a prior falling trend does not by itself link the rise to the meal.",
+      "source": "ai",
+      "archetype": "clat-ug-R04",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-108",
+      "section": "logical",
+      "topic": "Strengthen & Weaken",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"Many of the country's most successful entrepreneurs dropped out of college. Therefore, students who want to build successful companies would improve their chances by dropping out.\"\n\nWhich of the following, if true, most seriously weakens the argument?",
+      "options": [
+        "College fees have risen sharply in the last decade.",
+        "Some successful entrepreneurs completed postgraduate degrees.",
+        "Several successful entrepreneurs later returned to complete their degrees.",
+        "Among all people who start companies, those who dropped out of college fail at a higher rate than graduates; the famous successes are a small fraction of dropouts."
+      ],
+      "answer": 3,
+      "explanation": "The argument looks only at successful dropouts. If dropouts as a group fail more often than graduates, dropping out does not improve one's chances. The other options are either consistent with the argument or irrelevant.",
+      "source": "ai",
+      "archetype": "clat-ug-R03",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-109",
+      "section": "logical",
+      "topic": "Conclusions & Main Point",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"Every member of the Bar Association's ethics committee is a senior advocate. No senior advocate is a first-year associate. Some senior advocates are part-time lecturers.\"\n\nWhich of the following must be true?",
+      "options": [
+        "No first-year associate is a part-time lecturer.",
+        "All part-time lecturers are senior advocates.",
+        "Some members of the ethics committee are part-time lecturers.",
+        "No member of the ethics committee is a first-year associate."
+      ],
+      "answer": 3,
+      "explanation": "Committee members are all senior advocates, and no senior advocate is a first-year associate, so no committee member is one. The lecturers who are senior advocates need not be on the committee; nothing says all lecturers are senior advocates; first-year associates could still be lecturers.",
+      "source": "ai",
+      "archetype": "clat-ug-R05",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-110",
+      "section": "logical",
+      "topic": "Conclusions & Main Point",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"Critics argue that the new data protection law imposes a heavy burden on small businesses. But the cost of compliance is modest compared with the losses a single data breach can cause, and customers increasingly choose firms they trust to protect their information. Small businesses therefore have more reason to welcome the law than to resist it.\"\n\nWhich of the following is the main conclusion of the argument?",
+      "options": [
+        "A single data breach can cause heavy losses.",
+        "Customers increasingly prefer firms they trust with their data.",
+        "The cost of complying with the data protection law is modest.",
+        "Small businesses have more reason to welcome the data protection law than to resist it."
+      ],
+      "answer": 3,
+      "explanation": "'Therefore' introduces the conclusion; the other three options are the premises offered in its support.",
+      "source": "ai",
+      "archetype": "clat-ug-R06",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-111",
+      "section": "logical",
+      "topic": "Analogies & Logical Relationships",
+      "difficulty": "easy",
+      "question": "Choose the option that completes the analogy.\n\nPlaintiff : Defendant :: Prosecution : ?",
+      "options": [
+        "Accused",
+        "Complainant",
+        "Witness",
+        "Judge"
+      ],
+      "answer": 0,
+      "explanation": "In a civil suit the plaintiff brings the case against the defendant; in a criminal trial the prosecution brings the case against the accused.",
+      "source": "ai",
+      "archetype": "clat-ug-R07",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-112",
+      "section": "logical",
+      "topic": "Analytical Puzzles",
+      "difficulty": "medium",
+      "question": "Read the information and answer the question.\n\nA is a boy whose mother is B. C is B's sister. C has a son, D, and a daughter, E. F is the maternal uncle of D.\n\nHow is A related to F?",
+      "options": [
+        "Nephew",
+        "Brother",
+        "Son",
+        "Cousin"
+      ],
+      "answer": 0,
+      "explanation": "F, D's maternal uncle, is a brother of D's mother C. B is C's sister, so F is also B's brother. A is B's son, so A is F's nephew. Because B is a woman, F cannot be B herself, so 'son' is ruled out.",
+      "source": "ai",
+      "archetype": "clat-ug-R08",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-113",
+      "section": "logical",
+      "topic": "Analytical Puzzles",
+      "difficulty": "medium",
+      "question": "Read the information and answer the question.\n\nFive lawyers—P, Q, R, S and T—have different numbers of years of experience. P has more experience than Q but less than R. S has less experience than Q. T has more experience than R.\n\nWho has the third-highest experience?",
+      "options": [
+        "R",
+        "P",
+        "S",
+        "Q"
+      ],
+      "answer": 1,
+      "explanation": "From the clues: T > R > P > Q > S. The third-highest is P.",
+      "source": "ai",
+      "archetype": "clat-ug-R09",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-114",
+      "section": "logical",
+      "topic": "Analytical Puzzles",
+      "difficulty": "medium",
+      "question": "Read the information and answer the question.\n\nA car leaves a court complex heading east and travels 6 km. It turns left and travels 8 km, then turns left again and travels 12 km.\n\nHow far is the car from the court complex, and in which direction?",
+      "options": [
+        "10 km to the north-east",
+        "10 km to the north-west",
+        "6 km to the west",
+        "14 km to the north-west"
+      ],
+      "answer": 1,
+      "explanation": "East 6 km puts it at (6, 0); a left turn faces north: 8 km to (6, 8); another left faces west: 12 km to (−6, 8). Distance = √(36 + 64) = 10 km, and the car is north and west of the start: north-west.",
+      "source": "ai",
+      "archetype": "clat-ug-R08",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-115",
+      "section": "quant",
+      "topic": "Data Interpretation (Caselets & Tables)",
+      "difficulty": "medium",
+      "question": "Read the information and answer the question.\n\nA District Legal Services Authority received 2,400 applications for free legal aid in 2025. 40% of the applications came from women. 75% of the women's applications and 60% of the men's applications were approved.\n\nApproximately what percentage of all approved applications came from women?",
+      "options": [
+        "50%",
+        "43.8%",
+        "45.5%",
+        "40%"
+      ],
+      "answer": 2,
+      "explanation": "Women: 960 applications, 720 approved. Men: 1,440 applications, 864 approved. Total approved = 1,584. Women's share = 720/1,584 ≈ 45.5%.",
+      "source": "ai",
+      "archetype": "clat-ug-Q01",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-116",
+      "section": "quant",
+      "topic": "Data Interpretation (Caselets & Tables)",
+      "difficulty": "medium",
+      "question": "Read the information and answer the question.\n\nThe table shows the number of cases filed and disposed of in four district courts in a year.\n\nCourt | Filed | Disposed\nA | 1,200 | 900\nB | 800 | 720\nC | 1,500 | 1,050\nD | 600 | 570\n\nThe combined disposal rate (cases disposed as a percentage of cases filed) of the four courts is closest to:",
+      "options": [
+        "82.5%",
+        "85%",
+        "79%",
+        "76%"
+      ],
+      "answer": 2,
+      "explanation": "Total disposed = 3,240; total filed = 4,100; 3,240/4,100 ≈ 79.0%. Averaging the four individual rates (75%, 90%, 70%, 95%) gives 82.5%, which is the trap.",
+      "source": "ai",
+      "archetype": "clat-ug-Q02",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-117",
+      "section": "quant",
+      "topic": "Percentages, Ratio & Averages",
+      "difficulty": "medium",
+      "question": "Read the information and answer the question.\n\nIn a law school, the ratio of male to female students is 7 : 5. After 40 more female students are admitted, the ratio becomes 7 : 6.\n\nHow many students were there in the school originally?",
+      "options": [
+        "520",
+        "480",
+        "420",
+        "560"
+      ],
+      "answer": 1,
+      "explanation": "Let the numbers be 7k and 5k. 7k/(5k + 40) = 7/6 gives 42k = 35k + 280, so k = 40. Original total = 12k = 480.",
+      "source": "ai",
+      "archetype": "clat-ug-Q03",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-118",
+      "section": "quant",
+      "topic": "Percentages, Ratio & Averages",
+      "difficulty": "medium",
+      "question": "Read the information and answer the question.\n\nThe average age of the five members of a tribunal is 58 years. One member, aged 65, retires and a new member joins, after which the average age becomes 55 years.\n\nHow old is the new member?",
+      "options": [
+        "47 years",
+        "50 years",
+        "52 years",
+        "55 years"
+      ],
+      "answer": 1,
+      "explanation": "The total age falls by 5 × 3 = 15 years, so the new member is 15 years younger than the retiring one: 65 − 15 = 50.",
+      "source": "ai",
+      "archetype": "clat-ug-Q04",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-119",
+      "section": "quant",
+      "topic": "Profit-Loss, Interest & Mensuration",
+      "difficulty": "medium",
+      "question": "Read the information and answer the question.\n\nA sells a set of law reports to B at a profit of 20%. B sells it to C at a loss of 10%. C pays ₹5,400 for it.\n\nWhat did the set cost A?",
+      "options": [
+        "₹5,400",
+        "₹5,000",
+        "₹5,200",
+        "₹4,860"
+      ],
+      "answer": 1,
+      "explanation": "A's cost × 1.20 × 0.90 = 5,400, so A's cost = 5,400/1.08 = ₹5,000.",
+      "source": "ai",
+      "archetype": "clat-ug-Q06",
+      "verified": false
+    },
+    {
+      "id": "clat-ug-120",
+      "section": "quant",
+      "topic": "Profit-Loss, Interest & Mensuration",
+      "difficulty": "medium",
+      "question": "Read the information and answer the question.\n\nA rectangular courtroom measuring 24 m by 15 m is to be fully carpeted. The carpet comes in rolls 75 cm wide and costs ₹120 per metre of length.\n\nWhat is the cost of carpeting the courtroom?",
+      "options": [
+        "₹48,000",
+        "₹57,600",
+        "₹43,200",
+        "₹54,000"
+      ],
+      "answer": 1,
+      "explanation": "Area = 24 × 15 = 360 m². Length of carpet = 360/0.75 = 480 m. Cost = 480 × 120 = ₹57,600.",
+      "source": "ai",
+      "archetype": "clat-ug-Q07",
+      "verified": false
     }
   ]
 }
