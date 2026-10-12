@@ -1930,7 +1930,12 @@
       "explanation": "Figure 1, Figure 2, Figure 4 are the same flag-and-L figure, only turned (rotated). Figure 3 cannot be obtained by turning; it is the mirror image of the figure (the flag points the other way relative to the long arm), so it is the odd one.",
       "source": "ai",
       "archetype": "jnvst-class-6-M01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Part I rotation odd-one-out: L-with-flag in 90/180/270 turns, fig 3 is the mirror; exact JNVST trap, cleanly drawn"
+      }
     },
     {
       "id": "jnvst-class-6-122",
@@ -1954,7 +1959,12 @@
       "explanation": "In Figure 2, Figure 3, Figure 4 the number of dots equals the number of sides of the shape (triangle 3, square 4, pentagon 5). Figure 1 is a hexagon (6 sides) with only 5 dots, so it is different.",
       "source": "ai",
       "archetype": "jnvst-class-6-M02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Dots vs sides odd-one-out; hexagon has 5 dots. Common Part I counting item but easy for the slot"
+      }
     },
     {
       "id": "jnvst-class-6-123",
@@ -1978,7 +1988,12 @@
       "explanation": "Figure 1, Figure 2, Figure 3 are the same figure turned through 90°, 180° and 270°: in each, if you go clockwise round the square from the black corner, the line meets the second side you reach. In Figure 4 the line is on the second side going anticlockwise, so it is a mirror image, not a turned copy – the odd one.",
       "source": "ai",
       "archetype": "jnvst-class-6-M01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Square with stub + corner triangle, three turns and one mirror (fig 4); faithful Part I item, the mirror needs a careful look"
+      }
     },
     {
       "id": "jnvst-class-6-124",
@@ -2002,7 +2017,12 @@
       "explanation": "In Figure 1, Figure 3, Figure 4 the small inner shape is the same as the big outer shape (circle in circle, square in square, triangle in triangle). In Figure 2 a square is inside a pentagon, so it is different.",
       "source": "ai",
       "archetype": "jnvst-class-6-M02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Inner shape same as outer, pentagon with square is odd. Real Part I property type, very easy"
+      }
     },
     {
       "id": "jnvst-class-6-125",
@@ -2027,7 +2047,12 @@
       "explanation": "Only Figure 2 matches in every detail: the diagonal runs from top-left to bottom-right, the black dot is on the left, the small circle on the right and the short line sticks in from the left side. The others change the diagonal, swap the dot and circle, or move the short line.",
       "source": "ai",
       "archetype": "jnvst-class-6-M03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Part II exact copy: diagonal direction, dot/circle swap and tick position are the distractors, as in JNVST"
+      }
     },
     {
       "id": "jnvst-class-6-126",
@@ -2052,7 +2077,12 @@
       "explanation": "In the problem figure the small square is in the upper right half and the short line is in the lower left half. Only Figure 4 has both in exactly these places; the others move the square down, move the line up, or show the mirror image.",
       "source": "ai",
       "archetype": "jnvst-class-6-M03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Circle with chord, square and dash; distractors move one mark. Real Part II style, differences are easy to spot"
+      }
     },
     {
       "id": "jnvst-class-6-127",
@@ -2077,7 +2107,12 @@
       "explanation": "In the problem figure the lines go from the centre to the top, lower-right and bottom corners, and the dot is near the upper-right corner. Figure 1 is identical. The other figures are its mirror image, the figure turned by one corner, and a figure with one line moved to the lower-left corner.",
       "source": "ai",
       "archetype": "jnvst-class-6-M04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Hexagon composite with a dot; distractors are turned/mirrored copies. Fits M04, design rather plain"
+      }
     },
     {
       "id": "jnvst-class-6-128",
@@ -2102,7 +2137,12 @@
       "explanation": "The problem figure has a dot in the top part, a small circle in the right part and a short line in the left part, with the bottom part empty. Figure 3 is the same. The others are turned by 90°, mirror-reversed (circle and line change sides), or have the dot and circle swapped.",
       "source": "ai",
       "archetype": "jnvst-class-6-M04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "X-in-square with dot, ring and bar; distractors turn or swap marks. Typical JNVST Part II composite"
+      }
     },
     {
       "id": "jnvst-class-6-129",
@@ -2127,7 +2167,12 @@
       "explanation": "The missing top-right quarter must continue the diagonal from the centre to the top-right corner, and the circle drawn round the centre must appear as a curve round the piece's bottom-left corner (the centre). Only Figure 4 has both.",
       "source": "ai",
       "archetype": "jnvst-class-6-M05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Quarter missing from diagonal-and-circle square; correct piece continues \"/\" line and arc about the centre. Faithful Part III"
+      }
     },
     {
       "id": "jnvst-class-6-130",
@@ -2152,7 +2197,12 @@
       "explanation": "In the bottom-left quarter the side of the big diamond runs from the middle of the left side down to the middle of the bottom side, the small central circle shows as a curve at the piece's top-right corner, and the dot sits in the outer (bottom-left) corner, below the slanting line. Only Figure 2 shows all three.",
       "source": "ai",
       "archetype": "jnvst-class-6-M05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Diamond-in-square design with corner dots and arc; missing quarter needs \"\\\" edge, outer dot and arc. Good Part III"
+      }
     },
     {
       "id": "jnvst-class-6-131",
@@ -2177,7 +2227,12 @@
       "explanation": "The cut-out lies where the slanting line (rising to the right), the horizontal line near its top and the right part of the circle all pass. Figure 3 continues all three lines in the right directions; the others are mirror-reversed, miss the curve, or are upside down.",
       "source": "ai",
       "archetype": "jnvst-class-6-M06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Small off-centre cut-out where line, diagonal and circle meet; distractors mirrored/turned. Exactly the JNVST Part III type"
+      }
     },
     {
       "id": "jnvst-class-6-132",
@@ -2202,7 +2257,12 @@
       "explanation": "The missing square contains part of the big diagonal running from bottom-left up to top-right, and the top-right corner of the inner square, which lies exactly on that diagonal: its top side comes in from the left and its right side goes down. Only Figure 1 shows this.",
       "source": "ai",
       "archetype": "jnvst-class-6-M06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Nested squares cut-out at inner corner; correct piece is unique. The design has connectors only at top/bottom, slightly odd look"
+      }
     },
     {
       "id": "jnvst-class-6-133",
@@ -2227,7 +2287,12 @@
       "explanation": "Each step the shape gets one more side (3, 4, 5, so next 6 – a hexagon) and the dot is alternately inside and outside (inside, outside, inside, so next outside). Figure 1 is a hexagon with the dot outside.",
       "source": "ai",
       "archetype": "jnvst-class-6-M07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Sides +1 each step and dot alternates in/out, so hexagon with outside dot. Standard Part IV, easy"
+      }
     },
     {
       "id": "jnvst-class-6-134",
@@ -2252,7 +2317,12 @@
       "explanation": "The arrow turns 45° clockwise each step (up, up-right, right, so next down-right), and the small circle moves one corner anticlockwise (top-left, bottom-left, bottom-right, so next top-right). Figure 3 shows both.",
       "source": "ai",
       "archetype": "jnvst-class-6-M08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Arrow turns 45 deg clockwise and circle moves anticlockwise round the corners. Classic two-rule Part IV with good traps"
+      }
     },
     {
       "id": "jnvst-class-6-135",
@@ -2277,7 +2347,12 @@
       "explanation": "Each step one more part is shaded, starting from the top and going clockwise (1, 2, 3 parts). The next figure has 4 shaded parts: the same three plus the next one clockwise, which is Figure 2.",
       "source": "ai",
       "archetype": "jnvst-class-6-M07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Shaded sectors 1,2,3 of 8 so next is 4 (right half). Common Part IV shading series"
+      }
     },
     {
       "id": "jnvst-class-6-136",
@@ -2302,7 +2377,12 @@
       "explanation": "The whole flag turns 90° clockwise each step: the top of the pole points up, then right, then down, so next it points left, and the flag (which turns with it) now points up – Figure 4. The figure with the pole pointing left and the flag hanging down is a mirror image, not a turn.",
       "source": "ai",
       "archetype": "jnvst-class-6-M08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Flag turns 90 deg clockwise each step; mirror distractor present. Faithful M08 item"
+      }
     },
     {
       "id": "jnvst-class-6-137",
@@ -2327,7 +2407,12 @@
       "explanation": "Figure B is figure A turned 90° clockwise (the arrow goes from pointing up to pointing right and the dot from the left side to the top). Turning C 90° clockwise gives Figure 3: the black square moves from top-left to top-right.",
       "source": "ai",
       "archetype": "jnvst-class-6-M09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "A to B is a 90 deg clockwise turn (arrow and dot); applied to the L with square. Real Part V rotation analogy"
+      }
     },
     {
       "id": "jnvst-class-6-138",
@@ -2352,7 +2437,12 @@
       "explanation": "From A to B the outer and inner shapes change places (circle with a square inside becomes a square with a circle inside). C is a pentagon with a triangle inside, so the answer is a triangle with a pentagon inside – Figure 4.",
       "source": "ai",
       "archetype": "jnvst-class-6-M10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Inner/outer shapes swap; triangle outside pentagon. Common Part V analogy, easy"
+      }
     },
     {
       "id": "jnvst-class-6-139",
@@ -2377,7 +2467,12 @@
       "explanation": "From A to B every shaded part becomes white and every white part becomes shaded. In C only the top-left quarter is shaded, so in the answer the other three quarters (top-right, bottom-right, bottom-left) are shaded – Figure 1.",
       "source": "ai",
       "archetype": "jnvst-class-6-M10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Shading reversed (black and white swap); C top-left black gives fig 1. Good Part V item with a rotated distractor"
+      }
     },
     {
       "id": "jnvst-class-6-140",
@@ -2402,31 +2497,12 @@
       "explanation": "Figure B is the mirror image of A in a vertical mirror (left and right are exchanged, top and bottom stay). The mirror image of C keeps the flag at the top but makes it point left – Figure 2.",
       "source": "ai",
       "archetype": "jnvst-class-6-M09",
-      "verified": false
-    },
-    {
-      "id": "jnvst-class-6-141",
-      "section": "mental-ability",
-      "topic": "Geometrical Figure Completion",
-      "difficulty": "easy",
-      "question": "Select the answer figure whose pieces can be joined together to make a complete square.",
-      "options": [
-        "Figure 1",
-        "Figure 2",
-        "Figure 3",
-        "Figure 4"
-      ],
-      "optionFigures": [
-        "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 120 120\" width=\"120\" height=\"120\"><rect width=\"120\" height=\"120\" fill=\"#fff\"/><rect x=\"1\" y=\"1\" width=\"118\" height=\"118\" fill=\"none\" stroke=\"#aaa\" stroke-width=\"1\"/><g fill=\"none\" stroke=\"#000\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"10,18 62,18 10,44\"/><polygon points=\"110,72 110,98 58,98\"/></g></svg>",
-        "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 120 120\" width=\"120\" height=\"120\"><rect width=\"120\" height=\"120\" fill=\"#fff\"/><rect x=\"1\" y=\"1\" width=\"118\" height=\"118\" fill=\"none\" stroke=\"#aaa\" stroke-width=\"1\"/><g fill=\"none\" stroke=\"#000\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"12,14 57,14 12,59\"/><polygon points=\"108,60 108,105 63,105\"/></g></svg>",
-        "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 120 120\" width=\"120\" height=\"120\"><rect width=\"120\" height=\"120\" fill=\"#fff\"/><rect x=\"1\" y=\"1\" width=\"118\" height=\"118\" fill=\"none\" stroke=\"#aaa\" stroke-width=\"1\"/><g fill=\"none\" stroke=\"#000\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"12,14 57,14 12,59\"/><polygon points=\"108,76 108,104 80,104\"/></g></svg>",
-        "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 120 120\" width=\"120\" height=\"120\"><rect width=\"120\" height=\"120\" fill=\"#fff\"/><rect x=\"1\" y=\"1\" width=\"118\" height=\"118\" fill=\"none\" stroke=\"#aaa\" stroke-width=\"1\"/><g fill=\"none\" stroke=\"#000\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"12,14 57,14 12,59\"/><polygon points=\"62,100 108,100 85,62\"/></g></svg>"
-      ],
-      "answer": 1,
-      "explanation": "Two equal right-angled triangles whose two short sides are equal fit together along their long sides to make a square. Only Figure 2 has two such equal triangles; the others give a rectangle or do not fit at all.",
-      "source": "ai",
-      "archetype": "jnvst-class-6-M11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "A to B is a left-right mirror; flag with base mirrored to point left. Distractors are the half turn and quarter turns, as in JNVST"
+      }
     },
     {
       "id": "jnvst-class-6-142",
@@ -2450,7 +2526,12 @@
       "explanation": "In Figure 1 the two equal right triangles join along their slanting sides to make a rectangle exactly as big as the given rectangle (twice as long as it is wide); two such rectangles side by side make a square. In the other figures the triangles are too small, or the rectangle is too thin or too short, so no square can be made.",
       "source": "ai",
       "archetype": "jnvst-class-6-M11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "60x30 rectangle plus two 30x60 right triangles makes a 60-square; distractors are wrong sizes. Good Part VI"
+      }
     },
     {
       "id": "jnvst-class-6-143",
@@ -2475,7 +2556,12 @@
       "explanation": "The gap has a straight top and right side, a short flat bottom on the right and a slanting edge on the lower left. Figure 4 has exactly this shape and size; the others are its mirror image, a plain rectangle, or too short.",
       "source": "ai",
       "archetype": "jnvst-class-6-M12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Square with notched corner missing; correct piece matches cut side, distractors mirrored/rectangle/short. Faithful M12"
+      }
     },
     {
       "id": "jnvst-class-6-144",
@@ -2499,7 +2585,12 @@
       "explanation": "Figure 3: the two small right triangles have their long sides equal to the short sides of the big triangle; together they make a second triangle equal to the big one, and the two big triangles make a square. Two small squares cannot fill the slanting half, and the other small triangles are too small or have wrong angles.",
       "source": "ai",
       "archetype": "jnvst-class-6-M11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Big right triangle plus two half-size right triangles; the decoy of two small squares has the right area but cannot fit. Good hard Part VI"
+      }
     },
     {
       "id": "jnvst-class-6-145",
@@ -2524,32 +2615,12 @@
       "explanation": "In a vertical mirror left and right are exchanged but top and bottom stay the same: the black triangle moves to the top right and points left, the bent line goes to the top left, the circle to the bottom left. This is Figure 4.",
       "source": "ai",
       "archetype": "jnvst-class-6-M13",
-      "verified": false
-    },
-    {
-      "id": "jnvst-class-6-146",
-      "section": "mental-ability",
-      "topic": "Mirror Imaging",
-      "difficulty": "medium",
-      "question": "Select the correct mirror image of the problem figure when the mirror is placed along the dotted line MN.",
-      "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 180 70\" width=\"180\" height=\"70\"><rect width=\"180\" height=\"70\" fill=\"#fff\"/><g fill=\"none\" stroke=\"#000\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"36.3\" y=\"45\" font-size=\"32\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">P</text><text x=\"68.8\" y=\"45\" font-size=\"32\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">R</text><text x=\"101.3\" y=\"45\" font-size=\"32\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">4</text><text x=\"133.8\" y=\"45\" font-size=\"32\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">J</text><line x1=\"160\" y1=\"6\" x2=\"160\" y2=\"64\" stroke-dasharray=\"5 4\" stroke-width=\"1.5\"/><text x=\"170\" y=\"16\" font-size=\"11\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">M</text><text x=\"170\" y=\"66\" font-size=\"11\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">N</text></g></svg>",
-      "options": [
-        "Figure 1",
-        "Figure 2",
-        "Figure 3",
-        "Figure 4"
-      ],
-      "optionFigures": [
-        "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 150 70\" width=\"150\" height=\"70\"><rect width=\"150\" height=\"70\" fill=\"#fff\"/><rect x=\"1\" y=\"1\" width=\"148\" height=\"68\" fill=\"none\" stroke=\"#aaa\" stroke-width=\"1\"/><g fill=\"none\" stroke=\"#000\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"matrix(-1 0 0 1 52.5 0)\"><text x=\"26.3\" y=\"45\" font-size=\"32\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">P</text></g><g transform=\"matrix(-1 0 0 1 117.5 0)\"><text x=\"58.8\" y=\"45\" font-size=\"32\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">R</text></g><g transform=\"matrix(-1 0 0 1 182.5 0)\"><text x=\"91.3\" y=\"45\" font-size=\"32\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">4</text></g><g transform=\"matrix(-1 0 0 1 247.5 0)\"><text x=\"123.8\" y=\"45\" font-size=\"32\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">J</text></g></g></svg>",
-        "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 150 70\" width=\"150\" height=\"70\"><rect width=\"150\" height=\"70\" fill=\"#fff\"/><rect x=\"1\" y=\"1\" width=\"148\" height=\"68\" fill=\"none\" stroke=\"#aaa\" stroke-width=\"1\"/><g fill=\"none\" stroke=\"#000\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"26.3\" y=\"45\" font-size=\"32\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">J</text><text x=\"58.8\" y=\"45\" font-size=\"32\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">4</text><text x=\"91.3\" y=\"45\" font-size=\"32\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">R</text><text x=\"123.8\" y=\"45\" font-size=\"32\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">P</text></g></svg>",
-        "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 150 70\" width=\"150\" height=\"70\"><rect width=\"150\" height=\"70\" fill=\"#fff\"/><rect x=\"1\" y=\"1\" width=\"148\" height=\"68\" fill=\"none\" stroke=\"#aaa\" stroke-width=\"1\"/><g fill=\"none\" stroke=\"#000\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"matrix(-1 0 0 1 52.5 0)\"><text x=\"26.3\" y=\"45\" font-size=\"32\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">J</text></g><g transform=\"matrix(-1 0 0 1 117.5 0)\"><text x=\"58.8\" y=\"45\" font-size=\"32\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">4</text></g><g transform=\"matrix(-1 0 0 1 182.5 0)\"><text x=\"91.3\" y=\"45\" font-size=\"32\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">R</text></g><g transform=\"matrix(-1 0 0 1 247.5 0)\"><text x=\"123.8\" y=\"45\" font-size=\"32\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">P</text></g></g></svg>",
-        "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 150 70\" width=\"150\" height=\"70\"><rect width=\"150\" height=\"70\" fill=\"#fff\"/><rect x=\"1\" y=\"1\" width=\"148\" height=\"68\" fill=\"none\" stroke=\"#aaa\" stroke-width=\"1\"/><g fill=\"none\" stroke=\"#000\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"matrix(1 0 0 -1 0 68)\"><text x=\"26.3\" y=\"45\" font-size=\"32\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">P</text></g><g transform=\"matrix(1 0 0 -1 0 68)\"><text x=\"58.8\" y=\"45\" font-size=\"32\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">R</text></g><g transform=\"matrix(1 0 0 -1 0 68)\"><text x=\"91.3\" y=\"45\" font-size=\"32\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">4</text></g><g transform=\"matrix(1 0 0 -1 0 68)\"><text x=\"123.8\" y=\"45\" font-size=\"32\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">J</text></g></g></svg>"
-      ],
-      "answer": 2,
-      "explanation": "In a vertical mirror the order of the characters is reversed (J 4 R P) and every character is also turned left-to-right. Figure 3 shows both changes; the others reverse only the letters, only the order, or turn them upside down.",
-      "source": "ai",
-      "archetype": "jnvst-class-6-M13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Vertical mirror of a four-element figure; distractors are a half turn and a water image. Exact Part VII"
+      }
     },
     {
       "id": "jnvst-class-6-147",
@@ -2574,32 +2645,12 @@
       "explanation": "In a water image top and bottom are exchanged but left and right stay the same: the triangle stays on the left with its right angle now at the top-left, and the circle, dot and short line move to the lower part. This is Figure 2.",
       "source": "ai",
       "archetype": "jnvst-class-6-M14",
-      "verified": false
-    },
-    {
-      "id": "jnvst-class-6-148",
-      "section": "mental-ability",
-      "topic": "Mirror Imaging",
-      "difficulty": "medium",
-      "question": "Select the correct water image of the problem figure (the water surface is along the dotted line MN).",
-      "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 150 100\" width=\"150\" height=\"100\"><rect width=\"150\" height=\"100\" fill=\"#fff\"/><g fill=\"none\" stroke=\"#000\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"26.3\" y=\"45\" font-size=\"32\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">F</text><text x=\"58.8\" y=\"45\" font-size=\"32\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">7</text><text x=\"91.3\" y=\"45\" font-size=\"32\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">G</text><text x=\"123.8\" y=\"45\" font-size=\"32\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">2</text><line x1=\"6\" y1=\"66\" x2=\"144\" y2=\"66\" stroke-dasharray=\"5 4\" stroke-width=\"1.5\"/><text x=\"14\" y=\"84\" font-size=\"11\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">M</text><text x=\"136\" y=\"84\" font-size=\"11\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">N</text></g></svg>",
-      "options": [
-        "Figure 1",
-        "Figure 2",
-        "Figure 3",
-        "Figure 4"
-      ],
-      "optionFigures": [
-        "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 150 70\" width=\"150\" height=\"70\"><rect width=\"150\" height=\"70\" fill=\"#fff\"/><rect x=\"1\" y=\"1\" width=\"148\" height=\"68\" fill=\"none\" stroke=\"#aaa\" stroke-width=\"1\"/><g fill=\"none\" stroke=\"#000\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"matrix(1 0 0 -1 0 68)\"><text x=\"26.3\" y=\"45\" font-size=\"32\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">F</text></g><g transform=\"matrix(1 0 0 -1 0 68)\"><text x=\"58.8\" y=\"45\" font-size=\"32\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">7</text></g><g transform=\"matrix(1 0 0 -1 0 68)\"><text x=\"91.3\" y=\"45\" font-size=\"32\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">G</text></g><g transform=\"matrix(1 0 0 -1 0 68)\"><text x=\"123.8\" y=\"45\" font-size=\"32\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">2</text></g></g></svg>",
-        "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 150 70\" width=\"150\" height=\"70\"><rect width=\"150\" height=\"70\" fill=\"#fff\"/><rect x=\"1\" y=\"1\" width=\"148\" height=\"68\" fill=\"none\" stroke=\"#aaa\" stroke-width=\"1\"/><g fill=\"none\" stroke=\"#000\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"matrix(-1 0 0 1 52.5 0)\"><text x=\"26.3\" y=\"45\" font-size=\"32\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">2</text></g><g transform=\"matrix(-1 0 0 1 117.5 0)\"><text x=\"58.8\" y=\"45\" font-size=\"32\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">G</text></g><g transform=\"matrix(-1 0 0 1 182.5 0)\"><text x=\"91.3\" y=\"45\" font-size=\"32\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">7</text></g><g transform=\"matrix(-1 0 0 1 247.5 0)\"><text x=\"123.8\" y=\"45\" font-size=\"32\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">F</text></g></g></svg>",
-        "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 150 70\" width=\"150\" height=\"70\"><rect width=\"150\" height=\"70\" fill=\"#fff\"/><rect x=\"1\" y=\"1\" width=\"148\" height=\"68\" fill=\"none\" stroke=\"#aaa\" stroke-width=\"1\"/><g fill=\"none\" stroke=\"#000\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"rotate(180 26.3 34)\"><text x=\"26.3\" y=\"45\" font-size=\"32\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">2</text></g><g transform=\"rotate(180 58.8 34)\"><text x=\"58.8\" y=\"45\" font-size=\"32\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">G</text></g><g transform=\"rotate(180 91.3 34)\"><text x=\"91.3\" y=\"45\" font-size=\"32\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">7</text></g><g transform=\"rotate(180 123.8 34)\"><text x=\"123.8\" y=\"45\" font-size=\"32\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">F</text></g></g></svg>",
-        "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 150 70\" width=\"150\" height=\"70\"><rect width=\"150\" height=\"70\" fill=\"#fff\"/><rect x=\"1\" y=\"1\" width=\"148\" height=\"68\" fill=\"none\" stroke=\"#aaa\" stroke-width=\"1\"/><g fill=\"none\" stroke=\"#000\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"matrix(1 0 0 -1 0 68)\"><text x=\"26.3\" y=\"45\" font-size=\"32\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">2</text></g><g transform=\"matrix(1 0 0 -1 0 68)\"><text x=\"58.8\" y=\"45\" font-size=\"32\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">G</text></g><g transform=\"matrix(1 0 0 -1 0 68)\"><text x=\"91.3\" y=\"45\" font-size=\"32\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">7</text></g><g transform=\"matrix(1 0 0 -1 0 68)\"><text x=\"123.8\" y=\"45\" font-size=\"32\" font-family=\"Arial,Helvetica,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000\" stroke=\"none\">F</text></g></g></svg>"
-      ],
-      "answer": 0,
-      "explanation": "In a water image the order of the characters stays the same (F 7 G 2) and each character is turned upside down (top and bottom exchanged, left and right unchanged). Figure 1 shows this. The others show the vertical-mirror image, the figure rotated half a turn, or the reversed order.",
-      "source": "ai",
-      "archetype": "jnvst-class-6-M14",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Water image of a triangle, dot, ring and dash; distractors are the mirror and the half turn. Faithful M14"
+      }
     },
     {
       "id": "jnvst-class-6-149",
@@ -2624,7 +2675,12 @@
       "explanation": "The left half was folded onto the right half, so the hole goes through two layers. On unfolding, a second hole appears at the mirror position on the left half, at the same height: Figure 1.",
       "source": "ai",
       "archetype": "jnvst-class-6-M15",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "One vertical fold, one hole; easy JNVST Part VIII item, distractors from wrong mirror axis"
+      }
     },
     {
       "id": "jnvst-class-6-150",
@@ -2649,7 +2705,12 @@
       "explanation": "The paper is folded twice (top onto bottom, then left onto right), so one punch makes 4 holes. Unfolding the second fold adds a hole mirrored across the vertical line; unfolding the first adds mirror holes across the horizontal line, near the top edge (as far from the middle line as the bottom holes). This is Figure 2.",
       "source": "ai",
       "archetype": "jnvst-class-6-M15",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Two folds to a quarter, hole near the fold corner, so 4 holes at mirror positions. Real Part VIII, with translation distractor"
+      }
     },
     {
       "id": "jnvst-class-6-151",
@@ -2674,7 +2735,12 @@
       "explanation": "The fold is along the diagonal from top-right to bottom-left. The second hole is the mirror image of the punched hole across this diagonal: the hole near the right side, lower down, is reflected to a point near the top, further left. Figure 4 is correct.",
       "source": "ai",
       "archetype": "jnvst-class-6-M16",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Diagonal fold, hole reflected across the diagonal (46,29); distractors translated. Good M16 item"
+      }
     },
     {
       "id": "jnvst-class-6-152",
@@ -2699,7 +2765,12 @@
       "explanation": "The right half was folded onto the left half, so each hole is repeated at its mirror position across the middle line: the circle near the outer edge stays near the outer (right) edge, and the square near the fold stays near the fold, each at the same height. Figure 3 is correct.",
       "source": "ai",
       "archetype": "jnvst-class-6-M16",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Single fold with circle and square holes; correct mirror positions, distractors translated/swapped. Faithful M16"
+      }
     },
     {
       "id": "jnvst-class-6-153",
@@ -2724,7 +2795,12 @@
       "explanation": "The flat side of the half-circle is exactly as long as a side of the square, so the half-circle sits along one whole side of the square. Figure 3 shows this (turned on its side). The others use a taller rectangle, a smaller half-circle, or a full circle.",
       "source": "ai",
       "archetype": "jnvst-class-6-M18",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Square plus semicircle joined (shown turned); distractors have wrong proportions. M18 type, easy"
+      }
     },
     {
       "id": "jnvst-class-6-154",
@@ -2749,7 +2825,12 @@
       "explanation": "The big triangle has sides twice as long as the small triangles, so it is made of 4 small triangles (3 pointing up and 1 upside down in the middle). Figure 1 has four triangles of the right size; the others have only three, are too small, or include a square.",
       "source": "ai",
       "archetype": "jnvst-class-6-M17",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Big triangle from four triangles of half side; distractors have 3 pieces, smaller pieces or a square. Real Part IX"
+      }
     },
     {
       "id": "jnvst-class-6-155",
@@ -2774,7 +2855,12 @@
       "explanation": "The problem figure is a square with a triangle on top whose base equals the side of the square. Figure 2 has a square and such a triangle (shown turned). The others have a triangle that is too narrow, a flat rectangle instead of a square, or a half-circle.",
       "source": "ai",
       "archetype": "jnvst-class-6-M17",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "House shape from a 50-square plus a 50-base triangle (turned); distractors wrong size or shape. Common Part IX"
+      }
     },
     {
       "id": "jnvst-class-6-156",
@@ -2799,7 +2885,12 @@
       "explanation": "A regular hexagon splits into 6 equal triangles: one half is a trapezium (3 triangles) and the other half is 3 more triangles. Figure 4 has a trapezium and three triangles of the same size; the others have one triangle too few, two rectangles, or squares.",
       "source": "ai",
       "archetype": "jnvst-class-6-M17",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Hexagon from a half-hexagon trapezoid plus three equilateral triangles; distractors differ in count or shape. Good Part IX"
+      }
     },
     {
       "id": "jnvst-class-6-157",
@@ -2824,7 +2915,12 @@
       "explanation": "The problem figure is a right-angled triangle with the right angle at the bottom-left, a tall upright side and a shorter base. In Figure 2 it is formed by the long vertical line, the bottom side and the slanting line from the centre-line crossing down to the bottom. The other figures contain only its mirror image, a bigger triangle, or a triangle lying the other way.",
       "source": "ai",
       "archetype": "jnvst-class-6-M19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Right triangle hidden in fig 2; others hold the mirror, a turned or a bigger copy. Exactly the JNVST Part X trap set"
+      }
     },
     {
       "id": "jnvst-class-6-158",
@@ -2849,7 +2945,12 @@
       "explanation": "The problem figure is a parallelogram leaning to the right. In Figure 4 it is formed between the two horizontal lines by the first two slanting lines. In the other figures the slanting lines lean the other way, are too far apart, or are less steep.",
       "source": "ai",
       "archetype": "jnvst-class-6-M19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Parallelogram hidden in fig 4; distractors mirror-leaning, too wide or too slanted. Good Part X, needs careful checking"
+      }
     },
     {
       "id": "jnvst-class-6-159",
@@ -2874,32 +2975,12 @@
       "explanation": "Figure 3 is hidden: in the lower half of the problem figure the horizontal middle line, the bottom side, the left side and the diagonal from the centre to the bottom-right corner form exactly this trapezium (it also appears in the upper half, using the short slanting line). The trapezium slanting the other way, the square with a \"/\" diagonal and the right triangle with its right angle at the top-left cannot be found in the same size and direction.",
       "source": "ai",
       "archetype": "jnvst-class-6-M20",
-      "verified": false
-    },
-    {
-      "id": "jnvst-class-6-160",
-      "section": "mental-ability",
-      "topic": "Embedded Figure",
-      "difficulty": "medium",
-      "question": "Which answer figure is hidden in the problem figure (same size and same direction)?",
-      "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 120 120\" width=\"120\" height=\"120\"><rect width=\"120\" height=\"120\" fill=\"#fff\"/><rect x=\"1\" y=\"1\" width=\"118\" height=\"118\" fill=\"none\" stroke=\"#aaa\" stroke-width=\"1\"/><g fill=\"none\" stroke=\"#000\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"60\" y1=\"15\" x2=\"105\" y2=\"100\"/><line x1=\"105\" y1=\"100\" x2=\"15\" y2=\"100\"/><line x1=\"15\" y1=\"100\" x2=\"60\" y2=\"15\"/><line x1=\"37.5\" y1=\"57.5\" x2=\"82.5\" y2=\"57.5\"/><line x1=\"60\" y1=\"15\" x2=\"60\" y2=\"100\"/><line x1=\"37.5\" y1=\"57.5\" x2=\"60\" y2=\"100\"/></g></svg>",
-      "options": [
-        "Figure 1",
-        "Figure 2",
-        "Figure 3",
-        "Figure 4"
-      ],
-      "optionFigures": [
-        "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 120 120\" width=\"120\" height=\"120\"><rect width=\"120\" height=\"120\" fill=\"#fff\"/><rect x=\"1\" y=\"1\" width=\"118\" height=\"118\" fill=\"none\" stroke=\"#aaa\" stroke-width=\"1\"/><g fill=\"none\" stroke=\"#000\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(15 39)\"><line x1=\"22.5\" y1=\"0\" x2=\"67.5\" y2=\"0\"/><line x1=\"67.5\" y1=\"0\" x2=\"90\" y2=\"42.5\"/><line x1=\"90\" y1=\"42.5\" x2=\"0\" y2=\"42.5\"/><line x1=\"0\" y1=\"42.5\" x2=\"22.5\" y2=\"0\"/></g></g></svg>",
-        "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 120 120\" width=\"120\" height=\"120\"><rect width=\"120\" height=\"120\" fill=\"#fff\"/><rect x=\"1\" y=\"1\" width=\"118\" height=\"118\" fill=\"none\" stroke=\"#aaa\" stroke-width=\"1\"/><g fill=\"none\" stroke=\"#000\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(37.5 39)\"><line x1=\"0\" y1=\"0\" x2=\"45\" y2=\"0\"/><line x1=\"45\" y1=\"0\" x2=\"22.5\" y2=\"42.5\"/><line x1=\"22.5\" y1=\"42.5\" x2=\"0\" y2=\"0\"/></g></g></svg>",
-        "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 120 120\" width=\"120\" height=\"120\"><rect width=\"120\" height=\"120\" fill=\"#fff\"/><rect x=\"1\" y=\"1\" width=\"118\" height=\"118\" fill=\"none\" stroke=\"#aaa\" stroke-width=\"1\"/><g fill=\"none\" stroke=\"#000\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(37.5 39)\"><line x1=\"22.5\" y1=\"0\" x2=\"45\" y2=\"0\"/><line x1=\"45\" y1=\"0\" x2=\"22.5\" y2=\"42.5\"/><line x1=\"22.5\" y1=\"42.5\" x2=\"0\" y2=\"42.5\"/><line x1=\"0\" y1=\"42.5\" x2=\"22.5\" y2=\"0\"/></g></g></svg>",
-        "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 120 120\" width=\"120\" height=\"120\"><rect width=\"120\" height=\"120\" fill=\"#fff\"/><rect x=\"1\" y=\"1\" width=\"118\" height=\"118\" fill=\"none\" stroke=\"#aaa\" stroke-width=\"1\"/><g fill=\"none\" stroke=\"#000\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(49 39)\"><line x1=\"0\" y1=\"0\" x2=\"22.5\" y2=\"0\"/><line x1=\"22.5\" y1=\"0\" x2=\"0\" y2=\"42.5\"/><line x1=\"0\" y1=\"42.5\" x2=\"0\" y2=\"0\"/></g></g></svg>"
-      ],
-      "answer": 0,
-      "explanation": "Figure 1 is hidden: the bottom part of the big triangle, below the horizontal line joining the middles of its two sides, is exactly this trapezium. The upside-down triangle, the parallelogram and the right triangle with its right angle at the top-left are not formed by the lines of the problem figure.",
-      "source": "ai",
-      "archetype": "jnvst-class-6-M20",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Reverse embedded: trapezoid under the \"\\\" line in the grid; the others need \"/\" lines. Valid M20, the less common form"
+      }
     }
   ]
 }
