@@ -3303,6 +3303,708 @@
         "by": "independent-review",
         "note": "Wh-question indirect speech with word-order trap; CHSL"
       }
+    },
+    {
+      "id": "ssc-chsl-121",
+      "section": "reasoning",
+      "topic": "Blood Relations",
+      "difficulty": "medium",
+      "question": "In a certain code language, 'A # B' means 'A is the sister of B', 'A $ B' means 'A is the father of B', 'A % B' means 'A is the wife of B' and 'A & B' means 'A is the son of B'.\nIf M % N $ P # Q, how is M related to Q?",
+      "options": [
+        "Aunt",
+        "Mother",
+        "Sister",
+        "Grandmother"
+      ],
+      "answer": 1,
+      "explanation": "M is the wife of N, N is the father of P, and P is the sister of Q. So Q is also N's child and M is Q's mother.",
+      "source": "ai",
+      "archetype": "ssc-chsl-R13",
+      "verified": false
+    },
+    {
+      "id": "ssc-chsl-122",
+      "section": "reasoning",
+      "topic": "Syllogism",
+      "difficulty": "medium",
+      "question": "Statements:\nAll pens are markers.\nSome markers are erasers.\nConclusions:\nI. Some pens are erasers.\nII. Some erasers being pens is a possibility.\nWhich conclusion(s) follow(s)?",
+      "options": [
+        "Only conclusion II follows",
+        "Both I and II follow",
+        "Neither I nor II follows",
+        "Only conclusion I follows"
+      ],
+      "answer": 0,
+      "explanation": "The erasers that are markers need not include any pen, so I does not follow definitely; but such an overlap is possible, so II follows.",
+      "source": "ai",
+      "archetype": "ssc-chsl-R15",
+      "verified": false
+    },
+    {
+      "id": "ssc-chsl-123",
+      "section": "reasoning",
+      "topic": "Calendar & Clock",
+      "difficulty": "medium",
+      "question": "If 26 January 2026 is a Monday, what day of the week will 2 October 2026 be?",
+      "options": [
+        "Thursday",
+        "Saturday",
+        "Friday",
+        "Wednesday"
+      ],
+      "answer": 2,
+      "explanation": "Days after 26 Jan: 5 (Jan) + 28 + 31 + 30 + 31 + 30 + 31 + 31 + 30 + 2 = 249 = 35 weeks + 4 days. Monday + 4 = Friday.",
+      "source": "ai",
+      "archetype": "ssc-chsl-R22",
+      "verified": false
+    },
+    {
+      "id": "ssc-chsl-124",
+      "section": "reasoning",
+      "topic": "Venn Diagram",
+      "difficulty": "easy",
+      "question": "In a survey of students: 12 like only cricket, 15 like only football, 10 like only hockey, 8 like cricket and football but not hockey, 6 like football and hockey but not cricket, 5 like cricket and hockey but not football, and 4 like all three games. How many students like exactly two of the three games?",
+      "options": [
+        "23",
+        "19",
+        "15",
+        "27"
+      ],
+      "answer": 1,
+      "explanation": "Exactly two = 8 + 6 + 5 = 19. (Adding the 4 who like all three gives the trap 23.)",
+      "source": "ai",
+      "archetype": "ssc-chsl-R24",
+      "verified": false
+    },
+    {
+      "id": "ssc-chsl-125",
+      "section": "reasoning",
+      "topic": "Missing Number",
+      "difficulty": "hard",
+      "question": "Select the number that will replace the question mark (?) in the following table. The same rule is followed in every row.\nRow 1: 5, 3, 34\nRow 2: 6, 2, 40\nRow 3: 4, 7, ?",
+      "options": [
+        "121",
+        "56",
+        "65",
+        "28"
+      ],
+      "answer": 2,
+      "explanation": "Third number = (first)² + (second)²: 25 + 9 = 34, 36 + 4 = 40, so 16 + 49 = 65.",
+      "source": "ai",
+      "archetype": "ssc-chsl-R20",
+      "verified": false
+    },
+    {
+      "id": "ssc-chsl-126",
+      "section": "reasoning",
+      "topic": "Order & Ranking",
+      "difficulty": "easy",
+      "question": "Among five friends P, Q, R, S and T, Q is taller than R but shorter than T. P is taller than T but shorter than S. Who is the third tallest?",
+      "options": [
+        "P",
+        "Q",
+        "R",
+        "T"
+      ],
+      "answer": 3,
+      "explanation": "Order from tallest: S > P > T > Q > R. The third tallest is T.",
+      "source": "ai",
+      "archetype": "ssc-chsl-R21",
+      "verified": false
+    },
+    {
+      "id": "ssc-chsl-127",
+      "section": "reasoning",
+      "topic": "Mathematical Operations",
+      "difficulty": "medium",
+      "question": "Which two mathematical signs should be interchanged to make the given equation correct?\n56 ÷ 8 + 6 × 3 − 4 = 1",
+      "options": [
+        "÷ and ×",
+        "+ and −",
+        "× and −",
+        "÷ and +"
+      ],
+      "answer": 2,
+      "explanation": "Swapping × and −: 56 ÷ 8 + 6 − 3 × 4 = 7 + 6 − 12 = 1.",
+      "source": "ai",
+      "archetype": "ssc-chsl-R17",
+      "verified": false
+    },
+    {
+      "id": "ssc-chsl-128",
+      "section": "reasoning",
+      "topic": "Coding-Decoding",
+      "difficulty": "medium",
+      "question": "In a certain code language, 'BAT' is coded as 58 and 'DOG' is coded as 55. How will 'PEN' be coded in that language?",
+      "options": [
+        "35",
+        "44",
+        "48",
+        "46"
+      ],
+      "answer": 3,
+      "explanation": "Each letter takes its reverse alphabet position (A = 26 … Z = 1): BAT = 25 + 26 + 7 = 58, DOG = 23 + 12 + 20 = 55, PEN = 11 + 22 + 13 = 46. Forward positions give the trap 35.",
+      "source": "ai",
+      "archetype": "ssc-chsl-R10",
+      "verified": false
+    },
+    {
+      "id": "ssc-chsl-129",
+      "section": "gk",
+      "topic": "History",
+      "difficulty": "medium",
+      "question": "The 'Iqta' system was institutionalised in the Delhi Sultanate by which ruler?",
+      "options": [
+        "Qutb-ud-din Aibak",
+        "Balban",
+        "Alauddin Khalji",
+        "Iltutmish"
+      ],
+      "answer": 3,
+      "explanation": "Iltutmish organised the iqta system, assigning revenue of territories to officers (iqtadars) in place of salary.",
+      "source": "ai",
+      "archetype": "ssc-chsl-G01",
+      "verified": false
+    },
+    {
+      "id": "ssc-chsl-130",
+      "section": "gk",
+      "topic": "History",
+      "difficulty": "medium",
+      "question": "The Telugu work 'Amuktamalyada' was written by which Vijayanagara ruler?",
+      "options": [
+        "Krishnadevaraya",
+        "Harihara I",
+        "Bukka I",
+        "Achyuta Deva Raya"
+      ],
+      "answer": 0,
+      "explanation": "Krishnadevaraya of the Tuluva dynasty wrote Amuktamalyada; Telugu literature flourished at his court with the Ashtadiggajas.",
+      "source": "ai",
+      "archetype": "ssc-chsl-G01",
+      "verified": false
+    },
+    {
+      "id": "ssc-chsl-131",
+      "section": "gk",
+      "topic": "History",
+      "difficulty": "medium",
+      "question": "Who founded the 'Satyashodhak Samaj' in 1873?",
+      "options": [
+        "M. G. Ranade",
+        "Jyotirao Phule",
+        "B. R. Ambedkar",
+        "Gopal Hari Deshmukh"
+      ],
+      "answer": 1,
+      "explanation": "Jyotirao Phule founded the Satyashodhak Samaj in Pune in 1873 to fight caste discrimination.",
+      "source": "ai",
+      "archetype": "ssc-chsl-G02",
+      "verified": false
+    },
+    {
+      "id": "ssc-chsl-132",
+      "section": "gk",
+      "topic": "History",
+      "difficulty": "medium",
+      "question": "The Indian Councils Act of 1909 is popularly known as the:",
+      "options": [
+        "Montagu–Chelmsford Reforms",
+        "Pitt's India Act",
+        "Morley–Minto Reforms",
+        "Charter Act"
+      ],
+      "answer": 2,
+      "explanation": "The 1909 Act, named after Secretary of State John Morley and Viceroy Lord Minto, introduced separate electorates for Muslims.",
+      "source": "ai",
+      "archetype": "ssc-chsl-G02",
+      "verified": false
+    },
+    {
+      "id": "ssc-chsl-133",
+      "section": "gk",
+      "topic": "Polity",
+      "difficulty": "medium",
+      "question": "Which Article of the Constitution of India provides for the constitution of the Finance Commission?",
+      "options": [
+        "Article 275",
+        "Article 266",
+        "Article 324",
+        "Article 280"
+      ],
+      "answer": 3,
+      "explanation": "Article 280 provides for a Finance Commission every five years. Article 275 is grants-in-aid and 266 the Consolidated Fund.",
+      "source": "ai",
+      "archetype": "ssc-chsl-G03",
+      "verified": false
+    },
+    {
+      "id": "ssc-chsl-134",
+      "section": "gk",
+      "topic": "Polity",
+      "difficulty": "medium",
+      "question": "The idea of Fundamental Duties in the Constitution of India was borrowed from the Constitution of which country?",
+      "options": [
+        "USSR (former)",
+        "USA",
+        "Ireland",
+        "Canada"
+      ],
+      "answer": 0,
+      "explanation": "Fundamental Duties (Part IV-A) were inspired by the Constitution of the former USSR. DPSPs come from Ireland and judicial review from the USA.",
+      "source": "ai",
+      "archetype": "ssc-chsl-G05",
+      "verified": false
+    },
+    {
+      "id": "ssc-chsl-135",
+      "section": "gk",
+      "topic": "Polity",
+      "difficulty": "medium",
+      "question": "Whose decision is final on whether a Bill is a Money Bill?",
+      "options": [
+        "The President",
+        "The Speaker of the Lok Sabha",
+        "The Union Finance Minister",
+        "The Chairman of the Rajya Sabha"
+      ],
+      "answer": 1,
+      "explanation": "Under Article 110(3) the decision of the Speaker of the Lok Sabha on whether a Bill is a Money Bill is final.",
+      "source": "ai",
+      "archetype": "ssc-chsl-G05",
+      "verified": false
+    },
+    {
+      "id": "ssc-chsl-136",
+      "section": "gk",
+      "topic": "Geography",
+      "difficulty": "medium",
+      "question": "The Nagarjuna Sagar Dam is built across which river?",
+      "options": [
+        "Godavari",
+        "Tungabhadra",
+        "Krishna",
+        "Kaveri"
+      ],
+      "answer": 2,
+      "explanation": "Nagarjuna Sagar Dam lies on the Krishna river on the Telangana–Andhra Pradesh border.",
+      "source": "ai",
+      "archetype": "ssc-chsl-G06",
+      "verified": false
+    },
+    {
+      "id": "ssc-chsl-137",
+      "section": "gk",
+      "topic": "Geography",
+      "difficulty": "medium",
+      "question": "Laterite soil is formed mainly as a result of:",
+      "options": [
+        "intense leaching under high temperature and heavy rainfall",
+        "deposition of silt by rivers",
+        "weathering of basalt lava in a dry climate",
+        "accumulation of wind-blown sand"
+      ],
+      "answer": 0,
+      "explanation": "Heavy rain and high temperature leach away silica and lime, leaving iron and aluminium oxides – laterite. Basalt weathering gives black soil.",
+      "source": "ai",
+      "archetype": "ssc-chsl-G07",
+      "verified": false
+    },
+    {
+      "id": "ssc-chsl-138",
+      "section": "gk",
+      "topic": "Geography",
+      "difficulty": "medium",
+      "question": "The Strait of Hormuz connects the Persian Gulf with which water body?",
+      "options": [
+        "Red Sea",
+        "Gulf of Aden",
+        "Caspian Sea",
+        "Gulf of Oman"
+      ],
+      "answer": 3,
+      "explanation": "The Strait of Hormuz links the Persian Gulf to the Gulf of Oman. The Bab-el-Mandeb links the Red Sea to the Gulf of Aden.",
+      "source": "ai",
+      "archetype": "ssc-chsl-G08",
+      "verified": false
+    },
+    {
+      "id": "ssc-chsl-139",
+      "section": "gk",
+      "topic": "Economy",
+      "difficulty": "medium",
+      "question": "Where is the headquarters of the National Bank for Agriculture and Rural Development (NABARD)?",
+      "options": [
+        "New Delhi",
+        "Mumbai",
+        "Lucknow",
+        "Kolkata"
+      ],
+      "answer": 1,
+      "explanation": "NABARD is headquartered in Mumbai. Lucknow is the headquarters of SIDBI.",
+      "source": "ai",
+      "archetype": "ssc-chsl-G09",
+      "verified": false
+    },
+    {
+      "id": "ssc-chsl-140",
+      "section": "gk",
+      "topic": "Economy",
+      "difficulty": "medium",
+      "question": "Gross National Product (GNP) minus depreciation is equal to:",
+      "options": [
+        "Net National Product",
+        "Gross Domestic Product",
+        "Personal Income",
+        "Net Domestic Product"
+      ],
+      "answer": 0,
+      "explanation": "NNP = GNP − depreciation. NDP is obtained by subtracting depreciation from GDP, not GNP.",
+      "source": "ai",
+      "archetype": "ssc-chsl-G10",
+      "verified": false
+    },
+    {
+      "id": "ssc-chsl-141",
+      "section": "gk",
+      "topic": "Chemistry",
+      "difficulty": "medium",
+      "question": "The smell noticed when LPG leaks comes from which compound added to it?",
+      "options": [
+        "Methane",
+        "Butane",
+        "Ethyl mercaptan",
+        "Propane"
+      ],
+      "answer": 2,
+      "explanation": "LPG (mainly butane and propane) is odourless; ethyl mercaptan is added so that leaks can be detected.",
+      "source": "ai",
+      "archetype": "ssc-chsl-G12",
+      "verified": false
+    },
+    {
+      "id": "ssc-chsl-142",
+      "section": "gk",
+      "topic": "Biology",
+      "difficulty": "medium",
+      "question": "Which type of white blood cells is mainly responsible for producing antibodies?",
+      "options": [
+        "Neutrophils",
+        "Monocytes",
+        "Erythrocytes",
+        "Lymphocytes"
+      ],
+      "answer": 3,
+      "explanation": "B-lymphocytes (via plasma cells) produce antibodies. Neutrophils and monocytes are phagocytes; erythrocytes are red cells.",
+      "source": "ai",
+      "archetype": "ssc-chsl-G13",
+      "verified": false
+    },
+    {
+      "id": "ssc-chsl-143",
+      "section": "gk",
+      "topic": "Art & Culture",
+      "difficulty": "medium",
+      "question": "'Nuakhai', a festival to welcome the new rice crop, is mainly celebrated in which state?",
+      "options": [
+        "Odisha",
+        "Jharkhand",
+        "Assam",
+        "West Bengal"
+      ],
+      "answer": 0,
+      "explanation": "Nuakhai is the harvest festival of western Odisha, observed the day after Ganesh Chaturthi.",
+      "source": "ai",
+      "archetype": "ssc-chsl-G15",
+      "verified": false
+    },
+    {
+      "id": "ssc-chsl-144",
+      "section": "gk",
+      "topic": "Art & Culture",
+      "difficulty": "hard",
+      "question": "The Hawa Mahal in Jaipur was built in 1799 by which ruler?",
+      "options": [
+        "Sawai Jai Singh II",
+        "Sawai Madho Singh I",
+        "Man Singh I",
+        "Sawai Pratap Singh"
+      ],
+      "answer": 3,
+      "explanation": "Maharaja Sawai Pratap Singh commissioned the Hawa Mahal, designed by Lal Chand Ustad. Sawai Jai Singh II founded Jaipur.",
+      "source": "ai",
+      "archetype": "ssc-chsl-G16",
+      "verified": false
+    },
+    {
+      "id": "ssc-chsl-145",
+      "section": "gk",
+      "topic": "Current Affairs",
+      "difficulty": "medium",
+      "question": "Who was elected Vice-President of India in September 2025?",
+      "options": [
+        "B. Sudershan Reddy",
+        "C. P. Radhakrishnan",
+        "Harivansh Narayan Singh",
+        "Om Birla"
+      ],
+      "answer": 1,
+      "explanation": "C. P. Radhakrishnan won the vice-presidential election on 9 September 2025, defeating B. Sudershan Reddy, after Jagdeep Dhankhar's resignation.",
+      "source": "ai",
+      "archetype": "ssc-chsl-G17",
+      "verified": false
+    },
+    {
+      "id": "ssc-chsl-146",
+      "section": "gk",
+      "topic": "Sports",
+      "difficulty": "medium",
+      "question": "India won the ICC Women's Cricket World Cup 2025 by defeating which team in the final?",
+      "options": [
+        "Australia",
+        "England",
+        "South Africa",
+        "New Zealand"
+      ],
+      "answer": 2,
+      "explanation": "India beat South Africa in the final at Navi Mumbai on 2 November 2025 to win their first Women's World Cup title.",
+      "source": "ai",
+      "archetype": "ssc-chsl-G18",
+      "verified": false
+    },
+    {
+      "id": "ssc-chsl-147",
+      "section": "gk",
+      "topic": "Books, Authors & Awards",
+      "difficulty": "medium",
+      "question": "Who wrote the Hindi novel 'Tamas', set against the backdrop of the Partition?",
+      "options": [
+        "Yashpal",
+        "Bhisham Sahni",
+        "Krishna Sobti",
+        "Kamleshwar"
+      ],
+      "answer": 1,
+      "explanation": "'Tamas' (1974) is by Bhisham Sahni. Yashpal wrote 'Jhootha Sach', another Partition novel.",
+      "source": "ai",
+      "archetype": "ssc-chsl-G19",
+      "verified": false
+    },
+    {
+      "id": "ssc-chsl-148",
+      "section": "quant",
+      "topic": "Simple & Compound Interest",
+      "difficulty": "medium",
+      "question": "What is the compound interest on ₹16,000 for 1 year at 10% per annum, compounded half-yearly?",
+      "options": [
+        "₹1,600",
+        "₹1,620",
+        "₹1,680",
+        "₹1,640"
+      ],
+      "answer": 3,
+      "explanation": "Rate 5% per half-year for 2 half-years: CI = 16000 × (1.05² − 1) = 16000 × 0.1025 = ₹1,640. (₹1,600 is the simple interest.)",
+      "source": "ai",
+      "archetype": "ssc-chsl-Q09",
+      "verified": false
+    },
+    {
+      "id": "ssc-chsl-149",
+      "section": "quant",
+      "topic": "Algebra",
+      "difficulty": "hard",
+      "question": "If a + b + c = 12 and a² + b² + c² = 50, what is the value of ab + bc + ca?",
+      "options": [
+        "94",
+        "47",
+        "37",
+        "52"
+      ],
+      "answer": 1,
+      "explanation": "(a + b + c)² = a² + b² + c² + 2(ab + bc + ca) ⇒ 144 = 50 + 2(ab + bc + ca) ⇒ ab + bc + ca = 47.",
+      "source": "ai",
+      "archetype": "ssc-chsl-Q18",
+      "verified": false
+    },
+    {
+      "id": "ssc-chsl-150",
+      "section": "quant",
+      "topic": "Geometry",
+      "difficulty": "hard",
+      "question": "From an external point P, a tangent PT of length 12 cm is drawn to a circle. A secant through P meets the circle at A and B (A nearer to P) such that PA = 8 cm. What is the length of AB?",
+      "options": [
+        "10 cm",
+        "18 cm",
+        "9 cm",
+        "6 cm"
+      ],
+      "answer": 0,
+      "explanation": "PT² = PA × PB ⇒ 144 = 8 × PB ⇒ PB = 18 cm, so AB = 18 − 8 = 10 cm.",
+      "source": "ai",
+      "archetype": "ssc-chsl-Q20",
+      "verified": false
+    },
+    {
+      "id": "ssc-chsl-151",
+      "section": "quant",
+      "topic": "Trigonometry",
+      "difficulty": "hard",
+      "question": "If sec θ + tan θ = 3, what is the value of sin θ?",
+      "options": [
+        "3/5",
+        "3/4",
+        "4/3",
+        "4/5"
+      ],
+      "answer": 3,
+      "explanation": "sec θ − tan θ = 1/3. Adding: sec θ = 5/3; subtracting: tan θ = 4/3. sin θ = tan θ / sec θ = 4/5.",
+      "source": "ai",
+      "archetype": "ssc-chsl-Q25",
+      "verified": false
+    },
+    {
+      "id": "ssc-chsl-152",
+      "section": "quant",
+      "topic": "Time & Work",
+      "difficulty": "medium",
+      "question": "A and B can complete a work in 20 days and 30 days respectively. They start working together, but A leaves 5 days before the work is completed. In how many days is the whole work completed?",
+      "options": [
+        "14",
+        "15",
+        "12",
+        "16"
+      ],
+      "answer": 1,
+      "explanation": "Let the work take T days: (T − 5)/20 + T/30 = 1 ⇒ 3T − 15 + 2T = 60 ⇒ T = 15.",
+      "source": "ai",
+      "archetype": "ssc-chsl-Q13",
+      "verified": false
+    },
+    {
+      "id": "ssc-chsl-153",
+      "section": "quant",
+      "topic": "Time, Speed & Distance",
+      "difficulty": "medium",
+      "question": "A train 240 m long, running at 64 km/h, overtakes a man walking at 4 km/h in the same direction. In how much time will it pass him?",
+      "options": [
+        "13.5 seconds",
+        "12.7 seconds",
+        "14.4 seconds",
+        "16 seconds"
+      ],
+      "answer": 2,
+      "explanation": "Relative speed = 64 − 4 = 60 km/h = 50/3 m/s. Time = 240 ÷ (50/3) = 14.4 s.",
+      "source": "ai",
+      "archetype": "ssc-chsl-Q15",
+      "verified": false
+    },
+    {
+      "id": "ssc-chsl-154",
+      "section": "quant",
+      "topic": "Mensuration",
+      "difficulty": "medium",
+      "question": "The length of a rectangle is increased by 30% and its breadth is decreased by 20%. What is the percentage change in its area?",
+      "options": [
+        "4% increase",
+        "10% increase",
+        "4% decrease",
+        "6% increase"
+      ],
+      "answer": 0,
+      "explanation": "New area = 1.3 × 0.8 = 1.04 of the original, i.e. a 4% increase. (30 − 20 = 10% ignores the product term.)",
+      "source": "ai",
+      "archetype": "ssc-chsl-Q22",
+      "verified": false
+    },
+    {
+      "id": "ssc-chsl-155",
+      "section": "english",
+      "topic": "Cloze Test",
+      "difficulty": "medium",
+      "question": "Read the passage and select the most appropriate option for the numbered blank.\n\nWater is the most precious resource we have, yet we often (1) ______ it as if it would never run out. In many cities, leaking pipes waste a large (2) ______ of treated water every day. Farmers, too, depend heavily (3) ______ groundwater, and wells that were once full are now drying up. Simple measures such as rainwater harvesting and drip irrigation can make a real (4) ______. If each of us is careful, we can (5) ______ that future generations do not face a crisis.\n\nSelect the most appropriate option for blank (2).",
+      "options": [
+        "number",
+        "deal",
+        "quantity",
+        "many"
+      ],
+      "answer": 2,
+      "explanation": "Water is uncountable, so 'a large quantity of water' is correct; 'a large number of' needs a countable noun and the idiom is 'a great deal', not 'a large deal'.",
+      "source": "ai",
+      "archetype": "ssc-chsl-E04",
+      "verified": false
+    },
+    {
+      "id": "ssc-chsl-156",
+      "section": "english",
+      "topic": "Cloze Test",
+      "difficulty": "medium",
+      "question": "Read the passage and select the most appropriate option for the numbered blank.\n\nWater is the most precious resource we have, yet we often (1) ______ it as if it would never run out. In many cities, leaking pipes waste a large (2) ______ of treated water every day. Farmers, too, depend heavily (3) ______ groundwater, and wells that were once full are now drying up. Simple measures such as rainwater harvesting and drip irrigation can make a real (4) ______. If each of us is careful, we can (5) ______ that future generations do not face a crisis.\n\nSelect the most appropriate option for blank (4).",
+      "options": [
+        "distinction",
+        "difference",
+        "variation",
+        "contrast"
+      ],
+      "answer": 1,
+      "explanation": "'Make a difference' is the fixed collocation meaning to have a useful effect; the other near-synonyms do not collocate with 'make'.",
+      "source": "ai",
+      "archetype": "ssc-chsl-E04",
+      "verified": false
+    },
+    {
+      "id": "ssc-chsl-157",
+      "section": "english",
+      "topic": "Cloze Test",
+      "difficulty": "medium",
+      "question": "Read the passage and select the most appropriate option for the numbered blank.\n\nWater is the most precious resource we have, yet we often (1) ______ it as if it would never run out. In many cities, leaking pipes waste a large (2) ______ of treated water every day. Farmers, too, depend heavily (3) ______ groundwater, and wells that were once full are now drying up. Simple measures such as rainwater harvesting and drip irrigation can make a real (4) ______. If each of us is careful, we can (5) ______ that future generations do not face a crisis.\n\nSelect the most appropriate option for blank (5).",
+      "options": [
+        "assure",
+        "insure",
+        "assume",
+        "ensure"
+      ],
+      "answer": 3,
+      "explanation": "'Ensure' means to make certain that something happens. 'Assure' needs a person as object, 'insure' relates to insurance and 'assume' means suppose.",
+      "source": "ai",
+      "archetype": "ssc-chsl-E04",
+      "verified": false
+    },
+    {
+      "id": "ssc-chsl-158",
+      "section": "english",
+      "topic": "Sentence Improvement",
+      "difficulty": "medium",
+      "question": "Select the most appropriate option to improve the bracketed part of the sentence.\nThe committee [comprises of] seven members.",
+      "options": [
+        "comprises",
+        "is comprising of",
+        "comprised with",
+        "No improvement"
+      ],
+      "answer": 0,
+      "explanation": "'Comprise' is not followed by 'of': the committee comprises seven members (or 'consists of').",
+      "source": "ai",
+      "archetype": "ssc-chsl-E14",
+      "verified": false
+    },
+    {
+      "id": "ssc-chsl-159",
+      "section": "english",
+      "topic": "Synonyms",
+      "difficulty": "medium",
+      "question": "Select the most appropriate synonym of the given word.\nMETICULOUS",
+      "options": [
+        "Careless",
+        "Meretricious",
+        "Painstaking",
+        "Hasty"
+      ],
+      "answer": 2,
+      "explanation": "Meticulous means showing great attention to detail – painstaking. 'Careless' and 'hasty' are opposites; 'meretricious' is a look-alike meaning showy.",
+      "source": "ai",
+      "archetype": "ssc-chsl-E07",
+      "verified": false
     }
   ]
 }

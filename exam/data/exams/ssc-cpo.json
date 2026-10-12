@@ -3688,6 +3688,348 @@
         "by": "independent-review",
         "note": "Inconsistent account blank; CPO"
       }
+    },
+    {
+      "id": "ssc-cpo-121",
+      "section": "reasoning",
+      "topic": "Seating Arrangement & Puzzles",
+      "difficulty": "hard",
+      "question": "Six friends A, B, C, D, E and F are sitting around a circular table, facing the centre. A sits second to the right of B. C sits immediately to the left of A. D sits opposite C. E is not an immediate neighbour of B.\nWho sits immediately to the left of B?",
+      "options": [
+        "F",
+        "E",
+        "D",
+        "C"
+      ],
+      "answer": 0,
+      "explanation": "C is between B and A (C is immediately right of B). D is opposite C, which leaves the seat immediately left of B and the seat between D and A for E and F. Since E is not B's neighbour, F sits immediately to the left of B.",
+      "source": "ai",
+      "archetype": "ssc-cpo-R27",
+      "verified": false
+    },
+    {
+      "id": "ssc-cpo-122",
+      "section": "reasoning",
+      "topic": "Missing Number",
+      "difficulty": "hard",
+      "question": "Select the number that will come in place of the question mark (?) in the following series.\n4, 5, 12, ?, 160, 805",
+      "options": [
+        "39",
+        "42",
+        "36",
+        "40"
+      ],
+      "answer": 0,
+      "explanation": "Rule ×1 + 1, ×2 + 2, ×3 + 3, ×4 + 4, ×5 + 5: 4→5→12→39→160→805 (12 × 3 + 3 = 39; 39 × 4 + 4 = 160).",
+      "source": "ai",
+      "archetype": "ssc-cpo-R18",
+      "verified": false
+    },
+    {
+      "id": "ssc-cpo-123",
+      "section": "reasoning",
+      "topic": "Venn Diagram",
+      "difficulty": "easy",
+      "question": "In a colony, the newspaper readers are as follows: 20 read only Hindi papers, 18 only English, 9 only Urdu, 7 read Hindi and English but not Urdu, 5 read English and Urdu but not Hindi, 4 read Hindi and Urdu but not English, and 3 read all three. How many people read English papers but not Hindi papers?",
+      "options": [
+        "26",
+        "33",
+        "23",
+        "25"
+      ],
+      "answer": 2,
+      "explanation": "English but not Hindi = only English + (English and Urdu, not Hindi) = 18 + 5 = 23. Including the 3 who read all three (26) is the trap.",
+      "source": "ai",
+      "archetype": "ssc-cpo-R25",
+      "verified": false
+    },
+    {
+      "id": "ssc-cpo-124",
+      "section": "reasoning",
+      "topic": "Blood Relations",
+      "difficulty": "medium",
+      "question": "Pointing to a girl, Suresh said, \"She is the daughter of the only sister of my father's only son.\" How is the girl related to Suresh?",
+      "options": [
+        "Daughter",
+        "Niece",
+        "Sister",
+        "Cousin"
+      ],
+      "answer": 1,
+      "explanation": "Suresh's father's only son is Suresh himself; his only sister's daughter is Suresh's niece.",
+      "source": "ai",
+      "archetype": "ssc-cpo-R12",
+      "verified": false
+    },
+    {
+      "id": "ssc-cpo-125",
+      "section": "gk",
+      "topic": "Defence & Static GK",
+      "difficulty": "medium",
+      "question": "The Sashastra Seema Bal (SSB) guards India's borders with which countries?",
+      "options": [
+        "Bangladesh and Myanmar",
+        "China and Nepal",
+        "Nepal and Bhutan",
+        "Pakistan and Bangladesh"
+      ],
+      "answer": 2,
+      "explanation": "SSB is the border guarding force for the Indo-Nepal and Indo-Bhutan borders. ITBP guards the China border and Assam Rifles the Myanmar border.",
+      "source": "ai",
+      "archetype": "ssc-cpo-G19",
+      "verified": false
+    },
+    {
+      "id": "ssc-cpo-126",
+      "section": "gk",
+      "topic": "Defence & Static GK",
+      "difficulty": "medium",
+      "question": "'Yudh Abhyas' is a joint military exercise between India and which country?",
+      "options": [
+        "United States of America",
+        "France",
+        "Russia",
+        "Japan"
+      ],
+      "answer": 0,
+      "explanation": "Yudh Abhyas is the India–US army exercise. Shakti is with France, INDRA with Russia and Dharma Guardian with Japan.",
+      "source": "ai",
+      "archetype": "ssc-cpo-G19",
+      "verified": false
+    },
+    {
+      "id": "ssc-cpo-127",
+      "section": "gk",
+      "topic": "Defence & Static GK",
+      "difficulty": "medium",
+      "question": "Which is India's highest peacetime gallantry award?",
+      "options": [
+        "Param Vir Chakra",
+        "Kirti Chakra",
+        "Shaurya Chakra",
+        "Ashoka Chakra"
+      ],
+      "answer": 3,
+      "explanation": "The Ashoka Chakra is the highest peacetime gallantry award; the Param Vir Chakra is the highest wartime award.",
+      "source": "ai",
+      "archetype": "ssc-cpo-G19",
+      "verified": false
+    },
+    {
+      "id": "ssc-cpo-128",
+      "section": "gk",
+      "topic": "History",
+      "difficulty": "medium",
+      "question": "Who was the founder of the Pala dynasty of Bengal?",
+      "options": [
+        "Dharmapala",
+        "Gopala",
+        "Devapala",
+        "Mahipala"
+      ],
+      "answer": 1,
+      "explanation": "Gopala was elected king around 750 CE and founded the Pala dynasty; Dharmapala founded Vikramashila university.",
+      "source": "ai",
+      "archetype": "ssc-cpo-G01",
+      "verified": false
+    },
+    {
+      "id": "ssc-cpo-129",
+      "section": "gk",
+      "topic": "History",
+      "difficulty": "medium",
+      "question": "The 'Doctrine of Lapse' was applied by which Governor-General to annex states such as Satara and Jhansi?",
+      "options": [
+        "Lord Wellesley",
+        "Lord William Bentinck",
+        "Lord Canning",
+        "Lord Dalhousie"
+      ],
+      "answer": 3,
+      "explanation": "Lord Dalhousie used the Doctrine of Lapse; Lord Wellesley introduced the Subsidiary Alliance.",
+      "source": "ai",
+      "archetype": "ssc-cpo-G02",
+      "verified": false
+    },
+    {
+      "id": "ssc-cpo-130",
+      "section": "gk",
+      "topic": "Polity",
+      "difficulty": "hard",
+      "question": "The Chief Election Commissioner of India can be removed from office only in the same manner and on the same grounds as:",
+      "options": [
+        "a judge of the Supreme Court",
+        "a member of the Union Public Service Commission",
+        "the Attorney General of India",
+        "the Governor of a State"
+      ],
+      "answer": 0,
+      "explanation": "Article 324(5): the CEC can be removed only like a Supreme Court judge – by an address of both Houses on proved misbehaviour or incapacity.",
+      "source": "ai",
+      "archetype": "ssc-cpo-G05",
+      "verified": false
+    },
+    {
+      "id": "ssc-cpo-131",
+      "section": "gk",
+      "topic": "Geography",
+      "difficulty": "medium",
+      "question": "The Siachen Glacier lies in which mountain range?",
+      "options": [
+        "Pir Panjal",
+        "Zanskar",
+        "Karakoram",
+        "Dhauladhar"
+      ],
+      "answer": 2,
+      "explanation": "Siachen, one of the longest non-polar glaciers, lies in the eastern Karakoram range.",
+      "source": "ai",
+      "archetype": "ssc-cpo-G06",
+      "verified": false
+    },
+    {
+      "id": "ssc-cpo-132",
+      "section": "gk",
+      "topic": "Geography",
+      "difficulty": "medium",
+      "question": "Which warm ocean current flows along the eastern coast of North America?",
+      "options": [
+        "Labrador Current",
+        "Gulf Stream",
+        "California Current",
+        "Humboldt Current"
+      ],
+      "answer": 1,
+      "explanation": "The Gulf Stream is a warm current off the eastern US coast. The Labrador and California currents are cold; the Humboldt flows off South America.",
+      "source": "ai",
+      "archetype": "ssc-cpo-G08",
+      "verified": false
+    },
+    {
+      "id": "ssc-cpo-133",
+      "section": "gk",
+      "topic": "Chemistry",
+      "difficulty": "medium",
+      "question": "Stainless steel is an alloy of iron mainly with:",
+      "options": [
+        "copper and zinc",
+        "tin and lead",
+        "chromium and nickel",
+        "aluminium and magnesium"
+      ],
+      "answer": 2,
+      "explanation": "Stainless steel contains iron with chromium (which resists rusting), nickel and a little carbon. Copper and zinc make brass.",
+      "source": "ai",
+      "archetype": "ssc-cpo-G12",
+      "verified": false
+    },
+    {
+      "id": "ssc-cpo-134",
+      "section": "gk",
+      "topic": "Art & Culture",
+      "difficulty": "hard",
+      "question": "The Sun Temple at Modhera in Gujarat was built during the reign of Bhima I of which dynasty?",
+      "options": [
+        "Paramara",
+        "Chandela",
+        "Gurjara-Pratihara",
+        "Chaulukya (Solanki)"
+      ],
+      "answer": 3,
+      "explanation": "The Modhera Sun Temple (1026–27 CE) was built under Bhima I of the Chaulukya (Solanki) dynasty.",
+      "source": "ai",
+      "archetype": "ssc-cpo-G16",
+      "verified": false
+    },
+    {
+      "id": "ssc-cpo-135",
+      "section": "gk",
+      "topic": "Current Affairs",
+      "difficulty": "medium",
+      "question": "Which Indian city was confirmed in November 2025 as the host of the 2030 Commonwealth Games?",
+      "options": [
+        "Ahmedabad",
+        "New Delhi",
+        "Bhubaneswar",
+        "Hyderabad"
+      ],
+      "answer": 0,
+      "explanation": "The Commonwealth Games Federation General Assembly in Glasgow (November 2025) confirmed Ahmedabad as host of the centenary 2030 Games.",
+      "source": "ai",
+      "archetype": "ssc-cpo-G17",
+      "verified": false
+    },
+    {
+      "id": "ssc-cpo-136",
+      "section": "quant",
+      "topic": "Geometry",
+      "difficulty": "hard",
+      "question": "In triangle ABC, I is the incentre. If ∠A = 70°, what is the measure of ∠BIC?",
+      "options": [
+        "110°",
+        "125°",
+        "140°",
+        "145°"
+      ],
+      "answer": 1,
+      "explanation": "∠BIC = 90° + ∠A/2 = 90° + 35° = 125°. (180° − 70° = 110° and 2 × 70° = 140° are common slips.)",
+      "source": "ai",
+      "archetype": "ssc-cpo-Q19",
+      "verified": false
+    },
+    {
+      "id": "ssc-cpo-137",
+      "section": "quant",
+      "topic": "Geometry",
+      "difficulty": "hard",
+      "question": "The numbers of sides of two regular polygons are in the ratio 1 : 2 and their interior angles are in the ratio 3 : 4. How many sides does the smaller polygon have?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "5"
+      ],
+      "answer": 3,
+      "explanation": "Interior angles: 180(n − 2)/n and 180(2n − 2)/(2n). Ratio = (n − 2)/(n − 1) = 3/4 ⇒ n = 5.",
+      "source": "ai",
+      "archetype": "ssc-cpo-Q21",
+      "verified": false
+    },
+    {
+      "id": "ssc-cpo-138",
+      "section": "quant",
+      "topic": "Trigonometry",
+      "difficulty": "medium",
+      "question": "What is the value of (sin 35° cos 55° + cos 35° sin 55°) ÷ (cosec² 10° − tan² 80°)?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "1/2"
+      ],
+      "answer": 1,
+      "explanation": "cos 55° = sin 35° and sin 55° = cos 35°, so the numerator is sin²35° + cos²35° = 1. tan 80° = cot 10°, so the denominator is cosec²10° − cot²10° = 1. Value = 1.",
+      "source": "ai",
+      "archetype": "ssc-cpo-Q24",
+      "verified": false
+    },
+    {
+      "id": "ssc-cpo-139",
+      "section": "quant",
+      "topic": "Algebra",
+      "difficulty": "hard",
+      "question": "If x = 2 + √3, what is the value of x² + 1/x²?",
+      "options": [
+        "16",
+        "12",
+        "14",
+        "18"
+      ],
+      "answer": 2,
+      "explanation": "1/x = 2 − √3, so x + 1/x = 4 and x² + 1/x² = 4² − 2 = 14.",
+      "source": "ai",
+      "archetype": "ssc-cpo-Q17",
+      "verified": false
     }
   ]
 }

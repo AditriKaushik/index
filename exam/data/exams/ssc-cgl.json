@@ -3684,6 +3684,384 @@
         "by": "independent-review",
         "note": "Past continuous passive 'was being repaired'; CGL voice"
       }
+    },
+    {
+      "id": "ssc-cgl-121",
+      "section": "reasoning",
+      "topic": "Order & Ranking",
+      "difficulty": "medium",
+      "question": "In a row of students facing North, Meena is 14th from the left end and Kavya is 19th from the right end. When they interchange their positions, Meena becomes 23rd from the left end. How many students are there in the row?",
+      "options": [
+        "41",
+        "36",
+        "42",
+        "40"
+      ],
+      "answer": 0,
+      "explanation": "After the interchange Meena takes Kavya's place, so Kavya's old place is 23rd from the left and 19th from the right. Total = 23 + 19 − 1 = 41.",
+      "source": "ai",
+      "archetype": "ssc-cgl-R21",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-122",
+      "section": "reasoning",
+      "topic": "Blood Relations",
+      "difficulty": "medium",
+      "question": "Introducing a boy, Neha said, \"He is the son of the only daughter of the father of my brother.\" How is the boy related to Neha?",
+      "options": [
+        "Nephew",
+        "Son",
+        "Cousin",
+        "Brother"
+      ],
+      "answer": 1,
+      "explanation": "The father of Neha's brother is Neha's father; his only daughter is Neha herself. So the boy is Neha's son.",
+      "source": "ai",
+      "archetype": "ssc-cgl-R12",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-123",
+      "section": "reasoning",
+      "topic": "Missing Number",
+      "difficulty": "hard",
+      "question": "Select the number that will replace the question mark (?) in the following table. The same rule is followed in every row.\nRow 1: 7, 3, 40\nRow 2: 9, 4, 65\nRow 3: 8, 6, ?",
+      "options": [
+        "28",
+        "56",
+        "100",
+        "48"
+      ],
+      "answer": 0,
+      "explanation": "Third number = (first)² − (second)²: 49 − 9 = 40, 81 − 16 = 65, so 64 − 36 = 28. (Using (a + b) × 4 fits only row 1 and gives the trap 56.)",
+      "source": "ai",
+      "archetype": "ssc-cgl-R20",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-124",
+      "section": "gk",
+      "topic": "History",
+      "difficulty": "hard",
+      "question": "The Nasik inscription of Gautami Balashri describes her son as the destroyer of the Shakas, Yavanas and Pahlavas. Who was this Satavahana ruler?",
+      "options": [
+        "Simuka",
+        "Vasishthiputra Pulumavi",
+        "Hala",
+        "Gautamiputra Satakarni"
+      ],
+      "answer": 3,
+      "explanation": "Gautami Balashri's Nasik prashasti praises her son Gautamiputra Satakarni, who defeated the Shaka ruler Nahapana and the Yavanas and Pahlavas.",
+      "source": "ai",
+      "archetype": "ssc-cgl-G01",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-125",
+      "section": "gk",
+      "topic": "History",
+      "difficulty": "medium",
+      "question": "Which Sultan of Delhi introduced market control (price regulation) measures and the 'dagh' system of branding horses?",
+      "options": [
+        "Balban",
+        "Alauddin Khalji",
+        "Muhammad bin Tughlaq",
+        "Firoz Shah Tughlaq"
+      ],
+      "answer": 1,
+      "explanation": "Alauddin Khalji fixed prices of commodities through his market reforms and introduced dagh (branding of horses) and huliya (descriptive roll of soldiers).",
+      "source": "ai",
+      "archetype": "ssc-cgl-G01",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-126",
+      "section": "gk",
+      "topic": "History",
+      "difficulty": "medium",
+      "question": "The Ilbert Bill controversy (1883) took place during the tenure of which Viceroy?",
+      "options": [
+        "Lord Lytton",
+        "Lord Dufferin",
+        "Lord Ripon",
+        "Lord Curzon"
+      ],
+      "answer": 2,
+      "explanation": "The Ilbert Bill, allowing Indian judges to try Europeans, was introduced in 1883 under Lord Ripon and provoked a European backlash.",
+      "source": "ai",
+      "archetype": "ssc-cgl-G02",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-127",
+      "section": "gk",
+      "topic": "History",
+      "difficulty": "medium",
+      "question": "Who presided over the Lahore session of the Indian National Congress (1929), at which the 'Purna Swaraj' resolution was passed?",
+      "options": [
+        "Jawaharlal Nehru",
+        "Motilal Nehru",
+        "Vallabhbhai Patel",
+        "Subhas Chandra Bose"
+      ],
+      "answer": 0,
+      "explanation": "Jawaharlal Nehru presided over the 1929 Lahore session. Motilal Nehru presided in 1928 (Calcutta) and Patel in 1931 (Karachi).",
+      "source": "ai",
+      "archetype": "ssc-cgl-G02",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-128",
+      "section": "gk",
+      "topic": "Polity",
+      "difficulty": "medium",
+      "question": "Under which Article of the Constitution of India can the President seek the advisory opinion of the Supreme Court on a question of law or fact?",
+      "options": [
+        "Article 123",
+        "Article 143",
+        "Article 132",
+        "Article 136"
+      ],
+      "answer": 1,
+      "explanation": "Article 143 gives the President power to consult the Supreme Court. Article 123 is ordinances, 132 appellate jurisdiction and 136 special leave.",
+      "source": "ai",
+      "archetype": "ssc-cgl-G03",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-129",
+      "section": "gk",
+      "topic": "Polity",
+      "difficulty": "hard",
+      "question": "Which Constitutional Amendment Act limited the total number of ministers in the Union Council of Ministers to 15% of the total strength of the Lok Sabha?",
+      "options": [
+        "86th Amendment Act",
+        "92nd Amendment Act",
+        "97th Amendment Act",
+        "91st Amendment Act"
+      ],
+      "answer": 3,
+      "explanation": "The 91st Amendment Act, 2003 capped the size of the Council of Ministers at 15% (Article 75(1A)) and strengthened anti-defection rules.",
+      "source": "ai",
+      "archetype": "ssc-cgl-G04",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-130",
+      "section": "gk",
+      "topic": "Geography",
+      "difficulty": "medium",
+      "question": "The Teesta river, which flows through Sikkim and West Bengal, is a tributary of which river?",
+      "options": [
+        "Ganga",
+        "Brahmaputra",
+        "Mahananda",
+        "Meghna"
+      ],
+      "answer": 1,
+      "explanation": "The Teesta rises in Sikkim, flows through north Bengal and joins the Brahmaputra (Jamuna) in Bangladesh.",
+      "source": "ai",
+      "archetype": "ssc-cgl-G06",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-131",
+      "section": "gk",
+      "topic": "Geography",
+      "difficulty": "medium",
+      "question": "The strong westerly winds known as the 'Roaring Forties' blow between which latitudes?",
+      "options": [
+        "40° and 50° North",
+        "30° and 40° South",
+        "40° and 50° South",
+        "60° and 70° South"
+      ],
+      "answer": 2,
+      "explanation": "The Roaring Forties are westerlies between 40° and 50° South, where few land masses obstruct them.",
+      "source": "ai",
+      "archetype": "ssc-cgl-G08",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-132",
+      "section": "gk",
+      "topic": "Economy",
+      "difficulty": "medium",
+      "question": "Which measure of inflation is used by the Reserve Bank of India as the target under its flexible inflation-targeting framework?",
+      "options": [
+        "Wholesale Price Index",
+        "Consumer Price Index (Combined)",
+        "GDP deflator",
+        "Consumer Price Index for Industrial Workers"
+      ],
+      "answer": 1,
+      "explanation": "Since 2016 the RBI targets 4% (±2%) inflation measured by the headline CPI (Combined).",
+      "source": "ai",
+      "archetype": "ssc-cgl-G10",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-133",
+      "section": "gk",
+      "topic": "Physics",
+      "difficulty": "medium",
+      "question": "The twinkling of stars is due to:",
+      "options": [
+        "total internal reflection",
+        "dispersion of light",
+        "scattering of light",
+        "atmospheric refraction"
+      ],
+      "answer": 3,
+      "explanation": "Starlight passes through layers of air of varying density; continuous atmospheric refraction makes the star appear to twinkle.",
+      "source": "ai",
+      "archetype": "ssc-cgl-G11",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-134",
+      "section": "gk",
+      "topic": "Chemistry",
+      "difficulty": "medium",
+      "question": "Cinnabar is the principal ore of which metal?",
+      "options": [
+        "Mercury",
+        "Lead",
+        "Zinc",
+        "Tin"
+      ],
+      "answer": 0,
+      "explanation": "Cinnabar (HgS) is the ore of mercury. Galena is a lead ore, sphalerite (zinc blende) a zinc ore and cassiterite a tin ore.",
+      "source": "ai",
+      "archetype": "ssc-cgl-G12",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-135",
+      "section": "gk",
+      "topic": "Biology",
+      "difficulty": "medium",
+      "question": "Which hormone, secreted by the adrenal medulla, is known as the 'fight or flight' hormone?",
+      "options": [
+        "Cortisol",
+        "Thyroxine",
+        "Adrenaline",
+        "Glucagon"
+      ],
+      "answer": 2,
+      "explanation": "The adrenal medulla secretes adrenaline (epinephrine) in emergencies. Cortisol comes from the adrenal cortex.",
+      "source": "ai",
+      "archetype": "ssc-cgl-G13",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-136",
+      "section": "gk",
+      "topic": "Art & Culture",
+      "difficulty": "hard",
+      "question": "The Sattriya dance of Assam was introduced in the 15th century by which saint-reformer?",
+      "options": [
+        "Chaitanya Mahaprabhu",
+        "Srimanta Sankardeva",
+        "Jayadeva",
+        "Ramananda"
+      ],
+      "answer": 1,
+      "explanation": "Sattriya was created by the Vaishnava saint Srimanta Sankardeva as part of the Ankiya Naat performed in the sattras (monasteries).",
+      "source": "ai",
+      "archetype": "ssc-cgl-G15",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-137",
+      "section": "gk",
+      "topic": "Current Affairs",
+      "difficulty": "medium",
+      "question": "In June 2025, Shubhanshu Shukla became the first Indian astronaut to visit the International Space Station. Under which mission did he fly?",
+      "options": [
+        "Gaganyaan G1",
+        "Crew-10",
+        "Soyuz MS-27",
+        "Axiom Mission 4 (Ax-4)"
+      ],
+      "answer": 3,
+      "explanation": "Group Captain Shubhanshu Shukla was the pilot of Axiom Mission 4, launched on 25 June 2025, and spent about 18 days aboard the ISS.",
+      "source": "ai",
+      "archetype": "ssc-cgl-G17",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-138",
+      "section": "gk",
+      "topic": "Books, Authors & Awards",
+      "difficulty": "medium",
+      "question": "Banu Mushtaq's 'Heart Lamp', which won the International Booker Prize 2025, was translated into English from which language?",
+      "options": [
+        "Urdu",
+        "Malayalam",
+        "Kannada",
+        "Tamil"
+      ],
+      "answer": 2,
+      "explanation": "'Heart Lamp', a collection of Kannada short stories, was translated by Deepa Bhasthi; it was the first Kannada work to win the prize.",
+      "source": "ai",
+      "archetype": "ssc-cgl-G19",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-139",
+      "section": "english",
+      "topic": "One-word Substitution",
+      "difficulty": "medium",
+      "question": "Select the option that can be used as a one-word substitute for the given group of words.\nA person who remains unmoved by pleasure or pain",
+      "options": [
+        "Cynic",
+        "Hedonist",
+        "Sceptic",
+        "Stoic"
+      ],
+      "answer": 3,
+      "explanation": "A stoic endures pain and pleasure without showing feeling. A hedonist pursues pleasure; a cynic distrusts motives; a sceptic doubts.",
+      "source": "ai",
+      "archetype": "ssc-cgl-E10",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-140",
+      "section": "english",
+      "topic": "Error Spotting",
+      "difficulty": "hard",
+      "question": "The following sentence has been divided into parts. One of them may contain an error. Select the part that contains the error, or 'No error'.\nOf the two proposals / submitted to the board, / the second is the best one.",
+      "options": [
+        "Of the two proposals",
+        "submitted to the board,",
+        "the second is the best one.",
+        "No error"
+      ],
+      "answer": 2,
+      "explanation": "When two things are compared, the comparative is used: 'the second is the better one'.",
+      "source": "ai",
+      "archetype": "ssc-cgl-E13",
+      "verified": false
+    },
+    {
+      "id": "ssc-cgl-141",
+      "section": "english",
+      "topic": "Fill in the Blanks",
+      "difficulty": "medium",
+      "question": "Select the most appropriate option to fill in the blank.\nThe new scheme is expected to ______ the hardships faced by small traders during the lean season.",
+      "options": [
+        "aggravate",
+        "elevate",
+        "alleviate",
+        "allocate"
+      ],
+      "answer": 2,
+      "explanation": "'Alleviate' means to lessen or ease; a scheme meant to help would ease hardships. 'Aggravate' means worsen; 'elevate' and 'allocate' do not collocate with hardships.",
+      "source": "ai",
+      "archetype": "ssc-cgl-E05",
+      "verified": false
     }
   ]
 }

@@ -2409,6 +2409,1158 @@
         "by": "independent-review",
         "note": "'Discussed about' redundancy; classic SSC error"
       }
+    },
+    {
+      "id": "ssc-mts-113",
+      "section": "numerical",
+      "topic": "HCF & LCM",
+      "difficulty": "easy",
+      "question": "What is the least number which, when divided by 12, 15 and 20, leaves a remainder of 7 in each case?",
+      "options": [
+        "60",
+        "53",
+        "127",
+        "67"
+      ],
+      "answer": 3,
+      "explanation": "LCM(12, 15, 20) = 60. Required number = 60 + 7 = 67.",
+      "source": "ai",
+      "archetype": "ssc-mts-N03",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-114",
+      "section": "numerical",
+      "topic": "Percentage",
+      "difficulty": "easy",
+      "question": "The price of rice rises by 20%. By what percentage must a family reduce its consumption so that its expenditure on rice remains the same?",
+      "options": [
+        "20%",
+        "25%",
+        "16⅔%",
+        "18%"
+      ],
+      "answer": 2,
+      "explanation": "Reduction = 20/(100 + 20) × 100 = 16⅔%.",
+      "source": "ai",
+      "archetype": "ssc-mts-N05",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-115",
+      "section": "numerical",
+      "topic": "Percentage",
+      "difficulty": "medium",
+      "question": "In an election between two candidates, one candidate got 60% of the votes polled and won by 1,200 votes. How many votes were polled in all? (All votes were valid.)",
+      "options": [
+        "5,000",
+        "7,200",
+        "4,800",
+        "6,000"
+      ],
+      "answer": 3,
+      "explanation": "Winning margin = 60% − 40% = 20% of total = 1,200 ⇒ total = 6,000.",
+      "source": "ai",
+      "archetype": "ssc-mts-N06",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-116",
+      "section": "numerical",
+      "topic": "Profit & Loss",
+      "difficulty": "medium",
+      "question": "A man buys pens at 12 for ₹100 and sells them at 10 for ₹100. What is his profit percentage?",
+      "options": [
+        "20%",
+        "16⅔%",
+        "25%",
+        "2%"
+      ],
+      "answer": 0,
+      "explanation": "CP of 1 pen = 100/12, SP = 100/10. Profit% = (1/10 − 1/12)/(1/12) × 100 = 20%.",
+      "source": "ai",
+      "archetype": "ssc-mts-N08",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-117",
+      "section": "numerical",
+      "topic": "Simple & Compound Interest",
+      "difficulty": "medium",
+      "question": "What is the compound interest on ₹8,000 for 2 years at 5% per annum, compounded annually?",
+      "options": [
+        "₹800",
+        "₹840",
+        "₹820",
+        "₹8,820"
+      ],
+      "answer": 2,
+      "explanation": "Amount = 8000 × 1.05² = ₹8,820; CI = 8,820 − 8,000 = ₹820. (₹800 is the simple interest.)",
+      "source": "ai",
+      "archetype": "ssc-mts-N10",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-118",
+      "section": "numerical",
+      "topic": "Ratio & Proportion",
+      "difficulty": "medium",
+      "question": "If A : B = 3 : 4 and B : C = 6 : 7, what is A : B : C?",
+      "options": [
+        "9 : 12 : 14",
+        "3 : 4 : 7",
+        "9 : 12 : 16",
+        "18 : 24 : 21"
+      ],
+      "answer": 0,
+      "explanation": "Make B common: A : B = 9 : 12 and B : C = 12 : 14. So A : B : C = 9 : 12 : 14.",
+      "source": "ai",
+      "archetype": "ssc-mts-N12",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-119",
+      "section": "numerical",
+      "topic": "Time & Work",
+      "difficulty": "medium",
+      "question": "A can do a piece of work in 10 days and B can do it in 15 days. With the help of C, they finish the work in 5 days. In how many days can C alone do the work?",
+      "options": [
+        "25",
+        "20",
+        "12",
+        "30"
+      ],
+      "answer": 3,
+      "explanation": "C's one-day work = 1/5 − 1/10 − 1/15 = (6 − 3 − 2)/30 = 1/30. So C alone takes 30 days.",
+      "source": "ai",
+      "archetype": "ssc-mts-N14",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-120",
+      "section": "numerical",
+      "topic": "Time, Speed & Distance",
+      "difficulty": "medium",
+      "question": "A train 180 m long crosses a platform 120 m long in 15 seconds. What is the speed of the train?",
+      "options": [
+        "43.2 km/h",
+        "28.8 km/h",
+        "60 km/h",
+        "72 km/h"
+      ],
+      "answer": 3,
+      "explanation": "Distance = 180 + 120 = 300 m; speed = 300/15 = 20 m/s = 20 × 18/5 = 72 km/h. Using only the train length gives 43.2 km/h.",
+      "source": "ai",
+      "archetype": "ssc-mts-N16",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-121",
+      "section": "numerical",
+      "topic": "Geometry",
+      "difficulty": "medium",
+      "question": "In a right-angled triangle, the hypotenuse is 26 cm and one of the other sides is 10 cm. What is the area of the triangle?",
+      "options": [
+        "130 cm²",
+        "240 cm²",
+        "120 cm²",
+        "260 cm²"
+      ],
+      "answer": 2,
+      "explanation": "Third side = √(26² − 10²) = √576 = 24 cm. Area = ½ × 10 × 24 = 120 cm².",
+      "source": "ai",
+      "archetype": "ssc-mts-N18",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-122",
+      "section": "numerical",
+      "topic": "Mensuration",
+      "difficulty": "medium",
+      "question": "How many cubes of edge 3 cm can be cut from a cuboid measuring 9 cm × 12 cm × 15 cm?",
+      "options": [
+        "45",
+        "54",
+        "72",
+        "60"
+      ],
+      "answer": 3,
+      "explanation": "Number of cubes = (9/3) × (12/3) × (15/3) = 3 × 4 × 5 = 60.",
+      "source": "ai",
+      "archetype": "ssc-mts-N21",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-123",
+      "section": "reasoning",
+      "topic": "Analogy",
+      "difficulty": "medium",
+      "question": "Select the option that is related to the third number in the same way as the second number is related to the first number and the sixth number is related to the fifth number.\n(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits.)\n6 : 222 :: 4 : ? :: 5 : 130",
+      "options": [
+        "64",
+        "68",
+        "72",
+        "70"
+      ],
+      "answer": 1,
+      "explanation": "Rule: n³ + n. 216 + 6 = 222, 125 + 5 = 130, so 64 + 4 = 68.",
+      "source": "ai",
+      "archetype": "ssc-mts-R02",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-124",
+      "section": "reasoning",
+      "topic": "Analogy",
+      "difficulty": "medium",
+      "question": "Select the option that is related to the third letter-cluster in the same way as the second letter-cluster is related to the first letter-cluster.\nBDF : CFI :: GIK : ?",
+      "options": [
+        "HJM",
+        "HKN",
+        "HKM",
+        "IKN"
+      ],
+      "answer": 1,
+      "explanation": "The letters move +1, +2, +3: B→C, D→F, F→I. So G→H, I→K, K→N = HKN.",
+      "source": "ai",
+      "archetype": "ssc-mts-R03",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-125",
+      "section": "reasoning",
+      "topic": "Classification",
+      "difficulty": "easy",
+      "question": "Three of the following four words are alike in a certain way and one is different. Select the odd one.",
+      "options": [
+        "Kathakali",
+        "Bharatanatyam",
+        "Bhangra",
+        "Kuchipudi"
+      ],
+      "answer": 2,
+      "explanation": "Kathakali, Bharatanatyam and Kuchipudi are classical dances; Bhangra is a folk dance of Punjab.",
+      "source": "ai",
+      "archetype": "ssc-mts-R04",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-126",
+      "section": "reasoning",
+      "topic": "Classification",
+      "difficulty": "medium",
+      "question": "Three of the following four letter-pairs are alike in a certain way and one is different. Select the odd letter-pair.",
+      "options": [
+        "DW",
+        "FU",
+        "JR",
+        "HS"
+      ],
+      "answer": 2,
+      "explanation": "D–W, F–U and H–S are opposite-letter pairs (positions add up to 27). J's opposite is Q, not R.",
+      "source": "ai",
+      "archetype": "ssc-mts-R06",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-127",
+      "section": "reasoning",
+      "topic": "Coding-Decoding",
+      "difficulty": "medium",
+      "question": "In a certain code language, 'MOTHER' is written as 'NNUGFQ'. How will 'SISTER' be written in that language?",
+      "options": [
+        "TJTUFS",
+        "THTSFQ",
+        "THTSFS",
+        "RHRSDQ"
+      ],
+      "answer": 1,
+      "explanation": "Letters are shifted alternately +1 and −1: M+1=N, O−1=N, T+1=U, H−1=G, E+1=F, R−1=Q. SISTER → T, H, T, S, F, Q.",
+      "source": "ai",
+      "archetype": "ssc-mts-R09",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-128",
+      "section": "reasoning",
+      "topic": "Blood Relations",
+      "difficulty": "medium",
+      "question": "Pointing to a man, Kavita said, \"He is the son of my mother's only brother.\" How is the man related to Kavita?",
+      "options": [
+        "Brother",
+        "Nephew",
+        "Uncle",
+        "Cousin"
+      ],
+      "answer": 3,
+      "explanation": "Kavita's mother's only brother is her maternal uncle; his son is Kavita's cousin.",
+      "source": "ai",
+      "archetype": "ssc-mts-R12",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-129",
+      "section": "reasoning",
+      "topic": "Direction Sense",
+      "difficulty": "easy",
+      "question": "Ajay is facing North. He turns 90° clockwise, then 180° anticlockwise and then 45° clockwise. Which direction is he facing now?",
+      "options": [
+        "North-West",
+        "South-West",
+        "North-East",
+        "South-East"
+      ],
+      "answer": 0,
+      "explanation": "North → (90° clockwise) East → (180° anticlockwise) West → (45° clockwise) North-West.",
+      "source": "ai",
+      "archetype": "ssc-mts-R14",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-130",
+      "section": "reasoning",
+      "topic": "Mathematical Operations",
+      "difficulty": "medium",
+      "question": "Which two mathematical signs should be interchanged to make the given equation correct?\n9 + 63 ÷ 7 × 5 − 8 = 78",
+      "options": [
+        "÷ and ×",
+        "+ and −",
+        "÷ and −",
+        "+ and ×"
+      ],
+      "answer": 3,
+      "explanation": "Swapping + and ×: 9 × 63 ÷ 7 + 5 − 8 = 81 + 5 − 8 = 78.",
+      "source": "ai",
+      "archetype": "ssc-mts-R17",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-131",
+      "section": "reasoning",
+      "topic": "Order & Ranking",
+      "difficulty": "easy",
+      "question": "In a row of 35 students, Ravi is 11th from the left end and Sunil is 15th from the right end. How many students are there between Ravi and Sunil?",
+      "options": [
+        "10",
+        "8",
+        "9",
+        "11"
+      ],
+      "answer": 2,
+      "explanation": "Sunil is 35 − 15 + 1 = 21st from the left. Students between = 21 − 11 − 1 = 9.",
+      "source": "ai",
+      "archetype": "ssc-mts-R20",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-132",
+      "section": "reasoning",
+      "topic": "Syllogism",
+      "difficulty": "medium",
+      "question": "Statements:\nAll doctors are teachers.\nNo teacher is a singer.\nConclusions:\nI. No doctor is a singer.\nII. Some singers are teachers.\nWhich conclusion(s) follow(s)?",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both I and II follow",
+        "Neither I nor II follows"
+      ],
+      "answer": 0,
+      "explanation": "Doctors lie inside teachers, which are wholly separate from singers, so no doctor is a singer (I follows). II contradicts 'No teacher is a singer'.",
+      "source": "ai",
+      "archetype": "ssc-mts-R15",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-133",
+      "section": "gk",
+      "topic": "History",
+      "difficulty": "medium",
+      "question": "The Buland Darwaza at Fatehpur Sikri was built by which Mughal emperor?",
+      "options": [
+        "Babur",
+        "Jahangir",
+        "Shah Jahan",
+        "Akbar"
+      ],
+      "answer": 3,
+      "explanation": "Akbar built the Buland Darwaza (c. 1575) to commemorate his victory over Gujarat.",
+      "source": "ai",
+      "archetype": "ssc-mts-G01",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-134",
+      "section": "gk",
+      "topic": "History",
+      "difficulty": "medium",
+      "question": "Who wrote 'Harshacharita', the biography of King Harshavardhana?",
+      "options": [
+        "Kalidasa",
+        "Banabhatta",
+        "Harisena",
+        "Bhavabhuti"
+      ],
+      "answer": 1,
+      "explanation": "Banabhatta, the court poet of Harsha, wrote Harshacharita and Kadambari. Harisena wrote the Prayag Prashasti.",
+      "source": "ai",
+      "archetype": "ssc-mts-G01",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-135",
+      "section": "gk",
+      "topic": "History",
+      "difficulty": "medium",
+      "question": "The Non-Cooperation Movement was withdrawn by Mahatma Gandhi in 1922 after which incident?",
+      "options": [
+        "Jallianwala Bagh massacre",
+        "Kakori train action",
+        "Chauri Chaura incident",
+        "Arrival of the Simon Commission"
+      ],
+      "answer": 2,
+      "explanation": "After a mob set fire to a police station at Chauri Chaura (February 1922), Gandhi called off the movement.",
+      "source": "ai",
+      "archetype": "ssc-mts-G02",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-136",
+      "section": "gk",
+      "topic": "Polity",
+      "difficulty": "medium",
+      "question": "Which Article of the Constitution of India guarantees equality of opportunity in matters of public employment?",
+      "options": [
+        "Article 16",
+        "Article 14",
+        "Article 15",
+        "Article 19"
+      ],
+      "answer": 0,
+      "explanation": "Article 16 deals with equality of opportunity in public employment. Article 14 is equality before law; Article 15 prohibits discrimination.",
+      "source": "ai",
+      "archetype": "ssc-mts-G03",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-137",
+      "section": "gk",
+      "topic": "Polity",
+      "difficulty": "medium",
+      "question": "The words 'Socialist' and 'Secular' were added to the Preamble by which Constitutional Amendment?",
+      "options": [
+        "44th Amendment",
+        "42nd Amendment",
+        "52nd Amendment",
+        "73rd Amendment"
+      ],
+      "answer": 1,
+      "explanation": "The 42nd Amendment Act, 1976 added 'Socialist', 'Secular' and 'Integrity' to the Preamble.",
+      "source": "ai",
+      "archetype": "ssc-mts-G04",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-138",
+      "section": "gk",
+      "topic": "Polity",
+      "difficulty": "medium",
+      "question": "What is the term of office of the Comptroller and Auditor General of India?",
+      "options": [
+        "5 years or up to 65 years of age, whichever is earlier",
+        "6 years or up to 62 years of age, whichever is earlier",
+        "6 years or up to 65 years of age, whichever is earlier",
+        "Till the age of 70 years"
+      ],
+      "answer": 2,
+      "explanation": "The CAG holds office for six years or until the age of 65, whichever is earlier.",
+      "source": "ai",
+      "archetype": "ssc-mts-G05",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-139",
+      "section": "gk",
+      "topic": "Geography",
+      "difficulty": "medium",
+      "question": "By what name is the river Brahmaputra known in Tibet?",
+      "options": [
+        "Tsangpo",
+        "Dihang",
+        "Jamuna",
+        "Padma"
+      ],
+      "answer": 0,
+      "explanation": "It is called Tsangpo in Tibet, Dihang/Siang in Arunachal Pradesh and Jamuna in Bangladesh.",
+      "source": "ai",
+      "archetype": "ssc-mts-G06",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-140",
+      "section": "gk",
+      "topic": "Geography",
+      "difficulty": "easy",
+      "question": "In which layer of the atmosphere do almost all weather phenomena such as clouds and rain occur?",
+      "options": [
+        "Stratosphere",
+        "Troposphere",
+        "Mesosphere",
+        "Thermosphere"
+      ],
+      "answer": 1,
+      "explanation": "The troposphere, the lowest layer, contains almost all water vapour, so weather occurs there.",
+      "source": "ai",
+      "archetype": "ssc-mts-G08",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-141",
+      "section": "gk",
+      "topic": "Economy",
+      "difficulty": "medium",
+      "question": "The Cash Reserve Ratio (CRR) is the portion of deposits that commercial banks must keep:",
+      "options": [
+        "with the Reserve Bank of India",
+        "in gold and approved securities with themselves",
+        "with the Ministry of Finance",
+        "with the State Bank of India"
+      ],
+      "answer": 0,
+      "explanation": "CRR is held as cash balance with the RBI. Keeping liquid assets such as gold and government securities with themselves is SLR.",
+      "source": "ai",
+      "archetype": "ssc-mts-G09",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-142",
+      "section": "gk",
+      "topic": "Economy",
+      "difficulty": "medium",
+      "question": "Which Five-Year Plan of India was based on the Mahalanobis model?",
+      "options": [
+        "First Plan",
+        "Third Plan",
+        "Second Plan",
+        "Fifth Plan"
+      ],
+      "answer": 2,
+      "explanation": "The Second Plan (1956–61) followed the P. C. Mahalanobis model with emphasis on heavy industry. The First Plan used the Harrod–Domar model.",
+      "source": "ai",
+      "archetype": "ssc-mts-G10",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-143",
+      "section": "gk",
+      "topic": "Physics",
+      "difficulty": "medium",
+      "question": "Which type of lens is used to correct myopia (short-sightedness)?",
+      "options": [
+        "Convex lens",
+        "Concave lens",
+        "Cylindrical lens",
+        "Bifocal lens"
+      ],
+      "answer": 1,
+      "explanation": "In myopia the image forms in front of the retina; a concave (diverging) lens corrects it. Hypermetropia is corrected with a convex lens.",
+      "source": "ai",
+      "archetype": "ssc-mts-G11",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-144",
+      "section": "gk",
+      "topic": "Chemistry",
+      "difficulty": "medium",
+      "question": "What is the chemical name of bleaching powder?",
+      "options": [
+        "Calcium carbonate",
+        "Calcium sulphate",
+        "Calcium oxychloride",
+        "Sodium hypochlorite"
+      ],
+      "answer": 2,
+      "explanation": "Bleaching powder is calcium oxychloride (CaOCl₂).",
+      "source": "ai",
+      "archetype": "ssc-mts-G12",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-145",
+      "section": "gk",
+      "topic": "Biology",
+      "difficulty": "easy",
+      "question": "Which vitamin is essential for the clotting of blood?",
+      "options": [
+        "Vitamin A",
+        "Vitamin D",
+        "Vitamin B12",
+        "Vitamin K"
+      ],
+      "answer": 3,
+      "explanation": "Vitamin K is needed to make clotting factors such as prothrombin.",
+      "source": "ai",
+      "archetype": "ssc-mts-G13",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-146",
+      "section": "gk",
+      "topic": "Biology",
+      "difficulty": "easy",
+      "question": "The loss of water in the form of vapour from the aerial parts of a plant is called:",
+      "options": [
+        "Transpiration",
+        "Respiration",
+        "Guttation",
+        "Photosynthesis"
+      ],
+      "answer": 0,
+      "explanation": "Transpiration is loss of water vapour, mainly through stomata. Guttation is loss of water as liquid drops.",
+      "source": "ai",
+      "archetype": "ssc-mts-G14",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-147",
+      "section": "gk",
+      "topic": "Art & Culture",
+      "difficulty": "medium",
+      "question": "'Yakshagana' is a traditional dance-drama form of which state?",
+      "options": [
+        "Kerala",
+        "Karnataka",
+        "Andhra Pradesh",
+        "Goa"
+      ],
+      "answer": 1,
+      "explanation": "Yakshagana is the theatre form of coastal Karnataka.",
+      "source": "ai",
+      "archetype": "ssc-mts-G15",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-148",
+      "section": "gk",
+      "topic": "Art & Culture",
+      "difficulty": "medium",
+      "question": "The Charminar in Hyderabad was built by:",
+      "options": [
+        "Aurangzeb",
+        "Asaf Jah I",
+        "Muhammad Quli Qutb Shah",
+        "Ibrahim Adil Shah II"
+      ],
+      "answer": 2,
+      "explanation": "Sultan Muhammad Quli Qutb Shah of the Qutb Shahi dynasty built the Charminar in 1591.",
+      "source": "ai",
+      "archetype": "ssc-mts-G16",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-149",
+      "section": "gk",
+      "topic": "Current Affairs",
+      "difficulty": "medium",
+      "question": "Which country hosted the 17th BRICS Summit in July 2025?",
+      "options": [
+        "Russia",
+        "South Africa",
+        "India",
+        "Brazil"
+      ],
+      "answer": 3,
+      "explanation": "The 17th BRICS Summit was held in Rio de Janeiro, Brazil, in July 2025. Russia hosted the 16th summit (Kazan, 2024).",
+      "source": "ai",
+      "archetype": "ssc-mts-G17",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-150",
+      "section": "gk",
+      "topic": "Sports",
+      "difficulty": "medium",
+      "question": "Which Indian chess player won the FIDE Women's World Cup in July 2025?",
+      "options": [
+        "Divya Deshmukh",
+        "Koneru Humpy",
+        "R. Vaishali",
+        "Harika Dronavalli"
+      ],
+      "answer": 0,
+      "explanation": "19-year-old Divya Deshmukh beat Koneru Humpy in the final at Batumi, Georgia, and also became a Grandmaster.",
+      "source": "ai",
+      "archetype": "ssc-mts-G18",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-151",
+      "section": "gk",
+      "topic": "Sports",
+      "difficulty": "easy",
+      "question": "The term 'bully' is associated with which sport?",
+      "options": [
+        "Polo",
+        "Hockey",
+        "Golf",
+        "Badminton"
+      ],
+      "answer": 1,
+      "explanation": "A 'bully' is used to start or restart play in field hockey.",
+      "source": "ai",
+      "archetype": "ssc-mts-G18",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-152",
+      "section": "gk",
+      "topic": "Books, Authors & Awards",
+      "difficulty": "medium",
+      "question": "Who is the author of the novel 'The Guide'?",
+      "options": [
+        "Mulk Raj Anand",
+        "Raja Rao",
+        "R. K. Narayan",
+        "Ruskin Bond"
+      ],
+      "answer": 2,
+      "explanation": "'The Guide' (1958) by R. K. Narayan won the Sahitya Akademi Award in 1960.",
+      "source": "ai",
+      "archetype": "ssc-mts-G19",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-153",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\nThe postal service is one of the oldest public services in India. For more than a century and a half, the postman has carried letters, money orders and parcels to the remotest villages, often walking long distances in heat and rain. With the arrival of mobile phones and e-mail, many people believed that the post office would soon become useless. Yet India Post has adapted to the new age. Today it runs a bank, the India Post Payments Bank, which helps people in villages receive money and pensions at their doorstep. Post offices also deliver a huge number of parcels for online shopping companies. In this way, an old institution has found new reasons to remain important in people's lives.\n\nWhat did many people believe after the arrival of mobile phones and e-mail?",
+      "options": [
+        "That the post office would soon become useless",
+        "That postmen would walk longer distances",
+        "That letters would become more popular",
+        "That parcels would no longer be sent"
+      ],
+      "answer": 0,
+      "explanation": "The passage says many people believed the post office would soon become useless.",
+      "source": "ai",
+      "archetype": "ssc-mts-E01",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-154",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\nThe postal service is one of the oldest public services in India. For more than a century and a half, the postman has carried letters, money orders and parcels to the remotest villages, often walking long distances in heat and rain. With the arrival of mobile phones and e-mail, many people believed that the post office would soon become useless. Yet India Post has adapted to the new age. Today it runs a bank, the India Post Payments Bank, which helps people in villages receive money and pensions at their doorstep. Post offices also deliver a huge number of parcels for online shopping companies. In this way, an old institution has found new reasons to remain important in people's lives.\n\nAccording to the passage, how does the India Post Payments Bank help people in villages?",
+      "options": [
+        "It gives them free mobile phones",
+        "It lets them receive money and pensions at their doorstep",
+        "It teaches them to send e-mails",
+        "It sells products from online shops"
+      ],
+      "answer": 1,
+      "explanation": "It helps villagers receive money and pensions at their doorstep.",
+      "source": "ai",
+      "archetype": "ssc-mts-E01",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-155",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nThe postal service is one of the oldest public services in India. For more than a century and a half, the postman has carried letters, money orders and parcels to the remotest villages, often walking long distances in heat and rain. With the arrival of mobile phones and e-mail, many people believed that the post office would soon become useless. Yet India Post has adapted to the new age. Today it runs a bank, the India Post Payments Bank, which helps people in villages receive money and pensions at their doorstep. Post offices also deliver a huge number of parcels for online shopping companies. In this way, an old institution has found new reasons to remain important in people's lives.\n\nWhich of the following is the most suitable title for the passage?",
+      "options": [
+        "The End of the Postman",
+        "Mobile Phones in Villages",
+        "An Old Service in a New Age",
+        "How to Send a Parcel"
+      ],
+      "answer": 2,
+      "explanation": "The passage shows how the old postal service has adapted to modern times.",
+      "source": "ai",
+      "archetype": "ssc-mts-E02",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-156",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nThe postal service is one of the oldest public services in India. For more than a century and a half, the postman has carried letters, money orders and parcels to the remotest villages, often walking long distances in heat and rain. With the arrival of mobile phones and e-mail, many people believed that the post office would soon become useless. Yet India Post has adapted to the new age. Today it runs a bank, the India Post Payments Bank, which helps people in villages receive money and pensions at their doorstep. Post offices also deliver a huge number of parcels for online shopping companies. In this way, an old institution has found new reasons to remain important in people's lives.\n\nSelect the word that is closest in meaning to 'remotest' as used in the passage.",
+      "options": [
+        "Most crowded",
+        "Most modern",
+        "Most famous",
+        "Most distant"
+      ],
+      "answer": 3,
+      "explanation": "'Remotest villages' means the most distant or isolated villages.",
+      "source": "ai",
+      "archetype": "ssc-mts-E03",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-157",
+      "section": "english",
+      "topic": "Cloze Test",
+      "difficulty": "easy",
+      "question": "Read the passage and select the most appropriate option for the numbered blank.\n\nTrees are our best friends. They give us fresh air, fruit and shade, and they are home (1) ______ many birds and animals. Their roots hold the soil together and (2) ______ it from being washed away by rain. Sadly, a large number of trees are cut down every year to make room for roads and buildings. We cannot stop development, (3) ______ we can plant more trees to make up for the loss. If every student plants a sapling and (4) ______ after it for just one year, our towns will become (5) ______ and healthier.\n\nSelect the most appropriate option for blank (1).",
+      "options": [
+        "at",
+        "to",
+        "of",
+        "on"
+      ],
+      "answer": 1,
+      "explanation": "The fixed expression is 'home to': the trees are home to many birds.",
+      "source": "ai",
+      "archetype": "ssc-mts-E04",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-158",
+      "section": "english",
+      "topic": "Cloze Test",
+      "difficulty": "easy",
+      "question": "Read the passage and select the most appropriate option for the numbered blank.\n\nTrees are our best friends. They give us fresh air, fruit and shade, and they are home (1) ______ many birds and animals. Their roots hold the soil together and (2) ______ it from being washed away by rain. Sadly, a large number of trees are cut down every year to make room for roads and buildings. We cannot stop development, (3) ______ we can plant more trees to make up for the loss. If every student plants a sapling and (4) ______ after it for just one year, our towns will become (5) ______ and healthier.\n\nSelect the most appropriate option for blank (2).",
+      "options": [
+        "avoid",
+        "refuse",
+        "prevent",
+        "deny"
+      ],
+      "answer": 2,
+      "explanation": "'Prevent something from happening' is the correct pattern; 'avoid', 'refuse' and 'deny' do not take 'it from'.",
+      "source": "ai",
+      "archetype": "ssc-mts-E04",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-159",
+      "section": "english",
+      "topic": "Cloze Test",
+      "difficulty": "easy",
+      "question": "Read the passage and select the most appropriate option for the numbered blank.\n\nTrees are our best friends. They give us fresh air, fruit and shade, and they are home (1) ______ many birds and animals. Their roots hold the soil together and (2) ______ it from being washed away by rain. Sadly, a large number of trees are cut down every year to make room for roads and buildings. We cannot stop development, (3) ______ we can plant more trees to make up for the loss. If every student plants a sapling and (4) ______ after it for just one year, our towns will become (5) ______ and healthier.\n\nSelect the most appropriate option for blank (3).",
+      "options": [
+        "so",
+        "and",
+        "because",
+        "but"
+      ],
+      "answer": 3,
+      "explanation": "The two clauses contrast (cannot stop development / can plant trees), so 'but' is needed.",
+      "source": "ai",
+      "archetype": "ssc-mts-E04",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-160",
+      "section": "english",
+      "topic": "Cloze Test",
+      "difficulty": "medium",
+      "question": "Read the passage and select the most appropriate option for the numbered blank.\n\nTrees are our best friends. They give us fresh air, fruit and shade, and they are home (1) ______ many birds and animals. Their roots hold the soil together and (2) ______ it from being washed away by rain. Sadly, a large number of trees are cut down every year to make room for roads and buildings. We cannot stop development, (3) ______ we can plant more trees to make up for the loss. If every student plants a sapling and (4) ______ after it for just one year, our towns will become (5) ______ and healthier.\n\nSelect the most appropriate option for blank (4).",
+      "options": [
+        "looks",
+        "takes",
+        "cares",
+        "sees"
+      ],
+      "answer": 0,
+      "explanation": "'Look after' means take care of. 'Take after' means resemble, and 'care' takes 'for', not 'after'.",
+      "source": "ai",
+      "archetype": "ssc-mts-E04",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-161",
+      "section": "english",
+      "topic": "Synonyms",
+      "difficulty": "easy",
+      "question": "Select the most appropriate synonym of the given word.\nABANDON",
+      "options": [
+        "Adopt",
+        "Desert",
+        "Dessert",
+        "Retain"
+      ],
+      "answer": 1,
+      "explanation": "Abandon means to leave behind – desert. 'Dessert' is a look-alike; 'adopt' and 'retain' are opposites.",
+      "source": "ai",
+      "archetype": "ssc-mts-E07",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-162",
+      "section": "english",
+      "topic": "Synonyms",
+      "difficulty": "easy",
+      "question": "Select the most appropriate synonym of the given word.\nFRAGILE",
+      "options": [
+        "Sturdy",
+        "Fragrant",
+        "Delicate",
+        "Rigid"
+      ],
+      "answer": 2,
+      "explanation": "Fragile means easily broken – delicate. 'Sturdy' is the opposite and 'fragrant' a look-alike.",
+      "source": "ai",
+      "archetype": "ssc-mts-E07",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-163",
+      "section": "english",
+      "topic": "Antonyms",
+      "difficulty": "easy",
+      "question": "Select the most appropriate antonym of the given word.\nTEMPORARY",
+      "options": [
+        "Transient",
+        "Brief",
+        "Momentary",
+        "Permanent"
+      ],
+      "answer": 3,
+      "explanation": "The opposite of temporary is permanent; the other options are synonyms of temporary.",
+      "source": "ai",
+      "archetype": "ssc-mts-E08",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-164",
+      "section": "english",
+      "topic": "Antonyms",
+      "difficulty": "easy",
+      "question": "Select the most appropriate antonym of the given word.\nGENUINE",
+      "options": [
+        "Fake",
+        "Authentic",
+        "Real",
+        "Pure"
+      ],
+      "answer": 0,
+      "explanation": "Genuine means real; its opposite is fake. Authentic and real are synonyms.",
+      "source": "ai",
+      "archetype": "ssc-mts-E08",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-165",
+      "section": "english",
+      "topic": "Idioms & Phrases",
+      "difficulty": "medium",
+      "question": "Select the most appropriate meaning of the given idiom.\nTo bite off more than one can chew",
+      "options": [
+        "To eat too quickly",
+        "To take on a task that is too big for one",
+        "To speak rudely to elders",
+        "To waste food"
+      ],
+      "answer": 1,
+      "explanation": "The idiom means to attempt more than one can manage; 'to eat too quickly' is the literal reading.",
+      "source": "ai",
+      "archetype": "ssc-mts-E09",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-166",
+      "section": "english",
+      "topic": "Idioms & Phrases",
+      "difficulty": "medium",
+      "question": "Select the most appropriate meaning of the given idiom.\nTo hit the nail on the head",
+      "options": [
+        "To hurt oneself while working",
+        "To punish someone severely",
+        "To describe something exactly right",
+        "To finish work in a hurry"
+      ],
+      "answer": 2,
+      "explanation": "'Hit the nail on the head' means to say or do exactly the right thing.",
+      "source": "ai",
+      "archetype": "ssc-mts-E09",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-167",
+      "section": "english",
+      "topic": "One-word Substitution",
+      "difficulty": "medium",
+      "question": "Select the option that can be used as a one-word substitute for the given group of words.\nA person who loves and collects books",
+      "options": [
+        "Bibliophile",
+        "Philanthropist",
+        "Bibliographer",
+        "Librarian"
+      ],
+      "answer": 0,
+      "explanation": "A bibliophile loves books. A bibliographer compiles lists of books; a philanthropist helps others.",
+      "source": "ai",
+      "archetype": "ssc-mts-E10",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-168",
+      "section": "english",
+      "topic": "One-word Substitution",
+      "difficulty": "medium",
+      "question": "Select the option that can be used as a one-word substitute for the given group of words.\nA list of items to be discussed at a meeting",
+      "options": [
+        "Minutes",
+        "Memo",
+        "Agenda",
+        "Manifesto"
+      ],
+      "answer": 2,
+      "explanation": "The agenda lists items to be discussed; the minutes record what was discussed after the meeting.",
+      "source": "ai",
+      "archetype": "ssc-mts-E10",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-169",
+      "section": "english",
+      "topic": "Spelling Correction",
+      "difficulty": "easy",
+      "question": "Select the INCORRECTLY spelt word.",
+      "options": [
+        "Calendar",
+        "Definite",
+        "Business",
+        "Tommorow"
+      ],
+      "answer": 3,
+      "explanation": "The correct spelling is 'tomorrow' – one 'm' and double 'r'.",
+      "source": "ai",
+      "archetype": "ssc-mts-E11",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-170",
+      "section": "english",
+      "topic": "Error Spotting",
+      "difficulty": "medium",
+      "question": "The following sentence has been divided into parts. One of them may contain an error. Select the part that contains the error, or 'No error'.\nThe furniture in these rooms / are very old / and needs repair.",
+      "options": [
+        "The furniture in these rooms",
+        "are very old",
+        "and needs repair.",
+        "No error"
+      ],
+      "answer": 1,
+      "explanation": "'Furniture' is an uncountable noun and takes a singular verb: 'is very old'.",
+      "source": "ai",
+      "archetype": "ssc-mts-E12",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-171",
+      "section": "english",
+      "topic": "Error Spotting",
+      "difficulty": "medium",
+      "question": "The following sentence has been divided into parts. One of them may contain an error. Select the part that contains the error, or 'No error'.\nIf I will get leave / I will visit / my grandparents.",
+      "options": [
+        "If I will get leave",
+        "I will visit",
+        "my grandparents.",
+        "No error"
+      ],
+      "answer": 0,
+      "explanation": "In a first conditional the if-clause takes the simple present: 'If I get leave, I will visit…'.",
+      "source": "ai",
+      "archetype": "ssc-mts-E13",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-172",
+      "section": "english",
+      "topic": "Fill in the Blanks",
+      "difficulty": "medium",
+      "question": "Select the most appropriate option to fill in the blank.\nNeither the teacher nor the students ______ present in the class yesterday.",
+      "options": [
+        "was",
+        "were",
+        "is",
+        "has been"
+      ],
+      "answer": 1,
+      "explanation": "With 'neither…nor' the verb agrees with the nearer subject ('students', plural) and the time is past: 'were'.",
+      "source": "ai",
+      "archetype": "ssc-mts-E06",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-173",
+      "section": "english",
+      "topic": "Fill in the Blanks",
+      "difficulty": "medium",
+      "question": "Select the most appropriate option to fill in the blank.\nThe police ______ a case against the shopkeeper for selling fake medicines.",
+      "options": [
+        "enrolled",
+        "admitted",
+        "entered",
+        "registered"
+      ],
+      "answer": 3,
+      "explanation": "Police 'register' a case (FIR). The other words do not collocate with 'case' in this sense.",
+      "source": "ai",
+      "archetype": "ssc-mts-E05",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-174",
+      "section": "english",
+      "topic": "Sentence Improvement",
+      "difficulty": "medium",
+      "question": "Select the most appropriate option to improve the bracketed part of the sentence.\nI prefer tea [than] coffee.",
+      "options": [
+        "from",
+        "to",
+        "with",
+        "No improvement"
+      ],
+      "answer": 1,
+      "explanation": "'Prefer' is followed by 'to': I prefer tea to coffee.",
+      "source": "ai",
+      "archetype": "ssc-mts-E14",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-175",
+      "section": "english",
+      "topic": "Sentence Improvement",
+      "difficulty": "medium",
+      "question": "Select the most appropriate option to improve the bracketed part of the sentence.\nThe bus [has left] before we reached the stop.",
+      "options": [
+        "had left",
+        "have left",
+        "leaves",
+        "No improvement"
+      ],
+      "answer": 0,
+      "explanation": "Of two past actions, the earlier one takes the past perfect: 'The bus had left before we reached'.",
+      "source": "ai",
+      "archetype": "ssc-mts-E14",
+      "verified": false
+    },
+    {
+      "id": "ssc-mts-176",
+      "section": "english",
+      "topic": "Active & Passive Voice",
+      "difficulty": "medium",
+      "question": "Select the option that expresses the given sentence in passive voice.\nThe teacher will check the answer sheets.",
+      "options": [
+        "The answer sheets would be checked by the teacher.",
+        "The answer sheets will be checked by the teacher.",
+        "The answer sheets will have been checked by the teacher.",
+        "The answer sheets are checked by the teacher."
+      ],
+      "answer": 1,
+      "explanation": "Simple future active 'will check' becomes 'will be checked' in the passive.",
+      "source": "ai",
+      "archetype": "ssc-mts-E15",
+      "verified": false
     }
   ]
 }
