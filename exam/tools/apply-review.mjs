@@ -31,6 +31,8 @@ e.questions = e.questions.filter(q => {
   stats.kept++;
   return true;
 });
+// a passage whose questions were all removed is dropped too
+if (e.passages) e.passages = e.passages.filter(p => e.questions.some(q => q.passage === p.id));
 fs.writeFileSync(file, JSON.stringify(e, null, 2) + '\n');
 console.log(`${id}: ${JSON.stringify(stats)}; bank now ${e.questions.length}`);
 for (const f of failed) console.log(`  ✗ ${f.id} ${f.why} (score ${f.score}, reviewer ${f.reviewerAnswer} vs key ${f.key}): ${f.note || ''}`);

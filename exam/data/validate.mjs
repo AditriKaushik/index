@@ -42,6 +42,7 @@ for (const file of files) {
   const passages = new Map((e.passages || []).map(p => [p.id, p]));
   if (passages.size !== (e.passages || []).length) errs.push('duplicate passage id');
   for (const p of passages.values()) if (!p.text || !secIds.has(p.section)) errs.push(`passage ${p.id}: needs text and a valid section`);
+  for (const id of passages.keys()) if (!(e.questions || []).some(q => q.passage === id)) errs.push(`passage ${id}: no questions use it`);
   const ids = new Set();
   let verified = 0, relevant = 0, scoreSum = 0, ai = 0;
   const perSec = {};
