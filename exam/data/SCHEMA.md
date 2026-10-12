@@ -30,7 +30,7 @@ Questions must be ORIGINAL, written in the style/difficulty/topic mix of the las
     "durationMinutes": 60,
     "totalQuestions": 100,
     "totalMarks": 200,
-    "marking": { "correct": 2, "wrong": -0.5, "unattempted": 0 },
+    "marking": { "correct": 2, "wrong": -0.5, "unattempted": 0 },   // optional "numericalWrong": mark for a wrong numerical answer (e.g. 0)
     "sections": [ { "id": "reasoning", "name": "General Intelligence & Reasoning", "questions": 25, "marks": 50 } ],  // optional per section: "wrong": 0 to override negative marking
     "notes": "Anything special (sectional timing, normalisation, …)"
   },
@@ -63,6 +63,8 @@ Questions must be ORIGINAL, written in the style/difficulty/topic mix of the las
       "figure": "<svg …>…</svg>",       // optional: inline SVG for figure-based questions (no script/links, < 20 kB, viewBox set)
       "optionFigures": ["<svg…>", …],    // optional: one SVG per option when the options are figures (options then hold short labels like "Figure 1")
       "options": ["A", "B", "C", "D"],  // exactly 4 unless the exam really uses another count
+      "type": "mcq",                    // optional: "mcq" (default, one correct), "msq" (one or more correct; answer = array of indices,
+                                        //   JEE-Advanced partial marking) or "numerical" (no options; answer = number, optional "tolerance")
       "answer": 2,                      // 0-based index of the correct option
       "explanation": "Short worked solution showing why the answer is right.",
       "source": "ai",                   // "ai" (generated) or "curated" (first research round)
