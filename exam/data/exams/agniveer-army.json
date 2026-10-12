@@ -3275,9 +3275,14 @@
       ],
       "answer": 2,
       "explanation": "The differences are 4, 6, 8, 10, so the next one is 12: 30 + 12 = 42. (Each term is n(n + 1): 6 × 7 = 42.)",
-      "verified": false,
+      "verified": true,
       "archetype": "agniveer-army-R01",
-      "source": "ai"
+      "source": "ai",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "n(n+1) series exactly Agniveer CEE level; 40/44/36 near-miss distractors"
+      }
     },
     {
       "id": "agniveer-army-122",
@@ -3293,9 +3298,14 @@
       ],
       "answer": 0,
       "explanation": "Each term is (previous × 2) + 1: 63 × 2 + 1 = 127.",
-      "verified": false,
+      "verified": true,
       "archetype": "agniveer-army-R01",
-      "source": "ai"
+      "source": "ai",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "x2+1 series, standard CEE; distractors only 1-2 off, plausible"
+      }
     },
     {
       "id": "agniveer-army-123",
@@ -3311,9 +3321,14 @@
       ],
       "answer": 3,
       "explanation": "Positions 2, 5, 10, 17 increase by 3, 5, 7, so the next gap is 9: 17 + 9 = 26 = Z.",
-      "verified": false,
+      "verified": true,
       "archetype": "agniveer-army-R02",
-      "source": "ai"
+      "source": "ai",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Letter series with gaps 3,5,7,9 - typical Agniveer letter-series"
+      }
     },
     {
       "id": "agniveer-army-124",
@@ -3329,9 +3344,14 @@
       ],
       "answer": 1,
       "explanation": "Each letter is replaced by its opposite letter in the alphabet (position p → 27 − p): A→Z, R→I, M→N, Y→B. So N→M, A→Z, V→E, Y→B, giving MZEB.",
-      "verified": false,
+      "verified": true,
       "archetype": "agniveer-army-R03",
-      "source": "ai"
+      "source": "ai",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Opposite-letter (A<->Z) coding with army word; options differ by one letter as in CEE"
+      }
     },
     {
       "id": "agniveer-army-125",
@@ -3347,27 +3367,14 @@
       ],
       "answer": 2,
       "explanation": "A pen is the tool of a writer, and a scalpel is the tool of a surgeon. A butcher uses a cleaver, not a scalpel.",
-      "verified": false,
+      "verified": true,
       "archetype": "agniveer-army-R04",
-      "source": "ai"
-    },
-    {
-      "id": "agniveer-army-126",
-      "section": "reasoning",
-      "topic": "Analogy & Classification",
-      "difficulty": "easy",
-      "question": "Find the odd one out:",
-      "options": [
-        "64",
-        "125",
-        "144",
-        "216"
-      ],
-      "answer": 2,
-      "explanation": "64 = 4³, 125 = 5³ and 216 = 6³ are perfect cubes. 144 = 12² is a perfect square but not a cube.",
-      "verified": false,
-      "archetype": "agniveer-army-R05",
-      "source": "ai"
+      "source": "ai",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Tool:user analogy, exactly the CEE function analogy type"
+      }
     },
     {
       "id": "agniveer-army-127",
@@ -3383,9 +3390,14 @@
       ],
       "answer": 1,
       "explanation": "Taking the camp as (0, 0): north 5 → (0, 5); right (east) 3 → (3, 5); right again (south) 9 → (3, −4). Distance = √(3² + 4²) = 5 km, to the South-East.",
-      "verified": false,
+      "verified": true,
       "archetype": "agniveer-army-R06",
-      "source": "ai"
+      "source": "ai",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Classic turns-and-distance with 3-4-5 triple; direction-swapped distractors"
+      }
     },
     {
       "id": "agniveer-army-128",
@@ -3401,9 +3413,14 @@
       ],
       "answer": 3,
       "explanation": "Raman's grandfather's only son is Raman's father. The daughter of Raman's father is Raman's sister.",
-      "verified": false,
+      "verified": true,
       "archetype": "agniveer-army-R07",
-      "source": "ai"
+      "source": "ai",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Photograph-pointing blood relation, exactly CEE style; Cousin/Niece distractors"
+      }
     }
   ]
 }

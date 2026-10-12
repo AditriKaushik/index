@@ -3228,9 +3228,14 @@
       ],
       "answer": 1,
       "explanation": "'Since the same steps are repeated day after day' signals that the routine seems tedious (boring and repetitive).",
-      "verified": false,
+      "verified": true,
       "archetype": "afcat-E09",
-      "source": "ai"
+      "source": "ai",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Defence-themed cloze like AFCAT 2024-25; 'tedious' set by 'repeated day after day' clue, distractors are tone opposites"
+      }
     },
     {
       "id": "afcat-122",
@@ -3246,9 +3251,14 @@
       ],
       "answer": 3,
       "explanation": "Accidents come from small lapses (minor errors or failures of attention) that pass unnoticed. The other options only look similar.",
-      "verified": false,
+      "verified": true,
       "archetype": "afcat-E09",
-      "source": "ai"
+      "source": "ai",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Look-alike distractors (laps/lapels/leaps) mirror AFCAT cloze trap; 'small lapses' collocation"
+      }
     },
     {
       "id": "afcat-123",
@@ -3264,9 +3274,14 @@
       ],
       "answer": 0,
       "explanation": "A 'seasoned professional' is an experienced one, and complacency threatens experienced people most. 'Seasonal' is a look-alike meaning 'of a season'.",
-      "verified": false,
+      "verified": true,
       "archetype": "afcat-E09",
-      "source": "ai"
+      "source": "ai",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "'seasoned professional' collocation vs seasonal/salted near-forms; slightly easy but faithful to AFCAT cloze"
+      }
     },
     {
       "id": "afcat-124",
@@ -3282,9 +3297,14 @@
       ],
       "answer": 2,
       "explanation": "Tenacious means holding firmly to a purpose, i.e. persistent. 'Yielding' is the opposite, and 'tentative' and 'tedious' are look-alikes.",
-      "verified": false,
+      "verified": true,
       "archetype": "afcat-E01",
-      "source": "ai"
+      "source": "ai",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Single-word synonym exactly as AFCAT; Tentative/Tedious look-alike distractors as in real papers"
+      }
     },
     {
       "id": "afcat-125",
@@ -3300,9 +3320,14 @@
       ],
       "answer": 1,
       "explanation": "Austere means severe, plain and without luxury, so the opposite is lavish. 'Severe' is a synonym that has been planted in the options.",
-      "verified": false,
+      "verified": true,
       "archetype": "afcat-E02",
-      "source": "ai"
+      "source": "ai",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "AFCAT antonym with synonym 'Severe' planted, matching archetype trap"
+      }
     },
     {
       "id": "afcat-126",
@@ -3318,9 +3343,14 @@
       ],
       "answer": 3,
       "explanation": "Throwing down a gauntlet (armoured glove) was a medieval challenge to combat, so the idiom means to issue a challenge. 'Surrender' confuses it with 'throw in the towel'.",
-      "verified": false,
+      "verified": true,
       "archetype": "afcat-E07",
-      "source": "ai"
+      "source": "ai",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Common idiom, literal/defeat-type distractors; very AFCAT-like"
+      }
     },
     {
       "id": "afcat-127",
@@ -3336,27 +3366,14 @@
       ],
       "answer": 1,
       "explanation": "A subject joined by 'along with' keeps the number of the first noun. 'The instructor' is singular, so part B should read 'was present'.",
-      "verified": false,
+      "verified": true,
       "archetype": "afcat-E03",
-      "source": "ai"
-    },
-    {
-      "id": "afcat-128",
-      "section": "english",
-      "topic": "Error Detection",
-      "difficulty": "easy",
-      "question": "Identify the part of the sentence that contains an error.\nThe squadron leader asked me (A) / at the end of the briefing (B) / that why I had come late. (C) / No error (D)",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2,
-      "explanation": "In reported questions, 'that' is not used before the question word: 'asked me why I had come late'.",
-      "verified": false,
-      "archetype": "afcat-E04",
-      "source": "ai"
+      "source": "ai",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "'along with' agreement error - staple AFCAT error-spotting item"
+      }
     }
   ]
 }
