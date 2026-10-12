@@ -895,7 +895,12 @@
       "explanation": "Clockwise from A: A, D, F, B, E, C (facing the centre, left = clockwise). B's immediate right (anticlockwise) is F.",
       "verified": true,
       "archetype": "ibps-rrb-po-R03",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "6-person circle, unique ADFBEC; RRB PO-level though small"
+      }
     },
     {
       "id": "ibps-rrb-po-002",
@@ -952,7 +957,12 @@
       "explanation": "Left to right (west to east): U (N), Q (S), S (N), P (S), T (N), R (S). Q, P and R face south — three.",
       "verified": true,
       "archetype": "ibps-rrb-po-R02",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Mixed-facing 6-person row, unique; R02 faithful"
+      }
     },
     {
       "id": "ibps-rrb-po-005",
@@ -971,7 +981,12 @@
       "explanation": "Row (west→east): U (N), Q (S), S (N), P (S), T (N), R (S). Q faces south, so his right is towards the west — U.",
       "verified": true,
       "archetype": "ibps-rrb-po-R02",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Right of south-facing Q = U; orientation trap"
+      }
     },
     {
       "id": "ibps-rrb-po-006",
@@ -990,7 +1005,12 @@
       "explanation": "Row (west→east): U, Q, S, P, T, R. P sits between S and T.",
       "verified": true,
       "archetype": "ibps-rrb-po-R02",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Between S and T = P"
+      }
     },
     {
       "id": "ibps-rrb-po-007",
@@ -1009,7 +1029,12 @@
       "explanation": "G must be in March (January leaves no month for H; May would put L in June, which is I's). So H Feb, L Apr (Delhi), Agra in May. K before J gives K Jan (Goa), J May (Agra).",
       "verified": true,
       "archetype": "ibps-rrb-po-R05",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Month+city scheduling with 31-day clue; unique"
+      }
     },
     {
       "id": "ibps-rrb-po-008",
@@ -1028,7 +1053,12 @@
       "explanation": "G travels in March, so H (immediately before G) travels in February.",
       "verified": true,
       "archetype": "ibps-rrb-po-R05",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "H in February"
+      }
     },
     {
       "id": "ibps-rrb-po-009",
@@ -1047,7 +1077,12 @@
       "explanation": "Order: K (Jan, Goa), H (Feb, Leh), G (Mar, Pune), L (Apr, Delhi), J (May, Agra), I (Jun, Ooty). Between K and L: H and G — two.",
       "verified": true,
       "archetype": "ibps-rrb-po-R05",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Between K and L = 2"
+      }
     },
     {
       "id": "ibps-rrb-po-010",
@@ -1066,7 +1101,12 @@
       "explanation": "Bottom to top: O, S, M, Q, N, R, P. S is second from the bottom.",
       "verified": true,
       "archetype": "ibps-rrb-po-R06",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "7-box stack unique OSMQNRP"
+      }
     },
     {
       "id": "ibps-rrb-po-011",
@@ -1085,7 +1125,12 @@
       "explanation": "Bottom to top: O, S, M, Q, N, R, P. Between O (1) and N (5) are S, M and Q — three.",
       "verified": true,
       "archetype": "ibps-rrb-po-R06",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Boxes between O and N = 3"
+      }
     },
     {
       "id": "ibps-rrb-po-012",
@@ -1199,7 +1244,12 @@
       "explanation": "Buses are trucks and no bus is a car, so some trucks are not cars (I). Vans are only linked to trucks; nothing stops all vans from being cars (II is possible). Both follow.",
       "verified": true,
       "archetype": "ibps-rrb-po-R11",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "No/All/Some with possibility conclusion; good RRB trap"
+      }
     },
     {
       "id": "ibps-rrb-po-018",
@@ -1237,7 +1287,12 @@
       "explanation": "K ≥ J > I > H ≥ G gives K > G and H < J. Both follow.",
       "verified": true,
       "archetype": "ibps-rrb-po-R13",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Three-statement inequality"
+      }
     },
     {
       "id": "ibps-rrb-po-020",
@@ -1275,7 +1330,12 @@
       "explanation": "Letters move +1, −1 alternately: W+1, A−1, T+1, E−1, R+1. FIELD → F+1 = G, I−1 = H, E+1 = F, L−1 = K, D+1 = E = GHFKE.",
       "verified": true,
       "archetype": "ibps-rrb-po-R19",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Alternating +1/-1 code"
+      }
     },
     {
       "id": "ibps-rrb-po-022",
@@ -1294,7 +1354,12 @@
       "explanation": "M and N are children of P and O. Q is P's brother, so M is Q's niece.",
       "verified": true,
       "archetype": "ibps-rrb-po-R15",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Niece chain; standard"
+      }
     },
     {
       "id": "ibps-rrb-po-023",
@@ -1313,7 +1378,12 @@
       "explanation": "Q + R: Q is R's father. R − S: R is S's wife. So Q is the father of S's wife — S's father-in-law.",
       "verified": true,
       "archetype": "ibps-rrb-po-R16",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Symbol-coded relation to father-in-law; R16 faithful"
+      }
     },
     {
       "id": "ibps-rrb-po-024",
@@ -1370,7 +1440,12 @@
       "explanation": "Rita's new place is Monika's old place: 22nd from the left and 17th from the right. Total = 22 + 17 − 1 = 38.",
       "verified": true,
       "archetype": "ibps-rrb-po-R21",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Interchange-position total count"
+      }
     },
     {
       "id": "ibps-rrb-po-027",
@@ -1389,7 +1464,12 @@
       "explanation": "9th from the right = 27 − 9 = 18th letter = R. 5th to its left = 13th letter = M.",
       "verified": true,
       "archetype": "ibps-rrb-po-R23",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Alphabet position from right then left"
+      }
     },
     {
       "id": "ibps-rrb-po-028",
@@ -1408,7 +1488,12 @@
       "explanation": "D (3 D @) and K (8 K %) qualify; F is followed by H and M has nothing after it. Two.",
       "verified": true,
       "archetype": "ibps-rrb-po-R22",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Letters between number and symbol count"
+      }
     },
     {
       "id": "ibps-rrb-po-029",
@@ -1427,7 +1512,12 @@
       "explanation": "New numbers: 379, 248, 156, 249, 368. In descending order: 379, 368, 249, 248, 156. The second largest, 368, comes from 368.",
       "verified": true,
       "archetype": "ibps-rrb-po-R26",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Digit-sort number formation"
+      }
     },
     {
       "id": "ibps-rrb-po-030",
@@ -1465,7 +1555,12 @@
       "explanation": "35% of 60 hundred = 21 hundred = 2,100.",
       "verified": true,
       "archetype": "ibps-rrb-po-Q02",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Women count from % column"
+      }
     },
     {
       "id": "ibps-rrb-po-032",
@@ -1484,7 +1579,12 @@
       "explanation": "A men = 70% of 40 = 28; C men = 75% of 48 = 36. 28 : 36 = 7 : 9.",
       "verified": true,
       "archetype": "ibps-rrb-po-Q02",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Men ratio from % column"
+      }
     },
     {
       "id": "ibps-rrb-po-033",
@@ -1503,7 +1603,12 @@
       "explanation": "(40 + 55 + 48 + 60 + 45) = 248 hundred; 248/5 = 49.6 hundred = 4,960.",
       "verified": true,
       "archetype": "ibps-rrb-po-Q02",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Average farmers"
+      }
     },
     {
       "id": "ibps-rrb-po-034",
@@ -1522,7 +1627,12 @@
       "explanation": "A women = 12, E women = 18 → 30 hundred. 30/48 × 100 = 62.5%.",
       "verified": true,
       "archetype": "ibps-rrb-po-Q02",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Combined derived value as % of another"
+      }
     },
     {
       "id": "ibps-rrb-po-035",
@@ -1541,7 +1651,12 @@
       "explanation": "2025: 20% of 55 = 11 hundred. 2026: 66 × 30% = 19.8 hundred. Increase = 8.8 hundred = 880.",
       "verified": true,
       "archetype": "ibps-rrb-po-Q02",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Projected change with new %; good derived question"
+      }
     },
     {
       "id": "ibps-rrb-po-036",
@@ -1560,7 +1675,12 @@
       "explanation": "X = 4,800; Y + Z = 7,200 and Y − Z = 1,200 → Y = 4,200, Z = 3,000.",
       "verified": true,
       "archetype": "ibps-rrb-po-Q03",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Milk cooperative caselet, RRB rural theme"
+      }
     },
     {
       "id": "ibps-rrb-po-037",
@@ -1579,7 +1699,12 @@
       "explanation": "Z = 3,000 litres × ₹42 = ₹1,26,000.",
       "verified": true,
       "archetype": "ibps-rrb-po-Q03",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Payment to Z"
+      }
     },
     {
       "id": "ibps-rrb-po-038",
@@ -1598,7 +1723,12 @@
       "explanation": "X = 4,800 × 40 = ₹1,92,000; Y = 4,200 × 38 = ₹1,59,600. Ratio = 1920 : 1596 = 160 : 133.",
       "verified": true,
       "archetype": "ibps-rrb-po-Q03",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Payment ratio with reversed distractor"
+      }
     },
     {
       "id": "ibps-rrb-po-039",
@@ -1617,7 +1747,12 @@
       "explanation": "Total = 1,92,000 + 1,59,600 + 1,26,000 = ₹4,77,600. 4,77,600/12,000 = ₹39.80.",
       "verified": true,
       "archetype": "ibps-rrb-po-Q03",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Weighted average price"
+      }
     },
     {
       "id": "ibps-rrb-po-040",
@@ -1655,7 +1790,12 @@
       "explanation": "√1296 = 36; 36 ÷ 4 = 9; 9 × 7 = 63; 63 + 17 = 80.",
       "verified": true,
       "archetype": "ibps-rrb-po-Q11",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Root-division-product chain"
+      }
     },
     {
       "id": "ibps-rrb-po-042",
@@ -1674,7 +1814,12 @@
       "explanation": "≈ 60% of 350 + 12 × 15 = 210 + 180 = 390.",
       "verified": true,
       "archetype": "ibps-rrb-po-Q12",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Approximation %, product"
+      }
     },
     {
       "id": "ibps-rrb-po-043",
@@ -1693,7 +1838,12 @@
       "explanation": "Multipliers ×2, ×3, ×4, ×5, next ×6: 720 × 6 = 4320.",
       "verified": true,
       "archetype": "ibps-rrb-po-Q09",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "xn increasing series"
+      }
     },
     {
       "id": "ibps-rrb-po-044",
@@ -1712,7 +1862,12 @@
       "explanation": "Differences 4, 9, 16, 25 (squares); next 36: 67 + 36 = 103.",
       "verified": true,
       "archetype": "ibps-rrb-po-Q09",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Squares-difference series"
+      }
     },
     {
       "id": "ibps-rrb-po-045",
@@ -1731,7 +1886,12 @@
       "explanation": "Differences should be consecutive primes 5, 7, 11, 13, 17: 5, 10, 17, 28, 41, 58. 29 should be 28.",
       "verified": true,
       "archetype": "ibps-rrb-po-Q10",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Prime-difference wrong number (29 vs 28); good"
+      }
     },
     {
       "id": "ibps-rrb-po-046",
@@ -1750,7 +1910,12 @@
       "explanation": "×1 + 1, ×2 + 2, ×3 + 3, ×4 + 4, next ×5 + 5: 136 × 5 + 5 = 685.",
       "verified": true,
       "archetype": "ibps-rrb-po-Q09",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "xn+n series"
+      }
     },
     {
       "id": "ibps-rrb-po-047",
@@ -1788,7 +1953,12 @@
       "explanation": "x = −6, −7; y = −5, −6. Each x is less than or equal to each y (−6 = −6), so x ≤ y.",
       "verified": true,
       "archetype": "ibps-rrb-po-Q07",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Negative roots with overlap -> x<=y"
+      }
     },
     {
       "id": "ibps-rrb-po-049",
@@ -1807,7 +1977,12 @@
       "explanation": "I: (3x − 2)(x − 4) = 0 → x = 2/3, 4. II: (2y − 3)(y − 4) = 0 → y = 1.5, 4. x = 4 > y = 1.5 but x = 2/3 < y = 1.5, so no definite relation.",
       "verified": true,
       "archetype": "ibps-rrb-po-Q07",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Fractional roots with common root -> CBE"
+      }
     },
     {
       "id": "ibps-rrb-po-050",
@@ -1864,7 +2039,12 @@
       "explanation": "He gives 900 g for the price of 1000 g: profit = 100/900 × 100 = 11 1/9%.",
       "verified": true,
       "archetype": "ibps-rrb-po-Q14",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "False-weight profit 11 1/9%"
+      }
     },
     {
       "id": "ibps-rrb-po-053",
@@ -1902,7 +2082,12 @@
       "explanation": "3D + 8 = 2(D + 8) → D = 8, mother = 24 years.",
       "verified": true,
       "archetype": "ibps-rrb-po-Q17",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Mother-daughter multiple ages"
+      }
     },
     {
       "id": "ibps-rrb-po-055",
@@ -1940,7 +2125,12 @@
       "explanation": "Downstream 36/18 = 2 h; upstream 36/12 = 3 h. Total 5 h.",
       "verified": true,
       "archetype": "ibps-rrb-po-Q21",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Round trip in stream"
+      }
     },
     {
       "id": "ibps-rrb-po-057",
@@ -1959,7 +2149,12 @@
       "explanation": "(L + 200)/20 = (L + 400)/30 → 30L + 6000 = 20L + 8000 → L = 200 m.",
       "verified": true,
       "archetype": "ibps-rrb-po-Q20",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Platform vs bridge train length"
+      }
     },
     {
       "id": "ibps-rrb-po-058",
@@ -2035,7 +2230,12 @@
       "explanation": "Floor 4: G (X), B (Y); floor 3: D (X), H (Y); floor 2: A (X), F (Y); floor 1: E (X), C (Y). G lives in flat X of floor 4.",
       "source": "ai",
       "archetype": "ibps-rrb-po-R04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "4-floor two-flat puzzle, unique; RRB R04 faithful"
+      }
     },
     {
       "id": "ibps-rrb-po-062",
@@ -2054,7 +2254,12 @@
       "explanation": "Floor 4: G (X), B (Y); floor 3: D (X), H (Y); floor 2: A (X), F (Y); floor 1: E (X), C (Y). D shares floor 3 with H.",
       "source": "ai",
       "archetype": "ibps-rrb-po-R04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Same floor as H = D"
+      }
     },
     {
       "id": "ibps-rrb-po-063",
@@ -2073,7 +2278,12 @@
       "explanation": "Floor 4: G (X), B (Y); floor 3: D (X), H (Y); floor 2: A (X), F (Y); floor 1: E (X), C (Y). A lives in flat X of floor 2, directly below D.",
       "source": "ai",
       "archetype": "ibps-rrb-po-R04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Below D = A"
+      }
     },
     {
       "id": "ibps-rrb-po-064",
@@ -2092,7 +2302,12 @@
       "explanation": "Floor 4: G (X), B (Y); floor 3: D (X), H (Y); floor 2: A (X), F (Y); floor 1: E (X), C (Y). F, H and B live in flat Y above C — three persons.",
       "source": "ai",
       "archetype": "ibps-rrb-po-R04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Persons above C in flat Y = 3"
+      }
     },
     {
       "id": "ibps-rrb-po-065",
@@ -2111,7 +2326,12 @@
       "explanation": "West to east: M (N), Q (S), J (N), O (N), K (S), P (N), N (S), L (S). Q, K, N and L face south.",
       "source": "ai",
       "archetype": "ibps-rrb-po-R02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "8-person mixed-facing row, unique; strong"
+      }
     },
     {
       "id": "ibps-rrb-po-066",
@@ -2130,7 +2350,12 @@
       "explanation": "West to east: M (N), Q (S), J (N), O (N), K (S), P (N), N (S), L (S). O faces north, so its left is west: J, then Q — Q is second to the left of O.",
       "source": "ai",
       "archetype": "ibps-rrb-po-R02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "2nd left of O = Q"
+      }
     },
     {
       "id": "ibps-rrb-po-067",
@@ -2149,7 +2374,12 @@
       "explanation": "West to east: M (N), Q (S), J (N), O (N), K (S), P (N), N (S), L (S). N faces south, so its right is west: P.",
       "source": "ai",
       "archetype": "ibps-rrb-po-R02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Right of south-facing N = P"
+      }
     },
     {
       "id": "ibps-rrb-po-068",
@@ -2168,7 +2398,12 @@
       "explanation": "West to east: M (N), Q (S), J (N), O (N), K (S), P (N), N (S), L (S). M (west end) and L (east end).",
       "source": "ai",
       "archetype": "ibps-rrb-po-R02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Extreme ends M, L"
+      }
     },
     {
       "id": "ibps-rrb-po-069",
@@ -2187,7 +2422,12 @@
       "explanation": "Mon: C (morning), H (evening); Tue: F, A; Thu: B, G; Fri: E, D. G has the Thursday evening meeting.",
       "source": "ai",
       "archetype": "ibps-rrb-po-R05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Day+morning/evening meetings, unique"
+      }
     },
     {
       "id": "ibps-rrb-po-070",
@@ -2206,7 +2446,12 @@
       "explanation": "Mon: C (morning), H (evening); Tue: F, A; Thu: B, G; Fri: E, D. A (Tue evening) and B (Thu morning) lie between F and G.",
       "source": "ai",
       "archetype": "ibps-rrb-po-R05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Between F and G = 2"
+      }
     },
     {
       "id": "ibps-rrb-po-071",
@@ -2225,7 +2470,12 @@
       "explanation": "Mon: C (morning), H (evening); Tue: F, A; Thu: B, G; Fri: E, D. C and H both have meetings on Monday.",
       "source": "ai",
       "archetype": "ibps-rrb-po-R05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Same day as H = C"
+      }
     },
     {
       "id": "ibps-rrb-po-072",
@@ -2244,7 +2494,12 @@
       "explanation": "Mon: C (morning), H (evening); Tue: F, A; Thu: B, G; Fri: E, D. After Tuesday evening (A) comes Thursday morning (B).",
       "source": "ai",
       "archetype": "ibps-rrb-po-R05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "After A = B"
+      }
     },
     {
       "id": "ibps-rrb-po-073",
@@ -2263,7 +2518,12 @@
       "explanation": "Clockwise from A: A, D, G, B, F, C, H, E. For persons facing away from the centre, right is clockwise. Opposite G (4 seats away) is H.",
       "source": "ai",
       "archetype": "ibps-rrb-po-R03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "8-person circle facing outward, unique"
+      }
     },
     {
       "id": "ibps-rrb-po-074",
@@ -2282,7 +2542,12 @@
       "explanation": "Clockwise from A: A, D, G, B, F, C, H, E. For persons facing away from the centre, right is clockwise. Moving clockwise from H: E, A — A is second to the right of H.",
       "source": "ai",
       "archetype": "ibps-rrb-po-R03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "2nd right of H = A (outward-facing trap)"
+      }
     },
     {
       "id": "ibps-rrb-po-075",
@@ -2301,7 +2566,12 @@
       "explanation": "Clockwise from A: A, D, G, B, F, C, H, E. For persons facing away from the centre, right is clockwise. Clockwise from D: G, B, F, then C — three persons in between.",
       "source": "ai",
       "archetype": "ibps-rrb-po-R03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Clockwise count D to C = 3"
+      }
     },
     {
       "id": "ibps-rrb-po-076",
@@ -2320,7 +2590,12 @@
       "explanation": "The pages that are covers cannot be pens, so I follows. Books and covers have no definite link, so II does not follow.",
       "source": "ai",
       "archetype": "ibps-rrb-po-R11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Three-statement syllogism"
+      }
     },
     {
       "id": "ibps-rrb-po-077",
@@ -2339,7 +2614,12 @@
       "explanation": "'Only a few rings are bands' gives some rings are bands, so some bands are rings (II follows). The rings that are not bands may all be chains — nothing forbids all chains being rings, so I is a valid possibility. Both follow.",
       "source": "ai",
       "archetype": "ibps-rrb-po-R12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Only-a-few with possibility"
+      }
     },
     {
       "id": "ibps-rrb-po-078",
@@ -2358,7 +2638,12 @@
       "explanation": "Q ≥ R ≤ T gives no relation between Q and T, so I does not follow. U ≥ T ≥ R > S gives U > S, so II follows.",
       "source": "ai",
       "archetype": "ibps-rrb-po-R13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Inequality only II"
+      }
     },
     {
       "id": "ibps-rrb-po-079",
@@ -2377,7 +2662,12 @@
       "explanation": "C ≥ D, so either C > D or C = D. Neither alone is certain, but one of them must be true: Either I or II follows.",
       "source": "ai",
       "archetype": "ibps-rrb-po-R14",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Complementary pair either-or"
+      }
     },
     {
       "id": "ibps-rrb-po-080",
@@ -2415,7 +2705,12 @@
       "explanation": "crops = ro (sentences 1 and 2), more = la (1 and 3), water = ka (2 and 3). The remaining code in sentence 2, 'mi', means 'need'.",
       "source": "ai",
       "archetype": "ibps-rrb-po-R20",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Three-phrase coding"
+      }
     },
     {
       "id": "ibps-rrb-po-082",
@@ -2453,7 +2748,12 @@
       "explanation": "Q $ R: Q is R's son. R * S: R is S's husband, so S is Q's mother. P # Q: P is Q's sister, so P is S's daughter.",
       "source": "ai",
       "archetype": "ibps-rrb-po-R16",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Coded relation daughter"
+      }
     },
     {
       "id": "ibps-rrb-po-084",
@@ -2510,7 +2810,12 @@
       "explanation": "After the swap A takes B's place, which is 15th from the left and 11th from the right. Total = 15 + 11 − 1 = 25.",
       "source": "ai",
       "archetype": "ibps-rrb-po-R21",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Interchange ranking"
+      }
     },
     {
       "id": "ibps-rrb-po-087",
@@ -2529,7 +2834,12 @@
       "explanation": "Without symbols: W 3 E 8 K 1 L 6 R 9 T 2 P. Counting from the right: P, 2, T, 9, R, 6 — the 6th is 6.",
       "source": "ai",
       "archetype": "ibps-rrb-po-R22",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Remove symbols then position"
+      }
     },
     {
       "id": "ibps-rrb-po-088",
@@ -2548,7 +2858,12 @@
       "explanation": "New numbers: 742, 851, 963, 642, 953. In ascending order: 642, 742, 851, 953, 963. The second smallest is 742, whose digit sum is 13.",
       "source": "ai",
       "archetype": "ibps-rrb-po-R26",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Descending digits, second smallest sum"
+      }
     },
     {
       "id": "ibps-rrb-po-089",
@@ -2567,7 +2882,12 @@
       "explanation": "The letters are L, N, E and S, which form only 'LENS'. Its third letter is N.",
       "source": "ai",
       "archetype": "ibps-rrb-po-R25",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "LENS formed from PLANETS letters"
+      }
     },
     {
       "id": "ibps-rrb-po-090",
@@ -2605,7 +2925,12 @@
       "explanation": "(135 − 90)/90 × 100 = 45/90 × 100 = 50%. (33⅓% is the increase as a share of 135.)",
       "source": "ai",
       "archetype": "ibps-rrb-po-Q01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "%-increase"
+      }
     },
     {
       "id": "ibps-rrb-po-092",
@@ -2624,7 +2949,12 @@
       "explanation": "(160 − 144)/160 × 100 = 16/160 × 100 = 10%.",
       "source": "ai",
       "archetype": "ibps-rrb-po-Q01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "%-decrease with 11.1% trap"
+      }
     },
     {
       "id": "ibps-rrb-po-093",
@@ -2643,7 +2973,12 @@
       "explanation": "P: 60% of 150 = 90; R: 75% of 144 = 108. Total = 198.",
       "source": "ai",
       "archetype": "ibps-rrb-po-Q02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Loan-sold derived sum"
+      }
     },
     {
       "id": "ibps-rrb-po-094",
@@ -2662,7 +2997,12 @@
       "explanation": "(120 + 90 + 160 + 110 + 140)/5 = 620/5 = 124.",
       "source": "ai",
       "archetype": "ibps-rrb-po-Q02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Average 2024"
+      }
     },
     {
       "id": "ibps-rrb-po-095",
@@ -2681,7 +3021,12 @@
       "explanation": "T without loan = 75% of 168 = 126; Q without loan = 60% of 135 = 81. 126 : 81 = 14 : 9.",
       "source": "ai",
       "archetype": "ibps-rrb-po-Q02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Ratio of derived non-loan sales"
+      }
     },
     {
       "id": "ibps-rrb-po-096",
@@ -2700,7 +3045,12 @@
       "explanation": "Farmers 270 → 180 loans; artisans 180 → 72; traders 150 → 90. Total = 342.",
       "source": "ai",
       "archetype": "ibps-rrb-po-Q03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Cooperative caselet loans total"
+      }
     },
     {
       "id": "ibps-rrb-po-097",
@@ -2719,7 +3069,12 @@
       "explanation": "Without loans = 600 − 342 = 258. 258/600 × 100 = 43%.",
       "source": "ai",
       "archetype": "ibps-rrb-po-Q03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "% without loans"
+      }
     },
     {
       "id": "ibps-rrb-po-098",
@@ -2738,7 +3093,12 @@
       "explanation": "Farmers without loans = 270 − 180 = 90; traders without loans = 150 − 90 = 60. 90 : 60 = 3 : 2.",
       "source": "ai",
       "archetype": "ibps-rrb-po-Q03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Ratio without loans"
+      }
     },
     {
       "id": "ibps-rrb-po-099",
@@ -2757,7 +3117,12 @@
       "explanation": "Artisans become 200, with loans 72 + 20 = 92. 92/200 × 100 = 46%.",
       "source": "ai",
       "archetype": "ibps-rrb-po-Q03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Join-then-recompute %"
+      }
     },
     {
       "id": "ibps-rrb-po-100",
@@ -2776,7 +3141,12 @@
       "explanation": "√625 = 25; 25 × 14 = 350; 18% of 1,500 = 270. 350 − 270 = 80.",
       "source": "ai",
       "archetype": "ibps-rrb-po-Q11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Root product minus %"
+      }
     },
     {
       "id": "ibps-rrb-po-101",
@@ -2795,7 +3165,12 @@
       "explanation": "≈ 30 × 13 + 48% of 1,250 = 390 + 600 = 990.",
       "source": "ai",
       "archetype": "ibps-rrb-po-Q12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Approximation"
+      }
     },
     {
       "id": "ibps-rrb-po-102",
@@ -2814,7 +3189,12 @@
       "explanation": "24% of 250 = 60. 1,440 ÷ ? = 60 → ? = 24.",
       "source": "ai",
       "archetype": "ibps-rrb-po-Q13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "? as divisor"
+      }
     },
     {
       "id": "ibps-rrb-po-103",
@@ -2833,7 +3213,12 @@
       "explanation": "Differences 1², 2², 3², 4², so next is 39 + 5² = 64.",
       "source": "ai",
       "archetype": "ibps-rrb-po-Q09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Squares-difference series"
+      }
     },
     {
       "id": "ibps-rrb-po-104",
@@ -2852,7 +3237,12 @@
       "explanation": "Pattern: ×2 + 1, ×3 + 2, ×4 + 3, ×5 + 4, so next = 479 × 6 + 5 = 2,879.",
       "source": "ai",
       "archetype": "ibps-rrb-po-Q09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "xn+(n-1) series"
+      }
     },
     {
       "id": "ibps-rrb-po-105",
@@ -2890,7 +3280,12 @@
       "explanation": "Differences should double: 2, 4, 8, 16, 32 → 10, 12, 16, 24, 40, 72. 74 is wrong.",
       "source": "ai",
       "archetype": "ibps-rrb-po-Q10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Doubling-difference wrong term"
+      }
     },
     {
       "id": "ibps-rrb-po-107",
@@ -2909,7 +3304,12 @@
       "explanation": "I: (x + 4)(x + 5) = 0 → x = −4, −5. II: (y + 2)(y + 3) = 0 → y = −2, −3. Every x is less than every y: x < y.",
       "source": "ai",
       "archetype": "ibps-rrb-po-Q07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Negative integer roots x<y"
+      }
     },
     {
       "id": "ibps-rrb-po-108",
@@ -2928,7 +3328,12 @@
       "explanation": "I: x = 4 or −4. II: (y − 4)(y − 5) = 0 → y = 4, 5. x is never greater than y and equals y when both are 4: x ≤ y.",
       "source": "ai",
       "archetype": "ibps-rrb-po-Q07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Pure square x=+-4 with y root 4 -> x<=y"
+      }
     },
     {
       "id": "ibps-rrb-po-109",
@@ -2947,7 +3352,12 @@
       "explanation": "I: (2x − 7)(x − 3) = 0 → x = 3.5, 3. II: (3y − 1)(y − 2) = 0 → y = 1/3, 2. Every x is greater than every y: x > y.",
       "source": "ai",
       "archetype": "ibps-rrb-po-Q07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Fraction roots x>y"
+      }
     },
     {
       "id": "ibps-rrb-po-110",
@@ -2966,7 +3376,12 @@
       "explanation": "Let CP = c. SP = 1.2c. New CP = 0.9c and new SP = 1.25 × 0.9c = 1.125c. 1.2c − 1.125c = 18 → 0.075c = 18 → c = ₹240.",
       "source": "ai",
       "archetype": "ibps-rrb-po-Q14",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Bought cheaper/sold less P&L; RRB-standard"
+      }
     },
     {
       "id": "ibps-rrb-po-111",
@@ -2985,7 +3400,12 @@
       "explanation": "SP = 85% of 1,600 = ₹1,360. CP = 1,360 ÷ (17/15) = ₹1,200.",
       "source": "ai",
       "archetype": "ibps-rrb-po-Q14",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Discount with fractional profit"
+      }
     },
     {
       "id": "ibps-rrb-po-112",
@@ -3023,7 +3443,12 @@
       "explanation": "A = 3 × 4 + 6 × 8 = 60; B = 5 × 12 = 60. Ratio = 1 : 1.",
       "source": "ai",
       "archetype": "ibps-rrb-po-Q16",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Capital doubled mid-year"
+      }
     },
     {
       "id": "ibps-rrb-po-114",
@@ -3042,7 +3467,12 @@
       "explanation": "Six years ago the sum was 54 − 12 = 42 = 7k → k = 6. B then = 30, so B now = 36 years.",
       "source": "ai",
       "archetype": "ibps-rrb-po-Q17",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Sum and past-ratio ages"
+      }
     },
     {
       "id": "ibps-rrb-po-115",
@@ -3061,7 +3491,12 @@
       "explanation": "2(A + B + C) = 1/12 + 1/15 + 1/20 = 12/60 → A + B + C = 1/10. A = 1/10 − 1/15 (B + C) = 1/30 → 30 days.",
       "source": "ai",
       "archetype": "ibps-rrb-po-Q19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Pairwise work rates"
+      }
     },
     {
       "id": "ibps-rrb-po-116",
@@ -3080,7 +3515,12 @@
       "explanation": "Relative speed = 72 − 54 = 18 km/h = 5 m/s. Distance = 150 + 100 = 250 m. Time = 50 s. (10 s wrongly adds the speeds.)",
       "source": "ai",
       "archetype": "ibps-rrb-po-Q20",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Same-direction trains"
+      }
     },
     {
       "id": "ibps-rrb-po-117",
@@ -3118,7 +3558,12 @@
       "explanation": "CI for 2 years = 0.21P = 525 → P = ₹2,500. SI = 2,500 × 10 × 2/100 = ₹500.",
       "source": "ai",
       "archetype": "ibps-rrb-po-Q22",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "CI to SI"
+      }
     },
     {
       "id": "ibps-rrb-po-119",
@@ -3137,7 +3582,12 @@
       "explanation": "Milk left = 60 × (1 − 6/60)² = 60 × 0.81 = 48.6 litres. (48 litres assumes pure milk is removed both times.)",
       "source": "ai",
       "archetype": "ibps-rrb-po-Q23",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Repeated replacement"
+      }
     },
     {
       "id": "ibps-rrb-po-120",

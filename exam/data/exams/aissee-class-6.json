@@ -3726,7 +3726,12 @@
       "explanation": "The passage says she 'walked three kilometres every morning to fetch water from an old well'. Six kilometres would be the round trip, which the passage does not state.",
       "source": "ai",
       "archetype": "aissee-class-6-L01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Short child-level passage with direct-detail question, matches AISSEE comprehension format"
+      }
     },
     {
       "id": "aissee-class-6-122",
@@ -3744,7 +3749,12 @@
       "explanation": "The rainwater tank supplies water close to home, so she 'no longer makes the long walk' and has her mornings free. The other options are not stated in the passage.",
       "source": "ai",
       "archetype": "aissee-class-6-L02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Reason question answerable from the passage; distractors plausible misreadings"
+      }
     },
     {
       "id": "aissee-class-6-123",
@@ -3762,7 +3772,12 @@
       "explanation": "The female of a horse is a mare. A colt is a young male horse and a pony is a small breed of horse; 'horsess' is not a word.",
       "source": "ai",
       "archetype": "aissee-class-6-L05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Feminine of horse = mare is typical AISSEE gender item; 'Horsess' distractor is unrealistic"
+      }
     },
     {
       "id": "aissee-class-6-124",
@@ -3780,7 +3795,12 @@
       "explanation": "Latin comparatives like senior, junior, superior and inferior take 'to', not 'than': senior to me.",
       "source": "ai",
       "archetype": "aissee-class-6-L06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "'senior to' with 'than' trap, exactly the Latin-comparative preposition item kids get"
+      }
     },
     {
       "id": "aissee-class-6-125",
@@ -3798,7 +3818,12 @@
       "explanation": "The correct spelling is 'environment' — the 'n' before '-ment' is often dropped by mistake (enviroment).",
       "source": "ai",
       "archetype": "aissee-class-6-L09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Spelling of Environment, age-appropriate; marked medium though easy"
+      }
     },
     {
       "id": "aissee-class-6-126",
@@ -3816,7 +3841,12 @@
       "explanation": "Each term = previous term × 2 + 1: 79 × 2 + 1 = 159. (Adding 40 gives the trap 119.)",
       "source": "ai",
       "archetype": "aissee-class-6-I04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "x2+1 series, 159; 158 (x2 only) trap; matches AISSEE series level"
+      }
     },
     {
       "id": "aissee-class-6-127",
@@ -3834,7 +3864,12 @@
       "explanation": "Each letter is replaced by its position in the alphabet and the values are added: B(2) + A(1) + D(4) = 7. So FACE = F(6) + A(1) + C(3) + E(5) = 15.",
       "source": "ai",
       "archetype": "aissee-class-6-I07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Letter-position sum coding (BAD=7), FACE=15; straight AISSEE archetype"
+      }
     },
     {
       "id": "aissee-class-6-128",
@@ -3852,7 +3887,12 @@
       "explanation": "The only son of Ravi's grandfather is Ravi's father. The father's daughter is Ravi's sister. 'Cousin' is the usual trap.",
       "source": "ai",
       "archetype": "aissee-class-6-I09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "'Only son of my grandfather' = father -> sister; standard convention, though 'Cousin' option tempts the maternal reading"
+      }
     },
     {
       "id": "aissee-class-6-129",
@@ -3870,7 +3910,12 @@
       "explanation": "Position from the right = 35 − 11 + 1 = 25th. (Forgetting to add 1 gives 24th.)",
       "source": "ai",
       "archetype": "aissee-class-6-I11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Row position 35-11+1=25 with off-by-one distractors; classic"
+      }
     },
     {
       "id": "aissee-class-6-130",
@@ -3888,7 +3933,12 @@
       "explanation": "IMA is at Dehradun, Uttarakhand. NDA is at Khadakwasla (Pune), the Indian Naval Academy at Ezhimala and the Officers Training Academy at Chennai.",
       "source": "ai",
       "archetype": "aissee-class-6-G09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "IMA Dehradun with Ezhimala/Pune/Chennai defence-institution distractors; very Sainik-school flavoured"
+      }
     },
     {
       "id": "aissee-class-6-131",
@@ -3906,7 +3956,12 @@
       "explanation": "BrahMos is an India–Russia joint venture; its name comes from the Brahmaputra and Moskva rivers. India works with Israel on the Barak-8 missile, which is a common trap.",
       "source": "ai",
       "archetype": "aissee-class-6-G10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "BrahMos India-Russia JV, standard defence GK for AISSEE"
+      }
     },
     {
       "id": "aissee-class-6-132",
@@ -3924,7 +3979,12 @@
       "explanation": "Prime Minister Lal Bahadur Shastri gave the slogan in 1965, during the war with Pakistan and a time of food shortage, to honour soldiers and farmers.",
       "source": "ai",
       "archetype": "aissee-class-6-G02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Shastri's slogan with other leaders as distractors; frequent in AISSEE GK"
+      }
     },
     {
       "id": "aissee-class-6-133",
@@ -3942,7 +4002,12 @@
       "explanation": "Operation Sindoor (7 May 2025) struck terror camps in Pakistan and Pakistan-occupied Kashmir after the April 2025 attack on tourists at Pahalgam. Uri (2016) and Pulwama (2019) led to earlier strikes.",
       "source": "ai",
       "archetype": "aissee-class-6-G12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Op Sindoor-Pahalgam is the headline defence event of 2025; previous-attack distractors good"
+      }
     }
   ]
 }
