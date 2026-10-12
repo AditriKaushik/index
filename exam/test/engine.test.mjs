@@ -113,3 +113,10 @@ test('option order is shuffled per test except for order-dependent options', () 
   assert.equal(canShuffle({ options: ['A', 'B', 'C', 'D'] }), false);
   assert.equal(canShuffle({ options: ['Delhi', 'Mumbai', 'Kolkata', 'Chennai'] }), true);
 });
+
+test('a section with no approved questions is skipped, not used to shrink the mock', () => {
+  const e = { ...exam, questions: exam.questions.filter(q => q.section === 'a') };
+  const t = buildTest(e, 'full', {}, 3);
+  assert.deepEqual(t.missingSections, ['b']);
+  assert.equal(t.questionIds.length, 20);
+});

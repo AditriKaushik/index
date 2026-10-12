@@ -117,14 +117,19 @@ export function buildTest(exam, kind, opts = {}, seed = Date.now()) {
   const seen = new Set(opts.seenIds || []);
   let picked = [];
   let scaled = false;
+  let missing = [];
   const sections = exam.pattern.sections;
 
   if (kind === 'full') {
     const avail = sections.map(s => exam.questions.filter(q => q.section === s.id).length);
-    const scale = Math.min(1, ...sections.map((s, i) => (s.questions ? avail[i] / s.questions : 1)));
+    // a section with no approved questions yet is left out rather than
+    // shrinking the whole mock to one question per section
+    missing = sections.filter((s, i) => !avail[i]).map(s => s.id);
+    const scale = Math.min(1, ...sections.map((s, i) => (s.questions && avail[i] ? avail[i] / s.questions : 1)));
     scaled = scale < 1;
     sections.forEach(s => {
       const n = scaled ? Math.max(1, Math.round(s.questions * scale)) : s.questions;
+      if (missing.includes(s.id)) return;
       picked.push(...pickSection(exam, s.id, n, seen, rng));
     });
   } else if (kind === 'custom') {
@@ -173,7 +178,8 @@ export function buildTest(exam, kind, opts = {}, seed = Date.now()) {
   return {
     examId: exam.id,
     kind,
-    scaled,
+    scaled: scaled || missing.length > 0,
+    missingSections: missing,
     seed,
     createdAt: new Date().toISOString(),
     durationSec,

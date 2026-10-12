@@ -1,4 +1,4 @@
-import { buildTest, scoreAttempt, topicMastery, recommendations, sectionMarking } from './engine.js';
+import { servable, buildTest, scoreAttempt, topicMastery, recommendations, sectionMarking } from './engine.js';
 import { PLAN, accessStatus, recordTestStart, grantPass, canRequestSupport, grantSupportPass } from './access.js';
 import * as store from './store.js';
 
@@ -138,6 +138,7 @@ async function viewExam(id) {
   const pyq = n ? Math.round(e.questions.reduce((s, q) => s + (q.relevance?.score || 0), 0) / n) : 0;
   const aiN = e.questions.filter(q => q.source === 'ai').length;
   const arch = e.pyqBlueprint?.archetypes || [];
+  const emptySecs = secs.filter(s => !e.questions.some(q => q.section === s.id && servable(q)));
 
   shell(`
     <a href="#/" class="back">← ${t('All exams', 'सभी परीक्षाएँ')}</a>
@@ -170,6 +171,7 @@ async function viewExam(id) {
           <button class="btn" type="submit">${t('Start test', 'टेस्ट शुरू करें')}</button>
         </div>
       </form>
+      ${emptySecs.length ? `<p class="muted">⚠️ ${t('Not in mocks yet (no question has passed the 90% PYQ review)', 'अभी मॉक में नहीं (किसी प्रश्न ने 90% PYQ समीक्षा पास नहीं की)')}: ${emptySecs.map(s => esc(s.name)).join(', ')}</p>` : ''}
       <p class="quality">✅ ${n} ${t('questions', 'प्रश्न')} · ${verified}% ${t('proof-read & verified', 'प्रूफ़-रीड व सत्यापित')} · ${relevance}% ${t('syllabus relevance', 'सिलेबस प्रासंगिकता')} · ${t('PYQ match', 'PYQ मिलान')} ${pyq}% ${t('(every question ≥ 90%)', '(हर प्रश्न ≥ 90%)')}${aiN ? ` · ${aiN} ${t('AI-generated', 'AI-निर्मित')}` : ''}</p>
     </div>
 
