@@ -30,7 +30,7 @@ Questions must be ORIGINAL, written in the style/difficulty/topic mix of the las
     "durationMinutes": 60,
     "totalQuestions": 100,
     "totalMarks": 200,
-    "marking": { "correct": 2, "wrong": -0.5, "unattempted": 0 },   // optional "numericalWrong": mark for a wrong numerical answer (e.g. 0)
+    "marking": { "correct": 2, "wrong": -0.5, "unattempted": 0 },   // optional "numericalWrong" / "msqWrong": marks for a wrong numerical / multi-correct answer
     "sections": [ { "id": "reasoning", "name": "General Intelligence & Reasoning", "questions": 25, "marks": 50 } ],  // optional per section: "wrong": 0 to override negative marking
     "notes": "Anything special (sectional timing, normalisation, …)"
   },

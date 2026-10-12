@@ -43,7 +43,8 @@
     "marking": {
       "correct": 4,
       "wrong": -1,
-      "unattempted": 0
+      "unattempted": 0,
+      "numericalWrong": -1
     },
     "sections": [
       {
@@ -65,7 +66,7 @@
         "marks": 100
       }
     ],
-    "notes": "Each subject: Section A = 20 single-correct MCQs (+4/−1), Section B = 5 numerical-value questions (+4/−1, all compulsory since 2025). This mock bank covers the MCQ part only. Scores are normalised across shifts into NTA percentiles; best of the two sessions counts."
+    "notes": "Each subject: Section A = 20 single-correct MCQs (+4/−1) and Section B = 5 numerical-value questions with integer answers (+4/−1 — a wrong numerical answer also loses 1 mark; since 2025 all 5 are compulsory, with no choice). The mock bank contains both formats. Scores are normalised across shifts into NTA percentiles; best of the two sessions counts."
   },
   "trendAnalysis": {
     "yearsAnalyzed": [
@@ -503,7 +504,7 @@
       2025,
       2026
     ],
-    "method": "Compiled from the NTA's officially released JEE Main Paper 1 question papers and answer keys (Jan and Apr sessions 2024–2026) as summarised in public shift-wise analyses (Vedantu, Competishun, Careers360 chapter counts across all 2026 shifts). Web search confirmed chapter-level emphasis (3D/vectors, conics, coordination compounds, ray optics, electrostatics); the question-type patterns were then written from the drafter's own knowledge of the papers, because full paper PDFs could not be fetched. Archetypes describe recurring concept + format + trap in our own words.",
+    "method": "Compiled from the NTA's officially released JEE Main Paper 1 question papers and answer keys (Jan and Apr sessions 2024–2026) as summarised in public shift-wise analyses (Vedantu, Competishun, Careers360 chapter counts across all 2026 shifts). Web search confirmed chapter-level emphasis (3D/vectors, conics, coordination compounds, ray optics, electrostatics); the question-type patterns were then written from the drafter's own knowledge of the papers, because full paper PDFs could not be fetched. Archetypes describe recurring concept + format + trap in our own words. Section-B numerical-value questions use the same archetypes in integer-answer form.",
     "archetypes": [
       {
         "id": "jee-main-P01",
@@ -3901,6 +3902,578 @@
         "by": "independent-review",
         "note": "Coplanarity λ=3 via triple product; Main staple"
       }
+    },
+    {
+      "id": "jee-main-121",
+      "section": "physics",
+      "topic": "Kinematics",
+      "difficulty": "medium",
+      "type": "numerical",
+      "question": "A ball projected from level ground is at the same height above the ground at t = 1 s and at t = 3 s after projection. Its horizontal displacement between these two instants is 30 m. Find the horizontal range of the ball in metres. (g = 10 m/s²) (Answer as an integer.)",
+      "answer": 60,
+      "tolerance": 0,
+      "explanation": "Equal heights at t₁, t₂ ⇒ t₁ + t₂ = 2u_y/g = 4 s ⇒ u_y = 20 m/s and time of flight T = 4 s. u_x = 30/(3 − 1) = 15 m/s. Range = 15 × 4 = 60 m.",
+      "source": "ai",
+      "archetype": "jee-main-P04",
+      "verified": false
+    },
+    {
+      "id": "jee-main-122",
+      "section": "physics",
+      "topic": "Laws of Motion",
+      "difficulty": "medium",
+      "question": "Three blocks of masses 2 kg, 3 kg and 5 kg are placed in contact in a row on a rough horizontal floor (coefficient of kinetic friction 0.2 for each). A horizontal force of 50 N is applied to the 2 kg block, pushing the row. The contact force between the 3 kg and 5 kg blocks is (g = 10 m/s²)",
+      "options": [
+        "15 N",
+        "25 N",
+        "35 N",
+        "20 N"
+      ],
+      "answer": 1,
+      "explanation": "a = (50 − 0.2 × 10 × 10)/10 = 3 m/s². For the 5 kg block: N − 0.2 × 50 = 5 × 3 ⇒ N = 25 N. (Friction scales with mass, so the answer equals the smooth-floor value 50 × 5/10; 15 N forgets the friction on the 5 kg block.)",
+      "source": "ai",
+      "archetype": "jee-main-P06",
+      "verified": false
+    },
+    {
+      "id": "jee-main-123",
+      "section": "physics",
+      "topic": "Work, Energy & Power",
+      "difficulty": "medium",
+      "type": "numerical",
+      "question": "A body of mass 2 kg, initially at rest on a smooth horizontal surface, is acted upon by a horizontal force F = 6t newton (t in seconds). Find the work done by the force in the first 2 s, in joules. (Answer as an integer.)",
+      "answer": 36,
+      "tolerance": 0,
+      "explanation": "a = F/m = 3t ⇒ v = 1.5t² ⇒ v(2) = 6 m/s. By the work–energy theorem W = ½ × 2 × 6² = 36 J.",
+      "source": "ai",
+      "archetype": "jee-main-P08",
+      "verified": false
+    },
+    {
+      "id": "jee-main-124",
+      "section": "physics",
+      "topic": "Rotational Motion",
+      "difficulty": "medium",
+      "question": "A solid sphere rolling without slipping on a horizontal floor with speed 5 m/s comes to a rough inclined plane and rolls up it without slipping. The maximum height it reaches above the floor is (g = 10 m/s²)",
+      "options": [
+        "1.75 m",
+        "1.25 m",
+        "1.875 m",
+        "2.50 m"
+      ],
+      "answer": 0,
+      "explanation": "Total KE = ½mv²(1 + 2/5) = 0.7mv². At the top all of it is mgh (static friction does no work): h = 0.7 × 25/10 = 1.75 m. (1.25 m ignores rotation; 1.875 m is for a disc; 2.5 m for a ring.)",
+      "source": "ai",
+      "archetype": "jee-main-P09",
+      "verified": false
+    },
+    {
+      "id": "jee-main-125",
+      "section": "physics",
+      "topic": "Gravitation",
+      "difficulty": "medium",
+      "type": "numerical",
+      "question": "A body is projected vertically upward from the surface of the earth (radius R) with speed √(3gR/2). Neglecting air resistance and the earth’s rotation, the maximum height it reaches above the surface is nR. Find n. (Answer as an integer.)",
+      "answer": 3,
+      "tolerance": 0,
+      "explanation": "½mv² − GMm/R = −GMm/(R + h) with GM = gR²: (3/4)gR − gR = −gR²/(R + h) ⇒ R + h = 4R ⇒ h = 3R. (Using h = v²/2g wrongly gives 0.75R.)",
+      "source": "ai",
+      "archetype": "jee-main-P12",
+      "verified": false
+    },
+    {
+      "id": "jee-main-126",
+      "section": "physics",
+      "topic": "Thermodynamics",
+      "difficulty": "medium",
+      "question": "An ideal (Carnot) refrigerator keeps its freezer compartment at −23 °C in a room at 27 °C and removes 500 J of heat from the freezer every second. The power drawn and the heat rejected to the room per second are respectively",
+      "options": [
+        "100 W and 600 J",
+        "100 W and 500 J",
+        "83.3 W and 583.3 J",
+        "600 W and 100 J"
+      ],
+      "answer": 0,
+      "explanation": "COP = T_L/(T_H − T_L) = 250/50 = 5 ⇒ W = 500/5 = 100 W. Heat rejected = Q_L + W = 600 J per second. (Using T_H/(T_H − T_L) = 6 gives 83.3 W.)",
+      "source": "ai",
+      "archetype": "jee-main-P18",
+      "verified": false
+    },
+    {
+      "id": "jee-main-127",
+      "section": "physics",
+      "topic": "Oscillations & Waves",
+      "difficulty": "medium",
+      "type": "numerical",
+      "question": "A block of mass 2 kg attached to a spring of force constant 200 N/m oscillates on a smooth horizontal surface with amplitude 10 cm. Find its kinetic energy (in mJ) when it is 6 cm from the mean position. (Answer as an integer.)",
+      "answer": 640,
+      "tolerance": 0,
+      "explanation": "KE = ½k(A² − x²) = ½ × 200 × (0.01 − 0.0036) = 100 × 0.0064 = 0.64 J = 640 mJ.",
+      "source": "ai",
+      "archetype": "jee-main-P21",
+      "verified": false
+    },
+    {
+      "id": "jee-main-128",
+      "section": "physics",
+      "topic": "Electrostatics",
+      "difficulty": "medium",
+      "question": "Charges +q, −q, +q and −q are placed in order at the four corners of a square of side a. With k = 1/(4πε₀), the electrostatic potential energy of the system is",
+      "options": [
+        "(4 − √2)kq²/a",
+        "−(4 + √2)kq²/a",
+        "(√2 − 4)kq²/a",
+        "(√2 − 2)kq²/a"
+      ],
+      "answer": 2,
+      "explanation": "Four adjacent pairs (unlike charges): 4 × (−kq²/a). Two diagonal pairs (like charges): 2 × kq²/(√2a) = √2kq²/a. U = (√2 − 4)kq²/a.",
+      "source": "ai",
+      "archetype": "jee-main-P24",
+      "verified": false
+    },
+    {
+      "id": "jee-main-129",
+      "section": "physics",
+      "topic": "Current Electricity",
+      "difficulty": "medium",
+      "type": "numerical",
+      "question": "A potentiometer wire 4 m long has a resistance of 8 Ω. It is connected in series with a rheostat of 7 Ω and a driver cell of emf 2 V and internal resistance 1 Ω. Find the balancing length (in cm) for a cell of emf 0.6 V. (Answer as an integer.)",
+      "answer": 240,
+      "tolerance": 0,
+      "explanation": "Current = 2/(8 + 7 + 1) = 0.125 A. Potential gradient = 0.125 × 8/4 = 0.25 V/m. Balancing length = 0.6/0.25 = 2.4 m = 240 cm.",
+      "source": "ai",
+      "archetype": "jee-main-P26",
+      "verified": false
+    },
+    {
+      "id": "jee-main-130",
+      "section": "physics",
+      "topic": "Magnetic Effects of Current & Magnetism",
+      "difficulty": "medium",
+      "question": "A galvanometer of resistance 50 Ω gives full-scale deflection for a current of 2 mA. To convert it into a voltmeter of range 0–10 V and, separately, into an ammeter of range 0–1 A, one needs respectively",
+      "options": [
+        "5000 Ω in series; about 0.1 Ω in parallel",
+        "4950 Ω in series; about 0.1 Ω in parallel",
+        "4950 Ω in parallel; about 0.1 Ω in series",
+        "4950 Ω in series; about 0.2 Ω in parallel"
+      ],
+      "answer": 1,
+      "explanation": "Voltmeter: R = V/I_g − G = 10/0.002 − 50 = 4950 Ω in series. Ammeter: S = I_gG/(I − I_g) = 0.002 × 50/0.998 ≈ 0.1 Ω in parallel.",
+      "source": "ai",
+      "archetype": "jee-main-P29",
+      "verified": false
+    },
+    {
+      "id": "jee-main-131",
+      "section": "physics",
+      "topic": "Electromagnetic Induction & AC",
+      "difficulty": "medium",
+      "type": "numerical",
+      "question": "A series circuit of a 15 Ω resistor, a 0.1 H inductor and a 12.5 μF capacitor is connected to a 200 V (rms) source of angular frequency 1000 rad/s. Find the average power (in W) dissipated in the circuit. (Answer as an integer.)",
+      "answer": 960,
+      "tolerance": 0,
+      "explanation": "X_L = 1000 × 0.1 = 100 Ω, X_C = 1/(1000 × 12.5 × 10⁻⁶) = 80 Ω. Z = √(15² + 20²) = 25 Ω, I_rms = 8 A. P = I²R = 64 × 15 = 960 W.",
+      "source": "ai",
+      "archetype": "jee-main-P30",
+      "verified": false
+    },
+    {
+      "id": "jee-main-132",
+      "section": "physics",
+      "topic": "Atoms & Nuclei",
+      "difficulty": "medium",
+      "type": "numerical",
+      "question": "A nucleus of mass number 240 with binding energy per nucleon 7.6 MeV splits into two nuclei of mass number 120 each, with binding energy per nucleon 8.5 MeV. Find the energy released (in MeV). (Answer as an integer.)",
+      "answer": 216,
+      "tolerance": 0,
+      "explanation": "Energy released = BE(products) − BE(parent) = 240 × 8.5 − 240 × 7.6 = 240 × 0.9 = 216 MeV.",
+      "source": "ai",
+      "archetype": "jee-main-P38",
+      "verified": false
+    },
+    {
+      "id": "jee-main-133",
+      "section": "chemistry",
+      "topic": "Some Basic Concepts (Mole Concept)",
+      "difficulty": "medium",
+      "type": "numerical",
+      "question": "A 1.84 g mixture of CaCO₃ and MgCO₃ is heated strongly to constant mass, leaving 0.96 g of residue (CaO + MgO). Find the percentage by mass of CaCO₃ in the mixture (nearest integer). (Ca = 40, Mg = 24, C = 12, O = 16)",
+      "answer": 54,
+      "tolerance": 0,
+      "explanation": "Let x g CaCO₃ and (1.84 − x) g MgCO₃. Residue: (56/100)x + (40/84)(1.84 − x) = 0.96 ⇒ x = 1.00 g. Percentage = 1.00/1.84 × 100 = 54.3 ≈ 54.",
+      "source": "ai",
+      "archetype": "jee-main-C01",
+      "verified": false
+    },
+    {
+      "id": "jee-main-134",
+      "section": "chemistry",
+      "topic": "Atomic Structure",
+      "difficulty": "medium",
+      "question": "According to the Bohr model, the ratio of the de Broglie wavelength of the electron in the second orbit of the hydrogen atom to that of the electron in the third orbit of Li²⁺ is",
+      "options": [
+        "2 : 1",
+        "1 : 2",
+        "4 : 3",
+        "2 : 3"
+      ],
+      "answer": 0,
+      "explanation": "λ = 2πr/n with r ∝ n²/Z ⇒ λ ∝ n/Z. H, n = 2: 2/1 = 2. Li²⁺, n = 3: 3/3 = 1. Ratio 2 : 1. (Taking λ ∝ r gives 4 : 3.)",
+      "source": "ai",
+      "archetype": "jee-main-C04",
+      "verified": false
+    },
+    {
+      "id": "jee-main-135",
+      "section": "chemistry",
+      "topic": "Chemical Thermodynamics",
+      "difficulty": "medium",
+      "type": "numerical",
+      "question": "Using bond enthalpies (kJ mol⁻¹) C=C 610, C–C 350, H–H 436 and C–H 414, find the magnitude of the enthalpy change (in kJ mol⁻¹) for C₂H₄(g) + H₂(g) → C₂H₆(g). (Answer as an integer.)",
+      "answer": 132,
+      "tolerance": 0,
+      "explanation": "Bonds broken: C=C + H–H = 610 + 436 = 1046. Bonds formed: C–C + 2 C–H = 350 + 828 = 1178. ΔH = 1046 − 1178 = −132 kJ mol⁻¹; magnitude 132.",
+      "source": "ai",
+      "archetype": "jee-main-C09",
+      "verified": false
+    },
+    {
+      "id": "jee-main-136",
+      "section": "chemistry",
+      "topic": "Equilibrium",
+      "difficulty": "medium",
+      "question": "The solubility product of Ag₂CrO₄ at 298 K is 3.2 × 10⁻¹¹. The concentration of Ag⁺ ions in its saturated aqueous solution is",
+      "options": [
+        "2.0 × 10⁻⁴ M",
+        "4.0 × 10⁻⁴ M",
+        "5.7 × 10⁻⁶ M",
+        "8.0 × 10⁻⁴ M"
+      ],
+      "answer": 1,
+      "explanation": "Ksp = (2s)²s = 4s³ ⇒ s³ = 8 × 10⁻¹² ⇒ s = 2.0 × 10⁻⁴ M. [Ag⁺] = 2s = 4.0 × 10⁻⁴ M. (2.0 × 10⁻⁴ is s itself; 5.7 × 10⁻⁶ treats it as a 1:1 salt.)",
+      "source": "ai",
+      "archetype": "jee-main-C13",
+      "verified": false
+    },
+    {
+      "id": "jee-main-137",
+      "section": "chemistry",
+      "topic": "Redox & Electrochemistry",
+      "difficulty": "medium",
+      "type": "numerical",
+      "question": "A current of 2.0 A is passed for 965 s through aqueous CuSO₄ using inert electrodes. Find the volume of O₂ (in mL at STP, 22.4 L mol⁻¹) liberated at the anode. (F = 96500 C mol⁻¹) (Answer as an integer.)",
+      "answer": 112,
+      "tolerance": 0,
+      "explanation": "Charge = 1930 C = 0.02 F. At the anode 2H₂O → O₂ + 4H⁺ + 4e⁻, so O₂ = 0.02/4 = 0.005 mol = 112 mL.",
+      "source": "ai",
+      "archetype": "jee-main-C15",
+      "verified": false
+    },
+    {
+      "id": "jee-main-138",
+      "section": "chemistry",
+      "topic": "Chemical Kinetics",
+      "difficulty": "medium",
+      "question": "The rate constant of a reaction obeys log k = 14 − (1.25 × 10⁴ K)/T, with k in s⁻¹. The activation energy and the temperature at which k = 10⁴ s⁻¹ are respectively (R = 8.314 J K⁻¹ mol⁻¹)",
+      "options": [
+        "104 kJ mol⁻¹ and 1250 K",
+        "239 kJ mol⁻¹ and 1000 K",
+        "239 kJ mol⁻¹ and 1250 K",
+        "104 kJ mol⁻¹ and 893 K"
+      ],
+      "answer": 2,
+      "explanation": "log k = log A − Ea/(2.303RT) ⇒ Ea = 2.303 × 8.314 × 1.25 × 10⁴ J ≈ 239 kJ mol⁻¹ (forgetting 2.303 gives 104). k = 10⁴ ⇒ 4 = 14 − 1.25 × 10⁴/T ⇒ T = 1250 K.",
+      "source": "ai",
+      "archetype": "jee-main-C17",
+      "verified": false
+    },
+    {
+      "id": "jee-main-139",
+      "section": "chemistry",
+      "topic": "Coordination Compounds",
+      "difficulty": "medium",
+      "type": "numerical",
+      "question": "Find the total number of unpaired electrons in one ion each of [Fe(H₂O)₆]²⁺, [Mn(CN)₆]³⁻, [CoF₆]³⁻ and [Ni(NH₃)₆]²⁺. (Answer as an integer.)",
+      "answer": 12,
+      "tolerance": 0,
+      "explanation": "[Fe(H₂O)₆]²⁺: d⁶ high spin, 4. [Mn(CN)₆]³⁻: d⁴ low spin (t₂g⁴), 2. [CoF₆]³⁻: d⁶ high spin, 4. [Ni(NH₃)₆]²⁺: d⁸ (t₂g⁶e_g²), 2. Total 12.",
+      "source": "ai",
+      "archetype": "jee-main-C25",
+      "verified": false
+    },
+    {
+      "id": "jee-main-140",
+      "section": "chemistry",
+      "topic": "d- & f-Block Elements",
+      "difficulty": "medium",
+      "question": "The number of moles of KMnO₄ required to oxidise one mole of iron(II) oxalate, FeC₂O₄, completely in acidic medium is",
+      "options": [
+        "1/5",
+        "2/5",
+        "1",
+        "3/5"
+      ],
+      "answer": 3,
+      "explanation": "Fe²⁺ → Fe³⁺ gives 1 e⁻ and C₂O₄²⁻ → 2CO₂ gives 2 e⁻: 3 e⁻ per FeC₂O₄. MnO₄⁻ → Mn²⁺ takes 5 e⁻ ⇒ 3/5 mol. (Counting only oxalate gives 2/5; only Fe²⁺ gives 1/5.)",
+      "source": "ai",
+      "archetype": "jee-main-C22",
+      "verified": false
+    },
+    {
+      "id": "jee-main-141",
+      "section": "chemistry",
+      "topic": "Basic Principles of Organic Chemistry (GOC)",
+      "difficulty": "medium",
+      "type": "numerical",
+      "question": "In a Carius estimation, 0.25 g of an organic compound gave 0.47 g of AgBr. Find the percentage of bromine in the compound. (Ag = 108, Br = 80) (Answer as an integer.)",
+      "answer": 80,
+      "tolerance": 0,
+      "explanation": "Mass of Br = 0.47 × 80/188 = 0.20 g. Percentage = 0.20/0.25 × 100 = 80.",
+      "source": "ai",
+      "archetype": "jee-main-C28",
+      "verified": false
+    },
+    {
+      "id": "jee-main-142",
+      "section": "chemistry",
+      "topic": "Hydrocarbons",
+      "difficulty": "medium",
+      "question": "Toluene is first oxidised with alkaline KMnO₄ followed by acidification, and the product is then nitrated with a mixture of conc. HNO₃ and conc. H₂SO₄. The major final product is",
+      "options": [
+        "p-nitrobenzoic acid",
+        "o-nitrotoluene",
+        "m-nitrotoluene",
+        "m-nitrobenzoic acid"
+      ],
+      "answer": 3,
+      "explanation": "Oxidation first converts –CH₃ (o/p-director) into –COOH, a deactivating meta-director, so nitration gives m-nitrobenzoic acid. Nitrating first and then oxidising would give mainly o- and p-nitrobenzoic acids — order of steps matters.",
+      "source": "ai",
+      "archetype": "jee-main-C30",
+      "verified": false
+    },
+    {
+      "id": "jee-main-143",
+      "section": "chemistry",
+      "topic": "Basic Principles of Organic Chemistry (GOC)",
+      "difficulty": "medium",
+      "type": "numerical",
+      "question": "How many of the following liberate CO₂ from aqueous sodium hydrogencarbonate? Benzoic acid, phenol, picric acid, acetic acid, p-cresol, ethanol, benzenesulphonic acid, p-nitrophenol. (Answer as an integer.)",
+      "answer": 4,
+      "tolerance": 0,
+      "explanation": "Only acids stronger than H₂CO₃ (pKa ≈ 6.4) react: benzoic acid (4.2), picric acid (≈0.4), acetic acid (4.76), benzenesulphonic acid (strong) ⇒ 4. Phenol (10), p-cresol (10.3), ethanol (~16) and p-nitrophenol (7.1) do not.",
+      "source": "ai",
+      "archetype": "jee-main-C27",
+      "verified": false
+    },
+    {
+      "id": "jee-main-144",
+      "section": "chemistry",
+      "topic": "Amines",
+      "difficulty": "medium",
+      "question": "p-Toluidine is treated with NaNO₂/HCl at 273 K to give X; X is warmed with H₃PO₂ to give Y; Y is oxidised with alkaline KMnO₄ and then acidified to give Z. Z is",
+      "options": [
+        "p-toluic acid",
+        "benzoic acid",
+        "terephthalic acid",
+        "p-aminobenzoic acid"
+      ],
+      "answer": 1,
+      "explanation": "X = p-methylbenzenediazonium chloride. H₃PO₂ replaces –N₂⁺ by H, so Y = toluene. Side-chain oxidation gives Z = benzoic acid. (p-Toluic acid would keep a substituent where the diazo group was.)",
+      "source": "ai",
+      "archetype": "jee-main-C35",
+      "verified": false
+    },
+    {
+      "id": "jee-main-145",
+      "section": "maths",
+      "topic": "Sets, Relations & Functions",
+      "difficulty": "medium",
+      "type": "numerical",
+      "question": "Find the number of onto functions from the set {1, 2, 3, 4, 5} to the set {a, b, c}. (Answer as an integer.)",
+      "answer": 150,
+      "tolerance": 0,
+      "explanation": "Inclusion–exclusion: 3⁵ − C(3, 1)2⁵ + C(3, 2)1⁵ = 243 − 96 + 3 = 150.",
+      "source": "ai",
+      "archetype": "jee-main-M02",
+      "verified": false
+    },
+    {
+      "id": "jee-main-146",
+      "section": "maths",
+      "topic": "Complex Numbers",
+      "difficulty": "medium",
+      "type": "numerical",
+      "question": "If z = (1 + i√3)/(1 − i), find the value of z²⁴. (Answer as an integer.)",
+      "answer": 4096,
+      "tolerance": 0,
+      "explanation": "1 + i√3 = 2e^(iπ/3), 1 − i = √2e^(−iπ/4) ⇒ z = √2e^(i7π/12). z²⁴ = 2¹² e^(i14π) = 4096.",
+      "source": "ai",
+      "archetype": "jee-main-M03",
+      "verified": false
+    },
+    {
+      "id": "jee-main-147",
+      "section": "maths",
+      "topic": "Quadratic Equations",
+      "difficulty": "medium",
+      "question": "If α and β are the roots of 2x² − 3x + 4 = 0, the quadratic equation whose roots are α² and β² is",
+      "options": [
+        "4x² − 7x + 16 = 0",
+        "4x² + 25x + 16 = 0",
+        "16x² + 7x + 4 = 0",
+        "4x² + 7x + 16 = 0"
+      ],
+      "answer": 3,
+      "explanation": "α + β = 3/2, αβ = 2. α² + β² = 9/4 − 4 = −7/4 and α²β² = 4. Equation: x² + (7/4)x + 4 = 0 ⇒ 4x² + 7x + 16 = 0.",
+      "source": "ai",
+      "archetype": "jee-main-M05",
+      "verified": false
+    },
+    {
+      "id": "jee-main-148",
+      "section": "maths",
+      "topic": "3D Geometry",
+      "difficulty": "medium",
+      "question": "The distance of the point (1, 2, 3) from the plane x − y + z = 5, measured along a line parallel to x/2 = y/3 = z/(−6), is",
+      "options": [
+        "√3",
+        "3",
+        "7",
+        "3/7"
+      ],
+      "answer": 1,
+      "explanation": "Points on the line: (1 + 2t, 2 + 3t, 3 − 6t). In the plane: 2 − 7t = 5 ⇒ t = −3/7. Distance = |t|√(4 + 9 + 36) = (3/7)(7) = 3. (√3 is the perpendicular distance.)",
+      "source": "ai",
+      "archetype": "jee-main-M30",
+      "verified": false
+    },
+    {
+      "id": "jee-main-149",
+      "section": "maths",
+      "topic": "Permutations & Combinations",
+      "difficulty": "medium",
+      "question": "All the words (with or without meaning) formed by the letters of MASTER, each used once, are arranged in dictionary order. The rank of the word MASTER is",
+      "options": [
+        "257",
+        "256",
+        "258",
+        "240"
+      ],
+      "answer": 0,
+      "explanation": "Alphabetical order: A, E, M, R, S, T. Words starting with A or E: 2 × 5! = 240. Then M A _ _ _ _: before S come E and R: 2 × 3! = 12 (252). M A S _ _ _: letters E, R, T; before T come E, R: 2 × 2! = 4 (256). M A S T E R is next: rank 257.",
+      "source": "ai",
+      "archetype": "jee-main-M10",
+      "verified": false
+    },
+    {
+      "id": "jee-main-150",
+      "section": "maths",
+      "topic": "Binomial Theorem",
+      "difficulty": "medium",
+      "type": "numerical",
+      "question": "Find the value of Σᵣ₌₀¹⁰ (r + 1)·¹⁰Cᵣ. (Answer as an integer.)",
+      "answer": 6144,
+      "tolerance": 0,
+      "explanation": "Σ r·¹⁰Cᵣ = 10 × 2⁹ = 5120 and Σ ¹⁰Cᵣ = 2¹⁰ = 1024. Sum = 6144.",
+      "source": "ai",
+      "archetype": "jee-main-M13",
+      "verified": false
+    },
+    {
+      "id": "jee-main-151",
+      "section": "maths",
+      "topic": "Limits, Continuity & Differentiability",
+      "difficulty": "medium",
+      "question": "The value of lim (x → 0) [(1 + tan x)/(1 + sin x)]^(1/x³) is",
+      "options": [
+        "1",
+        "e",
+        "√e",
+        "e²"
+      ],
+      "answer": 2,
+      "explanation": "1^∞ form: limit = e^L with L = lim (tan x − sin x)/[(1 + sin x)x³] = lim tan x(1 − cos x)/x³ = 1/2. Answer √e.",
+      "source": "ai",
+      "archetype": "jee-main-M16",
+      "verified": false
+    },
+    {
+      "id": "jee-main-152",
+      "section": "maths",
+      "topic": "Applications of Derivatives",
+      "difficulty": "medium",
+      "type": "numerical",
+      "question": "A right circular cylinder is inscribed in a sphere of radius 3√3. If V is the greatest possible volume of the cylinder, find V/π. (Answer as an integer.)",
+      "answer": 108,
+      "tolerance": 0,
+      "explanation": "With height h, radius² = R² − h²/4: V = π(R²h − h³/4). dV/dh = 0 ⇒ h = 2R/√3 = 6 ⇒ r² = 27 − 9 = 18 ⇒ V = π × 18 × 6 = 108π.",
+      "source": "ai",
+      "archetype": "jee-main-M18",
+      "verified": false
+    },
+    {
+      "id": "jee-main-153",
+      "section": "maths",
+      "topic": "Integral Calculus",
+      "difficulty": "medium",
+      "question": "The value of ∫ from −1 to 2 of (|x| + [x]) dx, where [x] is the greatest integer function, is",
+      "options": [
+        "3/2",
+        "7/2",
+        "1/2",
+        "5/2"
+      ],
+      "answer": 3,
+      "explanation": "∫₋₁²|x|dx = 1/2 + 2 = 5/2. ∫₋₁²[x]dx = (−1)(1) + 0(1) + 1(1) = 0. Total 5/2.",
+      "source": "ai",
+      "archetype": "jee-main-M20",
+      "verified": false
+    },
+    {
+      "id": "jee-main-154",
+      "section": "maths",
+      "topic": "Area under Curves",
+      "difficulty": "medium",
+      "type": "numerical",
+      "question": "If A is the area of the region bounded by the parabola y = x² and the line y = 6 − x, find 6A. (Answer as an integer.)",
+      "answer": 125,
+      "tolerance": 0,
+      "explanation": "Intersections: x² = 6 − x ⇒ x = −3, 2. A = ∫₋₃²(6 − x − x²)dx = [6x − x²/2 − x³/3] from −3 to 2 = 22/3 + 27/2 = 125/6. So 6A = 125.",
+      "source": "ai",
+      "archetype": "jee-main-M22",
+      "verified": false
+    },
+    {
+      "id": "jee-main-155",
+      "section": "maths",
+      "topic": "Circles",
+      "difficulty": "hard",
+      "question": "A circle passes through the point (1, 1) and cuts both the circles x² + y² = 4 and x² + y² − 6x − 8y + 10 = 0 orthogonally. Its radius is",
+      "options": [
+        "4",
+        "√21",
+        "5",
+        "√29"
+      ],
+      "answer": 2,
+      "explanation": "Let x² + y² + 2gx + 2fy + c = 0. Orthogonal to x² + y² = 4: 0 = c − 4 ⇒ c = 4. Orthogonal to the second: 2g(−3) + 2f(−4) = c + 10 ⇒ 3g + 4f = −7. Through (1, 1): 2 + 2g + 2f + 4 = 0 ⇒ g + f = −3. So f = 2, g = −5; radius = √(25 + 4 − 4) = 5.",
+      "source": "ai",
+      "archetype": "jee-main-M26",
+      "verified": false
+    },
+    {
+      "id": "jee-main-156",
+      "section": "maths",
+      "topic": "Probability",
+      "difficulty": "medium",
+      "type": "numerical",
+      "question": "A fair die is thrown n times. Find the least n for which the probability of getting at least one six exceeds 0.9. (Answer as an integer.)",
+      "answer": 13,
+      "tolerance": 0,
+      "explanation": "1 − (5/6)ⁿ > 0.9 ⇔ (5/6)ⁿ < 0.1 ⇔ n > ln 10/ln 1.2 ≈ 12.6 ⇒ n = 13. ((5/6)¹² ≈ 0.112, (5/6)¹³ ≈ 0.093.)",
+      "source": "ai",
+      "archetype": "jee-main-M35",
+      "verified": false
     }
   ]
 }

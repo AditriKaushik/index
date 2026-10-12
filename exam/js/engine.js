@@ -48,7 +48,7 @@ export function sectionMarking(exam, sectionId) {
   const ratio = m.correct ? m.wrong / m.correct : 0;
   // a section may override negative marking, e.g. SSC MTS Session I has none
   const wrong = typeof sec?.wrong === 'number' ? sec.wrong : +(correct * ratio).toFixed(4);
-  return { correct, wrong, unattempted: m.unattempted || 0, ...(typeof m.numericalWrong === 'number' ? { numericalWrong: m.numericalWrong } : {}) };
+  return { correct, wrong, unattempted: m.unattempted || 0, ...(typeof m.numericalWrong === 'number' ? { numericalWrong: m.numericalWrong } : {}), ...(typeof m.msqWrong === 'number' ? { msqWrong: m.msqWrong } : {}) };
 }
 
 // ---------- picking questions ----------
@@ -244,6 +244,7 @@ export function markAnswer(q, a, mk) {
   if (!answered) return { answered, ok: false, marks: mk.unattempted };
   if (isCorrect(q, a)) return { answered, ok: true, marks: mk.correct };
   if (qType(q) === 'msq' && a.every(i => q.answer.includes(i))) return { answered, ok: false, marks: +(mk.correct / 4 * a.length).toFixed(2) };
+  if (qType(q) === 'msq' && mk.msqWrong !== undefined) return { answered, ok: false, marks: mk.msqWrong };
   if (qType(q) === 'numerical' && mk.numericalWrong !== undefined) return { answered, ok: false, marks: mk.numericalWrong };
   return { answered, ok: false, marks: mk.wrong };
 }
