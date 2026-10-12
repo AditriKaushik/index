@@ -101,6 +101,11 @@ const avgSecondsPerQuestion = exam => (exam.pattern.durationMinutes * 60) / exam
 //   full   – mirrors the real pattern (scaled down evenly if the bank is small)
 //   custom – {sections?, topics?, count, difficulty}
 //   weak   – {weakTopics: [{section, topic, score}], count}
+// Options whose meaning depends on their position or on the other options
+// ("All of the above", "Both A and R …", "1 and 2 only", bare letters) stay in order.
+const FIXED_ORDER = /\b(all|none|both|neither)\b|\babove\b|\bonly\b|\band\b.*\d|^\(?[a-e1-5]\)?$|statement|assertion|reason|cannot be determined|data (is |are )?(in)?sufficient/i;
+export const canShuffle = q => !q.options.some(o => FIXED_ORDER.test(String(o).trim()));
+
 // Only questions an independent review scored ≥ MIN_RELEVANCE against the
 // exam's previous-year papers (and re-solved) may be served. See data/RELEVANCE.md.
 export const MIN_RELEVANCE = 90;
@@ -173,6 +178,9 @@ export function buildTest(exam, kind, opts = {}, seed = Date.now()) {
     createdAt: new Date().toISOString(),
     durationSec,
     questionIds: picked.map(q => q.id),
+    // shown option order per question (original indices), so the position of
+    // the correct answer can't be memorised across tests
+    optionOrder: Object.fromEntries(picked.filter(canShuffle).map(q => [q.id, shuffle(q.options.map((_, i) => i), rng)])),
   };
 }
 

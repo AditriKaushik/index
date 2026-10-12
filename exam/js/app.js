@@ -265,6 +265,7 @@ async function viewTest() {
     const r = resp(q.id); r.visited = true;
     const text = showHi && q.questionHi ? q.questionHi : q.question;
     const opts = showHi && q.optionsHi ? q.optionsHi : q.options;
+    const order = run.optionOrder?.[q.id] || opts.map((_, i) => i);
     const mk = sectionMarking(exam, q.section);
     const answered = qs.filter(x => run.responses[x.id]?.answer != null).length;
     $app.innerHTML = `
@@ -281,7 +282,7 @@ async function viewTest() {
             ${q.questionHi ? `<button class="link" id="qlang">${showHi ? 'English' : 'हिंदी'}</button>` : ''}
           </div>
           <div class="qtext">${esc(text).replace(/\n/g, '<br>')}</div>
-          <div class="opts">${opts.map((o, i) => `<label class="opt ${r.answer === i ? 'sel' : ''}"><input type="radio" name="o" value="${i}" ${r.answer === i ? 'checked' : ''}><b>${LETTERS[i]}</b><span>${esc(o)}</span></label>`).join('')}</div>
+          <div class="opts">${order.map((oi, k) => `<label class="opt ${r.answer === oi ? 'sel' : ''}"><input type="radio" name="o" value="${oi}" ${r.answer === oi ? 'checked' : ''}><b>${LETTERS[k]}</b><span>${esc(opts[oi])}</span></label>`).join('')}</div>
           <div class="qnav">
             <button class="btn alt" id="prev" ${run.current === 0 ? 'disabled' : ''}>← ${t('Previous', 'पिछला')}</button>
             <button class="btn alt" id="clear">${t('Clear', 'हटाएँ')}</button>
@@ -296,7 +297,7 @@ async function viewTest() {
         </aside>
       </div>`;
     const go = i => { tick(); run.current = Math.max(0, Math.min(qs.length - 1, i)); save(); draw(); };
-    $app.querySelectorAll('input[name=o]').forEach(inp => inp.onchange = () => { r.answer = +inp.value; save(); $app.querySelectorAll('.opt').forEach((l, i) => l.classList.toggle('sel', i === r.answer)); });
+    $app.querySelectorAll('input[name=o]').forEach(inp => inp.onchange = () => { r.answer = +inp.value; save(); $app.querySelectorAll('.opt').forEach((l, k) => l.classList.toggle('sel', order[k] === r.answer)); });
     document.getElementById('prev').onclick = () => go(run.current - 1);
     document.getElementById('next').onclick = () => go(run.current + 1);
     document.getElementById('clear').onclick = () => { r.answer = null; save(); draw(); };
@@ -318,7 +319,7 @@ async function viewTest() {
   const finish = () => {
     clearInterval(timerHandle); tick();
     const result = scoreAttempt(exam, run, run.responses);
-    const attempt = { id: run.id, examId: run.examId, examName: run.examName, kind: run.kind, scaled: run.scaled, questionIds: run.questionIds, responses: Object.fromEntries(Object.entries(run.responses).map(([k, v]) => [k, { answer: v.answer, timeSec: Math.round(v.timeSec) }])), result, finishedAt: Date.now() };
+    const attempt = { id: run.id, examId: run.examId, examName: run.examName, kind: run.kind, scaled: run.scaled, questionIds: run.questionIds, optionOrder: run.optionOrder, responses: Object.fromEntries(Object.entries(run.responses).map(([k, v]) => [k, { answer: v.answer, timeSec: Math.round(v.timeSec) }])), result, finishedAt: Date.now() };
     state.attempts.push(attempt);
     state.inProgress = null; save();
     location.hash = `#/result/${attempt.id}`;
@@ -387,7 +388,7 @@ async function viewResult(id) {
       <ol class="review">${r.items.map(it => { const q = byId.get(it.id); if (!q) return ''; return `
         <li class="${it.correct ? 'right' : it.answer == null ? 'skip' : 'wrong'}">
           <div class="qtext">${esc(q.question).replace(/\n/g, '<br>')}</div>
-          <ul>${q.options.map((o, i) => `<li class="${i === q.answer ? 'ans' : ''} ${i === it.answer && !it.correct ? 'mine' : ''}"><b>${LETTERS[i]}</b> ${esc(o)}</li>`).join('')}</ul>
+          <ul>${(a.optionOrder?.[q.id] || q.options.map((_, i) => i)).map((i, k) => `<li class="${i === q.answer ? 'ans' : ''} ${i === it.answer && !it.correct ? 'mine' : ''}"><b>${LETTERS[k]}</b> ${esc(q.options[i])}</li>`).join('')}</ul>
           <div class="expl"><b>${it.correct ? '✔ ' + t('Correct', 'सही') : it.answer == null ? '— ' + t('Not attempted', 'प्रयास नहीं') : '✘ ' + t('Wrong', 'ग़लत')}</b> · ${esc(q.topic)} · ${q.difficulty} · ${Math.round(it.timeSec)}s${q.relevance ? ` · <span class="pyq" title="${esc(q.relevance.note || '')}">${t('PYQ match', 'PYQ मिलान')} ${q.relevance.score}%</span>` : ''}${q.source === 'ai' ? ` · <span class="aitag">AI</span>` : ''}<br>${esc(q.explanation)}${archById.get(q.archetype) ? `<br><i>${t('PYQ pattern', 'PYQ पैटर्न')}: ${esc(archById.get(q.archetype).pattern)} (${esc(archById.get(q.archetype).years.join(', '))})</i>` : ''}</div>
         </li>`; }).join('')}</ol>
     </div>`);

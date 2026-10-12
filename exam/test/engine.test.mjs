@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { servable, buildTest, scoreAttempt, topicMastery, recommendations, apportion, sectionMarking } from '../js/engine.js';
+import { servable, canShuffle, buildTest, scoreAttempt, topicMastery, recommendations, apportion, sectionMarking } from '../js/engine.js';
 import { accessStatus, recordTestStart, grantSupportPass, canRequestSupport, PLAN } from '../js/access.js';
 
 // small synthetic exam: 2 sections, 3 topics, 40 questions
@@ -16,7 +16,7 @@ const exam = {
 const diffs = ['easy', 'medium', 'medium', 'hard'];
 for (let i = 0; i < 40; i++) {
   const sec = i < 20 ? 'a' : 'b';
-  exam.questions.push({ id: 'q' + i, section: sec, topic: sec === 'b' ? 'z' : i % 3 ? 'x' : 'y', difficulty: diffs[i % 4], options: ['1', '2', '3', '4'], answer: i % 4, verified: true, relevance: { score: 95 } });
+  exam.questions.push({ id: 'q' + i, section: sec, topic: sec === 'b' ? 'z' : i % 3 ? 'x' : 'y', difficulty: diffs[i % 4], options: ['p', 'q', 'r', 's'], answer: i % 4, verified: true, relevance: { score: 95 } });
 }
 
 test('apportion keeps the total and the proportions', () => {
@@ -101,4 +101,15 @@ test('questions below 90 PYQ relevance or unverified are never served', () => {
     assert.ok(t.questionIds.length > 0);
     assert.ok(t.questionIds.every(id => ok.has(id)), kind);
   }
+});
+
+test('option order is shuffled per test except for order-dependent options', () => {
+  const t = buildTest(exam, 'custom', { count: 20 }, 21);
+  const perms = Object.values(t.optionOrder);
+  assert.equal(perms.length, t.questionIds.length);
+  for (const p of perms) assert.deepEqual(p.slice().sort(), [0, 1, 2, 3]);
+  assert.ok(perms.some(p => p.join() !== '0,1,2,3'));
+  assert.equal(canShuffle({ options: ['1 only', '2 only', 'Both 1 and 2', 'Neither 1 nor 2'] }), false);
+  assert.equal(canShuffle({ options: ['A', 'B', 'C', 'D'] }), false);
+  assert.equal(canShuffle({ options: ['Delhi', 'Mumbai', 'Kolkata', 'Chennai'] }), true);
 });
