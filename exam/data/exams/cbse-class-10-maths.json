@@ -2040,6 +2040,906 @@
         "by": "independent-review",
         "note": "A true, R false (1 is not prime); good CBSE A-R trap"
       }
+    },
+    {
+      "id": "cbse-class-10-maths-121",
+      "section": "number-systems",
+      "topic": "Fundamental Theorem of Arithmetic, HCF & LCM",
+      "difficulty": "easy",
+      "question": "The HCF and LCM of two numbers are 18 and 1080 respectively. If one of the numbers is 216, the other number is:",
+      "options": [
+        "60",
+        "120",
+        "90",
+        "5"
+      ],
+      "answer": 2,
+      "explanation": "Other number = (HCF × LCM)/216 = (18 × 1080)/216 = 90. Check: 216 = 2³ × 3³ and 90 = 2 × 3² × 5 give HCF 18 and LCM 1080.",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-N01",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-122",
+      "section": "number-systems",
+      "topic": "Fundamental Theorem of Arithmetic, HCF & LCM",
+      "difficulty": "medium",
+      "question": "Two numbers have HCF 23 and LCM 1449. If one of them is 161, the other is:",
+      "options": [
+        "207",
+        "189",
+        "63",
+        "9"
+      ],
+      "answer": 0,
+      "explanation": "Other number = (23 × 1449)/161 = 33327/161 = 207. Indeed 161 = 7 × 23 and 207 = 9 × 23, so HCF = 23 and LCM = 7 × 9 × 23 = 1449.",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-N01",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-123",
+      "section": "number-systems",
+      "topic": "Fundamental Theorem of Arithmetic, HCF & LCM",
+      "difficulty": "medium",
+      "question": "If p = 2⁴ × 3² × 5 and q = 2² × 3³ × 7, then LCM(p, q) ÷ HCF(p, q) is equal to:",
+      "options": [
+        "210",
+        "105",
+        "840",
+        "420"
+      ],
+      "answer": 3,
+      "explanation": "LCM = 2⁴ × 3³ × 5 × 7 and HCF = 2² × 3². Their quotient = 2² × 3 × 5 × 7 = 420.",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-N02",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-124",
+      "section": "number-systems",
+      "topic": "Fundamental Theorem of Arithmetic, HCF & LCM",
+      "difficulty": "medium",
+      "question": "The largest number that divides 245 and 1029, leaving a remainder 5 in each case, is:",
+      "options": [
+        "8",
+        "16",
+        "32",
+        "5"
+      ],
+      "answer": 1,
+      "explanation": "The number must divide 245 − 5 = 240 and 1029 − 5 = 1024. 240 = 2⁴ × 3 × 5 and 1024 = 2¹⁰, so HCF = 2⁴ = 16.",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-N02",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-125",
+      "section": "number-systems",
+      "topic": "Fundamental Theorem of Arithmetic, HCF & LCM",
+      "difficulty": "medium",
+      "question": "The smallest natural number which, when divided by 12, 15 and 20, leaves a remainder 7 in each case is:",
+      "options": [
+        "53",
+        "67",
+        "187",
+        "60"
+      ],
+      "answer": 1,
+      "explanation": "LCM(12, 15, 20) = 60. The required number = 60 + 7 = 67.",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-N02",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-126",
+      "section": "number-systems",
+      "topic": "Fundamental Theorem of Arithmetic, HCF & LCM",
+      "difficulty": "medium",
+      "question": "The product of any three consecutive natural numbers is always divisible by:",
+      "options": [
+        "4",
+        "5",
+        "9",
+        "6"
+      ],
+      "answer": 3,
+      "explanation": "Among three consecutive numbers at least one is even and exactly one is a multiple of 3, so the product is divisible by 2 × 3 = 6. 1 × 2 × 3 = 6 is not divisible by 4, 9 or 5.",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-N03",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-127",
+      "section": "number-systems",
+      "topic": "Irrational Numbers",
+      "difficulty": "easy",
+      "question": "Which one of the following numbers is irrational?",
+      "options": [
+        "(2 + √5)²",
+        "(√3 − 1)(√3 + 1)",
+        "(√2 + √8)²",
+        "√(9/16)"
+      ],
+      "answer": 0,
+      "explanation": "(2 + √5)² = 9 + 4√5, which is irrational. (√2 + √8)² = (3√2)² = 18, (√3 − 1)(√3 + 1) = 2 and √(9/16) = 3/4 are rational.",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-N04",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-128",
+      "section": "number-systems",
+      "topic": "Irrational Numbers",
+      "difficulty": "medium",
+      "question": "Which of the following statements is always true?",
+      "options": [
+        "The product of two irrational numbers is irrational.",
+        "The sum of two irrational numbers is irrational.",
+        "The product of a non-zero rational number and an irrational number is irrational.",
+        "√p is irrational for every natural number p."
+      ],
+      "answer": 2,
+      "explanation": "If r ≠ 0 is rational and r·x were rational, x = (r·x)/r would be rational – a contradiction. Counter-examples for the others: √2 × √2 = 2, √2 + (−√2) = 0, √4 = 2.",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-N04",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-129",
+      "section": "number-systems",
+      "topic": "Fundamental Theorem of Arithmetic, HCF & LCM",
+      "difficulty": "medium",
+      "question": "Assertion (A): If HCF(a, 18) = 6 and LCM(a, 18) = 36, then a = 12.\nReason (R): For any two natural numbers, HCF × LCM = product of the numbers.\n\nChoose the correct option.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "a = (6 × 36)/18 = 12; check HCF(12, 18) = 6 and LCM = 36. A follows directly from R, so R correctly explains A.",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-N05",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-130",
+      "section": "number-systems",
+      "topic": "Fundamental Theorem of Arithmetic, HCF & LCM",
+      "difficulty": "medium",
+      "question": "Assertion (A): The LCM of two co-prime numbers is equal to their product.\nReason (R): Two co-prime numbers must both be prime numbers.\n\nChoose the correct option.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "answer": 2,
+      "explanation": "Co-prime numbers have HCF 1, and HCF × LCM = product, so A is true. R is false: 8 and 9 are co-prime though neither is prime.",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-N05",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-131",
+      "section": "coordinate-geometry",
+      "topic": "Distance Formula",
+      "difficulty": "medium",
+      "question": "The point P(x, 2) is equidistant from A(3, −1) and B(−1, 5). The value of x is:",
+      "options": [
+        "−1",
+        "2",
+        "1",
+        "0"
+      ],
+      "answer": 2,
+      "explanation": "PA² = PB²: (x − 3)² + 9 = (x + 1)² + 9 ⇒ −6x + 9 = 2x + 1 ⇒ x = 1.",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-C01",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-132",
+      "section": "coordinate-geometry",
+      "topic": "Distance Formula",
+      "difficulty": "medium",
+      "question": "If the distance between the points A(k, 3) and B(2, −1) is 5 units, then the sum of all possible values of k is:",
+      "options": [
+        "4",
+        "−4",
+        "6",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "(k − 2)² + 16 = 25 ⇒ k − 2 = ±3 ⇒ k = 5 or −1. Sum = 4.",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-C01",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-133",
+      "section": "coordinate-geometry",
+      "topic": "Distance Formula",
+      "difficulty": "easy",
+      "question": "The perimeter of the triangle with vertices (0, 0), (6, 0) and (0, 8) is:",
+      "options": [
+        "14 units",
+        "20 units",
+        "48 units",
+        "24 units"
+      ],
+      "answer": 3,
+      "explanation": "Sides: 6, 8 and √(36 + 64) = 10. Perimeter = 24 units. 48 is twice the area (2 × 24).",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-C01",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-134",
+      "section": "coordinate-geometry",
+      "topic": "Distance Formula",
+      "difficulty": "medium",
+      "question": "The triangle with vertices A(1, 1), B(4, 5) and C(8, 2) is:",
+      "options": [
+        "equilateral",
+        "isosceles and right-angled",
+        "scalene and right-angled",
+        "isosceles but not right-angled"
+      ],
+      "answer": 1,
+      "explanation": "AB = √(9 + 16) = 5, BC = √(16 + 9) = 5, AC = √(49 + 1) = √50. AB = BC and AB² + BC² = 50 = AC², so it is an isosceles right triangle (right angle at B).",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-C01",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-135",
+      "section": "coordinate-geometry",
+      "topic": "Distance Formula",
+      "difficulty": "medium",
+      "question": "The distance of the mid-point of the line segment joining A(3, 4) and B(−5, 10) from the origin is:",
+      "options": [
+        "10 units",
+        "5√2 units",
+        "7 units",
+        "√65 units"
+      ],
+      "answer": 1,
+      "explanation": "Mid-point = (−1, 7). Distance from origin = √(1 + 49) = √50 = 5√2. 10 is the length AB.",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-C01",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-136",
+      "section": "coordinate-geometry",
+      "topic": "Distance Formula",
+      "difficulty": "easy",
+      "question": "The distance between the points (a cos θ, 0) and (0, a sin θ) is:",
+      "options": [
+        "a²",
+        "2a",
+        "a√2",
+        "a"
+      ],
+      "answer": 3,
+      "explanation": "Distance = √(a²cos²θ + a²sin²θ) = √(a²) = a (taking a > 0).",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-C01",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-137",
+      "section": "coordinate-geometry",
+      "topic": "Distance Formula",
+      "difficulty": "medium",
+      "question": "A point P lies on the x-axis and is at a distance of 5 units from Q(7, −3). The possible positions of P are:",
+      "options": [
+        "(3, 0) and (11, 0)",
+        "(4, 0) and (10, 0)",
+        "(3, 0) only",
+        "(0, 3) and (0, 11)"
+      ],
+      "answer": 0,
+      "explanation": "P = (x, 0): (x − 7)² + 9 = 25 ⇒ x − 7 = ±4 ⇒ x = 3 or 11.",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-C01",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-138",
+      "section": "coordinate-geometry",
+      "topic": "Section Formula",
+      "difficulty": "medium",
+      "question": "Three consecutive vertices of a parallelogram ABCD are A(1, 2), B(4, 3) and C(6, 6). The fourth vertex D is:",
+      "options": [
+        "(9, 7)",
+        "(−1, 1)",
+        "(3, 5)",
+        "(5, 3)"
+      ],
+      "answer": 2,
+      "explanation": "Diagonals bisect each other: mid-point of AC = (3.5, 4) = mid-point of BD. So D = (7 − 4, 8 − 3) = (3, 5).",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-C02",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-139",
+      "section": "coordinate-geometry",
+      "topic": "Section Formula",
+      "difficulty": "medium",
+      "question": "The point P(−2, 3) divides the line segment joining A(−6, 5) and B(4, 0) in the ratio:",
+      "options": [
+        "3 : 2",
+        "2 : 5",
+        "1 : 2",
+        "2 : 3"
+      ],
+      "answer": 3,
+      "explanation": "Let AP : PB = k : 1. x: (4k − 6)/(k + 1) = −2 ⇒ 6k = 4 ⇒ k = 2/3. Check y: 5/(5/3) = 3 ✓. Ratio = 2 : 3.",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-C02",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-140",
+      "section": "coordinate-geometry",
+      "topic": "Section Formula",
+      "difficulty": "medium",
+      "question": "The y-axis divides the line segment joining (−4, 1) and (6, 7) in the ratio:",
+      "options": [
+        "3 : 2",
+        "1 : 3",
+        "2 : 3",
+        "4 : 1"
+      ],
+      "answer": 2,
+      "explanation": "On the y-axis x = 0: (6k − 4)/(k + 1) = 0 ⇒ k = 2/3, i.e. 2 : 3.",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-C02",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-141",
+      "section": "coordinate-geometry",
+      "topic": "Section Formula",
+      "difficulty": "medium",
+      "question": "The point of trisection of the line segment joining A(−3, 6) and B(9, −3) that is nearer to A is:",
+      "options": [
+        "(5, 0)",
+        "(1, 3)",
+        "(3, 1.5)",
+        "(−1, 4)"
+      ],
+      "answer": 1,
+      "explanation": "It divides AB in 1 : 2: x = (9 − 6)/3 = 1, y = (−3 + 12)/3 = 3. (5, 0) is the other point of trisection and (3, 1.5) is the mid-point.",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-C02",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-142",
+      "section": "coordinate-geometry",
+      "topic": "Section Formula",
+      "difficulty": "medium",
+      "question": "The centre of a circle is (−1, 2) and one end of a diameter is A(3, −4). The other end of the diameter is:",
+      "options": [
+        "(−5, 8)",
+        "(1, −1)",
+        "(5, −10)",
+        "(−4, 6)"
+      ],
+      "answer": 0,
+      "explanation": "The centre is the mid-point of the diameter: other end = (2 × (−1) − 3, 2 × 2 − (−4)) = (−5, 8). (1, −1) is the mid-point of the centre and A.",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-C02",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-143",
+      "section": "coordinate-geometry",
+      "topic": "Section Formula",
+      "difficulty": "medium",
+      "question": "The vertices of ΔABC are A(1, 5), B(−3, −1) and C(5, 3). The length of the median through A is:",
+      "options": [
+        "4 units",
+        "2√5 units",
+        "5 units",
+        "√17 units"
+      ],
+      "answer": 0,
+      "explanation": "Mid-point of BC: D = (1, 1). AD = √(0 + 16) = 4 units.",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-C02",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-144",
+      "section": "geometry",
+      "topic": "Circles (Tangents)",
+      "difficulty": "medium",
+      "question": "Two tangents PA and PB are drawn to a circle of radius 5 cm from an external point P. If the tangents are inclined to each other at 60°, then OP (where O is the centre) is:",
+      "options": [
+        "5√3 cm",
+        "5√2 cm",
+        "10 cm",
+        "10√3 cm"
+      ],
+      "answer": 2,
+      "explanation": "OP bisects ∠APB, so ∠OPA = 30° and ∠OAP = 90°. sin 30° = OA/OP ⇒ OP = 5/(1/2) = 10 cm.",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-G05",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-145",
+      "section": "geometry",
+      "topic": "Triangles (Similarity, BPT)",
+      "difficulty": "medium",
+      "question": "ΔABC ~ ΔPQR with AB = 6 cm and PQ = 9 cm. If the perimeter of ΔABC is 24 cm, the perimeter of ΔPQR is:",
+      "options": [
+        "36 cm",
+        "27 cm",
+        "16 cm",
+        "54 cm"
+      ],
+      "answer": 0,
+      "explanation": "Ratio of perimeters = ratio of corresponding sides = 9/6 = 3/2, so perimeter of ΔPQR = 24 × 3/2 = 36 cm. 16 cm comes from inverting the ratio.",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-G02",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-146",
+      "section": "geometry",
+      "topic": "Circles (Tangents)",
+      "difficulty": "medium",
+      "question": "PT is a tangent at T to a circle with centre O. The line PO meets the circle at Q, the point nearer to P. If PT = 12 cm and PQ = 8 cm, the radius of the circle is:",
+      "options": [
+        "4 cm",
+        "10 cm",
+        "6.5 cm",
+        "5 cm"
+      ],
+      "answer": 3,
+      "explanation": "OT ⟂ PT and OP = r + 8. (r + 8)² = r² + 12² ⇒ 16r + 64 = 144 ⇒ r = 5 cm.",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-G04",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-147",
+      "section": "geometry",
+      "topic": "Circles (Tangents)",
+      "difficulty": "medium",
+      "question": "Assertion (A): A circle touches all four sides of a quadrilateral ABCD. If AB = 7 cm, BC = 9 cm and CD = 8 cm, then AD = 6 cm.\nReason (R): The lengths of the tangents drawn from an external point to a circle are equal.\n\nChoose the correct option.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Equal tangents give AB + CD = BC + AD, so 7 + 8 = 9 + AD ⇒ AD = 6 cm. A is derived from R.",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-G06",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-148",
+      "section": "trigonometry",
+      "topic": "Trigonometric Ratios & Identities",
+      "difficulty": "easy",
+      "question": "The value of 4 sin² 60° + 3 tan² 30° − 8 sin 45° cos 45° is:",
+      "options": [
+        "1",
+        "2",
+        "0",
+        "−1"
+      ],
+      "answer": 2,
+      "explanation": "4 × 3/4 + 3 × 1/3 − 8 × (1/√2)(1/√2) = 3 + 1 − 4 = 0.",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-T01",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-149",
+      "section": "trigonometry",
+      "topic": "Trigonometric Ratios & Identities",
+      "difficulty": "medium",
+      "question": "If 5 cot θ = 12 and θ is acute, then (sin θ + cos θ)/(sin θ − cos θ) is equal to:",
+      "options": [
+        "−17/7",
+        "17/7",
+        "7/17",
+        "−7/17"
+      ],
+      "answer": 0,
+      "explanation": "cot θ = 12/5 ⇒ sin θ = 5/13, cos θ = 12/13. (5 + 12)/(5 − 12) = −17/7.",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-T02",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-150",
+      "section": "trigonometry",
+      "topic": "Trigonometric Ratios & Identities",
+      "difficulty": "medium",
+      "question": "If sec θ + tan θ = 3, then sec θ is equal to:",
+      "options": [
+        "4/3",
+        "1/3",
+        "10/3",
+        "5/3"
+      ],
+      "answer": 3,
+      "explanation": "(sec θ + tan θ)(sec θ − tan θ) = 1 ⇒ sec θ − tan θ = 1/3. Adding: 2 sec θ = 10/3 ⇒ sec θ = 5/3. 1/3 is the value of sec θ − tan θ.",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-T03",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-151",
+      "section": "trigonometry",
+      "topic": "Heights and Distances",
+      "difficulty": "easy",
+      "question": "A wheelchair ramp makes an angle of 30° with the horizontal ground and rises to a height of 1.2 m. The length of the ramp is:",
+      "options": [
+        "1.2√3 m",
+        "2.4 m",
+        "0.6 m",
+        "2.4√3 m"
+      ],
+      "answer": 1,
+      "explanation": "sin 30° = height/length ⇒ length = 1.2/(1/2) = 2.4 m. 1.2√3 m is the horizontal distance covered.",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-T05",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-152",
+      "section": "trigonometry",
+      "topic": "Trigonometric Ratios & Identities",
+      "difficulty": "medium",
+      "question": "Assertion (A): (1 + tan²θ)(1 − sin θ)(1 + sin θ) = 1, for 0° < θ < 90°.\nReason (R): sec²θ − tan²θ = 1 and sin²θ + cos²θ = 1.\n\nChoose the correct option.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Using the identities in R: (1 + tan²θ)(1 − sin²θ) = sec²θ · cos²θ = 1. R explains A.",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-T07",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-153",
+      "section": "mensuration",
+      "topic": "Areas Related to Circles",
+      "difficulty": "medium",
+      "question": "The length of the arc of a sector of a circle of radius 21 cm is 22 cm. The area of the sector is:",
+      "options": [
+        "462 cm²",
+        "115.5 cm²",
+        "231 cm²",
+        "693 cm²"
+      ],
+      "answer": 2,
+      "explanation": "Area of sector = (1/2) × arc length × radius = (1/2) × 22 × 21 = 231 cm².",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-M01",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-154",
+      "section": "mensuration",
+      "topic": "Areas Related to Circles",
+      "difficulty": "easy",
+      "question": "A sector of a circle of radius 14 cm has an area of 154 cm². The angle of the sector is (π = 22/7):",
+      "options": [
+        "90°",
+        "60°",
+        "120°",
+        "45°"
+      ],
+      "answer": 0,
+      "explanation": "Area of circle = (22/7) × 196 = 616 cm². θ/360° = 154/616 = 1/4 ⇒ θ = 90°.",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-M01",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-155",
+      "section": "mensuration",
+      "topic": "Areas Related to Circles",
+      "difficulty": "medium",
+      "question": "A circular park of radius 21 m has a path 3.5 m wide running inside it along its boundary. The area of the path is (π = 22/7):",
+      "options": [
+        "462 m²",
+        "385 m²",
+        "231 m²",
+        "423.5 m²"
+      ],
+      "answer": 3,
+      "explanation": "Inner radius = 17.5 m. Area = (22/7)(21² − 17.5²) = (22/7)(441 − 306.25) = (22/7) × 134.75 = 423.5 m².",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-M02",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-156",
+      "section": "mensuration",
+      "topic": "Areas Related to Circles",
+      "difficulty": "easy",
+      "question": "The largest possible quadrant of a circle is cut from a square sheet of side 14 cm, with its centre at one corner of the sheet. The area of the remaining sheet is (π = 22/7):",
+      "options": [
+        "154 cm²",
+        "42 cm²",
+        "98 cm²",
+        "56 cm²"
+      ],
+      "answer": 1,
+      "explanation": "Quadrant radius = 14 cm: area = (1/4)(22/7)(196) = 154 cm². Remaining = 196 − 154 = 42 cm².",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-M02",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-157",
+      "section": "mensuration",
+      "topic": "Surface Areas and Volumes",
+      "difficulty": "medium",
+      "question": "The volumes of two spheres are in the ratio 64 : 27. The ratio of their surface areas is:",
+      "options": [
+        "4 : 3",
+        "16 : 9",
+        "64 : 27",
+        "8 : 3"
+      ],
+      "answer": 1,
+      "explanation": "r₁³ : r₂³ = 64 : 27 ⇒ r₁ : r₂ = 4 : 3, so surface areas are in the ratio 16 : 9.",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-M03",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-158",
+      "section": "mensuration",
+      "topic": "Surface Areas and Volumes",
+      "difficulty": "easy",
+      "question": "A cone and a cylinder have equal base radii and equal volumes. If the height of the cylinder is 5 cm, the height of the cone is:",
+      "options": [
+        "5/3 cm",
+        "10 cm",
+        "5 cm",
+        "15 cm"
+      ],
+      "answer": 3,
+      "explanation": "(1/3)πr²h = πr² × 5 ⇒ h = 15 cm.",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-M03",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-159",
+      "section": "mensuration",
+      "topic": "Surface Areas and Volumes",
+      "difficulty": "medium",
+      "question": "The curved surface area of a right circular cylinder is 440 cm² and its volume is 1540 cm³. The height of the cylinder is (π = 22/7):",
+      "options": [
+        "10 cm",
+        "3.5 cm",
+        "7 cm",
+        "20 cm"
+      ],
+      "answer": 0,
+      "explanation": "Volume/CSA = πr²h/(2πrh) = r/2 = 1540/440 = 3.5 ⇒ r = 7 cm. Then 2 × (22/7) × 7 × h = 440 ⇒ h = 10 cm.",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-M03",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-160",
+      "section": "mensuration",
+      "topic": "Surface Areas and Volumes",
+      "difficulty": "medium",
+      "question": "A solid is in the shape of a cylinder with a hemisphere on one end; the other end is flat. The common radius is 7 cm and the total height of the solid is 19 cm. The total surface area of the solid is (π = 22/7):",
+      "options": [
+        "836 cm²",
+        "1144 cm²",
+        "990 cm²",
+        "1298 cm²"
+      ],
+      "answer": 2,
+      "explanation": "Cylinder height = 19 − 7 = 12 cm. TSA = 2πrh + 2πr² + πr² = 168π + 98π + 49π = 315π = 990 cm². Omitting the flat base gives 836 cm²; using 19 cm as the cylinder's height gives 1298 cm².",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-M04",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-161",
+      "section": "mensuration",
+      "topic": "Surface Areas and Volumes",
+      "difficulty": "medium",
+      "question": "Two identical cones, each of base radius 3 cm and height 4 cm, are joined base to base. The total surface area of the solid formed is:",
+      "options": [
+        "15π cm²",
+        "24π cm²",
+        "48π cm²",
+        "30π cm²"
+      ],
+      "answer": 3,
+      "explanation": "Slant height = √(9 + 16) = 5 cm. Only the two curved surfaces are exposed: 2 × π × 3 × 5 = 30π cm². Adding the hidden bases (18π) gives the wrong answer 48π.",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-M04",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-162",
+      "section": "mensuration",
+      "topic": "Surface Areas and Volumes",
+      "difficulty": "medium",
+      "question": "Assertion (A): If the radius of a cylinder is doubled and its height is halved, its volume remains unchanged.\nReason (R): The volume of a cylinder of radius r and height h is πr²h.\n\nChoose the correct option.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "answer": 3,
+      "explanation": "New volume = π(2r)²(h/2) = 2πr²h, i.e. the volume doubles, so A is false. R is the correct formula.",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-M05",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-163",
+      "section": "statistics-probability",
+      "topic": "Statistics (Mean, Median, Mode of Grouped Data)",
+      "difficulty": "easy",
+      "question": "For a distribution, the median is 21.5 and the mode is 23. Using the empirical relation, the mean is:",
+      "options": [
+        "22.25",
+        "21",
+        "20.75",
+        "19.5"
+      ],
+      "answer": 2,
+      "explanation": "3 Median = Mode + 2 Mean ⇒ 64.5 = 23 + 2 Mean ⇒ Mean = 20.75.",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-S01",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-164",
+      "section": "statistics-probability",
+      "topic": "Statistics (Mean, Median, Mode of Grouped Data)",
+      "difficulty": "easy",
+      "question": "For the distribution 0–20 (f = 6), 20–40 (f = 10), 40–60 (f = 14), 60–80 (f = 11), 80–100 (f = 9), the class mark of the modal class is:",
+      "options": [
+        "50",
+        "60",
+        "14",
+        "40"
+      ],
+      "answer": 0,
+      "explanation": "The highest frequency (14) is in 40–60, so the modal class is 40–60 and its class mark is (40 + 60)/2 = 50.",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-S02",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-165",
+      "section": "statistics-probability",
+      "topic": "Statistics (Mean, Median, Mode of Grouped Data)",
+      "difficulty": "medium",
+      "question": "For the distribution 10–20 (f = 5), 20–30 (f = 7), 30–40 (f = 12), 40–50 (f = 9), 50–60 (f = 7), the difference between the upper limit of the median class and the lower limit of the modal class is:",
+      "options": [
+        "0",
+        "30",
+        "20",
+        "10"
+      ],
+      "answer": 3,
+      "explanation": "N = 40, N/2 = 20; cumulative frequencies 5, 12, 24 … so the median class is 30–40 (upper limit 40). The modal class is also 30–40 (lower limit 30). Difference = 10.",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-S02",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-166",
+      "section": "statistics-probability",
+      "topic": "Statistics (Mean, Median, Mode of Grouped Data)",
+      "difficulty": "medium",
+      "question": "In finding the mean of grouped data by the step-deviation method, a = 45, h = 10, Σfᵢ = 50 and Σfᵢuᵢ = −15. The mean is:",
+      "options": [
+        "48",
+        "42",
+        "45.3",
+        "44.7"
+      ],
+      "answer": 1,
+      "explanation": "Mean = a + h × (Σfᵢuᵢ/Σfᵢ) = 45 + 10 × (−15/50) = 45 − 3 = 42. Forgetting to multiply by h gives 44.7.",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-S03",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-167",
+      "section": "statistics-probability",
+      "topic": "Probability",
+      "difficulty": "medium",
+      "question": "Two dice are thrown together. The probability that the product of the numbers on the two dice is a prime number is:",
+      "options": [
+        "1/12",
+        "1/6",
+        "1/9",
+        "1/4"
+      ],
+      "answer": 1,
+      "explanation": "The product is prime only when one die shows 1 and the other 2, 3 or 5: (1,2), (1,3), (1,5), (2,1), (3,1), (5,1) – 6 outcomes. P = 6/36 = 1/6.",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-S04",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-168",
+      "section": "statistics-probability",
+      "topic": "Probability",
+      "difficulty": "medium",
+      "question": "A card is drawn at random from a well-shuffled deck of 52 playing cards. The probability that it is neither a heart nor a king is:",
+      "options": [
+        "35/52",
+        "4/13",
+        "3/4",
+        "9/13"
+      ],
+      "answer": 3,
+      "explanation": "Hearts or kings = 13 + 4 − 1 = 16 cards. Neither = 36. P = 36/52 = 9/13. Not subtracting the king of hearts once gives 35/52.",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-S04",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-169",
+      "section": "statistics-probability",
+      "topic": "Probability",
+      "difficulty": "medium",
+      "question": "A bag contains only red, blue and green balls. The probability of drawing a red ball is 1/4 and that of a blue ball is 1/3. If the bag has 10 green balls, the total number of balls in the bag is:",
+      "options": [
+        "24",
+        "12",
+        "30",
+        "36"
+      ],
+      "answer": 0,
+      "explanation": "P(green) = 1 − 1/4 − 1/3 = 5/12. 5/12 of total = 10 ⇒ total = 24.",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-S05",
+      "verified": false
+    },
+    {
+      "id": "cbse-class-10-maths-170",
+      "section": "statistics-probability",
+      "topic": "Probability",
+      "difficulty": "medium",
+      "question": "Assertion (A): When two coins are tossed together, the probability of getting exactly one head is 1/3.\nReason (R): The possible outcomes HH, HT, TH and TT are equally likely.\n\nChoose the correct option.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "answer": 3,
+      "explanation": "Of the four equally likely outcomes, HT and TH give exactly one head, so the probability is 2/4 = 1/2. A is false (it treats 0, 1, 2 heads as equally likely); R is true.",
+      "source": "ai",
+      "archetype": "cbse-class-10-maths-S06",
+      "verified": false
     }
   ],
   "pyqBlueprint": {
