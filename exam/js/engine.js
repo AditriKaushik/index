@@ -129,7 +129,8 @@ function completeSets(exam, picked) {
 // Options whose meaning depends on their position or on the other options
 // ("All of the above", "Both A and R …", "1 and 2 only", bare letters) stay in order.
 const FIXED_ORDER = /\b(all|none|both|neither)\b|\babove\b|\bonly\b|\band\b.*\d|^\(?[a-e1-5]\)?$|statement|assertion|reason|cannot be determined|data (is |are )?(in)?sufficient/i;
-export const canShuffle = q => qType(q) !== 'numerical' && !q.options.some(o => FIXED_ORDER.test(String(o).trim()));
+// Figure options stay in order too: their explanations refer to "Figure 1…4".
+export const canShuffle = q => qType(q) !== 'numerical' && !q.optionFigures && !q.options.some(o => FIXED_ORDER.test(String(o).trim()));
 
 // Only questions an independent review scored ≥ MIN_RELEVANCE against the
 // exam's previous-year papers (and re-solved) may be served. See data/RELEVANCE.md.
