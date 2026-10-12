@@ -903,44 +903,6 @@
       }
     },
     {
-      "id": "ibps-rrb-po-002",
-      "section": "reasoning",
-      "topic": "Puzzles & Seating Arrangement",
-      "difficulty": "medium",
-      "question": "Six friends A, B, C, D, E and F sit around a circular table, all facing the centre. B sits second to the left of D. E sits immediately to the left of B. A sits opposite B. C is not an immediate neighbour of D.\n\nWho sits opposite D?",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "E",
-        "F"
-      ],
-      "answer": 3,
-      "explanation": "Clockwise: A, D, F, B, E, C. D is in seat 2, so the seat opposite (seat 5) has E.",
-      "verified": true,
-      "archetype": "ibps-rrb-po-R03",
-      "source": "curated"
-    },
-    {
-      "id": "ibps-rrb-po-003",
-      "section": "reasoning",
-      "topic": "Puzzles & Seating Arrangement",
-      "difficulty": "medium",
-      "question": "Six friends A, B, C, D, E and F sit around a circular table, all facing the centre. B sits second to the left of D. E sits immediately to the left of B. A sits opposite B. C is not an immediate neighbour of D.\n\nWho are the immediate neighbours of C?",
-      "options": [
-        "A and D",
-        "B and E",
-        "E and A",
-        "F and B",
-        "D and F"
-      ],
-      "answer": 2,
-      "explanation": "Clockwise: A, D, F, B, E, C. C sits between E and A.",
-      "verified": true,
-      "archetype": "ibps-rrb-po-R03",
-      "source": "curated"
-    },
-    {
       "id": "ibps-rrb-po-004",
       "section": "reasoning",
       "topic": "Puzzles & Seating Arrangement",
@@ -1133,101 +1095,6 @@
       }
     },
     {
-      "id": "ibps-rrb-po-012",
-      "section": "reasoning",
-      "topic": "Puzzles & Seating Arrangement",
-      "difficulty": "medium",
-      "question": "Seven boxes M, N, O, P, Q, R and S are kept one above another (position 1 is the bottom, 7 the top). Q is exactly in the middle of the stack. Only two boxes are between Q and P, and P is above Q. N is immediately below R, and R is above Q. Only one box is between M and N. S is above O.\n\nWhich box is placed immediately above Q?",
-      "options": [
-        "R",
-        "M",
-        "N",
-        "P",
-        "S"
-      ],
-      "answer": 2,
-      "explanation": "Q = 4, P = 7; N–R must be 5–6, so N is immediately above Q. M is 3 (two from N), and O, S take 1, 2.",
-      "verified": true,
-      "archetype": "ibps-rrb-po-R06",
-      "source": "curated"
-    },
-    {
-      "id": "ibps-rrb-po-013",
-      "section": "reasoning",
-      "topic": "Puzzles & Seating Arrangement",
-      "difficulty": "medium",
-      "question": "Five students A, B, C, D and E scored different marks. B scored more than only two students. D scored more than B but less than A. E scored less than C. Who scored the second lowest marks?",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "answer": 2,
-      "explanation": "B is third from the top; A > D > B are the top three, and C > E are below B. Order: A, D, B, C, E — C is second lowest.",
-      "verified": true,
-      "archetype": "ibps-rrb-po-R07",
-      "source": "curated"
-    },
-    {
-      "id": "ibps-rrb-po-014",
-      "section": "reasoning",
-      "topic": "Puzzles & Seating Arrangement",
-      "difficulty": "medium",
-      "question": "Four persons P, Q, R and S sit around a square table, one on each side, facing the centre. Q sits to the immediate right of P. S does not sit opposite Q. Who sits to the immediate left of P?",
-      "options": [
-        "Q",
-        "R",
-        "S",
-        "Cannot be determined",
-        "None of these"
-      ],
-      "answer": 1,
-      "explanation": "S is not opposite Q, so S is opposite P, and R is opposite Q. Q is on P's right, so R is on P's left.",
-      "verified": true,
-      "archetype": "ibps-rrb-po-R03",
-      "source": "curated"
-    },
-    {
-      "id": "ibps-rrb-po-015",
-      "section": "reasoning",
-      "topic": "Puzzles & Seating Arrangement",
-      "difficulty": "easy",
-      "question": "Five persons V, W, X, Y and Z live on different floors of a five-storey building (floor 1 is the bottom). V lives on an even-numbered floor. W lives immediately above V. X lives on the top floor. Y lives on a floor below Z. Who lives on floor 4?",
-      "options": [
-        "V",
-        "W",
-        "Y",
-        "Z",
-        "X"
-      ],
-      "answer": 3,
-      "explanation": "X is on 5. V on 4 would put W on 5 (X's), so V = 2 and W = 3. Floors 1 and 4 remain; Y below Z → Y = 1, Z = 4.",
-      "verified": true,
-      "archetype": "ibps-rrb-po-R04",
-      "source": "curated"
-    },
-    {
-      "id": "ibps-rrb-po-016",
-      "section": "reasoning",
-      "topic": "Syllogism",
-      "difficulty": "easy",
-      "question": "Statements: Some boxes are cartons. All cartons are bags.\nConclusions: I. Some boxes are bags. II. Some bags are cartons.",
-      "options": [
-        "Only I follows",
-        "Only II follows",
-        "Either I or II follows",
-        "Neither I nor II follows",
-        "Both I and II follow"
-      ],
-      "answer": 4,
-      "explanation": "Boxes that are cartons are bags (I). Since all cartons are bags, some bags are cartons (II). Both follow.",
-      "verified": true,
-      "archetype": "ibps-rrb-po-R11",
-      "source": "curated"
-    },
-    {
       "id": "ibps-rrb-po-017",
       "section": "reasoning",
       "topic": "Syllogism",
@@ -1252,25 +1119,6 @@
       }
     },
     {
-      "id": "ibps-rrb-po-018",
-      "section": "reasoning",
-      "topic": "Inequality",
-      "difficulty": "easy",
-      "question": "Statement: W > X ≥ Y > Z\nConclusions: I. W > Z  II. Y ≥ W",
-      "options": [
-        "Only I follows",
-        "Only II follows",
-        "Either I or II follows",
-        "Neither I nor II follows",
-        "Both I and II follow"
-      ],
-      "answer": 0,
-      "explanation": "W > X ≥ Y > Z gives W > Z; and W > Y, so II is false. Only I follows.",
-      "verified": true,
-      "archetype": "ibps-rrb-po-R13",
-      "source": "curated"
-    },
-    {
       "id": "ibps-rrb-po-019",
       "section": "reasoning",
       "topic": "Inequality",
@@ -1293,25 +1141,6 @@
         "by": "independent-review",
         "note": "Three-statement inequality"
       }
-    },
-    {
-      "id": "ibps-rrb-po-020",
-      "section": "reasoning",
-      "topic": "Coding-Decoding",
-      "difficulty": "easy",
-      "question": "If 'CLOUD' is written as 'DMPVE' in a code, how is 'RAIN' written?",
-      "options": [
-        "SBIO",
-        "SCJO",
-        "QZHM",
-        "SBJO",
-        "TBJO"
-      ],
-      "answer": 3,
-      "explanation": "Each letter moves one place forward: R→S, A→B, I→J, N→O = SBJO.",
-      "verified": true,
-      "archetype": "ibps-rrb-po-R19",
-      "source": "curated"
     },
     {
       "id": "ibps-rrb-po-021",
@@ -1384,44 +1213,6 @@
         "by": "independent-review",
         "note": "Symbol-coded relation to father-in-law; R16 faithful"
       }
-    },
-    {
-      "id": "ibps-rrb-po-024",
-      "section": "reasoning",
-      "topic": "Direction Sense",
-      "difficulty": "easy",
-      "question": "Raj is facing east. He turns 135° anticlockwise. Which direction is he facing now?",
-      "options": [
-        "North-East",
-        "West",
-        "South-West",
-        "North-West",
-        "North"
-      ],
-      "answer": 3,
-      "explanation": "East → 90° anticlockwise = North → a further 45° = North-West.",
-      "verified": true,
-      "archetype": "ibps-rrb-po-R31",
-      "source": "curated"
-    },
-    {
-      "id": "ibps-rrb-po-025",
-      "section": "reasoning",
-      "topic": "Direction Sense",
-      "difficulty": "easy",
-      "question": "A is 10 m north of B. C is 6 m east of B. D is 10 m north of C. How far and in which direction is D from A?",
-      "options": [
-        "6 m West",
-        "6 m East",
-        "10 m North",
-        "16 m East",
-        "8 m North-East"
-      ],
-      "answer": 1,
-      "explanation": "Take B = (0,0): A = (0,10), C = (6,0), D = (6,10). D is 6 m east of A.",
-      "verified": true,
-      "archetype": "ibps-rrb-po-R18",
-      "source": "curated"
     },
     {
       "id": "ibps-rrb-po-026",
@@ -1518,25 +1309,6 @@
         "by": "independent-review",
         "note": "Digit-sort number formation"
       }
-    },
-    {
-      "id": "ibps-rrb-po-030",
-      "section": "reasoning",
-      "topic": "Data Sufficiency",
-      "difficulty": "medium",
-      "question": "How is J related to K?\nI. J is the brother of L, who is the daughter of K.\nII. K is the wife of M, who is the father of J.",
-      "options": [
-        "The data in statement I alone are sufficient, but the data in statement II alone are not",
-        "The data in statement II alone are sufficient, but the data in statement I alone are not",
-        "The data in either statement I alone or statement II alone are sufficient",
-        "The data in both statements I and II together are not sufficient",
-        "The data in both statements I and II together are necessary"
-      ],
-      "answer": 0,
-      "explanation": "From I: L is K's daughter and J is L's brother, so J is K's son — sufficient. From II: K is J's mother, but J's gender is unknown (son or daughter) — not sufficient.",
-      "verified": true,
-      "archetype": "ibps-rrb-po-R27",
-      "source": "curated"
     },
     {
       "id": "ibps-rrb-po-031",
@@ -1755,25 +1527,6 @@
       }
     },
     {
-      "id": "ibps-rrb-po-040",
-      "section": "quant",
-      "topic": "Simplification & Approximation",
-      "difficulty": "easy",
-      "question": "15% of 240 + 25% of 160 = ?",
-      "options": [
-        "72",
-        "74",
-        "76",
-        "78",
-        "80"
-      ],
-      "answer": 2,
-      "explanation": "36 + 40 = 76.",
-      "verified": true,
-      "archetype": "ibps-rrb-po-Q11",
-      "source": "curated"
-    },
-    {
       "id": "ibps-rrb-po-041",
       "section": "quant",
       "topic": "Simplification & Approximation",
@@ -1918,25 +1671,6 @@
       }
     },
     {
-      "id": "ibps-rrb-po-047",
-      "section": "quant",
-      "topic": "Quadratic Equations",
-      "difficulty": "easy",
-      "question": "Solve and compare.\nI. x² − 9x + 20 = 0\nII. y² − 5y + 6 = 0",
-      "options": [
-        "x > y",
-        "x ≥ y",
-        "x < y",
-        "x ≤ y",
-        "x = y or the relationship cannot be established"
-      ],
-      "answer": 0,
-      "explanation": "x = 4, 5; y = 2, 3. Every x is greater than every y: x > y.",
-      "verified": true,
-      "archetype": "ibps-rrb-po-Q07",
-      "source": "curated"
-    },
-    {
       "id": "ibps-rrb-po-048",
       "section": "quant",
       "topic": "Quadratic Equations",
@@ -1985,44 +1719,6 @@
       }
     },
     {
-      "id": "ibps-rrb-po-050",
-      "section": "quant",
-      "topic": "Percentage & Profit-Loss",
-      "difficulty": "easy",
-      "question": "60% of a number is 48 more than 40% of the same number. What is the number?",
-      "options": [
-        "200",
-        "220",
-        "260",
-        "240",
-        "280"
-      ],
-      "answer": 3,
-      "explanation": "20% of the number = 48 → number = 240.",
-      "verified": true,
-      "archetype": "ibps-rrb-po-Q15",
-      "source": "curated"
-    },
-    {
-      "id": "ibps-rrb-po-051",
-      "section": "quant",
-      "topic": "Percentage & Profit-Loss",
-      "difficulty": "medium",
-      "question": "An article marked at ₹2,500 is sold after two successive discounts of 20% and 10%. What is the selling price?",
-      "options": [
-        "₹1,750",
-        "₹1,875",
-        "₹1,850",
-        "₹1,800",
-        "₹1,900"
-      ],
-      "answer": 3,
-      "explanation": "2500 × 0.8 × 0.9 = ₹1,800.",
-      "verified": true,
-      "archetype": "ibps-rrb-po-Q14",
-      "source": "curated"
-    },
-    {
       "id": "ibps-rrb-po-052",
       "section": "quant",
       "topic": "Percentage & Profit-Loss",
@@ -2047,25 +1743,6 @@
       }
     },
     {
-      "id": "ibps-rrb-po-053",
-      "section": "quant",
-      "topic": "Ratio, Partnership & Ages",
-      "difficulty": "medium",
-      "question": "₹7,800 is divided among A, B and C in the ratio 1/2 : 1/3 : 1/4. What is C's share?",
-      "options": [
-        "₹1,600",
-        "₹2,000",
-        "₹1,800",
-        "₹2,400",
-        "₹3,600"
-      ],
-      "answer": 2,
-      "explanation": "Multiply by 12: 6 : 4 : 3 (total 13). C = 7,800 × 3/13 = ₹1,800.",
-      "verified": true,
-      "archetype": "ibps-rrb-po-Q18",
-      "source": "curated"
-    },
-    {
       "id": "ibps-rrb-po-054",
       "section": "quant",
       "topic": "Ratio, Partnership & Ages",
@@ -2088,25 +1765,6 @@
         "by": "independent-review",
         "note": "Mother-daughter multiple ages"
       }
-    },
-    {
-      "id": "ibps-rrb-po-055",
-      "section": "quant",
-      "topic": "Time & Work",
-      "difficulty": "medium",
-      "question": "A is twice as efficient as B. Together they finish a job in 18 days. In how many days can A alone finish it?",
-      "options": [
-        "24",
-        "36",
-        "30",
-        "27",
-        "54"
-      ],
-      "answer": 3,
-      "explanation": "Let B do b per day, A 2b: 3b = 1/18 → b = 1/54, A = 1/27 → 27 days.",
-      "verified": true,
-      "archetype": "ibps-rrb-po-Q19",
-      "source": "curated"
     },
     {
       "id": "ibps-rrb-po-056",
@@ -2155,63 +1813,6 @@
         "by": "independent-review",
         "note": "Platform vs bridge train length"
       }
-    },
-    {
-      "id": "ibps-rrb-po-058",
-      "section": "quant",
-      "topic": "Simple & Compound Interest",
-      "difficulty": "medium",
-      "question": "A sum of money doubles itself in 5 years at compound interest. In how many years will it become 8 times itself at the same rate?",
-      "options": [
-        "10",
-        "12",
-        "15",
-        "20",
-        "25"
-      ],
-      "answer": 2,
-      "explanation": "8 = 2³, so it takes 3 × 5 = 15 years.",
-      "verified": true,
-      "archetype": "ibps-rrb-po-Q22",
-      "source": "curated"
-    },
-    {
-      "id": "ibps-rrb-po-059",
-      "section": "quant",
-      "topic": "Mixture & Alligation",
-      "difficulty": "easy",
-      "question": "In what ratio must rice costing ₹40/kg be mixed with rice costing ₹55/kg so that the mixture is worth ₹45/kg?",
-      "options": [
-        "1 : 2",
-        "2 : 3",
-        "3 : 2",
-        "2 : 1",
-        "3 : 1"
-      ],
-      "answer": 3,
-      "explanation": "By alligation: (55 − 45) : (45 − 40) = 10 : 5 = 2 : 1.",
-      "verified": true,
-      "archetype": "ibps-rrb-po-Q23",
-      "source": "curated"
-    },
-    {
-      "id": "ibps-rrb-po-060",
-      "section": "quant",
-      "topic": "Mensuration",
-      "difficulty": "easy",
-      "question": "The perimeter of a rectangle is 56 m and its length is 4 m more than its breadth. What is its area?",
-      "options": [
-        "180 m²",
-        "192 m²",
-        "196 m²",
-        "200 m²",
-        "208 m²"
-      ],
-      "answer": 1,
-      "explanation": "l + b = 28, l − b = 4 → l = 16, b = 12. Area = 192 m².",
-      "verified": true,
-      "archetype": "ibps-rrb-po-Q25",
-      "source": "curated"
     },
     {
       "id": "ibps-rrb-po-061",
@@ -2670,25 +2271,6 @@
       }
     },
     {
-      "id": "ibps-rrb-po-080",
-      "section": "reasoning",
-      "topic": "Coding-Decoding",
-      "difficulty": "easy",
-      "question": "In a certain code, 'FARM' is written as 'HCTO'. How is 'SEED' written in that code?",
-      "options": [
-        "UGGE",
-        "TFFE",
-        "UFGF",
-        "UGGF",
-        "QCCB"
-      ],
-      "answer": 3,
-      "explanation": "Each letter moves two places forward: S → U, E → G, E → G, D → F. SEED → UGGF.",
-      "source": "ai",
-      "archetype": "ibps-rrb-po-R19",
-      "verified": false
-    },
-    {
       "id": "ibps-rrb-po-081",
       "section": "reasoning",
       "topic": "Coding-Decoding",
@@ -2713,25 +2295,6 @@
       }
     },
     {
-      "id": "ibps-rrb-po-082",
-      "section": "reasoning",
-      "topic": "Blood Relations",
-      "difficulty": "easy",
-      "question": "Introducing a woman, Suresh said, 'She is the wife of the only son of my father's father.' How is the woman related to Suresh?",
-      "options": [
-        "Aunt",
-        "Sister",
-        "Mother",
-        "Grandmother",
-        "Sister-in-law"
-      ],
-      "answer": 2,
-      "explanation": "The only son of Suresh's paternal grandfather is Suresh's father; his wife is Suresh's mother.",
-      "source": "ai",
-      "archetype": "ibps-rrb-po-R15",
-      "verified": false
-    },
-    {
       "id": "ibps-rrb-po-083",
       "section": "reasoning",
       "topic": "Blood Relations",
@@ -2754,44 +2317,6 @@
         "by": "independent-review",
         "note": "Coded relation daughter"
       }
-    },
-    {
-      "id": "ibps-rrb-po-084",
-      "section": "reasoning",
-      "topic": "Direction Sense",
-      "difficulty": "easy",
-      "question": "A man is facing west. He turns 45° clockwise, then 180° anticlockwise and then 90° clockwise. Which direction is he facing now?",
-      "options": [
-        "North-West",
-        "South-East",
-        "North-East",
-        "South",
-        "South-West"
-      ],
-      "answer": 4,
-      "explanation": "West → 45° clockwise = North-West → 180° anticlockwise = South-East → 90° clockwise = South-West.",
-      "source": "ai",
-      "archetype": "ibps-rrb-po-R31",
-      "verified": false
-    },
-    {
-      "id": "ibps-rrb-po-085",
-      "section": "reasoning",
-      "topic": "Direction Sense",
-      "difficulty": "easy",
-      "question": "Kavita walks 5 km towards the south, turns east and walks 3 km, turns north and walks 9 km, and then turns west and walks 3 km. How far and in which direction is she from her starting point?",
-      "options": [
-        "4 km, South",
-        "14 km, North",
-        "6 km, East",
-        "4 km, North",
-        "5 km, North-East"
-      ],
-      "answer": 3,
-      "explanation": "East–west movements cancel (3 km each way). North 9 − south 5 = 4 km north of the start.",
-      "source": "ai",
-      "archetype": "ibps-rrb-po-R17",
-      "verified": false
     },
     {
       "id": "ibps-rrb-po-086",
@@ -2888,25 +2413,6 @@
         "by": "independent-review",
         "note": "LENS formed from PLANETS letters"
       }
-    },
-    {
-      "id": "ibps-rrb-po-090",
-      "section": "reasoning",
-      "topic": "Data Sufficiency",
-      "difficulty": "medium",
-      "question": "On which day of the week did Meena visit the bank?\nI. Meena visited the bank after Monday but before Thursday.\nII. Meena did not visit the bank on Wednesday, and she visited it on a day after Monday.",
-      "options": [
-        "The data in statement I alone are sufficient, but the data in statement II alone are not",
-        "The data in statement II alone are sufficient, but the data in statement I alone are not",
-        "The data in either statement I alone or statement II alone are sufficient",
-        "The data in both statements I and II together are not sufficient",
-        "The data in both statements I and II together are necessary"
-      ],
-      "answer": 4,
-      "explanation": "I alone leaves Tuesday or Wednesday. II alone leaves Tuesday, Thursday, Friday, Saturday or Sunday. Together only Tuesday remains, so both statements are needed.",
-      "source": "ai",
-      "archetype": "ibps-rrb-po-R27",
-      "verified": false
     },
     {
       "id": "ibps-rrb-po-091",
@@ -3245,25 +2751,6 @@
       }
     },
     {
-      "id": "ibps-rrb-po-105",
-      "section": "quant",
-      "topic": "Number Series",
-      "difficulty": "easy",
-      "question": "Find the next term: 2, 5, 14, 41, 122, ?",
-      "options": [
-        "362",
-        "365",
-        "366",
-        "244",
-        "368"
-      ],
-      "answer": 1,
-      "explanation": "Each term = previous × 3 − 1: 122 × 3 − 1 = 365.",
-      "source": "ai",
-      "archetype": "ibps-rrb-po-Q09",
-      "verified": false
-    },
-    {
       "id": "ibps-rrb-po-106",
       "section": "quant",
       "topic": "Number Series",
@@ -3408,25 +2895,6 @@
       }
     },
     {
-      "id": "ibps-rrb-po-112",
-      "section": "quant",
-      "topic": "Percentage & Profit-Loss",
-      "difficulty": "easy",
-      "question": "The population of a village is 20,000. It increases by 10% in the first year and decreases by 10% in the second year. What will the population be after two years?",
-      "options": [
-        "20,000",
-        "20,200",
-        "19,600",
-        "19,800",
-        "19,900"
-      ],
-      "answer": 3,
-      "explanation": "20,000 × 1.1 × 0.9 = 19,800 — a net fall of 1%.",
-      "source": "ai",
-      "archetype": "ibps-rrb-po-Q15",
-      "verified": false
-    },
-    {
       "id": "ibps-rrb-po-113",
       "section": "quant",
       "topic": "Ratio, Partnership & Ages",
@@ -3523,25 +2991,6 @@
       }
     },
     {
-      "id": "ibps-rrb-po-117",
-      "section": "quant",
-      "topic": "Speed, Time & Distance (incl. Boats & Trains)",
-      "difficulty": "easy",
-      "question": "A boat covers 40 km downstream in 2 hours and the same distance upstream in 4 hours. What is the speed of the boat in still water?",
-      "options": [
-        "10 km/h",
-        "20 km/h",
-        "5 km/h",
-        "12 km/h",
-        "15 km/h"
-      ],
-      "answer": 4,
-      "explanation": "Downstream 20 km/h, upstream 10 km/h. Still-water speed = (20 + 10)/2 = 15 km/h.",
-      "source": "ai",
-      "archetype": "ibps-rrb-po-Q21",
-      "verified": false
-    },
-    {
       "id": "ibps-rrb-po-118",
       "section": "quant",
       "topic": "Simple & Compound Interest",
@@ -3588,25 +3037,6 @@
         "by": "independent-review",
         "note": "Repeated replacement"
       }
-    },
-    {
-      "id": "ibps-rrb-po-120",
-      "section": "quant",
-      "topic": "Mensuration",
-      "difficulty": "easy",
-      "question": "The area of a circle is 154 cm². What is its circumference? (Take π = 22/7)",
-      "options": [
-        "22 cm",
-        "88 cm",
-        "44 cm",
-        "42 cm",
-        "48 cm"
-      ],
-      "answer": 2,
-      "explanation": "πr² = 154 → r² = 49 → r = 7 cm. Circumference = 2 × 22/7 × 7 = 44 cm.",
-      "source": "ai",
-      "archetype": "ibps-rrb-po-Q25",
-      "verified": false
     }
   ]
 }

@@ -3260,6 +3260,150 @@
         "by": "independent-review",
         "note": "Grandmother-grandson chain fits R07"
       }
+    },
+    {
+      "id": "agniveer-army-121",
+      "section": "reasoning",
+      "topic": "Series",
+      "difficulty": "easy",
+      "question": "Find the next number in the series: 2, 6, 12, 20, 30, ?",
+      "options": [
+        "40",
+        "44",
+        "42",
+        "36"
+      ],
+      "answer": 2,
+      "explanation": "The differences are 4, 6, 8, 10, so the next one is 12: 30 + 12 = 42. (Each term is n(n + 1): 6 × 7 = 42.)",
+      "verified": false,
+      "archetype": "agniveer-army-R01",
+      "source": "ai"
+    },
+    {
+      "id": "agniveer-army-122",
+      "section": "reasoning",
+      "topic": "Series",
+      "difficulty": "easy",
+      "question": "Find the next number in the series: 3, 7, 15, 31, 63, ?",
+      "options": [
+        "127",
+        "125",
+        "126",
+        "129"
+      ],
+      "answer": 0,
+      "explanation": "Each term is (previous × 2) + 1: 63 × 2 + 1 = 127.",
+      "verified": false,
+      "archetype": "agniveer-army-R01",
+      "source": "ai"
+    },
+    {
+      "id": "agniveer-army-123",
+      "section": "reasoning",
+      "topic": "Series",
+      "difficulty": "easy",
+      "question": "Find the next letter in the series: B, E, J, Q, ?",
+      "options": [
+        "X",
+        "Y",
+        "W",
+        "Z"
+      ],
+      "answer": 3,
+      "explanation": "Positions 2, 5, 10, 17 increase by 3, 5, 7, so the next gap is 9: 17 + 9 = 26 = Z.",
+      "verified": false,
+      "archetype": "agniveer-army-R02",
+      "source": "ai"
+    },
+    {
+      "id": "agniveer-army-124",
+      "section": "reasoning",
+      "topic": "Coding-Decoding",
+      "difficulty": "medium",
+      "question": "In a certain code, ARMY is written as ZINB. How will NAVY be written in that code?",
+      "options": [
+        "MZFB",
+        "MZEB",
+        "NZEB",
+        "MAEB"
+      ],
+      "answer": 1,
+      "explanation": "Each letter is replaced by its opposite letter in the alphabet (position p → 27 − p): A→Z, R→I, M→N, Y→B. So N→M, A→Z, V→E, Y→B, giving MZEB.",
+      "verified": false,
+      "archetype": "agniveer-army-R03",
+      "source": "ai"
+    },
+    {
+      "id": "agniveer-army-125",
+      "section": "reasoning",
+      "topic": "Analogy & Classification",
+      "difficulty": "easy",
+      "question": "Pen : Writer :: Scalpel : ?",
+      "options": [
+        "Butcher",
+        "Carpenter",
+        "Surgeon",
+        "Tailor"
+      ],
+      "answer": 2,
+      "explanation": "A pen is the tool of a writer, and a scalpel is the tool of a surgeon. A butcher uses a cleaver, not a scalpel.",
+      "verified": false,
+      "archetype": "agniveer-army-R04",
+      "source": "ai"
+    },
+    {
+      "id": "agniveer-army-126",
+      "section": "reasoning",
+      "topic": "Analogy & Classification",
+      "difficulty": "easy",
+      "question": "Find the odd one out:",
+      "options": [
+        "64",
+        "125",
+        "144",
+        "216"
+      ],
+      "answer": 2,
+      "explanation": "64 = 4³, 125 = 5³ and 216 = 6³ are perfect cubes. 144 = 12² is a perfect square but not a cube.",
+      "verified": false,
+      "archetype": "agniveer-army-R05",
+      "source": "ai"
+    },
+    {
+      "id": "agniveer-army-127",
+      "section": "reasoning",
+      "topic": "Direction & Blood Relations",
+      "difficulty": "medium",
+      "question": "From his camp, a soldier walks 5 km towards the North, turns right and walks 3 km, then turns right again and walks 9 km. How far and in which direction is he now from the camp?",
+      "options": [
+        "5 km, North-East",
+        "5 km, South-East",
+        "7 km, South-East",
+        "5 km, South-West"
+      ],
+      "answer": 1,
+      "explanation": "Taking the camp as (0, 0): north 5 → (0, 5); right (east) 3 → (3, 5); right again (south) 9 → (3, −4). Distance = √(3² + 4²) = 5 km, to the South-East.",
+      "verified": false,
+      "archetype": "agniveer-army-R06",
+      "source": "ai"
+    },
+    {
+      "id": "agniveer-army-128",
+      "section": "reasoning",
+      "topic": "Direction & Blood Relations",
+      "difficulty": "easy",
+      "question": "Pointing to a photograph, Raman said, \"She is the daughter of my grandfather's only son.\" How is the girl in the photograph related to Raman?",
+      "options": [
+        "Cousin",
+        "Niece",
+        "Aunt",
+        "Sister"
+      ],
+      "answer": 3,
+      "explanation": "Raman's grandfather's only son is Raman's father. The daughter of Raman's father is Raman's sister.",
+      "verified": false,
+      "archetype": "agniveer-army-R07",
+      "source": "ai"
     }
   ]
 }

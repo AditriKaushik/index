@@ -1104,101 +1104,6 @@
       }
     },
     {
-      "id": "ibps-clerk-004",
-      "section": "english",
-      "topic": "Reading Comprehension",
-      "difficulty": "medium",
-      "question": "Read the passage and answer the question.\n\nCities are getting hotter faster than the countryside around them. Concrete, asphalt and glass absorb sunlight during the day and release it slowly at night, so urban neighbourhoods often stay several degrees warmer than nearby villages after sunset. This 'heat island' effect is not merely uncomfortable; it raises electricity demand for cooling, worsens air quality and can be deadly for outdoor workers and the elderly. Fortunately, some remedies are cheap. Painting roofs white reflects a large share of sunlight, and planting trees along streets provides both shade and cooling through evaporation. Several Indian cities have begun drafting heat action plans that combine such measures with early warnings and changes in working hours during heatwaves. Experts, however, caution that these plans succeed only when they are funded and enforced, not when they remain documents on a shelf.\n\nWhat is the experts' view of heat action plans?",
-      "options": [
-        "They are too expensive to implement",
-        "They are useful only in villages",
-        "They have already solved urban heat",
-        "They should replace early-warning systems",
-        "They work only when funded and enforced"
-      ],
-      "answer": 4,
-      "explanation": "The last sentence says the plans 'succeed only when they are funded and enforced'.",
-      "verified": true,
-      "archetype": "ibps-clerk-E02",
-      "source": "curated"
-    },
-    {
-      "id": "ibps-clerk-005",
-      "section": "english",
-      "topic": "Reading Comprehension",
-      "difficulty": "easy",
-      "question": "Read the passage and answer the question.\n\nCities are getting hotter faster than the countryside around them. Concrete, asphalt and glass absorb sunlight during the day and release it slowly at night, so urban neighbourhoods often stay several degrees warmer than nearby villages after sunset. This 'heat island' effect is not merely uncomfortable; it raises electricity demand for cooling, worsens air quality and can be deadly for outdoor workers and the elderly. Fortunately, some remedies are cheap. Painting roofs white reflects a large share of sunlight, and planting trees along streets provides both shade and cooling through evaporation. Several Indian cities have begun drafting heat action plans that combine such measures with early warnings and changes in working hours during heatwaves. Experts, however, caution that these plans succeed only when they are funded and enforced, not when they remain documents on a shelf.\n\nWhich remedy does the passage say provides cooling through evaporation?",
-      "options": [
-        "Painting roofs white",
-        "Changing working hours",
-        "Issuing early warnings",
-        "Planting trees along streets",
-        "Using glass buildings"
-      ],
-      "answer": 3,
-      "explanation": "'Planting trees along streets provides both shade and cooling through evaporation.'",
-      "verified": true,
-      "archetype": "ibps-clerk-E02",
-      "source": "curated"
-    },
-    {
-      "id": "ibps-clerk-006",
-      "section": "english",
-      "topic": "Cloze Test",
-      "difficulty": "easy",
-      "question": "Read the passage and choose the word that best fits the numbered blank.\n\nSaving money is easier when it becomes a (1) ______ rather than an occasional effort. Experts suggest setting aside a fixed amount as soon as the salary is (2) ______, instead of saving whatever is left at the end of the month. Automatic transfers to a recurring deposit can (3) ______ the temptation to spend.\n\nWhich word best fits blank (1)?",
-      "options": [
-        "accident",
-        "debate",
-        "burden",
-        "rumour",
-        "habit"
-      ],
-      "answer": 4,
-      "explanation": "'A habit rather than an occasional effort' — habit is the natural contrast to occasional.",
-      "verified": true,
-      "archetype": "ibps-clerk-E06",
-      "source": "curated"
-    },
-    {
-      "id": "ibps-clerk-007",
-      "section": "english",
-      "topic": "Cloze Test",
-      "difficulty": "medium",
-      "question": "Read the passage and choose the word that best fits the numbered blank.\n\nSaving money is easier when it becomes a (1) ______ rather than an occasional effort. Experts suggest setting aside a fixed amount as soon as the salary is (2) ______, instead of saving whatever is left at the end of the month. Automatic transfers to a recurring deposit can (3) ______ the temptation to spend.\n\nWhich word best fits blank (2)?",
-      "options": [
-        "debited",
-        "credited",
-        "borrowed",
-        "refused",
-        "invested"
-      ],
-      "answer": 1,
-      "explanation": "One saves 'as soon as the salary is credited' (received in the account).",
-      "verified": true,
-      "archetype": "ibps-clerk-E06",
-      "source": "curated"
-    },
-    {
-      "id": "ibps-clerk-008",
-      "section": "english",
-      "topic": "Cloze Test",
-      "difficulty": "easy",
-      "question": "Read the passage and choose the word that best fits the numbered blank.\n\nSaving money is easier when it becomes a (1) ______ rather than an occasional effort. Experts suggest setting aside a fixed amount as soon as the salary is (2) ______, instead of saving whatever is left at the end of the month. Automatic transfers to a recurring deposit can (3) ______ the temptation to spend.\n\nWhich word best fits blank (3)?",
-      "options": [
-        "increase",
-        "invite",
-        "reduce",
-        "celebrate",
-        "justify"
-      ],
-      "answer": 2,
-      "explanation": "Automatic transfers move money away before it can be spent, so they reduce the temptation to spend.",
-      "verified": true,
-      "archetype": "ibps-clerk-E06",
-      "source": "curated"
-    },
-    {
       "id": "ibps-clerk-009",
       "section": "english",
       "topic": "Error Detection",
@@ -1215,7 +1120,12 @@
       "explanation": "A period of time ('the last five years') takes 'for', not 'since'. The error is in part B ('since' should be 'for').",
       "verified": true,
       "archetype": "ibps-clerk-E08",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "'since' (in part B) should be 'for' with a period; frequent clerk error-spotting item"
+      }
     },
     {
       "id": "ibps-clerk-010",
@@ -1240,25 +1150,6 @@
         "by": "independent-review",
         "note": "'Each of ... were' agreement; standard clerk error item (labelled hard but easy)"
       }
-    },
-    {
-      "id": "ibps-clerk-011",
-      "section": "english",
-      "topic": "Fillers (Single/Double)",
-      "difficulty": "easy",
-      "question": "Choose the option that best fills the blank.\nThe bank ______ its customers by SMS whenever a transaction is made.",
-      "options": [
-        "alert",
-        "alerting",
-        "alerts",
-        "have alerted",
-        "to alert"
-      ],
-      "answer": 2,
-      "explanation": "A singular subject ('The bank') with a habitual action takes the simple present 'alerts'.",
-      "verified": true,
-      "archetype": "ibps-clerk-E11",
-      "source": "curated"
     },
     {
       "id": "ibps-clerk-012",
@@ -1357,120 +1248,6 @@
       }
     },
     {
-      "id": "ibps-clerk-016",
-      "section": "english",
-      "topic": "Word Swap / Word Usage",
-      "difficulty": "medium",
-      "question": "Which pair of words should be interchanged to make the sentence meaningful?\nThe (A) cake baked a delicious (B) chef for the (C) guests at the (D) party.",
-      "options": [
-        "A–B",
-        "B–C",
-        "C–D",
-        "A–D",
-        "No interchange required"
-      ],
-      "answer": 0,
-      "explanation": "Swapping A and B: 'The chef baked a delicious cake for the guests at the party.'",
-      "verified": true,
-      "archetype": "ibps-clerk-E15",
-      "source": "curated"
-    },
-    {
-      "id": "ibps-clerk-017",
-      "section": "english",
-      "topic": "Vocabulary & Spelling",
-      "difficulty": "easy",
-      "question": "Choose the correctly spelt word.",
-      "options": [
-        "Acommodate",
-        "Accomodate",
-        "Acomodate",
-        "Accommodate",
-        "Accommodete"
-      ],
-      "answer": 3,
-      "explanation": "The correct spelling has double 'c' and double 'm': Accommodate.",
-      "verified": true,
-      "archetype": "ibps-clerk-E19",
-      "source": "curated"
-    },
-    {
-      "id": "ibps-clerk-018",
-      "section": "english",
-      "topic": "Sentence Connectors",
-      "difficulty": "easy",
-      "question": "Choose the connector that correctly joins the sentences: 'The roads were slippery. The bus driver drove carefully.'\n______ the roads were slippery, the bus driver drove carefully.",
-      "options": [
-        "Although",
-        "Unless",
-        "Since",
-        "Despite",
-        "Whereas"
-      ],
-      "answer": 2,
-      "explanation": "The first sentence is the reason for the second, so 'Since' fits. 'Although/Despite/Whereas' show contrast and 'Unless' a condition.",
-      "verified": true,
-      "archetype": "ibps-clerk-E20",
-      "source": "curated"
-    },
-    {
-      "id": "ibps-clerk-019",
-      "section": "quant",
-      "topic": "Simplification & Approximation",
-      "difficulty": "easy",
-      "question": "18 × 12 ÷ 4 + 35 = ?",
-      "options": [
-        "85",
-        "87",
-        "89",
-        "91",
-        "93"
-      ],
-      "answer": 2,
-      "explanation": "18 × 12 = 216; 216 ÷ 4 = 54; 54 + 35 = 89.",
-      "verified": true,
-      "archetype": "ibps-clerk-Q11",
-      "source": "curated"
-    },
-    {
-      "id": "ibps-clerk-020",
-      "section": "quant",
-      "topic": "Simplification & Approximation",
-      "difficulty": "easy",
-      "question": "40% of 650 − 15% of 400 = ?",
-      "options": [
-        "200",
-        "190",
-        "180",
-        "210",
-        "220"
-      ],
-      "answer": 0,
-      "explanation": "260 − 60 = 200.",
-      "verified": true,
-      "archetype": "ibps-clerk-Q11",
-      "source": "curated"
-    },
-    {
-      "id": "ibps-clerk-021",
-      "section": "quant",
-      "topic": "Simplification & Approximation",
-      "difficulty": "easy",
-      "question": "(√729 + √196) × 3 = ?",
-      "options": [
-        "123",
-        "120",
-        "117",
-        "126",
-        "129"
-      ],
-      "answer": 0,
-      "explanation": "√729 = 27, √196 = 14; (27 + 14) × 3 = 123.",
-      "verified": true,
-      "archetype": "ibps-clerk-Q11",
-      "source": "curated"
-    },
-    {
       "id": "ibps-clerk-022",
       "section": "quant",
       "topic": "Simplification & Approximation",
@@ -1517,25 +1294,6 @@
         "by": "independent-review",
         "note": "Approximation with near-integers; clerk standard"
       }
-    },
-    {
-      "id": "ibps-clerk-024",
-      "section": "quant",
-      "topic": "Simplification & Approximation",
-      "difficulty": "medium",
-      "question": "? % of 840 = 252",
-      "options": [
-        "25",
-        "28",
-        "32",
-        "30",
-        "35"
-      ],
-      "answer": 3,
-      "explanation": "? = 252/840 × 100 = 30.",
-      "verified": true,
-      "archetype": "ibps-clerk-Q13",
-      "source": "curated"
     },
     {
       "id": "ibps-clerk-025",
@@ -1634,44 +1392,6 @@
       }
     },
     {
-      "id": "ibps-clerk-029",
-      "section": "quant",
-      "topic": "Data Interpretation",
-      "difficulty": "easy",
-      "question": "The number of savings accounts opened (in hundreds) by a bank branch in five months was: January 24, February 30, March 36, April 27, May 33.\n\nHow many accounts were opened in January, March and May together?",
-      "options": [
-        "8,700",
-        "9,000",
-        "9,300",
-        "9,600",
-        "9,900"
-      ],
-      "answer": 2,
-      "explanation": "24 + 36 + 33 = 93 hundred = 9,300.",
-      "verified": true,
-      "archetype": "ibps-clerk-Q05",
-      "source": "curated"
-    },
-    {
-      "id": "ibps-clerk-030",
-      "section": "quant",
-      "topic": "Data Interpretation",
-      "difficulty": "easy",
-      "question": "The number of savings accounts opened (in hundreds) by a bank branch in five months was: January 24, February 30, March 36, April 27, May 33.\n\nWhat is the average number of accounts opened per month?",
-      "options": [
-        "3,000",
-        "2,900",
-        "2,800",
-        "3,100",
-        "3,200"
-      ],
-      "answer": 0,
-      "explanation": "(24 + 30 + 36 + 27 + 33) = 150 hundred; 150/5 = 30 hundred = 3,000.",
-      "verified": true,
-      "archetype": "ibps-clerk-Q05",
-      "source": "curated"
-    },
-    {
       "id": "ibps-clerk-031",
       "section": "quant",
       "topic": "Data Interpretation",
@@ -1718,25 +1438,6 @@
         "by": "independent-review",
         "note": "Ratio of paired sums with 57:67 near-distractor"
       }
-    },
-    {
-      "id": "ibps-clerk-033",
-      "section": "quant",
-      "topic": "Percentage & Profit-Loss",
-      "difficulty": "easy",
-      "question": "An article bought for ₹800 is sold at a profit of 15%. What is its selling price?",
-      "options": [
-        "₹900",
-        "₹910",
-        "₹940",
-        "₹930",
-        "₹920"
-      ],
-      "answer": 4,
-      "explanation": "SP = 800 × 1.15 = ₹920.",
-      "verified": true,
-      "archetype": "ibps-clerk-Q14",
-      "source": "curated"
     },
     {
       "id": "ibps-clerk-034",
@@ -1931,25 +1632,6 @@
       }
     },
     {
-      "id": "ibps-clerk-042",
-      "section": "reasoning",
-      "topic": "Puzzles & Seating Arrangement",
-      "difficulty": "medium",
-      "question": "Six boxes P, Q, R, S, T and U are placed one above another (position 1 is the bottom, 6 the top). R is placed fourth from the bottom. Only two boxes are placed between R and S. T is placed immediately above Q. U is not placed adjacent to S. P is placed somewhere below Q.\n\nWhich box is placed at the top?",
-      "options": [
-        "Q",
-        "R",
-        "T",
-        "U",
-        "P"
-      ],
-      "answer": 2,
-      "explanation": "Bottom to top: S, P, U, R, Q, T. T is at the top.",
-      "verified": true,
-      "archetype": "ibps-clerk-R06",
-      "source": "curated"
-    },
-    {
       "id": "ibps-clerk-043",
       "section": "reasoning",
       "topic": "Puzzles & Seating Arrangement",
@@ -2020,44 +1702,6 @@
         "by": "independent-review",
         "note": "Immediately before C = E"
       }
-    },
-    {
-      "id": "ibps-clerk-046",
-      "section": "reasoning",
-      "topic": "Puzzles & Seating Arrangement",
-      "difficulty": "medium",
-      "question": "Among P, Q, R, S and T, each has a different height. Q is taller than only T. R is taller than Q but shorter than S. P is not the tallest. Who is the tallest?",
-      "options": [
-        "P",
-        "Q",
-        "R",
-        "S",
-        "T"
-      ],
-      "answer": 3,
-      "explanation": "T is the shortest and Q second shortest. Among P, R, S: S > R and P is not the tallest, so S is the tallest.",
-      "verified": true,
-      "archetype": "ibps-clerk-R07",
-      "source": "curated"
-    },
-    {
-      "id": "ibps-clerk-047",
-      "section": "reasoning",
-      "topic": "Syllogism",
-      "difficulty": "easy",
-      "question": "Statements: All cats are dogs. All dogs are rats.\nConclusions: I. All cats are rats. II. Some rats are cats.",
-      "options": [
-        "Only I follows",
-        "Only II follows",
-        "Either I or II follows",
-        "Neither I nor II follows",
-        "Both I and II follow"
-      ],
-      "answer": 4,
-      "explanation": "Cats ⊂ dogs ⊂ rats, so all cats are rats (I) and therefore some rats are cats (II). Both follow.",
-      "verified": true,
-      "archetype": "ibps-clerk-R11",
-      "source": "curated"
     },
     {
       "id": "ibps-clerk-048",
@@ -2132,25 +1776,6 @@
       }
     },
     {
-      "id": "ibps-clerk-051",
-      "section": "reasoning",
-      "topic": "Coding-Decoding",
-      "difficulty": "easy",
-      "question": "If 'PRINT' is coded as 'QSJOU', how is 'BLADE' coded?",
-      "options": [
-        "CMBFE",
-        "CMBEF",
-        "DMBEF",
-        "CLBEF",
-        "CMCEF"
-      ],
-      "answer": 1,
-      "explanation": "Each letter is moved one place forward: B→C, L→M, A→B, D→E, E→F = CMBEF.",
-      "verified": true,
-      "archetype": "ibps-clerk-R19",
-      "source": "curated"
-    },
-    {
       "id": "ibps-clerk-052",
       "section": "reasoning",
       "topic": "Coding-Decoding",
@@ -2197,63 +1822,6 @@
         "by": "independent-review",
         "note": "Pointing-to-woman puzzle, sister; clerk standard"
       }
-    },
-    {
-      "id": "ibps-clerk-054",
-      "section": "reasoning",
-      "topic": "Blood Relations",
-      "difficulty": "medium",
-      "question": "P is the mother of Q. Q is the sister of R. R is the father of S. T is the wife of R. How is P related to S?",
-      "options": [
-        "Mother",
-        "Mother-in-law",
-        "Aunt",
-        "Grandmother",
-        "Sister"
-      ],
-      "answer": 3,
-      "explanation": "P is the mother of Q and R. R is S's father, so P is S's grandmother.",
-      "verified": true,
-      "archetype": "ibps-clerk-R15",
-      "source": "curated"
-    },
-    {
-      "id": "ibps-clerk-055",
-      "section": "reasoning",
-      "topic": "Direction Sense",
-      "difficulty": "medium",
-      "question": "Sita is facing north. She turns 90° clockwise, then 180° anticlockwise and then 45° clockwise. Which direction is she facing now?",
-      "options": [
-        "North-East",
-        "South-West",
-        "North-West",
-        "West",
-        "South-East"
-      ],
-      "answer": 2,
-      "explanation": "North → 90° clockwise = East → 180° anticlockwise = West → 45° clockwise = North-West.",
-      "verified": true,
-      "archetype": "ibps-clerk-R31",
-      "source": "curated"
-    },
-    {
-      "id": "ibps-clerk-056",
-      "section": "reasoning",
-      "topic": "Order & Ranking",
-      "difficulty": "medium",
-      "question": "Five friends scored different marks. A scored more than B but less than C. D scored less than B. E scored more than C. Who scored the second highest marks?",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "answer": 2,
-      "explanation": "Order: E > C > A > B > D. C is second highest.",
-      "verified": true,
-      "archetype": "ibps-clerk-R21",
-      "source": "curated"
     },
     {
       "id": "ibps-clerk-057",
@@ -2326,25 +1894,6 @@
         "by": "independent-review",
         "note": "Digit operation and repeats; clerk misc type"
       }
-    },
-    {
-      "id": "ibps-clerk-060",
-      "section": "reasoning",
-      "topic": "Classification (Odd One Out)",
-      "difficulty": "easy",
-      "question": "Find the odd one out: 27, 125, 196, 343, 1331",
-      "options": [
-        "27",
-        "125",
-        "1331",
-        "343",
-        "196"
-      ],
-      "answer": 4,
-      "explanation": "27, 125, 343 and 1331 are cubes of odd numbers (3³, 5³, 7³, 11³); 196 (= 14²) is not a cube.",
-      "verified": true,
-      "archetype": "ibps-clerk-R28",
-      "source": "curated"
     },
     {
       "id": "ibps-clerk-061",
@@ -2441,44 +1990,6 @@
         "by": "independent-review",
         "note": "'modest' with 'shy' dictionary-meaning trap; textbook E04"
       }
-    },
-    {
-      "id": "ibps-clerk-065",
-      "section": "english",
-      "topic": "Reading Comprehension",
-      "difficulty": "easy",
-      "question": "Read the passage and answer the question.\n\nIn many Indian cities, residents depend on water tankers during the summer months, paying high prices for water that is often of doubtful quality. Yet the same cities receive heavy rain for a few months every year, most of which simply runs off roads into drains. Rooftop rainwater harvesting offers a simple way to capture some of this water. Rain falling on a roof is collected through pipes, filtered through layers of sand and gravel, and either stored in a tank or sent down a recharge pit to refill the groundwater below.\n\nThe cost of such a system is modest compared with what a family spends on tankers in a single dry season. In several housing societies that adopted it, borewells that had dried up began to yield water again within two or three years. However, the benefits depend on regular care. Filters clogged with leaves and silt can stop working, and pits that are not cleaned before the monsoon may overflow.\n\nExperts therefore say that rules making rainwater harvesting compulsory for new buildings are only a first step. Residents also need to understand how the systems work and who is responsible for maintaining them.\n\nAccording to the passage, which of the following can stop a harvesting system from working properly?",
-      "options": [
-        "Using sand and gravel in the filter",
-        "Connecting the roof to a recharge pit",
-        "Storing the water in a tank",
-        "Filters clogged with leaves and silt",
-        "Heavy rain during the monsoon"
-      ],
-      "answer": 3,
-      "explanation": "The passage says 'Filters clogged with leaves and silt can stop working'. Sand, gravel, pits and tanks are normal parts of the system.",
-      "source": "ai",
-      "archetype": "ibps-clerk-E02",
-      "verified": false
-    },
-    {
-      "id": "ibps-clerk-066",
-      "section": "english",
-      "topic": "Cloze Test",
-      "difficulty": "easy",
-      "question": "Read the passage and choose the word that best fits the numbered blank.\n\nLearning to manage money is a skill that is rarely taught in schools. Many young people open their first bank account only after they start (1) ______, and they often learn about interest, loans and credit cards through costly mistakes. Some banks have now begun to (2) ______ free workshops in colleges, where students learn to make a monthly budget and to spot (3) ______ messages that try to steal their banking details.\n\nWhich word best fits blank (1)?",
-      "options": [
-        "retiring",
-        "earning",
-        "schooling",
-        "failing",
-        "resting"
-      ],
-      "answer": 1,
-      "explanation": "People usually open their first account when they start earning a salary; the other words do not fit the context of a first job.",
-      "source": "ai",
-      "archetype": "ibps-clerk-E06",
-      "verified": false
     },
     {
       "id": "ibps-clerk-067",
@@ -2601,44 +2112,6 @@
       }
     },
     {
-      "id": "ibps-clerk-072",
-      "section": "english",
-      "topic": "Fillers (Single/Double)",
-      "difficulty": "easy",
-      "question": "Choose the pair of words that best fills both blanks.\nThe ______ of the new metro line has ______ travel time between the two suburbs by almost half.",
-      "options": [
-        "closure, cut",
-        "delay, lowered",
-        "launch, widened",
-        "opening, reduced",
-        "design, deepened"
-      ],
-      "answer": 3,
-      "explanation": "A new line that is opened cuts travel time: 'opening … reduced'. In the other pairs either the first word (closure, delay, design) or the second (widened, deepened) makes the sentence illogical.",
-      "source": "ai",
-      "archetype": "ibps-clerk-E10",
-      "verified": false
-    },
-    {
-      "id": "ibps-clerk-073",
-      "section": "english",
-      "topic": "Para Jumbles / Sentence Rearrangement",
-      "difficulty": "medium",
-      "question": "Rearrange the sentences to form a meaningful paragraph.\nA. She started by selling them to neighbours and friends.\nB. Meena learned to make pickles from her grandmother.\nC. Soon, orders began coming from other towns as well.\nD. With a small loan from a self-help group, she now runs a unit employing ten women.\nE. Encouraged by the response, she began taking orders on a messaging app.",
-      "options": [
-        "BEACD",
-        "BACED",
-        "BAECD",
-        "ABECD",
-        "BAEDC"
-      ],
-      "answer": 2,
-      "explanation": "B introduces Meena and the pickles ('them' in A), A is the first sale, E follows the response, C the wider orders, and D the present situation: B-A-E-C-D.",
-      "source": "ai",
-      "archetype": "ibps-clerk-E12",
-      "verified": false
-    },
-    {
       "id": "ibps-clerk-074",
       "section": "english",
       "topic": "Para Jumbles / Sentence Rearrangement",
@@ -2663,25 +2136,6 @@
       }
     },
     {
-      "id": "ibps-clerk-075",
-      "section": "english",
-      "topic": "Phrase Replacement / Sentence Improvement",
-      "difficulty": "easy",
-      "question": "Choose the option that should replace the phrase in capitals to make the sentence correct.\nShe is senior THAN HER BROTHER by three years.",
-      "options": [
-        "from her brother",
-        "then her brother",
-        "over her brother",
-        "to her brother",
-        "No replacement required"
-      ],
-      "answer": 3,
-      "explanation": "Words such as senior, junior, superior and inferior take 'to', not 'than': 'senior to her brother'.",
-      "source": "ai",
-      "archetype": "ibps-clerk-E17",
-      "verified": false
-    },
-    {
       "id": "ibps-clerk-076",
       "section": "english",
       "topic": "Word Swap / Word Usage",
@@ -2704,44 +2158,6 @@
         "by": "independent-review",
         "note": "deadline/letter swap; clerk standard"
       }
-    },
-    {
-      "id": "ibps-clerk-077",
-      "section": "english",
-      "topic": "Vocabulary & Spelling",
-      "difficulty": "easy",
-      "question": "Choose the INCORRECTLY spelt word.",
-      "options": [
-        "Separate",
-        "Committee",
-        "Guarantee",
-        "Receipt",
-        "Neccessary"
-      ],
-      "answer": 4,
-      "explanation": "The correct spelling is 'Necessary' (one c, double s). The other words are spelt correctly.",
-      "source": "ai",
-      "archetype": "ibps-clerk-E19",
-      "verified": false
-    },
-    {
-      "id": "ibps-clerk-078",
-      "section": "english",
-      "topic": "Sentence Connectors",
-      "difficulty": "easy",
-      "question": "Choose the connector that best joins the sentences: 'The bank offered a lower interest rate. Many customers shifted their loans to it.'\n______ the bank offered a lower interest rate, many customers shifted their loans to it.",
-      "options": [
-        "Although",
-        "Because",
-        "Unless",
-        "Despite",
-        "Whereas"
-      ],
-      "answer": 1,
-      "explanation": "The lower rate is the reason customers shifted, so the cause connector 'Because' fits. 'Although/Despite/Whereas' show contrast and 'Unless' a condition.",
-      "source": "ai",
-      "archetype": "ibps-clerk-E20",
-      "verified": false
     },
     {
       "id": "ibps-clerk-079",
@@ -2864,25 +2280,6 @@
       }
     },
     {
-      "id": "ibps-clerk-084",
-      "section": "quant",
-      "topic": "Simplification & Approximation",
-      "difficulty": "easy",
-      "question": "?% of 1,250 = 437.5",
-      "options": [
-        "32",
-        "38",
-        "35",
-        "30",
-        "37.5"
-      ],
-      "answer": 2,
-      "explanation": "? = 437.5 × 100/1,250 = 35.",
-      "source": "ai",
-      "archetype": "ibps-clerk-Q13",
-      "verified": false
-    },
-    {
       "id": "ibps-clerk-085",
       "section": "quant",
       "topic": "Simplification & Approximation",
@@ -2977,25 +2374,6 @@
         "by": "independent-review",
         "note": "Wrong term in square-difference series"
       }
-    },
-    {
-      "id": "ibps-clerk-089",
-      "section": "quant",
-      "topic": "Data Interpretation",
-      "difficulty": "easy",
-      "question": "The number of two-wheeler loans disbursed by a bank branch in six months was: January – 240, February – 180, March – 300, April – 270, May – 210, June – 360.\n\nWhat is the average number of loans disbursed per month?",
-      "options": [
-        "250",
-        "270",
-        "255",
-        "265",
-        "260"
-      ],
-      "answer": 4,
-      "explanation": "Total = 240 + 180 + 300 + 270 + 210 + 360 = 1,560. Average = 1,560/6 = 260.",
-      "source": "ai",
-      "archetype": "ibps-clerk-Q05",
-      "verified": false
     },
     {
       "id": "ibps-clerk-090",
@@ -3286,25 +2664,6 @@
       }
     },
     {
-      "id": "ibps-clerk-102",
-      "section": "reasoning",
-      "topic": "Puzzles & Seating Arrangement",
-      "difficulty": "easy",
-      "question": "Eight persons P, Q, R, S, T, U, V and W sit in a straight row, all facing north.\nS sits third from the left end. Only two persons sit between S and V. W sits immediately to the right of V. P sits at one of the extreme ends and only one person sits between P and V. Q sits immediately to the left of S. T sits immediately to the left of V. U is not an immediate neighbour of S.\n\nWho sits at the extreme left end of the row?",
-      "options": [
-        "P",
-        "U",
-        "Q",
-        "R",
-        "T"
-      ],
-      "answer": 1,
-      "explanation": "Arrangement: U, Q, S, R, T, V, W, P. U sits at the extreme left end.",
-      "source": "ai",
-      "archetype": "ibps-clerk-R01",
-      "verified": false
-    },
-    {
       "id": "ibps-clerk-103",
       "section": "reasoning",
       "topic": "Puzzles & Seating Arrangement",
@@ -3351,25 +2710,6 @@
         "by": "independent-review",
         "note": "Between B and A = 2"
       }
-    },
-    {
-      "id": "ibps-clerk-105",
-      "section": "reasoning",
-      "topic": "Puzzles & Seating Arrangement",
-      "difficulty": "easy",
-      "question": "Seven persons A, B, C, D, E, F and G attend a training programme on seven different days of the same week, from Monday to Sunday.\nOnly three persons attend after D. G attends immediately before D. Only one person attends between G and E, and E attends before G. B attends on some day before D. Only one person attends between A and C. C does not attend on Friday.\n\nOn which day does C attend the training?",
-      "options": [
-        "Friday",
-        "Saturday",
-        "Monday",
-        "Wednesday",
-        "Sunday"
-      ],
-      "answer": 4,
-      "explanation": "A and C occupy Friday and Sunday (one person between them), and C is not on Friday, so C attends on Sunday.",
-      "source": "ai",
-      "archetype": "ibps-clerk-R05",
-      "verified": false
     },
     {
       "id": "ibps-clerk-106",
@@ -3492,25 +2832,6 @@
       }
     },
     {
-      "id": "ibps-clerk-111",
-      "section": "reasoning",
-      "topic": "Inequality",
-      "difficulty": "easy",
-      "question": "Statements: A < B ≤ C; D ≥ C > E\nConclusions: I. D > A  II. C > E",
-      "options": [
-        "Only I follows",
-        "Only II follows",
-        "Either I or II follows",
-        "Neither I nor II follows",
-        "Both I and II follow"
-      ],
-      "answer": 4,
-      "explanation": "D ≥ C ≥ B > A gives D > A. C > E is given directly. Both follow.",
-      "source": "ai",
-      "archetype": "ibps-clerk-R13",
-      "verified": false
-    },
-    {
       "id": "ibps-clerk-112",
       "section": "reasoning",
       "topic": "Coding-Decoding",
@@ -3559,25 +2880,6 @@
       }
     },
     {
-      "id": "ibps-clerk-114",
-      "section": "reasoning",
-      "topic": "Blood Relations",
-      "difficulty": "easy",
-      "question": "Pointing to a photograph of a boy, Rohit said, 'He is the son of the only son of my mother.' How is the boy related to Rohit?",
-      "options": [
-        "Brother",
-        "Nephew",
-        "Cousin",
-        "Son",
-        "Grandson"
-      ],
-      "answer": 3,
-      "explanation": "The only son of Rohit's mother is Rohit himself, so the boy is Rohit's son.",
-      "source": "ai",
-      "archetype": "ibps-clerk-R15",
-      "verified": false
-    },
-    {
       "id": "ibps-clerk-115",
       "section": "reasoning",
       "topic": "Direction Sense",
@@ -3600,25 +2902,6 @@
         "by": "independent-review",
         "note": "Walk-turn direction, 10 m West"
       }
-    },
-    {
-      "id": "ibps-clerk-116",
-      "section": "reasoning",
-      "topic": "Order & Ranking",
-      "difficulty": "easy",
-      "question": "In a class of 45 students, Priya's rank is 17th from the top. What is her rank from the bottom?",
-      "options": [
-        "28th",
-        "29th",
-        "30th",
-        "27th",
-        "31st"
-      ],
-      "answer": 1,
-      "explanation": "Rank from bottom = 45 − 17 + 1 = 29th.",
-      "source": "ai",
-      "archetype": "ibps-clerk-R21",
-      "verified": false
     },
     {
       "id": "ibps-clerk-117",
@@ -3667,44 +2950,6 @@
         "by": "independent-review",
         "note": "PLANET alphabetic order positions"
       }
-    },
-    {
-      "id": "ibps-clerk-119",
-      "section": "reasoning",
-      "topic": "Miscellaneous (Word/Number Based)",
-      "difficulty": "easy",
-      "question": "If the digits of the number 8362947 are arranged in ascending order from left to right, how many digits will remain at the same position?",
-      "options": [
-        "Two",
-        "Three",
-        "None",
-        "One",
-        "More than three"
-      ],
-      "answer": 3,
-      "explanation": "8362947 → 2346789. Only 3 (2nd position) stays in place.",
-      "source": "ai",
-      "archetype": "ibps-clerk-R26",
-      "verified": false
-    },
-    {
-      "id": "ibps-clerk-120",
-      "section": "reasoning",
-      "topic": "Classification (Odd One Out)",
-      "difficulty": "easy",
-      "question": "Four of the following five are alike in a certain way. Find the one that does not belong to the group.",
-      "options": [
-        "BDF",
-        "HJL",
-        "SUX",
-        "MOQ",
-        "RTV"
-      ],
-      "answer": 2,
-      "explanation": "BDF, HJL, MOQ and RTV each move +2, +2 in the alphabet. In SUX the second step is +3 (U → X).",
-      "source": "ai",
-      "archetype": "ibps-clerk-R28",
-      "verified": false
     }
   ]
 }

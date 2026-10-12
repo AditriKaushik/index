@@ -3213,6 +3213,150 @@
         "by": "independent-review",
         "note": "Clock mirror image 3:40→8:20 is exact AFCAT R13"
       }
+    },
+    {
+      "id": "afcat-121",
+      "section": "english",
+      "topic": "Cloze Test",
+      "difficulty": "medium",
+      "question": "Read the passage and choose the most appropriate word for blank (1).\n\n'Before every sortie, a fighter pilot goes through a detailed checklist. To an outsider this routine may seem ___(1)___, since the same steps are repeated day after day. Yet experienced aviators know that most accidents result not from dramatic failures but from small ___(2)___ that pass unnoticed. The checklist is their defence against complacency, the quiet enemy of every ___(3)___ professional.'",
+      "options": [
+        "thrilling",
+        "tedious",
+        "perilous",
+        "mysterious"
+      ],
+      "answer": 1,
+      "explanation": "'Since the same steps are repeated day after day' signals that the routine seems tedious (boring and repetitive).",
+      "verified": false,
+      "archetype": "afcat-E09",
+      "source": "ai"
+    },
+    {
+      "id": "afcat-122",
+      "section": "english",
+      "topic": "Cloze Test",
+      "difficulty": "medium",
+      "question": "Read the passage and choose the most appropriate word for blank (2).\n\n'Before every sortie, a fighter pilot goes through a detailed checklist. To an outsider this routine may seem ___(1)___, since the same steps are repeated day after day. Yet experienced aviators know that most accidents result not from dramatic failures but from small ___(2)___ that pass unnoticed. The checklist is their defence against complacency, the quiet enemy of every ___(3)___ professional.'",
+      "options": [
+        "leaps",
+        "laps",
+        "lapels",
+        "lapses"
+      ],
+      "answer": 3,
+      "explanation": "Accidents come from small lapses (minor errors or failures of attention) that pass unnoticed. The other options only look similar.",
+      "verified": false,
+      "archetype": "afcat-E09",
+      "source": "ai"
+    },
+    {
+      "id": "afcat-123",
+      "section": "english",
+      "topic": "Cloze Test",
+      "difficulty": "medium",
+      "question": "Read the passage and choose the most appropriate word for blank (3).\n\n'Before every sortie, a fighter pilot goes through a detailed checklist. To an outsider this routine may seem ___(1)___, since the same steps are repeated day after day. Yet experienced aviators know that most accidents result not from dramatic failures but from small ___(2)___ that pass unnoticed. The checklist is their defence against complacency, the quiet enemy of every ___(3)___ professional.'",
+      "options": [
+        "seasoned",
+        "seasonal",
+        "reasonable",
+        "salted"
+      ],
+      "answer": 0,
+      "explanation": "A 'seasoned professional' is an experienced one, and complacency threatens experienced people most. 'Seasonal' is a look-alike meaning 'of a season'.",
+      "verified": false,
+      "archetype": "afcat-E09",
+      "source": "ai"
+    },
+    {
+      "id": "afcat-124",
+      "section": "english",
+      "topic": "Synonyms",
+      "difficulty": "medium",
+      "question": "Choose the word most nearly SAME in meaning to TENACIOUS.",
+      "options": [
+        "Tentative",
+        "Yielding",
+        "Persistent",
+        "Tedious"
+      ],
+      "answer": 2,
+      "explanation": "Tenacious means holding firmly to a purpose, i.e. persistent. 'Yielding' is the opposite, and 'tentative' and 'tedious' are look-alikes.",
+      "verified": false,
+      "archetype": "afcat-E01",
+      "source": "ai"
+    },
+    {
+      "id": "afcat-125",
+      "section": "english",
+      "topic": "Antonyms",
+      "difficulty": "medium",
+      "question": "Choose the word most nearly OPPOSITE in meaning to AUSTERE.",
+      "options": [
+        "Severe",
+        "Lavish",
+        "Hostile",
+        "Abstract"
+      ],
+      "answer": 1,
+      "explanation": "Austere means severe, plain and without luxury, so the opposite is lavish. 'Severe' is a synonym that has been planted in the options.",
+      "verified": false,
+      "archetype": "afcat-E02",
+      "source": "ai"
+    },
+    {
+      "id": "afcat-126",
+      "section": "english",
+      "topic": "Idioms & Phrases",
+      "difficulty": "medium",
+      "question": "Choose the correct meaning of the idiom: 'to throw down the gauntlet'",
+      "options": [
+        "To surrender without a fight",
+        "To punish someone in public",
+        "To give up a position of power",
+        "To issue a challenge"
+      ],
+      "answer": 3,
+      "explanation": "Throwing down a gauntlet (armoured glove) was a medieval challenge to combat, so the idiom means to issue a challenge. 'Surrender' confuses it with 'throw in the towel'.",
+      "verified": false,
+      "archetype": "afcat-E07",
+      "source": "ai"
+    },
+    {
+      "id": "afcat-127",
+      "section": "english",
+      "topic": "Error Detection",
+      "difficulty": "easy",
+      "question": "Identify the part of the sentence that contains an error.\nThe instructor, along with his cadets, (A) / were present (B) / at the morning briefing. (C) / No error (D)",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 1,
+      "explanation": "A subject joined by 'along with' keeps the number of the first noun. 'The instructor' is singular, so part B should read 'was present'.",
+      "verified": false,
+      "archetype": "afcat-E03",
+      "source": "ai"
+    },
+    {
+      "id": "afcat-128",
+      "section": "english",
+      "topic": "Error Detection",
+      "difficulty": "easy",
+      "question": "Identify the part of the sentence that contains an error.\nThe squadron leader asked me (A) / at the end of the briefing (B) / that why I had come late. (C) / No error (D)",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 2,
+      "explanation": "In reported questions, 'that' is not used before the question word: 'asked me why I had come late'.",
+      "verified": false,
+      "archetype": "afcat-E04",
+      "source": "ai"
     }
   ]
 }

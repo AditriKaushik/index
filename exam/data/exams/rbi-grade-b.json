@@ -1041,45 +1041,12 @@
       "explanation": "Section 45ZB provides for the constitution of the MPC; Section 45ZA deals with the inflation target.",
       "verified": true,
       "archetype": "rbi-grade-b-G01",
-      "source": "curated"
-    },
-    {
-      "id": "rbi-grade-b-002",
-      "section": "ga",
-      "topic": "Indian Economy & Financial Sector",
-      "difficulty": "easy",
-      "question": "Under the flexible inflation targeting framework that came into effect in 2016, the CPI inflation target set for the RBI was:",
-      "options": [
-        "4% with a tolerance band of ± 2%",
-        "2% ± 1%",
-        "5% ± 1%",
-        "6% with a tolerance band of ± 2%",
-        "3% ± 1.5%"
-      ],
-      "answer": 0,
-      "explanation": "The target was 4% CPI inflation with an upper tolerance of 6% and a lower tolerance of 2%.",
-      "verified": true,
-      "archetype": "rbi-grade-b-G05",
-      "source": "curated"
-    },
-    {
-      "id": "rbi-grade-b-003",
-      "section": "ga",
-      "topic": "Banking & RBI (Policy, Regulation, Current Affairs)",
-      "difficulty": "easy",
-      "question": "How many members does the RBI's Monetary Policy Committee have, and who has the casting vote in case of a tie?",
-      "options": [
-        "Six; the RBI Governor",
-        "Five; the Finance Minister",
-        "Seven; the senior-most external member",
-        "Six; the Deputy Governor in charge of monetary policy",
-        "Eight; the Chief Economic Adviser"
-      ],
-      "answer": 0,
-      "explanation": "The MPC has six members (three from RBI, three external); the Governor has a casting vote in a tie.",
-      "verified": true,
-      "archetype": "rbi-grade-b-G01",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "MPC under Sec 45ZB with 45ZA (target) as trap; RBI-Act section items do appear in Grade B GA"
+      }
     },
     {
       "id": "rbi-grade-b-004",
@@ -1098,7 +1065,12 @@
       "explanation": "SDF, a collateral-free liquidity absorption tool, replaced the fixed-rate reverse repo as the floor of the LAF corridor; the MSF is the ceiling.",
       "verified": true,
       "archetype": "rbi-grade-b-G01",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "SDF as LAF floor; RBI-relevant instrument"
+      }
     },
     {
       "id": "rbi-grade-b-005",
@@ -1117,197 +1089,12 @@
       "explanation": "CRR is prescribed under Section 42 of the RBI Act, 1934; SLR is under Section 24 of the Banking Regulation Act, 1949.",
       "verified": true,
       "archetype": "rbi-grade-b-G01",
-      "source": "curated"
-    },
-    {
-      "id": "rbi-grade-b-006",
-      "section": "ga",
-      "topic": "Banking & RBI (Policy, Regulation, Current Affairs)",
-      "difficulty": "easy",
-      "question": "A term loan is classified as a Non-Performing Asset when interest or instalment of principal remains overdue for more than:",
-      "options": [
-        "30 days",
-        "60 days",
-        "180 days",
-        "120 days",
-        "90 days"
-      ],
-      "answer": 4,
-      "explanation": "Under RBI's IRAC norms, a loan becomes an NPA when interest/principal is overdue for more than 90 days.",
-      "verified": true,
-      "archetype": "rbi-grade-b-G04",
-      "source": "curated"
-    },
-    {
-      "id": "rbi-grade-b-007",
-      "section": "ga",
-      "topic": "Indian Economy & Financial Sector",
-      "difficulty": "easy",
-      "question": "The SARFAESI Act, which lets secured creditors enforce security without court intervention, was enacted in which year?",
-      "options": [
-        "1993",
-        "1999",
-        "2016",
-        "2013",
-        "2002"
-      ],
-      "answer": 4,
-      "explanation": "The Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act was enacted in 2002.",
-      "verified": true,
-      "archetype": "rbi-grade-b-G06",
-      "source": "curated"
-    },
-    {
-      "id": "rbi-grade-b-008",
-      "section": "ga",
-      "topic": "Indian Economy & Financial Sector",
-      "difficulty": "medium",
-      "question": "For domestic scheduled commercial banks, the overall priority sector lending target is:",
-      "options": [
-        "40% of ANBC or CEOE, whichever is higher",
-        "25% of total deposits",
-        "18% of ANBC",
-        "50% of net worth",
-        "75% of ANBC"
-      ],
-      "answer": 0,
-      "explanation": "The overall PSL target is 40% of Adjusted Net Bank Credit or Credit Equivalent of Off-Balance Sheet Exposure, whichever is higher (18% is the agriculture sub-target).",
-      "verified": true,
-      "archetype": "rbi-grade-b-G15",
-      "source": "curated"
-    },
-    {
-      "id": "rbi-grade-b-009",
-      "section": "ga",
-      "topic": "Banking & RBI (Policy, Regulation, Current Affairs)",
-      "difficulty": "easy",
-      "question": "The Deposit Insurance and Credit Guarantee Corporation (DICGC) is a wholly owned subsidiary of:",
-      "options": [
-        "Reserve Bank of India",
-        "SBI",
-        "Ministry of Finance",
-        "NABARD",
-        "LIC"
-      ],
-      "answer": 0,
-      "explanation": "DICGC is a wholly owned subsidiary of the RBI.",
-      "verified": true,
-      "archetype": "rbi-grade-b-G02",
-      "source": "curated"
-    },
-    {
-      "id": "rbi-grade-b-010",
-      "section": "ga",
-      "topic": "Indian Economy & Financial Sector",
-      "difficulty": "easy",
-      "question": "The Unified Payments Interface (UPI) was developed by:",
-      "options": [
-        "Reserve Bank of India",
-        "IDRBT",
-        "State Bank of India",
-        "SEBI",
-        "National Payments Corporation of India"
-      ],
-      "answer": 4,
-      "explanation": "UPI was developed and is operated by NPCI; it was launched in 2016.",
-      "verified": true,
-      "archetype": "rbi-grade-b-G15",
-      "source": "curated"
-    },
-    {
-      "id": "rbi-grade-b-011",
-      "section": "ga",
-      "topic": "Appointments, Committees & Commissions",
-      "difficulty": "easy",
-      "question": "Who is the Governor of the Reserve Bank of India (as of 2026)?",
-      "options": [
-        "Shaktikanta Das",
-        "Michael Debabrata Patra",
-        "Urjit Patel",
-        "T. Rabi Sankar",
-        "Sanjay Malhotra"
-      ],
-      "answer": 4,
-      "explanation": "Sanjay Malhotra took charge as the 26th Governor of the RBI in December 2024.",
-      "verified": true,
-      "archetype": "rbi-grade-b-G12",
-      "source": "curated"
-    },
-    {
-      "id": "rbi-grade-b-012",
-      "section": "ga",
-      "topic": "International Organisations & Reports",
-      "difficulty": "easy",
-      "question": "The Bank for International Settlements (BIS) is headquartered in:",
-      "options": [
-        "Geneva",
-        "Paris",
-        "Washington, D.C.",
-        "Basel",
-        "Brussels"
-      ],
-      "answer": 3,
-      "explanation": "BIS, often called the central bank of central banks, is headquartered in Basel, Switzerland.",
-      "verified": true,
-      "archetype": "rbi-grade-b-G11",
-      "source": "curated"
-    },
-    {
-      "id": "rbi-grade-b-013",
-      "section": "ga",
-      "topic": "International Organisations & Reports",
-      "difficulty": "medium",
-      "question": "The 'World Economic Outlook' report is published by:",
-      "options": [
-        "World Bank",
-        "OECD",
-        "World Economic Forum",
-        "International Monetary Fund",
-        "UNCTAD"
-      ],
-      "answer": 3,
-      "explanation": "The IMF publishes the World Economic Outlook, usually in April and October.",
-      "verified": true,
-      "archetype": "rbi-grade-b-G11",
-      "source": "curated"
-    },
-    {
-      "id": "rbi-grade-b-014",
-      "section": "ga",
-      "topic": "Financial Institutions & Rural Credit",
-      "difficulty": "medium",
-      "question": "NABARD was established in which year?",
-      "options": [
-        "1969",
-        "1982",
-        "1975",
-        "1990",
-        "1992"
-      ],
-      "answer": 1,
-      "explanation": "NABARD was set up on 12 July 1982 on the recommendation of the CRAFICARD (Shivaraman) committee.",
-      "verified": true,
-      "archetype": "rbi-grade-b-G10",
-      "source": "curated"
-    },
-    {
-      "id": "rbi-grade-b-015",
-      "section": "ga",
-      "topic": "Financial Institutions & Rural Credit",
-      "difficulty": "medium",
-      "question": "The issued capital of a Regional Rural Bank is shared by the Central Government, the State Government and the sponsor bank in the ratio:",
-      "options": [
-        "40 : 20 : 40",
-        "35 : 15 : 50",
-        "50 : 35 : 15",
-        "50 : 15 : 35",
-        "33 : 33 : 34"
-      ],
-      "answer": 3,
-      "explanation": "Central Government 50%, State Government 15% and sponsor bank 35%.",
-      "verified": true,
-      "archetype": "rbi-grade-b-G10",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "CRR under Sec 42 RBI Act; standard"
+      }
     },
     {
       "id": "rbi-grade-b-016",
@@ -1326,26 +1113,12 @@
       "explanation": "The 16th Finance Commission was constituted in December 2023 under Dr Arvind Panagariya.",
       "verified": true,
       "archetype": "rbi-grade-b-G13",
-      "source": "curated"
-    },
-    {
-      "id": "rbi-grade-b-017",
-      "section": "ga",
-      "topic": "Government Schemes & Fiscal Policy (Budget, Taxation, GST)",
-      "difficulty": "medium",
-      "question": "The GST Council is a constitutional body under which Article?",
-      "options": [
-        "Article 246A",
-        "Article 269A",
-        "Article 112",
-        "Article 280",
-        "Article 279A"
-      ],
-      "answer": 4,
-      "explanation": "Article 279A (inserted by the 101st Amendment, 2016) provides for the GST Council. Article 280 deals with the Finance Commission.",
-      "verified": true,
-      "archetype": "rbi-grade-b-G09",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "16th FC chair Panagariya; FC report tabled 2026, current-relevant"
+      }
     },
     {
       "id": "rbi-grade-b-018",
@@ -1364,7 +1137,12 @@
       "explanation": "Four layers: Base, Middle, Upper and Top (the Top layer is ideally expected to remain empty).",
       "verified": true,
       "archetype": "rbi-grade-b-G15",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "SBR four layers; regulation-specific"
+      }
     },
     {
       "id": "rbi-grade-b-019",
@@ -1383,64 +1161,12 @@
       "explanation": "The revised PCA tracks capital, asset quality (net NPA) and leverage; profitability (return on assets) was dropped as a trigger.",
       "verified": true,
       "archetype": "rbi-grade-b-G02",
-      "source": "curated"
-    },
-    {
-      "id": "rbi-grade-b-020",
-      "section": "ga",
-      "topic": "Banking & RBI (Policy, Regulation, Current Affairs)",
-      "difficulty": "medium",
-      "question": "The RBI's Integrated Ombudsman Scheme, which follows a 'One Nation One Ombudsman' approach, was launched in:",
-      "options": [
-        "2021",
-        "2020",
-        "2019",
-        "2022",
-        "2023"
-      ],
-      "answer": 0,
-      "explanation": "The Reserve Bank – Integrated Ombudsman Scheme, 2021 was launched in November 2021.",
-      "verified": true,
-      "archetype": "rbi-grade-b-G02",
-      "source": "curated"
-    },
-    {
-      "id": "rbi-grade-b-021",
-      "section": "ga",
-      "topic": "Banking & RBI (Policy, Regulation, Current Affairs)",
-      "difficulty": "medium",
-      "question": "To curb digital fraud, the RBI directed banks to migrate their websites to which exclusive internet domain?",
-      "options": [
-        ".gov.in",
-        ".fin.in",
-        ".bank.in",
-        ".rbi.in",
-        ".bnk.in"
-      ],
-      "answer": 2,
-      "explanation": "Banks were asked to shift to the exclusive '.bank.in' domain (registered through IDRBT); '.fin.in' was proposed for other financial entities.",
-      "verified": true,
-      "archetype": "rbi-grade-b-G02",
-      "source": "curated"
-    },
-    {
-      "id": "rbi-grade-b-022",
-      "section": "ga",
-      "topic": "Banking & RBI (Policy, Regulation, Current Affairs)",
-      "difficulty": "hard",
-      "question": "In its June 2025 policy, the RBI announced a phased cut in the Cash Reserve Ratio to:",
-      "options": [
-        "3.5% of NDTL",
-        "4.5% of NDTL",
-        "4% of NDTL",
-        "2.5% of NDTL",
-        "3% of NDTL"
-      ],
-      "answer": 4,
-      "explanation": "The CRR was cut by 100 basis points, from 4% to 3% of NDTL, in four equal tranches during Sep–Nov 2025.",
-      "verified": true,
-      "archetype": "rbi-grade-b-G01",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Revised PCA indicators with close distractors; Grade B-level"
+      }
     },
     {
       "id": "rbi-grade-b-023",
@@ -1459,26 +1185,12 @@
       "explanation": "The new Income-tax Act, 2025 takes effect from 1 April 2026 (tax year 2026-27).",
       "verified": true,
       "archetype": "rbi-grade-b-G09",
-      "source": "curated"
-    },
-    {
-      "id": "rbi-grade-b-024",
-      "section": "ga",
-      "topic": "Government Schemes & Fiscal Policy (Budget, Taxation, GST)",
-      "difficulty": "medium",
-      "question": "Under the GST rate rationalisation effective 22 September 2025, the two main GST slabs are:",
-      "options": [
-        "5% and 12%",
-        "12% and 18%",
-        "5% and 28%",
-        "5% and 18%",
-        "18% and 28%"
-      ],
-      "answer": 3,
-      "explanation": "The four-slab structure was replaced by two main slabs of 5% and 18%, with a special 40% rate for select luxury and sin goods.",
-      "verified": true,
-      "archetype": "rbi-grade-b-G09",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Income-tax Act 2025 effective 1 April 2026; current and policy-relevant"
+      }
     },
     {
       "id": "rbi-grade-b-025",
@@ -1497,7 +1209,12 @@
       "explanation": "Clockwise from J (corner): J, O, L, Q, N, K, P, M. Corner-sitters face the centre (right = anticlockwise); side-sitters face outward (right = clockwise). K faces outward, so second to its right (clockwise) is M.",
       "verified": true,
       "archetype": "rbi-grade-b-R10",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Square table corners in/mid-sides out, unique; RBI R10 faithful"
+      }
     },
     {
       "id": "rbi-grade-b-026",
@@ -1516,7 +1233,12 @@
       "explanation": "Clockwise: J, O, L, Q, N, K, P, M. L sits at a corner facing the centre, so his left is clockwise — Q.",
       "verified": true,
       "archetype": "rbi-grade-b-R10",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Left of out-facing L = Q"
+      }
     },
     {
       "id": "rbi-grade-b-027",
@@ -1535,7 +1257,12 @@
       "explanation": "Clockwise: J (corner), O, L (corner), Q, N (corner), K, P (corner), M. The side-sitters O, Q, K and M face away from the centre.",
       "verified": true,
       "archetype": "rbi-grade-b-R10",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Outward-facing group O,Q,K,M"
+      }
     },
     {
       "id": "rbi-grade-b-028",
@@ -1554,7 +1281,12 @@
       "explanation": "Solution: C 1971 (55), E 1978 (48), A 1985 (41), G 1990 (36), D 1996 (30), F 2001 (25), B 2008 (18). G is 36.",
       "verified": true,
       "archetype": "rbi-grade-b-R09",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Birth-year/age puzzle with 2026 reference, unique; RBI R09 faithful"
+      }
     },
     {
       "id": "rbi-grade-b-029",
@@ -1573,7 +1305,12 @@
       "explanation": "C + B = 73 with C older gives C–B = 55–18 or 48–25. A − D = 11 needs (41, 30) or (36, 25). D even and after G, G a multiple of 5, F after G, one person between G and E: only C 1971, E 1978, A 1985, G 1990, D 1996, F 2001, B 2008 works. E was born in 1978.",
       "verified": true,
       "archetype": "rbi-grade-b-R09",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Born 1978 = E"
+      }
     },
     {
       "id": "rbi-grade-b-030",
@@ -1592,7 +1329,12 @@
       "explanation": "A was born in 1985 (41) and F in 2001 (25). 41 + 25 = 66.",
       "verified": true,
       "archetype": "rbi-grade-b-R09",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Sum of ages A+F = 66"
+      }
     },
     {
       "id": "rbi-grade-b-031",
@@ -1611,7 +1353,12 @@
       "explanation": "Bottom to top: T, W, Q, V, P, S, U, R. R is at the top.",
       "verified": true,
       "archetype": "rbi-grade-b-R06",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "8-box stack unique; easier than RBI puzzles"
+      }
     },
     {
       "id": "rbi-grade-b-032",
@@ -1630,7 +1377,12 @@
       "explanation": "Bottom to top: T, W, Q, V, P, S, U, R. Between W (2) and U (7) are Q, V, P and S — four.",
       "verified": true,
       "archetype": "rbi-grade-b-R06",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Boxes between W and U = 4"
+      }
     },
     {
       "id": "rbi-grade-b-033",
@@ -1649,7 +1401,12 @@
       "explanation": "If T = 1, P = 5; boxes above V = boxes below P = 4, so V = 4 and Q = 3; W adjacent to Q is 2. R above U with one box between R and S gives S = 6, U = 7, R = 8. (T = 2 leads to a contradiction.) S is immediately above P.",
       "verified": true,
       "archetype": "rbi-grade-b-R06",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Above P = S"
+      }
     },
     {
       "id": "rbi-grade-b-034",
@@ -1668,7 +1425,12 @@
       "explanation": "Banks that are lenders are institutions and hence not brokers — I follows. No lender (an institution) can be a broker — II is false.",
       "verified": true,
       "archetype": "rbi-grade-b-R12",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Only-a-few chain with 'Some banks are not brokers'"
+      }
     },
     {
       "id": "rbi-grade-b-035",
@@ -1687,7 +1449,12 @@
       "explanation": "Coins are notes, and notes that are not cheques may be drafts, so coins being drafts is possible — I follows. Some notes may be drafts, so II is not definite.",
       "verified": true,
       "archetype": "rbi-grade-b-R11",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Possibility vs definite 'No' trap"
+      }
     },
     {
       "id": "rbi-grade-b-036",
@@ -1706,7 +1473,12 @@
       "explanation": "T > Q > R gives T > R; P ≥ Q ≥ U gives P ≥ U. Both follow.",
       "verified": true,
       "archetype": "rbi-grade-b-R13",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Two-statement inequality both follow; light for RBI"
+      }
     },
     {
       "id": "rbi-grade-b-037",
@@ -1725,7 +1497,12 @@
       "explanation": "G ≥ E > D = C > B gives G > B. F ≤ D = C gives only F ≤ C, so 'F < C' is not definite. Only I follows.",
       "verified": true,
       "archetype": "rbi-grade-b-R13",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "F<=C vs strict F<C trap"
+      }
     },
     {
       "id": "rbi-grade-b-038",
@@ -1744,7 +1521,12 @@
       "explanation": "N is the child of Q and R. O and P are N's children. So R is P's grandmother.",
       "verified": true,
       "archetype": "rbi-grade-b-R15",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Family chain grandmother"
+      }
     },
     {
       "id": "rbi-grade-b-039",
@@ -1763,45 +1545,12 @@
       "explanation": "Take B = (0,0): A = (12,0), C = (12,5), D = (8,5), E = (8,−6). Distance = √(8² + 6²) = 10 m, towards the South-East.",
       "verified": true,
       "archetype": "rbi-grade-b-R18",
-      "source": "curated"
-    },
-    {
-      "id": "rbi-grade-b-040",
-      "section": "reasoning",
-      "topic": "Coding-Decoding",
-      "difficulty": "easy",
-      "question": "In a certain code language, 'policy rate cut' is written as 'mi ka lo', 'rate hike likely' as 'zo lo pa' and 'cut likely soon' as 'pa mi ru'. What is the code for 'policy'?",
-      "options": [
-        "mi",
-        "ka",
-        "lo",
-        "pa",
-        "zo"
-      ],
-      "answer": 1,
-      "explanation": "rate = lo (1 & 2), cut = mi (1 & 3), likely = pa (2 & 3). The remaining code in sentence 1, ka, means 'policy'.",
-      "verified": true,
-      "archetype": "rbi-grade-b-R20",
-      "source": "curated"
-    },
-    {
-      "id": "rbi-grade-b-041",
-      "section": "reasoning",
-      "topic": "Data Sufficiency",
-      "difficulty": "medium",
-      "question": "Six persons A, B, C, D, E and F sit in a row of six seats facing north. Who sits at the extreme right end?\nI. A sits third from the left end. B sits second to the right of A.\nII. C sits immediately to the right of B.",
-      "options": [
-        "The data in statement I alone are sufficient, but the data in statement II alone are not",
-        "The data in statement II alone are sufficient, but the data in statement I alone are not",
-        "The data in either statement I alone or statement II alone are sufficient",
-        "The data in both statements I and II together are not sufficient",
-        "The data in both statements I and II together are necessary"
-      ],
-      "answer": 4,
-      "explanation": "I alone gives A = 3, B = 5 but not who is at seat 6. II alone gives no seat numbers. Together, C = 6 — so both are needed.",
-      "verified": true,
-      "archetype": "rbi-grade-b-R27",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Point direction 10 m SE"
+      }
     },
     {
       "id": "rbi-grade-b-042",
@@ -1820,102 +1569,12 @@
       "explanation": "The advertisement assumes zero charges will attract users (I is implicit). It does not assume that no competitor offers the same (II is not implicit).",
       "verified": true,
       "archetype": "rbi-grade-b-R29",
-      "source": "curated"
-    },
-    {
-      "id": "rbi-grade-b-043",
-      "section": "english",
-      "topic": "Reading Comprehension",
-      "difficulty": "easy",
-      "question": "Read the passage and answer the question.\n\nWhen a central bank raises interest rates, the effect on inflation is neither immediate nor uniform. Higher policy rates first feed into money-market rates and bond yields; bank lending rates adjust more slowly, depending on how loans are benchmarked and how much competition banks face for deposits. Households may postpone purchases of cars and homes, and firms may defer investment, but these decisions unfold over several quarters. Meanwhile, supply shocks — a failed harvest or a spike in global oil prices — can push prices up regardless of monetary policy. This is why most central banks target inflation over a medium-term horizon and try to anchor expectations through clear communication. If people believe the central bank will act to bring inflation back to target, they are less likely to demand large wage increases or raise prices pre-emptively, which itself makes the central bank's task easier.\n\nAccording to the passage, what adjusts first after a central bank raises its policy rate?",
-      "options": [
-        "Bank lending rates",
-        "Household consumption",
-        "Wages",
-        "Money-market rates and bond yields",
-        "Prices of food"
-      ],
-      "answer": 3,
-      "explanation": "'Higher policy rates first feed into money-market rates and bond yields; bank lending rates adjust more slowly.'",
-      "verified": true,
-      "archetype": "rbi-grade-b-E02",
-      "source": "curated"
-    },
-    {
-      "id": "rbi-grade-b-044",
-      "section": "english",
-      "topic": "Reading Comprehension",
-      "difficulty": "hard",
-      "question": "Read the passage and answer the question.\n\nWhen a central bank raises interest rates, the effect on inflation is neither immediate nor uniform. Higher policy rates first feed into money-market rates and bond yields; bank lending rates adjust more slowly, depending on how loans are benchmarked and how much competition banks face for deposits. Households may postpone purchases of cars and homes, and firms may defer investment, but these decisions unfold over several quarters. Meanwhile, supply shocks — a failed harvest or a spike in global oil prices — can push prices up regardless of monetary policy. This is why most central banks target inflation over a medium-term horizon and try to anchor expectations through clear communication. If people believe the central bank will act to bring inflation back to target, they are less likely to demand large wage increases or raise prices pre-emptively, which itself makes the central bank's task easier.\n\nWhy, according to the passage, do central banks target inflation over a medium-term horizon?",
-      "options": [
-        "Because inflation cannot be measured monthly",
-        "Because governments require it by law",
-        "Because policy effects take several quarters and supply shocks can raise prices regardless of policy",
-        "Because bond yields never respond to policy rates",
-        "Because wages are fixed for long periods"
-      ],
-      "answer": 2,
-      "explanation": "The passage explains the delays in transmission and the effect of supply shocks, and then says: 'This is why most central banks target inflation over a medium-term horizon.'",
-      "verified": true,
-      "archetype": "rbi-grade-b-E02",
-      "source": "curated"
-    },
-    {
-      "id": "rbi-grade-b-045",
-      "section": "english",
-      "topic": "Reading Comprehension",
-      "difficulty": "medium",
-      "question": "Read the passage and answer the question.\n\nWhen a central bank raises interest rates, the effect on inflation is neither immediate nor uniform. Higher policy rates first feed into money-market rates and bond yields; bank lending rates adjust more slowly, depending on how loans are benchmarked and how much competition banks face for deposits. Households may postpone purchases of cars and homes, and firms may defer investment, but these decisions unfold over several quarters. Meanwhile, supply shocks — a failed harvest or a spike in global oil prices — can push prices up regardless of monetary policy. This is why most central banks target inflation over a medium-term horizon and try to anchor expectations through clear communication. If people believe the central bank will act to bring inflation back to target, they are less likely to demand large wage increases or raise prices pre-emptively, which itself makes the central bank's task easier.\n\nWhat role does credible communication play, according to the passage?",
-      "options": [
-        "It makes interest rates unnecessary",
-        "It eliminates supply shocks",
-        "It anchors expectations and reduces pre-emptive wage and price increases",
-        "It speeds up bank lending rate changes",
-        "It raises demand for cars and homes"
-      ],
-      "answer": 2,
-      "explanation": "If people believe the central bank will act, 'they are less likely to demand large wage increases or raise prices pre-emptively'.",
-      "verified": true,
-      "archetype": "rbi-grade-b-E02",
-      "source": "curated"
-    },
-    {
-      "id": "rbi-grade-b-046",
-      "section": "english",
-      "topic": "Reading Comprehension",
-      "difficulty": "medium",
-      "question": "Read the passage and answer the question.\n\nWhen a central bank raises interest rates, the effect on inflation is neither immediate nor uniform. Higher policy rates first feed into money-market rates and bond yields; bank lending rates adjust more slowly, depending on how loans are benchmarked and how much competition banks face for deposits. Households may postpone purchases of cars and homes, and firms may defer investment, but these decisions unfold over several quarters. Meanwhile, supply shocks — a failed harvest or a spike in global oil prices — can push prices up regardless of monetary policy. This is why most central banks target inflation over a medium-term horizon and try to anchor expectations through clear communication. If people believe the central bank will act to bring inflation back to target, they are less likely to demand large wage increases or raise prices pre-emptively, which itself makes the central bank's task easier.\n\nChoose the expression closest in meaning to 'pre-emptively' as used in the passage.",
-      "options": [
-        "Reluctantly",
-        "In advance",
-        "Belatedly",
-        "Randomly",
-        "Secretly"
-      ],
-      "answer": 1,
-      "explanation": "Acting pre-emptively means acting in advance, before something (here, inflation) happens.",
-      "verified": true,
-      "archetype": "rbi-grade-b-E04",
-      "source": "curated"
-    },
-    {
-      "id": "rbi-grade-b-047",
-      "section": "english",
-      "topic": "Cloze Test",
-      "difficulty": "easy",
-      "question": "Choose the word that best fills the blank.\nThe government's decision to ______ the import duty on edible oils is expected to bring relief to consumers.",
-      "options": [
-        "raise",
-        "impose",
-        "double",
-        "reduce",
-        "introduce"
-      ],
-      "answer": 3,
-      "explanation": "Only a reduction in duty lowers prices and brings relief to consumers.",
-      "verified": true,
-      "archetype": "rbi-grade-b-E06",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Ad-assumption with exclusivity trap; RBI-faithful"
+      }
     },
     {
       "id": "rbi-grade-b-048",
@@ -1934,26 +1593,12 @@
       "explanation": "With 'not only … but also', the verb agrees with the nearer subject 'the manager' (singular): 'was surprised'. Error in part B.",
       "verified": true,
       "archetype": "rbi-grade-b-E08",
-      "source": "curated"
-    },
-    {
-      "id": "rbi-grade-b-049",
-      "section": "english",
-      "topic": "Fillers",
-      "difficulty": "medium",
-      "question": "Choose the word that best fills the blank.\nThe minister's speech was so ______ that the audience lost interest within minutes.",
-      "options": [
-        "riveting",
-        "captivating",
-        "tedious",
-        "inspiring",
-        "gripping"
-      ],
-      "answer": 2,
-      "explanation": "Losing interest within minutes implies the speech was tedious (boring); the others mean the opposite.",
-      "verified": true,
-      "archetype": "rbi-grade-b-E11",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Not only...but also proximity agreement"
+      }
     },
     {
       "id": "rbi-grade-b-050",
@@ -1972,26 +1617,12 @@
       "explanation": "B (AI in lending) → D (capability) → E (benefit) → A ('however', privacy concern) → C ('therefore', regulation): BDEAC.",
       "verified": true,
       "archetype": "rbi-grade-b-E12",
-      "source": "curated"
-    },
-    {
-      "id": "rbi-grade-b-051",
-      "section": "english",
-      "topic": "Vocabulary & Idioms",
-      "difficulty": "easy",
-      "question": "Choose the meaning of the idiom 'to bite the bullet'.",
-      "options": [
-        "To face a difficult situation with courage",
-        "To act violently",
-        "To speak harshly",
-        "To avoid responsibility",
-        "To waste resources"
-      ],
-      "answer": 0,
-      "explanation": "'Bite the bullet' means to accept and face something unpleasant or difficult bravely.",
-      "verified": true,
-      "archetype": "rbi-grade-b-E22",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "AI lending jumble with however/therefore"
+      }
     },
     {
       "id": "rbi-grade-b-052",
@@ -2010,7 +1641,12 @@
       "explanation": "Profits: P 50, Q 80, R 60, S 54, T 30 (₹ crore). Q is highest.",
       "verified": true,
       "archetype": "rbi-grade-b-Q02",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Highest profit from expenditure %"
+      }
     },
     {
       "id": "rbi-grade-b-053",
@@ -2029,7 +1665,12 @@
       "explanation": "50 + 80 + 60 + 54 + 30 = ₹274 crore.",
       "verified": true,
       "archetype": "rbi-grade-b-Q02",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Total profit"
+      }
     },
     {
       "id": "rbi-grade-b-054",
@@ -2048,7 +1689,12 @@
       "explanation": "Profit of S = 30% of 180 = 54; expenditure of P = 80% of 250 = 200. 54/200 × 100 = 27%.",
       "verified": true,
       "archetype": "rbi-grade-b-Q02",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Cross-metric percent"
+      }
     },
     {
       "id": "rbi-grade-b-055",
@@ -2067,7 +1713,12 @@
       "explanation": "Revenue = 400 × 1.15 = 460; expenditure = 340 × 1.10 = 374. Profit = 460 − 374 = ₹86 crore.",
       "verified": true,
       "archetype": "rbi-grade-b-Q02",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Projected profit after differential growth; Q02 faithful"
+      }
     },
     {
       "id": "rbi-grade-b-056",
@@ -2086,7 +1737,12 @@
       "explanation": "I: (x − 5)(x + 3) = 0 → x = 5, −3. II: (y + 3)(y + 5) = 0 → y = −3, −5. Every x is greater than or equal to every y (−3 = −3), so x ≥ y.",
       "verified": true,
       "archetype": "rbi-grade-b-Q07",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Shared root -3 -> x>=y"
+      }
     },
     {
       "id": "rbi-grade-b-057",
@@ -2105,7 +1761,12 @@
       "explanation": "≈ 20² − 14 × 12 + 4³ = 400 − 168 + 64 = 296 (exact value ≈ 293.9, nearest option 296).",
       "verified": true,
       "archetype": "rbi-grade-b-Q12",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Approximation with squares and cube"
+      }
     },
     {
       "id": "rbi-grade-b-058",
@@ -2124,26 +1785,12 @@
       "explanation": "Differences are 1², 3², 5², 7²; next 9² = 81: 88 + 81 = 169.",
       "verified": true,
       "archetype": "rbi-grade-b-Q09",
-      "source": "curated"
-    },
-    {
-      "id": "rbi-grade-b-059",
-      "section": "quant",
-      "topic": "Arithmetic Word Problems",
-      "difficulty": "medium",
-      "question": "₹20,000 is invested partly at 8% and partly at 12% simple interest per annum. If the total interest after one year is ₹2,000, how much was invested at 12%?",
-      "options": [
-        "₹8,000",
-        "₹9,000",
-        "₹10,000",
-        "₹11,000",
-        "₹12,000"
-      ],
-      "answer": 2,
-      "explanation": "0.08x + 0.12(20,000 − x) = 2,000 → 2,400 − 0.04x = 2,000 → x = 10,000 at 8%. So ₹10,000 at 12%.",
-      "verified": true,
-      "archetype": "rbi-grade-b-Q22",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Odd-square differences series"
+      }
     },
     {
       "id": "rbi-grade-b-060",
@@ -2162,7 +1809,12 @@
       "explanation": "Per day (in 60ths): A 6, B 5, C 4. First 2 days: 2 × 15 = 30/60. Remaining 30/60 at 9/60 per day = 10/3 days. Total = 2 + 3⅓ = 5⅓ days.",
       "verified": true,
       "archetype": "rbi-grade-b-Q19",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "A leaves after 2 days, fraction total"
+      }
     },
     {
       "id": "rbi-grade-b-061",
@@ -2181,7 +1833,12 @@
       "explanation": "MSF is the rate at which banks can borrow overnight against excess SLR securities in emergencies; it forms the ceiling of the LAF corridor, while the Standing Deposit Facility rate is the floor.",
       "source": "ai",
       "archetype": "rbi-grade-b-G01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "MSF as ceiling"
+      }
     },
     {
       "id": "rbi-grade-b-062",
@@ -2200,7 +1857,12 @@
       "explanation": "SLR is prescribed under Section 24 of the Banking Regulation Act, 1949. Section 42 of the RBI Act covers CRR; Section 45ZB the MPC; Section 35A the RBI's power to give directions.",
       "source": "ai",
       "archetype": "rbi-grade-b-G01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "SLR under Sec 24 BR Act"
+      }
     },
     {
       "id": "rbi-grade-b-063",
@@ -2219,7 +1881,12 @@
       "explanation": "The LCR covers a 30-day stress horizon. The NSFR looks at stable funding over one year; the leverage ratio and capital buffers concern capital, not liquidity.",
       "source": "ai",
       "archetype": "rbi-grade-b-G04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "LCR 30-day definition"
+      }
     },
     {
       "id": "rbi-grade-b-064",
@@ -2238,7 +1905,12 @@
       "explanation": "The CCB, to be held in Common Equity Tier 1, is 2.5% of RWAs (fully phased in from October 2021). 5.5% is the minimum CET1 ratio and 9% the minimum total CRAR in India.",
       "source": "ai",
       "archetype": "rbi-grade-b-G04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "CCB 2.5%"
+      }
     },
     {
       "id": "rbi-grade-b-065",
@@ -2257,45 +1929,12 @@
       "explanation": "The 2025 amendment allows up to four nominees for deposit accounts, either simultaneously (in specified shares) or successively.",
       "source": "ai",
       "archetype": "rbi-grade-b-G02",
-      "verified": false
-    },
-    {
-      "id": "rbi-grade-b-066",
-      "section": "ga",
-      "topic": "Banking & RBI (Policy, Regulation, Current Affairs)",
-      "difficulty": "medium",
-      "question": "The RBI launched the pilot of the retail digital rupee (e₹-R) in:",
-      "options": [
-        "December 2022",
-        "November 2021",
-        "April 2023",
-        "January 2022",
-        "March 2024"
-      ],
-      "answer": 0,
-      "explanation": "The wholesale e₹ pilot began on 1 November 2022 and the retail e₹ pilot on 1 December 2022.",
-      "source": "ai",
-      "archetype": "rbi-grade-b-G03",
-      "verified": false
-    },
-    {
-      "id": "rbi-grade-b-067",
-      "section": "ga",
-      "topic": "Banking & RBI (Policy, Regulation, Current Affairs)",
-      "difficulty": "easy",
-      "question": "The RTGS system is primarily meant for large-value transfers. What is the minimum amount that can be sent through RTGS?",
-      "options": [
-        "₹1 lakh",
-        "₹50,000",
-        "₹5 lakh",
-        "₹2 lakh",
-        "There is no minimum amount"
-      ],
-      "answer": 3,
-      "explanation": "RTGS has a minimum of ₹2 lakh and no upper ceiling; it has been available 24×7 since December 2020. NEFT has no minimum.",
-      "source": "ai",
-      "archetype": "rbi-grade-b-G03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Four nominees under 2025 amendment (in force Nov 2025); recent enough"
+      }
     },
     {
       "id": "rbi-grade-b-068",
@@ -2314,235 +1953,12 @@
       "explanation": "WPI is released by the Office of the Economic Adviser, DPIIT. The NSO compiles CPI and IIP; the Labour Bureau compiles CPI for industrial workers.",
       "source": "ai",
       "archetype": "rbi-grade-b-G05",
-      "verified": false
-    },
-    {
-      "id": "rbi-grade-b-069",
-      "section": "ga",
-      "topic": "Indian Economy & Financial Sector",
-      "difficulty": "medium",
-      "question": "Which of the following is compiled and released by the National Statistics Office (MoSPI)?",
-      "options": [
-        "Wholesale Price Index (WPI)",
-        "Index of Industrial Production (IIP)",
-        "Financial Stability Report",
-        "Consumer Confidence Survey",
-        "Purchasing Managers' Index (PMI)"
-      ],
-      "answer": 1,
-      "explanation": "IIP is released by the NSO. WPI comes from DPIIT, the FSR and Consumer Confidence Survey from the RBI, and the PMI from a private survey provider.",
-      "source": "ai",
-      "archetype": "rbi-grade-b-G05",
-      "verified": false
-    },
-    {
-      "id": "rbi-grade-b-070",
-      "section": "ga",
-      "topic": "Indian Economy & Financial Sector",
-      "difficulty": "medium",
-      "question": "Under India's FDI policy, investment under which route does NOT need prior approval of the Government?",
-      "options": [
-        "Government route",
-        "Approval route",
-        "FIPB route",
-        "Special Economic Zone route",
-        "Automatic route"
-      ],
-      "answer": 4,
-      "explanation": "Under the automatic route the investor only reports to the RBI after investment; the government (approval) route needs prior clearance. The FIPB itself was abolished in 2017.",
-      "source": "ai",
-      "archetype": "rbi-grade-b-G07",
-      "verified": false
-    },
-    {
-      "id": "rbi-grade-b-071",
-      "section": "ga",
-      "topic": "Indian Economy & Financial Sector",
-      "difficulty": "easy",
-      "question": "The Insolvency and Bankruptcy Code (IBC), which set up a time-bound resolution process for stressed companies, was enacted in:",
-      "options": [
-        "2016",
-        "2014",
-        "2018",
-        "2019",
-        "2002"
-      ],
-      "answer": 0,
-      "explanation": "The IBC was enacted in 2016. 2002 is the year of the SARFAESI Act.",
-      "source": "ai",
-      "archetype": "rbi-grade-b-G06",
-      "verified": false
-    },
-    {
-      "id": "rbi-grade-b-072",
-      "section": "ga",
-      "topic": "Indian Economy & Financial Sector",
-      "difficulty": "easy",
-      "question": "Which regulator oversees the National Pension System (NPS) and the Atal Pension Yojana?",
-      "options": [
-        "IRDAI",
-        "SEBI",
-        "NABARD",
-        "EPFO",
-        "PFRDA"
-      ],
-      "answer": 4,
-      "explanation": "The Pension Fund Regulatory and Development Authority (PFRDA) regulates NPS and administers APY. EPFO runs the employees' provident fund, not NPS.",
-      "source": "ai",
-      "archetype": "rbi-grade-b-G15",
-      "verified": false
-    },
-    {
-      "id": "rbi-grade-b-073",
-      "section": "ga",
-      "topic": "Government Schemes & Fiscal Policy (Budget, Taxation, GST)",
-      "difficulty": "easy",
-      "question": "Pradhan Mantri Jan Dhan Yojana (PMJDY), the national mission for financial inclusion, was launched on:",
-      "options": [
-        "15 August 2014",
-        "28 August 2014",
-        "1 April 2015",
-        "9 May 2015",
-        "2 October 2014"
-      ],
-      "answer": 1,
-      "explanation": "PMJDY was launched on 28 August 2014. 9 May 2015 is the launch date of APY, PMJJBY and PMSBY.",
-      "source": "ai",
-      "archetype": "rbi-grade-b-G08",
-      "verified": false
-    },
-    {
-      "id": "rbi-grade-b-074",
-      "section": "ga",
-      "topic": "Government Schemes & Fiscal Policy (Budget, Taxation, GST)",
-      "difficulty": "medium",
-      "question": "Under the Atal Pension Yojana, subscribers receive a guaranteed minimum monthly pension after age 60 in the range of:",
-      "options": [
-        "₹500 to ₹2,500",
-        "₹2,000 to ₹10,000",
-        "₹3,000 to ₹6,000",
-        "₹1,000 to ₹5,000",
-        "₹1,500 to ₹7,500"
-      ],
-      "answer": 3,
-      "explanation": "APY offers a guaranteed monthly pension of ₹1,000, 2,000, 3,000, 4,000 or 5,000 depending on the contribution.",
-      "source": "ai",
-      "archetype": "rbi-grade-b-G08",
-      "verified": false
-    },
-    {
-      "id": "rbi-grade-b-075",
-      "section": "ga",
-      "topic": "Government Schemes & Fiscal Policy (Budget, Taxation, GST)",
-      "difficulty": "medium",
-      "question": "In government finance, the 'fiscal deficit' is best defined as:",
-      "options": [
-        "Revenue expenditure minus revenue receipts",
-        "Fiscal deficit minus interest payments",
-        "Total expenditure minus total receipts excluding borrowings and other liabilities",
-        "Total expenditure minus tax revenue",
-        "The excess of imports over exports"
-      ],
-      "answer": 2,
-      "explanation": "Fiscal deficit = total expenditure − (revenue receipts + non-debt capital receipts), i.e. the government's borrowing requirement. The second option is the revenue deficit and the third the primary deficit.",
-      "source": "ai",
-      "archetype": "rbi-grade-b-G09",
-      "verified": false
-    },
-    {
-      "id": "rbi-grade-b-076",
-      "section": "ga",
-      "topic": "Government Schemes & Fiscal Policy (Budget, Taxation, GST)",
-      "difficulty": "medium",
-      "question": "Under the Unified Pension Scheme (UPS) for central government employees, effective 1 April 2025, the assured pension for 25 years of qualifying service is what share of the average basic pay of the last 12 months before superannuation?",
-      "options": [
-        "50%",
-        "40%",
-        "60%",
-        "33%",
-        "75%"
-      ],
-      "answer": 0,
-      "explanation": "UPS assures 50% of the average basic pay drawn over the last 12 months, for a minimum qualifying service of 25 years.",
-      "source": "ai",
-      "archetype": "rbi-grade-b-G08",
-      "verified": false
-    },
-    {
-      "id": "rbi-grade-b-077",
-      "section": "ga",
-      "topic": "Financial Institutions & Rural Credit",
-      "difficulty": "medium",
-      "question": "The Kisan Credit Card scheme was introduced in 1998 on the recommendations of which committee?",
-      "options": [
-        "Narasimham Committee",
-        "R. V. Gupta Committee",
-        "Nachiket Mor Committee",
-        "Raghuram Rajan Committee",
-        "Urjit Patel Committee"
-      ],
-      "answer": 1,
-      "explanation": "The KCC scheme (1998) followed the R. V. Gupta Committee on agricultural credit; it was prepared by NABARD.",
-      "source": "ai",
-      "archetype": "rbi-grade-b-G10",
-      "verified": false
-    },
-    {
-      "id": "rbi-grade-b-078",
-      "section": "ga",
-      "topic": "Financial Institutions & Rural Credit",
-      "difficulty": "medium",
-      "question": "The Small Industries Development Bank of India (SIDBI), set up in 1990, was originally established as a wholly owned subsidiary of:",
-      "options": [
-        "RBI",
-        "NABARD",
-        "SBI",
-        "EXIM Bank",
-        "IDBI"
-      ],
-      "answer": 4,
-      "explanation": "SIDBI was set up on 2 April 1990 as a wholly owned subsidiary of the Industrial Development Bank of India; it was later delinked from IDBI.",
-      "source": "ai",
-      "archetype": "rbi-grade-b-G10",
-      "verified": false
-    },
-    {
-      "id": "rbi-grade-b-079",
-      "section": "ga",
-      "topic": "International Organisations & Reports",
-      "difficulty": "easy",
-      "question": "The 'Global Economic Prospects' report is published by:",
-      "options": [
-        "International Monetary Fund",
-        "World Trade Organization",
-        "World Bank",
-        "OECD",
-        "UNCTAD"
-      ],
-      "answer": 2,
-      "explanation": "Global Economic Prospects is a World Bank flagship; the IMF publishes the World Economic Outlook.",
-      "source": "ai",
-      "archetype": "rbi-grade-b-G11",
-      "verified": false
-    },
-    {
-      "id": "rbi-grade-b-080",
-      "section": "ga",
-      "topic": "International Organisations & Reports",
-      "difficulty": "easy",
-      "question": "The Asian Infrastructure Investment Bank (AIIB) is headquartered in:",
-      "options": [
-        "Shanghai",
-        "Manila",
-        "Singapore",
-        "Beijing",
-        "Hong Kong"
-      ],
-      "answer": 3,
-      "explanation": "AIIB is based in Beijing. The New Development Bank is in Shanghai and the Asian Development Bank in Manila.",
-      "source": "ai",
-      "archetype": "rbi-grade-b-G11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "WPI by OEA DPIIT with NSO trap"
+      }
     },
     {
       "id": "rbi-grade-b-081",
@@ -2561,26 +1977,12 @@
       "explanation": "The Expert Committee to Revise and Strengthen the Monetary Policy Framework (Urjit Patel, 2014) recommended CPI-based flexible inflation targeting. The economic capital framework was the Bimal Jalan Committee (2019).",
       "source": "ai",
       "archetype": "rbi-grade-b-G13",
-      "verified": false
-    },
-    {
-      "id": "rbi-grade-b-082",
-      "section": "ga",
-      "topic": "Appointments, Committees & Commissions",
-      "difficulty": "easy",
-      "question": "Who is the Director-General of the World Trade Organization (as of 2026)?",
-      "options": [
-        "Kristalina Georgieva",
-        "Ajay Banga",
-        "Ngozi Okonjo-Iweala",
-        "Roberto Azevêdo",
-        "Gita Gopinath"
-      ],
-      "answer": 2,
-      "explanation": "Ngozi Okonjo-Iweala began her second term as WTO Director-General in September 2025. Georgieva heads the IMF and Banga the World Bank; Azevêdo was her predecessor.",
-      "source": "ai",
-      "archetype": "rbi-grade-b-G12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Urjit Patel committee FIT; committee archetype"
+      }
     },
     {
       "id": "rbi-grade-b-083",
@@ -2599,26 +2001,12 @@
       "explanation": "India took over the BRICS chairship for 2026 from Brazil, which chaired the grouping in 2025.",
       "source": "ai",
       "archetype": "rbi-grade-b-G14",
-      "verified": false
-    },
-    {
-      "id": "rbi-grade-b-084",
-      "section": "ga",
-      "topic": "Static GK, Summits & Agreements",
-      "difficulty": "medium",
-      "question": "The 30th Conference of the Parties (COP30) to the UNFCCC was held in November 2025 in:",
-      "options": [
-        "Baku, Azerbaijan",
-        "Dubai, UAE",
-        "Sharm el-Sheikh, Egypt",
-        "Rio de Janeiro, Brazil",
-        "Belém, Brazil"
-      ],
-      "answer": 4,
-      "explanation": "COP30 was hosted in Belém, Brazil. COP29 was in Baku, COP28 in Dubai and COP27 in Sharm el-Sheikh.",
-      "source": "ai",
-      "archetype": "rbi-grade-b-G14",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "India BRICS chair 2026; current and topical"
+      }
     },
     {
       "id": "rbi-grade-b-085",
@@ -2637,7 +2025,12 @@
       "explanation": "Clockwise from A: A (Lawyer), E (Pilot), C (Doctor), G (Chef), B (Teacher), H (Banker), D (Writer), F (Engineer). Facing the centre, left is clockwise and right anticlockwise. D is the Writer.",
       "source": "ai",
       "archetype": "rbi-grade-b-R03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "8-person circle with professions, unique; RBI R03 faithful"
+      }
     },
     {
       "id": "rbi-grade-b-086",
@@ -2656,7 +2049,12 @@
       "explanation": "Clockwise from A: A (Lawyer), E (Pilot), C (Doctor), G (Chef), B (Teacher), H (Banker), D (Writer), F (Engineer). Facing the centre, left is clockwise and right anticlockwise. The Pilot is E; moving clockwise: C, G — G is second to the left of E.",
       "source": "ai",
       "archetype": "rbi-grade-b-R03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "2nd left of Pilot = G"
+      }
     },
     {
       "id": "rbi-grade-b-087",
@@ -2675,7 +2073,12 @@
       "explanation": "Clockwise from A: A (Lawyer), E (Pilot), C (Doctor), G (Chef), B (Teacher), H (Banker), D (Writer), F (Engineer). Facing the centre, left is clockwise and right anticlockwise.",
       "source": "ai",
       "archetype": "rbi-grade-b-R03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "A is Lawyer"
+      }
     },
     {
       "id": "rbi-grade-b-088",
@@ -2694,7 +2097,12 @@
       "explanation": "Clockwise from A: A (Lawyer), E (Pilot), C (Doctor), G (Chef), B (Teacher), H (Banker), D (Writer), F (Engineer). Facing the centre, left is clockwise and right anticlockwise. The Banker is H; moving to H's left (clockwise): D, then F (Engineer) — one person in between.",
       "source": "ai",
       "archetype": "rbi-grade-b-R03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Between Banker and Engineer from left = 1"
+      }
     },
     {
       "id": "rbi-grade-b-089",
@@ -2713,7 +2121,12 @@
       "explanation": "Feb 11 – S, Feb 24 – V, Apr 11 – P, Apr 24 – U, Aug 11 – R, Aug 24 – W, Nov 11 – T, Nov 24 – Q. (T in April is impossible because P must come four places before T.)",
       "source": "ai",
       "archetype": "rbi-grade-b-R05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Month+date puzzle with 30-day clue, unique; RBI R05"
+      }
     },
     {
       "id": "rbi-grade-b-090",
@@ -2732,7 +2145,12 @@
       "explanation": "Feb 11 – S, Feb 24 – V, Apr 11 – P, Apr 24 – U, Aug 11 – R, Aug 24 – W, Nov 11 – T, Nov 24 – Q. (T in April is impossible because P must come four places before T.) V, P and U lie between S and R.",
       "source": "ai",
       "archetype": "rbi-grade-b-R05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Between S and R = 3"
+      }
     },
     {
       "id": "rbi-grade-b-091",
@@ -2751,7 +2169,12 @@
       "explanation": "Feb 11 – S, Feb 24 – V, Apr 11 – P, Apr 24 – U, Aug 11 – R, Aug 24 – W, Nov 11 – T, Nov 24 – Q. (T in April is impossible because P must come four places before T.) P and U both have birthdays in April.",
       "source": "ai",
       "archetype": "rbi-grade-b-R05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Same month as P = U"
+      }
     },
     {
       "id": "rbi-grade-b-092",
@@ -2770,7 +2193,12 @@
       "explanation": "Feb 11 – S, Feb 24 – V, Apr 11 – P, Apr 24 – U, Aug 11 – R, Aug 24 – W, Nov 11 – T, Nov 24 – Q. (T in April is impossible because P must come four places before T.) W (24 August) comes immediately before T (11 November).",
       "source": "ai",
       "archetype": "rbi-grade-b-R05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Before T = W"
+      }
     },
     {
       "id": "rbi-grade-b-093",
@@ -2789,7 +2217,12 @@
       "explanation": "Banks that are NBFCs are lenders, so I follows. 'Only a few lenders are brokers' says some lenders are not brokers; it says nothing definite about brokers outside lenders, so II does not follow.",
       "source": "ai",
       "archetype": "rbi-grade-b-R11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "'Some brokers are not lenders' reversal trap"
+      }
     },
     {
       "id": "rbi-grade-b-094",
@@ -2808,7 +2241,12 @@
       "explanation": "Hikes are pauses and no hike is a cut, so the pauses that are hikes are not cuts — I follows. The rates that are cuts cannot be hikes, so II follows. Both follow.",
       "source": "ai",
       "archetype": "rbi-grade-b-R12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Only-a-few with No and All; both follow"
+      }
     },
     {
       "id": "rbi-grade-b-095",
@@ -2827,7 +2265,12 @@
       "explanation": "M > N ≤ O gives no relation between M and O, so I does not follow. Q ≥ O ≥ N > P gives Q > P, so II follows.",
       "source": "ai",
       "archetype": "rbi-grade-b-R13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Inequality only II"
+      }
     },
     {
       "id": "rbi-grade-b-096",
@@ -2846,7 +2289,12 @@
       "explanation": "C → B, R → Q, E → F, D → C, I → J, T → S gives BQFCJS; reversed: SJCFQB.",
       "source": "ai",
       "archetype": "rbi-grade-b-R19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Vowel/consonant shift then reverse; RBI-level coding"
+      }
     },
     {
       "id": "rbi-grade-b-097",
@@ -2865,26 +2313,12 @@
       "explanation": "F is the father of D, and D is C's brother, so F is C's father. B is married to C, so F is B's father-in-law.",
       "source": "ai",
       "archetype": "rbi-grade-b-R15",
-      "verified": false
-    },
-    {
-      "id": "rbi-grade-b-098",
-      "section": "reasoning",
-      "topic": "Direction Sense",
-      "difficulty": "medium",
-      "question": "Point P is 9 m east of point Q. Point R is 12 m north of P. Point S is 9 m west of R. Point T is 5 m south of S. How far and in which direction is T from Q?",
-      "options": [
-        "5 m, North",
-        "12 m, North",
-        "7 m, North",
-        "7 m, South",
-        "9 m, East"
-      ],
-      "answer": 2,
-      "explanation": "With Q = (0, 0): P = (9, 0), R = (9, 12), S = (0, 12), T = (0, 7). T is 7 m north of Q.",
-      "source": "ai",
-      "archetype": "rbi-grade-b-R18",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Father-in-law chain with distractor info"
+      }
     },
     {
       "id": "rbi-grade-b-099",
@@ -2903,7 +2337,12 @@
       "explanation": "I: X = Y + (−3, 5) → North-West. II: W = X + (3, 0) and Y = W + (0, −4), so X = Y + (−3, 4) → North-West. Each statement alone is sufficient.",
       "source": "ai",
       "archetype": "rbi-grade-b-R27",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Direction DS, either sufficient"
+      }
     },
     {
       "id": "rbi-grade-b-100",
@@ -2922,7 +2361,12 @@
       "explanation": "The offer only makes sense if customers value higher interest (I) and if the bank expects some of them to act before the deadline (II). Both are implicit.",
       "source": "ai",
       "archetype": "rbi-grade-b-R29",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Notice-based assumptions both implicit"
+      }
     },
     {
       "id": "rbi-grade-b-101",
@@ -2941,26 +2385,12 @@
       "explanation": "I addresses the problem practically. II is an extreme step that would hurt genuine users and does not follow.",
       "source": "ai",
       "archetype": "rbi-grade-b-R30",
-      "verified": false
-    },
-    {
-      "id": "rbi-grade-b-102",
-      "section": "reasoning",
-      "topic": "Miscellaneous (Series, Order & Ranking)",
-      "difficulty": "easy",
-      "question": "In a row of 50 persons facing north, A is 18th from the left end and B is 25th from the right end. How many persons sit between A and B?",
-      "options": [
-        "8",
-        "6",
-        "9",
-        "7",
-        "5"
-      ],
-      "answer": 3,
-      "explanation": "B is 50 − 25 + 1 = 26th from the left. Persons between = 26 − 18 − 1 = 7.",
-      "source": "ai",
-      "archetype": "rbi-grade-b-R21",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Course of action with extreme ban option"
+      }
     },
     {
       "id": "rbi-grade-b-103",
@@ -2979,7 +2409,12 @@
       "explanation": "The author calls the shift 'financial deepening', warns of investor over-optimism and bank funding pressure, and concludes that participation must rest on understanding — not that it should be reversed or restricted.",
       "source": "ai",
       "archetype": "rbi-grade-b-E01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Household-savings shift passage main argument; RBI-faithful theme and traps"
+      }
     },
     {
       "id": "rbi-grade-b-104",
@@ -2998,7 +2433,12 @@
       "explanation": "Para 2: 'as deposits grow more slowly than loans, they must either raise deposit rates … or rely on costlier wholesale funding'.",
       "source": "ai",
       "archetype": "rbi-grade-b-E02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Bank challenge detail"
+      }
     },
     {
       "id": "rbi-grade-b-105",
@@ -3017,7 +2457,12 @@
       "explanation": "I follows from the survey finding; III from 'souring an entire generation on markets'. II contradicts 'None of this argues for reversing the trend'.",
       "source": "ai",
       "archetype": "rbi-grade-b-E03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "I/II/III with author-intent trap"
+      }
     },
     {
       "id": "rbi-grade-b-106",
@@ -3036,26 +2481,12 @@
       "explanation": "Selling in panic turns paper (notional) losses into actual, realised losses — the losses become definite. 'Forming crystals' is the literal, out-of-context meaning.",
       "source": "ai",
       "archetype": "rbi-grade-b-E04",
-      "verified": false
-    },
-    {
-      "id": "rbi-grade-b-107",
-      "section": "english",
-      "topic": "Cloze Test",
-      "difficulty": "medium",
-      "question": "Choose the word that best fills the blank.\nThe committee's report, though running to several hundred pages, was criticised for being too ______ to guide actual policy decisions.",
-      "options": [
-        "precise",
-        "specific",
-        "practical",
-        "decisive",
-        "vague"
-      ],
-      "answer": 4,
-      "explanation": "'Though' sets up a contrast with the report's length: despite being long, it was too vague to guide decisions. The other words would be praise, not criticism.",
-      "source": "ai",
-      "archetype": "rbi-grade-b-E06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "'crystallising losses' with literal-meaning trap; exactly E04"
+      }
     },
     {
       "id": "rbi-grade-b-108",
@@ -3074,7 +2505,12 @@
       "explanation": "With 'not only … but also', the verb agrees with the nearer subject ('directors' → were). Errors in the others: 'the number … has'; 'scarcely … when'; 'He, along with … is'; 'for five years'.",
       "source": "ai",
       "archetype": "rbi-grade-b-E09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Choose correct sentence among classic errors"
+      }
     },
     {
       "id": "rbi-grade-b-109",
@@ -3093,7 +2529,12 @@
       "explanation": "A regulatory framework would aim to encourage innovation while protecting borrowers; in every other pair at least one word contradicts the purpose stated by 'against predatory practices'.",
       "source": "ai",
       "archetype": "rbi-grade-b-E10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Double filler encourage/protecting"
+      }
     },
     {
       "id": "rbi-grade-b-110",
@@ -3112,7 +2553,12 @@
       "explanation": "Order: B (temptation) – C ('such monetisation') – E (result: inflation) – A ('persistent inflation of this kind', currency falls) – D (independence removes 'this temptation'). The fourth sentence is A.",
       "source": "ai",
       "archetype": "rbi-grade-b-E13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Monetisation jumble FOURTH sentence"
+      }
     },
     {
       "id": "rbi-grade-b-111",
@@ -3131,7 +2577,12 @@
       "explanation": "'Keep one's powder dry' means to hold back while staying ready to act when needed.",
       "source": "ai",
       "archetype": "rbi-grade-b-E22",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "'keep powder dry' in policy context; RBI idiom style"
+      }
     },
     {
       "id": "rbi-grade-b-112",
@@ -3150,7 +2601,12 @@
       "explanation": "A = 80%, B = 90%, C = 75%, D = 76%. B has the highest ratio.",
       "source": "ai",
       "archetype": "rbi-grade-b-Q02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Credit-deposit ratio comparison; Q02 faithful"
+      }
     },
     {
       "id": "rbi-grade-b-113",
@@ -3169,26 +2625,12 @@
       "explanation": "A: 15% of 320 = 48; B: 20% of 225 = 45. 48 : 45 = 16 : 15.",
       "source": "ai",
       "archetype": "rbi-grade-b-Q02",
-      "verified": false
-    },
-    {
-      "id": "rbi-grade-b-114",
-      "section": "quant",
-      "topic": "Data Interpretation",
-      "difficulty": "easy",
-      "question": "The table shows the deposits and advances (in ₹ thousand crore) of four banks in 2025, and the percentage of each bank's advances that went to MSMEs.\nBank | Deposits | Advances | MSME share of advances\nA | 400 | 320 | 15%\nB | 250 | 225 | 20%\nC | 360 | 270 | 25%\nD | 500 | 380 | 10%\n\nWhat are the average deposits of the four banks?",
-      "options": [
-        "₹367.5 thousand crore",
-        "₹377.5 thousand crore",
-        "₹387.5 thousand crore",
-        "₹298.75 thousand crore",
-        "₹370 thousand crore"
-      ],
-      "answer": 1,
-      "explanation": "(400 + 250 + 360 + 500)/4 = 1,510/4 = 377.5. (298.75 is the average of advances.)",
-      "source": "ai",
-      "archetype": "rbi-grade-b-Q02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "MSME advances ratio"
+      }
     },
     {
       "id": "rbi-grade-b-115",
@@ -3207,7 +2649,12 @@
       "explanation": "Advances = 1,195 × 1.15 = 1,374.25; deposits = 1,510 × 1.10 = 1,661. Ratio ≈ 82.7%. (79.1% is the 2025 ratio.)",
       "source": "ai",
       "archetype": "rbi-grade-b-Q02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Projected combined CD ratio; strong RBI DI"
+      }
     },
     {
       "id": "rbi-grade-b-116",
@@ -3226,7 +2673,12 @@
       "explanation": "I: (2x − 1)(3x − 2) = 0 → x = 1/2, 2/3. II: (3y − 1)(4y − 1) = 0 → y = 1/3, 1/4. Every x exceeds every y: x > y.",
       "source": "ai",
       "archetype": "rbi-grade-b-Q07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Fractional roots, x>y"
+      }
     },
     {
       "id": "rbi-grade-b-117",
@@ -3245,7 +2697,12 @@
       "explanation": "≈ (25% of 3,200 + 14²) ÷ 10 = (800 + 196) ÷ 10 ≈ 99.6 ≈ 100.",
       "source": "ai",
       "archetype": "rbi-grade-b-Q12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Approximation"
+      }
     },
     {
       "id": "rbi-grade-b-118",
@@ -3264,7 +2721,12 @@
       "explanation": "Pattern: ×1 + 1, ×2 + 2, ×3 + 3, ×4 + 4, ×5 + 5. 63 × 4 + 4 = 256, and 256 × 5 + 5 = 1,285 confirms it.",
       "source": "ai",
       "archetype": "rbi-grade-b-Q09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Missing middle term xn+n"
+      }
     },
     {
       "id": "rbi-grade-b-119",
@@ -3283,26 +2745,12 @@
       "explanation": "Interest from P = 0.21x; from Q = 2x × 0.16 = 0.32x. 0.53x = 5,300 → x = ₹10,000.",
       "source": "ai",
       "archetype": "rbi-grade-b-Q22",
-      "verified": false
-    },
-    {
-      "id": "rbi-grade-b-120",
-      "section": "quant",
-      "topic": "Arithmetic Word Problems",
-      "difficulty": "medium",
-      "question": "A train crosses a pole in 12 seconds and a 330 m long platform in 23 seconds. What is the length of the train?",
-      "options": [
-        "330 m",
-        "300 m",
-        "360 m",
-        "396 m",
-        "345 m"
-      ],
-      "answer": 2,
-      "explanation": "The extra 11 seconds are spent covering the 330 m platform, so speed = 30 m/s. Length = 30 × 12 = 360 m.",
-      "source": "ai",
-      "archetype": "rbi-grade-b-Q20",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "CI and SI on related sums; Q22 exact"
+      }
     }
   ]
 }
