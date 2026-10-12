@@ -285,6 +285,569 @@
     "officialMock": null,
     "notes": "UPSC posts CDS question papers on upsc.gov.in under Previous Question Papers. Answer keys are released only after the final result of that cycle."
   },
+  "pyqBlueprint": {
+    "yearsCovered": [
+      2024,
+      2025,
+      2026
+    ],
+    "method": "Built from the official CDS (I) and (II) question papers that UPSC publishes, and from post-exam analyses (SSBCrack, Physics Wallah, PWOnlyIAS, Careers360) for 2024–2025. For example, the CDS 1 2025 English paper was dominated by spotting errors, idioms, fill in the blanks and word or sentence ordering, while synonyms, antonyms and RC returned in other sittings. 2026 is covered from memory-based analyses and the writer's own knowledge; topic tables could not be fetched, and WebSearch gave only summaries. Each archetype is a recurring format described in our own words.",
+    "archetypes": [
+      {
+        "id": "cds-E01",
+        "section": "english",
+        "topic": "Spotting Errors",
+        "pattern": "Sentence in parts (a)(b)(c) + 'No error': agreement traps ('each of', 'either … or', 'neither of', 'one of').",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "10–12 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cds-E02",
+        "section": "english",
+        "topic": "Spotting Errors",
+        "pattern": "Spotting errors in prepositions/idiomatic usage ('despite of', 'discuss about'), tense, stative verbs, and 'hardly … when'.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "10–12 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cds-E03",
+        "section": "english",
+        "topic": "Synonyms",
+        "pattern": "Synonym of a mid-level word (ostensible, laconic, acrimonious); distractors include an antonym and a look-alike.",
+        "years": [
+          2024,
+          2026
+        ],
+        "frequency": "8–10 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cds-E04",
+        "section": "english",
+        "topic": "Antonyms",
+        "pattern": "Antonym of a mid-level word (obdurate, ephemeral, frugal); one distractor is a synonym.",
+        "years": [
+          2024,
+          2026
+        ],
+        "frequency": "8–10 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cds-E05",
+        "section": "english",
+        "topic": "Fill in the Blanks",
+        "pattern": "Vocabulary blank: choose the contextually apt adjective/noun from near-synonyms.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "6–8 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "cds-E06",
+        "section": "english",
+        "topic": "Fill in the Blanks",
+        "pattern": "Grammar blank: preposition after an adjective/verb (senior to, prefer to, since/for), fixed phrases.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "6–8 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "cds-E07",
+        "section": "english",
+        "topic": "Sentence Improvement",
+        "pattern": "Replace the underlined part or choose 'No improvement': gerund after 'look forward to', 'insist on', 'no sooner … than', agreement.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "8–10 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cds-E08",
+        "section": "english",
+        "topic": "Ordering of Sentences/Parts",
+        "pattern": "Rearrange parts P, Q, R (S) of a sentence into the correct order.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "6–8 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cds-E09",
+        "section": "english",
+        "topic": "Ordering of Sentences/Parts",
+        "pattern": "Ordering of sentences: S1 and S6 fixed, arrange P, Q, R, S into a coherent paragraph.",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "4–6 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cds-E10",
+        "section": "english",
+        "topic": "Reading Comprehension",
+        "pattern": "Passage of 150–250 words with a central-idea or inference question.",
+        "years": [
+          2024,
+          2026
+        ],
+        "frequency": "1–2 per passage",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cds-E11",
+        "section": "english",
+        "topic": "Reading Comprehension",
+        "pattern": "Passage-based factual detail or word-in-context meaning question.",
+        "years": [
+          2024,
+          2026
+        ],
+        "frequency": "2–3 per passage",
+        "difficulty": "easy"
+      },
+      {
+        "id": "cds-E12",
+        "section": "english",
+        "topic": "Idioms & Phrases",
+        "pattern": "Meaning of a common idiom or phrasal expression; distractors take the literal meaning.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "4–6 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "cds-E13",
+        "section": "english",
+        "topic": "Cloze Test",
+        "pattern": "Cloze passage with numbered blanks: pick the word that fits meaning and collocation.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "10 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cds-G01",
+        "section": "gk",
+        "topic": "History",
+        "pattern": "Ancient and medieval India: rulers, monuments, texts and dynasties (Chola navy, Arthashastra, Buland Darwaza).",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "8–10 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cds-G02",
+        "section": "gk",
+        "topic": "History",
+        "pattern": "Modern India and the national movement: parties, missions, battles, revolutionary organisations and founders.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "8–10 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cds-G03",
+        "section": "gk",
+        "topic": "Geography",
+        "pattern": "Indian geography: peaks, rivers, boundaries and lines (McMahon, Radcliffe), neighbours.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "8–10 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cds-G04",
+        "section": "gk",
+        "topic": "Geography",
+        "pattern": "World and physical geography: pressure belts, Ring of Fire, landlocked countries, winds.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "6–8 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cds-G05",
+        "section": "gk",
+        "topic": "Indian Polity",
+        "pattern": "Constitutional articles, sources and amendments (DPSP source, Art 32, 61st Amendment).",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "6–8 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cds-G06",
+        "section": "gk",
+        "topic": "Indian Polity",
+        "pattern": "Institutions and procedures: joint sitting, CAG reports, presiding officers.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "4–6 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cds-G07",
+        "section": "gk",
+        "topic": "Economy",
+        "pattern": "Economic concepts and institutions: GDP deflator, RBI functions, inflation index used for targeting.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "8–10 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cds-G08",
+        "section": "gk",
+        "topic": "Physics",
+        "pattern": "Everyday physics: optics (mirrors, refraction), waves, units and energy conversions.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "8–10 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cds-G09",
+        "section": "gk",
+        "topic": "Chemistry",
+        "pattern": "Allotropes, common gases and compounds and their properties.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "5–7 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "cds-G10",
+        "section": "gk",
+        "topic": "Biology",
+        "pattern": "Human physiology and diseases: pathogens, organs, brain parts, vitamins.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "8–10 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "cds-G11",
+        "section": "gk",
+        "topic": "Environment & Ecology",
+        "pattern": "Environmental conventions, ozone depletion, biodiversity hotspots.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "5–7 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cds-G12",
+        "section": "gk",
+        "topic": "Current Affairs & Defence",
+        "pattern": "Defence institutions, gallantry awards and military training establishments.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "6–8 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cds-G13",
+        "section": "gk",
+        "topic": "Current Affairs & Defence",
+        "pattern": "Military exercises and their partner countries.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "4–6 per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "cds-G14",
+        "section": "gk",
+        "topic": "Current Affairs & Defence",
+        "pattern": "International organisations and their headquarters/functions.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "3–5 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cds-M01",
+        "section": "maths",
+        "topic": "Number System & HCF/LCM",
+        "pattern": "Number properties: trailing zeros, remainders, unit digits, divisibility tests.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "8–10 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cds-M02",
+        "section": "maths",
+        "topic": "Number System & HCF/LCM",
+        "pattern": "HCF/LCM applications: product rule, greatest number leaving the same remainder.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "4–5 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cds-M03",
+        "section": "maths",
+        "topic": "Percentage, Profit & Loss, Interest",
+        "pattern": "Percentage and profit–loss–discount: successive transactions, consumption adjustment, mark-up with discount.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "8–10 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "cds-M04",
+        "section": "maths",
+        "topic": "Percentage, Profit & Loss, Interest",
+        "pattern": "Simple and compound interest, including CI − SI for 2 years.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "3–4 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cds-M05",
+        "section": "maths",
+        "topic": "Ratio, Time & Work, Speed & Distance",
+        "pattern": "Ratio and proportion: compound ratios, dividing a sum in a chained ratio.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "3–4 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "cds-M06",
+        "section": "maths",
+        "topic": "Ratio, Time & Work, Speed & Distance",
+        "pattern": "Time and work, and pipes and cisterns, with combined rates.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "4–5 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cds-M07",
+        "section": "maths",
+        "topic": "Ratio, Time & Work, Speed & Distance",
+        "pattern": "Speed–distance: trains crossing, boats and streams, relative speed.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "4–5 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cds-M08",
+        "section": "maths",
+        "topic": "Algebra",
+        "pattern": "Algebraic identities: x + 1/x, a³ − b³, a + b + c = 0 and simplifying rational expressions.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "7–9 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cds-M09",
+        "section": "maths",
+        "topic": "Algebra",
+        "pattern": "Linear and quadratic equations: solving systems, roots and coefficients.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "5–6 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cds-M10",
+        "section": "maths",
+        "topic": "Geometry",
+        "pattern": "Triangles and circles: angle bisector angles, BPT, tangents, angles subtended by chords.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "8–10 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cds-M11",
+        "section": "maths",
+        "topic": "Geometry",
+        "pattern": "Polygons and quadrilaterals: interior/exterior angle sums, number of sides.",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "3–4 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "cds-M12",
+        "section": "maths",
+        "topic": "Mensuration",
+        "pattern": "2D mensuration: areas of triangles, circles and quadrilaterals.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "5–6 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cds-M13",
+        "section": "maths",
+        "topic": "Mensuration",
+        "pattern": "3D mensuration: cubes, cylinders, spheres, including melting and recasting.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "5–6 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cds-M14",
+        "section": "maths",
+        "topic": "Trigonometry",
+        "pattern": "Trigonometric identities and values given one ratio.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "6–7 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cds-M15",
+        "section": "maths",
+        "topic": "Trigonometry",
+        "pattern": "Heights and distances with 30°/45°/60° angles.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cds-M16",
+        "section": "maths",
+        "topic": "Statistics",
+        "pattern": "Mean, median and mode from raw data, including corrected mean after a misread value.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "6–8 per paper",
+        "difficulty": "easy"
+      }
+    ]
+  },
   "questions": [
     {
       "id": "cds-001",
@@ -300,7 +863,9 @@
       ],
       "answer": 1,
       "explanation": "'Each of' takes a singular verb, so part B should read 'has been given'.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-E01",
+      "source": "curated"
     },
     {
       "id": "cds-002",
@@ -316,7 +881,9 @@
       ],
       "answer": 2,
       "explanation": "'Know' is a stative verb and is not normally used in the continuous form, so part C should read 'and knows everyone'.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-E02",
+      "source": "curated"
     },
     {
       "id": "cds-003",
@@ -332,7 +899,9 @@
       ],
       "answer": 3,
       "explanation": "'Neither of' takes a singular verb ('is'), so the sentence is correct.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-E01",
+      "source": "curated"
     },
     {
       "id": "cds-004",
@@ -348,7 +917,9 @@
       ],
       "answer": 0,
       "explanation": "'Despite' is not followed by 'of'. Use 'Despite the heavy rain' or 'In spite of the heavy rain'.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-E02",
+      "source": "curated"
     },
     {
       "id": "cds-005",
@@ -364,7 +935,9 @@
       ],
       "answer": 1,
       "explanation": "Ostensible means apparent or seeming on the surface, though perhaps not actually so.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-E03",
+      "source": "curated"
     },
     {
       "id": "cds-006",
@@ -380,7 +953,9 @@
       ],
       "answer": 2,
       "explanation": "Laconic means using very few words, that is, terse.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-E03",
+      "source": "curated"
     },
     {
       "id": "cds-007",
@@ -396,7 +971,9 @@
       ],
       "answer": 3,
       "explanation": "Obdurate means stubbornly refusing to change, so its opposite is yielding. The other options are near-synonyms.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-E04",
+      "source": "curated"
     },
     {
       "id": "cds-008",
@@ -412,7 +989,9 @@
       ],
       "answer": 0,
       "explanation": "Ephemeral means short-lived, so its opposite is everlasting. The other three options are synonyms.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-E04",
+      "source": "curated"
     },
     {
       "id": "cds-009",
@@ -428,7 +1007,9 @@
       ],
       "answer": 2,
       "explanation": "Poignant means evoking a keen sense of sadness, which fits 'moved to tears'.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-E05",
+      "source": "curated"
     },
     {
       "id": "cds-010",
@@ -444,7 +1025,9 @@
       ],
       "answer": 1,
       "explanation": "Comparatives of Latin origin such as senior, junior, superior and prior take 'to', not 'than'.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-E06",
+      "source": "curated"
     },
     {
       "id": "cds-011",
@@ -460,7 +1043,9 @@
       ],
       "answer": 3,
       "explanation": "The idiom is 'caught in the act'.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-E06",
+      "source": "curated"
     },
     {
       "id": "cds-012",
@@ -476,7 +1061,9 @@
       ],
       "answer": 0,
       "explanation": "'Insist' is followed by 'on + gerund' ('insisted on my staying') or a that-clause ('insisted that I stay'). Of the options, only 'insisted that I stay' is correct.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-E07",
+      "source": "curated"
     },
     {
       "id": "cds-013",
@@ -492,7 +1079,9 @@
       ],
       "answer": 1,
       "explanation": "'The number of …' is singular and the sentence is in the present ('this year'), so 'is higher' is correct.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-E07",
+      "source": "curated"
     },
     {
       "id": "cds-014",
@@ -508,7 +1097,9 @@
       ],
       "answer": 2,
       "explanation": "'The importance of regular physical training (Q) for a soldier (R) cannot be overstated (P).'",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-E08",
+      "source": "curated"
     },
     {
       "id": "cds-015",
@@ -524,7 +1115,9 @@
       ],
       "answer": 1,
       "explanation": "'The river (P) overflowed its banks (R) after heavy rain (Q) in the hills (S).' The other sequences are ungrammatical.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-E08",
+      "source": "curated"
     },
     {
       "id": "cds-016",
@@ -540,7 +1133,9 @@
       ],
       "answer": 3,
       "explanation": "The passage argues that leadership means earning trust built over time. It rejects the idea that numbers alone decide battles.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-E10",
+      "source": "curated"
     },
     {
       "id": "cds-017",
@@ -556,7 +1151,9 @@
       ],
       "answer": 2,
       "explanation": "The last sentence says trust 'is built slowly, through countless small acts of fairness in peacetime'.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-E11",
+      "source": "curated"
     },
     {
       "id": "cds-018",
@@ -572,7 +1169,9 @@
       ],
       "answer": 3,
       "explanation": "Seldom means rarely: battles are rarely won by numbers alone.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-E11",
+      "source": "curated"
     },
     {
       "id": "cds-019",
@@ -588,7 +1187,9 @@
       ],
       "answer": 1,
       "explanation": "To bury the hatchet is to end a quarrel and make peace.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-E12",
+      "source": "curated"
     },
     {
       "id": "cds-020",
@@ -604,7 +1205,9 @@
       ],
       "answer": 0,
       "explanation": "A blessing in disguise is an apparent misfortune that later proves beneficial.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-E12",
+      "source": "curated"
     },
     {
       "id": "cds-021",
@@ -620,7 +1223,9 @@
       ],
       "answer": 0,
       "explanation": "Akbar built the Buland Darwaza (c. 1575–76) to commemorate his Gujarat campaign.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-G01",
+      "source": "curated"
     },
     {
       "id": "cds-022",
@@ -636,7 +1241,9 @@
       ],
       "answer": 1,
       "explanation": "The Arthashastra, a treatise on statecraft, is attributed to Kautilya (Chanakya), adviser to Chandragupta Maurya.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-G01",
+      "source": "curated"
     },
     {
       "id": "cds-023",
@@ -652,7 +1259,9 @@
       ],
       "answer": 3,
       "explanation": "C. R. Das and Motilal Nehru formed the Congress-Khilafat Swaraj Party in 1923 to contest council elections.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-G02",
+      "source": "curated"
     },
     {
       "id": "cds-024",
@@ -668,7 +1277,9 @@
       ],
       "answer": 0,
       "explanation": "At Buxar the Company fought the combined forces of Mir Qasim, Shuja-ud-Daula (Nawab of Awadh) and the Mughal emperor Shah Alam II. Haider Ali of Mysore was not involved.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-G02",
+      "source": "curated"
     },
     {
       "id": "cds-025",
@@ -684,7 +1295,9 @@
       ],
       "answer": 2,
       "explanation": "The Godavari (about 1,465 km) is the longest peninsular river and is often called the Dakshin Ganga.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-G03",
+      "source": "curated"
     },
     {
       "id": "cds-026",
@@ -700,7 +1313,9 @@
       ],
       "answer": 1,
       "explanation": "The doldrums are the calm equatorial low-pressure zone where the trade winds converge (the ITCZ).",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-G04",
+      "source": "curated"
     },
     {
       "id": "cds-027",
@@ -716,7 +1331,9 @@
       ],
       "answer": 3,
       "explanation": "Bhutan has no coastline. Myanmar and Bangladesh have coasts and Sri Lanka is an island.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-G04",
+      "source": "curated"
     },
     {
       "id": "cds-028",
@@ -732,7 +1349,9 @@
       ],
       "answer": 3,
       "explanation": "The Directive Principles were inspired by the Irish Constitution, which itself drew on the Spanish Constitution.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-G05",
+      "source": "curated"
     },
     {
       "id": "cds-029",
@@ -748,7 +1367,9 @@
       ],
       "answer": 2,
       "explanation": "Under Article 118(4), the Speaker of the Lok Sabha presides over a joint sitting called under Article 108.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-G06",
+      "source": "curated"
     },
     {
       "id": "cds-030",
@@ -764,7 +1385,9 @@
       ],
       "answer": 0,
       "explanation": "Article 32 lets a person approach the Supreme Court to enforce Fundamental Rights. Dr Ambedkar called it the 'heart and soul' of the Constitution.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-G05",
+      "source": "curated"
     },
     {
       "id": "cds-031",
@@ -780,7 +1403,9 @@
       ],
       "answer": 1,
       "explanation": "GDP deflator = (nominal GDP / real GDP) × 100. It is a broad measure of the price level.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-G07",
+      "source": "curated"
     },
     {
       "id": "cds-032",
@@ -796,7 +1421,9 @@
       ],
       "answer": 2,
       "explanation": "The RBI was set up in Kolkata in 1935 and moved its central office permanently to Mumbai in 1937.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-G07",
+      "source": "curated"
     },
     {
       "id": "cds-033",
@@ -812,7 +1439,9 @@
       ],
       "answer": 0,
       "explanation": "A convex mirror always forms a virtual, erect and diminished image behind the mirror, which is why it is used as a rear-view mirror.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-G08",
+      "source": "curated"
     },
     {
       "id": "cds-034",
@@ -828,7 +1457,9 @@
       ],
       "answer": 3,
       "explanation": "v = fλ = 500 × 0.68 = 340 m/s.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-G08",
+      "source": "curated"
     },
     {
       "id": "cds-035",
@@ -844,7 +1475,9 @@
       ],
       "answer": 2,
       "explanation": "Carborundum is silicon carbide (SiC), a compound, not an allotrope. Diamond, graphite and fullerenes are allotropes of carbon.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-G09",
+      "source": "curated"
     },
     {
       "id": "cds-036",
@@ -860,7 +1493,9 @@
       ],
       "answer": 0,
       "explanation": "Malaria is caused by Plasmodium species and transmitted by female Anopheles mosquitoes.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-G10",
+      "source": "curated"
     },
     {
       "id": "cds-037",
@@ -876,7 +1511,9 @@
       ],
       "answer": 1,
       "explanation": "The cerebellum coordinates posture, balance and voluntary muscle activity.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-G10",
+      "source": "curated"
     },
     {
       "id": "cds-038",
@@ -892,7 +1529,9 @@
       ],
       "answer": 0,
       "explanation": "UV light breaks down CFCs and releases chlorine atoms, which catalytically destroy ozone. This is why the Montreal Protocol phased them out.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-G11",
+      "source": "curated"
     },
     {
       "id": "cds-039",
@@ -908,7 +1547,9 @@
       ],
       "answer": 2,
       "explanation": "The Indian Naval Academy is at Ezhimala in the Kannur district of Kerala.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-G12",
+      "source": "curated"
     },
     {
       "id": "cds-040",
@@ -924,7 +1565,9 @@
       ],
       "answer": 3,
       "explanation": "The Ashoka Chakra is the highest peacetime gallantry award. The Param Vir Chakra is the highest wartime award.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-G12",
+      "source": "curated"
     },
     {
       "id": "cds-041",
@@ -940,7 +1583,9 @@
       ],
       "answer": 2,
       "explanation": "The number of trailing zeros is ⌊100/5⌋ + ⌊100/25⌋ = 20 + 4 = 24.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-M01",
+      "source": "curated"
     },
     {
       "id": "cds-042",
@@ -956,7 +1601,9 @@
       ],
       "answer": 0,
       "explanation": "Powers of 2 mod 5 cycle as 2, 4, 3, 1 (period 4). Since 31 = 4 × 7 + 3, 2³¹ ≡ 2³ = 8 ≡ 3 (mod 5).",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-M01",
+      "source": "curated"
     },
     {
       "id": "cds-043",
@@ -972,7 +1619,9 @@
       ],
       "answer": 1,
       "explanation": "Product of the numbers = HCF × LCM, so the other number = 12 × 360 / 60 = 72. Check: HCF(60, 72) = 12 and LCM = 360.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-M02",
+      "source": "curated"
     },
     {
       "id": "cds-044",
@@ -988,7 +1637,9 @@
       ],
       "answer": 1,
       "explanation": "Reduction = 25/(100 + 25) × 100 = 20%.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-M03",
+      "source": "curated"
     },
     {
       "id": "cds-045",
@@ -1004,7 +1655,9 @@
       ],
       "answer": 3,
       "explanation": "Amount = 10,000 × 1.1² = ₹12,100, so CI = ₹2,100.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-M04",
+      "source": "curated"
     },
     {
       "id": "cds-046",
@@ -1020,7 +1673,9 @@
       ],
       "answer": 0,
       "explanation": "SP = 1.40 × 0.90 × CP = 1.26 × CP, so the profit is 26%.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-M03",
+      "source": "curated"
     },
     {
       "id": "cds-047",
@@ -1036,7 +1691,9 @@
       ],
       "answer": 2,
       "explanation": "Combined rate = 1/12 + 1/18 = 5/36 per day, so time = 36/5 = 7.2 days.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-M06",
+      "source": "curated"
     },
     {
       "id": "cds-048",
@@ -1052,7 +1709,9 @@
       ],
       "answer": 3,
       "explanation": "54 km/h = 15 m/s. The distance to cover is 150 + 300 = 450 m, so time = 450/15 = 30 s.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-M07",
+      "source": "curated"
     },
     {
       "id": "cds-049",
@@ -1068,7 +1727,9 @@
       ],
       "answer": 1,
       "explanation": "Make B common: A : B = 8 : 12 and B : C = 12 : 15, so A : B : C = 8 : 12 : 15.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-M05",
+      "source": "curated"
     },
     {
       "id": "cds-050",
@@ -1084,7 +1745,9 @@
       ],
       "answer": 0,
       "explanation": "x³ + 1/x³ = (x + 1/x)³ − 3(x + 1/x) = 27 − 9 = 18.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-M08",
+      "source": "curated"
     },
     {
       "id": "cds-051",
@@ -1100,7 +1763,9 @@
       ],
       "answer": 2,
       "explanation": "a³ + b³ + c³ − 3abc = (a + b + c)(a² + b² + c² − ab − bc − ca) = 0, so a³ + b³ + c³ = 3abc.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-M08",
+      "source": "curated"
     },
     {
       "id": "cds-052",
@@ -1116,7 +1781,9 @@
       ],
       "answer": 3,
       "explanation": "From the second equation, y = 3x − 7. Then 2x + 9x − 21 = 12 gives x = 3 and y = 2, so x + y = 5.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-M09",
+      "source": "curated"
     },
     {
       "id": "cds-053",
@@ -1132,7 +1799,9 @@
       ],
       "answer": 1,
       "explanation": "∠BIC = 90° + ∠A/2 = 90° + 25° = 115°.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-M10",
+      "source": "curated"
     },
     {
       "id": "cds-054",
@@ -1148,7 +1817,9 @@
       ],
       "answer": 0,
       "explanation": "Exterior angle = 180° − 140° = 40°, so the number of sides = 360°/40° = 9.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-M11",
+      "source": "curated"
     },
     {
       "id": "cds-055",
@@ -1164,7 +1835,9 @@
       ],
       "answer": 2,
       "explanation": "The tangent is perpendicular to the radius at the point of contact, so its length = √(13² − 5²) = √144 = 12 cm.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-M10",
+      "source": "curated"
     },
     {
       "id": "cds-056",
@@ -1180,7 +1853,9 @@
       ],
       "answer": 2,
       "explanation": "6a² = 150 gives a = 5 cm, so the volume is a³ = 125 cm³.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-M13",
+      "source": "curated"
     },
     {
       "id": "cds-057",
@@ -1196,7 +1871,9 @@
       ],
       "answer": 1,
       "explanation": "CSA = 2πrh = 2 × 22/7 × 7 × 10 = 440 cm².",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-M13",
+      "source": "curated"
     },
     {
       "id": "cds-058",
@@ -1212,7 +1889,9 @@
       ],
       "answer": 2,
       "explanation": "cos θ = 4/5, so sec θ = 5/4 and tan θ = 3/4. Their sum is 8/4 = 2.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-M14",
+      "source": "curated"
     },
     {
       "id": "cds-059",
@@ -1228,7 +1907,9 @@
       ],
       "answer": 3,
       "explanation": "tan 60° = 50√3 / d, so d = 50√3/√3 = 50 m.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-M15",
+      "source": "curated"
     },
     {
       "id": "cds-060",
@@ -1244,7 +1925,1089 @@
       ],
       "answer": 1,
       "explanation": "Sorted: 2, 3, 5, 7, 9, 11. With an even count, median = (5 + 7)/2 = 6.",
-      "verified": true
+      "verified": true,
+      "archetype": "cds-M16",
+      "source": "curated"
+    },
+    {
+      "id": "cds-061",
+      "section": "english",
+      "topic": "Spotting Errors",
+      "difficulty": "medium",
+      "question": "Identify the part of the sentence that contains an error.\nEither the manager or his assistants (A) / is responsible (B) / for the loss of the files. (C) / No error (D)",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 1,
+      "explanation": "With 'either … or', the verb agrees with the nearer subject. 'Assistants' is plural, so part B should be 'are responsible'.",
+      "source": "ai",
+      "archetype": "cds-E01",
+      "verified": false
+    },
+    {
+      "id": "cds-062",
+      "section": "english",
+      "topic": "Spotting Errors",
+      "difficulty": "medium",
+      "question": "Identify the part of the sentence that contains an error.\nThe committee has (A) / discussed about the proposal (B) / in great detail. (C) / No error (D)",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 1,
+      "explanation": "'Discuss' is a transitive verb and takes a direct object: 'discussed the proposal'. 'About' is superfluous.",
+      "source": "ai",
+      "archetype": "cds-E02",
+      "verified": false
+    },
+    {
+      "id": "cds-063",
+      "section": "english",
+      "topic": "Spotting Errors",
+      "difficulty": "medium",
+      "question": "Identify the part of the sentence that contains an error.\nHardly had he entered the room (A) / than the lights (B) / went out. (C) / No error (D)",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 1,
+      "explanation": "'Hardly' is followed by 'when' (or 'before'), not 'than'. 'Than' goes with 'no sooner'.",
+      "source": "ai",
+      "archetype": "cds-E02",
+      "verified": false
+    },
+    {
+      "id": "cds-064",
+      "section": "english",
+      "topic": "Synonyms",
+      "difficulty": "medium",
+      "question": "Choose the word most nearly SAME in meaning to ACRIMONIOUS.",
+      "options": [
+        "Cordial",
+        "Lengthy",
+        "Bitter",
+        "Noisy"
+      ],
+      "answer": 2,
+      "explanation": "Acrimonious means angry and bitter (an acrimonious debate). Cordial is its opposite.",
+      "source": "ai",
+      "archetype": "cds-E03",
+      "verified": false
+    },
+    {
+      "id": "cds-065",
+      "section": "english",
+      "topic": "Synonyms",
+      "difficulty": "medium",
+      "question": "Choose the word most nearly SAME in meaning to PRAGMATIC.",
+      "options": [
+        "Idealistic",
+        "Arrogant",
+        "Practical",
+        "Careless"
+      ],
+      "answer": 2,
+      "explanation": "Pragmatic means dealing with things sensibly and realistically, i.e. practical. Idealistic is closer to its opposite.",
+      "source": "ai",
+      "archetype": "cds-E03",
+      "verified": false
+    },
+    {
+      "id": "cds-066",
+      "section": "english",
+      "topic": "Antonyms",
+      "difficulty": "medium",
+      "question": "Choose the word most nearly OPPOSITE in meaning to FRUGAL.",
+      "options": [
+        "Thrifty",
+        "Modest",
+        "Careful",
+        "Extravagant"
+      ],
+      "answer": 3,
+      "explanation": "Frugal means sparing with money; extravagant means spending wastefully. Thrifty is a synonym.",
+      "source": "ai",
+      "archetype": "cds-E04",
+      "verified": false
+    },
+    {
+      "id": "cds-067",
+      "section": "english",
+      "topic": "Antonyms",
+      "difficulty": "medium",
+      "question": "Choose the word most nearly OPPOSITE in meaning to TACITURN.",
+      "options": [
+        "Talkative",
+        "Reserved",
+        "Gloomy",
+        "Clever"
+      ],
+      "answer": 0,
+      "explanation": "Taciturn means saying little; talkative is the opposite. Reserved is a near-synonym.",
+      "source": "ai",
+      "archetype": "cds-E04",
+      "verified": false
+    },
+    {
+      "id": "cds-068",
+      "section": "english",
+      "topic": "Fill in the Blanks",
+      "difficulty": "easy",
+      "question": "Fill in the blank: The soldier's ______ courage in the face of heavy enemy fire earned him a gallantry award.",
+      "options": [
+        "indomitable",
+        "timid",
+        "fragile",
+        "hesitant"
+      ],
+      "answer": 0,
+      "explanation": "Courage that wins a gallantry award must be unyielding: indomitable. The other words suggest weakness.",
+      "source": "ai",
+      "archetype": "cds-E05",
+      "verified": false
+    },
+    {
+      "id": "cds-069",
+      "section": "english",
+      "topic": "Fill in the Blanks",
+      "difficulty": "easy",
+      "question": "Fill in the blank: She has been ill ______ Monday.",
+      "options": [
+        "for",
+        "from",
+        "since",
+        "by"
+      ],
+      "answer": 2,
+      "explanation": "With the present perfect continuous, a point of time takes 'since'; 'for' is used with a period (for three days).",
+      "source": "ai",
+      "archetype": "cds-E06",
+      "verified": false
+    },
+    {
+      "id": "cds-070",
+      "section": "english",
+      "topic": "Fill in the Blanks",
+      "difficulty": "easy",
+      "question": "Fill in the blank: He prefers tea ______ coffee.",
+      "options": [
+        "than",
+        "from",
+        "with",
+        "to"
+      ],
+      "answer": 3,
+      "explanation": "'Prefer' is followed by 'to' when comparing two things: prefer tea to coffee.",
+      "source": "ai",
+      "archetype": "cds-E06",
+      "verified": false
+    },
+    {
+      "id": "cds-071",
+      "section": "english",
+      "topic": "Sentence Improvement",
+      "difficulty": "medium",
+      "question": "Choose the best replacement for the underlined part. If none is needed, choose 'No improvement'.\n'No sooner had the bell rung than the students rushed out.' (underlined: had the bell rung than)",
+      "options": [
+        "did the bell ring when",
+        "had the bell rung when",
+        "the bell had rung than",
+        "No improvement"
+      ],
+      "answer": 3,
+      "explanation": "'No sooner' takes inversion with the past perfect and is followed by 'than'. The sentence is already correct.",
+      "source": "ai",
+      "archetype": "cds-E07",
+      "verified": false
+    },
+    {
+      "id": "cds-072",
+      "section": "english",
+      "topic": "Sentence Improvement",
+      "difficulty": "medium",
+      "question": "Choose the best replacement for the underlined part. If none is needed, choose 'No improvement'.\n'I am looking forward to meet you at the passing-out parade.' (underlined: to meet)",
+      "options": [
+        "to meeting",
+        "for meeting",
+        "meeting to",
+        "No improvement"
+      ],
+      "answer": 0,
+      "explanation": "In 'look forward to', 'to' is a preposition, so it is followed by a gerund: 'looking forward to meeting you'.",
+      "source": "ai",
+      "archetype": "cds-E07",
+      "verified": false
+    },
+    {
+      "id": "cds-073",
+      "section": "english",
+      "topic": "Ordering of Sentences/Parts",
+      "difficulty": "medium",
+      "question": "Arrange the parts to form a meaningful sentence:\nP: of the expedition\nQ: The leader\nR: was awarded a medal\nS: for his bravery",
+      "options": [
+        "PQRS",
+        "QRPS",
+        "RSQP",
+        "QPRS"
+      ],
+      "answer": 3,
+      "explanation": "Q-P-R-S gives 'The leader of the expedition was awarded a medal for his bravery.'",
+      "source": "ai",
+      "archetype": "cds-E08",
+      "verified": false
+    },
+    {
+      "id": "cds-074",
+      "section": "english",
+      "topic": "Ordering of Sentences/Parts",
+      "difficulty": "medium",
+      "question": "The first and the last sentences (S1 and S6) of a passage are given. Arrange P, Q, R and S in the proper order.\nS1: Ravi joined the army at the age of nineteen.\nP: After years of hard work, he was promoted to the rank of Havildar.\nQ: His first posting was in the cold desert of Ladakh.\nR: There he learnt to survive in extreme conditions.\nS: That experience later helped him win the respect of his seniors.\nS6: Today he trains young recruits in the same regiment.",
+      "options": [
+        "QRSP",
+        "PQRS",
+        "QSRP",
+        "RQPS"
+      ],
+      "answer": 0,
+      "explanation": "Q (first posting) leads to R ('There' = Ladakh), R to S ('That experience'), and S to P (promotion after years of work), which connects to S6 (training recruits today).",
+      "source": "ai",
+      "archetype": "cds-E09",
+      "verified": false
+    },
+    {
+      "id": "cds-075",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n'In many villages near forests, conflict between people and wild animals has grown as farmland expands into former habitats. Elephants raid crops, and leopards sometimes prey on livestock. Earlier responses relied on capturing or killing the \"problem\" animal, but such measures rarely solved the problem for long, since other animals soon moved into the vacant territory. Conservationists now favour approaches that change the circumstances of the conflict: early-warning systems that alert villagers when elephants approach, insurance and prompt compensation for losses, and corridors that allow animals to move between forest patches without crossing fields. These methods demand patience and local cooperation, yet they address the causes rather than the symptoms.'\nThe central idea of the passage is that human–wildlife conflict is best reduced by:",
+      "options": [
+        "removing every animal that damages crops",
+        "measures that address its underlying causes with community cooperation",
+        "stopping all farming near forests",
+        "relying only on compensation for losses"
+      ],
+      "answer": 1,
+      "explanation": "The passage contrasts removing animals (which treats symptoms) with early warning, compensation and corridors that 'address the causes'. Compensation is only one part of that approach.",
+      "source": "ai",
+      "archetype": "cds-E10",
+      "verified": false
+    },
+    {
+      "id": "cds-076",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n'In many villages near forests, conflict between people and wild animals has grown as farmland expands into former habitats. Elephants raid crops, and leopards sometimes prey on livestock. Earlier responses relied on capturing or killing the \"problem\" animal, but such measures rarely solved the problem for long, since other animals soon moved into the vacant territory. Conservationists now favour approaches that change the circumstances of the conflict: early-warning systems that alert villagers when elephants approach, insurance and prompt compensation for losses, and corridors that allow animals to move between forest patches without crossing fields. These methods demand patience and local cooperation, yet they address the causes rather than the symptoms.'\nAccording to the passage, why did capturing or killing 'problem' animals fail?",
+      "options": [
+        "Villagers opposed it on religious grounds",
+        "It was too expensive for the forest department",
+        "Other animals soon moved into the vacant territory",
+        "The captured animals always returned after release"
+      ],
+      "answer": 2,
+      "explanation": "The passage says such measures rarely worked for long 'since other animals soon moved into the vacant territory'.",
+      "source": "ai",
+      "archetype": "cds-E11",
+      "verified": false
+    },
+    {
+      "id": "cds-077",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n'In many villages near forests, conflict between people and wild animals has grown as farmland expands into former habitats. Elephants raid crops, and leopards sometimes prey on livestock. Earlier responses relied on capturing or killing the \"problem\" animal, but such measures rarely solved the problem for long, since other animals soon moved into the vacant territory. Conservationists now favour approaches that change the circumstances of the conflict: early-warning systems that alert villagers when elephants approach, insurance and prompt compensation for losses, and corridors that allow animals to move between forest patches without crossing fields. These methods demand patience and local cooperation, yet they address the causes rather than the symptoms.'\nAs used in the passage, the word 'vacant' most nearly means:",
+      "options": [
+        "Spacious",
+        "Fertile",
+        "Forbidden",
+        "Unoccupied"
+      ],
+      "answer": 3,
+      "explanation": "The territory had become empty after the resident animal was removed, so 'vacant' means unoccupied.",
+      "source": "ai",
+      "archetype": "cds-E11",
+      "verified": false
+    },
+    {
+      "id": "cds-078",
+      "section": "english",
+      "topic": "Idioms & Phrases",
+      "difficulty": "easy",
+      "question": "Choose the correct meaning of the phrase: 'to take something with a pinch of salt'",
+      "options": [
+        "To accept it with some doubt",
+        "To add flavour to it",
+        "To accept it completely",
+        "To reject it angrily"
+      ],
+      "answer": 0,
+      "explanation": "To take a statement with a pinch of salt is to regard it with scepticism, not believing it fully.",
+      "source": "ai",
+      "archetype": "cds-E12",
+      "verified": false
+    },
+    {
+      "id": "cds-079",
+      "section": "english",
+      "topic": "Cloze Test",
+      "difficulty": "medium",
+      "question": "In the following passage, some words have been left out. Read the passage and choose the most appropriate word for the blank indicated.\n'Physical fitness is not merely the absence of illness. It is a state in which the body can meet the (1) ______ of daily life and still have energy left for emergencies. For a soldier, fitness is (2) ______, because the outcome of a mission may depend on it.'\nChoose the word for blank (1).",
+      "options": [
+        "pleasures",
+        "demands",
+        "rewards",
+        "delays"
+      ],
+      "answer": 1,
+      "explanation": "The body 'meets the demands' of daily life; that collocation fits the idea of having energy left over.",
+      "source": "ai",
+      "archetype": "cds-E13",
+      "verified": false
+    },
+    {
+      "id": "cds-080",
+      "section": "english",
+      "topic": "Cloze Test",
+      "difficulty": "medium",
+      "question": "In the following passage, some words have been left out. Read the passage and choose the most appropriate word for the blank indicated.\n'Physical fitness is not merely the absence of illness. It is a state in which the body can meet the (1) ______ of daily life and still have energy left for emergencies. For a soldier, fitness is (2) ______, because the outcome of a mission may depend on it.'\nChoose the word for blank (2).",
+      "options": [
+        "optional",
+        "trivial",
+        "indispensable",
+        "accidental"
+      ],
+      "answer": 2,
+      "explanation": "The reason clause (the mission may depend on it) shows that fitness is essential, i.e. indispensable.",
+      "source": "ai",
+      "archetype": "cds-E13",
+      "verified": false
+    },
+    {
+      "id": "cds-081",
+      "section": "gk",
+      "topic": "History",
+      "difficulty": "medium",
+      "question": "The Chola ruler who sent a naval expedition against the Srivijaya kingdom of South-East Asia was:",
+      "options": [
+        "Rajaraja I",
+        "Kulottunga I",
+        "Parantaka I",
+        "Rajendra I"
+      ],
+      "answer": 3,
+      "explanation": "Rajendra I (c. 1014–1044) led the naval campaign against Srivijaya around 1025. Rajaraja I had earlier conquered northern Sri Lanka and the Maldives.",
+      "source": "ai",
+      "archetype": "cds-G01",
+      "verified": false
+    },
+    {
+      "id": "cds-082",
+      "section": "gk",
+      "topic": "History",
+      "difficulty": "medium",
+      "question": "The Ghadar Party, founded in 1913 on the Pacific coast of North America, is particularly associated with:",
+      "options": [
+        "Lala Har Dayal",
+        "Bhagat Singh",
+        "Rash Behari Bose",
+        "V.D. Savarkar"
+      ],
+      "answer": 0,
+      "explanation": "The Ghadar Party was founded in 1913 by Indian immigrants led by Sohan Singh Bhakna and Lala Har Dayal, who edited its paper 'Ghadar'. The other three were not its founders.",
+      "source": "ai",
+      "archetype": "cds-G02",
+      "verified": false
+    },
+    {
+      "id": "cds-083",
+      "section": "gk",
+      "topic": "History",
+      "difficulty": "easy",
+      "question": "The Cabinet Mission came to India in the year:",
+      "options": [
+        "1942",
+        "1946",
+        "1945",
+        "1947"
+      ],
+      "answer": 1,
+      "explanation": "The Cabinet Mission (Pethick-Lawrence, Stafford Cripps and A.V. Alexander) arrived in March 1946. Cripps' earlier mission was in 1942.",
+      "source": "ai",
+      "archetype": "cds-G02",
+      "verified": false
+    },
+    {
+      "id": "cds-084",
+      "section": "gk",
+      "topic": "Geography",
+      "difficulty": "medium",
+      "question": "Which is the highest peak of peninsular India?",
+      "options": [
+        "Doddabetta",
+        "Mahendragiri",
+        "Anamudi",
+        "Dhupgarh"
+      ],
+      "answer": 2,
+      "explanation": "Anamudi (2,695 m) in the Anaimalai Hills of Kerala is the highest peak south of the Himalaya. Doddabetta is the highest in the Nilgiris.",
+      "source": "ai",
+      "archetype": "cds-G03",
+      "verified": false
+    },
+    {
+      "id": "cds-085",
+      "section": "gk",
+      "topic": "Geography",
+      "difficulty": "easy",
+      "question": "The McMahon Line marks the boundary between India and:",
+      "options": [
+        "Pakistan",
+        "Afghanistan",
+        "Nepal",
+        "China"
+      ],
+      "answer": 3,
+      "explanation": "The McMahon Line, drawn at the Simla Convention of 1914, is the boundary between India (Arunachal Pradesh) and China (Tibet) in the eastern sector.",
+      "source": "ai",
+      "archetype": "cds-G03",
+      "verified": false
+    },
+    {
+      "id": "cds-086",
+      "section": "gk",
+      "topic": "Geography",
+      "difficulty": "medium",
+      "question": "The 'Ring of Fire', a belt of frequent earthquakes and volcanoes, is associated with the:",
+      "options": [
+        "Margins of the Pacific Ocean",
+        "Mid-Atlantic Ridge",
+        "Margins of the Indian Ocean",
+        "Arctic Ocean basin"
+      ],
+      "answer": 0,
+      "explanation": "About three-quarters of the world's active volcanoes lie along the subduction zones that ring the Pacific Ocean.",
+      "source": "ai",
+      "archetype": "cds-G04",
+      "verified": false
+    },
+    {
+      "id": "cds-087",
+      "section": "gk",
+      "topic": "Indian Polity",
+      "difficulty": "easy",
+      "question": "Which Constitutional Amendment Act reduced the voting age from 21 years to 18 years?",
+      "options": [
+        "42nd Amendment Act, 1976",
+        "61st Amendment Act, 1988",
+        "44th Amendment Act, 1978",
+        "73rd Amendment Act, 1992"
+      ],
+      "answer": 1,
+      "explanation": "The 61st Amendment (1988, in force 1989) amended Article 326 to lower the voting age to 18.",
+      "source": "ai",
+      "archetype": "cds-G05",
+      "verified": false
+    },
+    {
+      "id": "cds-088",
+      "section": "gk",
+      "topic": "Indian Polity",
+      "difficulty": "medium",
+      "question": "The reports of the Comptroller and Auditor General of India relating to the accounts of the Union are submitted to:",
+      "options": [
+        "The Prime Minister",
+        "The Speaker of the Lok Sabha",
+        "The President",
+        "The Union Finance Minister"
+      ],
+      "answer": 2,
+      "explanation": "Under Article 151, the CAG submits Union audit reports to the President, who causes them to be laid before each House of Parliament.",
+      "source": "ai",
+      "archetype": "cds-G06",
+      "verified": false
+    },
+    {
+      "id": "cds-089",
+      "section": "gk",
+      "topic": "Economy",
+      "difficulty": "easy",
+      "question": "Which one of the following is NOT a function of the Reserve Bank of India?",
+      "options": [
+        "Issuing currency notes",
+        "Acting as banker to the Government",
+        "Managing foreign exchange reserves",
+        "Accepting deposits from the general public"
+      ],
+      "answer": 3,
+      "explanation": "The RBI is the bankers' bank and the government's banker; it does not take deposits from the general public.",
+      "source": "ai",
+      "archetype": "cds-G07",
+      "verified": false
+    },
+    {
+      "id": "cds-090",
+      "section": "gk",
+      "topic": "Economy",
+      "difficulty": "medium",
+      "question": "Under India's flexible inflation-targeting framework, the inflation target is set in terms of the:",
+      "options": [
+        "Consumer Price Index (Combined)",
+        "Wholesale Price Index",
+        "GDP deflator",
+        "Consumer Price Index for Industrial Workers"
+      ],
+      "answer": 0,
+      "explanation": "The target of 4% (with a band of 2–6%) is defined on headline CPI (Combined) inflation, released by the National Statistics Office.",
+      "source": "ai",
+      "archetype": "cds-G07",
+      "verified": false
+    },
+    {
+      "id": "cds-091",
+      "section": "gk",
+      "topic": "Physics",
+      "difficulty": "easy",
+      "question": "A swimming pool appears shallower than it actually is because of:",
+      "options": [
+        "Reflection of light",
+        "Refraction of light",
+        "Diffraction of light",
+        "Dispersion of light"
+      ],
+      "answer": 1,
+      "explanation": "Light from the bottom bends away from the normal as it passes from water into air, so the bottom appears raised.",
+      "source": "ai",
+      "archetype": "cds-G08",
+      "verified": false
+    },
+    {
+      "id": "cds-092",
+      "section": "gk",
+      "topic": "Physics",
+      "difficulty": "medium",
+      "question": "One kilowatt-hour (kWh) is equal to:",
+      "options": [
+        "3.6 × 10⁵ J",
+        "3.6 × 10³ J",
+        "3.6 × 10⁶ J",
+        "1 × 10³ J"
+      ],
+      "answer": 2,
+      "explanation": "1 kWh = 1000 W × 3600 s = 3.6 × 10⁶ joules.",
+      "source": "ai",
+      "archetype": "cds-G08",
+      "verified": false
+    },
+    {
+      "id": "cds-093",
+      "section": "gk",
+      "topic": "Chemistry",
+      "difficulty": "easy",
+      "question": "Which gas is responsible for the smell of rotten eggs?",
+      "options": [
+        "Sulphur dioxide",
+        "Ammonia",
+        "Methane",
+        "Hydrogen sulphide"
+      ],
+      "answer": 3,
+      "explanation": "Hydrogen sulphide (H₂S) has the characteristic rotten-egg smell. Methane is odourless.",
+      "source": "ai",
+      "archetype": "cds-G09",
+      "verified": false
+    },
+    {
+      "id": "cds-094",
+      "section": "gk",
+      "topic": "Biology",
+      "difficulty": "easy",
+      "question": "Night blindness is caused by the deficiency of:",
+      "options": [
+        "Vitamin A",
+        "Vitamin B12",
+        "Vitamin C",
+        "Vitamin D"
+      ],
+      "answer": 0,
+      "explanation": "Vitamin A is needed to make rhodopsin in the rods of the retina; its deficiency causes night blindness.",
+      "source": "ai",
+      "archetype": "cds-G10",
+      "verified": false
+    },
+    {
+      "id": "cds-095",
+      "section": "gk",
+      "topic": "Biology",
+      "difficulty": "medium",
+      "question": "Which one of the following is NOT a function of the human liver?",
+      "options": [
+        "Secretion of bile",
+        "Production of insulin",
+        "Storage of glycogen",
+        "Detoxification of harmful substances"
+      ],
+      "answer": 1,
+      "explanation": "Insulin is produced by the beta cells of the islets of Langerhans in the pancreas. The other three are liver functions.",
+      "source": "ai",
+      "archetype": "cds-G10",
+      "verified": false
+    },
+    {
+      "id": "cds-096",
+      "section": "gk",
+      "topic": "Environment & Ecology",
+      "difficulty": "easy",
+      "question": "The Montreal Protocol is concerned with:",
+      "options": [
+        "Conservation of wetlands",
+        "Trade in endangered species",
+        "Protection of the ozone layer",
+        "Control of transboundary movement of hazardous wastes"
+      ],
+      "answer": 2,
+      "explanation": "The Montreal Protocol (1987) phases out ozone-depleting substances. Wetlands come under Ramsar, species trade under CITES, and hazardous wastes under Basel.",
+      "source": "ai",
+      "archetype": "cds-G11",
+      "verified": false
+    },
+    {
+      "id": "cds-097",
+      "section": "gk",
+      "topic": "Environment & Ecology",
+      "difficulty": "medium",
+      "question": "Which one of the following biodiversity hotspots lies partly in India?",
+      "options": [
+        "Mediterranean Basin",
+        "Cape Floristic Region",
+        "Madagascar and the Indian Ocean Islands",
+        "Indo-Burma"
+      ],
+      "answer": 3,
+      "explanation": "India has parts of four hotspots: the Himalaya, Indo-Burma, the Western Ghats and Sri Lanka, and Sundaland (Nicobar Islands).",
+      "source": "ai",
+      "archetype": "cds-G11",
+      "verified": false
+    },
+    {
+      "id": "cds-098",
+      "section": "gk",
+      "topic": "Current Affairs & Defence",
+      "difficulty": "medium",
+      "question": "The Defence Services Staff College is located at:",
+      "options": [
+        "Wellington",
+        "Mhow",
+        "Secunderabad",
+        "Pune"
+      ],
+      "answer": 0,
+      "explanation": "DSSC is at Wellington in the Nilgiris, Tamil Nadu. Mhow has the Army War College and Secunderabad the College of Defence Management.",
+      "source": "ai",
+      "archetype": "cds-G12",
+      "verified": false
+    },
+    {
+      "id": "cds-099",
+      "section": "gk",
+      "topic": "Current Affairs & Defence",
+      "difficulty": "medium",
+      "question": "'Malabar' is a naval exercise involving the navies of:",
+      "options": [
+        "India, Russia and China",
+        "India, the USA, Japan and Australia",
+        "India and France only",
+        "India, the UK and Canada"
+      ],
+      "answer": 1,
+      "explanation": "Malabar began as an India–US exercise; Japan became a permanent participant in 2015 and Australia rejoined in 2020.",
+      "source": "ai",
+      "archetype": "cds-G13",
+      "verified": false
+    },
+    {
+      "id": "cds-100",
+      "section": "gk",
+      "topic": "Current Affairs & Defence",
+      "difficulty": "easy",
+      "question": "The International Court of Justice has its seat at:",
+      "options": [
+        "Geneva",
+        "New York",
+        "The Hague",
+        "Vienna"
+      ],
+      "answer": 2,
+      "explanation": "The ICJ, the principal judicial organ of the UN, sits in the Peace Palace at The Hague, Netherlands.",
+      "source": "ai",
+      "archetype": "cds-G14",
+      "verified": false
+    },
+    {
+      "id": "cds-101",
+      "section": "maths",
+      "topic": "Number System & HCF/LCM",
+      "difficulty": "easy",
+      "question": "The unit digit of 7⁹⁵ is:",
+      "options": [
+        "7",
+        "9",
+        "1",
+        "3"
+      ],
+      "answer": 3,
+      "explanation": "Unit digits of powers of 7 repeat in the cycle 7, 9, 3, 1. 95 = 4 × 23 + 3, so the unit digit is the third in the cycle: 3.",
+      "source": "ai",
+      "archetype": "cds-M01",
+      "verified": false
+    },
+    {
+      "id": "cds-102",
+      "section": "maths",
+      "topic": "Number System & HCF/LCM",
+      "difficulty": "easy",
+      "question": "If the six-digit number 4573x6 is divisible by 9, then the digit x is:",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "7"
+      ],
+      "answer": 0,
+      "explanation": "Digit sum = 4 + 5 + 7 + 3 + x + 6 = 25 + x, which must be a multiple of 9. So x = 2 (sum 27).",
+      "source": "ai",
+      "archetype": "cds-M01",
+      "verified": false
+    },
+    {
+      "id": "cds-103",
+      "section": "maths",
+      "topic": "Number System & HCF/LCM",
+      "difficulty": "medium",
+      "question": "The greatest number that divides 43, 91 and 183, leaving the same remainder in each case, is:",
+      "options": [
+        "7",
+        "4",
+        "9",
+        "13"
+      ],
+      "answer": 1,
+      "explanation": "Take the HCF of the differences: 91 − 43 = 48, 183 − 91 = 92, 183 − 43 = 140. HCF(48, 92, 140) = 4.",
+      "source": "ai",
+      "archetype": "cds-M02",
+      "verified": false
+    },
+    {
+      "id": "cds-104",
+      "section": "maths",
+      "topic": "Percentage, Profit & Loss, Interest",
+      "difficulty": "medium",
+      "question": "A sells an article to B at a profit of 20%, and B sells it to C at a profit of 10%. If C pays ₹264, what did A pay for it?",
+      "options": [
+        "₹220",
+        "₹180",
+        "₹200",
+        "₹240"
+      ],
+      "answer": 2,
+      "explanation": "A's cost × 1.2 × 1.1 = 264, so A's cost = 264/1.32 = ₹200.",
+      "source": "ai",
+      "archetype": "cds-M03",
+      "verified": false
+    },
+    {
+      "id": "cds-105",
+      "section": "maths",
+      "topic": "Percentage, Profit & Loss, Interest",
+      "difficulty": "easy",
+      "question": "If 30% of x is equal to 20% of y, then x : y is:",
+      "options": [
+        "3 : 2",
+        "1 : 2",
+        "3 : 4",
+        "2 : 3"
+      ],
+      "answer": 3,
+      "explanation": "0.3x = 0.2y gives x/y = 0.2/0.3 = 2/3.",
+      "source": "ai",
+      "archetype": "cds-M03",
+      "verified": false
+    },
+    {
+      "id": "cds-106",
+      "section": "maths",
+      "topic": "Percentage, Profit & Loss, Interest",
+      "difficulty": "medium",
+      "question": "The difference between the compound interest and the simple interest on ₹5,000 for 2 years at 8% per annum is:",
+      "options": [
+        "₹32",
+        "₹16",
+        "₹64",
+        "₹40"
+      ],
+      "answer": 0,
+      "explanation": "For 2 years, CI − SI = P(r/100)² = 5000 × (0.08)² = 5000 × 0.0064 = ₹32.",
+      "source": "ai",
+      "archetype": "cds-M04",
+      "verified": false
+    },
+    {
+      "id": "cds-107",
+      "section": "maths",
+      "topic": "Ratio, Time & Work, Speed & Distance",
+      "difficulty": "medium",
+      "question": "A boat covers 24 km downstream in 2 hours and returns upstream in 4 hours. The speed of the stream is:",
+      "options": [
+        "4 km/h",
+        "3 km/h",
+        "6 km/h",
+        "9 km/h"
+      ],
+      "answer": 1,
+      "explanation": "Downstream speed = 12 km/h, upstream = 6 km/h. Stream speed = (12 − 6)/2 = 3 km/h.",
+      "source": "ai",
+      "archetype": "cds-M07",
+      "verified": false
+    },
+    {
+      "id": "cds-108",
+      "section": "maths",
+      "topic": "Ratio, Time & Work, Speed & Distance",
+      "difficulty": "medium",
+      "question": "Pipes A and B can fill a tank in 20 minutes and 30 minutes respectively, and pipe C can empty it in 15 minutes. If all three are opened together, the empty tank will be filled in:",
+      "options": [
+        "40 minutes",
+        "30 minutes",
+        "60 minutes",
+        "45 minutes"
+      ],
+      "answer": 2,
+      "explanation": "Net rate = 1/20 + 1/30 − 1/15 = (3 + 2 − 4)/60 = 1/60, so it takes 60 minutes.",
+      "source": "ai",
+      "archetype": "cds-M06",
+      "verified": false
+    },
+    {
+      "id": "cds-109",
+      "section": "maths",
+      "topic": "Ratio, Time & Work, Speed & Distance",
+      "difficulty": "medium",
+      "question": "₹7,700 is divided among A, B and C such that A : B = 2 : 3 and B : C = 4 : 5. C's share is:",
+      "options": [
+        "₹2,640",
+        "₹1,760",
+        "₹3,080",
+        "₹3,300"
+      ],
+      "answer": 3,
+      "explanation": "A : B : C = 8 : 12 : 15 (total 35 parts). C's share = 15/35 × 7700 = ₹3,300.",
+      "source": "ai",
+      "archetype": "cds-M05",
+      "verified": false
+    },
+    {
+      "id": "cds-110",
+      "section": "maths",
+      "topic": "Algebra",
+      "difficulty": "medium",
+      "question": "If a − b = 4 and ab = 21, then a³ − b³ equals:",
+      "options": [
+        "316",
+        "252",
+        "64",
+        "380"
+      ],
+      "answer": 0,
+      "explanation": "a³ − b³ = (a − b)³ + 3ab(a − b) = 64 + 3 × 21 × 4 = 64 + 252 = 316.",
+      "source": "ai",
+      "archetype": "cds-M08",
+      "verified": false
+    },
+    {
+      "id": "cds-111",
+      "section": "maths",
+      "topic": "Algebra",
+      "difficulty": "easy",
+      "question": "If one root of x² − 7x + k = 0 is 2, then the value of k is:",
+      "options": [
+        "12",
+        "10",
+        "14",
+        "5"
+      ],
+      "answer": 1,
+      "explanation": "Substituting x = 2: 4 − 14 + k = 0, so k = 10. (The other root is 5.)",
+      "source": "ai",
+      "archetype": "cds-M09",
+      "verified": false
+    },
+    {
+      "id": "cds-112",
+      "section": "maths",
+      "topic": "Algebra",
+      "difficulty": "medium",
+      "question": "(x² − 9)/(x² + 5x + 6) simplifies to:",
+      "options": [
+        "(x + 3)/(x + 2)",
+        "(x − 3)/(x − 2)",
+        "(x − 3)/(x + 2)",
+        "(x + 3)/(x − 2)"
+      ],
+      "answer": 2,
+      "explanation": "x² − 9 = (x − 3)(x + 3) and x² + 5x + 6 = (x + 2)(x + 3). Cancelling (x + 3) gives (x − 3)/(x + 2).",
+      "source": "ai",
+      "archetype": "cds-M08",
+      "verified": false
+    },
+    {
+      "id": "cds-113",
+      "section": "maths",
+      "topic": "Geometry",
+      "difficulty": "medium",
+      "question": "AB is a chord of a circle with centre O, and ∠AOB = 110°. If C is a point on the major arc, then ∠ACB is:",
+      "options": [
+        "110°",
+        "125°",
+        "70°",
+        "55°"
+      ],
+      "answer": 3,
+      "explanation": "The angle subtended at the circumference on the major arc is half the central angle: 110°/2 = 55°. (125° is the angle on the minor arc.)",
+      "source": "ai",
+      "archetype": "cds-M10",
+      "verified": false
+    },
+    {
+      "id": "cds-114",
+      "section": "maths",
+      "topic": "Geometry",
+      "difficulty": "easy",
+      "question": "In triangle ABC, D and E are points on AB and AC such that DE ∥ BC. If AD = 3 cm, DB = 2 cm and AE = 4.5 cm, then EC is:",
+      "options": [
+        "3 cm",
+        "2 cm",
+        "4 cm",
+        "6 cm"
+      ],
+      "answer": 0,
+      "explanation": "By the basic proportionality theorem, AD/DB = AE/EC, so 3/2 = 4.5/EC and EC = 3 cm.",
+      "source": "ai",
+      "archetype": "cds-M10",
+      "verified": false
+    },
+    {
+      "id": "cds-115",
+      "section": "maths",
+      "topic": "Geometry",
+      "difficulty": "easy",
+      "question": "The sum of the interior angles of a polygon is 1440°. The number of its sides is:",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "9"
+      ],
+      "answer": 1,
+      "explanation": "(n − 2) × 180° = 1440° gives n − 2 = 8, so n = 10.",
+      "source": "ai",
+      "archetype": "cds-M11",
+      "verified": false
+    },
+    {
+      "id": "cds-116",
+      "section": "maths",
+      "topic": "Mensuration",
+      "difficulty": "easy",
+      "question": "The area of an equilateral triangle whose perimeter is 36 cm is:",
+      "options": [
+        "48√3 cm²",
+        "72√3 cm²",
+        "36√3 cm²",
+        "12√3 cm²"
+      ],
+      "answer": 2,
+      "explanation": "Side = 12 cm, so area = (√3/4) × 144 = 36√3 cm².",
+      "source": "ai",
+      "archetype": "cds-M12",
+      "verified": false
+    },
+    {
+      "id": "cds-117",
+      "section": "maths",
+      "topic": "Mensuration",
+      "difficulty": "medium",
+      "question": "A solid metal sphere of radius 6 cm is melted and recast into a solid cylinder of radius 4 cm. The height of the cylinder is:",
+      "options": [
+        "12 cm",
+        "9 cm",
+        "24 cm",
+        "18 cm"
+      ],
+      "answer": 3,
+      "explanation": "(4/3)π(6³) = π(4²)h, so 288π = 16πh and h = 18 cm.",
+      "source": "ai",
+      "archetype": "cds-M13",
+      "verified": false
+    },
+    {
+      "id": "cds-118",
+      "section": "maths",
+      "topic": "Trigonometry",
+      "difficulty": "medium",
+      "question": "If tan θ + cot θ = 2, then tan²θ + cot²θ equals:",
+      "options": [
+        "2",
+        "4",
+        "0",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "Squaring: tan²θ + cot²θ + 2 tan θ cot θ = 4. Since tan θ cot θ = 1, tan²θ + cot²θ = 2.",
+      "source": "ai",
+      "archetype": "cds-M14",
+      "verified": false
+    },
+    {
+      "id": "cds-119",
+      "section": "maths",
+      "topic": "Trigonometry",
+      "difficulty": "easy",
+      "question": "From the top of a cliff 60 m high, the angle of depression of a boat is 30°. The distance of the boat from the foot of the cliff is:",
+      "options": [
+        "20√3 m",
+        "60√3 m",
+        "60 m",
+        "30√3 m"
+      ],
+      "answer": 1,
+      "explanation": "tan 30° = 60/d, so d = 60/(1/√3) = 60√3 m. Using tan 60° by mistake gives 20√3 m.",
+      "source": "ai",
+      "archetype": "cds-M15",
+      "verified": false
+    },
+    {
+      "id": "cds-120",
+      "section": "maths",
+      "topic": "Statistics",
+      "difficulty": "easy",
+      "question": "The mean of 10 observations is 15. Later it was found that one observation, 26, had been wrongly recorded as 16. The correct mean is:",
+      "options": [
+        "15",
+        "14",
+        "16",
+        "17"
+      ],
+      "answer": 2,
+      "explanation": "Recorded sum = 150. Correct sum = 150 − 16 + 26 = 160, so the correct mean = 16.",
+      "source": "ai",
+      "archetype": "cds-M16",
+      "verified": false
     }
   ]
 }

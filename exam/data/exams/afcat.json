@@ -310,6 +310,586 @@
     "officialMock": "https://afcat.cdac.in",
     "notes": "The IAF does not officially publish past AFCAT papers. The AFCAT candidate portal (afcat.cdac.in) offers an online practice test and the syllabus, and provisional answer keys are shown to candidates there after each exam. Circulating 'previous papers' are memory-based."
   },
+  "pyqBlueprint": {
+    "yearsCovered": [
+      2024,
+      2025,
+      2026
+    ],
+    "method": "The IAF does not publish AFCAT papers, so the patterns come from candidate-feedback analyses of the 2024, 2025 and 2026 shifts (Physics Wallah 22/23 Feb 2025 and 31 Jan 2026, PracticeMock, Careers360, Studyriserr). For example, the 22 Feb 2025 shift had GA 25 / English 30 / Numerical 20 / Reasoning 25, with about 7 current-affairs and 6 geography GA items and 3 each of coding-decoding and odd-one-out. Item-level details are from memory-based reconstructions and the writer's own knowledge, since full pages could not be fetched. Figure-based spatial items are represented only by their text-renderable variants (painted-cube counting, mirror-image clock).",
+    "archetypes": [
+      {
+        "id": "afcat-G01",
+        "section": "ga",
+        "topic": "History",
+        "pattern": "Ancient/medieval battles, dynasties and founders (Haldighati, Talikota, Maurya founder): one-line fact recall.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2–3 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "afcat-G02",
+        "section": "ga",
+        "topic": "History",
+        "pattern": "Modern history: dates and slogans of freedom-struggle events (Jallianwala Bagh, Quit India).",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "afcat-G03",
+        "section": "ga",
+        "topic": "Geography",
+        "pattern": "Indian geography: lakes, rivers, national parks and their states.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2–3 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "afcat-G04",
+        "section": "ga",
+        "topic": "Geography",
+        "pattern": "World geography: straits, deserts and waterbodies separating land masses.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "afcat-G05",
+        "section": "ga",
+        "topic": "Polity",
+        "pattern": "Constitutional articles, schedules, oaths and the election of constitutional functionaries.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "afcat-G06",
+        "section": "ga",
+        "topic": "Economy",
+        "pattern": "Economic institutions and their roles (NABARD, NSO, RBI).",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "afcat-G07",
+        "section": "ga",
+        "topic": "Basic Science",
+        "pattern": "Physics behind flight and instruments (barometer, Bernoulli lift, Mach number).",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "afcat-G08",
+        "section": "ga",
+        "topic": "Basic Science",
+        "pattern": "Everyday chemistry and biology facts (gases in use, vitamins, human body).",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "afcat-G09",
+        "section": "ga",
+        "topic": "Defence & Aviation",
+        "pattern": "IAF organisation and facts: Air Force Day, motto, commands and their headquarters.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2–3 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "afcat-G10",
+        "section": "ga",
+        "topic": "Defence & Aviation",
+        "pattern": "Aircraft, missiles and their manufacturers/origin (Tejas, Rafale, BrahMos).",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2–3 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "afcat-G11",
+        "section": "ga",
+        "topic": "Defence & Aviation",
+        "pattern": "Bilateral and multilateral air/military exercises and partner countries (Garuda, Red Flag, Cope India).",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "afcat-G12",
+        "section": "ga",
+        "topic": "Art & Culture",
+        "pattern": "Dance forms, temples and monuments with their state or builder.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "afcat-G13",
+        "section": "ga",
+        "topic": "Sports, Awards & Current Affairs",
+        "pattern": "Trophies/cups and sports, national sports awards and their purpose.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2–3 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "afcat-E01",
+        "section": "english",
+        "topic": "Synonyms",
+        "pattern": "Choose the synonym of a single word (diligent, candid, lucid).",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "3–5 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "afcat-E02",
+        "section": "english",
+        "topic": "Antonyms",
+        "pattern": "Choose the antonym of a single word; a synonym is planted among the options.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "3–5 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "afcat-E03",
+        "section": "english",
+        "topic": "Error Detection",
+        "pattern": "Find the erroneous part: subject–verb agreement ('one of', 'every', 'news').",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2–3 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "afcat-E04",
+        "section": "english",
+        "topic": "Error Detection",
+        "pattern": "Find the erroneous part: preposition or tense misuse ('since five years', 'married with', past time with present perfect).",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2–3 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "afcat-E05",
+        "section": "english",
+        "topic": "Sentence Completion",
+        "pattern": "Fill the blank with the right preposition or phrasal-verb particle (take off, look into, call off).",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2–3 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "afcat-E06",
+        "section": "english",
+        "topic": "Sentence Completion",
+        "pattern": "Fill the blank with the correct tense/conditional or auxiliary (had, would have).",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "afcat-E07",
+        "section": "english",
+        "topic": "Idioms & Phrases",
+        "pattern": "Meaning of a common idiom; distractors are literal readings.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "3–5 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "afcat-E08",
+        "section": "english",
+        "topic": "Reading Comprehension",
+        "pattern": "One passage (often on aviation/science) with factual and author's-view questions.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "4–5 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "afcat-E09",
+        "section": "english",
+        "topic": "Cloze Test",
+        "pattern": "Cloze passage/sentence: choose the word that fits the blank.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "3–5 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "afcat-N01",
+        "section": "numerical",
+        "topic": "Percentage",
+        "pattern": "Percentage basics: x% of y% of z, 'by how much less', successive change, pass/fail overlap.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2–3 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "afcat-N02",
+        "section": "numerical",
+        "topic": "Profit & Loss",
+        "pattern": "Profit/loss per cent and marked price–discount–gain combinations.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "afcat-N03",
+        "section": "numerical",
+        "topic": "Ratio & Proportion",
+        "pattern": "Dividing a sum in a ratio, or converting equal products (3A = 4B = 6C) to a ratio.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "afcat-N04",
+        "section": "numerical",
+        "topic": "Average",
+        "pattern": "Average with one item added or removed (instructor/captain age, removed number).",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "afcat-N05",
+        "section": "numerical",
+        "topic": "Simple & Compound Interest",
+        "pattern": "SI/CI: interest amount, rate when a sum doubles, 2-year CI.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "afcat-N06",
+        "section": "numerical",
+        "topic": "Time & Work",
+        "pattern": "Men–days proportion or finding one worker's time from joint and individual times.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "afcat-N07",
+        "section": "numerical",
+        "topic": "Time, Speed & Distance",
+        "pattern": "Unit conversion, average speed for a round trip, trains crossing poles or each other.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2–3 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "afcat-N08",
+        "section": "numerical",
+        "topic": "Simplification & Decimal Fractions",
+        "pattern": "Decimal simplification using identities (a² − b²)/(a − b) or ×/÷ of decimals.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "afcat-N09",
+        "section": "numerical",
+        "topic": "Number System",
+        "pattern": "LCM/HCF and divisibility: smallest/largest number divisible by given numbers.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "afcat-R01",
+        "section": "reasoning",
+        "topic": "Verbal Analogy",
+        "pattern": "Word analogy based on function/instrument–measure/worker–tool.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2–3 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "afcat-R02",
+        "section": "reasoning",
+        "topic": "Verbal Analogy",
+        "pattern": "Number or letter-group analogy (n : n³, letter shifts).",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "afcat-R03",
+        "section": "reasoning",
+        "topic": "Classification (Odd One Out)",
+        "pattern": "Odd one out among words, aircraft/weapons or numbers (prime/square property).",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2–3 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "afcat-R04",
+        "section": "reasoning",
+        "topic": "Number & Letter Series",
+        "pattern": "Number series: n² + n, ×2 + 1, differences doubling, nⁿ.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2–3 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "afcat-R05",
+        "section": "reasoning",
+        "topic": "Number & Letter Series",
+        "pattern": "Letter series with fixed gaps or paired forward/backward letters.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "afcat-R06",
+        "section": "reasoning",
+        "topic": "Coding-Decoding",
+        "pattern": "Letter-shift coding (+1/−1 for each letter).",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "afcat-R07",
+        "section": "reasoning",
+        "topic": "Coding-Decoding",
+        "pattern": "Number coding from alphabet positions (position values, sum × k).",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "afcat-R08",
+        "section": "reasoning",
+        "topic": "Direction & Blood Relations",
+        "pattern": "Direction sense: walk-and-turn path, final distance and direction.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "afcat-R09",
+        "section": "reasoning",
+        "topic": "Direction & Blood Relations",
+        "pattern": "Blood relations from a statement or chain of relations.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "afcat-R10",
+        "section": "reasoning",
+        "topic": "Arrangement & Ranking",
+        "pattern": "Rank in a row from left/right ends.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "afcat-R11",
+        "section": "reasoning",
+        "topic": "Arrangement & Ranking",
+        "pattern": "Linear or circular seating with 4–6 people and 3–4 clues.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "afcat-R12",
+        "section": "reasoning",
+        "topic": "Spatial & Non-verbal Reasoning",
+        "pattern": "Painted-cube cutting: count small cubes with 0/1/2/3 faces painted.",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "afcat-R13",
+        "section": "reasoning",
+        "topic": "Spatial & Non-verbal Reasoning",
+        "pattern": "Mirror/water images, including the mirror image of a clock time.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2–3 per shift",
+        "difficulty": "medium"
+      }
+    ]
+  },
   "questions": [
     {
       "id": "afcat-001",
@@ -325,7 +905,9 @@
       ],
       "answer": 1,
       "explanation": "Maharana Pratap of Mewar fought Akbar's army, led by Raja Man Singh, at Haldighati in 1576.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-G01",
+      "source": "curated"
     },
     {
       "id": "afcat-002",
@@ -341,7 +923,9 @@
       ],
       "answer": 2,
       "explanation": "Chandragupta Maurya, guided by Kautilya, overthrew the Nandas around 321 BCE and founded the dynasty. Bimbisara belonged to the earlier Haryanka dynasty.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-G01",
+      "source": "curated"
     },
     {
       "id": "afcat-003",
@@ -357,7 +941,9 @@
       ],
       "answer": 3,
       "explanation": "The massacre took place in Amritsar on 13 April 1919 (Baisakhi), when troops under General Dyer fired on a peaceful gathering.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-G02",
+      "source": "curated"
     },
     {
       "id": "afcat-004",
@@ -373,7 +959,9 @@
       ],
       "answer": 0,
       "explanation": "The Bering Strait lies between Russia's Chukotka Peninsula and Alaska.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-G04",
+      "source": "curated"
     },
     {
       "id": "afcat-005",
@@ -389,7 +977,9 @@
       ],
       "answer": 3,
       "explanation": "Loktak Lake is in Manipur. Keibul Lamjao, the world's only floating national park, lies on it.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-G03",
+      "source": "curated"
     },
     {
       "id": "afcat-006",
@@ -405,7 +995,9 @@
       ],
       "answer": 2,
       "explanation": "Article 54 sets out the electoral college. Nominated members and members of Legislative Councils do not vote.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-G05",
+      "source": "curated"
     },
     {
       "id": "afcat-007",
@@ -421,7 +1013,9 @@
       ],
       "answer": 3,
       "explanation": "The Eighth Schedule lists 22 languages. The Seventh covers legislative lists, the Ninth protected laws and the Tenth anti-defection.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-G05",
+      "source": "curated"
     },
     {
       "id": "afcat-008",
@@ -437,7 +1031,9 @@
       ],
       "answer": 0,
       "explanation": "The National Bank for Agriculture and Rural Development (1982) is the apex development bank for agriculture and the rural sector.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-G06",
+      "source": "curated"
     },
     {
       "id": "afcat-009",
@@ -453,7 +1049,9 @@
       ],
       "answer": 1,
       "explanation": "A barometer measures air pressure. A hygrometer measures humidity and an anemometer measures wind speed.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-G07",
+      "source": "curated"
     },
     {
       "id": "afcat-010",
@@ -469,7 +1067,9 @@
       ],
       "answer": 2,
       "explanation": "Air moves faster over the cambered upper surface, so pressure there is lower than below (Bernoulli's principle), producing lift. Newton's third law also contributes.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-G07",
+      "source": "curated"
     },
     {
       "id": "afcat-011",
@@ -485,7 +1085,9 @@
       ],
       "answer": 0,
       "explanation": "The IAF was established on 8 October 1932. 15 January is Army Day, 4 December Navy Day and 26 July Kargil Vijay Diwas.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-G09",
+      "source": "curated"
     },
     {
       "id": "afcat-012",
@@ -501,7 +1103,9 @@
       ],
       "answer": 1,
       "explanation": "The motto ('Touch the sky with glory') comes from Chapter 11 of the Bhagavad Gita.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-G09",
+      "source": "curated"
     },
     {
       "id": "afcat-013",
@@ -517,7 +1121,9 @@
       ],
       "answer": 3,
       "explanation": "Tejas is a single-engine light combat aircraft designed by ADA and built by HAL.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-G10",
+      "source": "curated"
     },
     {
       "id": "afcat-014",
@@ -533,7 +1139,9 @@
       ],
       "answer": 0,
       "explanation": "Kathakali comes from Kerala and is known for elaborate make-up and costumes. Tamil Nadu's form is Bharatanatyam and Andhra Pradesh's is Kuchipudi.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-G12",
+      "source": "curated"
     },
     {
       "id": "afcat-015",
@@ -549,7 +1157,9 @@
       ],
       "answer": 3,
       "explanation": "The Durand Cup, started in 1888, is a football tournament organised with the Indian Army's support.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-G13",
+      "source": "curated"
     },
     {
       "id": "afcat-016",
@@ -565,7 +1175,9 @@
       ],
       "answer": 0,
       "explanation": "Candid means frank or open.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-E01",
+      "source": "curated"
     },
     {
       "id": "afcat-017",
@@ -581,7 +1193,9 @@
       ],
       "answer": 1,
       "explanation": "Diligent means hard-working, that is, industrious.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-E01",
+      "source": "curated"
     },
     {
       "id": "afcat-018",
@@ -597,7 +1211,9 @@
       ],
       "answer": 2,
       "explanation": "To vindicate is to clear someone of blame or suspicion, that is, to exonerate.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-E01",
+      "source": "curated"
     },
     {
       "id": "afcat-019",
@@ -613,7 +1229,9 @@
       ],
       "answer": 3,
       "explanation": "Benevolent means well-meaning, so its opposite is malevolent (wishing harm).",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-E02",
+      "source": "curated"
     },
     {
       "id": "afcat-020",
@@ -629,7 +1247,9 @@
       ],
       "answer": 0,
       "explanation": "Scarce means in short supply, so its opposite is abundant.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-E02",
+      "source": "curated"
     },
     {
       "id": "afcat-021",
@@ -645,7 +1265,9 @@
       ],
       "answer": 1,
       "explanation": "Transparent means see-through, so its opposite is opaque.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-E02",
+      "source": "curated"
     },
     {
       "id": "afcat-022",
@@ -661,7 +1283,9 @@
       ],
       "answer": 1,
       "explanation": "The subject is 'One', which is singular, so part B should read 'is joining'.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-E03",
+      "source": "curated"
     },
     {
       "id": "afcat-023",
@@ -677,7 +1301,9 @@
       ],
       "answer": 0,
       "explanation": "'Every' takes a singular noun, so part A should read 'Every pilot'.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-E03",
+      "source": "curated"
     },
     {
       "id": "afcat-024",
@@ -693,7 +1319,9 @@
       ],
       "answer": 2,
       "explanation": "'Since' marks a point in time and 'for' a period, so part C should read 'for five years'.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-E04",
+      "source": "curated"
     },
     {
       "id": "afcat-025",
@@ -709,7 +1337,9 @@
       ],
       "answer": 1,
       "explanation": "'Take off' means to leave the ground and begin flying.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-E05",
+      "source": "curated"
     },
     {
       "id": "afcat-026",
@@ -725,7 +1355,9 @@
       ],
       "answer": 2,
       "explanation": "The standard usage is 'good at' a subject or skill.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-E05",
+      "source": "curated"
     },
     {
       "id": "afcat-027",
@@ -741,7 +1373,9 @@
       ],
       "answer": 3,
       "explanation": "A third conditional (past unreal) takes 'had + past participle' in the if-clause and 'would have + past participle' in the main clause.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-E06",
+      "source": "curated"
     },
     {
       "id": "afcat-028",
@@ -757,7 +1391,9 @@
       ],
       "answer": 0,
       "explanation": "To smell a rat is to sense that something is wrong or suspicious.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-E07",
+      "source": "curated"
     },
     {
       "id": "afcat-029",
@@ -773,7 +1409,9 @@
       ],
       "answer": 1,
       "explanation": "A feather in one's cap is an accomplishment one can be proud of.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-E07",
+      "source": "curated"
     },
     {
       "id": "afcat-030",
@@ -789,7 +1427,9 @@
       ],
       "answer": 2,
       "explanation": "To hit the nail on the head is to say or do exactly the right thing or identify the precise point.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-E07",
+      "source": "curated"
     },
     {
       "id": "afcat-031",
@@ -805,7 +1445,9 @@
       ],
       "answer": 2,
       "explanation": "The passage says success came 'not [from] a more powerful engine but their careful attention to control'.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-E08",
+      "source": "curated"
     },
     {
       "id": "afcat-032",
@@ -821,7 +1463,9 @@
       ],
       "answer": 0,
       "explanation": "The first sentence states that the flight lasted only about twelve seconds.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-E08",
+      "source": "curated"
     },
     {
       "id": "afcat-033",
@@ -837,7 +1481,9 @@
       ],
       "answer": 3,
       "explanation": "Something is built on a foundation, which fits the metaphor.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-E09",
+      "source": "curated"
     },
     {
       "id": "afcat-034",
@@ -853,7 +1499,9 @@
       ],
       "answer": 1,
       "explanation": "30% of 500 = 150, and 20% of 150 = 30.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-N01",
+      "source": "curated"
     },
     {
       "id": "afcat-035",
@@ -869,7 +1517,9 @@
       ],
       "answer": 2,
       "explanation": "Let B = 100, so A = 125. B is 25 less than A, which is 25/125 = 20% less.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-N01",
+      "source": "curated"
     },
     {
       "id": "afcat-036",
@@ -885,7 +1535,9 @@
       ],
       "answer": 3,
       "explanation": "Profit = ₹120, which is 120/800 × 100 = 15%.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-N02",
+      "source": "curated"
     },
     {
       "id": "afcat-037",
@@ -901,7 +1553,9 @@
       ],
       "answer": 2,
       "explanation": "The larger share is 5/8 × 1,200 = ₹750.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-N03",
+      "source": "curated"
     },
     {
       "id": "afcat-038",
@@ -917,7 +1571,9 @@
       ],
       "answer": 0,
       "explanation": "Total = 100 and the remaining four total 72, so the removed number is 100 − 72 = 28.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-N04",
+      "source": "curated"
     },
     {
       "id": "afcat-039",
@@ -933,7 +1589,9 @@
       ],
       "answer": 1,
       "explanation": "The numbers 2, 4, …, 20 sum to 110, and 110/10 = 11.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-N04",
+      "source": "curated"
     },
     {
       "id": "afcat-040",
@@ -949,7 +1607,9 @@
       ],
       "answer": 3,
       "explanation": "SI = 5,000 × 8 × 3 / 100 = ₹1,200.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-N05",
+      "source": "curated"
     },
     {
       "id": "afcat-041",
@@ -965,7 +1625,9 @@
       ],
       "answer": 1,
       "explanation": "Total work = 6 × 10 = 60 man-days, so 15 men need 60/15 = 4 days.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-N06",
+      "source": "curated"
     },
     {
       "id": "afcat-042",
@@ -981,7 +1643,9 @@
       ],
       "answer": 2,
       "explanation": "180/3 = 60 km/h, and 60 × 5/18 = 50/3 ≈ 16.67 m/s.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-N07",
+      "source": "curated"
     },
     {
       "id": "afcat-043",
@@ -997,7 +1661,9 @@
       ],
       "answer": 3,
       "explanation": "For equal distances, average speed = 2xy/(x + y) = 2 × 40 × 60 / 100 = 48 km/h.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-N07",
+      "source": "curated"
     },
     {
       "id": "afcat-044",
@@ -1013,7 +1679,9 @@
       ],
       "answer": 0,
       "explanation": "0.25 × 0.04 = 0.01, and 0.01 ÷ 0.001 = 10.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-N08",
+      "source": "curated"
     },
     {
       "id": "afcat-045",
@@ -1029,7 +1697,9 @@
       ],
       "answer": 2,
       "explanation": "LCM(12, 15, 20) = 60.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-N09",
+      "source": "curated"
     },
     {
       "id": "afcat-046",
@@ -1045,7 +1715,9 @@
       ],
       "answer": 1,
       "explanation": "An altimeter measures altitude and an odometer measures the distance travelled. Speed is measured by a speedometer.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-R01",
+      "source": "curated"
     },
     {
       "id": "afcat-047",
@@ -1061,7 +1733,9 @@
       ],
       "answer": 2,
       "explanation": "3³ = 27, so the answer is 5³ = 125.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-R02",
+      "source": "curated"
     },
     {
       "id": "afcat-048",
@@ -1077,7 +1751,9 @@
       ],
       "answer": 0,
       "explanation": "Each letter moves one place forward: G→H, I→J, K→L.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-R02",
+      "source": "curated"
     },
     {
       "id": "afcat-049",
@@ -1093,7 +1769,9 @@
       ],
       "answer": 1,
       "explanation": "BrahMos is a cruise missile. The others are fighter aircraft.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-R03",
+      "source": "curated"
     },
     {
       "id": "afcat-050",
@@ -1109,7 +1787,9 @@
       ],
       "answer": 2,
       "explanation": "121 = 11², 169 = 13² and 225 = 15², but 290 is not a perfect square.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-R03",
+      "source": "curated"
     },
     {
       "id": "afcat-051",
@@ -1125,7 +1805,9 @@
       ],
       "answer": 3,
       "explanation": "Mercury, Venus and Mars are planets, while the Moon is a natural satellite.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-R03",
+      "source": "curated"
     },
     {
       "id": "afcat-052",
@@ -1141,7 +1823,9 @@
       ],
       "answer": 3,
       "explanation": "The terms are n(n + 1): 1×2, 2×3, 3×4, 4×5, 5×6, so the next is 6×7 = 42.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-R04",
+      "source": "curated"
     },
     {
       "id": "afcat-053",
@@ -1157,7 +1841,9 @@
       ],
       "answer": 2,
       "explanation": "Each letter moves 3 places forward: K + 3 = N.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-R05",
+      "source": "curated"
     },
     {
       "id": "afcat-054",
@@ -1173,7 +1859,9 @@
       ],
       "answer": 0,
       "explanation": "The terms are nⁿ: 1¹, 2², 3³, 4⁴, so the next is 5⁵ = 3125.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-R04",
+      "source": "curated"
     },
     {
       "id": "afcat-055",
@@ -1189,7 +1877,9 @@
       ],
       "answer": 1,
       "explanation": "Each letter moves one place forward: F→G, O→P, R→S, C→D, E→F gives GPSDF.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-R06",
+      "source": "curated"
     },
     {
       "id": "afcat-056",
@@ -1205,7 +1895,9 @@
       ],
       "answer": 3,
       "explanation": "Each letter is replaced by its position in the alphabet: J = 10, E = 5, T = 20.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-R07",
+      "source": "curated"
     },
     {
       "id": "afcat-057",
@@ -1221,7 +1913,9 @@
       ],
       "answer": 2,
       "explanation": "North 5 km, then east 3 km, then south 5 km. The north–south movements cancel, so he ends 3 km east of the start.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-R08",
+      "source": "curated"
     },
     {
       "id": "afcat-058",
@@ -1237,7 +1931,9 @@
       ],
       "answer": 1,
       "explanation": "Her grandfather's only son is Riya's father, and her father's son is her brother.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-R09",
+      "source": "curated"
     },
     {
       "id": "afcat-059",
@@ -1253,7 +1949,9 @@
       ],
       "answer": 2,
       "explanation": "Position from the right = 40 − 12 + 1 = 29th.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-R10",
+      "source": "curated"
     },
     {
       "id": "afcat-060",
@@ -1269,7 +1967,1089 @@
       ],
       "answer": 0,
       "explanation": "R occupies position 1 and S position 5. T is next to R, so T is at 2, leaving P at 3 and Q at 4. The order is R T P Q S, so P is in the middle.",
-      "verified": true
+      "verified": true,
+      "archetype": "afcat-R11",
+      "source": "curated"
+    },
+    {
+      "id": "afcat-061",
+      "section": "ga",
+      "topic": "History",
+      "difficulty": "easy",
+      "question": "The Battle of Talikota (1565) led to the decline of which empire?",
+      "options": [
+        "Bahmani Sultanate",
+        "Maratha Empire",
+        "Vijayanagara Empire",
+        "Chola Empire"
+      ],
+      "answer": 2,
+      "explanation": "At Talikota the combined Deccan Sultanates defeated Vijayanagara, and its capital Hampi was sacked.",
+      "source": "ai",
+      "archetype": "afcat-G01",
+      "verified": false
+    },
+    {
+      "id": "afcat-062",
+      "section": "ga",
+      "topic": "History",
+      "difficulty": "easy",
+      "question": "Who gave the call 'Do or Die' during the Quit India Movement?",
+      "options": [
+        "Subhas Chandra Bose",
+        "Bal Gangadhar Tilak",
+        "Bhagat Singh",
+        "Mahatma Gandhi"
+      ],
+      "answer": 3,
+      "explanation": "Gandhi gave the 'Do or Die' call in his speech at Gowalia Tank, Bombay, on 8 August 1942.",
+      "source": "ai",
+      "archetype": "afcat-G02",
+      "verified": false
+    },
+    {
+      "id": "afcat-063",
+      "section": "ga",
+      "topic": "Geography",
+      "difficulty": "easy",
+      "question": "Which is the largest freshwater lake in India?",
+      "options": [
+        "Chilika Lake",
+        "Loktak Lake",
+        "Wular Lake",
+        "Dal Lake"
+      ],
+      "answer": 2,
+      "explanation": "Wular Lake in Jammu and Kashmir is the largest freshwater lake. Chilika is larger but is a brackish-water lagoon.",
+      "source": "ai",
+      "archetype": "afcat-G03",
+      "verified": false
+    },
+    {
+      "id": "afcat-064",
+      "section": "ga",
+      "topic": "Geography",
+      "difficulty": "easy",
+      "question": "The Strait of Malacca separates:",
+      "options": [
+        "India and Sri Lanka",
+        "Java and Borneo",
+        "Japan and Korea",
+        "The Malay Peninsula and Sumatra"
+      ],
+      "answer": 3,
+      "explanation": "The Strait of Malacca runs between the Malay Peninsula and the Indonesian island of Sumatra. India and Sri Lanka are separated by the Palk Strait.",
+      "source": "ai",
+      "archetype": "afcat-G04",
+      "verified": false
+    },
+    {
+      "id": "afcat-065",
+      "section": "ga",
+      "topic": "Polity",
+      "difficulty": "easy",
+      "question": "Which Article of the Constitution of India abolishes untouchability?",
+      "options": [
+        "Article 17",
+        "Article 14",
+        "Article 21",
+        "Article 32"
+      ],
+      "answer": 0,
+      "explanation": "Article 17 abolishes untouchability and forbids its practice in any form.",
+      "source": "ai",
+      "archetype": "afcat-G05",
+      "verified": false
+    },
+    {
+      "id": "afcat-066",
+      "section": "ga",
+      "topic": "Polity",
+      "difficulty": "easy",
+      "question": "Who administers the oath of office to the President of India?",
+      "options": [
+        "The Vice-President of India",
+        "The Chief Justice of India",
+        "The Speaker of the Lok Sabha",
+        "The Prime Minister"
+      ],
+      "answer": 1,
+      "explanation": "Under Article 60, the oath is administered by the Chief Justice of India (or, in the CJI's absence, the senior-most Supreme Court judge available).",
+      "source": "ai",
+      "archetype": "afcat-G05",
+      "verified": false
+    },
+    {
+      "id": "afcat-067",
+      "section": "ga",
+      "topic": "Economy",
+      "difficulty": "medium",
+      "question": "In India, official estimates of GDP are compiled and released by the:",
+      "options": [
+        "Reserve Bank of India",
+        "NITI Aayog",
+        "National Statistics Office",
+        "Finance Commission"
+      ],
+      "answer": 2,
+      "explanation": "The National Statistics Office under the Ministry of Statistics and Programme Implementation releases national accounts, including GDP.",
+      "source": "ai",
+      "archetype": "afcat-G06",
+      "verified": false
+    },
+    {
+      "id": "afcat-068",
+      "section": "ga",
+      "topic": "Basic Science",
+      "difficulty": "medium",
+      "question": "The Mach number of an aircraft is the ratio of its speed to the:",
+      "options": [
+        "Speed of light",
+        "Speed of the wind",
+        "Escape velocity of the Earth",
+        "Speed of sound in the surrounding air"
+      ],
+      "answer": 3,
+      "explanation": "Mach number = speed of the aircraft ÷ local speed of sound. Mach 1 means flying at the speed of sound.",
+      "source": "ai",
+      "archetype": "afcat-G07",
+      "verified": false
+    },
+    {
+      "id": "afcat-069",
+      "section": "ga",
+      "topic": "Basic Science",
+      "difficulty": "easy",
+      "question": "Which gas is commonly used in fire extinguishers because it does not support combustion?",
+      "options": [
+        "Carbon dioxide",
+        "Oxygen",
+        "Hydrogen",
+        "Nitrous oxide"
+      ],
+      "answer": 0,
+      "explanation": "Carbon dioxide is heavier than air and blankets the fire, cutting off the oxygen supply.",
+      "source": "ai",
+      "archetype": "afcat-G08",
+      "verified": false
+    },
+    {
+      "id": "afcat-070",
+      "section": "ga",
+      "topic": "Defence & Aviation",
+      "difficulty": "medium",
+      "question": "The headquarters of the Western Air Command of the Indian Air Force is at:",
+      "options": [
+        "Prayagraj",
+        "New Delhi",
+        "Shillong",
+        "Gandhinagar"
+      ],
+      "answer": 1,
+      "explanation": "Western Air Command is at Subroto Park, New Delhi. Prayagraj houses Central Air Command, Shillong Eastern Air Command and Gandhinagar South Western Air Command.",
+      "source": "ai",
+      "archetype": "afcat-G09",
+      "verified": false
+    },
+    {
+      "id": "afcat-071",
+      "section": "ga",
+      "topic": "Defence & Aviation",
+      "difficulty": "easy",
+      "question": "The Rafale fighter aircraft inducted into the Indian Air Force are manufactured by:",
+      "options": [
+        "Sukhoi",
+        "Lockheed Martin",
+        "Dassault Aviation",
+        "Hindustan Aeronautics Limited"
+      ],
+      "answer": 2,
+      "explanation": "Rafale is a French twin-engine multirole fighter made by Dassault Aviation.",
+      "source": "ai",
+      "archetype": "afcat-G10",
+      "verified": false
+    },
+    {
+      "id": "afcat-072",
+      "section": "ga",
+      "topic": "Defence & Aviation",
+      "difficulty": "medium",
+      "question": "'Garuda' is a bilateral air exercise between the Indian Air Force and the air force of:",
+      "options": [
+        "United States of America",
+        "United Kingdom",
+        "Russia",
+        "France"
+      ],
+      "answer": 3,
+      "explanation": "Garuda is the IAF–French Air and Space Force exercise. With the USA the IAF holds Cope India, with the UK Indradhanush and with Russia Avia Indra.",
+      "source": "ai",
+      "archetype": "afcat-G11",
+      "verified": false
+    },
+    {
+      "id": "afcat-073",
+      "section": "ga",
+      "topic": "Art & Culture",
+      "difficulty": "medium",
+      "question": "The Sun Temple at Konark was built by:",
+      "options": [
+        "Narasimhadeva I",
+        "Rajaraja Chola I",
+        "Krishnadevaraya",
+        "Harshavardhana"
+      ],
+      "answer": 0,
+      "explanation": "The Konark Sun Temple was built in the 13th century by Narasimhadeva I of the Eastern Ganga dynasty.",
+      "source": "ai",
+      "archetype": "afcat-G12",
+      "verified": false
+    },
+    {
+      "id": "afcat-074",
+      "section": "ga",
+      "topic": "Sports, Awards & Current Affairs",
+      "difficulty": "easy",
+      "question": "The Thomas Cup is associated with which sport?",
+      "options": [
+        "Tennis",
+        "Badminton",
+        "Table tennis",
+        "Golf"
+      ],
+      "answer": 1,
+      "explanation": "The Thomas Cup is the men's world team championship in badminton; India won it for the first time in 2022.",
+      "source": "ai",
+      "archetype": "afcat-G13",
+      "verified": false
+    },
+    {
+      "id": "afcat-075",
+      "section": "ga",
+      "topic": "Sports, Awards & Current Affairs",
+      "difficulty": "easy",
+      "question": "Which is the highest sporting honour of India?",
+      "options": [
+        "Arjuna Award",
+        "Dronacharya Award",
+        "Major Dhyan Chand Khel Ratna Award",
+        "Padma Shri"
+      ],
+      "answer": 2,
+      "explanation": "The Major Dhyan Chand Khel Ratna Award is India's highest sporting honour. The Arjuna Award is for outstanding performance and the Dronacharya Award for coaches.",
+      "source": "ai",
+      "archetype": "afcat-G13",
+      "verified": false
+    },
+    {
+      "id": "afcat-076",
+      "section": "english",
+      "topic": "Synonyms",
+      "difficulty": "easy",
+      "question": "Choose the word most nearly SAME in meaning to LUCID.",
+      "options": [
+        "Lazy",
+        "Lucky",
+        "Dull",
+        "Clear"
+      ],
+      "answer": 3,
+      "explanation": "Lucid means expressed clearly and easy to understand. 'Lucky' is only a look-alike.",
+      "source": "ai",
+      "archetype": "afcat-E01",
+      "verified": false
+    },
+    {
+      "id": "afcat-077",
+      "section": "english",
+      "topic": "Synonyms",
+      "difficulty": "easy",
+      "question": "Choose the word most nearly SAME in meaning to PROFICIENT.",
+      "options": [
+        "Skilled",
+        "Profitable",
+        "Careless",
+        "Proud"
+      ],
+      "answer": 0,
+      "explanation": "Proficient means competent or skilled. 'Profitable' is a look-alike distractor.",
+      "source": "ai",
+      "archetype": "afcat-E01",
+      "verified": false
+    },
+    {
+      "id": "afcat-078",
+      "section": "english",
+      "topic": "Synonyms",
+      "difficulty": "medium",
+      "question": "Choose the word most nearly SAME in meaning to ADVERSITY.",
+      "options": [
+        "Advantage",
+        "Hardship",
+        "Opponent",
+        "Publicity"
+      ],
+      "answer": 1,
+      "explanation": "Adversity means difficult or unpleasant circumstances, i.e. hardship. 'Opponent' relates to 'adversary', a different word.",
+      "source": "ai",
+      "archetype": "afcat-E01",
+      "verified": false
+    },
+    {
+      "id": "afcat-079",
+      "section": "english",
+      "topic": "Antonyms",
+      "difficulty": "easy",
+      "question": "Choose the word most nearly OPPOSITE in meaning to HOSTILE.",
+      "options": [
+        "Aggressive",
+        "Hidden",
+        "Friendly",
+        "Weak"
+      ],
+      "answer": 2,
+      "explanation": "Hostile means unfriendly or antagonistic; its opposite is friendly. Aggressive is a near-synonym.",
+      "source": "ai",
+      "archetype": "afcat-E02",
+      "verified": false
+    },
+    {
+      "id": "afcat-080",
+      "section": "english",
+      "topic": "Antonyms",
+      "difficulty": "easy",
+      "question": "Choose the word most nearly OPPOSITE in meaning to CONCEAL.",
+      "options": [
+        "Hide",
+        "Disguise",
+        "Mask",
+        "Reveal"
+      ],
+      "answer": 3,
+      "explanation": "Conceal means to hide; reveal is the opposite. The other three are synonyms.",
+      "source": "ai",
+      "archetype": "afcat-E02",
+      "verified": false
+    },
+    {
+      "id": "afcat-081",
+      "section": "english",
+      "topic": "Antonyms",
+      "difficulty": "medium",
+      "question": "Choose the word most nearly OPPOSITE in meaning to AUGMENT.",
+      "options": [
+        "Diminish",
+        "Increase",
+        "Enlarge",
+        "Boost"
+      ],
+      "answer": 0,
+      "explanation": "Augment means to increase; diminish means to make smaller.",
+      "source": "ai",
+      "archetype": "afcat-E02",
+      "verified": false
+    },
+    {
+      "id": "afcat-082",
+      "section": "english",
+      "topic": "Error Detection",
+      "difficulty": "easy",
+      "question": "Identify the part of the sentence that contains an error.\nThe news (A) / are too good (B) / to be true. (C) / No error (D)",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 1,
+      "explanation": "'News' is an uncountable noun and takes a singular verb: 'The news is too good to be true.'",
+      "source": "ai",
+      "archetype": "afcat-E03",
+      "verified": false
+    },
+    {
+      "id": "afcat-083",
+      "section": "english",
+      "topic": "Error Detection",
+      "difficulty": "easy",
+      "question": "Identify the part of the sentence that contains an error.\nShe was married (A) / with a doctor (B) / last year. (C) / No error (D)",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 1,
+      "explanation": "The correct preposition is 'married to', not 'married with'.",
+      "source": "ai",
+      "archetype": "afcat-E04",
+      "verified": false
+    },
+    {
+      "id": "afcat-084",
+      "section": "english",
+      "topic": "Error Detection",
+      "difficulty": "medium",
+      "question": "Identify the part of the sentence that contains an error.\nI have seen him (A) / yesterday (B) / at the airport. (C) / No error (D)",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 0,
+      "explanation": "A definite past time ('yesterday') needs the simple past: 'I saw him'. The present perfect cannot be used with it.",
+      "source": "ai",
+      "archetype": "afcat-E04",
+      "verified": false
+    },
+    {
+      "id": "afcat-085",
+      "section": "english",
+      "topic": "Sentence Completion",
+      "difficulty": "easy",
+      "question": "Fill in the blank: The inquiry board was asked to look ______ the cause of the engine failure.",
+      "options": [
+        "after",
+        "into",
+        "for",
+        "up"
+      ],
+      "answer": 1,
+      "explanation": "'Look into' means to investigate. 'Look after' means to take care of.",
+      "source": "ai",
+      "archetype": "afcat-E05",
+      "verified": false
+    },
+    {
+      "id": "afcat-086",
+      "section": "english",
+      "topic": "Sentence Completion",
+      "difficulty": "easy",
+      "question": "Fill in the blank: The air show was called ______ because of poor visibility.",
+      "options": [
+        "on",
+        "in",
+        "off",
+        "up"
+      ],
+      "answer": 2,
+      "explanation": "'Call off' means to cancel. 'Call on' means to visit and 'call up' to summon or telephone.",
+      "source": "ai",
+      "archetype": "afcat-E05",
+      "verified": false
+    },
+    {
+      "id": "afcat-087",
+      "section": "english",
+      "topic": "Sentence Completion",
+      "difficulty": "easy",
+      "question": "Fill in the blank: By the time the rescue team arrived, the fire ______ already been put out.",
+      "options": [
+        "has",
+        "have",
+        "was",
+        "had"
+      ],
+      "answer": 3,
+      "explanation": "An action completed before another past action takes the past perfect: 'had already been put out'.",
+      "source": "ai",
+      "archetype": "afcat-E06",
+      "verified": false
+    },
+    {
+      "id": "afcat-088",
+      "section": "english",
+      "topic": "Idioms & Phrases",
+      "difficulty": "easy",
+      "question": "Choose the correct meaning of the idiom: 'to burn the midnight oil'",
+      "options": [
+        "To work or study late into the night",
+        "To waste fuel",
+        "To celebrate late at night",
+        "To lose one's temper"
+      ],
+      "answer": 0,
+      "explanation": "The idiom means to stay up late working or studying.",
+      "source": "ai",
+      "archetype": "afcat-E07",
+      "verified": false
+    },
+    {
+      "id": "afcat-089",
+      "section": "english",
+      "topic": "Idioms & Phrases",
+      "difficulty": "easy",
+      "question": "Choose the correct meaning of the idiom: 'a cakewalk'",
+      "options": [
+        "A dance competition",
+        "An easy task",
+        "A difficult journey",
+        "A sweet reward"
+      ],
+      "answer": 1,
+      "explanation": "A cakewalk is something achieved very easily.",
+      "source": "ai",
+      "archetype": "afcat-E07",
+      "verified": false
+    },
+    {
+      "id": "afcat-090",
+      "section": "english",
+      "topic": "Idioms & Phrases",
+      "difficulty": "easy",
+      "question": "Choose the correct meaning of the idiom: 'to beat around the bush'",
+      "options": [
+        "To search a forest carefully",
+        "To punish someone severely",
+        "To avoid coming to the point",
+        "To work very hard"
+      ],
+      "answer": 2,
+      "explanation": "To beat around the bush is to talk indirectly and avoid the main issue.",
+      "source": "ai",
+      "archetype": "afcat-E07",
+      "verified": false
+    },
+    {
+      "id": "afcat-091",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n'Unmanned aerial vehicles, commonly called drones, were first developed mainly for military surveillance. Today they are increasingly used in disaster relief. After floods or earthquakes, roads are often blocked, and helicopters may be unavailable or too costly to deploy for every small task. Drones can quickly survey damaged areas, locate stranded people with thermal cameras and even deliver light packages of medicine. Their limited payload and battery life, however, mean that they support rather than replace conventional rescue teams.'\nAccording to the passage, drones are useful after disasters because they:",
+      "options": [
+        "can carry heavy relief material",
+        "have unlimited battery life",
+        "were originally designed for disaster relief",
+        "can quickly survey areas when roads are blocked"
+      ],
+      "answer": 3,
+      "explanation": "The passage says drones can quickly survey damaged areas when roads are blocked. It mentions their limited payload and battery life, and says they were first built for military surveillance.",
+      "source": "ai",
+      "archetype": "afcat-E08",
+      "verified": false
+    },
+    {
+      "id": "afcat-092",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n'Unmanned aerial vehicles, commonly called drones, were first developed mainly for military surveillance. Today they are increasingly used in disaster relief. After floods or earthquakes, roads are often blocked, and helicopters may be unavailable or too costly to deploy for every small task. Drones can quickly survey damaged areas, locate stranded people with thermal cameras and even deliver light packages of medicine. Their limited payload and battery life, however, mean that they support rather than replace conventional rescue teams.'\nWhich of the following best describes the author's view of drones in disaster relief?",
+      "options": [
+        "Useful aids that complement rescue teams",
+        "Complete replacements for helicopters and rescuers",
+        "Expensive gadgets with little practical value",
+        "Tools fit only for military use"
+      ],
+      "answer": 0,
+      "explanation": "The last sentence says drones 'support rather than replace conventional rescue teams'.",
+      "source": "ai",
+      "archetype": "afcat-E08",
+      "verified": false
+    },
+    {
+      "id": "afcat-093",
+      "section": "english",
+      "topic": "Cloze Test",
+      "difficulty": "medium",
+      "question": "Fill in the blank with the most appropriate word: Courage is not the absence of fear; it is the ______ to act in spite of it.",
+      "options": [
+        "refusal",
+        "ability",
+        "failure",
+        "reluctance"
+      ],
+      "answer": 1,
+      "explanation": "The sentence defines courage positively, as acting despite fear, so 'ability' fits. The other words give the opposite sense.",
+      "source": "ai",
+      "archetype": "afcat-E09",
+      "verified": false
+    },
+    {
+      "id": "afcat-094",
+      "section": "numerical",
+      "topic": "Percentage",
+      "difficulty": "easy",
+      "question": "A number is first increased by 20% and then decreased by 20%. The net change is:",
+      "options": [
+        "No change",
+        "4% increase",
+        "4% decrease",
+        "2% decrease"
+      ],
+      "answer": 2,
+      "explanation": "Net effect = 20 − 20 − (20 × 20)/100 = −4%, i.e. a 4% decrease (1.2 × 0.8 = 0.96).",
+      "source": "ai",
+      "archetype": "afcat-N01",
+      "verified": false
+    },
+    {
+      "id": "afcat-095",
+      "section": "numerical",
+      "topic": "Percentage",
+      "difficulty": "medium",
+      "question": "In an examination, 35% of the candidates failed in English, 25% failed in Mathematics and 10% failed in both. The percentage of candidates who passed in both subjects is:",
+      "options": [
+        "40%",
+        "60%",
+        "45%",
+        "50%"
+      ],
+      "answer": 3,
+      "explanation": "Failed in at least one = 35 + 25 − 10 = 50%. So 100 − 50 = 50% passed in both.",
+      "source": "ai",
+      "archetype": "afcat-N01",
+      "verified": false
+    },
+    {
+      "id": "afcat-096",
+      "section": "numerical",
+      "topic": "Profit & Loss",
+      "difficulty": "medium",
+      "question": "A shopkeeper marks a watch at ₹1,500 and allows a discount of 12%. He still gains 10%. The cost price of the watch is:",
+      "options": [
+        "₹1,200",
+        "₹1,188",
+        "₹1,250",
+        "₹1,320"
+      ],
+      "answer": 0,
+      "explanation": "SP = 0.88 × 1500 = ₹1,320. CP = 1320/1.1 = ₹1,200.",
+      "source": "ai",
+      "archetype": "afcat-N02",
+      "verified": false
+    },
+    {
+      "id": "afcat-097",
+      "section": "numerical",
+      "topic": "Ratio & Proportion",
+      "difficulty": "easy",
+      "question": "If 3A = 4B = 6C, then A : B : C is:",
+      "options": [
+        "3 : 4 : 6",
+        "4 : 3 : 2",
+        "2 : 3 : 4",
+        "6 : 4 : 3"
+      ],
+      "answer": 1,
+      "explanation": "Let 3A = 4B = 6C = 12. Then A = 4, B = 3 and C = 2.",
+      "source": "ai",
+      "archetype": "afcat-N03",
+      "verified": false
+    },
+    {
+      "id": "afcat-098",
+      "section": "numerical",
+      "topic": "Average",
+      "difficulty": "medium",
+      "question": "The average age of 30 cadets is 20 years. When the instructor's age is included, the average rises by 1 year. The instructor's age is:",
+      "options": [
+        "50 years",
+        "41 years",
+        "51 years",
+        "31 years"
+      ],
+      "answer": 2,
+      "explanation": "New total = 31 × 21 = 651; old total = 30 × 20 = 600. Instructor = 651 − 600 = 51 years.",
+      "source": "ai",
+      "archetype": "afcat-N04",
+      "verified": false
+    },
+    {
+      "id": "afcat-099",
+      "section": "numerical",
+      "topic": "Simple & Compound Interest",
+      "difficulty": "easy",
+      "question": "A sum of money doubles itself in 8 years at simple interest. The rate of interest per annum is:",
+      "options": [
+        "10%",
+        "8%",
+        "15%",
+        "12.5%"
+      ],
+      "answer": 3,
+      "explanation": "Interest = principal in 8 years, so R = 100/8 = 12.5% per annum.",
+      "source": "ai",
+      "archetype": "afcat-N05",
+      "verified": false
+    },
+    {
+      "id": "afcat-100",
+      "section": "numerical",
+      "topic": "Simple & Compound Interest",
+      "difficulty": "medium",
+      "question": "The compound interest on ₹8,000 at 5% per annum for 2 years, compounded annually, is:",
+      "options": [
+        "₹820",
+        "₹800",
+        "₹840",
+        "₹410"
+      ],
+      "answer": 0,
+      "explanation": "Amount = 8000 × 1.05² = 8000 × 1.1025 = ₹8,820, so CI = ₹820. Simple interest would be ₹800.",
+      "source": "ai",
+      "archetype": "afcat-N05",
+      "verified": false
+    },
+    {
+      "id": "afcat-101",
+      "section": "numerical",
+      "topic": "Time & Work",
+      "difficulty": "medium",
+      "question": "A and B together can finish a piece of work in 12 days, and A alone can finish it in 20 days. In how many days can B alone finish it?",
+      "options": [
+        "24 days",
+        "30 days",
+        "15 days",
+        "8 days"
+      ],
+      "answer": 1,
+      "explanation": "B's one-day work = 1/12 − 1/20 = (5 − 3)/60 = 1/30, so B needs 30 days.",
+      "source": "ai",
+      "archetype": "afcat-N06",
+      "verified": false
+    },
+    {
+      "id": "afcat-102",
+      "section": "numerical",
+      "topic": "Time, Speed & Distance",
+      "difficulty": "easy",
+      "question": "A train 240 m long crosses a pole in 12 seconds. Its speed is:",
+      "options": [
+        "60 km/h",
+        "20 km/h",
+        "72 km/h",
+        "80 km/h"
+      ],
+      "answer": 2,
+      "explanation": "Speed = 240/12 = 20 m/s = 20 × 18/5 = 72 km/h.",
+      "source": "ai",
+      "archetype": "afcat-N07",
+      "verified": false
+    },
+    {
+      "id": "afcat-103",
+      "section": "numerical",
+      "topic": "Time, Speed & Distance",
+      "difficulty": "medium",
+      "question": "Two trains, 150 m and 100 m long, run on parallel tracks in opposite directions at 40 km/h and 50 km/h. The time they take to cross each other is:",
+      "options": [
+        "12 seconds",
+        "9 seconds",
+        "18 seconds",
+        "10 seconds"
+      ],
+      "answer": 3,
+      "explanation": "Relative speed = 90 km/h = 25 m/s. Distance = 150 + 100 = 250 m. Time = 250/25 = 10 s.",
+      "source": "ai",
+      "archetype": "afcat-N07",
+      "verified": false
+    },
+    {
+      "id": "afcat-104",
+      "section": "numerical",
+      "topic": "Simplification & Decimal Fractions",
+      "difficulty": "easy",
+      "question": "The value of (0.6 × 0.6 − 0.4 × 0.4)/(0.6 − 0.4) is:",
+      "options": [
+        "1",
+        "0.2",
+        "0.5",
+        "2"
+      ],
+      "answer": 0,
+      "explanation": "(a² − b²)/(a − b) = a + b = 0.6 + 0.4 = 1.",
+      "source": "ai",
+      "archetype": "afcat-N08",
+      "verified": false
+    },
+    {
+      "id": "afcat-105",
+      "section": "numerical",
+      "topic": "Number System",
+      "difficulty": "easy",
+      "question": "The largest four-digit number exactly divisible by 88 is:",
+      "options": [
+        "9988",
+        "9944",
+        "9900",
+        "9856"
+      ],
+      "answer": 1,
+      "explanation": "9999 ÷ 88 = 113 remainder 55, so 9999 − 55 = 9944 = 88 × 113. (9856 is divisible but smaller.)",
+      "source": "ai",
+      "archetype": "afcat-N09",
+      "verified": false
+    },
+    {
+      "id": "afcat-106",
+      "section": "reasoning",
+      "topic": "Verbal Analogy",
+      "difficulty": "easy",
+      "question": "Pilot : Aircraft :: Helmsman : ?",
+      "options": [
+        "Car",
+        "Train",
+        "Ship",
+        "Rocket"
+      ],
+      "answer": 2,
+      "explanation": "A pilot steers an aircraft; a helmsman steers a ship.",
+      "source": "ai",
+      "archetype": "afcat-R01",
+      "verified": false
+    },
+    {
+      "id": "afcat-107",
+      "section": "reasoning",
+      "topic": "Verbal Analogy",
+      "difficulty": "easy",
+      "question": "8 : 512 :: 6 : ?",
+      "options": [
+        "36",
+        "196",
+        "256",
+        "216"
+      ],
+      "answer": 3,
+      "explanation": "512 = 8³, so the answer is 6³ = 216.",
+      "source": "ai",
+      "archetype": "afcat-R02",
+      "verified": false
+    },
+    {
+      "id": "afcat-108",
+      "section": "reasoning",
+      "topic": "Classification (Odd One Out)",
+      "difficulty": "easy",
+      "question": "Find the odd one out:",
+      "options": [
+        "Tejas",
+        "Chinook",
+        "Apache",
+        "Prachand"
+      ],
+      "answer": 0,
+      "explanation": "Chinook, Apache and Prachand are helicopters in Indian service; Tejas is a fixed-wing fighter aircraft.",
+      "source": "ai",
+      "archetype": "afcat-R03",
+      "verified": false
+    },
+    {
+      "id": "afcat-109",
+      "section": "reasoning",
+      "topic": "Classification (Odd One Out)",
+      "difficulty": "easy",
+      "question": "Find the odd one out:",
+      "options": [
+        "17",
+        "33",
+        "23",
+        "29"
+      ],
+      "answer": 1,
+      "explanation": "17, 23 and 29 are prime numbers; 33 = 3 × 11 is not.",
+      "source": "ai",
+      "archetype": "afcat-R03",
+      "verified": false
+    },
+    {
+      "id": "afcat-110",
+      "section": "reasoning",
+      "topic": "Number & Letter Series",
+      "difficulty": "easy",
+      "question": "Find the next number in the series: 3, 7, 15, 31, 63, ?",
+      "options": [
+        "125",
+        "126",
+        "127",
+        "129"
+      ],
+      "answer": 2,
+      "explanation": "Each term is twice the previous term plus 1: 63 × 2 + 1 = 127.",
+      "source": "ai",
+      "archetype": "afcat-R04",
+      "verified": false
+    },
+    {
+      "id": "afcat-111",
+      "section": "reasoning",
+      "topic": "Number & Letter Series",
+      "difficulty": "medium",
+      "question": "Find the next number in the series: 2, 3, 5, 9, 17, ?",
+      "options": [
+        "31",
+        "34",
+        "32",
+        "33"
+      ],
+      "answer": 3,
+      "explanation": "The differences are 1, 2, 4, 8, so the next difference is 16: 17 + 16 = 33.",
+      "source": "ai",
+      "archetype": "afcat-R04",
+      "verified": false
+    },
+    {
+      "id": "afcat-112",
+      "section": "reasoning",
+      "topic": "Number & Letter Series",
+      "difficulty": "easy",
+      "question": "Find the next term in the series: AZ, BY, CX, DW, ?",
+      "options": [
+        "EV",
+        "EU",
+        "FV",
+        "EW"
+      ],
+      "answer": 0,
+      "explanation": "The first letter moves forward (A, B, C, D, E) and the second moves backward (Z, Y, X, W, V).",
+      "source": "ai",
+      "archetype": "afcat-R05",
+      "verified": false
+    },
+    {
+      "id": "afcat-113",
+      "section": "reasoning",
+      "topic": "Coding-Decoding",
+      "difficulty": "easy",
+      "question": "If PLANE is coded as QMBOF, how is JET coded in the same language?",
+      "options": [
+        "KDU",
+        "KFU",
+        "IFS",
+        "LFU"
+      ],
+      "answer": 1,
+      "explanation": "Each letter is shifted one place forward: J → K, E → F, T → U.",
+      "source": "ai",
+      "archetype": "afcat-R06",
+      "verified": false
+    },
+    {
+      "id": "afcat-114",
+      "section": "reasoning",
+      "topic": "Coding-Decoding",
+      "difficulty": "medium",
+      "question": "In a certain code, BAD = 14 and CAB = 12. Following the same rule, FLY = ?",
+      "options": [
+        "43",
+        "84",
+        "86",
+        "88"
+      ],
+      "answer": 2,
+      "explanation": "The code is twice the sum of the alphabet positions: BAD = 2(2 + 1 + 4) = 14, CAB = 2(3 + 1 + 2) = 12, so FLY = 2(6 + 12 + 25) = 86.",
+      "source": "ai",
+      "archetype": "afcat-R07",
+      "verified": false
+    },
+    {
+      "id": "afcat-115",
+      "section": "reasoning",
+      "topic": "Direction & Blood Relations",
+      "difficulty": "medium",
+      "question": "A man walks 10 m towards the south, turns left and walks 6 m, then turns left again and walks 2 m. How far is he from his starting point and in which direction?",
+      "options": [
+        "8 m, South",
+        "10 m, North-East",
+        "14 m, South-East",
+        "10 m, South-East"
+      ],
+      "answer": 3,
+      "explanation": "Facing south, a left turn means east; facing east, a left turn means north. He ends 6 m east and 10 − 2 = 8 m south of the start. Distance = √(6² + 8²) = 10 m, towards the south-east.",
+      "source": "ai",
+      "archetype": "afcat-R08",
+      "verified": false
+    },
+    {
+      "id": "afcat-116",
+      "section": "reasoning",
+      "topic": "Direction & Blood Relations",
+      "difficulty": "medium",
+      "question": "A is the brother of B. B is the daughter of C. D is the father of C. How is A related to D?",
+      "options": [
+        "Grandson",
+        "Son",
+        "Nephew",
+        "Brother-in-law"
+      ],
+      "answer": 0,
+      "explanation": "A, the brother of C's daughter, is C's son. D is C's father, so A is D's grandson.",
+      "source": "ai",
+      "archetype": "afcat-R09",
+      "verified": false
+    },
+    {
+      "id": "afcat-117",
+      "section": "reasoning",
+      "topic": "Arrangement & Ranking",
+      "difficulty": "easy",
+      "question": "In a class of 45 students, Mohan is 18th from the top. What is his position from the bottom?",
+      "options": [
+        "27th",
+        "28th",
+        "29th",
+        "26th"
+      ],
+      "answer": 1,
+      "explanation": "Position from bottom = total − position from top + 1 = 45 − 18 + 1 = 28.",
+      "source": "ai",
+      "archetype": "afcat-R10",
+      "verified": false
+    },
+    {
+      "id": "afcat-118",
+      "section": "reasoning",
+      "topic": "Arrangement & Ranking",
+      "difficulty": "medium",
+      "question": "Six cadets A, B, C, D, E and F sit around a circular table facing the centre. B is to the immediate right of A. C sits opposite A. D sits between B and C. E is to the immediate left of A. Who sits opposite B?",
+      "options": [
+        "E",
+        "D",
+        "F",
+        "C"
+      ],
+      "answer": 2,
+      "explanation": "Going round from A towards its right: A, B, D, C, then the remaining seat, then E (immediate left of A). The remaining seat must be F, and it is the third seat from B, i.e. opposite B.",
+      "source": "ai",
+      "archetype": "afcat-R11",
+      "verified": false
+    },
+    {
+      "id": "afcat-119",
+      "section": "reasoning",
+      "topic": "Spatial & Non-verbal Reasoning",
+      "difficulty": "medium",
+      "question": "A cube painted red on all its faces is cut into 27 identical smaller cubes. How many of the smaller cubes have exactly two faces painted?",
+      "options": [
+        "8",
+        "6",
+        "1",
+        "12"
+      ],
+      "answer": 3,
+      "explanation": "For a 3 × 3 × 3 cut, cubes with two painted faces lie on the edges (one per edge, excluding corners): 12 edges × (3 − 2) = 12. The 8 corner cubes have three painted faces.",
+      "source": "ai",
+      "archetype": "afcat-R12",
+      "verified": false
+    },
+    {
+      "id": "afcat-120",
+      "section": "reasoning",
+      "topic": "Spatial & Non-verbal Reasoning",
+      "difficulty": "medium",
+      "question": "A clock shows the time 3:40. What time will its image in a plane mirror show?",
+      "options": [
+        "8:20",
+        "9:20",
+        "8:40",
+        "7:20"
+      ],
+      "answer": 0,
+      "explanation": "Mirror time = 11:60 − actual time = 11:60 − 3:40 = 8:20.",
+      "source": "ai",
+      "archetype": "afcat-R13",
+      "verified": false
     }
   ]
 }

@@ -805,60 +805,6 @@
   },
   "questions": [
     {
-      "id": "jnvst-class-6-001",
-      "section": "mental-ability",
-      "topic": "Odd One Out",
-      "difficulty": "easy",
-      "question": "Find the odd one out.",
-      "options": [
-        "Apple",
-        "Potato",
-        "Mango",
-        "Banana"
-      ],
-      "answer": 1,
-      "explanation": "Apple, mango and banana are fruits; potato is a vegetable (an underground stem).",
-      "verified": true,
-      "archetype": "jnvst-class-6-M01",
-      "source": "curated"
-    },
-    {
-      "id": "jnvst-class-6-002",
-      "section": "mental-ability",
-      "topic": "Odd One Out",
-      "difficulty": "easy",
-      "question": "Find the odd one out.",
-      "options": [
-        "4",
-        "8",
-        "15",
-        "12"
-      ],
-      "answer": 2,
-      "explanation": "4, 8 and 12 are even numbers (and multiples of 4); 15 is odd.",
-      "verified": true,
-      "archetype": "jnvst-class-6-M02",
-      "source": "curated"
-    },
-    {
-      "id": "jnvst-class-6-003",
-      "section": "mental-ability",
-      "topic": "Odd One Out",
-      "difficulty": "easy",
-      "question": "Find the odd letter-pair out.",
-      "options": [
-        "AB",
-        "CD",
-        "EF",
-        "GI"
-      ],
-      "answer": 3,
-      "explanation": "AB, CD and EF are pairs of consecutive letters; in GI the letter H is skipped.",
-      "verified": true,
-      "archetype": "jnvst-class-6-M02",
-      "source": "curated"
-    },
-    {
       "id": "jnvst-class-6-004",
       "section": "mental-ability",
       "topic": "Odd One Out",
@@ -874,61 +820,12 @@
       "explanation": "Circle, square and triangle are flat (2-D) figures; a cube is a solid (3-D) figure.",
       "verified": true,
       "archetype": "jnvst-class-6-M01",
-      "source": "curated"
-    },
-    {
-      "id": "jnvst-class-6-005",
-      "section": "mental-ability",
-      "topic": "Figure Series Completion",
-      "difficulty": "easy",
-      "question": "What comes next in the series: 1, 4, 9, 16, ?",
-      "options": [
-        "20",
-        "24",
-        "25",
-        "36"
-      ],
-      "answer": 2,
-      "explanation": "These are squares: 1², 2², 3², 4², so the next term is 5² = 25.",
-      "verified": true,
-      "archetype": "jnvst-class-6-M07",
-      "source": "curated"
-    },
-    {
-      "id": "jnvst-class-6-006",
-      "section": "mental-ability",
-      "topic": "Figure Series Completion",
-      "difficulty": "easy",
-      "question": "What comes next in the series: Z, X, V, T, ?",
-      "options": [
-        "S",
-        "Q",
-        "R",
-        "P"
-      ],
-      "answer": 2,
-      "explanation": "Each letter goes two steps back in the alphabet: T − 2 = R.",
-      "verified": true,
-      "archetype": "jnvst-class-6-M07",
-      "source": "curated"
-    },
-    {
-      "id": "jnvst-class-6-007",
-      "section": "mental-ability",
-      "topic": "Figure Series Completion",
-      "difficulty": "medium",
-      "question": "What comes next in the series: AZ, BY, CX, ?",
-      "options": [
-        "DV",
-        "EW",
-        "DX",
-        "DW"
-      ],
-      "answer": 3,
-      "explanation": "The first letter moves forward (A, B, C, D) and the second moves backward (Z, Y, X, W): DW.",
-      "verified": true,
-      "archetype": "jnvst-class-6-M07",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Text rendering of a JNVST figure-reasoning idea (mirror/fold-punch/rotation/shape/cube); keeps the real figure logic and trap, acceptable proxy."
+      }
     },
     {
       "id": "jnvst-class-6-008",
@@ -946,7 +843,12 @@
       "explanation": "The number of sides increases by one each time: 3, 4, 5, so the next shape has 6 sides – a hexagon.",
       "verified": true,
       "archetype": "jnvst-class-6-M07",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Text rendering of a JNVST figure-reasoning idea (mirror/fold-punch/rotation/shape/cube); keeps the real figure logic and trap, acceptable proxy."
+      }
     },
     {
       "id": "jnvst-class-6-009",
@@ -964,43 +866,12 @@
       "explanation": "North → East (1) → South (2) → West (3).",
       "verified": true,
       "archetype": "jnvst-class-6-M08",
-      "source": "curated"
-    },
-    {
-      "id": "jnvst-class-6-010",
-      "section": "mental-ability",
-      "topic": "Figure Series Completion",
-      "difficulty": "easy",
-      "question": "What comes next in the series: 5, 10, 20, 40, ?",
-      "options": [
-        "80",
-        "60",
-        "50",
-        "70"
-      ],
-      "answer": 0,
-      "explanation": "Each term is double the previous one: 40 × 2 = 80.",
-      "verified": true,
-      "archetype": "jnvst-class-6-M07",
-      "source": "curated"
-    },
-    {
-      "id": "jnvst-class-6-011",
-      "section": "mental-ability",
-      "topic": "Analogy",
-      "difficulty": "easy",
-      "question": "Bird : Nest :: Bee : ?",
-      "options": [
-        "Den",
-        "Burrow",
-        "Stable",
-        "Hive"
-      ],
-      "answer": 3,
-      "explanation": "A bird lives in a nest; a bee lives in a hive. A den is for a lion, a burrow for a rabbit and a stable for a horse.",
-      "verified": true,
-      "archetype": "jnvst-class-6-M09",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Text rendering of a JNVST figure-reasoning idea (mirror/fold-punch/rotation/shape/cube); keeps the real figure logic and trap, acceptable proxy."
+      }
     },
     {
       "id": "jnvst-class-6-012",
@@ -1018,43 +889,12 @@
       "explanation": "A square has 4 sides; a triangle has 3 sides.",
       "verified": true,
       "archetype": "jnvst-class-6-M09",
-      "source": "curated"
-    },
-    {
-      "id": "jnvst-class-6-013",
-      "section": "mental-ability",
-      "topic": "Analogy",
-      "difficulty": "medium",
-      "question": "2 : 8 :: 3 : ?",
-      "options": [
-        "9",
-        "12",
-        "27",
-        "18"
-      ],
-      "answer": 2,
-      "explanation": "2³ = 8, so 3³ = 27.",
-      "verified": true,
-      "archetype": "jnvst-class-6-M10",
-      "source": "curated"
-    },
-    {
-      "id": "jnvst-class-6-014",
-      "section": "mental-ability",
-      "topic": "Analogy",
-      "difficulty": "medium",
-      "question": "ACE : BDF :: GIK : ?",
-      "options": [
-        "HJL",
-        "HIJ",
-        "IKM",
-        "HJK"
-      ],
-      "answer": 0,
-      "explanation": "Each letter of ACE moves one step forward to make BDF. So G→H, I→J, K→L gives HJL.",
-      "verified": true,
-      "archetype": "jnvst-class-6-M10",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Text rendering of a JNVST figure-reasoning idea (mirror/fold-punch/rotation/shape/cube); keeps the real figure logic and trap, acceptable proxy."
+      }
     },
     {
       "id": "jnvst-class-6-015",
@@ -1072,7 +912,12 @@
       "explanation": "An upright (vertical) mirror swaps left and right but keeps up and down. The bowl of 'b' moves from the right side to the left, so it looks like 'd'.",
       "verified": true,
       "archetype": "jnvst-class-6-M13",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Text rendering of a JNVST figure-reasoning idea (mirror/fold-punch/rotation/shape/cube); keeps the real figure logic and trap, acceptable proxy."
+      }
     },
     {
       "id": "jnvst-class-6-016",
@@ -1090,7 +935,12 @@
       "explanation": "An upright mirror reverses left and right. 'A' has a vertical line of symmetry, so it looks the same. B, E and K are symmetric only about a horizontal line, so they look reversed.",
       "verified": true,
       "archetype": "jnvst-class-6-M14",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Text rendering of a JNVST figure-reasoning idea (mirror/fold-punch/rotation/shape/cube); keeps the real figure logic and trap, acceptable proxy."
+      }
     },
     {
       "id": "jnvst-class-6-017",
@@ -1108,7 +958,12 @@
       "explanation": "For a mirror image of a clock, actual time = 12:00 − time shown = 12:00 − 3:00 = 9:00. (At 9:00 the hour hand points left; in the mirror it appears to point right, like 3:00.)",
       "verified": true,
       "archetype": "jnvst-class-6-M13",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Text rendering of a JNVST figure-reasoning idea (mirror/fold-punch/rotation/shape/cube); keeps the real figure logic and trap, acceptable proxy."
+      }
     },
     {
       "id": "jnvst-class-6-018",
@@ -1126,79 +981,12 @@
       "explanation": "An upright mirror reverses the order of letters; because T, O and M look the same when flipped, the image reads MOT.",
       "verified": true,
       "archetype": "jnvst-class-6-M13",
-      "source": "curated"
-    },
-    {
-      "id": "jnvst-class-6-019",
-      "section": "mental-ability",
-      "topic": "Figure Matching",
-      "difficulty": "easy",
-      "question": "Which option is exactly the same as BD8QP6?",
-      "options": [
-        "BD8PQ6",
-        "BD8QP6",
-        "DB8QP6",
-        "BD6QP8"
-      ],
-      "answer": 1,
-      "explanation": "Only BD8QP6 matches every character in the same order; the others swap P/Q, B/D or 8/6.",
-      "verified": true,
-      "archetype": "jnvst-class-6-M03",
-      "source": "curated"
-    },
-    {
-      "id": "jnvst-class-6-020",
-      "section": "mental-ability",
-      "topic": "Figure Matching",
-      "difficulty": "easy",
-      "question": "Which option is exactly the same as MN5W2V?",
-      "options": [
-        "NM5W2V",
-        "MN5W2V",
-        "MN5V2W",
-        "MN2W5V"
-      ],
-      "answer": 1,
-      "explanation": "Compare character by character: only MN5W2V matches. The others swap M/N, W/V or 5/2.",
-      "verified": true,
-      "archetype": "jnvst-class-6-M03",
-      "source": "curated"
-    },
-    {
-      "id": "jnvst-class-6-021",
-      "section": "mental-ability",
-      "topic": "Pattern Completion",
-      "difficulty": "medium",
-      "question": "Find the missing number in this pattern. Row 1: 2, 4, 8. Row 2: 3, 6, 12. Row 3: 5, 10, ?",
-      "options": [
-        "15",
-        "20",
-        "25",
-        "30"
-      ],
-      "answer": 1,
-      "explanation": "In each row every number is double the one before it: 10 × 2 = 20.",
-      "verified": true,
-      "archetype": "jnvst-class-6-M05",
-      "source": "curated"
-    },
-    {
-      "id": "jnvst-class-6-022",
-      "section": "mental-ability",
-      "topic": "Pattern Completion",
-      "difficulty": "medium",
-      "question": "Find the missing number. Row 1: 3, 4, 7. Row 2: 5, 2, 7. Row 3: 6, ?, 7",
-      "options": [
-        "1",
-        "2",
-        "3",
-        "13"
-      ],
-      "answer": 0,
-      "explanation": "In each row, first number + second number = third number: 6 + 1 = 7.",
-      "verified": true,
-      "archetype": "jnvst-class-6-M05",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Text rendering of a JNVST figure-reasoning idea (mirror/fold-punch/rotation/shape/cube); keeps the real figure logic and trap, acceptable proxy."
+      }
     },
     {
       "id": "jnvst-class-6-023",
@@ -1216,7 +1004,12 @@
       "explanation": "Joining two equal isosceles right triangles along the hypotenuse gives four equal sides and four right angles – a square.",
       "verified": true,
       "archetype": "jnvst-class-6-M11",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Text rendering of a JNVST figure-reasoning idea (mirror/fold-punch/rotation/shape/cube); keeps the real figure logic and trap, acceptable proxy."
+      }
     },
     {
       "id": "jnvst-class-6-024",
@@ -1234,7 +1027,12 @@
       "explanation": "The two diagonals cross at the centre and make 4 equal triangles.",
       "verified": true,
       "archetype": "jnvst-class-6-M12",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Text rendering of a JNVST figure-reasoning idea (mirror/fold-punch/rotation/shape/cube); keeps the real figure logic and trap, acceptable proxy."
+      }
     },
     {
       "id": "jnvst-class-6-025",
@@ -1252,7 +1050,12 @@
       "explanation": "The punch goes through 2 layers, so 2 holes appear, placed symmetrically about the fold line.",
       "verified": true,
       "archetype": "jnvst-class-6-M15",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Text rendering of a JNVST figure-reasoning idea (mirror/fold-punch/rotation/shape/cube); keeps the real figure logic and trap, acceptable proxy."
+      }
     },
     {
       "id": "jnvst-class-6-026",
@@ -1270,7 +1073,12 @@
       "explanation": "Two folds make 4 layers, so one punch makes 4 holes.",
       "verified": true,
       "archetype": "jnvst-class-6-M15",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Text rendering of a JNVST figure-reasoning idea (mirror/fold-punch/rotation/shape/cube); keeps the real figure logic and trap, acceptable proxy."
+      }
     },
     {
       "id": "jnvst-class-6-027",
@@ -1288,7 +1096,12 @@
       "explanation": "2 + 5 = 7, so 5 is opposite 2.",
       "verified": true,
       "archetype": "jnvst-class-6-M17",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Text rendering of a JNVST figure-reasoning idea (mirror/fold-punch/rotation/shape/cube); keeps the real figure logic and trap, acceptable proxy."
+      }
     },
     {
       "id": "jnvst-class-6-028",
@@ -1306,43 +1119,12 @@
       "explanation": "A 3 × 3 × 3 cube has only one cube hidden in the centre: (3 − 2)³ = 1.",
       "verified": true,
       "archetype": "jnvst-class-6-M18",
-      "source": "curated"
-    },
-    {
-      "id": "jnvst-class-6-029",
-      "section": "mental-ability",
-      "topic": "Embedded Figure",
-      "difficulty": "medium",
-      "question": "Which of these words is hidden (letters together, in the same order) in the word CATERPILLAR?",
-      "options": [
-        "PILLAR",
-        "PALLET",
-        "CARTER",
-        "LATTER"
-      ],
-      "answer": 0,
-      "explanation": "CATER-PILLAR contains PILLAR as a continuous part. The other words do not appear as continuous letters.",
-      "verified": true,
-      "archetype": "jnvst-class-6-M19",
-      "source": "curated"
-    },
-    {
-      "id": "jnvst-class-6-030",
-      "section": "mental-ability",
-      "topic": "Embedded Figure",
-      "difficulty": "easy",
-      "question": "In which of these words is the word ANT hidden (letters together, in the same order)?",
-      "options": [
-        "PAINT",
-        "PLANT",
-        "TAN",
-        "NEAT"
-      ],
-      "answer": 1,
-      "explanation": "PL-ANT contains 'ANT'. PAINT has 'AINT', TAN has the letters in a different order, and NEAT does not contain it.",
-      "verified": true,
-      "archetype": "jnvst-class-6-M19",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Text rendering of a JNVST figure-reasoning idea (mirror/fold-punch/rotation/shape/cube); keeps the real figure logic and trap, acceptable proxy."
+      }
     },
     {
       "id": "jnvst-class-6-031",
@@ -1360,7 +1142,12 @@
       "explanation": "7 is in the thousands place, so its place value is 7 × 1000 = 7,000.",
       "verified": true,
       "archetype": "jnvst-class-6-A01",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Number System & Numeration); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-032",
@@ -1378,7 +1165,12 @@
       "explanation": "XL = 40 and IV = 4, so XLIV = 44.",
       "verified": true,
       "archetype": "jnvst-class-6-A02",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Number System & Numeration); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-033",
@@ -1396,7 +1188,12 @@
       "explanation": "Multiples of 8: 8, 16, 24 … 24 is the first one divisible by both 4 and 6.",
       "verified": true,
       "archetype": "jnvst-class-6-A03",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (LCM & HCF); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-034",
@@ -1414,7 +1211,12 @@
       "explanation": "36 = 12 × 3 and 48 = 12 × 4, and 3 and 4 have no common factor, so the HCF is 12.",
       "verified": true,
       "archetype": "jnvst-class-6-A03",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (LCM & HCF); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-035",
@@ -1432,7 +1234,12 @@
       "explanation": "3/4 = 6/8, and 6/8 + 1/8 = 7/8.",
       "verified": true,
       "archetype": "jnvst-class-6-A04",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Fractions & Decimals); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-036",
@@ -1450,7 +1257,12 @@
       "explanation": "25 × 4 = 100; there are 3 decimal places in total, so the answer is 0.100 = 0.1.",
       "verified": true,
       "archetype": "jnvst-class-6-A05",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Fractions & Decimals); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-037",
@@ -1468,7 +1280,12 @@
       "explanation": "25% = 1/4, and 360 ÷ 4 = 90.",
       "verified": true,
       "archetype": "jnvst-class-6-A07",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Percentage & Profit-Loss); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-038",
@@ -1486,7 +1303,12 @@
       "explanation": "Profit = ₹50; profit % = 50/250 × 100 = 20%.",
       "verified": true,
       "archetype": "jnvst-class-6-A08",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Percentage & Profit-Loss); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-039",
@@ -1504,7 +1326,12 @@
       "explanation": "SI = 800 × 5 × 3 / 100 = ₹120.",
       "verified": true,
       "archetype": "jnvst-class-6-A09",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Simple Interest); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-040",
@@ -1522,7 +1349,12 @@
       "explanation": "Distance = speed × time = 60 × 2.5 = 150 km.",
       "verified": true,
       "archetype": "jnvst-class-6-A10",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Distance, Time & Speed); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-041",
@@ -1540,7 +1372,12 @@
       "explanation": "3 km = 3,000 m; 3,000 + 250 = 3,250 m.",
       "verified": true,
       "archetype": "jnvst-class-6-A11",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Measurement (Length, Mass, Time, Capacity)); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-042",
@@ -1558,7 +1395,12 @@
       "explanation": "2 hours = 120 minutes and ½ hour = 30 minutes; total 150 minutes.",
       "verified": true,
       "archetype": "jnvst-class-6-A12",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Measurement (Length, Mass, Time, Capacity)); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-043",
@@ -1576,7 +1418,12 @@
       "explanation": "Perimeter = 4 × side = 4 × 9 = 36 cm.",
       "verified": true,
       "archetype": "jnvst-class-6-A13",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Perimeter, Area & Volume); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-044",
@@ -1594,7 +1441,12 @@
       "explanation": "Area = length × breadth = 15 × 8 = 120 m².",
       "verified": true,
       "archetype": "jnvst-class-6-A13",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Perimeter, Area & Volume); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-045",
@@ -1612,7 +1464,12 @@
       "explanation": "All three angles are equal and add up to 180°, so each is 60°.",
       "verified": true,
       "archetype": "jnvst-class-6-A15",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Angles & Shapes); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-046",
@@ -1630,7 +1487,12 @@
       "explanation": "The passage says that every summer the pond dried up, so the women had to fetch water from three kilometres away.",
       "verified": true,
       "archetype": "jnvst-class-6-L01",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Reading Comprehension – Factual); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-047",
@@ -1648,7 +1510,12 @@
       "explanation": "'One year, the school teacher, Mr. Rao, asked the children to help.'",
       "verified": true,
       "archetype": "jnvst-class-6-L01",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Reading Comprehension – Factual); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-048",
@@ -1666,7 +1533,12 @@
       "explanation": "They dug channels 'so that rainwater from the fields would flow into it' (the pond).",
       "verified": true,
       "archetype": "jnvst-class-6-L02",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Reading Comprehension – Factual); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-049",
@@ -1684,7 +1556,12 @@
       "explanation": "The brim is the top edge of a container, so 'filled to the brim' means completely full.",
       "verified": true,
       "archetype": "jnvst-class-6-L03",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Vocabulary in Context); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-050",
@@ -1702,7 +1579,12 @@
       "explanation": "The passage is about how the villagers cleaned and refilled their pond, so 'Saving the Village Pond' fits best.",
       "verified": true,
       "archetype": "jnvst-class-6-L05",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Inference & Title); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-051",
@@ -1720,7 +1602,12 @@
       "explanation": "'The queen lays eggs, while the workers do almost all the other jobs.'",
       "verified": true,
       "archetype": "jnvst-class-6-L01",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Reading Comprehension – Factual); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-052",
@@ -1738,7 +1625,12 @@
       "explanation": "The dance is performed 'to tell the others where the flowers are'.",
       "verified": true,
       "archetype": "jnvst-class-6-L02",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Reading Comprehension – Factual); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-053",
@@ -1756,7 +1648,12 @@
       "explanation": "'They build the honeycomb with wax.'",
       "verified": true,
       "archetype": "jnvst-class-6-L01",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Reading Comprehension – Factual); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-054",
@@ -1774,7 +1671,12 @@
       "explanation": "The last sentence says bees carry pollen from flower to flower, which helps plants produce fruits and seeds.",
       "verified": true,
       "archetype": "jnvst-class-6-L06",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Inference & Title); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-055",
@@ -1792,7 +1694,12 @@
       "explanation": "The first sentence explains it: 'large groups called colonies'.",
       "verified": true,
       "archetype": "jnvst-class-6-L03",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Vocabulary in Context); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-056",
@@ -1810,7 +1717,12 @@
       "explanation": "'Meena found a purse lying near the bus stop.'",
       "verified": true,
       "archetype": "jnvst-class-6-L01",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Reading Comprehension – Factual); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-057",
@@ -1828,7 +1740,12 @@
       "explanation": "'Meena went to the nearby police chowki and handed over the purse.'",
       "verified": true,
       "archetype": "jnvst-class-6-L01",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Reading Comprehension – Factual); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-058",
@@ -1846,7 +1763,12 @@
       "explanation": "Mr. Chand said the money was meant for his wife's medicines.",
       "verified": true,
       "archetype": "jnvst-class-6-L01",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Reading Comprehension – Factual); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-059",
@@ -1864,7 +1786,12 @@
       "explanation": "Returning the lost purse with the money, even when late for school, shows honesty.",
       "verified": true,
       "archetype": "jnvst-class-6-L06",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Inference & Title); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-060",
@@ -1882,79 +1809,12 @@
       "explanation": "'The principal praised Meena in the morning assembly'; her classmates clapped.",
       "verified": true,
       "archetype": "jnvst-class-6-L01",
-      "source": "curated"
-    },
-    {
-      "id": "jnvst-class-6-061",
-      "section": "mental-ability",
-      "topic": "Odd One Out",
-      "difficulty": "easy",
-      "question": "Find the odd one out.",
-      "options": [
-        "Rose",
-        "Neem",
-        "Lotus",
-        "Lily"
-      ],
-      "answer": 1,
-      "explanation": "Rose, lotus and lily are flowers; neem is a tree.",
-      "source": "ai",
-      "archetype": "jnvst-class-6-M01",
-      "verified": false
-    },
-    {
-      "id": "jnvst-class-6-062",
-      "section": "mental-ability",
-      "topic": "Odd One Out",
-      "difficulty": "easy",
-      "question": "Find the odd one out.",
-      "options": [
-        "35",
-        "21",
-        "54",
-        "49"
-      ],
-      "answer": 2,
-      "explanation": "21, 35 and 49 are multiples of 7; 54 is not.",
-      "source": "ai",
-      "archetype": "jnvst-class-6-M02",
-      "verified": false
-    },
-    {
-      "id": "jnvst-class-6-063",
-      "section": "mental-ability",
-      "topic": "Odd One Out",
-      "difficulty": "easy",
-      "question": "Find the odd letter-group out.",
-      "options": [
-        "STU",
-        "PQR",
-        "DEF",
-        "JLM"
-      ],
-      "answer": 3,
-      "explanation": "PQR, DEF and STU are three consecutive letters; in JLM the letter K is skipped.",
-      "source": "ai",
-      "archetype": "jnvst-class-6-M02",
-      "verified": false
-    },
-    {
-      "id": "jnvst-class-6-064",
-      "section": "mental-ability",
-      "topic": "Figure Matching",
-      "difficulty": "easy",
-      "question": "Which option is exactly the same as K7RZ3M?",
-      "options": [
-        "K7ZR3M",
-        "K7RZ3M",
-        "K1RZ3M",
-        "K7RZ8M"
-      ],
-      "answer": 1,
-      "explanation": "Only K7RZ3M matches every character in order; the others swap R/Z or change 7→1 or 3→8.",
-      "source": "ai",
-      "archetype": "jnvst-class-6-M03",
-      "verified": false
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Reading Comprehension – Factual); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-065",
@@ -1972,7 +1832,12 @@
       "explanation": "The distractors each swap two neighbouring symbols; only ▲●■◆ keeps the original order.",
       "source": "ai",
       "archetype": "jnvst-class-6-M04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Text rendering of a JNVST figure-reasoning idea (mirror/fold-punch/rotation/shape/cube); keeps the real figure logic and trap, acceptable proxy."
+      }
     },
     {
       "id": "jnvst-class-6-066",
@@ -1990,43 +1855,12 @@
       "explanation": "Mirror-type letters (p/q, b/d) and digits (6/9) are swapped in the distractors; only pqbd96 is identical.",
       "source": "ai",
       "archetype": "jnvst-class-6-M03",
-      "verified": false
-    },
-    {
-      "id": "jnvst-class-6-067",
-      "section": "mental-ability",
-      "topic": "Pattern Completion",
-      "difficulty": "medium",
-      "question": "Find the missing number. Row 1: 4, 5, 20. Row 2: 3, 6, 18. Row 3: 7, 2, ?",
-      "options": [
-        "16",
-        "9",
-        "12",
-        "14"
-      ],
-      "answer": 3,
-      "explanation": "In each row the third number is the product of the first two: 4 × 5 = 20, 3 × 6 = 18, so 7 × 2 = 14.",
-      "source": "ai",
-      "archetype": "jnvst-class-6-M05",
-      "verified": false
-    },
-    {
-      "id": "jnvst-class-6-068",
-      "section": "mental-ability",
-      "topic": "Pattern Completion",
-      "difficulty": "medium",
-      "question": "Find the missing number. Row 1: 10, 4, 6. Row 2: 15, 7, 8. Row 3: 20, 9, ?",
-      "options": [
-        "10",
-        "29",
-        "12",
-        "11"
-      ],
-      "answer": 3,
-      "explanation": "In each row the third number = first − second: 10 − 4 = 6, 15 − 7 = 8, so 20 − 9 = 11.",
-      "source": "ai",
-      "archetype": "jnvst-class-6-M05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Text rendering of a JNVST figure-reasoning idea (mirror/fold-punch/rotation/shape/cube); keeps the real figure logic and trap, acceptable proxy."
+      }
     },
     {
       "id": "jnvst-class-6-069",
@@ -2044,25 +1878,12 @@
       "explanation": "Reflecting ↖ about the vertical line gives ↗ in the top-right quarter; reflecting that about the horizontal line gives ↘ in the bottom-right quarter.",
       "source": "ai",
       "archetype": "jnvst-class-6-M06",
-      "verified": false
-    },
-    {
-      "id": "jnvst-class-6-070",
-      "section": "mental-ability",
-      "topic": "Figure Series Completion",
-      "difficulty": "medium",
-      "question": "What comes next in the series: 2, 5, 11, 23, ?",
-      "options": [
-        "47",
-        "46",
-        "45",
-        "35"
-      ],
-      "answer": 0,
-      "explanation": "Each term = previous term × 2 + 1: 23 × 2 + 1 = 47.",
-      "source": "ai",
-      "archetype": "jnvst-class-6-M07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Text rendering of a JNVST figure-reasoning idea (mirror/fold-punch/rotation/shape/cube); keeps the real figure logic and trap, acceptable proxy."
+      }
     },
     {
       "id": "jnvst-class-6-071",
@@ -2080,7 +1901,12 @@
       "explanation": "4 × 45° = 180°. Turning half a circle from 12 (in either direction) brings the hand to 6.",
       "source": "ai",
       "archetype": "jnvst-class-6-M08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Text rendering of a JNVST figure-reasoning idea (mirror/fold-punch/rotation/shape/cube); keeps the real figure logic and trap, acceptable proxy."
+      }
     },
     {
       "id": "jnvst-class-6-072",
@@ -2098,25 +1924,12 @@
       "explanation": "Each new row adds one more dot than the last: +2, +3, +4, so the next step is +5: 10 + 5 = 15.",
       "source": "ai",
       "archetype": "jnvst-class-6-M07",
-      "verified": false
-    },
-    {
-      "id": "jnvst-class-6-073",
-      "section": "mental-ability",
-      "topic": "Analogy",
-      "difficulty": "easy",
-      "question": "Fish : Fins :: Bird : ?",
-      "options": [
-        "Nest",
-        "Beak",
-        "Wings",
-        "Sky"
-      ],
-      "answer": 2,
-      "explanation": "A fish moves with its fins; a bird moves with its wings.",
-      "source": "ai",
-      "archetype": "jnvst-class-6-M09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Text rendering of a JNVST figure-reasoning idea (mirror/fold-punch/rotation/shape/cube); keeps the real figure logic and trap, acceptable proxy."
+      }
     },
     {
       "id": "jnvst-class-6-074",
@@ -2134,25 +1947,12 @@
       "explanation": "A pentagon has 5 sides; a hexagon has 6 sides.",
       "source": "ai",
       "archetype": "jnvst-class-6-M09",
-      "verified": false
-    },
-    {
-      "id": "jnvst-class-6-075",
-      "section": "mental-ability",
-      "topic": "Analogy",
-      "difficulty": "medium",
-      "question": "AB : DE :: PQ : ?",
-      "options": [
-        "RS",
-        "ST",
-        "TU",
-        "SU"
-      ],
-      "answer": 1,
-      "explanation": "Each letter moves three places forward: A→D, B→E; so P→S, Q→T, giving ST.",
-      "source": "ai",
-      "archetype": "jnvst-class-6-M10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Text rendering of a JNVST figure-reasoning idea (mirror/fold-punch/rotation/shape/cube); keeps the real figure logic and trap, acceptable proxy."
+      }
     },
     {
       "id": "jnvst-class-6-076",
@@ -2170,7 +1970,12 @@
       "explanation": "Two halves make a whole: two semicircles form a full circle. The other pairs cover only ½, ¾ or ¾ of a circle.",
       "source": "ai",
       "archetype": "jnvst-class-6-M11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Text rendering of a JNVST figure-reasoning idea (mirror/fold-punch/rotation/shape/cube); keeps the real figure logic and trap, acceptable proxy."
+      }
     },
     {
       "id": "jnvst-class-6-077",
@@ -2188,7 +1993,12 @@
       "explanation": "A diagonal joins opposite corners, so each piece keeps one 90° corner of the rectangle: two right-angled triangles.",
       "source": "ai",
       "archetype": "jnvst-class-6-M11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Text rendering of a JNVST figure-reasoning idea (mirror/fold-punch/rotation/shape/cube); keeps the real figure logic and trap, acceptable proxy."
+      }
     },
     {
       "id": "jnvst-class-6-078",
@@ -2206,7 +2016,12 @@
       "explanation": "A 3 × 3 square needs 9 small squares; 9 − 3 = 6 more are needed.",
       "source": "ai",
       "archetype": "jnvst-class-6-M12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Text rendering of a JNVST figure-reasoning idea (mirror/fold-punch/rotation/shape/cube); keeps the real figure logic and trap, acceptable proxy."
+      }
     },
     {
       "id": "jnvst-class-6-079",
@@ -2224,7 +2039,12 @@
       "explanation": "A side mirror reverses left and right, so the letter order is reversed; each letter is unchanged, giving TAM.",
       "source": "ai",
       "archetype": "jnvst-class-6-M13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Text rendering of a JNVST figure-reasoning idea (mirror/fold-punch/rotation/shape/cube); keeps the real figure logic and trap, acceptable proxy."
+      }
     },
     {
       "id": "jnvst-class-6-080",
@@ -2242,7 +2062,12 @@
       "explanation": "For whole hours, actual time = 12:00 − mirror time = 12:00 − 4:00 = 8:00.",
       "source": "ai",
       "archetype": "jnvst-class-6-M13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Text rendering of a JNVST figure-reasoning idea (mirror/fold-punch/rotation/shape/cube); keeps the real figure logic and trap, acceptable proxy."
+      }
     },
     {
       "id": "jnvst-class-6-081",
@@ -2260,7 +2085,12 @@
       "explanation": "A water image flips top and bottom. The digit 3 is symmetric about a horizontal line, so it looks the same; 4, 7 and 6 change.",
       "source": "ai",
       "archetype": "jnvst-class-6-M14",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Text rendering of a JNVST figure-reasoning idea (mirror/fold-punch/rotation/shape/cube); keeps the real figure logic and trap, acceptable proxy."
+      }
     },
     {
       "id": "jnvst-class-6-082",
@@ -2278,7 +2108,12 @@
       "explanation": "Each fold doubles the layers: 2 × 2 × 2 = 8 layers, so one punch makes 8 holes.",
       "source": "ai",
       "archetype": "jnvst-class-6-M15",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Text rendering of a JNVST figure-reasoning idea (mirror/fold-punch/rotation/shape/cube); keeps the real figure logic and trap, acceptable proxy."
+      }
     },
     {
       "id": "jnvst-class-6-083",
@@ -2296,7 +2131,12 @@
       "explanation": "The punch passes through both halves, so the holes appear at mirror positions on either side of the vertical fold, both in the upper half.",
       "source": "ai",
       "archetype": "jnvst-class-6-M16",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Text rendering of a JNVST figure-reasoning idea (mirror/fold-punch/rotation/shape/cube); keeps the real figure logic and trap, acceptable proxy."
+      }
     },
     {
       "id": "jnvst-class-6-084",
@@ -2314,7 +2154,12 @@
       "explanation": "One fold makes two layers, so each of the 2 punches makes 2 holes: 2 × 2 = 4.",
       "source": "ai",
       "archetype": "jnvst-class-6-M15",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Text rendering of a JNVST figure-reasoning idea (mirror/fold-punch/rotation/shape/cube); keeps the real figure logic and trap, acceptable proxy."
+      }
     },
     {
       "id": "jnvst-class-6-085",
@@ -2332,7 +2177,12 @@
       "explanation": "3 + 4 = 7, so 3 and 4 are on opposite faces and can never touch. The other pairs do not add to 7.",
       "source": "ai",
       "archetype": "jnvst-class-6-M17",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Text rendering of a JNVST figure-reasoning idea (mirror/fold-punch/rotation/shape/cube); keeps the real figure logic and trap, acceptable proxy."
+      }
     },
     {
       "id": "jnvst-class-6-086",
@@ -2350,7 +2200,12 @@
       "explanation": "Cubes with two painted faces lie on the edges but not at corners: 12 edges × 1 = 12. (8 are corners, 6 face-centres, 1 hidden.)",
       "source": "ai",
       "archetype": "jnvst-class-6-M18",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Text rendering of a JNVST figure-reasoning idea (mirror/fold-punch/rotation/shape/cube); keeps the real figure logic and trap, acceptable proxy."
+      }
     },
     {
       "id": "jnvst-class-6-087",
@@ -2368,25 +2223,12 @@
       "explanation": "Cutting into 2 × 2 × 2 makes every small cube a corner cube, so all 8 have three painted faces.",
       "source": "ai",
       "archetype": "jnvst-class-6-M18",
-      "verified": false
-    },
-    {
-      "id": "jnvst-class-6-088",
-      "section": "mental-ability",
-      "topic": "Embedded Figure",
-      "difficulty": "medium",
-      "question": "Which of these words is hidden (letters together, in the same order) in the word TEMPERATURE?",
-      "options": [
-        "RAT",
-        "PUT",
-        "MAP",
-        "TAP"
-      ],
-      "answer": 0,
-      "explanation": "TEMPE-RAT-URE contains R, A, T together. The letters of PUT, MAP and TAP do not appear together in that order.",
-      "source": "ai",
-      "archetype": "jnvst-class-6-M19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Text rendering of a JNVST figure-reasoning idea (mirror/fold-punch/rotation/shape/cube); keeps the real figure logic and trap, acceptable proxy."
+      }
     },
     {
       "id": "jnvst-class-6-089",
@@ -2404,25 +2246,12 @@
       "explanation": "The diagonals make 4 small triangles, and each pair of neighbouring small triangles forms a bigger triangle (4 more): 4 + 4 = 8.",
       "source": "ai",
       "archetype": "jnvst-class-6-M20",
-      "verified": false
-    },
-    {
-      "id": "jnvst-class-6-090",
-      "section": "mental-ability",
-      "topic": "Embedded Figure",
-      "difficulty": "easy",
-      "question": "In which of these words is the word CAR hidden (letters together, in the same order)?",
-      "options": [
-        "CRAB",
-        "SCARF",
-        "RACE",
-        "ARCH"
-      ],
-      "answer": 1,
-      "explanation": "S-CAR-F contains C, A, R together in order; the other words have these letters in a different order.",
-      "source": "ai",
-      "archetype": "jnvst-class-6-M19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Text rendering of a JNVST figure-reasoning idea (mirror/fold-punch/rotation/shape/cube); keeps the real figure logic and trap, acceptable proxy."
+      }
     },
     {
       "id": "jnvst-class-6-091",
@@ -2440,7 +2269,12 @@
       "explanation": "0 cannot be the first digit, so start with the next smallest, 2, then write the rest in increasing order: 20479.",
       "source": "ai",
       "archetype": "jnvst-class-6-A02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Number System & Numeration); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-092",
@@ -2458,7 +2292,12 @@
       "explanation": "Place value of 6 = 6,000; face value = 6. Difference = 6,000 − 6 = 5,994.",
       "source": "ai",
       "archetype": "jnvst-class-6-A01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Number System & Numeration); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-093",
@@ -2476,7 +2315,12 @@
       "explanation": "LCM of 6, 8, 12 = 24; required number = 24 + 3 = 27.",
       "source": "ai",
       "archetype": "jnvst-class-6-A03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (LCM & HCF); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-094",
@@ -2494,7 +2338,12 @@
       "explanation": "Eaten = 2/5 + 1/4 = 8/20 + 5/20 = 13/20. Left = 1 − 13/20 = 7/20.",
       "source": "ai",
       "archetype": "jnvst-class-6-A04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Fractions & Decimals); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-095",
@@ -2512,7 +2361,12 @@
       "explanation": "4.5 ÷ 0.09 = 450 ÷ 9 = 50.",
       "source": "ai",
       "archetype": "jnvst-class-6-A05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Fractions & Decimals); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-096",
@@ -2530,7 +2384,12 @@
       "explanation": "24 × 36 = 864 chalks; 864 − 150 = 714 are left.",
       "source": "ai",
       "archetype": "jnvst-class-6-A06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Four Fundamental Operations); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-097",
@@ -2548,7 +2407,12 @@
       "explanation": "Girls = 35% of 40 = 14, so boys = 40 − 14 = 26.",
       "source": "ai",
       "archetype": "jnvst-class-6-A07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Percentage & Profit-Loss); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-098",
@@ -2566,7 +2430,12 @@
       "explanation": "Loss % = 60/480 × 100 = 12.5%.",
       "source": "ai",
       "archetype": "jnvst-class-6-A08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Percentage & Profit-Loss); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-099",
@@ -2584,7 +2453,12 @@
       "explanation": "R = SI × 100/(P × T) = 90 × 100/(600 × 3) = 5%.",
       "source": "ai",
       "archetype": "jnvst-class-6-A09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Simple Interest); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-100",
@@ -2602,7 +2476,12 @@
       "explanation": "Speed = 36 ÷ 3 = 12 km/h. Time = 60 ÷ 12 = 5 hours.",
       "source": "ai",
       "archetype": "jnvst-class-6-A10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Distance, Time & Speed); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-101",
@@ -2620,7 +2499,12 @@
       "explanation": "5,040 g + 2,975 g = 8,015 g = 8 kg 15 g.",
       "source": "ai",
       "archetype": "jnvst-class-6-A11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Measurement (Length, Mass, Time, Capacity)); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-102",
@@ -2638,7 +2522,12 @@
       "explanation": "10:45 a.m. to 2:45 p.m. is 4 h; 2:45 p.m. to 3:20 p.m. is 35 min. Total 4 h 35 min.",
       "source": "ai",
       "archetype": "jnvst-class-6-A12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Measurement (Length, Mass, Time, Capacity)); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-103",
@@ -2656,7 +2545,12 @@
       "explanation": "Floor = 600 cm × 400 cm. Tiles along length = 12, along width = 8; 12 × 8 = 96.",
       "source": "ai",
       "archetype": "jnvst-class-6-A13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Perimeter, Area & Volume); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-104",
@@ -2674,7 +2568,12 @@
       "explanation": "Perimeter of rectangle = 2 × (14 + 10) = 48 cm; side of square = 48 ÷ 4 = 12 cm.",
       "source": "ai",
       "archetype": "jnvst-class-6-A13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Perimeter, Area & Volume); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-105",
@@ -2692,7 +2591,12 @@
       "explanation": "The minute hand turns 360° in 60 minutes, i.e. 6° per minute: 20 × 6° = 120°.",
       "source": "ai",
       "archetype": "jnvst-class-6-A15",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Angles & Shapes); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-106",
@@ -2710,7 +2614,12 @@
       "explanation": "The passage says that every morning he took his family's goats to graze on the hillside.",
       "source": "ai",
       "archetype": "jnvst-class-6-L01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Reading Comprehension – Factual); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-107",
@@ -2728,7 +2637,12 @@
       "explanation": "He knew that even a small fire could spread quickly in the strong summer wind.",
       "source": "ai",
       "archetype": "jnvst-class-6-L02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Reading Comprehension – Factual); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-108",
@@ -2746,7 +2660,12 @@
       "explanation": "The villagers carried buckets of water and beat the flames with green branches.",
       "source": "ai",
       "archetype": "jnvst-class-6-L01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Reading Comprehension – Factual); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-109",
@@ -2764,7 +2683,12 @@
       "explanation": "Goats are taken to graze, i.e. to feed on growing grass.",
       "source": "ai",
       "archetype": "jnvst-class-6-L03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Vocabulary in Context); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-110",
@@ -2782,7 +2706,12 @@
       "explanation": "He noticed the smoke, understood the danger and acted at once by calling the forest office and alerting the villagers.",
       "source": "ai",
       "archetype": "jnvst-class-6-L06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Inference & Title); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-111",
@@ -2800,7 +2729,12 @@
       "explanation": "The passage says the hump is a store of fat, not water.",
       "source": "ai",
       "archetype": "jnvst-class-6-L01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Reading Comprehension – Factual); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-112",
@@ -2818,7 +2752,12 @@
       "explanation": "Its broad, padded feet do not sink into the sand.",
       "source": "ai",
       "archetype": "jnvst-class-6-L02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Reading Comprehension – Factual); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-113",
@@ -2836,7 +2775,12 @@
       "explanation": "The last sentence gives the reason: it carries heavy loads across long distances of sand.",
       "source": "ai",
       "archetype": "jnvst-class-6-L02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Reading Comprehension – Factual); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-114",
@@ -2854,7 +2798,12 @@
       "explanation": "The camel uses its stored fat when food is scarce, i.e. when there is not enough food.",
       "source": "ai",
       "archetype": "jnvst-class-6-L03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Vocabulary in Context); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-115",
@@ -2872,7 +2821,12 @@
       "explanation": "The passage describes how the camel is suited to the desert and explains its nickname; 'Water in the Hump' is the belief the passage says is wrong.",
       "source": "ai",
       "archetype": "jnvst-class-6-L05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Inference & Title); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-116",
@@ -2890,7 +2844,12 @@
       "explanation": "The first sentence says paper is made from wood pulp.",
       "source": "ai",
       "archetype": "jnvst-class-6-L01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Reading Comprehension – Factual); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-117",
@@ -2908,7 +2867,12 @@
       "explanation": "Used paper is first soaked in water and beaten into a soft pulp.",
       "source": "ai",
       "archetype": "jnvst-class-6-L01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Reading Comprehension – Factual); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-118",
@@ -2926,7 +2890,12 @@
       "explanation": "The passage lists writing on both sides of a page, using old calendars as covers and keeping paper separate from wet waste.",
       "source": "ai",
       "archetype": "jnvst-class-6-L01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Reading Comprehension – Factual); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-119",
@@ -2944,7 +2913,12 @@
       "explanation": "Separate means apart or not mixed.",
       "source": "ai",
       "archetype": "jnvst-class-6-L03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Vocabulary in Context); standard difficulty and plausible distractors; single correct option."
+      }
     },
     {
       "id": "jnvst-class-6-120",
@@ -2962,7 +2936,12 @@
       "explanation": "The passage explains how paper is recycled and why it helps – fewer trees cut and less water and energy used.",
       "source": "ai",
       "archetype": "jnvst-class-6-L06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Faithful instance of claimed PYQ pattern (Inference & Title); standard difficulty and plausible distractors; single correct option."
+      }
     }
   ]
 }

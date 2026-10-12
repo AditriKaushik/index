@@ -525,6 +525,1472 @@
       }
     ]
   },
+  "pyqBlueprint": {
+    "yearsCovered": [
+      2024,
+      2025,
+      2026
+    ],
+    "method": "Compiled from the State CET Cell's officially published MHT CET PCM question papers/response sheets (multi-shift, April–May 2024 and 2025, 2026 cycle) as summarised in public shift-wise analyses (Careers360, CollegeDost, CollegeDekho), which web search confirmed for chapter emphasis (integration and 3D geometry in Maths; numerical-heavy Physics; p-block, solutions, kinetics and organic in Chemistry; roughly 80% Class 12 / 20% Class 11 Maharashtra syllabus). Full papers could not be fetched, so the recurring direct-formula patterns and traps were written from the drafter's own knowledge of these papers and the Maharashtra State Board textbooks.",
+    "archetypes": [
+      {
+        "id": "mht-cet-P01",
+        "section": "physics",
+        "topic": "Motion in a Plane & Laws of Motion (XI)",
+        "pattern": "Projectile relations (max range vs max height, time of flight), relative velocity; one-step Newton’s-law numericals",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mht-cet-P02",
+        "section": "physics",
+        "topic": "Gravitation (XI)",
+        "pattern": "Satellite period/orbital speed near the surface, escape velocity, variation of g",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mht-cet-P03",
+        "section": "physics",
+        "topic": "Thermal Properties & Sound (XI)",
+        "pattern": "Linear/volume expansion coefficient, calorimetry, speed of sound with temperature",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mht-cet-P04",
+        "section": "physics",
+        "topic": "Ray Optics (XI)",
+        "pattern": "Lens/mirror formula, prism deviation, critical angle and TIR",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mht-cet-P05",
+        "section": "physics",
+        "topic": "Rotational Dynamics",
+        "pattern": "Conservation of angular momentum when a disc/mass is added to a rotating body; final ω",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mht-cet-P06",
+        "section": "physics",
+        "topic": "Rotational Dynamics",
+        "pattern": "Moment of inertia and radius of gyration of standard bodies about various axes",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mht-cet-P07",
+        "section": "physics",
+        "topic": "Rotational Dynamics",
+        "pattern": "Circular motion: banking of roads, vertical circle critical speeds, conical pendulum",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-P08",
+        "section": "physics",
+        "topic": "Mechanical Properties of Fluids",
+        "pattern": "Stokes’ law / terminal velocity when drops coalesce or radius changes",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-P09",
+        "section": "physics",
+        "topic": "Mechanical Properties of Fluids",
+        "pattern": "Surface tension: excess pressure in bubbles/drops, capillary rise vs tube radius",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mht-cet-P10",
+        "section": "physics",
+        "topic": "Kinetic Theory of Gases & Radiation",
+        "pattern": "Stefan–Boltzmann law (P ∝ T⁴, area), Wien’s law, emissivity",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mht-cet-P11",
+        "section": "physics",
+        "topic": "Kinetic Theory of Gases & Radiation",
+        "pattern": "rms speed comparisons for different gases/temperatures; degrees of freedom and energy",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-P12",
+        "section": "physics",
+        "topic": "Thermodynamics",
+        "pattern": "Adiabatic change: final temperature/pressure from TV^(γ−1) or PV^γ",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "mht-cet-P13",
+        "section": "physics",
+        "topic": "Thermodynamics",
+        "pattern": "Work in isothermal/isobaric processes, first law, heat-engine efficiency",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-P14",
+        "section": "physics",
+        "topic": "Oscillations",
+        "pattern": "Spring combinations (series/parallel) or cut springs: new period",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-P15",
+        "section": "physics",
+        "topic": "Oscillations",
+        "pattern": "SHM equation: maximum velocity/acceleration, energy, phase; simple pendulum",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-P16",
+        "section": "physics",
+        "topic": "Superposition of Waves",
+        "pattern": "Beats with loading/filing of tuning forks — find unknown frequency",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-P17",
+        "section": "physics",
+        "topic": "Superposition of Waves",
+        "pattern": "Open/closed pipes and strings: harmonics, end correction, fundamental change when a pipe is closed",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-P18",
+        "section": "physics",
+        "topic": "Wave Optics",
+        "pattern": "Single-slit diffraction: width of central maximum, angular spread",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-P19",
+        "section": "physics",
+        "topic": "Wave Optics",
+        "pattern": "Polarisation: Brewster angle, Malus’ law",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mht-cet-P20",
+        "section": "physics",
+        "topic": "Wave Optics",
+        "pattern": "YDSE fringe width and resolving power of instruments",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-P21",
+        "section": "physics",
+        "topic": "Electrostatics",
+        "pattern": "Equivalent capacitance of series/parallel combinations, energy stored",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mht-cet-P22",
+        "section": "physics",
+        "topic": "Electrostatics",
+        "pattern": "Gauss’s law (flux of enclosed charges), field and potential of charge systems",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-P23",
+        "section": "physics",
+        "topic": "Current Electricity",
+        "pattern": "Potentiometer: potential gradient, balancing length, emf comparison, internal resistance",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-P24",
+        "section": "physics",
+        "topic": "Current Electricity",
+        "pattern": "Galvanometer to ammeter/voltmeter (shunt/series resistance), Kirchhoff’s laws, Wheatstone bridge",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-P25",
+        "section": "physics",
+        "topic": "Magnetic Fields due to Electric Current",
+        "pattern": "Force per unit length between parallel currents; definition of ampere",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mht-cet-P26",
+        "section": "physics",
+        "topic": "Magnetic Fields due to Electric Current",
+        "pattern": "Field of a solenoid/toroid/circular coil; cyclotron frequency; radius of charged particle",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-P27",
+        "section": "physics",
+        "topic": "Magnetic Materials",
+        "pattern": "Para/dia/ferromagnetic susceptibility behaviour, Curie law, magnetisation and intensity",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mht-cet-P28",
+        "section": "physics",
+        "topic": "Electromagnetic Induction",
+        "pattern": "Induced emf/current/charge when flux through a coil changes uniformly",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-P29",
+        "section": "physics",
+        "topic": "Electromagnetic Induction",
+        "pattern": "Self/mutual inductance, energy stored in an inductor, AC generator emf",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-P30",
+        "section": "physics",
+        "topic": "AC Circuits",
+        "pattern": "Series LCR at resonance: resonant frequency, Q-factor, bandwidth",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-P31",
+        "section": "physics",
+        "topic": "AC Circuits",
+        "pattern": "Reactance of L/C at a frequency, rms/peak values, average power",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-P32",
+        "section": "physics",
+        "topic": "Dual Nature of Radiation & Matter",
+        "pattern": "Einstein photoelectric equation: KEmax, threshold wavelength, stopping potential",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mht-cet-P33",
+        "section": "physics",
+        "topic": "Dual Nature of Radiation & Matter",
+        "pattern": "de Broglie wavelength ratios for particles with same KE/momentum/potential",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mht-cet-P34",
+        "section": "physics",
+        "topic": "Structure of Atoms & Nuclei",
+        "pattern": "Bohr-model speed/radius/energy of electron and their ratios",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-P35",
+        "section": "physics",
+        "topic": "Structure of Atoms & Nuclei",
+        "pattern": "Radioactive decay: half-life, fraction decayed, binding energy",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-P36",
+        "section": "physics",
+        "topic": "Semiconductor Devices",
+        "pattern": "Transistor current gains α and β and their relation",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-P37",
+        "section": "physics",
+        "topic": "Semiconductor Devices",
+        "pattern": "Zener diode as regulator, LED/photodiode/solar cell, logic gates",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mht-cet-C01",
+        "section": "chemistry",
+        "topic": "Basic Concepts & Analytical Chemistry (XI)",
+        "pattern": "Molarity/molality/number of moles from mass and volume",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mht-cet-C02",
+        "section": "chemistry",
+        "topic": "Basic Concepts & Analytical Chemistry (XI)",
+        "pattern": "Empirical/molecular formula from percentage composition",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mht-cet-C03",
+        "section": "chemistry",
+        "topic": "Chemical Bonding (XI)",
+        "pattern": "Hybridisation, shapes and bond order of simple molecules/allotropes",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-C04",
+        "section": "chemistry",
+        "topic": "Hydrocarbons & Basic Organic Chemistry (XI)",
+        "pattern": "Counting σ and π bonds, hybridisation of carbon atoms in a structure",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-C05",
+        "section": "chemistry",
+        "topic": "Hydrocarbons & Basic Organic Chemistry (XI)",
+        "pattern": "IUPAC naming of branched compounds; reactions of alkenes/alkynes",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-C06",
+        "section": "chemistry",
+        "topic": "Solid State",
+        "pattern": "Packing efficiency/coordination number of sc, bcc, fcc lattices",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mht-cet-C07",
+        "section": "chemistry",
+        "topic": "Solid State",
+        "pattern": "Density/edge length/atomic radius from unit cell data (ρ = zM/a³N_A, r–a relations)",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "mht-cet-C08",
+        "section": "chemistry",
+        "topic": "Solid State",
+        "pattern": "Atoms per unit cell, voids, point defects (Schottky/Frenkel)",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-C09",
+        "section": "chemistry",
+        "topic": "Solutions",
+        "pattern": "Osmotic pressure π = iCRT and isotonic solutions",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-C10",
+        "section": "chemistry",
+        "topic": "Solutions",
+        "pattern": "Depression of freezing point/elevation of boiling point, Raoult’s law, Henry’s law",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-C11",
+        "section": "chemistry",
+        "topic": "Ionic Equilibria",
+        "pattern": "pH/pOH of strong acids and bases",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mht-cet-C12",
+        "section": "chemistry",
+        "topic": "Ionic Equilibria",
+        "pattern": "Ostwald dilution: degree of dissociation and [H⁺] of weak acids/bases",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "mht-cet-C13",
+        "section": "chemistry",
+        "topic": "Ionic Equilibria",
+        "pattern": "Solubility product–solubility relation, buffer pH, salt hydrolysis",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-C14",
+        "section": "chemistry",
+        "topic": "Chemical Thermodynamics",
+        "pattern": "ΔH − ΔU = ΔnRT for gaseous reactions",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-C15",
+        "section": "chemistry",
+        "topic": "Chemical Thermodynamics",
+        "pattern": "Work of expansion against constant pressure or reversibly, Hess’s law, spontaneity",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-C16",
+        "section": "chemistry",
+        "topic": "Electrochemistry",
+        "pattern": "Faraday’s laws: mass deposited or charge needed",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-C17",
+        "section": "chemistry",
+        "topic": "Electrochemistry",
+        "pattern": "Cell constant, conductivity and molar conductivity; Nernst equation",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-C18",
+        "section": "chemistry",
+        "topic": "Chemical Kinetics",
+        "pattern": "First-order half-life and rate constant relations",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mht-cet-C19",
+        "section": "chemistry",
+        "topic": "Chemical Kinetics",
+        "pattern": "Units of rate constant for different orders, Arrhenius equation, molecularity",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-C20",
+        "section": "chemistry",
+        "topic": "Elements of Groups 16, 17 & 18",
+        "pattern": "Shapes/hybridisation of xenon compounds and interhalogens",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-C21",
+        "section": "chemistry",
+        "topic": "Elements of Groups 16, 17 & 18",
+        "pattern": "Oxidation states and structures of oxoacids of S and halogens (peroxo linkages)",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "mht-cet-C22",
+        "section": "chemistry",
+        "topic": "Elements of Groups 16, 17 & 18",
+        "pattern": "Trends in halogens/chalcogens: electron gain enthalpy, acidity, oxidising power",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-C23",
+        "section": "chemistry",
+        "topic": "Transition & Inner Transition Elements",
+        "pattern": "Colour and magnetic behaviour of 3d ions from electronic configuration",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mht-cet-C24",
+        "section": "chemistry",
+        "topic": "Transition & Inner Transition Elements",
+        "pattern": "Lanthanoid oxidation states/contraction; KMnO₄, K₂Cr₂O₇ preparation and properties",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mht-cet-C25",
+        "section": "chemistry",
+        "topic": "Coordination Compounds",
+        "pattern": "IUPAC naming of complexes and oxidation state of the metal",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-C26",
+        "section": "chemistry",
+        "topic": "Coordination Compounds",
+        "pattern": "EAN, hybridisation, magnetic nature and isomerism of complexes",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-C27",
+        "section": "chemistry",
+        "topic": "Halogen Derivatives",
+        "pattern": "Named reactions: Wurtz, Wurtz–Fittig, Fittig, Sandmeyer, Finkelstein — product",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-C28",
+        "section": "chemistry",
+        "topic": "Halogen Derivatives",
+        "pattern": "SN1/SN2 reactivity order, optical activity and elimination products",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-C29",
+        "section": "chemistry",
+        "topic": "Alcohols, Phenols & Ethers",
+        "pattern": "Reactions of phenol: Reimer–Tiemann, Kolbe, bromination; tests",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mht-cet-C30",
+        "section": "chemistry",
+        "topic": "Alcohols, Phenols & Ethers",
+        "pattern": "Preparation of ethers (Williamson – correct choice of halide/alkoxide), acidity order",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-C31",
+        "section": "chemistry",
+        "topic": "Aldehydes, Ketones & Carboxylic Acids",
+        "pattern": "Tollens’/Fehling’s/iodoform tests to distinguish carbonyl compounds",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-C32",
+        "section": "chemistry",
+        "topic": "Aldehydes, Ketones & Carboxylic Acids",
+        "pattern": "Acidity of substituted carboxylic acids; Cannizzaro, aldol, HVZ reactions",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-C33",
+        "section": "chemistry",
+        "topic": "Amines",
+        "pattern": "Hofmann bromamide degradation and other amine preparations",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-C34",
+        "section": "chemistry",
+        "topic": "Amines",
+        "pattern": "Diazotisation and reactions of diazonium salts; basicity order",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-C35",
+        "section": "chemistry",
+        "topic": "Biomolecules",
+        "pattern": "Nitrogen bases of DNA vs RNA; nucleotides",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mht-cet-C36",
+        "section": "chemistry",
+        "topic": "Biomolecules",
+        "pattern": "Glycosidic linkages in disaccharides, structure of glucose/fructose, proteins",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mht-cet-C37",
+        "section": "chemistry",
+        "topic": "Introduction to Polymer Chemistry",
+        "pattern": "Monomers of natural and synthetic polymers (rubber, nylon, PVC, Buna-S)",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mht-cet-M01",
+        "section": "maths",
+        "topic": "Trigonometry (XI)",
+        "pattern": "Values of trigonometric ratios of allied/compound angles",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mht-cet-M02",
+        "section": "maths",
+        "topic": "Straight Line & Circle (XI)",
+        "pattern": "Centre and radius of a circle; equations of lines and distances",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mht-cet-M03",
+        "section": "maths",
+        "topic": "Conic Sections (XI)",
+        "pattern": "Eccentricity, foci, latus rectum of ellipse/hyperbola/parabola",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-M04",
+        "section": "maths",
+        "topic": "Complex Numbers & Permutations (XI)",
+        "pattern": "Modulus/argument of complex quotients",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mht-cet-M05",
+        "section": "maths",
+        "topic": "Complex Numbers & Permutations (XI)",
+        "pattern": "Counting: diagonals, arrangements, selections",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mht-cet-M06",
+        "section": "maths",
+        "topic": "Probability & Dispersion (XI)",
+        "pattern": "Variance/standard deviation of data; basic probability",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mht-cet-M07",
+        "section": "maths",
+        "topic": "Functions, Limits & Continuity (XI)",
+        "pattern": "Standard limits (eˣ, log, trig) and continuity constants",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-M08",
+        "section": "maths",
+        "topic": "Mathematical Logic",
+        "pattern": "Negation of quantified/compound statements; converse/inverse/contrapositive",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mht-cet-M09",
+        "section": "maths",
+        "topic": "Mathematical Logic",
+        "pattern": "Truth values, tautology/contradiction identification, logical equivalence, switching circuits",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mht-cet-M10",
+        "section": "maths",
+        "topic": "Matrices",
+        "pattern": "Inverse of a 2 × 2 or 3 × 3 matrix by adjoint",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mht-cet-M11",
+        "section": "maths",
+        "topic": "Matrices",
+        "pattern": "Adjoint, elementary transformations, solving systems by inverse method",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mht-cet-M12",
+        "section": "maths",
+        "topic": "Trigonometric Functions",
+        "pattern": "Principal values of inverse trigonometric expressions",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-M13",
+        "section": "maths",
+        "topic": "Trigonometric Functions",
+        "pattern": "General solutions of trigonometric equations; sine/cosine rule in triangles",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-M14",
+        "section": "maths",
+        "topic": "Pair of Straight Lines",
+        "pattern": "Angle between lines given by ax² + 2hxy + by² = 0",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-M15",
+        "section": "maths",
+        "topic": "Pair of Straight Lines",
+        "pattern": "Conditions for coincident/perpendicular lines, sum and product of slopes",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-M16",
+        "section": "maths",
+        "topic": "Vectors",
+        "pattern": "Area of triangle/parallelogram by cross product",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-M17",
+        "section": "maths",
+        "topic": "Vectors",
+        "pattern": "Scalar triple product: volume of parallelepiped, coplanarity, section formula",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-M18",
+        "section": "maths",
+        "topic": "Line and Plane",
+        "pattern": "Perpendicular distance of a point from a plane; distance between parallel planes",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-M19",
+        "section": "maths",
+        "topic": "Line and Plane",
+        "pattern": "Angle between a line and a plane or between two lines/planes",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "mht-cet-M20",
+        "section": "maths",
+        "topic": "Line and Plane",
+        "pattern": "Equation of a plane through a point with given normal; shortest distance between lines",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-M21",
+        "section": "maths",
+        "topic": "Linear Programming",
+        "pattern": "Corner-point method for maximum/minimum of objective function",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mht-cet-M22",
+        "section": "maths",
+        "topic": "Differentiation",
+        "pattern": "Logarithmic differentiation of xˣ-type functions",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mht-cet-M23",
+        "section": "maths",
+        "topic": "Differentiation",
+        "pattern": "Derivatives of parametric functions",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-M24",
+        "section": "maths",
+        "topic": "Differentiation",
+        "pattern": "Derivatives via inverse-trig substitution and implicit differentiation",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-M25",
+        "section": "maths",
+        "topic": "Applications of Derivatives",
+        "pattern": "Local maxima/minima of polynomials",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-M26",
+        "section": "maths",
+        "topic": "Applications of Derivatives",
+        "pattern": "Slopes of tangents/normals, rate of change, Rolle’s/LMVT",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-M27",
+        "section": "maths",
+        "topic": "Indefinite Integration",
+        "pattern": "∫ eˣ[f(x) + f′(x)] dx form",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-M28",
+        "section": "maths",
+        "topic": "Indefinite Integration",
+        "pattern": "Integration by parts, partial fractions and standard forms",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-M29",
+        "section": "maths",
+        "topic": "Definite Integration",
+        "pattern": "Properties of definite integrals: ∫₀^(π/2) log tan x, King’s property",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "mht-cet-M30",
+        "section": "maths",
+        "topic": "Definite Integration",
+        "pattern": "Property ∫₀ᵃ f(x)/(f(x) + f(a − x)) dx = a/2; even/odd functions",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-M31",
+        "section": "maths",
+        "topic": "Application of Definite Integration",
+        "pattern": "Area bounded by parabola and line / two curves",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-M32",
+        "section": "maths",
+        "topic": "Application of Definite Integration",
+        "pattern": "Area of circle/ellipse by integration",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mht-cet-M33",
+        "section": "maths",
+        "topic": "Differential Equations",
+        "pattern": "Order and degree of a differential equation",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mht-cet-M34",
+        "section": "maths",
+        "topic": "Differential Equations",
+        "pattern": "Solving variable-separable/linear equations; growth and decay",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-M35",
+        "section": "maths",
+        "topic": "Probability Distributions",
+        "pattern": "Finding k and E(X) for a discrete probability distribution",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-M36",
+        "section": "maths",
+        "topic": "Probability Distributions",
+        "pattern": "Continuous random variable: constant of a pdf, cdf values, variance",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mht-cet-M37",
+        "section": "maths",
+        "topic": "Binomial Distribution",
+        "pattern": "Find n, p from mean and variance; then P(X ≥ 1) or P(X = r)",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "mht-cet-M38",
+        "section": "maths",
+        "topic": "Binomial Distribution",
+        "pattern": "Mean/variance of B(n, p) and simple probabilities",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      }
+    ]
+  },
   "resources": {
     "pyqAvailable": true,
     "officialPYQ": null,
@@ -546,7 +2012,9 @@
       ],
       "answer": 3,
       "explanation": "Angular momentum is conserved: Iω = 2Iω' ⇒ ω' = 15 rpm.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-P05"
     },
     {
       "id": "mht-cet-002",
@@ -562,7 +2030,9 @@
       ],
       "answer": 2,
       "explanation": "I = (2/5)MR² = MK² ⇒ K = √(2/5) R.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-P06"
     },
     {
       "id": "mht-cet-003",
@@ -578,7 +2048,9 @@
       ],
       "answer": 3,
       "explanation": "v = √(rg tan θ) = √(50 × 10 × 0.2) = √100 = 10 m/s.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-P07"
     },
     {
       "id": "mht-cet-004",
@@ -594,7 +2066,9 @@
       ],
       "answer": 1,
       "explanation": "Volume conserved: R³ = 8r³ ⇒ R = 2r. Terminal velocity ∝ r², so v' = 4v.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-P08"
     },
     {
       "id": "mht-cet-005",
@@ -610,7 +2084,9 @@
       ],
       "answer": 0,
       "explanation": "A soap bubble has two surfaces: ΔP = 4T/r = 4 × 0.03/0.01 = 12 Pa.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-P09"
     },
     {
       "id": "mht-cet-006",
@@ -626,7 +2102,9 @@
       ],
       "answer": 2,
       "explanation": "Stefan–Boltzmann law: P ∝ T⁴ ⇒ 2⁴ = 16.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-P10"
     },
     {
       "id": "mht-cet-007",
@@ -642,7 +2120,9 @@
       ],
       "answer": 3,
       "explanation": "TV^(γ−1) = constant ⇒ T₂ = 300 × 32^0.4 = 300 × 2² = 1200 K (since 32^0.4 = 2^(5×0.4) = 4).",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-P12"
     },
     {
       "id": "mht-cet-008",
@@ -658,7 +2138,9 @@
       ],
       "answer": 3,
       "explanation": "Series: k_eff = k/2. T ∝ 1/√k ⇒ T' = √2 T.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-P14"
     },
     {
       "id": "mht-cet-009",
@@ -674,7 +2156,9 @@
       ],
       "answer": 1,
       "explanation": "B is 252 or 260 Hz. Loading lowers B's frequency; beats increase only if B was below A: 252 → lower gives more beats. So B = 252 Hz.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-P16"
     },
     {
       "id": "mht-cet-010",
@@ -690,7 +2174,9 @@
       ],
       "answer": 2,
       "explanation": "Width = 2λD/a = 2 × 600×10⁻⁹ × 2/(0.3×10⁻³) = 8 × 10⁻³ m = 8 mm.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-P18"
     },
     {
       "id": "mht-cet-011",
@@ -706,7 +2192,9 @@
       ],
       "answer": 0,
       "explanation": "tan i_p = μ = √3 ⇒ i_p = 60°.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-P19"
     },
     {
       "id": "mht-cet-012",
@@ -722,7 +2210,9 @@
       ],
       "answer": 1,
       "explanation": "1/C = 1/2 + 1/3 + 1/6 = 1 ⇒ C = 1 μF.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-P21"
     },
     {
       "id": "mht-cet-013",
@@ -738,7 +2228,9 @@
       ],
       "answer": 2,
       "explanation": "Potential gradient = 2/10 = 0.2 V/m. Balancing length = 1.5/0.2 = 7.5 m.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-P23"
     },
     {
       "id": "mht-cet-014",
@@ -754,7 +2246,9 @@
       ],
       "answer": 1,
       "explanation": "F/l = μ₀I₁I₂/(2πd) = 4π×10⁻⁷ × 1 × 1/(2π × 1) = 2 × 10⁻⁷ N/m (the definition of the ampere).",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-P25"
     },
     {
       "id": "mht-cet-015",
@@ -770,7 +2264,9 @@
       ],
       "answer": 3,
       "explanation": "e = N A ΔB/Δt = 500 × 0.01 × 0.2/0.1 = 10 V.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-P28"
     },
     {
       "id": "mht-cet-016",
@@ -786,7 +2282,9 @@
       ],
       "answer": 2,
       "explanation": "Q = (1/R)√(L/C) = (1/10)√(2/(2×10⁻⁶)) = (1/10) × 1000 = 100.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-P30"
     },
     {
       "id": "mht-cet-017",
@@ -802,7 +2300,9 @@
       ],
       "answer": 1,
       "explanation": "Photon energy = 1240/400 = 3.1 eV. K_max = 3.1 − 2.5 = 0.6 eV.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-P32"
     },
     {
       "id": "mht-cet-018",
@@ -818,7 +2318,9 @@
       ],
       "answer": 0,
       "explanation": "v₁ = e²/(2ε₀h) ≈ 2.19 × 10⁶ m/s; v₁/c ≈ 1/137 (the fine-structure constant).",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-P34"
     },
     {
       "id": "mht-cet-019",
@@ -834,7 +2336,9 @@
       ],
       "answer": 0,
       "explanation": "β = α/(1 − α) = 0.98/0.02 = 49.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-P36"
     },
     {
       "id": "mht-cet-020",
@@ -850,7 +2354,9 @@
       ],
       "answer": 3,
       "explanation": "Max range at 45°: R = u²/g. Height H = u² sin²45°/(2g) = R/4 = 25 m.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-P01"
     },
     {
       "id": "mht-cet-021",
@@ -866,7 +2372,9 @@
       ],
       "answer": 1,
       "explanation": "In bcc, 2 atoms per cell with 4r = √3 a; packing fraction = √3π/8 ≈ 0.68.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-C06"
     },
     {
       "id": "mht-cet-022",
@@ -882,7 +2390,9 @@
       ],
       "answer": 3,
       "explanation": "ρ = ZM/(a³N_A) = 4 × 60/((4 × 10⁻⁸ cm)³ × 6.022 × 10²³) = 240/38.54 ≈ 6.23 g cm⁻³.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-C07"
     },
     {
       "id": "mht-cet-023",
@@ -898,7 +2408,9 @@
       ],
       "answer": 2,
       "explanation": "π = CRT = 0.1 × 0.0821 × 300 ≈ 2.46 atm (glucose does not dissociate).",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-C09"
     },
     {
       "id": "mht-cet-024",
@@ -914,7 +2426,9 @@
       ],
       "answer": 1,
       "explanation": "[OH⁻] = 10⁻³ ⇒ pOH = 3 ⇒ pH = 14 − 3 = 11.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-C11"
     },
     {
       "id": "mht-cet-025",
@@ -930,7 +2444,9 @@
       ],
       "answer": 2,
       "explanation": "α = √(Ka/C) = √(1.8 × 10⁻⁴) ≈ 1.34 × 10⁻².",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-C12"
     },
     {
       "id": "mht-cet-026",
@@ -946,7 +2462,9 @@
       ],
       "answer": 2,
       "explanation": "ΔH = ΔU + Δn_gRT with Δn_g = 2 − 4 = −2, so ΔH − ΔU = −2RT.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-C14"
     },
     {
       "id": "mht-cet-027",
@@ -962,7 +2480,9 @@
       ],
       "answer": 0,
       "explanation": "Cu²⁺ + 2e⁻ → Cu: 0.5 F deposits 0.25 mol = 0.25 × 63.5 ≈ 15.9 g.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-C16"
     },
     {
       "id": "mht-cet-028",
@@ -978,7 +2498,9 @@
       ],
       "answer": 0,
       "explanation": "t½ = 0.693/k = 0.693/0.0693 = 10 min.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-C18"
     },
     {
       "id": "mht-cet-029",
@@ -994,7 +2516,9 @@
       ],
       "answer": 0,
       "explanation": "XeOF₄ has 5 bond pairs and 1 lone pair (octahedral arrangement) ⇒ square pyramidal. XeF₄ is square planar, XeO₃ pyramidal, XeF₂ linear.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-C20"
     },
     {
       "id": "mht-cet-030",
@@ -1010,7 +2534,9 @@
       ],
       "answer": 3,
       "explanation": "H₂S₂O₈ contains one peroxide (–O–O–) link with O at −1. 2(+1) + 2x + 6(−2) + 2(−1) = 0 ⇒ x = +6. (Assuming all O as −2 wrongly gives +7.)",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-C21"
     },
     {
       "id": "mht-cet-031",
@@ -1026,7 +2552,9 @@
       ],
       "answer": 0,
       "explanation": "Sc³⁺ is 3d⁰, so no d–d transition is possible. Ti³⁺ (d¹), Cu²⁺ (d⁹) and Ni²⁺ (d⁸) are coloured.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-C23"
     },
     {
       "id": "mht-cet-032",
@@ -1042,7 +2570,9 @@
       ],
       "answer": 1,
       "explanation": "Anionic complex ⇒ metal named 'ferrate'; CN⁻ is 'cyanido'; Fe is +3 since 3(+1) + x + 6(−1) = 0.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-C25"
     },
     {
       "id": "mht-cet-033",
@@ -1058,7 +2588,9 @@
       ],
       "answer": 3,
       "explanation": "Wurtz–Fittig reaction couples the aryl and alkyl groups: C₆H₅Cl + CH₃Cl + 2Na → C₆H₅CH₃ + 2NaCl.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-C27"
     },
     {
       "id": "mht-cet-034",
@@ -1074,7 +2606,9 @@
       ],
       "answer": 0,
       "explanation": "Reimer–Tiemann reaction introduces –CHO at the ortho position to give 2-hydroxybenzaldehyde (salicylaldehyde).",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-C29"
     },
     {
       "id": "mht-cet-035",
@@ -1090,7 +2624,9 @@
       ],
       "answer": 0,
       "explanation": "Aliphatic aldehydes reduce Fehling's solution to red Cu₂O; aromatic aldehydes like benzaldehyde and ketones do not.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-C31"
     },
     {
       "id": "mht-cet-036",
@@ -1106,7 +2642,9 @@
       ],
       "answer": 2,
       "explanation": "Hofmann degradation removes the carbonyl carbon: C₆H₅CONH₂ → C₆H₅NH₂ (one carbon fewer).",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-C33"
     },
     {
       "id": "mht-cet-037",
@@ -1122,7 +2660,9 @@
       ],
       "answer": 1,
       "explanation": "RNA contains uracil in place of thymine; adenine and cytosine occur in both.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-C35"
     },
     {
       "id": "mht-cet-038",
@@ -1138,7 +2678,9 @@
       ],
       "answer": 3,
       "explanation": "Natural rubber is cis-1,4-polyisoprene (2-methylbuta-1,3-diene). Chloroprene gives neoprene.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-C37"
     },
     {
       "id": "mht-cet-039",
@@ -1154,7 +2696,9 @@
       ],
       "answer": 3,
       "explanation": "4 g NaOH = 0.1 mol; molarity = 0.1/0.5 L = 0.2 M.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-C01"
     },
     {
       "id": "mht-cet-040",
@@ -1170,7 +2714,9 @@
       ],
       "answer": 3,
       "explanation": "σ bonds: 4 C–H + 3 C–C = 7. π bonds: 1 in C=C and 2 in C≡C = 3.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-C04"
     },
     {
       "id": "mht-cet-041",
@@ -1186,7 +2732,9 @@
       ],
       "answer": 0,
       "explanation": "¬(∀x p(x)) ≡ ∃x ¬p(x): there exists at least one student who is not intelligent.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-M08"
     },
     {
       "id": "mht-cet-042",
@@ -1202,7 +2750,9 @@
       ],
       "answer": 0,
       "explanation": "|A| = 6 − 5 = 1. A⁻¹ = adj A/|A| = [[3, −1], [−5, 2]].",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-M10"
     },
     {
       "id": "mht-cet-043",
@@ -1218,7 +2768,9 @@
       ],
       "answer": 2,
       "explanation": "sin(5π/6) = 1/2 and the principal range of sin⁻¹ is [−π/2, π/2], so the value is π/6.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-M12"
     },
     {
       "id": "mht-cet-044",
@@ -1234,7 +2786,9 @@
       ],
       "answer": 2,
       "explanation": "a = 1, 2h = −4 (h = −2), b = 1. tan θ = 2√(h² − ab)/|a + b| = 2√3/2 = √3 ⇒ θ = 60°.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-M14"
     },
     {
       "id": "mht-cet-045",
@@ -1250,7 +2804,9 @@
       ],
       "answer": 2,
       "explanation": "AB = (0, 1, 2), AC = (1, 2, 0). AB × AC = (−4, 2, −1), magnitude √21. Area = √21/2.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-M16"
     },
     {
       "id": "mht-cet-046",
@@ -1266,7 +2822,9 @@
       ],
       "answer": 1,
       "explanation": "d = |2 − 2 − 4 − 9|/√(1 + 4 + 16) = 13/√21.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-M18"
     },
     {
       "id": "mht-cet-047",
@@ -1282,7 +2840,9 @@
       ],
       "answer": 0,
       "explanation": "sin φ = |b·n|/(|b||n|) = |2 + 1 − 8|/(3 × √18) = 5/(9√2) = 5√2/18.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-M19"
     },
     {
       "id": "mht-cet-048",
@@ -1298,7 +2858,9 @@
       ],
       "answer": 3,
       "explanation": "Corner points: (0,0) → 0, (3,0) → 9, (3,1) → 11, (0,4) → 8. Maximum = 11 at (3, 1).",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-M21"
     },
     {
       "id": "mht-cet-049",
@@ -1314,7 +2876,9 @@
       ],
       "answer": 2,
       "explanation": "y = xˣ ⇒ dy/dx = xˣ(1 + ln x). At x = 1: 1 × (1 + 0) = 1.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-M22"
     },
     {
       "id": "mht-cet-050",
@@ -1330,7 +2894,9 @@
       ],
       "answer": 3,
       "explanation": "dx/dt = −3a cos²t sin t, dy/dt = 3a sin²t cos t. dy/dx = −sin t/cos t = −tan t.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-M23"
     },
     {
       "id": "mht-cet-051",
@@ -1346,7 +2912,9 @@
       ],
       "answer": 1,
       "explanation": "f'(x) = 3x² − 6x = 0 ⇒ x = 0 or 2. f''(2) = 6 > 0, so the minimum is f(2) = 8 − 12 + 4 = 0.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-M25"
     },
     {
       "id": "mht-cet-052",
@@ -1362,7 +2930,9 @@
       ],
       "answer": 1,
       "explanation": "Using ∫ eˣ(f(x) + f'(x)) dx = eˣf(x) + C with f(x) = 1/x and f'(x) = −1/x².",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-M27"
     },
     {
       "id": "mht-cet-053",
@@ -1378,7 +2948,9 @@
       ],
       "answer": 2,
       "explanation": "Replacing x by π/2 − x turns log tan x into log cot x = −log tan x, so I = −I ⇒ I = 0.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-M29"
     },
     {
       "id": "mht-cet-054",
@@ -1394,7 +2966,9 @@
       ],
       "answer": 1,
       "explanation": "Area = 2∫₀¹ 2√x dx = 4 × (2/3) = 8/3.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-M31"
     },
     {
       "id": "mht-cet-055",
@@ -1410,7 +2984,9 @@
       ],
       "answer": 0,
       "explanation": "Highest derivative is d²y/dx² (order 2), and its power is 3 (degree 3) since the equation is polynomial in derivatives.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-M33"
     },
     {
       "id": "mht-cet-056",
@@ -1426,7 +3002,9 @@
       ],
       "answer": 1,
       "explanation": "10k = 1 ⇒ k = 0.1. E(X) = 0(0.1) + 1(0.2) + 2(0.3) + 3(0.4) = 2.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-M35"
     },
     {
       "id": "mht-cet-057",
@@ -1442,7 +3020,9 @@
       ],
       "answer": 1,
       "explanation": "np = 4, npq = 3 ⇒ q = 3/4, p = 1/4, n = 16. P(X ≥ 1) = 1 − P(X = 0) = 1 − (3/4)¹⁶.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-M37"
     },
     {
       "id": "mht-cet-058",
@@ -1458,7 +3038,9 @@
       ],
       "answer": 0,
       "explanation": "sin(45° + 30°) = sin45°cos30° + cos45°sin30° = (√3 + 1)/(2√2) = (√6 + √2)/4.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-M01"
     },
     {
       "id": "mht-cet-059",
@@ -1474,7 +3056,9 @@
       ],
       "answer": 2,
       "explanation": "x²/16 + y²/9 = 1: a² = 16, b² = 9. e = √(1 − 9/16) = √7/4.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-M03"
     },
     {
       "id": "mht-cet-060",
@@ -1490,7 +3074,1089 @@
       ],
       "answer": 3,
       "explanation": "|z₁/z₂| = |3 + 4i|/|1 − i| = 5/√2.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "mht-cet-M04"
+    },
+    {
+      "id": "mht-cet-061",
+      "section": "physics",
+      "topic": "Gravitation (XI)",
+      "difficulty": "easy",
+      "question": "The period of a satellite revolving very close to the Earth’s surface is approximately (R = 6400 km, g = 10 m/s²)",
+      "options": [
+        "84 min",
+        "42 min",
+        "24 h",
+        "120 min"
+      ],
+      "answer": 0,
+      "explanation": "T = 2π√(R/g) = 2π√(6.4 × 10⁶/10) = 2π × 800 s ≈ 5027 s ≈ 84 min.",
+      "source": "ai",
+      "archetype": "mht-cet-P02",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-062",
+      "section": "physics",
+      "topic": "Thermal Properties & Sound (XI)",
+      "difficulty": "easy",
+      "question": "A metal rod 1 m long expands by 0.6 mm when its temperature rises by 50 °C. The coefficient of linear expansion of the metal is",
+      "options": [
+        "6 × 10⁻⁵ /°C",
+        "1.2 × 10⁻⁵ /°C",
+        "1.2 × 10⁻⁶ /°C",
+        "3 × 10⁻⁵ /°C"
+      ],
+      "answer": 1,
+      "explanation": "α = ΔL/(L ΔT) = 0.6 × 10⁻³/(1 × 50) = 1.2 × 10⁻⁵ per °C.",
+      "source": "ai",
+      "archetype": "mht-cet-P03",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-063",
+      "section": "physics",
+      "topic": "Rotational Dynamics",
+      "difficulty": "medium",
+      "question": "The radius of gyration of a uniform disc of radius R about a tangent lying in its plane is",
+      "options": [
+        "R/2",
+        "√(3/2) R",
+        "(√5/2) R",
+        "R/√2"
+      ],
+      "answer": 2,
+      "explanation": "I = MR²/4 + MR² = 5MR²/4 = MK² ⇒ K = (√5/2)R.",
+      "source": "ai",
+      "archetype": "mht-cet-P06",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-064",
+      "section": "physics",
+      "topic": "Rotational Dynamics",
+      "difficulty": "medium",
+      "question": "A small body tied to a string is whirled in a vertical circle of radius 1 m. The minimum speed it must have at the lowest point to just complete the circle is (g = 10 m/s²)",
+      "options": [
+        "√10 m/s",
+        "√20 m/s",
+        "10 m/s",
+        "√50 m/s"
+      ],
+      "answer": 3,
+      "explanation": "Minimum speed at the top is √(gr); energy conservation gives v_bottom = √(5gr) = √50 ≈ 7.07 m/s. (√10 m/s is the minimum speed at the top.)",
+      "source": "ai",
+      "archetype": "mht-cet-P07",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-065",
+      "section": "physics",
+      "topic": "Mechanical Properties of Fluids",
+      "difficulty": "medium",
+      "question": "A liquid rises to a height h in a capillary tube of radius r. In a tube of radius r/2 made of the same glass, the liquid will rise to a height",
+      "options": [
+        "2h",
+        "h/2",
+        "4h",
+        "h"
+      ],
+      "answer": 0,
+      "explanation": "h = 2T cos θ/(rρg) ∝ 1/r, so halving the radius doubles the rise.",
+      "source": "ai",
+      "archetype": "mht-cet-P09",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-066",
+      "section": "physics",
+      "topic": "Kinetic Theory of Gases & Radiation",
+      "difficulty": "medium",
+      "question": "At what temperature will the rms speed of hydrogen molecules be equal to that of oxygen molecules at 320 K?",
+      "options": [
+        "5120 K",
+        "20 K",
+        "80 K",
+        "40 K"
+      ],
+      "answer": 1,
+      "explanation": "v_rms ∝ √(T/M). T_H₂/2 = 320/32 ⇒ T_H₂ = 20 K.",
+      "source": "ai",
+      "archetype": "mht-cet-P11",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-067",
+      "section": "physics",
+      "topic": "Thermodynamics",
+      "difficulty": "medium",
+      "question": "Two moles of an ideal gas expand isothermally and reversibly at 300 K to twice their initial volume. The work done by the gas is about (R = 8.314 J mol⁻¹ K⁻¹, ln 2 = 0.693)",
+      "options": [
+        "1.73 kJ",
+        "4.99 kJ",
+        "3.46 kJ",
+        "6.92 kJ"
+      ],
+      "answer": 2,
+      "explanation": "W = nRT ln(V₂/V₁) = 2 × 8.314 × 300 × 0.693 ≈ 3457 J ≈ 3.46 kJ.",
+      "source": "ai",
+      "archetype": "mht-cet-P13",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-068",
+      "section": "physics",
+      "topic": "Oscillations",
+      "difficulty": "medium",
+      "question": "The displacement of a particle in SHM is x = 5 sin(πt/3 + π/6) cm, with t in seconds. Its maximum speed is",
+      "options": [
+        "5 cm/s",
+        "π/3 cm/s",
+        "15π cm/s",
+        "5π/3 cm/s"
+      ],
+      "answer": 3,
+      "explanation": "v_max = Aω = 5 × π/3 = 5π/3 cm/s ≈ 5.24 cm/s.",
+      "source": "ai",
+      "archetype": "mht-cet-P15",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-069",
+      "section": "physics",
+      "topic": "Superposition of Waves",
+      "difficulty": "medium",
+      "question": "The fundamental frequency of a pipe open at both ends is 300 Hz. If one end is closed, the fundamental frequency becomes",
+      "options": [
+        "150 Hz",
+        "600 Hz",
+        "300 Hz",
+        "75 Hz"
+      ],
+      "answer": 0,
+      "explanation": "Open pipe: f = v/2L; closed pipe: f = v/4L, i.e. half: 150 Hz.",
+      "source": "ai",
+      "archetype": "mht-cet-P17",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-070",
+      "section": "physics",
+      "topic": "Wave Optics",
+      "difficulty": "medium",
+      "question": "In Young’s double-slit experiment the slits are 1 mm apart and the screen is 1 m away. For light of wavelength 500 nm the fringe width is",
+      "options": [
+        "1 mm",
+        "0.5 mm",
+        "0.25 mm",
+        "5 mm"
+      ],
+      "answer": 1,
+      "explanation": "β = λD/d = 500 × 10⁻⁹ × 1/10⁻³ = 5 × 10⁻⁴ m = 0.5 mm.",
+      "source": "ai",
+      "archetype": "mht-cet-P20",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-071",
+      "section": "physics",
+      "topic": "Electrostatics",
+      "difficulty": "medium",
+      "question": "A closed surface encloses charges of +3 μC, −5 μC and +4 μC. The net electric flux through the surface is (ε₀ = 8.85 × 10⁻¹² C² N⁻¹ m⁻²)",
+      "options": [
+        "1.36 × 10⁶ N m² C⁻¹",
+        "4.52 × 10⁵ N m² C⁻¹",
+        "2.26 × 10⁵ N m² C⁻¹",
+        "1.13 × 10⁵ N m² C⁻¹"
+      ],
+      "answer": 2,
+      "explanation": "Net enclosed charge = +2 μC. φ = q/ε₀ = 2 × 10⁻⁶/8.85 × 10⁻¹² ≈ 2.26 × 10⁵ N m² C⁻¹. (1.36 × 10⁶ adds magnitudes.)",
+      "source": "ai",
+      "archetype": "mht-cet-P22",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-072",
+      "section": "physics",
+      "topic": "Current Electricity",
+      "difficulty": "medium",
+      "question": "A galvanometer of resistance 100 Ω gives full-scale deflection for 10 mA. The shunt needed to convert it into an ammeter of range 0–1 A is about",
+      "options": [
+        "0.1 Ω",
+        "9.9 Ω",
+        "100 Ω",
+        "1.01 Ω"
+      ],
+      "answer": 3,
+      "explanation": "S = I_g G/(I − I_g) = 0.01 × 100/0.99 ≈ 1.01 Ω, connected in parallel.",
+      "source": "ai",
+      "archetype": "mht-cet-P24",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-073",
+      "section": "physics",
+      "topic": "Magnetic Fields due to Electric Current",
+      "difficulty": "medium",
+      "question": "A long solenoid has 1000 turns per metre and carries a current of 2 A. The magnetic field inside it is about (μ₀ = 4π × 10⁻⁷ T m/A)",
+      "options": [
+        "2.51 × 10⁻³ T",
+        "1.26 × 10⁻³ T",
+        "2.51 × 10⁻⁵ T",
+        "5.02 × 10⁻³ T"
+      ],
+      "answer": 0,
+      "explanation": "B = μ₀nI = 4π × 10⁻⁷ × 1000 × 2 ≈ 2.51 × 10⁻³ T.",
+      "source": "ai",
+      "archetype": "mht-cet-P26",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-074",
+      "section": "physics",
+      "topic": "Magnetic Materials",
+      "difficulty": "easy",
+      "question": "The magnetic susceptibility of a paramagnetic substance is",
+      "options": [
+        "small and negative, and independent of temperature",
+        "small and positive, and decreases as temperature increases",
+        "large and positive, and independent of temperature",
+        "small and positive, and increases with temperature"
+      ],
+      "answer": 1,
+      "explanation": "Paramagnets have small positive χ obeying Curie’s law χ = C/T. Diamagnets have small negative, temperature-independent χ; ferromagnets have large positive χ.",
+      "source": "ai",
+      "archetype": "mht-cet-P27",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-075",
+      "section": "physics",
+      "topic": "Electromagnetic Induction",
+      "difficulty": "medium",
+      "question": "An inductor of self-inductance 0.5 H carries a steady current of 4 A. The energy stored in its magnetic field is",
+      "options": [
+        "8 J",
+        "2 J",
+        "4 J",
+        "1 J"
+      ],
+      "answer": 2,
+      "explanation": "U = ½LI² = ½ × 0.5 × 16 = 4 J.",
+      "source": "ai",
+      "archetype": "mht-cet-P29",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-076",
+      "section": "physics",
+      "topic": "AC Circuits",
+      "difficulty": "medium",
+      "question": "The capacitive reactance of a 10 μF capacitor in a 50 Hz AC circuit is about",
+      "options": [
+        "31.8 Ω",
+        "3.18 kΩ",
+        "159 Ω",
+        "318 Ω"
+      ],
+      "answer": 3,
+      "explanation": "X_C = 1/(2πfC) = 1/(2π × 50 × 10⁻⁵) ≈ 318 Ω.",
+      "source": "ai",
+      "archetype": "mht-cet-P31",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-077",
+      "section": "physics",
+      "topic": "Dual Nature of Radiation & Matter",
+      "difficulty": "easy",
+      "question": "A proton and an α-particle have the same kinetic energy. The ratio of their de Broglie wavelengths λ_p : λ_α is",
+      "options": [
+        "2 : 1",
+        "1 : 2",
+        "4 : 1",
+        "1 : 4"
+      ],
+      "answer": 0,
+      "explanation": "λ = h/√(2mK). With equal K, λ ∝ 1/√m: λ_p/λ_α = √(4m/m) = 2.",
+      "source": "ai",
+      "archetype": "mht-cet-P33",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-078",
+      "section": "physics",
+      "topic": "Structure of Atoms & Nuclei",
+      "difficulty": "medium",
+      "question": "The half-life of a radioactive substance is 20 days. The time taken for 75% of it to decay is",
+      "options": [
+        "20 days",
+        "40 days",
+        "60 days",
+        "30 days"
+      ],
+      "answer": 1,
+      "explanation": "75% decayed means 25% = (1/2)² remains: 2 half-lives = 40 days.",
+      "source": "ai",
+      "archetype": "mht-cet-P35",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-079",
+      "section": "physics",
+      "topic": "Semiconductor Devices",
+      "difficulty": "easy",
+      "question": "A Zener diode operated in reverse breakdown is mainly used as a",
+      "options": [
+        "rectifier",
+        "amplifier",
+        "voltage regulator",
+        "oscillator"
+      ],
+      "answer": 2,
+      "explanation": "In breakdown the Zener voltage stays nearly constant over a wide current range, so it regulates voltage.",
+      "source": "ai",
+      "archetype": "mht-cet-P37",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-080",
+      "section": "physics",
+      "topic": "Rotational Dynamics",
+      "difficulty": "medium",
+      "question": "A uniform disc of moment of inertia 2 kg m² rotates freely at 10 rad/s about its axis. A small 1 kg lump of clay is gently stuck on it at 1 m from the axis. The new angular speed is",
+      "options": [
+        "5 rad/s",
+        "10 rad/s",
+        "20 rad/s",
+        "6.67 rad/s"
+      ],
+      "answer": 3,
+      "explanation": "Iω conserved: 2 × 10 = (2 + 1 × 1²)ω ⇒ ω = 20/3 ≈ 6.67 rad/s.",
+      "source": "ai",
+      "archetype": "mht-cet-P05",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-081",
+      "section": "chemistry",
+      "topic": "Basic Concepts & Analytical Chemistry (XI)",
+      "difficulty": "easy",
+      "question": "A compound contains 40% carbon, 6.67% hydrogen and 53.33% oxygen by mass. Its empirical formula is",
+      "options": [
+        "CH₂O",
+        "CH₃O",
+        "C₂H₄O",
+        "CHO"
+      ],
+      "answer": 0,
+      "explanation": "Mole ratio C : H : O = 40/12 : 6.67/1 : 53.33/16 = 3.33 : 6.67 : 3.33 = 1 : 2 : 1 ⇒ CH₂O.",
+      "source": "ai",
+      "archetype": "mht-cet-C02",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-082",
+      "section": "chemistry",
+      "topic": "Chemical Bonding (XI)",
+      "difficulty": "medium",
+      "question": "The hybridisation of carbon in diamond, graphite and ethyne is respectively",
+      "options": [
+        "sp², sp³ and sp",
+        "sp³, sp² and sp",
+        "sp³, sp and sp²",
+        "sp², sp² and sp"
+      ],
+      "answer": 1,
+      "explanation": "Diamond: each C bonded tetrahedrally to 4 C (sp³). Graphite: trigonal planar layers (sp²). Ethyne: linear H–C≡C–H (sp).",
+      "source": "ai",
+      "archetype": "mht-cet-C03",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-083",
+      "section": "chemistry",
+      "topic": "Hydrocarbons & Basic Organic Chemistry (XI)",
+      "difficulty": "medium",
+      "question": "The IUPAC name of (CH₃)₂CH–CH₂–CH₂OH is",
+      "options": [
+        "2-Methylbutan-4-ol",
+        "3-Methylpentan-1-ol",
+        "3-Methylbutan-1-ol",
+        "2-Methylbutan-1-ol"
+      ],
+      "answer": 2,
+      "explanation": "Longest chain containing the –OH carbon has 4 carbons, numbered from the –OH end; the methyl group is on C-3: 3-methylbutan-1-ol.",
+      "source": "ai",
+      "archetype": "mht-cet-C05",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-084",
+      "section": "chemistry",
+      "topic": "Solid State",
+      "difficulty": "easy",
+      "question": "The number of atoms per unit cell of a face-centred cubic lattice is",
+      "options": [
+        "2",
+        "1",
+        "6",
+        "4"
+      ],
+      "answer": 3,
+      "explanation": "8 corners × 1/8 + 6 face centres × 1/2 = 1 + 3 = 4.",
+      "source": "ai",
+      "archetype": "mht-cet-C08",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-085",
+      "section": "chemistry",
+      "topic": "Solutions",
+      "difficulty": "medium",
+      "question": "3 g of urea (molar mass 60 g mol⁻¹) is dissolved in 500 g of water. The freezing point of the solution is (Kf of water = 1.86 K kg mol⁻¹)",
+      "options": [
+        "−0.186 °C",
+        "−0.372 °C",
+        "−0.093 °C",
+        "−1.86 °C"
+      ],
+      "answer": 0,
+      "explanation": "Molality = 0.05/0.5 = 0.1 m. ΔTf = 1.86 × 0.1 = 0.186 K, so the solution freezes at −0.186 °C.",
+      "source": "ai",
+      "archetype": "mht-cet-C10",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-086",
+      "section": "chemistry",
+      "topic": "Ionic Equilibria",
+      "difficulty": "medium",
+      "question": "The solubility of BaSO₄ in water is 1 × 10⁻⁵ mol L⁻¹ at 298 K. Its solubility product is",
+      "options": [
+        "1 × 10⁻⁵",
+        "1 × 10⁻¹⁰",
+        "2 × 10⁻¹⁰",
+        "4 × 10⁻¹⁵"
+      ],
+      "answer": 1,
+      "explanation": "BaSO₄ ⇌ Ba²⁺ + SO₄²⁻; Ksp = s² = (10⁻⁵)² = 1 × 10⁻¹⁰. (4 × 10⁻¹⁵ would be 4s³ for an AB₂ salt.)",
+      "source": "ai",
+      "archetype": "mht-cet-C13",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-087",
+      "section": "chemistry",
+      "topic": "Chemical Thermodynamics",
+      "difficulty": "medium",
+      "question": "Two moles of an ideal gas expand from 10 L to 20 L against a constant external pressure of 1 atm. The work done on the gas is (1 L atm = 101.3 J)",
+      "options": [
+        "+1013 J",
+        "−101.3 J",
+        "−1013 J",
+        "−2026 J"
+      ],
+      "answer": 2,
+      "explanation": "W = −P_ext ΔV = −1 × (20 − 10) = −10 L atm = −1013 J (work done by the gas is +1013 J). The number of moles does not enter.",
+      "source": "ai",
+      "archetype": "mht-cet-C15",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-088",
+      "section": "chemistry",
+      "topic": "Electrochemistry",
+      "difficulty": "medium",
+      "question": "A conductivity cell has a cell constant of 0.5 cm⁻¹. When filled with a solution its resistance is 100 Ω. The conductivity of the solution is",
+      "options": [
+        "50 S cm⁻¹",
+        "2 × 10⁻² S cm⁻¹",
+        "5 × 10⁻² S cm⁻¹",
+        "5 × 10⁻³ S cm⁻¹"
+      ],
+      "answer": 3,
+      "explanation": "κ = cell constant/R = 0.5/100 = 5 × 10⁻³ S cm⁻¹.",
+      "source": "ai",
+      "archetype": "mht-cet-C17",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-089",
+      "section": "chemistry",
+      "topic": "Chemical Kinetics",
+      "difficulty": "medium",
+      "question": "The units of the rate constant of a second-order reaction are",
+      "options": [
+        "L mol⁻¹ s⁻¹",
+        "mol L⁻¹ s⁻¹",
+        "s⁻¹",
+        "L² mol⁻² s⁻¹"
+      ],
+      "answer": 0,
+      "explanation": "k = rate/[A]² ⇒ (mol L⁻¹ s⁻¹)/(mol L⁻¹)² = L mol⁻¹ s⁻¹. s⁻¹ is first order; mol L⁻¹ s⁻¹ zero order; L² mol⁻² s⁻¹ third order.",
+      "source": "ai",
+      "archetype": "mht-cet-C19",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-090",
+      "section": "chemistry",
+      "topic": "Elements of Groups 16, 17 & 18",
+      "difficulty": "medium",
+      "question": "Which halogen has the most negative electron gain enthalpy?",
+      "options": [
+        "Fluorine",
+        "Chlorine",
+        "Bromine",
+        "Iodine"
+      ],
+      "answer": 1,
+      "explanation": "Chlorine. Fluorine’s small 2p subshell causes strong electron–electron repulsion, so its electron gain enthalpy is less negative than chlorine’s.",
+      "source": "ai",
+      "archetype": "mht-cet-C22",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-091",
+      "section": "chemistry",
+      "topic": "Elements of Groups 16, 17 & 18",
+      "difficulty": "medium",
+      "question": "The shape of the XeF₄ molecule is",
+      "options": [
+        "tetrahedral",
+        "see-saw",
+        "square planar",
+        "square pyramidal"
+      ],
+      "answer": 2,
+      "explanation": "Xe has 4 bond pairs and 2 lone pairs (sp³d², octahedral arrangement); the lone pairs are trans, giving a square planar shape.",
+      "source": "ai",
+      "archetype": "mht-cet-C20",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-092",
+      "section": "chemistry",
+      "topic": "Transition & Inner Transition Elements",
+      "difficulty": "easy",
+      "question": "The most common oxidation state of the lanthanoids is",
+      "options": [
+        "+2",
+        "+4",
+        "+5",
+        "+3"
+      ],
+      "answer": 3,
+      "explanation": "All lanthanoids show the +3 state; +2 (Eu, Yb) and +4 (Ce) occur only for some elements.",
+      "source": "ai",
+      "archetype": "mht-cet-C24",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-093",
+      "section": "chemistry",
+      "topic": "Coordination Compounds",
+      "difficulty": "medium",
+      "question": "The effective atomic number (EAN) of iron in K₄[Fe(CN)₆] is",
+      "options": [
+        "36",
+        "34",
+        "38",
+        "24"
+      ],
+      "answer": 0,
+      "explanation": "Fe²⁺ has 26 − 2 = 24 electrons; six CN⁻ ligands donate 12 electrons: EAN = 36 (the krypton configuration).",
+      "source": "ai",
+      "archetype": "mht-cet-C26",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-094",
+      "section": "chemistry",
+      "topic": "Halogen Derivatives",
+      "difficulty": "medium",
+      "question": "Which of the following alkyl bromides undergoes SN2 reaction fastest?",
+      "options": [
+        "CH₃CH₂Br",
+        "CH₃Br",
+        "(CH₃)₂CHBr",
+        "(CH₃)₃CBr"
+      ],
+      "answer": 1,
+      "explanation": "SN2 requires backside attack; steric hindrance increases from methyl to 3°, so methyl bromide reacts fastest.",
+      "source": "ai",
+      "archetype": "mht-cet-C28",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-095",
+      "section": "chemistry",
+      "topic": "Alcohols, Phenols & Ethers",
+      "difficulty": "medium",
+      "question": "tert-Butyl methyl ether is best prepared by Williamson synthesis from",
+      "options": [
+        "sodium methoxide and tert-butyl bromide",
+        "tert-butyl bromide and methanol",
+        "sodium tert-butoxide and methyl bromide",
+        "methyl bromide and tert-butyl bromide"
+      ],
+      "answer": 2,
+      "explanation": "The alkyl halide must be primary (SN2). With tert-butyl bromide, the alkoxide acts as a base and gives 2-methylpropene by elimination.",
+      "source": "ai",
+      "archetype": "mht-cet-C30",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-096",
+      "section": "chemistry",
+      "topic": "Aldehydes, Ketones & Carboxylic Acids",
+      "difficulty": "medium",
+      "question": "Which of the following is the strongest acid?",
+      "options": [
+        "CHCl₂COOH",
+        "CH₂ClCOOH",
+        "CH₃COOH",
+        "CCl₃COOH"
+      ],
+      "answer": 3,
+      "explanation": "Each Cl withdraws electron density (−I) and stabilises the carboxylate ion; trichloroacetic acid is the strongest.",
+      "source": "ai",
+      "archetype": "mht-cet-C32",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-097",
+      "section": "chemistry",
+      "topic": "Amines",
+      "difficulty": "medium",
+      "question": "Aniline is treated with NaNO₂ and dilute HCl at 0–5 °C, and the solution is then warmed with water. The organic product is",
+      "options": [
+        "phenol",
+        "chlorobenzene",
+        "benzene",
+        "nitrobenzene"
+      ],
+      "answer": 0,
+      "explanation": "Diazotisation gives benzenediazonium chloride, which hydrolyses on warming with water to phenol with evolution of N₂.",
+      "source": "ai",
+      "archetype": "mht-cet-C34",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-098",
+      "section": "chemistry",
+      "topic": "Biomolecules",
+      "difficulty": "easy",
+      "question": "In sucrose, the two monosaccharide units are joined through",
+      "options": [
+        "C-1 of α-D-glucose and C-4 of another glucose",
+        "C-1 of α-D-glucose and C-2 of β-D-fructose",
+        "C-1 of β-D-glucose and C-4 of β-D-galactose",
+        "C-2 of α-D-glucose and C-1 of β-D-fructose"
+      ],
+      "answer": 1,
+      "explanation": "The glycosidic bond links the anomeric carbons C-1 of glucose and C-2 of fructose, so sucrose has no free reducing group.",
+      "source": "ai",
+      "archetype": "mht-cet-C36",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-099",
+      "section": "chemistry",
+      "topic": "Introduction to Polymer Chemistry",
+      "difficulty": "easy",
+      "question": "The monomer of nylon-6 is",
+      "options": [
+        "adipic acid and hexamethylenediamine",
+        "vinyl chloride",
+        "caprolactam",
+        "chloroprene"
+      ],
+      "answer": 2,
+      "explanation": "Nylon-6 is made by ring-opening polymerisation of caprolactam. Adipic acid + hexamethylenediamine give nylon-6,6; vinyl chloride gives PVC; chloroprene gives neoprene.",
+      "source": "ai",
+      "archetype": "mht-cet-C37",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-100",
+      "section": "chemistry",
+      "topic": "Solid State",
+      "difficulty": "hard",
+      "question": "A metal crystallises in a body-centred cubic lattice with an edge length of 300 pm. The atomic radius of the metal is about",
+      "options": [
+        "106.1 pm",
+        "150 pm",
+        "212.1 pm",
+        "129.9 pm"
+      ],
+      "answer": 3,
+      "explanation": "In bcc, atoms touch along the body diagonal: 4r = √3a ⇒ r = √3 × 300/4 ≈ 129.9 pm. (106.1 pm uses the fcc relation 4r = √2a.)",
+      "source": "ai",
+      "archetype": "mht-cet-C07",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-101",
+      "section": "maths",
+      "topic": "Straight Line & Circle (XI)",
+      "difficulty": "easy",
+      "question": "The centre and radius of the circle x² + y² − 4x + 6y − 12 = 0 are",
+      "options": [
+        "(2, −3) and 5",
+        "(−2, 3) and 5",
+        "(2, −3) and √12",
+        "(−2, 3) and 25"
+      ],
+      "answer": 0,
+      "explanation": "Centre (−g, −f) = (2, −3); radius = √(4 + 9 + 12) = 5.",
+      "source": "ai",
+      "archetype": "mht-cet-M02",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-102",
+      "section": "maths",
+      "topic": "Complex Numbers & Permutations (XI)",
+      "difficulty": "easy",
+      "question": "The number of diagonals of a decagon is",
+      "options": [
+        "45",
+        "35",
+        "40",
+        "70"
+      ],
+      "answer": 1,
+      "explanation": "C(10, 2) − 10 sides = 45 − 10 = 35.",
+      "source": "ai",
+      "archetype": "mht-cet-M05",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-103",
+      "section": "maths",
+      "topic": "Probability & Dispersion (XI)",
+      "difficulty": "easy",
+      "question": "The variance of the observations 2, 4, 6, 8, 10 is",
+      "options": [
+        "10",
+        "√8",
+        "8",
+        "40"
+      ],
+      "answer": 2,
+      "explanation": "Mean = 6; squared deviations 16, 4, 0, 4, 16 sum to 40; variance = 40/5 = 8.",
+      "source": "ai",
+      "archetype": "mht-cet-M06",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-104",
+      "section": "maths",
+      "topic": "Functions, Limits & Continuity (XI)",
+      "difficulty": "medium",
+      "question": "The value of lim (x → 0) (eˣ − 1 − x)/x² is",
+      "options": [
+        "1",
+        "0",
+        "2",
+        "1/2"
+      ],
+      "answer": 3,
+      "explanation": "eˣ = 1 + x + x²/2 + …, so (eˣ − 1 − x)/x² → 1/2.",
+      "source": "ai",
+      "archetype": "mht-cet-M07",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-105",
+      "section": "maths",
+      "topic": "Mathematical Logic",
+      "difficulty": "easy",
+      "question": "Which of the following statement patterns is a tautology?",
+      "options": [
+        "(p ∧ q) → p",
+        "p → (p ∧ q)",
+        "(p ∨ q) → p",
+        "p ∧ ~q"
+      ],
+      "answer": 0,
+      "explanation": "(p ∧ q) → p is false only if p ∧ q is true and p false, which is impossible. p → (p ∧ q) fails for p = T, q = F; (p ∨ q) → p fails for p = F, q = T.",
+      "source": "ai",
+      "archetype": "mht-cet-M09",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-106",
+      "section": "maths",
+      "topic": "Mathematical Logic",
+      "difficulty": "easy",
+      "question": "The converse of the statement ‘If it rains, then the match is cancelled’ is",
+      "options": [
+        "If it does not rain, then the match is not cancelled.",
+        "If the match is cancelled, then it rains.",
+        "If the match is not cancelled, then it does not rain.",
+        "It rains and the match is not cancelled."
+      ],
+      "answer": 1,
+      "explanation": "The converse of p → q is q → p. The others are the inverse, the contrapositive and the negation respectively.",
+      "source": "ai",
+      "archetype": "mht-cet-M08",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-107",
+      "section": "maths",
+      "topic": "Matrices",
+      "difficulty": "medium",
+      "question": "The adjoint of A = [[1, 2], [3, 4]] (rows) is",
+      "options": [
+        "[[4, −3], [−2, 1]]",
+        "[[−4, 2], [3, −1]]",
+        "[[4, −2], [−3, 1]]",
+        "[[1, −2], [−3, 4]]"
+      ],
+      "answer": 2,
+      "explanation": "For [[a, b], [c, d]], adj = [[d, −b], [−c, a]] = [[4, −2], [−3, 1]]. [[4, −3], [−2, 1]] is the cofactor matrix before transposing.",
+      "source": "ai",
+      "archetype": "mht-cet-M11",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-108",
+      "section": "maths",
+      "topic": "Trigonometric Functions",
+      "difficulty": "medium",
+      "question": "The general solution of tan θ = √3 is",
+      "options": [
+        "θ = 2nπ + π/3, n ∈ Z",
+        "θ = nπ ± π/3, n ∈ Z",
+        "θ = nπ + π/6, n ∈ Z",
+        "θ = nπ + π/3, n ∈ Z"
+      ],
+      "answer": 3,
+      "explanation": "tan θ = tan(π/3) ⇒ θ = nπ + π/3 (tan has period π).",
+      "source": "ai",
+      "archetype": "mht-cet-M13",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-109",
+      "section": "maths",
+      "topic": "Pair of Straight Lines",
+      "difficulty": "medium",
+      "question": "The lines represented by 3x² + 2hxy + 3y² = 0 are coincident. Then h equals",
+      "options": [
+        "±3",
+        "±9",
+        "0",
+        "±√3"
+      ],
+      "answer": 0,
+      "explanation": "Coincident lines require h² = ab = 9 ⇒ h = ±3.",
+      "source": "ai",
+      "archetype": "mht-cet-M15",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-110",
+      "section": "maths",
+      "topic": "Vectors",
+      "difficulty": "medium",
+      "question": "The volume of the parallelepiped with coterminous edges î + 2ĵ + 3k̂, ĵ + 2k̂ and î + k̂ is",
+      "options": [
+        "4 cubic units",
+        "2 cubic units",
+        "6 cubic units",
+        "0"
+      ],
+      "answer": 1,
+      "explanation": "Volume = |det[[1, 2, 3], [0, 1, 2], [1, 0, 1]]| = |1(1 − 0) − 2(0 − 2) + 3(0 − 1)| = |1 + 4 − 3| = 2.",
+      "source": "ai",
+      "archetype": "mht-cet-M17",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-111",
+      "section": "maths",
+      "topic": "Line and Plane",
+      "difficulty": "medium",
+      "question": "The equation of the plane passing through (1, 2, 3) and perpendicular to the vector 2î − ĵ + k̂ is",
+      "options": [
+        "2x − y + z = 0",
+        "x + 2y + 3z = 6",
+        "2x − y + z = 3",
+        "2x − y + z = −3"
+      ],
+      "answer": 2,
+      "explanation": "2(x − 1) − (y − 2) + (z − 3) = 0 ⇒ 2x − y + z = 2 − 2 + 3 = 3.",
+      "source": "ai",
+      "archetype": "mht-cet-M20",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-112",
+      "section": "maths",
+      "topic": "Linear Programming",
+      "difficulty": "easy",
+      "question": "The minimum value of z = 2x + 3y subject to x + y ≥ 4, x ≥ 0, y ≥ 0 is",
+      "options": [
+        "12",
+        "0",
+        "10",
+        "8"
+      ],
+      "answer": 3,
+      "explanation": "The feasible region is unbounded with corner points (4, 0) and (0, 4): z = 8 and 12. Since 2x + 3y < 8 has no point in the region, the minimum is 8.",
+      "source": "ai",
+      "archetype": "mht-cet-M21",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-113",
+      "section": "maths",
+      "topic": "Differentiation",
+      "difficulty": "medium",
+      "question": "For |x| < 1, the derivative of tan⁻¹(2x/(1 − x²)) with respect to x is",
+      "options": [
+        "2/(1 + x²)",
+        "1/(1 + x²)",
+        "−2/(1 + x²)",
+        "2/(1 − x²)"
+      ],
+      "answer": 0,
+      "explanation": "With x = tan θ, the expression equals 2θ = 2 tan⁻¹ x for |x| < 1, so the derivative is 2/(1 + x²).",
+      "source": "ai",
+      "archetype": "mht-cet-M24",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-114",
+      "section": "maths",
+      "topic": "Applications of Derivatives",
+      "difficulty": "medium",
+      "question": "The slope of the normal to the curve y = x³ − 2x at the point (1, −1) is",
+      "options": [
+        "1",
+        "−1",
+        "0",
+        "−1/3"
+      ],
+      "answer": 1,
+      "explanation": "dy/dx = 3x² − 2 = 1 at x = 1 (slope of tangent), so the normal has slope −1.",
+      "source": "ai",
+      "archetype": "mht-cet-M26",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-115",
+      "section": "maths",
+      "topic": "Indefinite Integration",
+      "difficulty": "medium",
+      "question": "∫ x eˣ dx equals",
+      "options": [
+        "(x + 1)eˣ + C",
+        "x eˣ + C",
+        "(x − 1)eˣ + C",
+        "(x² /2) eˣ + C"
+      ],
+      "answer": 2,
+      "explanation": "By parts: x eˣ − ∫eˣ dx = (x − 1)eˣ + C.",
+      "source": "ai",
+      "archetype": "mht-cet-M28",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-116",
+      "section": "maths",
+      "topic": "Definite Integration",
+      "difficulty": "medium",
+      "question": "The value of ∫ from 0 to π/2 of sin⁴x/(sin⁴x + cos⁴x) dx is",
+      "options": [
+        "π/2",
+        "0",
+        "π",
+        "π/4"
+      ],
+      "answer": 3,
+      "explanation": "Using x → π/2 − x, I equals the same integral with cos⁴x on top; adding, 2I = π/2, so I = π/4.",
+      "source": "ai",
+      "archetype": "mht-cet-M30",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-117",
+      "section": "maths",
+      "topic": "Application of Definite Integration",
+      "difficulty": "medium",
+      "question": "The area enclosed by the ellipse x²/16 + y²/9 = 1 is",
+      "options": [
+        "12π sq. units",
+        "7π sq. units",
+        "24π sq. units",
+        "6π sq. units"
+      ],
+      "answer": 0,
+      "explanation": "Area = πab = π × 4 × 3 = 12π.",
+      "source": "ai",
+      "archetype": "mht-cet-M32",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-118",
+      "section": "maths",
+      "topic": "Differential Equations",
+      "difficulty": "medium",
+      "question": "The general solution of dy/dx = (1 + y²)/(1 + x²) is",
+      "options": [
+        "tan⁻¹y + tan⁻¹x = c",
+        "tan⁻¹y − tan⁻¹x = c",
+        "y − x = c",
+        "log(1 + y²) = log(1 + x²) + c"
+      ],
+      "answer": 1,
+      "explanation": "Separating variables: dy/(1 + y²) = dx/(1 + x²) ⇒ tan⁻¹y = tan⁻¹x + c.",
+      "source": "ai",
+      "archetype": "mht-cet-M34",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-119",
+      "section": "maths",
+      "topic": "Probability Distributions",
+      "difficulty": "medium",
+      "question": "A continuous random variable X has probability density function f(x) = kx² for 0 ≤ x ≤ 3 and 0 otherwise. The value of k is",
+      "options": [
+        "1/3",
+        "1/27",
+        "1/9",
+        "3"
+      ],
+      "answer": 2,
+      "explanation": "∫₀³ kx² dx = 9k = 1 ⇒ k = 1/9.",
+      "source": "ai",
+      "archetype": "mht-cet-M36",
+      "verified": false
+    },
+    {
+      "id": "mht-cet-120",
+      "section": "maths",
+      "topic": "Binomial Distribution",
+      "difficulty": "medium",
+      "question": "For a binomial distribution with n = 10 and p = 0.4, the variance is",
+      "options": [
+        "4",
+        "6",
+        "1.6",
+        "2.4"
+      ],
+      "answer": 3,
+      "explanation": "Variance = npq = 10 × 0.4 × 0.6 = 2.4 (the mean is 4).",
+      "source": "ai",
+      "archetype": "mht-cet-M38",
+      "verified": false
     }
   ]
 }

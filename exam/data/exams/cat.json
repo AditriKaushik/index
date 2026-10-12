@@ -228,6 +228,678 @@
       }
     ]
   },
+  "pyqBlueprint": {
+    "yearsCovered": [
+      2023,
+      2024,
+      2025
+    ],
+    "method": "Compiled from slot-wise memory-based analyses and solved-paper reviews of CAT 2023, 2024 and 2025 (IMS, TIME, Career Launcher, Cracku, Hitbullseye, iQuanta and InsideIIM write-ups found via web search); IIM Lucknow/IIM Kolkata/IIM Calcutta do not publish official papers, and the full analysis pages could not be fetched, so question types were consolidated from search snippets plus the writer's own knowledge of the three papers. Every pattern is described in our own words; no actual question is reproduced.",
+    "archetypes": [
+      {
+        "id": "cat-V01",
+        "section": "varc",
+        "topic": "Reading Comprehension",
+        "pattern": "400–450-word humanities/social-science passage; 'central idea / primary concern' question whose distractors seize a peripheral detail, over-generalise, or state the view the author argues against",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-V02",
+        "section": "varc",
+        "topic": "Reading Comprehension",
+        "pattern": "Inference / 'the author would most likely agree' question on an argumentative passage; wrong options are extreme versions of the author's claim or statements the passage leaves untested",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "3–4 per slot",
+        "difficulty": "hard"
+      },
+      {
+        "id": "cat-V03",
+        "section": "varc",
+        "topic": "Reading Comprehension",
+        "pattern": "Function question: why the author cites a particular example, analogy or closing sentence; traps describe the example's content instead of its role in the argument",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-V04",
+        "section": "varc",
+        "topic": "Reading Comprehension",
+        "pattern": "Strengthen/weaken a claim or explanation reported in the passage; the key option attacks the causal link (confounder, missing comparison), distractors support it or are irrelevant",
+        "years": [
+          2023,
+          2025
+        ],
+        "frequency": "≈1 per slot",
+        "difficulty": "hard"
+      },
+      {
+        "id": "cat-V05",
+        "section": "varc",
+        "topic": "Reading Comprehension",
+        "pattern": "Author's tone or attitude toward a trend or idea; options pair close adjectives (qualified scepticism vs outright hostility) so only a balanced reading fits",
+        "years": [
+          2023,
+          2024
+        ],
+        "frequency": "0–1 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-V06",
+        "section": "varc",
+        "topic": "Reading Comprehension",
+        "pattern": "Detail / 'all of the following EXCEPT' question checking which listed statement the passage does not support",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-V07",
+        "section": "varc",
+        "topic": "Reading Comprehension",
+        "pattern": "Meaning of a figurative phrase or key claim in context; distractors take the phrase literally or exaggerate it",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "≈1 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-V08",
+        "section": "varc",
+        "topic": "Para Jumbles",
+        "pattern": "4-sentence TITA para jumble (shown here as options) built on chronology or contrast, with an opening general statement and a 'Yet/However' turn",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "2 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-V09",
+        "section": "varc",
+        "topic": "Para Jumbles",
+        "pattern": "4/5-sentence para jumble locked by demonstratives ('such delays', 'those marks') that cannot precede their referent; tempting orders break that chain",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per slot",
+        "difficulty": "hard"
+      },
+      {
+        "id": "cat-V10",
+        "section": "varc",
+        "topic": "Odd Sentence Out",
+        "pattern": "Five jumbled sentences, four form a paragraph; the odd one shifts to a related but different subject",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-V11",
+        "section": "varc",
+        "topic": "Odd Sentence Out",
+        "pattern": "Odd sentence out where the odd sentence stays in the same broad area (same field, same era) but leaves the paragraph's specific thread",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-V12",
+        "section": "varc",
+        "topic": "Para Summary",
+        "pattern": "Para summary: choose the option that best captures the paragraph; distractors are too narrow, too extreme, or add a claim not in the text",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "2 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-D01",
+        "section": "dilr",
+        "topic": "Arrangements & Scheduling",
+        "pattern": "Linear row seating with distance clues ('exactly two between'), adjacency, end-seat and left/right order; ask who occupies a seat",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 set per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-D02",
+        "section": "dilr",
+        "topic": "Arrangements & Scheduling",
+        "pattern": "Circular seating with clockwise/anticlockwise and opposite-seat clues, single configuration to be deduced",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 set in two of three slots",
+        "difficulty": "hard"
+      },
+      {
+        "id": "cat-D03",
+        "section": "dilr",
+        "topic": "Arrangements & Scheduling",
+        "pattern": "Scheduling items into days/slots (morning/afternoon, consecutive slots) with before/after and same-day constraints",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 set per slot",
+        "difficulty": "hard"
+      },
+      {
+        "id": "cat-D04",
+        "section": "dilr",
+        "topic": "Arrangements & Scheduling",
+        "pattern": "Floors / ranking order with parity and gap clues; question asks what must be true when two arrangements survive",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "frequent",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-D05",
+        "section": "dilr",
+        "topic": "Tables & Data Interpretation",
+        "pattern": "Multi-year table of values for several entities; compare percentage growth where the largest absolute or one-year change is the trap",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 set per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-D06",
+        "section": "dilr",
+        "topic": "Tables & Data Interpretation",
+        "pattern": "Table needing a derived quantity (units × price, weighted share) before comparing; the raw-count leader is the trap",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "frequent",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-D07",
+        "section": "dilr",
+        "topic": "Tables & Data Interpretation",
+        "pattern": "Partially filled table with row/column totals; reconstruct missing entries step by step",
+        "years": [
+          2023,
+          2025
+        ],
+        "frequency": "≈1 set per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-D08",
+        "section": "dilr",
+        "topic": "Games & Tournaments",
+        "pattern": "Round-robin league with win/draw/loss points; deduce results, minimum draws or what must be true from final points",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 set per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "cat-D09",
+        "section": "dilr",
+        "topic": "Games & Tournaments",
+        "pattern": "Seeded knockout bracket with 'upset' definition; reconstruct results from counts of upsets and known finalists",
+        "years": [
+          2023,
+          2024
+        ],
+        "frequency": "occasional",
+        "difficulty": "hard"
+      },
+      {
+        "id": "cat-D10",
+        "section": "dilr",
+        "topic": "Venn Diagrams & Set-based Puzzles",
+        "pattern": "Three-set survey data (pairwise and triple overlaps or 'exactly two' counts); find exactly-one / exactly-two regions",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 set per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-D11",
+        "section": "dilr",
+        "topic": "Venn Diagrams & Set-based Puzzles",
+        "pattern": "Maximum/minimum overlap of three sets under totals; requires the exactly-one/two/three counting identity",
+        "years": [
+          2023,
+          2025
+        ],
+        "frequency": "occasional",
+        "difficulty": "hard"
+      },
+      {
+        "id": "cat-D12",
+        "section": "dilr",
+        "topic": "Routes & Networks",
+        "pattern": "Weighted road network (one- or two-way); shortest route, often after a road is closed",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 set in some slots",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-D13",
+        "section": "dilr",
+        "topic": "Routes & Networks",
+        "pattern": "Count distinct routes in a grid or directed network, with blocked points or one-way links",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "occasional",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-D14",
+        "section": "dilr",
+        "topic": "Selection & Conditional Logic",
+        "pattern": "Choose a team/committee under if-then and cannot-both rules; count valid selections",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 set per slot",
+        "difficulty": "hard"
+      },
+      {
+        "id": "cat-D15",
+        "section": "dilr",
+        "topic": "Selection & Conditional Logic",
+        "pattern": "Approve/choose a fixed number of items under conditional rules; identify the item that must be chosen",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "frequent",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-D16",
+        "section": "dilr",
+        "topic": "Selection & Conditional Logic",
+        "pattern": "Selection under numeric thresholds (budget, credits, score cut-offs); find valid combinations or an item common to all",
+        "years": [
+          2023,
+          2025
+        ],
+        "frequency": "occasional",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-Q01",
+        "section": "qa",
+        "topic": "Percentages & Profit-Loss",
+        "pattern": "Mark-up, successive discounts and profit (sometimes with false weights); solve for discount or profit %",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-Q02",
+        "section": "qa",
+        "topic": "Percentages & Profit-Loss",
+        "pattern": "Successive percentage changes or expenditure-consumption balance; reverse-calculate the base value",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per slot",
+        "difficulty": "easy"
+      },
+      {
+        "id": "cat-Q03",
+        "section": "qa",
+        "topic": "Ratio, Proportion & Mixtures",
+        "pattern": "Mixture replacement (remove-and-replace, repeated) and resulting ratio/quantity",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-Q04",
+        "section": "qa",
+        "topic": "Ratio, Proportion & Mixtures",
+        "pattern": "Ratio word problems: ages, partnership with changing capital × time",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-Q05",
+        "section": "qa",
+        "topic": "Time-Speed-Distance & Work",
+        "pattern": "Relative speed: trains crossing, races with lead by distance/time",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-Q06",
+        "section": "qa",
+        "topic": "Time-Speed-Distance & Work",
+        "pattern": "Work and efficiency: pairwise rates, efficiency multiples, alternate days, pipes",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-Q07",
+        "section": "qa",
+        "topic": "Time-Speed-Distance & Work",
+        "pattern": "Boats and streams / two-journey simultaneous equations",
+        "years": [
+          2023,
+          2024
+        ],
+        "frequency": "occasional",
+        "difficulty": "hard"
+      },
+      {
+        "id": "cat-Q08",
+        "section": "qa",
+        "topic": "Averages & Interest",
+        "pattern": "SI/CI relations: CI–SI difference, amounts in consecutive years",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per slot",
+        "difficulty": "easy"
+      },
+      {
+        "id": "cat-Q09",
+        "section": "qa",
+        "topic": "Averages & Interest",
+        "pattern": "Averages with replacement, inclusion or correction of entries",
+        "years": [
+          2023,
+          2025
+        ],
+        "frequency": "occasional",
+        "difficulty": "easy"
+      },
+      {
+        "id": "cat-Q10",
+        "section": "qa",
+        "topic": "Linear & Quadratic Equations",
+        "pattern": "Quadratic root relations (ratio of roots, symmetric functions α/β + β/α)",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-Q11",
+        "section": "qa",
+        "topic": "Linear & Quadratic Equations",
+        "pattern": "Integer/natural-number solutions of linear Diophantine equations or discriminant conditions",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-Q12",
+        "section": "qa",
+        "topic": "Inequalities & Functions",
+        "pattern": "Modulus equations/inequalities: count integer solutions, with the 'whole interval' trap",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-Q13",
+        "section": "qa",
+        "topic": "Inequalities & Functions",
+        "pattern": "Functions: composition, functional equations, max of min(f, g) type",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per slot",
+        "difficulty": "hard"
+      },
+      {
+        "id": "cat-Q14",
+        "section": "qa",
+        "topic": "Progressions & Series",
+        "pattern": "AP/GP: find terms or sums from two given sums/terms",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-Q15",
+        "section": "qa",
+        "topic": "Logarithms & Surds",
+        "pattern": "Logarithmic equations with domain check (extraneous root as trap)",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-Q16",
+        "section": "qa",
+        "topic": "Logarithms & Surds",
+        "pattern": "Surds and indices simplification / comparison",
+        "years": [
+          2023,
+          2024
+        ],
+        "frequency": "occasional",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-Q17",
+        "section": "qa",
+        "topic": "Geometry & Mensuration",
+        "pattern": "Triangle centres and radii: inradius, circumradius, incentre distances",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-Q18",
+        "section": "qa",
+        "topic": "Geometry & Mensuration",
+        "pattern": "Circle chords, tangent-secant power of a point, distance between chords",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-Q19",
+        "section": "qa",
+        "topic": "Geometry & Mensuration",
+        "pattern": "Mensuration: solids melted/recast, surface area and volume",
+        "years": [
+          2023,
+          2025
+        ],
+        "frequency": "occasional",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-Q20",
+        "section": "qa",
+        "topic": "Geometry & Mensuration",
+        "pattern": "Coordinate geometry: area of triangle/polygon from vertices, lines and intercepts",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-Q21",
+        "section": "qa",
+        "topic": "Number System",
+        "pattern": "Remainders using cyclicity, Fermat/Euler or aⁿ + bⁿ divisibility by a + b",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-Q22",
+        "section": "qa",
+        "topic": "Number System",
+        "pattern": "Factors: number/sum of divisors, odd/even/perfect-square divisors",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-Q23",
+        "section": "qa",
+        "topic": "Modern Maths (P&C, Probability, Sets)",
+        "pattern": "Permutations/arrangements with restrictions (digits, vowels together, repeated letters)",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-Q24",
+        "section": "qa",
+        "topic": "Modern Maths (P&C, Probability, Sets)",
+        "pattern": "Probability of sums/parity when drawing numbers or cards",
+        "years": [
+          2023,
+          2024
+        ],
+        "frequency": "occasional",
+        "difficulty": "medium"
+      }
+    ]
+  },
   "resources": {
     "pyqAvailable": true,
     "officialPYQ": null,
@@ -249,7 +921,9 @@
       ],
       "answer": 1,
       "explanation": "The passage moves from 'ornaments' to 'less decoration than infrastructure' and ends with distribution as 'a question of fairness'. The other options pick up peripheral details (heat maps, budgets) or contradict the passage (air-conditioning).",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-V01",
+      "source": "curated"
     },
     {
       "id": "cat-002",
@@ -265,7 +939,9 @@
       ],
       "answer": 0,
       "explanation": "The passage says the elements remain stable 'precisely because they are embedded in fixed metres and repeated at communal rituals'. It explicitly allows that the 'ornament' changes, so 'absence of any change' is wrong.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-V06",
+      "source": "curated"
     },
     {
       "id": "cat-003",
@@ -281,7 +957,9 @@
       ],
       "answer": 2,
       "explanation": "The author explicitly says 'numbers are not useless' (eliminating abandonment) and that distortion 'does not require bad faith'. The problem identified is 'any single number, once it carries consequences', which supports avoiding high stakes on one indicator. Nothing compares hospitals and schools.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-V02",
+      "source": "curated"
     },
     {
       "id": "cat-004",
@@ -297,7 +975,9 @@
       ],
       "answer": 2,
       "explanation": "The author argues that the explanations themselves 'undercut the claim' and that the problem is compression, 'not a wall between minds' — a sceptical stance.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-V05",
+      "source": "curated"
     },
     {
       "id": "cat-005",
@@ -313,7 +993,9 @@
       ],
       "answer": 2,
       "explanation": "The author concedes some transfer occurs ('not entirely false') but warns that 'its charm has outrun the evidence'. The second and fourth options are too absolute; the author questions the reach of greenhouse studies but does not call them worthless.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-V01",
+      "source": "curated"
     },
     {
       "id": "cat-006",
@@ -329,7 +1011,9 @@
       ],
       "answer": 1,
       "explanation": "The surveyor's label 'unoccupied' is described as 'preparing an argument about who could claim it' — an illustration of the passage's thesis that maps embody choices and purposes. Accuracy comparisons and projection techniques are not the point of the example.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-V03",
+      "source": "curated"
     },
     {
       "id": "cat-007",
@@ -345,7 +1029,9 @@
       ],
       "answer": 1,
       "explanation": "In context, 'rest' is the musical pause. Beginners 'fill every gap', while experienced performers allow the silence, i.e. use pauses with confidence.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-V02",
+      "source": "curated"
     },
     {
       "id": "cat-008",
@@ -361,7 +1047,9 @@
       ],
       "answer": 1,
       "explanation": "The argument rests on the assumption that new tasks will keep favouring humans. If machines can also do the new kinds of tasks, the historical pattern need not repeat. The other options support or are neutral to the argument.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-V04",
+      "source": "curated"
     },
     {
       "id": "cat-009",
@@ -377,7 +1065,9 @@
       ],
       "answer": 3,
       "explanation": "The author rejects the 'universal museum' defence as lacking consent but explicitly says 'that does not mean every object must go back'; the conclusion is that 'the burden of justification lies with those who wish to keep them'.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-V02",
+      "source": "curated"
     },
     {
       "id": "cat-010",
@@ -393,7 +1083,9 @@
       ],
       "answer": 1,
       "explanation": "The passage says such efforts 'do not alter the calculation that led parents to switch' — the perceived prospects of children in another language.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-V06",
+      "source": "curated"
     },
     {
       "id": "cat-011",
@@ -409,7 +1101,9 @@
       ],
       "answer": 3,
       "explanation": "After describing findings on sleep and recall, the last sentence ('in short') applies them to the all-nighter — a practical conclusion, not a counter-argument.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-V03",
+      "source": "curated"
     },
     {
       "id": "cat-012",
@@ -425,7 +1119,9 @@
       ],
       "answer": 1,
       "explanation": "The passage contrasts model errors that 'can be traced to causes' with statistical links that fail 'without explanation'. It says statistical rules worked for decades and that models are 'far from perfect', ruling out the other options.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-V02",
+      "source": "curated"
     },
     {
       "id": "cat-013",
@@ -441,7 +1137,9 @@
       ],
       "answer": 2,
       "explanation": "The author calls efficiency 'a ratio, not a virtue', admirable only if the output is worthwhile and the inputs saved are not things we should value. The craftsman example illustrates that what counts as productive depends on what we measure; it does not argue for replacing factories.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-V07",
+      "source": "curated"
     },
     {
       "id": "cat-014",
@@ -457,7 +1155,9 @@
       ],
       "answer": 3,
       "explanation": "2 introduces plastic and its indestructibility; 1 ('Yet the same property') turns that into a problem; 3 illustrates how long discarded plastic lasts; 4 refers to 'this tension' and the failed remedy.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-V08",
+      "source": "curated"
     },
     {
       "id": "cat-015",
@@ -473,7 +1173,9 @@
       ],
       "answer": 0,
       "explanation": "2 introduces 'two broad attitudes'; 1 describes 'the first'; 4 ('Under such a view') elaborates the first; 3 presents 'the second', contrasting mistakes as information with 4's 'judgement'.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-V08",
+      "source": "curated"
     },
     {
       "id": "cat-016",
@@ -489,7 +1191,9 @@
       ],
       "answer": 3,
       "explanation": "3 sets the context; 1 names the method ('They' = sailors); 2 points out errors in 'those quantities' (speed, heading, time); 4 explains why an accurate clock solved the problem.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-V08",
+      "source": "curated"
     },
     {
       "id": "cat-017",
@@ -505,7 +1209,9 @@
       ],
       "answer": 2,
       "explanation": "Sentences 1, 2, 3 and 5 explain how the waggle dance encodes and transmits the location of food. Sentence 4 shifts to the physical traits of bumblebees, which has nothing to do with communication.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-V10",
+      "source": "curated"
     },
     {
       "id": "cat-018",
@@ -521,7 +1227,9 @@
       ],
       "answer": 2,
       "explanation": "Sentences 1–4 argue that street design shapes social life and so is a policy matter. Sentence 5 about the defensive siting of medieval towns is off-topic.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-V10",
+      "source": "curated"
     },
     {
       "id": "cat-019",
@@ -537,7 +1245,9 @@
       ],
       "answer": 0,
       "explanation": "The passage rebuts the 'warehouse of books' view and concludes that the library's value lies in being a space 'where no one is required to buy anything', used by many groups.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-V12",
+      "source": "curated"
     },
     {
       "id": "cat-020",
@@ -553,7 +1263,9 @@
       ],
       "answer": 3,
       "explanation": "The passage explicitly says the tests are 'not fraudulent' but less definite than claimed, citing database bias (ancestry) and misread probabilities (risk). Both kinds of output are questioned.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-V12",
+      "source": "curated"
     },
     {
       "id": "cat-021",
@@ -569,7 +1281,9 @@
       ],
       "answer": 2,
       "explanation": "The core idea is that outcome-based judgement is misleading because of luck; decisions should be judged on the information available when they were made.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-V12",
+      "source": "curated"
     },
     {
       "id": "cat-022",
@@ -585,7 +1299,9 @@
       ],
       "answer": 0,
       "explanation": "|A − 4| = 3, so A is in seat 1 or 7; since G is right of A and F right of G, A = 1, and then E (an end) = 7. Seats 2, 3, 5, 6 remain for B, C, F, G. If B–C took 5–6, then G = 2 and F = 3, putting F next to D ✗. So B = 2, C = 3, G = 5, F = 6 (B is not next to E ✓). Seat 5, immediately right of D, is G.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-D01",
+      "source": "curated"
     },
     {
       "id": "cat-023",
@@ -601,7 +1317,9 @@
       ],
       "answer": 3,
       "explanation": "Number seats 0–7 clockwise with P = 0. Then Q = 4, R = 1, S = 3, T = 7. U is next to R and seat 0 is taken, so U = 2. V and W take 5 and 6; V cannot be next to T (7), so V = 5 and W = 6. Opposite U (2) is seat 6, i.e. W.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-D02",
+      "source": "curated"
     },
     {
       "id": "cat-024",
@@ -617,7 +1335,9 @@
       ],
       "answer": 2,
       "explanation": "A and F are consecutive and |A − C| = 3 with C even. Trying cases: C=2 → A=5 (forbidden). C=4 → A=1, F=2; then B, D, E fill 3, 5, 6; E must come after B and D, so E = 6, and B before D gives B = 3, D = 5 (B, D not adjacent ✓). C=6 → A=3, F=4, leaving B, D, E for 1, 2, 5: B=1, D=2 are adjacent ✗. So the order is A F B C D E, and slot 4 holds C.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-D03",
+      "source": "curated"
     },
     {
       "id": "cat-025",
@@ -633,7 +1353,9 @@
       ],
       "answer": 1,
       "explanation": "N is odd and J = N + 2. If L = 1, then N = 3, J = 5, leaving floors 2, 4, 6 for M, K, O — but O must be directly above K, impossible. So L = 6. N = 3, J = 5 would put J next to L, so N = 1, J = 3. Floors 2, 4, 5 go to M, K, O with O directly above K and K above M: M = 2, K = 4, O = 5. Hence M is on floor 2.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-D04",
+      "source": "curated"
     },
     {
       "id": "cat-026",
@@ -649,7 +1371,9 @@
       ],
       "answer": 0,
       "explanation": "Growth 2025 over 2024: Alpha 92/460 = 20%; Beta 27/540 = 5%; Gamma 36/360 = 10%; Delta 63/630 = 10%. Alpha is highest.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-D05",
+      "source": "curated"
     },
     {
       "id": "cat-027",
@@ -665,7 +1389,9 @@
       ],
       "answer": 2,
       "explanation": "Total 2024 = 460 + 540 + 360 + 630 = 1990. Total 2025 = 552 + 567 + 396 + 693 = 2208. Growth = 218/1990 ≈ 10.95% ≈ 11%.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-D05",
+      "source": "curated"
     },
     {
       "id": "cat-028",
@@ -681,7 +1407,9 @@
       ],
       "answer": 0,
       "explanation": "Revenue (₹ thousand): Q1 X 3000, Y 3000 (equal, not exceeding); Q2 3750 vs 2700; Q3 4500 vs 3300; Q4 3750 vs 3000. X exceeds Y in Q2, Q3 and Q4 → 3 quarters.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-D06",
+      "source": "curated"
     },
     {
       "id": "cat-029",
@@ -697,7 +1425,9 @@
       ],
       "answer": 1,
       "explanation": "Girls = 240 + 220 + 150 + 150 + 110 = 870 of 2000 students. Boys = 1130, i.e. 1130/2000 = 56.5%.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-D06",
+      "source": "curated"
     },
     {
       "id": "cat-030",
@@ -713,7 +1443,9 @@
       ],
       "answer": 2,
       "explanation": "Six matches give 18 points if none is drawn; each draw removes 1. Total = 16, so exactly 2 draws. D lost all three. A (7) = 2W 1D, B (5) = 1W 2D, C (4) = 1W 1D. Draw involvements total 4 = 2 draws, with B in both, so B drew with A and with C. Then A beat C and D, B beat D, C beat D.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-D08",
+      "source": "curated"
     },
     {
       "id": "cat-031",
@@ -729,7 +1461,9 @@
       ],
       "answer": 3,
       "explanation": "There are C(8,2) = 28 matches, so 56 points in all. Scores are distinct even numbers between 0 and 14; there are exactly eight such values (0, 2, …, 14) and they sum to 56, so the scores are 14, 12, 10, 8, 6, 4, 2, 0. The 4th-placed team has 8.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-D08",
+      "source": "curated"
     },
     {
       "id": "cat-032",
@@ -745,7 +1479,9 @@
       ],
       "answer": 1,
       "explanation": "Seed 5 beat seed 4 (upset) and then beat the winner of 1 v 8: if 1 won, 5 beating 1 is an upset; if 8 won, that quarter-final was an upset — either way 1 more. Seed 6 beat 3 (upset) and then the winner of 2 v 7 — again exactly one upset either way. Final: 6 beat 5 (upset). Minimum = 2 + 1 + 1 + 1 = 5.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-D09",
+      "source": "curated"
     },
     {
       "id": "cat-033",
@@ -761,7 +1497,9 @@
       ],
       "answer": 3,
       "explanation": "Only French = 120 − 40 − 35 + 15 = 60; only German = 90 − 40 − 30 + 15 = 35; only Spanish = 70 − 30 − 35 + 15 = 20. Exactly one = 60 + 35 + 20 = 115.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-D10",
+      "source": "curated"
     },
     {
       "id": "cat-034",
@@ -777,7 +1515,9 @@
       ],
       "answer": 0,
       "explanation": "People NOT liking tea, coffee and juice number at most 20, 25 and 30 respectively. Even if these groups are disjoint, at most 75 people miss at least one drink, so at least 100 − 75 = 25 like all three (equivalently 80 + 75 + 70 − 2×100 = 25).",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-D11",
+      "source": "curated"
     },
     {
       "id": "cat-035",
@@ -793,7 +1533,9 @@
       ],
       "answer": 0,
       "explanation": "Let x₁, x₂, x₃ be numbers knowing exactly one, two, three. x₁ + x₂ + x₃ = 60 and x₁ + 2x₂ + 3x₃ = 35 + 30 + 28 = 93. Subtracting: x₂ + 2x₃ = 33 → 15 + 2x₃ = 33 → x₃ = 9.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-D10",
+      "source": "curated"
     },
     {
       "id": "cat-036",
@@ -809,7 +1551,9 @@
       ],
       "answer": 3,
       "explanation": "Shortest distances from A: C = 2, B = 3 (via C), D = 8 (via B), E = 10 (via D, or directly from C), F = min(8 + 6, 10 + 3) = 13. Route A–C–B–D–E–F = 2 + 1 + 5 + 2 + 3 = 13 km.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-D12",
+      "source": "curated"
     },
     {
       "id": "cat-037",
@@ -825,7 +1569,9 @@
       ],
       "answer": 3,
       "explanation": "Without restriction: C(7, 3) = 35 routes. Routes through (2, 1): C(3, 1) × C(4, 2) = 3 × 6 = 18. Valid routes = 35 − 18 = 17.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-D13",
+      "source": "curated"
     },
     {
       "id": "cat-038",
@@ -841,7 +1587,9 @@
       ],
       "answer": 2,
       "explanation": "Enumerating all 5-member teams satisfying the rules gives: {A,B,C,Q,R}, {A,C,D,Q,R}, {A,C,Q,R,S}, {B,C,D,Q,R}, {B,C,P,Q,R}, {B,C,Q,R,S}, {C,D,P,Q,R}. (Without C–R, two engineers and three managers or vice versa cannot be completed without breaking the A–P, B–Q or D–S rule.) Total = 7.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-D14",
+      "source": "curated"
     },
     {
       "id": "cat-039",
@@ -857,7 +1605,9 @@
       ],
       "answer": 3,
       "explanation": "Valid sets: {30, 45, 75} = 150, {30, 45, 90} = 165, {30, 60, 75} = 165, {30, 60, 90} = 180, {45, 60, 75} = 180. Others either exceed ₹180 or ({30, 45, 60}) contain no item above ₹70. Total = 5.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-D16",
+      "source": "curated"
     },
     {
       "id": "cat-040",
@@ -873,7 +1623,9 @@
       ],
       "answer": 0,
       "explanation": "O is in, so two of K, L, M, N are chosen. Options with K: K cannot go with L; K with M needs N (too many); K with N → {K, N, O}. Options without K: M must be in, so N must be in → {M, N, O}. In both possible sets, N is approved; K, L and M are not forced.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-D15",
+      "source": "curated"
     },
     {
       "id": "cat-041",
@@ -889,7 +1641,9 @@
       ],
       "answer": 1,
       "explanation": "SP = 1.4 × 0.9 × (1 − x/100) × CP = 1.134 CP → 1.26(1 − x/100) = 1.134 → 1 − x/100 = 0.9 → x = 10.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-Q01",
+      "source": "curated"
     },
     {
       "id": "cat-042",
@@ -905,7 +1659,9 @@
       ],
       "answer": 1,
       "explanation": "Multiplier = 1.2 × 0.75 × 1.1 = 0.99. Initial = 29,700 / 0.99 = 30,000.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-Q02",
+      "source": "curated"
     },
     {
       "id": "cat-043",
@@ -921,7 +1677,9 @@
       ],
       "answer": 1,
       "explanation": "Initially milk 42 L, water 18 L. Removing 20 L (one-third) leaves milk 28, water 12. Adding 20 L water → 28 : 32 = 7 : 8.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-Q03",
+      "source": "curated"
     },
     {
       "id": "cat-044",
@@ -937,7 +1695,9 @@
       ],
       "answer": 1,
       "explanation": "(3k − 6)/(4k − 6) = 3/5 → 15k − 30 = 12k − 18 → k = 4. Ages 12 and 16; in five years 17 + 21 = 38.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-Q04",
+      "source": "curated"
     },
     {
       "id": "cat-045",
@@ -953,7 +1713,9 @@
       ],
       "answer": 1,
       "explanation": "Total length 300 m. Sum of speeds = 300/10 = 30 m/s; difference = 300/30 = 10 m/s. Faster = 20 m/s = 72 km/h.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-Q05",
+      "source": "curated"
     },
     {
       "id": "cat-046",
@@ -969,7 +1731,9 @@
       ],
       "answer": 0,
       "explanation": "2(a + b + c) = 1/12 + 1/15 + 1/20 = 12/60 = 1/5, so a + b + c = 1/10. a = 1/10 − 1/15 = 1/30 → 30 days.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-Q06",
+      "source": "curated"
     },
     {
       "id": "cat-047",
@@ -985,7 +1749,9 @@
       ],
       "answer": 2,
       "explanation": "Let u = 1/(upstream speed), d = 1/(downstream speed). 30u + 44d = 10 and 40u + 55d = 13. Multiply by 4 and 3: 120u + 176d = 40, 120u + 165d = 39 → 11d = 1, d = 1/11 → downstream 11 km/h. Then 30u = 6 → upstream 5 km/h. Stream = (11 − 5)/2 = 3 km/h.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-Q07",
+      "source": "curated"
     },
     {
       "id": "cat-048",
@@ -1001,7 +1767,9 @@
       ],
       "answer": 2,
       "explanation": "For 2 years, CI − SI = P(r/100)² = P × 0.01 = 150 → P = ₹15,000.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-Q08",
+      "source": "curated"
     },
     {
       "id": "cat-049",
@@ -1017,7 +1785,9 @@
       ],
       "answer": 3,
       "explanation": "Roots 5t and 6t: sum 11t = 11 → t = 1. Roots 5 and 6, so k = product = 30.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-Q10",
+      "source": "curated"
     },
     {
       "id": "cat-050",
@@ -1033,7 +1803,9 @@
       ],
       "answer": 3,
       "explanation": "No real roots ⇔ k² − 64 < 0 ⇔ −8 < k < 8, i.e. k = −7, …, 7: 15 integers.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-Q11",
+      "source": "curated"
     },
     {
       "id": "cat-051",
@@ -1049,7 +1821,9 @@
       ],
       "answer": 1,
       "explanation": "For −3 ≤ x ≤ 2 the sum is 5 (valid). For x > 2: 2x + 1 ≤ 9 → x ≤ 4. For x < −3: −2x − 1 ≤ 9 → x ≥ −5. So −5 ≤ x ≤ 4: 10 integers.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-Q12",
+      "source": "curated"
     },
     {
       "id": "cat-052",
@@ -1065,7 +1839,9 @@
       ],
       "answer": 0,
       "explanation": "f(g(x)) = 2x² + 1; g(f(x)) = (2x + 3)² − 1 = 4x² + 12x + 8. Equating: 2x² + 12x + 7 = 0, discriminant 144 − 56 = 88 > 0, so both roots are real; sum = −12/2 = −6.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-Q13",
+      "source": "curated"
     },
     {
       "id": "cat-053",
@@ -1081,7 +1857,9 @@
       ],
       "answer": 3,
       "explanation": "5(2a + 9d) = 155 → 2a + 9d = 31; 10(2a + 19d) = 610 → 2a + 19d = 61. So d = 3, a = 2. T₂₅ = 2 + 24 × 3 = 74.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-Q14",
+      "source": "curated"
     },
     {
       "id": "cat-054",
@@ -1097,7 +1875,9 @@
       ],
       "answer": 0,
       "explanation": "log₄x = (log₂x)/2 and log₁₆x = (log₂x)/4. So (7/4)·log₂x = 7 → log₂x = 4 → x = 16.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-Q15",
+      "source": "curated"
     },
     {
       "id": "cat-055",
@@ -1113,7 +1893,9 @@
       ],
       "answer": 2,
       "explanation": "Hypotenuse = √(400 + 441) = 29. For a right triangle, r = (a + b − c)/2 = (20 + 21 − 29)/2 = 6 cm.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-Q17",
+      "source": "curated"
     },
     {
       "id": "cat-056",
@@ -1129,7 +1911,9 @@
       ],
       "answer": 0,
       "explanation": "Distance of the 24 cm chord from centre = √(169 − 144) = 5; of the 10 cm chord = √(169 − 25) = 12. On opposite sides: 5 + 12 = 17 cm.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-Q18",
+      "source": "curated"
     },
     {
       "id": "cat-057",
@@ -1145,7 +1929,9 @@
       ],
       "answer": 2,
       "explanation": "Cylinder volume = π·36·8 = 288π. Sphere volume = (4/3)π·8 = 32π/3. Number = 288π ÷ (32π/3) = 27.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-Q19",
+      "source": "curated"
     },
     {
       "id": "cat-058",
@@ -1161,7 +1947,9 @@
       ],
       "answer": 0,
       "explanation": "7² = 49 ≡ 10, 7⁴ ≡ 100 ≡ 9, 7⁶ ≡ 7⁴·7² ≡ 90 ≡ 12 ≡ −1, so 7¹² ≡ 1 (mod 13). 100 = 12·8 + 4, so 7¹⁰⁰ ≡ 7⁴ ≡ 9.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-Q21",
+      "source": "curated"
     },
     {
       "id": "cat-059",
@@ -1177,7 +1965,9 @@
       ],
       "answer": 3,
       "explanation": "720 = 2⁴ · 3² · 5. A square divisor uses even exponents: 2 ∈ {0, 2, 4} (3 ways), 3 ∈ {0, 2} (2 ways), 5 ∈ {0} (1 way). Total 6.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-Q22",
+      "source": "curated"
     },
     {
       "id": "cat-060",
@@ -1193,7 +1983,1089 @@
       ],
       "answer": 0,
       "explanation": "Ending in 0: remaining three places from 5 digits in order = 5 × 4 × 3 = 60. Ending in 5: first digit from {1, 2, 3, 4} (cannot be 0) = 4 ways, then 4 × 3 = 12 for the middle → 48. Total 108.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-Q23",
+      "source": "curated"
+    },
+    {
+      "id": "cat-061",
+      "section": "varc",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"For most of the twentieth century, a broken radio was an invitation: the owner, or a neighbourhood mechanic, opened the case, traced the fault and replaced a part. Today the same impulse meets glued casings, proprietary screws and software locks that refuse to recognise a replacement component unless the manufacturer has 'paired' it. Companies defend these designs as guarantees of safety and quality, and sometimes they are. But their cumulative effect is to convert ownership into a kind of long-term lease, in which the buyer holds the object while the maker retains control over its life span. The right-to-repair movement is often described as a consumer campaign for cheaper fixes. It is better understood as an argument about what it means to own something at all.\"\n\nWhich of the following best captures the main point of the passage?",
+      "options": [
+        "The right-to-repair movement is primarily a campaign to reduce the cost of fixing electronic devices.",
+        "Manufacturers' claims that repair restrictions protect safety and quality are without foundation.",
+        "Design choices that obstruct repair shift control over products from owners to manufacturers, making repair a question about the nature of ownership.",
+        "Modern electronic devices are less reliable than the radios of the twentieth century."
+      ],
+      "answer": 2,
+      "explanation": "The passage ends by reframing right to repair as 'an argument about what it means to own something', after describing how locks and pairing turn ownership into a lease. The cost-of-repair reading is the one the author explicitly rejects; the safety claim is conceded as 'sometimes' true; reliability is never compared.",
+      "source": "ai",
+      "archetype": "cat-V01",
+      "verified": false
+    },
+    {
+      "id": "cat-062",
+      "section": "varc",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"Before the railways, every town kept its own time, set by the sun at its meridian; noon in one city might fall several minutes before noon in another a hundred miles to the west. Nobody minded, because nobody travelled fast enough for the difference to matter. The railway changed that. A timetable listing departures in a dozen local times was a recipe for missed connections and, on single-track lines, for collisions. Railway companies therefore adopted a single 'railway time', and for years towns lived with two clocks—one on the church tower, one on the station. Legislation making the standard official often came decades after the trains had already imposed it in practice. The clock, it turns out, was reset not by astronomers or parliaments but by timetables.\"\n\nWhich of the following can be inferred from the passage?",
+      "options": [
+        "Before the railways, travellers frequently missed connections because towns kept different local times.",
+        "Church authorities resisted the introduction of railway time in most towns.",
+        "Local solar time was abandoned because astronomers showed it to be inaccurate.",
+        "Official adoption of standard time largely ratified a practice that railway operations had already established."
+      ],
+      "answer": 3,
+      "explanation": "Legislation 'came decades after the trains had already imposed it in practice', so law ratified existing practice. The passage says nobody minded local time before railways (so not frequent missed connections), credits timetables rather than astronomers, and the two clocks show coexistence, not resistance.",
+      "source": "ai",
+      "archetype": "cat-V02",
+      "verified": false
+    },
+    {
+      "id": "cat-063",
+      "section": "varc",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"Technologies do not always win because they are best. Once a standard is widely adopted, the costs of switching—retraining users, rewriting manuals, replacing equipment—can protect it long after better alternatives appear. The familiar typewriter keyboard layout is often cited: whatever the merits of its rivals, generations of typists trained on it, and every new machine was built to match their habits. Economists call this path dependence: where we end up depends on where we started and on the accidents along the way. The lesson is not that markets are foolish, but that early decisions deserve more scrutiny than they usually get, because they may be far harder to reverse than anyone expects at the time.\"\n\nThe author refers to the typewriter keyboard layout primarily in order to:",
+      "options": [
+        "prove that the familiar keyboard layout is technically inferior to its rivals",
+        "illustrate how switching costs can entrench an established standard regardless of whether it is the best available",
+        "argue that markets consistently select inferior technologies",
+        "show that typists resist every form of technological change"
+      ],
+      "answer": 1,
+      "explanation": "The example follows the claim about switching costs protecting a standard, and the author pointedly says 'whatever the merits of its rivals'—so no claim of inferiority is made. The last sentence rejects the idea that markets are foolish, and nothing says typists resist all change.",
+      "source": "ai",
+      "archetype": "cat-V03",
+      "verified": false
+    },
+    {
+      "id": "cat-064",
+      "section": "varc",
+      "topic": "Reading Comprehension",
+      "difficulty": "hard",
+      "question": "Read the passage and answer the question.\n\n\"For two decades, researchers reported that people who speak two languages outperform monolinguals on tasks that require ignoring distractions and switching between rules. The explanation seemed intuitive: a bilingual brain, constantly suppressing one language while using the other, receives a daily workout in mental control. Recent large studies, however, have struggled to reproduce the effect, and some researchers now suspect that early positive findings were simply published more readily than null ones.\"\n\nWhich of the following, if true, would most weaken the 'daily workout' explanation of the bilingual advantage?",
+      "options": [
+        "Monolingual children who later learn a second language also expand their vocabulary in their first language.",
+        "In the studies where bilinguals did outperform monolinguals, the advantage disappeared once the two groups were matched for family income and parental education.",
+        "Bilinguals who use both languages every day show larger advantages than bilinguals who rarely use their second language.",
+        "Brain-imaging studies show that bilinguals activate control regions of the brain when switching between languages."
+      ],
+      "answer": 1,
+      "explanation": "If matching for income and education removes the advantage, the gap was produced by background differences, not by the practice of suppressing a language—this attacks the causal explanation. The daily-use gradient and brain-imaging findings support it; the vocabulary point is irrelevant to mental control.",
+      "source": "ai",
+      "archetype": "cat-V04",
+      "verified": false
+    },
+    {
+      "id": "cat-065",
+      "section": "varc",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"Brochures for 'smart cities' describe streets that sense traffic, bins that report when they are full and dashboards that let administrators watch the city breathe in real time. Some of this is genuinely useful; a water utility that spots leaks from pressure data saves money and water. But the brochures tend to treat every urban problem as a shortage of information, as though congestion persisted only because no one had measured it. Many of a city's hardest problems—who gets housing, which neighbourhood absorbs the new landfill—are disputes about values, and no sensor resolves a disagreement. A dashboard can tell a council what is happening; it cannot tell the council what it ought to want.\"\n\nThe author's attitude towards smart-city technology is best described as:",
+      "options": [
+        "dismissive contempt for data-driven governance",
+        "resigned acceptance of an inevitable trend",
+        "measured scepticism that acknowledges specific benefits",
+        "enthusiastic endorsement tempered only by concerns about cost"
+      ],
+      "answer": 2,
+      "explanation": "The author grants real uses ('genuinely useful', the leak example) but doubts the broader claim that information solves value disputes—measured scepticism. 'Contempt' ignores the concession; cost is never raised; there is no sense of resignation.",
+      "source": "ai",
+      "archetype": "cat-V05",
+      "verified": false
+    },
+    {
+      "id": "cat-066",
+      "section": "varc",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"Salt was once valuable enough to be taxed, smuggled and fought over. Governments liked it as a source of revenue precisely because everyone needed it and few could produce it themselves: a tax on salt reached every household, rich or poor. That universality also made such taxes politically dangerous. In France the hated gabelle fed the grievances that erupted in 1789, and in India Gandhi chose salt for his 1930 march because a tax on so basic a necessity could be understood by everyone, in every village, without explanation. Refrigeration and cheap industrial extraction have since made salt one of the least remarkable items in a kitchen.\"\n\nAll of the following are supported by the passage EXCEPT:",
+      "options": [
+        "Salt taxes affected households regardless of their income.",
+        "Gandhi's choice of salt rested partly on how easily its injustice could be grasped.",
+        "Changes in technology have reduced the economic significance of salt.",
+        "The gabelle was the sole cause of the French Revolution."
+      ],
+      "answer": 3,
+      "explanation": "The passage says the gabelle 'fed the grievances' of 1789—one contributing cause, not the sole one. The other three restate the passage: 'every household, rich or poor', 'understood by everyone … without explanation', and refrigeration/industrial extraction making salt unremarkable.",
+      "source": "ai",
+      "archetype": "cat-V06",
+      "verified": false
+    },
+    {
+      "id": "cat-067",
+      "section": "varc",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"Engineering textbooks are full of collapses: the bridge that twisted itself apart in a moderate wind, the walkway whose redesigned connection carried twice the load intended. Each disaster became a lesson precisely because it was investigated in public, its causes published and argued over. Other fields are less fortunate. A failed product launch is quietly written off; a policy that did not work is renamed and relaunched; a clinical trial with disappointing results may never be published. Such fields do not have fewer failures than engineering; they simply have fewer failures that teach. Success is a poor instructor, because it rarely reveals which of its many causes actually mattered.\"\n\nBy saying that some fields have 'fewer failures that teach', the author means that in those fields:",
+      "options": [
+        "failures occur less often than they do in engineering",
+        "failures are seldom examined openly, so their causes cannot inform future practice",
+        "the institutions that train professionals are of poor quality",
+        "failures are usually too minor to offer useful lessons"
+      ],
+      "answer": 1,
+      "explanation": "The contrast is between engineering's public investigations and other fields that write off, rename or leave unpublished their failures. The author explicitly denies that these fields have fewer failures, and says nothing about training institutions or the size of failures.",
+      "source": "ai",
+      "archetype": "cat-V07",
+      "verified": false
+    },
+    {
+      "id": "cat-068",
+      "section": "varc",
+      "topic": "Reading Comprehension",
+      "difficulty": "hard",
+      "question": "Read the passage and answer the question.\n\n\"When a Renaissance fresco is cleaned, centuries of soot and earlier retouching come away—and with them, sometimes, the shadows and glazes the painter added last. Restorers therefore face a question that no solvent can answer: which moment in the life of the work is the 'original'? The day the painter laid down his brush? The state the work reached after its first, perhaps authorised, alterations? Or the darkened surface that generations of viewers knew and loved? Modern conservation codes avoid choosing by insisting that interventions be reversible and documented, so that a later generation, with better tools or different taste, can undo them. Reversibility is a modest principle, but it rests on an immodest admission: that our own judgement about authenticity is as provisional as our predecessors' was.\"\n\nWhich of the following would the author most likely agree with?",
+      "options": [
+        "Modern cleaning techniques have settled the question of which state of a painting is original.",
+        "Restorers should always return a work to the exact state in which the artist left it.",
+        "The darkened surface known to generations of viewers is the most authentic state of a painting.",
+        "Conservation rules that favour reversibility reflect doubt about the finality of present-day judgements of authenticity."
+      ],
+      "answer": 3,
+      "explanation": "The closing sentence ties reversibility to the admission that 'our own judgement about authenticity is as provisional as our predecessors''. The passage refuses to privilege any single state (ruling out the second and third options) and says no solvent can answer the question (ruling out the fourth).",
+      "source": "ai",
+      "archetype": "cat-V02",
+      "verified": false
+    },
+    {
+      "id": "cat-069",
+      "section": "varc",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"Gross domestic product counts what is bought and sold. When a family pays for an encyclopaedia, a road atlas and a music collection, all three appear in the national accounts; when the same family uses a free online encyclopaedia, a navigation app and an advertising-supported streaming service, the measured contribution shrinks to a sliver, even though the family is arguably better served. Some economists conclude that official statistics now understate growth substantially. Others reply that GDP was never meant to measure welfare, only market production, and that it still does that job well. Both sides agree on one thing: a number designed for the factory economy of the 1940s is being asked to answer questions its designers never posed.\"\n\nThe passage is primarily concerned with:",
+      "options": [
+        "demonstrating that official statistics greatly understate economic growth",
+        "the difficulty of capturing the value of free digital services in a measure built to count market transactions",
+        "explaining how advertising finances free online services",
+        "arguing that GDP should be replaced by a direct measure of welfare"
+      ],
+      "answer": 1,
+      "explanation": "The passage presents the problem (free services barely register in GDP) and both sides of the debate, concluding with their shared recognition of a mismatch. The understatement claim is only one side; replacing GDP is never proposed; advertising is incidental.",
+      "source": "ai",
+      "archetype": "cat-V01",
+      "verified": false
+    },
+    {
+      "id": "cat-070",
+      "section": "varc",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"Zoos increasingly justify themselves as arks: insurance populations of endangered species, bred under careful genetic management against the day their wild relatives vanish. For a handful of species—the Arabian oryx, the California condor—the ark has actually sailed, returning animals to the wild. But reintroduction succeeds only where habitat survives and the original threat has been removed, and for most species neither condition holds. An ark is a fine thing to have; it is less fine if it becomes the reason no one repairs the flood.\"\n\nThe final sentence of the passage serves to:",
+      "options": [
+        "praise the success of reintroduction programmes for the oryx and the condor",
+        "argue that zoos should stop breeding endangered species",
+        "warn that captive breeding could become a substitute for tackling the causes of species decline",
+        "suggest that flooding is a major cause of habitat loss"
+      ],
+      "answer": 2,
+      "explanation": "Extending the ark metaphor, 'the flood' stands for the habitat loss and threats that drive decline; the sentence cautions against letting the ark excuse inaction on them. It concedes that the ark is 'a fine thing to have', so it does not oppose breeding; the success stories come earlier; 'flood' is figurative.",
+      "source": "ai",
+      "archetype": "cat-V03",
+      "verified": false
+    },
+    {
+      "id": "cat-071",
+      "section": "varc",
+      "topic": "Reading Comprehension",
+      "difficulty": "hard",
+      "question": "Read the passage and answer the question.\n\n\"Countries that register citizens as organ donors by default, letting them opt out, report far higher registration rates than countries that require citizens to opt in. Advocates conclude that switching to an opt-out system would raise the number of transplants. Critics point out that registration is not donation: in most countries doctors consult the family before removing organs, and a registered preference may be overridden.\"\n\nWhich of the following, if true, would most strengthen the advocates' conclusion?",
+      "options": [
+        "Countries with opt-out systems also tend to have more intensive-care beds per person than opt-in countries.",
+        "Most citizens never change the default setting on any government form.",
+        "Surveys show that most people support organ donation in principle.",
+        "In countries that switched to opt-out, families refused consent less often when the deceased was registered, and actual donations rose after the switch."
+      ],
+      "answer": 3,
+      "explanation": "The critics' gap is between registration and actual donation. Evidence that registration under opt-out lowers family refusals and that donations actually rose after switching closes that gap. More ICU beds offers an alternative cause (weakens); the default-setting point only concerns registration; general support is irrelevant to the system change.",
+      "source": "ai",
+      "archetype": "cat-V04",
+      "verified": false
+    },
+    {
+      "id": "cat-072",
+      "section": "varc",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"Ask a crowd to guess the weight of an ox, and the average of the guesses may land remarkably close to the truth—closer than most individual experts. The effect depends on conditions that are easily lost. The guessers must be diverse, so that their errors point in different directions; they must judge independently, so that one loud estimate does not drag the others along; and someone must aggregate the guesses rather than let the group negotiate a consensus. Remove any of these and a crowd becomes a herd, its errors amplified rather than cancelled.\"\n\nAccording to the passage, each of the following is a condition for a crowd's collective estimate to be accurate EXCEPT:",
+      "options": [
+        "that the estimates are combined mechanically rather than through discussion",
+        "that the group includes at least one recognised expert",
+        "that members of the group bring different perspectives",
+        "that members form their estimates without influencing one another"
+      ],
+      "answer": 1,
+      "explanation": "The three stated conditions are diversity, independence and aggregation (not negotiated consensus). The passage in fact contrasts the crowd with individual experts; an expert member is not a condition.",
+      "source": "ai",
+      "archetype": "cat-V06",
+      "verified": false
+    },
+    {
+      "id": "cat-073",
+      "section": "varc",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"A translator of poetry is forever choosing what to betray. Keep the rhyme and the meaning bends; keep the meaning and the music goes flat; keep both and the line swells to twice its length, losing the compression that made it a poem in the first place. Readers who complain that a translation is 'unfaithful' usually mean that it has betrayed the one quality they personally cared about. The best translators make their betrayals deliberate and consistent, so that what is lost is lost for the sake of something the translator could defend.\"\n\nThe phrase 'choosing what to betray' suggests that a translator of poetry:",
+      "options": [
+        "must inevitably sacrifice some qualities of the original in order to preserve others",
+        "deliberately misleads readers about what the original poem means",
+        "should avoid translating poems that depend on rhyme",
+        "generally prefers preserving rhyme to preserving meaning"
+      ],
+      "answer": 0,
+      "explanation": "The next sentence lists the trade-offs (rhyme vs meaning vs compression): some loss is unavoidable, and the choice is which. 'Betray' is figurative, not deception; no preference for rhyme is stated; the author advises deliberate choices, not avoidance.",
+      "source": "ai",
+      "archetype": "cat-V07",
+      "verified": false
+    },
+    {
+      "id": "cat-074",
+      "section": "varc",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\n\"When insurers withdraw from a coastal town, they are often accused of abandoning it. Yet a premium is a price, and a price carries information. A policy that costs more each year tells a homeowner, more bluntly than any government report, that the risk of building there is rising. Subsidised public insurance schemes, designed to keep cover affordable, can mute that signal: families go on buying and rebuilding in places that the market would advise them to leave, and the subsidy grows with every storm.\"\n\nIt can be inferred that the author regards subsidised public insurance in high-risk coastal areas as:",
+      "options": [
+        "a policy that may unintentionally encourage continued settlement in places of rising risk",
+        "an accurate reflection of the rising risk of coastal flooding",
+        "the main reason private insurers withdraw from coastal towns",
+        "a scheme that should be abolished immediately in all coastal areas"
+      ],
+      "answer": 0,
+      "explanation": "The author says subsidies 'mute that signal', so families keep rebuilding where the market would advise them to leave. No call for immediate abolition is made; the passage does not say subsidies cause insurer withdrawal; and muting the price signal is the opposite of reflecting risk accurately.",
+      "source": "ai",
+      "archetype": "cat-V02",
+      "verified": false
+    },
+    {
+      "id": "cat-075",
+      "section": "varc",
+      "topic": "Para Jumbles",
+      "difficulty": "medium",
+      "question": "The four sentences below, when properly sequenced, form a coherent paragraph. Choose the most logical order.\n\n1. The answer, it turned out, lay less in the seeds than in the soil.\n2. For years, agronomists puzzled over why the same high-yielding wheat variety thrived in some districts and failed in others.\n3. Where farmers had rotated wheat with pulses, nitrogen-fixing bacteria had left the ground richer, and the new seeds could realise their promise.\n4. Where they had planted wheat year after year, the soil was exhausted, and no seed, however improved, could compensate.",
+      "options": [
+        "1234",
+        "2134",
+        "2143",
+        "2314"
+      ],
+      "answer": 1,
+      "explanation": "2 poses the puzzle; 1 gives 'the answer'; 3 introduces 'farmers' who rotated crops; 4 uses 'they' for those farmers and supplies the contrast. 4 cannot precede 3 because its pronoun needs 3's 'farmers'.",
+      "source": "ai",
+      "archetype": "cat-V08",
+      "verified": false
+    },
+    {
+      "id": "cat-076",
+      "section": "varc",
+      "topic": "Para Jumbles",
+      "difficulty": "hard",
+      "question": "The four sentences below, when properly sequenced, form a coherent paragraph. Choose the most logical order.\n\n1. Such delays matter because a vaccine that reaches a population after an outbreak has peaked prevents far fewer infections than one that arrives at its start.\n2. Developing a vaccine was once a matter of a decade or more.\n3. During recent outbreaks, however, candidate vaccines were designed within days of a pathogen's genetic sequence being published.\n4. The bottleneck has therefore shifted from design to manufacture and distribution, which can still take many months.",
+      "options": [
+        "2341",
+        "2431",
+        "2314",
+        "3241"
+      ],
+      "answer": 0,
+      "explanation": "2 gives the old timeline; 3 ('however') the new speed of design; 4 ('therefore') the shifted bottleneck of months-long manufacture; 1 refers to 'Such delays', which only 4 has introduced.",
+      "source": "ai",
+      "archetype": "cat-V09",
+      "verified": false
+    },
+    {
+      "id": "cat-077",
+      "section": "varc",
+      "topic": "Para Jumbles",
+      "difficulty": "hard",
+      "question": "The four sentences below, when properly sequenced, form a coherent paragraph. Choose the most logical order.\n\n1. Those marks, stylised and multiplied, became the first script, which is why the oldest texts we possess are inventories rather than poems.\n2. Writing in Mesopotamia appears to have begun as bookkeeping.\n3. Clay tokens representing sheep, jars of oil and measures of grain were sealed in clay envelopes to record debts and deliveries.\n4. In time, scribes realised that marks pressed on an envelope's surface could replace the tokens inside altogether.",
+      "options": [
+        "2341",
+        "2314",
+        "2431",
+        "3421"
+      ],
+      "answer": 0,
+      "explanation": "2 states the thesis; 3 describes the token system; 4 introduces 'marks' on the envelope; 1 ('Those marks') must follow 4 and closes by linking back to bookkeeping.",
+      "source": "ai",
+      "archetype": "cat-V09",
+      "verified": false
+    },
+    {
+      "id": "cat-078",
+      "section": "varc",
+      "topic": "Odd Sentence Out",
+      "difficulty": "medium",
+      "question": "Five sentences are given below. Four of them form a coherent paragraph. Identify the sentence that does NOT belong.\n\n1. Lichens are not single organisms but partnerships between a fungus and an alga or a cyanobacterium.\n2. The fungus provides structure and shelter, while its partner produces sugars through photosynthesis.\n3. This collaboration lets lichens colonise bare rock, tree bark and even desert soil, where neither partner could survive alone.\n4. Together, the partners can slowly dissolve rock with acids, turning it into the first thin layer of soil.\n5. Mosses, which are often confused with lichens, are true plants with simple leaf-like structures.",
+      "options": [
+        "Sentence 5",
+        "Sentence 2",
+        "Sentence 4",
+        "Sentence 3"
+      ],
+      "answer": 0,
+      "explanation": "Sentences 1–4 describe the fungus–alga partnership and what it achieves together. Sentence 5 turns to mosses, a different organism, and breaks the thread.",
+      "source": "ai",
+      "archetype": "cat-V10",
+      "verified": false
+    },
+    {
+      "id": "cat-079",
+      "section": "varc",
+      "topic": "Odd Sentence Out",
+      "difficulty": "medium",
+      "question": "Five sentences are given below. Four of them form a coherent paragraph. Identify the sentence that does NOT belong.\n\n1. Early cinema had no synchronised sound, so films relied on intertitles and live musical accompaniment.\n2. Pianists in small theatres often improvised, matching the music to the mood of each scene.\n3. Colour film, by contrast, took decades to become standard because it was expensive and technically demanding.\n4. Larger cinemas employed full orchestras that played scores specially compiled or composed for a film.\n5. The arrival of synchronised sound in the late 1920s made many of these musicians redundant almost overnight.",
+      "options": [
+        "Sentence 3",
+        "Sentence 1",
+        "Sentence 4",
+        "Sentence 5"
+      ],
+      "answer": 0,
+      "explanation": "The paragraph traces live music in silent cinema—improvising pianists, orchestras, and their displacement by sound. Sentence 3 stays in film history but shifts to colour film, leaving the music thread.",
+      "source": "ai",
+      "archetype": "cat-V11",
+      "verified": false
+    },
+    {
+      "id": "cat-080",
+      "section": "varc",
+      "topic": "Para Summary",
+      "difficulty": "medium",
+      "question": "Choose the option that best captures the essence of the passage.\n\n\"Cities that build more roads to relieve congestion often find, within a few years, that traffic is as bad as before. The new capacity makes driving more attractive: people who used to travel at other times, by other routes or by other means take to the car, and some who would not have travelled at all now do. Economists call this induced demand. It does not mean road building is always futile, but it does mean that congestion cannot be cured by capacity alone; without pricing or alternatives, extra lanes tend to fill up.\"",
+      "options": [
+        "Congestion is caused mainly by people who travel at peak hours.",
+        "Induced demand explains why public transport is more popular than driving.",
+        "Building new roads is always a waste of public money.",
+        "Because added road capacity tends to attract extra traffic, widening roads alone rarely relieves congestion for long."
+      ],
+      "answer": 3,
+      "explanation": "The paragraph's claim is that new capacity induces new driving, so capacity alone does not cure congestion. 'Always a waste' contradicts 'does not mean road building is always futile'; the others add claims not in the text.",
+      "source": "ai",
+      "archetype": "cat-V12",
+      "verified": false
+    },
+    {
+      "id": "cat-081",
+      "section": "varc",
+      "topic": "Para Summary",
+      "difficulty": "hard",
+      "question": "Choose the option that best captures the essence of the passage.\n\n\"Historians once described the medieval period as an age of stagnation between the brilliance of antiquity and the rebirth of the Renaissance. The label owed as much to Renaissance writers advertising themselves as to evidence. Closer study has uncovered the heavy plough, the water mill turned to industrial uses, the mechanical clock and the university—innovations without which the later 'rebirth' is hard to imagine. The idea of a dark age persists less because historians believe it than because a story with a dramatic gap in the middle is easier to tell.\"",
+      "options": [
+        "Renaissance writers fabricated evidence about the medieval period.",
+        "Most historians today still regard the medieval period as stagnant.",
+        "The picture of medieval stagnation is a self-serving, convenient narrative that the evidence of medieval innovation contradicts.",
+        "Medieval innovations were more important than those of the Renaissance."
+      ],
+      "answer": 2,
+      "explanation": "The paragraph says the label came from Renaissance self-promotion, is contradicted by medieval innovations, and survives because it makes a neat story. It does not rank medieval above Renaissance innovation, does not allege fabricated evidence, and says historians do not believe the label.",
+      "source": "ai",
+      "archetype": "cat-V12",
+      "verified": false
+    },
+    {
+      "id": "cat-082",
+      "section": "dilr",
+      "topic": "Arrangements & Scheduling",
+      "difficulty": "medium",
+      "question": "Six people—P, Q, R, S, T and U—sit in a row in seats numbered 1 to 6 from left to right. 'Left of' means a lower seat number.\n• Q sits in an even-numbered seat.\n• Exactly one person sits between P and T.\n• R sits immediately to the right of U, and U does not sit at either end.\n• S sits at one of the two ends.\n• P sits somewhere to the left of Q.\n• T does not sit next to S.\n\nWho sits in seat 4?",
+      "options": [
+        "P",
+        "T",
+        "R",
+        "U"
+      ],
+      "answer": 3,
+      "explanation": "R = U + 1 with U not at an end. If S = 1, P (left of an even-seat Q) and T are two apart; trying the cases always forces T next to S or a clash with U–R. With S = 6: T ≠ 5; testing P–T pairs gives P = 1, T = 3, Q = 2 and U–R = 4–5. Final order: P, Q, T, U, R, S. Seat 4 is U.",
+      "source": "ai",
+      "archetype": "cat-D01",
+      "verified": false
+    },
+    {
+      "id": "cat-083",
+      "section": "dilr",
+      "topic": "Arrangements & Scheduling",
+      "difficulty": "hard",
+      "question": "Eight people—A, B, C, D, E, F, G and H—sit at equal spacing around a circular table, facing the centre. Positions are described as seen from above.\n• E sits directly opposite A.\n• A is the second person clockwise from B.\n• E is the immediate clockwise neighbour of H.\n• F sits directly opposite G.\n• G sits next to A.\n• C does not sit next to A.\n\nWho sits directly opposite D?",
+      "options": [
+        "F",
+        "B",
+        "H",
+        "C"
+      ],
+      "answer": 2,
+      "explanation": "Number seats clockwise with A = 0, so E = 4, B = 6 and H = 3. Seats 1, 2, 5, 7 remain; the only opposite pair among them is 1–5, so F and G take 1 and 5, and G next to A gives G = 1, F = 5. C cannot be at 7 (next to A), so C = 2, D = 7. Opposite 7 is 3, which is H.",
+      "source": "ai",
+      "archetype": "cat-D02",
+      "verified": false
+    },
+    {
+      "id": "cat-084",
+      "section": "dilr",
+      "topic": "Arrangements & Scheduling",
+      "difficulty": "hard",
+      "question": "Six workshops—U, V, W, X, Y and Z—are held over three days, Monday to Wednesday, with one workshop in the morning and one in the afternoon each day.\n• W is held on Tuesday.\n• X and Y are held on the same day.\n• U is held in a morning slot, on an earlier day than V.\n• Z is not held on Monday.\n• V is held in an afternoon slot.\n• Y is held in a morning slot.\n\nWhich workshop is held on Wednesday morning?",
+      "options": [
+        "Z",
+        "X",
+        "V",
+        "U"
+      ],
+      "answer": 0,
+      "explanation": "X and Y share a day without W, so they take Monday or Wednesday. U must be earlier than V, so U is not on Wednesday. If X–Y were on Wednesday, Monday would hold U and Z, but Z is not on Monday. So Monday = Y (morning), X (afternoon). U is on Tuesday morning (W takes Tuesday afternoon), and V (afternoon, after U) is Wednesday afternoon, leaving Z for Wednesday morning.",
+      "source": "ai",
+      "archetype": "cat-D03",
+      "verified": false
+    },
+    {
+      "id": "cat-085",
+      "section": "dilr",
+      "topic": "Arrangements & Scheduling",
+      "difficulty": "medium",
+      "question": "Seven people—A, B, C, D, E, F and G—live on the seven floors of a building, one per floor; floor 1 is the lowest.\n• C lives on an odd-numbered floor above floor 4.\n• Exactly two people live between C and F.\n• B lives immediately below D, and D lives on an even-numbered floor.\n• G lives on either the lowest or the topmost floor.\n• A lives above F, and E lives below A.\n• E and G do not live on adjacent floors.\n\nWhich of the following must be true?",
+      "options": [
+        "B lives on floor 3.",
+        "G lives on floor 7.",
+        "A lives on floor 7.",
+        "E lives on floor 1."
+      ],
+      "answer": 0,
+      "explanation": "C = 5 or 7. If C = 7, then F = 4 and G = 1; D even with B just below cannot be 2 (B would be 1 = G), so D = 6, B = 5, leaving floors 2 and 3 for A and E—but A must be above F. So C = 5, F = 2 (F = 8 impossible). D even with B below: D = 4, B = 3 (D = 6 would need B = 5 = C). Remaining floors 1, 6, 7 for A, E, G: either E1-A6-G7 or G1-E6-A7. Only 'B lives on floor 3' holds in both.",
+      "source": "ai",
+      "archetype": "cat-D04",
+      "verified": false
+    },
+    {
+      "id": "cat-086",
+      "section": "dilr",
+      "topic": "Tables & Data Interpretation",
+      "difficulty": "medium",
+      "question": "The table shows exports (₹ thousand crore) of four states.\n\nState | 2023 | 2024 | 2025\nP | 80 | 92 | 110\nQ | 120 | 126 | 150\nR | 60 | 75 | 81\nS | 150 | 168 | 180\n\nWhich state recorded the highest percentage growth in exports from 2023 to 2025?",
+      "options": [
+        "P",
+        "R",
+        "S",
+        "Q"
+      ],
+      "answer": 0,
+      "explanation": "Growth 2023→2025: P 30/80 = 37.5%, Q 30/120 = 25%, R 21/60 = 35%, S 30/150 = 20%. P is highest. (R had the highest 2023→2024 growth, 25%, which is the trap.)",
+      "source": "ai",
+      "archetype": "cat-D05",
+      "verified": false
+    },
+    {
+      "id": "cat-087",
+      "section": "dilr",
+      "topic": "Tables & Data Interpretation",
+      "difficulty": "medium",
+      "question": "A café sells three beverages at fixed prices: tea ₹20, coffee ₹35 and juice ₹50 per cup. Cups sold on four days were:\n\nDay | Tea | Coffee | Juice\nMonday | 120 | 80 | 40\nTuesday | 100 | 90 | 50\nWednesday | 140 | 70 | 45\nThursday | 90 | 100 | 42\n\nOn which day was the café's revenue from these beverages the highest?",
+      "options": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Monday"
+      ],
+      "answer": 0,
+      "explanation": "Revenue: Mon 2400 + 2800 + 2000 = ₹7,200; Tue 2000 + 3150 + 2500 = ₹7,650; Wed 2800 + 2450 + 2250 = ₹7,500; Thu 1800 + 3500 + 2100 = ₹7,400. Tuesday is highest, although Wednesday sold the most cups (255).",
+      "source": "ai",
+      "archetype": "cat-D06",
+      "verified": false
+    },
+    {
+      "id": "cat-088",
+      "section": "dilr",
+      "topic": "Tables & Data Interpretation",
+      "difficulty": "medium",
+      "question": "The table shows sales (in units) by three salespersons over three months. Some entries are missing.\n\nSalesperson | Jan | Feb | Mar | Total\nA | 12 | ? | 15 | 40\nB | ? | 10 | ? | 33\nC | 9 | 14 | ? | 34\nTotal | 35 | 37 | ? | 107\n\nWhat were B's sales in March?",
+      "options": [
+        "11",
+        "10",
+        "9",
+        "14"
+      ],
+      "answer": 2,
+      "explanation": "A's February = 40 − 12 − 15 = 13 (check: Feb total 13 + 10 + 14 = 37 ✓). B's January = 35 − 12 − 9 = 14. B's March = 33 − 14 − 10 = 9. (C's March = 34 − 9 − 14 = 11; March total 15 + 9 + 11 = 35, and 40 + 33 + 34 = 107 ✓.)",
+      "source": "ai",
+      "archetype": "cat-D07",
+      "verified": false
+    },
+    {
+      "id": "cat-089",
+      "section": "dilr",
+      "topic": "Tables & Data Interpretation",
+      "difficulty": "medium",
+      "question": "The total smartphone market was 200 million units in 2024 and 220 million units in 2025. The market shares of four brands were:\n\nBrand | 2024 share | 2025 share\nA | 20% | 19%\nB | 15% | 16%\nC | 25% | 22%\nD | 10% | 14%\n\nFor how many of these four brands did the number of units sold increase from 2024 to 2025?",
+      "options": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ],
+      "answer": 1,
+      "explanation": "Units (million): A 40 → 41.8 (up), B 30 → 35.2 (up), C 50 → 48.4 (down), D 20 → 30.8 (up). Three brands rose; A rose despite losing share because the market grew 10%.",
+      "source": "ai",
+      "archetype": "cat-D05",
+      "verified": false
+    },
+    {
+      "id": "cat-090",
+      "section": "dilr",
+      "topic": "Games & Tournaments",
+      "difficulty": "hard",
+      "question": "Five teams—A, B, C, D and E—played a single round-robin tournament, each pair meeting once. A win earned 2 points, a draw 1 point and a loss 0 points. The final points were: A 7, B 5, C 4, D 3, E 1.\n\nWhat is the minimum possible number of drawn matches in the tournament?",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "Every draw gives 1 point to each of two teams, so a team with an odd total has an odd number of draws. A, B, D and E have odd totals, so each drew at least once; that is at least 4 team-draws, i.e. at least 2 drawn matches. Two is achievable, e.g. draws A–E and B–D with A beating B, C, D; B beating C, E; C beating D, E; D beating E.",
+      "source": "ai",
+      "archetype": "cat-D08",
+      "verified": false
+    },
+    {
+      "id": "cat-091",
+      "section": "dilr",
+      "topic": "Games & Tournaments",
+      "difficulty": "hard",
+      "question": "Eight players seeded 1 (strongest) to 8 play a knockout tournament. Quarter-finals: 1 v 8, 4 v 5, 2 v 7, 3 v 6. Semi-finals: winner(1 v 8) v winner(4 v 5), and winner(2 v 7) v winner(3 v 6). A match is an 'upset' if the higher-numbered seed wins.\n• There were exactly three upsets in the tournament.\n• Seed 3 won the tournament.\n• Seed 1 reached the final.\n• Seed 2 lost its first match.\n\nWhich seed did the runner-up defeat in the semi-final?",
+      "options": [
+        "5",
+        "8",
+        "4",
+        "7"
+      ],
+      "answer": 0,
+      "explanation": "Seed 1 is the runner-up. Upsets so far: 7 beat 2 (QF) and 3 beat 1 (final). 3 beating 7 in the semi is not an upset, nor is 1 beating 8 or 1 beating 4/5 in the semi. The third upset must be 5 beating 4 in the quarter-final, so seed 1 beat seed 5 in the semi-final.",
+      "source": "ai",
+      "archetype": "cat-D09",
+      "verified": false
+    },
+    {
+      "id": "cat-092",
+      "section": "dilr",
+      "topic": "Games & Tournaments",
+      "difficulty": "medium",
+      "question": "Six teams play a single round-robin tournament (each pair plays once). Every match produces a winner; there are no draws.\n\nWhat is the maximum number of teams that can finish with at least 4 wins each?",
+      "options": [
+        "5",
+        "3",
+        "4",
+        "2"
+      ],
+      "answer": 1,
+      "explanation": "There are C(6,2) = 15 matches, hence 15 wins in total. If k teams had at least 4 wins, 4k ≤ 15, so k ≤ 3. Three is achievable: the top three beat each other in a cycle (1 win each) and each beats all three remaining teams (3 more wins), giving 4 wins apiece.",
+      "source": "ai",
+      "archetype": "cat-D08",
+      "verified": false
+    },
+    {
+      "id": "cat-093",
+      "section": "dilr",
+      "topic": "Venn Diagrams & Set-based Puzzles",
+      "difficulty": "medium",
+      "question": "In a survey of 300 people about three streaming services X, Y and Z: 150 use X, 130 use Y and 110 use Z; 50 use both X and Y, 40 use both Y and Z, 45 use both X and Z, and 20 use all three. (Each 'both' figure includes those who use all three.)\n\nHow many of the people surveyed use exactly one of the three services?",
+      "options": [
+        "155",
+        "205",
+        "180",
+        "160"
+      ],
+      "answer": 2,
+      "explanation": "Users of at least one = 390 − 135 + 20 = 275. Exactly two = (50 − 20) + (40 − 20) + (45 − 20) = 75. Exactly one = 275 − 75 − 20 = 180.",
+      "source": "ai",
+      "archetype": "cat-D10",
+      "verified": false
+    },
+    {
+      "id": "cat-094",
+      "section": "dilr",
+      "topic": "Venn Diagrams & Set-based Puzzles",
+      "difficulty": "hard",
+      "question": "In a class of 50 students, each plays at least one of cricket, football and hockey. 32 play cricket, 28 play football and 26 play hockey.\n\nWhat is the maximum possible number of students who play all three games?",
+      "options": [
+        "26",
+        "12",
+        "13",
+        "18"
+      ],
+      "answer": 3,
+      "explanation": "Let a, b, c be the numbers playing exactly one, two and three games. a + b + c = 50 and a + 2b + 3c = 86, so b + 2c = 36 and c ≤ 18. c = 18 with b = 0 works: 14, 10 and 8 play only cricket, only football and only hockey (14 + 10 + 8 + 18 = 50).",
+      "source": "ai",
+      "archetype": "cat-D11",
+      "verified": false
+    },
+    {
+      "id": "cat-095",
+      "section": "dilr",
+      "topic": "Venn Diagrams & Set-based Puzzles",
+      "difficulty": "medium",
+      "question": "A society has 120 members, each belonging to at least one of three clubs X, Y and Z. Club X has 70 members, Y has 60 and Z has 50. The number of members who belong to exactly one club is four times the number who belong to all three.\n\nHow many members belong to exactly two clubs?",
+      "options": [
+        "40",
+        "30",
+        "25",
+        "20"
+      ],
+      "answer": 3,
+      "explanation": "With a, b, c members in exactly one, two, three clubs: a + b + c = 120 and a + 2b + 3c = 180, so b + 2c = 60. With a = 4c: 5c + b = 120. Subtracting gives 3c = 60, c = 20, b = 20 (and a = 80).",
+      "source": "ai",
+      "archetype": "cat-D10",
+      "verified": false
+    },
+    {
+      "id": "cat-096",
+      "section": "dilr",
+      "topic": "Routes & Networks",
+      "difficulty": "medium",
+      "question": "One-way roads connect six points with the following travel times (minutes): S→A 4, S→B 7, A→B 2, A→C 6, B→C 3, B→D 8, C→D 2, C→T 9, D→T 4. No other roads exist.\n\nIf the road C→D is closed for repairs, what is the minimum travel time from S to T?",
+      "options": [
+        "18 minutes",
+        "16 minutes",
+        "19 minutes",
+        "15 minutes"
+      ],
+      "answer": 0,
+      "explanation": "Without C→D the routes to T go via C→T or D→T. Best to C: S→A→B→C = 9, then C→T: 18. Best to D: S→A→B→D = 14, then D→T: 18. (S→B→D→T = 19.) Minimum = 18. The 15-minute route S→A→B→C→D→T uses the closed road.",
+      "source": "ai",
+      "archetype": "cat-D12",
+      "verified": false
+    },
+    {
+      "id": "cat-097",
+      "section": "dilr",
+      "topic": "Routes & Networks",
+      "difficulty": "medium",
+      "question": "A delivery network has the following one-way links: S→A, S→B, A→C, A→D, B→D, B→E, C→D, C→T, D→E, D→T, E→T. No other links exist.\n\nHow many different routes are there from S to T?",
+      "options": [
+        "7",
+        "6",
+        "9",
+        "8"
+      ],
+      "answer": 3,
+      "explanation": "Count backwards: routes to T from E = 1; from D = (D→T) + (D→E) = 1 + 1 = 2; from C = (C→T) + (C→D) = 1 + 2 = 3; from A = C + D = 3 + 2 = 5; from B = D + E = 2 + 1 = 3; from S = 5 + 3 = 8.",
+      "source": "ai",
+      "archetype": "cat-D13",
+      "verified": false
+    },
+    {
+      "id": "cat-098",
+      "section": "dilr",
+      "topic": "Selection & Conditional Logic",
+      "difficulty": "medium",
+      "question": "A team of exactly three is to be chosen from five analysts—A, B, C, D and E.\n• A and B cannot both be chosen.\n• If C is chosen, D must be chosen.\n• E can be chosen only if A is chosen.\n\nIn how many ways can the team be chosen?",
+      "options": [
+        "5",
+        "4",
+        "2",
+        "3"
+      ],
+      "answer": 3,
+      "explanation": "If E is in, A is in and B is out; the third member is C or D, and C needs D, so only {A, D, E}. Without E, choose 3 of A, B, C, D without both A and B: {A, C, D} and {B, C, D} (both satisfy C→D). Total 3.",
+      "source": "ai",
+      "archetype": "cat-D14",
+      "verified": false
+    },
+    {
+      "id": "cat-099",
+      "section": "dilr",
+      "topic": "Selection & Conditional Logic",
+      "difficulty": "medium",
+      "question": "Exactly four of six projects—K, L, M, N, O and Q—are to be approved.\n• Exactly one of K and L is approved.\n• M is approved only if N is approved.\n• N and O cannot both be approved.\n• At least one of O and Q is approved.\n\nWhich of the following projects must be approved?",
+      "options": [
+        "L",
+        "M",
+        "O",
+        "K"
+      ],
+      "answer": 1,
+      "explanation": "One of K/L uses one approval, leaving three from M, N, O, Q. If O were approved, N could not be, then M could not be either, leaving at most O and Q—only two. So O is out, Q is in, and the other two must be M and N. M (along with N and Q) is approved in every case; K, L and O are not certain.",
+      "source": "ai",
+      "archetype": "cat-D15",
+      "verified": false
+    },
+    {
+      "id": "cat-100",
+      "section": "dilr",
+      "topic": "Selection & Conditional Logic",
+      "difficulty": "medium",
+      "question": "A student must choose courses to earn at least 8 credits while paying total fees of at most ₹60,000. The available courses are:\n\nCourse | Credits | Fee (₹ thousand)\nP | 4 | 30\nQ | 3 | 20\nR | 2 | 15\nS | 3 | 25\nT | 1 | 10\n\nWhich course appears in every plan that meets both conditions?",
+      "options": [
+        "R",
+        "Q",
+        "T",
+        "P"
+      ],
+      "answer": 1,
+      "explanation": "Checking combinations reaching 8 credits within ₹60,000: P + Q + T (8 credits, ₹60k) and Q + R + S (8 credits, ₹60k) are the only ones; e.g. P + S + T costs 65, P + Q + R costs 65, P + S costs 55 for only 7 credits. Q is common to both.",
+      "source": "ai",
+      "archetype": "cat-D16",
+      "verified": false
+    },
+    {
+      "id": "cat-101",
+      "section": "qa",
+      "topic": "Percentages & Profit-Loss",
+      "difficulty": "medium",
+      "question": "A shopkeeper marks his goods 50% above cost price, allows a discount of d% on the marked price, and also uses a false weight of 900 g in place of 1 kg. If his overall profit is 20%, what is d?",
+      "options": [
+        "30",
+        "28",
+        "25",
+        "20"
+      ],
+      "answer": 1,
+      "explanation": "Let 1 kg cost ₹100. He delivers 900 g (cost ₹90) and charges 150(1 − d/100). Profit 20% on ₹90 means selling price = ₹108, so 1 − d/100 = 108/150 = 0.72, d = 28.",
+      "source": "ai",
+      "archetype": "cat-Q01",
+      "verified": false
+    },
+    {
+      "id": "cat-102",
+      "section": "qa",
+      "topic": "Percentages & Profit-Loss",
+      "difficulty": "easy",
+      "question": "The price of petrol rises by 25%. By what percentage must a motorist reduce his consumption so that his expenditure on petrol rises by only 10%?",
+      "options": [
+        "15%",
+        "13.6%",
+        "10%",
+        "12%"
+      ],
+      "answer": 3,
+      "explanation": "New expenditure = 1.25 × (consumption factor) = 1.10, so the factor = 0.88: consumption falls by 12%.",
+      "source": "ai",
+      "archetype": "cat-Q02",
+      "verified": false
+    },
+    {
+      "id": "cat-103",
+      "section": "qa",
+      "topic": "Ratio, Proportion & Mixtures",
+      "difficulty": "medium",
+      "question": "A container holds 80 litres of pure milk. 16 litres are drawn off and replaced with water. This operation is performed three times in all. How much milk does the container now hold?",
+      "options": [
+        "38.4 litres",
+        "48 litres",
+        "40.96 litres",
+        "43.2 litres"
+      ],
+      "answer": 2,
+      "explanation": "Each operation leaves (80 − 16)/80 = 4/5 of the milk. Milk = 80 × (4/5)³ = 80 × 64/125 = 40.96 litres.",
+      "source": "ai",
+      "archetype": "cat-Q03",
+      "verified": false
+    },
+    {
+      "id": "cat-104",
+      "section": "qa",
+      "topic": "Ratio, Proportion & Mixtures",
+      "difficulty": "medium",
+      "question": "A and B start a business with ₹40,000 and ₹50,000 respectively. After 4 months, A adds ₹20,000 and B withdraws ₹10,000. At the end of the year the profit is ₹29,000. What is A's share?",
+      "options": [
+        "₹17,400",
+        "₹13,000",
+        "₹16,000",
+        "₹15,500"
+      ],
+      "answer": 2,
+      "explanation": "A: 40 × 4 + 60 × 8 = 640; B: 50 × 4 + 40 × 8 = 520. Ratio 640 : 520 = 16 : 13. A's share = 29,000 × 16/29 = ₹16,000.",
+      "source": "ai",
+      "archetype": "cat-Q04",
+      "verified": false
+    },
+    {
+      "id": "cat-105",
+      "section": "qa",
+      "topic": "Time-Speed-Distance & Work",
+      "difficulty": "medium",
+      "question": "In a 1 km race, A beats B by 50 m or by 10 seconds. How long does A take to complete the race?",
+      "options": [
+        "200 seconds",
+        "190 seconds",
+        "195 seconds",
+        "180 seconds"
+      ],
+      "answer": 1,
+      "explanation": "B covers the last 50 m in 10 s, so B's speed is 5 m/s and B's time for 1,000 m is 200 s. A finishes 10 s earlier: 190 s.",
+      "source": "ai",
+      "archetype": "cat-Q05",
+      "verified": false
+    },
+    {
+      "id": "cat-106",
+      "section": "qa",
+      "topic": "Time-Speed-Distance & Work",
+      "difficulty": "medium",
+      "question": "A is twice as efficient as B. Working together, they finish a job 18 days sooner than B would alone. How many days would A alone take?",
+      "options": [
+        "27",
+        "13.5",
+        "18",
+        "9"
+      ],
+      "answer": 1,
+      "explanation": "If B alone takes b days, A takes b/2 and together they take b/3. b − b/3 = 18 gives b = 27, so A alone takes 13.5 days.",
+      "source": "ai",
+      "archetype": "cat-Q06",
+      "verified": false
+    },
+    {
+      "id": "cat-107",
+      "section": "qa",
+      "topic": "Averages & Interest",
+      "difficulty": "easy",
+      "question": "A sum of money invested at compound interest (compounded annually) amounts to ₹8,820 in 2 years and ₹9,261 in 3 years. What is the sum?",
+      "options": [
+        "₹8,400",
+        "₹7,938",
+        "₹8,000",
+        "₹7,600"
+      ],
+      "answer": 2,
+      "explanation": "Rate = 9261/8820 − 1 = 0.05, i.e. 5%. Principal = 8820/1.05² = 8820/1.1025 = ₹8,000.",
+      "source": "ai",
+      "archetype": "cat-Q08",
+      "verified": false
+    },
+    {
+      "id": "cat-108",
+      "section": "qa",
+      "topic": "Linear & Quadratic Equations",
+      "difficulty": "medium",
+      "question": "If α and β are the roots of x² − 6x + 4 = 0, what is the value of α/β + β/α?",
+      "options": [
+        "8",
+        "6.5",
+        "7",
+        "9"
+      ],
+      "answer": 2,
+      "explanation": "α + β = 6 and αβ = 4. α/β + β/α = (α² + β²)/αβ = (36 − 8)/4 = 7.",
+      "source": "ai",
+      "archetype": "cat-Q10",
+      "verified": false
+    },
+    {
+      "id": "cat-109",
+      "section": "qa",
+      "topic": "Linear & Quadratic Equations",
+      "difficulty": "medium",
+      "question": "How many ordered pairs of positive integers (x, y) satisfy 3x + 5y = 101?",
+      "options": [
+        "5",
+        "6",
+        "8",
+        "7"
+      ],
+      "answer": 3,
+      "explanation": "3x = 101 − 5y must be a positive multiple of 3, so 5y ≡ 101 ≡ 2 (mod 3), i.e. y ≡ 1 (mod 3). y = 1, 4, 7, 10, 13, 16, 19 (y = 19 gives x = 2; y = 22 makes x negative): 7 pairs.",
+      "source": "ai",
+      "archetype": "cat-Q11",
+      "verified": false
+    },
+    {
+      "id": "cat-110",
+      "section": "qa",
+      "topic": "Inequalities & Functions",
+      "difficulty": "medium",
+      "question": "For how many integer values of x is |x − 5| + |x + 1| = 6?",
+      "options": [
+        "6",
+        "2",
+        "7",
+        "Infinitely many"
+      ],
+      "answer": 2,
+      "explanation": "The sum of distances from x to 5 and to −1 equals the distance between them, 6, exactly when −1 ≤ x ≤ 5. The integers −1, 0, 1, 2, 3, 4, 5 give 7 values.",
+      "source": "ai",
+      "archetype": "cat-Q12",
+      "verified": false
+    },
+    {
+      "id": "cat-111",
+      "section": "qa",
+      "topic": "Inequalities & Functions",
+      "difficulty": "hard",
+      "question": "Let f(x) = min(2x + 3, 15 − x) for all real x. What is the maximum value of f(x)?",
+      "options": [
+        "12",
+        "9",
+        "15",
+        "11"
+      ],
+      "answer": 3,
+      "explanation": "2x + 3 increases and 15 − x decreases, so the minimum of the two is largest where they are equal: 2x + 3 = 15 − x gives x = 4 and f = 11.",
+      "source": "ai",
+      "archetype": "cat-Q13",
+      "verified": false
+    },
+    {
+      "id": "cat-112",
+      "section": "qa",
+      "topic": "Progressions & Series",
+      "difficulty": "medium",
+      "question": "The third term of a geometric progression is 12 and its sixth term is 96. What is the sum of its first 8 terms?",
+      "options": [
+        "765",
+        "768",
+        "1533",
+        "381"
+      ],
+      "answer": 0,
+      "explanation": "r³ = 96/12 = 8, so r = 2 and a = 12/4 = 3. S₈ = 3(2⁸ − 1)/(2 − 1) = 3 × 255 = 765.",
+      "source": "ai",
+      "archetype": "cat-Q14",
+      "verified": false
+    },
+    {
+      "id": "cat-113",
+      "section": "qa",
+      "topic": "Logarithms & Surds",
+      "difficulty": "medium",
+      "question": "If log₃(x − 2) + log₃(x + 4) = 3, what is x?",
+      "options": [
+        "7",
+        "5",
+        "5 or −7",
+        "−7"
+      ],
+      "answer": 1,
+      "explanation": "(x − 2)(x + 4) = 27 gives x² + 2x − 35 = 0, so x = 5 or −7. For x = −7 the logarithms are undefined, so x = 5 only.",
+      "source": "ai",
+      "archetype": "cat-Q15",
+      "verified": false
+    },
+    {
+      "id": "cat-114",
+      "section": "qa",
+      "topic": "Geometry & Mensuration",
+      "difficulty": "medium",
+      "question": "In triangle ABC, AB = AC = 10 cm and BC = 12 cm. What is the distance between vertex A and the incentre of the triangle?",
+      "options": [
+        "6 cm",
+        "4 cm",
+        "5 cm",
+        "3 cm"
+      ],
+      "answer": 2,
+      "explanation": "The altitude from A is √(100 − 36) = 8 cm; area = 48, semi-perimeter = 16, so inradius = 3 cm. The incentre lies on the altitude 3 cm above BC, i.e. 8 − 3 = 5 cm from A.",
+      "source": "ai",
+      "archetype": "cat-Q17",
+      "verified": false
+    },
+    {
+      "id": "cat-115",
+      "section": "qa",
+      "topic": "Geometry & Mensuration",
+      "difficulty": "medium",
+      "question": "From an external point P, a tangent PT of length 12 cm is drawn to a circle. A line through P cuts the circle at A and B, with A between P and B, and PA = 8 cm. What is the length of the chord AB?",
+      "options": [
+        "12 cm",
+        "18 cm",
+        "9 cm",
+        "10 cm"
+      ],
+      "answer": 3,
+      "explanation": "By the tangent–secant theorem, PT² = PA × PB, so 144 = 8 × PB and PB = 18 cm. AB = 18 − 8 = 10 cm.",
+      "source": "ai",
+      "archetype": "cat-Q18",
+      "verified": false
+    },
+    {
+      "id": "cat-116",
+      "section": "qa",
+      "topic": "Geometry & Mensuration",
+      "difficulty": "medium",
+      "question": "What is the area of the triangle with vertices (1, 2), (4, 6) and (7, −1)?",
+      "options": [
+        "33 square units",
+        "16.5 square units",
+        "15 square units",
+        "18.5 square units"
+      ],
+      "answer": 1,
+      "explanation": "Area = ½ |1(6 − (−1)) + 4(−1 − 2) + 7(2 − 6)| = ½ |7 − 12 − 28| = ½ × 33 = 16.5.",
+      "source": "ai",
+      "archetype": "cat-Q20",
+      "verified": false
+    },
+    {
+      "id": "cat-117",
+      "section": "qa",
+      "topic": "Number System",
+      "difficulty": "medium",
+      "question": "What is the remainder when 17²³ + 23²³ is divided by 40?",
+      "options": [
+        "23",
+        "17",
+        "1",
+        "0"
+      ],
+      "answer": 3,
+      "explanation": "For odd n, aⁿ + bⁿ is divisible by a + b. Here a + b = 40, so the remainder is 0.",
+      "source": "ai",
+      "archetype": "cat-Q21",
+      "verified": false
+    },
+    {
+      "id": "cat-118",
+      "section": "qa",
+      "topic": "Number System",
+      "difficulty": "medium",
+      "question": "How many odd divisors does 2160 have?",
+      "options": [
+        "12",
+        "10",
+        "8",
+        "40"
+      ],
+      "answer": 2,
+      "explanation": "2160 = 2⁴ × 3³ × 5. Odd divisors use only 3 and 5: (3 + 1)(1 + 1) = 8.",
+      "source": "ai",
+      "archetype": "cat-Q22",
+      "verified": false
+    },
+    {
+      "id": "cat-119",
+      "section": "qa",
+      "topic": "Modern Maths (P&C, Probability, Sets)",
+      "difficulty": "medium",
+      "question": "In how many ways can the letters of the word LEADER be arranged so that all the vowels come together?",
+      "options": [
+        "72",
+        "48",
+        "36",
+        "144"
+      ],
+      "answer": 0,
+      "explanation": "Vowels E, A, E form one block; with L, D, R there are 4 units: 4! = 24 arrangements. Inside the block, E, A, E can be arranged in 3!/2! = 3 ways. Total 72.",
+      "source": "ai",
+      "archetype": "cat-Q23",
+      "verified": false
+    },
+    {
+      "id": "cat-120",
+      "section": "qa",
+      "topic": "Modern Maths (P&C, Probability, Sets)",
+      "difficulty": "medium",
+      "question": "Three different numbers are chosen at random from 1, 2, …, 10. What is the probability that their sum is even?",
+      "options": [
+        "7/12",
+        "2/5",
+        "1/2",
+        "5/12"
+      ],
+      "answer": 2,
+      "explanation": "There are 5 odd and 5 even numbers. Even sum: three evens C(5,3) = 10, or two odds and one even C(5,2) × 5 = 50. Probability = 60/C(10,3) = 60/120 = 1/2.",
+      "source": "ai",
+      "archetype": "cat-Q24",
+      "verified": false
     }
   ]
 }

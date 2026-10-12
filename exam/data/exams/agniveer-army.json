@@ -254,6 +254,597 @@
     "officialMock": "https://joinindianarmy.nic.in",
     "notes": "The Army does not publish CEE question papers or answer keys. joinindianarmy.nic.in carries the notification, syllabus, practice or mock-test links and ARO-wise results, and papers circulating online are memory-based."
   },
+  "pyqBlueprint": {
+    "yearsCovered": [
+      2024,
+      2025,
+      2026
+    ],
+    "method": "The Army does not publish CEE question papers. Patterns come from memory-based 'questions asked' reconstructions and candidate-feedback analyses of the Agniveer GD CEE in 2024 (April–May), 2025 (30 June–3 July) and 2026 (June), together with the published syllabus and the 15/15/15/5 GD pattern reported by Aglasem, Arihant and Business Standard. WebSearch found no full question-level analysis, so item types are confirmed from these summaries and the writer's own knowledge of the Class-10-level paper. Patterns are described in our own words.",
+    "archetypes": [
+      {
+        "id": "agniveer-army-G01",
+        "section": "gk",
+        "topic": "History",
+        "pattern": "Freedom fighters and leaders: titles, slogans and associates ('Iron Man', 'Netaji', 'Jai Jawan Jai Kisan').",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "agniveer-army-G02",
+        "section": "gk",
+        "topic": "History",
+        "pattern": "Monuments, builders and places of historic events (Taj Mahal, Qutub Minar, 1857 revolt).",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "agniveer-army-G03",
+        "section": "gk",
+        "topic": "Geography",
+        "pattern": "Indian geography superlatives and origins (largest state, longest river, coastline, glaciers, deserts).",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "agniveer-army-G04",
+        "section": "gk",
+        "topic": "Geography",
+        "pattern": "World geography basics (largest ocean, continent).",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "agniveer-army-G05",
+        "section": "gk",
+        "topic": "Polity",
+        "pattern": "Constitution basics: dates, number of duties, articles for rights, age limits, appointments, nominated members.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2–3 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "agniveer-army-G06",
+        "section": "gk",
+        "topic": "Economy",
+        "pattern": "Basic economy facts: currency issue, RBI, GST introduction.",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "agniveer-army-G07",
+        "section": "gk",
+        "topic": "Sports & Awards",
+        "pattern": "Sports terms and team sizes (hockey, chess terms).",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "agniveer-army-G08",
+        "section": "gk",
+        "topic": "Sports & Awards",
+        "pattern": "National awards and what they honour (Bharat Ratna, Khel Ratna).",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "agniveer-army-G09",
+        "section": "gk",
+        "topic": "Defence",
+        "pattern": "Gallantry awards and military days (Param Vir Chakra, Ashoka Chakra, Army Day).",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "agniveer-army-G10",
+        "section": "gk",
+        "topic": "Defence",
+        "pattern": "Army commands and training establishments with their headquarters.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "agniveer-army-G11",
+        "section": "gk",
+        "topic": "Static GK",
+        "pattern": "National symbols, and books with their authors.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "agniveer-army-G12",
+        "section": "gk",
+        "topic": "Static GK",
+        "pattern": "Countries with their capitals and currencies.",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "agniveer-army-S01",
+        "section": "science",
+        "topic": "Physics",
+        "pattern": "SI units and approximate physical constants (force, resistance, g, c, horsepower).",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "agniveer-army-S02",
+        "section": "science",
+        "topic": "Physics",
+        "pattern": "Measuring instruments and devices with the energy conversion they perform.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "agniveer-army-S03",
+        "section": "science",
+        "topic": "Physics",
+        "pattern": "Light: mirrors and lenses, their uses and properties.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "agniveer-army-S04",
+        "section": "science",
+        "topic": "Physics",
+        "pattern": "One-step numericals on speed, acceleration and work.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "agniveer-army-S05",
+        "section": "science",
+        "topic": "Chemistry",
+        "pattern": "Chemical formulas and common names of compounds (common salt, washing soda, caustic soda).",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "agniveer-army-S06",
+        "section": "science",
+        "topic": "Chemistry",
+        "pattern": "Acids, bases and pH; indicators and everyday acids.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "agniveer-army-S07",
+        "section": "science",
+        "topic": "Chemistry",
+        "pattern": "Elements and gases: atomic number, liquid metal, abundant/light gases, hardest substance.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "agniveer-army-S08",
+        "section": "science",
+        "topic": "Biology",
+        "pattern": "Cell organelles and organs and their functions.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "agniveer-army-S09",
+        "section": "science",
+        "topic": "Biology",
+        "pattern": "Vitamins and minerals: deficiency diseases.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "agniveer-army-S10",
+        "section": "science",
+        "topic": "Biology",
+        "pattern": "Human body systems: heart, blood components, body temperature.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "agniveer-army-M01",
+        "section": "maths",
+        "topic": "Number System",
+        "pattern": "Prime numbers and divisibility tests.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "agniveer-army-M02",
+        "section": "maths",
+        "topic": "Number System",
+        "pattern": "LCM and HCF of 2–3 numbers.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "agniveer-army-M03",
+        "section": "maths",
+        "topic": "Simplification",
+        "pattern": "BODMAS simplification and fractions.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "agniveer-army-M04",
+        "section": "maths",
+        "topic": "Simplification",
+        "pattern": "Square roots, squares and decimals.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "agniveer-army-M05",
+        "section": "maths",
+        "topic": "Percentage",
+        "pattern": "Percentage of a number, reverse percentage and election-margin problems.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "agniveer-army-M06",
+        "section": "maths",
+        "topic": "Profit & Loss",
+        "pattern": "Profit/loss and finding cost price from selling price and gain/loss %.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "agniveer-army-M07",
+        "section": "maths",
+        "topic": "Ratio & Average",
+        "pattern": "Dividing a quantity in a given ratio.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "agniveer-army-M08",
+        "section": "maths",
+        "topic": "Ratio & Average",
+        "pattern": "Average of consecutive numbers or multiples.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "agniveer-army-M09",
+        "section": "maths",
+        "topic": "Simple & Compound Interest",
+        "pattern": "Simple interest: amount, rate or time.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "agniveer-army-M10",
+        "section": "maths",
+        "topic": "Simple & Compound Interest",
+        "pattern": "Compound interest for 2 years, compounded annually.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "agniveer-army-M11",
+        "section": "maths",
+        "topic": "Time & Work / Speed & Distance",
+        "pattern": "Time and work: joint work and men–days proportion.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "agniveer-army-M12",
+        "section": "maths",
+        "topic": "Time & Work / Speed & Distance",
+        "pattern": "Speed unit conversion (km/h ↔ m/s) and distance problems.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "agniveer-army-M13",
+        "section": "maths",
+        "topic": "Mensuration",
+        "pattern": "2D figures: perimeter and area of squares, rectangles and circles.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "agniveer-army-M14",
+        "section": "maths",
+        "topic": "Mensuration",
+        "pattern": "3D figures: volume and surface area of cubes and cuboids.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "agniveer-army-M15",
+        "section": "maths",
+        "topic": "Algebra & Geometry",
+        "pattern": "Linear equations in one variable.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "agniveer-army-M16",
+        "section": "maths",
+        "topic": "Algebra & Geometry",
+        "pattern": "Angles: triangle angle sum, complementary and supplementary angles.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "agniveer-army-R01",
+        "section": "reasoning",
+        "topic": "Series",
+        "pattern": "Number series (×2, squares, differences).",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "agniveer-army-R02",
+        "section": "reasoning",
+        "topic": "Series",
+        "pattern": "Letter series with increasing or constant gaps.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "agniveer-army-R03",
+        "section": "reasoning",
+        "topic": "Coding-Decoding",
+        "pattern": "Letter-shift coding or letter-position sum coding.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "agniveer-army-R04",
+        "section": "reasoning",
+        "topic": "Analogy & Classification",
+        "pattern": "Word analogy (function, worker–workplace).",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "agniveer-army-R05",
+        "section": "reasoning",
+        "topic": "Analogy & Classification",
+        "pattern": "Odd one out among words or numbers.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "agniveer-army-R06",
+        "section": "reasoning",
+        "topic": "Direction & Blood Relations",
+        "pattern": "Direction sense: turns and distance from the starting point.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "agniveer-army-R07",
+        "section": "reasoning",
+        "topic": "Direction & Blood Relations",
+        "pattern": "Simple blood relation chain (grandparent/grandchild, nephew).",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      }
+    ]
+  },
   "questions": [
     {
       "id": "agniveer-army-001",
@@ -269,7 +860,9 @@
       ],
       "answer": 1,
       "explanation": "Jawaharlal Nehru was Prime Minister from 1947 to 1964. Dr Rajendra Prasad was the first President.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-G01",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-002",
@@ -285,7 +878,9 @@
       ],
       "answer": 2,
       "explanation": "Sardar Vallabhbhai Patel earned the title for integrating more than 560 princely states into India.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-G01",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-003",
@@ -301,7 +896,9 @@
       ],
       "answer": 3,
       "explanation": "Bhagat Singh, Rajguru and Sukhdev were hanged in Lahore on 23 March 1931, now observed as Shaheed Diwas.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-G01",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-004",
@@ -317,7 +914,9 @@
       ],
       "answer": 0,
       "explanation": "Shah Jahan built the Taj Mahal at Agra in memory of his wife Mumtaz Mahal.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-G02",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-005",
@@ -333,7 +932,9 @@
       ],
       "answer": 1,
       "explanation": "Rajasthan (about 3.42 lakh km²) is the largest by area, followed by Madhya Pradesh.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-G03",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-006",
@@ -349,7 +950,9 @@
       ],
       "answer": 3,
       "explanation": "The Bhagirathi rises at Gaumukh, the snout of the Gangotri Glacier in Uttarakhand, and becomes the Ganga at Devprayag after meeting the Alaknanda.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-G03",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-007",
@@ -365,7 +968,9 @@
       ],
       "answer": 2,
       "explanation": "Siachen lies in the eastern Karakoram. Indian troops hold it, and it is called the highest battlefield in the world.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-G03",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-008",
@@ -381,7 +986,9 @@
       ],
       "answer": 0,
       "explanation": "The Pacific is the largest and deepest ocean.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-G04",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-009",
@@ -397,7 +1004,9 @@
       ],
       "answer": 1,
       "explanation": "There were originally 10 (42nd Amendment, 1976). The 86th Amendment (2002) added an 11th, on education of children aged 6–14.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-G05",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-010",
@@ -413,7 +1022,9 @@
       ],
       "answer": 2,
       "explanation": "The President appoints the Chief Justice of India under Article 124(2).",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-G05",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-011",
@@ -429,7 +1040,9 @@
       ],
       "answer": 3,
       "explanation": "The Constitution was adopted on 26 November 1949 and came into force on 26 January 1950, which is celebrated as Republic Day.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-G05",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-012",
@@ -445,7 +1058,9 @@
       ],
       "answer": 0,
       "explanation": "The RBI issues currency notes. The Government of India (Ministry of Finance) issues the one-rupee note and coins.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-G06",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-013",
@@ -461,7 +1076,9 @@
       ],
       "answer": 2,
       "explanation": "Each field hockey team has 11 players on the field, including the goalkeeper.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-G07",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-014",
@@ -477,7 +1094,9 @@
       ],
       "answer": 1,
       "explanation": "The Param Vir Chakra is the highest wartime gallantry award. The Ashoka Chakra is the peacetime equivalent and the Bharat Ratna the highest civilian award.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-G09",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-015",
@@ -493,7 +1112,9 @@
       ],
       "answer": 2,
       "explanation": "Southern Command is at Pune. Northern Command is at Udhampur, Central at Lucknow and Eastern at Kolkata.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-G10",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-016",
@@ -509,7 +1130,9 @@
       ],
       "answer": 1,
       "explanation": "15 January marks the day in 1949 when Gen. K. M. Cariappa became the first Indian Commander-in-Chief. 8 October is Air Force Day, 4 December Navy Day and 7 December Armed Forces Flag Day.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-G09",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-017",
@@ -525,7 +1148,9 @@
       ],
       "answer": 3,
       "explanation": "The Bengal tiger is the national animal. The peacock is the national bird.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-G11",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-018",
@@ -541,7 +1166,9 @@
       ],
       "answer": 0,
       "explanation": "Nehru wrote it in Ahmednagar Fort prison in 1944, and it was published in 1946.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-G11",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-019",
@@ -557,7 +1184,9 @@
       ],
       "answer": 1,
       "explanation": "The newton is the SI unit of force (1 N = 1 kg·m/s²). The joule measures energy, the watt power and the pascal pressure.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-S01",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-020",
@@ -573,7 +1202,9 @@
       ],
       "answer": 2,
       "explanation": "c ≈ 3 × 10⁸ m/s (exactly 299,792,458 m/s).",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-S01",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-021",
@@ -589,7 +1220,9 @@
       ],
       "answer": 3,
       "explanation": "A convex mirror gives an erect, diminished image and a wider field of view.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-S03",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-022",
@@ -605,7 +1238,9 @@
       ],
       "answer": 0,
       "explanation": "g ≈ 9.8 m/s² near the Earth's surface.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-S01",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-023",
@@ -621,7 +1256,9 @@
       ],
       "answer": 2,
       "explanation": "An ammeter, connected in series, measures current. A voltmeter measures potential difference.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-S02",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-024",
@@ -637,7 +1274,9 @@
       ],
       "answer": 0,
       "explanation": "Speed = distance/time = 100/20 = 5 m/s.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-S04",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-025",
@@ -653,7 +1292,9 @@
       ],
       "answer": 1,
       "explanation": "Common salt is sodium chloride, NaCl.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-S05",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-026",
@@ -669,7 +1310,9 @@
       ],
       "answer": 2,
       "explanation": "Nitrogen makes up about 78% of the atmosphere and oxygen about 21%.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-S07",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-027",
@@ -685,7 +1328,9 @@
       ],
       "answer": 3,
       "explanation": "Citrus fruits contain citric acid. Acetic acid is found in vinegar and lactic acid in curd.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-S06",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-028",
@@ -701,7 +1346,9 @@
       ],
       "answer": 0,
       "explanation": "Carbon has 6 protons. Its common isotope has mass number 12.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-S07",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-029",
@@ -717,7 +1364,9 @@
       ],
       "answer": 1,
       "explanation": "Mercury (Hg) is the only metal that is liquid at ordinary room temperature.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-S07",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-030",
@@ -733,7 +1382,9 @@
       ],
       "answer": 2,
       "explanation": "pH below 7 is acidic, exactly 7 is neutral and above 7 is basic (alkaline).",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-S06",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-031",
@@ -749,7 +1400,9 @@
       ],
       "answer": 2,
       "explanation": "Mitochondria produce ATP through cellular respiration.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-S08",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-032",
@@ -765,7 +1418,9 @@
       ],
       "answer": 3,
       "explanation": "Scurvy (bleeding gums) is caused by lack of vitamin C. Rickets comes from vitamin D deficiency, night blindness from vitamin A and beriberi from vitamin B1.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-S09",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-033",
@@ -781,7 +1436,9 @@
       ],
       "answer": 0,
       "explanation": "The human heart has two atria and two ventricles.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-S10",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-034",
@@ -797,7 +1454,9 @@
       ],
       "answer": 1,
       "explanation": "Platelets (thrombocytes) help form clots at the site of injury.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-S10",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-035",
@@ -813,7 +1472,9 @@
       ],
       "answer": 1,
       "explanation": "The skin is the largest organ overall. The liver is the largest internal organ.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-S08",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-036",
@@ -829,7 +1490,9 @@
       ],
       "answer": 0,
       "explanation": "Iodine is needed to make thyroid hormones, and its deficiency enlarges the thyroid (goitre).",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-S09",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-037",
@@ -845,7 +1508,9 @@
       ],
       "answer": 2,
       "explanation": "91 = 7 × 13, 87 = 3 × 29 and 51 = 3 × 17, but 97 has no divisors other than 1 and itself.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-M01",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-038",
@@ -861,7 +1526,9 @@
       ],
       "answer": 1,
       "explanation": "8 = 2³, 12 = 2² × 3 and 18 = 2 × 3², so LCM = 2³ × 3² = 72.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-M02",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-039",
@@ -877,7 +1544,9 @@
       ],
       "answer": 3,
       "explanation": "By BODMAS: 15 × 4 = 60 and 20 ÷ 5 = 4, so 45 + 60 − 4 = 101.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-M03",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-040",
@@ -893,7 +1562,9 @@
       ],
       "answer": 2,
       "explanation": "√144 = 12 and √81 = 9, so the sum is 21.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-M04",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-041",
@@ -909,7 +1580,9 @@
       ],
       "answer": 1,
       "explanation": "15/100 × 240 = 36.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-M05",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-042",
@@ -925,7 +1598,9 @@
       ],
       "answer": 0,
       "explanation": "1.2 × N = 360, so N = 300.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-M05",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-043",
@@ -941,7 +1616,9 @@
       ],
       "answer": 3,
       "explanation": "Loss = ₹50, which is 50/500 × 100 = 10% loss.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-M06",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-044",
@@ -957,7 +1634,9 @@
       ],
       "answer": 2,
       "explanation": "CP = 660 × 100/110 = ₹600.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-M06",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-045",
@@ -973,7 +1652,9 @@
       ],
       "answer": 2,
       "explanation": "56 × 4/7 = 32 (the smaller is 24).",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-M07",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-046",
@@ -989,7 +1670,9 @@
       ],
       "answer": 0,
       "explanation": "Sum = 90 and 90 ÷ 5 = 18.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-M08",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-047",
@@ -1005,7 +1688,9 @@
       ],
       "answer": 3,
       "explanation": "SI = 2,000 × 5 × 4 / 100 = ₹400.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-M09",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-048",
@@ -1021,7 +1706,9 @@
       ],
       "answer": 1,
       "explanation": "A = 1,000 × (1.1)² = ₹1,210.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-M10",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-049",
@@ -1037,7 +1724,9 @@
       ],
       "answer": 2,
       "explanation": "1/10 + 1/15 = 5/30 = 1/6, so together they take 6 days.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-M11",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-050",
@@ -1053,7 +1742,9 @@
       ],
       "answer": 0,
       "explanation": "72 × 5/18 = 20 m/s.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-M12",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-051",
@@ -1069,7 +1760,9 @@
       ],
       "answer": 2,
       "explanation": "Perimeter = 4 × 12 = 48 cm. Note that 144 cm² would be its area.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-M13",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-052",
@@ -1085,7 +1778,9 @@
       ],
       "answer": 3,
       "explanation": "Area = πr² = 22/7 × 49 = 154 cm². Note that 44 cm is the circumference.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-M13",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-053",
@@ -1101,7 +1796,9 @@
       ],
       "answer": 0,
       "explanation": "3x = 18, so x = 6.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-M15",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-054",
@@ -1117,7 +1814,9 @@
       ],
       "answer": 1,
       "explanation": "The angles sum to 180°, so the largest is 180 × 4/9 = 80°.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-M16",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-055",
@@ -1133,7 +1832,9 @@
       ],
       "answer": 2,
       "explanation": "Each term doubles, so 40 × 2 = 80.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-R01",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-056",
@@ -1149,7 +1850,9 @@
       ],
       "answer": 1,
       "explanation": "The gaps are +2, +3, +4, +5, so J + 5 = O.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-R02",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-057",
@@ -1165,7 +1868,9 @@
       ],
       "answer": 3,
       "explanation": "D = 4, O = 15 and G = 7, so 4 + 15 + 7 = 26.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-R03",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-058",
@@ -1181,7 +1886,9 @@
       ],
       "answer": 0,
       "explanation": "Rifle, pistol and carbine are firearms, while a helmet is protective gear.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-R05",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-059",
@@ -1197,7 +1904,9 @@
       ],
       "answer": 1,
       "explanation": "The eye is used to see and the ear is used to hear.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-R04",
+      "source": "curated"
     },
     {
       "id": "agniveer-army-060",
@@ -1213,7 +1922,1089 @@
       ],
       "answer": 3,
       "explanation": "A 90° clockwise turn from North faces East, and a 180° turn from East faces West.",
-      "verified": true
+      "verified": true,
+      "archetype": "agniveer-army-R06",
+      "source": "curated"
+    },
+    {
+      "id": "agniveer-army-061",
+      "section": "gk",
+      "topic": "History",
+      "difficulty": "easy",
+      "question": "Who is popularly known as 'Netaji'?",
+      "options": [
+        "Subhas Chandra Bose",
+        "Jawaharlal Nehru",
+        "Bhagat Singh",
+        "Lala Lajpat Rai"
+      ],
+      "answer": 0,
+      "explanation": "Subhas Chandra Bose, who led the Azad Hind Fauj, is called Netaji. Lala Lajpat Rai was called 'Punjab Kesari'.",
+      "source": "ai",
+      "archetype": "agniveer-army-G01",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-062",
+      "section": "gk",
+      "topic": "History",
+      "difficulty": "easy",
+      "question": "Who gave the slogan 'Jai Jawan Jai Kisan'?",
+      "options": [
+        "Jawaharlal Nehru",
+        "Lal Bahadur Shastri",
+        "Indira Gandhi",
+        "Mahatma Gandhi"
+      ],
+      "answer": 1,
+      "explanation": "Prime Minister Lal Bahadur Shastri gave the slogan in 1965 to honour soldiers and farmers.",
+      "source": "ai",
+      "archetype": "agniveer-army-G01",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-063",
+      "section": "gk",
+      "topic": "History",
+      "difficulty": "easy",
+      "question": "The Revolt of 1857 began on 10 May 1857 at:",
+      "options": [
+        "Delhi",
+        "Kanpur",
+        "Meerut",
+        "Lucknow"
+      ],
+      "answer": 2,
+      "explanation": "Sepoys rose at Meerut on 10 May 1857 and marched to Delhi the next day.",
+      "source": "ai",
+      "archetype": "agniveer-army-G02",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-064",
+      "section": "gk",
+      "topic": "History",
+      "difficulty": "easy",
+      "question": "The Qutub Minar is located in:",
+      "options": [
+        "Agra",
+        "Jaipur",
+        "Lucknow",
+        "Delhi"
+      ],
+      "answer": 3,
+      "explanation": "The Qutub Minar, begun by Qutb-ud-din Aibak and completed by Iltutmish, stands at Mehrauli in Delhi.",
+      "source": "ai",
+      "archetype": "agniveer-army-G02",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-065",
+      "section": "gk",
+      "topic": "Geography",
+      "difficulty": "easy",
+      "question": "Which is the longest river flowing within India?",
+      "options": [
+        "Ganga",
+        "Godavari",
+        "Brahmaputra",
+        "Yamuna"
+      ],
+      "answer": 0,
+      "explanation": "The Ganga (about 2,525 km) is the longest river in India. The Godavari is the longest river of peninsular India.",
+      "source": "ai",
+      "archetype": "agniveer-army-G03",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-066",
+      "section": "gk",
+      "topic": "Geography",
+      "difficulty": "easy",
+      "question": "Which Indian State has the longest coastline?",
+      "options": [
+        "Andhra Pradesh",
+        "Gujarat",
+        "Tamil Nadu",
+        "Maharashtra"
+      ],
+      "answer": 1,
+      "explanation": "Gujarat has the longest mainland coastline of any Indian State.",
+      "source": "ai",
+      "archetype": "agniveer-army-G03",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-067",
+      "section": "gk",
+      "topic": "Geography",
+      "difficulty": "easy",
+      "question": "The Thar Desert lies mainly in which State?",
+      "options": [
+        "Gujarat",
+        "Punjab",
+        "Rajasthan",
+        "Haryana"
+      ],
+      "answer": 2,
+      "explanation": "Most of the Thar (Great Indian) Desert lies in western Rajasthan.",
+      "source": "ai",
+      "archetype": "agniveer-army-G03",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-068",
+      "section": "gk",
+      "topic": "Geography",
+      "difficulty": "easy",
+      "question": "Which is the largest continent in the world?",
+      "options": [
+        "Africa",
+        "North America",
+        "Europe",
+        "Asia"
+      ],
+      "answer": 3,
+      "explanation": "Asia is the largest continent by both area and population; Africa is second.",
+      "source": "ai",
+      "archetype": "agniveer-army-G04",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-069",
+      "section": "gk",
+      "topic": "Polity",
+      "difficulty": "easy",
+      "question": "What is the minimum age to be elected President of India?",
+      "options": [
+        "35 years",
+        "25 years",
+        "30 years",
+        "40 years"
+      ],
+      "answer": 0,
+      "explanation": "Article 58 requires the President to be at least 35 years old. 25 years is the minimum for the Lok Sabha and 30 for the Rajya Sabha.",
+      "source": "ai",
+      "archetype": "agniveer-army-G05",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-070",
+      "section": "gk",
+      "topic": "Polity",
+      "difficulty": "easy",
+      "question": "How many members can the President nominate to the Rajya Sabha?",
+      "options": [
+        "2",
+        "12",
+        "10",
+        "14"
+      ],
+      "answer": 1,
+      "explanation": "The President nominates 12 members with special knowledge of literature, science, art and social service (Article 80).",
+      "source": "ai",
+      "archetype": "agniveer-army-G05",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-071",
+      "section": "gk",
+      "topic": "Polity",
+      "difficulty": "easy",
+      "question": "The Right to Equality is given in which Articles of the Constitution of India?",
+      "options": [
+        "Articles 19 to 22",
+        "Articles 23 and 24",
+        "Articles 14 to 18",
+        "Articles 25 to 28"
+      ],
+      "answer": 2,
+      "explanation": "Articles 14–18 deal with equality. Articles 19–22 cover freedom, 23–24 exploitation and 25–28 religion.",
+      "source": "ai",
+      "archetype": "agniveer-army-G05",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-072",
+      "section": "gk",
+      "topic": "Economy",
+      "difficulty": "easy",
+      "question": "The Goods and Services Tax (GST) came into force in India on:",
+      "options": [
+        "1 April 2016",
+        "1 January 2018",
+        "15 August 2017",
+        "1 July 2017"
+      ],
+      "answer": 3,
+      "explanation": "GST was rolled out across India from 1 July 2017 under the 101st Constitutional Amendment.",
+      "source": "ai",
+      "archetype": "agniveer-army-G06",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-073",
+      "section": "gk",
+      "topic": "Sports & Awards",
+      "difficulty": "easy",
+      "question": "The term 'checkmate' is associated with which game?",
+      "options": [
+        "Chess",
+        "Boxing",
+        "Hockey",
+        "Golf"
+      ],
+      "answer": 0,
+      "explanation": "Checkmate is the position in chess in which the king is attacked and cannot escape, ending the game.",
+      "source": "ai",
+      "archetype": "agniveer-army-G07",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-074",
+      "section": "gk",
+      "topic": "Sports & Awards",
+      "difficulty": "easy",
+      "question": "The Bharat Ratna is India's highest:",
+      "options": [
+        "Gallantry award",
+        "Civilian award",
+        "Sports award",
+        "Literary award"
+      ],
+      "answer": 1,
+      "explanation": "The Bharat Ratna is the highest civilian honour. The Param Vir Chakra is the highest gallantry award.",
+      "source": "ai",
+      "archetype": "agniveer-army-G08",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-075",
+      "section": "gk",
+      "topic": "Defence",
+      "difficulty": "easy",
+      "question": "The Ashoka Chakra is awarded for:",
+      "options": [
+        "Gallantry in the face of the enemy in war",
+        "Outstanding performance in sports",
+        "Gallantry other than in the face of the enemy (peacetime)",
+        "Excellence in literature"
+      ],
+      "answer": 2,
+      "explanation": "The Ashoka Chakra is the highest peacetime gallantry award. The Param Vir Chakra is for gallantry in the face of the enemy.",
+      "source": "ai",
+      "archetype": "agniveer-army-G09",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-076",
+      "section": "gk",
+      "topic": "Defence",
+      "difficulty": "easy",
+      "question": "The headquarters of the Indian Army's Northern Command is at:",
+      "options": [
+        "Chandimandir",
+        "Lucknow",
+        "Kolkata",
+        "Udhampur"
+      ],
+      "answer": 3,
+      "explanation": "Northern Command is at Udhampur (J&K). Chandimandir is Western Command, Lucknow Central Command and Kolkata Eastern Command.",
+      "source": "ai",
+      "archetype": "agniveer-army-G10",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-077",
+      "section": "gk",
+      "topic": "Static GK",
+      "difficulty": "easy",
+      "question": "Which is the national aquatic animal of India?",
+      "options": [
+        "Ganges river dolphin",
+        "Blue whale",
+        "Saltwater crocodile",
+        "Olive ridley turtle"
+      ],
+      "answer": 0,
+      "explanation": "The Ganges river dolphin was declared India's national aquatic animal in 2009.",
+      "source": "ai",
+      "archetype": "agniveer-army-G11",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-078",
+      "section": "gk",
+      "topic": "Static GK",
+      "difficulty": "easy",
+      "question": "What is the currency of Japan?",
+      "options": [
+        "Yuan",
+        "Yen",
+        "Won",
+        "Ringgit"
+      ],
+      "answer": 1,
+      "explanation": "Japan uses the yen. The yuan is China's, the won South Korea's and the ringgit Malaysia's.",
+      "source": "ai",
+      "archetype": "agniveer-army-G12",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-079",
+      "section": "science",
+      "topic": "Physics",
+      "difficulty": "easy",
+      "question": "What is the SI unit of electrical resistance?",
+      "options": [
+        "Volt",
+        "Ampere",
+        "Ohm",
+        "Watt"
+      ],
+      "answer": 2,
+      "explanation": "Resistance is measured in ohms (Ω). Volt is the unit of potential difference, ampere of current and watt of power.",
+      "source": "ai",
+      "archetype": "agniveer-army-S01",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-080",
+      "section": "science",
+      "topic": "Physics",
+      "difficulty": "easy",
+      "question": "One horsepower is approximately equal to:",
+      "options": [
+        "1000 watts",
+        "500 watts",
+        "100 watts",
+        "746 watts"
+      ],
+      "answer": 3,
+      "explanation": "1 horsepower ≈ 746 W.",
+      "source": "ai",
+      "archetype": "agniveer-army-S01",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-081",
+      "section": "science",
+      "topic": "Physics",
+      "difficulty": "easy",
+      "question": "Which device converts mechanical energy into electrical energy?",
+      "options": [
+        "Electric generator",
+        "Electric motor",
+        "Transformer",
+        "Electric bulb"
+      ],
+      "answer": 0,
+      "explanation": "A generator (dynamo) converts mechanical energy into electrical energy. A motor does the reverse, and a transformer only changes AC voltage.",
+      "source": "ai",
+      "archetype": "agniveer-army-S02",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-082",
+      "section": "science",
+      "topic": "Physics",
+      "difficulty": "easy",
+      "question": "The focal length of a plane mirror is:",
+      "options": [
+        "Zero",
+        "Infinite",
+        "1 metre",
+        "Equal to the size of the mirror"
+      ],
+      "answer": 1,
+      "explanation": "A plane mirror can be treated as a spherical mirror of infinite radius, so its focal length (R/2) is infinite.",
+      "source": "ai",
+      "archetype": "agniveer-army-S03",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-083",
+      "section": "science",
+      "topic": "Physics",
+      "difficulty": "easy",
+      "question": "A car starts from rest and reaches a speed of 20 m/s in 5 seconds. Its acceleration is:",
+      "options": [
+        "100 m/s²",
+        "5 m/s²",
+        "4 m/s²",
+        "25 m/s²"
+      ],
+      "answer": 2,
+      "explanation": "a = (v − u)/t = (20 − 0)/5 = 4 m/s².",
+      "source": "ai",
+      "archetype": "agniveer-army-S04",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-084",
+      "section": "science",
+      "topic": "Physics",
+      "difficulty": "easy",
+      "question": "A force of 10 N moves a body through 5 m in the direction of the force. The work done is:",
+      "options": [
+        "2 J",
+        "15 J",
+        "0.5 J",
+        "50 J"
+      ],
+      "answer": 3,
+      "explanation": "Work = force × displacement = 10 × 5 = 50 J.",
+      "source": "ai",
+      "archetype": "agniveer-army-S04",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-085",
+      "section": "science",
+      "topic": "Chemistry",
+      "difficulty": "easy",
+      "question": "Sodium hydroxide is commonly known as:",
+      "options": [
+        "Caustic soda",
+        "Baking soda",
+        "Washing soda",
+        "Common salt"
+      ],
+      "answer": 0,
+      "explanation": "NaOH is caustic soda. Baking soda is NaHCO₃, washing soda Na₂CO₃·10H₂O and common salt NaCl.",
+      "source": "ai",
+      "archetype": "agniveer-army-S05",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-086",
+      "section": "science",
+      "topic": "Chemistry",
+      "difficulty": "easy",
+      "question": "What is the chemical formula of washing soda?",
+      "options": [
+        "NaHCO₃",
+        "Na₂CO₃·10H₂O",
+        "NaOH",
+        "NaCl"
+      ],
+      "answer": 1,
+      "explanation": "Washing soda is sodium carbonate decahydrate, Na₂CO₃·10H₂O.",
+      "source": "ai",
+      "archetype": "agniveer-army-S05",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-087",
+      "section": "science",
+      "topic": "Chemistry",
+      "difficulty": "easy",
+      "question": "Which of the following turns red litmus paper blue?",
+      "options": [
+        "Vinegar",
+        "Lemon juice",
+        "Lime water",
+        "Dilute hydrochloric acid"
+      ],
+      "answer": 2,
+      "explanation": "Bases turn red litmus blue. Lime water (calcium hydroxide solution) is a base; the others are acidic.",
+      "source": "ai",
+      "archetype": "agniveer-army-S06",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-088",
+      "section": "science",
+      "topic": "Chemistry",
+      "difficulty": "easy",
+      "question": "The pH of pure water at 25 °C is:",
+      "options": [
+        "0",
+        "1",
+        "14",
+        "7"
+      ],
+      "answer": 3,
+      "explanation": "Pure water is neutral, with pH 7 at 25 °C.",
+      "source": "ai",
+      "archetype": "agniveer-army-S06",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-089",
+      "section": "science",
+      "topic": "Chemistry",
+      "difficulty": "easy",
+      "question": "Which gas is filled in weather balloons because it is light and does not catch fire?",
+      "options": [
+        "Helium",
+        "Hydrogen",
+        "Oxygen",
+        "Carbon dioxide"
+      ],
+      "answer": 0,
+      "explanation": "Helium is much lighter than air and non-inflammable. Hydrogen is lighter but highly inflammable.",
+      "source": "ai",
+      "archetype": "agniveer-army-S07",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-090",
+      "section": "science",
+      "topic": "Chemistry",
+      "difficulty": "easy",
+      "question": "Which is the hardest natural substance?",
+      "options": [
+        "Iron",
+        "Diamond",
+        "Graphite",
+        "Quartz"
+      ],
+      "answer": 1,
+      "explanation": "Diamond, an allotrope of carbon, is the hardest natural substance. Graphite, another allotrope of carbon, is soft.",
+      "source": "ai",
+      "archetype": "agniveer-army-S07",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-091",
+      "section": "science",
+      "topic": "Biology",
+      "difficulty": "easy",
+      "question": "The basic structural and functional unit of life is the:",
+      "options": [
+        "Tissue",
+        "Organ",
+        "Cell",
+        "Nucleus"
+      ],
+      "answer": 2,
+      "explanation": "All living organisms are made of cells, the basic unit of structure and function.",
+      "source": "ai",
+      "archetype": "agniveer-army-S08",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-092",
+      "section": "science",
+      "topic": "Biology",
+      "difficulty": "easy",
+      "question": "Which organ filters the blood and forms urine?",
+      "options": [
+        "Liver",
+        "Lungs",
+        "Heart",
+        "Kidney"
+      ],
+      "answer": 3,
+      "explanation": "The nephrons of the kidneys filter waste from the blood and form urine.",
+      "source": "ai",
+      "archetype": "agniveer-army-S08",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-093",
+      "section": "science",
+      "topic": "Biology",
+      "difficulty": "easy",
+      "question": "Rickets is caused by the deficiency of:",
+      "options": [
+        "Vitamin D",
+        "Vitamin A",
+        "Vitamin C",
+        "Vitamin K"
+      ],
+      "answer": 0,
+      "explanation": "Vitamin D is needed to absorb calcium; its deficiency softens bones and causes rickets in children.",
+      "source": "ai",
+      "archetype": "agniveer-army-S09",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-094",
+      "section": "science",
+      "topic": "Biology",
+      "difficulty": "easy",
+      "question": "Anaemia is most commonly caused by the deficiency of:",
+      "options": [
+        "Iodine",
+        "Iron",
+        "Calcium",
+        "Sodium"
+      ],
+      "answer": 1,
+      "explanation": "Iron is needed to make haemoglobin; iron deficiency is the commonest cause of anaemia. Iodine deficiency causes goitre.",
+      "source": "ai",
+      "archetype": "agniveer-army-S09",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-095",
+      "section": "science",
+      "topic": "Biology",
+      "difficulty": "easy",
+      "question": "Which blood cells help the body fight infections?",
+      "options": [
+        "Red blood cells",
+        "Platelets",
+        "White blood cells",
+        "Plasma"
+      ],
+      "answer": 2,
+      "explanation": "White blood cells (leucocytes) defend the body against infection. RBCs carry oxygen and platelets help in clotting.",
+      "source": "ai",
+      "archetype": "agniveer-army-S10",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-096",
+      "section": "science",
+      "topic": "Biology",
+      "difficulty": "easy",
+      "question": "The normal temperature of the human body is about:",
+      "options": [
+        "40 °C",
+        "35 °C",
+        "32 °C",
+        "37 °C"
+      ],
+      "answer": 3,
+      "explanation": "Normal body temperature is about 37 °C (98.6 °F).",
+      "source": "ai",
+      "archetype": "agniveer-army-S10",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-097",
+      "section": "maths",
+      "topic": "Number System",
+      "difficulty": "easy",
+      "question": "Which of the following numbers is divisible by 11?",
+      "options": [
+        "9152",
+        "9125",
+        "9215",
+        "9521"
+      ],
+      "answer": 0,
+      "explanation": "For 9152, the difference between alternate-digit sums is (2 + 1) − (5 + 9) = −11, a multiple of 11; indeed 9152 = 11 × 832. The others give −5, −3 and −5.",
+      "source": "ai",
+      "archetype": "agniveer-army-M01",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-098",
+      "section": "maths",
+      "topic": "Number System",
+      "difficulty": "easy",
+      "question": "The HCF of 36, 48 and 60 is:",
+      "options": [
+        "6",
+        "12",
+        "24",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "36 = 2² × 3², 48 = 2⁴ × 3 and 60 = 2² × 3 × 5. The common factor is 2² × 3 = 12.",
+      "source": "ai",
+      "archetype": "agniveer-army-M02",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-099",
+      "section": "maths",
+      "topic": "Simplification",
+      "difficulty": "easy",
+      "question": "Simplify: 3/4 + 5/8 − 1/2",
+      "options": [
+        "1",
+        "5/8",
+        "7/8",
+        "3/8"
+      ],
+      "answer": 2,
+      "explanation": "With denominator 8: 6/8 + 5/8 − 4/8 = 7/8.",
+      "source": "ai",
+      "archetype": "agniveer-army-M03",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-100",
+      "section": "maths",
+      "topic": "Simplification",
+      "difficulty": "easy",
+      "question": "The value of √0.0016 is:",
+      "options": [
+        "0.4",
+        "0.004",
+        "0.016",
+        "0.04"
+      ],
+      "answer": 3,
+      "explanation": "0.0016 = 16/10000, so √0.0016 = 4/100 = 0.04.",
+      "source": "ai",
+      "archetype": "agniveer-army-M04",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-101",
+      "section": "maths",
+      "topic": "Percentage",
+      "difficulty": "easy",
+      "question": "What percentage of 80 is 20?",
+      "options": [
+        "25%",
+        "20%",
+        "40%",
+        "4%"
+      ],
+      "answer": 0,
+      "explanation": "(20/80) × 100 = 25%.",
+      "source": "ai",
+      "archetype": "agniveer-army-M05",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-102",
+      "section": "maths",
+      "topic": "Percentage",
+      "difficulty": "medium",
+      "question": "In an election between two candidates, the winner got 60% of the votes and won by 400 votes. The total number of votes polled was:",
+      "options": [
+        "1200",
+        "2000",
+        "2400",
+        "1000"
+      ],
+      "answer": 1,
+      "explanation": "The loser got 40%, so the margin is 20% of the total = 400. Total = 400 × 5 = 2000.",
+      "source": "ai",
+      "archetype": "agniveer-army-M05",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-103",
+      "section": "maths",
+      "topic": "Profit & Loss",
+      "difficulty": "easy",
+      "question": "An article bought for ₹400 is sold for ₹500. The gain per cent is:",
+      "options": [
+        "20%",
+        "100%",
+        "25%",
+        "15%"
+      ],
+      "answer": 2,
+      "explanation": "Gain = ₹100 on a cost of ₹400, i.e. 25%. (Taking 100 out of 500 would wrongly give 20%.)",
+      "source": "ai",
+      "archetype": "agniveer-army-M06",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-104",
+      "section": "maths",
+      "topic": "Profit & Loss",
+      "difficulty": "easy",
+      "question": "By selling an article for ₹480, a man loses 20%. The cost price of the article is:",
+      "options": [
+        "₹576",
+        "₹500",
+        "₹400",
+        "₹600"
+      ],
+      "answer": 3,
+      "explanation": "SP = 80% of CP, so CP = 480/0.8 = ₹600.",
+      "source": "ai",
+      "archetype": "agniveer-army-M06",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-105",
+      "section": "maths",
+      "topic": "Ratio & Average",
+      "difficulty": "easy",
+      "question": "₹900 is divided between two persons in the ratio 4 : 5. The smaller share is:",
+      "options": [
+        "₹400",
+        "₹500",
+        "₹450",
+        "₹360"
+      ],
+      "answer": 0,
+      "explanation": "Smaller share = 4/9 × 900 = ₹400.",
+      "source": "ai",
+      "archetype": "agniveer-army-M07",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-106",
+      "section": "maths",
+      "topic": "Ratio & Average",
+      "difficulty": "easy",
+      "question": "The average of the first five multiples of 4 is:",
+      "options": [
+        "10",
+        "12",
+        "16",
+        "20"
+      ],
+      "answer": 1,
+      "explanation": "(4 + 8 + 12 + 16 + 20)/5 = 60/5 = 12.",
+      "source": "ai",
+      "archetype": "agniveer-army-M08",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-107",
+      "section": "maths",
+      "topic": "Simple & Compound Interest",
+      "difficulty": "easy",
+      "question": "At what rate per cent per annum will the simple interest on ₹1,200 be ₹360 in 5 years?",
+      "options": [
+        "5%",
+        "8%",
+        "6%",
+        "4%"
+      ],
+      "answer": 2,
+      "explanation": "R = (SI × 100)/(P × T) = (360 × 100)/(1200 × 5) = 6%.",
+      "source": "ai",
+      "archetype": "agniveer-army-M09",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-108",
+      "section": "maths",
+      "topic": "Simple & Compound Interest",
+      "difficulty": "medium",
+      "question": "The compound interest on ₹5,000 at 10% per annum for 2 years, compounded annually, is:",
+      "options": [
+        "₹1,000",
+        "₹1,100",
+        "₹550",
+        "₹1,050"
+      ],
+      "answer": 3,
+      "explanation": "Amount = 5000 × 1.1² = ₹6,050, so CI = ₹1,050. Simple interest would be ₹1,000.",
+      "source": "ai",
+      "archetype": "agniveer-army-M10",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-109",
+      "section": "maths",
+      "topic": "Time & Work / Speed & Distance",
+      "difficulty": "medium",
+      "question": "12 men can build a wall in 10 days. How many men are needed to build the same wall in 8 days?",
+      "options": [
+        "15",
+        "14",
+        "16",
+        "18"
+      ],
+      "answer": 0,
+      "explanation": "Men × days is constant: 12 × 10 = 120 = M × 8, so M = 15.",
+      "source": "ai",
+      "archetype": "agniveer-army-M11",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-110",
+      "section": "maths",
+      "topic": "Time & Work / Speed & Distance",
+      "difficulty": "easy",
+      "question": "A man runs 600 m in 2 minutes. His speed is:",
+      "options": [
+        "20 km/h",
+        "18 km/h",
+        "5 km/h",
+        "36 km/h"
+      ],
+      "answer": 1,
+      "explanation": "Speed = 600/120 = 5 m/s = 5 × 18/5 = 18 km/h.",
+      "source": "ai",
+      "archetype": "agniveer-army-M12",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-111",
+      "section": "maths",
+      "topic": "Mensuration",
+      "difficulty": "medium",
+      "question": "The perimeter of a rectangle is 60 m and its length is 18 m. Its area is:",
+      "options": [
+        "180 m²",
+        "240 m²",
+        "216 m²",
+        "288 m²"
+      ],
+      "answer": 2,
+      "explanation": "2(l + b) = 60 gives l + b = 30, so b = 12 m. Area = 18 × 12 = 216 m².",
+      "source": "ai",
+      "archetype": "agniveer-army-M13",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-112",
+      "section": "maths",
+      "topic": "Mensuration",
+      "difficulty": "easy",
+      "question": "The volume of a cube of side 5 cm is:",
+      "options": [
+        "25 cm³",
+        "150 cm³",
+        "75 cm³",
+        "125 cm³"
+      ],
+      "answer": 3,
+      "explanation": "Volume = side³ = 5³ = 125 cm³. 150 cm² would be its total surface area.",
+      "source": "ai",
+      "archetype": "agniveer-army-M14",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-113",
+      "section": "maths",
+      "topic": "Algebra & Geometry",
+      "difficulty": "easy",
+      "question": "If 2x + 5 = 3x − 4, then x equals:",
+      "options": [
+        "9",
+        "1",
+        "−9",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "Moving terms: 5 + 4 = 3x − 2x, so x = 9.",
+      "source": "ai",
+      "archetype": "agniveer-army-M15",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-114",
+      "section": "maths",
+      "topic": "Algebra & Geometry",
+      "difficulty": "easy",
+      "question": "Two angles are complementary. If one of them is 35°, the other is:",
+      "options": [
+        "145°",
+        "55°",
+        "65°",
+        "45°"
+      ],
+      "answer": 1,
+      "explanation": "Complementary angles add up to 90°, so the other angle is 90° − 35° = 55°. (145° would be the supplement.)",
+      "source": "ai",
+      "archetype": "agniveer-army-M16",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-115",
+      "section": "reasoning",
+      "topic": "Series",
+      "difficulty": "easy",
+      "question": "Find the next number in the series: 1, 4, 9, 16, 25, ?",
+      "options": [
+        "30",
+        "49",
+        "36",
+        "35"
+      ],
+      "answer": 2,
+      "explanation": "The terms are 1², 2², 3², 4², 5², so the next is 6² = 36.",
+      "source": "ai",
+      "archetype": "agniveer-army-R01",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-116",
+      "section": "reasoning",
+      "topic": "Series",
+      "difficulty": "easy",
+      "question": "Find the next letter in the series: Z, X, V, T, ?",
+      "options": [
+        "S",
+        "Q",
+        "P",
+        "R"
+      ],
+      "answer": 3,
+      "explanation": "Each letter moves two places backward: Z, X, V, T, R.",
+      "source": "ai",
+      "archetype": "agniveer-army-R02",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-117",
+      "section": "reasoning",
+      "topic": "Coding-Decoding",
+      "difficulty": "easy",
+      "question": "If BOOK is written as CPPL, how is WORD written in the same code?",
+      "options": [
+        "XPSE",
+        "XPTE",
+        "VNQC",
+        "XQSE"
+      ],
+      "answer": 0,
+      "explanation": "Each letter moves one place forward: W → X, O → P, R → S, D → E.",
+      "source": "ai",
+      "archetype": "agniveer-army-R03",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-118",
+      "section": "reasoning",
+      "topic": "Analogy & Classification",
+      "difficulty": "easy",
+      "question": "Doctor : Hospital :: Teacher : ?",
+      "options": [
+        "Court",
+        "School",
+        "Factory",
+        "Field"
+      ],
+      "answer": 1,
+      "explanation": "A doctor works in a hospital; a teacher works in a school.",
+      "source": "ai",
+      "archetype": "agniveer-army-R04",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-119",
+      "section": "reasoning",
+      "topic": "Direction & Blood Relations",
+      "difficulty": "easy",
+      "question": "Amit walks 4 km towards the east and then 3 km towards the north. How far is he from his starting point?",
+      "options": [
+        "7 km",
+        "1 km",
+        "5 km",
+        "6 km"
+      ],
+      "answer": 2,
+      "explanation": "The two paths are at right angles, so distance = √(4² + 3²) = 5 km.",
+      "source": "ai",
+      "archetype": "agniveer-army-R06",
+      "verified": false
+    },
+    {
+      "id": "agniveer-army-120",
+      "section": "reasoning",
+      "topic": "Direction & Blood Relations",
+      "difficulty": "easy",
+      "question": "B is the son of A. C is the mother of A. How is B related to C?",
+      "options": [
+        "Son",
+        "Nephew",
+        "Brother",
+        "Grandson"
+      ],
+      "answer": 3,
+      "explanation": "C is A's mother and B is A's son, so B is C's grandson.",
+      "source": "ai",
+      "archetype": "agniveer-army-R07",
+      "verified": false
     }
   ]
 }

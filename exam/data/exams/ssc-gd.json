@@ -384,6 +384,1003 @@
       }
     ]
   },
+  "pyqBlueprint": {
+    "yearsCovered": [
+      2024,
+      2025,
+      2026
+    ],
+    "method": "Compiled from the commission's published question-paper/response-sheet format and from shift-wise memory-based papers and topic-wise analyses published by coaching sites (Testbook, Adda247, PW, Careers360 day-wise analyses) for the 2024–2026 cycles, cross-checked against the writer's own knowledge of SSC papers. Live web fetches during this round returned only summary pages (SSC barred public discussion of 2025 papers), so question-type detail relies mainly on prior knowledge of the papers; frequencies are approximate per-shift counts. Figure-based (non-verbal) archetypes are recorded but only text-renderable variants are used for generated questions.",
+    "archetypes": [
+      {
+        "id": "ssc-gd-R01",
+        "section": "reasoning",
+        "topic": "Analogy",
+        "pattern": "Word-pair analogy (A : B :: C : ?) built on a semantic relation – worker : tool, product : raw material, organ : function, instrument : quantity measured, young one : animal; distractors are words of the same category that do not share the relation.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-gd-R02",
+        "section": "reasoning",
+        "topic": "Analogy",
+        "pattern": "Number-pair/triad analogy where the second term comes from an arithmetic rule on the first (n² ± k, n³ ± k, ×k ± c, digit operations); often framed with two example pairs and a note to operate on whole numbers without splitting digits; distractors satisfy the rule for only one pair or come from ±1 slips.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-R03",
+        "section": "reasoning",
+        "topic": "Analogy",
+        "pattern": "Letter-cluster analogy (ABCD : EFGH :: ? ) where each letter moves by a fixed or alternating +/− shift or is replaced by its opposite letter (A↔Z); distractors differ in exactly one letter.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-R04",
+        "section": "reasoning",
+        "topic": "Classification",
+        "pattern": "Odd-one-out among four words/objects by category or property (three belong to one class, e.g. instruments, organs, rivers of one state); the trap is a surface feature shared by the odd item.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-gd-R05",
+        "section": "reasoning",
+        "topic": "Classification",
+        "pattern": "Odd number / number-pair / triad out of four where three follow one arithmetic rule (squares, primes, (a, b, c) with c = a×b − k, divisibility); the odd option breaks the rule by a small margin.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-R06",
+        "section": "reasoning",
+        "topic": "Classification",
+        "pattern": "Odd letter-cluster out of four where three clusters have the same positional gaps (e.g. +2, +3 or opposite-letter pairs) and one breaks the gap pattern.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-R07",
+        "section": "reasoning",
+        "topic": "Number & Letter Series",
+        "pattern": "Number series with one missing/next term following a two-step rule (×k + c, alternating operations, differences forming squares/primes or their own series).",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-R08",
+        "section": "reasoning",
+        "topic": "Number & Letter Series",
+        "pattern": "Letter or alphanumeric cluster series (e.g. three-letter groups with each position advancing by its own increment, possibly mixed with numbers); find the next cluster; distractors shift one position wrongly.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-R09",
+        "section": "reasoning",
+        "topic": "Coding-Decoding",
+        "pattern": "Word → letter code by a positional rule (each letter shifted by +k/−k, alternate shifts, reversal then shift, or opposite letters); decode the rule from one example and encode a new word.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-R10",
+        "section": "reasoning",
+        "topic": "Coding-Decoding",
+        "pattern": "Word → number code from alphabet positions (sum of positions, sum × k, sum of reverse positions, number of letters × k); apply the rule to a new word; distractors use forward instead of reverse positions.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-R11",
+        "section": "reasoning",
+        "topic": "Coding-Decoding",
+        "pattern": "Sentence coding: two or three short sentences coded as groups of code words; identify the code of a given word by finding the common word/code between statements.",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-gd-R12",
+        "section": "reasoning",
+        "topic": "Blood Relations",
+        "pattern": "Verbal chain / introduction ('pointing to a photo…') blood relation: trace 3–4 links and name the relation; traps are gender assumptions and the paternal/maternal side.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-R13",
+        "section": "reasoning",
+        "topic": "Blood Relations",
+        "pattern": "Coded blood relations: symbols (A + B, A × B, A − B …) stand for relations; decode an expression to find how two people are related, or which expression makes a given relation true.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-R14",
+        "section": "reasoning",
+        "topic": "Direction Sense",
+        "pattern": "Walking path of 3–5 legs with left/right turns; find the shortest distance and/or direction from the start (often a Pythagorean triple); or the final facing direction after a sequence of left/right/clockwise turns; traps are direction after a 'right turn' and adding instead of subtracting legs.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-gd-R15",
+        "section": "reasoning",
+        "topic": "Mathematical Operations",
+        "pattern": "Symbol substitution: '+' means '×', '−' means '÷' etc.; rewrite and evaluate an expression with BODMAS; distractors come from left-to-right evaluation.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-R16",
+        "section": "reasoning",
+        "topic": "Mathematical Operations",
+        "pattern": "Which two signs (or two numbers) must be interchanged to make a given equation correct; each option names a pair of signs to swap.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-R17",
+        "section": "reasoning",
+        "topic": "Missing Number",
+        "pattern": "Missing term inside a number sequence (often the middle term) built from a mixed rule such as ×1 + 1, ×2 + 2, ×3 + 3 … or alternating × and +; find the term that replaces '?'.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ssc-gd-R18",
+        "section": "reasoning",
+        "topic": "Missing Number",
+        "pattern": "Defined-operation missing number: from two or three solved examples (a ★ b = …) infer the rule (a² + b², (a + b)², a×b + a …) and apply it; distractors fit just one example.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-R19",
+        "section": "reasoning",
+        "topic": "Order & Ranking",
+        "pattern": "Position from both ends: total in a row/class from two ranks, rank from the other end, persons between two people, or a short comparison chain (taller/older) to find who is at a rank; trap is ±1 counting.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-gd-R20",
+        "section": "reasoning",
+        "topic": "Calendar & Clock",
+        "pattern": "Calendar: day of the week for a date given a reference date (odd-days counting across leap years) or after n days.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-R21",
+        "section": "reasoning",
+        "topic": "Calendar & Clock",
+        "pattern": "Clock angle between the hands at a given time (30H − 5.5M) or time when hands coincide/are opposite.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-R22",
+        "section": "reasoning",
+        "topic": "Non-verbal (Mirror, Paper Folding, Figures)",
+        "pattern": "Mirror image of a clock time or of an alphanumeric/number string (vertical mirror on the right); time question solved by 11:60 − time.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-gd-R23",
+        "section": "reasoning",
+        "topic": "Non-verbal (Mirror, Paper Folding, Figures)",
+        "pattern": "A square sheet is folded once or twice and punched/cut; predict how it looks (number/position of holes) when unfolded.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-R24",
+        "section": "reasoning",
+        "topic": "Non-verbal (Mirror, Paper Folding, Figures)",
+        "pattern": "Count triangles/squares in a figure built from a square or triangle with diagonals and mid-lines.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-G01",
+        "section": "gk",
+        "topic": "History",
+        "pattern": "Ancient and medieval India: dynasty founders, capitals, rulers' titles, Buddhist/Jain councils, Delhi Sultanate/Mughal/Vijayanagara rulers, battles with years and administrative reforms; distractors are rulers of the same or adjacent dynasty.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-G02",
+        "section": "gk",
+        "topic": "History",
+        "pattern": "Modern India and freedom struggle: founders of organisations/newspapers, INC sessions and presidents, movements with years, Governors-General and their acts.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-G03",
+        "section": "gk",
+        "topic": "Polity",
+        "pattern": "Article-number question: which Article deals with a given provision (FR, DPSP, office, emergency, finance); distractors are nearby Article numbers.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-G04",
+        "section": "gk",
+        "topic": "Polity",
+        "pattern": "Constitution-making, Preamble, amendments, schedules and parts with their subject matter (e.g. which Schedule/amendment added X); distractors are adjacent schedules/amendments.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-G05",
+        "section": "gk",
+        "topic": "Polity",
+        "pattern": "Constitutional/statutory offices: appointment, qualification (age), tenure, removal, oath, and borrowed features of the Constitution.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-G06",
+        "section": "gk",
+        "topic": "Geography",
+        "pattern": "Indian physical geography: rivers (origin, tributaries, states), lakes, passes, hills, national parks and their states.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-G07",
+        "section": "gk",
+        "topic": "Geography",
+        "pattern": "Soils, crops, minerals, climate and resources of India (which soil/crop/mineral/region; seasons and winds).",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-G08",
+        "section": "gk",
+        "topic": "Geography",
+        "pattern": "World/physical geography: atmosphere layers, ocean currents, straits, planets, latitudes and landforms.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-G09",
+        "section": "gk",
+        "topic": "Economy",
+        "pattern": "Banking and monetary policy: RBI instruments (repo, CRR, SLR), functions, institutions and their headquarters.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-G10",
+        "section": "gk",
+        "topic": "Economy",
+        "pattern": "Economic concepts and planning: GDP/GNP, deficits, inflation measures, Five-Year Plans, taxes, government schemes and their launch.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-G11",
+        "section": "gk",
+        "topic": "Physics",
+        "pattern": "Physics: SI units and instruments, and everyday phenomena (mirrors/lenses, dispersion, sound speed, heat, electricity).",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-gd-G12",
+        "section": "gk",
+        "topic": "Chemistry",
+        "pattern": "Chemistry: common names/formulae of compounds, ores and alloys, acids in foods, pH, gases and periodic-table facts.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-gd-G13",
+        "section": "gk",
+        "topic": "Biology",
+        "pattern": "Human biology: vitamins/minerals and deficiency diseases, organs and glands, blood, diseases and their causative agents.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-gd-G14",
+        "section": "gk",
+        "topic": "Biology",
+        "pattern": "Plant biology and classification: tissues, photosynthesis, plant hormones, cell organelles, scientists behind classification.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-G15",
+        "section": "gk",
+        "topic": "Art & Culture",
+        "pattern": "Performing arts and festivals: classical/folk dances, festivals and fairs with their states, instruments and their maestros.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-G16",
+        "section": "gk",
+        "topic": "Art & Culture",
+        "pattern": "Temples, monuments and architectural styles with their builders/dynasties and locations.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ssc-gd-G17",
+        "section": "gk",
+        "topic": "Current Affairs",
+        "pattern": "Recent national/international events of the last 1–2 years: summits and hosts, missions, schemes and major appointments.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–3 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-G18",
+        "section": "gk",
+        "topic": "Sports",
+        "pattern": "Sports: number of players, terms and trophies of a sport, venues, and recent Olympic/Asian Games/World Cup results involving India.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-gd-G19",
+        "section": "gk",
+        "topic": "Defence & Static GK",
+        "pattern": "Defence/CAPF static GK: raising year, headquarters, mottos and borders guarded by forces, gallantry awards, missiles and military exercises.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-M01",
+        "section": "maths",
+        "topic": "Number System",
+        "pattern": "Unit digit of a power/product or remainder of a large power on division (cyclicity); distractors are adjacent cycle values.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-M02",
+        "section": "maths",
+        "topic": "Number System",
+        "pattern": "Divisibility and number properties: smallest digit/number to add or subtract for divisibility by 9, 11, 8, which number is divisible, count of factors, primes, or sum of numbers in a range.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-M03",
+        "section": "maths",
+        "topic": "HCF & LCM",
+        "pattern": "HCF/LCM word problem: largest number dividing with given remainders, bells tolling together, least number leaving the same remainder, or HCF × LCM = product.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-gd-M04",
+        "section": "maths",
+        "topic": "Simplification",
+        "pattern": "BODMAS simplification with fractions/decimals/brackets or 'value of ?' equations; distractors come from wrong operation order.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-gd-M05",
+        "section": "maths",
+        "topic": "Percentage",
+        "pattern": "Basic/successive percentage: x% of a number, net effect of successive increases/decreases, or price rise vs consumption cut.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-gd-M06",
+        "section": "maths",
+        "topic": "Percentage",
+        "pattern": "Percentage word problems: election votes, pass-fail marks, salary spent/saved; find the total or the difference.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-M07",
+        "section": "maths",
+        "topic": "Profit & Loss",
+        "pattern": "Marked price above cost with a discount (or successive discounts) – find profit % or marked price.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-M08",
+        "section": "maths",
+        "topic": "Profit & Loss",
+        "pattern": "Cost/selling price relation: profit % from CP and SP, CP from SP and gain %, CP of x items = SP of y items, two articles sold at the same price, or false-weight dealers.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-M09",
+        "section": "maths",
+        "topic": "Simple & Compound Interest",
+        "pattern": "Simple interest: find rate/time/principal from amounts, or the time to become n times.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-gd-M10",
+        "section": "maths",
+        "topic": "Simple & Compound Interest",
+        "pattern": "Compound interest for 2–3 years, CI − SI difference, or half-yearly compounding.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-M11",
+        "section": "maths",
+        "topic": "Ratio & Proportion",
+        "pattern": "Divide an amount in a given (sometimes fractional) ratio, or find shares/partnership profit.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-gd-M12",
+        "section": "maths",
+        "topic": "Ratio & Proportion",
+        "pattern": "Ratio change: number added/subtracted to change a ratio, combined ratio A : B : C, or mean/third proportional.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-M13",
+        "section": "maths",
+        "topic": "Average",
+        "pattern": "Average: simple or consecutive-number averages, inclusion/exclusion/replacement of a member (teacher's age, wrong entry corrected), or overlap of first-k and last-k averages.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-M14",
+        "section": "maths",
+        "topic": "Time & Work",
+        "pattern": "Two/three workers with individual days; together, one leaves after some days, or efficiency ratio problems.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-M15",
+        "section": "maths",
+        "topic": "Time & Work",
+        "pattern": "Pipes and cisterns (filling and emptying pipes together) or men-days (M₁D₁ = M₂D₂) proportionality.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-M16",
+        "section": "maths",
+        "topic": "Time, Speed & Distance",
+        "pattern": "Trains crossing a pole/platform/another train (same or opposite direction) with km/h ↔ m/s conversion.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-M17",
+        "section": "maths",
+        "topic": "Time, Speed & Distance",
+        "pattern": "Average speed for to-and-fro journeys, relative speed/chase problems, or boats and streams.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-M18",
+        "section": "maths",
+        "topic": "Mensuration",
+        "pattern": "2-D mensuration: area/perimeter of rectangles, triangles (Heron's), circles and sectors, change in area with change in dimensions.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-M19",
+        "section": "maths",
+        "topic": "Mensuration",
+        "pattern": "3-D mensuration: volume/surface area of cube, cuboid, cylinder, cone, sphere/hemisphere; melting and recasting.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-E01",
+        "section": "english",
+        "topic": "Reading Comprehension",
+        "pattern": "Factual RC question on a 150–250-word passage: answer is stated in the passage; distractors use passage words with altered meaning.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-gd-E02",
+        "section": "english",
+        "topic": "Reading Comprehension",
+        "pattern": "Inference/main-idea/title RC question: choose the central theme or what the author implies.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-E03",
+        "section": "english",
+        "topic": "Reading Comprehension",
+        "pattern": "Vocabulary/tone in context: synonym/antonym of a word used in the passage or the author's tone.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-E04",
+        "section": "english",
+        "topic": "Cloze Test",
+        "pattern": "Cloze passage with five numbered blanks; each item tests contextual vocabulary, a connector or a preposition; distractors are near-synonyms that fail the collocation.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "5 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-E05",
+        "section": "english",
+        "topic": "Fill in the Blanks",
+        "pattern": "Single-sentence blank requiring the contextually correct word (collocation, near-synonym choice).",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-E06",
+        "section": "english",
+        "topic": "Fill in the Blanks",
+        "pattern": "Single-sentence blank testing grammar – prepositions, articles, tense, conjunctions.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-gd-E07",
+        "section": "english",
+        "topic": "Synonyms",
+        "pattern": "Synonym of a standalone or underlined word (moderate CGL-level vocabulary); distractors include antonyms and look-alike words.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-E08",
+        "section": "english",
+        "topic": "Antonyms",
+        "pattern": "Antonym of a standalone or underlined word; the trap option is a synonym of the given word.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-E09",
+        "section": "english",
+        "topic": "Idioms & Phrases",
+        "pattern": "Meaning of a common idiom/phrase (or the idiom that fits a sentence); distractors are literal readings.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-E10",
+        "section": "english",
+        "topic": "One-word Substitution",
+        "pattern": "One-word substitute for a descriptive phrase (persons, -cide, -phobia, -archy words); distractors are related words of the same family.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-E11",
+        "section": "english",
+        "topic": "Spelling Correction",
+        "pattern": "Select the correctly (or incorrectly) spelt word among four look-alike spellings (double letters, ie/ei, -ance/-ence).",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-gd-E12",
+        "section": "english",
+        "topic": "Error Spotting",
+        "pattern": "Sentence split into 3–4 segments; error in subject–verb agreement, pronoun or noun number (each/one of/neither…nor, uncountable nouns).",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-gd-E13",
+        "section": "english",
+        "topic": "Error Spotting",
+        "pattern": "Sentence split into segments; error in tense sequence, preposition, comparative/superlative, or conjunction pairs (hardly…when, no sooner…than).",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ssc-gd-E14",
+        "section": "english",
+        "topic": "Active & Passive Voice",
+        "pattern": "Change active to passive (or vice versa) across tenses, including questions and modals; distractors change the tense.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      }
+    ]
+  },
   "resources": {
     "pyqAvailable": true,
     "officialPYQ": "https://ssc.gov.in",
@@ -405,7 +1402,9 @@
       ],
       "answer": 0,
       "explanation": "The eye is used to see; the tongue is used to taste.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-R01",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-002",
@@ -421,7 +1420,9 @@
       ],
       "answer": 3,
       "explanation": "36 = 6². So 7² = 49.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-R02",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-003",
@@ -437,7 +1438,9 @@
       ],
       "answer": 2,
       "explanation": "Triangle, square and rectangle are polygons with straight sides; a circle has no straight sides.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-R04",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-004",
@@ -453,7 +1456,9 @@
       ],
       "answer": 0,
       "explanation": "8 = 2³, 27 = 3³ and 64 = 4³ are perfect cubes; 100 is not.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-R05",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-005",
@@ -469,7 +1474,9 @@
       ],
       "answer": 3,
       "explanation": "Squares of 1, 2, 3, 4, 5 … next is 6² = 36.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-R07",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-006",
@@ -485,7 +1492,9 @@
       ],
       "answer": 1,
       "explanation": "Differences: 3, 6, 9, 12, so next difference is 15: 37 + 15 = 52.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-R07",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-007",
@@ -501,7 +1510,9 @@
       ],
       "answer": 2,
       "explanation": "Positions 26, 24, 21, 17 (−2, −3, −4). Next −5 → 12 = L.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-R08",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-008",
@@ -517,7 +1528,9 @@
       ],
       "answer": 1,
       "explanation": "Each letter moves one place forward: B→C, I→J, R→S, D→E.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-R09",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-009",
@@ -533,7 +1546,9 @@
       ],
       "answer": 2,
       "explanation": "'blue' is the only word common to both sentences, and 'ta' is the only code common to both. So blue = ta.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-R11",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-010",
@@ -549,7 +1564,9 @@
       ],
       "answer": 0,
       "explanation": "Q is R's son and P is Q's sister, so P is also R's child. R is a woman, so R is P's mother.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-R12",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-011",
@@ -565,7 +1582,9 @@
       ],
       "answer": 3,
       "explanation": "Facing South, a left turn faces East; another left turn faces North.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-R14",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-012",
@@ -581,7 +1600,9 @@
       ],
       "answer": 3,
       "explanation": "25 − 10 + 5 = 20.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-R15",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-013",
@@ -597,7 +1618,9 @@
       ],
       "answer": 0,
       "explanation": "25 − 10 + 1 = 16.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-R19",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-014",
@@ -613,7 +1636,9 @@
       ],
       "answer": 1,
       "explanation": "Multiply by 2, 3, 4, then 5: 72 × 5 = 360.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-R17",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-015",
@@ -629,7 +1654,9 @@
       ],
       "answer": 2,
       "explanation": "The hands coincide once every 12/11 hours (≈65 5/11 minutes), i.e. 11 times in 12 hours, so 22 times in 24 hours.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-R21",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-016",
@@ -645,7 +1672,9 @@
       ],
       "answer": 1,
       "explanation": "Gandhiji gave the call 'Do or Die' in his Quit India speech at Gowalia Tank, Bombay, on 8 August 1942.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-G02",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-017",
@@ -661,7 +1690,9 @@
       ],
       "answer": 0,
       "explanation": "Babur defeated Ibrahim Lodi in 1526, founding the Mughal Empire. Rana Sanga was defeated at Khanwa (1527).",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-G01",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-018",
@@ -677,7 +1708,9 @@
       ],
       "answer": 2,
       "explanation": "Swami Dayanand Saraswati founded the Arya Samaj in Bombay in 1875. Raja Ram Mohan Roy founded the Brahmo Samaj.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-G02",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-019",
@@ -693,7 +1726,9 @@
       ],
       "answer": 3,
       "explanation": "Under Article 53(2), the supreme command of the Defence Forces is vested in the President.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-G05",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-020",
@@ -709,7 +1744,9 @@
       ],
       "answer": 2,
       "explanation": "The Constitution was adopted on 26 November 1949 (celebrated as Constitution Day) and came into force on 26 January 1950.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-G04",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-021",
@@ -725,7 +1762,9 @@
       ],
       "answer": 1,
       "explanation": "The original Constitution had 8 Schedules; there are 12 now (the 12th was added by the 74th Amendment, 1992).",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-G04",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-022",
@@ -741,7 +1780,9 @@
       ],
       "answer": 3,
       "explanation": "Article 324 vests superintendence of elections in the Election Commission. 280 = Finance Commission, 312 = All-India Services, 356 = President's Rule.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-G03",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-023",
@@ -757,7 +1798,9 @@
       ],
       "answer": 0,
       "explanation": "The Pacific Ocean is the largest and deepest ocean.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-G08",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-024",
@@ -773,7 +1816,9 @@
       ],
       "answer": 2,
       "explanation": "Punjab means 'land of five waters' (Jhelum, Chenab, Ravi, Beas and Sutlej).",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-G06",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-025",
@@ -789,7 +1834,9 @@
       ],
       "answer": 1,
       "explanation": "The Narmada rises at Amarkantak (MP), forms part of the MP–Maharashtra border and enters Gujarat before reaching the Arabian Sea. It does not flow through Rajasthan.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-G06",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-026",
@@ -805,7 +1852,9 @@
       ],
       "answer": 0,
       "explanation": "The RBI issues all banknotes except the ₹1 note, which is issued by the Government of India (Ministry of Finance).",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-G09",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-027",
@@ -821,7 +1870,9 @@
       ],
       "answer": 3,
       "explanation": "A convex mirror gives an erect, diminished image and a wider field of view.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-G11",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-028",
@@ -837,7 +1888,9 @@
       ],
       "answer": 0,
       "explanation": "CO₂ is heavier than air, does not support combustion and cuts off oxygen from the fire.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-G12",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-029",
@@ -853,7 +1906,9 @@
       ],
       "answer": 2,
       "explanation": "Xylem conducts water and minerals upward; phloem carries food.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-G14",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-030",
@@ -869,7 +1924,9 @@
       ],
       "answer": 1,
       "explanation": "ITBP guards the India–China border. BSF guards the Pakistan and Bangladesh borders, SSB the Nepal and Bhutan borders, and Assam Rifles the Myanmar border.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-G19",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-031",
@@ -885,7 +1942,9 @@
       ],
       "answer": 3,
       "explanation": "2 is the smallest (and only even) prime number; 1 is neither prime nor composite.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-M02",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-032",
@@ -901,7 +1960,9 @@
       ],
       "answer": 3,
       "explanation": "36 = 2²·3², 84 = 2²·3·7. HCF = 2² × 3 = 12.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-M03",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-033",
@@ -917,7 +1978,9 @@
       ],
       "answer": 1,
       "explanation": "360 ÷ 4 = 90.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-M05",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-034",
@@ -933,7 +1996,9 @@
       ],
       "answer": 0,
       "explanation": "1.2x = 90 → x = 75.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-M05",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-035",
@@ -949,7 +2014,9 @@
       ],
       "answer": 2,
       "explanation": "Let CP of 1 pen = ₹1. SP of 8 pens = ₹10, so SP of 1 pen = 1.25. Profit = 25%.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-M08",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-036",
@@ -965,7 +2032,9 @@
       ],
       "answer": 0,
       "explanation": "SP = 600 × 0.85 = ₹510.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-M07",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-037",
@@ -981,7 +2050,9 @@
       ],
       "answer": 3,
       "explanation": "2000 × 5 × 2/100 = ₹200.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-M09",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-038",
@@ -997,7 +2068,9 @@
       ],
       "answer": 1,
       "explanation": "A/C = (A/B) × (B/C) = (2/3) × (4/5) = 8/15.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-M12",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-039",
@@ -1013,7 +2086,9 @@
       ],
       "answer": 2,
       "explanation": "Sum = 90; 90 ÷ 5 = 18.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-M13",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-040",
@@ -1029,7 +2104,9 @@
       ],
       "answer": 0,
       "explanation": "Net filling per hour = 1/6 − 1/9 = 1/18. Time = 18 hours.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-M15",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-041",
@@ -1045,7 +2122,9 @@
       ],
       "answer": 3,
       "explanation": "Speed = 60 km/h; 300 ÷ 60 = 5 hours.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-M17",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-042",
@@ -1061,7 +2140,9 @@
       ],
       "answer": 2,
       "explanation": "Volume = a³ = 125 cm³.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-M19",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-043",
@@ -1077,7 +2158,9 @@
       ],
       "answer": 1,
       "explanation": "2πr = 44 → r = 7 cm. Area = (22/7) × 49 = 154 cm².",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-M18",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-044",
@@ -1093,7 +2176,9 @@
       ],
       "answer": 2,
       "explanation": "n(n + 1)/2 = 50 × 51/2 = 1275.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-M02",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-045",
@@ -1109,7 +2194,9 @@
       ],
       "answer": 3,
       "explanation": "CP₁ = 990/1.1 = 900; CP₂ = 990/0.9 = 1100. Total CP = 2000, total SP = 1980 → loss of ₹20 = 1%.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-M08",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-046",
@@ -1125,7 +2212,9 @@
       ],
       "answer": 0,
       "explanation": "Happy means joyful.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-E07",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-047",
@@ -1141,7 +2230,9 @@
       ],
       "answer": 1,
       "explanation": "Rapid means fast – swift.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-E07",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-048",
@@ -1157,7 +2248,9 @@
       ],
       "answer": 1,
       "explanation": "Ancient (very old) is opposite to modern.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-E08",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-049",
@@ -1173,7 +2266,9 @@
       ],
       "answer": 2,
       "explanation": "The opposite of victory is defeat.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-E08",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-050",
@@ -1189,7 +2284,9 @@
       ],
       "answer": 0,
       "explanation": "'Break the ice' means to make people feel relaxed, especially by starting a conversation.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-E09",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-051",
@@ -1205,7 +2302,9 @@
       ],
       "answer": 3,
       "explanation": "Aviary = birds; apiary = bees; aquarium = fish; kennel = dogs.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-E10",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-052",
@@ -1221,7 +2320,9 @@
       ],
       "answer": 2,
       "explanation": "The correct spelling is 'government' (govern + ment).",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-E11",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-053",
@@ -1237,7 +2338,9 @@
       ],
       "answer": 1,
       "explanation": "'Each' is singular, so 'have' should be 'has'.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-E12",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-054",
@@ -1253,7 +2356,9 @@
       ],
       "answer": 1,
       "explanation": "The correct phrase is 'good at' a subject or skill.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-E06",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-055",
@@ -1269,7 +2374,9 @@
       ],
       "answer": 3,
       "explanation": "'For' is used with a period of time (ten years); 'since' with a point of time.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-E06",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-056",
@@ -1285,7 +2392,9 @@
       ],
       "answer": 0,
       "explanation": "'The' is used before unique objects such as the sun and the moon.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-E06",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-057",
@@ -1301,7 +2410,9 @@
       ],
       "answer": 0,
       "explanation": "Present continuous active (is writing) becomes 'is being written' in the passive.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-E14",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-058",
@@ -1317,7 +2428,9 @@
       ],
       "answer": 1,
       "explanation": "The passage says a fit body helps a soldier carry heavy loads, march long distances and stay alert.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-E01",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-059",
@@ -1333,7 +2446,9 @@
       ],
       "answer": 3,
       "explanation": "The passage states that a balanced diet, enough sleep and a calm mind are equally important.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-E01",
+      "source": "curated"
     },
     {
       "id": "ssc-gd-060",
@@ -1349,7 +2464,1089 @@
       ],
       "answer": 2,
       "explanation": "Yoga and meditation help trainees control stress and stay focused under pressure.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-gd-E02",
+      "source": "curated"
+    },
+    {
+      "id": "ssc-gd-061",
+      "section": "reasoning",
+      "topic": "Analogy",
+      "difficulty": "easy",
+      "question": "Select the option that is related to the third word in the same way as the second word is related to the first word.\nAuthor : Book :: Sculptor : ?",
+      "options": [
+        "Chisel",
+        "Stone",
+        "Museum",
+        "Statue"
+      ],
+      "answer": 3,
+      "explanation": "An author creates a book; a sculptor creates a statue. The chisel is a tool and stone the material.",
+      "source": "ai",
+      "archetype": "ssc-gd-R01",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-062",
+      "section": "reasoning",
+      "topic": "Analogy",
+      "difficulty": "easy",
+      "question": "Select the option that is related to the third number in the same way as the second number is related to the first number.\n4 : 20 :: 6 : ?",
+      "options": [
+        "36",
+        "30",
+        "42",
+        "48"
+      ],
+      "answer": 2,
+      "explanation": "Rule: n × (n + 1). 4 × 5 = 20, so 6 × 7 = 42.",
+      "source": "ai",
+      "archetype": "ssc-gd-R02",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-063",
+      "section": "reasoning",
+      "topic": "Analogy",
+      "difficulty": "easy",
+      "question": "Select the option that is related to the third letter-pair in the same way as the second letter-pair is related to the first letter-pair.\nAC : FH :: KM : ?",
+      "options": [
+        "PR",
+        "OQ",
+        "PQ",
+        "QS"
+      ],
+      "answer": 0,
+      "explanation": "Each letter moves +5: A→F, C→H. So K→P, M→R.",
+      "source": "ai",
+      "archetype": "ssc-gd-R03",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-064",
+      "section": "reasoning",
+      "topic": "Classification",
+      "difficulty": "easy",
+      "question": "Three of the following four words are alike in a certain way and one is different. Pick the odd one out.",
+      "options": [
+        "Hockey",
+        "Chess",
+        "Football",
+        "Cricket"
+      ],
+      "answer": 1,
+      "explanation": "Hockey, football and cricket are outdoor field games; chess is a board game.",
+      "source": "ai",
+      "archetype": "ssc-gd-R04",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-065",
+      "section": "reasoning",
+      "topic": "Classification",
+      "difficulty": "easy",
+      "question": "Three of the following four numbers are alike in a certain way and one is different. Select the number that is different.",
+      "options": [
+        "16",
+        "45",
+        "25",
+        "36"
+      ],
+      "answer": 1,
+      "explanation": "16, 25 and 36 are perfect squares; 45 is not.",
+      "source": "ai",
+      "archetype": "ssc-gd-R05",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-066",
+      "section": "reasoning",
+      "topic": "Classification",
+      "difficulty": "easy",
+      "question": "Three of the following four letter-pairs are alike in a certain way and one is different. Select the odd letter-pair.",
+      "options": [
+        "AZ",
+        "BY",
+        "DV",
+        "CX"
+      ],
+      "answer": 2,
+      "explanation": "AZ, BY and CX are opposite-letter pairs (positions add to 27). D's opposite is W, not V.",
+      "source": "ai",
+      "archetype": "ssc-gd-R06",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-067",
+      "section": "reasoning",
+      "topic": "Number & Letter Series",
+      "difficulty": "easy",
+      "question": "Select the number that will come next in the following series.\n1, 3, 7, 15, 31, ?",
+      "options": [
+        "63",
+        "62",
+        "61",
+        "64"
+      ],
+      "answer": 0,
+      "explanation": "Each term = previous × 2 + 1: 31 × 2 + 1 = 63.",
+      "source": "ai",
+      "archetype": "ssc-gd-R07",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-068",
+      "section": "reasoning",
+      "topic": "Number & Letter Series",
+      "difficulty": "medium",
+      "question": "Select the number that will come next in the following series.\n100, 96, 88, 76, 60, ?",
+      "options": [
+        "44",
+        "36",
+        "42",
+        "40"
+      ],
+      "answer": 3,
+      "explanation": "Differences are −4, −8, −12, −16, so the next is 60 − 20 = 40.",
+      "source": "ai",
+      "archetype": "ssc-gd-R07",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-069",
+      "section": "reasoning",
+      "topic": "Number & Letter Series",
+      "difficulty": "easy",
+      "question": "Select the letter-cluster that will come next in the following series.\nBCD, FGH, JKL, ?",
+      "options": [
+        "MNO",
+        "OPQ",
+        "NOP",
+        "NOQ"
+      ],
+      "answer": 2,
+      "explanation": "Each cluster starts 4 letters after the previous one: B, F, J, N → NOP.",
+      "source": "ai",
+      "archetype": "ssc-gd-R08",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-070",
+      "section": "reasoning",
+      "topic": "Coding-Decoding",
+      "difficulty": "easy",
+      "question": "In a certain code language, 'COLD' is written as 'DPME'. How will 'WARM' be written in that language?",
+      "options": [
+        "XBSM",
+        "XBSN",
+        "VZQL",
+        "XCSN"
+      ],
+      "answer": 1,
+      "explanation": "Each letter is moved one place forward: W→X, A→B, R→S, M→N.",
+      "source": "ai",
+      "archetype": "ssc-gd-R09",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-071",
+      "section": "reasoning",
+      "topic": "Coding-Decoding",
+      "difficulty": "easy",
+      "question": "In a certain code language, 'BAT' is coded as 23. How will 'RAT' be coded in that language?",
+      "options": [
+        "39",
+        "38",
+        "41",
+        "36"
+      ],
+      "answer": 0,
+      "explanation": "Code = sum of alphabet positions: B2 + A1 + T20 = 23. RAT = 18 + 1 + 20 = 39.",
+      "source": "ai",
+      "archetype": "ssc-gd-R10",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-072",
+      "section": "reasoning",
+      "topic": "Blood Relations",
+      "difficulty": "easy",
+      "question": "Pointing to a boy, Meena said, \"He is the son of my only brother.\" How is the boy related to Meena?",
+      "options": [
+        "Son",
+        "Cousin",
+        "Brother",
+        "Nephew"
+      ],
+      "answer": 3,
+      "explanation": "The son of one's brother is one's nephew.",
+      "source": "ai",
+      "archetype": "ssc-gd-R12",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-073",
+      "section": "reasoning",
+      "topic": "Direction Sense",
+      "difficulty": "easy",
+      "question": "Starting from point P, Amit walks 4 km towards East, turns left and walks 3 km, and then turns left again and walks 4 km. How far and in which direction is he now from P?",
+      "options": [
+        "3 km South",
+        "11 km North",
+        "4 km East",
+        "3 km North"
+      ],
+      "answer": 3,
+      "explanation": "East 4 km, then North 3 km, then West 4 km cancels the eastward walk. He is 3 km North of P.",
+      "source": "ai",
+      "archetype": "ssc-gd-R14",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-074",
+      "section": "reasoning",
+      "topic": "Mathematical Operations",
+      "difficulty": "medium",
+      "question": "If '×' means '+', '+' means '−', '−' means '÷' and '÷' means '×', what is the value of the following expression?\n18 − 3 ÷ 4 × 6 + 5",
+      "options": [
+        "23",
+        "19",
+        "25",
+        "29"
+      ],
+      "answer": 2,
+      "explanation": "Substituting: 18 ÷ 3 × 4 + 6 − 5 = 24 + 6 − 5 = 25.",
+      "source": "ai",
+      "archetype": "ssc-gd-R15",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-075",
+      "section": "reasoning",
+      "topic": "Non-verbal (Mirror, Paper Folding, Figures)",
+      "difficulty": "medium",
+      "question": "A square sheet of paper is folded once along its vertical middle line and then once along its horizontal middle line. A single hole is then punched through all the layers. How many holes will there be when the sheet is completely unfolded?",
+      "options": [
+        "4",
+        "2",
+        "8",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "Two folds make 4 layers, so one punch makes 4 holes.",
+      "source": "ai",
+      "archetype": "ssc-gd-R23",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-076",
+      "section": "gk",
+      "topic": "History",
+      "difficulty": "easy",
+      "question": "The Kalinga War was fought by which Mauryan ruler?",
+      "options": [
+        "Chandragupta Maurya",
+        "Ashoka",
+        "Bindusara",
+        "Samudragupta"
+      ],
+      "answer": 1,
+      "explanation": "Ashoka fought the Kalinga War (c. 261 BCE) and then turned to Buddhism. Samudragupta was a Gupta ruler.",
+      "source": "ai",
+      "archetype": "ssc-gd-G01",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-077",
+      "section": "gk",
+      "topic": "History",
+      "difficulty": "medium",
+      "question": "Who led the Salt Satyagraha march to Vedaranyam in Tamil Nadu in 1930?",
+      "options": [
+        "K. Kamaraj",
+        "E. V. Ramasamy",
+        "C. Rajagopalachari",
+        "V. O. Chidambaram Pillai"
+      ],
+      "answer": 2,
+      "explanation": "C. Rajagopalachari led the salt march from Tiruchirappalli to Vedaranyam in April 1930.",
+      "source": "ai",
+      "archetype": "ssc-gd-G02",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-078",
+      "section": "gk",
+      "topic": "Current Affairs",
+      "difficulty": "medium",
+      "question": "India won the ICC Champions Trophy 2025 by defeating which team in the final?",
+      "options": [
+        "New Zealand",
+        "Australia",
+        "South Africa",
+        "Pakistan"
+      ],
+      "answer": 0,
+      "explanation": "India beat New Zealand by four wickets in the final in Dubai on 9 March 2025.",
+      "source": "ai",
+      "archetype": "ssc-gd-G17",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-079",
+      "section": "gk",
+      "topic": "Polity",
+      "difficulty": "medium",
+      "question": "Which Article of the Constitution of India guarantees freedom of conscience and free profession, practice and propagation of religion?",
+      "options": [
+        "Article 19",
+        "Article 25",
+        "Article 14",
+        "Article 32"
+      ],
+      "answer": 1,
+      "explanation": "Article 25 (part of Articles 25–28, Right to Freedom of Religion).",
+      "source": "ai",
+      "archetype": "ssc-gd-G03",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-080",
+      "section": "gk",
+      "topic": "Polity",
+      "difficulty": "easy",
+      "question": "What is the term of office of a member of the Rajya Sabha?",
+      "options": [
+        "5 years",
+        "4 years",
+        "3 years",
+        "6 years"
+      ],
+      "answer": 3,
+      "explanation": "Rajya Sabha members serve 6-year terms; one-third retire every two years.",
+      "source": "ai",
+      "archetype": "ssc-gd-G05",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-081",
+      "section": "gk",
+      "topic": "Polity",
+      "difficulty": "medium",
+      "question": "The voting age in India was reduced from 21 years to 18 years by which Constitutional Amendment Act?",
+      "options": [
+        "42nd Amendment",
+        "44th Amendment",
+        "73rd Amendment",
+        "61st Amendment"
+      ],
+      "answer": 3,
+      "explanation": "The 61st Amendment Act, 1988, lowered the voting age to 18.",
+      "source": "ai",
+      "archetype": "ssc-gd-G04",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-082",
+      "section": "gk",
+      "topic": "Geography",
+      "difficulty": "easy",
+      "question": "Which river is known as the 'Sorrow of Bihar'?",
+      "options": [
+        "Gandak",
+        "Kosi",
+        "Son",
+        "Damodar"
+      ],
+      "answer": 1,
+      "explanation": "The Kosi, which floods and shifts its course often, is the 'Sorrow of Bihar'. The Damodar was called the 'Sorrow of Bengal'.",
+      "source": "ai",
+      "archetype": "ssc-gd-G06",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-083",
+      "section": "gk",
+      "topic": "Geography",
+      "difficulty": "easy",
+      "question": "Which of the following is a Kharif crop?",
+      "options": [
+        "Rice",
+        "Wheat",
+        "Mustard",
+        "Gram"
+      ],
+      "answer": 0,
+      "explanation": "Rice is sown with the monsoon (Kharif); wheat, mustard and gram are Rabi crops.",
+      "source": "ai",
+      "archetype": "ssc-gd-G07",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-084",
+      "section": "gk",
+      "topic": "Art & Culture",
+      "difficulty": "easy",
+      "question": "Lavani is a popular folk dance of which state?",
+      "options": [
+        "Gujarat",
+        "Karnataka",
+        "Maharashtra",
+        "Goa"
+      ],
+      "answer": 2,
+      "explanation": "Lavani, performed to the beat of the dholki, is from Maharashtra.",
+      "source": "ai",
+      "archetype": "ssc-gd-G15",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-085",
+      "section": "gk",
+      "topic": "Economy",
+      "difficulty": "easy",
+      "question": "Which institution is known as the 'Banker's Bank' in India?",
+      "options": [
+        "State Bank of India",
+        "NABARD",
+        "Reserve Bank of India",
+        "SIDBI"
+      ],
+      "answer": 2,
+      "explanation": "The RBI keeps the reserves of commercial banks and lends to them, so it is the bankers' bank.",
+      "source": "ai",
+      "archetype": "ssc-gd-G09",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-086",
+      "section": "gk",
+      "topic": "Physics",
+      "difficulty": "easy",
+      "question": "Which instrument is used to measure electric current in a circuit?",
+      "options": [
+        "Voltmeter",
+        "Barometer",
+        "Hygrometer",
+        "Ammeter"
+      ],
+      "answer": 3,
+      "explanation": "An ammeter measures current; a voltmeter measures potential difference.",
+      "source": "ai",
+      "archetype": "ssc-gd-G11",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-087",
+      "section": "gk",
+      "topic": "Chemistry",
+      "difficulty": "easy",
+      "question": "What is the chemical formula of common salt?",
+      "options": [
+        "KCl",
+        "NaCl",
+        "NaOH",
+        "Na₂CO₃"
+      ],
+      "answer": 1,
+      "explanation": "Common salt is sodium chloride, NaCl.",
+      "source": "ai",
+      "archetype": "ssc-gd-G12",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-088",
+      "section": "gk",
+      "topic": "Biology",
+      "difficulty": "easy",
+      "question": "How many bones are there in the body of an adult human being?",
+      "options": [
+        "206",
+        "208",
+        "212",
+        "300"
+      ],
+      "answer": 0,
+      "explanation": "An adult has 206 bones; a newborn has about 300 that later fuse.",
+      "source": "ai",
+      "archetype": "ssc-gd-G13",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-089",
+      "section": "gk",
+      "topic": "Sports",
+      "difficulty": "easy",
+      "question": "The Ranji Trophy is associated with which sport?",
+      "options": [
+        "Cricket",
+        "Football",
+        "Hockey",
+        "Badminton"
+      ],
+      "answer": 0,
+      "explanation": "The Ranji Trophy is India's premier domestic first-class cricket championship.",
+      "source": "ai",
+      "archetype": "ssc-gd-G18",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-090",
+      "section": "gk",
+      "topic": "Defence & Static GK",
+      "difficulty": "medium",
+      "question": "Where is the headquarters of the Border Security Force (BSF) located?",
+      "options": [
+        "Jaipur",
+        "Shillong",
+        "New Delhi",
+        "Chandigarh"
+      ],
+      "answer": 2,
+      "explanation": "The BSF headquarters is in New Delhi; Shillong is the headquarters of the Assam Rifles.",
+      "source": "ai",
+      "archetype": "ssc-gd-G19",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-091",
+      "section": "maths",
+      "topic": "Number System",
+      "difficulty": "easy",
+      "question": "What is the smallest number that must be subtracted from 1000 to make it exactly divisible by 7?",
+      "options": [
+        "1",
+        "6",
+        "4",
+        "3"
+      ],
+      "answer": 1,
+      "explanation": "1000 = 7 × 142 + 6, so subtract 6 (994 = 7 × 142).",
+      "source": "ai",
+      "archetype": "ssc-gd-M02",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-092",
+      "section": "maths",
+      "topic": "Number System",
+      "difficulty": "easy",
+      "question": "What is the unit digit of 4⁴⁵?",
+      "options": [
+        "6",
+        "2",
+        "8",
+        "4"
+      ],
+      "answer": 3,
+      "explanation": "Powers of 4 end in 4 (odd power) or 6 (even power). 45 is odd, so the unit digit is 4.",
+      "source": "ai",
+      "archetype": "ssc-gd-M01",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-093",
+      "section": "maths",
+      "topic": "HCF & LCM",
+      "difficulty": "easy",
+      "question": "The HCF of two numbers is 12 and their LCM is 360. If one of the numbers is 72, what is the other number?",
+      "options": [
+        "48",
+        "84",
+        "90",
+        "60"
+      ],
+      "answer": 3,
+      "explanation": "Product of the numbers = HCF × LCM = 4320. Other number = 4320/72 = 60.",
+      "source": "ai",
+      "archetype": "ssc-gd-M03",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-094",
+      "section": "maths",
+      "topic": "Simplification",
+      "difficulty": "easy",
+      "question": "What is the value of 25 × 4 ÷ 5 + 18 − 6 × 2?",
+      "options": [
+        "16",
+        "26",
+        "22",
+        "30"
+      ],
+      "answer": 1,
+      "explanation": "25 × 4 ÷ 5 = 20 and 6 × 2 = 12. 20 + 18 − 12 = 26.",
+      "source": "ai",
+      "archetype": "ssc-gd-M04",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-095",
+      "section": "maths",
+      "topic": "Percentage",
+      "difficulty": "easy",
+      "question": "What percentage of 250 is 45?",
+      "options": [
+        "15%",
+        "20%",
+        "18%",
+        "22.5%"
+      ],
+      "answer": 2,
+      "explanation": "45/250 × 100 = 18%.",
+      "source": "ai",
+      "archetype": "ssc-gd-M05",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-096",
+      "section": "maths",
+      "topic": "Percentage",
+      "difficulty": "medium",
+      "question": "A student must obtain 40% of the total marks to pass. He gets 160 marks and fails by 40 marks. What are the maximum marks?",
+      "options": [
+        "500",
+        "400",
+        "450",
+        "600"
+      ],
+      "answer": 0,
+      "explanation": "Pass marks = 160 + 40 = 200 = 40% of total, so total = 500.",
+      "source": "ai",
+      "archetype": "ssc-gd-M06",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-097",
+      "section": "maths",
+      "topic": "Profit & Loss",
+      "difficulty": "easy",
+      "question": "A man buys a cycle for ₹2,500 and sells it for ₹2,800. What is his gain percentage?",
+      "options": [
+        "10%",
+        "15%",
+        "12%",
+        "11%"
+      ],
+      "answer": 2,
+      "explanation": "Gain = 300; gain % = 300/2500 × 100 = 12%.",
+      "source": "ai",
+      "archetype": "ssc-gd-M08",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-098",
+      "section": "maths",
+      "topic": "Profit & Loss",
+      "difficulty": "medium",
+      "question": "A shopkeeper marks his goods 30% above the cost price and allows a discount of 10% on the marked price. What is his gain percentage?",
+      "options": [
+        "20%",
+        "17%",
+        "15%",
+        "18%"
+      ],
+      "answer": 1,
+      "explanation": "SP = 1.30 × 0.90 = 1.17 of CP, a gain of 17% (not 30 − 10 = 20%).",
+      "source": "ai",
+      "archetype": "ssc-gd-M07",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-099",
+      "section": "maths",
+      "topic": "Simple & Compound Interest",
+      "difficulty": "easy",
+      "question": "At what rate of simple interest per annum will a sum of money double itself in 10 years?",
+      "options": [
+        "10%",
+        "12%",
+        "8%",
+        "5%"
+      ],
+      "answer": 0,
+      "explanation": "Interest = principal in 10 years, so rate = 100/10 = 10% per annum.",
+      "source": "ai",
+      "archetype": "ssc-gd-M09",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-100",
+      "section": "maths",
+      "topic": "Simple & Compound Interest",
+      "difficulty": "medium",
+      "question": "What will be the amount on ₹5,000 after 2 years at 10% per annum, compounded annually?",
+      "options": [
+        "₹6,000",
+        "₹6,100",
+        "₹5,550",
+        "₹6,050"
+      ],
+      "answer": 3,
+      "explanation": "Amount = 5000 × 1.1 × 1.1 = ₹6,050. (₹6,000 is the simple-interest amount.)",
+      "source": "ai",
+      "archetype": "ssc-gd-M10",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-101",
+      "section": "maths",
+      "topic": "Ratio & Proportion",
+      "difficulty": "easy",
+      "question": "The ages of A and B are in the ratio 4 : 5. If the sum of their ages is 54 years, what is B's age?",
+      "options": [
+        "24 years",
+        "27 years",
+        "30 years",
+        "35 years"
+      ],
+      "answer": 2,
+      "explanation": "One part = 54/9 = 6, so B = 5 × 6 = 30 years.",
+      "source": "ai",
+      "archetype": "ssc-gd-M11",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-102",
+      "section": "maths",
+      "topic": "Average",
+      "difficulty": "easy",
+      "question": "The average of five consecutive even numbers is 24. What is the largest of these numbers?",
+      "options": [
+        "26",
+        "30",
+        "24",
+        "28"
+      ],
+      "answer": 3,
+      "explanation": "The middle number is the average, 24, so the numbers are 20, 22, 24, 26, 28. Largest = 28.",
+      "source": "ai",
+      "archetype": "ssc-gd-M13",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-103",
+      "section": "maths",
+      "topic": "Time & Work",
+      "difficulty": "easy",
+      "question": "8 men can build a wall in 15 days. How many men will be needed to build the same wall in 10 days?",
+      "options": [
+        "10",
+        "12",
+        "16",
+        "14"
+      ],
+      "answer": 1,
+      "explanation": "M₁D₁ = M₂D₂: 8 × 15 = M × 10, so M = 12.",
+      "source": "ai",
+      "archetype": "ssc-gd-M15",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-104",
+      "section": "maths",
+      "topic": "Time, Speed & Distance",
+      "difficulty": "medium",
+      "question": "A train 150 m long, running at 72 km/h, crosses a bridge in 20 seconds. What is the length of the bridge?",
+      "options": [
+        "250 m",
+        "400 m",
+        "200 m",
+        "300 m"
+      ],
+      "answer": 0,
+      "explanation": "72 km/h = 20 m/s. Distance in 20 s = 400 m = train + bridge, so the bridge is 250 m.",
+      "source": "ai",
+      "archetype": "ssc-gd-M16",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-105",
+      "section": "maths",
+      "topic": "Mensuration",
+      "difficulty": "medium",
+      "question": "What is the area of a square whose diagonal is 12 cm?",
+      "options": [
+        "144 cm²",
+        "72 cm²",
+        "36 cm²",
+        "96 cm²"
+      ],
+      "answer": 1,
+      "explanation": "Area = d²/2 = 144/2 = 72 cm².",
+      "source": "ai",
+      "archetype": "ssc-gd-M18",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-106",
+      "section": "english",
+      "topic": "Synonyms",
+      "difficulty": "easy",
+      "question": "Select the most appropriate synonym of the given word.\nBRIEF",
+      "options": [
+        "Long",
+        "Strong",
+        "Clear",
+        "Short"
+      ],
+      "answer": 3,
+      "explanation": "Brief means short in duration or length.",
+      "source": "ai",
+      "archetype": "ssc-gd-E07",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-107",
+      "section": "english",
+      "topic": "Antonyms",
+      "difficulty": "easy",
+      "question": "Select the most appropriate antonym of the given word.\nGIANT",
+      "options": [
+        "Dwarf",
+        "Huge",
+        "Tall",
+        "Strong"
+      ],
+      "answer": 0,
+      "explanation": "A giant is very large; the opposite is dwarf.",
+      "source": "ai",
+      "archetype": "ssc-gd-E08",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-108",
+      "section": "english",
+      "topic": "Antonyms",
+      "difficulty": "easy",
+      "question": "Select the most appropriate antonym of the given word.\nACCEPT",
+      "options": [
+        "Receive",
+        "Admit",
+        "Reject",
+        "Agree"
+      ],
+      "answer": 2,
+      "explanation": "Accept is opposite to reject.",
+      "source": "ai",
+      "archetype": "ssc-gd-E08",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-109",
+      "section": "english",
+      "topic": "Idioms & Phrases",
+      "difficulty": "easy",
+      "question": "Select the most appropriate meaning of the given idiom.\nTo keep one's fingers crossed",
+      "options": [
+        "To be very angry",
+        "To refuse to help someone",
+        "To hope for a good result",
+        "To tie something firmly"
+      ],
+      "answer": 2,
+      "explanation": "Keeping one's fingers crossed means hoping that something turns out well.",
+      "source": "ai",
+      "archetype": "ssc-gd-E09",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-110",
+      "section": "english",
+      "topic": "One-word Substitution",
+      "difficulty": "medium",
+      "question": "Select the option that can be used as a one-word substitute for the given group of words.\nA building or group of buildings where soldiers live",
+      "options": [
+        "Barracks",
+        "Hangar",
+        "Dock",
+        "Stable"
+      ],
+      "answer": 0,
+      "explanation": "Soldiers live in barracks; a hangar houses aircraft, a dock ships, a stable horses.",
+      "source": "ai",
+      "archetype": "ssc-gd-E10",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-111",
+      "section": "english",
+      "topic": "Spelling Correction",
+      "difficulty": "easy",
+      "question": "Select the correctly spelt word.",
+      "options": [
+        "Seperate",
+        "Separete",
+        "Saparate",
+        "Separate"
+      ],
+      "answer": 3,
+      "explanation": "The correct spelling is 'separate'.",
+      "source": "ai",
+      "archetype": "ssc-gd-E11",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-112",
+      "section": "english",
+      "topic": "Error Spotting",
+      "difficulty": "medium",
+      "question": "The following sentence has been divided into parts. One of them may contain an error. Select the part that contains the error, or 'No error'.\nThe number of soldiers / in the camp / are increasing",
+      "options": [
+        "The number of soldiers",
+        "in the camp",
+        "are increasing",
+        "No error"
+      ],
+      "answer": 2,
+      "explanation": "'The number of …' takes a singular verb: 'The number of soldiers in the camp is increasing.'",
+      "source": "ai",
+      "archetype": "ssc-gd-E12",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-113",
+      "section": "english",
+      "topic": "Fill in the Blanks",
+      "difficulty": "easy",
+      "question": "Select the most appropriate option to fill in the blank.\nHe has been ill ______ last Monday.",
+      "options": [
+        "for",
+        "since",
+        "from",
+        "by"
+      ],
+      "answer": 1,
+      "explanation": "With a perfect tense and a point of time (last Monday), 'since' is used.",
+      "source": "ai",
+      "archetype": "ssc-gd-E06",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-114",
+      "section": "english",
+      "topic": "Fill in the Blanks",
+      "difficulty": "easy",
+      "question": "Select the most appropriate option to fill in the blank.\nShe is very fond ______ music.",
+      "options": [
+        "in",
+        "of",
+        "for",
+        "with"
+      ],
+      "answer": 1,
+      "explanation": "The adjective 'fond' takes 'of'.",
+      "source": "ai",
+      "archetype": "ssc-gd-E06",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-115",
+      "section": "english",
+      "topic": "Fill in the Blanks",
+      "difficulty": "easy",
+      "question": "Select the most appropriate option to fill in the blank.\nThe soldier was awarded a medal for his ______ in the battle.",
+      "options": [
+        "cowardice",
+        "laziness",
+        "weakness",
+        "bravery"
+      ],
+      "answer": 3,
+      "explanation": "Medals are awarded for bravery.",
+      "source": "ai",
+      "archetype": "ssc-gd-E05",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-116",
+      "section": "english",
+      "topic": "Active & Passive Voice",
+      "difficulty": "easy",
+      "question": "Select the option that expresses the given sentence in passive voice.\nThe police caught the thief.",
+      "options": [
+        "The thief is caught by the police.",
+        "The thief has been caught by the police.",
+        "The thief was caught by the police.",
+        "The thief was being caught by the police."
+      ],
+      "answer": 2,
+      "explanation": "Simple past active becomes 'was/were + V3' in the passive.",
+      "source": "ai",
+      "archetype": "ssc-gd-E14",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-117",
+      "section": "english",
+      "topic": "Cloze Test",
+      "difficulty": "easy",
+      "question": "Read the passage and select the most appropriate option for the numbered blank.\n\nTrees are our best friends. They give us fresh air, shade and fruit. They also (1) ______ the soil from being washed away by rain. We should plant more trees and (2) ______ care of them.\n\nSelect the most appropriate option for blank (2).",
+      "options": [
+        "take",
+        "make",
+        "give",
+        "do"
+      ],
+      "answer": 0,
+      "explanation": "The idiom is 'take care of'.",
+      "source": "ai",
+      "archetype": "ssc-gd-E04",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-118",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\nEvery year, thousands of young people join the armed forces and the police. Their training begins early in the morning with a run, followed by drill on the parade ground. Recruits learn to march in step, to handle equipment safely and to obey orders without delay. The training is hard, and many recruits feel tired and homesick during the first few weeks. Slowly, however, they grow stronger and more confident. They learn that discipline is not about fear but about trust: each member of a team must be able to depend on the others. By the end of the course, the recruits who once struggled with a short run can complete long marches carrying heavy loads.\n\nWhat do the recruits do first every morning during training?",
+      "options": [
+        "They do drill on the parade ground",
+        "They go for a run",
+        "They write letters home",
+        "They go on long marches with heavy loads"
+      ],
+      "answer": 1,
+      "explanation": "'Their training begins early in the morning with a run, followed by drill.'",
+      "source": "ai",
+      "archetype": "ssc-gd-E01",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-119",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nEvery year, thousands of young people join the armed forces and the police. Their training begins early in the morning with a run, followed by drill on the parade ground. Recruits learn to march in step, to handle equipment safely and to obey orders without delay. The training is hard, and many recruits feel tired and homesick during the first few weeks. Slowly, however, they grow stronger and more confident. They learn that discipline is not about fear but about trust: each member of a team must be able to depend on the others. By the end of the course, the recruits who once struggled with a short run can complete long marches carrying heavy loads.\n\nAccording to the passage, discipline is mainly about:",
+      "options": [
+        "fear of punishment",
+        "marching in step",
+        "carrying heavy loads",
+        "trust among the members of a team"
+      ],
+      "answer": 3,
+      "explanation": "The passage says discipline 'is not about fear but about trust'.",
+      "source": "ai",
+      "archetype": "ssc-gd-E02",
+      "verified": false
+    },
+    {
+      "id": "ssc-gd-120",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\nEvery year, thousands of young people join the armed forces and the police. Their training begins early in the morning with a run, followed by drill on the parade ground. Recruits learn to march in step, to handle equipment safely and to obey orders without delay. The training is hard, and many recruits feel tired and homesick during the first few weeks. Slowly, however, they grow stronger and more confident. They learn that discipline is not about fear but about trust: each member of a team must be able to depend on the others. By the end of the course, the recruits who once struggled with a short run can complete long marches carrying heavy loads.\n\nSelect the most appropriate ANTONYM of the word 'confident' as used in the passage.",
+      "options": [
+        "Unsure",
+        "Bold",
+        "Certain",
+        "Assured"
+      ],
+      "answer": 0,
+      "explanation": "Confident means sure of oneself; the opposite is unsure. The others are synonyms.",
+      "source": "ai",
+      "archetype": "ssc-gd-E03",
+      "verified": false
     }
   ]
 }
