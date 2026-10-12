@@ -1525,7 +1525,12 @@
       "explanation": "2⁴ = 16 ≡ 1 (mod 5). 2³¹ = (2⁴)⁷ × 2³ ≡ 1 × 8 ≡ 3 (mod 5).",
       "source": "curated",
       "archetype": "rrb-je-M01",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Remainder of 2^31 mod 5 by cyclicity - RRB JE number system exact"
+      }
     },
     {
       "id": "rrb-je-002",
@@ -1543,7 +1548,12 @@
       "explanation": "360 = 2³ × 3² × 5. Number of factors = (3 + 1)(2 + 1)(1 + 1) = 24.",
       "source": "curated",
       "archetype": "rrb-je-M02",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Number of factors of 360 via prime factorisation - JE frequent"
+      }
     },
     {
       "id": "rrb-je-003",
@@ -1561,7 +1571,12 @@
       "explanation": "0.0169 = 169/10000, so √0.0169 = 13/100 = 0.13.",
       "source": "curated",
       "archetype": "rrb-je-M04",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "√0.0169 decimal root - in JE syllabus but very elementary"
+      }
     },
     {
       "id": "rrb-je-004",
@@ -1579,7 +1594,12 @@
       "explanation": "LCM(12, 18, 30) = 180 minutes = 3 hours. 8:00 a.m. + 3 h = 11:00 a.m.",
       "source": "curated",
       "archetype": "rrb-je-M05",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "Bells ring together LCM to clock time - JE exact"
+      }
     },
     {
       "id": "rrb-je-005",
@@ -1597,7 +1617,12 @@
       "explanation": "Let son = s, father = 56 − s. Then 52 − s = 3(s − 4) ⇒ 4s = 64 ⇒ s = 16. Father = 40 years.",
       "source": "curated",
       "archetype": "rrb-je-M07",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Father-son sum and past ratio - JE ages"
+      }
     },
     {
       "id": "rrb-je-006",
@@ -1615,7 +1640,12 @@
       "explanation": "Margin = 58% − 42% = 16% of valid votes = 2400. Total = 2400/0.16 = 15,000.",
       "source": "curated",
       "archetype": "rrb-je-M08",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Election margin 16% = 2400 - JE exact"
+      }
     },
     {
       "id": "rrb-je-007",
@@ -1633,7 +1663,12 @@
       "explanation": "5400 = CP × 1.2 × 0.9 = 1.08 × CP ⇒ CP = ₹5,000.",
       "source": "curated",
       "archetype": "rrb-je-M09",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Chain sale A→B→C - JE successive profit/loss"
+      }
     },
     {
       "id": "rrb-je-008",
@@ -1651,7 +1686,12 @@
       "explanation": "P = 13310/(1.1)³ = 13310/1.331 = ₹10,000.",
       "source": "curated",
       "archetype": "rrb-je-M11",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Principal from CI amount 1.331 - JE CI"
+      }
     },
     {
       "id": "rrb-je-009",
@@ -1669,25 +1709,12 @@
       "explanation": "4 men = 6 women ⇒ 1 man = 1.5 women. 2 men + 6 women = 9 women. Work = 6 × 15 = 90 woman-days ⇒ 90/9 = 10 days.",
       "source": "curated",
       "archetype": "rrb-je-M13",
-      "verified": true
-    },
-    {
-      "id": "rrb-je-010",
-      "section": "maths",
-      "topic": "Time & Work / Pipes & Cistern",
-      "difficulty": "easy",
-      "question": "Two pipes can fill a tank separately in 20 minutes and 30 minutes. How long will they take to fill it together?",
-      "options": [
-        "25 minutes",
-        "10 minutes",
-        "15 minutes",
-        "12 minutes"
-      ],
-      "answer": 3,
-      "explanation": "1/20 + 1/30 = 5/60 = 1/12, so together they take 12 minutes.",
-      "source": "curated",
-      "archetype": "rrb-je-M14",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Men-women equivalence - JE work exact"
+      }
     },
     {
       "id": "rrb-je-011",
@@ -1705,7 +1732,12 @@
       "explanation": "Relative speed = 150/10 = 15 m/s = 54 km/h. Train speed = 54 + 6 = 60 km/h.",
       "source": "curated",
       "archetype": "rrb-je-M15",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Train passing running man same direction - JE train item with 54 (relative) trap"
+      }
     },
     {
       "id": "rrb-je-012",
@@ -1723,7 +1755,12 @@
       "explanation": "Downstream speed = 12 + 3 = 15 km/h. Time = 45/15 = 3 h.",
       "source": "curated",
       "archetype": "rrb-je-M16",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Downstream time - JE boats, one step"
+      }
     },
     {
       "id": "rrb-je-013",
@@ -1741,7 +1778,12 @@
       "explanation": "Diagonal = a√3 = 6√3 ⇒ a = 6 cm. Volume = 6³ = 216 cm³.",
       "source": "curated",
       "archetype": "rrb-je-M17",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Cube volume from diagonal - JE 3-D"
+      }
     },
     {
       "id": "rrb-je-014",
@@ -1759,7 +1801,12 @@
       "explanation": "h = √(25² − 7²) = √576 = 24 cm. V = (1/3) × (22/7) × 49 × 24 = (1/3) × 154 × 24 = 1232 cm³.",
       "source": "curated",
       "archetype": "rrb-je-M17",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Cone volume via slant height 7-24-25 - JE exact with 3696 (no 1/3) trap"
+      }
     },
     {
       "id": "rrb-je-015",
@@ -1777,7 +1824,12 @@
       "explanation": "1/x = 1/(3 + 2√2) = (3 − 2√2)/(9 − 8) = 3 − 2√2. So x + 1/x = 6.",
       "source": "curated",
       "archetype": "rrb-je-M19",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Surd conjugate x+1/x = 6 - JE identity"
+      }
     },
     {
       "id": "rrb-je-016",
@@ -1795,7 +1847,12 @@
       "explanation": "Each exterior angle = 360°/6 = 60°, so each interior angle = 180° − 60° = 120°.",
       "source": "curated",
       "archetype": "rrb-je-M21",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Regular hexagon interior angle - JE polygon"
+      }
     },
     {
       "id": "rrb-je-017",
@@ -1813,7 +1870,12 @@
       "explanation": "sec²θ − tan²θ = 1 ⇒ sec θ − tan θ = 1/3. Adding: 2 sec θ = 10/3 ⇒ sec θ = 5/3; tan θ = 4/3. sin θ = tan θ / sec θ = (4/3)/(5/3) = 4/5.",
       "source": "curated",
       "archetype": "rrb-je-M22",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "sec+tan=3 → sin = 4/5 - JE trig classic"
+      }
     },
     {
       "id": "rrb-je-018",
@@ -1831,7 +1893,12 @@
       "explanation": "6 occurs three times, more than any other value (4 occurs twice), so the mode is 6.",
       "source": "curated",
       "archetype": "rrb-je-M24",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Mode of small data - JE statistics"
+      }
     },
     {
       "id": "rrb-je-019",
@@ -1849,7 +1916,12 @@
       "explanation": "A thermometer measures temperature; a barometer measures atmospheric pressure. (Humidity – hygrometer, wind speed – anemometer, rainfall – rain gauge.)",
       "source": "curated",
       "archetype": "rrb-je-R01",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Instrument:quantity analogy barometer - JE exact"
+      }
     },
     {
       "id": "rrb-je-020",
@@ -1867,7 +1939,12 @@
       "explanation": "The terms are nⁿ: 1¹, 2², 3³, 4⁴, so next is 5⁵ = 3125.",
       "source": "curated",
       "archetype": "rrb-je-R03",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "n^n series - JE series with 625/1024 traps"
+      }
     },
     {
       "id": "rrb-je-021",
@@ -1885,7 +1962,12 @@
       "explanation": "Groups of 2, 3, 4, 5, 6 consecutive letters, each separated by skipping one letter (C, G, L, R). After HIJK, skip L: MNOPQ; then skip R: STUVWX.",
       "source": "curated",
       "archetype": "rrb-je-R04",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Growing letter-cluster with skipped letters - JE letter series"
+      }
     },
     {
       "id": "rrb-je-022",
@@ -1903,7 +1985,12 @@
       "explanation": "Each letter is shifted one place forward: P→Q, E→F, N→O, C→D, I→J, L→M.",
       "source": "curated",
       "archetype": "rrb-je-R05",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Uniform +1 coding with one-letter-off options - easy for JE level"
+      }
     },
     {
       "id": "rrb-je-023",
@@ -1921,7 +2008,12 @@
       "explanation": "Shifts are +2, +3, +4, +5, +6, +7: F→H, R→U, I→M, E→J, N→T, D→K. For CANDLE: C→E, A→D, N→R, D→I, L→R, E→L = EDRIRL.",
       "source": "curated",
       "archetype": "rrb-je-R05",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Position-based +2..+7 shift coding - JE hard coding exact"
+      }
     },
     {
       "id": "rrb-je-024",
@@ -1939,7 +2031,12 @@
       "explanation": "Substituting: 20 ÷ 5 × 3 + 8 − 6 = 4 × 3 + 8 − 6 = 12 + 8 − 6 = 14.",
       "source": "curated",
       "archetype": "rrb-je-R07",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "Symbol substitution BODMAS - JE exact"
+      }
     },
     {
       "id": "rrb-je-025",
@@ -1957,7 +2054,12 @@
       "explanation": "A's father is B's son and C is B's daughter, so C is A's paternal aunt. D, the son of A's aunt, is A's cousin.",
       "source": "curated",
       "archetype": "rrb-je-R10",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Family chain giving cousin - JE blood relation"
+      }
     },
     {
       "id": "rrb-je-026",
@@ -1975,7 +2077,12 @@
       "explanation": "The engineers who are doctors cannot be lawyers, so some engineers are not lawyers (I). Lawyers may or may not overlap with the other engineers, so II is uncertain.",
       "source": "curated",
       "archetype": "rrb-je-R11",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Some-No syllogism 'some not' follows - JE"
+      }
     },
     {
       "id": "rrb-je-027",
@@ -1993,7 +2100,12 @@
       "explanation": "Some teachers are women, some are graduates, and some women are graduates – all three overlap. Lion and tiger lie inside Animal; pen, pencil, eraser are disjoint; Delhi ⊂ India ⊂ Asia.",
       "source": "curated",
       "archetype": "rrb-je-R13",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Pick the triple fitting mutually intersecting circles - JE Venn"
+      }
     },
     {
       "id": "rrb-je-028",
@@ -2011,7 +2123,12 @@
       "explanation": "Kilometre, metre and centimetre are units of length; litre is a unit of volume.",
       "source": "curated",
       "archetype": "rrb-je-R17",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Litre (volume) among length units - JE odd-one-out"
+      }
     },
     {
       "id": "rrb-je-029",
@@ -2029,7 +2146,12 @@
       "explanation": "The '12' mark points North-East (45° clockwise from North). At 1:30 the hour hand is 45° past '12' (30° per hour × 1.5). So it points 45° + 45° = 90° from North, i.e. East.",
       "source": "curated",
       "archetype": "rrb-je-R23",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Rotated-clock hour-hand direction - JE direction puzzle, unusual but in RRB style"
+      }
     },
     {
       "id": "rrb-je-030",
@@ -2047,7 +2169,12 @@
       "explanation": "E = 3, I = 2. G is between E and F, so G = 4 and F = 5 (position 2 is taken by I). H = 6, leaving position 1 for J.",
       "source": "curated",
       "archetype": "rrb-je-R19",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "6-person row J I E G F H - JE linear"
+      }
     },
     {
       "id": "rrb-je-031",
@@ -2065,7 +2192,12 @@
       "explanation": "The request is made because boarding moving trains is risky (I) and because some people do attempt it (II); otherwise the announcement would be pointless.",
       "source": "curated",
       "archetype": "rrb-je-R24",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Railway announcement assumptions both implicit - JE"
+      }
     },
     {
       "id": "rrb-je-032",
@@ -2083,7 +2215,12 @@
       "explanation": "From I: 6 March Friday ⇒ 10 March is 4 days later, Tuesday. From II: 15 March Sunday ⇒ 10 March is 5 days earlier, Tuesday. Each statement alone answers the question.",
       "source": "curated",
       "archetype": "rrb-je-R15",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Calendar DS either statement - JE DS"
+      }
     },
     {
       "id": "rrb-je-033",
@@ -2101,25 +2238,12 @@
       "explanation": "Position from right = 40 − 14 + 1 = 27.",
       "source": "curated",
       "archetype": "rrb-je-R20",
-      "verified": true
-    },
-    {
-      "id": "rrb-je-034",
-      "section": "ga",
-      "topic": "Current Affairs",
-      "difficulty": "medium",
-      "question": "Which city will host the 2028 Summer Olympic Games?",
-      "options": [
-        "Brisbane",
-        "Los Angeles",
-        "Paris",
-        "Tokyo"
-      ],
-      "answer": 1,
-      "explanation": "Los Angeles will host the 2028 Summer Olympics; Paris hosted in 2024 and Brisbane will host in 2032.",
-      "source": "curated",
-      "archetype": "rrb-je-G01",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Position from right n−k+1 - JE ranking easy"
+      }
     },
     {
       "id": "rrb-je-035",
@@ -2137,7 +2261,12 @@
       "explanation": "The Salt March started from Sabarmati Ashram, Ahmedabad, on 12 March 1930 and reached Dandi on 5 April 1930.",
       "source": "curated",
       "archetype": "rrb-je-G04",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Dandi March from Sabarmati - JE movements/places"
+      }
     },
     {
       "id": "rrb-je-036",
@@ -2155,7 +2284,12 @@
       "explanation": "Under Article 118(4), the Speaker of the Lok Sabha presides over a joint sitting (summoned by the President under Article 108).",
       "source": "curated",
       "archetype": "rrb-je-G06",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Speaker presides joint sitting with VP/President traps - JE polity"
+      }
     },
     {
       "id": "rrb-je-037",
@@ -2173,7 +2307,12 @@
       "explanation": "Black soil, formed from Deccan basalt, retains moisture and is ideal for cotton – hence also called black cotton soil.",
       "source": "curated",
       "archetype": "rrb-je-G08",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Black soil for cotton - JE soils"
+      }
     },
     {
       "id": "rrb-je-038",
@@ -2191,7 +2330,12 @@
       "explanation": "Article 112 provides for the Annual Financial Statement. Article 110 defines Money Bills, 280 the Finance Commission and 265 says no tax without authority of law.",
       "source": "curated",
       "archetype": "rrb-je-G09",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Art 112 Annual Financial Statement vs 110 money bill - JE budget-article"
+      }
     },
     {
       "id": "rrb-je-039",
@@ -2209,7 +2353,12 @@
       "explanation": "BrahMos is an India–Russia joint venture; its name combines the Brahmaputra and Moskva rivers.",
       "source": "curated",
       "archetype": "rrb-je-G10",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "BrahMos India-Russia - JE defence platforms"
+      }
     },
     {
       "id": "rrb-je-040",
@@ -2227,7 +2376,12 @@
       "explanation": "Bharatanatyam originated in Tamil Nadu. Kathakali and Mohiniyattam are from Kerala, Kuchipudi from Andhra Pradesh.",
       "source": "curated",
       "archetype": "rrb-je-G11",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Bharatanatyam-Tamil Nadu - JE dance-state"
+      }
     },
     {
       "id": "rrb-je-041",
@@ -2245,7 +2399,12 @@
       "explanation": "The first Vande Bharat Express (Train 18) was flagged off on 15 February 2019 on the New Delhi–Varanasi route; New Delhi–Katra was the second.",
       "source": "curated",
       "archetype": "rrb-je-G12",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "First Vande Bharat Delhi-Varanasi - JE railway firsts"
+      }
     },
     {
       "id": "rrb-je-042",
@@ -2263,7 +2422,12 @@
       "explanation": "INS Vikrant (IAC-1), built by Cochin Shipyard, was commissioned on 2 September 2022. Vikramaditya was bought from Russia, Viraat was ex-British, and Arihant is a nuclear submarine.",
       "source": "curated",
       "archetype": "rrb-je-G10",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "INS Vikrant indigenous carrier vs Vikramaditya trap - JE defence platform"
+      }
     },
     {
       "id": "rrb-je-043",
@@ -2281,7 +2445,12 @@
       "explanation": "Velocity has both magnitude and direction. Speed, mass and time are scalars.",
       "source": "curated",
       "archetype": "rrb-je-S02",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Identify vector quantity - JE basic, very easy"
+      }
     },
     {
       "id": "rrb-je-044",
@@ -2299,7 +2468,12 @@
       "explanation": "v² = u² − 2gh ⇒ 0 = 400 − 20h ⇒ h = 20 m.",
       "source": "curated",
       "archetype": "rrb-je-S01",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Max height v²/2g with 40 (no ½) trap - JE motion exact"
+      }
     },
     {
       "id": "rrb-je-045",
@@ -2317,7 +2491,12 @@
       "explanation": "Distance in nth second = u + (g/2)(2n − 1) = 0 + 5 × 5 = 25 m. (Check: 45 m in 3 s − 20 m in 2 s = 25 m.)",
       "source": "curated",
       "archetype": "rrb-je-S01",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Distance in nth second of free fall - JE harder motion item, 45 total trap"
+      }
     },
     {
       "id": "rrb-je-046",
@@ -2335,7 +2514,12 @@
       "explanation": "The Moon's surface gravity is about 1/6 of Earth's, so weight is about one-sixth (mass is unchanged).",
       "source": "curated",
       "archetype": "rrb-je-S05",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Moon weight one-sixth - JE gravitation recall, easy"
+      }
     },
     {
       "id": "rrb-je-047",
@@ -2353,7 +2537,12 @@
       "explanation": "1 kWh = 1000 W × 3600 s = 3.6 × 10⁶ J.",
       "source": "curated",
       "archetype": "rrb-je-S04",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "kWh = 3.6×10⁶ J is a unit conversion fact, not the work-power numerical archetype claimed"
+      }
     },
     {
       "id": "rrb-je-048",
@@ -2371,7 +2560,12 @@
       "explanation": "Starlight is refracted by layers of air with changing refractive index, so the apparent position and brightness fluctuate – twinkling.",
       "source": "curated",
       "archetype": "rrb-je-S08",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Twinkling stars atmospheric refraction - JE phenomena"
+      }
     },
     {
       "id": "rrb-je-049",
@@ -2389,7 +2583,12 @@
       "explanation": "In myopia the image forms in front of the retina; a diverging (concave) lens of suitable power corrects it.",
       "source": "curated",
       "archetype": "rrb-je-S08",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Myopia concave lens - JE vision defects"
+      }
     },
     {
       "id": "rrb-je-050",
@@ -2407,7 +2606,12 @@
       "explanation": "R = (4 × 12)/(4 + 12) = 3 Ω. I = V/R = 6/3 = 2 A. (Check: 1.5 A + 0.5 A = 2 A.)",
       "source": "curated",
       "archetype": "rrb-je-S09",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Parallel combination total current - JE Ohm's law"
+      }
     },
     {
       "id": "rrb-je-051",
@@ -2425,7 +2629,12 @@
       "explanation": "The left-hand rule (motor rule) gives the force on a current-carrying conductor in a magnetic field. The right-hand rule gives induced current; the right-hand thumb rule gives the field around a wire.",
       "source": "curated",
       "archetype": "rrb-je-S11",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Fleming's left-hand rule force direction vs right-hand traps - JE"
+      }
     },
     {
       "id": "rrb-je-052",
@@ -2443,7 +2652,12 @@
       "explanation": "F = 9C/5 + 32. Setting F = C: C = 9C/5 + 32 ⇒ −4C/5 = 32 ⇒ C = −40.",
       "source": "curated",
       "archetype": "rrb-je-S13",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "C = F at −40 - JE temperature scale"
+      }
     },
     {
       "id": "rrb-je-053",
@@ -2461,7 +2675,12 @@
       "explanation": "Isotopes have the same number of protons (atomic number) but different numbers of neutrons, hence different mass numbers.",
       "source": "curated",
       "archetype": "rrb-je-S14",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Isotopes same atomic number - JE atomic structure"
+      }
     },
     {
       "id": "rrb-je-054",
@@ -2479,7 +2698,12 @@
       "explanation": "Molar mass of CO₂ = 12 + 32 = 44 g/mol. Moles = 22/44 = 0.5.",
       "source": "curated",
       "archetype": "rrb-je-S16",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Moles in 22 g CO₂ - JE mole concept"
+      }
     },
     {
       "id": "rrb-je-055",
@@ -2497,7 +2721,12 @@
       "explanation": "Bleaching powder is calcium oxychloride, CaOCl₂, made by passing chlorine over dry slaked lime.",
       "source": "curated",
       "archetype": "rrb-je-S17",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Bleaching powder CaOCl₂ vs NaOCl trap - JE salts"
+      }
     },
     {
       "id": "rrb-je-056",
@@ -2515,7 +2744,12 @@
       "explanation": "Graphite (an allotrope of carbon) has free electrons in its layers, so it conducts electricity, unlike most non-metals.",
       "source": "curated",
       "archetype": "rrb-je-S20",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Graphite conducting non-metal - fits allotropes loosely; more a metals/non-metals fact than claimed carbon-compound archetype"
+      }
     },
     {
       "id": "rrb-je-057",
@@ -2533,7 +2767,12 @@
       "explanation": "More reactive iron displaces copper from copper sulphate solution – a displacement reaction.",
       "source": "curated",
       "archetype": "rrb-je-S21",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Fe + CuSO₄ displacement - JE reaction type"
+      }
     },
     {
       "id": "rrb-je-058",
@@ -2551,7 +2790,12 @@
       "explanation": "Salivary amylase (ptyalin) converts starch into maltose in the mouth. Pepsin acts in the stomach, trypsin in the small intestine on proteins, lipase on fats.",
       "source": "curated",
       "archetype": "rrb-je-S24",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Salivary amylase starch - JE digestion"
+      }
     },
     {
       "id": "rrb-je-059",
@@ -2569,7 +2813,12 @@
       "explanation": "Gregor Mendel's experiments on pea plants laid the foundation of the laws of inheritance.",
       "source": "curated",
       "archetype": "rrb-je-S26",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Father of Genetics Mendel - trivial recall; JE genetics items test ratios more"
+      }
     },
     {
       "id": "rrb-je-060",
@@ -2587,7 +2836,12 @@
       "explanation": "Abscisic acid (ABA) accumulates during water stress, causes stomatal closure and promotes dormancy; it is a growth inhibitor.",
       "source": "curated",
       "archetype": "rrb-je-S25",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "ABA stress hormone stomatal closure - JE plant hormones"
+      }
     },
     {
       "id": "rrb-je-061",
@@ -2605,7 +2859,12 @@
       "explanation": "5² = 25 ≡ −1 (mod 13), so 5⁴ ≡ 1. 99 = 4 × 24 + 3, hence 5⁹⁹ ≡ 5³ = 125 = 9 × 13 + 8 → remainder 8.",
       "source": "ai",
       "archetype": "rrb-je-M01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "5^99 mod 13 via 5^4≡1 - JE remainder"
+      }
     },
     {
       "id": "rrb-je-062",
@@ -2623,7 +2882,12 @@
       "explanation": "9999 ÷ 88 = 113 remainder 55. Largest multiple = 9999 − 55 = 9944 (= 88 × 113). 9856 is a multiple but smaller; 9988 and 9966 are not multiples.",
       "source": "ai",
       "archetype": "rrb-je-M02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Largest 4-digit multiple of 88 - JE exact"
+      }
     },
     {
       "id": "rrb-je-063",
@@ -2641,7 +2905,12 @@
       "explanation": "3½ − 1¾ = 7/2 − 7/4 = 7/4. 7/4 × 8/3 = 56/12 = 14/3 = 4⅔.",
       "source": "ai",
       "archetype": "rrb-je-M03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Mixed fraction BODMAS - JE"
+      }
     },
     {
       "id": "rrb-je-064",
@@ -2659,7 +2928,12 @@
       "explanation": "5/√5 = √5 and √20 = 2√5, so the sum = 3√5 = 3 × 2.236 = 6.708.",
       "source": "ai",
       "archetype": "rrb-je-M04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Surd simplification with given √5 - JE exact archetype"
+      }
     },
     {
       "id": "rrb-je-065",
@@ -2677,7 +2951,12 @@
       "explanation": "Product of the numbers = HCF × LCM = 16 × 480 = 7680. Other number = 7680 ÷ 96 = 80.",
       "source": "ai",
       "archetype": "rrb-je-M05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "HCF×LCM product - JE"
+      }
     },
     {
       "id": "rrb-je-066",
@@ -2695,7 +2974,12 @@
       "explanation": "A/D = (A/B)(B/C)(C/D) = (3/4)(6/7)(14/15) = 252/420 = 3/5. So A : D = 3 : 5.",
       "source": "ai",
       "archetype": "rrb-je-M06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Chained ratio A:D - JE"
+      }
     },
     {
       "id": "rrb-je-067",
@@ -2713,7 +2997,12 @@
       "explanation": "Six years ago: 5x and 7x. Four years hence: (5x + 10)/(7x + 10) = 7/9 → 45x + 90 = 49x + 70 → x = 5. Mohan now = 7 × 5 + 6 = 41 years.",
       "source": "ai",
       "archetype": "rrb-je-M07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Ages ago/hence ratios - JE"
+      }
     },
     {
       "id": "rrb-je-068",
@@ -2731,7 +3020,12 @@
       "explanation": "Income 100, expenditure 75, savings 25. New income 120, new expenditure 82.5, new savings 37.5. Increase = 12.5/25 × 100 = 50%.",
       "source": "ai",
       "archetype": "rrb-je-M08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Savings increase after income/exp change - JE exact"
+      }
     },
     {
       "id": "rrb-je-069",
@@ -2749,7 +3043,12 @@
       "explanation": "Let CP = 100. MP = 140; SP = 140 × 0.85 = 119. Profit = 19%.",
       "source": "ai",
       "archetype": "rrb-je-M10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Markup 40% discount 15% → 19% - JE"
+      }
     },
     {
       "id": "rrb-je-070",
@@ -2767,7 +3066,12 @@
       "explanation": "Rate per half-year = 5%, periods = 3. Amount = 20000 × (1.05)³ = 20000 × 1.157625 = ₹23,152.50. CI = ₹3,152.50.",
       "source": "ai",
       "archetype": "rrb-je-M11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Half-yearly CI 1.5 years - JE CI"
+      }
     },
     {
       "id": "rrb-je-071",
@@ -2785,7 +3089,12 @@
       "explanation": "SI for 2 years = 8400 − 7440 = 960, so ₹480 per year. Principal = 7440 − 3 × 480 = ₹6,000. Rate = 480/6000 × 100 = 8%.",
       "source": "ai",
       "archetype": "rrb-je-M12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "SI amounts after two periods - JE exact"
+      }
     },
     {
       "id": "rrb-je-072",
@@ -2803,7 +3112,12 @@
       "explanation": "A + B fill 1/12 + 1/15 = 9/60 = 3/20 per hour. With the leak they fill 1/10. Leak rate = 3/20 − 1/10 = 1/20, so it empties the tank in 20 hours.",
       "source": "ai",
       "archetype": "rrb-je-M14",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Leak emptying time - JE pipes with leak exact"
+      }
     },
     {
       "id": "rrb-je-073",
@@ -2821,7 +3135,12 @@
       "explanation": "Let speed = v m/s and length = L. L = 11v and L + 210 = 25v → 14v = 210 → v = 15 m/s = 15 × 18/5 = 54 km/h.",
       "source": "ai",
       "archetype": "rrb-je-M15",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "Platform and man crossing times → speed - JE exact"
+      }
     },
     {
       "id": "rrb-je-074",
@@ -2839,7 +3158,12 @@
       "explanation": "Bowl volume = (2/3)π × 9³ = 486π cm³. Bottle volume = π × 1.5² × 4 = 9π cm³. Bottles = 486π ÷ 9π = 54.",
       "source": "ai",
       "archetype": "rrb-je-M17",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Hemisphere into cylinders recasting - JE"
+      }
     },
     {
       "id": "rrb-je-075",
@@ -2857,7 +3181,12 @@
       "explanation": "Side = 52/4 = 13 cm. Half of the given diagonal = 12, so half of the other = √(13² − 12²) = 5 → other diagonal = 10 cm. Area = (24 × 10)/2 = 120 cm².",
       "source": "ai",
       "archetype": "rrb-je-M18",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Rhombus area from perimeter and diagonal - JE 2-D"
+      }
     },
     {
       "id": "rrb-je-076",
@@ -2875,7 +3204,12 @@
       "explanation": "x² + 1/x² = 4² − 2 = 14. x⁴ + 1/x⁴ = 14² − 2 = 194.",
       "source": "ai",
       "archetype": "rrb-je-M19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "x⁴+1/x⁴ from x+1/x - JE identity with 196 trap"
+      }
     },
     {
       "id": "rrb-je-077",
@@ -2893,7 +3227,12 @@
       "explanation": "sin θ = (√2 − 1) cos θ, so tan θ = sin θ/cos θ = √2 − 1.",
       "source": "ai",
       "archetype": "rrb-je-M22",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "sinθ+cosθ=√2cosθ → tanθ - JE trig classic"
+      }
     },
     {
       "id": "rrb-je-078",
@@ -2911,7 +3250,12 @@
       "explanation": "tan 30° = 60/d → d = 60/(1/√3) = 60√3 m (≈ 103.9 m). Using tan 60° by mistake gives 20√3 m.",
       "source": "ai",
       "archetype": "rrb-je-M23",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Angle of depression distance 60√3 - JE heights"
+      }
     },
     {
       "id": "rrb-je-079",
@@ -2929,7 +3273,12 @@
       "explanation": "6³ + 6 = 216 + 6 = 222. Similarly 7³ + 7 = 343 + 7 = 350.",
       "source": "ai",
       "archetype": "rrb-je-R02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "n³+n number analogy - JE"
+      }
     },
     {
       "id": "rrb-je-080",
@@ -2947,7 +3296,12 @@
       "explanation": "Differences are 5, 10, 15, 20, so the next difference is 25: 57 + 25 = 82.",
       "source": "ai",
       "archetype": "rrb-je-R03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Differences multiples of 5 - JE series"
+      }
     },
     {
       "id": "rrb-je-081",
@@ -2965,7 +3319,12 @@
       "explanation": "First letters move +2 (A, C, E, G, I) and second letters move −2 (Z, X, V, T, R). Next = IR.",
       "source": "ai",
       "archetype": "rrb-je-R04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Two-letter cluster +2/−2 series - JE letter series"
+      }
     },
     {
       "id": "rrb-je-082",
@@ -2983,7 +3342,12 @@
       "explanation": "Letters are shifted +1, −1 alternately: N→O, A→Z, T→U, I→H, O→P, N→M. So S→T, C→B, H→I, O→N, O→P, L→K = TBINPK.",
       "source": "ai",
       "archetype": "rrb-je-R05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Alternating +1/−1 coding 6-letter - JE coding exact"
+      }
     },
     {
       "id": "rrb-je-083",
@@ -3001,7 +3365,12 @@
       "explanation": "Each letter has a fixed digit: R = 6, O = 8, S = 2, E = 1, C = 7, H = 3, A = 4, I = 5, P = 9. SEARCH = 2 1 4 6 7 3.",
       "source": "ai",
       "archetype": "rrb-je-R06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Letter-digit mapping from three coded words - JE number-coding variant"
+      }
     },
     {
       "id": "rrb-je-084",
@@ -3019,25 +3388,12 @@
       "explanation": "Substituting: 15 × 4 − 36 ÷ 9 + 6 = 60 − 4 + 6 = 62.",
       "source": "ai",
       "archetype": "rrb-je-R07",
-      "verified": false
-    },
-    {
-      "id": "rrb-je-085",
-      "section": "reasoning",
-      "topic": "Mathematical Operations",
-      "difficulty": "medium",
-      "question": "If 4 @ 3 = 55 and 5 @ 2 = 121, then what is the value of 3 @ 4?",
-      "options": [
-        "55",
-        "−7",
-        "11",
-        "43"
-      ],
-      "answer": 2,
-      "explanation": "The rule is a @ b = a³ − b²: 64 − 9 = 55 and 125 − 4 = 121. So 3 @ 4 = 27 − 16 = 11.",
-      "source": "ai",
-      "archetype": "rrb-je-R08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "Symbol substitution with BODMAS - JE exact"
+      }
     },
     {
       "id": "rrb-je-086",
@@ -3055,7 +3411,12 @@
       "explanation": "The only son of Rohit's father's father is Rohit's father himself. So the woman's father is Rohit's father, and she is Rohit's sister.",
       "source": "ai",
       "archetype": "rrb-je-R09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "'Only son of my father's father' → sister - JE pointing"
+      }
     },
     {
       "id": "rrb-je-087",
@@ -3073,7 +3434,12 @@
       "explanation": "The machines that are tools cannot be toys, so I follows. Engines and tools are linked only through \"some machines\", so II is not definite. Only I follows.",
       "source": "ai",
       "archetype": "rrb-je-R11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Three-statement syllogism with 'some not' conclusion - JE"
+      }
     },
     {
       "id": "rrb-je-088",
@@ -3091,7 +3457,12 @@
       "explanation": "A student first takes admission, then studies, appears in the examination, gets the result and finally the certificate: 1, 4, 2, 3, 5.",
       "source": "ai",
       "archetype": "rrb-je-R12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Logical sequence admission→certificate - JE"
+      }
     },
     {
       "id": "rrb-je-089",
@@ -3109,25 +3480,12 @@
       "explanation": "People reading at least one = 120 + 90 − 40 = 170. Neither = 200 − 170 = 30.",
       "source": "ai",
       "archetype": "rrb-je-R14",
-      "verified": false
-    },
-    {
-      "id": "rrb-je-090",
-      "section": "reasoning",
-      "topic": "Similarities, Differences & Classification",
-      "difficulty": "easy",
-      "question": "Select the number that does not belong to the group.",
-      "options": [
-        "324",
-        "169",
-        "225",
-        "289"
-      ],
-      "answer": 0,
-      "explanation": "169 = 13², 225 = 15² and 289 = 17² are squares of odd numbers; 324 = 18² is the square of an even number (and the only even number).",
-      "source": "ai",
-      "archetype": "rrb-je-R18",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Two-set neither - JE counting"
+      }
     },
     {
       "id": "rrb-je-091",
@@ -3145,7 +3503,12 @@
       "explanation": "Numbering positions 1–6 from their left: M = 6, O = 3, N = 2, Q = 4. P must take the other end, 1, so L = 5, i.e. immediately to the left of M.",
       "source": "ai",
       "archetype": "rrb-je-R19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "South-facing row with orientation trap - JE seating, unique (P N O Q L M from their left)"
+      }
     },
     {
       "id": "rrb-je-092",
@@ -3163,7 +3526,12 @@
       "explanation": "A = 5. If B = 4, C would be 5 – not possible, so B = 2 and C = 3. Floors 1 and 4 remain; D is below E, so D = 1 and E = 4.",
       "source": "ai",
       "archetype": "rrb-je-R21",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Floor puzzle 5 storeys unique - JE floor scheduling"
+      }
     },
     {
       "id": "rrb-je-093",
@@ -3181,7 +3549,12 @@
       "explanation": "He ends 11 − 7 = 4 km west and 3 km south of the start. Distance = √(4² + 3²) = 5 km, towards the South-West.",
       "source": "ai",
       "archetype": "rrb-je-R22",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Walk giving 3-4-5 SW - JE direction"
+      }
     },
     {
       "id": "rrb-je-094",
@@ -3199,7 +3572,12 @@
       "explanation": "s = ½at²: 20 = ½ × a × 4 → a = 10 m/s². In 4 s, s = ½ × 10 × 16 = 80 m (distance ∝ t², so doubling time gives 4 times the distance).",
       "source": "ai",
       "archetype": "rrb-je-S01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "s ∝ t² from rest - JE motion with 40 (linear) trap"
+      }
     },
     {
       "id": "rrb-je-095",
@@ -3217,7 +3595,12 @@
       "explanation": "F = change in momentum / time = 2 × (15 − 5)/0.1 = 20/0.1 = 200 N.",
       "source": "ai",
       "archetype": "rrb-je-S03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Impulse F = mΔv/t - JE momentum"
+      }
     },
     {
       "id": "rrb-je-096",
@@ -3235,7 +3618,12 @@
       "explanation": "Height = 20 × 0.25 = 5 m. Work = mgh = 60 × 10 × 5 = 3000 J. Power = 3000/10 = 300 W.",
       "source": "ai",
       "archetype": "rrb-je-S04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Climbing steps power with cm→m - JE exact"
+      }
     },
     {
       "id": "rrb-je-097",
@@ -3253,7 +3641,12 @@
       "explanation": "g ∝ 1/r². At height R the distance from the centre is 2R, so g becomes 9.8/4 = 2.45 m/s².",
       "source": "ai",
       "archetype": "rrb-je-S05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "g at height R = g/4 - JE gravitation with 4.9 trap"
+      }
     },
     {
       "id": "rrb-je-098",
@@ -3271,7 +3664,12 @@
       "explanation": "1/v = 1/f + 1/u = 1/10 − 1/15 = 1/30 → v = +30 cm. m = v/u = 30/(−15) = −2, so the image is 8 cm high, real and inverted.",
       "source": "ai",
       "archetype": "rrb-je-S06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Lens magnification size & nature - JE exact"
+      }
     },
     {
       "id": "rrb-je-099",
@@ -3289,7 +3687,12 @@
       "explanation": "n(glass w.r.t. water) = n_glass / n_water = (3/2)/(4/3) = 9/8.",
       "source": "ai",
       "archetype": "rrb-je-S07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Relative refractive index 9/8 vs 8/9 trap - JE refraction"
+      }
     },
     {
       "id": "rrb-je-100",
@@ -3307,7 +3710,12 @@
       "explanation": "Two 4 Ω in parallel give 2 Ω; adding the third in series gives 2 + 4 = 6 Ω. The other options give 12 Ω, 4/3 Ω and 8/3 Ω.",
       "source": "ai",
       "archetype": "rrb-je-S09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Combination giving 6 Ω - JE classic"
+      }
     },
     {
       "id": "rrb-je-101",
@@ -3325,7 +3733,12 @@
       "explanation": "In parallel each bulb gets 220 V and works at its rated power. Total power = 160 W, so I = 160/220 ≈ 0.73 A.",
       "source": "ai",
       "archetype": "rrb-je-S10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Total current two bulbs in parallel - JE power"
+      }
     },
     {
       "id": "rrb-je-102",
@@ -3343,7 +3756,12 @@
       "explanation": "Sound travels to the cliff and back: 2d = v × t = 340 × 1.5 = 510 m, so d = 255 m.",
       "source": "ai",
       "archetype": "rrb-je-S12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "Echo 2d = vt with 510 (no halving) trap - JE exact"
+      }
     },
     {
       "id": "rrb-je-103",
@@ -3361,7 +3779,12 @@
       "explanation": "X²⁺ has lost 2 electrons, so the neutral atom has 12 electrons = 12 protons. Mass number = 12 + 12 = 24 (magnesium).",
       "source": "ai",
       "archetype": "rrb-je-S14",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Mass number from X²⁺ electrons & neutrons - JE ion trap"
+      }
     },
     {
       "id": "rrb-je-104",
@@ -3379,7 +3802,12 @@
       "explanation": "Across a period the nuclear charge increases while electrons enter the same shell, so the electrons are pulled closer and the atomic radius decreases.",
       "source": "ai",
       "archetype": "rrb-je-S15",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Atomic radius trend across period - JE periodic table"
+      }
     },
     {
       "id": "rrb-je-105",
@@ -3397,7 +3825,12 @@
       "explanation": "Ant and nettle stings contain methanoic (formic) acid; a mild base such as baking soda gives relief.",
       "source": "ai",
       "archetype": "rrb-je-S18",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Ant sting methanoic acid - JE everyday acids"
+      }
     },
     {
       "id": "rrb-je-106",
@@ -3415,7 +3848,12 @@
       "explanation": "Copper lies below hydrogen in the reactivity series, so it cannot displace hydrogen from dilute HCl; Mg, Zn and Fe can.",
       "source": "ai",
       "archetype": "rrb-je-S19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Cu below H in reactivity series - JE metals"
+      }
     },
     {
       "id": "rrb-je-107",
@@ -3433,7 +3871,12 @@
       "explanation": "Ethanoic (acetic) acid, CH₃COOH, contains the carboxylic acid group –COOH.",
       "source": "ai",
       "archetype": "rrb-je-S20",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Carboxylic functional group - JE carbon compounds"
+      }
     },
     {
       "id": "rrb-je-108",
@@ -3451,7 +3894,12 @@
       "explanation": "Carbon removes oxygen from ZnO (reducing it) and is itself oxidised to CO, so carbon is the reducing agent.",
       "source": "ai",
       "archetype": "rrb-je-S22",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Reducing agent C in ZnO reduction - JE redox"
+      }
     },
     {
       "id": "rrb-je-109",
@@ -3469,7 +3917,12 @@
       "explanation": "Tuberculosis is caused by the bacterium Mycobacterium tuberculosis; the BCG vaccine protects against it.",
       "source": "ai",
       "archetype": "rrb-je-S23",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "TB bacterial - JE disease agent"
+      }
     },
     {
       "id": "rrb-je-110",
@@ -3487,7 +3940,12 @@
       "explanation": "Cytokinins promote cell division and are present in areas of rapid division such as fruits and seeds.",
       "source": "ai",
       "archetype": "rrb-je-S25",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Cytokinin cell division - JE plant hormones"
+      }
     },
     {
       "id": "rrb-je-111",
@@ -3505,7 +3963,12 @@
       "explanation": "F₁ is Tt. Selfing Tt gives TT : Tt : tt = 1 : 2 : 1 (the phenotypic ratio is 3 : 1).",
       "source": "ai",
       "archetype": "rrb-je-S26",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Monohybrid genotypic 1:2:1 vs phenotypic 3:1 trap - JE exact"
+      }
     },
     {
       "id": "rrb-je-112",
@@ -3523,7 +3986,12 @@
       "explanation": "The FIDE World Cup 2025 was held in Goa from 31 October to 27 November 2025.",
       "source": "ai",
       "archetype": "rrb-je-G01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "FIDE World Cup 2025 Goa - JE recent sports host"
+      }
     },
     {
       "id": "rrb-je-113",
@@ -3541,7 +4009,12 @@
       "explanation": "The Norwegian Nobel Committee awarded the 2025 Peace Prize to Venezuelan opposition leader María Corina Machado. Nihon Hidankyo won in 2024 and Narges Mohammadi in 2023.",
       "source": "ai",
       "archetype": "rrb-je-G02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Nobel Peace 2025 Machado with prior winners as traps - JE awards"
+      }
     },
     {
       "id": "rrb-je-114",
@@ -3559,7 +4032,12 @@
       "explanation": "PM Vishwakarma offers recognition, skill training, toolkit incentives and collateral-free credit to artisans in 18 traditional trades.",
       "source": "ai",
       "archetype": "rrb-je-G03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "PM Vishwakarma beneficiaries - JE scheme"
+      }
     },
     {
       "id": "rrb-je-115",
@@ -3577,7 +4055,12 @@
       "explanation": "The Lahore session (December 1929), presided over by Jawaharlal Nehru, adopted the Purna Swaraj resolution; 26 January 1930 was observed as Independence Day.",
       "source": "ai",
       "archetype": "rrb-je-G04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Purna Swaraj at Lahore 1929 - JE INC sessions exact"
+      }
     },
     {
       "id": "rrb-je-116",
@@ -3595,7 +4078,12 @@
       "explanation": "The 61st Constitutional Amendment Act, 1988 amended Article 326 to reduce the voting age to 18 years.",
       "source": "ai",
       "archetype": "rrb-je-G07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "61st Amendment voting age - JE amendment"
+      }
     },
     {
       "id": "rrb-je-117",
@@ -3613,7 +4101,12 @@
       "explanation": "The Narmada flows west through a rift valley into the Gulf of Khambhat (Arabian Sea). Godavari, Krishna and Mahanadi drain into the Bay of Bengal.",
       "source": "ai",
       "archetype": "rrb-je-G08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Narmada west-flowing - JE rivers"
+      }
     },
     {
       "id": "rrb-je-118",
@@ -3631,7 +4124,12 @@
       "explanation": "The GST Council (56th meeting) merged the earlier 5/12/18/28% structure into two main slabs of 5% and 18%, with a special 40% rate for a few luxury/sin goods.",
       "source": "ai",
       "archetype": "rrb-je-G09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "GST 2.0 slabs 5% & 18% Sept 2025 - JE taxation CA"
+      }
     },
     {
       "id": "rrb-je-119",
@@ -3649,7 +4147,12 @@
       "explanation": "Chandrayaan-3 lifted off on 14 July 2023 aboard LVM3-M4 from Sriharikota. PSLV-C57 later launched Aditya-L1.",
       "source": "ai",
       "archetype": "rrb-je-G10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Chandrayaan-3 on LVM3 - JE launch vehicle"
+      }
     },
     {
       "id": "rrb-je-120",
@@ -3667,7 +4170,12 @@
       "explanation": "The 51-km Bairabi–Sairang line brought rail connectivity to Aizawl, capital of Mizoram, and was inaugurated on 13 September 2025.",
       "source": "ai",
       "archetype": "rrb-je-G12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "Bairabi-Sairang line to Aizawl - JE railway new line exact"
+      }
     }
   ]
 }

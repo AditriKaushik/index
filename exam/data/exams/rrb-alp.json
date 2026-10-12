@@ -1566,7 +1566,12 @@
       "explanation": "91 = 7 × 13, 87 = 3 × 29 and 93 = 3 × 31. 97 has no factor other than 1 and itself.",
       "source": "curated",
       "archetype": "rrb-alp-M03",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Identify prime among four two-digit numbers - in ALP syllabus but very easy; 91 trap good"
+      }
     },
     {
       "id": "rrb-alp-002",
@@ -1584,7 +1589,12 @@
       "explanation": "3/4 × 2/5 × 1500 = 450; 20% of 900 = 180; 450 − 180 = 270.",
       "source": "curated",
       "archetype": "rrb-alp-M04",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Fraction 'of' with percentage simplification - ALP simplification"
+      }
     },
     {
       "id": "rrb-alp-003",
@@ -1602,7 +1612,12 @@
       "explanation": "LCM(6, 8, 12) = 24. Numbers are of the form 24k + 3: 99 (two-digit), then 123. So the answer is 123.",
       "source": "curated",
       "archetype": "rrb-alp-M08",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Least 3-digit number with remainder 3 (99 two-digit trap) - ALP LCM item"
+      }
     },
     {
       "id": "rrb-alp-004",
@@ -1620,7 +1635,12 @@
       "explanation": "Make B common: A : B = 8 : 12 and B : C = 12 : 15. So A : B : C = 8 : 12 : 15.",
       "source": "curated",
       "archetype": "rrb-alp-M09",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Combine A:B and B:C - ALP ratio, slightly elementary"
+      }
     },
     {
       "id": "rrb-alp-005",
@@ -1638,7 +1658,12 @@
       "explanation": "Net effect = 20 − 20 − (20 × 20)/100 = −4%, i.e. a 4% decrease (100 → 120 → 96).",
       "source": "curated",
       "archetype": "rrb-alp-M11",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "+20/−20 net 4% decrease - ALP successive % classic"
+      }
     },
     {
       "id": "rrb-alp-006",
@@ -1656,25 +1681,12 @@
       "explanation": "(4/3)π × 6³ = π × 4² × h ⇒ 288π = 16πh ⇒ h = 18 cm.",
       "source": "curated",
       "archetype": "rrb-alp-M14",
-      "verified": true
-    },
-    {
-      "id": "rrb-alp-007",
-      "section": "maths",
-      "topic": "Mensuration",
-      "difficulty": "easy",
-      "question": "The perimeter of a square is 48 cm. What is its area?",
-      "options": [
-        "196 cm²",
-        "96 cm²",
-        "121 cm²",
-        "144 cm²"
-      ],
-      "answer": 3,
-      "explanation": "Side = 48/4 = 12 cm. Area = 12² = 144 cm².",
-      "source": "curated",
-      "archetype": "rrb-alp-M13",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Sphere recast to cylinder - ALP melting-recasting"
+      }
     },
     {
       "id": "rrb-alp-008",
@@ -1692,7 +1704,12 @@
       "explanation": "Net filling per hour = 1/10 − 1/15 = 1/30. So the tank fills in 30 hours.",
       "source": "curated",
       "archetype": "rrb-alp-M27",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Fill and empty pipe net rate - ALP pipes item with 6 h (adding) trap"
+      }
     },
     {
       "id": "rrb-alp-009",
@@ -1710,7 +1727,12 @@
       "explanation": "2(A + B + C) = 1/12 + 1/15 + 1/20 = (5 + 4 + 3)/60 = 1/5, so A + B + C = 1/10. A = 1/10 − 1/15 (B + C) = 1/30. A alone takes 30 days.",
       "source": "curated",
       "archetype": "rrb-alp-M15",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Pairwise rates A alone - ALP three-worker classic"
+      }
     },
     {
       "id": "rrb-alp-010",
@@ -1728,7 +1750,12 @@
       "explanation": "For equal distances, average speed = 2xy/(x + y) = 2 × 40 × 60 / 100 = 48 km/h.",
       "source": "curated",
       "archetype": "rrb-alp-M18",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "Average speed harmonic mean 48 with 50 trap - ALP exact"
+      }
     },
     {
       "id": "rrb-alp-011",
@@ -1746,7 +1773,12 @@
       "explanation": "SI = 3100 − 2500 = 600. R = 600 × 100 / (2500 × 4) = 6%.",
       "source": "curated",
       "archetype": "rrb-alp-M19",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "SI rate from amount - ALP SI"
+      }
     },
     {
       "id": "rrb-alp-012",
@@ -1764,7 +1796,12 @@
       "explanation": "8 = 2³, so it takes 3 doubling periods = 3 × 5 = 15 years.",
       "source": "curated",
       "archetype": "rrb-alp-M20",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Doubling CI to 8 times - ALP CI concept with 20/40 traps"
+      }
     },
     {
       "id": "rrb-alp-013",
@@ -1782,7 +1819,12 @@
       "explanation": "He gives 900 g for the price of 1000 g. Gain% = 100/900 × 100 = 11 1/9 %.",
       "source": "curated",
       "archetype": "rrb-alp-M21",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "900 g false weight 11 1/9 % with 10% trap - ALP exact"
+      }
     },
     {
       "id": "rrb-alp-014",
@@ -1800,7 +1842,12 @@
       "explanation": "x³ − y³ = (x − y)³ + 3xy(x − y) = 64 + 3 × 21 × 4 = 64 + 252 = 316.",
       "source": "curated",
       "archetype": "rrb-alp-M23",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "x³−y³ from x−y and xy - ALP algebra"
+      }
     },
     {
       "id": "rrb-alp-015",
@@ -1818,7 +1865,12 @@
       "explanation": "2x + 3x + 4x = 180° ⇒ x = 20°. Largest angle = 4 × 20° = 80°.",
       "source": "curated",
       "archetype": "rrb-alp-M24",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Triangle angle ratio - ALP easy angle item, simple"
+      }
     },
     {
       "id": "rrb-alp-016",
@@ -1836,7 +1888,12 @@
       "explanation": "Sum = 5 × 12 = 60. After removing 20, sum = 40 over 4 observations, mean = 10.",
       "source": "curated",
       "archetype": "rrb-alp-M26",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Mean after removing an observation - ALP statistics"
+      }
     },
     {
       "id": "rrb-alp-017",
@@ -1854,7 +1911,12 @@
       "explanation": "A doctor works in a hospital; a teacher works in a school (person : workplace).",
       "source": "curated",
       "archetype": "rrb-alp-R01",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Worker:workplace analogy Doctor:Hospital very obvious; ALP pairs are usually less direct"
+      }
     },
     {
       "id": "rrb-alp-018",
@@ -1872,7 +1934,12 @@
       "explanation": "Each letter moves one step forward: A→B, C→D, E→F. Similarly G→H, I→J, K→L.",
       "source": "curated",
       "archetype": "rrb-alp-R02",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Letter-cluster +1 analogy - ALP"
+      }
     },
     {
       "id": "rrb-alp-019",
@@ -1890,7 +1957,12 @@
       "explanation": "Each term = previous × 2 − 1: 81 × 2 − 1 = 161.",
       "source": "curated",
       "archetype": "rrb-alp-R03",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "×2−1 series - ALP"
+      }
     },
     {
       "id": "rrb-alp-020",
@@ -1908,7 +1980,12 @@
       "explanation": "Positions 26, 23, 19, 14 decrease by 3, 4, 5; next decrease is 6: 14 − 6 = 8 = H.",
       "source": "curated",
       "archetype": "rrb-alp-R04",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Reverse letter series −3,−4,−5,−6 - ALP letter series"
+      }
     },
     {
       "id": "rrb-alp-021",
@@ -1926,25 +2003,12 @@
       "explanation": "Differences are 1, 4, 9, 16 (squares); next difference is 25: 33 + 25 = 58.",
       "source": "curated",
       "archetype": "rrb-alp-R03",
-      "verified": true
-    },
-    {
-      "id": "rrb-alp-022",
-      "section": "reasoning",
-      "topic": "Coding-Decoding",
-      "difficulty": "easy",
-      "question": "If RED is coded as 27 (sum of alphabet positions), what is the code for BLUE?",
-      "options": [
-        "38",
-        "40",
-        "42",
-        "41"
-      ],
-      "answer": 1,
-      "explanation": "R(18) + E(5) + D(4) = 27. BLUE = B(2) + L(12) + U(21) + E(5) = 40.",
-      "source": "curated",
-      "archetype": "rrb-alp-R06",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Differences are squares 1,4,9,16,25 - ALP series"
+      }
     },
     {
       "id": "rrb-alp-023",
@@ -1962,7 +2026,12 @@
       "explanation": "'is' and 'blue' are common to the first two sentences, so they are 'ka' and 'ta'. The remaining word 'sky' must be 'pa'.",
       "source": "curated",
       "archetype": "rrb-alp-R06",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Sentence-word code common-word elimination - ALP exact"
+      }
     },
     {
       "id": "rrb-alp-024",
@@ -1980,7 +2049,12 @@
       "explanation": "a # b = a² + b²: 9 + 16 = 25, 25 + 144 = 169. So 6 # 8 = 36 + 64 = 100.",
       "source": "curated",
       "archetype": "rrb-alp-R08",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Defined operation a²+b² - ALP hidden-rule operation"
+      }
     },
     {
       "id": "rrb-alp-025",
@@ -1998,7 +2072,12 @@
       "explanation": "P − M + Q: P is the brother of M and M is the mother of Q, so P is Q's maternal uncle. P − M × Q makes P a paternal uncle; P ÷ M + Q makes P a maternal aunt; P × M − Q makes P the father of Q.",
       "source": "curated",
       "archetype": "rrb-alp-R10",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Coded-relation expression for maternal uncle - ALP coded blood relation"
+      }
     },
     {
       "id": "rrb-alp-026",
@@ -2016,7 +2095,12 @@
       "explanation": "Aman is a man, so his mother's only son is Aman himself. The woman is his wife.",
       "source": "curated",
       "archetype": "rrb-alp-R09",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "'Wife of my mother's only son' self-reference trap - ALP"
+      }
     },
     {
       "id": "rrb-alp-027",
@@ -2034,7 +2118,12 @@
       "explanation": "The books that are pens are also pencils, so some books are pencils (I), and its conversion 'some pencils are books' (II) also follows.",
       "source": "curated",
       "archetype": "rrb-alp-R11",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Some-All syllogism both follow - ALP"
+      }
     },
     {
       "id": "rrb-alp-028",
@@ -2052,7 +2141,12 @@
       "explanation": "Apples lie inside fruits, which are completely separate from vegetables, so no apple is a vegetable (I). II contradicts I.",
       "source": "curated",
       "archetype": "rrb-alp-R11",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "All-No syllogism - ALP with possibility trap"
+      }
     },
     {
       "id": "rrb-alp-029",
@@ -2070,7 +2164,12 @@
       "explanation": "All roses are flowers (one circle inside the other) and a car is unrelated to both. Mammal–Dog–Cat has two circles inside one; India–Asia–World is a chain of three nested circles; Doctor–Male–Father overlap.",
       "source": "curated",
       "archetype": "rrb-alp-R13",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Pick classes for given Venn figure (Rose-Flower-Car) - ALP reverse-Venn variant"
+      }
     },
     {
       "id": "rrb-alp-030",
@@ -2088,25 +2187,12 @@
       "explanation": "From (0, 0): south 5 → (0, −5); left of south is east, 3 → (3, −5); left of east is north, 9 → (3, 4). Distance = √(3² + 4²) = 5 km, towards the North-East.",
       "source": "curated",
       "archetype": "rrb-alp-R22",
-      "verified": true
-    },
-    {
-      "id": "rrb-alp-031",
-      "section": "reasoning",
-      "topic": "Similarities, Differences & Classification",
-      "difficulty": "easy",
-      "question": "Select the odd one out: Triangle, Square, Circle, Rectangle",
-      "options": [
-        "Triangle",
-        "Square",
-        "Rectangle",
-        "Circle"
-      ],
-      "answer": 3,
-      "explanation": "Triangle, square and rectangle are polygons bounded by straight lines; a circle has no straight sides.",
-      "source": "curated",
-      "archetype": "rrb-alp-R17",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Walk with 3-4-5 triple NE - ALP direction"
+      }
     },
     {
       "id": "rrb-alp-032",
@@ -2124,7 +2210,12 @@
       "explanation": "O = 5, so M = 3. N and Q must be adjacent with N on the left; only positions 1–2 are free together, so N = 1, Q = 2 and P = 4.",
       "source": "curated",
       "archetype": "rrb-alp-R19",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "5-person row unique - ALP linear arrangement"
+      }
     },
     {
       "id": "rrb-alp-033",
@@ -2142,7 +2233,12 @@
       "explanation": "I gives a direct, relevant reason related to the fairness of the exam. II (wide ownership) is irrelevant to whether phones should be allowed in an exam hall.",
       "source": "curated",
       "archetype": "rrb-alp-R25",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Should-type with strong/weak argument - ALP archetype exact"
+      }
     },
     {
       "id": "rrb-alp-034",
@@ -2160,25 +2256,12 @@
       "explanation": "Comparing the third letters: Goal (a), Gold (l), Gossip (s), Govern (v). Order: 4, 3, 2, 1.",
       "source": "curated",
       "archetype": "rrb-alp-R12",
-      "verified": true
-    },
-    {
-      "id": "rrb-alp-035",
-      "section": "reasoning",
-      "topic": "Data Interpretation & Sufficiency",
-      "difficulty": "hard",
-      "question": "Question: Is the integer x even?\nStatement I: x² is even.\nStatement II: x is a multiple of 3.\nWhich statement(s) are sufficient to answer the question?",
-      "options": [
-        "II alone is sufficient",
-        "Both I and II together are needed",
-        "I alone is sufficient",
-        "Neither I nor II is sufficient"
-      ],
-      "answer": 2,
-      "explanation": "If x² is even, x must be even (the square of an odd number is odd), so I answers the question. A multiple of 3 can be odd (3) or even (6), so II alone does not.",
-      "source": "curated",
-      "archetype": "rrb-alp-R15",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Go- words dictionary order - ALP"
+      }
     },
     {
       "id": "rrb-alp-036",
@@ -2196,7 +2279,12 @@
       "explanation": "The statement shows rain disrupted services (I). One cancellation does not mean trains never run in rain, so II is an over-generalisation.",
       "source": "curated",
       "archetype": "rrb-alp-R16",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Railway notice conclusions with 'never' overreach - ALP exact"
+      }
     },
     {
       "id": "rrb-alp-037",
@@ -2214,7 +2302,12 @@
       "explanation": "Power is the rate of doing work; 1 watt = 1 joule per second.",
       "source": "curated",
       "archetype": "rrb-alp-S02",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "SI unit of power - ALP units recall, easy"
+      }
     },
     {
       "id": "rrb-alp-038",
@@ -2232,7 +2325,12 @@
       "explanation": "a = (v − u)/t = (0 − 20)/4 = −5 m/s², so the retardation is 5 m/s².",
       "source": "curated",
       "archetype": "rrb-alp-S01",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Retardation v=u+at with 80 (multiply) trap - ALP motion"
+      }
     },
     {
       "id": "rrb-alp-039",
@@ -2250,7 +2348,12 @@
       "explanation": "F ∝ 1/r². Doubling r makes the force 1/2² = 1/4 of its original value.",
       "source": "curated",
       "archetype": "rrb-alp-S05",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "Inverse-square law distance doubled - ALP gravitation staple"
+      }
     },
     {
       "id": "rrb-alp-040",
@@ -2268,7 +2371,12 @@
       "explanation": "Work = mgh = 50 × 10 × 10 = 5000 J. Power = 5000/5 = 1000 W.",
       "source": "curated",
       "archetype": "rrb-alp-S04",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Power = mgh/t crane - ALP work-power numerical"
+      }
     },
     {
       "id": "rrb-alp-041",
@@ -2286,7 +2394,12 @@
       "explanation": "R = 2f = 2 × 15 = 30 cm.",
       "source": "curated",
       "archetype": "rrb-alp-S06",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "R = 2f is a one-line recall; ALP mirror items usually require the mirror formula"
+      }
     },
     {
       "id": "rrb-alp-042",
@@ -2304,7 +2417,12 @@
       "explanation": "Lens formula 1/v − 1/u = 1/f with u = −30, f = +20: 1/v = 1/20 − 1/30 = 1/60, so v = +60 cm (real image on the other side).",
       "source": "curated",
       "archetype": "rrb-alp-S06",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "Lens formula convex lens image distance 60 cm - ALP optics numerical with 12 (wrong sign) trap"
+      }
     },
     {
       "id": "rrb-alp-043",
@@ -2322,7 +2440,12 @@
       "explanation": "By Ohm's law I = V/R = 5/10 = 0.5 A.",
       "source": "curated",
       "archetype": "rrb-alp-S09",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Ohm's law I=V/R with 50 A (V×R) trap - ALP easy electricity"
+      }
     },
     {
       "id": "rrb-alp-044",
@@ -2340,7 +2463,12 @@
       "explanation": "Energy = 1.5 kW × 2 h × 30 = 90 kWh (90 units).",
       "source": "curated",
       "archetype": "rrb-alp-S10",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "kWh over 30 days - ALP energy consumption item; labelled hard but routine"
+      }
     },
     {
       "id": "rrb-alp-045",
@@ -2358,7 +2486,12 @@
       "explanation": "A generator (dynamo) works on electromagnetic induction to convert mechanical energy to electrical energy; a motor does the reverse.",
       "source": "curated",
       "archetype": "rrb-alp-S11",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Generator vs motor energy conversion - ALP magnetic effects staple"
+      }
     },
     {
       "id": "rrb-alp-046",
@@ -2376,7 +2509,12 @@
       "explanation": "Sound travels fastest in solids such as steel (≈5000 m/s), slower in water (≈1500 m/s), slower still in air (≈343 m/s), and cannot travel through vacuum.",
       "source": "curated",
       "archetype": "rrb-alp-S13",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Speed of sound fastest in steel - ALP sound"
+      }
     },
     {
       "id": "rrb-alp-047",
@@ -2394,7 +2532,12 @@
       "explanation": "Neutrons = mass number − atomic number = 23 − 11 = 12.",
       "source": "curated",
       "archetype": "rrb-alp-S14",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Neutrons = A − Z with 34 (A+Z) trap - ALP atomic structure"
+      }
     },
     {
       "id": "rrb-alp-048",
@@ -2412,7 +2555,12 @@
       "explanation": "The long form of the Modern Periodic Table has 18 vertical columns (groups) and 7 horizontal rows (periods).",
       "source": "curated",
       "archetype": "rrb-alp-S15",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "18 groups 7 periods - ALP periodic table fact"
+      }
     },
     {
       "id": "rrb-alp-049",
@@ -2430,7 +2578,12 @@
       "explanation": "pH 7 is neutral; values above 7 are basic. 7.4 is slightly basic (alkaline).",
       "source": "curated",
       "archetype": "rrb-alp-S18",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Blood pH 7.4 slightly basic - ALP pH item"
+      }
     },
     {
       "id": "rrb-alp-050",
@@ -2448,7 +2601,12 @@
       "explanation": "Bauxite (Al₂O₃·2H₂O) is the ore of aluminium. Haematite is an iron ore, galena a lead ore and cinnabar a mercury ore.",
       "source": "curated",
       "archetype": "rrb-alp-S19",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Bauxite aluminium ore with haematite/galena/cinnabar traps - ALP metallurgy"
+      }
     },
     {
       "id": "rrb-alp-051",
@@ -2466,7 +2624,12 @@
       "explanation": "Iodine is needed to make thyroxine; its deficiency causes goitre. Anaemia is linked to iron, scurvy to vitamin C and rickets to vitamin D.",
       "source": "curated",
       "archetype": "rrb-alp-S23",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Iodine deficiency goitre - ALP deficiency disease"
+      }
     },
     {
       "id": "rrb-alp-052",
@@ -2484,43 +2647,12 @@
       "explanation": "Transpiration is the loss of water vapour through stomata. Guttation is loss of liquid water droplets; translocation is transport of food in phloem.",
       "source": "curated",
       "archetype": "rrb-alp-S25",
-      "verified": true
-    },
-    {
-      "id": "rrb-alp-053",
-      "section": "ga",
-      "topic": "Current Affairs: Science & Technology",
-      "difficulty": "easy",
-      "question": "Aditya-L1, launched by ISRO in September 2023, is India's first space-based mission to study:",
-      "options": [
-        "The Moon",
-        "Mars",
-        "The Sun",
-        "Venus"
-      ],
-      "answer": 2,
-      "explanation": "Aditya-L1 is a solar observatory placed in a halo orbit around Lagrange point L1 of the Sun–Earth system.",
-      "source": "curated",
-      "archetype": "rrb-alp-G01",
-      "verified": true
-    },
-    {
-      "id": "rrb-alp-054",
-      "section": "ga",
-      "topic": "Current Affairs: Sports",
-      "difficulty": "easy",
-      "question": "Which team won the ICC Men's T20 World Cup 2024?",
-      "options": [
-        "South Africa",
-        "India",
-        "Australia",
-        "England"
-      ],
-      "answer": 1,
-      "explanation": "India beat South Africa by 7 runs in the final at Barbados on 29 June 2024.",
-      "source": "curated",
-      "archetype": "rrb-alp-G03",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Transpiration definition with guttation trap - ALP plant processes"
+      }
     },
     {
       "id": "rrb-alp-055",
@@ -2538,7 +2670,12 @@
       "explanation": "Vande Mataram is from Bankim Chandra Chattopadhyay's novel 'Anandamath' (1882). Tagore wrote the national anthem.",
       "source": "curated",
       "archetype": "rrb-alp-G05",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Vande Mataram-Bankim with Tagore trap - ALP national symbols"
+      }
     },
     {
       "id": "rrb-alp-056",
@@ -2556,7 +2693,12 @@
       "explanation": "Make in India was launched on 25 September 2014 to promote manufacturing in India.",
       "source": "curated",
       "archetype": "rrb-alp-G07",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Make in India 2014 - ALP scheme-year, easy and old"
+      }
     },
     {
       "id": "rrb-alp-057",
@@ -2574,7 +2716,12 @@
       "explanation": "Under Article 324 the Chief Election Commissioner is appointed by the President (on the recommendation of a selection committee under the 2023 Act).",
       "source": "curated",
       "archetype": "rrb-alp-G09",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "President appoints CEC - ALP constitutional posts (2023 Act selection committee still recommends; President appoints)"
+      }
     },
     {
       "id": "rrb-alp-058",
@@ -2592,7 +2739,12 @@
       "explanation": "The first passenger train in India ran 34 km from Bori Bunder in Bombay to Thane on 16 April 1853.",
       "source": "curated",
       "archetype": "rrb-alp-G11",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "First train Bori Bunder-Thane - ALP railway history staple"
+      }
     },
     {
       "id": "rrb-alp-059",
@@ -2610,7 +2762,12 @@
       "explanation": "RCF is at Kapurthala (Punjab). Chennai has the Integral Coach Factory, Rae Bareli the Modern Coach Factory, and Varanasi the Banaras Locomotive Works.",
       "source": "curated",
       "archetype": "rrb-alp-G11",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "RCF Kapurthala vs MCF Rae Bareli/ICF Chennai traps - ALP production units exact"
+      }
     },
     {
       "id": "rrb-alp-060",
@@ -2628,7 +2785,12 @@
       "explanation": "India's highest sporting honour, earlier the Rajiv Gandhi Khel Ratna, was renamed after hockey legend Major Dhyan Chand in August 2021.",
       "source": "curated",
       "archetype": "rrb-alp-G13",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Khel Ratna formerly Rajiv Gandhi - ALP award renaming"
+      }
     },
     {
       "id": "rrb-alp-061",
@@ -2646,7 +2808,12 @@
       "explanation": "Sum of known digits = 5 + 2 + 6 + 3 + 8 = 24. For divisibility by 9, 24 + x must be a multiple of 9, so x = 3 (next would be 12, not a digit).",
       "source": "ai",
       "archetype": "rrb-alp-M01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "Missing digit for divisibility by 9 - ALP exact"
+      }
     },
     {
       "id": "rrb-alp-062",
@@ -2664,7 +2831,12 @@
       "explanation": "2³ = 8 ≡ 1 (mod 7). 2⁴⁰ = (2³)¹³ × 2 ≡ 1 × 2 = 2.",
       "source": "ai",
       "archetype": "rrb-alp-M02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Remainder 2^40 mod 7 via 2³≡1 - ALP remainder item"
+      }
     },
     {
       "id": "rrb-alp-063",
@@ -2682,7 +2854,12 @@
       "explanation": "3/5 × 4/7 × 1050 = 360 and 25% of 640 = 160. 360 − 160 = 200.",
       "source": "ai",
       "archetype": "rrb-alp-M04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Fraction of fraction minus percentage - ALP simplification"
+      }
     },
     {
       "id": "rrb-alp-064",
@@ -2700,7 +2877,12 @@
       "explanation": "(9 − 4) = 5; {12 − 5} = 7; [20 − 7] = 13. Then 6 × 13 ÷ 13 = 6, and 18 + 6 = 24.",
       "source": "ai",
       "archetype": "rrb-alp-M04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "Nested brackets VBODMAS - ALP simplification"
+      }
     },
     {
       "id": "rrb-alp-065",
@@ -2718,7 +2900,12 @@
       "explanation": "Relative speed = 72 − 54 = 18 km/h = 5 m/s. Distance = 180 + 120 = 300 m. Time = 300/5 = 60 s. (Adding the speeds, as for opposite directions, gives about 8.6 s.)",
       "source": "ai",
       "archetype": "rrb-alp-M17",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "Same-direction crossing relative speed - ALP train exact"
+      }
     },
     {
       "id": "rrb-alp-066",
@@ -2736,7 +2923,12 @@
       "explanation": "0.3̅6̅ = 36/99 = 4/11.",
       "source": "ai",
       "archetype": "rrb-alp-M06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Recurring decimal to fraction - ALP fraction"
+      }
     },
     {
       "id": "rrb-alp-067",
@@ -2754,7 +2946,12 @@
       "explanation": "LCM of fractions = LCM of numerators ÷ HCF of denominators = LCM(2, 4, 5) ÷ HCF(3, 9, 6) = 20 ÷ 3 = 20/3.",
       "source": "ai",
       "archetype": "rrb-alp-M07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "LCM of fractions rule - ALP HCF/LCM"
+      }
     },
     {
       "id": "rrb-alp-068",
@@ -2772,7 +2969,12 @@
       "explanation": "(4x − 5)/(5x − 5) = 7/9 → 36x − 45 = 35x − 35 → x = 10. A = 4 × 10 = 40 years.",
       "source": "ai",
       "archetype": "rrb-alp-M10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Age ratio change - ALP ages"
+      }
     },
     {
       "id": "rrb-alp-069",
@@ -2790,7 +2992,12 @@
       "explanation": "Net factor = 1.25 × 0.80 = 1.00, so the price is unchanged. (Formula: 25 − 20 − 25×20/100 = 0.)",
       "source": "ai",
       "archetype": "rrb-alp-M11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "+25/−20 no change - ALP successive %, duplicates 005 concept"
+      }
     },
     {
       "id": "rrb-alp-070",
@@ -2808,7 +3015,12 @@
       "explanation": "6a² = 294 → a² = 49 → a = 7 cm. Volume = 7³ = 343 cm³.",
       "source": "ai",
       "archetype": "rrb-alp-M14",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Cube volume from TSA - ALP 3-D"
+      }
     },
     {
       "id": "rrb-alp-071",
@@ -2826,7 +3038,12 @@
       "explanation": "M₁H₁D₁ = M₂H₂D₂ → 18 × 8 × 10 = 12 × 6 × D → D = 1440/72 = 20 days.",
       "source": "ai",
       "archetype": "rrb-alp-M16",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "MDH formula - ALP exact"
+      }
     },
     {
       "id": "rrb-alp-072",
@@ -2844,7 +3061,12 @@
       "explanation": "Downstream speed = 15 km/h, upstream speed = 10 km/h. Stream speed = (15 − 10)/2 = 2.5 km/h.",
       "source": "ai",
       "archetype": "rrb-alp-M18",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Boat stream speed - ALP boats"
+      }
     },
     {
       "id": "rrb-alp-073",
@@ -2862,7 +3084,12 @@
       "explanation": "For 2 years, CI − SI = P(r/100)² = 15000 × (0.08)² = 15000 × 0.0064 = ₹96.",
       "source": "ai",
       "archetype": "rrb-alp-M20",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "CI−SI 2 years Pr² - ALP CI"
+      }
     },
     {
       "id": "rrb-alp-074",
@@ -2880,7 +3107,12 @@
       "explanation": "CP = 1440 ÷ 1.2 = ₹1,200. At ₹1,080 the loss is ₹120, i.e. 120/1200 × 100 = 10% loss.",
       "source": "ai",
       "archetype": "rrb-alp-M21",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "CP from gain then new loss % - ALP profit loss"
+      }
     },
     {
       "id": "rrb-alp-075",
@@ -2898,7 +3130,12 @@
       "explanation": "a³ + b³ = (a + b)³ − 3ab(a + b) = 729 − 3 × 18 × 9 = 729 − 486 = 243.",
       "source": "ai",
       "archetype": "rrb-alp-M23",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "a³+b³ identity - ALP algebra"
+      }
     },
     {
       "id": "rrb-alp-076",
@@ -2916,7 +3153,12 @@
       "explanation": "Divide numerator and denominator by cos θ: (5 tan θ − 3)/(5 tan θ + 2) = (4 − 3)/(4 + 2) = 1/6.",
       "source": "ai",
       "archetype": "rrb-alp-M25",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "tan-given ratio expression dividing by cos - ALP trig"
+      }
     },
     {
       "id": "rrb-alp-077",
@@ -2934,7 +3176,12 @@
       "explanation": "An odometer measures distance; an anemometer measures wind speed. Humidity, rainfall and pressure are measured by hygrometer, rain gauge and barometer.",
       "source": "ai",
       "archetype": "rrb-alp-R01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Instrument:quantity analogy anemometer - ALP exact archetype"
+      }
     },
     {
       "id": "rrb-alp-078",
@@ -2952,7 +3199,12 @@
       "explanation": "Each letter moves 5 places forward: C→H, E→J, G→L. So M→R, O→T, Q→V = RTV.",
       "source": "ai",
       "archetype": "rrb-alp-R02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Letter cluster +5 analogy - ALP"
+      }
     },
     {
       "id": "rrb-alp-079",
@@ -2970,7 +3222,12 @@
       "explanation": "The terms are n(n + 1): 1×2, 2×3, 3×4, 4×5, 5×6, 6×7, so next = 7 × 8 = 56 (differences 4, 6, 8, 10, 12, 14).",
       "source": "ai",
       "archetype": "rrb-alp-R03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "n(n+1) series - ALP"
+      }
     },
     {
       "id": "rrb-alp-080",
@@ -2988,7 +3245,12 @@
       "explanation": "Each term = previous × 2 + 1: 4→9→19→39→79→159. So 160 is wrong.",
       "source": "ai",
       "archetype": "rrb-alp-R03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Wrong number in ×2+1 series - ALP wrong-term variant"
+      }
     },
     {
       "id": "rrb-alp-081",
@@ -3006,7 +3268,12 @@
       "explanation": "Moving backwards by 2, 3, 4, 5, 6: Z(26)→X(24)→U(21)→Q(17)→L(12)→F(6).",
       "source": "ai",
       "archetype": "rrb-alp-R04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Backward letter series with growing gaps −2..−6 - ALP"
+      }
     },
     {
       "id": "rrb-alp-082",
@@ -3024,7 +3291,12 @@
       "explanation": "Each letter is shifted 3 places forward: R→U, O→R, A→D, D→G. So S→V, W→Z, A→D, N→Q = VZDQ.",
       "source": "ai",
       "archetype": "rrb-alp-R05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Uniform +3 coding - ALP letter-shift, distractors one-letter off"
+      }
     },
     {
       "id": "rrb-alp-083",
@@ -3042,7 +3314,12 @@
       "explanation": "'now' is common to the first two sentences → mo. 'home' is common to the first and third → ta. 'come' is common to the second and third → pa.",
       "source": "ai",
       "archetype": "rrb-alp-R06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Sentence code elimination for 'come' - ALP exact"
+      }
     },
     {
       "id": "rrb-alp-084",
@@ -3060,7 +3337,12 @@
       "explanation": "64 ÷ 8 × 5 + 12 − 9 = 8 × 5 + 12 − 9 = 40 + 12 − 9 = 43.",
       "source": "ai",
       "archetype": "rrb-alp-R07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "Letter-to-operator substitution BODMAS - ALP exact"
+      }
     },
     {
       "id": "rrb-alp-085",
@@ -3078,7 +3360,12 @@
       "explanation": "The rule is a * b = a² + b²: 49 + 9 = 58, 25 + 16 = 41. So 6 * 5 = 36 + 25 = 61.",
       "source": "ai",
       "archetype": "rrb-alp-R08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Hidden rule a²+b² operation - ALP"
+      }
     },
     {
       "id": "rrb-alp-086",
@@ -3096,7 +3383,12 @@
       "explanation": "The only brother of Sunita's mother is her maternal uncle; his son is Sunita's cousin.",
       "source": "ai",
       "archetype": "rrb-alp-R09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Son of mother's only brother = cousin - ALP pointing"
+      }
     },
     {
       "id": "rrb-alp-087",
@@ -3114,7 +3406,12 @@
       "explanation": "A is the mother of B; B is the brother of C, so A is also C's mother; C is the father of D. Hence A is D's father's mother – paternal grandmother.",
       "source": "ai",
       "archetype": "rrb-alp-R10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Coded relation chain giving paternal grandmother - ALP coded relations"
+      }
     },
     {
       "id": "rrb-alp-088",
@@ -3132,7 +3429,12 @@
       "explanation": "Two \"some\" statements give no definite link between pens and erasers, so I does not follow. \"Some pencils are erasers\" converts to \"Some erasers are pencils\", so II follows. Only II.",
       "source": "ai",
       "archetype": "rrb-alp-R11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Some-Some syllogism with conversion II - ALP"
+      }
     },
     {
       "id": "rrb-alp-089",
@@ -3150,7 +3452,12 @@
       "explanation": "Cups that are plates cannot be spoons, but cups that are not plates may or may not be spoons, so I is not definite. Nothing supports II. Neither follows.",
       "source": "ai",
       "archetype": "rrb-alp-R11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Some-No syllogism neither - ALP with false 'No' trap"
+      }
     },
     {
       "id": "rrb-alp-090",
@@ -3168,7 +3475,12 @@
       "explanation": "Students studying at least one = 80 − 12 = 68. Both = 45 + 38 − 68 = 15.",
       "source": "ai",
       "archetype": "rrb-alp-R14",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Both from total, neither - ALP two-set"
+      }
     },
     {
       "id": "rrb-alp-091",
@@ -3186,7 +3498,12 @@
       "explanation": "I alone allows 18, 27, 36, … ; II alone allows 21, 42, 63, 84. Together: t + u = 9 and t = 2u give u = 3, t = 6, so N = 63. Both statements are needed.",
       "source": "ai",
       "archetype": "rrb-alp-R15",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Two-digit number DS needs both (63) - ALP data sufficiency"
+      }
     },
     {
       "id": "rrb-alp-092",
@@ -3204,7 +3521,12 @@
       "explanation": "Monitoring occupancy helps decide whether the special service is needed – I follows. Cancelling regular trains would worsen the rush – II does not follow.",
       "source": "ai",
       "archetype": "rrb-alp-R16",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Course of action for railway notice - ALP exact"
+      }
     },
     {
       "id": "rrb-alp-093",
@@ -3222,7 +3544,12 @@
       "explanation": "In ACE, GIK and MOQ the letters move +2, +2. In RTW they move +2, +3, so RTW is the odd one.",
       "source": "ai",
       "archetype": "rrb-alp-R18",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Odd letter cluster +2 pattern - ALP"
+      }
     },
     {
       "id": "rrb-alp-094",
@@ -3240,7 +3567,12 @@
       "explanation": "After the swap Amit is at Sumit's old place, which is 25th from the left and 18th from the right. Total = 25 + 18 − 1 = 42.",
       "source": "ai",
       "archetype": "rrb-alp-R20",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Interchange positions to find total - ALP ranking classic"
+      }
     },
     {
       "id": "rrb-alp-095",
@@ -3258,7 +3590,12 @@
       "explanation": "Facing the centre, left = clockwise. Seats clockwise from P: P(1), R(2), S(3), Q(4), then 5 and 6. T cannot be next to P, so T = 5 and U = 6. The immediate right (anticlockwise neighbour) of P is U.",
       "source": "ai",
       "archetype": "rrb-alp-R21",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "6-person circular seating unique - ALP circular"
+      }
     },
     {
       "id": "rrb-alp-096",
@@ -3276,7 +3613,12 @@
       "explanation": "Turning left while facing south means facing east. He is 15 km south and 8 km east of home: distance = √(15² + 8²) = 17 km, towards the South-East.",
       "source": "ai",
       "archetype": "rrb-alp-R22",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "8-15-17 walk SE - ALP direction"
+      }
     },
     {
       "id": "rrb-alp-097",
@@ -3294,7 +3636,12 @@
       "explanation": "u = 72 km/h = 20 m/s, a = (0 − 20)/5 = −4 m/s². s = ut + ½at² = 100 − ½ × 4 × 25 = 50 m.",
       "source": "ai",
       "archetype": "rrb-alp-S01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "Stopping distance with km/h conversion - ALP motion"
+      }
     },
     {
       "id": "rrb-alp-098",
@@ -3312,7 +3659,12 @@
       "explanation": "Plaster of Paris (CaSO₄·½H₂O) mixed with water sets into a hard mass of gypsum, so it is used for plaster casts.",
       "source": "ai",
       "archetype": "rrb-alp-S17",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "PoP use in casts - ALP common salts uses"
+      }
     },
     {
       "id": "rrb-alp-099",
@@ -3330,7 +3682,12 @@
       "explanation": "By conservation of momentum: 0.02 × 400 = 4 × v → v = 8/4 = 2 m/s (opposite to the bullet).",
       "source": "ai",
       "archetype": "rrb-alp-S03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Recoil velocity with g→kg - ALP momentum exact"
+      }
     },
     {
       "id": "rrb-alp-100",
@@ -3348,7 +3705,12 @@
       "explanation": "PE = mgh = 5 × 10 × 8 = 400 J.",
       "source": "ai",
       "archetype": "rrb-alp-S04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "PE = mgh - ALP energy, simple"
+      }
     },
     {
       "id": "rrb-alp-101",
@@ -3366,7 +3728,12 @@
       "explanation": "F ∝ m₁m₂/r². New F = (2)/(2²) × F = F/2.",
       "source": "ai",
       "archetype": "rrb-alp-S05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Mass doubled distance doubled → half - ALP gravitation variant"
+      }
     },
     {
       "id": "rrb-alp-102",
@@ -3384,7 +3751,12 @@
       "explanation": "P = 1/f (in metres) = 1/0.25 = +4 D. A convex lens has positive power.",
       "source": "ai",
       "archetype": "rrb-alp-S07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Power of lens in metres, 25 D trap - ALP exact"
+      }
     },
     {
       "id": "rrb-alp-103",
@@ -3402,7 +3774,12 @@
       "explanation": "In hypermetropia the image of nearby objects forms behind the retina; a converging (convex) lens brings it onto the retina.",
       "source": "ai",
       "archetype": "rrb-alp-S08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Hypermetropia convex lens - ALP vision defects"
+      }
     },
     {
       "id": "rrb-alp-104",
@@ -3420,7 +3797,12 @@
       "explanation": "Series resistance = 2 + 3 + 5 = 10 Ω. I = V/R = 20/10 = 2 A.",
       "source": "ai",
       "archetype": "rrb-alp-S09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Series current - ALP Ohm's law"
+      }
     },
     {
       "id": "rrb-alp-105",
@@ -3438,7 +3820,12 @@
       "explanation": "I = P/V = 1100/220 = 5 A.",
       "source": "ai",
       "archetype": "rrb-alp-S10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "I = P/V heater - ALP electric power"
+      }
     },
     {
       "id": "rrb-alp-106",
@@ -3456,7 +3843,12 @@
       "explanation": "v = fλ = 500 × 0.68 = 340 m/s.",
       "source": "ai",
       "archetype": "rrb-alp-S12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "v = fλ - ALP wave numerical"
+      }
     },
     {
       "id": "rrb-alp-107",
@@ -3474,7 +3866,12 @@
       "explanation": "A single reactant breaks down into two simpler products on heating, so it is a (thermal) decomposition reaction.",
       "source": "ai",
       "archetype": "rrb-alp-S21",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Thermal decomposition CaCO₃ - ALP reaction type"
+      }
     },
     {
       "id": "rrb-alp-108",
@@ -3492,7 +3889,12 @@
       "explanation": "Red litmus turns blue in a basic solution, whose pH is greater than 7. Only 10 fits; 1 and 4 are acidic and 7 is neutral.",
       "source": "ai",
       "archetype": "rrb-alp-S18",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Base turns red litmus blue → pH 10 - ALP pH"
+      }
     },
     {
       "id": "rrb-alp-109",
@@ -3510,7 +3912,12 @@
       "explanation": "Three carbon atoms (prop-) with a terminal –CHO (aldehyde) group gives propanal. Propanone is CH₃COCH₃.",
       "source": "ai",
       "archetype": "rrb-alp-S20",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "IUPAC propanal vs propanone - ALP carbon compounds"
+      }
     },
     {
       "id": "rrb-alp-110",
@@ -3528,7 +3935,12 @@
       "explanation": "Hydrogen gains oxygen to form H₂O, so H₂ is oxidised; CuO loses oxygen and is reduced.",
       "source": "ai",
       "archetype": "rrb-alp-S22",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Oxidised substance H₂ - ALP redox exact"
+      }
     },
     {
       "id": "rrb-alp-111",
@@ -3546,7 +3958,12 @@
       "explanation": "Bile is produced by the liver and only stored in the gall bladder; it emulsifies fats in the small intestine.",
       "source": "ai",
       "archetype": "rrb-alp-S24",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Liver produces bile (gall bladder stores trap) - ALP organ systems"
+      }
     },
     {
       "id": "rrb-alp-112",
@@ -3564,7 +3981,12 @@
       "explanation": "The mother always gives an X chromosome; the father gives either X (girl) or Y (boy), so the father's contribution decides the sex.",
       "source": "ai",
       "archetype": "rrb-alp-S26",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Sex determination by father's chromosome - ALP heredity"
+      }
     },
     {
       "id": "rrb-alp-113",
@@ -3582,7 +4004,12 @@
       "explanation": "NISAR (NASA-ISRO Synthetic Aperture Radar) was launched on 30 July 2025 aboard GSLV-F16.",
       "source": "ai",
       "archetype": "rrb-alp-G01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "NISAR ISRO-NASA July 2025 - ALP space-mission partner archetype"
+      }
     },
     {
       "id": "rrb-alp-114",
@@ -3600,7 +4027,12 @@
       "explanation": "Group Captain Shubhanshu Shukla flew to the ISS on Axiom Mission 4 (launched 25 June 2025). Rakesh Sharma flew to the Salyut-7 station in 1984.",
       "source": "ai",
       "archetype": "rrb-alp-G02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Shubhanshu Shukla Axiom-4 - ALP astronauts in news"
+      }
     },
     {
       "id": "rrb-alp-115",
@@ -3618,7 +4050,12 @@
       "explanation": "India beat Pakistan by five wickets in the final at Dubai on 28 September 2025.",
       "source": "ai",
       "archetype": "rrb-alp-G03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Asia Cup 2025 final vs Pakistan - ALP recent tournament"
+      }
     },
     {
       "id": "rrb-alp-116",
@@ -3636,7 +4073,12 @@
       "explanation": "In the all-Indian final at Batumi (Georgia) in July 2025, Divya Deshmukh beat Koneru Humpy in the tie-breaks and also earned the Grandmaster title.",
       "source": "ai",
       "archetype": "rrb-alp-G04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Divya Deshmukh beat Koneru Humpy - ALP chess personalities"
+      }
     },
     {
       "id": "rrb-alp-117",
@@ -3654,7 +4096,12 @@
       "explanation": "Approved by the Union Cabinet in August 2024, the UPS became effective on 1 April 2025 as an option under the NPS.",
       "source": "ai",
       "archetype": "rrb-alp-G07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "UPS effective 1 April 2025 - ALP scheme date"
+      }
     },
     {
       "id": "rrb-alp-118",
@@ -3672,7 +4119,12 @@
       "explanation": "Justice Surya Kant took oath on 24 November 2025, succeeding Justice B. R. Gavai.",
       "source": "ai",
       "archetype": "rrb-alp-G09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "53rd CJI Surya Kant with predecessors as traps - ALP constitutional posts"
+      }
     },
     {
       "id": "rrb-alp-119",
@@ -3690,7 +4142,12 @@
       "explanation": "The New Pamban Bridge links Rameswaram island to mainland Tamil Nadu; it was inaugurated on 6 April 2025.",
       "source": "ai",
       "archetype": "rrb-alp-G11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "New Pamban vertical-lift bridge - ALP railway landmark"
+      }
     },
     {
       "id": "rrb-alp-120",
@@ -3708,7 +4165,12 @@
       "explanation": "Malayalam actor Mohanlal was named for the Dadasaheb Phalke Award, India's highest honour in cinema, in September 2025.",
       "source": "ai",
       "archetype": "rrb-alp-G05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Dadasaheb Phalke 2023 Mohanlal - ALP award personalities"
+      }
     }
   ]
 }

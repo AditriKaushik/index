@@ -1647,24 +1647,6 @@
   },
   "questions": [
     {
-      "id": "rrb-group-d-001",
-      "section": "maths",
-      "topic": "Number System",
-      "difficulty": "easy",
-      "question": "What is the sum of the first 20 natural numbers?",
-      "options": [
-        "200",
-        "220",
-        "210",
-        "190"
-      ],
-      "answer": 2,
-      "explanation": "Sum = n(n + 1)/2 = 20 × 21 / 2 = 210.",
-      "source": "curated",
-      "archetype": "rrb-group-d-M03",
-      "verified": true
-    },
-    {
       "id": "rrb-group-d-002",
       "section": "maths",
       "topic": "Number System",
@@ -1680,7 +1662,12 @@
       "explanation": "Test for 11: difference of sums of alternate digits must be 0 or a multiple of 11. For 918291: (9 + 8 + 9) − (1 + 2 + 1) = 26 − 4 = 22, a multiple of 11. The others give 21, 20 and 4.",
       "source": "curated",
       "archetype": "rrb-group-d-M01",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Which of four numbers divisible by 11 (verified 918291) - exact Group D divisibility format with near-identical options"
+      }
     },
     {
       "id": "rrb-group-d-003",
@@ -1698,7 +1685,12 @@
       "explanation": "'of' is done first: 5 of 5 = 25. Then 125 ÷ 25 = 5; 3 × 4 = 12; 5 + 12 − 2 = 15.",
       "source": "curated",
       "archetype": "rrb-group-d-M04",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "'of' precedence simplification with 37 left-to-right trap - Group D staple"
+      }
     },
     {
       "id": "rrb-group-d-004",
@@ -1716,7 +1708,12 @@
       "explanation": "0.25 + 0.375 + 0.125 = 0.75 = 3/4.",
       "source": "curated",
       "archetype": "rrb-group-d-M06",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Decimal+fraction sum - Group D fraction item, simple"
+      }
     },
     {
       "id": "rrb-group-d-005",
@@ -1734,7 +1731,12 @@
       "explanation": "84 = 2² × 3 × 7 and 126 = 2 × 3² × 7. HCF = 2 × 3 × 7 = 42.",
       "source": "curated",
       "archetype": "rrb-group-d-M07",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Plain HCF of two numbers - in syllabus but more elementary than typical Group D HCF/LCM word items"
+      }
     },
     {
       "id": "rrb-group-d-006",
@@ -1752,7 +1754,12 @@
       "explanation": "(5x + 6)/(7x + 6) = 3/4 ⇒ 20x + 24 = 21x + 18 ⇒ x = 6. Elder brother = 7 × 6 = 42 years.",
       "source": "curated",
       "archetype": "rrb-group-d-M10",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Age ratio 5:7 to 3:4 after 6 years - Group D ages item with younger-brother trap 30"
+      }
     },
     {
       "id": "rrb-group-d-007",
@@ -1770,7 +1777,12 @@
       "explanation": "342/450 × 100 = 76%.",
       "source": "curated",
       "archetype": "rrb-group-d-M12",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Marks percentage single division - easier than Group D percentage word problems"
+      }
     },
     {
       "id": "rrb-group-d-008",
@@ -1788,7 +1800,12 @@
       "explanation": "s = (13 + 14 + 15)/2 = 21. Area = √(21 × 8 × 7 × 6) = √7056 = 84 cm² (Heron's formula).",
       "source": "curated",
       "archetype": "rrb-group-d-M13",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Heron 13-14-15 = 84 - Group D asks this exact triangle; well-known"
+      }
     },
     {
       "id": "rrb-group-d-009",
@@ -1806,25 +1823,12 @@
       "explanation": "Total work = 12 × 15 = 180 man-days. Men needed = 180 ÷ 9 = 20.",
       "source": "curated",
       "archetype": "rrb-group-d-M16",
-      "verified": true
-    },
-    {
-      "id": "rrb-group-d-010",
-      "section": "maths",
-      "topic": "Time & Distance",
-      "difficulty": "easy",
-      "question": "A speed of 54 km/h is equal to how many metres per second?",
-      "options": [
-        "15 m/s",
-        "18 m/s",
-        "12 m/s",
-        "20 m/s"
-      ],
-      "answer": 0,
-      "explanation": "54 × 5/18 = 15 m/s.",
-      "source": "curated",
-      "archetype": "rrb-group-d-M18",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "M1D1=M2D2 men-days - Group D staple"
+      }
     },
     {
       "id": "rrb-group-d-011",
@@ -1842,7 +1846,12 @@
       "explanation": "Amount = 8000 × (1.05)² = 8000 × 1.1025 = ₹8,820. CI = ₹820.",
       "source": "curated",
       "archetype": "rrb-group-d-M20",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "CI 2 years with SI 800 trap - Group D CI item"
+      }
     },
     {
       "id": "rrb-group-d-012",
@@ -1860,7 +1869,12 @@
       "explanation": "CP = 1140/0.95 = ₹1,200. SP for 5% gain = 1200 × 1.05 = ₹1,260.",
       "source": "curated",
       "archetype": "rrb-group-d-M21",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "SP for 5% gain from 5% loss - Group D profit-loss exact style"
+      }
     },
     {
       "id": "rrb-group-d-013",
@@ -1878,7 +1892,12 @@
       "explanation": "a² + b² = (a + b)² − 2ab = 100 − 42 = 58.",
       "source": "curated",
       "archetype": "rrb-group-d-M23",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "a²+b² from a+b and ab - Group D algebra"
+      }
     },
     {
       "id": "rrb-group-d-014",
@@ -1896,7 +1915,12 @@
       "explanation": "sin 30° = 1/2, cos 60° = 1/2, tan 45° = 1. So 1/4 + 1/4 + 1 = 3/2.",
       "source": "curated",
       "archetype": "rrb-group-d-M25",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Standard trig values sum - Group D trig item"
+      }
     },
     {
       "id": "rrb-group-d-015",
@@ -1914,7 +1938,12 @@
       "explanation": "Arranged: 3, 5, 7, 9, 10, 12. With 6 values the median is the average of the 3rd and 4th: (7 + 9)/2 = 8.",
       "source": "curated",
       "archetype": "rrb-group-d-M26",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Median of even-count unsorted data - Group D statistics with unsorted trap"
+      }
     },
     {
       "id": "rrb-group-d-016",
@@ -1932,7 +1961,12 @@
       "explanation": "The eye is the organ used to see; the ear is the organ used to hear.",
       "source": "curated",
       "archetype": "rrb-group-d-R01",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Organ:function analogy; Eye:See is too obvious, distractors weak (Sound)"
+      }
     },
     {
       "id": "rrb-group-d-017",
@@ -1950,7 +1984,12 @@
       "explanation": "25 = 5², 125 = 5³. Similarly 36 = 6², so the answer is 6³ = 216.",
       "source": "curated",
       "archetype": "rrb-group-d-R02",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "n²:n³ analogy (25:125 → 36:216) - Group D number analogy"
+      }
     },
     {
       "id": "rrb-group-d-018",
@@ -1968,7 +2007,12 @@
       "explanation": "Terms are n² + 1 for n = 1 to 5. Next = 6² + 1 = 37 (differences 3, 5, 7, 9, 11).",
       "source": "curated",
       "archetype": "rrb-group-d-R03",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "n²+1 series - Group D series easy"
+      }
     },
     {
       "id": "rrb-group-d-019",
@@ -1986,7 +2030,12 @@
       "explanation": "Positions 2, 5, 9, 14 increase by +3, +4, +5; next is 14 + 6 = 20 = T.",
       "source": "curated",
       "archetype": "rrb-group-d-R04",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Letter series +3,+4,+5,+6 - Group D letter series"
+      }
     },
     {
       "id": "rrb-group-d-020",
@@ -2004,25 +2053,12 @@
       "explanation": "These are squares of consecutive primes 2, 3, 5, 7, 11. Next prime is 13, and 13² = 169.",
       "source": "curated",
       "archetype": "rrb-group-d-R03",
-      "verified": true
-    },
-    {
-      "id": "rrb-group-d-021",
-      "section": "reasoning",
-      "topic": "Coding-Decoding",
-      "difficulty": "easy",
-      "question": "If BOOK is coded as 2151511 (using alphabet positions), how is COOK coded?",
-      "options": [
-        "3151512",
-        "3161511",
-        "3151511",
-        "2151511"
-      ],
-      "answer": 2,
-      "explanation": "B = 2, O = 15, O = 15, K = 11. For COOK: C = 3, O = 15, O = 15, K = 11 → 3151511.",
-      "source": "curated",
-      "archetype": "rrb-group-d-R06",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Squares of primes series with 144 (12²) trap - Group D style"
+      }
     },
     {
       "id": "rrb-group-d-022",
@@ -2040,7 +2076,12 @@
       "explanation": "The word is written in reverse order: TRAIN → NIART.",
       "source": "curated",
       "archetype": "rrb-group-d-R05",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Reverse-word coding - Group D coding variant"
+      }
     },
     {
       "id": "rrb-group-d-023",
@@ -2058,7 +2099,12 @@
       "explanation": "18 ÷ 3 × 4 + 5 − 6 = 6 × 4 + 5 − 6 = 24 + 5 − 6 = 23.",
       "source": "curated",
       "archetype": "rrb-group-d-R07",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "Letter-to-operator substitution with BODMAS - Group D exact"
+      }
     },
     {
       "id": "rrb-group-d-024",
@@ -2076,7 +2122,12 @@
       "explanation": "C is the father of A and hence of B (A and B are siblings). D is C's mother, so D is B's grandmother.",
       "source": "curated",
       "archetype": "rrb-group-d-R10",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Four-person family chain - Group D blood relation"
+      }
     },
     {
       "id": "rrb-group-d-025",
@@ -2094,7 +2145,12 @@
       "explanation": "Cats ⊂ Dogs ⊂ Birds, so all cats are birds (I). Converting I gives 'Some birds are cats' (II).",
       "source": "curated",
       "archetype": "rrb-group-d-R11",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "All-All syllogism with conversion conclusion - Group D exact"
+      }
     },
     {
       "id": "rrb-group-d-026",
@@ -2112,7 +2168,12 @@
       "explanation": "A seed grows into a sapling, then a plant, which bears flowers that develop into fruits.",
       "source": "curated",
       "archetype": "rrb-group-d-R12",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Logical sequence seed-sapling-plant-flower-fruit - Group D meaningful-order item"
+      }
     },
     {
       "id": "rrb-group-d-027",
@@ -2130,7 +2191,12 @@
       "explanation": "Only cricket = 28 − 8 = 20.",
       "source": "curated",
       "archetype": "rrb-group-d-R14",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Only-cricket from two-set data with 28 total trap - Group D counting"
+      }
     },
     {
       "id": "rrb-group-d-028",
@@ -2148,7 +2214,12 @@
       "explanation": "Mercury, Venus and Mars are planets; the Moon is a natural satellite of Earth.",
       "source": "curated",
       "archetype": "rrb-group-d-R17",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Moon (satellite) among planets - Group D odd-one-out"
+      }
     },
     {
       "id": "rrb-group-d-029",
@@ -2166,7 +2237,12 @@
       "explanation": "A = 2, C = 3, B = 5, so D = 4 (between C and B). The only remaining place, 1, goes to E.",
       "source": "curated",
       "archetype": "rrb-group-d-R19",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "5-person row straightforward - Group D linear arrangement"
+      }
     },
     {
       "id": "rrb-group-d-030",
@@ -2184,7 +2260,12 @@
       "explanation": "East → 90° clockwise → South → 180° → North.",
       "source": "curated",
       "archetype": "rrb-group-d-R23",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Turns from east clockwise then 180 - Group D direction"
+      }
     },
     {
       "id": "rrb-group-d-031",
@@ -2202,7 +2283,12 @@
       "explanation": "The advert links purified water to health (I) and appeals to the desire to keep the family healthy (II); both are assumed.",
       "source": "curated",
       "archetype": "rrb-group-d-R24",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Advertisement both assumptions implicit - Group D assumption item"
+      }
     },
     {
       "id": "rrb-group-d-032",
@@ -2220,7 +2306,12 @@
       "explanation": "Neither statement alone gives a value. Together: R = S + 5 and S = R/2 ⇒ R = R/2 + 5 ⇒ R = 10 years.",
       "source": "curated",
       "archetype": "rrb-group-d-R15",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Data sufficiency ages needing both - Group D DS format"
+      }
     },
     {
       "id": "rrb-group-d-033",
@@ -2238,7 +2329,12 @@
       "explanation": "T > R; R > S; S > P; P > Q. The full order is T > R > S > P > Q, so S is third tallest.",
       "source": "curated",
       "archetype": "rrb-group-d-R20",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Height comparison third tallest - Group D ranking"
+      }
     },
     {
       "id": "rrb-group-d-034",
@@ -2256,7 +2352,12 @@
       "explanation": "s = ut + ½at² = 0 + ½ × 2 × 5² = 25 m.",
       "source": "curated",
       "archetype": "rrb-group-d-S01",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "s=ut+½at² with 50 m (forgot ½) trap - Group D motion numerical exact"
+      }
     },
     {
       "id": "rrb-group-d-035",
@@ -2274,7 +2375,12 @@
       "explanation": "The first law states that a body continues in its state of rest or uniform motion unless acted on by an external force – the property called inertia.",
       "source": "curated",
       "archetype": "rrb-group-d-S02",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "First law = law of inertia - Group D Newton concept"
+      }
     },
     {
       "id": "rrb-group-d-036",
@@ -2292,7 +2398,12 @@
       "explanation": "KE = ½mv² = ½ × 2 × 3² = 9 J.",
       "source": "curated",
       "archetype": "rrb-group-d-S04",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "KE ½mv² = 9 J with 18 J (no ½) trap - Group D exact"
+      }
     },
     {
       "id": "rrb-group-d-037",
@@ -2310,25 +2421,12 @@
       "explanation": "n = c/v ⇒ v = c/n = (3 × 10⁸)/1.5 = 2 × 10⁸ m/s.",
       "source": "curated",
       "archetype": "rrb-group-d-S07",
-      "verified": true
-    },
-    {
-      "id": "rrb-group-d-038",
-      "section": "science",
-      "topic": "Physics: Light & Optics",
-      "difficulty": "easy",
-      "question": "The image formed by a plane mirror is always:",
-      "options": [
-        "Virtual and erect",
-        "Real and inverted",
-        "Real and erect",
-        "Virtual and inverted"
-      ],
-      "answer": 0,
-      "explanation": "A plane mirror forms a virtual, erect image of the same size, laterally inverted, as far behind the mirror as the object is in front.",
-      "source": "curated",
-      "archetype": "rrb-group-d-S06",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "v = c/n in glass - Group D refraction numerical, 4.5 (multiply) trap"
+      }
     },
     {
       "id": "rrb-group-d-039",
@@ -2346,7 +2444,12 @@
       "explanation": "1/R = 1/6 + 1/6 + 1/6 = 3/6 = 1/2, so R = 2 Ω.",
       "source": "curated",
       "archetype": "rrb-group-d-S09",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Parallel equal resistors R/n - Group D resistance item with series 18 trap"
+      }
     },
     {
       "id": "rrb-group-d-040",
@@ -2364,25 +2467,12 @@
       "explanation": "P = V²/R ⇒ R = V²/P = 220²/100 = 48400/100 = 484 Ω.",
       "source": "curated",
       "archetype": "rrb-group-d-S10",
-      "verified": true
-    },
-    {
-      "id": "rrb-group-d-041",
-      "section": "science",
-      "topic": "Physics: Heat, Sound & Waves",
-      "difficulty": "easy",
-      "question": "What is the SI unit of frequency?",
-      "options": [
-        "Decibel",
-        "Newton",
-        "Pascal",
-        "Hertz"
-      ],
-      "answer": 3,
-      "explanation": "Frequency is measured in hertz (Hz), i.e. vibrations per second. Decibel measures sound level, newton force and pascal pressure.",
-      "source": "curated",
-      "archetype": "rrb-group-d-S13",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "R = V²/P = 484 Ω - Group D electric power numerical"
+      }
     },
     {
       "id": "rrb-group-d-042",
@@ -2400,7 +2490,12 @@
       "explanation": "Electronic configuration is 2, 8, 7. It needs 1 electron to complete its octet, so its valency is 1 (it is chlorine).",
       "source": "curated",
       "archetype": "rrb-group-d-S14",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "Valency from Z=17 with 7 (valence electrons) trap - Group D atomic structure exact"
+      }
     },
     {
       "id": "rrb-group-d-043",
@@ -2418,7 +2513,12 @@
       "explanation": "Acids turn blue litmus red. NaOH solution and lime water are bases; distilled water is neutral.",
       "source": "curated",
       "archetype": "rrb-group-d-S18",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Litmus colour change with acid - Group D indicator item"
+      }
     },
     {
       "id": "rrb-group-d-044",
@@ -2436,7 +2536,12 @@
       "explanation": "Plaster of Paris is calcium sulphate hemihydrate, CaSO₄·½H₂O. CaSO₄·2H₂O is gypsum.",
       "source": "curated",
       "archetype": "rrb-group-d-S17",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "PoP formula vs gypsum trap - Group D common salts exact"
+      }
     },
     {
       "id": "rrb-group-d-045",
@@ -2454,7 +2559,12 @@
       "explanation": "Alkanes are CₙH₂ₙ₊₂, alkenes CₙH₂ₙ and alkynes (one triple bond) CₙH₂ₙ₋₂, e.g. ethyne C₂H₂.",
       "source": "curated",
       "archetype": "rrb-group-d-S20",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Alkyne general formula with alkane/alkene traps - Group D carbon compounds"
+      }
     },
     {
       "id": "rrb-group-d-046",
@@ -2472,7 +2582,12 @@
       "explanation": "Two reactants combine to form a single product, so it is a combination reaction (it is also an oxidation of magnesium).",
       "source": "curated",
       "archetype": "rrb-group-d-S21",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Identify combination reaction from equation - Group D reaction-type"
+      }
     },
     {
       "id": "rrb-group-d-047",
@@ -2490,7 +2605,12 @@
       "explanation": "Xylem carries water and dissolved minerals from roots to leaves; phloem transports prepared food.",
       "source": "curated",
       "archetype": "rrb-group-d-S25",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Xylem function vs phloem trap - Group D plant transport"
+      }
     },
     {
       "id": "rrb-group-d-048",
@@ -2508,25 +2628,12 @@
       "explanation": "Measles is a viral disease. Typhoid, cholera and tuberculosis are caused by bacteria.",
       "source": "curated",
       "archetype": "rrb-group-d-S23",
-      "verified": true
-    },
-    {
-      "id": "rrb-group-d-049",
-      "section": "ga",
-      "topic": "Current Affairs (Sports, Schemes, Awards, Events)",
-      "difficulty": "medium",
-      "question": "D. Gukesh became the World Chess Champion in December 2024 by defeating which player in the title match?",
-      "options": [
-        "Magnus Carlsen",
-        "Ian Nepomniachtchi",
-        "Ding Liren",
-        "Fabiano Caruana"
-      ],
-      "answer": 2,
-      "explanation": "Gukesh beat China's Ding Liren 7.5–6.5 in Singapore in December 2024 to become the youngest undisputed world champion.",
-      "source": "curated",
-      "archetype": "rrb-group-d-G01",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Viral disease among bacterial ones - Group D disease-agent item"
+      }
     },
     {
       "id": "rrb-group-d-050",
@@ -2544,25 +2651,12 @@
       "explanation": "On 23 August 2023 the Vikram lander touched down near the south pole of the Moon, making India the first country to land in that region.",
       "source": "curated",
       "archetype": "rrb-group-d-G13",
-      "verified": true
-    },
-    {
-      "id": "rrb-group-d-051",
-      "section": "ga",
-      "topic": "Current Affairs (Sports, Schemes, Awards, Events)",
-      "difficulty": "hard",
-      "question": "The new Parliament building of India in New Delhi was inaugurated in which year?",
-      "options": [
-        "2021",
-        "2022",
-        "2024",
-        "2023"
-      ],
-      "answer": 3,
-      "explanation": "The new Parliament building was inaugurated on 28 May 2023.",
-      "source": "curated",
-      "archetype": "rrb-group-d-G03",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Chandrayaan-3 south pole - asked often in Group D 2025; well-worn but valid"
+      }
     },
     {
       "id": "rrb-group-d-052",
@@ -2580,7 +2674,12 @@
       "explanation": "Gandhiji gave the call 'Do or Die' at the Gowalia Tank Maidan, Bombay, in August 1942.",
       "source": "curated",
       "archetype": "rrb-group-d-G05",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "'Do or Die' slogan-leader - Group D freedom-struggle slogan item"
+      }
     },
     {
       "id": "rrb-group-d-053",
@@ -2598,7 +2697,12 @@
       "explanation": "The massacre took place at Amritsar on 13 April 1919.",
       "source": "curated",
       "archetype": "rrb-group-d-G05",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Jallianwala Bagh 1919 - Group D year-of-event item"
+      }
     },
     {
       "id": "rrb-group-d-054",
@@ -2616,7 +2720,12 @@
       "explanation": "Article 17 abolishes untouchability. Article 14 is equality before law, 21 is right to life and 32 is constitutional remedies.",
       "source": "curated",
       "archetype": "rrb-group-d-G07",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "Art 17 untouchability - Group D Article question"
+      }
     },
     {
       "id": "rrb-group-d-055",
@@ -2634,7 +2743,12 @@
       "explanation": "The Sundarbans lie in the Ganga–Brahmaputra (–Meghna) delta in West Bengal and Bangladesh.",
       "source": "curated",
       "archetype": "rrb-group-d-G08",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Sundarbans delta rivers - Group D river geography; labelled hard but easy"
+      }
     },
     {
       "id": "rrb-group-d-056",
@@ -2652,7 +2766,12 @@
       "explanation": "Kaziranga National Park, a UNESCO World Heritage Site, is in Assam.",
       "source": "curated",
       "archetype": "rrb-group-d-G08",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Kaziranga-Assam - Group D park-state staple"
+      }
     },
     {
       "id": "rrb-group-d-057",
@@ -2670,7 +2789,12 @@
       "explanation": "NITI Aayog was set up on 1 January 2015, replacing the Planning Commission (1950).",
       "source": "curated",
       "archetype": "rrb-group-d-G10",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "NITI Aayog replaced Planning Commission - Group D economy institution"
+      }
     },
     {
       "id": "rrb-group-d-058",
@@ -2688,7 +2812,12 @@
       "explanation": "Pongal is the harvest festival of Tamil Nadu, celebrated in mid-January.",
       "source": "curated",
       "archetype": "rrb-group-d-G11",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Pongal-Tamil Nadu - Group D festival-state"
+      }
     },
     {
       "id": "rrb-group-d-059",
@@ -2706,7 +2835,12 @@
       "explanation": "'Wings of Fire' (1999) is the autobiography of Dr A. P. J. Abdul Kalam, written with Arun Tiwari.",
       "source": "curated",
       "archetype": "rrb-group-d-G12",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Wings of Fire-Kalam with scientist distractors - Group D books-authors"
+      }
     },
     {
       "id": "rrb-group-d-060",
@@ -2724,7 +2858,12 @@
       "explanation": "Dr Vikram Sarabhai founded INCOSPAR (1962) which became ISRO; he is called the father of India's space programme.",
       "source": "curated",
       "archetype": "rrb-group-d-G13",
-      "verified": true
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Father of Indian space programme Sarabhai vs Bhabha trap - Group D ISRO people"
+      }
     },
     {
       "id": "rrb-group-d-061",
@@ -2742,7 +2881,12 @@
       "explanation": "A number is divisible by 8 if its last three digits are. 512 ÷ 8 = 64 exactly, whereas 324, 612 and 436 leave remainders 4, 4 and 4.",
       "source": "ai",
       "archetype": "rrb-group-d-M01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "Divisible by 8 via last three digits - Group D exact"
+      }
     },
     {
       "id": "rrb-group-d-062",
@@ -2760,7 +2904,12 @@
       "explanation": "Powers of 3 and 7 repeat their unit digits every 4. 65 = 4 × 16 + 1, so 3⁶⁵ ends in 3; 42 = 4 × 10 + 2, so 7⁴² ends in 9. 3 × 9 = 27 → unit digit 7.",
       "source": "ai",
       "archetype": "rrb-group-d-M02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "Unit digit of product of powers of 3 and 7 - Group D cyclicity"
+      }
     },
     {
       "id": "rrb-group-d-063",
@@ -2778,7 +2927,12 @@
       "explanation": "\"of\" is done first: 4 of 3 = 12. Then 84 ÷ 12 = 7, 6 × 5 = 30. 7 + 30 − 12 = 25. (Ignoring \"of\" and working left to right gives 81.)",
       "source": "ai",
       "archetype": "rrb-group-d-M04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "'of' precedence simplification with 37 trap - Group D staple"
+      }
     },
     {
       "id": "rrb-group-d-064",
@@ -2796,7 +2950,12 @@
       "explanation": "√1764 = 42 and √0.81 = 0.9. 42 + 10 × 0.9 = 42 + 9 = 51.",
       "source": "ai",
       "archetype": "rrb-group-d-M05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Square roots of perfect square and decimal - Group D roots item"
+      }
     },
     {
       "id": "rrb-group-d-065",
@@ -2814,7 +2973,12 @@
       "explanation": "In decimals: 5/8 = 0.625, 7/11 ≈ 0.636, 3/5 = 0.6, 9/14 ≈ 0.643. The largest is 9/14.",
       "source": "ai",
       "archetype": "rrb-group-d-M06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Largest of four close fractions - Group D compare fractions"
+      }
     },
     {
       "id": "rrb-group-d-066",
@@ -2832,7 +2996,12 @@
       "explanation": "LCM of 12, 15 and 20 = 60. Required number = 60 + 7 = 67. (127 also leaves remainder 7 but is not the least.)",
       "source": "ai",
       "archetype": "rrb-group-d-M08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "LCM + remainder - Group D least-number exact"
+      }
     },
     {
       "id": "rrb-group-d-067",
@@ -2850,7 +3019,12 @@
       "explanation": "Total parts = 9, so one part = 5400 ÷ 9 = ₹600. R − P = (4 − 2) × 600 = ₹1,200.",
       "source": "ai",
       "archetype": "rrb-group-d-M09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Ratio division difference R−P - Group D ratio"
+      }
     },
     {
       "id": "rrb-group-d-068",
@@ -2868,7 +3042,12 @@
       "explanation": "After year 1: 25,000 × 1.08 = 27,000. After year 2: 27,000 × 1.10 = 29,700. (Adding 18% directly gives 29,500.)",
       "source": "ai",
       "archetype": "rrb-group-d-M12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Population successive increase - Group D population item"
+      }
     },
     {
       "id": "rrb-group-d-069",
@@ -2886,7 +3065,12 @@
       "explanation": "πr² = 616 → r² = 616 × 7/22 = 196 → r = 14 cm. Circumference = 2πr = 2 × 22/7 × 14 = 88 cm.",
       "source": "ai",
       "archetype": "rrb-group-d-M13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Circumference from area 616 - Group D circle classic"
+      }
     },
     {
       "id": "rrb-group-d-070",
@@ -2904,7 +3088,12 @@
       "explanation": "Volume of cylinder = π × 2² × 9 = 36π cm³. Volume of one sphere = (4/3)π × 1³ = 4π/3 cm³. Number = 36π ÷ (4π/3) = 27.",
       "source": "ai",
       "archetype": "rrb-group-d-M14",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Melting cylinder into spheres - Group D recasting"
+      }
     },
     {
       "id": "rrb-group-d-071",
@@ -2922,7 +3111,12 @@
       "explanation": "B's one-day work = 1/12 − 1/20 = (5 − 3)/60 = 1/30. So B alone takes 30 days.",
       "source": "ai",
       "archetype": "rrb-group-d-M15",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "B alone from together and A - Group D work"
+      }
     },
     {
       "id": "rrb-group-d-072",
@@ -2940,7 +3134,12 @@
       "explanation": "Distance = 300 + 200 = 500 m. Speed = 500/25 = 20 m/s = 20 × 18/5 = 72 km/h. (Forgetting the platform gives 43.2 km/h.)",
       "source": "ai",
       "archetype": "rrb-group-d-M17",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "Train crossing platform speed in km/h - Group D exact"
+      }
     },
     {
       "id": "rrb-group-d-073",
@@ -2958,7 +3157,12 @@
       "explanation": "SI = 1.5P − P = 0.5P. 0.5P = P × R × 5/100 → R = 10%.",
       "source": "ai",
       "archetype": "rrb-group-d-M19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "SI rate for 1.5 times in 5 years - Group D SI"
+      }
     },
     {
       "id": "rrb-group-d-074",
@@ -2976,7 +3180,12 @@
       "explanation": "After 10%: 2000 × 0.90 = ₹1,800. After 5%: 1800 × 0.95 = ₹1,710. (A single 15% discount would wrongly give ₹1,700.)",
       "source": "ai",
       "archetype": "rrb-group-d-M22",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Successive discounts 10% & 5% with 1700 (15% flat) trap - Group D exact"
+      }
     },
     {
       "id": "rrb-group-d-075",
@@ -2994,7 +3203,12 @@
       "explanation": "∠C = 180° − 70° − 50° = 60°. In triangle BOC, ∠OBC = 25° and ∠OCB = 30°, so ∠BOC = 180° − 55° = 125° (= 90° + ∠A/2).",
       "source": "ai",
       "archetype": "rrb-group-d-M24",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "∠BOC = 90 + A/2 - Group D triangle angle property"
+      }
     },
     {
       "id": "rrb-group-d-076",
@@ -3012,7 +3226,12 @@
       "explanation": "A saw is the tool a carpenter works with; similarly a needle is the tool a tailor works with. Cloth and button are materials, not tools.",
       "source": "ai",
       "archetype": "rrb-group-d-R01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Worker:tool analogy with material distractor - Group D"
+      }
     },
     {
       "id": "rrb-group-d-077",
@@ -3030,7 +3249,12 @@
       "explanation": "8² + 1 = 65. Similarly 11² + 1 = 122.",
       "source": "ai",
       "archetype": "rrb-group-d-R02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "n²+1 analogy with n² and n²+2 traps - Group D"
+      }
     },
     {
       "id": "rrb-group-d-078",
@@ -3048,7 +3272,12 @@
       "explanation": "Each term = previous × 2 + 1: 5→11→23→47→95→95 × 2 + 1 = 191.",
       "source": "ai",
       "archetype": "rrb-group-d-R03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "×2+1 series - Group D"
+      }
     },
     {
       "id": "rrb-group-d-079",
@@ -3066,7 +3295,12 @@
       "explanation": "The terms are n³ + 2: 1+2, 8+2, 27+2, 64+2, 125+2 = 127, 216+2 = 218.",
       "source": "ai",
       "archetype": "rrb-group-d-R03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "n³+2 missing middle term - Group D series"
+      }
     },
     {
       "id": "rrb-group-d-080",
@@ -3084,7 +3318,12 @@
       "explanation": "Each letter moves 5 places forward: B→G→L→Q, D→I→N→S, F→K→P→U. So the next cluster is QSU.",
       "source": "ai",
       "archetype": "rrb-group-d-R04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Letter-cluster +5 series - Group D"
+      }
     },
     {
       "id": "rrb-group-d-081",
@@ -3102,7 +3341,12 @@
       "explanation": "Letters are shifted +2, −2, +2, −2, +2, −2: G→I, A→Y, R→T, D→B, E→G, N→L. So S→U, U→S, M→O, M→K, E→G, R→P = USOKGP.",
       "source": "ai",
       "archetype": "rrb-group-d-R05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Alternating +2/−2 letter coding on 6-letter words - Group D 2025 coding style"
+      }
     },
     {
       "id": "rrb-group-d-082",
@@ -3120,7 +3364,12 @@
       "explanation": "Code = 2 × (sum of alphabet positions): BAT = 2 × (2+1+20) = 46; CUP = 2 × (3+21+16) = 80. DOG = 2 × (4+15+7) = 52.",
       "source": "ai",
       "archetype": "rrb-group-d-R06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Sum of positions ×2 coding - Group D number-coding, 26 (no ×2) trap"
+      }
     },
     {
       "id": "rrb-group-d-083",
@@ -3138,7 +3387,12 @@
       "explanation": "Substituting: 48 ÷ 6 × 3 + 15 − 9 = 8 × 3 + 15 − 9 = 24 + 15 − 9 = 30.",
       "source": "ai",
       "archetype": "rrb-group-d-R07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "Symbol interchange + BODMAS - Group D exact"
+      }
     },
     {
       "id": "rrb-group-d-084",
@@ -3156,7 +3410,12 @@
       "explanation": "Interchanging × and ÷ gives 18 × 3 ÷ 6 + 4 − 5 = 9 + 4 − 5 = 8 ✓. The others give 37, 25 and 0.8.",
       "source": "ai",
       "archetype": "rrb-group-d-R08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "Interchange two signs; only ×/÷ works (checked all) - Group D exact"
+      }
     },
     {
       "id": "rrb-group-d-085",
@@ -3174,7 +3433,12 @@
       "explanation": "The only daughter of Kiran's mother is Kiran's sister. The girl's mother is Kiran's sister, so Kiran is the girl's maternal uncle.",
       "source": "ai",
       "archetype": "rrb-group-d-R09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "'Only daughter of my mother' pointing - Group D blood relation with gender trap"
+      }
     },
     {
       "id": "rrb-group-d-086",
@@ -3192,7 +3456,12 @@
       "explanation": "The trains that are buses are also cars, so \"Some trains are cars\" follows. Nothing says every car is a train, so II does not follow. Only I follows.",
       "source": "ai",
       "archetype": "rrb-group-d-R11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Some-All syllogism with All-reverse trap - Group D"
+      }
     },
     {
       "id": "rrb-group-d-087",
@@ -3210,7 +3479,12 @@
       "explanation": "All stars ⊂ suns ⊂ moons, so I follows. \"All suns are moons\" implies \"Some moons are suns\", so II also follows. Both follow.",
       "source": "ai",
       "archetype": "rrb-group-d-R11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "All-All syllogism both follow - Group D, near-duplicate of item 025 pattern"
+      }
     },
     {
       "id": "rrb-group-d-088",
@@ -3228,7 +3502,12 @@
       "explanation": "Every mango is a fruit (one circle inside the other), while potato is a vegetable and is unrelated to both (separate circle).",
       "source": "ai",
       "archetype": "rrb-group-d-R13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Fruits-Mango-Potato Venn - Group D classification"
+      }
     },
     {
       "id": "rrb-group-d-089",
@@ -3246,7 +3525,12 @@
       "explanation": "In the other pairs the second number is (first)² + 1: 4²+1 = 17, 6²+1 = 37, 8²+1 = 65. For 9 it should be 82, not 80.",
       "source": "ai",
       "archetype": "rrb-group-d-R18",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "n:n²+1 odd pair with n²−1 trap - Group D"
+      }
     },
     {
       "id": "rrb-group-d-090",
@@ -3264,7 +3548,12 @@
       "explanation": "Positions from left: D = 4, A = 7, B = 2, E = 3, G = 6. F is not at an end, so F = 5 and C takes position 1 – the extreme left.",
       "source": "ai",
       "archetype": "rrb-group-d-R19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "7-person row unique (C B E D F G A) - Group D seating"
+      }
     },
     {
       "id": "rrb-group-d-091",
@@ -3282,7 +3571,12 @@
       "explanation": "Taking the start as (0, 0): after 10 m north and 6 m east she is at (6, 10); 18 m south brings her to (6, −8). Distance = √(6² + 8²) = 10 m, towards the South-East.",
       "source": "ai",
       "archetype": "rrb-group-d-R22",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Walk with 6-8-10 triple, SE - Group D direction distance"
+      }
     },
     {
       "id": "rrb-group-d-092",
@@ -3300,7 +3594,12 @@
       "explanation": "Dictionary order: Station, Stationery, Statue, Stature, Status (after \"statu-\": e < r < s). The third word is Statue.",
       "source": "ai",
       "archetype": "rrb-group-d-R12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Stat- words dictionary order third - Group D exact"
+      }
     },
     {
       "id": "rrb-group-d-093",
@@ -3318,7 +3617,12 @@
       "explanation": "For a vertical mirror, mirror time = 11:60 − actual time = 11:60 − 4:20 = 7:40.",
       "source": "ai",
       "archetype": "rrb-group-d-R26",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Mirror clock 11:60 rule - Group D mirror image"
+      }
     },
     {
       "id": "rrb-group-d-094",
@@ -3336,7 +3640,12 @@
       "explanation": "h = ut + ½gt² = 0 + ½ × 10 × 4² = 80 m. (Omitting the ½ gives 160 m.)",
       "source": "ai",
       "archetype": "rrb-group-d-S01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "Free fall h=½gt² with 160 (no ½) trap - Group D exact"
+      }
     },
     {
       "id": "rrb-group-d-095",
@@ -3354,7 +3663,12 @@
       "explanation": "m = 500 g = 0.5 kg. a = F/m = 15/0.5 = 30 m/s². (Using 500 instead of 0.5 gives 0.03.)",
       "source": "ai",
       "archetype": "rrb-group-d-S03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "F=ma with g→kg conversion trap 0.03 - Group D"
+      }
     },
     {
       "id": "rrb-group-d-096",
@@ -3372,7 +3686,12 @@
       "explanation": "KE = ½mv². If v becomes 3v, KE becomes ½m(3v)² = 9 × ½mv², i.e. 9 times.",
       "source": "ai",
       "archetype": "rrb-group-d-S04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "Velocity tripled KE ×9 - Group D exact"
+      }
     },
     {
       "id": "rrb-group-d-097",
@@ -3390,7 +3709,12 @@
       "explanation": "u = −20 cm, f = −10 cm. 1/v = 1/f − 1/u = −1/10 + 1/20 = −1/20, so v = −20 cm: a real, inverted image 20 cm in front of the mirror (at C).",
       "source": "ai",
       "archetype": "rrb-group-d-S06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Object at C of concave mirror - Group D mirror numerical"
+      }
     },
     {
       "id": "rrb-group-d-098",
@@ -3408,7 +3732,12 @@
       "explanation": "Air molecules scatter shorter (blue) wavelengths of sunlight much more than longer (red) wavelengths, so the sky appears blue.",
       "source": "ai",
       "archetype": "rrb-group-d-S08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Blue sky scattering - Group D optical phenomenon"
+      }
     },
     {
       "id": "rrb-group-d-099",
@@ -3426,7 +3755,12 @@
       "explanation": "Parallel part: (3 × 6)/(3 + 6) = 2 Ω. In series with 4 Ω: 2 + 4 = 6 Ω.",
       "source": "ai",
       "archetype": "rrb-group-d-S09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Parallel then series combination - Group D resistance"
+      }
     },
     {
       "id": "rrb-group-d-100",
@@ -3444,7 +3778,12 @@
       "explanation": "Daily energy = 1 kW × 0.5 h = 0.5 kWh. In 30 days = 15 kWh (units). Cost = 15 × 6 = ₹90.",
       "source": "ai",
       "archetype": "rrb-group-d-S10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "kWh cost with minutes-to-hours trap - Group D electricity bill exact"
+      }
     },
     {
       "id": "rrb-group-d-101",
@@ -3462,7 +3801,12 @@
       "explanation": "Humans can hear sound of frequency roughly 20 Hz to 20 kHz. Below 20 Hz is infrasonic and above 20 kHz is ultrasonic.",
       "source": "ai",
       "archetype": "rrb-group-d-S13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Audible range 20 Hz-20 kHz - Group D sound"
+      }
     },
     {
       "id": "rrb-group-d-102",
@@ -3480,7 +3824,12 @@
       "explanation": "Atomic number = 2 + 8 + 3 = 13 (aluminium). It loses its 3 outer electrons, so valency = 3.",
       "source": "ai",
       "archetype": "rrb-group-d-S14",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Z and valency from K,L,M shells with 5 (8−3) trap - Group D"
+      }
     },
     {
       "id": "rrb-group-d-103",
@@ -3498,7 +3847,12 @@
       "explanation": "Configuration 2, 8, 2: three shells → Period 3; two valence electrons → Group 2 (it is magnesium).",
       "source": "ai",
       "archetype": "rrb-group-d-S15",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Group/period of Z=12 - Group D periodic table"
+      }
     },
     {
       "id": "rrb-group-d-104",
@@ -3516,7 +3870,12 @@
       "explanation": "Washing soda is sodium carbonate decahydrate, Na₂CO₃·10H₂O. NaHCO₃ is baking soda, CaOCl₂ bleaching powder and CaSO₄·½H₂O Plaster of Paris.",
       "source": "ai",
       "archetype": "rrb-group-d-S17",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Washing soda formula - Group D common salts"
+      }
     },
     {
       "id": "rrb-group-d-105",
@@ -3534,7 +3893,12 @@
       "explanation": "Brass = copper + zinc. Bronze is copper + tin, steel is iron + carbon and solder is lead + tin.",
       "source": "ai",
       "archetype": "rrb-group-d-S19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Brass vs bronze trap - Group D alloys"
+      }
     },
     {
       "id": "rrb-group-d-106",
@@ -3552,7 +3916,12 @@
       "explanation": "The two compounds exchange ions (Ba²⁺ pairs with SO₄²⁻ and Na⁺ with Cl⁻), forming a white precipitate of BaSO₄ – a double displacement reaction.",
       "source": "ai",
       "archetype": "rrb-group-d-S21",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Precipitation double displacement - Group D reaction type"
+      }
     },
     {
       "id": "rrb-group-d-107",
@@ -3570,7 +3939,12 @@
       "explanation": "Vitamin A (retinol) is needed to form rhodopsin in the rods of the retina; its deficiency causes night blindness.",
       "source": "ai",
       "archetype": "rrb-group-d-S23",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Night blindness Vitamin A - Group D deficiency"
+      }
     },
     {
       "id": "rrb-group-d-108",
@@ -3588,7 +3962,12 @@
       "explanation": "The pulmonary veins bring oxygen-rich blood from the lungs to the left atrium. The pulmonary artery carries deoxygenated blood to the lungs.",
       "source": "ai",
       "archetype": "rrb-group-d-S24",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Pulmonary vein carries oxygenated blood (artery trap) - Group D"
+      }
     },
     {
       "id": "rrb-group-d-109",
@@ -3606,7 +3985,12 @@
       "explanation": "India, captained by Harmanpreet Kaur, beat South Africa in the final at Navi Mumbai on 2 November 2025 to win their first Women's ODI World Cup.",
       "source": "ai",
       "archetype": "rrb-group-d-G01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Women's WC 2025 final vs South Africa - recent sports, Group D 2025-26 style"
+      }
     },
     {
       "id": "rrb-group-d-110",
@@ -3624,7 +4008,12 @@
       "explanation": "The Commonwealth Sport General Assembly in Glasgow confirmed Ahmedabad (Gujarat) as host of the 2030 Commonwealth Games, the centenary edition.",
       "source": "ai",
       "archetype": "rrb-group-d-G01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "CWG 2030 host Ahmedabad - recent sports host item"
+      }
     },
     {
       "id": "rrb-group-d-111",
@@ -3642,7 +4031,12 @@
       "explanation": "The scheme aims to install rooftop solar for one crore households, providing up to 300 units of free electricity every month.",
       "source": "ai",
       "archetype": "rrb-group-d-G02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "PM Surya Ghar 300 units - Group D scheme headline-number format"
+      }
     },
     {
       "id": "rrb-group-d-112",
@@ -3660,7 +4054,12 @@
       "explanation": "After Jagdeep Dhankhar resigned in July 2025, C. P. Radhakrishnan defeated B. Sudershan Reddy in the election held on 9 September 2025 and became the 15th Vice-President.",
       "source": "ai",
       "archetype": "rrb-group-d-G03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "VP election Sept 2025 CP Radhakrishnan with rival candidate trap - appointments CA"
+      }
     },
     {
       "id": "rrb-group-d-113",
@@ -3678,7 +4077,12 @@
       "explanation": "The bridge stands in the Reasi district of Jammu and Kashmir on the Udhampur–Srinagar–Baramulla Rail Link and was inaugurated on 6 June 2025.",
       "source": "ai",
       "archetype": "rrb-group-d-G04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Chenab bridge in J&K - railway news archetype, highly likely asked"
+      }
     },
     {
       "id": "rrb-group-d-114",
@@ -3696,7 +4100,12 @@
       "explanation": "Under the tinkathia system, peasants of Champaran (Bihar) were forced to grow indigo on part of their land; Gandhi's first satyagraha in India opposed it.",
       "source": "ai",
       "archetype": "rrb-group-d-G05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Champaran indigo - Group D satyagraha item"
+      }
     },
     {
       "id": "rrb-group-d-115",
@@ -3714,7 +4123,12 @@
       "explanation": "Akbar built the Buland Darwaza (c. 1575) to commemorate his victory in Gujarat.",
       "source": "ai",
       "archetype": "rrb-group-d-G06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Buland Darwaza-Akbar - Group D monument-ruler"
+      }
     },
     {
       "id": "rrb-group-d-116",
@@ -3732,7 +4146,12 @@
       "explanation": "Article 21A was inserted by the 86th Amendment (2002), making elementary education a Fundamental Right. Article 45 now covers early childhood care below 6 years.",
       "source": "ai",
       "archetype": "rrb-group-d-G07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Art 21A RTE with Art 45/51A traps - Group D Article item"
+      }
     },
     {
       "id": "rrb-group-d-117",
@@ -3750,7 +4169,12 @@
       "explanation": "The Kosi frequently changes its course and causes devastating floods in north Bihar. The Damodar was called the \"Sorrow of Bengal\".",
       "source": "ai",
       "archetype": "rrb-group-d-G08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Kosi sorrow of Bihar vs Damodar trap - Group D rivers"
+      }
     },
     {
       "id": "rrb-group-d-118",
@@ -3768,7 +4192,12 @@
       "explanation": "Under the RBI Act, 1934 the RBI issues banknotes; one-rupee notes and coins are issued by the Government of India (Ministry of Finance).",
       "source": "ai",
       "archetype": "rrb-group-d-G10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "RBI issues notes except ₹1 - Group D economy"
+      }
     },
     {
       "id": "rrb-group-d-119",
@@ -3786,7 +4215,12 @@
       "explanation": "Bihu (Rongali, Kongali and Bhogali) is the principal festival of Assam.",
       "source": "ai",
       "archetype": "rrb-group-d-G11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Bihu-Assam very easy and duplicates the Pongal festival-state item"
+      }
     },
     {
       "id": "rrb-group-d-120",
@@ -3804,7 +4238,12 @@
       "explanation": "The Space Docking Experiment (SpaDeX) satellites SDX01 and SDX02 docked on 16 January 2025.",
       "source": "ai",
       "archetype": "rrb-group-d-G13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "SpaDeX docking Jan 2025 - ISRO milestone asked in 2025 rail exams"
+      }
     }
   ]
 }

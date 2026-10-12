@@ -168,7 +168,12 @@
       "explanation": "Article 17 abolishes untouchability. Article 14 guarantees equality before law, Article 21 life and personal liberty, and Article 32 constitutional remedies.",
       "verified": true,
       "archetype": "cuet-ug-G01",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Article 17 untouchability with Art 14/21/32 traps; CUET GT polity item"
+      }
     },
     {
       "id": "cuet-ug-002",
@@ -186,7 +191,12 @@
       "explanation": "The Tropic of Cancer passes through Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram. It does not pass through Bihar.",
       "verified": true,
       "archetype": "cuet-ug-G03",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Tropic of Cancer NOT through Bihar with Jharkhand/Tripura/Mizoram traps; CUET geography format"
+      }
     },
     {
       "id": "cuet-ug-003",
@@ -204,25 +214,12 @@
       "explanation": "Lord Mountbatten served as Governor-General from August 1947 to June 1948. C. Rajagopalachari was the first (and only) Indian Governor-General.",
       "verified": true,
       "archetype": "cuet-ug-G02",
-      "source": "curated"
-    },
-    {
-      "id": "cuet-ug-004",
-      "section": "gt",
-      "topic": "General Knowledge & Current Affairs",
-      "difficulty": "easy",
-      "question": "Which gas makes up the largest share of the Earth's atmosphere by volume?",
-      "options": [
-        "Nitrogen",
-        "Argon",
-        "Oxygen",
-        "Carbon dioxide"
-      ],
-      "answer": 0,
-      "explanation": "Nitrogen makes up about 78% of the atmosphere, oxygen about 21% and argon about 0.93%.",
-      "verified": true,
-      "archetype": "cuet-ug-G04",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Mountbatten vs Rajagopalachari trap; good GK but not the year/chronology archetype claimed"
+      }
     },
     {
       "id": "cuet-ug-005",
@@ -240,25 +237,12 @@
       "explanation": "The Battle of Plassey took place in 1757. Buxar was fought in 1764 and the Third Battle of Panipat in 1761.",
       "verified": true,
       "archetype": "cuet-ug-G02",
-      "source": "curated"
-    },
-    {
-      "id": "cuet-ug-006",
-      "section": "gt",
-      "topic": "General Knowledge & Current Affairs",
-      "difficulty": "medium",
-      "question": "India celebrates 23 August as 'National Space Day' because on that date in 2023:",
-      "options": [
-        "Chandrayaan-3's lander touched down near the Moon's south pole",
-        "Gaganyaan's first crewed mission was launched",
-        "Aditya-L1 was launched towards the Sun",
-        "Mangalyaan entered orbit around Mars"
-      ],
-      "answer": 0,
-      "explanation": "Chandrayaan-3's Vikram lander soft-landed near the lunar south pole on 23 Aug 2023. Aditya-L1 was launched on 2 Sep 2023, and Mangalyaan reached Mars orbit in 2014.",
-      "verified": true,
-      "archetype": "cuet-ug-G06",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Plassey 1757 with Buxar 1764/Panipat 1761 traps; CUET history item"
+      }
     },
     {
       "id": "cuet-ug-007",
@@ -276,25 +260,12 @@
       "explanation": "The RBI was established on 1 April 1935 under the RBI Act, 1934. It was nationalised in 1949, and 14 commercial banks were nationalised in 1969.",
       "verified": true,
       "archetype": "cuet-ug-G07",
-      "source": "curated"
-    },
-    {
-      "id": "cuet-ug-008",
-      "section": "gt",
-      "topic": "General Mental Ability",
-      "difficulty": "easy",
-      "question": "Find the odd one out: Mercury, Venus, Moon, Mars",
-      "options": [
-        "Moon",
-        "Mars",
-        "Venus",
-        "Mercury"
-      ],
-      "answer": 0,
-      "explanation": "Mercury, Venus and Mars are planets. The Moon is a natural satellite of the Earth.",
-      "verified": true,
-      "archetype": "cuet-ug-G09",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "RBI 1935 with 1949 nationalisation and 1969 traps; CUET economy item"
+      }
     },
     {
       "id": "cuet-ug-009",
@@ -312,7 +283,12 @@
       "explanation": "The dictionary order is Brick, Bride, Bridge, Brief, Bright, so the third word is Bridge.",
       "verified": true,
       "archetype": "cuet-ug-G10",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Dictionary order Brick-Bride-Bridge-Brief-Bright, third = Bridge; CUET GT item"
+      }
     },
     {
       "id": "cuet-ug-010",
@@ -330,7 +306,12 @@
       "explanation": "2025 is not a leap year, so it has 365 days = 52 weeks + 1 day. The day therefore moves forward by one, to Thursday.",
       "verified": true,
       "archetype": "cuet-ug-G11",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Non-leap year +1 day -> Thursday; CUET calendar item"
+      }
     },
     {
       "id": "cuet-ug-011",
@@ -348,7 +329,12 @@
       "explanation": "25% of 480 = 120 and 40% of 250 = 100, so the total is 220.",
       "verified": true,
       "archetype": "cuet-ug-G12",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "120+100=220; simple percentage computation"
+      }
     },
     {
       "id": "cuet-ug-012",
@@ -366,7 +352,12 @@
       "explanation": "SI = P × R × T / 100 = 8000 × 6 × 3 / 100 = ₹1,440.",
       "verified": true,
       "archetype": "cuet-ug-G14",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "SI 1440; plain formula item"
+      }
     },
     {
       "id": "cuet-ug-013",
@@ -384,7 +375,12 @@
       "explanation": "Total of five = 90 and total of four = 64, so the removed number is 90 − 64 = 26.",
       "verified": true,
       "archetype": "cuet-ug-G15",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Removed number 90-64=26; CUET average item"
+      }
     },
     {
       "id": "cuet-ug-014",
@@ -402,25 +398,12 @@
       "explanation": "Speed = 240 ÷ 12 = 20 m/s, and 20 × 18/5 = 72 km/h.",
       "verified": true,
       "archetype": "cuet-ug-G16",
-      "source": "curated"
-    },
-    {
-      "id": "cuet-ug-015",
-      "section": "gt",
-      "topic": "Numerical Ability",
-      "difficulty": "easy",
-      "question": "An article bought for ₹600 is sold for ₹690. What is the profit percentage?",
-      "options": [
-        "13%",
-        "9%",
-        "18%",
-        "15%"
-      ],
-      "answer": 3,
-      "explanation": "Profit = ₹90, and 90 ÷ 600 × 100 = 15%.",
-      "verified": true,
-      "archetype": "cuet-ug-G13",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "20 m/s = 72 km/h with unconverted-20 trap; CUET speed item"
+      }
     },
     {
       "id": "cuet-ug-016",
@@ -438,7 +421,12 @@
       "explanation": "Make B common: A : B = 18 : 24 and B : C = 24 : 20, so A : B : C = 18 : 24 : 20 = 9 : 12 : 10.",
       "verified": true,
       "archetype": "cuet-ug-G17",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Combined ratio 9:12:10 with naive 3:4:5 trap; CUET ratio"
+      }
     },
     {
       "id": "cuet-ug-017",
@@ -456,7 +444,12 @@
       "explanation": "(x + 1/x)² = x² + 2 + 1/x², so x² + 1/x² = 16 − 2 = 14.",
       "verified": true,
       "archetype": "cuet-ug-G19",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "x^2+1/x^2 = 16-2 = 14 with 16/18 traps; CUET algebra"
+      }
     },
     {
       "id": "cuet-ug-018",
@@ -474,25 +467,12 @@
       "explanation": "2πr = 44 gives r = 7 cm, so the area is (22/7) × 49 = 154 cm².",
       "verified": true,
       "archetype": "cuet-ug-G20",
-      "source": "curated"
-    },
-    {
-      "id": "cuet-ug-019",
-      "section": "gt",
-      "topic": "Quantitative Reasoning",
-      "difficulty": "easy",
-      "question": "What is the mode of the data 3, 5, 7, 5, 9, 5, 7?",
-      "options": [
-        "5",
-        "9",
-        "3",
-        "7"
-      ],
-      "answer": 0,
-      "explanation": "5 occurs three times, more often than any other value.",
-      "verified": true,
-      "archetype": "cuet-ug-G21",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "r=7 from circumference, area 154 with diameter traps"
+      }
     },
     {
       "id": "cuet-ug-020",
@@ -510,7 +490,12 @@
       "explanation": "(10/2) × (8/2) × (6/2) = 5 × 4 × 3 = 60.",
       "verified": true,
       "archetype": "cuet-ug-G20",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Packing 5×4×3=60 cubes with 480 volume trap"
+      }
     },
     {
       "id": "cuet-ug-021",
@@ -528,7 +513,12 @@
       "explanation": "37 × 27 = 999, so 1000 leaves a remainder of 1. Adding 37 − 1 = 36 gives 1036 = 37 × 28.",
       "verified": true,
       "archetype": "cuet-ug-G22",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "1000 = 37×27+1, add 36 with remainder trap 1"
+      }
     },
     {
       "id": "cuet-ug-022",
@@ -546,7 +536,12 @@
       "explanation": "Each term is (previous × 2) + 1, so 79 × 2 + 1 = 159.",
       "verified": true,
       "archetype": "cuet-ug-G24",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "×2+1 series -> 159; CUET series"
+      }
     },
     {
       "id": "cuet-ug-023",
@@ -564,7 +559,12 @@
       "explanation": "Each letter moves two places forward (T→V, E→G, …). So S→U, T→V, U→W, D→F, E→G, N→P, T→V, giving UVWFGPV.",
       "verified": true,
       "archetype": "cuet-ug-G25",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "+2 letter shift STUDENT -> UVWFGPV with near-miss traps"
+      }
     },
     {
       "id": "cuet-ug-024",
@@ -582,7 +582,12 @@
       "explanation": "A is a daughter of C (B's mother), and C is D's child. So A is D's granddaughter.",
       "verified": true,
       "archetype": "cuet-ug-G26",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Chain relation -> granddaughter; CUET blood relation"
+      }
     },
     {
       "id": "cuet-ug-025",
@@ -600,7 +605,12 @@
       "explanation": "She ends 6 m east and 18 − 10 = 8 m south of the start. Distance = √(6² + 8²) = 10 m.",
       "verified": true,
       "archetype": "cuet-ug-G27",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "6-8-10 triple after turns -> 10 m; CUET direction item"
+      }
     },
     {
       "id": "cuet-ug-026",
@@ -618,7 +628,12 @@
       "explanation": "'All roses are flowers' implies that some flowers are roses, so I follows. The red flowers need not include any roses, so II does not follow.",
       "verified": true,
       "archetype": "cuet-ug-G28",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Only I by conversion; CUET syllogism"
+      }
     },
     {
       "id": "cuet-ug-027",
@@ -636,7 +651,12 @@
       "explanation": "Position from the right = 40 − 12 + 1 = 29.",
       "verified": true,
       "archetype": "cuet-ug-G29",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "40-12+1 = 29th with 28 trap; CUET ranking"
+      }
     },
     {
       "id": "cuet-ug-028",
@@ -654,43 +674,12 @@
       "explanation": "Since S is 3rd and R is at an end to the left of S, R is 1st. P and Q must be adjacent (P then Q), so they take positions 4 and 5. T fills position 2. The order is R, T, S, P, Q, so Q is at the extreme right.",
       "verified": true,
       "archetype": "cuet-ug-G30",
-      "source": "curated"
-    },
-    {
-      "id": "cuet-ug-029",
-      "section": "gt",
-      "topic": "Logical & Analytical Reasoning",
-      "difficulty": "easy",
-      "question": "Find the odd one out: 121, 144, 169, 196, 210",
-      "options": [
-        "210",
-        "196",
-        "169",
-        "121"
-      ],
-      "answer": 0,
-      "explanation": "121, 144, 169 and 196 are the perfect squares 11², 12², 13² and 14². 210 is not a perfect square.",
-      "verified": true,
-      "archetype": "cuet-ug-G34",
-      "source": "curated"
-    },
-    {
-      "id": "cuet-ug-030",
-      "section": "gt",
-      "topic": "Logical & Analytical Reasoning",
-      "difficulty": "easy",
-      "question": "Choose the number that completes the analogy: 3 : 27 :: 5 : ?",
-      "options": [
-        "75",
-        "25",
-        "125",
-        "135"
-      ],
-      "answer": 2,
-      "explanation": "27 = 3³, so the second number is the cube of the first: 5³ = 125.",
-      "verified": true,
-      "archetype": "cuet-ug-G31",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "R-T-S-P-Q -> Q at right end; unique solution, CUET seating"
+      }
     },
     {
       "id": "cuet-ug-031",
@@ -708,7 +697,12 @@
       "explanation": "The passage says some are manufactured small, but 'most, however, are the result of larger items breaking down under sunlight and waves'.",
       "verified": true,
       "archetype": "cuet-ug-E01",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Detail retrieval with microbead trap; CUET factual passage"
+      }
     },
     {
       "id": "cuet-ug-032",
@@ -726,7 +720,12 @@
       "explanation": "The passage explains that the debate continues 'partly because measuring particles this tiny in blood or tissue is technically difficult'.",
       "verified": true,
       "archetype": "cuet-ug-E01",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Reason for debate from passage; CUET item"
+      }
     },
     {
       "id": "cuet-ug-033",
@@ -744,25 +743,12 @@
       "explanation": "The last sentence says the most effective remedy is 'not better clean-up technology but producing less plastic in the first place'.",
       "verified": true,
       "archetype": "cuet-ug-E01",
-      "source": "curated"
-    },
-    {
-      "id": "cuet-ug-034",
-      "section": "eng",
-      "topic": "Reading Comprehension (factual, narrative, literary)",
-      "difficulty": "easy",
-      "question": "Read the passage and answer.\n\n\"Microplastics – fragments smaller than five millimetres – have now been found from the summit of Everest to the floor of the Mariana Trench. Some are manufactured at that size, such as the microbeads once common in face scrubs; most, however, are the result of larger items breaking down under sunlight and waves. Because they are so small, they are easily swallowed by plankton and fish, and they can carry toxic chemicals that cling to their surfaces. Scientists are still debating how seriously they threaten human health, partly because measuring particles this tiny in blood or tissue is technically difficult. What is not in doubt is that their quantity is rising: global plastic production has roughly doubled in two decades, and only a small fraction is recycled. Many researchers therefore argue that the most effective remedy is not better clean-up technology but producing less plastic in the first place.\"\n\nThe word 'cling', as used in the passage, means:",
-      "options": [
-        "Repel",
-        "Dissolve",
-        "Evaporate",
-        "Stick closely"
-      ],
-      "answer": 3,
-      "explanation": "Chemicals that 'cling to their surfaces' stick closely to the particles.",
-      "verified": true,
-      "archetype": "cuet-ug-E03",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Remedy with 'clean-up technology' trap negated in passage"
+      }
     },
     {
       "id": "cuet-ug-035",
@@ -780,25 +766,12 @@
       "explanation": "The passage says the health threat is still being debated, so it makes no claim that microplastics have been proven to cause cancer.",
       "verified": true,
       "archetype": "cuet-ug-E01",
-      "source": "curated"
-    },
-    {
-      "id": "cuet-ug-036",
-      "section": "eng",
-      "topic": "Reading Comprehension (factual, narrative, literary)",
-      "difficulty": "easy",
-      "question": "Read the passage and answer.\n\n\"Microplastics – fragments smaller than five millimetres – have now been found from the summit of Everest to the floor of the Mariana Trench. Some are manufactured at that size, such as the microbeads once common in face scrubs; most, however, are the result of larger items breaking down under sunlight and waves. Because they are so small, they are easily swallowed by plankton and fish, and they can carry toxic chemicals that cling to their surfaces. Scientists are still debating how seriously they threaten human health, partly because measuring particles this tiny in blood or tissue is technically difficult. What is not in doubt is that their quantity is rising: global plastic production has roughly doubled in two decades, and only a small fraction is recycled. Many researchers therefore argue that the most effective remedy is not better clean-up technology but producing less plastic in the first place.\"\n\nThe tone of the passage is best described as:",
-      "options": [
-        "Humorous and light-hearted",
-        "Nostalgic and sentimental",
-        "Sarcastic and mocking",
-        "Informative and cautionary"
-      ],
-      "answer": 3,
-      "explanation": "The passage presents facts objectively and warns about a growing problem.",
-      "verified": true,
-      "archetype": "cuet-ug-E02",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "'NOT stated' with overclaim (proven cancer) trap; strong CUET item"
+      }
     },
     {
       "id": "cuet-ug-037",
@@ -816,25 +789,12 @@
       "explanation": "The opening sentence says he bought an old harmonium and enrolled in a music class full of ten-year-olds.",
       "verified": true,
       "archetype": "cuet-ug-E04",
-      "source": "curated"
-    },
-    {
-      "id": "cuet-ug-038",
-      "section": "eng",
-      "topic": "Reading Comprehension (factual, narrative, literary)",
-      "difficulty": "easy",
-      "question": "Read the passage and answer.\n\n\"When Meera's grandfather retired from the railways, he did something no one expected: he bought an old harmonium and enrolled in a music class full of ten-year-olds. The children giggled at first when the white-haired man fumbled with the simplest scales. He laughed along with them. Every evening, while the rest of the family watched television, the slow, wheezing notes of 'Sa Re Ga Ma' drifted from his room. Meera, embarrassed, once asked him why he bothered at his age. 'For forty years,' he said, 'I made sure trains arrived on time. Now I want to arrive somewhere myself.' Two winters later, at the colony's annual function, he played a full raga without a single mistake. Meera, sitting in the front row, was the first to stand up and clap.\"\n\nHow did the grandfather react when the children giggled at him?",
-      "options": [
-        "He complained to the teacher",
-        "He laughed along with them",
-        "He left the class in anger",
-        "He stopped practising at home"
-      ],
-      "answer": 1,
-      "explanation": "The passage states simply: 'He laughed along with them.'",
-      "verified": true,
-      "archetype": "cuet-ug-E04",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Narrative event retrieval with 'teaching music' trap"
+      }
     },
     {
       "id": "cuet-ug-039",
@@ -852,7 +812,12 @@
       "explanation": "He contrasts making trains arrive on time for others with reaching a destination of his own, here a personal goal in music. It is a metaphor.",
       "verified": true,
       "archetype": "cuet-ug-E16",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Meaning of 'arrive somewhere myself' with literal train traps; good CUET quoted-line item"
+      }
     },
     {
       "id": "cuet-ug-040",
@@ -870,7 +835,12 @@
       "explanation": "At first she is 'embarrassed', but at the end she is the first to stand up and clap, which shows pride and admiration.",
       "verified": true,
       "archetype": "cuet-ug-E16",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Feeling change embarrassment -> pride with reversed trap"
+      }
     },
     {
       "id": "cuet-ug-041",
@@ -888,7 +858,12 @@
       "explanation": "Wheezing suggests a breathy, strained sound, which suits a beginner on an old harmonium.",
       "verified": true,
       "archetype": "cuet-ug-E03",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "'wheezing' in context; CUET vocabulary"
+      }
     },
     {
       "id": "cuet-ug-042",
@@ -906,25 +881,12 @@
       "explanation": "The story shows a retired man successfully learning music late in life.",
       "verified": true,
       "archetype": "cuet-ug-E16",
-      "source": "curated"
-    },
-    {
-      "id": "cuet-ug-043",
-      "section": "eng",
-      "topic": "Vocabulary: Synonyms, Antonyms & Word Usage",
-      "difficulty": "easy",
-      "question": "Choose the word most similar in meaning to BENEVOLENT.",
-      "options": [
-        "Timid",
-        "Kind-hearted",
-        "Greedy",
-        "Hostile"
-      ],
-      "answer": 1,
-      "explanation": "Benevolent means well-meaning and kindly.",
-      "verified": true,
-      "archetype": "cuet-ug-E05",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Title 'Never Too Late'; CUET narrative title item"
+      }
     },
     {
       "id": "cuet-ug-044",
@@ -942,7 +904,12 @@
       "explanation": "Scarce means in short supply, so its opposite is abundant. Rare, meagre and insufficient are near-synonyms of scarce.",
       "verified": true,
       "archetype": "cuet-ug-E06",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Scarce antonym with near-synonym distractors; CUET format"
+      }
     },
     {
       "id": "cuet-ug-045",
@@ -960,7 +927,12 @@
       "explanation": "Meticulous means showing great attention to detail, that is, painstaking.",
       "verified": true,
       "archetype": "cuet-ug-E05",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Meticulous synonym with antonym traps; CUET vocabulary"
+      }
     },
     {
       "id": "cuet-ug-046",
@@ -978,25 +950,12 @@
       "explanation": "Candid means frank and open, so its opposite is evasive.",
       "verified": true,
       "archetype": "cuet-ug-E06",
-      "source": "curated"
-    },
-    {
-      "id": "cuet-ug-047",
-      "section": "eng",
-      "topic": "Vocabulary: Synonyms, Antonyms & Word Usage",
-      "difficulty": "easy",
-      "question": "Choose the correctly spelt word.",
-      "options": [
-        "Accomodation",
-        "Acommodation",
-        "Acomodation",
-        "Accommodation"
-      ],
-      "answer": 3,
-      "explanation": "The correct spelling has a double 'c' and a double 'm': accommodation.",
-      "verified": true,
-      "archetype": "cuet-ug-E07",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Candid antonym evasive with three near-synonym traps; exact CUET format"
+      }
     },
     {
       "id": "cuet-ug-048",
@@ -1014,7 +973,12 @@
       "explanation": "'Affect' is the verb meaning to influence. 'Effect' is usually a noun, or as a verb it means to bring about.",
       "verified": true,
       "archetype": "cuet-ug-E08",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "affect/effect in verb slot; CUET confused-words item"
+      }
     },
     {
       "id": "cuet-ug-049",
@@ -1032,79 +996,12 @@
       "explanation": "'Each' is singular, so the verb must be 'has finished'.",
       "verified": true,
       "archetype": "cuet-ug-E09",
-      "source": "curated"
-    },
-    {
-      "id": "cuet-ug-050",
-      "section": "eng",
-      "topic": "Grammar: Error Detection, Fill-ups, Voice & Narration",
-      "difficulty": "easy",
-      "question": "Fill in the blank: \"She has been living in Pune ______ 2019.\"",
-      "options": [
-        "by",
-        "for",
-        "since",
-        "from"
-      ],
-      "answer": 2,
-      "explanation": "'Since' is used with a point in time in the perfect continuous tense. 'For' is used with a period of time.",
-      "verified": true,
-      "archetype": "cuet-ug-E10",
-      "source": "curated"
-    },
-    {
-      "id": "cuet-ug-051",
-      "section": "eng",
-      "topic": "Grammar: Error Detection, Fill-ups, Voice & Narration",
-      "difficulty": "medium",
-      "question": "Choose the correct passive form of: \"The committee will announce the results tomorrow.\"",
-      "options": [
-        "The results would be announced by the committee tomorrow.",
-        "The results are announced by the committee tomorrow.",
-        "The results will be announced by the committee tomorrow.",
-        "The results will announced by the committee tomorrow."
-      ],
-      "answer": 2,
-      "explanation": "Simple future passive = will be + past participle, so 'will be announced'.",
-      "verified": true,
-      "archetype": "cuet-ug-E11",
-      "source": "curated"
-    },
-    {
-      "id": "cuet-ug-052",
-      "section": "eng",
-      "topic": "Grammar: Error Detection, Fill-ups, Voice & Narration",
-      "difficulty": "easy",
-      "question": "Choose the correct indirect speech of: He said, \"I am tired.\"",
-      "options": [
-        "He says that he was tired.",
-        "He said that I was tired.",
-        "He said that he was tired.",
-        "He said that he will be tired."
-      ],
-      "answer": 2,
-      "explanation": "With a past reporting verb, the present 'am' becomes 'was' and 'I' becomes 'he'.",
-      "verified": true,
-      "archetype": "cuet-ug-E12",
-      "source": "curated"
-    },
-    {
-      "id": "cuet-ug-053",
-      "section": "eng",
-      "topic": "Grammar: Error Detection, Fill-ups, Voice & Narration",
-      "difficulty": "easy",
-      "question": "Fill in the blank: \"He is ______ honest man.\"",
-      "options": [
-        "no article needed",
-        "a",
-        "an",
-        "the"
-      ],
-      "answer": 2,
-      "explanation": "'Honest' begins with a vowel sound (the 'h' is silent), so it takes 'an'.",
-      "verified": true,
-      "archetype": "cuet-ug-E10",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "'Each of the boys have' SVA error; CUET error-spotting"
+      }
     },
     {
       "id": "cuet-ug-054",
@@ -1122,7 +1019,12 @@
       "explanation": "Latin-origin comparatives such as senior, junior, superior and inferior take 'to', not 'than'.",
       "verified": true,
       "archetype": "cuet-ug-E10",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "senior to with 'than' trap; CUET preposition item"
+      }
     },
     {
       "id": "cuet-ug-055",
@@ -1140,7 +1042,12 @@
       "explanation": "Hypothetical (second) conditionals use the subjunctive 'were' for all persons: 'If I were you…'.",
       "verified": true,
       "archetype": "cuet-ug-E10",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Subjunctive 'If I were'; CUET conditional item"
+      }
     },
     {
       "id": "cuet-ug-056",
@@ -1158,7 +1065,12 @@
       "explanation": "'The old library (P) in the town centre (S) was finally reopened (Q) after years of renovation (R).'",
       "verified": true,
       "archetype": "cuet-ug-E13",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "PSQR fragment ordering; CUET rearrangement"
+      }
     },
     {
       "id": "cuet-ug-057",
@@ -1176,43 +1088,12 @@
       "explanation": "He grabs his bag (R), runs to the station (P), finds the train gone (Q), and waits for the next one (S).",
       "verified": true,
       "archetype": "cuet-ug-E17",
-      "source": "curated"
-    },
-    {
-      "id": "cuet-ug-058",
-      "section": "eng",
-      "topic": "Idioms, Phrases & One-word Substitution",
-      "difficulty": "easy",
-      "question": "Choose the meaning of the idiom 'to burn the midnight oil'.",
-      "options": [
-        "To cook food late at night",
-        "To waste money carelessly",
-        "To work or study late into the night",
-        "To start a quarrel"
-      ],
-      "answer": 2,
-      "explanation": "'Burning the midnight oil' means staying up late working or studying.",
-      "verified": true,
-      "archetype": "cuet-ug-E14",
-      "source": "curated"
-    },
-    {
-      "id": "cuet-ug-059",
-      "section": "eng",
-      "topic": "Idioms, Phrases & One-word Substitution",
-      "difficulty": "easy",
-      "question": "Choose the meaning of the phrase 'a blessing in disguise'.",
-      "options": [
-        "Something that seems bad at first but turns out to be good",
-        "A person who pretends to be religious",
-        "A reward that comes too late",
-        "A gift given secretly"
-      ],
-      "answer": 0,
-      "explanation": "A blessing in disguise is an apparent misfortune that later proves beneficial.",
-      "verified": true,
-      "archetype": "cuet-ug-E14",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Fixed first sentence, RPQS sequence; CUET paragraph order"
+      }
     },
     {
       "id": "cuet-ug-060",
@@ -1230,25 +1111,12 @@
       "explanation": "A polyglot knows many languages. A philanthropist helps others, a misanthrope dislikes people, and a bibliophile loves books.",
       "verified": true,
       "archetype": "cuet-ug-E15",
-      "source": "curated"
-    },
-    {
-      "id": "cuet-ug-061",
-      "section": "gt",
-      "topic": "General Knowledge & Current Affairs",
-      "difficulty": "easy",
-      "question": "Which Part of the Constitution of India deals with Fundamental Rights?",
-      "options": [
-        "Part III",
-        "Part IV",
-        "Part IV-A",
-        "Part II"
-      ],
-      "answer": 0,
-      "explanation": "Fundamental Rights are in Part III (Articles 12–35). Part IV has the Directive Principles, Part IV-A the Fundamental Duties and Part II citizenship.",
-      "source": "ai",
-      "archetype": "cuet-ug-G01",
-      "verified": false
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Polyglot with -phile/-thrope traps; CUET one-word substitution"
+      }
     },
     {
       "id": "cuet-ug-062",
@@ -1266,7 +1134,12 @@
       "explanation": "Jallianwala Bagh (1919), Non-Cooperation Movement (1920), Dandi March (1930), Quit India Movement (1942).",
       "source": "ai",
       "archetype": "cuet-ug-G02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Chronology 1919-1920-1930-1942; CUET history ordering format"
+      }
     },
     {
       "id": "cuet-ug-063",
@@ -1284,25 +1157,12 @@
       "explanation": "The Kosi is called the Sorrow of Bihar. The Damodar was called the Sorrow of Bengal.",
       "source": "ai",
       "archetype": "cuet-ug-G03",
-      "verified": false
-    },
-    {
-      "id": "cuet-ug-064",
-      "section": "gt",
-      "topic": "General Knowledge & Current Affairs",
-      "difficulty": "easy",
-      "question": "Which vitamin is produced in the human skin when it is exposed to sunlight?",
-      "options": [
-        "Vitamin A",
-        "Vitamin D",
-        "Vitamin C",
-        "Vitamin K"
-      ],
-      "answer": 1,
-      "explanation": "Ultraviolet-B rays in sunlight help the skin make vitamin D, which is needed to absorb calcium.",
-      "source": "ai",
-      "archetype": "cuet-ug-G04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Kosi 'Sorrow of Bihar' with Damodar trap; CUET river-nickname item"
+      }
     },
     {
       "id": "cuet-ug-065",
@@ -1320,7 +1180,12 @@
       "explanation": "Sattriya was developed in the sattras (monasteries) of Assam by Srimanta Sankardev. Manipuri, Odissi and Kathakali/Mohiniyattam come from the other states.",
       "source": "ai",
       "archetype": "cuet-ug-G05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Sattriya-Assam; CUET dance-state item"
+      }
     },
     {
       "id": "cuet-ug-066",
@@ -1338,7 +1203,12 @@
       "explanation": "COP30 was held in Belém, Brazil, in November 2025. COP29 was in Baku (Azerbaijan), COP28 in Dubai (UAE) and COP27 in Sharm el-Sheikh (Egypt).",
       "source": "ai",
       "archetype": "cuet-ug-G06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "COP30 Belém, Brazil 2025 with COP29/28/27 host traps; in current-affairs window"
+      }
     },
     {
       "id": "cuet-ug-067",
@@ -1356,43 +1226,12 @@
       "explanation": "GST was rolled out nationwide from 1 July 2017 after the 101st Constitutional Amendment (2016).",
       "source": "ai",
       "archetype": "cuet-ug-G07",
-      "verified": false
-    },
-    {
-      "id": "cuet-ug-068",
-      "section": "gt",
-      "topic": "General Knowledge & Current Affairs",
-      "difficulty": "easy",
-      "question": "'The Discovery of India' was written by:",
-      "options": [
-        "Mahatma Gandhi",
-        "Rabindranath Tagore",
-        "Jawaharlal Nehru",
-        "B. R. Ambedkar"
-      ],
-      "answer": 2,
-      "explanation": "Jawaharlal Nehru wrote The Discovery of India during his imprisonment at Ahmednagar Fort (1942–46).",
-      "source": "ai",
-      "archetype": "cuet-ug-G08",
-      "verified": false
-    },
-    {
-      "id": "cuet-ug-069",
-      "section": "gt",
-      "topic": "General Mental Ability",
-      "difficulty": "easy",
-      "question": "Find the odd one out: Violin, Sitar, Guitar, Flute",
-      "options": [
-        "Violin",
-        "Sitar",
-        "Flute",
-        "Guitar"
-      ],
-      "answer": 2,
-      "explanation": "Violin, sitar and guitar are string instruments; the flute is a wind instrument.",
-      "source": "ai",
-      "archetype": "cuet-ug-G09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "GST 1 July 2017 with date traps"
+      }
     },
     {
       "id": "cuet-ug-070",
@@ -1410,7 +1249,12 @@
       "explanation": "Comparing the fourth letters (a, c, d, o, t): Canal, Cancel, Candle, Canopy, Canteen. The second word is Cancel.",
       "source": "ai",
       "archetype": "cuet-ug-G10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Canal-Cancel-Candle-Canopy-Canteen, second = Cancel; CUET item"
+      }
     },
     {
       "id": "cuet-ug-071",
@@ -1428,7 +1272,12 @@
       "explanation": "Angle = |30H − 5.5M| = |90 − 220| = 130°.",
       "source": "ai",
       "archetype": "cuet-ug-G11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Clock angle at 3:40 = 130° with 140 trap"
+      }
     },
     {
       "id": "cuet-ug-072",
@@ -1446,7 +1295,12 @@
       "explanation": "The winner got 65%, so the margin is 65% − 35% = 30% of the total = 450. Total = 450 × 100/30 = 1500.",
       "source": "ai",
       "archetype": "cuet-ug-G12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "35% vs 65%, 30% = 450 -> 1500; CUET election-margin item"
+      }
     },
     {
       "id": "cuet-ug-073",
@@ -1464,7 +1318,12 @@
       "explanation": "After 20% off, ₹100 becomes ₹80; 10% off that gives ₹72. Single discount = 100 − 72 = 28%.",
       "source": "ai",
       "archetype": "cuet-ug-G13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Successive 20%,10% = 28% with 30% trap"
+      }
     },
     {
       "id": "cuet-ug-074",
@@ -1482,7 +1341,12 @@
       "explanation": "Amount = 5000 × 1.08² = 5000 × 1.1664 = ₹5,832. CI = 5832 − 5000 = ₹832. (₹800 is the simple interest.)",
       "source": "ai",
       "archetype": "cuet-ug-G14",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "CI 832 with SI 800 trap"
+      }
     },
     {
       "id": "cuet-ug-075",
@@ -1500,25 +1364,12 @@
       "explanation": "Downstream speed = 12 km/h, upstream speed = 8 km/h. Stream speed = (12 − 8)/2 = 2 km/h (boat speed = 10 km/h).",
       "source": "ai",
       "archetype": "cuet-ug-G16",
-      "verified": false
-    },
-    {
-      "id": "cuet-ug-076",
-      "section": "gt",
-      "topic": "Numerical Ability",
-      "difficulty": "easy",
-      "question": "A and B start a business by investing ₹40,000 and ₹60,000 for the same period. At the end of the year the profit is ₹25,000. What is A's share?",
-      "options": [
-        "₹10,000",
-        "₹15,000",
-        "₹12,500",
-        "₹8,000"
-      ],
-      "answer": 0,
-      "explanation": "Profit is shared in the ratio 40,000 : 60,000 = 2 : 3. A's share = 2/5 × 25,000 = ₹10,000.",
-      "source": "ai",
-      "archetype": "cuet-ug-G17",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Downstream 12, upstream 8 -> stream 2; CUET boats item"
+      }
     },
     {
       "id": "cuet-ug-077",
@@ -1536,7 +1387,12 @@
       "explanation": "Work per day = 1/12 + 1/18 = 3/36 + 2/36 = 5/36. Time = 36/5 = 7.2 days.",
       "source": "ai",
       "archetype": "cuet-ug-G18",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Work together 7.2 days with average trap"
+      }
     },
     {
       "id": "cuet-ug-078",
@@ -1554,7 +1410,12 @@
       "explanation": "a² + b² = (a + b)² − 2ab = 100 − 42 = 58.",
       "source": "ai",
       "archetype": "cuet-ug-G19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "a^2+b^2 = 100-42 = 58 with 142 sign trap"
+      }
     },
     {
       "id": "cuet-ug-079",
@@ -1572,7 +1433,12 @@
       "explanation": "V = ⅓πr²h = ⅓ × 22/7 × 9 × 7 = 66 cm³. (198 cm³ is the volume of the cylinder with the same base and height.)",
       "source": "ai",
       "archetype": "cuet-ug-G20",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Cone volume 66 with 198 (no 1/3) trap"
+      }
     },
     {
       "id": "cuet-ug-080",
@@ -1590,7 +1456,12 @@
       "explanation": "9999 ÷ 88 = 113 remainder 55. So 9999 − 55 = 9944 = 88 × 113 is the largest such number.",
       "source": "ai",
       "archetype": "cuet-ug-G22",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Largest 4-digit multiple of 88 = 9944"
+      }
     },
     {
       "id": "cuet-ug-081",
@@ -1608,25 +1479,12 @@
       "explanation": "Area = (√3/4) × a² = (√3/4) × 64 = 16√3 cm².",
       "source": "ai",
       "archetype": "cuet-ug-G23",
-      "verified": false
-    },
-    {
-      "id": "cuet-ug-082",
-      "section": "gt",
-      "topic": "Logical & Analytical Reasoning",
-      "difficulty": "easy",
-      "question": "Find the next term in the series: AZ, BY, CX, DW, ?",
-      "options": [
-        "EV",
-        "EU",
-        "FV",
-        "EW"
-      ],
-      "answer": 0,
-      "explanation": "The first letters move forward (A, B, C, D, E) and the second letters move backward (Z, Y, X, W, V). Next term: EV.",
-      "source": "ai",
-      "archetype": "cuet-ug-G24",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Equilateral triangle area 16√3 with 32√3/64√3 traps"
+      }
     },
     {
       "id": "cuet-ug-083",
@@ -1644,7 +1502,12 @@
       "explanation": "Each word is coded as the sum of the alphabet positions of its letters: C + A + T = 3 + 1 + 20 = 24; B + A + G = 2 + 1 + 7 = 10. DOG = 4 + 15 + 7 = 26.",
       "source": "ai",
       "archetype": "cuet-ug-G25",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Sum of letter positions DOG = 26; CUET positional coding"
+      }
     },
     {
       "id": "cuet-ug-084",
@@ -1662,7 +1525,12 @@
       "explanation": "The only son of Rahul's father's father is Rahul's father. The daughter of Rahul's father is Rahul's sister.",
       "source": "ai",
       "archetype": "cuet-ug-G26",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Father's father's only son = father -> sister; CUET relation riddle"
+      }
     },
     {
       "id": "cuet-ug-085",
@@ -1680,7 +1548,12 @@
       "explanation": "Turning left from east means walking north. Distance = √(5² + 12²) = 13 km, and she is to the north-east of the starting point.",
       "source": "ai",
       "archetype": "cuet-ug-G27",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "5-12-13 triple, north-east; CUET direction item"
+      }
     },
     {
       "id": "cuet-ug-086",
@@ -1698,7 +1571,12 @@
       "explanation": "The books that are pens are also pencils, so some books are pencils (I follows). Nothing says every pencil is a book, so II does not follow.",
       "source": "ai",
       "archetype": "cuet-ug-G28",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "I-A syllogism, only I follows"
+      }
     },
     {
       "id": "cuet-ug-087",
@@ -1716,7 +1594,12 @@
       "explanation": "Sohan is 18 + 5 = 23rd from the top. Rank from bottom = 45 − 23 + 1 = 23rd.",
       "source": "ai",
       "archetype": "cuet-ug-G29",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Sohan 23rd from top -> 23rd from bottom of 45"
+      }
     },
     {
       "id": "cuet-ug-088",
@@ -1734,7 +1617,12 @@
       "explanation": "Going clockwise (which is each person's left when facing the centre): A, B, _, C, _, D. E cannot sit next to D, so E is between B and C, and F is between C and D. C's immediate right (anticlockwise) is E.",
       "source": "ai",
       "archetype": "cuet-ug-G30",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Circular arrangement: E right of C; uniquely determined"
+      }
     },
     {
       "id": "cuet-ug-089",
@@ -1752,7 +1640,12 @@
       "explanation": "7² + 1 = 50, so 9² + 1 = 82.",
       "source": "ai",
       "archetype": "cuet-ug-G31",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "n^2+1 analogy -> 82 with 81 trap"
+      }
     },
     {
       "id": "cuet-ug-090",
@@ -1770,7 +1663,12 @@
       "explanation": "In each row, the third number = first × second − 2: 3 × 5 − 2 = 13, 4 × 6 − 2 = 22, so 7 × 3 − 2 = 19.",
       "source": "ai",
       "archetype": "cuet-ug-G32",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Row rule a×b-2 -> 19; CUET missing-number"
+      }
     },
     {
       "id": "cuet-ug-091",
@@ -1788,7 +1686,12 @@
       "explanation": "The passage says the cause was diclofenac, a painkiller given to cattle; vultures that fed on treated carcasses died of kidney failure. Disease and pesticides were only suspected earlier.",
       "source": "ai",
       "archetype": "cuet-ug-E01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Cause (diclofenac) with suspected-cause traps from passage; CUET factual item"
+      }
     },
     {
       "id": "cuet-ug-092",
@@ -1806,7 +1709,12 @@
       "explanation": "As vultures vanished, carcasses rotted in the open, feral dogs multiplied on the food and rabies cases rose.",
       "source": "ai",
       "archetype": "cuet-ug-E01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Consequence chain dogs/rabies with cattle-kidney trap"
+      }
     },
     {
       "id": "cuet-ug-093",
@@ -1824,7 +1732,12 @@
       "explanation": "The passage gives two reasons: a pair raises only one chick a year, and illegal use of human diclofenac on cattle has not stopped completely.",
       "source": "ai",
       "archetype": "cuet-ug-E01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Slow recovery reasons with contradicted options; CUET item"
+      }
     },
     {
       "id": "cuet-ug-094",
@@ -1842,43 +1755,12 @@
       "explanation": "Vultures stripped carcasses to the bone within hours, removing a source of disease without anyone having to pay for it.",
       "source": "ai",
       "archetype": "cuet-ug-E02",
-      "verified": false
-    },
-    {
-      "id": "cuet-ug-095",
-      "section": "eng",
-      "topic": "Reading Comprehension (factual, narrative, literary)",
-      "difficulty": "medium",
-      "question": "Read the passage and answer.\n\n\"In the early 1990s, India was home to tens of millions of vultures. Within about fifteen years, the populations of three common species had fallen by more than ninety-five per cent. For a long time the cause was a mystery; disease and pesticides were both suspected. The answer, when it came, was surprising: diclofenac, a cheap painkiller given to sick cattle. Vultures feeding on the carcasses of treated animals suffered kidney failure and died within days. The loss was not merely ecological. Vultures had quietly served as a free sanitation service, stripping a carcass to the bone in hours. As they vanished, carcasses rotted in the open, feral dog populations grew on the abundant food, and cases of rabies rose. India banned veterinary diclofenac in 2006 and later restricted other harmful drugs as well, while breeding centres began raising vultures in captivity for release into the wild. Recovery, however, is slow: a vulture pair raises only one chick a year, and the illegal use of human diclofenac on cattle has not entirely stopped. The story is a reminder that the value of a species is often understood only after it is gone.\"\n\nThe tone of the last sentence of the passage is best described as:",
-      "options": [
-        "Humorous and light-hearted",
-        "Indifferent",
-        "Reflective and cautionary",
-        "Celebratory"
-      ],
-      "answer": 2,
-      "explanation": "The last sentence draws a thoughtful lesson and warns that species are often valued only after they are lost — a reflective, cautionary tone.",
-      "source": "ai",
-      "archetype": "cuet-ug-E02",
-      "verified": false
-    },
-    {
-      "id": "cuet-ug-096",
-      "section": "eng",
-      "topic": "Reading Comprehension (factual, narrative, literary)",
-      "difficulty": "easy",
-      "question": "Read the passage and answer.\n\n\"In the early 1990s, India was home to tens of millions of vultures. Within about fifteen years, the populations of three common species had fallen by more than ninety-five per cent. For a long time the cause was a mystery; disease and pesticides were both suspected. The answer, when it came, was surprising: diclofenac, a cheap painkiller given to sick cattle. Vultures feeding on the carcasses of treated animals suffered kidney failure and died within days. The loss was not merely ecological. Vultures had quietly served as a free sanitation service, stripping a carcass to the bone in hours. As they vanished, carcasses rotted in the open, feral dog populations grew on the abundant food, and cases of rabies rose. India banned veterinary diclofenac in 2006 and later restricted other harmful drugs as well, while breeding centres began raising vultures in captivity for release into the wild. Recovery, however, is slow: a vulture pair raises only one chick a year, and the illegal use of human diclofenac on cattle has not entirely stopped. The story is a reminder that the value of a species is often understood only after it is gone.\"\n\nThe word 'abundant' as used in the passage means:",
-      "options": [
-        "Scarce",
-        "Plentiful",
-        "Rotten",
-        "Hidden"
-      ],
-      "answer": 1,
-      "explanation": "\"Abundant food\" means food available in large quantities, i.e. plentiful. \"Scarce\" is its opposite.",
-      "source": "ai",
-      "archetype": "cuet-ug-E03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Purpose of phrase 'free sanitation service' with plausible misreadings"
+      }
     },
     {
       "id": "cuet-ug-097",
@@ -1896,25 +1778,12 @@
       "explanation": "Looking at the audience, he found that the first line of his speech had \"simply vanished\".",
       "source": "ai",
       "archetype": "cuet-ug-E04",
-      "verified": false
-    },
-    {
-      "id": "cuet-ug-098",
-      "section": "eng",
-      "topic": "Reading Comprehension (factual, narrative, literary)",
-      "difficulty": "easy",
-      "question": "Read the passage and answer.\n\n\"Arjun had practised his speech for the inter-school debate for two weeks, reciting it to the mirror, to his younger sister and once, to his great embarrassment, to the family's bewildered cat. On the morning of the contest his hands were cold and his mouth was dry. When his name was called, he walked to the podium, looked at the sea of faces and found that the first line of his speech had simply vanished. For three long seconds there was silence. Then, from the third row, he saw Mrs D'Souza, his English teacher, nod slowly, the way she did in class when someone was on the right track. Arjun put away his notes. Instead of the polished opening he had memorised, he told the audience about the morning he had spent rehearsing to a cat. A ripple of laughter ran through the hall, and with it his fear seemed to drain away. The rest of the speech came back to him, not word for word, but in his own voice. He did not win the first prize; that went to a confident girl from another school whose arguments were sharper than his. But as he stepped down, Mrs D'Souza caught his eye and said, 'Today you stopped reciting and started speaking.' Arjun understood that this was a prize of a different kind.\"\n\nWho won the first prize in the debate?",
-      "options": [
-        "A girl from another school",
-        "Arjun",
-        "A boy from Arjun's own school",
-        "Nobody; the prize was shared"
-      ],
-      "answer": 0,
-      "explanation": "The passage says the first prize went to a confident girl from another school whose arguments were sharper.",
-      "source": "ai",
-      "archetype": "cuet-ug-E04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Event at podium with passage-word traps; CUET narrative"
+      }
     },
     {
       "id": "cuet-ug-099",
@@ -1932,7 +1801,12 @@
       "explanation": "When he told the funny story of rehearsing to the cat, laughter ran through the hall and \"with it\" his fear drained away.",
       "source": "ai",
       "archetype": "cuet-ug-E16",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Why fear drained away; CUET narrative inference"
+      }
     },
     {
       "id": "cuet-ug-100",
@@ -1950,7 +1824,12 @@
       "explanation": "Arjun abandoned the memorised opening and delivered the rest \"in his own voice\", which his teacher praised as genuine speaking rather than recitation.",
       "source": "ai",
       "archetype": "cuet-ug-E16",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Meaning of 'stopped reciting and started speaking'; strong quoted-line item"
+      }
     },
     {
       "id": "cuet-ug-101",
@@ -1968,7 +1847,12 @@
       "explanation": "The story is about Arjun discovering that he can speak naturally in his own voice; he does not win, and the cat and teacher are minor elements.",
       "source": "ai",
       "archetype": "cuet-ug-E16",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Title 'Finding His Own Voice'; CUET title item"
+      }
     },
     {
       "id": "cuet-ug-102",
@@ -1986,25 +1870,12 @@
       "explanation": "The cat was confused by a boy making a speech to it — bewildered means puzzled or perplexed.",
       "source": "ai",
       "archetype": "cuet-ug-E03",
-      "verified": false
-    },
-    {
-      "id": "cuet-ug-103",
-      "section": "eng",
-      "topic": "Vocabulary: Synonyms, Antonyms & Word Usage",
-      "difficulty": "easy",
-      "question": "Choose the word most similar in meaning to DILIGENT.",
-      "options": [
-        "Hardworking",
-        "Lazy",
-        "Intelligent",
-        "Careless"
-      ],
-      "answer": 0,
-      "explanation": "Diligent means showing care and steady effort, i.e. hardworking. Lazy and careless are opposites.",
-      "source": "ai",
-      "archetype": "cuet-ug-E05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "'bewildered' in context; CUET vocabulary"
+      }
     },
     {
       "id": "cuet-ug-104",
@@ -2022,25 +1893,12 @@
       "explanation": "Obsolete means no longer in use, i.e. outdated. \"Obscure\" (unclear or little known) only looks similar.",
       "source": "ai",
       "archetype": "cuet-ug-E05",
-      "verified": false
-    },
-    {
-      "id": "cuet-ug-105",
-      "section": "eng",
-      "topic": "Vocabulary: Synonyms, Antonyms & Word Usage",
-      "difficulty": "easy",
-      "question": "Choose the word most opposite in meaning to TRANSPARENT.",
-      "options": [
-        "Clear",
-        "Visible",
-        "Obvious",
-        "Opaque"
-      ],
-      "answer": 3,
-      "explanation": "Transparent means letting light through or easily seen through; its opposite is opaque.",
-      "source": "ai",
-      "archetype": "cuet-ug-E06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Obsolete with look-alike 'obscure' trap; exactly the E05 archetype"
+      }
     },
     {
       "id": "cuet-ug-106",
@@ -2058,25 +1916,12 @@
       "explanation": "Ample means more than enough; the opposite is insufficient. The other options are near-synonyms.",
       "source": "ai",
       "archetype": "cuet-ug-E06",
-      "verified": false
-    },
-    {
-      "id": "cuet-ug-107",
-      "section": "eng",
-      "topic": "Vocabulary: Synonyms, Antonyms & Word Usage",
-      "difficulty": "easy",
-      "question": "Choose the correctly spelt word.",
-      "options": [
-        "Acommodation",
-        "Accommodation",
-        "Accomodation",
-        "Acomodation"
-      ],
-      "answer": 1,
-      "explanation": "The correct spelling has double c and double m: accommodation.",
-      "source": "ai",
-      "archetype": "cuet-ug-E07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Ample antonym with near-synonym distractors; CUET format"
+      }
     },
     {
       "id": "cuet-ug-108",
@@ -2094,7 +1939,12 @@
       "explanation": "A noun is needed after \"a positive\", and the noun meaning \"result\" is effect. \"Affect\" is normally a verb.",
       "source": "ai",
       "archetype": "cuet-ug-E08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "effect as noun after 'positive'; CUET confused-words item"
+      }
     },
     {
       "id": "cuet-ug-109",
@@ -2112,7 +1962,12 @@
       "explanation": "With \"neither … nor\", the verb agrees with the nearer subject. \"Students\" is plural, so it should be \"were aware\".",
       "source": "ai",
       "archetype": "cuet-ug-E09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Neither-nor proximity rule -> 'were'; CUET error-spotting"
+      }
     },
     {
       "id": "cuet-ug-110",
@@ -2130,7 +1985,12 @@
       "explanation": "\"Prefer\" takes \"to\", not \"than\": I prefer tea to coffee in the morning.",
       "source": "ai",
       "archetype": "cuet-ug-E09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "prefer...to not than; named in archetype, CUET classic"
+      }
     },
     {
       "id": "cuet-ug-111",
@@ -2148,25 +2008,12 @@
       "explanation": "The verb \"insist\" is followed by \"on\" before a gerund: insisted on paying.",
       "source": "ai",
       "archetype": "cuet-ug-E10",
-      "verified": false
-    },
-    {
-      "id": "cuet-ug-112",
-      "section": "eng",
-      "topic": "Grammar: Error Detection, Fill-ups, Voice & Narration",
-      "difficulty": "easy",
-      "question": "Fill in the blank: \"If it rains tomorrow, we ______ the picnic.\"",
-      "options": [
-        "would cancel",
-        "will cancel",
-        "would have cancelled",
-        "cancelled"
-      ],
-      "answer": 1,
-      "explanation": "A first conditional (real future possibility) uses \"if + present simple, will + base verb\".",
-      "source": "ai",
-      "archetype": "cuet-ug-E10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "insist on; CUET preposition item"
+      }
     },
     {
       "id": "cuet-ug-113",
@@ -2184,7 +2031,12 @@
       "explanation": "\"Hardly … when\" (and \"scarcely … when\") is the correct pair. \"Than\" pairs with \"no sooner\".",
       "source": "ai",
       "archetype": "cuet-ug-E10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Hardly...when with 'than' trap; CUET item"
+      }
     },
     {
       "id": "cuet-ug-114",
@@ -2202,7 +2054,12 @@
       "explanation": "\"Who\" becomes \"By whom\", and the past simple active becomes \"was + past participle\" with question word order: By whom was this letter written?",
       "source": "ai",
       "archetype": "cuet-ug-E11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Passive of wh-question with word-order trap; CUET voice item"
+      }
     },
     {
       "id": "cuet-ug-115",
@@ -2220,7 +2077,12 @@
       "explanation": "\"Said to\" becomes \"asked\", the question becomes a statement order (where I was going), and the present continuous shifts to the past continuous.",
       "source": "ai",
       "archetype": "cuet-ug-E12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Reported question word order/backshift with inverted trap"
+      }
     },
     {
       "id": "cuet-ug-116",
@@ -2238,7 +2100,12 @@
       "explanation": "\"A balanced diet (Q) helps the body (S) fight infections (P) and stay healthy (R).\"",
       "source": "ai",
       "archetype": "cuet-ug-E13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "QSPR fragment ordering; CUET rearrangement"
+      }
     },
     {
       "id": "cuet-ug-117",
@@ -2256,43 +2123,12 @@
       "explanation": "Q explains the challenge, S (which mentions \"the certificate\") must follow Q, R describes the immediate rush, and P gives the final result at the end of August.",
       "source": "ai",
       "archetype": "cuet-ug-E17",
-      "verified": false
-    },
-    {
-      "id": "cuet-ug-118",
-      "section": "eng",
-      "topic": "Idioms, Phrases & One-word Substitution",
-      "difficulty": "easy",
-      "question": "Choose the meaning of the idiom 'to beat about the bush'.",
-      "options": [
-        "To work very hard",
-        "To avoid coming to the main point",
-        "To search everywhere",
-        "To defeat an enemy easily"
-      ],
-      "answer": 1,
-      "explanation": "To beat about the bush is to talk around a subject without coming to the point.",
-      "source": "ai",
-      "archetype": "cuet-ug-E14",
-      "verified": false
-    },
-    {
-      "id": "cuet-ug-119",
-      "section": "eng",
-      "topic": "Idioms, Phrases & One-word Substitution",
-      "difficulty": "easy",
-      "question": "Choose the meaning of the idiom 'to let the cat out of the bag'.",
-      "options": [
-        "To reveal a secret by mistake",
-        "To set an animal free",
-        "To create confusion",
-        "To escape punishment"
-      ],
-      "answer": 0,
-      "explanation": "Letting the cat out of the bag means carelessly revealing a secret.",
-      "source": "ai",
-      "archetype": "cuet-ug-E14",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Certificate must be introduced (Q) before news of it (S): QSRP; CUET paragraph order"
+      }
     },
     {
       "id": "cuet-ug-120",
@@ -2310,7 +2146,12 @@
       "explanation": "An apiary is a place where bees are kept. An aviary houses birds, an aquarium fish, and a granary stores grain.",
       "source": "ai",
       "archetype": "cuet-ug-E15",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Apiary vs aviary/aquarium/granary; CUET one-word item"
+      }
     }
   ],
   "pyqBlueprint": {
