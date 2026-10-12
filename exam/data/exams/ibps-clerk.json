@@ -1048,7 +1048,12 @@
       "explanation": "The passage says these materials 'absorb sunlight during the day and release it slowly at night'.",
       "verified": true,
       "archetype": "ibps-clerk-E02",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Heat-island detail question; Clerk RC does ask cause lookups though passage is short (~150 words)"
+      }
     },
     {
       "id": "ibps-clerk-002",
@@ -1067,7 +1072,12 @@
       "explanation": "Electricity demand, air quality, outdoor workers and the elderly are mentioned; rainfall is not.",
       "verified": true,
       "archetype": "ibps-clerk-E02",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "NOT-mentioned consequence with invented 'rainfall' option; matches E02 Clerk format"
+      }
     },
     {
       "id": "ibps-clerk-003",
@@ -1086,7 +1096,12 @@
       "explanation": "'Experts caution that…' means experts warn that…",
       "verified": true,
       "archetype": "ibps-clerk-E04",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Vocab-in-context 'caution'='warn'; 'doubt' as near trap; clerk standard"
+      }
     },
     {
       "id": "ibps-clerk-004",
@@ -1219,7 +1234,12 @@
       "explanation": "'Each of the…' is singular and takes 'was', so 'were asked' in part B is wrong.",
       "verified": true,
       "archetype": "ibps-clerk-E08",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "'Each of ... were' agreement; standard clerk error item (labelled hard but easy)"
+      }
     },
     {
       "id": "ibps-clerk-011",
@@ -1257,7 +1277,12 @@
       "explanation": "Rain that damages crops is 'unseasonal', and it leaves farmers 'in distress'. Other pairs are illogical.",
       "verified": true,
       "archetype": "ibps-clerk-E10",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Double filler unseasonal/distress; acceptable clerk pair though distractors weak"
+      }
     },
     {
       "id": "ibps-clerk-013",
@@ -1276,7 +1301,12 @@
       "explanation": "Order: B (start) – A (savings) – E ('also' a loan) – D (bought machines) – C (today). Fourth sentence is D.",
       "verified": true,
       "archetype": "ibps-clerk-E13",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Story jumble asking FOURTH sentence (BAEDC); clerk-faithful"
+      }
     },
     {
       "id": "ibps-clerk-014",
@@ -1295,7 +1325,12 @@
       "explanation": "B introduces credit cards, E gives the benefit, C ('However') the drawback, D ('also') adds another difference, A ('Therefore') concludes: BECDA.",
       "verified": true,
       "archetype": "ibps-clerk-E12",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Credit-card jumble with However/Therefore; clerk-faithful"
+      }
     },
     {
       "id": "ibps-clerk-015",
@@ -1314,7 +1349,12 @@
       "explanation": "Adjectives of Latin origin such as senior, junior and superior take 'to', not 'than': 'senior to me'.",
       "verified": true,
       "archetype": "ibps-clerk-E17",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "'senior to' idiom replacement; classic clerk item"
+      }
     },
     {
       "id": "ibps-clerk-016",
@@ -1447,7 +1487,12 @@
       "explanation": "3/4 × 5/6 × 1440 = 5/8 × 1440 = 900; ? = 1000 − 900 = 100.",
       "verified": true,
       "archetype": "ibps-clerk-Q13",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Fraction-of-fraction with ? inside; matches Q13 clerk type"
+      }
     },
     {
       "id": "ibps-clerk-023",
@@ -1466,7 +1511,12 @@
       "explanation": "≈ 25 × 16 − 180 ÷ 6 = 400 − 30 = 370.",
       "verified": true,
       "archetype": "ibps-clerk-Q12",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Approximation with near-integers; clerk standard"
+      }
     },
     {
       "id": "ibps-clerk-024",
@@ -1504,7 +1554,12 @@
       "explanation": "≈ 64% of 450 + √1024 × 7 = 288 + 32 × 7 = 288 + 224 = 512.",
       "verified": true,
       "archetype": "ibps-clerk-Q12",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Approximation with % and root*number; clerk standard"
+      }
     },
     {
       "id": "ibps-clerk-026",
@@ -1523,7 +1578,12 @@
       "explanation": "Each term = previous × 2 + 1. 95 × 2 + 1 = 191.",
       "verified": true,
       "archetype": "ibps-clerk-Q09",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "x2+1 series; easy clerk series"
+      }
     },
     {
       "id": "ibps-clerk-027",
@@ -1542,7 +1602,12 @@
       "explanation": "Differences are −1, −4, −9, −16 (squares); next −25: 90 − 25 = 65.",
       "verified": true,
       "archetype": "ibps-clerk-Q09",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Square-difference decreasing series; clerk standard"
+      }
     },
     {
       "id": "ibps-clerk-028",
@@ -1561,7 +1626,12 @@
       "explanation": "Multipliers ×1, ×2, ×3, ×4, next ×5: 168 × 5 = 840.",
       "verified": true,
       "archetype": "ibps-clerk-Q09",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "xn increasing series; standard"
+      }
     },
     {
       "id": "ibps-clerk-029",
@@ -1618,7 +1688,12 @@
       "explanation": "(36 − 27)/36 × 100 = 25%.",
       "verified": true,
       "archetype": "ibps-clerk-Q05",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Percent-less between bars; good trap with 25% vs 33.3%"
+      }
     },
     {
       "id": "ibps-clerk-032",
@@ -1637,7 +1712,12 @@
       "explanation": "(30 + 27) : (36 + 33) = 57 : 69 = 19 : 23.",
       "verified": true,
       "archetype": "ibps-clerk-Q05",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Ratio of paired sums with 57:67 near-distractor"
+      }
     },
     {
       "id": "ibps-clerk-033",
@@ -1675,7 +1755,12 @@
       "explanation": "CP1 = 1200/1.2 = 1000; CP2 = 1200/0.8 = 1500. Total CP 2500, SP 2400 → loss 100 = 4% of 2500.",
       "verified": true,
       "archetype": "ibps-clerk-Q14",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Equal SP +-x% loss; classic clerk P&L"
+      }
     },
     {
       "id": "ibps-clerk-035",
@@ -1694,7 +1779,12 @@
       "explanation": "F + S = 50 and F − 5 = 7(S − 5) → F = 7S − 30. 8S − 30 = 50 → S = 10, F = 40.",
       "verified": true,
       "archetype": "ibps-clerk-Q17",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Father-son sum and past multiple; clerk ages"
+      }
     },
     {
       "id": "ibps-clerk-036",
@@ -1713,7 +1803,12 @@
       "explanation": "Total = 12 × 15 × 8 = 1440 man-hours. 20 men × 6 h = 120 per day → 1440/120 = 12 days.",
       "verified": true,
       "archetype": "ibps-clerk-Q19",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Man-hours chain rule; clerk work"
+      }
     },
     {
       "id": "ibps-clerk-037",
@@ -1732,7 +1827,12 @@
       "explanation": "Speed = 240/12 = 20 m/s. Time = (240 + 360)/20 = 30 s.",
       "verified": true,
       "archetype": "ibps-clerk-Q20",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Train pole to platform; clerk staple"
+      }
     },
     {
       "id": "ibps-clerk-038",
@@ -1751,7 +1851,12 @@
       "explanation": "P = 1440/(0.08 × 3) = ₹6,000. CI = 6000 × (1.1² − 1) = 6000 × 0.21 = ₹1,260.",
       "verified": true,
       "archetype": "ibps-clerk-Q22",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "SI to principal then CI; clerk standard"
+      }
     },
     {
       "id": "ibps-clerk-039",
@@ -1770,7 +1875,12 @@
       "explanation": "Sum = 210; 210 − 30 = 180; 180/4 = 45.",
       "verified": true,
       "archetype": "ibps-clerk-Q26",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Remove a member average; Q26"
+      }
     },
     {
       "id": "ibps-clerk-040",
@@ -1789,7 +1899,12 @@
       "explanation": "Bottom to top: S, P, U, R, Q, T. R is 4th, so S is 1st; Q–T must be 5th–6th (Q at 2nd would leave no place below it for P); U cannot be 2nd (adjacent to S), so U is 3rd and P 2nd. U is below R.",
       "verified": true,
       "archetype": "ibps-clerk-R06",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "6-box stack, unique solution SPURQT"
+      }
     },
     {
       "id": "ibps-clerk-041",
@@ -1808,7 +1923,12 @@
       "explanation": "Bottom to top: S, P, U, R, Q, T. Between P (2nd) and T (6th) are U, R and Q — three boxes.",
       "verified": true,
       "archetype": "ibps-clerk-R06",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Boxes between P and T = 3"
+      }
     },
     {
       "id": "ibps-clerk-042",
@@ -1846,7 +1966,12 @@
       "explanation": "B is on Thursday, so D (three days away) is on Monday and A on Tuesday. F, E, C take Wednesday, Friday, Saturday in that order (F before E before C). F is on Wednesday.",
       "verified": true,
       "archetype": "ibps-clerk-R05",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Mon-Sat scheduling, unique DAFBEC"
+      }
     },
     {
       "id": "ibps-clerk-044",
@@ -1865,7 +1990,12 @@
       "explanation": "Order: D (Mon), A (Tue), F (Wed), B (Thu), E (Fri), C (Sat). Between A and E are F and B — two persons.",
       "verified": true,
       "archetype": "ibps-clerk-R05",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Persons between A and E = 2"
+      }
     },
     {
       "id": "ibps-clerk-045",
@@ -1884,7 +2014,12 @@
       "explanation": "Order: D, A, F, B, E, C. E attends on Friday, just before C on Saturday.",
       "verified": true,
       "archetype": "ibps-clerk-R05",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Immediately before C = E"
+      }
     },
     {
       "id": "ibps-clerk-046",
@@ -1941,7 +2076,12 @@
       "explanation": "The pens that are pencils cannot be erasers, so I follows. There is no definite link between erasers and pens, so II does not follow.",
       "verified": true,
       "archetype": "ibps-clerk-R11",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Some/No with 'Some pens are not erasers' follows; clerk standard"
+      }
     },
     {
       "id": "ibps-clerk-049",
@@ -1960,7 +2100,12 @@
       "explanation": "M ≥ N > O = P gives M > P. Q ≥ P = O gives Q ≥ O. Both follow.",
       "verified": true,
       "archetype": "ibps-clerk-R13",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Chain inequality both follow"
+      }
     },
     {
       "id": "ibps-clerk-050",
@@ -1979,7 +2124,12 @@
       "explanation": "S ≤ T = U gives S ≤ U, so 'S < U' is not definite (I fails). T = U > V ≥ W gives T > W (II follows).",
       "verified": true,
       "archetype": "ibps-clerk-R13",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "S<=U vs strict S<U trap; good"
+      }
     },
     {
       "id": "ibps-clerk-051",
@@ -2017,7 +2167,12 @@
       "explanation": "Letters alternately move −1, +1: G−1=F, A+1=B, R−1=Q, D+1=E, E−1=D, N+1=O. MARKET → L, B, Q, L, D, U = LBQLDU.",
       "verified": true,
       "archetype": "ibps-clerk-R19",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Alternating -1/+1 shift; acceptable letter coding"
+      }
     },
     {
       "id": "ibps-clerk-053",
@@ -2036,7 +2191,12 @@
       "explanation": "The only son of Aman's paternal grandfather is Aman's father; his only daughter is Aman's sister.",
       "verified": true,
       "archetype": "ibps-clerk-R15",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Pointing-to-woman puzzle, sister; clerk standard"
+      }
     },
     {
       "id": "ibps-clerk-054",
@@ -2112,7 +2272,12 @@
       "explanation": "The 10th element from the left is 2; the 4th to its right is the 14th element, R.",
       "verified": true,
       "archetype": "ibps-clerk-R22",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "nth from end in symbol arrangement; clerk standard"
+      }
     },
     {
       "id": "ibps-clerk-058",
@@ -2131,7 +2296,12 @@
       "explanation": "In reverse order, position k holds the letter numbered 27 − k. 15 + 8 = 23rd position → letter number 4 = D.",
       "verified": true,
       "archetype": "ibps-clerk-R23",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Reverse alphabet position; clerk R23 standard"
+      }
     },
     {
       "id": "ibps-clerk-059",
@@ -2150,7 +2320,12 @@
       "explanation": "5→6, 7→8, 2→1, 6→5, 4→3, 3→4, 6→5 gives 6815345. Only 5 appears twice, so one digit repeats.",
       "verified": true,
       "archetype": "ibps-clerk-R26",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Digit operation and repeats; clerk misc type"
+      }
     },
     {
       "id": "ibps-clerk-060",
@@ -2188,7 +2363,12 @@
       "explanation": "The passage explains how harvesting captures wasted rain cheaply and then stresses that regular maintenance and awareness are needed for it to work.",
       "source": "ai",
       "archetype": "ibps-clerk-E01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Rainwater harvesting main idea with over-generalisation distractors"
+      }
     },
     {
       "id": "ibps-clerk-062",
@@ -2207,7 +2387,12 @@
       "explanation": "The second paragraph says that in several societies, dried-up borewells 'began to yield water again within two or three years'.",
       "source": "ai",
       "archetype": "ibps-clerk-E02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Detail lookup on borewells"
+      }
     },
     {
       "id": "ibps-clerk-063",
@@ -2226,7 +2411,12 @@
       "explanation": "I follows from 'most of which simply runs off roads into drains'; III from 'paying high prices'. II is contradicted: experts call such rules 'only a first step'.",
       "source": "ai",
       "archetype": "ibps-clerk-E03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "I/II/III inference with 'by itself enough' trap"
+      }
     },
     {
       "id": "ibps-clerk-064",
@@ -2245,7 +2435,12 @@
       "explanation": "Here 'modest' describes a cost, meaning small or moderate. 'Shy' is another sense of the word that does not fit the context; 'enormous' is the opposite.",
       "source": "ai",
       "archetype": "ibps-clerk-E04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "'modest' with 'shy' dictionary-meaning trap; textbook E04"
+      }
     },
     {
       "id": "ibps-clerk-065",
@@ -2302,7 +2497,12 @@
       "explanation": "Banks 'conduct' (organise) workshops in colleges. 'Attend' would make the banks the learners; 'cancel/avoid/deny' contradict 'where students learn'.",
       "source": "ai",
       "archetype": "ibps-clerk-E06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "'conduct workshops' collocation vs 'attend'; good"
+      }
     },
     {
       "id": "ibps-clerk-068",
@@ -2321,7 +2521,12 @@
       "explanation": "Messages that 'try to steal banking details' are fraudulent; the other adjectives describe safe messages.",
       "source": "ai",
       "archetype": "ibps-clerk-E06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "'fraudulent messages'; clerk banking theme"
+      }
     },
     {
       "id": "ibps-clerk-069",
@@ -2340,7 +2545,12 @@
       "explanation": "'Who' refers to 'customers' (plural), so the verb should be 'use'. The error is in part B. ('The number … has increased' is correct.)",
       "source": "ai",
       "archetype": "ibps-clerk-E08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "'who uses' relative clause agreement; faithful clerk trap"
+      }
     },
     {
       "id": "ibps-clerk-070",
@@ -2359,7 +2569,12 @@
       "explanation": "Imaginary conditions take the subjunctive 'were': 'If I were you'. The error is in part A.",
       "source": "ai",
       "archetype": "ibps-clerk-E08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Subjunctive 'If I were'; standard"
+      }
     },
     {
       "id": "ibps-clerk-071",
@@ -2378,7 +2593,12 @@
       "explanation": "Only 'refrain' is used with 'from' + -ing in this sense ('refrain from eating'). 'Avoid eating', 'stop eating' and 'quit eating' do not take 'from'; 'prevent' needs an object.",
       "source": "ai",
       "archetype": "ibps-clerk-E11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "'refrain from' vs 'avoid/stop' collocation; textbook E11"
+      }
     },
     {
       "id": "ibps-clerk-072",
@@ -2435,7 +2655,12 @@
       "explanation": "Order: B – D – C – E – A. Sentence A, beginning with 'therefore', draws the conclusion and comes last.",
       "source": "ai",
       "archetype": "ibps-clerk-E13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "LAST-sentence jumble with however/therefore"
+      }
     },
     {
       "id": "ibps-clerk-075",
@@ -2473,7 +2698,12 @@
       "explanation": "Swapping B and D: 'The clerk posted the letter to the customer before the deadline.'",
       "source": "ai",
       "archetype": "ibps-clerk-E15",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "deadline/letter swap; clerk standard"
+      }
     },
     {
       "id": "ibps-clerk-077",
@@ -2530,7 +2760,12 @@
       "explanation": "35% of 840 = 294; 18² = 324; 25 × 6 = 150. 294 + 324 − 150 = 468.",
       "source": "ai",
       "archetype": "ibps-clerk-Q11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "3-term simplification with square; clerk standard"
+      }
     },
     {
       "id": "ibps-clerk-080",
@@ -2549,7 +2784,12 @@
       "explanation": "√576 = 24 and √289 = 17. (24 + 17) × 4 − 64 = 164 − 64 = 100.",
       "source": "ai",
       "archetype": "ibps-clerk-Q11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Root-sum simplification"
+      }
     },
     {
       "id": "ibps-clerk-081",
@@ -2568,7 +2808,12 @@
       "explanation": "3/8 × 1,280 = 480 and 2/5 × 650 = 260. 480 − 260 = 220.",
       "source": "ai",
       "archetype": "ibps-clerk-Q11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Fraction-of-number difference"
+      }
     },
     {
       "id": "ibps-clerk-082",
@@ -2587,7 +2832,12 @@
       "explanation": "≈ 25 × 18 + 400 ÷ 8 = 450 + 50 = 500.",
       "source": "ai",
       "archetype": "ibps-clerk-Q12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Approximation product+quotient"
+      }
     },
     {
       "id": "ibps-clerk-083",
@@ -2606,7 +2856,12 @@
       "explanation": "≈ 60% of 1,200 − 15² + √1,296 = 720 − 225 + 36 = 531.",
       "source": "ai",
       "archetype": "ibps-clerk-Q12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Approximation with %, square, root"
+      }
     },
     {
       "id": "ibps-clerk-084",
@@ -2644,7 +2899,12 @@
       "explanation": "√? × 12 = 168 → √? = 14 → ? = 196.",
       "source": "ai",
       "archetype": "ibps-clerk-Q13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "sqrt? inside equation; Q13"
+      }
     },
     {
       "id": "ibps-clerk-086",
@@ -2663,7 +2923,12 @@
       "explanation": "Differences are 1³, 2³, 3³, 4³; next difference is 5³ = 125. 103 + 125 = 228.",
       "source": "ai",
       "archetype": "ibps-clerk-Q09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Cube-difference series; clerk standard"
+      }
     },
     {
       "id": "ibps-clerk-087",
@@ -2682,7 +2947,12 @@
       "explanation": "Pattern: ×1 + 1, ×2 + 2, ×3 + 3, ×4 + 4, so next = 112 × 5 + 5 = 565.",
       "source": "ai",
       "archetype": "ibps-clerk-Q09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "xn+n series"
+      }
     },
     {
       "id": "ibps-clerk-088",
@@ -2701,7 +2971,12 @@
       "explanation": "Differences should be 1², 2², 3², 4², 5²: 15, 16, 20, 29, 45, 70. 28 should be 29.",
       "source": "ai",
       "archetype": "ibps-clerk-Q10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Wrong term in square-difference series"
+      }
     },
     {
       "id": "ibps-clerk-089",
@@ -2739,7 +3014,12 @@
       "explanation": "Increase = 300 − 180 = 120. 120/180 × 100 = 66⅔%. (40% is 120 as a percentage of 300 — the usual trap.)",
       "source": "ai",
       "archetype": "ibps-clerk-Q05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "%-increase with 40% reversed trap"
+      }
     },
     {
       "id": "ibps-clerk-091",
@@ -2758,7 +3038,12 @@
       "explanation": "January + April = 510; May + June = 570. 510 : 570 = 17 : 19.",
       "source": "ai",
       "archetype": "ibps-clerk-Q05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Ratio of paired sums"
+      }
     },
     {
       "id": "ibps-clerk-092",
@@ -2777,7 +3062,12 @@
       "explanation": "(360 − 270)/270 × 100 = 90/270 × 100 = 33⅓%.",
       "source": "ai",
       "archetype": "ibps-clerk-Q05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Percent-more 33.3% vs 25% trap"
+      }
     },
     {
       "id": "ibps-clerk-093",
@@ -2796,7 +3086,12 @@
       "explanation": "CP = 1,380/0.92 = ₹1,500. SP for 12% gain = 1,500 × 1.12 = ₹1,680.",
       "source": "ai",
       "archetype": "ibps-clerk-Q14",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Loss% to gain% SP; clerk standard"
+      }
     },
     {
       "id": "ibps-clerk-094",
@@ -2815,7 +3110,12 @@
       "explanation": "(8k + 6) = 2(3k + 6) → 2k = 6 → k = 3. Daughter = 3 × 3 = 9 years (mother 24).",
       "source": "ai",
       "archetype": "ibps-clerk-Q17",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Mother-daughter ratio ages"
+      }
     },
     {
       "id": "ibps-clerk-095",
@@ -2834,7 +3134,12 @@
       "explanation": "Total work = 15 × 24 = 360 man-days; done in 8 days = 120. Remaining 240 man-days with 20 men → 12 days.",
       "source": "ai",
       "archetype": "ibps-clerk-Q19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Men join mid-way; clerk work"
+      }
     },
     {
       "id": "ibps-clerk-096",
@@ -2853,7 +3158,12 @@
       "explanation": "Speed = 54 × 5/18 = 15 m/s. Distance in 20 s = 300 m = train + platform → platform = 120 m.",
       "source": "ai",
       "archetype": "ibps-clerk-Q20",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Platform length from speed"
+      }
     },
     {
       "id": "ibps-clerk-097",
@@ -2872,7 +3182,12 @@
       "explanation": "Amount = 15,000 × 1.12² = 15,000 × 1.2544 = ₹18,816. CI = ₹3,816. (₹3,600 is the simple interest.)",
       "source": "ai",
       "archetype": "ibps-clerk-Q22",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "CI 2 yrs direct"
+      }
     },
     {
       "id": "ibps-clerk-098",
@@ -2891,7 +3206,12 @@
       "explanation": "New total = 25 × 41 = 1,025; old total = 24 × 40 = 960. Teacher = 1,025 − 960 = 65 kg.",
       "source": "ai",
       "archetype": "ibps-clerk-Q26",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Teacher included average"
+      }
     },
     {
       "id": "ibps-clerk-099",
@@ -2910,7 +3230,12 @@
       "explanation": "By alligation: (240 − 200) : (200 − 180) = 40 : 20 = 2 : 1.",
       "source": "ai",
       "archetype": "ibps-clerk-Q23",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Alligation ratio"
+      }
     },
     {
       "id": "ibps-clerk-100",
@@ -2929,7 +3254,12 @@
       "explanation": "Left to right: U, Q, S, R, T, V, W, P. Second to the right of R is V.",
       "source": "ai",
       "archetype": "ibps-clerk-R01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "8-person linear row, unique UQSRTVWP"
+      }
     },
     {
       "id": "ibps-clerk-101",
@@ -2948,7 +3278,12 @@
       "explanation": "U is 1st and T is 5th from the left; Q, S and R sit between them — three persons.",
       "source": "ai",
       "archetype": "ibps-clerk-R01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Persons between U and T = 3"
+      }
     },
     {
       "id": "ibps-clerk-102",
@@ -2986,7 +3321,12 @@
       "explanation": "Monday – E, Tuesday – B, Wednesday – G, Thursday – D, Friday – A, Saturday – F, Sunday – C.",
       "source": "ai",
       "archetype": "ibps-clerk-R05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Week scheduling, unique EBGDAFC"
+      }
     },
     {
       "id": "ibps-clerk-104",
@@ -3005,7 +3345,12 @@
       "explanation": "B attends on Tuesday and A on Friday; G and D attend in between — two persons.",
       "source": "ai",
       "archetype": "ibps-clerk-R05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Between B and A = 2"
+      }
     },
     {
       "id": "ibps-clerk-105",
@@ -3043,7 +3388,12 @@
       "explanation": "Tallest to shortest: N, J, M, K, L, O. The second shortest is L.",
       "source": "ai",
       "archetype": "ibps-clerk-R07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "6-person height comparison, unique OLKMJN"
+      }
     },
     {
       "id": "ibps-clerk-107",
@@ -3062,7 +3412,12 @@
       "explanation": "Order: N (180) > J > M > K (165). J must be between 165 cm and 180 cm (and above M), so only 178 cm is possible.",
       "source": "ai",
       "archetype": "ibps-clerk-R07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Derived possible height range; faithful R07 'derived value'"
+      }
     },
     {
       "id": "ibps-clerk-108",
@@ -3081,7 +3436,12 @@
       "explanation": "Pens and erasers have no definite link, so I does not follow. 'Some markers are erasers' converts to 'Some erasers are markers', so II follows.",
       "source": "ai",
       "archetype": "ibps-clerk-R11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "All/Some syllogism; standard"
+      }
     },
     {
       "id": "ibps-clerk-109",
@@ -3100,7 +3460,12 @@
       "explanation": "The cards that are coins are notes, so I follows. The cards that are not coins may or may not be notes, so the definite statement II does not follow.",
       "source": "ai",
       "archetype": "ibps-clerk-R12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Only-a-few with All-trap; clerk-faithful"
+      }
     },
     {
       "id": "ibps-clerk-110",
@@ -3119,7 +3484,12 @@
       "explanation": "P ≥ Q > R = S gives P > S, so I follows. T ≥ S = R gives only T ≥ R, so II (T > R) does not follow.",
       "source": "ai",
       "archetype": "ibps-clerk-R13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Inequality T>R not definite"
+      }
     },
     {
       "id": "ibps-clerk-111",
@@ -3157,7 +3527,12 @@
       "explanation": "Letters are shifted alternately +1 and −1: B+1 = C, R−1 = Q, A+1 = B, N−1 = M, C+1 = D, H−1 = G. So CREDIT → D Q F C J S.",
       "source": "ai",
       "archetype": "ibps-clerk-R19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Alternating +1/-1 coding"
+      }
     },
     {
       "id": "ibps-clerk-113",
@@ -3176,7 +3551,12 @@
       "explanation": "'money' and 'daily' are common to the first two sentences, so they take 'ki' and 'po'. The remaining code in the first sentence, 'la', means 'save'.",
       "source": "ai",
       "archetype": "ibps-clerk-R20",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Three-phrase sentence coding; clerk standard"
+      }
     },
     {
       "id": "ibps-clerk-114",
@@ -3214,7 +3594,12 @@
       "explanation": "East 20, south 15, west 30, north 15. Net: 10 m to the west, with no north–south displacement.",
       "source": "ai",
       "archetype": "ibps-clerk-R17",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Walk-turn direction, 10 m West"
+      }
     },
     {
       "id": "ibps-clerk-116",
@@ -3252,7 +3637,12 @@
       "explanation": "The 8th element from the left is 9. Counting 5 to its right: B, 2, #, N, 5 → 5.",
       "source": "ai",
       "archetype": "ibps-clerk-R22",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "nth from position in arrangement"
+      }
     },
     {
       "id": "ibps-clerk-118",
@@ -3271,7 +3661,12 @@
       "explanation": "PLANET → AELNPT. N (4th) and T (6th) stay in place — two letters.",
       "source": "ai",
       "archetype": "ibps-clerk-R23",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "PLANET alphabetic order positions"
+      }
     },
     {
       "id": "ibps-clerk-119",

@@ -6,7 +6,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { MIN_RELEVANCE } from '../js/engine.js';
+import { MIN_RELEVANCE, isCorrect } from '../js/engine.js';
 
 const [id, resultsFile, flag] = process.argv.slice(2);
 if (!id || !resultsFile) { console.error('usage: node apply-review.mjs <exam-id> <results.json> [--keep-failed]'); process.exit(1); }
@@ -20,7 +20,7 @@ e.questions = e.questions.filter(q => {
   const r = results[q.id];
   if (!r) { if (typeof q.relevance?.score === 'number' && q.verified) return true; stats.unreviewed++; return flag === '--keep-failed'; }
   const score = Object.entries(LIMITS).reduce((s, [k, max]) => s + Math.max(0, Math.min(max, Number(r.scores?.[k]) || 0)), 0);
-  const why = r.answer !== q.answer ? 'mismatch' : r.ambiguous ? 'ambiguous' : score < MIN_RELEVANCE ? 'low' : null;
+  const why = !isCorrect(q, r.answer) ? 'mismatch' : r.ambiguous ? 'ambiguous' : score < MIN_RELEVANCE ? 'low' : null;
   if (why) {
     stats[why]++;
     failed.push({ id: q.id, why, score, reviewerAnswer: r.answer, key: q.answer, note: r.note });

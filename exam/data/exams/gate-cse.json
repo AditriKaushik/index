@@ -989,7 +989,12 @@
       "explanation": "Ephemeral means lasting for a very short time.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-G01"
+      "archetype": "gate-cse-G01",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Synonym of ephemeral – GATE GA 1-mark vocabulary style"
+      }
     },
     {
       "id": "gate-cse-002",
@@ -1007,7 +1012,12 @@
       "explanation": "With 'neither … nor', the verb agrees with the nearer subject. 'Employees' is plural and the sentence is in the past, so 'were' is correct.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-G02"
+      "archetype": "gate-cse-G02",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Neither–nor proximity agreement – typical GATE GA grammar blank"
+      }
     },
     {
       "id": "gate-cse-003",
@@ -1025,7 +1035,12 @@
       "explanation": "A pen is the primary tool of a writer, and a scalpel is the primary tool of a surgeon.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-G03"
+      "archetype": "gate-cse-G03",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Tool:user analogy; GATE GA uses analogies but options here are too easy to eliminate"
+      }
     },
     {
       "id": "gate-cse-004",
@@ -1043,7 +1058,12 @@
       "explanation": "Together they do 1/12 + 1/18 = 5/36 per day, so in 4 days they do 20/36 = 5/9. The remaining 4/9 takes B (4/9) × 18 = 8 days.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-G05"
+      "archetype": "gate-cse-G05",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Work–time with A leaving after 4 days → 8 days – GATE GA arithmetic"
+      }
     },
     {
       "id": "gate-cse-005",
@@ -1061,7 +1081,12 @@
       "explanation": "The prime sums are 2 (1 way), 3 (2), 5 (4), 7 (6) and 11 (2), giving 15 favourable outcomes. 15/36 = 5/12.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-G06"
+      "archetype": "gate-cse-G06",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Prime sum of two dice 15/36 – GATE GA probability"
+      }
     },
     {
       "id": "gate-cse-006",
@@ -1079,7 +1104,12 @@
       "explanation": "The mixture has milk = 40 L and water = 20 L. For a 1 : 1 ratio, water must equal 40 L, so add 20 L.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-G05"
+      "archetype": "gate-cse-G05",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Mixture ratio water added 20 L; GATE GA-level"
+      }
     },
     {
       "id": "gate-cse-007",
@@ -1097,7 +1127,12 @@
       "explanation": "2³ = 8 ≡ 1 (mod 7). Since 100 = 3 × 33 + 1, 2¹⁰⁰ = (2³)³³ × 2 ≡ 2 (mod 7).",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-G07"
+      "archetype": "gate-cse-G07",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "2^100 mod 7 via cycle of 3 → 2; GATE GA number property"
+      }
     },
     {
       "id": "gate-cse-008",
@@ -1115,7 +1150,12 @@
       "explanation": "The cats that are dogs cannot be rats, so 'some cats are not rats' must be true. The other cats may or may not be rats, so the remaining options do not necessarily follow.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-G09"
+      "archetype": "gate-cse-G09",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Syllogism 'some cats are not rats' – GATE GA logical deduction"
+      }
     },
     {
       "id": "gate-cse-009",
@@ -1133,7 +1173,12 @@
       "explanation": "Angle = |30H − 5.5M| = |90 − 220| = 130°.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-G10"
+      "archetype": "gate-cse-G10",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Clock angle at 3:40 = 130°; GATE GA-level"
+      }
     },
     {
       "id": "gate-cse-010",
@@ -1151,7 +1196,12 @@
       "explanation": "With 4 cubes per edge, each of the 12 edges has 4 − 2 = 2 cubes with exactly two painted faces. 12 × 2 = 24.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-G11"
+      "archetype": "gate-cse-G11",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Painted 4×4×4 cube two-face count 24 – GATE GA spatial staple"
+      }
     },
     {
       "id": "gate-cse-011",
@@ -1169,7 +1219,12 @@
       "explanation": "Reflexivity fixes all 3 diagonal pairs. Symmetry pairs up the 6 off-diagonal entries into 3 unordered pairs, each of which is either in or out, giving 2³ = 8.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-C01"
+      "archetype": "gate-cse-C01",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Reflexive & symmetric relations 2^(n(n−1)/2) = 8 – GATE discrete counting"
+      }
     },
     {
       "id": "gate-cse-012",
@@ -1187,25 +1242,12 @@
       "explanation": "If p → q is false, then p = T and q = F, which makes q → p true. So the disjunction is always true. The others fail: (p → q) → p is false at p = F; (p ∨ q) → (p ∧ q) and the biconditional are false at p = T, q = F.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-C02"
-    },
-    {
-      "id": "gate-cse-013",
-      "section": "cs",
-      "topic": "Discrete Mathematics",
-      "difficulty": "easy",
-      "question": "What is the chromatic number of a cycle graph with 7 vertices (C₇)?",
-      "options": [
-        "2",
-        "3",
-        "4",
-        "7"
-      ],
-      "answer": 1,
-      "explanation": "A cycle of odd length is not bipartite, so it needs 3 colours, and 3 colours always suffice for a cycle.",
-      "verified": true,
-      "source": "curated",
-      "archetype": "gate-cse-C03"
+      "archetype": "gate-cse-C02",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Tautology (p→q)∨(q→p); GATE logic, slightly easy"
+      }
     },
     {
       "id": "gate-cse-014",
@@ -1223,7 +1265,12 @@
       "explanation": "By stars and bars, the number of positive integer solutions of x₁ + x₂ + x₃ + x₄ = 10 is C(9, 3) = 84.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-C04"
+      "archetype": "gate-cse-C04",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Stars and bars non-empty C(9,3)=84 – GATE combinatorics"
+      }
     },
     {
       "id": "gate-cse-015",
@@ -1241,7 +1288,12 @@
       "explanation": "A cyclic group of order n has φ(n) generators, and φ(12) = 4 (the elements 1, 5, 7, 11 in ℤ₁₂).",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-C05"
+      "archetype": "gate-cse-C05",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Generators of Z12 = φ(12) = 4 – GATE group theory"
+      }
     },
     {
       "id": "gate-cse-016",
@@ -1259,43 +1311,12 @@
       "explanation": "The eigenvalues of A² + I are λ² + 1, which are 2, 5 and 10. The determinant is their product: 2 × 5 × 10 = 100.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-C06"
-    },
-    {
-      "id": "gate-cse-017",
-      "section": "cs",
-      "topic": "Linear Algebra",
-      "difficulty": "easy",
-      "question": "What is the rank of the matrix [[1, 2, 3], [2, 4, 6], [1, 1, 1]]?",
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3"
-      ],
-      "answer": 2,
-      "explanation": "Row 2 = 2 × Row 1. Rows 1 and 3 are linearly independent, so the rank is 2.",
-      "verified": true,
-      "source": "curated",
-      "archetype": "gate-cse-C07"
-    },
-    {
-      "id": "gate-cse-018",
-      "section": "cs",
-      "topic": "Calculus",
-      "difficulty": "easy",
-      "question": "What is the value of lim (x → 0) of (1 − cos x) / x²?",
-      "options": [
-        "1",
-        "1/2",
-        "0",
-        "∞"
-      ],
-      "answer": 1,
-      "explanation": "1 − cos x = 2 sin²(x/2), so the ratio is (1/2) × [sin(x/2)/(x/2)]², which tends to 1/2.",
-      "verified": true,
-      "source": "curated",
-      "archetype": "gate-cse-C08"
+      "archetype": "gate-cse-C06",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "det(A²+I) from eigenvalues = 100 – GATE linear algebra style"
+      }
     },
     {
       "id": "gate-cse-019",
@@ -1313,7 +1334,12 @@
       "explanation": "[C(4,2) + C(6,2)] / C(10,2) = (6 + 15) / 45 = 21/45 = 7/15.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-C09"
+      "archetype": "gate-cse-C09",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Same-colour draw 7/15 – GATE probability"
+      }
     },
     {
       "id": "gate-cse-020",
@@ -1331,7 +1357,12 @@
       "explanation": "For U[a, b], Var = (b − a)²/12 = 36/12 = 3.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-C10"
+      "archetype": "gate-cse-C10",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Uniform[0,6] variance 3 – GATE standard distribution"
+      }
     },
     {
       "id": "gate-cse-021",
@@ -1349,25 +1380,12 @@
       "explanation": "Minterms 0, 2, 4, 6 (all with C = 0) group to C′. Minterms 4 and 5 (A = 1, B = 0) group to AB′. So F = C′ + AB′.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-C11"
-    },
-    {
-      "id": "gate-cse-022",
-      "section": "cs",
-      "topic": "Digital Logic",
-      "difficulty": "easy",
-      "question": "What is the range of integers that can be represented in 8-bit two's complement?",
-      "options": [
-        "0 to 255",
-        "−128 to +128",
-        "−128 to +127",
-        "−127 to +127"
-      ],
-      "answer": 2,
-      "explanation": "An n-bit two's complement number ranges from −2ⁿ⁻¹ to 2ⁿ⁻¹ − 1, which for n = 8 is −128 to 127.",
-      "verified": true,
-      "source": "curated",
-      "archetype": "gate-cse-C12"
+      "archetype": "gate-cse-C11",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "K-map Σm(0,2,4,5,6) → C′+AB′ with near-miss options – GATE staple"
+      }
     },
     {
       "id": "gate-cse-023",
@@ -1385,7 +1403,12 @@
       "explanation": "A tree of 2:1 muxes uses 8 + 4 + 2 + 1 = 15. In general, an n:1 mux needs n − 1 two-to-one muxes.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-C13"
+      "archetype": "gate-cse-C13",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "2:1 MUX count for 16:1 = 15 – GATE digital"
+      }
     },
     {
       "id": "gate-cse-024",
@@ -1403,7 +1426,12 @@
       "explanation": "Offset = log₂64 = 6 bits. Lines = 32 KB / 64 B = 512, so index = 9 bits. Tag = 32 − 9 − 6 = 17 bits.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-C14"
+      "archetype": "gate-cse-C14",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Direct-mapped tag bits 17 – GATE cache staple"
+      }
     },
     {
       "id": "gate-cse-025",
@@ -1421,7 +1449,12 @@
       "explanation": "Cycles = k + (n − 1) = 5 + 99 = 104.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-C15"
+      "archetype": "gate-cse-C15",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "k+n−1 = 104 pipeline cycles; GATE 1-mark, simple"
+      }
     },
     {
       "id": "gate-cse-026",
@@ -1439,25 +1472,12 @@
       "explanation": "AMAT = hit time + miss rate × miss penalty = 1 + 0.05 × 100 = 6 ns.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-C16"
-    },
-    {
-      "id": "gate-cse-027",
-      "section": "cs",
-      "topic": "Computer Organization & Architecture",
-      "difficulty": "easy",
-      "question": "In which addressing mode is the operand value itself contained in the instruction?",
-      "options": [
-        "Direct",
-        "Immediate",
-        "Register",
-        "Indirect"
-      ],
-      "answer": 1,
-      "explanation": "In immediate addressing, the instruction carries the constant operand directly, for example ADD R1, #5.",
-      "verified": true,
-      "source": "curated",
-      "archetype": "gate-cse-C17"
+      "archetype": "gate-cse-C16",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "AMAT 1+0.05·100 = 6 with 5.95 trap; GATE-level"
+      }
     },
     {
       "id": "gate-cse-028",
@@ -1475,7 +1495,12 @@
       "explanation": "Number of lines = 64 KB / 32 B = 2048. Sets = 2048 / 4 = 512.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-C14"
+      "archetype": "gate-cse-C14",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "4-way 64KB/32B → 512 sets – GATE cache item"
+      }
     },
     {
       "id": "gate-cse-029",
@@ -1493,7 +1518,12 @@
       "explanation": "f(7) = 7 × f(5) = 7 × 5 × f(3) = 7 × 5 × 3 × f(1) = 105.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-C18"
+      "archetype": "gate-cse-C18",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Recursive n·f(n−2) trace = 105; GATE-level, short"
+      }
     },
     {
       "id": "gate-cse-030",
@@ -1511,7 +1541,12 @@
       "explanation": "p points to a[1]. *(p + 2) = a[3] = 40 and p[-1] = a[0] = 10, so the sum is 50.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-C19"
+      "archetype": "gate-cse-C19",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Pointer arithmetic *(p+2)+p[-1] = 50 – GATE C output"
+      }
     },
     {
       "id": "gate-cse-031",
@@ -1529,7 +1564,12 @@
       "explanation": "The static variable c keeps its value between calls, so g returns 2, 4 and 6. s = 12.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-C19"
+      "archetype": "gate-cse-C19",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Static local accumulation 2+4+6 = 12 – GATE C staple"
+      }
     },
     {
       "id": "gate-cse-032",
@@ -1547,7 +1587,12 @@
       "explanation": "The tree is 50 → (30 → 20, 40 → (35, –)), (70 → 60, 80). Post-order visits left, right, root: 20, 35, 40, 30, 60, 80, 70, 50.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-C20"
+      "archetype": "gate-cse-C20",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "BST post-order after insertions – GATE DS staple"
+      }
     },
     {
       "id": "gate-cse-033",
@@ -1565,7 +1610,12 @@
       "explanation": "2 3 + = 5, then 6 5 − = 1. Next 8 2 / = 4 and 3 4 + = 7. Finally 1 × 7 = 7.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-C21"
+      "archetype": "gate-cse-C21",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Postfix evaluation = 7 – GATE stack item"
+      }
     },
     {
       "id": "gate-cse-034",
@@ -1583,7 +1633,12 @@
       "explanation": "12 → 2, 22 → 3 (after collision), 32 → 4, 15 → 5. Then 25 hashes to 5, which is occupied, so it goes to 6.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-C22"
+      "archetype": "gate-cse-C22",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Linear probing slot for 25 = 6 – GATE hashing"
+      }
     },
     {
       "id": "gate-cse-035",
@@ -1601,25 +1656,12 @@
       "explanation": "Here n^(log₂2) = n and f(n) = n log n = Θ(n log¹ n). By the extended case 2 of the master theorem, T(n) = Θ(n log² n).",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-C23"
-    },
-    {
-      "id": "gate-cse-036",
-      "section": "cs",
-      "topic": "Algorithms",
-      "difficulty": "easy",
-      "question": "Which sorting algorithm has a worst-case time complexity of O(n log n) and sorts in place with O(1) extra space?",
-      "options": [
-        "Merge sort",
-        "Heap sort",
-        "Quick sort",
-        "Insertion sort"
-      ],
-      "answer": 1,
-      "explanation": "Heap sort is O(n log n) in the worst case and in-place. Merge sort needs O(n) extra space, quick sort is O(n²) in the worst case, and insertion sort is O(n²).",
-      "verified": true,
-      "source": "curated",
-      "archetype": "gate-cse-C24"
+      "archetype": "gate-cse-C23",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "T(n)=2T(n/2)+n log n → n log² n (extended master) – GATE staple"
+      }
     },
     {
       "id": "gate-cse-037",
@@ -1637,7 +1679,12 @@
       "explanation": "Kruskal's algorithm picks AB (1), then BC (2), then AD (3), which connects all four vertices. Total = 6.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-C25"
+      "archetype": "gate-cse-C25",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "MST weight 6 on 4 vertices; GATE-level, small"
+      }
     },
     {
       "id": "gate-cse-038",
@@ -1655,7 +1702,12 @@
       "explanation": "The inner loop runs i times for i = 1, 2, 4, …, < n. The total is a geometric sum below 2n, so the complexity is Θ(n).",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-C26"
+      "archetype": "gate-cse-C26",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Doubling outer loop with inner i → Θ(n) – GATE complexity trap"
+      }
     },
     {
       "id": "gate-cse-039",
@@ -1673,43 +1725,12 @@
       "explanation": "One LCS is 'ACBA' (B-A-C-D-B-A against A-B-C-B-D-A). Dynamic programming confirms that the maximum length is 4.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-C27"
-    },
-    {
-      "id": "gate-cse-040",
-      "section": "cs",
-      "topic": "Theory of Computation",
-      "difficulty": "easy",
-      "question": "What is the minimum number of states in a DFA over {a, b} that accepts exactly the strings in which the number of a's is divisible by 3?",
-      "options": [
-        "6",
-        "4",
-        "2",
-        "3"
-      ],
-      "answer": 3,
-      "explanation": "The DFA only needs to track the count of a's mod 3, so it needs three states (remainders 0, 1, 2).",
-      "verified": true,
-      "source": "curated",
-      "archetype": "gate-cse-C28"
-    },
-    {
-      "id": "gate-cse-041",
-      "section": "cs",
-      "topic": "Theory of Computation",
-      "difficulty": "easy",
-      "question": "Which of the following languages is NOT context-free?",
-      "options": [
-        "{aⁿbⁿcⁿ | n ≥ 0}",
-        "{aⁿbⁿ | n ≥ 0}",
-        "{aⁿbᵐ | 0 ≤ n ≤ m}",
-        "{wwᴿ | w ∈ {a, b}*}"
-      ],
-      "answer": 0,
-      "explanation": "aⁿbⁿcⁿ requires matching three counts, which the pumping lemma for CFLs shows is impossible. The others can be generated by CFGs or recognised by PDAs.",
-      "verified": true,
-      "source": "curated",
-      "archetype": "gate-cse-C29"
+      "archetype": "gate-cse-C27",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "LCS length 4 of BACDBA/ABCBDA – GATE DP item"
+      }
     },
     {
       "id": "gate-cse-042",
@@ -1727,7 +1748,12 @@
       "explanation": "The DFA must remember the last 3 symbols, and all 2³ = 8 such suffixes are pairwise distinguishable. So 8 states are needed.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-C28"
+      "archetype": "gate-cse-C28",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "3rd-from-right is 1 → 2³ = 8 states – GATE staple"
+      }
     },
     {
       "id": "gate-cse-043",
@@ -1745,7 +1771,12 @@
       "explanation": "The blank-tape halting problem reduces from the halting problem and is undecidable. DFA non-emptiness, CFG emptiness and CFG membership (CYK) are all decidable.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-C30"
+      "archetype": "gate-cse-C30",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Blank-tape halting undecidable; GATE decidability item"
+      }
     },
     {
       "id": "gate-cse-044",
@@ -1763,7 +1794,12 @@
       "explanation": "Every a except possibly the last symbol must be followed by b, so the string splits into blocks of 'b' and 'ab' plus an optional final 'a'. (b + ab)* misses strings ending in a, (b + ba)* misses strings starting with a, and (b + ab)*a* allows 'aa'.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-C31"
+      "archetype": "gate-cse-C31",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "No 'aa' regex (b+ab)*(ε+a) verified by brute force – GATE regex"
+      }
     },
     {
       "id": "gate-cse-045",
@@ -1781,25 +1817,12 @@
       "explanation": "From S → AB, FOLLOW(A) contains FIRST(B) − {ε} = {b}. Since B can derive ε, it also contains FOLLOW(S) = {$}. So FOLLOW(A) = {b, $}.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-C32"
-    },
-    {
-      "id": "gate-cse-046",
-      "section": "cs",
-      "topic": "Compiler Design",
-      "difficulty": "easy",
-      "question": "In which phase of a compiler is an error such as adding an integer to a function name (a type mismatch) detected?",
-      "options": [
-        "Syntax analysis",
-        "Semantic analysis",
-        "Code optimisation",
-        "Lexical analysis"
-      ],
-      "answer": 1,
-      "explanation": "Type checking is performed during semantic analysis, using the symbol table and the syntax tree.",
-      "verified": true,
-      "source": "curated",
-      "archetype": "gate-cse-C33"
+      "archetype": "gate-cse-C32",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "FOLLOW(A) with nullable B = {b,$} – GATE compiler staple"
+      }
     },
     {
       "id": "gate-cse-047",
@@ -1817,7 +1840,12 @@
       "explanation": "The tokens are int, x, =, a1, +, 25 and ; which makes 7.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-C33"
+      "archetype": "gate-cse-C33",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Token count 7 – GATE lexical item"
+      }
     },
     {
       "id": "gate-cse-048",
@@ -1835,7 +1863,12 @@
       "explanation": "The schedule is P1 0–1, P2 1–4, P4 4–6, P1 6–12, P3 12–20. Waiting times (completion − arrival − burst) are P1 = 5, P2 = 0, P3 = 10, P4 = 0. Average = 15/4 = 3.75 ms.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-C35"
+      "archetype": "gate-cse-C35",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "SRTF average waiting 3.75 ms simulated – GATE scheduling staple"
+      }
     },
     {
       "id": "gate-cse-049",
@@ -1853,25 +1886,12 @@
       "explanation": "The faults occur at 2, 3, 1, 5 (evicts 3), 4 (evicts 1), 3 (evicts 2) and 2 (evicts 4). That makes 7 faults; the other references are hits.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-C36"
-    },
-    {
-      "id": "gate-cse-050",
-      "section": "cs",
-      "topic": "Operating Systems",
-      "difficulty": "easy",
-      "question": "A counting semaphore is initialised to 10. Then 6 wait (P) operations and 4 signal (V) operations are performed on it. What is its final value?",
-      "options": [
-        "8",
-        "0",
-        "4",
-        "12"
-      ],
-      "answer": 0,
-      "explanation": "10 − 6 + 4 = 8. The value never goes negative, so no process blocks.",
-      "verified": true,
-      "source": "curated",
-      "archetype": "gate-cse-C37"
+      "archetype": "gate-cse-C36",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "LRU faults 7 simulated – GATE paging staple"
+      }
     },
     {
       "id": "gate-cse-051",
@@ -1889,7 +1909,12 @@
       "explanation": "The worst case is that each process holds 3 instances (9 in total) while waiting for one more. One extra instance breaks the deadlock: 3 × (4 − 1) + 1 = 10.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-C38"
+      "archetype": "gate-cse-C38",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "n(k−1)+1 = 10 deadlock-free – GATE staple"
+      }
     },
     {
       "id": "gate-cse-052",
@@ -1907,7 +1932,12 @@
       "explanation": "Number of pages = 2³² / 2¹² = 2²⁰. Size = 2²⁰ × 4 B = 4 MB.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-C39"
+      "archetype": "gate-cse-C39",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Page-table size 4 MB – GATE paging staple"
+      }
     },
     {
       "id": "gate-cse-053",
@@ -1925,7 +1955,12 @@
       "explanation": "The only candidate key is A. Because the key is a single attribute, there are no partial dependencies, so R is in 2NF. B → C and C → D are transitive dependencies of non-prime attributes, so R is not in 3NF.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-C40"
+      "archetype": "gate-cse-C40",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Transitive chain → 2NF – GATE normal form"
+      }
     },
     {
       "id": "gate-cse-054",
@@ -1943,7 +1978,12 @@
       "explanation": "B appears on no right-hand side, so it is in every key. AB⁺, BC⁺, BD⁺ and BE⁺ each equal ABCDE (for example BE: E → A, then AB → C → D). B alone is not a key, so the candidate keys are AB, BC, BD and BE.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-C41"
+      "archetype": "gate-cse-C41",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Cyclic FDs give 4 candidate keys (AB,BC,BD,BE) – GATE closure item"
+      }
     },
     {
       "id": "gate-cse-055",
@@ -1961,7 +2001,12 @@
       "explanation": "Dept A: count 2, average 55 → kept. Dept B: count 3, average 46.67 → kept. Dept C: count 1 → removed. So 2 rows are returned.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-C42"
+      "archetype": "gate-cse-C42",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "GROUP BY/HAVING with count+avg → 2 rows – GATE SQL"
+      }
     },
     {
       "id": "gate-cse-056",
@@ -1979,25 +2024,12 @@
       "explanation": "r1(X) before w2(X) gives the edge T1 → T2, and r2(X) before w1(X) gives the edge T2 → T1. The precedence graph has a cycle, so S is not conflict serializable.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-C43"
-    },
-    {
-      "id": "gate-cse-057",
-      "section": "cs",
-      "topic": "Computer Networks",
-      "difficulty": "easy",
-      "question": "How many usable host addresses does each subnet of 192.168.10.0/26 have?",
-      "options": [
-        "62",
-        "30",
-        "126",
-        "64"
-      ],
-      "answer": 0,
-      "explanation": "A /26 leaves 6 host bits: 2⁶ − 2 = 62 usable addresses (excluding the network and broadcast addresses).",
-      "verified": true,
-      "source": "curated",
-      "archetype": "gate-cse-C44"
+      "archetype": "gate-cse-C43",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "r1 r2 w1 w2 lost-update cycle → not CS – GATE staple"
+      }
     },
     {
       "id": "gate-cse-058",
@@ -2015,7 +2047,12 @@
       "explanation": "A /20 mask is 255.255.240.0, so the third octet comes in blocks of 16. 45 lies in 32–47, giving the subnet 172.16.32.0 – 172.16.47.255. Only 172.16.47.200 falls in it.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-C44"
+      "archetype": "gate-cse-C44",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "/20 same-subnet check (32–47 block) – GATE networks"
+      }
     },
     {
       "id": "gate-cse-059",
@@ -2033,7 +2070,12 @@
       "explanation": "For Go-Back-N the window is at most 2ⁿ − 1 = 7. Selective Repeat would allow 2ⁿ⁻¹ = 4.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-C45"
+      "archetype": "gate-cse-C45",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "GBN window 2^n−1 = 7; GATE-level, short"
+      }
     },
     {
       "id": "gate-cse-060",
@@ -2051,7 +2093,12 @@
       "explanation": "Tₜ = 8000 bits / 10⁷ bps = 0.8 ms. Utilisation = Tₜ / (Tₜ + 2Tₚ) = 0.8 / (0.8 + 40) ≈ 1.96%.",
       "verified": true,
       "source": "curated",
-      "archetype": "gate-cse-C46"
+      "archetype": "gate-cse-C46",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Stop-and-wait utilisation 1.96% (RTT trap 3.85%) – GATE staple"
+      }
     },
     {
       "id": "gate-cse-061",
@@ -2069,7 +2116,12 @@
       "explanation": "Frugal means sparing or economical with money; its opposite is extravagant. Thrifty, economical and prudent are near-synonyms.",
       "source": "ai",
       "archetype": "gate-cse-G01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Antonym of frugal; GATE GA-level"
+      }
     },
     {
       "id": "gate-cse-062",
@@ -2087,7 +2139,12 @@
       "explanation": "“Insist” takes the preposition “on” before a gerund: insisted on paying.",
       "source": "ai",
       "archetype": "gate-cse-G02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Preposition 'insisted on'; GATE GA-level"
+      }
     },
     {
       "id": "gate-cse-063",
@@ -2105,7 +2162,12 @@
       "explanation": "Completed → certificate; its contrapositive is no certificate → not completed. Nothing is said about attendance, assessments or whether others got certificates.",
       "source": "ai",
       "archetype": "gate-cse-G04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Contrapositive inference with converse traps – GATE GA passage style"
+      }
     },
     {
       "id": "gate-cse-064",
@@ -2123,7 +2185,12 @@
       "explanation": "Selling price = 1.4 × 0.8 = 1.12 times the cost, i.e. a 12% profit. (20% simply subtracts the percentages.)",
       "source": "ai",
       "archetype": "gate-cse-G05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Markup 40% discount 20% → 12% – GATE GA"
+      }
     },
     {
       "id": "gate-cse-065",
@@ -2141,7 +2208,12 @@
       "explanation": "Exactly two heads: 3 outcomes; three heads: 1 outcome. (3 + 1)/8 = 1/2.",
       "source": "ai",
       "archetype": "gate-cse-G06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "At least two heads 1/2; GATE GA-level"
+      }
     },
     {
       "id": "gate-cse-066",
@@ -2159,7 +2231,12 @@
       "explanation": "Units digits of powers of 7 cycle 7, 9, 3, 1 with period 4. 2026 = 4 × 506 + 2, so the units digit is 9.",
       "source": "ai",
       "archetype": "gate-cse-G07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Units digit 7^2026 = 9; GATE GA-level"
+      }
     },
     {
       "id": "gate-cse-067",
@@ -2177,7 +2254,12 @@
       "explanation": "Profit: 0.10 × 200 = ₹20 crore and 0.12 × 250 = ₹30 crore. Increase = 10/20 = 50%.",
       "source": "ai",
       "archetype": "gate-cse-G08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Profit % change from revenue/margin 50% – GATE GA DI"
+      }
     },
     {
       "id": "gate-cse-068",
@@ -2195,7 +2277,12 @@
       "explanation": "“Some books are bags” converts to “some bags are books”, so II follows. The books that are bags need not be pens, so I does not necessarily follow.",
       "source": "ai",
       "archetype": "gate-cse-G09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Syllogism only II follows – GATE GA"
+      }
     },
     {
       "id": "gate-cse-069",
@@ -2213,7 +2300,12 @@
       "explanation": "2025 is not a leap year, so it has 365 days = 52 weeks + 1 day. The day advances by one: Thursday.",
       "source": "ai",
       "archetype": "gate-cse-G10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Non-leap year shift → Thursday; GATE GA calendar"
+      }
     },
     {
       "id": "gate-cse-070",
@@ -2231,7 +2323,12 @@
       "explanation": "Such cubes lie on the edges where a red face meets a blue face, excluding corners. Each red face has 4 such edges with 1 middle cube each: 2 × 4 = 8. Corner cubes have three painted faces.",
       "source": "ai",
       "archetype": "gate-cse-G11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Two-colour painted cube, exactly one red & one blue = 8 (brute-forced) – GATE spatial"
+      }
     },
     {
       "id": "gate-cse-071",
@@ -2249,7 +2346,12 @@
       "explanation": "¬∀x φ ≡ ∃x ¬φ, and ¬(P → Q) ≡ ¬(¬P ∨ Q) ≡ P ∧ ¬Q.",
       "source": "ai",
       "archetype": "gate-cse-C02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "¬∀x(P→Q) ≡ ∃x(P∧¬Q) – GATE FOL staple"
+      }
     },
     {
       "id": "gate-cse-072",
@@ -2267,7 +2369,12 @@
       "explanation": "Make one isolated vertex and a complete graph K₉ on the rest: C(9, 2) = 36 edges. Any more edges would force connectivity.",
       "source": "ai",
       "archetype": "gate-cse-C03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Max edges disconnected = C(9,2) = 36 – GATE graph"
+      }
     },
     {
       "id": "gate-cse-073",
@@ -2285,7 +2392,12 @@
       "explanation": "a₂ = 5(4) − 6(1) = 14; a₃ = 5(14) − 6(4) = 46. (Closed form aₙ = 2·3ⁿ − 2ⁿ also gives 54 − 8 = 46.)",
       "source": "ai",
       "archetype": "gate-cse-C04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Recurrence iteration a3 = 46; GATE-level, mechanical"
+      }
     },
     {
       "id": "gate-cse-074",
@@ -2303,7 +2415,12 @@
       "explanation": "A cyclic group of order 12 has φ(4) = 2 elements of order 4: 3 and 9.",
       "source": "ai",
       "archetype": "gate-cse-C05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Order-4 elements in Z12 = φ(4) = 2 – GATE group"
+      }
     },
     {
       "id": "gate-cse-075",
@@ -2321,7 +2438,12 @@
       "explanation": "Each of the 4 diagonal pairs is free (2⁴) and each of the C(4,2) = 6 unordered off-diagonal pairs is included in both directions or not (2⁶): 2¹⁰ = 1024.",
       "source": "ai",
       "archetype": "gate-cse-C01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Symmetric relations 2^10 = 1024 – GATE counting"
+      }
     },
     {
       "id": "gate-cse-076",
@@ -2339,7 +2461,12 @@
       "explanation": "Characteristic equation λ² − 7λ + (12 − 2) = λ² − 7λ + 10 = 0 ⇒ λ = 2, 5 (sum 7 = trace, product 10 = determinant).",
       "source": "ai",
       "archetype": "gate-cse-C06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "2×2 eigenvalues 2,5; GATE-level, easy"
+      }
     },
     {
       "id": "gate-cse-077",
@@ -2357,7 +2484,12 @@
       "explanation": "The third equation is the sum of the first two, so the coefficient and augmented matrices both have rank 2 < 3 unknowns: the system is consistent with infinitely many solutions.",
       "source": "ai",
       "archetype": "gate-cse-C07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Dependent consistent system → infinite – GATE rank"
+      }
     },
     {
       "id": "gate-cse-078",
@@ -2375,7 +2507,12 @@
       "explanation": "f′(x) = e⁻ˣ(1 − x) = 0 at x = 1, where f changes from increasing to decreasing. f(1) = 1/e.",
       "source": "ai",
       "archetype": "gate-cse-C08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Max of x e^{−x} = 1/e; GATE calculus"
+      }
     },
     {
       "id": "gate-cse-079",
@@ -2393,7 +2530,12 @@
       "explanation": "P(max = 6) = 1 − P(both ≤ 5) = 1 − 25/36 = 11/36.",
       "source": "ai",
       "archetype": "gate-cse-C09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Max of two dice = 6 prob 11/36 – GATE combinatorial probability"
+      }
     },
     {
       "id": "gate-cse-080",
@@ -2411,7 +2553,12 @@
       "explanation": "For Poisson, Var(X) = mean = 2. E[X²] = Var(X) + (E[X])² = 2 + 4 = 6.",
       "source": "ai",
       "archetype": "gate-cse-C10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Poisson E[X²] = λ+λ² = 6 – GATE distribution"
+      }
     },
     {
       "id": "gate-cse-081",
@@ -2429,7 +2576,12 @@
       "explanation": "m0 and m2 (A = 0, C = 0) group as A′C′; m5 and m7 (A = 1, C = 1) group as AC. F = A′C′ + AC (A XNOR C). A′C + AC′ is its complement.",
       "source": "ai",
       "archetype": "gate-cse-C11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "K-map Σm(0,2,5,7) → A′C′+AC (XNOR-type) – GATE"
+      }
     },
     {
       "id": "gate-cse-082",
@@ -2447,7 +2599,12 @@
       "explanation": "0x40A00000 = 0 | 10000001 | 0100…0. Exponent 129 − 127 = 2; significand 1.01₂ = 1.25. Value = 1.25 × 2² = 5.0.",
       "source": "ai",
       "archetype": "gate-cse-C12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "IEEE-754 0x40A00000 = 5.0 – GATE number representation"
+      }
     },
     {
       "id": "gate-cse-083",
@@ -2465,7 +2622,12 @@
       "explanation": "In a ripple counter the delays add: 4 × 10 = 40 ns must elapse before the next clock edge. f_max = 1/40 ns = 25 MHz. (100 MHz would be the synchronous-counter value.)",
       "source": "ai",
       "archetype": "gate-cse-C13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Ripple counter n·tpd → 25 MHz – GATE sequential"
+      }
     },
     {
       "id": "gate-cse-084",
@@ -2483,7 +2645,12 @@
       "explanation": "Offset = log₂32 = 5 bits; lines = 16 KB/32 B = 512 ⇒ index = 9 bits. Tag = 24 − 9 − 5 = 10 bits.",
       "source": "ai",
       "archetype": "gate-cse-C14",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "24-bit address tag 10 bits – GATE cache"
+      }
     },
     {
       "id": "gate-cse-085",
@@ -2501,7 +2668,12 @@
       "explanation": "The pipeline clock is set by the slowest stage plus latch: 15 + 1 = 16 ns. Speedup ≈ 50/16 = 3.125. (3.33 ignores the latch delay.)",
       "source": "ai",
       "archetype": "gate-cse-C15",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Pipeline speedup with max stage + latch = 3.125 – GATE staple"
+      }
     },
     {
       "id": "gate-cse-086",
@@ -2519,7 +2691,12 @@
       "explanation": "Hierarchical access: AMAT = 2 + 0.1 × 100 = 12 ns. (11.8 ns would apply if cache and memory were accessed simultaneously.)",
       "source": "ai",
       "archetype": "gate-cse-C16",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Hierarchical AMAT 12 ns vs simultaneous 11.8 trap – GATE staple"
+      }
     },
     {
       "id": "gate-cse-087",
@@ -2537,7 +2714,12 @@
       "explanation": "Each register specifier needs log₂32 = 5 bits. Immediate = 32 − 8 − 5 − 5 = 14 bits.",
       "source": "ai",
       "archetype": "gate-cse-C17",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Immediate field 32−8−5−5 = 14 – GATE instruction format"
+      }
     },
     {
       "id": "gate-cse-088",
@@ -2555,7 +2737,12 @@
       "explanation": "Number of sets = 256/4 = 64. Set = 1000 mod 64 = 1000 − 960 = 40. (232 = 1000 mod 256 is the direct-mapped line.)",
       "source": "ai",
       "archetype": "gate-cse-C14",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Block 1000 → set 40 of 64 – GATE set-associative"
+      }
     },
     {
       "id": "gate-cse-089",
@@ -2573,7 +2760,12 @@
       "explanation": "f computes the sum of decimal digits: 2 + 0 + 2 + 6 = 10.",
       "source": "ai",
       "archetype": "gate-cse-C18",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Digit sum recursion = 10; GATE-level, simple"
+      }
     },
     {
       "id": "gate-cse-090",
@@ -2591,7 +2783,12 @@
       "explanation": "**q and *p both refer to x. **q = 10 sets x to 10; *p = *p + 1 makes it 11.",
       "source": "ai",
       "archetype": "gate-cse-C19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Double pointer write then increment → 11; GATE-level"
+      }
     },
     {
       "id": "gate-cse-091",
@@ -2609,7 +2806,12 @@
       "explanation": "a is static: initialised once and retains its value (2, 3, 4). b is automatic: re-initialised to 1 each call, so it prints 2 every time.",
       "source": "ai",
       "archetype": "gate-cse-C19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Static vs auto locals output 22 32 42 – GATE C staple"
+      }
     },
     {
       "id": "gate-cse-092",
@@ -2627,7 +2829,12 @@
       "explanation": "[10] → [20, 10] → [20, 10, 15] → 30 sifts up past 10 and 20: [30, 20, 15, 10] → 40 is placed at index 4 (child of 20), sifts past 20 and 30: [40, 30, 15, 10, 20].",
       "source": "ai",
       "archetype": "gate-cse-C20",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Max-heap array after insertions verified – GATE heap staple"
+      }
     },
     {
       "id": "gate-cse-093",
@@ -2645,7 +2852,12 @@
       "explanation": "* and / have equal precedence and are left-associative, so the expression is a + ((b * (c − d)) / e). b * (c − d) → b c d − *; dividing by e → b c d − * e /; adding a → a b c d − * e / +.",
       "source": "ai",
       "archetype": "gate-cse-C21",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Infix→postfix with parentheses – GATE stack"
+      }
     },
     {
       "id": "gate-cse-094",
@@ -2663,7 +2875,12 @@
       "explanation": "10 → slot 3. 17: 3 is taken, i = 1 gives 4. 24: 3 taken, 4 taken, i = 2 gives (24 + 4) mod 7 = 0.",
       "source": "ai",
       "archetype": "gate-cse-C22",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Quadratic probing slot 0 – GATE hashing"
+      }
     },
     {
       "id": "gate-cse-095",
@@ -2681,25 +2898,12 @@
       "explanation": "n^(log₂4) = n² equals f(n) = n², so the master theorem’s case 2 gives Θ(n² log n).",
       "source": "ai",
       "archetype": "gate-cse-C23",
-      "verified": false
-    },
-    {
-      "id": "gate-cse-096",
-      "section": "cs",
-      "topic": "Algorithms",
-      "difficulty": "easy",
-      "question": "Which of the following sorting algorithms is stable in its standard array implementation?",
-      "options": [
-        "Quick sort",
-        "Heap sort",
-        "Selection sort",
-        "Merge sort"
-      ],
-      "answer": 3,
-      "explanation": "Merge sort preserves the relative order of equal keys when the merge takes from the left half on ties. Standard quick sort, heap sort and selection sort can reorder equal keys.",
-      "source": "ai",
-      "archetype": "gate-cse-C24",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Master case 2 → n² log n – GATE"
+      }
     },
     {
       "id": "gate-cse-097",
@@ -2717,7 +2921,12 @@
       "explanation": "d(C) = 1, d(B) = min(4, 1 + 2) = 3, d(D) = min(3 + 1, 1 + 5) = 4 via A→C→B→D.",
       "source": "ai",
       "archetype": "gate-cse-C25",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Dijkstra A→D = 4; small graph, easy"
+      }
     },
     {
       "id": "gate-cse-098",
@@ -2735,7 +2944,12 @@
       "explanation": "For each i the inner loop runs about n/i times. Σ n/i = n·Hₙ = Θ(n log n).",
       "source": "ai",
       "archetype": "gate-cse-C26",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Harmonic inner loop → Θ(n log n) – GATE complexity"
+      }
     },
     {
       "id": "gate-cse-099",
@@ -2753,7 +2967,12 @@
       "explanation": "Candidate subsets within capacity 7: (3,4)+(4,5) → weight 7, value 9; (1,1)+(5,7) → weight 6, value 8; (1,1)+(4,5) → value 6; (1,1)+(3,4) → value 5. Item (5,7) cannot be combined with (3,4) or (4,5). Maximum = 9.",
       "source": "ai",
       "archetype": "gate-cse-C27",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "0/1 knapsack value 9 (greedy trap 8) – GATE DP"
+      }
     },
     {
       "id": "gate-cse-100",
@@ -2771,25 +2990,12 @@
       "explanation": "States track the longest suffix matching a prefix of ab: ε, a, ab (accepting). These three are pairwise distinguishable, so 3 states are needed and suffice.",
       "source": "ai",
       "archetype": "gate-cse-C28",
-      "verified": false
-    },
-    {
-      "id": "gate-cse-101",
-      "section": "cs",
-      "topic": "Theory of Computation",
-      "difficulty": "medium",
-      "question": "Which of the following languages is context-free but NOT regular?",
-      "options": [
-        "{aⁿbⁿ | n ≥ 0}",
-        "{aⁿbⁿcⁿ | n ≥ 0}",
-        "(ab)*",
-        "{a^(n²) | n ≥ 0}"
-      ],
-      "answer": 0,
-      "explanation": "aⁿbⁿ needs one stack (CFL) but unbounded counting (not regular). aⁿbⁿcⁿ and a^(n²) are not context-free; (ab)* is regular.",
-      "source": "ai",
-      "archetype": "gate-cse-C29",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Strings ending in ab DFA 3 states; GATE-level"
+      }
     },
     {
       "id": "gate-cse-102",
@@ -2807,7 +3013,12 @@
       "explanation": "Emptiness of a CFG is decidable by marking generating variables. Totality of TMs, CFG equivalence and CFG ambiguity are undecidable.",
       "source": "ai",
       "archetype": "gate-cse-C30",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "CFG emptiness decidable vs equivalence/ambiguity – GATE staple"
+      }
     },
     {
       "id": "gate-cse-103",
@@ -2825,7 +3036,12 @@
       "explanation": "(1*01*0)* produces blocks with exactly two 0s each, with 1s anywhere between; the trailing 1* allows ending in 1s. (00)*1* misses strings like 0101; the others describe different languages.",
       "source": "ai",
       "archetype": "gate-cse-C31",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Even 0s regex verified by brute force – GATE regex"
+      }
     },
     {
       "id": "gate-cse-104",
@@ -2843,7 +3059,12 @@
       "explanation": "Track the remainder mod 5: reading bit b moves r to (2r + b) mod 5. The 5 remainder states are pairwise distinguishable, so 5 states are needed.",
       "source": "ai",
       "archetype": "gate-cse-C28",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Divisible-by-5 binary DFA 5 states – GATE staple"
+      }
     },
     {
       "id": "gate-cse-105",
@@ -2861,7 +3082,12 @@
       "explanation": "FIRST(A) = {a, ε}; since A can vanish, FIRST(B) = {b, ε} is added; since both can vanish, ε ∈ FIRST(S).",
       "source": "ai",
       "archetype": "gate-cse-C32",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "FIRST(S) with both nullable includes ε; GATE-level"
+      }
     },
     {
       "id": "gate-cse-106",
@@ -2879,25 +3105,12 @@
       "explanation": "Leaders: 1 (first statement), 2 (jump target), 4 (follows a conditional jump), 6 (jump target). Blocks: {1}, {2, 3}, {4, 5}, {6}.",
       "source": "ai",
       "archetype": "gate-cse-C34",
-      "verified": false
-    },
-    {
-      "id": "gate-cse-107",
-      "section": "cs",
-      "topic": "Compiler Design",
-      "difficulty": "easy",
-      "question": "Which phase of a compiler uses a context-free grammar to check that the token stream forms a valid program structure?",
-      "options": [
-        "Lexical analysis",
-        "Semantic analysis",
-        "Syntax analysis",
-        "Code optimisation"
-      ],
-      "answer": 2,
-      "explanation": "The parser (syntax analyser) checks the token sequence against the CFG. Lexical analysis uses regular expressions; semantic analysis checks types and scopes.",
-      "source": "ai",
-      "archetype": "gate-cse-C33",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Leaders → 4 basic blocks – GATE compiler"
+      }
     },
     {
       "id": "gate-cse-108",
@@ -2915,7 +3128,12 @@
       "explanation": "Gantt: P1 0–2, P2 2–4, P3 4–5, P1 5–7, P2 7–8, P1 8–9. Completion: P1 9, P2 8, P3 5. Waiting = completion − arrival − burst: 4, 4, 3. Average = 11/3 ≈ 3.67.",
       "source": "ai",
       "archetype": "gate-cse-C35",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "RR q=2 with tie-break rule stated, avg 3.67 simulated – GATE scheduling"
+      }
     },
     {
       "id": "gate-cse-109",
@@ -2933,7 +3151,12 @@
       "explanation": "Faults on 1, 2, 3, 4 (4); 1, 2 hit; then 5, 1, 2, 3, 4, 5 each fault (6) as FIFO evicts the oldest page each time. Total 10 (more than the 9 faults with 3 frames — Belady’s anomaly).",
       "source": "ai",
       "archetype": "gate-cse-C36",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Belady string FIFO 4 frames = 10 – GATE staple"
+      }
     },
     {
       "id": "gate-cse-110",
@@ -2951,7 +3174,12 @@
       "explanation": "Only P1 can start (S = 1, T = 0). Each print by one process enables exactly one print by the other, forcing strict alternation 0, 1, 0, 1, …",
       "source": "ai",
       "archetype": "gate-cse-C37",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Semaphore alternation 0101… – GATE synchronisation"
+      }
     },
     {
       "id": "gate-cse-111",
@@ -2969,7 +3197,12 @@
       "explanation": "Worst case: every process holds 2 instances and waits for one more (10 held). One extra instance lets some process finish: 5 × (3 − 1) + 1 = 11.",
       "source": "ai",
       "archetype": "gate-cse-C38",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "n(k−1)+1 = 11 – GATE deadlock"
+      }
     },
     {
       "id": "gate-cse-112",
@@ -2987,7 +3220,12 @@
       "explanation": "Hit: 10 + 100 = 110 ns; miss: 10 + 100 (page table) + 100 = 210 ns. EAT = 0.9 × 110 + 0.1 × 210 = 99 + 21 = 120 ns.",
       "source": "ai",
       "archetype": "gate-cse-C39",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "TLB EMAT 120 ns – GATE paging staple"
+      }
     },
     {
       "id": "gate-cse-113",
@@ -3005,7 +3243,12 @@
       "explanation": "Candidate keys are AB and BC, so every attribute is prime and R is in 3NF. C → A violates BCNF because C is not a superkey.",
       "source": "ai",
       "archetype": "gate-cse-C40",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "AB→C, C→A: 3NF not BCNF – GATE classic"
+      }
     },
     {
       "id": "gate-cse-114",
@@ -3023,7 +3266,12 @@
       "explanation": "A and C appear on no right-hand side, so every key contains both. {A, C}⁺ = {A, B, C, D, E}, so AC is the only candidate key.",
       "source": "ai",
       "archetype": "gate-cse-C41",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Single candidate key AC – GATE closure"
+      }
     },
     {
       "id": "gate-cse-115",
@@ -3041,7 +3289,12 @@
       "explanation": "Group sums: A = 400, B = 300, C = 50. Two groups (A and B) exceed 250.",
       "source": "ai",
       "archetype": "gate-cse-C42",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "GROUP BY HAVING SUM → 2 rows; GATE SQL, simple"
+      }
     },
     {
       "id": "gate-cse-116",
@@ -3059,7 +3312,12 @@
       "explanation": "r1(A) before w2(A) gives the edge T1 → T2; w2(A) before w1(A) gives T2 → T1. The precedence graph has a cycle, so the schedule is not conflict serializable.",
       "source": "ai",
       "archetype": "gate-cse-C43",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "r1 w2 w1 cycle → not CS – GATE schedule"
+      }
     },
     {
       "id": "gate-cse-117",
@@ -3077,7 +3335,12 @@
       "explanation": "50 hosts need 6 host bits (2⁶ − 2 = 62 usable; 5 bits give only 30). That leaves 2 subnet bits: 2² = 4 subnets of /26.",
       "source": "ai",
       "archetype": "gate-cse-C44",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "/24 into subnets ≥50 hosts → 4 – GATE subnetting"
+      }
     },
     {
       "id": "gate-cse-118",
@@ -3095,7 +3358,12 @@
       "explanation": "Selective Repeat requires window ≤ 2^(k−1) = 2³ = 8 so that old and new frames are not confused. (15 = 2⁴ − 1 is the Go-Back-N limit.)",
       "source": "ai",
       "archetype": "gate-cse-C45",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "SR window 2^(n−1) = 8; GATE-level"
+      }
     },
     {
       "id": "gate-cse-119",
@@ -3113,7 +3381,12 @@
       "explanation": "Transmission time = 8000 bits/10⁶ bps = 8 ms. A cycle lasts 8 + 2 × 10 = 28 ms, during which 28/8 = 3.5 frame times elapse. The window must be at least ⌈3.5⌉ = 4 frames.",
       "source": "ai",
       "archetype": "gate-cse-C46",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Window (Tt+RTT)/Tt = 3.5 → 4 – GATE throughput"
+      }
     },
     {
       "id": "gate-cse-120",
@@ -3131,7 +3404,12 @@
       "explanation": "In slow start the window doubles every RTT: 1 → 2 → 4 → 8 → 16 MSS, i.e. after 4 RTTs.",
       "source": "ai",
       "archetype": "gate-cse-C47",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Slow-start doubling to ssthresh 4 RTTs – GATE TCP"
+      }
     }
   ]
 }

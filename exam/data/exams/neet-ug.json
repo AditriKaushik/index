@@ -2138,7 +2138,12 @@
       "explanation": "Work = force × displacement and torque = force × lever arm both have dimensions ML²T⁻².",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-P01"
+      "archetype": "neet-ug-P01",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Work/torque same dimensions – frequent NEET one-liner with near-miss pairs"
+      }
     },
     {
       "id": "neet-ug-002",
@@ -2156,7 +2161,12 @@
       "explanation": "Apparent weight = m(g − a) = 60 × (10 − 2) = 480 N.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-P03"
+      "archetype": "neet-ug-P03",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Lift moving down with a, scale 480 N – NEET staple with 600/720 distractors"
+      }
     },
     {
       "id": "neet-ug-003",
@@ -2174,7 +2184,12 @@
       "explanation": "½kx² = ½mv² ⇒ v = x√(k/m) = 0.1 × √400 = 2 m/s.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-P05"
+      "archetype": "neet-ug-P05",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Spring PE → KE speed 2 m/s; NEET-level numeric, cm→m trap"
+      }
     },
     {
       "id": "neet-ug-004",
@@ -2192,7 +2207,12 @@
       "explanation": "Parallel-axis theorem: I = ML²/12 + M(L/4)² = ML²/12 + ML²/16 = 7ML²/48.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-P06"
+      "archetype": "neet-ug-P06",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Rod MI about L/4 point 7ML²/48 – classic NEET parallel-axis item"
+      }
     },
     {
       "id": "neet-ug-005",
@@ -2210,7 +2230,12 @@
       "explanation": "ΔL = FL/(πr²Y) ∝ L/r². New ΔL = 1 mm × 2/4 = 0.5 mm.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-P10"
+      "archetype": "neet-ug-P10",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Extension ∝ L/r² → 0.5 mm; NEET PYQ pattern"
+      }
     },
     {
       "id": "neet-ug-006",
@@ -2228,7 +2253,12 @@
       "explanation": "η = 1 − T₂/T₁ ⇒ 0.4 = 1 − 300/T₁ ⇒ T₁ = 300/0.6 = 500 K.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-P12"
+      "archetype": "neet-ug-P12",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Carnot source T from η and sink, 500 K – NEET staple"
+      }
     },
     {
       "id": "neet-ug-007",
@@ -2246,7 +2276,12 @@
       "explanation": "T ∝ √L, so T' = T√1.21 = 1.1T, an increase of 10%.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-P15"
+      "archetype": "neet-ug-P15",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Pendulum length +21% → T +10% – recurring NEET item"
+      }
     },
     {
       "id": "neet-ug-008",
@@ -2264,7 +2299,12 @@
       "explanation": "Charges become q/2 on the first; the third then has q/2 and shares with the second: (q/2 + q)/2 = 3q/4. Force ∝ (q/2)(3q/4) = 3q²/8 ⇒ 3F/8.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-P17"
+      "archetype": "neet-ug-P17",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Third sphere touching both → 3F/8, exact NEET PYQ type"
+      }
     },
     {
       "id": "neet-ug-009",
@@ -2282,7 +2322,12 @@
       "explanation": "X/12 = 40/60 ⇒ X = 8 Ω.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-P19"
+      "archetype": "neet-ug-P19",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Metre bridge balance X = 8 Ω with 18 Ω inverse distractor – NEET style"
+      }
     },
     {
       "id": "neet-ug-010",
@@ -2300,7 +2345,12 @@
       "explanation": "B = μ₀NI/(2R) = 4π×10⁻⁷ × 100 × 1/0.2 = 2π × 10⁻⁴ ≈ 6.28 × 10⁻⁴ T.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-P21"
+      "archetype": "neet-ug-P21",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Coil field μ0NI/2r = 6.28e-4 T; standard NEET"
+      }
     },
     {
       "id": "neet-ug-011",
@@ -2318,7 +2368,12 @@
       "explanation": "Z = √(30² + 40²) = 50 Ω; I_rms = 4 A. P = I²R = 16 × 30 = 480 W.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-P23"
+      "archetype": "neet-ug-P23",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "LR average power I²R = 480 W with V²/R distractor – NEET style"
+      }
     },
     {
       "id": "neet-ug-012",
@@ -2336,7 +2391,12 @@
       "explanation": "1/v = 1/f − 1/u = −1/20 + 1/30 = −1/60 ⇒ v = −60 cm (real, in front). m = −v/u = −2 ⇒ inverted, twice the size.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-P26"
+      "archetype": "neet-ug-P26",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Concave mirror image nature/position; NEET-level"
+      }
     },
     {
       "id": "neet-ug-013",
@@ -2354,7 +2414,12 @@
       "explanation": "Remaining = (1/2)³ = 1/8, so decayed = 1 − 1/8 = 7/8.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-P30"
+      "archetype": "neet-ug-P30",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Fraction decayed after 3 half-lives 7/8 vs 1/8 trap; NEET-level easy"
+      }
     },
     {
       "id": "neet-ug-014",
@@ -2372,7 +2437,12 @@
       "explanation": "A full-wave rectifier gives one output pulse for each half cycle, so the ripple frequency is 2 × 50 = 100 Hz.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-P32"
+      "archetype": "neet-ug-P32",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Full-wave ripple 100 Hz – NEET repeated one-liner"
+      }
     },
     {
       "id": "neet-ug-015",
@@ -2390,7 +2460,12 @@
       "explanation": "g = GM/R² ⇒ Δg/g = −2ΔR/R = −2(−1%) = +2%.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-P08"
+      "archetype": "neet-ug-P08",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Radius −1% → g +2%; NEET percentage-approximation item"
+      }
     },
     {
       "id": "neet-ug-016",
@@ -2408,7 +2483,12 @@
       "explanation": "Each CH₄ has 5 atoms: 0.1 × 5 = 0.5 mol of atoms = 0.5 × 6.022 × 10²³ = 3.011 × 10²³.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-C01"
+      "archetype": "neet-ug-C01",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Atoms in 0.1 mol CH4 with molecule-count trap – NEET-level"
+      }
     },
     {
       "id": "neet-ug-017",
@@ -2426,7 +2506,12 @@
       "explanation": "l can only take values 0 to n − 1; for n = 2, l = 2 is not allowed.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-C02"
+      "archetype": "neet-ug-C02",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Invalid quantum number set (l = n) – NEET staple"
+      }
     },
     {
       "id": "neet-ug-018",
@@ -2444,25 +2529,12 @@
       "explanation": "Cl has 3 bond pairs and 2 lone pairs (5 electron domains, sp³d). Lone pairs occupy equatorial positions, giving a T-shape.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-C05"
-    },
-    {
-      "id": "neet-ug-019",
-      "section": "chemistry",
-      "topic": "Chemical Bonding & Molecular Structure",
-      "difficulty": "easy",
-      "question": "Which of the following molecules has the largest bond angle?",
-      "options": [
-        "CH₄",
-        "BF₃",
-        "NH₃",
-        "H₂O"
-      ],
-      "answer": 1,
-      "explanation": "BF₃ is trigonal planar (120°); CH₄ 109.5°, NH₃ ≈ 107°, H₂O ≈ 104.5°.",
-      "verified": true,
-      "source": "curated",
-      "archetype": "neet-ug-C06"
+      "archetype": "neet-ug-C05",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "ClF3 sp3d T-shaped – frequent NEET VSEPR item"
+      }
     },
     {
       "id": "neet-ug-020",
@@ -2480,7 +2552,12 @@
       "explanation": "CH₄ + 2O₂ → CO₂ + 2H₂O: −890.3 = (−393.5 + 2(−285.8)) − ΔfH(CH₄) ⇒ ΔfH(CH₄) = −965.1 + 890.3 = −74.8 kJ mol⁻¹.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-C08"
+      "archetype": "neet-ug-C08",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "ΔfH of CH4 from combustion data −74.8 – classic NEET Hess"
+      }
     },
     {
       "id": "neet-ug-021",
@@ -2498,7 +2575,12 @@
       "explanation": "Ag₂CrO₄ ⇌ 2Ag⁺ + CrO₄²⁻: Ksp = (2s)²s = 4s³ ⇒ s³ = 8 × 10⁻¹² ⇒ s = 2 × 10⁻⁴ mol L⁻¹.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-C10"
+      "archetype": "neet-ug-C10",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Ag2CrO4 solubility 4s³ = Ksp → 2e-4 – NEET A2B type"
+      }
     },
     {
       "id": "neet-ug-022",
@@ -2516,7 +2598,12 @@
       "explanation": "r' = k(2[A])²([B]/2) = 4 × ½ × k[A]²[B] = 2r.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-C15"
+      "archetype": "neet-ug-C15",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Rate law [A]²[B] scaling ×2 – NEET-level"
+      }
     },
     {
       "id": "neet-ug-023",
@@ -2534,7 +2621,12 @@
       "explanation": "Down the group the E–H bond becomes weaker, so reducing character increases: NH₃ < PH₃ < AsH₃ < SbH₃ < BiH₃.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-C17"
+      "archetype": "neet-ug-C17",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "BiH3 strongest reducing hydride; NEET trend item"
+      }
     },
     {
       "id": "neet-ug-024",
@@ -2552,7 +2644,12 @@
       "explanation": "Poor shielding by 4f electrons makes 5d elements nearly the same size as 4d ones (Zr 160 pm, Hf 159 pm). Radii decrease and basicity decreases across the series; +3 is the common state.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-C19"
+      "archetype": "neet-ug-C19",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Zr/Hf similar radii as consequence of lanthanoid contraction – NEET favourite"
+      }
     },
     {
       "id": "neet-ug-025",
@@ -2570,7 +2667,12 @@
       "explanation": "cis-[Co(en)₂Cl₂]⁺ has no plane of symmetry and exists as a pair of enantiomers. The trans isomer, the homoleptic complex and the square-planar Pt complex have mirror planes.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-C21"
+      "archetype": "neet-ug-C21",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "cis-[Co(en)2Cl2]+ optically active – NEET staple"
+      }
     },
     {
       "id": "neet-ug-026",
@@ -2588,7 +2690,12 @@
       "explanation": "Each Cl exerts an −I effect that stabilises the carboxylate ion; more Cl atoms give a stronger acid. CH₃ (+I) makes acetic acid the weakest.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-C23"
+      "archetype": "neet-ug-C23",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Chloroacetic acid acidity order; NEET-level"
+      }
     },
     {
       "id": "neet-ug-027",
@@ -2606,7 +2713,12 @@
       "explanation": "In the presence of peroxide, HBr adds by a free-radical mechanism (Kharasch effect), giving the anti-Markovnikov product CH₃CH₂CH₂Br.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-C25"
+      "archetype": "neet-ug-C25",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Peroxide effect gives 1-bromopropane – NEET staple"
+      }
     },
     {
       "id": "neet-ug-028",
@@ -2624,7 +2736,12 @@
       "explanation": "Clemmensen reduction (Zn–Hg/conc. HCl) reduces C=O to CH₂. LiAlH₄ and NaBH₄ give the secondary alcohol; Pd–BaSO₄ (Rosenmund catalyst) does not reduce the ketone to the alkane.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-C29"
+      "archetype": "neet-ug-C29",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Clemmensen reduction reagent – NEET-level"
+      }
     },
     {
       "id": "neet-ug-029",
@@ -2642,7 +2759,12 @@
       "explanation": "In water, basicity depends on +I effect, solvation and steric hindrance; for ethyl amines the order is 2° > 3° > 1° > NH₃ (NCERT).",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-C31"
+      "archetype": "neet-ug-C31",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Ethylamine series aqueous basicity 2°>3°>1° – NEET trap (differs from methyl)"
+      }
     },
     {
       "id": "neet-ug-030",
@@ -2660,7 +2782,12 @@
       "explanation": "Prolonged heating with HI reduces glucose to n-hexane, showing its six carbons are in a straight chain.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-C33"
+      "archetype": "neet-ug-C33",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Glucose + HI → n-hexane, NCERT line NEET repeatedly asks"
+      }
     },
     {
       "id": "neet-ug-031",
@@ -2678,7 +2805,12 @@
       "explanation": "Mycoplasma completely lacks a cell wall, is the smallest known living cell and can survive without oxygen.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-B01"
+      "archetype": "neet-ug-B01",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Mycoplasma NCERT descriptor – NEET-faithful"
+      }
     },
     {
       "id": "neet-ug-032",
@@ -2696,7 +2828,12 @@
       "explanation": "Monocot stems have numerous scattered, closed (no cambium) conjoint collateral bundles with sclerenchymatous sheaths; roots have radial bundles and dicot stems have bundles in a ring.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-B04"
+      "archetype": "neet-ug-B04",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Monocot stem vascular bundle features – NEET anatomy"
+      }
     },
     {
       "id": "neet-ug-033",
@@ -2714,7 +2851,12 @@
       "explanation": "In pea (Fabaceae) the ovules are borne along the ventral suture of a single-chambered ovary (marginal). Mustard has parietal, sunflower basal and Dianthus free-central placentation.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-B06"
+      "archetype": "neet-ug-B06",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Marginal placentation pea – NEET staple"
+      }
     },
     {
       "id": "neet-ug-034",
@@ -2732,7 +2874,12 @@
       "explanation": "Chloroplasts (and mitochondria) are semi-autonomous: they have circular DNA and 70S ribosomes.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-B08"
+      "archetype": "neet-ug-B08",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Chloroplast own DNA/70S; NEET-level, slightly easy"
+      }
     },
     {
       "id": "neet-ug-035",
@@ -2750,7 +2897,12 @@
       "explanation": "Biochemical studies of human RBC membranes show about 52 per cent protein and 40 per cent lipids.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-B09"
+      "archetype": "neet-ug-B09",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Erythrocyte membrane 52% protein 40% lipid – NCERT number NEET asks"
+      }
     },
     {
       "id": "neet-ug-036",
@@ -2768,7 +2920,12 @@
       "explanation": "Synapsis occurs in zygotene; exchange of segments (crossing over, aided by recombinase) occurs in pachytene; chiasmata become visible in diplotene.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-B11"
+      "archetype": "neet-ug-B11",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Crossing over at pachytene – NEET staple"
+      }
     },
     {
       "id": "neet-ug-037",
@@ -2786,7 +2943,12 @@
       "explanation": "Each CO₂ fixed needs 3 ATP and 2 NADPH; six turns (6 CO₂) for one glucose need 18 ATP and 12 NADPH.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-B13"
+      "archetype": "neet-ug-B13",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "18 ATP + 12 NADPH per glucose – NEET staple"
+      }
     },
     {
       "id": "neet-ug-038",
@@ -2804,7 +2966,12 @@
       "explanation": "Decarboxylation occurs at isocitrate → α-ketoglutarate and α-ketoglutarate → succinyl CoA: 2 CO₂ per acetyl CoA (the third CO₂ per pyruvate is released in the link reaction).",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-B15"
+      "archetype": "neet-ug-B15",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "2 CO2 per Krebs turn; NEET count item"
+      }
     },
     {
       "id": "neet-ug-039",
@@ -2822,7 +2989,12 @@
       "explanation": "Each microspore mother cell undergoes one meiosis to form a tetrad of four pollen grains: 100/4 = 25.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-B17"
+      "archetype": "neet-ug-B17",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "25 meioses for 100 pollen – NEET PYQ pattern"
+      }
     },
     {
       "id": "neet-ug-040",
@@ -2840,7 +3012,12 @@
       "explanation": "P(Aa) = 1/2, P(Bb) = 1/2, P(cc) = 1/4. Product = 1/16.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-B18"
+      "archetype": "neet-ug-B18",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "AaBbcc fraction 1/16 in trihybrid – NEET-level genetics"
+      }
     },
     {
       "id": "neet-ug-041",
@@ -2858,7 +3035,12 @@
       "explanation": "The child gets i from each parent with probability 1/2 × 1/2 = 1/4, giving genotype ii (group O).",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-B19"
+      "archetype": "neet-ug-B19",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "IAi × IBi O child 1/4 – NEET staple"
+      }
     },
     {
       "id": "neet-ug-042",
@@ -2876,7 +3058,12 @@
       "explanation": "A–T pairs have 2 H-bonds and G–C pairs 3. 300 × 2 + 700 × 3 = 600 + 2100 = 2700.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-B21"
+      "archetype": "neet-ug-B21",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "H-bond count 2700 from A–T/G–C pairs – NEET style"
+      }
     },
     {
       "id": "neet-ug-043",
@@ -2894,7 +3081,12 @@
       "explanation": "RNA polymerase I makes rRNAs (28S, 18S, 5.8S), III makes tRNA, 5S rRNA and snRNAs, and II makes hnRNA.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-B22"
+      "archetype": "neet-ug-B22",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "RNA pol II transcribes hnRNA – NEET-level"
+      }
     },
     {
       "id": "neet-ug-044",
@@ -2912,25 +3104,12 @@
       "explanation": "Producers 10,000 J → primary 1000 J → secondary 100 J → tertiary 10 J.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-B25"
-    },
-    {
-      "id": "neet-ug-045",
-      "section": "botany",
-      "topic": "Biodiversity & Conservation",
-      "difficulty": "easy",
-      "question": "Which of the following is NOT one of the 'evil quartet' causes of biodiversity loss?",
-      "options": [
-        "Habitat loss and fragmentation",
-        "Over-exploitation",
-        "Alien species invasions",
-        "Afforestation"
-      ],
-      "answer": 3,
-      "explanation": "The evil quartet is habitat loss and fragmentation, over-exploitation, alien species invasions and co-extinctions.",
-      "verified": true,
-      "source": "curated",
-      "archetype": "neet-ug-B27"
+      "archetype": "neet-ug-B25",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "10% law to tertiary consumer 10 J; trophic-count trap"
+      }
     },
     {
       "id": "neet-ug-046",
@@ -2948,7 +3127,12 @@
       "explanation": "Arthropods such as the cockroach have an open circulatory system; annelids and vertebrates have closed systems.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-Z01"
+      "archetype": "neet-ug-Z01",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Cockroach open circulation – NEET-level"
+      }
     },
     {
       "id": "neet-ug-047",
@@ -2966,7 +3150,12 @@
       "explanation": "Aschelminthes (roundworms such as Ascaris) are pseudocoelomates. Taenia (flatworm) is acoelomate, Pheretima (annelid) is coelomate and Hydra is diploblastic.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-Z02"
+      "archetype": "neet-ug-Z02",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Ascaris pseudocoelomate – NEET staple"
+      }
     },
     {
       "id": "neet-ug-048",
@@ -2984,7 +3173,12 @@
       "explanation": "Malonate resembles succinate and competes for the active site of the enzyme: competitive inhibition.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-Z04"
+      "archetype": "neet-ug-Z04",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Malonate competitive inhibition – NCERT example, NEET favourite"
+      }
     },
     {
       "id": "neet-ug-049",
@@ -3002,7 +3196,12 @@
       "explanation": "Vital capacity = maximum air breathed out after a forced inspiration = ERV + TV + IRV. TV + IRV is inspiratory capacity, RV + ERV is FRC and the sum of all four is total lung capacity.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-Z06"
+      "archetype": "neet-ug-Z06",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "VC = ERV+TV+IRV – NEET staple"
+      }
     },
     {
       "id": "neet-ug-050",
@@ -3020,7 +3219,12 @@
       "explanation": "The P wave is atrial depolarisation, QRS is ventricular depolarisation and T is ventricular repolarisation.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-Z08"
+      "archetype": "neet-ug-Z08",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "QRS = ventricular depolarisation – NEET-level"
+      }
     },
     {
       "id": "neet-ug-051",
@@ -3038,7 +3242,12 @@
       "explanation": "ANF released by the atrial walls causes vasodilation and lowers blood pressure; angiotensin II and ADH are vasoconstrictors and aldosterone increases Na⁺/water reabsorption.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-Z10"
+      "archetype": "neet-ug-Z10",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "ANF as check on RAAS – NCERT line NEET asks"
+      }
     },
     {
       "id": "neet-ug-052",
@@ -3056,7 +3265,12 @@
       "explanation": "Thin filaments slide over thick filaments: I-bands and H-zone shorten and the sarcomere shortens, but the A-band (length of thick filaments) stays the same.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-Z12"
+      "archetype": "neet-ug-Z12",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "A-band unchanged in contraction – NEET staple"
+      }
     },
     {
       "id": "neet-ug-053",
@@ -3074,7 +3288,12 @@
       "explanation": "The neurohypophysis stores and releases oxytocin and vasopressin made by the hypothalamus; the other three are adenohypophysis hormones.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-Z14"
+      "archetype": "neet-ug-Z14",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Posterior pituitary oxytocin; NEET-level, plain format"
+      }
     },
     {
       "id": "neet-ug-054",
@@ -3092,7 +3311,12 @@
       "explanation": "Each primary oocyte gives one ovum (plus polar bodies) and each primary spermatocyte gives four sperms: 20 ova and 80 sperms.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-Z15"
+      "archetype": "neet-ug-Z15",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "20 ova and 80 sperms – NEET gametogenesis count"
+      }
     },
     {
       "id": "neet-ug-055",
@@ -3110,7 +3334,12 @@
       "explanation": "Multiload 375 (like CuT and Cu7) releases copper ions. Lippes loop is non-medicated; Progestasert and LNG-20 release hormones.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-Z17"
+      "archetype": "neet-ug-Z17",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Multiload 375 Cu-IUD – NEET staple"
+      }
     },
     {
       "id": "neet-ug-056",
@@ -3128,7 +3357,12 @@
       "explanation": "They perform the same function but have different structure and origin: analogous organs resulting from convergent evolution.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-Z18"
+      "archetype": "neet-ug-Z18",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Analogous organs convergent evolution – NEET-level"
+      }
     },
     {
       "id": "neet-ug-057",
@@ -3146,7 +3380,12 @@
       "explanation": "p = 1 − 0.3 = 0.7. Heterozygotes = 2pq = 2 × 0.7 × 0.3 = 0.42.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-Z19"
+      "archetype": "neet-ug-Z19",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "2pq = 0.42 – NEET HW item"
+      }
     },
     {
       "id": "neet-ug-058",
@@ -3164,7 +3403,12 @@
       "explanation": "Sporozoites from the mosquito's salivary glands are injected into human blood and first multiply in liver cells.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-Z20"
+      "archetype": "neet-ug-Z20",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Sporozoite infective stage – NEET-level"
+      }
     },
     {
       "id": "neet-ug-059",
@@ -3182,7 +3426,12 @@
       "explanation": "The BamHI site lies within the tetracycline-resistance gene (tetR). Insertion inactivates tetR while ampR remains functional.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-Z22"
+      "archetype": "neet-ug-Z22",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "BamHI in tetR – insertional inactivation; NEET concept"
+      }
     },
     {
       "id": "neet-ug-060",
@@ -3200,25 +3449,12 @@
       "explanation": "Nematode-specific genes were introduced to produce dsRNA that silences the specific mRNA of Meloidogyne incognita, protecting tobacco roots. Bt Cry proteins target bollworms and corn borer.",
       "verified": true,
       "source": "curated",
-      "archetype": "neet-ug-Z24"
-    },
-    {
-      "id": "neet-ug-061",
-      "section": "physics",
-      "topic": "Kinematics",
-      "difficulty": "easy",
-      "question": "A car starts from rest and accelerates uniformly to a speed of 20 m/s in 5 s. The distance covered in this time is",
-      "options": [
-        "50 m",
-        "100 m",
-        "25 m",
-        "40 m"
-      ],
-      "answer": 0,
-      "explanation": "a = 20/5 = 4 m/s²; s = ½at² = ½ × 4 × 25 = 50 m (or average speed 10 m/s × 5 s).",
-      "source": "ai",
-      "archetype": "neet-ug-P02",
-      "verified": false
+      "archetype": "neet-ug-Z24",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "RNAi tobacco vs Meloidogyne incognita – NEET staple"
+      }
     },
     {
       "id": "neet-ug-062",
@@ -3236,7 +3472,12 @@
       "explanation": "Friction = 0.2 × 5 × 10 = 10 N. a = (20 − 10)/5 = 2 m/s².",
       "source": "ai",
       "archetype": "neet-ug-P04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Kinetic friction acceleration 2 m/s² – NEET-level"
+      }
     },
     {
       "id": "neet-ug-063",
@@ -3254,7 +3495,12 @@
       "explanation": "K_rot = ½(2/5 mR²)ω² = (1/5)mv²; K_total = ½mv² + (1/5)mv² = (7/10)mv². Ratio = (1/5)/(7/10) = 2/7.",
       "source": "ai",
       "archetype": "neet-ug-P07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Rotational/total KE 2/7 for sphere – NEET PYQ"
+      }
     },
     {
       "id": "neet-ug-064",
@@ -3272,7 +3518,12 @@
       "explanation": "v_e = √(2GM/R) depends on M/R, which is unchanged (2M/2R). So v_e = 11.2 km/s.",
       "source": "ai",
       "archetype": "neet-ug-P09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Escape speed √(2GM/R) unchanged – NEET scaling trap"
+      }
     },
     {
       "id": "neet-ug-065",
@@ -3290,7 +3541,12 @@
       "explanation": "Terminal velocity v = 2r²(ρ − σ)g/(9η) ∝ r². Doubling r makes it 4v.",
       "source": "ai",
       "archetype": "neet-ug-P11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Terminal velocity ∝ r² → 4v – NEET staple"
+      }
     },
     {
       "id": "neet-ug-066",
@@ -3308,7 +3564,12 @@
       "explanation": "For an ideal gas U depends only on T, so ΔU = 0 at constant T and the first law gives Q = W (heat absorbed equals work done by the gas). Q = 0 describes an adiabatic process; W = 0 an isochoric one.",
       "source": "ai",
       "archetype": "neet-ug-P13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Isothermal ΔU = 0, Q = W – NEET-level"
+      }
     },
     {
       "id": "neet-ug-067",
@@ -3326,7 +3587,12 @@
       "explanation": "ω = 100π rad/s, k = π rad/m. v = ω/k = 100 m/s (equivalently f = 50 Hz, λ = 2 m).",
       "source": "ai",
       "archetype": "neet-ug-P16",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Wave speed from equation 100 m/s – NEET-level"
+      }
     },
     {
       "id": "neet-ug-068",
@@ -3344,7 +3610,12 @@
       "explanation": "Parallel pair = 6 μF. In series with 3 μF: (6 × 3)/(6 + 3) = 2 μF.",
       "source": "ai",
       "archetype": "neet-ug-P18",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Capacitor network 2 μF – NEET-level"
+      }
     },
     {
       "id": "neet-ug-069",
@@ -3362,7 +3633,12 @@
       "explanation": "I = 12/(5 + 1) = 2 A. V = E − Ir = 12 − 2 = 10 V.",
       "source": "ai",
       "archetype": "neet-ug-P20",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Terminal voltage 10 V – NEET-level"
+      }
     },
     {
       "id": "neet-ug-070",
@@ -3380,25 +3656,12 @@
       "explanation": "R = V/I_g − G = 10/0.001 − 50 = 9950 Ω, connected in series (a parallel shunt makes an ammeter).",
       "source": "ai",
       "archetype": "neet-ug-P22",
-      "verified": false
-    },
-    {
-      "id": "neet-ug-071",
-      "section": "physics",
-      "topic": "Electromagnetic Induction & AC",
-      "difficulty": "medium",
-      "question": "An ideal transformer has 200 turns in the primary and 1000 turns in the secondary. If 220 V AC is applied to the primary, the secondary voltage is",
-      "options": [
-        "44 V",
-        "220 V",
-        "1100 V",
-        "5500 V"
-      ],
-      "answer": 2,
-      "explanation": "V_s/V_p = N_s/N_p = 5 ⇒ V_s = 5 × 220 = 1100 V (step-up).",
-      "source": "ai",
-      "archetype": "neet-ug-P24",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Voltmeter conversion 9950 Ω series – NEET staple"
+      }
     },
     {
       "id": "neet-ug-072",
@@ -3416,7 +3679,12 @@
       "explanation": "P = +5 − 3 = +2 D ⇒ f = 1/2 m = +50 cm (converging).",
       "source": "ai",
       "archetype": "neet-ug-P27",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Lens powers combined f = 50 cm – NEET-level"
+      }
     },
     {
       "id": "neet-ug-073",
@@ -3434,7 +3702,12 @@
       "explanation": "The first polariser transmits I₀/2. Malus’ law at the second: (I₀/2)cos²60° = (I₀/2)(1/4) = I₀/8.",
       "source": "ai",
       "archetype": "neet-ug-P28",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Unpolarised through two polarisers at 60° I0/8 – NEET staple"
+      }
     },
     {
       "id": "neet-ug-074",
@@ -3452,7 +3725,12 @@
       "explanation": "rₙ ∝ n², so r₂ : r₃ = 4 : 9.",
       "source": "ai",
       "archetype": "neet-ug-P31",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Bohr radius ∝ n² 4:9 – NEET-level"
+      }
     },
     {
       "id": "neet-ug-075",
@@ -3470,7 +3748,12 @@
       "explanation": "NOR = NOT(A + B) is 1 only for A = B = 0. NAND is 0 only for A = B = 1.",
       "source": "ai",
       "archetype": "neet-ug-P33",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "NOR gate truth – NEET-level"
+      }
     },
     {
       "id": "neet-ug-076",
@@ -3488,7 +3771,12 @@
       "explanation": "In the Finkelstein reaction the NaCl formed is insoluble in dry acetone, driving the halogen exchange forward. Swarts gives alkyl fluorides.",
       "source": "ai",
       "archetype": "neet-ug-C27",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Finkelstein reaction naming – NEET-level"
+      }
     },
     {
       "id": "neet-ug-077",
@@ -3506,7 +3794,12 @@
       "explanation": "The iodoform test needs a CH₃CO– group or a CH₃CH(OH)– group. Ethanol, acetone and propan-2-ol have it; methanol does not.",
       "source": "ai",
       "archetype": "neet-ug-C30",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Methanol fails iodoform – NEET-level"
+      }
     },
     {
       "id": "neet-ug-078",
@@ -3524,7 +3817,12 @@
       "explanation": "N₂ has all MOs filled in pairs (bond order 3). O₂ and B₂ each have two unpaired electrons, and NO has one.",
       "source": "ai",
       "archetype": "neet-ug-C07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "N2 diamagnetic vs B2, O2, NO – NEET MOT item"
+      }
     },
     {
       "id": "neet-ug-079",
@@ -3542,7 +3840,12 @@
       "explanation": "ΔG = ΔH − TΔS becomes negative only when TΔS > ΔH, i.e. above T = ΔH/ΔS.",
       "source": "ai",
       "archetype": "neet-ug-C09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "ΔH, ΔS > 0 spontaneous at high T – NEET-level"
+      }
     },
     {
       "id": "neet-ug-080",
@@ -3560,7 +3863,12 @@
       "explanation": "[H⁺] ≈ 10⁻⁸ + ~10⁻⁷ (from water) ≈ 1.05 × 10⁻⁷ M, so pH ≈ 6.98, slightly acidic. A is true and R is exactly why the pH is not 8.",
       "source": "ai",
       "archetype": "neet-ug-C11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "A–R on pH of 1e-8 M HCl – current NEET format and classic trap"
+      }
     },
     {
       "id": "neet-ug-081",
@@ -3578,7 +3886,12 @@
       "explanation": "2(+1) + 4x + 6(−2) = 0 ⇒ 4x = 10 ⇒ x = +2.5. (Actually two S are +5 and two are 0.)",
       "source": "ai",
       "archetype": "neet-ug-C12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "S in tetrathionate +2.5 – NEET staple"
+      }
     },
     {
       "id": "neet-ug-082",
@@ -3596,7 +3909,12 @@
       "explanation": "ΔTb = iKbm. i = 3 for K₂SO₄, 2 for NaCl and 1 for glucose and urea, so K₂SO₄ has the highest boiling point.",
       "source": "ai",
       "archetype": "neet-ug-C13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Highest bp via i (K2SO4) – NEET-level"
+      }
     },
     {
       "id": "neet-ug-083",
@@ -3614,7 +3932,12 @@
       "explanation": "Al³⁺ + 3e⁻ → Al. 0.1 mol needs 0.3 F = 0.3 × 96500 = 28950 C.",
       "source": "ai",
       "archetype": "neet-ug-C14",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "0.3 F for 0.1 mol Al – NEET Faraday item"
+      }
     },
     {
       "id": "neet-ug-084",
@@ -3632,7 +3955,12 @@
       "explanation": "30 min = 3 half-lives; fraction left = (1/2)³ = 1/8.",
       "source": "ai",
       "archetype": "neet-ug-C16",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "1/8 left after 3 half-lives – NEET-level easy"
+      }
     },
     {
       "id": "neet-ug-085",
@@ -3650,7 +3978,12 @@
       "explanation": "Thiosulphuric acid has one S bonded directly to the central S. H₂S₂O₇ has an S–O–S bridge, H₂S₂O₈ has an O–O (peroxo) bridge, and H₂SO₄ has a single S.",
       "source": "ai",
       "archetype": "neet-ug-C18",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "S–S bond in thiosulphuric acid – NEET oxoacid structure"
+      }
     },
     {
       "id": "neet-ug-086",
@@ -3668,25 +4001,12 @@
       "explanation": "Fe³⁺ (3d⁵) has 5 unpaired electrons (5.92 BM); Cr³⁺ has 3, Cu²⁺ and Ti³⁺ have 1 each.",
       "source": "ai",
       "archetype": "neet-ug-C20",
-      "verified": false
-    },
-    {
-      "id": "neet-ug-087",
-      "section": "chemistry",
-      "topic": "Coordination Compounds",
-      "difficulty": "medium",
-      "question": "The denticity of the ethylenediaminetetraacetate ion (EDTA⁴⁻) is",
-      "options": [
-        "4",
-        "2",
-        "6",
-        "5"
-      ],
-      "answer": 2,
-      "explanation": "EDTA⁴⁻ binds through two nitrogen atoms and four carboxylate oxygen atoms — a hexadentate ligand.",
-      "source": "ai",
-      "archetype": "neet-ug-C22",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Fe3+ highest spin-only moment – NEET-level"
+      }
     },
     {
       "id": "neet-ug-088",
@@ -3704,7 +4024,12 @@
       "explanation": "o-Nitrophenol has intramolecular H-bonding, is steam-volatile and distils with steam; p-nitrophenol is intermolecularly H-bonded and non-volatile.",
       "source": "ai",
       "archetype": "neet-ug-C24",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "o/p-nitrophenol steam distillation – NEET staple"
+      }
     },
     {
       "id": "neet-ug-089",
@@ -3722,7 +4047,12 @@
       "explanation": "The cyclopentadienyl anion is planar, cyclic and fully conjugated with 6 π electrons (4n + 2, n = 1). The cation has 4 π electrons (antiaromatic), cyclooctatetraene is non-planar with 8, and cycloheptatriene has an sp³ CH₂ breaking conjugation.",
       "source": "ai",
       "archetype": "neet-ug-C26",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Cyclopentadienyl anion aromatic – NEET-level"
+      }
     },
     {
       "id": "neet-ug-090",
@@ -3740,7 +4070,12 @@
       "explanation": "Heating with CHCl₃ and alcoholic KOH gives foul-smelling isocyanides only with primary (aliphatic or aromatic) amines.",
       "source": "ai",
       "archetype": "neet-ug-C32",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Carbylamine test primary amines only – NEET-level"
+      }
     },
     {
       "id": "neet-ug-091",
@@ -3758,25 +4093,12 @@
       "explanation": "The dominant, independent phase of bryophytes is the haploid gametophyte; the diploid sporophyte is attached to and dependent on it.",
       "source": "ai",
       "archetype": "neet-ug-B02",
-      "verified": false
-    },
-    {
-      "id": "neet-ug-092",
-      "section": "botany",
-      "topic": "Organisms & Populations",
-      "difficulty": "medium",
-      "question": "An interaction in which one species benefits while the other is neither harmed nor benefited is called",
-      "options": [
-        "mutualism",
-        "amensalism",
-        "parasitism",
-        "commensalism"
-      ],
-      "answer": 3,
-      "explanation": "Commensalism is +/0 (e.g. orchid on a mango branch). Mutualism is +/+, amensalism is −/0 and parasitism is +/−.",
-      "source": "ai",
-      "archetype": "neet-ug-B24",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Bryophyte dominant haploid gametophyte – NEET-level"
+      }
     },
     {
       "id": "neet-ug-093",
@@ -3794,7 +4116,12 @@
       "explanation": "Cork cambium (phellogen), cork (phellem) and secondary cortex (phelloderm) constitute the periderm. Bark is a non-technical term for all tissues outside the vascular cambium, including secondary phloem.",
       "source": "ai",
       "archetype": "neet-ug-B05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Periderm composition – NEET-level"
+      }
     },
     {
       "id": "neet-ug-094",
@@ -3812,7 +4139,12 @@
       "explanation": "Fabaceae flowers have a standard, wings and keel (vexillary aestivation) and ten stamens arranged in two bundles (9) + 1 — diadelphous. Malvaceae has monadelphous stamens.",
       "source": "ai",
       "archetype": "neet-ug-B07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Diadelphous + vexillary → Fabaceae – NEET staple"
+      }
     },
     {
       "id": "neet-ug-095",
@@ -3830,7 +4162,12 @@
       "explanation": "Lysosomes contain acid hydrolases; ribosomes are sites of protein synthesis; the Golgi apparatus forms glycoproteins and glycolipids; chloroplasts carry out photosynthesis.",
       "source": "ai",
       "archetype": "neet-ug-B10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Match-the-list organelle–function in current NEET format"
+      }
     },
     {
       "id": "neet-ug-096",
@@ -3848,7 +4185,12 @@
       "explanation": "S phase doubles DNA to 4C (chromosome number unchanged). Meiosis I halves it to 2C per cell and meiosis II to C.",
       "source": "ai",
       "archetype": "neet-ug-B12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "DNA content 4C after S, C after meiosis II – NEET concept"
+      }
     },
     {
       "id": "neet-ug-097",
@@ -3866,7 +4208,12 @@
       "explanation": "PEP carboxylase fixes CO₂ onto the 3-carbon PEP in mesophyll cells, forming the 4-carbon OAA (the first product). RuBP is the acceptor in bundle-sheath cells (Calvin cycle).",
       "source": "ai",
       "archetype": "neet-ug-B14",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "PEP primary acceptor in C4 – NEET-level"
+      }
     },
     {
       "id": "neet-ug-098",
@@ -3884,7 +4231,12 @@
       "explanation": "AaBb forms four gamete types in equal proportion (AB, Ab, aB, ab); the recessive parent contributes only ab, so the four phenotypes appear 1 : 1 : 1 : 1.",
       "source": "ai",
       "archetype": "neet-ug-B18",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Dihybrid test-cross 1:1:1:1 – NEET-level"
+      }
     },
     {
       "id": "neet-ug-099",
@@ -3902,7 +4254,12 @@
       "explanation": "It has 3 antipodals, 2 synergids, 1 egg cell and 1 central cell containing 2 polar nuclei: 7 cells, 8 nuclei.",
       "source": "ai",
       "archetype": "neet-ug-B17",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Embryo sac 7-celled 8-nucleate – NEET staple"
+      }
     },
     {
       "id": "neet-ug-100",
@@ -3920,7 +4277,12 @@
       "explanation": "The woman is a carrier (XᶜX). Sons receive their X from the mother, so half of them get Xᶜ and are colour-blind. (25% is the probability for any child.)",
       "source": "ai",
       "archetype": "neet-ug-B20",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Carrier mother × colour-blind father → sons 50% – NEET pedigree"
+      }
     },
     {
       "id": "neet-ug-101",
@@ -3938,7 +4300,12 @@
       "explanation": "Incomplete dominance: F₂ genotypes RR : Rr : rr = 1 : 2 : 1 each have a distinct phenotype (red : pink : white).",
       "source": "ai",
       "archetype": "neet-ug-B19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Snapdragon incomplete dominance 1:2:1 – NEET-level"
+      }
     },
     {
       "id": "neet-ug-102",
@@ -3956,7 +4323,12 @@
       "explanation": "A = T = 20%, so G + C = 60% and C = G = 30% (Chargaff’s rule).",
       "source": "ai",
       "archetype": "neet-ug-B21",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Chargaff C = 30% – NEET-level"
+      }
     },
     {
       "id": "neet-ug-103",
@@ -3974,7 +4346,12 @@
       "explanation": "The i (inhibitor) gene codes for the repressor. The structural genes z, y and a code for β-galactosidase, permease and transacetylase.",
       "source": "ai",
       "archetype": "neet-ug-B22",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "lac i gene → repressor – NEET-level"
+      }
     },
     {
       "id": "neet-ug-104",
@@ -3992,7 +4369,12 @@
       "explanation": "Semi-conservative replication: after one generation all DNA is hybrid (¹⁵N/¹⁴N); after the second, half is hybrid and half light (¹⁴N/¹⁴N).",
       "source": "ai",
       "archetype": "neet-ug-B23",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Meselson–Stahl after 2 generations hybrid + light – NEET staple"
+      }
     },
     {
       "id": "neet-ug-105",
@@ -4010,7 +4392,12 @@
       "explanation": "Energy decreases at each successive trophic level (about 10% transfer), so the energy pyramid can never be inverted. Number and biomass (standing crop) pyramids can be inverted, e.g. a tree ecosystem or the sea.",
       "source": "ai",
       "archetype": "neet-ug-B26",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Pyramid of energy always upright – NEET-level"
+      }
     },
     {
       "id": "neet-ug-106",
@@ -4028,7 +4415,12 @@
       "explanation": "Cnidarians have stinging cnidoblasts. Ctenophores are also radial and diploblastic but bear comb plates and lack cnidoblasts; sponges have no true tissues; flatworms are bilateral and triploblastic.",
       "source": "ai",
       "archetype": "neet-ug-Z01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Cnidaria by cnidoblasts – NEET-level"
+      }
     },
     {
       "id": "neet-ug-107",
@@ -4046,7 +4438,12 @@
       "explanation": "Ciliated columnar/cuboidal epithelium moves particles or mucus (bronchioles) and the ovum (fallopian tubes) in a definite direction.",
       "source": "ai",
       "archetype": "neet-ug-Z03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Ciliated epithelium in bronchioles/fallopian tubes – NCERT line"
+      }
     },
     {
       "id": "neet-ug-108",
@@ -4064,7 +4461,12 @@
       "explanation": "The base joins C-1′ of the sugar through an N-glycosidic bond (forming a nucleoside); phosphate joins via a phosphoester bond, and nucleotides link through phosphodiester bonds.",
       "source": "ai",
       "archetype": "neet-ug-Z05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "N-glycosidic linkage base–sugar – NEET-level"
+      }
     },
     {
       "id": "neet-ug-109",
@@ -4082,7 +4484,12 @@
       "explanation": "NCERT: about 20–25% of CO₂ is carried as carbamino-haemoglobin, about 70% as bicarbonate and about 7% dissolved in plasma. 97% is the figure for O₂ carried by haemoglobin.",
       "source": "ai",
       "archetype": "neet-ug-Z07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "20–25% CO2 as carbamino-Hb – NCERT number NEET asks"
+      }
     },
     {
       "id": "neet-ug-110",
@@ -4100,7 +4507,12 @@
       "explanation": "Cardiac output = stroke volume × heart rate = 70 mL × 72 ≈ 5040 mL ≈ 5 L per minute.",
       "source": "ai",
       "archetype": "neet-ug-Z09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Cardiac output ≈ 5 L/min – NEET-level"
+      }
     },
     {
       "id": "neet-ug-111",
@@ -4118,7 +4530,12 @@
       "explanation": "The ascending limb is impermeable to water but transports electrolytes; the descending limb is permeable to water but almost impermeable to electrolytes. So Statement I is true and Statement II is false.",
       "source": "ai",
       "archetype": "neet-ug-Z11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Statement I/II on loop of Henle permeability – current NEET format"
+      }
     },
     {
       "id": "neet-ug-112",
@@ -4136,7 +4553,12 @@
       "explanation": "EcoRI recognises the palindrome 5′-GAATTC-3′ and cuts between G and A on both strands, leaving overhanging sticky ends. GGATCC is the BamHI site.",
       "source": "ai",
       "archetype": "neet-ug-Z22",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "EcoRI GAATTC sticky ends – NEET-level"
+      }
     },
     {
       "id": "neet-ug-113",
@@ -4154,7 +4576,12 @@
       "explanation": "NCERT: at rest the axolemma is more permeable to K⁺ and nearly impermeable to Na⁺ (and impermeable to the negatively charged proteins of the axoplasm).",
       "source": "ai",
       "archetype": "neet-ug-Z13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Resting membrane permeability K+ > Na+ – NCERT line"
+      }
     },
     {
       "id": "neet-ug-114",
@@ -4172,7 +4599,12 @@
       "explanation": "Underproduction of glucocorticoids and mineralocorticoids by the adrenal cortex causes Addison’s disease (weakness, weight loss, hypotension, pigmentation).",
       "source": "ai",
       "archetype": "neet-ug-Z14",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Addison's – adrenal cortex – NEET-level"
+      }
     },
     {
       "id": "neet-ug-115",
@@ -4190,7 +4622,12 @@
       "explanation": "Both LH and FSH peak at mid-cycle, but the rapid LH surge induces rupture of the Graafian follicle and release of the secondary oocyte.",
       "source": "ai",
       "archetype": "neet-ug-Z16",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "LH surge induces ovulation – NEET-level"
+      }
     },
     {
       "id": "neet-ug-116",
@@ -4208,7 +4645,12 @@
       "explanation": "NCERT: except hepatitis B, genital herpes and HIV infection, STIs such as gonorrhoea, syphilis and chlamydiasis are completely curable if detected early.",
       "source": "ai",
       "archetype": "neet-ug-Z17",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Curable STI gonorrhoea vs viral ones – NEET-level"
+      }
     },
     {
       "id": "neet-ug-117",
@@ -4226,7 +4668,12 @@
       "explanation": "q² = 0.16 ⇒ q = 0.4, so p = 1 − 0.4 = 0.6. (0.84 is the frequency of dominant phenotypes and 0.48 that of heterozygotes.)",
       "source": "ai",
       "archetype": "neet-ug-Z19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "q² = 0.16 → p = 0.6 with q distractor – NEET HW"
+      }
     },
     {
       "id": "neet-ug-118",
@@ -4244,7 +4691,12 @@
       "explanation": "NCERT: colostrum contains abundant IgA antibodies. IgG crosses the placenta, IgE is involved in allergy and IgM appears first in a primary response.",
       "source": "ai",
       "archetype": "neet-ug-Z21",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "IgA in colostrum – NEET staple"
+      }
     },
     {
       "id": "neet-ug-119",
@@ -4262,7 +4714,12 @@
       "explanation": "DNA is negatively charged, so it migrates towards the anode; the agarose matrix sieves it, so smaller fragments move farther.",
       "source": "ai",
       "archetype": "neet-ug-Z23",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Electrophoresis to anode by size – NEET-level"
+      }
     },
     {
       "id": "neet-ug-120",
@@ -4280,7 +4737,12 @@
       "explanation": "NCERT: cryIAc and cryIIAb control cotton bollworms, whereas cryIAb controls corn borer. Root-knot nematode resistance was achieved by RNAi.",
       "source": "ai",
       "archetype": "neet-ug-Z24",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "cryIAc/cryIIAb → cotton bollworm (vs cryIAb corn borer) – NEET favourite"
+      }
     }
   ]
 }

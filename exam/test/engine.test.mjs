@@ -120,3 +120,18 @@ test('a section with no approved questions is skipped, not used to shrink the mo
   assert.deepEqual(t.missingSections, ['b']);
   assert.equal(t.questionIds.length, 20);
 });
+
+test('msq and numerical questions are scored with partial and tolerance rules', () => {
+  const e = { id: 'x', pattern: { durationMinutes: 10, totalQuestions: 3, marking: { correct: 4, wrong: -2, unattempted: 0, numericalWrong: 0 }, sections: [{ id: 's', name: 'S' }] },
+    trendAnalysis: { topics: [{ section: 's', topic: 't', weightage: 100 }] },
+    questions: [
+      { id: 'm', section: 's', topic: 't', type: 'msq', options: ['a', 'b', 'c', 'd'], answer: [0, 2, 3], verified: true, relevance: { score: 95 } },
+      { id: 'n', section: 's', topic: 't', type: 'numerical', answer: 2.5, tolerance: 0.05, verified: true, relevance: { score: 95 } },
+      { id: 'k', section: 's', topic: 't', options: ['a', 'b', 'c', 'd'], answer: 1, verified: true, relevance: { score: 95 } }] };
+  const t = { questionIds: ['m', 'n', 'k'] };
+  const marks = resp => scoreAttempt(e, t, resp).items.map(i => i.marks);
+  assert.deepEqual(marks({ m: { answer: [0, 2, 3] }, n: { answer: 2.53 }, k: { answer: 1 } }), [4, 4, 4]);
+  assert.deepEqual(marks({ m: { answer: [0, 2] }, n: { answer: 2.6 }, k: { answer: 0 } }), [2, 0, -2]);
+  assert.deepEqual(marks({ m: { answer: [0, 1] } }), [-2, 0, 0]);
+  assert.equal(canShuffle(e.questions[1]), false);
+});

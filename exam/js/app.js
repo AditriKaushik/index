@@ -1,4 +1,4 @@
-import { servable, buildTest, scoreAttempt, topicMastery, recommendations, sectionMarking } from './engine.js';
+import { servable, qType, isAnswered, buildTest, scoreAttempt, topicMastery, recommendations, sectionMarking } from './engine.js';
 import { PLAN, accessStatus, recordTestStart, grantPass, canRequestSupport, grantSupportPass } from './access.js';
 import * as store from './store.js';
 
@@ -270,9 +270,9 @@ async function viewTest() {
     const r = resp(q.id); r.visited = true;
     const text = showHi && q.questionHi ? q.questionHi : q.question;
     const opts = showHi && q.optionsHi ? q.optionsHi : q.options;
-    const order = run.optionOrder?.[q.id] || opts.map((_, i) => i);
+    const order = run.optionOrder?.[q.id] || (opts || []).map((_, i) => i);
     const mk = sectionMarking(exam, q.section);
-    const answered = qs.filter(x => run.responses[x.id]?.answer != null).length;
+    const answered = qs.filter(x => isAnswered(x, run.responses[x.id]?.answer)).length;
     $app.innerHTML = `
       <div class="testbar">
         <b>${esc(exam.name)}</b>
@@ -287,7 +287,9 @@ async function viewTest() {
             ${q.questionHi ? `<button class="link" id="qlang">${showHi ? 'English' : 'हिंदी'}</button>` : ''}
           </div>
           <div class="qtext">${esc(text).replace(/\n/g, '<br>')}${fig(q.figure)}</div>
-          <div class="opts">${order.map((oi, k) => `<label class="opt ${r.answer === oi ? 'sel' : ''}"><input type="radio" name="o" value="${oi}" ${r.answer === oi ? 'checked' : ''}><b>${LETTERS[k]}</b><span>${esc(opts[oi])}${fig(q.optionFigures?.[oi])}</span></label>`).join('')}</div>
+          ${qType(q) === 'numerical'
+            ? `<label class="nat">${t('Your answer (number)', 'आपका उत्तर (संख्या)')} <input id="nat" inputmode="decimal" autocomplete="off" value="${esc(r.answer ?? '')}"></label>`
+            : `${qType(q) === 'msq' ? `<p class="muted">${t('One or more options may be correct.', 'एक या अधिक विकल्प सही हो सकते हैं।')}</p>` : ''}<div class="opts">${order.map((oi, k) => { const on = qType(q) === 'msq' ? (r.answer || []).includes(oi) : r.answer === oi; return `<label class="opt ${on ? 'sel' : ''}"><input type="${qType(q) === 'msq' ? 'checkbox' : 'radio'}" name="o" value="${oi}" ${on ? 'checked' : ''}><b>${LETTERS[k]}</b><span>${esc(opts[oi])}${fig(q.optionFigures?.[oi])}</span></label>`; }).join('')}</div>`}
           <div class="qnav">
             <button class="btn alt" id="prev" ${run.current === 0 ? 'disabled' : ''}>← ${t('Previous', 'पिछला')}</button>
             <button class="btn alt" id="clear">${t('Clear', 'हटाएँ')}</button>
@@ -297,18 +299,27 @@ async function viewTest() {
         </section>
         <aside class="palette">
           <div class="muted">${answered}/${qs.length} ${t('answered', 'उत्तर दिए')}</div>
-          ${exam.pattern.sections.filter(s => qs.some(x => x.section === s.id)).map(s => `<div class="psec">${esc(s.name)}</div><div class="pgrid">${qs.map((x, i) => x.section !== s.id ? '' : (() => { const rr = run.responses[x.id]; const cls = rr?.marked ? 'marked' : rr?.answer != null ? 'done' : rr?.visited ? 'seen' : ''; return `<button class="pq ${cls} ${i === run.current ? 'cur' : ''}" data-i="${i}">${i + 1}</button>`; })()).join('')}</div>`).join('')}
+          ${exam.pattern.sections.filter(s => qs.some(x => x.section === s.id)).map(s => `<div class="psec">${esc(s.name)}</div><div class="pgrid">${qs.map((x, i) => x.section !== s.id ? '' : (() => { const rr = run.responses[x.id]; const cls = rr?.marked ? 'marked' : isAnswered(x, rr?.answer) ? 'done' : rr?.visited ? 'seen' : ''; return `<button class="pq ${cls} ${i === run.current ? 'cur' : ''}" data-i="${i}">${i + 1}</button>`; })()).join('')}</div>`).join('')}
           <div class="legend"><span class="pq done"></span>${t('Answered', 'उत्तरित')} <span class="pq marked"></span>${t('Marked', 'मार्क')} <span class="pq seen"></span>${t('Not answered', 'अनुत्तरित')}</div>
         </aside>
       </div>`;
     const go = i => { tick(); run.current = Math.max(0, Math.min(qs.length - 1, i)); save(); draw(); };
-    $app.querySelectorAll('input[name=o]').forEach(inp => inp.onchange = () => { r.answer = +inp.value; save(); $app.querySelectorAll('.opt').forEach((l, k) => l.classList.toggle('sel', order[k] === r.answer)); });
+    $app.querySelectorAll('input[name=o]').forEach(inp => inp.onchange = () => {
+      if (qType(q) === 'msq') {
+        const set = new Set(r.answer || []); inp.checked ? set.add(+inp.value) : set.delete(+inp.value);
+        r.answer = set.size ? [...set].sort((x, y) => x - y) : null;
+      } else r.answer = +inp.value;
+      save();
+      $app.querySelectorAll('.opt').forEach((l, k) => l.classList.toggle('sel', qType(q) === 'msq' ? (r.answer || []).includes(order[k]) : order[k] === r.answer));
+    });
+    const nat = document.getElementById('nat');
+    if (nat) nat.oninput = () => { const v = nat.value.trim(); r.answer = v !== '' && !isNaN(Number(v)) ? Number(v) : null; save(); };
     document.getElementById('prev').onclick = () => go(run.current - 1);
     document.getElementById('next').onclick = () => go(run.current + 1);
     document.getElementById('clear').onclick = () => { r.answer = null; save(); draw(); };
     document.getElementById('mark').onclick = () => { r.marked = !r.marked; go(r.marked ? run.current + 1 : run.current); };
     document.getElementById('submit').onclick = () => {
-      const left = qs.length - qs.filter(x => run.responses[x.id]?.answer != null).length;
+      const left = qs.length - qs.filter(x => isAnswered(x, run.responses[x.id]?.answer)).length;
       if (confirm(left ? t(`${left} questions unanswered. Submit anyway?`, `${left} प्रश्न अनुत्तरित हैं। फिर भी सबमिट करें?`) : t('Submit the test?', 'टेस्ट सबमिट करें?'))) finish();
     };
     const ql = document.getElementById('qlang'); if (ql) ql.onclick = () => { showHi = !showHi; draw(); };
@@ -393,7 +404,9 @@ async function viewResult(id) {
       <ol class="review">${r.items.map(it => { const q = byId.get(it.id); if (!q) return ''; return `
         <li class="${it.correct ? 'right' : it.answer == null ? 'skip' : 'wrong'}">
           <div class="qtext">${esc(q.question).replace(/\n/g, '<br>')}${fig(q.figure)}</div>
-          <ul>${(a.optionOrder?.[q.id] || q.options.map((_, i) => i)).map((i, k) => `<li class="${i === q.answer ? 'ans' : ''} ${i === it.answer && !it.correct ? 'mine' : ''}"><b>${LETTERS[k]}</b> ${esc(q.options[i])}${fig(q.optionFigures?.[i])}</li>`).join('')}</ul>
+          ${qType(q) === 'numerical'
+            ? `<ul><li class="ans">${t('Answer', 'उत्तर')}: ${esc(q.answer)}${q.tolerance ? ` (± ${esc(q.tolerance)})` : ''}</li>${it.answer != null && !it.correct ? `<li class="mine">${t('Your answer', 'आपका उत्तर')}: ${esc(it.answer)}</li>` : ''}</ul>`
+            : `<ul>${(a.optionOrder?.[q.id] || q.options.map((_, i) => i)).map((i, k) => { const key = qType(q) === 'msq' ? q.answer.includes(i) : i === q.answer; const mine = qType(q) === 'msq' ? (it.answer || []).includes(i) : i === it.answer; return `<li class="${key ? 'ans' : ''} ${mine && !key ? 'mine' : ''}"><b>${LETTERS[k]}</b> ${esc(q.options[i])}${fig(q.optionFigures?.[i])}${mine ? ' ←' : ''}</li>`; }).join('')}</ul>`}
           <div class="expl"><b>${it.correct ? '✔ ' + t('Correct', 'सही') : it.answer == null ? '— ' + t('Not attempted', 'प्रयास नहीं') : '✘ ' + t('Wrong', 'ग़लत')}</b> · ${esc(q.topic)} · ${q.difficulty} · ${Math.round(it.timeSec)}s${q.relevance ? ` · <span class="pyq" title="${esc(q.relevance.note || '')}">${t('PYQ match', 'PYQ मिलान')} ${q.relevance.score}%</span>` : ''}${q.source === 'ai' ? ` · <span class="aitag">AI</span>` : ''}<br>${esc(q.explanation)}${archById.get(q.archetype) ? `<br><i>${t('PYQ pattern', 'PYQ पैटर्न')}: ${esc(archById.get(q.archetype).pattern)} (${esc(archById.get(q.archetype).years.join(', '))})</i>` : ''}</div>
         </li>`; }).join('')}</ol>
     </div>`);

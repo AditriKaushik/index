@@ -47,9 +47,15 @@ for (const file of files) {
     if (ids.has(q.id)) errs.push(`${where}: duplicate id`);
     ids.add(q.id);
     if (!secIds.has(q.section)) errs.push(`${where}: unknown section ${q.section}`);
-    if (!Array.isArray(q.options) || q.options.length < 2) errs.push(`${where}: needs options`);
+    const type = q.type || 'mcq';
+    if (!['mcq', 'msq', 'numerical'].includes(type)) errs.push(`${where}: unknown type ${type}`);
+    if (type === 'numerical') {
+      if (typeof q.answer !== 'number' || !isFinite(q.answer)) errs.push(`${where}: numerical answer must be a number`);
+      if (q.tolerance !== undefined && !(q.tolerance >= 0)) errs.push(`${where}: tolerance must be >= 0`);
+    } else if (!Array.isArray(q.options) || q.options.length < 2) errs.push(`${where}: needs options`);
     else {
-      if (!Number.isInteger(q.answer) || q.answer < 0 || q.answer >= q.options.length) errs.push(`${where}: answer index out of range`);
+      const inRange = i => Number.isInteger(i) && i >= 0 && i < q.options.length;
+      if (type === 'msq' ? !(Array.isArray(q.answer) && q.answer.length && q.answer.every(inRange) && new Set(q.answer).size === q.answer.length) : !inRange(q.answer)) errs.push(`${where}: answer index out of range`);
       if (new Set(q.options.map(o => String(o).trim().toLowerCase())).size !== q.options.length) errs.push(`${where}: duplicate options`);
     }
     if (!q.question || !q.explanation) errs.push(`${where}: question/explanation missing`);

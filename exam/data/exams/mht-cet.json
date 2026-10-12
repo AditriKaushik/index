@@ -2014,7 +2014,12 @@
       "explanation": "Angular momentum is conserved: Iω = 2Iω' ⇒ ω' = 15 rpm.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-P05"
+      "archetype": "mht-cet-P05",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Identical disc placed on rotating disc → ω/2; typical CET one-step with rpm units"
+      }
     },
     {
       "id": "mht-cet-002",
@@ -2032,7 +2037,12 @@
       "explanation": "I = (2/5)MR² = MK² ⇒ K = √(2/5) R.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-P06"
+      "archetype": "mht-cet-P06",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Radius of gyration of sphere √(2/5)R; CET formula recall item"
+      }
     },
     {
       "id": "mht-cet-003",
@@ -2050,7 +2060,12 @@
       "explanation": "v = √(rg tan θ) = √(50 × 10 × 0.2) = √100 = 10 m/s.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-P07"
+      "archetype": "mht-cet-P07",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Banking v = √(rg tanθ) = 10 m/s – CET staple"
+      }
     },
     {
       "id": "mht-cet-004",
@@ -2068,7 +2083,12 @@
       "explanation": "Volume conserved: R³ = 8r³ ⇒ R = 2r. Terminal velocity ∝ r², so v' = 4v.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-P08"
+      "archetype": "mht-cet-P08",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "8 drops coalesce → 4v terminal velocity – repeated CET item"
+      }
     },
     {
       "id": "mht-cet-005",
@@ -2086,7 +2106,12 @@
       "explanation": "A soap bubble has two surfaces: ΔP = 4T/r = 4 × 0.03/0.01 = 12 Pa.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-P09"
+      "archetype": "mht-cet-P09",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Soap bubble 4T/r with two-surface trap (6 Pa) – CET style"
+      }
     },
     {
       "id": "mht-cet-006",
@@ -2104,7 +2129,12 @@
       "explanation": "Stefan–Boltzmann law: P ∝ T⁴ ⇒ 2⁴ = 16.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-P10"
+      "archetype": "mht-cet-P10",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "T doubled → P×16; bare one-liner, CET usually adds area/emissivity change"
+      }
     },
     {
       "id": "mht-cet-007",
@@ -2122,7 +2152,12 @@
       "explanation": "TV^(γ−1) = constant ⇒ T₂ = 300 × 32^0.4 = 300 × 2² = 1200 K (since 32^0.4 = 2^(5×0.4) = 4).",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-P12"
+      "archetype": "mht-cet-P12",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Adiabatic TV^(γ−1) with 32^0.4 = 4 → 1200 K – CET numeric"
+      }
     },
     {
       "id": "mht-cet-008",
@@ -2140,7 +2175,12 @@
       "explanation": "Series: k_eff = k/2. T ∝ 1/√k ⇒ T' = √2 T.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-P14"
+      "archetype": "mht-cet-P14",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Springs in series period √2T – CET staple"
+      }
     },
     {
       "id": "mht-cet-009",
@@ -2158,7 +2198,12 @@
       "explanation": "B is 252 or 260 Hz. Loading lowers B's frequency; beats increase only if B was below A: 252 → lower gives more beats. So B = 252 Hz.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-P16"
+      "archetype": "mht-cet-P16",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Beats with wax loading → 252 Hz – frequent CET question"
+      }
     },
     {
       "id": "mht-cet-010",
@@ -2176,7 +2221,12 @@
       "explanation": "Width = 2λD/a = 2 × 600×10⁻⁹ × 2/(0.3×10⁻³) = 8 × 10⁻³ m = 8 mm.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-P18"
+      "archetype": "mht-cet-P18",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Central max width 2λD/a = 8 mm with half-width trap – CET style"
+      }
     },
     {
       "id": "mht-cet-011",
@@ -2194,7 +2244,12 @@
       "explanation": "tan i_p = μ = √3 ⇒ i_p = 60°.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-P19"
+      "archetype": "mht-cet-P19",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Brewster angle tan⁻¹√3 = 60°; CET-level"
+      }
     },
     {
       "id": "mht-cet-012",
@@ -2212,7 +2267,12 @@
       "explanation": "1/C = 1/2 + 1/3 + 1/6 = 1 ⇒ C = 1 μF.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-P21"
+      "archetype": "mht-cet-P21",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Series 2,3,6 μF → 1 μF; CET-level"
+      }
     },
     {
       "id": "mht-cet-013",
@@ -2230,7 +2290,12 @@
       "explanation": "Potential gradient = 2/10 = 0.2 V/m. Balancing length = 1.5/0.2 = 7.5 m.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-P23"
+      "archetype": "mht-cet-P23",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Potentiometer balancing length 7.5 m – CET staple"
+      }
     },
     {
       "id": "mht-cet-014",
@@ -2248,7 +2313,12 @@
       "explanation": "F/l = μ₀I₁I₂/(2πd) = 4π×10⁻⁷ × 1 × 1/(2π × 1) = 2 × 10⁻⁷ N/m (the definition of the ampere).",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-P25"
+      "archetype": "mht-cet-P25",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Ampere definition 2e-7 N/m; CET recall"
+      }
     },
     {
       "id": "mht-cet-015",
@@ -2266,7 +2336,12 @@
       "explanation": "e = N A ΔB/Δt = 500 × 0.01 × 0.2/0.1 = 10 V.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-P28"
+      "archetype": "mht-cet-P28",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Induced emf NAΔB/Δt = 10 V – CET numeric"
+      }
     },
     {
       "id": "mht-cet-016",
@@ -2284,7 +2359,12 @@
       "explanation": "Q = (1/R)√(L/C) = (1/10)√(2/(2×10⁻⁶)) = (1/10) × 1000 = 100.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-P30"
+      "archetype": "mht-cet-P30",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Q = (1/R)√(L/C) = 100 – CET LCR item"
+      }
     },
     {
       "id": "mht-cet-017",
@@ -2302,7 +2382,12 @@
       "explanation": "Photon energy = 1240/400 = 3.1 eV. K_max = 3.1 − 2.5 = 0.6 eV.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-P32"
+      "archetype": "mht-cet-P32",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "KEmax = 3.1 − 2.5 = 0.6 eV – CET-level"
+      }
     },
     {
       "id": "mht-cet-018",
@@ -2320,7 +2405,12 @@
       "explanation": "v₁ = e²/(2ε₀h) ≈ 2.19 × 10⁶ m/s; v₁/c ≈ 1/137 (the fine-structure constant).",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-P34"
+      "archetype": "mht-cet-P34",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "v1/c = α ≈ 1/137; CET Bohr recall"
+      }
     },
     {
       "id": "mht-cet-019",
@@ -2338,7 +2428,12 @@
       "explanation": "β = α/(1 − α) = 0.98/0.02 = 49.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-P36"
+      "archetype": "mht-cet-P36",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "β = α/(1−α) = 49 – CET staple"
+      }
     },
     {
       "id": "mht-cet-020",
@@ -2356,7 +2451,12 @@
       "explanation": "Max range at 45°: R = u²/g. Height H = u² sin²45°/(2g) = R/4 = 25 m.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-P01"
+      "archetype": "mht-cet-P01",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Max range → H = R/4; CET XI-portion item"
+      }
     },
     {
       "id": "mht-cet-021",
@@ -2374,7 +2474,12 @@
       "explanation": "In bcc, 2 atoms per cell with 4r = √3 a; packing fraction = √3π/8 ≈ 0.68.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-C06"
+      "archetype": "mht-cet-C06",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "bcc packing efficiency 68%; CET recall"
+      }
     },
     {
       "id": "mht-cet-022",
@@ -2392,7 +2497,12 @@
       "explanation": "ρ = ZM/(a³N_A) = 4 × 60/((4 × 10⁻⁸ cm)³ × 6.022 × 10²³) = 240/38.54 ≈ 6.23 g cm⁻³.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-C07"
+      "archetype": "mht-cet-C07",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "fcc density 6.23 g/cm³ with z-error distractors – CET staple"
+      }
     },
     {
       "id": "mht-cet-023",
@@ -2410,7 +2520,12 @@
       "explanation": "π = CRT = 0.1 × 0.0821 × 300 ≈ 2.46 atm (glucose does not dissociate).",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-C09"
+      "archetype": "mht-cet-C09",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "π = CRT = 2.46 atm – CET-level"
+      }
     },
     {
       "id": "mht-cet-024",
@@ -2428,7 +2543,12 @@
       "explanation": "[OH⁻] = 10⁻³ ⇒ pOH = 3 ⇒ pH = 14 − 3 = 11.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-C11"
+      "archetype": "mht-cet-C11",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "pH of 1e-3 M NaOH = 11 with pOH trap; CET-level"
+      }
     },
     {
       "id": "mht-cet-025",
@@ -2446,7 +2566,12 @@
       "explanation": "α = √(Ka/C) = √(1.8 × 10⁻⁴) ≈ 1.34 × 10⁻².",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-C12"
+      "archetype": "mht-cet-C12",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Ostwald α = √(Ka/C) = 1.34e-2 – CET style"
+      }
     },
     {
       "id": "mht-cet-026",
@@ -2464,7 +2589,12 @@
       "explanation": "ΔH = ΔU + Δn_gRT with Δn_g = 2 − 4 = −2, so ΔH − ΔU = −2RT.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-C14"
+      "archetype": "mht-cet-C14",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "ΔH − ΔU = Δn RT = −2RT – CET staple"
+      }
     },
     {
       "id": "mht-cet-027",
@@ -2482,7 +2612,12 @@
       "explanation": "Cu²⁺ + 2e⁻ → Cu: 0.5 F deposits 0.25 mol = 0.25 × 63.5 ≈ 15.9 g.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-C16"
+      "archetype": "mht-cet-C16",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "0.5 F → 15.9 g Cu (n = 2) – CET Faraday item"
+      }
     },
     {
       "id": "mht-cet-028",
@@ -2500,7 +2635,12 @@
       "explanation": "t½ = 0.693/k = 0.693/0.0693 = 10 min.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-C18"
+      "archetype": "mht-cet-C18",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "t½ = 0.693/k = 10 min; bare formula"
+      }
     },
     {
       "id": "mht-cet-029",
@@ -2518,7 +2658,12 @@
       "explanation": "XeOF₄ has 5 bond pairs and 1 lone pair (octahedral arrangement) ⇒ square pyramidal. XeF₄ is square planar, XeO₃ pyramidal, XeF₂ linear.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-C20"
+      "archetype": "mht-cet-C20",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "XeOF4 square pyramidal; CET-level"
+      }
     },
     {
       "id": "mht-cet-030",
@@ -2536,7 +2681,12 @@
       "explanation": "H₂S₂O₈ contains one peroxide (–O–O–) link with O at −1. 2(+1) + 2x + 6(−2) + 2(−1) = 0 ⇒ x = +6. (Assuming all O as −2 wrongly gives +7.)",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-C21"
+      "archetype": "mht-cet-C21",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "S in H2S2O8 is +6 (peroxide) with +7 trap – CET favourite"
+      }
     },
     {
       "id": "mht-cet-031",
@@ -2554,7 +2704,12 @@
       "explanation": "Sc³⁺ is 3d⁰, so no d–d transition is possible. Ti³⁺ (d¹), Cu²⁺ (d⁹) and Ni²⁺ (d⁸) are coloured.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-C23"
+      "archetype": "mht-cet-C23",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Sc3+ colourless d0 – CET-level"
+      }
     },
     {
       "id": "mht-cet-032",
@@ -2572,7 +2727,12 @@
       "explanation": "Anionic complex ⇒ metal named 'ferrate'; CN⁻ is 'cyanido'; Fe is +3 since 3(+1) + x + 6(−1) = 0.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-C25"
+      "archetype": "mht-cet-C25",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "K3[Fe(CN)6] IUPAC hexacyanidoferrate(III) – CET naming item"
+      }
     },
     {
       "id": "mht-cet-033",
@@ -2590,7 +2750,12 @@
       "explanation": "Wurtz–Fittig reaction couples the aryl and alkyl groups: C₆H₅Cl + CH₃Cl + 2Na → C₆H₅CH₃ + 2NaCl.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-C27"
+      "archetype": "mht-cet-C27",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Wurtz–Fittig → toluene – CET named-reaction staple"
+      }
     },
     {
       "id": "mht-cet-034",
@@ -2608,7 +2773,12 @@
       "explanation": "Reimer–Tiemann reaction introduces –CHO at the ortho position to give 2-hydroxybenzaldehyde (salicylaldehyde).",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-C29"
+      "archetype": "mht-cet-C29",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Reimer–Tiemann → salicylaldehyde; CET-level"
+      }
     },
     {
       "id": "mht-cet-035",
@@ -2626,7 +2796,12 @@
       "explanation": "Aliphatic aldehydes reduce Fehling's solution to red Cu₂O; aromatic aldehydes like benzaldehyde and ketones do not.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-C31"
+      "archetype": "mht-cet-C31",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Fehling's positive aliphatic aldehyde; benzaldehyde trap good"
+      }
     },
     {
       "id": "mht-cet-036",
@@ -2644,25 +2819,12 @@
       "explanation": "Hofmann degradation removes the carbonyl carbon: C₆H₅CONH₂ → C₆H₅NH₂ (one carbon fewer).",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-C33"
-    },
-    {
-      "id": "mht-cet-037",
-      "section": "chemistry",
-      "topic": "Biomolecules",
-      "difficulty": "easy",
-      "question": "Which nitrogenous base is present in RNA but not in DNA?",
-      "options": [
-        "Thymine",
-        "Uracil",
-        "Adenine",
-        "Cytosine"
-      ],
-      "answer": 1,
-      "explanation": "RNA contains uracil in place of thymine; adenine and cytosine occur in both.",
-      "verified": true,
-      "source": "curated",
-      "archetype": "mht-cet-C35"
+      "archetype": "mht-cet-C33",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Hofmann bromamide benzamide → aniline – CET staple"
+      }
     },
     {
       "id": "mht-cet-038",
@@ -2680,7 +2842,12 @@
       "explanation": "Natural rubber is cis-1,4-polyisoprene (2-methylbuta-1,3-diene). Chloroprene gives neoprene.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-C37"
+      "archetype": "mht-cet-C37",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Natural rubber isoprene; CET recall"
+      }
     },
     {
       "id": "mht-cet-039",
@@ -2698,7 +2865,12 @@
       "explanation": "4 g NaOH = 0.1 mol; molarity = 0.1/0.5 L = 0.2 M.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-C01"
+      "archetype": "mht-cet-C01",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Molarity 0.2 M; CET XI-portion item"
+      }
     },
     {
       "id": "mht-cet-040",
@@ -2716,7 +2888,12 @@
       "explanation": "σ bonds: 4 C–H + 3 C–C = 7. π bonds: 1 in C=C and 2 in C≡C = 3.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-C04"
+      "archetype": "mht-cet-C04",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "σ/π count in vinylacetylene 7 and 3 – CET style"
+      }
     },
     {
       "id": "mht-cet-041",
@@ -2734,7 +2911,12 @@
       "explanation": "¬(∀x p(x)) ≡ ∃x ¬p(x): there exists at least one student who is not intelligent.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-M08"
+      "archetype": "mht-cet-M08",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Negation of 'All…' – exact CET logic archetype"
+      }
     },
     {
       "id": "mht-cet-042",
@@ -2752,7 +2934,12 @@
       "explanation": "|A| = 6 − 5 = 1. A⁻¹ = adj A/|A| = [[3, −1], [−5, 2]].",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-M10"
+      "archetype": "mht-cet-M10",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "2×2 inverse by adjoint; CET-level"
+      }
     },
     {
       "id": "mht-cet-043",
@@ -2770,7 +2957,12 @@
       "explanation": "sin(5π/6) = 1/2 and the principal range of sin⁻¹ is [−π/2, π/2], so the value is π/6.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-M12"
+      "archetype": "mht-cet-M12",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "sin⁻¹(sin 5π/6) = π/6 principal-value trap – CET staple"
+      }
     },
     {
       "id": "mht-cet-044",
@@ -2788,7 +2980,12 @@
       "explanation": "a = 1, 2h = −4 (h = −2), b = 1. tan θ = 2√(h² − ab)/|a + b| = 2√3/2 = √3 ⇒ θ = 60°.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-M14"
+      "archetype": "mht-cet-M14",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Pair of lines angle 60° via 2√(h²−ab)/(a+b) – CET archetype"
+      }
     },
     {
       "id": "mht-cet-045",
@@ -2806,7 +3003,12 @@
       "explanation": "AB = (0, 1, 2), AC = (1, 2, 0). AB × AC = (−4, 2, −1), magnitude √21. Area = √21/2.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-M16"
+      "archetype": "mht-cet-M16",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Triangle area ½|AB×AC| = √21/2 – CET vectors"
+      }
     },
     {
       "id": "mht-cet-046",
@@ -2824,7 +3026,12 @@
       "explanation": "d = |2 − 2 − 4 − 9|/√(1 + 4 + 16) = 13/√21.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-M18"
+      "archetype": "mht-cet-M18",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Point–plane distance 13/√21 – CET style"
+      }
     },
     {
       "id": "mht-cet-047",
@@ -2842,7 +3049,12 @@
       "explanation": "sin φ = |b·n|/(|b||n|) = |2 + 1 − 8|/(3 × √18) = 5/(9√2) = 5√2/18.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-M19"
+      "archetype": "mht-cet-M19",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Line–plane angle sin⁻¹(5√2/18) with cos trap – CET style"
+      }
     },
     {
       "id": "mht-cet-048",
@@ -2860,7 +3072,12 @@
       "explanation": "Corner points: (0,0) → 0, (3,0) → 9, (3,1) → 11, (0,4) → 8. Maximum = 11 at (3, 1).",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-M21"
+      "archetype": "mht-cet-M21",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "LPP corner point max 11 – CET staple"
+      }
     },
     {
       "id": "mht-cet-049",
@@ -2878,7 +3095,12 @@
       "explanation": "y = xˣ ⇒ dy/dx = xˣ(1 + ln x). At x = 1: 1 × (1 + 0) = 1.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-M22"
+      "archetype": "mht-cet-M22",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "d/dx xˣ at 1 = 1; CET-level"
+      }
     },
     {
       "id": "mht-cet-050",
@@ -2896,7 +3118,12 @@
       "explanation": "dx/dt = −3a cos²t sin t, dy/dt = 3a sin²t cos t. dy/dx = −sin t/cos t = −tan t.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-M23"
+      "archetype": "mht-cet-M23",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Parametric cos³/sin³ → −tan t – CET staple"
+      }
     },
     {
       "id": "mht-cet-051",
@@ -2914,7 +3141,12 @@
       "explanation": "f'(x) = 3x² − 6x = 0 ⇒ x = 0 or 2. f''(2) = 6 > 0, so the minimum is f(2) = 8 − 12 + 4 = 0.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-M25"
+      "archetype": "mht-cet-M25",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Local min of cubic 0; CET-level"
+      }
     },
     {
       "id": "mht-cet-052",
@@ -2932,7 +3164,12 @@
       "explanation": "Using ∫ eˣ(f(x) + f'(x)) dx = eˣf(x) + C with f(x) = 1/x and f'(x) = −1/x².",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-M27"
+      "archetype": "mht-cet-M27",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "eˣ[f+f′] form → eˣ/x – CET archetype"
+      }
     },
     {
       "id": "mht-cet-053",
@@ -2950,7 +3187,12 @@
       "explanation": "Replacing x by π/2 − x turns log tan x into log cot x = −log tan x, so I = −I ⇒ I = 0.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-M29"
+      "archetype": "mht-cet-M29",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "∫ log tan x over 0..π/2 = 0 – CET staple"
+      }
     },
     {
       "id": "mht-cet-054",
@@ -2968,7 +3210,12 @@
       "explanation": "Area = 2∫₀¹ 2√x dx = 4 × (2/3) = 8/3.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-M31"
+      "archetype": "mht-cet-M31",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Area y²=4x and x=1 = 8/3 with one-side trap 4/3 – CET"
+      }
     },
     {
       "id": "mht-cet-055",
@@ -2986,7 +3233,12 @@
       "explanation": "Highest derivative is d²y/dx² (order 2), and its power is 3 (degree 3) since the equation is polynomial in derivatives.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-M33"
+      "archetype": "mht-cet-M33",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Order/degree 2 and 3 – CET staple"
+      }
     },
     {
       "id": "mht-cet-056",
@@ -3004,7 +3256,12 @@
       "explanation": "10k = 1 ⇒ k = 0.1. E(X) = 0(0.1) + 1(0.2) + 2(0.3) + 3(0.4) = 2.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-M35"
+      "archetype": "mht-cet-M35",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Find k then E(X) = 2 – CET distribution"
+      }
     },
     {
       "id": "mht-cet-057",
@@ -3022,25 +3279,12 @@
       "explanation": "np = 4, npq = 3 ⇒ q = 3/4, p = 1/4, n = 16. P(X ≥ 1) = 1 − P(X = 0) = 1 − (3/4)¹⁶.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-M37"
-    },
-    {
-      "id": "mht-cet-058",
-      "section": "maths",
-      "topic": "Trigonometry (XI)",
-      "difficulty": "easy",
-      "question": "The value of sin 75° is",
-      "options": [
-        "(√6 + √2)/4",
-        "(√6 − √2)/4",
-        "(√3 + 1)/2",
-        "(√2 + 1)/2"
-      ],
-      "answer": 0,
-      "explanation": "sin(45° + 30°) = sin45°cos30° + cos45°sin30° = (√3 + 1)/(2√2) = (√6 + √2)/4.",
-      "verified": true,
-      "source": "curated",
-      "archetype": "mht-cet-M01"
+      "archetype": "mht-cet-M37",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Binomial n,p from mean/variance → 1−(3/4)^16 – CET staple"
+      }
     },
     {
       "id": "mht-cet-059",
@@ -3058,7 +3302,12 @@
       "explanation": "x²/16 + y²/9 = 1: a² = 16, b² = 9. e = √(1 − 9/16) = √7/4.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-M03"
+      "archetype": "mht-cet-M03",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Ellipse e = √7/4; CET XI-portion"
+      }
     },
     {
       "id": "mht-cet-060",
@@ -3076,7 +3325,12 @@
       "explanation": "|z₁/z₂| = |3 + 4i|/|1 − i| = 5/√2.",
       "verified": true,
       "source": "curated",
-      "archetype": "mht-cet-M04"
+      "archetype": "mht-cet-M04",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Modulus of quotient 5/√2; CET-level"
+      }
     },
     {
       "id": "mht-cet-061",
@@ -3094,7 +3348,12 @@
       "explanation": "T = 2π√(R/g) = 2π√(6.4 × 10⁶/10) = 2π × 800 s ≈ 5027 s ≈ 84 min.",
       "source": "ai",
       "archetype": "mht-cet-P02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Near-surface satellite ≈ 84 min; CET-level"
+      }
     },
     {
       "id": "mht-cet-062",
@@ -3112,7 +3371,12 @@
       "explanation": "α = ΔL/(L ΔT) = 0.6 × 10⁻³/(1 × 50) = 1.2 × 10⁻⁵ per °C.",
       "source": "ai",
       "archetype": "mht-cet-P03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "α = ΔL/(LΔT) = 1.2e-5; CET XI-portion"
+      }
     },
     {
       "id": "mht-cet-063",
@@ -3130,7 +3394,12 @@
       "explanation": "I = MR²/4 + MR² = 5MR²/4 = MK² ⇒ K = (√5/2)R.",
       "source": "ai",
       "archetype": "mht-cet-P06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Disc radius of gyration about tangent in plane √5R/2 – CET item"
+      }
     },
     {
       "id": "mht-cet-064",
@@ -3148,7 +3417,12 @@
       "explanation": "Minimum speed at the top is √(gr); energy conservation gives v_bottom = √(5gr) = √50 ≈ 7.07 m/s. (√10 m/s is the minimum speed at the top.)",
       "source": "ai",
       "archetype": "mht-cet-P07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Lowest-point speed √(5gr) – CET staple"
+      }
     },
     {
       "id": "mht-cet-065",
@@ -3166,7 +3440,12 @@
       "explanation": "h = 2T cos θ/(rρg) ∝ 1/r, so halving the radius doubles the rise.",
       "source": "ai",
       "archetype": "mht-cet-P09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Capillary h ∝ 1/r → 2h; CET-level"
+      }
     },
     {
       "id": "mht-cet-066",
@@ -3184,7 +3463,12 @@
       "explanation": "v_rms ∝ √(T/M). T_H₂/2 = 320/32 ⇒ T_H₂ = 20 K.",
       "source": "ai",
       "archetype": "mht-cet-P11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "H2 rms = O2 at 320 K → 20 K – CET staple"
+      }
     },
     {
       "id": "mht-cet-067",
@@ -3202,7 +3486,12 @@
       "explanation": "W = nRT ln(V₂/V₁) = 2 × 8.314 × 300 × 0.693 ≈ 3457 J ≈ 3.46 kJ.",
       "source": "ai",
       "archetype": "mht-cet-P13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Isothermal work 3.46 kJ; CET numeric"
+      }
     },
     {
       "id": "mht-cet-068",
@@ -3220,7 +3509,12 @@
       "explanation": "v_max = Aω = 5 × π/3 = 5π/3 cm/s ≈ 5.24 cm/s.",
       "source": "ai",
       "archetype": "mht-cet-P15",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "vmax = Aω = 5π/3 cm/s; CET-level"
+      }
     },
     {
       "id": "mht-cet-069",
@@ -3238,7 +3532,12 @@
       "explanation": "Open pipe: f = v/2L; closed pipe: f = v/4L, i.e. half: 150 Hz.",
       "source": "ai",
       "archetype": "mht-cet-P17",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Open → closed fundamental halves 150 Hz – CET staple"
+      }
     },
     {
       "id": "mht-cet-070",
@@ -3256,7 +3555,12 @@
       "explanation": "β = λD/d = 500 × 10⁻⁹ × 1/10⁻³ = 5 × 10⁻⁴ m = 0.5 mm.",
       "source": "ai",
       "archetype": "mht-cet-P20",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Fringe width 0.5 mm; CET-level"
+      }
     },
     {
       "id": "mht-cet-071",
@@ -3274,7 +3578,12 @@
       "explanation": "Net enclosed charge = +2 μC. φ = q/ε₀ = 2 × 10⁻⁶/8.85 × 10⁻¹² ≈ 2.26 × 10⁵ N m² C⁻¹. (1.36 × 10⁶ adds magnitudes.)",
       "source": "ai",
       "archetype": "mht-cet-P22",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Net flux q/ε0 = 2.26e5; CET Gauss"
+      }
     },
     {
       "id": "mht-cet-072",
@@ -3292,7 +3601,12 @@
       "explanation": "S = I_g G/(I − I_g) = 0.01 × 100/0.99 ≈ 1.01 Ω, connected in parallel.",
       "source": "ai",
       "archetype": "mht-cet-P24",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Shunt 1.01 Ω vs 0.1 Ω approximation trap – CET staple"
+      }
     },
     {
       "id": "mht-cet-073",
@@ -3310,7 +3624,12 @@
       "explanation": "B = μ₀nI = 4π × 10⁻⁷ × 1000 × 2 ≈ 2.51 × 10⁻³ T.",
       "source": "ai",
       "archetype": "mht-cet-P26",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Solenoid B = μ0nI = 2.51e-3 T; CET-level"
+      }
     },
     {
       "id": "mht-cet-074",
@@ -3328,7 +3647,12 @@
       "explanation": "Paramagnets have small positive χ obeying Curie’s law χ = C/T. Diamagnets have small negative, temperature-independent χ; ferromagnets have large positive χ.",
       "source": "ai",
       "archetype": "mht-cet-P27",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Paramagnetic χ small positive, Curie law – CET magnetism item"
+      }
     },
     {
       "id": "mht-cet-075",
@@ -3346,7 +3670,12 @@
       "explanation": "U = ½LI² = ½ × 0.5 × 16 = 4 J.",
       "source": "ai",
       "archetype": "mht-cet-P29",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "½LI² = 4 J; CET-level"
+      }
     },
     {
       "id": "mht-cet-076",
@@ -3364,7 +3693,12 @@
       "explanation": "X_C = 1/(2πfC) = 1/(2π × 50 × 10⁻⁵) ≈ 318 Ω.",
       "source": "ai",
       "archetype": "mht-cet-P31",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Xc = 318 Ω; CET-level"
+      }
     },
     {
       "id": "mht-cet-077",
@@ -3382,7 +3716,12 @@
       "explanation": "λ = h/√(2mK). With equal K, λ ∝ 1/√m: λ_p/λ_α = √(4m/m) = 2.",
       "source": "ai",
       "archetype": "mht-cet-P33",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "λp:λα = 2:1 same KE – CET staple"
+      }
     },
     {
       "id": "mht-cet-078",
@@ -3400,25 +3739,12 @@
       "explanation": "75% decayed means 25% = (1/2)² remains: 2 half-lives = 40 days.",
       "source": "ai",
       "archetype": "mht-cet-P35",
-      "verified": false
-    },
-    {
-      "id": "mht-cet-079",
-      "section": "physics",
-      "topic": "Semiconductor Devices",
-      "difficulty": "easy",
-      "question": "A Zener diode operated in reverse breakdown is mainly used as a",
-      "options": [
-        "rectifier",
-        "amplifier",
-        "voltage regulator",
-        "oscillator"
-      ],
-      "answer": 2,
-      "explanation": "In breakdown the Zener voltage stays nearly constant over a wide current range, so it regulates voltage.",
-      "source": "ai",
-      "archetype": "mht-cet-P37",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "75% decay = 2 half-lives 40 d; CET-level"
+      }
     },
     {
       "id": "mht-cet-080",
@@ -3436,7 +3762,12 @@
       "explanation": "Iω conserved: 2 × 10 = (2 + 1 × 1²)ω ⇒ ω = 20/3 ≈ 6.67 rad/s.",
       "source": "ai",
       "archetype": "mht-cet-P05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Clay stuck on disc I: 2→3, ω = 6.67 – CET angular momentum"
+      }
     },
     {
       "id": "mht-cet-081",
@@ -3454,7 +3785,12 @@
       "explanation": "Mole ratio C : H : O = 40/12 : 6.67/1 : 53.33/16 = 3.33 : 6.67 : 3.33 = 1 : 2 : 1 ⇒ CH₂O.",
       "source": "ai",
       "archetype": "mht-cet-C02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Empirical formula CH2O from % – CET staple"
+      }
     },
     {
       "id": "mht-cet-082",
@@ -3472,7 +3808,12 @@
       "explanation": "Diamond: each C bonded tetrahedrally to 4 C (sp³). Graphite: trigonal planar layers (sp²). Ethyne: linear H–C≡C–H (sp).",
       "source": "ai",
       "archetype": "mht-cet-C03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Hybridisation diamond/graphite/ethyne – CET-level"
+      }
     },
     {
       "id": "mht-cet-083",
@@ -3490,25 +3831,12 @@
       "explanation": "Longest chain containing the –OH carbon has 4 carbons, numbered from the –OH end; the methyl group is on C-3: 3-methylbutan-1-ol.",
       "source": "ai",
       "archetype": "mht-cet-C05",
-      "verified": false
-    },
-    {
-      "id": "mht-cet-084",
-      "section": "chemistry",
-      "topic": "Solid State",
-      "difficulty": "easy",
-      "question": "The number of atoms per unit cell of a face-centred cubic lattice is",
-      "options": [
-        "2",
-        "1",
-        "6",
-        "4"
-      ],
-      "answer": 3,
-      "explanation": "8 corners × 1/8 + 6 face centres × 1/2 = 1 + 3 = 4.",
-      "source": "ai",
-      "archetype": "mht-cet-C08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "IUPAC 3-methylbutan-1-ol with wrong-numbering trap – CET"
+      }
     },
     {
       "id": "mht-cet-085",
@@ -3526,7 +3854,12 @@
       "explanation": "Molality = 0.05/0.5 = 0.1 m. ΔTf = 1.86 × 0.1 = 0.186 K, so the solution freezes at −0.186 °C.",
       "source": "ai",
       "archetype": "mht-cet-C10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Urea ΔTf 0.186 °C – CET numeric"
+      }
     },
     {
       "id": "mht-cet-086",
@@ -3544,7 +3877,12 @@
       "explanation": "BaSO₄ ⇌ Ba²⁺ + SO₄²⁻; Ksp = s² = (10⁻⁵)² = 1 × 10⁻¹⁰. (4 × 10⁻¹⁵ would be 4s³ for an AB₂ salt.)",
       "source": "ai",
       "archetype": "mht-cet-C13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Ksp = s² for BaSO4; CET-level"
+      }
     },
     {
       "id": "mht-cet-087",
@@ -3562,7 +3900,12 @@
       "explanation": "W = −P_ext ΔV = −1 × (20 − 10) = −10 L atm = −1013 J (work done by the gas is +1013 J). The number of moles does not enter.",
       "source": "ai",
       "archetype": "mht-cet-C15",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Irreversible work −PΔV = −1013 J with sign trap – CET style"
+      }
     },
     {
       "id": "mht-cet-088",
@@ -3580,7 +3923,12 @@
       "explanation": "κ = cell constant/R = 0.5/100 = 5 × 10⁻³ S cm⁻¹.",
       "source": "ai",
       "archetype": "mht-cet-C17",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "κ = G*/R = 5e-3 S/cm – CET staple"
+      }
     },
     {
       "id": "mht-cet-089",
@@ -3598,7 +3946,12 @@
       "explanation": "k = rate/[A]² ⇒ (mol L⁻¹ s⁻¹)/(mol L⁻¹)² = L mol⁻¹ s⁻¹. s⁻¹ is first order; mol L⁻¹ s⁻¹ zero order; L² mol⁻² s⁻¹ third order.",
       "source": "ai",
       "archetype": "mht-cet-C19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Second-order k units; CET-level"
+      }
     },
     {
       "id": "mht-cet-090",
@@ -3616,7 +3969,12 @@
       "explanation": "Chlorine. Fluorine’s small 2p subshell causes strong electron–electron repulsion, so its electron gain enthalpy is less negative than chlorine’s.",
       "source": "ai",
       "archetype": "mht-cet-C22",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Cl most negative electron gain enthalpy (not F) – CET trap"
+      }
     },
     {
       "id": "mht-cet-091",
@@ -3634,25 +3992,12 @@
       "explanation": "Xe has 4 bond pairs and 2 lone pairs (sp³d², octahedral arrangement); the lone pairs are trans, giving a square planar shape.",
       "source": "ai",
       "archetype": "mht-cet-C20",
-      "verified": false
-    },
-    {
-      "id": "mht-cet-092",
-      "section": "chemistry",
-      "topic": "Transition & Inner Transition Elements",
-      "difficulty": "easy",
-      "question": "The most common oxidation state of the lanthanoids is",
-      "options": [
-        "+2",
-        "+4",
-        "+5",
-        "+3"
-      ],
-      "answer": 3,
-      "explanation": "All lanthanoids show the +3 state; +2 (Eu, Yb) and +4 (Ce) occur only for some elements.",
-      "source": "ai",
-      "archetype": "mht-cet-C24",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "XeF4 square planar; bare recall"
+      }
     },
     {
       "id": "mht-cet-093",
@@ -3670,7 +4015,12 @@
       "explanation": "Fe²⁺ has 26 − 2 = 24 electrons; six CN⁻ ligands donate 12 electrons: EAN = 36 (the krypton configuration).",
       "source": "ai",
       "archetype": "mht-cet-C26",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "EAN of Fe in ferrocyanide 36 – CET archetype"
+      }
     },
     {
       "id": "mht-cet-094",
@@ -3688,7 +4038,12 @@
       "explanation": "SN2 requires backside attack; steric hindrance increases from methyl to 3°, so methyl bromide reacts fastest.",
       "source": "ai",
       "archetype": "mht-cet-C28",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "SN2 fastest CH3Br; CET-level"
+      }
     },
     {
       "id": "mht-cet-095",
@@ -3706,7 +4061,12 @@
       "explanation": "The alkyl halide must be primary (SN2). With tert-butyl bromide, the alkoxide acts as a base and gives 2-methylpropene by elimination.",
       "source": "ai",
       "archetype": "mht-cet-C30",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Williamson t-butoxide + MeBr (avoid elimination) – CET favourite"
+      }
     },
     {
       "id": "mht-cet-096",
@@ -3724,7 +4084,12 @@
       "explanation": "Each Cl withdraws electron density (−I) and stabilises the carboxylate ion; trichloroacetic acid is the strongest.",
       "source": "ai",
       "archetype": "mht-cet-C32",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "CCl3COOH strongest; CET-level"
+      }
     },
     {
       "id": "mht-cet-097",
@@ -3742,7 +4107,12 @@
       "explanation": "Diazotisation gives benzenediazonium chloride, which hydrolyses on warming with water to phenol with evolution of N₂.",
       "source": "ai",
       "archetype": "mht-cet-C34",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Diazonium warmed → phenol; CET-level"
+      }
     },
     {
       "id": "mht-cet-098",
@@ -3760,7 +4130,12 @@
       "explanation": "The glycosidic bond links the anomeric carbons C-1 of glucose and C-2 of fructose, so sucrose has no free reducing group.",
       "source": "ai",
       "archetype": "mht-cet-C36",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Sucrose α-1 glucose–β-2 fructose link – CET biomolecule"
+      }
     },
     {
       "id": "mht-cet-099",
@@ -3778,7 +4153,12 @@
       "explanation": "Nylon-6 is made by ring-opening polymerisation of caprolactam. Adipic acid + hexamethylenediamine give nylon-6,6; vinyl chloride gives PVC; chloroprene gives neoprene.",
       "source": "ai",
       "archetype": "mht-cet-C37",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Nylon-6 from caprolactam; CET recall"
+      }
     },
     {
       "id": "mht-cet-100",
@@ -3796,7 +4176,12 @@
       "explanation": "In bcc, atoms touch along the body diagonal: 4r = √3a ⇒ r = √3 × 300/4 ≈ 129.9 pm. (106.1 pm uses the fcc relation 4r = √2a.)",
       "source": "ai",
       "archetype": "mht-cet-C07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "bcc r = √3a/4 = 129.9 pm – CET staple"
+      }
     },
     {
       "id": "mht-cet-101",
@@ -3814,7 +4199,12 @@
       "explanation": "Centre (−g, −f) = (2, −3); radius = √(4 + 9 + 12) = 5.",
       "source": "ai",
       "archetype": "mht-cet-M02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Circle centre/radius; CET XI-portion"
+      }
     },
     {
       "id": "mht-cet-102",
@@ -3832,7 +4222,12 @@
       "explanation": "C(10, 2) − 10 sides = 45 − 10 = 35.",
       "source": "ai",
       "archetype": "mht-cet-M05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Decagon diagonals 35; CET-level"
+      }
     },
     {
       "id": "mht-cet-103",
@@ -3850,7 +4245,12 @@
       "explanation": "Mean = 6; squared deviations 16, 4, 0, 4, 16 sum to 40; variance = 40/5 = 8.",
       "source": "ai",
       "archetype": "mht-cet-M06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Variance 8 with SD distractor; CET-level"
+      }
     },
     {
       "id": "mht-cet-104",
@@ -3868,7 +4268,12 @@
       "explanation": "eˣ = 1 + x + x²/2 + …, so (eˣ − 1 − x)/x² → 1/2.",
       "source": "ai",
       "archetype": "mht-cet-M07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "(eˣ−1−x)/x² → 1/2; CET limits"
+      }
     },
     {
       "id": "mht-cet-105",
@@ -3886,7 +4291,12 @@
       "explanation": "(p ∧ q) → p is false only if p ∧ q is true and p false, which is impossible. p → (p ∧ q) fails for p = T, q = F; (p ∨ q) → p fails for p = F, q = T.",
       "source": "ai",
       "archetype": "mht-cet-M09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Tautology (p∧q)→p – CET logic archetype"
+      }
     },
     {
       "id": "mht-cet-106",
@@ -3904,7 +4314,12 @@
       "explanation": "The converse of p → q is q → p. The others are the inverse, the contrapositive and the negation respectively.",
       "source": "ai",
       "archetype": "mht-cet-M08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Converse vs inverse/contrapositive – CET logic staple"
+      }
     },
     {
       "id": "mht-cet-107",
@@ -3922,7 +4337,12 @@
       "explanation": "For [[a, b], [c, d]], adj = [[d, −b], [−c, a]] = [[4, −2], [−3, 1]]. [[4, −3], [−2, 1]] is the cofactor matrix before transposing.",
       "source": "ai",
       "archetype": "mht-cet-M11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Adjoint 2×2; CET-level"
+      }
     },
     {
       "id": "mht-cet-108",
@@ -3940,7 +4360,12 @@
       "explanation": "tan θ = tan(π/3) ⇒ θ = nπ + π/3 (tan has period π).",
       "source": "ai",
       "archetype": "mht-cet-M13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "General solution tan θ = √3 – CET staple"
+      }
     },
     {
       "id": "mht-cet-109",
@@ -3958,7 +4383,12 @@
       "explanation": "Coincident lines require h² = ab = 9 ⇒ h = ±3.",
       "source": "ai",
       "archetype": "mht-cet-M15",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Coincident lines h² = ab → ±3 – CET pair-of-lines"
+      }
     },
     {
       "id": "mht-cet-110",
@@ -3976,7 +4406,12 @@
       "explanation": "Volume = |det[[1, 2, 3], [0, 1, 2], [1, 0, 1]]| = |1(1 − 0) − 2(0 − 2) + 3(0 − 1)| = |1 + 4 − 3| = 2.",
       "source": "ai",
       "archetype": "mht-cet-M17",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Parallelepiped volume = 2 via triple product – CET staple"
+      }
     },
     {
       "id": "mht-cet-111",
@@ -3994,7 +4429,12 @@
       "explanation": "2(x − 1) − (y − 2) + (z − 3) = 0 ⇒ 2x − y + z = 2 − 2 + 3 = 3.",
       "source": "ai",
       "archetype": "mht-cet-M20",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Plane through point with normal; CET-level"
+      }
     },
     {
       "id": "mht-cet-112",
@@ -4012,7 +4452,12 @@
       "explanation": "The feasible region is unbounded with corner points (4, 0) and (0, 4): z = 8 and 12. Since 2x + 3y < 8 has no point in the region, the minimum is 8.",
       "source": "ai",
       "archetype": "mht-cet-M21",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Min over unbounded region at (4,0) = 8; CET-level"
+      }
     },
     {
       "id": "mht-cet-113",
@@ -4030,7 +4475,12 @@
       "explanation": "With x = tan θ, the expression equals 2θ = 2 tan⁻¹ x for |x| < 1, so the derivative is 2/(1 + x²).",
       "source": "ai",
       "archetype": "mht-cet-M24",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "tan⁻¹(2x/(1−x²)) = 2tan⁻¹x derivative – CET staple"
+      }
     },
     {
       "id": "mht-cet-114",
@@ -4048,7 +4498,12 @@
       "explanation": "dy/dx = 3x² − 2 = 1 at x = 1 (slope of tangent), so the normal has slope −1.",
       "source": "ai",
       "archetype": "mht-cet-M26",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Normal slope −1; CET-level"
+      }
     },
     {
       "id": "mht-cet-115",
@@ -4066,7 +4521,12 @@
       "explanation": "By parts: x eˣ − ∫eˣ dx = (x − 1)eˣ + C.",
       "source": "ai",
       "archetype": "mht-cet-M28",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "∫x eˣ by parts; CET-level"
+      }
     },
     {
       "id": "mht-cet-116",
@@ -4084,7 +4544,12 @@
       "explanation": "Using x → π/2 − x, I equals the same integral with cos⁴x on top; adding, 2I = π/2, so I = π/4.",
       "source": "ai",
       "archetype": "mht-cet-M30",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "sin⁴/(sin⁴+cos⁴) = π/4 – CET property archetype"
+      }
     },
     {
       "id": "mht-cet-117",
@@ -4102,7 +4567,12 @@
       "explanation": "Area = πab = π × 4 × 3 = 12π.",
       "source": "ai",
       "archetype": "mht-cet-M32",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Ellipse area πab = 12π; CET-level"
+      }
     },
     {
       "id": "mht-cet-118",
@@ -4120,7 +4590,12 @@
       "explanation": "Separating variables: dy/(1 + y²) = dx/(1 + x²) ⇒ tan⁻¹y = tan⁻¹x + c.",
       "source": "ai",
       "archetype": "mht-cet-M34",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Separable tan⁻¹ DE; CET-level"
+      }
     },
     {
       "id": "mht-cet-119",
@@ -4138,7 +4613,12 @@
       "explanation": "∫₀³ kx² dx = 9k = 1 ⇒ k = 1/9.",
       "source": "ai",
       "archetype": "mht-cet-M36",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "pdf constant k = 1/9 – CET continuous RV archetype"
+      }
     },
     {
       "id": "mht-cet-120",
@@ -4156,7 +4636,12 @@
       "explanation": "Variance = npq = 10 × 0.4 × 0.6 = 2.4 (the mean is 4).",
       "source": "ai",
       "archetype": "mht-cet-M38",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Binomial variance npq = 2.4; CET-level"
+      }
     }
   ]
 }

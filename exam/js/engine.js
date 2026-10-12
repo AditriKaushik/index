@@ -48,7 +48,7 @@ export function sectionMarking(exam, sectionId) {
   const ratio = m.correct ? m.wrong / m.correct : 0;
   // a section may override negative marking, e.g. SSC MTS Session I has none
   const wrong = typeof sec?.wrong === 'number' ? sec.wrong : +(correct * ratio).toFixed(4);
-  return { correct, wrong, unattempted: m.unattempted || 0 };
+  return { correct, wrong, unattempted: m.unattempted || 0, ...(typeof m.numericalWrong === 'number' ? { numericalWrong: m.numericalWrong } : {}) };
 }
 
 // ---------- picking questions ----------
@@ -104,7 +104,7 @@ const avgSecondsPerQuestion = exam => (exam.pattern.durationMinutes * 60) / exam
 // Options whose meaning depends on their position or on the other options
 // ("All of the above", "Both A and R …", "1 and 2 only", bare letters) stay in order.
 const FIXED_ORDER = /\b(all|none|both|neither)\b|\babove\b|\bonly\b|\band\b.*\d|^\(?[a-e1-5]\)?$|statement|assertion|reason|cannot be determined|data (is |are )?(in)?sufficient/i;
-export const canShuffle = q => !q.options.some(o => FIXED_ORDER.test(String(o).trim()));
+export const canShuffle = q => qType(q) !== 'numerical' && !q.options.some(o => FIXED_ORDER.test(String(o).trim()));
 
 // Only questions an independent review scored ≥ MIN_RELEVANCE against the
 // exam's previous-year papers (and re-solved) may be served. See data/RELEVANCE.md.
@@ -191,6 +191,32 @@ export function buildTest(exam, kind, opts = {}, seed = Date.now()) {
 }
 
 // ---------- scoring & analysis ----------
+// Question types:
+//   mcq (default) – answer: option index
+//   msq           – answer: array of option indices (one or more correct).
+//                   JEE Advanced rule: all correct → full; only correct options
+//                   but not all → +(full/4) per option chosen; any wrong → negative.
+//   numerical     – answer: number, optional tolerance (absolute, default 0.01)
+export const qType = q => q.type || 'mcq';
+export function isAnswered(q, a) {
+  if (a === null || a === undefined || a === '') return false;
+  return qType(q) === 'msq' ? Array.isArray(a) && a.length > 0 : true;
+}
+export function isCorrect(q, a) {
+  if (!isAnswered(q, a)) return false;
+  if (qType(q) === 'msq') return a.length === q.answer.length && q.answer.every(i => a.includes(i));
+  if (qType(q) === 'numerical') return Math.abs(Number(a) - q.answer) <= (q.tolerance ?? 0.01) + 1e-9;
+  return a === q.answer;
+}
+export function markAnswer(q, a, mk) {
+  const answered = isAnswered(q, a);
+  if (!answered) return { answered, ok: false, marks: mk.unattempted };
+  if (isCorrect(q, a)) return { answered, ok: true, marks: mk.correct };
+  if (qType(q) === 'msq' && a.every(i => q.answer.includes(i))) return { answered, ok: false, marks: +(mk.correct / 4 * a.length).toFixed(2) };
+  if (qType(q) === 'numerical' && mk.numericalWrong !== undefined) return { answered, ok: false, marks: mk.numericalWrong };
+  return { answered, ok: false, marks: mk.wrong };
+}
+
 // responses: { [questionId]: { answer: number|null, timeSec: number, marked: bool } }
 export function scoreAttempt(exam, test, responses) {
   const byId = new Map(exam.questions.map(q => [q.id, q]));
@@ -202,9 +228,7 @@ export function scoreAttempt(exam, test, responses) {
   for (const q of qs) {
     const r = responses[q.id] || {};
     const mk = sectionMarking(exam, q.section);
-    const answered = r.answer !== null && r.answer !== undefined;
-    const ok = answered && r.answer === q.answer;
-    const marks = !answered ? mk.unattempted : ok ? mk.correct : mk.wrong;
+    const { answered, ok, marks } = markAnswer(q, r.answer, mk);
     score += marks; maxScore += mk.correct; timeSec += r.timeSec || 0;
     if (!answered) skipped++; else if (ok) correct++; else wrong++;
 
