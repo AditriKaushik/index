@@ -3915,7 +3915,12 @@
       "explanation": "Equal heights at t₁, t₂ ⇒ t₁ + t₂ = 2u_y/g = 4 s ⇒ u_y = 20 m/s and time of flight T = 4 s. u_x = 30/(3 − 1) = 15 m/s. Range = 15 × 4 = 60 m.",
       "source": "ai",
       "archetype": "jee-main-P04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Equal heights at 1 s and 3 s -> T=4 s, ux=15 -> R=60 m; typical Main integer projectile"
+      }
     },
     {
       "id": "jee-main-122",
@@ -3933,7 +3938,12 @@
       "explanation": "a = (50 − 0.2 × 10 × 10)/10 = 3 m/s². For the 5 kg block: N − 0.2 × 50 = 5 × 3 ⇒ N = 25 N. (Friction scales with mass, so the answer equals the smooth-floor value 50 × 5/10; 15 N forgets the friction on the 5 kg block.)",
       "source": "ai",
       "archetype": "jee-main-P06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Three blocks with friction, contact force = 5a + μ·50 = 25 N; distractor 15 N ignores friction; Main-faithful"
+      }
     },
     {
       "id": "jee-main-123",
@@ -3947,7 +3957,12 @@
       "explanation": "a = F/m = 3t ⇒ v = 1.5t² ⇒ v(2) = 6 m/s. By the work–energy theorem W = ½ × 2 × 6² = 36 J.",
       "source": "ai",
       "archetype": "jee-main-P08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "F=6t on 2 kg: v(2)=6 m/s, W=ΔKE=36 J; Main work-energy, time-dependent rather than F(x) variant"
+      }
     },
     {
       "id": "jee-main-124",
@@ -3965,7 +3980,12 @@
       "explanation": "Total KE = ½mv²(1 + 2/5) = 0.7mv². At the top all of it is mgh (static friction does no work): h = 0.7 × 25/10 = 1.75 m. (1.25 m ignores rotation; 1.875 m is for a disc; 2.5 m for a ring.)",
       "source": "ai",
       "archetype": "jee-main-P09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Rolling sphere up incline h=7v^2/10g=1.75 m; distractor 1.25 m ignores rotation; Main classic"
+      }
     },
     {
       "id": "jee-main-125",
@@ -3979,7 +3999,12 @@
       "explanation": "½mv² − GMm/R = −GMm/(R + h) with GM = gR²: (3/4)gR − gR = −gR²/(R + h) ⇒ R + h = 4R ⇒ h = 3R. (Using h = v²/2g wrongly gives 0.75R.)",
       "source": "ai",
       "archetype": "jee-main-P12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "v=√(3gR/2) -> h=3R via energy conservation; standard Main integer"
+      }
     },
     {
       "id": "jee-main-126",
@@ -3997,7 +4022,12 @@
       "explanation": "COP = T_L/(T_H − T_L) = 250/50 = 5 ⇒ W = 500/5 = 100 W. Heat rejected = Q_L + W = 600 J per second. (Using T_H/(T_H − T_L) = 6 gives 83.3 W.)",
       "source": "ai",
       "archetype": "jee-main-P18",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Carnot refrigerator COP=5, W=100 W, Q_H=600 J; Main thermodynamics"
+      }
     },
     {
       "id": "jee-main-127",
@@ -4011,7 +4041,12 @@
       "explanation": "KE = ½k(A² − x²) = ½ × 200 × (0.01 − 0.0036) = 100 × 0.0064 = 0.64 J = 640 mJ.",
       "source": "ai",
       "archetype": "jee-main-P21",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "SHM KE = ½k(A²-x²) = 640 mJ; one-step but common Main numerical"
+      }
     },
     {
       "id": "jee-main-128",
@@ -4029,7 +4064,12 @@
       "explanation": "Four adjacent pairs (unlike charges): 4 × (−kq²/a). Two diagonal pairs (like charges): 2 × kq²/(√2a) = √2kq²/a. U = (√2 − 4)kq²/a.",
       "source": "ai",
       "archetype": "jee-main-P24",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Alternating charges on square U=(√2-4)kq²/a; sign trap distractors; Main electrostatics PE"
+      }
     },
     {
       "id": "jee-main-129",
@@ -4043,7 +4083,12 @@
       "explanation": "Current = 2/(8 + 7 + 1) = 0.125 A. Potential gradient = 0.125 × 8/4 = 0.25 V/m. Balancing length = 0.6/0.25 = 2.4 m = 240 cm.",
       "source": "ai",
       "archetype": "jee-main-P26",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Potentiometer gradient 0.25 V/m with rheostat and internal r -> 240 cm; Main-faithful"
+      }
     },
     {
       "id": "jee-main-130",
@@ -4061,7 +4106,12 @@
       "explanation": "Voltmeter: R = V/I_g − G = 10/0.002 − 50 = 4950 Ω in series. Ammeter: S = I_gG/(I − I_g) = 0.002 × 50/0.998 ≈ 0.1 Ω in parallel.",
       "source": "ai",
       "archetype": "jee-main-P29",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Galvanometer to voltmeter 4950 Ω series and ammeter ≈0.1 Ω shunt; exact Main archetype with 5000 Ω trap"
+      }
     },
     {
       "id": "jee-main-131",
@@ -4075,7 +4125,12 @@
       "explanation": "X_L = 1000 × 0.1 = 100 Ω, X_C = 1/(1000 × 12.5 × 10⁻⁶) = 80 Ω. Z = √(15² + 20²) = 25 Ω, I_rms = 8 A. P = I²R = 64 × 15 = 960 W.",
       "source": "ai",
       "archetype": "jee-main-P30",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "XL=100, XC=80, Z=25, I=8, P=I²R=960 W; Main LCR power"
+      }
     },
     {
       "id": "jee-main-132",
@@ -4089,7 +4144,12 @@
       "explanation": "Energy released = BE(products) − BE(parent) = 240 × 8.5 − 240 × 7.6 = 240 × 0.9 = 216 MeV.",
       "source": "ai",
       "archetype": "jee-main-P38",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Fission energy 240×(8.5-7.6)=216 MeV; one-step Main binding-energy integer"
+      }
     },
     {
       "id": "jee-main-133",
@@ -4103,7 +4163,12 @@
       "explanation": "Let x g CaCO₃ and (1.84 − x) g MgCO₃. Residue: (56/100)x + (40/84)(1.84 − x) = 0.96 ⇒ x = 1.00 g. Percentage = 1.00/1.84 × 100 = 54.3 ≈ 54.",
       "source": "ai",
       "archetype": "jee-main-C01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "CaCO3/MgCO3 decomposition simultaneous equations give 1.00 g CaCO3 -> 54.3% -> 54; Main stoichiometry"
+      }
     },
     {
       "id": "jee-main-134",
@@ -4121,7 +4186,12 @@
       "explanation": "λ = 2πr/n with r ∝ n²/Z ⇒ λ ∝ n/Z. H, n = 2: 2/1 = 2. Li²⁺, n = 3: 3/3 = 1. Ratio 2 : 1. (Taking λ ∝ r gives 4 : 3.)",
       "source": "ai",
       "archetype": "jee-main-C04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "λ ∝ n/Z -> 2/1 : 3/3 = 2:1; Main Bohr/de Broglie ratio"
+      }
     },
     {
       "id": "jee-main-135",
@@ -4135,7 +4205,12 @@
       "explanation": "Bonds broken: C=C + H–H = 610 + 436 = 1046. Bonds formed: C–C + 2 C–H = 350 + 828 = 1178. ΔH = 1046 − 1178 = −132 kJ mol⁻¹; magnitude 132.",
       "source": "ai",
       "archetype": "jee-main-C09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Bond enthalpy 1046-1178 -> |ΔH|=132 kJ; Main thermochemistry integer"
+      }
     },
     {
       "id": "jee-main-136",
@@ -4153,7 +4228,12 @@
       "explanation": "Ksp = (2s)²s = 4s³ ⇒ s³ = 8 × 10⁻¹² ⇒ s = 2.0 × 10⁻⁴ M. [Ag⁺] = 2s = 4.0 × 10⁻⁴ M. (2.0 × 10⁻⁴ is s itself; 5.7 × 10⁻⁶ treats it as a 1:1 salt.)",
       "source": "ai",
       "archetype": "jee-main-C13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Ag2CrO4 4s³=3.2e-11 -> s=2e-4, [Ag+]=4e-4 M; s-vs-2s trap, Main-faithful"
+      }
     },
     {
       "id": "jee-main-137",
@@ -4167,7 +4247,12 @@
       "explanation": "Charge = 1930 C = 0.02 F. At the anode 2H₂O → O₂ + 4H⁺ + 4e⁻, so O₂ = 0.02/4 = 0.005 mol = 112 mL.",
       "source": "ai",
       "archetype": "jee-main-C15",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "1930 C -> 0.005 mol O2 -> 112 mL; Main Faraday integer"
+      }
     },
     {
       "id": "jee-main-138",
@@ -4185,7 +4270,12 @@
       "explanation": "log k = log A − Ea/(2.303RT) ⇒ Ea = 2.303 × 8.314 × 1.25 × 10⁴ J ≈ 239 kJ mol⁻¹ (forgetting 2.303 gives 104). k = 10⁴ ⇒ 4 = 14 − 1.25 × 10⁴/T ⇒ T = 1250 K.",
       "source": "ai",
       "archetype": "jee-main-C17",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Ea = 2.303R×1.25e4 ≈ 239 kJ, T=1250 K for k=10^4; Main Arrhenius log form"
+      }
     },
     {
       "id": "jee-main-139",
@@ -4199,7 +4289,12 @@
       "explanation": "[Fe(H₂O)₆]²⁺: d⁶ high spin, 4. [Mn(CN)₆]³⁻: d⁴ low spin (t₂g⁴), 2. [CoF₆]³⁻: d⁶ high spin, 4. [Ni(NH₃)₆]²⁺: d⁸ (t₂g⁶e_g²), 2. Total 12.",
       "source": "ai",
       "archetype": "jee-main-C25",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Unpaired e: 4 (Fe2+ hs) + 2 (Mn3+ ls) + 4 (CoF6 3-) + 2 (Ni2+) = 12; Main coordination integer"
+      }
     },
     {
       "id": "jee-main-140",
@@ -4217,7 +4312,12 @@
       "explanation": "Fe²⁺ → Fe³⁺ gives 1 e⁻ and C₂O₄²⁻ → 2CO₂ gives 2 e⁻: 3 e⁻ per FeC₂O₄. MnO₄⁻ → Mn²⁺ takes 5 e⁻ ⇒ 3/5 mol. (Counting only oxalate gives 2/5; only Fe²⁺ gives 1/5.)",
       "source": "ai",
       "archetype": "jee-main-C22",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "FeC2O4 loses 3 e (Fe2+ and C2O4 2-) -> 3/5 mol KMnO4; Main redox trap (1/5, 2/5)"
+      }
     },
     {
       "id": "jee-main-141",
@@ -4231,7 +4331,12 @@
       "explanation": "Mass of Br = 0.47 × 80/188 = 0.20 g. Percentage = 0.20/0.25 × 100 = 80.",
       "source": "ai",
       "archetype": "jee-main-C28",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Carius Br% = 0.47×80/188/0.25 = 80%; Main quantitative-analysis integer"
+      }
     },
     {
       "id": "jee-main-142",
@@ -4249,7 +4354,12 @@
       "explanation": "Oxidation first converts –CH₃ (o/p-director) into –COOH, a deactivating meta-director, so nitration gives m-nitrobenzoic acid. Nitrating first and then oxidising would give mainly o- and p-nitrobenzoic acids — order of steps matters.",
       "source": "ai",
       "archetype": "jee-main-C30",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Toluene -> benzoic acid -> m-nitrobenzoic acid (COOH meta-director); Main directive-influence item"
+      }
     },
     {
       "id": "jee-main-143",
@@ -4263,7 +4373,12 @@
       "explanation": "Only acids stronger than H₂CO₃ (pKa ≈ 6.4) react: benzoic acid (4.2), picric acid (≈0.4), acetic acid (4.76), benzenesulphonic acid (strong) ⇒ 4. Phenol (10), p-cresol (10.3), ethanol (~16) and p-nitrophenol (7.1) do not.",
       "source": "ai",
       "archetype": "jee-main-C27",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "NaHCO3 test: benzoic, picric, acetic, benzenesulphonic = 4 (p-nitrophenol too weak); Main acidity count"
+      }
     },
     {
       "id": "jee-main-144",
@@ -4281,7 +4396,12 @@
       "explanation": "X = p-methylbenzenediazonium chloride. H₃PO₂ replaces –N₂⁺ by H, so Y = toluene. Side-chain oxidation gives Z = benzoic acid. (p-Toluic acid would keep a substituent where the diazo group was.)",
       "source": "ai",
       "archetype": "jee-main-C35",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Diazotise, H3PO2 removes N2 -> toluene -> benzoic acid; Main diazonium sequence"
+      }
     },
     {
       "id": "jee-main-145",
@@ -4295,7 +4415,12 @@
       "explanation": "Inclusion–exclusion: 3⁵ − C(3, 1)2⁵ + C(3, 2)1⁵ = 243 − 96 + 3 = 150.",
       "source": "ai",
       "archetype": "jee-main-M02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Onto functions 5->3 = 243-96+3 = 150; Main counting integer"
+      }
     },
     {
       "id": "jee-main-146",
@@ -4309,7 +4434,12 @@
       "explanation": "1 + i√3 = 2e^(iπ/3), 1 − i = √2e^(−iπ/4) ⇒ z = √2e^(i7π/12). z²⁴ = 2¹² e^(i14π) = 4096.",
       "source": "ai",
       "archetype": "jee-main-M03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "z = √2 e^{i7π/12}, z^24 = 2^12 = 4096; Main polar-form power"
+      }
     },
     {
       "id": "jee-main-147",
@@ -4327,7 +4457,12 @@
       "explanation": "α + β = 3/2, αβ = 2. α² + β² = 9/4 − 4 = −7/4 and α²β² = 4. Equation: x² + (7/4)x + 4 = 0 ⇒ 4x² + 7x + 16 = 0.",
       "source": "ai",
       "archetype": "jee-main-M05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "α²+β² = 9/4-4 = -7/4, α²β²=4 -> 4x²+7x+16=0; Main transformed-roots"
+      }
     },
     {
       "id": "jee-main-148",
@@ -4345,7 +4480,12 @@
       "explanation": "Points on the line: (1 + 2t, 2 + 3t, 3 − 6t). In the plane: 2 − 7t = 5 ⇒ t = −3/7. Distance = |t|√(4 + 9 + 36) = (3/7)(7) = 3. (√3 is the perpendicular distance.)",
       "source": "ai",
       "archetype": "jee-main-M30",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Distance along direction (2,3,-6): t=-3/7, distance 7|t|=3; Main 3D classic"
+      }
     },
     {
       "id": "jee-main-149",
@@ -4363,7 +4503,12 @@
       "explanation": "Alphabetical order: A, E, M, R, S, T. Words starting with A or E: 2 × 5! = 240. Then M A _ _ _ _: before S come E and R: 2 × 3! = 12 (252). M A S _ _ _: letters E, R, T; before T come E, R: 2 × 2! = 4 (256). M A S T E R is next: rank 257.",
       "source": "ai",
       "archetype": "jee-main-M10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Rank of MASTER in dictionary order = 257; exact Main word-rank archetype"
+      }
     },
     {
       "id": "jee-main-150",
@@ -4377,7 +4522,12 @@
       "explanation": "Σ r·¹⁰Cᵣ = 10 × 2⁹ = 5120 and Σ ¹⁰Cᵣ = 2¹⁰ = 1024. Sum = 6144.",
       "source": "ai",
       "archetype": "jee-main-M13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Σ(r+1)C(10,r) = 10·2^9 + 2^10 = 6144; Main binomial sum"
+      }
     },
     {
       "id": "jee-main-151",
@@ -4395,7 +4545,12 @@
       "explanation": "1^∞ form: limit = e^L with L = lim (tan x − sin x)/[(1 + sin x)x³] = lim tan x(1 − cos x)/x³ = 1/2. Answer √e.",
       "source": "ai",
       "archetype": "jee-main-M16",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "1^∞ limit: (tan x - sin x)/x³ -> 1/2, answer √e; Main standard limit"
+      }
     },
     {
       "id": "jee-main-152",
@@ -4409,7 +4564,12 @@
       "explanation": "With height h, radius² = R² − h²/4: V = π(R²h − h³/4). dV/dh = 0 ⇒ h = 2R/√3 = 6 ⇒ r² = 27 − 9 = 18 ⇒ V = π × 18 × 6 = 108π.",
       "source": "ai",
       "archetype": "jee-main-M18",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Cylinder in sphere R=3√3: h=6 (half 3), r²=18, V=108π; Main optimisation integer"
+      }
     },
     {
       "id": "jee-main-153",
@@ -4427,7 +4587,12 @@
       "explanation": "∫₋₁²|x|dx = 1/2 + 2 = 5/2. ∫₋₁²[x]dx = (−1)(1) + 0(1) + 1(1) = 0. Total 5/2.",
       "source": "ai",
       "archetype": "jee-main-M20",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "∫|x| = 5/2 plus ∫[x] = -1+0+1 = 0 -> 5/2; Main GIF/modulus splitting"
+      }
     },
     {
       "id": "jee-main-154",
@@ -4441,7 +4606,12 @@
       "explanation": "Intersections: x² = 6 − x ⇒ x = −3, 2. A = ∫₋₃²(6 − x − x²)dx = [6x − x²/2 − x³/3] from −3 to 2 = 22/3 + 27/2 = 125/6. So 6A = 125.",
       "source": "ai",
       "archetype": "jee-main-M22",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Area between y=x² and y=6-x on [-3,2] = 125/6 -> 125; Main area integer"
+      }
     },
     {
       "id": "jee-main-155",
@@ -4459,7 +4629,12 @@
       "explanation": "Let x² + y² + 2gx + 2fy + c = 0. Orthogonal to x² + y² = 4: 0 = c − 4 ⇒ c = 4. Orthogonal to the second: 2g(−3) + 2f(−4) = c + 10 ⇒ 3g + 4f = −7. Through (1, 1): 2 + 2g + 2f + 4 = 0 ⇒ g + f = −3. So f = 2, g = −5; radius = √(25 + 4 − 4) = 5.",
       "source": "ai",
       "archetype": "jee-main-M26",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Orthogonality conditions give c=4, g=-5, f=2, radius 5; Main orthogonal-circle item"
+      }
     },
     {
       "id": "jee-main-156",
@@ -4473,7 +4648,12 @@
       "explanation": "1 − (5/6)ⁿ > 0.9 ⇔ (5/6)ⁿ < 0.1 ⇔ n > ln 10/ln 1.2 ≈ 12.6 ⇒ n = 13. ((5/6)¹² ≈ 0.112, (5/6)¹³ ≈ 0.093.)",
       "source": "ai",
       "archetype": "jee-main-M35",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "1-(5/6)^n > 0.9 -> n=13; Main binomial probability integer"
+      }
     }
   ]
 }

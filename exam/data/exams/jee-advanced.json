@@ -1481,20 +1481,6 @@
       }
     },
     {
-      "id": "jee-advanced-121",
-      "section": "physics",
-      "topic": "General Physics & Measurements",
-      "difficulty": "medium",
-      "type": "numerical",
-      "question": "A screw gauge has a pitch of 0.5 mm and 50 divisions on its circular scale. With the two jaws in contact (no wire), the zero of the main scale is just visible and the circular-scale division coinciding with the reference line is 46. For a wire, two readings are taken: main scale 2 divisions with circular scale 18, and main scale 2 divisions with circular scale 22. The wire is 2.00 m long and its resistance is 0.80 Ω. Using the mean corrected diameter, the resistivity of the material is X × 10⁻⁷ Ω m. Find X (correct to two decimal places; take π = 3.14).",
-      "answer": 4.83,
-      "tolerance": 0.02,
-      "explanation": "Least count = 0.5/50 = 0.01 mm. Zero reading 46 means the circular zero has not reached the line: zero error = −(50 − 46)(0.01) = −0.04 mm. Mean observed reading = 2(0.5) + 20(0.01) = 1.20 mm; corrected d = 1.20 − (−0.04) = 1.24 mm. ρ = Rπd²/(4L) = 0.80 × 3.14 × (1.24 × 10⁻³)²/(4 × 2.00) ≈ 4.83 × 10⁻⁷ Ω m. (Wrong sign of correction gives d = 1.16 mm and 4.23.)",
-      "source": "ai",
-      "archetype": "jee-advanced-P01",
-      "verified": false
-    },
-    {
       "id": "jee-advanced-122",
       "section": "physics",
       "topic": "General Physics & Measurements",
@@ -1515,25 +1501,12 @@
       "explanation": "Length = E/F, time = L/v = E/(Fv), mass = E/v² (from E = mv²). Angular momentum = E × time = E²F⁻¹v⁻¹. Surface tension = F/L = F²E⁻¹. Pressure = F/L² = F³E⁻², not F²E⁻¹ (that is surface tension). So (A), (B), (D).",
       "source": "ai",
       "archetype": "jee-advanced-P02",
-      "verified": false
-    },
-    {
-      "id": "jee-advanced-123",
-      "section": "physics",
-      "topic": "Kinematics",
-      "difficulty": "medium",
-      "question": "Particle A is projected from point O on level ground with speed 20 m/s at an angle θ above the horizontal, where tan θ = 4/3. At the same instant particle B is thrown horizontally towards O with speed 6 m/s from the top of a vertical tower of height h whose foot is 36 m from O, in the plane of A’s motion. The particles collide in mid-air. Take g = 10 m/s². Then",
-      "options": [
-        "h = 48 m and the collision occurs 3 m above the ground",
-        "h = 32 m and the collision occurs 3 m above the ground",
-        "h = 32 m and the collision occurs 12 m above the ground",
-        "h = 24 m and the collision occurs 12 m above the ground"
-      ],
-      "answer": 2,
-      "explanation": "Both have the same acceleration g, so in B’s frame A moves in a straight line with relative velocity (12 + 6, 16) = (18, 16) m/s. A must head straight at B’s initial position (36, h): h/36 = 16/18 ⇒ h = 32 m, time t = 36/18 = 2 s. Height then = 16(2) − 5(2²) = 12 m (> 0, so the collision is in the air). Ignoring B’s velocity gives h = 48 m.",
-      "source": "ai",
-      "archetype": "jee-advanced-P03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "New-base-units (F,v,E) dimension MSQ like Adv 2022/24; pressure option F^2E^-1 is a good trap (correct is F^3E^-2)"
+      }
     },
     {
       "id": "jee-advanced-124",
@@ -1551,7 +1524,12 @@
       "explanation": "Maximum friction on the plank = μmg = 5 N, so the plank’s largest possible acceleration is 5/4 = 1.25 m/s². Common motion needs F = (1 + 4)(1.25) = 6.25 N, reached at t = 3.125 s; after that the block slips. At t = 5 s, F = 10 N: block a = (10 − 5)/1 = 5 m/s², plank a = 5/4 = 1.25 m/s². (2 m/s² each assumes no slipping.)",
       "source": "ai",
       "archetype": "jee-advanced-P04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Block on plank with F=2t: find slip time 3.125 s then separate accelerations; faithful Adv two-regime friction item"
+      }
     },
     {
       "id": "jee-advanced-125",
@@ -1573,7 +1551,12 @@
       "explanation": "Along the line of centres A has u cos30° = (√3/2)u; perpendicular component u/2 is unchanged. Equal masses with e = 1/2: v_A(line) = (1 − e)/2 × (√3/2)u = √3u/8, v_B = (1 + e)/2 × (√3/2)u = 3√3u/8. Speed of A = u√(3/64 + 16/64) = √19u/8 (not u/2). KE fraction left = (19 + 27)/64 = 46/64, so 18/64 = 9/32 is lost. The 90° rule holds only for elastic collisions; here cos(angle) = 3/√57 ≠ 0.",
       "source": "ai",
       "archetype": "jee-advanced-P05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Oblique collision e=1/2 MSQ: components along line of centres, KE loss 9/32, perpendicularity trap valid only for e=1; Adv-grade"
+      }
     },
     {
       "id": "jee-advanced-126",
@@ -1587,7 +1570,12 @@
       "explanation": "Friction acts at the contact point, so angular momentum about a fixed point on the floor is conserved: mv₀R − mR²ω₀ = mvR + mR²(v/R) ⇒ v = (v₀ − ω₀R)/2 = 3 m/s (forward). Initial KE = ½(2)(8²) + ½(2)(2²) = 68 J; final KE = ½(2)(3²) + ½(2)(3²) = 18 J. Heat = 50 J.",
       "source": "ai",
       "archetype": "jee-advanced-P06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Backspun ring, angular momentum about contact point gives v=3, heat 68-18=50 J; exactly the Adv rolling-onset numerical"
+      }
     },
     {
       "id": "jee-advanced-127",
@@ -1605,7 +1593,12 @@
       "explanation": "a = g sin θ/(1 + I/mR²) = 6/1.5 = 4 m/s². Friction f = mg sin θ − ma = 18 − 12 = 6 N (not ma = 12 N). μ_min = f/(mg cos θ) = 6/24 = 0.25. After 2 s it has moved 8 m, so total KE = mg(8)(0.6) = 144 J; for a solid cylinder rotational KE is 1/3 of total = 48 J.",
       "source": "ai",
       "archetype": "jee-advanced-P07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Rolling cylinder List-I/II (a=4, f=6, mu=0.25, KErot=48); Adv matching format, items formulaic but trap on f vs mu"
+      }
     },
     {
       "id": "jee-advanced-128",
@@ -1619,7 +1612,12 @@
       "explanation": "Apogee r₁ = 2R, perigee r₂ = R. Angular momentum and energy give v_apogee² = 2GMr₂/[r₁(r₁ + r₂)] = GM/(3R). Circular speed at 2R: v₀² = GM/(2R). Ratio v/v₀ = √(2/3) = 0.8165, so the decrease is 18.35 %.",
       "source": "ai",
       "archetype": "jee-advanced-P08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Circular-to-grazing-ellipse speed cut = 1-sqrt(2/3) = 18.35%; good Adv orbital-transfer numerical"
+      }
     },
     {
       "id": "jee-advanced-129",
@@ -1642,7 +1640,12 @@
       "explanation": "Radii: M at 2d/3, 2M at d/3. For M: G(2M)/d² = ω²(2d/3) ⇒ ω² = 3GM/d³ ⇒ T = 2π√(d³/3GM). Same ω: KE ∝ mr² ⇒ M(4/9) : 2M(1/9) = 2; L = mr²ω gives the same ratio 2. Total KE = ½(M(4/9) + 2M(1/9))d²ω² = GM²/d; PE = −2GM²/d; total = −GM²/d, not −2GM²/d.",
       "source": "ai",
       "archetype": "jee-advanced-P08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Binary star MSQ (period, KE and L ratios 2, energy -GM^2/d not -2GM^2/d); standard Adv two-body set, moderate"
+      }
     },
     {
       "id": "jee-advanced-130",
@@ -1656,7 +1659,12 @@
       "explanation": "A(−dh/dt) = a√(2gh) ⇒ t = (A/a)√(2/g)(√h₁ − √h₂) = 400 × √0.2 × (√1.8 − √0.45) = 400 × √0.2 × √0.45 = 400 × 0.3 = 120 s. (Draining completely would take 240 s; the level falls fastest at the start.)",
       "source": "ai",
       "archetype": "jee-advanced-P10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Tank draining time via Torricelli integral, 400*sqrt(0.2)*(sqrt1.8-sqrt0.45)=120 s; Adv-level calculus fluid item"
+      }
     },
     {
       "id": "jee-advanced-131",
@@ -1670,7 +1678,12 @@
       "explanation": "Net work = area of triangle = ½(V₀)(P₀) = P₀V₀/2. Heat enters only along A → B (T rises; B → C and C → A both cool the gas). Q_AB = ΔU + W = (3/2)(4P₀V₀ − P₀V₀) + ½(P₀ + 2P₀)V₀ = 4.5P₀V₀ + 1.5P₀V₀ = 6P₀V₀. Efficiency = 0.5/6 = 1/12 = 8.33 %.",
       "source": "ai",
       "archetype": "jee-advanced-P11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Cycle with P∝V leg: W=P0V0/2, Qin=6P0V0 only on A->B, eta=8.33%; trap of counting heat on other legs; Adv numerical"
+      }
     },
     {
       "id": "jee-advanced-132",
@@ -1688,25 +1701,12 @@
       "explanation": "For PVⁿ = constant, C = C_V + R/(1 − n) with C_V = 3R/2. PV²: n = 2 ⇒ R/2. P ∝ V: n = −1 ⇒ 2R. Adiabatic (n = 5/3): 0. V ∝ T² with PV = RT gives P ∝ V^(−1/2), n = 1/2 ⇒ 3R/2 + 2R = 7R/2. Writing R/(n − 1) gives the 5R/2 trap.",
       "source": "ai",
       "archetype": "jee-advanced-P24",
-      "verified": false
-    },
-    {
-      "id": "jee-advanced-133",
-      "section": "physics",
-      "topic": "Thermal Physics & KTG",
-      "difficulty": "medium",
-      "question": "Three rods of the same cross-section meet at a junction J. Rod 1 (conductivity K, length L) has its far end at 100 °C, rod 2 (conductivity 2K, length L) has its far end at 40 °C, and rod 3 (conductivity 3K, length 2L) has its far end at 0 °C. The rods are insulated along their lengths. In the steady state the temperature of J is",
-      "options": [
-        "40 °C",
-        "30 °C",
-        "36 °C",
-        "45 °C"
-      ],
-      "answer": 0,
-      "explanation": "Thermal conductances (in units of KA/L): 1, 2 and 3/2. Zero net heat into J: 1(100 − T) + 2(40 − T) + 1.5(0 − T) = 0 ⇒ 180 = 4.5T ⇒ T = 40 °C. So rod 2 carries no heat. Taking all lengths equal gives 30 °C.",
-      "source": "ai",
-      "archetype": "jee-advanced-P12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Polytropic molar heat capacity matching (R/2, 2R, 0, 7R/2 for V∝T^2) mirrors Adv 2023/24 List matching closely"
+      }
     },
     {
       "id": "jee-advanced-134",
@@ -1728,21 +1728,12 @@
       "explanation": "Before impact v = ωA = 10 × 0.1 = 1 m/s. Momentum: 1(1) − 1(0.5) = 2v′ ⇒ v′ = 0.25 m/s (this is the new maximum speed). New ω′ = √(100/2) = 5√2 rad/s, so T′ = 2π/(5√2) ≈ 0.89 s (not 2π/5). A′ = v′/ω′ = 0.25/(5√2) m = 10/(2√2) cm. Energy: ½(2)(0.25²) = 1/16 J vs ½(100)(0.1²) = 1/2 J ⇒ 1/8.",
       "source": "ai",
       "archetype": "jee-advanced-P13",
-      "verified": false
-    },
-    {
-      "id": "jee-advanced-135",
-      "section": "physics",
-      "topic": "Waves & Sound",
-      "difficulty": "medium",
-      "type": "numerical",
-      "question": "A car moves at 20 m/s towards a large vertical wall, sounding a horn of frequency 500 Hz. A stationary observer stands on the road behind the car (the car is moving away from him). He hears the direct sound and the sound reflected from the wall. Find the beat frequency he hears (in Hz, correct to two decimal places). Speed of sound = 340 m/s; neglect wind.",
-      "answer": 59.03,
-      "tolerance": 0.02,
-      "explanation": "Direct sound (source receding): f₁ = 500 × 340/360 = 472.22 Hz. The wall receives f₂ = 500 × 340/320 = 531.25 Hz and, being at rest, reflects it unchanged to the stationary observer. Beats = 531.25 − 472.22 = 59.03 Hz.",
-      "source": "ai",
-      "archetype": "jee-advanced-P14",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Putty sticks at mean position: momentum 0.5->v=0.25, A=5/sqrt2 cm, E 1/8, T=2pi/(5sqrt2); faithful Adv SHM MSQ"
+      }
     },
     {
       "id": "jee-advanced-136",
@@ -1760,7 +1751,12 @@
       "explanation": "Open pipe: f₁ = 340/1.70 = 200 Hz, second harmonic 400 Hz. Closed pipe: f₁ = 340/3.40 = 100 Hz; first overtone is the 3rd harmonic = 300 Hz. End-corrected length 84.0 + 1.0 = 85.0 cm ⇒ 100 Hz. String: v = √(100/0.01) = 100 m/s, f₁ = 100 Hz; fourth overtone = 5th harmonic = 500 Hz.",
       "source": "ai",
       "archetype": "jee-advanced-P25",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Pipes/strings matching incl. end correction and overtone-vs-harmonic trap (P400,Q300,R100,S500); Adv matching style"
+      }
     },
     {
       "id": "jee-advanced-137",
@@ -1783,7 +1779,12 @@
       "explanation": "Q(r) = ∫ρ₀(r/R)4πr²dr = πρ₀r⁴/R ⇒ total πρ₀R³. Inside E = ρ₀r²/(4ε₀R) (increasing), outside E = ρ₀R³/(4ε₀r²) (decreasing) ⇒ maximum at R. E(R/2) = ρ₀R/(16ε₀) = E(2R). V(R) = ρ₀R²/(4ε₀); V(0) = V(R) + ∫₀ᴿE dr = ρ₀R²/(4ε₀) + ρ₀R²/(12ε₀) ⇒ ratio 4/3 (3/2 is for a uniform sphere).",
       "source": "ai",
       "archetype": "jee-advanced-P16",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "rho∝r sphere MSQ: Q=pi rho0 R^3, E(R/2)=E(2R), Emax at R, Vc/Vs=4/3 not 3/2; exact Adv Gauss archetype"
+      }
     },
     {
       "id": "jee-advanced-138",
@@ -1797,7 +1798,12 @@
       "explanation": "New capacitance (air d/2 in series with dielectric d/2) = C₀ × 2K/(K + 1) = 16 μF. Charge Q = 1 mC is fixed. U₀ = Q²/2C₀ = 50 mJ, U = Q²/2C = 31.25 mJ. Energy decrease = 18.75 mJ = work done by the field (the slab is pulled in).",
       "source": "ai",
       "archetype": "jee-advanced-P15",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Isolated capacitor with half-thickness K=4 slab: C 10->16 uF, field work = 50-31.25 = 18.75 mJ; Adv-like"
+      }
     },
     {
       "id": "jee-advanced-139",
@@ -1815,25 +1821,12 @@
       "explanation": "Thevenin equivalent across C: E_th = 12 × 4/6 = 8 V, R_th = 2 × 4/6 = 4/3 kΩ. τ = (4/3 kΩ)(3 μF) = 4 ms; final charge = 3 μF × 8 V = 24 μC. q(4 ms) = 24(1 − e⁻¹) μC. Using 12 V gives 36 μC; using only 2 kΩ or 6 kΩ gives the other exponents.",
       "source": "ai",
       "archetype": "jee-advanced-P17",
-      "verified": false
-    },
-    {
-      "id": "jee-advanced-140",
-      "section": "physics",
-      "topic": "Current Electricity",
-      "difficulty": "medium",
-      "question": "A cell of emf 12 V and internal resistance r delivers the same power to an external resistor of 2 Ω as to an external resistor of 8 Ω (each connected alone).\n\nList-I\n(P) r (in Ω)\n(Q) Maximum power the cell can deliver to an external resistor (in W)\n(R) Efficiency of the cell (in %) with the 8 Ω resistor\n(S) Current (in A) through the 2 Ω resistor\n\nList-II\n(1) 2\n(2) 4\n(3) 9\n(4) 66.7\n(5) 33.3\n\nChoose the option that matches each entry of List-I with the correct entry of List-II.",
-      "options": [
-        "P → 2, Q → 3, R → 4, S → 1",
-        "P → 2, Q → 3, R → 5, S → 1",
-        "P → 1, Q → 3, R → 4, S → 2",
-        "P → 3, Q → 2, R → 5, S → 1"
-      ],
-      "answer": 0,
-      "explanation": "E²R₁/(R₁ + r)² = E²R₂/(R₂ + r)² ⇒ r = √(R₁R₂) = 4 Ω. Maximum power when R = r: E²/4r = 144/16 = 9 W. Efficiency = R/(R + r) = 8/12 = 66.7 % (r/(R + r) = 33.3 % is the trap). Current with 2 Ω: 12/6 = 2 A.",
-      "source": "ai",
-      "archetype": "jee-advanced-P26",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "RC with parallel resistor via Thevenin: tau=4 ms, Qmax=24 uC -> 24(1-1/e); good Adv circuit trap (tau with 6 kΩ)"
+      }
     },
     {
       "id": "jee-advanced-141",
@@ -1851,7 +1844,12 @@
       "explanation": "Square: each side gives (μ₀I/4πR)(sin45° + sin45°) = √2 units; 4 sides ⇒ 4√2. Circle: μ₀I/2R = 2π units. Semi-infinite wire, point opposite its end: (μ₀I/4πR)(sin90° + sin0°) = 1 unit. Hairpin: semicircle μ₀I/4R = π units plus two semi-infinite wires 1 unit each, all in the same direction ⇒ π + 2.",
       "source": "ai",
       "archetype": "jee-advanced-P18",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Biot-Savart matching: square 4√2, loop 2π, semi-infinite end 1, hairpin π+2 in μ0I/4πR units; Adv-faithful"
+      }
     },
     {
       "id": "jee-advanced-142",
@@ -1865,29 +1863,12 @@
       "explanation": "The motion perpendicular to x is uniform circular motion with period T = 2πm/(qB) = 2π/(2 × 10⁷) ≈ 3.14 × 10⁻⁷ s (unaffected by E ∥ B). Along x: a = qE/m = 10¹³ m/s². For t = 2T = 6.283 × 10⁻⁷ s: x = 3 × 10⁶ t + ½(10¹³)t² = 1.885 + 1.974 = 3.86 m.",
       "source": "ai",
       "archetype": "jee-advanced-P18",
-      "verified": false
-    },
-    {
-      "id": "jee-advanced-143",
-      "section": "physics",
-      "topic": "Electromagnetic Induction & AC",
-      "difficulty": "medium",
-      "type": "msq",
-      "question": "A series LCR circuit with R = 30 Ω, inductive reactance 80 Ω and capacitive reactance 40 Ω (both at 50 Hz) is connected to a 200 V (rms), 50 Hz supply. Which of the following is/are correct?",
-      "options": [
-        "The rms current is 4 A",
-        "The power factor of the circuit is 0.8",
-        "The rms voltage across the inductor is greater than the supply voltage",
-        "Resonance would occur at a frequency higher than 50 Hz"
-      ],
-      "answer": [
-        0,
-        2
-      ],
-      "explanation": "Z = √(30² + 40²) = 50 Ω, I = 4 A, power factor = R/Z = 0.6 (0.8 is sin φ). V_L = 4 × 80 = 320 V > 200 V. X_L > X_C at 50 Hz, so resonance is at a lower frequency: f₀ = 50√(40/80) ≈ 35.4 Hz.",
-      "source": "ai",
-      "archetype": "jee-advanced-P19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Helix with E∥B: x = vx t + qE t^2/2m over two periods = 3.86 m; Adv 'distance per revolution' archetype"
+      }
     },
     {
       "id": "jee-advanced-144",
@@ -1901,7 +1882,12 @@
       "explanation": "Current stops when the capacitor voltage equals BLv. Impulse: m(v₀ − v) = BLq and q = C·BLv ⇒ v = mv₀/(m + CB²L²) = 0.4/0.2 = 2 m/s. Capacitor energy = ½C(BLv)² = ½(0.4)(1)² = 0.2 J. Heat = ½(0.1)(16) − ½(0.1)(4) − 0.2 = 0.8 − 0.2 − 0.2 = 0.4 J = 400 mJ (independent of R).",
       "source": "ai",
       "archetype": "jee-advanced-P27",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Rod on rails with R+C: momentum-charge relation gives v=2, Q=0.4 C, heat 0.4 J independent of R; strong Adv item"
+      }
     },
     {
       "id": "jee-advanced-145",
@@ -1919,7 +1905,12 @@
       "explanation": "First refraction: 1/v = 1/15 − 1/25 ⇒ v = 37.5 cm, m₁ = −1.5. This image is 7.5 cm in front of the mirror; its mirror image is 7.5 cm behind the mirror, i.e. 52.5 cm from the lens (m = +1). Second refraction: object distance 52.5 cm ⇒ 1/v = 1/15 − 1/52.5 ⇒ v = 21 cm on the object side, m₃ = −21/52.5 = −0.4. Total m = (−1.5)(1)(−0.4) = +0.6: real and erect.",
       "source": "ai",
       "archetype": "jee-advanced-P20",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Lens + plane mirror three-step imaging, final real erect 21 cm with m=+0.6; Adv-type multi-surface optics"
+      }
     },
     {
       "id": "jee-advanced-146",
@@ -1937,45 +1928,12 @@
       "explanation": "I = I_max cos²(φ/2). I = 3I_max/4 ⇒ φ/2 = π/6 ⇒ φ = π/3 ⇒ path difference (μ − 1)t = λ/6 ⇒ t = 600/(6 × 0.5) = 200 nm. Taking φ = π/6 (forgetting the half-angle) gives 100 nm.",
       "source": "ai",
       "archetype": "jee-advanced-P21",
-      "verified": false
-    },
-    {
-      "id": "jee-advanced-147",
-      "section": "physics",
-      "topic": "Modern Physics",
-      "difficulty": "medium",
-      "type": "msq",
-      "question": "When light of wavelength 248 nm falls on a metal surface the stopping potential is 3.0 V; with light of wavelength 310 nm it is 2.0 V. Take hc = 1240 eV nm and the de Broglie wavelength of an electron of kinetic energy K (in eV) as 1.227/√K nm. Which of the following is/are correct?",
-      "options": [
-        "The work function of the metal is 2.0 eV",
-        "The threshold wavelength is 620 nm",
-        "Light of wavelength 550 nm cannot eject photoelectrons from this metal",
-        "For 248 nm light, the minimum de Broglie wavelength of the emitted photoelectrons is about 0.71 nm"
-      ],
-      "answer": [
-        0,
-        1,
-        3
-      ],
-      "explanation": "248 nm ⇒ 5.0 eV, so φ = 5.0 − 3.0 = 2.0 eV (310 nm: 4.0 − 2.0 = 2.0 eV, consistent). λ₀ = 1240/2 = 620 nm, so 550 nm (2.25 eV) does eject electrons. Fastest electrons have K = 3 eV ⇒ λ_min = 1.227/√3 ≈ 0.71 nm.",
-      "source": "ai",
-      "archetype": "jee-advanced-P23",
-      "verified": false
-    },
-    {
-      "id": "jee-advanced-148",
-      "section": "physics",
-      "topic": "Modern Physics",
-      "difficulty": "medium",
-      "type": "numerical",
-      "question": "Based on the paragraph: after how many hours do the activities of A and B become equal?",
-      "answer": 4,
-      "tolerance": 0,
-      "explanation": "A_A = 4A₀·2^(−t), A_B = A₀·2^(−t/2). Equal when 4 = 2^(t/2) ⇒ t = 4 h.",
-      "source": "ai",
-      "archetype": "jee-advanced-P22",
-      "passage": "jee-advanced-PX1",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "YDSE film for I=3/4 Imax: phase π/3 -> (mu-1)t=λ/6 -> 200 nm; two-step, Adv-acceptable"
+      }
     },
     {
       "id": "jee-advanced-149",
@@ -1990,7 +1948,12 @@
       "source": "ai",
       "archetype": "jee-advanced-P22",
       "passage": "jee-advanced-PX1",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Paragraph Q2: NA=2NB from activities, quadratic in 2^(-t/2) gives t=2 h; good Adv paragraph follow-up"
+      }
     },
     {
       "id": "jee-advanced-150",
@@ -2008,7 +1971,12 @@
       "explanation": "r ∝ n²/Z, v ∝ Z/n. ω = v/r ∝ Z²/n³. Current I ∝ ω ∝ Z²/n³, so B = μ₀I/2r ∝ Z³/n⁵. Magnetic moment = Iπr² ∝ (Z²/n³)(n⁴/Z²) = n. λ = h/mv ∝ n/Z (equivalently 2πr/n).",
       "source": "ai",
       "archetype": "jee-advanced-P28",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Bohr n,Z dependence matching (ω Z^2/n^3, B Z^3/n^5, μ ∝ n, λ n/Z) - matches Adv 2023 matching archetype closely"
+      }
     },
     {
       "id": "jee-advanced-151",
@@ -2022,7 +1990,12 @@
       "explanation": "Only H₂C₂O₄ reacts with NaOH: n(H₂C₂O₄) = (0.020 × 0.100)/2 = 1.0 mmol. KMnO₄ (n-factor 5) supplies 40 × 0.04 × 5 = 8.0 mmol e⁻; each oxalate gives 2e⁻ ⇒ total oxalate 4.0 mmol. Na₂C₂O₄ = 3.0 mmol per 25 mL ⇒ 0.120 mol/L × 134 g/mol = 16.08 g/L.",
       "source": "ai",
       "archetype": "jee-advanced-C01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Oxalic acid + oxalate mixture by acid-base and KMnO4 titrations: Na2C2O4 3 mmol/25 mL -> 16.08 g/L; Adv redox numerical"
+      }
     },
     {
       "id": "jee-advanced-152",
@@ -2045,7 +2018,12 @@
       "explanation": "Eₙ = −13.6 × 9/n² = −122.4/n² eV. Highest photon = 122.4(1 − 1/n²) = 108.8 ⇒ 1/n² = 1/9 ⇒ n = 3. Lines: 3→1, 3→2, 2→1 = 3. Least energetic (3→2): 122.4(1/4 − 1/9) = 17.0 eV. Ionisation from n = 3 needs 122.4/9 = 13.6 eV, not 40.8 eV.",
       "source": "ai",
       "archetype": "jee-advanced-C02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Li2+ from 108.8 eV max photon: n=3, 3 lines, least 17.0 eV, ionisation 13.6 not 40.8; Adv MSQ, moderate"
+      }
     },
     {
       "id": "jee-advanced-153",
@@ -2063,7 +2041,12 @@
       "explanation": "XeO₂F₂: 4 bond pairs + 1 lone pair (trigonal-bipyramidal family) ⇒ see-saw. [ClF₂]⁺: Cl has 6 electrons after the charge, 2 bonds ⇒ 2 lone pairs ⇒ bent. XeOF₄: 5 bonds + 1 lone pair ⇒ square pyramidal. [I₃]⁻: central I has 2 bonds + 3 lone pairs ⇒ linear.",
       "source": "ai",
       "archetype": "jee-advanced-C03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "VSEPR matching XeO2F2 see-saw, ClF2+ bent, XeOF4 sq-pyramidal, I3- linear with lone-pair counts; Adv style"
+      }
     },
     {
       "id": "jee-advanced-154",
@@ -2085,7 +2068,12 @@
       "explanation": "O₂²⁺ has 14 electrons (isoelectronic with N₂): bond order 3, all paired. He₂⁺: (2 − 1)/2 = 0.5, so it can exist. N₂⁺ (13 e⁻) and N₂⁻ (15 e⁻) both have bond order 2.5. O₂⁻ has bond order 1.5 < 2 (O₂), so its bond is longer.",
       "source": "ai",
       "archetype": "jee-advanced-C04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "MOT MSQ: O2^2+ BO 3 diamagnetic, He2+ exists (0.5), N2+/N2- both 2.5, O2- longer; Adv-faithful"
+      }
     },
     {
       "id": "jee-advanced-155",
@@ -2103,7 +2091,12 @@
       "explanation": "At low pressure Z ≈ 1 + (b − a/RT)P/RT. With T_B = a/(Rb) = 600 K, a/RT = b(T_B/T) = 2b, so Z ≈ 1 − bP/RT = 1 − (0.040 × 10)/(0.082 × 300) = 1 − 0.016 = 0.984. Below T_B attraction dominates, so Z < 1 (1.016 has the sign reversed).",
       "source": "ai",
       "archetype": "jee-advanced-C05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Boyle temperature -> a, then Z = 1+(b-a/RT)P/RT = 0.984; Adv-level vdW reasoning"
+      }
     },
     {
       "id": "jee-advanced-156",
@@ -2117,7 +2110,12 @@
       "explanation": "q = 0 ⇒ ΔU = w: nC_V(T₂ − T₁) = −P_ext(V₂ − V₁) = −(RT₂ − RT₁P_ext/P₁). (3/2)(T₂ − 300) = −(T₂ − 30) ⇒ 2.5T₂ = 480 ⇒ T₂ = 192 K. (The reversible adiabatic formula would wrongly give 300 × 0.1^0.4 ≈ 119 K.)",
       "source": "ai",
       "archetype": "jee-advanced-C06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Irreversible adiabatic vs constant Pext: 1.5(T-300) = -(T-30) -> 192 K; Adv thermodynamics numerical"
+      }
     },
     {
       "id": "jee-advanced-157",
@@ -2135,7 +2133,12 @@
       "explanation": "Reversible isothermal: ΔS_gas = R ln 2 and the surroundings lose the same, −R ln 2. Free expansion: q = 0 but S is a state function, so ΔS_gas = R ln 2 (not zero). Constant V: C_V ln 2 = (3/2)R ln 2. Constant P: C_P ln 2 = (5/2)R ln 2.",
       "source": "ai",
       "archetype": "jee-advanced-C06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Entropy matching: surroundings -R ln2, free expansion +R ln2 (trap 'zero'), Cv ln2, Cp ln2; Adv-faithful"
+      }
     },
     {
       "id": "jee-advanced-158",
@@ -2150,54 +2153,12 @@
       "source": "ai",
       "archetype": "jee-advanced-C07",
       "passage": "jee-advanced-CX1",
-      "verified": false
-    },
-    {
-      "id": "jee-advanced-159",
-      "section": "chemistry",
-      "topic": "Chemical & Ionic Equilibrium",
-      "difficulty": "medium",
-      "type": "numerical",
-      "question": "Based on the paragraph: find the pH at the first equivalence point (correct to two decimal places).",
-      "answer": 5.0,
-      "tolerance": 0.02,
-      "explanation": "At 20.0 mL all acid is HA⁻, an amphiprotic species: pH = ½(pKa₁ + pKa₂) = ½(3.00 + 7.00) = 5.00 (independent of concentration).",
-      "source": "ai",
-      "archetype": "jee-advanced-C07",
-      "passage": "jee-advanced-CX1",
-      "verified": false
-    },
-    {
-      "id": "jee-advanced-160",
-      "section": "chemistry",
-      "topic": "Chemical & Ionic Equilibrium",
-      "difficulty": "medium",
-      "question": "For PCl₅(g) ⇌ PCl₃(g) + Cl₂(g) at a certain temperature, PCl₅ is 50% dissociated when the total equilibrium pressure is 2 atm. At the same temperature, the total pressure at which PCl₅ is 25% dissociated is",
-      "options": [
-        "10 atm",
-        "8 atm",
-        "12 atm",
-        "32/3 atm"
-      ],
-      "answer": 0,
-      "explanation": "Kp = α²P/(1 − α²) = (0.25 × 2)/0.75 = 2/3 atm. For α = 0.25: P = Kp(1 − α²)/α² = (2/3)(0.9375)/0.0625 = 10 atm. Using α²P/(1 − α) gives 12 atm; neglecting α² in the denominator gives 8 atm.",
-      "source": "ai",
-      "archetype": "jee-advanced-C08",
-      "verified": false
-    },
-    {
-      "id": "jee-advanced-161",
-      "section": "chemistry",
-      "topic": "Electrochemistry",
-      "difficulty": "medium",
-      "type": "numerical",
-      "question": "At 298 K, E°(Ag⁺/Ag) = 0.80 V and E°(Cl⁻/AgCl/Ag) = 0.22 V. Taking 2.303RT/F = 0.059 V, find pKsp (= −log Ksp) of AgCl, correct to two decimal places.",
-      "answer": 9.83,
-      "tolerance": 0.02,
-      "explanation": "AgCl(s) + e⁻ → Ag + Cl⁻ minus Ag⁺ + e⁻ → Ag gives AgCl(s) ⇌ Ag⁺ + Cl⁻ with E° = 0.22 − 0.80 = −0.58 V. log Ksp = E°/0.059 = −0.58/0.059 = −9.83 ⇒ pKsp = 9.83.",
-      "source": "ai",
-      "archetype": "jee-advanced-C09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Diprotic titration paragraph: past first eq -> buffer HA-/A2- 3:1 -> pH 6.52; Adv paragraph numerical"
+      }
     },
     {
       "id": "jee-advanced-162",
@@ -2220,39 +2181,12 @@
       "explanation": "If A falls by x, total = P₀ + 2x. 1.5P₀ ⇒ x = 0.25P₀, A left = 0.75P₀ ⇒ k = (1/10) ln(4/3) = 0.0288 min⁻¹, t½ = 0.693/0.0288 ≈ 24.1 min. At t½, x = 0.5P₀ ⇒ total 2P₀. After 20 min A = (0.75)²P₀ = 0.5625P₀, x = 0.4375P₀, total = 1.875P₀ (not 2P₀).",
       "source": "ai",
       "archetype": "jee-advanced-C10",
-      "verified": false
-    },
-    {
-      "id": "jee-advanced-163",
-      "section": "chemistry",
-      "topic": "Chemical Kinetics",
-      "difficulty": "medium",
-      "type": "numerical",
-      "question": "The activation energy of a reaction is 80 kJ mol⁻¹. A catalyst lowers it to 60 kJ mol⁻¹ without changing the pre-exponential factor. The catalysed reaction at 300 K has the same rate constant as the uncatalysed reaction at temperature T. Find T (in K).",
-      "answer": 400,
-      "tolerance": 0,
-      "explanation": "k = A e^(−Ea/RT) with the same A ⇒ equal k needs Ea/T equal: 60/300 = 80/T ⇒ T = 400 K.",
-      "source": "ai",
-      "archetype": "jee-advanced-C10",
-      "verified": false
-    },
-    {
-      "id": "jee-advanced-164",
-      "section": "chemistry",
-      "topic": "Solutions & Colligative Properties",
-      "difficulty": "medium",
-      "question": "A solution of 1.22 g of benzoic acid (molar mass 122 g mol⁻¹) in 100 g of benzene freezes 0.40 K below the freezing point of benzene (Kf = 5.12 K kg mol⁻¹). Benzoic acid partly dimerises in benzene. The percentage of benzoic acid molecules that are dimerised is about",
-      "options": [
-        "43.75%",
-        "21.9%",
-        "56.25%",
-        "78.1%"
-      ],
-      "answer": 0,
-      "explanation": "m = 0.01/0.1 = 0.1 mol/kg. i = ΔTf/(Kf m) = 0.40/0.512 = 0.78125. For 2A ⇌ A₂, i = 1 − α/2 ⇒ α = 2(1 − 0.78125) = 0.4375 = 43.75%. (1 − i = 21.9% forgets the factor 2; 78.1% is i itself.)",
-      "source": "ai",
-      "archetype": "jee-advanced-C11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "A->2B+C pressure kinetics MSQ: k=(1/10)ln(4/3), t½≈24.1 min, P(t½)=2P0, P(20)=1.875P0; Adv-faithful"
+      }
     },
     {
       "id": "jee-advanced-165",
@@ -2270,7 +2204,12 @@
       "explanation": "Pyrophosphoric acid H₄P₂O₇ has a P–O–P bridge. Phosphorous acid H₃PO₃ = HPO(OH)₂: one P–H, dibasic. Hypophosphoric acid H₄P₂O₆ has a direct P–P bond. Hypophosphorous acid H₃PO₂ = H₂PO(OH): two P–H bonds, monobasic.",
       "source": "ai",
       "archetype": "jee-advanced-C12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Phosphorus oxoacid matching (P-O-P, dibasic H3PO3, P-P in hypophosphoric, monobasic H3PO2); Adv-faithful"
+      }
     },
     {
       "id": "jee-advanced-166",
@@ -2293,39 +2232,12 @@
       "explanation": "XeF₆ + 3H₂O → XeO₃ + 6HF. NCl₃ + 3H₂O → NH₃ + 3HOCl, but NF₃ is not hydrolysed (no vacant orbital on N, strong N–F bonds, F not attacked). PCl₃ + 3H₂O → H₃PO₃ + 3HCl.",
       "source": "ai",
       "archetype": "jee-advanced-C12",
-      "verified": false
-    },
-    {
-      "id": "jee-advanced-167",
-      "section": "chemistry",
-      "topic": "s-Block & Metallurgy",
-      "difficulty": "medium",
-      "type": "numerical",
-      "question": "In the Hall–Héroult process the graphite anodes are consumed by the oxygen liberated at them. If the anode gas is an equimolar mixture of CO and CO₂, find the mass of carbon (in kg) consumed per 27 kg of aluminium produced. (Al = 27, C = 12)",
-      "answer": 12,
-      "tolerance": 0,
-      "explanation": "27 kg Al = 1 kmol needs 3 kmol electrons. C → CO releases 2e⁻ and C → CO₂ releases 4e⁻. With x kmol of each: 2x + 4x = 3 ⇒ x = 0.5. Carbon = 1.0 kmol = 12 kg. (Only CO₂ would give 9 kg; only CO, 18 kg.)",
-      "source": "ai",
-      "archetype": "jee-advanced-C13",
-      "verified": false
-    },
-    {
-      "id": "jee-advanced-168",
-      "section": "chemistry",
-      "topic": "s-Block & Metallurgy",
-      "difficulty": "medium",
-      "question": "Copper matte (Cu₂S + FeS) is blown with air in a silica-lined Bessemer converter. Which description of the chemistry is correct?",
-      "options": [
-        "Cu₂S is reduced by coke added to the converter, while FeS is removed as FeS₂ slag",
-        "Cu₂S is oxidised before FeS, and the iron is later removed from the blister copper by magnetic separation",
-        "FeS is oxidised preferentially to FeO, which forms FeSiO₃ slag; then some Cu₂S is oxidised to Cu₂O, which reacts with the remaining Cu₂S to give Cu and SO₂",
-        "FeS is removed by froth flotation in the converter, and Cu is obtained by electrolysis of the Cu₂O formed"
-      ],
-      "answer": 2,
-      "explanation": "Iron has the greater affinity for oxygen, so FeS is oxidised first: 2FeS + 3O₂ → 2FeO + 2SO₂; FeO + SiO₂ → FeSiO₃ (slag). Then 2Cu₂S + 3O₂ → 2Cu₂O + 2SO₂ and 2Cu₂O + Cu₂S → 6Cu + SO₂ (self-reduction), giving blister copper. No coke is needed.",
-      "source": "ai",
-      "archetype": "jee-advanced-C13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Hydrolysis MSQ: XeF6->XeO3, NF3 inert, NCl3->NH3+HOCl, PCl3->H3PO3; Adv p-block statement style"
+      }
     },
     {
       "id": "jee-advanced-169",
@@ -2339,7 +2251,12 @@
       "explanation": "[Fe(CN)₆]³⁻ d⁵ low spin: 1; [Co(NH₃)₆]³⁺ d⁶ low spin: 0; [Ni(CO)₄] Ni(0), d¹⁰ after pairing: 0; [NiCl₄]²⁻ tetrahedral d⁸: 2; [Ni(CN)₄]²⁻ square planar: 0; [Cu(NH₃)₄]²⁺ d⁹: 1; [Zn(NH₃)₄]²⁺ d¹⁰: 0; [Cr(NH₃)₆]³⁺ d³: 3; [Fe(CN)₆]⁴⁻ d⁶ low spin: 0. Total = 7.",
       "source": "ai",
       "archetype": "jee-advanced-C14",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Unpaired-electron sum over nine complexes (1+2+1+3=7); Adv integer-type count of spin states"
+      }
     },
     {
       "id": "jee-advanced-170",
@@ -2357,7 +2274,12 @@
       "explanation": "[Co(en)₃]³⁺: three chelate rings give non-superimposable mirror images (and it is diamagnetic, d²sp³). [Pt(NH₃)₂Cl₂]: square planar dsp², cis/trans. [Fe(H₂O)₆]²⁺: weak-field d⁶, 4 unpaired, sp³d² ⇒ √24 ≈ 4.90 BM. [Ni(CO)₄]: Ni(0), sp³, tetrahedral, diamagnetic.",
       "source": "ai",
       "archetype": "jee-advanced-C14",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Complex matching: [Co(en)3]3+ optical, cis/trans dsp2 Pt, high-spin Fe2+ 4.90 BM, Ni(CO)4 sp3; Adv-style"
+      }
     },
     {
       "id": "jee-advanced-171",
@@ -2379,7 +2301,12 @@
       "explanation": "In acid, MnO₄⁻ oxidises I⁻ only to I₂; iodate forms in neutral/faintly alkaline medium. Cr₂O₇²⁻ + 3H₂S + 8H⁺ → 2Cr³⁺ + 3S + 7H₂O. MnO₄⁻ + 2H₂O + 3e⁻ → MnO₂ + 4OH⁻ in neutral/faintly alkaline medium. In 2CrO₄²⁻ + 2H⁺ → Cr₂O₇²⁻ + H₂O, chromium stays +6: not redox.",
       "source": "ai",
       "archetype": "jee-advanced-C15",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "KMnO4/K2Cr2O7 MSQ: I- -> I2 (not IO3-) in acid, H2S->S, MnO2 in neutral, chromate-dichromate not redox; Adv"
+      }
     },
     {
       "id": "jee-advanced-172",
@@ -2393,7 +2320,12 @@
       "explanation": "Each double bond can be E or Z. If both are the same (E,E or Z,Z), C-4 carries two identical groups and is not a stereocentre: 2 achiral isomers. If they differ (E,Z ≡ Z,E), C-4 has four different groups and the molecule is chiral: 2 enantiomers. Total = 4 (not 2³ = 8).",
       "source": "ai",
       "archetype": "jee-advanced-C16",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Hepta-2,5-dien-4-ol: EE, ZZ achiral + EZ pair = 4; classic Adv stereo-count trap with C4 only stereogenic in E,Z"
+      }
     },
     {
       "id": "jee-advanced-173",
@@ -2407,7 +2339,12 @@
       "explanation": "1,1-: 1. 1,2-: cis (meso) + trans (pair of enantiomers) = 3. 1,3-: cis (meso) + trans (pair) = 3. 1,4-: cis and trans, both achiral = 2. Total = 9.",
       "source": "ai",
       "archetype": "jee-advanced-C16",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Dimethylcyclohexane isomers incl. stereo = 1+3+3+2 = 9; Adv integer stereoisomer counting"
+      }
     },
     {
       "id": "jee-advanced-174",
@@ -2425,30 +2362,12 @@
       "explanation": "The neopentyl chloride–AlCl₃ complex does not alkylate as a primary electrophile; a 1,2-methyl shift gives the tertiary 2-methylbutan-2-yl (tert-pentyl) cation, (CH₃)₂C⁺CH₂CH₃, which attacks benzene to give C₆H₅C(CH₃)₂CH₂CH₃. Neopentylbenzene is the unrearranged trap.",
       "source": "ai",
       "archetype": "jee-advanced-C18",
-      "verified": false
-    },
-    {
-      "id": "jee-advanced-175",
-      "section": "chemistry",
-      "topic": "Hydrocarbons",
-      "difficulty": "medium",
-      "type": "msq",
-      "question": "Which of the following statements about reactions of but-2-yne is/are correct?",
-      "options": [
-        "Reduction with sodium in liquid ammonia gives trans-but-2-ene",
-        "Hydrogenation over Lindlar’s catalyst (Pd/BaSO₄, quinoline) gives cis-but-2-ene",
-        "Hydration with dilute H₂SO₄/HgSO₄ gives butanal",
-        "Addition of excess HBr gives 2,2-dibromobutane"
-      ],
-      "answer": [
-        0,
-        1,
-        3
-      ],
-      "explanation": "Dissolving-metal reduction gives the trans alkene; Lindlar hydrogenation is syn, giving cis. Hydration gives the enol of a ketone: butan-2-one, not butanal. HBr adds twice; the second Br goes to the carbon already bearing Br (cation stabilised by Br lone pair) ⇒ geminal 2,2-dibromobutane.",
-      "source": "ai",
-      "archetype": "jee-advanced-C23",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Neopentyl chloride Friedel-Crafts with methyl shift -> tert-amyl benzene; Adv rearrangement archetype"
+      }
     },
     {
       "id": "jee-advanced-176",
@@ -2466,7 +2385,12 @@
       "explanation": "NaI/acetone is SN2 (Finkelstein): inversion, giving (S)-2-iodobutane. Anisole: I⁻ attacks the methyl carbon (Ar–O bond not cleaved) ⇒ phenol + CH₃I. tert-Butyl methyl ether reacts by SN1 through the stable tert-butyl cation ⇒ (CH₃)₃CI + CH₃OH (not CH₃I). Phenol + Br₂(aq) ⇒ 2,4,6-tribromophenol.",
       "source": "ai",
       "archetype": "jee-advanced-C19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "SN2 inversion, anisole/HI, tert-butyl methyl ether SN1 cleavage, bromine water matching; Adv-faithful trap on R"
+      }
     },
     {
       "id": "jee-advanced-177",
@@ -2484,7 +2408,12 @@
       "explanation": "Haloform reaction: C₆H₅COCH₃ → C₆H₅COOH (A) + CHI₃. Acid chloride + NH₃ → benzamide (B). Hofmann bromamide degradation removes one carbon → aniline (C). Diazotisation → benzenediazonium chloride (D); Sandmeyer with CuCN → benzonitrile C₆H₅CN (E). Phenylacetonitrile would keep the extra CH₂.",
       "source": "ai",
       "archetype": "jee-advanced-C20",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Haloform -> amide -> Hofmann -> diazonium -> benzonitrile; Adv multistep sequence, moderate"
+      }
     },
     {
       "id": "jee-advanced-178",
@@ -2507,7 +2436,12 @@
       "explanation": "–NH₂ strongly activates the ring, so bromine water gives the tribromo product at once. In strong acid much aniline is protonated to anilinium (meta-directing), so ~47% m-nitroaniline forms. Coupling with phenoxide occurs at the para position (orange dye). Aryl halides do not undergo SN2 with phthalimide anion, so Gabriel synthesis cannot make aniline.",
       "source": "ai",
       "archetype": "jee-advanced-C21",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Amine MSQ: tribromoaniline, ~47% m-nitroaniline, para coupling, Gabriel fails for aniline; Adv statement MSQ"
+      }
     },
     {
       "id": "jee-advanced-179",
@@ -2521,7 +2455,12 @@
       "explanation": "Sucrose = α-D-glucopyranose C-1 linked to β-D-fructofuranose C-2. Glucose unit: C-1 to C-5 are stereocentres (5; C-6 is CH₂OH). Fructose unit: C-2, C-3, C-4 and C-5 (4; C-1 and C-6 are CH₂OH). Total 9.",
       "source": "ai",
       "archetype": "jee-advanced-C22",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Sucrose stereocentres 5+4=9; Adv biomolecule integer question"
+      }
     },
     {
       "id": "jee-advanced-180",
@@ -2539,7 +2478,12 @@
       "explanation": "Salt of weak acid: pH = 7 + ½pKa + ½log C = 7 + 2.5 − 0.5 = 9. Weak acid: pH = ½(pKa − log C) = ½(5 + 1) = 3. Equimolar buffer: pH = pKa = 5. Salt of weak acid and weak base: pH = 7 + ½(pKa − pKb) = 7, independent of concentration.",
       "source": "ai",
       "archetype": "jee-advanced-C07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "pH matching acetate 9, acid 3, buffer 5, ammonium acetate 7; Adv List matching though each item formulaic"
+      }
     },
     {
       "id": "jee-advanced-181",
@@ -2553,7 +2497,12 @@
       "explanation": "Inclusion–exclusion over the set of i with f(i) = i: Σ(−1)ᵏ C(4, k) · ⁶⁻ᵏP₄₋ₖ = 360 − 4(60) + 6(12) − 4(3) + 1 = 181.",
       "source": "ai",
       "archetype": "jee-advanced-M01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Injections {1..4}->{1..6} with no fixed points via inclusion-exclusion = 181; Adv counting numerical"
+      }
     },
     {
       "id": "jee-advanced-182",
@@ -2576,7 +2525,12 @@
       "explanation": "Since z̄ = 1/z, w = 1/(1/z − z) = 1/(z̄ − z) = 1/(−2i sin θ) = i/(2 sin θ): purely imaginary with modulus 1/(2 sin θ). (1 + z)/(1 − z) = (e^(−iθ/2) + e^(iθ/2))/(e^(−iθ/2) − e^(iθ/2)) = 2cos(θ/2)/(−2i sin(θ/2)) = i cot(θ/2): purely imaginary, not real.",
       "source": "ai",
       "archetype": "jee-advanced-M23",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Unit-circle MSQ: w=i/(2sinθ), (1+z)/(1-z)=i cot(θ/2) purely imaginary; Adv complex archetype"
+      }
     },
     {
       "id": "jee-advanced-183",
@@ -2590,25 +2544,12 @@
       "explanation": "Let f(x) be the quadratic. Need D ≥ 0: 4k² − 4(k² + k − 5) = 4(5 − k) ≥ 0 ⇒ k ≤ 5; vertex k < 5; f(5) > 0: k² − 9k + 20 > 0 ⇒ k < 4 or k > 5. Together k < 4, i.e. k = −10, …, 3: 14 integers. (k = 4 gives roots 3 and 5, which fails.)",
       "source": "ai",
       "archetype": "jee-advanced-M03",
-      "verified": false
-    },
-    {
-      "id": "jee-advanced-184",
-      "section": "maths",
-      "topic": "Sequences & Series",
-      "difficulty": "medium",
-      "question": "Let aₖ = 4k − 3 for k ≥ 1. The value of Σₖ₌₁²⁰ 1/(√aₖ + √aₖ₊₁) is",
-      "options": [
-        "2",
-        "9/4",
-        "20/9",
-        "5/2"
-      ],
-      "answer": 0,
-      "explanation": "Rationalise: 1/(√aₖ + √aₖ₊₁) = (√aₖ₊₁ − √aₖ)/(aₖ₊₁ − aₖ) = (√aₖ₊₁ − √aₖ)/4. The sum telescopes to (√a₂₁ − √a₁)/4 = (√81 − 1)/4 = 2.",
-      "source": "ai",
-      "archetype": "jee-advanced-M04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Both roots real and <5: D≥0 (k≤5), f(5)>0, vertex<5 -> k in [-10,3] = 14; Adv root-location numerical"
+      }
     },
     {
       "id": "jee-advanced-185",
@@ -2622,7 +2563,12 @@
       "explanation": "Put yᵢ = xᵢ − 1: y₁ + … + y₄ = 16 with 0 ≤ yᵢ ≤ 7. Inclusion–exclusion on yᵢ ≥ 8: C(19, 3) − 4C(11, 3) + 6C(3, 3) = 969 − 660 + 6 = 315.",
       "source": "ai",
       "archetype": "jee-advanced-M05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "20 identical balls, 4 boxes, 1..8 each: inclusion-exclusion = 315; Adv integer-type distribution"
+      }
     },
     {
       "id": "jee-advanced-186",
@@ -2640,7 +2586,12 @@
       "explanation": "r·¹⁰Cᵣ = 10·⁹Cᵣ₋₁, so the sum is 10 Σ ⁹Cᵣ₋₁ ¹⁰C₁₀₋ᵣ = 10 × coefficient of x⁹ in (1 + x)¹⁹ = 10 × ¹⁹C₉ = 10 × 92378 = 923780. (10 × ²⁰C₁₀ = 1847560 forgets the shift; 461890 = 5 × ¹⁹C₉.)",
       "source": "ai",
       "archetype": "jee-advanced-M06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Σ r C(10,r)^2 = 10 C(19,9) = 923780; Adv binomial identity with near-miss distractors"
+      }
     },
     {
       "id": "jee-advanced-187",
@@ -2663,7 +2614,12 @@
       "explanation": "det(M)² = det(I) = 1. M satisfies x² − 1 = 0, so it is diagonalisable with eigenvalues ±1; not all equal (M ≠ ±I), so the eigenvalues are {1, 1, −1} or {1, −1, −1}: trace = ±1. (I + M)(I − M) = I − M² = O. M need not be symmetric, e.g. M = [[1, 1, 0], [0, −1, 0], [0, 0, 1]].",
       "source": "ai",
       "archetype": "jee-advanced-M24",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "M^2=I, M≠±I MSQ: det ±1, trace ±1 via eigenvalues, not necessarily symmetric, (I+M)(I-M)=O; strong Adv"
+      }
     },
     {
       "id": "jee-advanced-188",
@@ -2677,7 +2633,12 @@
       "explanation": "A has eigenvalues 2, −1, −1 and satisfies A² = A + 2I (minimal polynomial (x − 2)(x + 1)). So λ⁵ = αλ + β for λ = 2 and λ = −1: 32 = 2α + β, −1 = −α + β ⇒ α = 11, β = 10, α + β = 21.",
       "source": "ai",
       "archetype": "jee-advanced-M07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "A^2=A+2I so A^5=11A+10I, α+β=21; Adv Cayley-Hamilton numerical"
+      }
     },
     {
       "id": "jee-advanced-189",
@@ -2699,7 +2660,12 @@
       "explanation": "P(WW) = (1/3)(3/10) + (2/3)(0) = 1/10 (U₂ has only one white ball), so given WW the urn must be U₁. P(WB) = (1/3)(6/10) + (2/3)(4/10) = 1/5 + 4/15 = 7/15. P(U₂ | WB) = (4/15)/(7/15) = 4/7.",
       "source": "ai",
       "archetype": "jee-advanced-M10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Die-chosen urn Bayes MSQ: P(ww)=1/10, U1|ww=1, P(wb)=7/15, U2|wb=4/7; Adv-faithful"
+      }
     },
     {
       "id": "jee-advanced-190",
@@ -2713,7 +2679,12 @@
       "explanation": "Squares mod 5: 0 for x ≡ 0 (4 numbers), 1 for x ≡ ±1 (8 numbers), 4 for x ≡ ±2 (8 numbers). x² + y² ≡ 0 needs (0, 0): 16 pairs, or (1, 4)/(4, 1): 2 × 64 = 128 pairs. p = 144/400 = 0.36 ⇒ 100p = 36.",
       "source": "ai",
       "archetype": "jee-advanced-M09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "x^2+y^2 ≡ 0 mod 5 via residues: 144/400 -> 36; Adv probability numerical"
+      }
     },
     {
       "id": "jee-advanced-191",
@@ -2731,25 +2702,12 @@
       "explanation": "(P) 2 sin 2x cos x = sin 2x ⇒ sin 2x = 0 (0, π/2, π, 3π/2, 2π) or cos x = ½ (π/3, 5π/3): 7. (Q) (1 + sin x)/cos x = 2cos²x/cos x ⇒ 2sin²x + sin x − 1 = 0 ⇒ sin x = ½ (π/6, 5π/6) or −1 (rejected: cos x = 0): 2. (R) t = sin x + cos x: t = 1 + (t² − 1)/2 ⇒ (t − 1)² = 0 ⇒ sin(x + π/4) = 1/√2 ⇒ 0, π/2, 2π: 3. (S) cos 2x(2cos x + 1) = 0 ⇒ π/4, 3π/4, 5π/4, 7π/4, 2π/3, 4π/3: 6.",
       "source": "ai",
       "archetype": "jee-advanced-M11",
-      "verified": false
-    },
-    {
-      "id": "jee-advanced-192",
-      "section": "maths",
-      "topic": "Straight Lines & Circles",
-      "difficulty": "medium",
-      "question": "For the circles x² + y² − 4x − 6y + 9 = 0 and x² + y² + 2x + 2y − 7 = 0, the number of common tangents and the equation of the common tangent at their point of contact are",
-      "options": [
-        "4; 3x + 4y = 8",
-        "3; 4x + 3y = 8",
-        "2; 3x + 4y = 8",
-        "3; 3x + 4y = 8"
-      ],
-      "answer": 3,
-      "explanation": "Centres (2, 3), (−1, −1); radii 2 and 3; distance 5 = sum of radii ⇒ the circles touch externally ⇒ 3 common tangents. The tangent at the contact point is the radical axis S₁ − S₂ = 0: −6x − 8y + 16 = 0 ⇒ 3x + 4y = 8 (it passes through the contact point (4/5, 7/5)).",
-      "source": "ai",
-      "archetype": "jee-advanced-M12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Trig solution-count matching with sec/tan domain trap (7,2,3,6); mirrors Adv 2023/24 matching"
+      }
     },
     {
       "id": "jee-advanced-193",
@@ -2764,7 +2722,12 @@
       "source": "ai",
       "archetype": "jee-advanced-M13",
       "passage": "jee-advanced-MX1",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Least normal chord of y^2=8x at t=√2, length^2 = 108a^2 = 432; Adv paragraph conic"
+      }
     },
     {
       "id": "jee-advanced-194",
@@ -2779,7 +2742,12 @@
       "source": "ai",
       "archetype": "jee-advanced-M13",
       "passage": "jee-advanced-MX1",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Area OP0Q0 = 48√2 ≈ 67.88; Adv paragraph follow-up"
+      }
     },
     {
       "id": "jee-advanced-195",
@@ -2802,39 +2770,12 @@
       "explanation": "a = 5, b = 3, c = 4. Focal sum = 2a = 10. Area = ½(2c)|y| ≤ ½(8)(3) = 12. The normal (not the tangent) bisects ∠S₁PS₂ internally; the tangent bisects it externally. Product of focal perpendiculars to any tangent = b² = 9.",
       "source": "ai",
       "archetype": "jee-advanced-M14",
-      "verified": false
-    },
-    {
-      "id": "jee-advanced-196",
-      "section": "maths",
-      "topic": "Limits, Continuity & Differentiability",
-      "difficulty": "medium",
-      "type": "numerical",
-      "question": "Find the number of points on the real line at which f(x) = |x² − 3|x| + 2| is not differentiable.",
-      "answer": 5,
-      "tolerance": 0,
-      "explanation": "Let g(x) = x² − 3|x| + 2 = (|x| − 1)(|x| − 2). f = |g| has corners where g changes sign: x = ±1, ±2 (4 points). At x = 0, g(0) = 2 > 0 so f = g near 0, and g has the corner of −3|x|: f′(0⁻) = 3, f′(0⁺) = −3. Total 5.",
-      "source": "ai",
-      "archetype": "jee-advanced-M15",
-      "verified": false
-    },
-    {
-      "id": "jee-advanced-197",
-      "section": "maths",
-      "topic": "Applications of Derivatives",
-      "difficulty": "medium",
-      "question": "For real x ≠ 0, the minimum value of f(x) = x² + 4/x² − 6(x − 2/x) is",
-      "options": [
-        "4",
-        "−1",
-        "−5",
-        "−9"
-      ],
-      "answer": 2,
-      "explanation": "Put t = x − 2/x (t takes every real value). Then x² + 4/x² = t² + 4, so f = t² − 6t + 4 = (t − 3)² − 5 ≥ −5, with equality at t = 3, i.e. x² − 3x − 2 = 0 (real x). AM–GM on x² + 4/x² alone (giving 4) ignores the other term.",
-      "source": "ai",
-      "archetype": "jee-advanced-M16",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Ellipse MSQ: sum 10, max focal-triangle area bc=12, tangent bisects external not internal angle, p1p2=b^2=9; Adv"
+      }
     },
     {
       "id": "jee-advanced-198",
@@ -2848,7 +2789,12 @@
       "explanation": "King’s property (x → π − x, sin unchanged): I = (π/2)∫₀^π sin x/(1 + sin x) dx = (π/2)[π − ∫₀^π dx/(1 + sin x)]. ∫₀^π dx/(1 + sin x) = 2. So I = (π/2)(π − 2) ≈ 1.79.",
       "source": "ai",
       "archetype": "jee-advanced-M17",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "King's property: (π/2)∫ sinx/(1+sinx) = π(π/2-1) ≈ 1.79; Adv integral numerical"
+      }
     },
     {
       "id": "jee-advanced-199",
@@ -2871,39 +2817,12 @@
       "explanation": "x² ≤ 2 − x for 0 ≤ x ≤ 1. Area = ∫₀¹x²dx + ∫₁²(2 − x)dx = 1/3 + 1/2 = 5/6. Half = 5/12 > 1/3, so α > 1: 1/3 + (2α − α²/2 − 3/2) = 5/12 ⇒ 6α² − 24α + 19 = 0 ⇒ α = 2 − √30/6 ≈ 1.087. 4α³ = 5 comes from wrongly using x² up to α (its root ≈ 1.077 lies beyond x = 1).",
       "source": "ai",
       "archetype": "jee-advanced-M18",
-      "verified": false
-    },
-    {
-      "id": "jee-advanced-200",
-      "section": "maths",
-      "topic": "Differential Equations",
-      "difficulty": "medium",
-      "type": "numerical",
-      "question": "Let y(x) satisfy dy/dx = (x + y)² with y(0) = 0. Find y(π/4), correct to two decimal places.",
-      "answer": 0.21,
-      "tolerance": 0.01,
-      "explanation": "Put v = x + y: dv/dx = 1 + v² ⇒ tan⁻¹v = x + C, v(0) = 0 ⇒ v = tan x. So y = tan x − x and y(π/4) = 1 − π/4 ≈ 0.21.",
-      "source": "ai",
-      "archetype": "jee-advanced-M19",
-      "verified": false
-    },
-    {
-      "id": "jee-advanced-201",
-      "section": "maths",
-      "topic": "Differential Equations",
-      "difficulty": "medium",
-      "question": "Let y = y(x), x > 0, satisfy dy/dx + y/x = xy² with y(1) = 1. Then y(1/2) equals",
-      "options": [
-        "3/4",
-        "4/3",
-        "2",
-        "4/5"
-      ],
-      "answer": 1,
-      "explanation": "Bernoulli equation: put z = 1/y ⇒ dz/dx − z/x = −x ⇒ d(z/x)/dx = −1 ⇒ z = −x² + Cx. z(1) = 1 ⇒ C = 2, so y = 1/(2x − x²) and y(1/2) = 1/(1 − 1/4) = 4/3.",
-      "source": "ai",
-      "archetype": "jee-advanced-M19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "min(x^2,2-x) region area 5/6, bisector α=2-√30/6 ∈(1,1.5) with 4α^3=5 trap; Adv MSQ"
+      }
     },
     {
       "id": "jee-advanced-202",
@@ -2926,25 +2845,12 @@
       "explanation": "|a + b + c|² = 0 ⇒ 50 + 2Σa·b = 0 ⇒ Σa·b = −25. c = −(a + b) ⇒ 25 = 9 + 16 + 2a·b ⇒ a·b = 0 ⇒ |a × b| = 12. a·c = −a·a − a·b = −9 ⇒ cos = −9/15 = −3/5. Crossing a + b + c = 0 with a and b gives a × b = b × c = c × a, so the sum is 3(a × b) ≠ 0.",
       "source": "ai",
       "archetype": "jee-advanced-M20",
-      "verified": false
-    },
-    {
-      "id": "jee-advanced-203",
-      "section": "maths",
-      "topic": "Vectors & 3D Geometry",
-      "difficulty": "medium",
-      "question": "Let Π be the plane x + 2y + 2z = 9, A the point (1, 1, 1) and L the line (x − 1)/2 = (y − 1)/1 = (z − 1)/2.\n\nList-I\n(P) Distance of A from Π\n(Q) Distance of Π from the origin\n(R) Distance between Π and the plane 2x + 4y + 4z = 3\n(S) Sine of the angle between L and Π\n\nList-II\n(1) 4/3\n(2) 5/2\n(3) 8/9\n(4) 3\n(5) 2\n\nChoose the option that matches each entry of List-I with the correct entry of List-II.",
-      "options": [
-        "P → 1, Q → 4, R → 5, S → 3",
-        "P → 1, Q → 4, R → 2, S → 3",
-        "P → 4, Q → 1, R → 2, S → 3",
-        "P → 5, Q → 4, R → 2, S → 1"
-      ],
-      "answer": 1,
-      "explanation": "|1 + 2 + 2 − 9|/3 = 4/3. Origin: 9/3 = 3. The second plane is x + 2y + 2z = 3/2, so the distance is |9 − 3/2|/3 = 5/2 (not normalising gives 2). sin θ = |(2, 1, 2)·(1, 2, 2)|/(3 × 3) = 8/9.",
-      "source": "ai",
-      "archetype": "jee-advanced-M21",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "3-4-5 vector triangle MSQ: dot sum -25, cos(a,c)=-3/5, |a×b|=12, cross sum =3a×b≠0; Adv"
+      }
     },
     {
       "id": "jee-advanced-204",
@@ -2958,7 +2864,12 @@
       "explanation": "Σ 1/√(nk) = (1/n)Σ 1/√(k/n) for k = n + 1 to 3n, a Riemann sum of ∫₁³ x^(−1/2) dx = 2(√3 − 1) ≈ 1.46.",
       "source": "ai",
       "archetype": "jee-advanced-M22",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Riemann sum -> ∫1^3 x^-1/2 = 2√3-2 ≈ 1.46; Adv limit-as-integral numerical"
+      }
     },
     {
       "id": "jee-advanced-205",
@@ -2976,7 +2887,12 @@
       "explanation": "Diagonals: C(10, 2) − 10 = 35. Triangles: C(10, 3) − 10 × 6 (exactly one side) − 10 (two sides) = 50 [= n(n − 4)(n − 5)/6]. Derangements of 5: 44. Onto maps 6 → 3: 3⁶ − 3·2⁶ + 3 = 540. 60 counts triangles with exactly one side common.",
       "source": "ai",
       "archetype": "jee-advanced-M25",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Counting matching: 35 diagonals, 50 triangles with no side common, D5=44, onto 540; Adv-faithful"
+      }
     },
     {
       "id": "jee-advanced-206",
@@ -2999,7 +2915,12 @@
       "explanation": "|f(x)| ≤ x² → 0. f′(0) = lim x sin(1/x) = 0. For x ≠ 0, f′(x) = 2x sin(1/x) − cos(1/x), whose limit at 0 does not exist, so f′ is not continuous at 0 even though f′ exists everywhere.",
       "source": "ai",
       "archetype": "jee-advanced-M26",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "x^2 sin(1/x) MSQ: continuous, f'(0)=0, f' discontinuous, f' exists everywhere; classic Adv MSQ"
+      }
     },
     {
       "id": "jee-advanced-207",
@@ -3017,7 +2938,12 @@
       "explanation": "(P) x²(x − 2)²: minima at 0, 2 and a maximum at 1 ⇒ 3. (Q) f′ = 3(x − 1)² ≥ 0, no sign change ⇒ 0. (R) f′ = (5/3)x^(−1/3)(x − 2): local maximum at the cusp x = 0 (f′ undefined) and minimum at x = 2 ⇒ 2. (S) f′ = (1 − x)e^(−x): maximum at 1 ⇒ 1.",
       "source": "ai",
       "archetype": "jee-advanced-M16",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Local extrema counts 3,0,2 (cusp at 0),1; Adv matching with cusp trap"
+      }
     },
     {
       "id": "jee-advanced-208",
@@ -3035,7 +2961,12 @@
       "explanation": "(P) 2b = ae ⇒ b² = a²e²/4 = a²(e² − 1) ⇒ e² = 4/3. (Q) b = ae (square) and b² = a²(1 − e²) ⇒ e² = 1/2. (R) x²/16 − y²/9 = 1 ⇒ e = 5/4 (5/3 belongs to the conjugate hyperbola). (S) 2b²/a = b ⇒ b = a/2 ⇒ e = √3/2.",
       "source": "ai",
       "archetype": "jee-advanced-M14",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Eccentricity matching 2/√3, 1/√2, 5/4, √3/2; Adv conic matching"
+      }
     },
     {
       "id": "jee-advanced-209",
@@ -3053,25 +2984,12 @@
       "explanation": "Max = 4: 4² − 3² = 7. Prime sums 2, 3, 5, 7, 11: 1 + 2 + 4 + 6 + 2 = 15 ⇒ 5/12. Square products: six doubles plus (1, 4), (4, 1) = 8 ⇒ 2/9. |difference| ≤ 1: 6 + 10 = 16 ⇒ 4/9.",
       "source": "ai",
       "archetype": "jee-advanced-M09",
-      "verified": false
-    },
-    {
-      "id": "jee-advanced-210",
-      "section": "maths",
-      "topic": "Sequences & Series",
-      "difficulty": "medium",
-      "question": "A sequence satisfies a₁ = 1 and aₙ₊₁ = aₙ/(1 + n aₙ) for n ≥ 1. Then a₂₀ equals",
-      "options": [
-        "1/190",
-        "1/201",
-        "1/211",
-        "1/191"
-      ],
-      "answer": 3,
-      "explanation": "1/aₙ₊₁ = 1/aₙ + n ⇒ 1/aₙ = 1 + (1 + 2 + … + (n − 1)) = 1 + n(n − 1)/2. For n = 20: 1 + 190 = 191.",
-      "source": "ai",
-      "archetype": "jee-advanced-M04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Two-dice matching 7/36, 5/12, 2/9 (incl. (1,4)), 4/9; Adv 2024-style dice matching"
+      }
     },
     {
       "id": "jee-advanced-211",
@@ -3085,7 +3003,12 @@
       "explanation": "ω, ω², …, ω⁶ are the roots of (x⁷ − 1)/(x − 1) = 1 + x + … + x⁶, so the product equals this polynomial at x = 2: (2⁷ − 1)/(2 − 1) = 127.",
       "source": "ai",
       "archetype": "jee-advanced-M23",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Π(2-ω^k) = (2^7-1)/(2-1) = 127; Adv roots-of-unity numerical"
+      }
     }
   ],
   "passages": [
