@@ -1389,96 +1389,6 @@
   },
   "questions": [
     {
-      "id": "ssc-gd-001",
-      "section": "reasoning",
-      "topic": "Analogy",
-      "difficulty": "easy",
-      "question": "Select the option that is related to the third word in the same way as the second word is related to the first.\nEye : See :: Tongue : ?",
-      "options": [
-        "Taste",
-        "Smell",
-        "Hear",
-        "Touch"
-      ],
-      "answer": 0,
-      "explanation": "The eye is used to see; the tongue is used to taste.",
-      "verified": true,
-      "archetype": "ssc-gd-R01",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-gd-002",
-      "section": "reasoning",
-      "topic": "Analogy",
-      "difficulty": "easy",
-      "question": "Select the number that is related to the third number in the same way as the second is related to the first.\n6 : 36 :: 7 : ?",
-      "options": [
-        "42",
-        "56",
-        "48",
-        "49"
-      ],
-      "answer": 3,
-      "explanation": "36 = 6². So 7² = 49.",
-      "verified": true,
-      "archetype": "ssc-gd-R02",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-gd-003",
-      "section": "reasoning",
-      "topic": "Classification",
-      "difficulty": "easy",
-      "question": "Select the odd one out.",
-      "options": [
-        "Triangle",
-        "Square",
-        "Circle",
-        "Rectangle"
-      ],
-      "answer": 2,
-      "explanation": "Triangle, square and rectangle are polygons with straight sides; a circle has no straight sides.",
-      "verified": true,
-      "archetype": "ssc-gd-R04",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-gd-004",
-      "section": "reasoning",
-      "topic": "Classification",
-      "difficulty": "medium",
-      "question": "Select the number that does not belong to the group.",
-      "options": [
-        "100",
-        "8",
-        "27",
-        "64"
-      ],
-      "answer": 0,
-      "explanation": "8 = 2³, 27 = 3³ and 64 = 4³ are perfect cubes; 100 is not.",
-      "verified": true,
-      "archetype": "ssc-gd-R05",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-gd-005",
-      "section": "reasoning",
-      "topic": "Number & Letter Series",
-      "difficulty": "easy",
-      "question": "Select the number that will come next in the series.\n1, 4, 9, 16, 25, ?",
-      "options": [
-        "30",
-        "35",
-        "49",
-        "36"
-      ],
-      "answer": 3,
-      "explanation": "Squares of 1, 2, 3, 4, 5 … next is 6² = 36.",
-      "verified": true,
-      "archetype": "ssc-gd-R07",
-      "source": "curated"
-    },
-    {
       "id": "ssc-gd-006",
       "section": "reasoning",
       "topic": "Number & Letter Series",
@@ -1494,7 +1404,12 @@
       "explanation": "Differences: 3, 6, 9, 12, so next difference is 15: 37 + 15 = 52.",
       "verified": true,
       "archetype": "ssc-gd-R07",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Differences 3,6,9,12 series; GD series"
+      }
     },
     {
       "id": "ssc-gd-007",
@@ -1512,25 +1427,12 @@
       "explanation": "Positions 26, 24, 21, 17 (−2, −3, −4). Next −5 → 12 = L.",
       "verified": true,
       "archetype": "ssc-gd-R08",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-gd-008",
-      "section": "reasoning",
-      "topic": "Coding-Decoding",
-      "difficulty": "medium",
-      "question": "If FISH is written as GJTI in a certain code, how will BIRD be written in that code?",
-      "options": [
-        "CJSF",
-        "CJSE",
-        "AHQC",
-        "CKSE"
-      ],
-      "answer": 1,
-      "explanation": "Each letter moves one place forward: B→C, I→J, R→S, D→E.",
-      "verified": true,
-      "archetype": "ssc-gd-R09",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Backward letter series with growing gaps; GD"
+      }
     },
     {
       "id": "ssc-gd-009",
@@ -1548,79 +1450,12 @@
       "explanation": "'blue' is the only word common to both sentences, and 'ta' is the only code common to both. So blue = ta.",
       "verified": true,
       "archetype": "ssc-gd-R11",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-gd-010",
-      "section": "reasoning",
-      "topic": "Blood Relations",
-      "difficulty": "medium",
-      "question": "R is a woman. P is the sister of Q, and Q is the son of R. How is R related to P?",
-      "options": [
-        "Mother",
-        "Aunt",
-        "Sister",
-        "Grandmother"
-      ],
-      "answer": 0,
-      "explanation": "Q is R's son and P is Q's sister, so P is also R's child. R is a woman, so R is P's mother.",
-      "verified": true,
-      "archetype": "ssc-gd-R12",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-gd-011",
-      "section": "reasoning",
-      "topic": "Direction Sense",
-      "difficulty": "medium",
-      "question": "Sunil is facing South. He turns left and then turns left again. Which direction is he facing now?",
-      "options": [
-        "South",
-        "East",
-        "West",
-        "North"
-      ],
-      "answer": 3,
-      "explanation": "Facing South, a left turn faces East; another left turn faces North.",
-      "verified": true,
-      "archetype": "ssc-gd-R14",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-gd-012",
-      "section": "reasoning",
-      "topic": "Mathematical Operations",
-      "difficulty": "medium",
-      "question": "If '+' means '−' and '−' means '+', what is the value of 25 + 10 − 5?",
-      "options": [
-        "30",
-        "10",
-        "40",
-        "20"
-      ],
-      "answer": 3,
-      "explanation": "25 − 10 + 5 = 20.",
-      "verified": true,
-      "archetype": "ssc-gd-R15",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-gd-013",
-      "section": "reasoning",
-      "topic": "Order & Ranking",
-      "difficulty": "easy",
-      "question": "In a row of 25 children, Raju is 10th from the left end. What is his position from the right end?",
-      "options": [
-        "16th",
-        "15th",
-        "14th",
-        "17th"
-      ],
-      "answer": 0,
-      "explanation": "25 − 10 + 1 = 16.",
-      "verified": true,
-      "archetype": "ssc-gd-R19",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Sentence coding common word; GD"
+      }
     },
     {
       "id": "ssc-gd-014",
@@ -1638,7 +1473,12 @@
       "explanation": "Multiply by 2, 3, 4, then 5: 72 × 5 = 360.",
       "verified": true,
       "archetype": "ssc-gd-R17",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "×2×3×4×5 series; GD missing term"
+      }
     },
     {
       "id": "ssc-gd-015",
@@ -1656,43 +1496,12 @@
       "explanation": "The hands coincide once every 12/11 hours (≈65 5/11 minutes), i.e. 11 times in 12 hours, so 22 times in 24 hours.",
       "verified": true,
       "archetype": "ssc-gd-R21",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-gd-016",
-      "section": "gk",
-      "topic": "History",
-      "difficulty": "easy",
-      "question": "Who gave the slogan 'Do or Die' during the Quit India Movement?",
-      "options": [
-        "Subhas Chandra Bose",
-        "Mahatma Gandhi",
-        "Jawaharlal Nehru",
-        "Bhagat Singh"
-      ],
-      "answer": 1,
-      "explanation": "Gandhiji gave the call 'Do or Die' in his Quit India speech at Gowalia Tank, Bombay, on 8 August 1942.",
-      "verified": true,
-      "archetype": "ssc-gd-G02",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-gd-017",
-      "section": "gk",
-      "topic": "History",
-      "difficulty": "medium",
-      "question": "The First Battle of Panipat (1526) was fought between Babur and:",
-      "options": [
-        "Ibrahim Lodi",
-        "Rana Sanga",
-        "Hemu",
-        "Sher Shah Suri"
-      ],
-      "answer": 0,
-      "explanation": "Babur defeated Ibrahim Lodi in 1526, founding the Mughal Empire. Rana Sanga was defeated at Khanwa (1527).",
-      "verified": true,
-      "archetype": "ssc-gd-G01",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Hands coincide 22 times/day with 24 trap; GD clock"
+      }
     },
     {
       "id": "ssc-gd-018",
@@ -1710,25 +1519,12 @@
       "explanation": "Swami Dayanand Saraswati founded the Arya Samaj in Bombay in 1875. Raja Ram Mohan Roy founded the Brahmo Samaj.",
       "verified": true,
       "archetype": "ssc-gd-G02",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-gd-019",
-      "section": "gk",
-      "topic": "Polity",
-      "difficulty": "easy",
-      "question": "Who is the Supreme Commander of the Indian Armed Forces?",
-      "options": [
-        "The Prime Minister",
-        "The Defence Minister",
-        "The Chief of Defence Staff",
-        "The President of India"
-      ],
-      "answer": 3,
-      "explanation": "Under Article 53(2), the supreme command of the Defence Forces is vested in the President.",
-      "verified": true,
-      "archetype": "ssc-gd-G05",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Arya Samaj–Dayanand with reformer traps; GD"
+      }
     },
     {
       "id": "ssc-gd-020",
@@ -1746,7 +1542,12 @@
       "explanation": "The Constitution was adopted on 26 November 1949 (celebrated as Constitution Day) and came into force on 26 January 1950.",
       "verified": true,
       "archetype": "ssc-gd-G04",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Adoption 26 Nov 1949 vs commencement trap; GD"
+      }
     },
     {
       "id": "ssc-gd-021",
@@ -1764,7 +1565,12 @@
       "explanation": "The original Constitution had 8 Schedules; there are 12 now (the 12th was added by the 74th Amendment, 1992).",
       "verified": true,
       "archetype": "ssc-gd-G04",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "12 Schedules; GD polity"
+      }
     },
     {
       "id": "ssc-gd-022",
@@ -1782,43 +1588,12 @@
       "explanation": "Article 324 vests superintendence of elections in the Election Commission. 280 = Finance Commission, 312 = All-India Services, 356 = President's Rule.",
       "verified": true,
       "archetype": "ssc-gd-G03",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-gd-023",
-      "section": "gk",
-      "topic": "Geography",
-      "difficulty": "easy",
-      "question": "Which is the largest ocean in the world?",
-      "options": [
-        "Pacific Ocean",
-        "Atlantic Ocean",
-        "Indian Ocean",
-        "Arctic Ocean"
-      ],
-      "answer": 0,
-      "explanation": "The Pacific Ocean is the largest and deepest ocean.",
-      "verified": true,
-      "archetype": "ssc-gd-G08",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-gd-024",
-      "section": "gk",
-      "topic": "Geography",
-      "difficulty": "easy",
-      "question": "Which state of India is known as the 'Land of Five Rivers'?",
-      "options": [
-        "Haryana",
-        "Uttar Pradesh",
-        "Punjab",
-        "Bihar"
-      ],
-      "answer": 2,
-      "explanation": "Punjab means 'land of five waters' (Jhelum, Chenab, Ravi, Beas and Sutlej).",
-      "verified": true,
-      "archetype": "ssc-gd-G06",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Article 324 EC with other article traps; GD"
+      }
     },
     {
       "id": "ssc-gd-025",
@@ -1836,7 +1611,12 @@
       "explanation": "The Narmada rises at Amarkantak (MP), forms part of the MP–Maharashtra border and enters Gujarat before reaching the Arabian Sea. It does not flow through Rajasthan.",
       "verified": true,
       "archetype": "ssc-gd-G06",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Narmada does-not-flow state exclusion; GD"
+      }
     },
     {
       "id": "ssc-gd-026",
@@ -1854,7 +1634,12 @@
       "explanation": "The RBI issues all banknotes except the ₹1 note, which is issued by the Government of India (Ministry of Finance).",
       "verified": true,
       "archetype": "ssc-gd-G09",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Currency issuer RBI except ₹1 note; GD economy"
+      }
     },
     {
       "id": "ssc-gd-027",
@@ -1872,43 +1657,12 @@
       "explanation": "A convex mirror gives an erect, diminished image and a wider field of view.",
       "verified": true,
       "archetype": "ssc-gd-G11",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-gd-028",
-      "section": "gk",
-      "topic": "Chemistry",
-      "difficulty": "easy",
-      "question": "Which gas is commonly used in fire extinguishers?",
-      "options": [
-        "Carbon dioxide",
-        "Oxygen",
-        "Hydrogen",
-        "Nitrogen dioxide"
-      ],
-      "answer": 0,
-      "explanation": "CO₂ is heavier than air, does not support combustion and cuts off oxygen from the fire.",
-      "verified": true,
-      "archetype": "ssc-gd-G12",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-gd-029",
-      "section": "gk",
-      "topic": "Biology",
-      "difficulty": "medium",
-      "question": "Which tissue in plants carries water from the roots to the leaves?",
-      "options": [
-        "Phloem",
-        "Cambium",
-        "Xylem",
-        "Epidermis"
-      ],
-      "answer": 2,
-      "explanation": "Xylem conducts water and minerals upward; phloem carries food.",
-      "verified": true,
-      "archetype": "ssc-gd-G14",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Convex rear-view mirror; GD physics"
+      }
     },
     {
       "id": "ssc-gd-030",
@@ -1926,79 +1680,12 @@
       "explanation": "ITBP guards the India–China border. BSF guards the Pakistan and Bangladesh borders, SSB the Nepal and Bhutan borders, and Assam Rifles the Myanmar border.",
       "verified": true,
       "archetype": "ssc-gd-G19",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-gd-031",
-      "section": "maths",
-      "topic": "Number System",
-      "difficulty": "easy",
-      "question": "Which is the smallest prime number?",
-      "options": [
-        "1",
-        "3",
-        "0",
-        "2"
-      ],
-      "answer": 3,
-      "explanation": "2 is the smallest (and only even) prime number; 1 is neither prime nor composite.",
-      "verified": true,
-      "archetype": "ssc-gd-M02",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-gd-032",
-      "section": "maths",
-      "topic": "HCF & LCM",
-      "difficulty": "medium",
-      "question": "What is the HCF of 36 and 84?",
-      "options": [
-        "6",
-        "18",
-        "4",
-        "12"
-      ],
-      "answer": 3,
-      "explanation": "36 = 2²·3², 84 = 2²·3·7. HCF = 2² × 3 = 12.",
-      "verified": true,
-      "archetype": "ssc-gd-M03",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-gd-033",
-      "section": "maths",
-      "topic": "Percentage",
-      "difficulty": "easy",
-      "question": "What is 25% of 360?",
-      "options": [
-        "72",
-        "90",
-        "80",
-        "120"
-      ],
-      "answer": 1,
-      "explanation": "360 ÷ 4 = 90.",
-      "verified": true,
-      "archetype": "ssc-gd-M05",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-gd-034",
-      "section": "maths",
-      "topic": "Percentage",
-      "difficulty": "medium",
-      "question": "When a number is increased by 20%, it becomes 90. What is the number?",
-      "options": [
-        "75",
-        "72",
-        "70",
-        "80"
-      ],
-      "answer": 0,
-      "explanation": "1.2x = 90 → x = 75.",
-      "verified": true,
-      "archetype": "ssc-gd-M05",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "ITBP guards China border; GD CAPF static"
+      }
     },
     {
       "id": "ssc-gd-035",
@@ -2016,43 +1703,12 @@
       "explanation": "Let CP of 1 pen = ₹1. SP of 8 pens = ₹10, so SP of 1 pen = 1.25. Profit = 25%.",
       "verified": true,
       "archetype": "ssc-gd-M08",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-gd-036",
-      "section": "maths",
-      "topic": "Profit & Loss",
-      "difficulty": "medium",
-      "question": "The marked price of a bag is ₹600. A discount of 15% is given. What is the selling price?",
-      "options": [
-        "₹510",
-        "₹585",
-        "₹500",
-        "₹525"
-      ],
-      "answer": 0,
-      "explanation": "SP = 600 × 0.85 = ₹510.",
-      "verified": true,
-      "archetype": "ssc-gd-M07",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-gd-037",
-      "section": "maths",
-      "topic": "Simple & Compound Interest",
-      "difficulty": "easy",
-      "question": "What is the simple interest on ₹2,000 at 5% per annum for 2 years?",
-      "options": [
-        "₹100",
-        "₹250",
-        "₹205",
-        "₹200"
-      ],
-      "answer": 3,
-      "explanation": "2000 × 5 × 2/100 = ₹200.",
-      "verified": true,
-      "archetype": "ssc-gd-M09",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "CP of 10 = SP of 8 with 20% trap; GD profit"
+      }
     },
     {
       "id": "ssc-gd-038",
@@ -2070,25 +1726,12 @@
       "explanation": "A/C = (A/B) × (B/C) = (2/3) × (4/5) = 8/15.",
       "verified": true,
       "archetype": "ssc-gd-M12",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-gd-039",
-      "section": "maths",
-      "topic": "Average",
-      "difficulty": "easy",
-      "question": "What is the average of 12, 15, 18, 21 and 24?",
-      "options": [
-        "17",
-        "19",
-        "18",
-        "20"
-      ],
-      "answer": 2,
-      "explanation": "Sum = 90; 90 ÷ 5 = 18.",
-      "verified": true,
-      "archetype": "ssc-gd-M13",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Compound ratio A:C via B; GD"
+      }
     },
     {
       "id": "ssc-gd-040",
@@ -2106,43 +1749,12 @@
       "explanation": "Net filling per hour = 1/6 − 1/9 = 1/18. Time = 18 hours.",
       "verified": true,
       "archetype": "ssc-gd-M15",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-gd-041",
-      "section": "maths",
-      "topic": "Time, Speed & Distance",
-      "difficulty": "medium",
-      "question": "A car covers 180 km in 3 hours. How long will it take to cover 300 km at the same speed?",
-      "options": [
-        "4 hours",
-        "6 hours",
-        "4.5 hours",
-        "5 hours"
-      ],
-      "answer": 3,
-      "explanation": "Speed = 60 km/h; 300 ÷ 60 = 5 hours.",
-      "verified": true,
-      "archetype": "ssc-gd-M17",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-gd-042",
-      "section": "maths",
-      "topic": "Mensuration",
-      "difficulty": "medium",
-      "question": "What is the volume of a cube whose edge is 5 cm?",
-      "options": [
-        "25 cm³",
-        "150 cm³",
-        "125 cm³",
-        "100 cm³"
-      ],
-      "answer": 2,
-      "explanation": "Volume = a³ = 125 cm³.",
-      "verified": true,
-      "archetype": "ssc-gd-M19",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Fill and empty pipe net rate; GD"
+      }
     },
     {
       "id": "ssc-gd-043",
@@ -2160,25 +1772,12 @@
       "explanation": "2πr = 44 → r = 7 cm. Area = (22/7) × 49 = 154 cm².",
       "verified": true,
       "archetype": "ssc-gd-M18",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-gd-044",
-      "section": "maths",
-      "topic": "Number System",
-      "difficulty": "medium",
-      "question": "What is the sum of all natural numbers from 1 to 50?",
-      "options": [
-        "1250",
-        "1225",
-        "1275",
-        "1300"
-      ],
-      "answer": 2,
-      "explanation": "n(n + 1)/2 = 50 × 51/2 = 1275.",
-      "verified": true,
-      "archetype": "ssc-gd-M02",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Circle area from circumference; GD mensuration"
+      }
     },
     {
       "id": "ssc-gd-045",
@@ -2196,133 +1795,12 @@
       "explanation": "CP₁ = 990/1.1 = 900; CP₂ = 990/0.9 = 1100. Total CP = 2000, total SP = 1980 → loss of ₹20 = 1%.",
       "verified": true,
       "archetype": "ssc-gd-M08",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-gd-046",
-      "section": "english",
-      "topic": "Synonyms",
-      "difficulty": "easy",
-      "question": "Select the most appropriate synonym of the given word.\nHAPPY",
-      "options": [
-        "Joyful",
-        "Sad",
-        "Angry",
-        "Tired"
-      ],
-      "answer": 0,
-      "explanation": "Happy means joyful.",
-      "verified": true,
-      "archetype": "ssc-gd-E07",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-gd-047",
-      "section": "english",
-      "topic": "Synonyms",
-      "difficulty": "medium",
-      "question": "Select the most appropriate synonym of the given word.\nRAPID",
-      "options": [
-        "Slow",
-        "Swift",
-        "Steady",
-        "Gentle"
-      ],
-      "answer": 1,
-      "explanation": "Rapid means fast – swift.",
-      "verified": true,
-      "archetype": "ssc-gd-E07",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-gd-048",
-      "section": "english",
-      "topic": "Antonyms",
-      "difficulty": "easy",
-      "question": "Select the most appropriate antonym of the given word.\nANCIENT",
-      "options": [
-        "Old",
-        "Modern",
-        "Historic",
-        "Aged"
-      ],
-      "answer": 1,
-      "explanation": "Ancient (very old) is opposite to modern.",
-      "verified": true,
-      "archetype": "ssc-gd-E08",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-gd-049",
-      "section": "english",
-      "topic": "Antonyms",
-      "difficulty": "easy",
-      "question": "Select the most appropriate antonym of the given word.\nVICTORY",
-      "options": [
-        "Success",
-        "Triumph",
-        "Defeat",
-        "Win"
-      ],
-      "answer": 2,
-      "explanation": "The opposite of victory is defeat.",
-      "verified": true,
-      "archetype": "ssc-gd-E08",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-gd-050",
-      "section": "english",
-      "topic": "Idioms & Phrases",
-      "difficulty": "medium",
-      "question": "Select the most appropriate meaning of the idiom.\nTo break the ice",
-      "options": [
-        "To start a conversation and ease tension",
-        "To break something valuable",
-        "To lose one's temper",
-        "To end a friendship"
-      ],
-      "answer": 0,
-      "explanation": "'Break the ice' means to make people feel relaxed, especially by starting a conversation.",
-      "verified": true,
-      "archetype": "ssc-gd-E09",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-gd-051",
-      "section": "english",
-      "topic": "One-word Substitution",
-      "difficulty": "hard",
-      "question": "Select the one-word substitute for the given phrase.\nA place where birds are kept",
-      "options": [
-        "Apiary",
-        "Aquarium",
-        "Kennel",
-        "Aviary"
-      ],
-      "answer": 3,
-      "explanation": "Aviary = birds; apiary = bees; aquarium = fish; kennel = dogs.",
-      "verified": true,
-      "archetype": "ssc-gd-E10",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-gd-052",
-      "section": "english",
-      "topic": "Spelling Correction",
-      "difficulty": "medium",
-      "question": "Select the correctly spelt word.",
-      "options": [
-        "Goverment",
-        "Govermant",
-        "Government",
-        "Governmant"
-      ],
-      "answer": 2,
-      "explanation": "The correct spelling is 'government' (govern + ment).",
-      "verified": true,
-      "archetype": "ssc-gd-E11",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Same SP ±10% → 1% loss; GD classic"
+      }
     },
     {
       "id": "ssc-gd-053",
@@ -2340,223 +1818,12 @@
       "explanation": "'Each' is singular, so 'have' should be 'has'.",
       "verified": true,
       "archetype": "ssc-gd-E12",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-gd-054",
-      "section": "english",
-      "topic": "Fill in the Blanks",
-      "difficulty": "easy",
-      "question": "Select the most appropriate preposition to fill in the blank.\nHe is good ______ mathematics.",
-      "options": [
-        "in",
-        "at",
-        "on",
-        "for"
-      ],
-      "answer": 1,
-      "explanation": "The correct phrase is 'good at' a subject or skill.",
-      "verified": true,
-      "archetype": "ssc-gd-E06",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-gd-055",
-      "section": "english",
-      "topic": "Fill in the Blanks",
-      "difficulty": "medium",
-      "question": "Select the most appropriate option to fill in the blank.\nI have lived in this town ______ ten years.",
-      "options": [
-        "since",
-        "from",
-        "by",
-        "for"
-      ],
-      "answer": 3,
-      "explanation": "'For' is used with a period of time (ten years); 'since' with a point of time.",
-      "verified": true,
-      "archetype": "ssc-gd-E06",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-gd-056",
-      "section": "english",
-      "topic": "Fill in the Blanks",
-      "difficulty": "medium",
-      "question": "Select the most appropriate article to fill in the blank.\n______ sun rises in the east.",
-      "options": [
-        "The",
-        "A",
-        "An",
-        "No article"
-      ],
-      "answer": 0,
-      "explanation": "'The' is used before unique objects such as the sun and the moon.",
-      "verified": true,
-      "archetype": "ssc-gd-E06",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-gd-057",
-      "section": "english",
-      "topic": "Active & Passive Voice",
-      "difficulty": "hard",
-      "question": "Select the passive form of the given sentence.\nRahul is writing a letter.",
-      "options": [
-        "A letter is being written by Rahul.",
-        "A letter was being written by Rahul.",
-        "A letter is written by Rahul.",
-        "A letter has been written by Rahul."
-      ],
-      "answer": 0,
-      "explanation": "Present continuous active (is writing) becomes 'is being written' in the passive.",
-      "verified": true,
-      "archetype": "ssc-gd-E14",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-gd-058",
-      "section": "english",
-      "topic": "Reading Comprehension",
-      "difficulty": "easy",
-      "question": "Read the passage and answer the question.\n\nPhysical fitness is important for everyone, but it is essential for those who serve in the armed and police forces. A fit body helps a soldier carry heavy loads, march long distances and stay alert during long hours of duty. Fitness, however, is not only about strength. A balanced diet, enough sleep and a calm mind are equally important. Many training centres now include yoga and meditation in their daily schedule, because they help trainees control stress and stay focused under pressure.\n\nAccording to the passage, why is fitness essential for those who serve in the forces?",
-      "options": [
-        "It helps them get promoted quickly",
-        "It helps them carry heavy loads, march long distances and stay alert",
-        "It allows them to avoid training",
-        "It helps them sleep less"
-      ],
-      "answer": 1,
-      "explanation": "The passage says a fit body helps a soldier carry heavy loads, march long distances and stay alert.",
-      "verified": true,
-      "archetype": "ssc-gd-E01",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-gd-059",
-      "section": "english",
-      "topic": "Reading Comprehension",
-      "difficulty": "medium",
-      "question": "Read the passage and answer the question.\n\nPhysical fitness is important for everyone, but it is essential for those who serve in the armed and police forces. A fit body helps a soldier carry heavy loads, march long distances and stay alert during long hours of duty. Fitness, however, is not only about strength. A balanced diet, enough sleep and a calm mind are equally important. Many training centres now include yoga and meditation in their daily schedule, because they help trainees control stress and stay focused under pressure.\n\nBesides strength, what does fitness include according to the passage?",
-      "options": [
-        "Expensive equipment and supplements",
-        "Only long-distance running",
-        "Strict silence during duty",
-        "A balanced diet, enough sleep and a calm mind"
-      ],
-      "answer": 3,
-      "explanation": "The passage states that a balanced diet, enough sleep and a calm mind are equally important.",
-      "verified": true,
-      "archetype": "ssc-gd-E01",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-gd-060",
-      "section": "english",
-      "topic": "Reading Comprehension",
-      "difficulty": "medium",
-      "question": "Read the passage and answer the question.\n\nPhysical fitness is important for everyone, but it is essential for those who serve in the armed and police forces. A fit body helps a soldier carry heavy loads, march long distances and stay alert during long hours of duty. Fitness, however, is not only about strength. A balanced diet, enough sleep and a calm mind are equally important. Many training centres now include yoga and meditation in their daily schedule, because they help trainees control stress and stay focused under pressure.\n\nWhy have many training centres added yoga and meditation to their schedules?",
-      "options": [
-        "They replace physical training completely",
-        "They are needed to pass the written exam",
-        "They help trainees control stress and stay focused",
-        "They reduce the hours of duty"
-      ],
-      "answer": 2,
-      "explanation": "Yoga and meditation help trainees control stress and stay focused under pressure.",
-      "verified": true,
-      "archetype": "ssc-gd-E02",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-gd-061",
-      "section": "reasoning",
-      "topic": "Analogy",
-      "difficulty": "easy",
-      "question": "Select the option that is related to the third word in the same way as the second word is related to the first word.\nAuthor : Book :: Sculptor : ?",
-      "options": [
-        "Chisel",
-        "Stone",
-        "Museum",
-        "Statue"
-      ],
-      "answer": 3,
-      "explanation": "An author creates a book; a sculptor creates a statue. The chisel is a tool and stone the material.",
-      "source": "ai",
-      "archetype": "ssc-gd-R01",
-      "verified": false
-    },
-    {
-      "id": "ssc-gd-062",
-      "section": "reasoning",
-      "topic": "Analogy",
-      "difficulty": "easy",
-      "question": "Select the option that is related to the third number in the same way as the second number is related to the first number.\n4 : 20 :: 6 : ?",
-      "options": [
-        "36",
-        "30",
-        "42",
-        "48"
-      ],
-      "answer": 2,
-      "explanation": "Rule: n × (n + 1). 4 × 5 = 20, so 6 × 7 = 42.",
-      "source": "ai",
-      "archetype": "ssc-gd-R02",
-      "verified": false
-    },
-    {
-      "id": "ssc-gd-063",
-      "section": "reasoning",
-      "topic": "Analogy",
-      "difficulty": "easy",
-      "question": "Select the option that is related to the third letter-pair in the same way as the second letter-pair is related to the first letter-pair.\nAC : FH :: KM : ?",
-      "options": [
-        "PR",
-        "OQ",
-        "PQ",
-        "QS"
-      ],
-      "answer": 0,
-      "explanation": "Each letter moves +5: A→F, C→H. So K→P, M→R.",
-      "source": "ai",
-      "archetype": "ssc-gd-R03",
-      "verified": false
-    },
-    {
-      "id": "ssc-gd-064",
-      "section": "reasoning",
-      "topic": "Classification",
-      "difficulty": "easy",
-      "question": "Three of the following four words are alike in a certain way and one is different. Pick the odd one out.",
-      "options": [
-        "Hockey",
-        "Chess",
-        "Football",
-        "Cricket"
-      ],
-      "answer": 1,
-      "explanation": "Hockey, football and cricket are outdoor field games; chess is a board game.",
-      "source": "ai",
-      "archetype": "ssc-gd-R04",
-      "verified": false
-    },
-    {
-      "id": "ssc-gd-065",
-      "section": "reasoning",
-      "topic": "Classification",
-      "difficulty": "easy",
-      "question": "Three of the following four numbers are alike in a certain way and one is different. Select the number that is different.",
-      "options": [
-        "16",
-        "45",
-        "25",
-        "36"
-      ],
-      "answer": 1,
-      "explanation": "16, 25 and 36 are perfect squares; 45 is not.",
-      "source": "ai",
-      "archetype": "ssc-gd-R05",
-      "verified": false
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Each of … have → has; GD agreement"
+      }
     },
     {
       "id": "ssc-gd-066",
@@ -2574,25 +1841,12 @@
       "explanation": "AZ, BY and CX are opposite-letter pairs (positions add to 27). D's opposite is W, not V.",
       "source": "ai",
       "archetype": "ssc-gd-R06",
-      "verified": false
-    },
-    {
-      "id": "ssc-gd-067",
-      "section": "reasoning",
-      "topic": "Number & Letter Series",
-      "difficulty": "easy",
-      "question": "Select the number that will come next in the following series.\n1, 3, 7, 15, 31, ?",
-      "options": [
-        "63",
-        "62",
-        "61",
-        "64"
-      ],
-      "answer": 0,
-      "explanation": "Each term = previous × 2 + 1: 31 × 2 + 1 = 63.",
-      "source": "ai",
-      "archetype": "ssc-gd-R07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Opposite-letter pairs odd one; GD"
+      }
     },
     {
       "id": "ssc-gd-068",
@@ -2610,79 +1864,12 @@
       "explanation": "Differences are −4, −8, −12, −16, so the next is 60 − 20 = 40.",
       "source": "ai",
       "archetype": "ssc-gd-R07",
-      "verified": false
-    },
-    {
-      "id": "ssc-gd-069",
-      "section": "reasoning",
-      "topic": "Number & Letter Series",
-      "difficulty": "easy",
-      "question": "Select the letter-cluster that will come next in the following series.\nBCD, FGH, JKL, ?",
-      "options": [
-        "MNO",
-        "OPQ",
-        "NOP",
-        "NOQ"
-      ],
-      "answer": 2,
-      "explanation": "Each cluster starts 4 letters after the previous one: B, F, J, N → NOP.",
-      "source": "ai",
-      "archetype": "ssc-gd-R08",
-      "verified": false
-    },
-    {
-      "id": "ssc-gd-070",
-      "section": "reasoning",
-      "topic": "Coding-Decoding",
-      "difficulty": "easy",
-      "question": "In a certain code language, 'COLD' is written as 'DPME'. How will 'WARM' be written in that language?",
-      "options": [
-        "XBSM",
-        "XBSN",
-        "VZQL",
-        "XCSN"
-      ],
-      "answer": 1,
-      "explanation": "Each letter is moved one place forward: W→X, A→B, R→S, M→N.",
-      "source": "ai",
-      "archetype": "ssc-gd-R09",
-      "verified": false
-    },
-    {
-      "id": "ssc-gd-071",
-      "section": "reasoning",
-      "topic": "Coding-Decoding",
-      "difficulty": "easy",
-      "question": "In a certain code language, 'BAT' is coded as 23. How will 'RAT' be coded in that language?",
-      "options": [
-        "39",
-        "38",
-        "41",
-        "36"
-      ],
-      "answer": 0,
-      "explanation": "Code = sum of alphabet positions: B2 + A1 + T20 = 23. RAT = 18 + 1 + 20 = 39.",
-      "source": "ai",
-      "archetype": "ssc-gd-R10",
-      "verified": false
-    },
-    {
-      "id": "ssc-gd-072",
-      "section": "reasoning",
-      "topic": "Blood Relations",
-      "difficulty": "easy",
-      "question": "Pointing to a boy, Meena said, \"He is the son of my only brother.\" How is the boy related to Meena?",
-      "options": [
-        "Son",
-        "Cousin",
-        "Brother",
-        "Nephew"
-      ],
-      "answer": 3,
-      "explanation": "The son of one's brother is one's nephew.",
-      "source": "ai",
-      "archetype": "ssc-gd-R12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Decreasing differences ×4; GD"
+      }
     },
     {
       "id": "ssc-gd-073",
@@ -2700,7 +1887,12 @@
       "explanation": "East 4 km, then North 3 km, then West 4 km cancels the eastward walk. He is 3 km North of P.",
       "source": "ai",
       "archetype": "ssc-gd-R14",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Three-leg U-turn walk; GD direction"
+      }
     },
     {
       "id": "ssc-gd-074",
@@ -2718,43 +1910,12 @@
       "explanation": "Substituting: 18 ÷ 3 × 4 + 6 − 5 = 24 + 6 − 5 = 25.",
       "source": "ai",
       "archetype": "ssc-gd-R15",
-      "verified": false
-    },
-    {
-      "id": "ssc-gd-075",
-      "section": "reasoning",
-      "topic": "Non-verbal (Mirror, Paper Folding, Figures)",
-      "difficulty": "medium",
-      "question": "A square sheet of paper is folded once along its vertical middle line and then once along its horizontal middle line. A single hole is then punched through all the layers. How many holes will there be when the sheet is completely unfolded?",
-      "options": [
-        "4",
-        "2",
-        "8",
-        "1"
-      ],
-      "answer": 0,
-      "explanation": "Two folds make 4 layers, so one punch makes 4 holes.",
-      "source": "ai",
-      "archetype": "ssc-gd-R23",
-      "verified": false
-    },
-    {
-      "id": "ssc-gd-076",
-      "section": "gk",
-      "topic": "History",
-      "difficulty": "easy",
-      "question": "The Kalinga War was fought by which Mauryan ruler?",
-      "options": [
-        "Chandragupta Maurya",
-        "Ashoka",
-        "Bindusara",
-        "Samudragupta"
-      ],
-      "answer": 1,
-      "explanation": "Ashoka fought the Kalinga War (c. 261 BCE) and then turned to Buddhism. Samudragupta was a Gupta ruler.",
-      "source": "ai",
-      "archetype": "ssc-gd-G01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Sign substitution BODMAS; GD"
+      }
     },
     {
       "id": "ssc-gd-077",
@@ -2772,7 +1933,12 @@
       "explanation": "C. Rajagopalachari led the salt march from Tiruchirappalli to Vedaranyam in April 1930.",
       "source": "ai",
       "archetype": "ssc-gd-G02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Vedaranyam march–Rajagopalachari; GD"
+      }
     },
     {
       "id": "ssc-gd-078",
@@ -2790,7 +1956,12 @@
       "explanation": "India beat New Zealand by four wickets in the final in Dubai on 9 March 2025.",
       "source": "ai",
       "archetype": "ssc-gd-G17",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Champions Trophy 2025 final vs NZ; recent CA as GD asks"
+      }
     },
     {
       "id": "ssc-gd-079",
@@ -2808,25 +1979,12 @@
       "explanation": "Article 25 (part of Articles 25–28, Right to Freedom of Religion).",
       "source": "ai",
       "archetype": "ssc-gd-G03",
-      "verified": false
-    },
-    {
-      "id": "ssc-gd-080",
-      "section": "gk",
-      "topic": "Polity",
-      "difficulty": "easy",
-      "question": "What is the term of office of a member of the Rajya Sabha?",
-      "options": [
-        "5 years",
-        "4 years",
-        "3 years",
-        "6 years"
-      ],
-      "answer": 3,
-      "explanation": "Rajya Sabha members serve 6-year terms; one-third retire every two years.",
-      "source": "ai",
-      "archetype": "ssc-gd-G05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Article 25 religion with Art 19 trap; GD"
+      }
     },
     {
       "id": "ssc-gd-081",
@@ -2844,151 +2002,12 @@
       "explanation": "The 61st Amendment Act, 1988, lowered the voting age to 18.",
       "source": "ai",
       "archetype": "ssc-gd-G04",
-      "verified": false
-    },
-    {
-      "id": "ssc-gd-082",
-      "section": "gk",
-      "topic": "Geography",
-      "difficulty": "easy",
-      "question": "Which river is known as the 'Sorrow of Bihar'?",
-      "options": [
-        "Gandak",
-        "Kosi",
-        "Son",
-        "Damodar"
-      ],
-      "answer": 1,
-      "explanation": "The Kosi, which floods and shifts its course often, is the 'Sorrow of Bihar'. The Damodar was called the 'Sorrow of Bengal'.",
-      "source": "ai",
-      "archetype": "ssc-gd-G06",
-      "verified": false
-    },
-    {
-      "id": "ssc-gd-083",
-      "section": "gk",
-      "topic": "Geography",
-      "difficulty": "easy",
-      "question": "Which of the following is a Kharif crop?",
-      "options": [
-        "Rice",
-        "Wheat",
-        "Mustard",
-        "Gram"
-      ],
-      "answer": 0,
-      "explanation": "Rice is sown with the monsoon (Kharif); wheat, mustard and gram are Rabi crops.",
-      "source": "ai",
-      "archetype": "ssc-gd-G07",
-      "verified": false
-    },
-    {
-      "id": "ssc-gd-084",
-      "section": "gk",
-      "topic": "Art & Culture",
-      "difficulty": "easy",
-      "question": "Lavani is a popular folk dance of which state?",
-      "options": [
-        "Gujarat",
-        "Karnataka",
-        "Maharashtra",
-        "Goa"
-      ],
-      "answer": 2,
-      "explanation": "Lavani, performed to the beat of the dholki, is from Maharashtra.",
-      "source": "ai",
-      "archetype": "ssc-gd-G15",
-      "verified": false
-    },
-    {
-      "id": "ssc-gd-085",
-      "section": "gk",
-      "topic": "Economy",
-      "difficulty": "easy",
-      "question": "Which institution is known as the 'Banker's Bank' in India?",
-      "options": [
-        "State Bank of India",
-        "NABARD",
-        "Reserve Bank of India",
-        "SIDBI"
-      ],
-      "answer": 2,
-      "explanation": "The RBI keeps the reserves of commercial banks and lends to them, so it is the bankers' bank.",
-      "source": "ai",
-      "archetype": "ssc-gd-G09",
-      "verified": false
-    },
-    {
-      "id": "ssc-gd-086",
-      "section": "gk",
-      "topic": "Physics",
-      "difficulty": "easy",
-      "question": "Which instrument is used to measure electric current in a circuit?",
-      "options": [
-        "Voltmeter",
-        "Barometer",
-        "Hygrometer",
-        "Ammeter"
-      ],
-      "answer": 3,
-      "explanation": "An ammeter measures current; a voltmeter measures potential difference.",
-      "source": "ai",
-      "archetype": "ssc-gd-G11",
-      "verified": false
-    },
-    {
-      "id": "ssc-gd-087",
-      "section": "gk",
-      "topic": "Chemistry",
-      "difficulty": "easy",
-      "question": "What is the chemical formula of common salt?",
-      "options": [
-        "KCl",
-        "NaCl",
-        "NaOH",
-        "Na₂CO₃"
-      ],
-      "answer": 1,
-      "explanation": "Common salt is sodium chloride, NaCl.",
-      "source": "ai",
-      "archetype": "ssc-gd-G12",
-      "verified": false
-    },
-    {
-      "id": "ssc-gd-088",
-      "section": "gk",
-      "topic": "Biology",
-      "difficulty": "easy",
-      "question": "How many bones are there in the body of an adult human being?",
-      "options": [
-        "206",
-        "208",
-        "212",
-        "300"
-      ],
-      "answer": 0,
-      "explanation": "An adult has 206 bones; a newborn has about 300 that later fuse.",
-      "source": "ai",
-      "archetype": "ssc-gd-G13",
-      "verified": false
-    },
-    {
-      "id": "ssc-gd-089",
-      "section": "gk",
-      "topic": "Sports",
-      "difficulty": "easy",
-      "question": "The Ranji Trophy is associated with which sport?",
-      "options": [
-        "Cricket",
-        "Football",
-        "Hockey",
-        "Badminton"
-      ],
-      "answer": 0,
-      "explanation": "The Ranji Trophy is India's premier domestic first-class cricket championship.",
-      "source": "ai",
-      "archetype": "ssc-gd-G18",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "61st Amendment voting age; GD"
+      }
     },
     {
       "id": "ssc-gd-090",
@@ -3006,7 +2025,12 @@
       "explanation": "The BSF headquarters is in New Delhi; Shillong is the headquarters of the Assam Rifles.",
       "source": "ai",
       "archetype": "ssc-gd-G19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "BSF HQ New Delhi; GD CAPF static"
+      }
     },
     {
       "id": "ssc-gd-091",
@@ -3024,25 +2048,12 @@
       "explanation": "1000 = 7 × 142 + 6, so subtract 6 (994 = 7 × 142).",
       "source": "ai",
       "archetype": "ssc-gd-M02",
-      "verified": false
-    },
-    {
-      "id": "ssc-gd-092",
-      "section": "maths",
-      "topic": "Number System",
-      "difficulty": "easy",
-      "question": "What is the unit digit of 4⁴⁵?",
-      "options": [
-        "6",
-        "2",
-        "8",
-        "4"
-      ],
-      "answer": 3,
-      "explanation": "Powers of 4 end in 4 (odd power) or 6 (even power). 45 is odd, so the unit digit is 4.",
-      "source": "ai",
-      "archetype": "ssc-gd-M01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Least subtrahend for divisibility by 7; GD"
+      }
     },
     {
       "id": "ssc-gd-093",
@@ -3060,43 +2071,12 @@
       "explanation": "Product of the numbers = HCF × LCM = 4320. Other number = 4320/72 = 60.",
       "source": "ai",
       "archetype": "ssc-gd-M03",
-      "verified": false
-    },
-    {
-      "id": "ssc-gd-094",
-      "section": "maths",
-      "topic": "Simplification",
-      "difficulty": "easy",
-      "question": "What is the value of 25 × 4 ÷ 5 + 18 − 6 × 2?",
-      "options": [
-        "16",
-        "26",
-        "22",
-        "30"
-      ],
-      "answer": 1,
-      "explanation": "25 × 4 ÷ 5 = 20 and 6 × 2 = 12. 20 + 18 − 12 = 26.",
-      "source": "ai",
-      "archetype": "ssc-gd-M04",
-      "verified": false
-    },
-    {
-      "id": "ssc-gd-095",
-      "section": "maths",
-      "topic": "Percentage",
-      "difficulty": "easy",
-      "question": "What percentage of 250 is 45?",
-      "options": [
-        "15%",
-        "20%",
-        "18%",
-        "22.5%"
-      ],
-      "answer": 2,
-      "explanation": "45/250 × 100 = 18%.",
-      "source": "ai",
-      "archetype": "ssc-gd-M05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "HCF×LCM = product; GD"
+      }
     },
     {
       "id": "ssc-gd-096",
@@ -3114,25 +2094,12 @@
       "explanation": "Pass marks = 160 + 40 = 200 = 40% of total, so total = 500.",
       "source": "ai",
       "archetype": "ssc-gd-M06",
-      "verified": false
-    },
-    {
-      "id": "ssc-gd-097",
-      "section": "maths",
-      "topic": "Profit & Loss",
-      "difficulty": "easy",
-      "question": "A man buys a cycle for ₹2,500 and sells it for ₹2,800. What is his gain percentage?",
-      "options": [
-        "10%",
-        "15%",
-        "12%",
-        "11%"
-      ],
-      "answer": 2,
-      "explanation": "Gain = 300; gain % = 300/2500 × 100 = 12%.",
-      "source": "ai",
-      "archetype": "ssc-gd-M08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Pass marks fail-by; GD percentage"
+      }
     },
     {
       "id": "ssc-gd-098",
@@ -3150,25 +2117,12 @@
       "explanation": "SP = 1.30 × 0.90 = 1.17 of CP, a gain of 17% (not 30 − 10 = 20%).",
       "source": "ai",
       "archetype": "ssc-gd-M07",
-      "verified": false
-    },
-    {
-      "id": "ssc-gd-099",
-      "section": "maths",
-      "topic": "Simple & Compound Interest",
-      "difficulty": "easy",
-      "question": "At what rate of simple interest per annum will a sum of money double itself in 10 years?",
-      "options": [
-        "10%",
-        "12%",
-        "8%",
-        "5%"
-      ],
-      "answer": 0,
-      "explanation": "Interest = principal in 10 years, so rate = 100/10 = 10% per annum.",
-      "source": "ai",
-      "archetype": "ssc-gd-M09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Markup 30%, discount 10%; GD"
+      }
     },
     {
       "id": "ssc-gd-100",
@@ -3186,25 +2140,12 @@
       "explanation": "Amount = 5000 × 1.1 × 1.1 = ₹6,050. (₹6,000 is the simple-interest amount.)",
       "source": "ai",
       "archetype": "ssc-gd-M10",
-      "verified": false
-    },
-    {
-      "id": "ssc-gd-101",
-      "section": "maths",
-      "topic": "Ratio & Proportion",
-      "difficulty": "easy",
-      "question": "The ages of A and B are in the ratio 4 : 5. If the sum of their ages is 54 years, what is B's age?",
-      "options": [
-        "24 years",
-        "27 years",
-        "30 years",
-        "35 years"
-      ],
-      "answer": 2,
-      "explanation": "One part = 54/9 = 6, so B = 5 × 6 = 30 years.",
-      "source": "ai",
-      "archetype": "ssc-gd-M11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "CI amount 2 years; GD"
+      }
     },
     {
       "id": "ssc-gd-102",
@@ -3222,25 +2163,12 @@
       "explanation": "The middle number is the average, 24, so the numbers are 20, 22, 24, 26, 28. Largest = 28.",
       "source": "ai",
       "archetype": "ssc-gd-M13",
-      "verified": false
-    },
-    {
-      "id": "ssc-gd-103",
-      "section": "maths",
-      "topic": "Time & Work",
-      "difficulty": "easy",
-      "question": "8 men can build a wall in 15 days. How many men will be needed to build the same wall in 10 days?",
-      "options": [
-        "10",
-        "12",
-        "16",
-        "14"
-      ],
-      "answer": 1,
-      "explanation": "M₁D₁ = M₂D₂: 8 × 15 = M × 10, so M = 12.",
-      "source": "ai",
-      "archetype": "ssc-gd-M15",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Consecutive even average; GD"
+      }
     },
     {
       "id": "ssc-gd-104",
@@ -3258,7 +2186,12 @@
       "explanation": "72 km/h = 20 m/s. Distance in 20 s = 400 m = train + bridge, so the bridge is 250 m.",
       "source": "ai",
       "archetype": "ssc-gd-M16",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Train crossing bridge; GD"
+      }
     },
     {
       "id": "ssc-gd-105",
@@ -3276,79 +2209,12 @@
       "explanation": "Area = d²/2 = 144/2 = 72 cm².",
       "source": "ai",
       "archetype": "ssc-gd-M18",
-      "verified": false
-    },
-    {
-      "id": "ssc-gd-106",
-      "section": "english",
-      "topic": "Synonyms",
-      "difficulty": "easy",
-      "question": "Select the most appropriate synonym of the given word.\nBRIEF",
-      "options": [
-        "Long",
-        "Strong",
-        "Clear",
-        "Short"
-      ],
-      "answer": 3,
-      "explanation": "Brief means short in duration or length.",
-      "source": "ai",
-      "archetype": "ssc-gd-E07",
-      "verified": false
-    },
-    {
-      "id": "ssc-gd-107",
-      "section": "english",
-      "topic": "Antonyms",
-      "difficulty": "easy",
-      "question": "Select the most appropriate antonym of the given word.\nGIANT",
-      "options": [
-        "Dwarf",
-        "Huge",
-        "Tall",
-        "Strong"
-      ],
-      "answer": 0,
-      "explanation": "A giant is very large; the opposite is dwarf.",
-      "source": "ai",
-      "archetype": "ssc-gd-E08",
-      "verified": false
-    },
-    {
-      "id": "ssc-gd-108",
-      "section": "english",
-      "topic": "Antonyms",
-      "difficulty": "easy",
-      "question": "Select the most appropriate antonym of the given word.\nACCEPT",
-      "options": [
-        "Receive",
-        "Admit",
-        "Reject",
-        "Agree"
-      ],
-      "answer": 2,
-      "explanation": "Accept is opposite to reject.",
-      "source": "ai",
-      "archetype": "ssc-gd-E08",
-      "verified": false
-    },
-    {
-      "id": "ssc-gd-109",
-      "section": "english",
-      "topic": "Idioms & Phrases",
-      "difficulty": "easy",
-      "question": "Select the most appropriate meaning of the given idiom.\nTo keep one's fingers crossed",
-      "options": [
-        "To be very angry",
-        "To refuse to help someone",
-        "To hope for a good result",
-        "To tie something firmly"
-      ],
-      "answer": 2,
-      "explanation": "Keeping one's fingers crossed means hoping that something turns out well.",
-      "source": "ai",
-      "archetype": "ssc-gd-E09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Square area from diagonal; GD"
+      }
     },
     {
       "id": "ssc-gd-110",
@@ -3366,25 +2232,12 @@
       "explanation": "Soldiers live in barracks; a hangar houses aircraft, a dock ships, a stable horses.",
       "source": "ai",
       "archetype": "ssc-gd-E10",
-      "verified": false
-    },
-    {
-      "id": "ssc-gd-111",
-      "section": "english",
-      "topic": "Spelling Correction",
-      "difficulty": "easy",
-      "question": "Select the correctly spelt word.",
-      "options": [
-        "Seperate",
-        "Separete",
-        "Saparate",
-        "Separate"
-      ],
-      "answer": 3,
-      "explanation": "The correct spelling is 'separate'.",
-      "source": "ai",
-      "archetype": "ssc-gd-E11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Barracks OWS, force-themed; GD"
+      }
     },
     {
       "id": "ssc-gd-112",
@@ -3402,115 +2255,12 @@
       "explanation": "'The number of …' takes a singular verb: 'The number of soldiers in the camp is increasing.'",
       "source": "ai",
       "archetype": "ssc-gd-E12",
-      "verified": false
-    },
-    {
-      "id": "ssc-gd-113",
-      "section": "english",
-      "topic": "Fill in the Blanks",
-      "difficulty": "easy",
-      "question": "Select the most appropriate option to fill in the blank.\nHe has been ill ______ last Monday.",
-      "options": [
-        "for",
-        "since",
-        "from",
-        "by"
-      ],
-      "answer": 1,
-      "explanation": "With a perfect tense and a point of time (last Monday), 'since' is used.",
-      "source": "ai",
-      "archetype": "ssc-gd-E06",
-      "verified": false
-    },
-    {
-      "id": "ssc-gd-114",
-      "section": "english",
-      "topic": "Fill in the Blanks",
-      "difficulty": "easy",
-      "question": "Select the most appropriate option to fill in the blank.\nShe is very fond ______ music.",
-      "options": [
-        "in",
-        "of",
-        "for",
-        "with"
-      ],
-      "answer": 1,
-      "explanation": "The adjective 'fond' takes 'of'.",
-      "source": "ai",
-      "archetype": "ssc-gd-E06",
-      "verified": false
-    },
-    {
-      "id": "ssc-gd-115",
-      "section": "english",
-      "topic": "Fill in the Blanks",
-      "difficulty": "easy",
-      "question": "Select the most appropriate option to fill in the blank.\nThe soldier was awarded a medal for his ______ in the battle.",
-      "options": [
-        "cowardice",
-        "laziness",
-        "weakness",
-        "bravery"
-      ],
-      "answer": 3,
-      "explanation": "Medals are awarded for bravery.",
-      "source": "ai",
-      "archetype": "ssc-gd-E05",
-      "verified": false
-    },
-    {
-      "id": "ssc-gd-116",
-      "section": "english",
-      "topic": "Active & Passive Voice",
-      "difficulty": "easy",
-      "question": "Select the option that expresses the given sentence in passive voice.\nThe police caught the thief.",
-      "options": [
-        "The thief is caught by the police.",
-        "The thief has been caught by the police.",
-        "The thief was caught by the police.",
-        "The thief was being caught by the police."
-      ],
-      "answer": 2,
-      "explanation": "Simple past active becomes 'was/were + V3' in the passive.",
-      "source": "ai",
-      "archetype": "ssc-gd-E14",
-      "verified": false
-    },
-    {
-      "id": "ssc-gd-117",
-      "section": "english",
-      "topic": "Cloze Test",
-      "difficulty": "easy",
-      "question": "Read the passage and select the most appropriate option for the numbered blank.\n\nTrees are our best friends. They give us fresh air, shade and fruit. They also (1) ______ the soil from being washed away by rain. We should plant more trees and (2) ______ care of them.\n\nSelect the most appropriate option for blank (2).",
-      "options": [
-        "take",
-        "make",
-        "give",
-        "do"
-      ],
-      "answer": 0,
-      "explanation": "The idiom is 'take care of'.",
-      "source": "ai",
-      "archetype": "ssc-gd-E04",
-      "verified": false
-    },
-    {
-      "id": "ssc-gd-118",
-      "section": "english",
-      "topic": "Reading Comprehension",
-      "difficulty": "easy",
-      "question": "Read the passage and answer the question.\n\nEvery year, thousands of young people join the armed forces and the police. Their training begins early in the morning with a run, followed by drill on the parade ground. Recruits learn to march in step, to handle equipment safely and to obey orders without delay. The training is hard, and many recruits feel tired and homesick during the first few weeks. Slowly, however, they grow stronger and more confident. They learn that discipline is not about fear but about trust: each member of a team must be able to depend on the others. By the end of the course, the recruits who once struggled with a short run can complete long marches carrying heavy loads.\n\nWhat do the recruits do first every morning during training?",
-      "options": [
-        "They do drill on the parade ground",
-        "They go for a run",
-        "They write letters home",
-        "They go on long marches with heavy loads"
-      ],
-      "answer": 1,
-      "explanation": "'Their training begins early in the morning with a run, followed by drill.'",
-      "source": "ai",
-      "archetype": "ssc-gd-E01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "The number of … are → is; GD"
+      }
     },
     {
       "id": "ssc-gd-119",
@@ -3528,7 +2278,12 @@
       "explanation": "The passage says discipline 'is not about fear but about trust'.",
       "source": "ai",
       "archetype": "ssc-gd-E02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Inference RC on discipline; GD"
+      }
     },
     {
       "id": "ssc-gd-120",
@@ -3546,7 +2301,12 @@
       "explanation": "Confident means sure of oneself; the opposite is unsure. The others are synonyms.",
       "source": "ai",
       "archetype": "ssc-gd-E03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "In-context antonym 'confident'; GD"
+      }
     }
   ]
 }

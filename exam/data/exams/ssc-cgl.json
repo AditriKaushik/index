@@ -1685,24 +1685,6 @@
   },
   "questions": [
     {
-      "id": "ssc-cgl-001",
-      "section": "reasoning",
-      "topic": "Analogy",
-      "difficulty": "easy",
-      "question": "Select the number that is related to the third number in the same way as the second number is related to the first.\n13 : 169 :: 17 : ?",
-      "options": [
-        "279",
-        "289",
-        "298",
-        "287"
-      ],
-      "answer": 1,
-      "explanation": "169 = 13². So the answer is 17² = 289.",
-      "verified": true,
-      "archetype": "ssc-cgl-R02",
-      "source": "curated"
-    },
-    {
       "id": "ssc-cgl-002",
       "section": "reasoning",
       "topic": "Analogy",
@@ -1718,25 +1700,12 @@
       "explanation": "Each letter is replaced by its opposite letter (positions add up to 27): D↔W, F↔U, H↔S, J↔Q. So K→P, M→N, O→L, Q→J, giving PNLJ.",
       "verified": true,
       "archetype": "ssc-cgl-R03",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-cgl-003",
-      "section": "reasoning",
-      "topic": "Classification",
-      "difficulty": "easy",
-      "question": "Select the odd number from the given options.",
-      "options": [
-        "121",
-        "290",
-        "169",
-        "225"
-      ],
-      "answer": 1,
-      "explanation": "121 = 11², 169 = 13² and 225 = 15² are perfect squares; 290 is not.",
-      "verified": true,
-      "archetype": "ssc-cgl-R05",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Opposite-letter (A↔Z) cluster analogy exactly as set in CGL 2023-24; distractors differ by one letter"
+      }
     },
     {
       "id": "ssc-cgl-004",
@@ -1754,7 +1723,12 @@
       "explanation": "Pattern: ×2 + 1, ×2 + 2, ×2 + 3, ×2 + 4 … So 106 × 2 + 5 = 217.",
       "verified": true,
       "archetype": "ssc-cgl-R07",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "×2+1,×2+2… series with ±1-slip options, a staple CGL Tier-1 series"
+      }
     },
     {
       "id": "ssc-cgl-005",
@@ -1772,7 +1746,12 @@
       "explanation": "First letters: A, C, F, J (+2, +3, +4) → next +5 = O. Second letters: Z, X, U, Q (−2, −3, −4) → next −5 = L. Answer: OL.",
       "verified": true,
       "archetype": "ssc-cgl-R08",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Two-letter cluster with +2..+5 / −2..−5 progression; matches CGL letter-series style"
+      }
     },
     {
       "id": "ssc-cgl-006",
@@ -1790,7 +1769,12 @@
       "explanation": "Each letter is replaced by its opposite letter (A↔Z, B↔Y …): T→G, A→Z, B→Y, L→O, E→V. So C→X, H→S, A→Z, I→R, R→I = XSZRI.",
       "verified": true,
       "archetype": "ssc-cgl-R09",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Opposite-letter word coding (TABLE→GZYOV) is a recurring CGL coding type; trap option swaps last two letters"
+      }
     },
     {
       "id": "ssc-cgl-007",
@@ -1808,25 +1792,12 @@
       "explanation": "The word is reversed and each letter is moved one step forward: PAINT → TNIAP → UOJBQ. BRUSH → HSURB → ITVSC.",
       "verified": true,
       "archetype": "ssc-cgl-R09",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-cgl-008",
-      "section": "reasoning",
-      "topic": "Blood Relations",
-      "difficulty": "easy",
-      "question": "A is the brother of B. B is the daughter of C. D is the father of C. How is A related to D?",
-      "options": [
-        "Son",
-        "Nephew",
-        "Son-in-law",
-        "Grandson"
-      ],
-      "answer": 3,
-      "explanation": "B is C's daughter and A is B's brother, so A is C's son. D is C's father, so A is D's grandson.",
-      "verified": true,
-      "archetype": "ssc-cgl-R12",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Reverse-then-+1 coding, frequent in CGL 2023-24; distractors from missing reversal"
+      }
     },
     {
       "id": "ssc-cgl-009",
@@ -1844,7 +1815,12 @@
       "explanation": "Take start (0, 0). North 10 → (0, 10); right = East 6 → (6, 10); right = South 18 → (6, −8); right = West 6 → (0, −8). He is 8 m South of the start.",
       "verified": true,
       "archetype": "ssc-cgl-R14",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Four-leg right-turn walk with net-displacement, standard CGL direction item"
+      }
     },
     {
       "id": "ssc-cgl-010",
@@ -1862,7 +1838,12 @@
       "explanation": "The cats that are dogs cannot be rats, so 'Some cats are not rats' is certain. Other cats may or may not be rats, so II does not follow.",
       "verified": true,
       "archetype": "ssc-cgl-R15",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Some-cats/no-dog syllogism with 'some not' conclusion; classic CGL two-conclusion format"
+      }
     },
     {
       "id": "ssc-cgl-011",
@@ -1880,43 +1861,12 @@
       "explanation": "Replace the signs: 16 ÷ 4 × 3 + 8 − 5 = 4 × 3 + 8 − 5 = 12 + 8 − 5 = 15.",
       "verified": true,
       "archetype": "ssc-cgl-R16",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-cgl-012",
-      "section": "reasoning",
-      "topic": "Missing Number",
-      "difficulty": "medium",
-      "question": "If 3 # 4 = 25 and 5 # 12 = 169, then what is 8 # 15?",
-      "options": [
-        "289",
-        "529",
-        "23",
-        "120"
-      ],
-      "answer": 0,
-      "explanation": "a # b = a² + b²: 9 + 16 = 25, 25 + 144 = 169. So 8 # 15 = 64 + 225 = 289.",
-      "verified": true,
-      "archetype": "ssc-cgl-R19",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-cgl-013",
-      "section": "reasoning",
-      "topic": "Order & Ranking",
-      "difficulty": "easy",
-      "question": "In a row of 40 students, Meena is 14th from the left end. What is her position from the right end?",
-      "options": [
-        "26th",
-        "28th",
-        "25th",
-        "27th"
-      ],
-      "answer": 3,
-      "explanation": "Position from right = 40 − 14 + 1 = 27.",
-      "verified": true,
-      "archetype": "ssc-cgl-R21",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Sign-substitution BODMAS evaluation exactly as in CGL shifts"
+      }
     },
     {
       "id": "ssc-cgl-014",
@@ -1934,7 +1884,12 @@
       "explanation": "Plane comes before Planet (it is its prefix). Then compare the 5th letters: Plan-e(t), Plan-k, Plan-n, Plan-t → Planet, Plank, Planner, Plant. Order: Plane, Planet, Plank, Planner, Plant = 3, 2, 5, 4, 1.",
       "verified": true,
       "archetype": "ssc-cgl-R22",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Five plan- words with late-letter differences, faithful CGL dictionary-order item"
+      }
     },
     {
       "id": "ssc-cgl-015",
@@ -1952,43 +1907,12 @@
       "explanation": "From 15 Aug 2024 to 15 Aug 2025 there is no 29 February, so +1 day (Friday). From 15 Aug 2025 to 15 Aug 2026 there is again no 29 February, so +1 day → Saturday.",
       "verified": true,
       "archetype": "ssc-cgl-R23",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-cgl-016",
-      "section": "gk",
-      "topic": "History",
-      "difficulty": "easy",
-      "question": "Who founded the Maurya dynasty?",
-      "options": [
-        "Bindusara",
-        "Ashoka",
-        "Chandragupta Maurya",
-        "Bimbisara"
-      ],
-      "answer": 2,
-      "explanation": "Chandragupta Maurya founded the Maurya Empire around 321 BCE with the help of Chanakya (Kautilya).",
-      "verified": true,
-      "archetype": "ssc-cgl-G01",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-cgl-017",
-      "section": "gk",
-      "topic": "History",
-      "difficulty": "medium",
-      "question": "In which year was the Battle of Plassey fought?",
-      "options": [
-        "1764",
-        "1761",
-        "1748",
-        "1757"
-      ],
-      "answer": 3,
-      "explanation": "The Battle of Plassey was fought on 23 June 1757 between Robert Clive's East India Company forces and Nawab Siraj-ud-Daulah. Buxar was 1764 and the Third Battle of Panipat 1761.",
-      "verified": true,
-      "archetype": "ssc-cgl-G02",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Odd-days across a non-leap year pair; CGL calendar type though labelled hard it is medium"
+      }
     },
     {
       "id": "ssc-cgl-018",
@@ -2006,25 +1930,12 @@
       "explanation": "Gopal Krishna Gokhale founded the Servants of India Society in Pune in 1905.",
       "verified": true,
       "archetype": "ssc-cgl-G02",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-cgl-019",
-      "section": "gk",
-      "topic": "Polity",
-      "difficulty": "easy",
-      "question": "Fundamental Duties were added to the Constitution of India by which Constitutional Amendment Act?",
-      "options": [
-        "42nd Amendment",
-        "44th Amendment",
-        "52nd Amendment",
-        "73rd Amendment"
-      ],
-      "answer": 0,
-      "explanation": "The 42nd Amendment Act, 1976, added Part IV-A (Article 51A) on Fundamental Duties, on the recommendation of the Swaran Singh Committee.",
-      "verified": true,
-      "archetype": "ssc-cgl-G04",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Founder of Servants of India Society 1905 is a typical CGL modern-history organisation question"
+      }
     },
     {
       "id": "ssc-cgl-020",
@@ -2042,7 +1953,12 @@
       "explanation": "Article 61 deals with impeachment of the President. Article 72 is the pardoning power, Article 56 the term of office and Article 74 the Council of Ministers.",
       "verified": true,
       "archetype": "ssc-cgl-G03",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Article 61 impeachment with nearby-Article distractors, typical CGL article-number item"
+      }
     },
     {
       "id": "ssc-cgl-021",
@@ -2060,43 +1976,12 @@
       "explanation": "The Tenth Schedule was added by the 52nd Amendment Act, 1985 and deals with anti-defection.",
       "verified": true,
       "archetype": "ssc-cgl-G04",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-cgl-022",
-      "section": "gk",
-      "topic": "Geography",
-      "difficulty": "easy",
-      "question": "Which is the largest state of India by area?",
-      "options": [
-        "Madhya Pradesh",
-        "Rajasthan",
-        "Maharashtra",
-        "Uttar Pradesh"
-      ],
-      "answer": 1,
-      "explanation": "Rajasthan is the largest state by area (about 3.42 lakh km²), followed by Madhya Pradesh and Maharashtra.",
-      "verified": true,
-      "archetype": "ssc-cgl-G06",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-cgl-023",
-      "section": "gk",
-      "topic": "Geography",
-      "difficulty": "medium",
-      "question": "The Palk Strait separates India from which country?",
-      "options": [
-        "Maldives",
-        "Myanmar",
-        "Bangladesh",
-        "Sri Lanka"
-      ],
-      "answer": 3,
-      "explanation": "The Palk Strait lies between Tamil Nadu and the northern part of Sri Lanka.",
-      "verified": true,
-      "archetype": "ssc-cgl-G06",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Tenth Schedule anti-defection with adjacent-schedule distractors; CGL polity style"
+      }
     },
     {
       "id": "ssc-cgl-024",
@@ -2114,7 +1999,12 @@
       "explanation": "The Godavari, the longest river of peninsular India, is called the Dakshin Ganga (Ganga of the South).",
       "verified": true,
       "archetype": "ssc-cgl-G06",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "'Dakshin Ganga' epithet question appears in SSC papers; good river-nickname item"
+      }
     },
     {
       "id": "ssc-cgl-025",
@@ -2132,7 +2022,12 @@
       "explanation": "Under Article 279A, the GST Council is chaired by the Union Finance Minister; state finance ministers are members.",
       "verified": true,
       "archetype": "ssc-cgl-G10",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "GST Council chair asked in CGL economy sections; plausible office distractors"
+      }
     },
     {
       "id": "ssc-cgl-026",
@@ -2150,61 +2045,12 @@
       "explanation": "Repo (repurchase) rate is the rate at which the RBI lends to banks against eligible securities. The rate at which the RBI absorbs funds from banks is the reverse repo / SDF rate.",
       "verified": true,
       "archetype": "ssc-cgl-G09",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-cgl-027",
-      "section": "gk",
-      "topic": "Physics",
-      "difficulty": "easy",
-      "question": "What is the SI unit of electric charge?",
-      "options": [
-        "Coulomb",
-        "Ampere",
-        "Volt",
-        "Ohm"
-      ],
-      "answer": 0,
-      "explanation": "Charge is measured in coulomb (C). Ampere is the unit of current, volt of potential difference and ohm of resistance.",
-      "verified": true,
-      "archetype": "ssc-cgl-G11",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-cgl-028",
-      "section": "gk",
-      "topic": "Chemistry",
-      "difficulty": "medium",
-      "question": "What is the chemical formula of baking soda?",
-      "options": [
-        "Na₂CO₃",
-        "NaOH",
-        "CaCO₃",
-        "NaHCO₃"
-      ],
-      "answer": 3,
-      "explanation": "Baking soda is sodium hydrogen carbonate (sodium bicarbonate), NaHCO₃. Na₂CO₃ is washing soda (anhydrous form).",
-      "verified": true,
-      "archetype": "ssc-cgl-G12",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-cgl-029",
-      "section": "gk",
-      "topic": "Biology",
-      "difficulty": "medium",
-      "question": "Scurvy is caused by the deficiency of which vitamin?",
-      "options": [
-        "Vitamin A",
-        "Vitamin D",
-        "Vitamin C",
-        "Vitamin B₁"
-      ],
-      "answer": 2,
-      "explanation": "Vitamin C (ascorbic acid) deficiency causes scurvy (bleeding gums). Vitamin A → night blindness, D → rickets, B₁ → beriberi.",
-      "verified": true,
-      "archetype": "ssc-cgl-G13",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Repo-rate definition with RBI-borrows reverse-repo trap; CGL banking style"
+      }
     },
     {
       "id": "ssc-cgl-030",
@@ -2222,7 +2068,12 @@
       "explanation": "The Konark Sun Temple (13th century) was built by King Narasimhadeva I of the Eastern Ganga dynasty. It is a UNESCO World Heritage Site.",
       "verified": true,
       "archetype": "ssc-cgl-G16",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Konark–Narasimhadeva I (Eastern Ganga) matches CGL temple–builder questions"
+      }
     },
     {
       "id": "ssc-cgl-031",
@@ -2240,25 +2091,12 @@
       "explanation": "Unit digits of powers of 7 repeat in the cycle 7, 9, 3, 1. 35 = 4 × 8 + 3, so the unit digit is the 3rd in the cycle = 3.",
       "verified": true,
       "archetype": "ssc-cgl-Q01",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-cgl-032",
-      "section": "quant",
-      "topic": "Percentage",
-      "difficulty": "easy",
-      "question": "If 40% of a number is 72, what is 75% of that number?",
-      "options": [
-        "120",
-        "135",
-        "144",
-        "150"
-      ],
-      "answer": 1,
-      "explanation": "Number = 72 ÷ 0.40 = 180. 75% of 180 = 135.",
-      "verified": true,
-      "archetype": "ssc-cgl-Q04",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Unit digit of 7^35 via cyclicity; standard CGL number-system item"
+      }
     },
     {
       "id": "ssc-cgl-033",
@@ -2276,7 +2114,12 @@
       "explanation": "Let CP = 100. MP = 140. SP = 140 × 0.85 = 119. Profit = 19%.",
       "verified": true,
       "archetype": "ssc-cgl-Q06",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "MP 40% above CP with 15% discount; classic CGL profit item with 25% trap"
+      }
     },
     {
       "id": "ssc-cgl-034",
@@ -2294,7 +2137,12 @@
       "explanation": "For 2 years, CI − SI = P(r/100)² = 12000 × (0.1)² = ₹120.",
       "verified": true,
       "archetype": "ssc-cgl-Q09",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "CI−SI for 2 years via Pr²/100²; standard CGL formula item"
+      }
     },
     {
       "id": "ssc-cgl-035",
@@ -2312,7 +2160,12 @@
       "explanation": "Multiply by 12: 1/2 : 1/3 : 1/4 = 6 : 4 : 3 (13 parts). One part = 7800 ÷ 13 = 600. B = 4 × 600 = ₹2,400.",
       "verified": true,
       "archetype": "ssc-cgl-Q10",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Fractional-ratio division (1/2:1/3:1/4) exactly as CGL sets it"
+      }
     },
     {
       "id": "ssc-cgl-036",
@@ -2330,7 +2183,12 @@
       "explanation": "Sum of all = 550. First six = 294, last six = 312. The 6th number is counted twice: 294 + 312 − 550 = 56.",
       "verified": true,
       "archetype": "ssc-cgl-Q12",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Overlapping 6th number average; a recurring CGL average type"
+      }
     },
     {
       "id": "ssc-cgl-037",
@@ -2348,25 +2206,12 @@
       "explanation": "Together per day = 1/12 + 1/18 = 5/36. In 4 days = 20/36 = 5/9. Remaining 4/9 is done by B in (4/9) × 18 = 8 days.",
       "verified": true,
       "archetype": "ssc-cgl-Q13",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-cgl-038",
-      "section": "quant",
-      "topic": "Time, Speed & Distance",
-      "difficulty": "easy",
-      "question": "A train 240 m long crosses a platform 360 m long in 30 seconds. What is the speed of the train in km/h?",
-      "options": [
-        "64",
-        "80",
-        "54",
-        "72"
-      ],
-      "answer": 3,
-      "explanation": "Distance = 240 + 360 = 600 m; speed = 600/30 = 20 m/s = 20 × 18/5 = 72 km/h.",
-      "verified": true,
-      "archetype": "ssc-cgl-Q15",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "A leaves after 4 days, B finishes; standard CGL time & work"
+      }
     },
     {
       "id": "ssc-cgl-039",
@@ -2384,7 +2229,12 @@
       "explanation": "x³ + 1/x³ = (x + 1/x)³ − 3(x + 1/x) = 125 − 15 = 110.",
       "verified": true,
       "archetype": "ssc-cgl-Q17",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "x+1/x=5 → x³+1/x³ with 125 trap; textbook CGL algebra"
+      }
     },
     {
       "id": "ssc-cgl-040",
@@ -2402,7 +2252,12 @@
       "explanation": "(a + b + c)² = a² + b² + c² + 2(ab + bc + ca) → 144 = 50 + 2S → S = 47.",
       "verified": true,
       "archetype": "ssc-cgl-Q18",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "ab+bc+ca from sum and sum of squares; CGL identity item, 94 trap for not halving"
+      }
     },
     {
       "id": "ssc-cgl-041",
@@ -2420,43 +2275,12 @@
       "explanation": "∠BOC = 90° + ∠A/2 = 90° + 35° = 125°.",
       "verified": true,
       "archetype": "ssc-cgl-Q19",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-cgl-042",
-      "section": "quant",
-      "topic": "Geometry",
-      "difficulty": "hard",
-      "question": "Two chords AB and CD of a circle intersect at a point P inside the circle. If AP = 6 cm, PB = 4 cm and CP = 3 cm, what is the length of PD?",
-      "options": [
-        "8 cm",
-        "6 cm",
-        "4.5 cm",
-        "2 cm"
-      ],
-      "answer": 0,
-      "explanation": "By the intersecting chords theorem, AP × PB = CP × PD → 24 = 3 × PD → PD = 8 cm.",
-      "verified": true,
-      "archetype": "ssc-cgl-Q20",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-cgl-043",
-      "section": "quant",
-      "topic": "Mensuration",
-      "difficulty": "medium",
-      "question": "What is the surface area of a sphere of radius 21 cm? (Take π = 22/7)",
-      "options": [
-        "5454 cm²",
-        "1386 cm²",
-        "5544 cm²",
-        "4851 cm²"
-      ],
-      "answer": 2,
-      "explanation": "Surface area = 4πr² = 4 × (22/7) × 441 = 4 × 22 × 63 = 5544 cm².",
-      "verified": true,
-      "archetype": "ssc-cgl-Q23",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "∠BOC = 90+A/2 incentre angle; very frequent in CGL geometry"
+      }
     },
     {
       "id": "ssc-cgl-044",
@@ -2474,7 +2298,12 @@
       "explanation": "Since sec²θ − tan²θ = 1, sec θ − tan θ = 1/3. Adding: 2 sec θ = 10/3 → sec θ = 5/3; tan θ = 4/3. sin θ = tan θ / sec θ = 4/5.",
       "verified": true,
       "archetype": "ssc-cgl-Q25",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "sec+tan=3 → sin θ via reciprocal trick; classic CGL conditional trig"
+      }
     },
     {
       "id": "ssc-cgl-045",
@@ -2492,25 +2321,12 @@
       "explanation": "Five-year average = (120 + 150 + 135 + 180 + 210)/5 = 795/5 = 159. Years above 159: 2024 (180) and 2025 (210). Their average = 390/2 = 195.",
       "verified": true,
       "archetype": "ssc-cgl-Q26",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-cgl-046",
-      "section": "english",
-      "topic": "Synonyms",
-      "difficulty": "easy",
-      "question": "Select the most appropriate synonym of the given word.\nABUNDANT",
-      "options": [
-        "Scarce",
-        "Narrow",
-        "Plentiful",
-        "Hidden"
-      ],
-      "answer": 2,
-      "explanation": "Abundant means existing in large quantities – plentiful. Scarce is its antonym.",
-      "verified": true,
-      "archetype": "ssc-cgl-E07",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Text-table DI with above-average filter; matches CGL tabular DI computations"
+      }
     },
     {
       "id": "ssc-cgl-047",
@@ -2528,25 +2344,12 @@
       "explanation": "Frugal means economical/sparing; its opposite is extravagant. Thrifty is a synonym.",
       "verified": true,
       "archetype": "ssc-cgl-E08",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-cgl-048",
-      "section": "english",
-      "topic": "Idioms & Phrases",
-      "difficulty": "medium",
-      "question": "Select the most appropriate meaning of the idiom.\nTo burn the midnight oil",
-      "options": [
-        "To waste resources carelessly",
-        "To start a quarrel",
-        "To celebrate a festival",
-        "To work or study late into the night"
-      ],
-      "answer": 3,
-      "explanation": "'Burn the midnight oil' means to stay up late working or studying.",
-      "verified": true,
-      "archetype": "ssc-cgl-E09",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "FRUGAL antonym with Thrifty synonym trap; CGL-level word"
+      }
     },
     {
       "id": "ssc-cgl-049",
@@ -2564,7 +2367,12 @@
       "explanation": "Insolvent = unable to pay debts. Inept = unskilled; impudent = disrespectful.",
       "verified": true,
       "archetype": "ssc-cgl-E10",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Insolvent OWS with In- prefix look-alikes; CGL style"
+      }
     },
     {
       "id": "ssc-cgl-050",
@@ -2582,7 +2390,12 @@
       "explanation": "The correct spelling has double 'c' and double 'm': accommodate.",
       "verified": true,
       "archetype": "ssc-cgl-E11",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Accommodate double-c/double-m spelling, frequent in CGL"
+      }
     },
     {
       "id": "ssc-cgl-051",
@@ -2600,7 +2413,12 @@
       "explanation": "With 'neither … nor', the verb agrees with the nearer subject. 'Assistants' is plural, so 'was' should be 'were'.",
       "verified": true,
       "archetype": "ssc-cgl-E12",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Neither…nor proximity agreement error; exact CGL error-spotting type"
+      }
     },
     {
       "id": "ssc-cgl-052",
@@ -2618,7 +2436,12 @@
       "explanation": "'Hardly' is followed by 'when', not 'than': Hardly had I reached the station when the train left.",
       "verified": true,
       "archetype": "ssc-cgl-E13",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Hardly…than → when correlative error; recurring CGL item"
+      }
     },
     {
       "id": "ssc-cgl-053",
@@ -2636,7 +2459,12 @@
       "explanation": "For an imaginary/hypothetical present condition, the subjunctive 'were' is used: If I were the Prime Minister…",
       "verified": true,
       "archetype": "ssc-cgl-E14",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Subjunctive 'If I were' improvement; common in CGL"
+      }
     },
     {
       "id": "ssc-cgl-054",
@@ -2654,7 +2482,12 @@
       "explanation": "Present perfect active (has approved) becomes present perfect passive (has been approved).",
       "verified": true,
       "archetype": "ssc-cgl-E15",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Present-perfect passive with tense-change distractors; CGL voice style"
+      }
     },
     {
       "id": "ssc-cgl-055",
@@ -2672,25 +2505,12 @@
       "explanation": "'Said to' → 'told'; 'will' → 'would'; 'I' → 'she', 'you' → 'me'; 'tomorrow' → 'the next day'.",
       "verified": true,
       "archetype": "ssc-cgl-E16",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-cgl-056",
-      "section": "english",
-      "topic": "Fill in the Blanks",
-      "difficulty": "medium",
-      "question": "Select the most appropriate word to fill in the blank.\nThe judge's ______ decision was praised by both parties to the dispute.",
-      "options": [
-        "partial",
-        "hasty",
-        "careless",
-        "impartial"
-      ],
-      "answer": 3,
-      "explanation": "Both parties would praise only a fair, unbiased decision – 'impartial'.",
-      "verified": true,
-      "archetype": "ssc-cgl-E05",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Will→would, tomorrow→next day indirect speech; CGL narration standard"
+      }
     },
     {
       "id": "ssc-cgl-057",
@@ -2708,7 +2528,12 @@
       "explanation": "The passage says their tangled roots slow incoming waves and trap sediment, protecting the shore from erosion and storm surges.",
       "verified": true,
       "archetype": "ssc-cgl-E01",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Factual RC on mangroves; matches CGL passage questions"
+      }
     },
     {
       "id": "ssc-cgl-058",
@@ -2726,7 +2551,12 @@
       "explanation": "The passage states that most of the carbon is locked in waterlogged soil where it decays very slowly.",
       "verified": true,
       "archetype": "ssc-cgl-E01",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Reason-based factual RC; CGL style"
+      }
     },
     {
       "id": "ssc-cgl-059",
@@ -2744,25 +2574,12 @@
       "explanation": "Mangroves being cleared at an 'alarming' rate means at a worrying, disturbing rate.",
       "verified": true,
       "archetype": "ssc-cgl-E03",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-cgl-060",
-      "section": "english",
-      "topic": "Cloze Test",
-      "difficulty": "medium",
-      "question": "Select the most appropriate option to fill in the blank.\nDespite repeated warnings from the authorities, the residents ______ to leave the flooded area.",
-      "options": [
-        "agreed",
-        "refused",
-        "denied",
-        "rejected"
-      ],
-      "answer": 1,
-      "explanation": "'Despite' signals contrast, so the residents did not leave. 'Refuse' takes a to-infinitive; 'deny' and 'reject' do not ('denied to leave' is incorrect).",
-      "verified": true,
-      "archetype": "ssc-cgl-E04",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "In-context synonym 'alarming'; CGL RC vocab sub-question"
+      }
     },
     {
       "id": "ssc-cgl-061",
@@ -2780,25 +2597,12 @@
       "explanation": "Rule: n² + 3. 7² + 3 = 52 and 4² + 3 = 19, so 11² + 3 = 124.",
       "source": "ai",
       "archetype": "ssc-cgl-R02",
-      "verified": false
-    },
-    {
-      "id": "ssc-cgl-062",
-      "section": "reasoning",
-      "topic": "Analogy",
-      "difficulty": "easy",
-      "question": "Select the option that is related to the third word in the same way as the second word is related to the first word.\nThermometer : Temperature :: Anemometer : ?",
-      "options": [
-        "Humidity",
-        "Air pressure",
-        "Rainfall",
-        "Wind speed"
-      ],
-      "answer": 3,
-      "explanation": "A thermometer measures temperature; an anemometer measures wind speed (humidity – hygrometer, pressure – barometer, rainfall – rain gauge).",
-      "source": "ai",
-      "archetype": "ssc-cgl-R01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "n²+3 triple analogy with 'whole numbers' NOTE, verbatim CGL 2024 format"
+      }
     },
     {
       "id": "ssc-cgl-063",
@@ -2816,25 +2620,12 @@
       "explanation": "In the others, third = first × second − 5: 4×9−5 = 31, 5×7−5 = 30, 6×3−5 = 13. But 3×8−5 = 19, not 25.",
       "source": "ai",
       "archetype": "ssc-cgl-R05",
-      "verified": false
-    },
-    {
-      "id": "ssc-cgl-064",
-      "section": "reasoning",
-      "topic": "Classification",
-      "difficulty": "easy",
-      "question": "Three of the following four words are alike in a certain way and one is different. Pick the odd one out.",
-      "options": [
-        "Kidney",
-        "Femur",
-        "Liver",
-        "Pancreas"
-      ],
-      "answer": 1,
-      "explanation": "Kidney, liver and pancreas are organs; the femur is a bone.",
-      "source": "ai",
-      "archetype": "ssc-cgl-R04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Triad a×b−5 odd-one-out with NOTE; exact CGL triad format"
+      }
     },
     {
       "id": "ssc-cgl-065",
@@ -2852,7 +2643,12 @@
       "explanation": "×2 + 1, ×2 + 2, ×2 + 3, ×2 + 4, so the next term is 74 × 2 + 5 = 153.",
       "source": "ai",
       "archetype": "ssc-cgl-R07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "×2+k series again (repeats item 004 rule) but genuine CGL pattern"
+      }
     },
     {
       "id": "ssc-cgl-066",
@@ -2870,7 +2666,12 @@
       "explanation": "Each letter moves +3: K→N, M→P, P→S, giving NPS.",
       "source": "ai",
       "archetype": "ssc-cgl-R08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "+3 per position three-letter cluster series; CGL style"
+      }
     },
     {
       "id": "ssc-cgl-067",
@@ -2888,7 +2689,12 @@
       "explanation": "Each letter is moved +2 (MANGO → OCPIQ) and the result is reversed (QIPCO). LEMON → NGOQP → reversed PQOGN.",
       "source": "ai",
       "archetype": "ssc-cgl-R09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Reverse +2 coding with one-letter distractors; CGL type"
+      }
     },
     {
       "id": "ssc-cgl-068",
@@ -2906,7 +2712,12 @@
       "explanation": "Code = 2 × (sum of alphabet positions). FACE: 6+1+3+5 = 15 → 30; BEAD: 2+5+1+4 = 12 → 24; DEAF: 4+5+1+6 = 16 → 32.",
       "source": "ai",
       "archetype": "ssc-cgl-R10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Sum of positions ×2 number coding; CGL 2023-24 pattern"
+      }
     },
     {
       "id": "ssc-cgl-069",
@@ -2924,7 +2735,12 @@
       "explanation": "Interchanging ÷ and + gives 24 − 6 ÷ 3 × 4 + 5 = 24 − 8 + 5 = 21. The other swaps give 27.6, 21.75 and 11.",
       "source": "ai",
       "archetype": "ssc-cgl-R17",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Interchange two signs to balance equation; exact CGL format"
+      }
     },
     {
       "id": "ssc-cgl-070",
@@ -2942,7 +2758,12 @@
       "explanation": "Substituting: 48 ÷ 6 + 9 × 3 − 15 = 8 + 27 − 15 = 20.",
       "source": "ai",
       "archetype": "ssc-cgl-R16",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Sign-substitution evaluation; standard CGL"
+      }
     },
     {
       "id": "ssc-cgl-071",
@@ -2960,7 +2781,12 @@
       "explanation": "a ★ b = a² + b²: 36+16 = 52, 49+9 = 58, 25+4 = 29. So 8 ★ 5 = 64 + 25 = 89.",
       "source": "ai",
       "archetype": "ssc-cgl-R19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "a²+b² from three examples; CGL defined-operation type"
+      }
     },
     {
       "id": "ssc-cgl-072",
@@ -2978,7 +2804,12 @@
       "explanation": "×1 + 1, ×2 + 2, ×3 + 3, ×4 + 4, ×5 + 5: 45 × 4 + 4 = 184, and 184 × 5 + 5 = 925 confirms it.",
       "source": "ai",
       "archetype": "ssc-cgl-R18",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "×n+n hidden middle term; faithful CGL missing-term series"
+      }
     },
     {
       "id": "ssc-cgl-073",
@@ -2996,7 +2827,12 @@
       "explanation": "P is the daughter of Q, Q is the father of R, and R is the brother of S. So P and S are both children of Q; P is female, hence P is S's sister.",
       "source": "ai",
       "archetype": "ssc-cgl-R13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Coded blood relation (+,−,×,÷) decode to Sister; CGL format"
+      }
     },
     {
       "id": "ssc-cgl-074",
@@ -3014,7 +2850,12 @@
       "explanation": "Cubes with exactly two painted faces lie on the edges, excluding corners: 12 × (5 − 2) = 36.",
       "source": "ai",
       "archetype": "ssc-cgl-R31",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Painted 5-cube two-face count 12(n−2); CGL cube item"
+      }
     },
     {
       "id": "ssc-cgl-075",
@@ -3032,7 +2873,12 @@
       "explanation": "B cannot be at the right end (C is to his right), so B is 1st from the left, A 2nd, C 3rd, D 4th. F is not at an end, so F is 5th and E 6th. D is immediately to the left of F.",
       "source": "ai",
       "archetype": "ssc-cgl-R27",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Six-person linear seating with clean unique solution; CGL style"
+      }
     },
     {
       "id": "ssc-cgl-076",
@@ -3050,7 +2896,12 @@
       "explanation": "The Fourth Buddhist Council was convened in Kashmir under the Kushana ruler Kanishka; Ashoka patronised the Third Council and Ajatashatru the First.",
       "source": "ai",
       "archetype": "ssc-cgl-G01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Fourth Buddhist Council–Kanishka; standard SSC council question"
+      }
     },
     {
       "id": "ssc-cgl-077",
@@ -3068,7 +2919,12 @@
       "explanation": "Kesari (Marathi) and Mahratta (English) were started by Bal Gangadhar Tilak with Agarkar and others in 1881.",
       "source": "ai",
       "archetype": "ssc-cgl-G02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Kesari–Tilak newspaper-founder; recurring CGL item"
+      }
     },
     {
       "id": "ssc-cgl-078",
@@ -3086,25 +2942,12 @@
       "explanation": "Article 44 (a Directive Principle) deals with the Uniform Civil Code. Article 40 – village panchayats, 48 – agriculture and animal husbandry, 51 – international peace.",
       "source": "ai",
       "archetype": "ssc-cgl-G03",
-      "verified": false
-    },
-    {
-      "id": "ssc-cgl-079",
-      "section": "gk",
-      "topic": "Polity",
-      "difficulty": "easy",
-      "question": "What is the minimum age prescribed by the Constitution of India for a person to be elected as the President of India?",
-      "options": [
-        "30 years",
-        "25 years",
-        "35 years",
-        "40 years"
-      ],
-      "answer": 2,
-      "explanation": "Article 58 requires the President to have completed 35 years of age.",
-      "source": "ai",
-      "archetype": "ssc-cgl-G05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "UCC Article 44 among DPSP articles; exact CGL article item"
+      }
     },
     {
       "id": "ssc-cgl-080",
@@ -3122,25 +2965,12 @@
       "explanation": "Dudhwa National Park is in the Lakhimpur Kheri district of Uttar Pradesh, on the Indo-Nepal border.",
       "source": "ai",
       "archetype": "ssc-cgl-G06",
-      "verified": false
-    },
-    {
-      "id": "ssc-cgl-081",
-      "section": "gk",
-      "topic": "Geography",
-      "difficulty": "easy",
-      "question": "The ozone layer that absorbs most of the Sun's ultraviolet radiation lies in which layer of the atmosphere?",
-      "options": [
-        "Troposphere",
-        "Mesosphere",
-        "Thermosphere",
-        "Stratosphere"
-      ],
-      "answer": 3,
-      "explanation": "The ozone layer lies in the stratosphere, roughly 15–35 km above the Earth's surface.",
-      "source": "ai",
-      "archetype": "ssc-cgl-G08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Dudhwa NP–UP with neighbouring-state traps; CGL national-park item"
+      }
     },
     {
       "id": "ssc-cgl-082",
@@ -3158,7 +2988,12 @@
       "explanation": "CRR, SLR and the bank rate are quantitative tools; moral suasion is a qualitative/selective method.",
       "source": "ai",
       "archetype": "ssc-cgl-G09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Qualitative credit-control tool (moral suasion); CGL banking concept"
+      }
     },
     {
       "id": "ssc-cgl-083",
@@ -3176,7 +3011,12 @@
       "explanation": "Magnetic flux is measured in weber (Wb); tesla is the unit of magnetic flux density and henry of inductance.",
       "source": "ai",
       "archetype": "ssc-cgl-G11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Weber vs Tesla trap; CGL SI-unit style"
+      }
     },
     {
       "id": "ssc-cgl-084",
@@ -3194,43 +3034,12 @@
       "explanation": "Plaster of Paris is CaSO₄·½H₂O, calcium sulphate hemihydrate; the dihydrate is gypsum and calcium oxychloride is bleaching powder.",
       "source": "ai",
       "archetype": "ssc-cgl-G12",
-      "verified": false
-    },
-    {
-      "id": "ssc-cgl-085",
-      "section": "gk",
-      "topic": "Biology",
-      "difficulty": "easy",
-      "question": "Which endocrine gland is often called the 'master gland' of the human body?",
-      "options": [
-        "Thyroid gland",
-        "Adrenal gland",
-        "Pituitary gland",
-        "Pancreas"
-      ],
-      "answer": 2,
-      "explanation": "The pituitary gland regulates several other endocrine glands, hence 'master gland'.",
-      "source": "ai",
-      "archetype": "ssc-cgl-G13",
-      "verified": false
-    },
-    {
-      "id": "ssc-cgl-086",
-      "section": "gk",
-      "topic": "Art & Culture",
-      "difficulty": "easy",
-      "question": "Kuchipudi is a classical dance form that originated in which present-day state?",
-      "options": [
-        "Kerala",
-        "Andhra Pradesh",
-        "Karnataka",
-        "Odisha"
-      ],
-      "answer": 1,
-      "explanation": "Kuchipudi takes its name from a village in the Krishna district of Andhra Pradesh.",
-      "source": "ai",
-      "archetype": "ssc-cgl-G15",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Plaster of Paris hemihydrate vs gypsum dihydrate trap; CGL chemistry"
+      }
     },
     {
       "id": "ssc-cgl-087",
@@ -3248,61 +3057,12 @@
       "explanation": "The Kailasa temple was excavated in the 8th century under the Rashtrakuta king Krishna I.",
       "source": "ai",
       "archetype": "ssc-cgl-G16",
-      "verified": false
-    },
-    {
-      "id": "ssc-cgl-088",
-      "section": "gk",
-      "topic": "Current Affairs",
-      "difficulty": "medium",
-      "question": "What was the name of the lander of India's Chandrayaan-3 mission that touched down near the Moon's south pole in August 2023?",
-      "options": [
-        "Vikram",
-        "Pragyan",
-        "Aryabhata",
-        "Shakti"
-      ],
-      "answer": 0,
-      "explanation": "The lander was Vikram; Pragyan was the rover it carried. The landing site was later named 'Shiv Shakti' point.",
-      "source": "ai",
-      "archetype": "ssc-cgl-G17",
-      "verified": false
-    },
-    {
-      "id": "ssc-cgl-089",
-      "section": "gk",
-      "topic": "Sports",
-      "difficulty": "easy",
-      "question": "The Durand Cup, one of the oldest tournaments of its kind in Asia, is associated with which sport?",
-      "options": [
-        "Hockey",
-        "Cricket",
-        "Football",
-        "Golf"
-      ],
-      "answer": 2,
-      "explanation": "The Durand Cup (started 1888) is a football tournament.",
-      "source": "ai",
-      "archetype": "ssc-cgl-G18",
-      "verified": false
-    },
-    {
-      "id": "ssc-cgl-090",
-      "section": "gk",
-      "topic": "Books, Authors & Awards",
-      "difficulty": "medium",
-      "question": "Who is the author of the novel 'Train to Pakistan'?",
-      "options": [
-        "Khushwant Singh",
-        "Mulk Raj Anand",
-        "R. K. Narayan",
-        "Amitav Ghosh"
-      ],
-      "answer": 0,
-      "explanation": "'Train to Pakistan' (1956), set during Partition, was written by Khushwant Singh.",
-      "source": "ai",
-      "archetype": "ssc-cgl-G19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Kailasa temple–Rashtrakuta; CGL art & culture"
+      }
     },
     {
       "id": "ssc-cgl-091",
@@ -3320,7 +3080,12 @@
       "explanation": "x³ − 1/x³ = (x − 1/x)³ + 3(x − 1/x) = 27 + 9 = 36.",
       "source": "ai",
       "archetype": "ssc-cgl-Q17",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "x−1/x → cube difference with 27 trap; CGL algebra"
+      }
     },
     {
       "id": "ssc-cgl-092",
@@ -3338,7 +3103,12 @@
       "explanation": "a² + b² + c² = 81 − 46 = 35. a³ + b³ + c³ − 3abc = (a + b + c)(a² + b² + c² − ab − bc − ca) = 9 × (35 − 23) = 108.",
       "source": "ai",
       "archetype": "ssc-cgl-Q18",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "a³+b³+c³−3abc from sum and pair-sum; CGL identity"
+      }
     },
     {
       "id": "ssc-cgl-093",
@@ -3356,7 +3126,12 @@
       "explanation": "△ADE ~ △ABC, so DE/BC = AD/AB = 4/10. BC = 5 × 10/4 = 12.5 cm.",
       "source": "ai",
       "archetype": "ssc-cgl-Q19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "BPT with AD:AB vs AD:DB trap (7.5); CGL geometry"
+      }
     },
     {
       "id": "ssc-cgl-094",
@@ -3374,7 +3149,12 @@
       "explanation": "OT ⊥ PT, so PT = √(25² − 7²) = √576 = 24 cm.",
       "source": "ai",
       "archetype": "ssc-cgl-Q20",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Tangent length 7-24-25; CGL circle, easy"
+      }
     },
     {
       "id": "ssc-cgl-095",
@@ -3392,7 +3172,12 @@
       "explanation": "tan θ × tan(90° − θ) = 1, so tan15°·tan75° = 1, tan25°·tan65° = 1 and tan45° = 1. Product = 1.",
       "source": "ai",
       "archetype": "ssc-cgl-Q24",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Complementary tan product =1; standard CGL trig"
+      }
     },
     {
       "id": "ssc-cgl-096",
@@ -3410,7 +3195,12 @@
       "explanation": "cosec²θ − cot²θ = 1, so cosec θ + cot θ = 3. Adding: cosec θ = 5/3, cot θ = 4/3. cos θ = cot θ / cosec θ = 4/5.",
       "source": "ai",
       "archetype": "ssc-cgl-Q25",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "cosec−cot=1/3 → cos θ; classic CGL conditional trig"
+      }
     },
     {
       "id": "ssc-cgl-097",
@@ -3428,25 +3218,12 @@
       "explanation": "Number = (6/2)³ = 27, since volume varies as r³.",
       "source": "ai",
       "archetype": "ssc-cgl-Q23",
-      "verified": false
-    },
-    {
-      "id": "ssc-cgl-098",
-      "section": "quant",
-      "topic": "Data Interpretation",
-      "difficulty": "medium",
-      "question": "The number of laptops sold by a store in five years is: 2021 – 240, 2022 – 300, 2023 – 270, 2024 – 360, 2025 – 330. By what percentage did the sales in 2024 exceed the sales in 2022?",
-      "options": [
-        "16⅔%",
-        "25%",
-        "18%",
-        "20%"
-      ],
-      "answer": 3,
-      "explanation": "(360 − 300)/300 × 100 = 20%. (16⅔% would wrongly use 360 as the base.)",
-      "source": "ai",
-      "archetype": "ssc-cgl-Q26",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Melt-and-recast sphere count; CGL mensuration"
+      }
     },
     {
       "id": "ssc-cgl-099",
@@ -3464,7 +3241,12 @@
       "explanation": "(6 + 4 + 3) − (x + 9 + 2) = 2 − x must be 0 or a multiple of 11, so x = 2 (624932 = 11 × 56812).",
       "source": "ai",
       "archetype": "ssc-cgl-Q02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Divisibility by 11 missing digit; frequent CGL item"
+      }
     },
     {
       "id": "ssc-cgl-100",
@@ -3482,7 +3264,12 @@
       "explanation": "SP = 1.25 × 0.90 × 0.96 = 1.08 of CP, so profit = 8%. (11% comes from simply subtracting 14% from 25%.)",
       "source": "ai",
       "archetype": "ssc-cgl-Q06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Successive discounts on marked-up price; CGL profit"
+      }
     },
     {
       "id": "ssc-cgl-101",
@@ -3500,7 +3287,12 @@
       "explanation": "CI for 2 years at 10% = 21% of P, so P = 1680/0.21 = ₹8,000. SI = 8000 × 10 × 2/100 = ₹1,600.",
       "source": "ai",
       "archetype": "ssc-cgl-Q09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "CI→principal→SI for 2 years; CGL interest"
+      }
     },
     {
       "id": "ssc-cgl-102",
@@ -3518,7 +3310,12 @@
       "explanation": "5x − 3y = 8000 and 4x − 2y = 8000. From the second, y = 2x − 4000; substituting, 5x − 6x + 12000 = 8000, so x = 4000. A's income = 5x = ₹20,000.",
       "source": "ai",
       "archetype": "ssc-cgl-Q11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Income/expenditure ratio with equal savings; classic CGL ratio"
+      }
     },
     {
       "id": "ssc-cgl-103",
@@ -3536,7 +3333,12 @@
       "explanation": "Relative speed = 72 − 54 = 18 km/h = 5 m/s. Distance = 180 + 120 = 300 m. Time = 300/5 = 60 s.",
       "source": "ai",
       "archetype": "ssc-cgl-Q15",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Two trains same direction crossing; CGL TSD"
+      }
     },
     {
       "id": "ssc-cgl-104",
@@ -3554,7 +3356,12 @@
       "explanation": "Let the work take t days. A works (t − 5) days, B works t days: (t − 5)/20 + t/30 = 1 → 3t − 15 + 2t = 60 → t = 15.",
       "source": "ai",
       "archetype": "ssc-cgl-Q13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "A leaves 5 days before completion; CGL time & work"
+      }
     },
     {
       "id": "ssc-cgl-105",
@@ -3572,7 +3379,12 @@
       "explanation": "Failed in at least one = 35 + 25 − 10 = 50%, so 50% passed in both. Total = 1000/0.5 = 2,000.",
       "source": "ai",
       "archetype": "ssc-cgl-Q05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Pass-in-both via inclusion-exclusion; CGL percentage"
+      }
     },
     {
       "id": "ssc-cgl-106",
@@ -3590,7 +3402,12 @@
       "explanation": "The passage says concrete, asphalt and brick absorb sunlight by day and release the stored heat slowly after sunset.",
       "source": "ai",
       "archetype": "ssc-cgl-E01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Factual RC urban heat island; CGL passage"
+      }
     },
     {
       "id": "ssc-cgl-107",
@@ -3608,7 +3425,12 @@
       "explanation": "The passage explains why cities are hotter and then describes modest measures (trees, light roofs, green roofs) that ease the problem; it says they cannot make a city as cool as a village.",
       "source": "ai",
       "archetype": "ssc-cgl-E02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Main-idea RC with extreme-option traps; CGL"
+      }
     },
     {
       "id": "ssc-cgl-108",
@@ -3626,7 +3448,12 @@
       "explanation": "'Trivial' means of little importance; its opposite is 'significant'. 'Minor' and 'petty' are synonyms.",
       "source": "ai",
       "archetype": "ssc-cgl-E03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "In-context antonym 'trivial' with synonym traps; CGL"
+      }
     },
     {
       "id": "ssc-cgl-109",
@@ -3644,7 +3471,12 @@
       "explanation": "'Brings people into contact with' is the correct collocation.",
       "source": "ai",
       "archetype": "ssc-cgl-E04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Genuine 5-blank cloze, 'brings into contact' collocation; CGL cloze"
+      }
     },
     {
       "id": "ssc-cgl-110",
@@ -3662,7 +3494,12 @@
       "explanation": "The sentence stresses that even a few hours help, so 'a considerable difference' fits; the other options contradict the positive point.",
       "source": "ai",
       "archetype": "ssc-cgl-E04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Cloze blank with antonym-of-context traps; CGL"
+      }
     },
     {
       "id": "ssc-cgl-111",
@@ -3680,7 +3517,12 @@
       "explanation": "Obstinate means refusing to change one's opinion – stubborn. 'Obedient' and 'flexible' are nearly opposite.",
       "source": "ai",
       "archetype": "ssc-cgl-E07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "OBSTINATE→Stubborn; CGL synonym"
+      }
     },
     {
       "id": "ssc-cgl-112",
@@ -3698,25 +3540,12 @@
       "explanation": "Augment means to increase; its antonym is diminish. 'Enlarge' and 'amplify' are synonyms.",
       "source": "ai",
       "archetype": "ssc-cgl-E08",
-      "verified": false
-    },
-    {
-      "id": "ssc-cgl-113",
-      "section": "english",
-      "topic": "Idioms & Phrases",
-      "difficulty": "medium",
-      "question": "Select the most appropriate meaning of the given idiom.\nTo leave no stone unturned",
-      "options": [
-        "To remove all obstacles from a road",
-        "To make every possible effort",
-        "To refuse to change one's opinion",
-        "To search only in familiar places"
-      ],
-      "answer": 1,
-      "explanation": "'To leave no stone unturned' means to try every possible way to achieve something.",
-      "source": "ai",
-      "archetype": "ssc-cgl-E09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "AUGMENT antonym with synonym traps; CGL"
+      }
     },
     {
       "id": "ssc-cgl-114",
@@ -3734,7 +3563,12 @@
       "explanation": "A novice is a beginner; a veteran is highly experienced, a connoisseur an expert judge, a mentor a guide.",
       "source": "ai",
       "archetype": "ssc-cgl-E10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Novice OWS with Veteran antonym trap; CGL"
+      }
     },
     {
       "id": "ssc-cgl-115",
@@ -3752,7 +3586,12 @@
       "explanation": "The correct spelling is 'embarrass' (double r, double s).",
       "source": "ai",
       "archetype": "ssc-cgl-E11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Find incorrectly spelt 'Embarass'; CGL spelling"
+      }
     },
     {
       "id": "ssc-cgl-116",
@@ -3770,7 +3609,12 @@
       "explanation": "The subject is 'the quality' (singular), so the verb should be 'is better', not 'are better'.",
       "source": "ai",
       "archetype": "ssc-cgl-E12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Quality of mangoes … are → is; CGL subject-verb error"
+      }
     },
     {
       "id": "ssc-cgl-117",
@@ -3788,7 +3632,12 @@
       "explanation": "'No sooner' is followed by 'than', not 'when': 'No sooner had the guests arrived than the lights went out.'",
       "source": "ai",
       "archetype": "ssc-cgl-E13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "No sooner … when → than; CGL correlative error"
+      }
     },
     {
       "id": "ssc-cgl-118",
@@ -3806,25 +3655,12 @@
       "explanation": "In a third conditional, the if-clause takes the past perfect: 'If you had told me earlier, I could have helped you.'",
       "source": "ai",
       "archetype": "ssc-cgl-E14",
-      "verified": false
-    },
-    {
-      "id": "ssc-cgl-119",
-      "section": "english",
-      "topic": "Fill in the Blanks",
-      "difficulty": "medium",
-      "question": "Select the most appropriate option to fill in the blank.\nThe minister's speech was so ______ that even his critics were moved by it.",
-      "options": [
-        "eloquent",
-        "tedious",
-        "ambiguous",
-        "abrupt"
-      ],
-      "answer": 0,
-      "explanation": "Only a fluent, persuasive (eloquent) speech would move even critics.",
-      "source": "ai",
-      "archetype": "ssc-cgl-E05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Third conditional 'had told'; CGL improvement"
+      }
     },
     {
       "id": "ssc-cgl-120",
@@ -3842,7 +3678,12 @@
       "explanation": "Past continuous active (were repairing) becomes 'was being + V3' in the passive.",
       "source": "ai",
       "archetype": "ssc-cgl-E15",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Past continuous passive 'was being repaired'; CGL voice"
+      }
     }
   ]
 }

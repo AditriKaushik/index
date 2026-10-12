@@ -1649,24 +1649,6 @@
   },
   "questions": [
     {
-      "id": "ssc-chsl-001",
-      "section": "reasoning",
-      "topic": "Analogy",
-      "difficulty": "easy",
-      "question": "Select the option that is related to the third word in the same way as the second word is related to the first word.\nDoctor : Hospital :: Teacher : ?",
-      "options": [
-        "Office",
-        "Court",
-        "Factory",
-        "School"
-      ],
-      "answer": 3,
-      "explanation": "A doctor works in a hospital; a teacher works in a school.",
-      "verified": true,
-      "archetype": "ssc-chsl-R01",
-      "source": "curated"
-    },
-    {
       "id": "ssc-chsl-002",
       "section": "reasoning",
       "topic": "Analogy",
@@ -1682,43 +1664,12 @@
       "explanation": "63 = 8² − 1. So 11² − 1 = 120.",
       "verified": true,
       "archetype": "ssc-chsl-R02",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-chsl-003",
-      "section": "reasoning",
-      "topic": "Classification",
-      "difficulty": "easy",
-      "question": "Select the odd one out.",
-      "options": [
-        "Mercury",
-        "Venus",
-        "Moon",
-        "Mars"
-      ],
-      "answer": 2,
-      "explanation": "Mercury, Venus and Mars are planets; the Moon is a natural satellite.",
-      "verified": true,
-      "archetype": "ssc-chsl-R04",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-chsl-004",
-      "section": "reasoning",
-      "topic": "Classification",
-      "difficulty": "medium",
-      "question": "Select the number that does not belong to the group.",
-      "options": [
-        "33",
-        "17",
-        "23",
-        "29"
-      ],
-      "answer": 0,
-      "explanation": "17, 23 and 29 are prime numbers; 33 = 3 × 11 is composite.",
-      "verified": true,
-      "archetype": "ssc-chsl-R05",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "n²−1 number analogy with ±1 distractors; CHSL type though lacks the usual two-pair/NOTE framing"
+      }
     },
     {
       "id": "ssc-chsl-005",
@@ -1736,7 +1687,12 @@
       "explanation": "The terms are squares of consecutive prime numbers: 2², 3², 5², 7², 11², so next is 13² = 169.",
       "verified": true,
       "archetype": "ssc-chsl-R07",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Squares of consecutive primes series; recurring CHSL series trick"
+      }
     },
     {
       "id": "ssc-chsl-006",
@@ -1754,7 +1710,12 @@
       "explanation": "Positions 2, 5, 9, 14 (differences +3, +4, +5). Next +6 → 20 = T.",
       "verified": true,
       "archetype": "ssc-chsl-R08",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Single-letter series with +3,+4,+5 gaps; CHSL letter-series style"
+      }
     },
     {
       "id": "ssc-chsl-007",
@@ -1772,25 +1733,12 @@
       "explanation": "From the two words: R = 6, O = 8, S = 2, E = 1, C = 7, H = 3, A = 4, I = 5. SEARCH = S E A R C H = 2 1 4 6 7 3.",
       "verified": true,
       "archetype": "ssc-chsl-R10",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-chsl-008",
-      "section": "reasoning",
-      "topic": "Coding-Decoding",
-      "difficulty": "easy",
-      "question": "If CAT = 24 in a certain code, then what is DOG equal to in the same code?",
-      "options": [
-        "25",
-        "27",
-        "26",
-        "28"
-      ],
-      "answer": 2,
-      "explanation": "Sum of alphabetical positions: C(3) + A(1) + T(20) = 24. D(4) + O(15) + G(7) = 26.",
-      "verified": true,
-      "archetype": "ssc-chsl-R10",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Letter-to-digit substitution from two code words; classic CHSL coding"
+      }
     },
     {
       "id": "ssc-chsl-009",
@@ -1808,25 +1756,12 @@
       "explanation": "Arun is a man and the only son of his father is Arun himself. So the woman is Arun's wife.",
       "verified": true,
       "archetype": "ssc-chsl-R12",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-chsl-010",
-      "section": "reasoning",
-      "topic": "Direction Sense",
-      "difficulty": "easy",
-      "question": "Neha is facing North. She turns 90° clockwise and then 180° anticlockwise. Which direction is she facing now?",
-      "options": [
-        "East",
-        "South",
-        "North",
-        "West"
-      ],
-      "answer": 3,
-      "explanation": "North → 90° clockwise → East → 180° anticlockwise → West.",
-      "verified": true,
-      "archetype": "ssc-chsl-R14",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "'Only son of my father' self-reference trap; frequent CHSL blood relation"
+      }
     },
     {
       "id": "ssc-chsl-011",
@@ -1844,7 +1779,12 @@
       "explanation": "18 ÷ 3 × 4 + 6 − 5 = 6 × 4 + 6 − 5 = 24 + 1 = 25.",
       "verified": true,
       "archetype": "ssc-chsl-R16",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Letter-for-sign substitution BODMAS; CHSL format"
+      }
     },
     {
       "id": "ssc-chsl-012",
@@ -1862,25 +1802,12 @@
       "explanation": "Pattern: ×1 + 1, ×2 + 2, ×3 + 3, ×4 + 4: 2→3→8→27→112. Next: 112 × 5 + 5 = 565.",
       "verified": true,
       "archetype": "ssc-chsl-R18",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-chsl-013",
-      "section": "reasoning",
-      "topic": "Order & Ranking",
-      "difficulty": "medium",
-      "question": "Ramesh is 12th from the top and 25th from the bottom in his class. How many students are there in the class?",
-      "options": [
-        "37",
-        "36",
-        "35",
-        "38"
-      ],
-      "answer": 1,
-      "explanation": "Total = 12 + 25 − 1 = 36.",
-      "verified": true,
-      "archetype": "ssc-chsl-R21",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "×n+n series 2,3,8,27,112; exact CHSL missing-term type"
+      }
     },
     {
       "id": "ssc-chsl-014",
@@ -1898,7 +1825,12 @@
       "explanation": "All roses lie inside 'flowers', which has no overlap with 'trees', so no rose is a tree (I follows) and II is false.",
       "verified": true,
       "archetype": "ssc-chsl-R15",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "All-A-B / No-B-C syllogism with conversion trap; CHSL style"
+      }
     },
     {
       "id": "ssc-chsl-015",
@@ -1916,7 +1848,12 @@
       "explanation": "Angle = |30H − 5.5M| = |120 − 220| = 100°.",
       "verified": true,
       "archetype": "ssc-chsl-R23",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "30H−5.5M clock angle at 4:40; standard CHSL clock item"
+      }
     },
     {
       "id": "ssc-chsl-016",
@@ -1934,25 +1871,12 @@
       "explanation": "Lord Mountbatten was the first Governor-General of independent India (1947–48); C. Rajagopalachari was the first and only Indian Governor-General.",
       "verified": true,
       "archetype": "ssc-chsl-G02",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-chsl-017",
-      "section": "gk",
-      "topic": "History",
-      "difficulty": "medium",
-      "question": "In which year did the Jallianwala Bagh massacre take place?",
-      "options": [
-        "1920",
-        "1916",
-        "1922",
-        "1919"
-      ],
-      "answer": 3,
-      "explanation": "It took place on 13 April 1919 in Amritsar, when troops under General Dyer fired on an unarmed gathering.",
-      "verified": true,
-      "archetype": "ssc-chsl-G02",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "First Governor-General with Rajagopalachari trap; CHSL modern history"
+      }
     },
     {
       "id": "ssc-chsl-018",
@@ -1970,43 +1894,12 @@
       "explanation": "Bal Gangadhar Tilak wrote 'Gita Rahasya' during his imprisonment in Mandalay (1908–1914).",
       "verified": true,
       "archetype": "ssc-chsl-G02",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-chsl-019",
-      "section": "gk",
-      "topic": "Polity",
-      "difficulty": "easy",
-      "question": "How many Fundamental Duties are currently listed under Article 51A of the Constitution of India?",
-      "options": [
-        "10",
-        "11",
-        "12",
-        "9"
-      ],
-      "answer": 1,
-      "explanation": "The 42nd Amendment (1976) added 10 duties; the 86th Amendment (2002) added the 11th (education of children aged 6–14).",
-      "verified": true,
-      "archetype": "ssc-chsl-G03",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-chsl-020",
-      "section": "gk",
-      "topic": "Polity",
-      "difficulty": "medium",
-      "question": "Which Article of the Constitution of India provides the Right to Constitutional Remedies?",
-      "options": [
-        "Article 32",
-        "Article 21",
-        "Article 19",
-        "Article 14"
-      ],
-      "answer": 0,
-      "explanation": "Article 32 lets citizens move the Supreme Court for enforcement of Fundamental Rights; Dr B. R. Ambedkar called it the 'heart and soul' of the Constitution.",
-      "verified": true,
-      "archetype": "ssc-chsl-G03",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Gita Rahasya–Tilak at Mandalay; typical CHSL book-author history"
+      }
     },
     {
       "id": "ssc-chsl-021",
@@ -2024,25 +1917,12 @@
       "explanation": "Article 84 sets the minimum age at 30 years for the Rajya Sabha and 25 years for the Lok Sabha.",
       "verified": true,
       "archetype": "ssc-chsl-G05",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-chsl-022",
-      "section": "gk",
-      "topic": "Geography",
-      "difficulty": "easy",
-      "question": "Which is the longest river flowing within India?",
-      "options": [
-        "Godavari",
-        "Yamuna",
-        "Narmada",
-        "Ganga"
-      ],
-      "answer": 3,
-      "explanation": "The Ganga (about 2,525 km) is the longest river in India; the Godavari is the longest of peninsular India.",
-      "verified": true,
-      "archetype": "ssc-chsl-G06",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Rajya Sabha minimum age with 25/35 traps; CHSL office qualification"
+      }
     },
     {
       "id": "ssc-chsl-023",
@@ -2060,115 +1940,12 @@
       "explanation": "The Tropic of Cancer passes through Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram – not Odisha.",
       "verified": true,
       "archetype": "ssc-chsl-G06",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-chsl-024",
-      "section": "gk",
-      "topic": "Geography",
-      "difficulty": "medium",
-      "question": "Which type of soil is most suitable for growing cotton?",
-      "options": [
-        "Black soil",
-        "Alluvial soil",
-        "Laterite soil",
-        "Desert soil"
-      ],
-      "answer": 0,
-      "explanation": "Black (regur) soil retains moisture well and is ideal for cotton, hence also called black cotton soil.",
-      "verified": true,
-      "archetype": "ssc-chsl-G07",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-chsl-025",
-      "section": "gk",
-      "topic": "Economy",
-      "difficulty": "medium",
-      "question": "NITI Aayog replaced which body in January 2015?",
-      "options": [
-        "Finance Commission",
-        "Planning Commission",
-        "National Development Council",
-        "Inter-State Council"
-      ],
-      "answer": 1,
-      "explanation": "NITI Aayog was set up on 1 January 2015, replacing the Planning Commission (established 1950).",
-      "verified": true,
-      "archetype": "ssc-chsl-G10",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-chsl-026",
-      "section": "gk",
-      "topic": "Physics",
-      "difficulty": "easy",
-      "question": "Which instrument is used to measure atmospheric pressure?",
-      "options": [
-        "Hygrometer",
-        "Thermometer",
-        "Barometer",
-        "Anemometer"
-      ],
-      "answer": 2,
-      "explanation": "A barometer measures atmospheric pressure; a hygrometer measures humidity and an anemometer wind speed.",
-      "verified": true,
-      "archetype": "ssc-chsl-G11",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-chsl-027",
-      "section": "gk",
-      "topic": "Chemistry",
-      "difficulty": "easy",
-      "question": "Which gas is the most abundant in the Earth's atmosphere?",
-      "options": [
-        "Oxygen",
-        "Nitrogen",
-        "Argon",
-        "Carbon dioxide"
-      ],
-      "answer": 1,
-      "explanation": "Nitrogen makes up about 78% of dry air by volume; oxygen about 21%.",
-      "verified": true,
-      "archetype": "ssc-chsl-G12",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-chsl-028",
-      "section": "gk",
-      "topic": "Biology",
-      "difficulty": "medium",
-      "question": "People with which blood group are known as universal donors?",
-      "options": [
-        "AB positive",
-        "A positive",
-        "B negative",
-        "O negative"
-      ],
-      "answer": 3,
-      "explanation": "O negative red cells carry no A, B or Rh(D) antigens, so they can be given to recipients of any blood group. AB positive is the universal recipient.",
-      "verified": true,
-      "archetype": "ssc-chsl-G13",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-chsl-029",
-      "section": "gk",
-      "topic": "Art & Culture",
-      "difficulty": "medium",
-      "question": "Bihu is the major festival of which state?",
-      "options": [
-        "Assam",
-        "Odisha",
-        "Manipur",
-        "West Bengal"
-      ],
-      "answer": 0,
-      "explanation": "Bihu (Rongali, Kongali and Bhogali) is the main festival of Assam.",
-      "verified": true,
-      "archetype": "ssc-chsl-G15",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Tropic of Cancer state-exclusion question; frequent in CHSL 2023-24"
+      }
     },
     {
       "id": "ssc-chsl-030",
@@ -2186,7 +1963,12 @@
       "explanation": "'Gita Govinda' was composed by the 12th-century poet Jayadeva.",
       "verified": true,
       "archetype": "ssc-chsl-G19",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Gita Govinda–Jayadeva with other Sanskrit poets as traps; CHSL literature"
+      }
     },
     {
       "id": "ssc-chsl-031",
@@ -2204,7 +1986,12 @@
       "explanation": "Test: (sum of digits at odd places) − (sum at even places) must be a multiple of 11. 918082: (9 + 8 + 8) − (1 + 0 + 2) = 22 ✓. 918083 gives 25 − 4 = 21, 918092 gives 26 − 3 = 23 and 918081 gives 25 − 2 = 23, none divisible by 11.",
       "verified": true,
       "archetype": "ssc-chsl-Q02",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Which of four near-identical numbers is divisible by 11; CHSL divisibility"
+      }
     },
     {
       "id": "ssc-chsl-032",
@@ -2222,7 +2009,12 @@
       "explanation": "By BODMAS: 36 ÷ 4 = 9; 9 × 3 = 27; 2 × 5 = 10. So 27 + 15 − 10 = 32.",
       "verified": true,
       "archetype": "ssc-chsl-Q03",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "BODMAS chain with left-to-right ÷×; CHSL simplification"
+      }
     },
     {
       "id": "ssc-chsl-033",
@@ -2240,7 +2032,12 @@
       "explanation": "Reduction = 25/(100 + 25) × 100 = 20%.",
       "verified": true,
       "archetype": "ssc-chsl-Q04",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Price rise 25% → cut 20%; staple CHSL percentage"
+      }
     },
     {
       "id": "ssc-chsl-034",
@@ -2258,7 +2055,12 @@
       "explanation": "CP = 1170 ÷ 1.17 = ₹1,000.",
       "verified": true,
       "archetype": "ssc-chsl-Q07",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "CP from SP and gain 17%; CHSL profit"
+      }
     },
     {
       "id": "ssc-chsl-035",
@@ -2276,25 +2078,12 @@
       "explanation": "Net = 20 + 10 − (20 × 10)/100 = 28%.",
       "verified": true,
       "archetype": "ssc-chsl-Q06",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-chsl-036",
-      "section": "quant",
-      "topic": "Simple & Compound Interest",
-      "difficulty": "easy",
-      "question": "What is the simple interest on ₹5,000 at 8% per annum for 3 years?",
-      "options": [
-        "₹1,000",
-        "₹1,500",
-        "₹1,260",
-        "₹1,200"
-      ],
-      "answer": 3,
-      "explanation": "SI = 5000 × 8 × 3 / 100 = ₹1,200.",
-      "verified": true,
-      "archetype": "ssc-chsl-Q08",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Equivalent of 20% and 10% discounts; CHSL, easy"
+      }
     },
     {
       "id": "ssc-chsl-037",
@@ -2312,25 +2101,12 @@
       "explanation": "(3x − 9)/(5x − 9) = 12/23 → 69x − 207 = 60x − 108 → 9x = 99 → x = 11. Smaller number = 33. Check: 24/46 = 12/23 ✓.",
       "verified": true,
       "archetype": "ssc-chsl-Q11",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-chsl-038",
-      "section": "quant",
-      "topic": "Average",
-      "difficulty": "easy",
-      "question": "What is the average of the first 10 natural numbers?",
-      "options": [
-        "5",
-        "5.5",
-        "6",
-        "10"
-      ],
-      "answer": 1,
-      "explanation": "Sum = 10 × 11 / 2 = 55; average = 55/10 = 5.5.",
-      "verified": true,
-      "archetype": "ssc-chsl-Q12",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Ratio after subtracting 9 → 12:23; CHSL ratio change"
+      }
     },
     {
       "id": "ssc-chsl-039",
@@ -2348,25 +2124,12 @@
       "explanation": "For equal distances, average speed = 2xy/(x + y) = 2 × 40 × 60/100 = 48 km/h.",
       "verified": true,
       "archetype": "ssc-chsl-Q16",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-chsl-040",
-      "section": "quant",
-      "topic": "Time & Work",
-      "difficulty": "easy",
-      "question": "12 men can complete a work in 15 days. In how many days will 20 men complete the same work?",
-      "options": [
-        "10",
-        "12",
-        "9",
-        "8"
-      ],
-      "answer": 2,
-      "explanation": "Total work = 12 × 15 = 180 man-days; 180 ÷ 20 = 9 days.",
-      "verified": true,
-      "archetype": "ssc-chsl-Q14",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Harmonic mean to-and-fro average speed with 50 trap; CHSL"
+      }
     },
     {
       "id": "ssc-chsl-041",
@@ -2384,7 +2147,12 @@
       "explanation": "x² + 1/x² = (x − 1/x)² + 2 = 18. x⁴ + 1/x⁴ = 18² − 2 = 322.",
       "verified": true,
       "archetype": "ssc-chsl-Q17",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "x−1/x → x⁴+1/x⁴ = 322; CHSL algebra with 324 trap"
+      }
     },
     {
       "id": "ssc-chsl-042",
@@ -2402,25 +2170,12 @@
       "explanation": "Exterior angle = 180° − 140° = 40°; number of sides = 360°/40° = 9.",
       "verified": true,
       "archetype": "ssc-chsl-Q19",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-chsl-043",
-      "section": "quant",
-      "topic": "Mensuration",
-      "difficulty": "medium",
-      "question": "What is the area of an equilateral triangle of side 8 cm?",
-      "options": [
-        "16√3 cm²",
-        "32√3 cm²",
-        "8√3 cm²",
-        "64√3 cm²"
-      ],
-      "answer": 0,
-      "explanation": "Area = (√3/4) × 8² = 16√3 cm².",
-      "verified": true,
-      "archetype": "ssc-chsl-Q22",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Regular polygon sides from interior angle; CHSL geometry"
+      }
     },
     {
       "id": "ssc-chsl-044",
@@ -2438,7 +2193,12 @@
       "explanation": "1/4 + 1/4 + 1 = 3/2.",
       "verified": true,
       "archetype": "ssc-chsl-Q24",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Standard-angle sum; CHSL trig"
+      }
     },
     {
       "id": "ssc-chsl-045",
@@ -2456,61 +2216,12 @@
       "explanation": "Difference = 84 − 68 = 16. Percentage = 16/68 × 100 = 400/17 = 23 9/17 %.",
       "verified": true,
       "archetype": "ssc-chsl-Q26",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-chsl-046",
-      "section": "english",
-      "topic": "Synonyms",
-      "difficulty": "easy",
-      "question": "Select the most appropriate synonym of the given word.\nCANDID",
-      "options": [
-        "Secretive",
-        "Cunning",
-        "Timid",
-        "Frank"
-      ],
-      "answer": 3,
-      "explanation": "Candid means honest and straightforward – frank.",
-      "verified": true,
-      "archetype": "ssc-chsl-E07",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-chsl-047",
-      "section": "english",
-      "topic": "Antonyms",
-      "difficulty": "easy",
-      "question": "Select the most appropriate antonym of the given word.\nTRANSPARENT",
-      "options": [
-        "Opaque",
-        "Clear",
-        "Lucid",
-        "Obvious"
-      ],
-      "answer": 0,
-      "explanation": "Transparent (see-through) is the opposite of opaque.",
-      "verified": true,
-      "archetype": "ssc-chsl-E08",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-chsl-048",
-      "section": "english",
-      "topic": "Idioms & Phrases",
-      "difficulty": "medium",
-      "question": "Select the most appropriate meaning of the idiom.\nA blessing in disguise",
-      "options": [
-        "A hidden enemy",
-        "A gift that is not wanted",
-        "Something that seems bad at first but turns out to be good",
-        "A person who pretends to be religious"
-      ],
-      "answer": 2,
-      "explanation": "A blessing in disguise is an apparent misfortune that later proves beneficial.",
-      "verified": true,
-      "archetype": "ssc-chsl-E09",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Marks table % more with fractional answer 23 9/17; CHSL DI"
+      }
     },
     {
       "id": "ssc-chsl-049",
@@ -2528,7 +2239,12 @@
       "explanation": "Incorrigible = not able to be corrected. Invincible = cannot be defeated; indelible = cannot be erased.",
       "verified": true,
       "archetype": "ssc-chsl-E10",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Incorrigible OWS with In- look-alikes; CHSL"
+      }
     },
     {
       "id": "ssc-chsl-050",
@@ -2546,7 +2262,12 @@
       "explanation": "The correct spelling is 'necessary' (one 'c', double 's').",
       "verified": true,
       "archetype": "ssc-chsl-E11",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Neccessary misspelling; CHSL spelling"
+      }
     },
     {
       "id": "ssc-chsl-051",
@@ -2564,7 +2285,12 @@
       "explanation": "The subject is 'One' (singular), so 'have gone' should be 'has gone'.",
       "verified": true,
       "archetype": "ssc-chsl-E12",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "One of my friends have → has; core CHSL agreement error"
+      }
     },
     {
       "id": "ssc-chsl-052",
@@ -2582,7 +2308,12 @@
       "explanation": "'Information' is uncountable; it has no plural. Use 'much information' or 'a lot of information'.",
       "verified": true,
       "archetype": "ssc-chsl-E12",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Uncountable 'informations'; CHSL noun error"
+      }
     },
     {
       "id": "ssc-chsl-053",
@@ -2600,7 +2331,12 @@
       "explanation": "Latin comparatives such as senior, junior, superior and inferior take 'to', not 'than'.",
       "verified": true,
       "archetype": "ssc-chsl-E14",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Senior to (Latin comparative); CHSL improvement"
+      }
     },
     {
       "id": "ssc-chsl-054",
@@ -2618,7 +2354,12 @@
       "explanation": "Simple past interrogative 'Who wrote …?' becomes 'By whom was … written?' with question word order.",
       "verified": true,
       "archetype": "ssc-chsl-E15",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Interrogative passive 'By whom was…'; CHSL"
+      }
     },
     {
       "id": "ssc-chsl-055",
@@ -2636,43 +2377,12 @@
       "explanation": "Sentences beginning with 'Let us' (a proposal) are reported with 'suggested/proposed that … should'.",
       "verified": true,
       "archetype": "ssc-chsl-E16",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-chsl-056",
-      "section": "english",
-      "topic": "Fill in the Blanks",
-      "difficulty": "easy",
-      "question": "Select the most appropriate option to fill in the blank.\nShe has been working in this office ______ 2019.",
-      "options": [
-        "since",
-        "for",
-        "by",
-        "till"
-      ],
-      "answer": 0,
-      "explanation": "'Since' is used with a point of time in the perfect continuous tense; 'for' is used with a period of time.",
-      "verified": true,
-      "archetype": "ssc-chsl-E06",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-chsl-057",
-      "section": "english",
-      "topic": "Reading Comprehension",
-      "difficulty": "easy",
-      "question": "Read the passage and answer the question.\n\nThe Indian Railways introduced its first passenger train in 1853, running between Bombay and Thane. Since then the network has grown into one of the largest in the world. For millions of people, the railway is not just a means of transport but a lifeline that connects villages to cities, farms to markets and workers to factories. In recent years, the focus has shifted to modernisation: tracks are being electrified, stations redeveloped, and semi-high-speed trains introduced. Critics, however, argue that safety and punctuality deserve as much attention as speed, since a faster train is of little use if it does not arrive on time.\n\nBetween which places did India's first passenger train run?",
-      "options": [
-        "Howrah and Hooghly",
-        "Madras and Arcot",
-        "Delhi and Agra",
-        "Bombay and Thane"
-      ],
-      "answer": 3,
-      "explanation": "The passage says the first passenger train in 1853 ran between Bombay and Thane.",
-      "verified": true,
-      "archetype": "ssc-chsl-E01",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Let us → suggested that they should; CHSL narration"
+      }
     },
     {
       "id": "ssc-chsl-058",
@@ -2690,7 +2400,12 @@
       "explanation": "Critics argue that safety and punctuality deserve as much attention as speed.",
       "verified": true,
       "archetype": "ssc-chsl-E02",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Critics' argument RC; CHSL"
+      }
     },
     {
       "id": "ssc-chsl-059",
@@ -2708,43 +2423,12 @@
       "explanation": "The railway is described as connecting villages, markets and workers – something people depend on, i.e. essential support.",
       "verified": true,
       "archetype": "ssc-chsl-E03",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-chsl-060",
-      "section": "english",
-      "topic": "Cloze Test",
-      "difficulty": "medium",
-      "question": "Select the most appropriate option to fill in the blank.\nThe teacher asked the students to ______ their answers carefully before submitting the paper.",
-      "options": [
-        "checking",
-        "check",
-        "checked",
-        "to check"
-      ],
-      "answer": 1,
-      "explanation": "'Asked … to' must be followed by the base form of the verb: asked the students to check.",
-      "verified": true,
-      "archetype": "ssc-chsl-E04",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-chsl-061",
-      "section": "reasoning",
-      "topic": "Analogy",
-      "difficulty": "easy",
-      "question": "Select the option that is related to the third word in the same way as the second word is related to the first word.\nCow : Calf :: Horse : ?",
-      "options": [
-        "Cub",
-        "Kid",
-        "Foal",
-        "Puppy"
-      ],
-      "answer": 2,
-      "explanation": "The young one of a cow is a calf; the young one of a horse is a foal (cub – lion, kid – goat, puppy – dog).",
-      "source": "ai",
-      "archetype": "ssc-chsl-R01",
-      "verified": false
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Contextual meaning 'lifeline' with literal traps; CHSL"
+      }
     },
     {
       "id": "ssc-chsl-062",
@@ -2762,7 +2446,12 @@
       "explanation": "Rule: n³ − 1. 5³ − 1 = 124, so 7³ − 1 = 342.",
       "source": "ai",
       "archetype": "ssc-chsl-R02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "n³−1 with NOTE and 343 trap; exact CHSL format"
+      }
     },
     {
       "id": "ssc-chsl-063",
@@ -2780,7 +2469,12 @@
       "explanation": "Each letter moves +6: B→H, D→J, F→L. So N→T, P→V, R→X.",
       "source": "ai",
       "archetype": "ssc-chsl-R03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "+6 shift cluster analogy; CHSL letter analogy"
+      }
     },
     {
       "id": "ssc-chsl-064",
@@ -2798,25 +2492,12 @@
       "explanation": "BDF, KMO and PRT follow +2, +2. GJL follows +3, +2.",
       "source": "ai",
       "archetype": "ssc-chsl-R06",
-      "verified": false
-    },
-    {
-      "id": "ssc-chsl-065",
-      "section": "reasoning",
-      "topic": "Classification",
-      "difficulty": "easy",
-      "question": "Three of the following four numbers are alike in a certain way and one is different. Select the number that is different.",
-      "options": [
-        "343",
-        "900",
-        "512",
-        "729"
-      ],
-      "answer": 1,
-      "explanation": "343 = 7³, 512 = 8³ and 729 = 9³ are perfect cubes; 900 is not a perfect cube.",
-      "source": "ai",
-      "archetype": "ssc-chsl-R05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Odd cluster by gap pattern +3+2; CHSL"
+      }
     },
     {
       "id": "ssc-chsl-066",
@@ -2834,25 +2515,12 @@
       "explanation": "Sitar, violin and sarod are string instruments; the tabla is a percussion instrument.",
       "source": "ai",
       "archetype": "ssc-chsl-R04",
-      "verified": false
-    },
-    {
-      "id": "ssc-chsl-067",
-      "section": "reasoning",
-      "topic": "Number & Letter Series",
-      "difficulty": "easy",
-      "question": "Select the number that will come in place of the question mark (?) in the following series.\n2, 6, 12, 20, 30, ?",
-      "options": [
-        "40",
-        "44",
-        "42",
-        "36"
-      ],
-      "answer": 2,
-      "explanation": "Differences are 4, 6, 8, 10, 12, so the next term is 30 + 12 = 42 (n × (n + 1)).",
-      "source": "ai",
-      "archetype": "ssc-chsl-R07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Percussion vs string instruments; CHSL classification"
+      }
     },
     {
       "id": "ssc-chsl-068",
@@ -2870,25 +2538,12 @@
       "explanation": "First letters: A +3 D +4 H +5 M +6 S. Second letters: B +4 F +5 K +6 Q +7 X. Answer: SX.",
       "source": "ai",
       "archetype": "ssc-chsl-R08",
-      "verified": false
-    },
-    {
-      "id": "ssc-chsl-069",
-      "section": "reasoning",
-      "topic": "Coding-Decoding",
-      "difficulty": "easy",
-      "question": "In a certain code language, 'LIGHT' is written as 'KHFGS'. How will 'WATER' be written in that language?",
-      "options": [
-        "VZSDQ",
-        "XBUFS",
-        "VZSQD",
-        "VYSDQ"
-      ],
-      "answer": 0,
-      "explanation": "Each letter is moved one place back: W→V, A→Z, T→S, E→D, R→Q.",
-      "source": "ai",
-      "archetype": "ssc-chsl-R09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Two-letter cluster with growing gaps; CHSL"
+      }
     },
     {
       "id": "ssc-chsl-070",
@@ -2906,7 +2561,12 @@
       "explanation": "Code = sum of alphabet positions: M13 + A1 + T20 = 34; S19 + U21 + N14 = 54; C3 + U21 + P16 = 40.",
       "source": "ai",
       "archetype": "ssc-chsl-R10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Sum-of-positions code with two examples; CHSL"
+      }
     },
     {
       "id": "ssc-chsl-071",
@@ -2924,7 +2584,12 @@
       "explanation": "Interchanging ÷ and + gives 15 + 6 × 4 ÷ 3 − 5 = 15 + 8 − 5 = 18. The other swaps give 13.5, −8.4 and 12.",
       "source": "ai",
       "archetype": "ssc-chsl-R17",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Interchange signs to balance equation; exact CHSL format"
+      }
     },
     {
       "id": "ssc-chsl-072",
@@ -2942,7 +2607,12 @@
       "explanation": "a @ b = a × b + a + b: 12 + 7 = 19, 10 + 7 = 17, 18 + 9 = 27. So 7 @ 4 = 28 + 11 = 39.",
       "source": "ai",
       "archetype": "ssc-chsl-R19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "ab+a+b defined operation; CHSL missing number"
+      }
     },
     {
       "id": "ssc-chsl-073",
@@ -2960,7 +2630,12 @@
       "explanation": "The only daughter of Rohan's mother is Rohan's sister. The woman is his sister's daughter, i.e. his niece.",
       "source": "ai",
       "archetype": "ssc-chsl-R12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "'Only daughter of my mother' niece chain; CHSL"
+      }
     },
     {
       "id": "ssc-chsl-074",
@@ -2978,7 +2653,12 @@
       "explanation": "Angle = |30H − 5.5M| = |90 − 110| = 20°.",
       "source": "ai",
       "archetype": "ssc-chsl-R23",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Clock angle at 3:20; CHSL"
+      }
     },
     {
       "id": "ssc-chsl-075",
@@ -2996,7 +2676,12 @@
       "explanation": "Mirror time = 11:60 − 4:25 = 7:35.",
       "source": "ai",
       "archetype": "ssc-chsl-R26",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Mirror time 11:60 rule; CHSL mirror clock"
+      }
     },
     {
       "id": "ssc-chsl-076",
@@ -3014,25 +2699,12 @@
       "explanation": "Akbar introduced the Mansabdari system, under which every officer held a rank (mansab).",
       "source": "ai",
       "archetype": "ssc-chsl-G01",
-      "verified": false
-    },
-    {
-      "id": "ssc-chsl-077",
-      "section": "gk",
-      "topic": "History",
-      "difficulty": "easy",
-      "question": "In which year was the Indian National Congress founded?",
-      "options": [
-        "1905",
-        "1857",
-        "1885",
-        "1906"
-      ],
-      "answer": 2,
-      "explanation": "The INC was founded in December 1885; its first session was held in Bombay under W. C. Bonnerjee.",
-      "source": "ai",
-      "archetype": "ssc-chsl-G02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Mansabdari–Akbar; CHSL medieval history"
+      }
     },
     {
       "id": "ssc-chsl-078",
@@ -3050,7 +2722,12 @@
       "explanation": "Dr B. R. Ambedkar founded the Bahishkrit Hitakarini Sabha in Bombay in 1924.",
       "source": "ai",
       "archetype": "ssc-chsl-G02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Bahishkrit Hitakarini Sabha–Ambedkar; CHSL organisation founder"
+      }
     },
     {
       "id": "ssc-chsl-079",
@@ -3068,7 +2745,12 @@
       "explanation": "Article 21A, inserted by the 86th Amendment (2002), makes elementary education a Fundamental Right. Article 45 now deals with early childhood care.",
       "source": "ai",
       "archetype": "ssc-chsl-G03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Article 21A RTE with Art 45 trap; CHSL article item"
+      }
     },
     {
       "id": "ssc-chsl-080",
@@ -3086,7 +2768,12 @@
       "explanation": "The Eighth Schedule lists the 22 recognised languages; oaths – Third, Rajya Sabha seats – Fourth, anti-defection – Tenth Schedule.",
       "source": "ai",
       "archetype": "ssc-chsl-G04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Eighth Schedule languages with other schedule traps; CHSL"
+      }
     },
     {
       "id": "ssc-chsl-081",
@@ -3104,97 +2791,12 @@
       "explanation": "The Chambal rises in the Vindhyas near Mhow and joins the Yamuna in Uttar Pradesh.",
       "source": "ai",
       "archetype": "ssc-chsl-G06",
-      "verified": false
-    },
-    {
-      "id": "ssc-chsl-082",
-      "section": "gk",
-      "topic": "Geography",
-      "difficulty": "easy",
-      "question": "Which state is the largest producer of tea in India?",
-      "options": [
-        "West Bengal",
-        "Assam",
-        "Kerala",
-        "Tamil Nadu"
-      ],
-      "answer": 1,
-      "explanation": "Assam produces about half of India's tea.",
-      "source": "ai",
-      "archetype": "ssc-chsl-G07",
-      "verified": false
-    },
-    {
-      "id": "ssc-chsl-083",
-      "section": "gk",
-      "topic": "Economy",
-      "difficulty": "easy",
-      "question": "The Goods and Services Tax (GST) was implemented across India from which date?",
-      "options": [
-        "1 April 2017",
-        "1 July 2016",
-        "1 April 2018",
-        "1 July 2017"
-      ],
-      "answer": 3,
-      "explanation": "GST came into force on 1 July 2017 after the 101st Constitutional Amendment.",
-      "source": "ai",
-      "archetype": "ssc-chsl-G10",
-      "verified": false
-    },
-    {
-      "id": "ssc-chsl-084",
-      "section": "gk",
-      "topic": "Physics",
-      "difficulty": "easy",
-      "question": "Which device converts electrical energy into mechanical energy?",
-      "options": [
-        "Electric motor",
-        "Electric generator",
-        "Transformer",
-        "Rectifier"
-      ],
-      "answer": 0,
-      "explanation": "A motor converts electrical energy to mechanical energy; a generator does the reverse.",
-      "source": "ai",
-      "archetype": "ssc-chsl-G11",
-      "verified": false
-    },
-    {
-      "id": "ssc-chsl-085",
-      "section": "gk",
-      "topic": "Chemistry",
-      "difficulty": "easy",
-      "question": "Which gas is commonly known as 'laughing gas'?",
-      "options": [
-        "Nitric oxide",
-        "Nitrogen dioxide",
-        "Carbon monoxide",
-        "Nitrous oxide"
-      ],
-      "answer": 3,
-      "explanation": "Nitrous oxide (N₂O) is called laughing gas and is used as a mild anaesthetic.",
-      "source": "ai",
-      "archetype": "ssc-chsl-G12",
-      "verified": false
-    },
-    {
-      "id": "ssc-chsl-086",
-      "section": "gk",
-      "topic": "Biology",
-      "difficulty": "easy",
-      "question": "Night blindness is caused by the deficiency of which vitamin?",
-      "options": [
-        "Vitamin A",
-        "Vitamin B₁₂",
-        "Vitamin C",
-        "Vitamin K"
-      ],
-      "answer": 0,
-      "explanation": "Vitamin A (retinol) is needed for the visual pigment rhodopsin; its deficiency causes night blindness.",
-      "source": "ai",
-      "archetype": "ssc-chsl-G13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Chambal → Yamuna tributary; CHSL rivers"
+      }
     },
     {
       "id": "ssc-chsl-087",
@@ -3212,61 +2814,12 @@
       "explanation": "The Hornbill Festival is held at Kisama near Kohima, Nagaland, from 1 to 10 December.",
       "source": "ai",
       "archetype": "ssc-chsl-G15",
-      "verified": false
-    },
-    {
-      "id": "ssc-chsl-088",
-      "section": "gk",
-      "topic": "Current Affairs",
-      "difficulty": "easy",
-      "question": "Which country hosted the G20 Leaders' Summit in 2023?",
-      "options": [
-        "Brazil",
-        "Indonesia",
-        "India",
-        "South Africa"
-      ],
-      "answer": 2,
-      "explanation": "India held the G20 presidency in 2023 and hosted the summit in New Delhi (Bharat Mandapam) in September 2023.",
-      "source": "ai",
-      "archetype": "ssc-chsl-G17",
-      "verified": false
-    },
-    {
-      "id": "ssc-chsl-089",
-      "section": "gk",
-      "topic": "Sports",
-      "difficulty": "easy",
-      "question": "How many players of each team are on the court at a time in a game of volleyball?",
-      "options": [
-        "5",
-        "7",
-        "9",
-        "6"
-      ],
-      "answer": 3,
-      "explanation": "A volleyball team has six players on court.",
-      "source": "ai",
-      "archetype": "ssc-chsl-G18",
-      "verified": false
-    },
-    {
-      "id": "ssc-chsl-090",
-      "section": "gk",
-      "topic": "Books, Authors & Awards",
-      "difficulty": "easy",
-      "question": "Who wrote the Hindi novel 'Godaan'?",
-      "options": [
-        "Munshi Premchand",
-        "Jaishankar Prasad",
-        "Harivansh Rai Bachchan",
-        "Mahadevi Verma"
-      ],
-      "answer": 0,
-      "explanation": "'Godaan' (1936) is Premchand's last completed novel.",
-      "source": "ai",
-      "archetype": "ssc-chsl-G19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Hornbill Festival–Nagaland with NE-state traps; CHSL"
+      }
     },
     {
       "id": "ssc-chsl-091",
@@ -3284,25 +2837,12 @@
       "explanation": "3⁶⁵: 65 = 4×16 + 1 → 3. 6⁵⁹ → 6. 7⁷¹: 71 = 4×17 + 3 → 3. 3 × 6 × 3 = 54 → unit digit 4.",
       "source": "ai",
       "archetype": "ssc-chsl-Q01",
-      "verified": false
-    },
-    {
-      "id": "ssc-chsl-092",
-      "section": "quant",
-      "topic": "Simplification",
-      "difficulty": "easy",
-      "question": "What is the value of 48 ÷ 6 × 4 − 3 × (15 − 9) + 7?",
-      "options": [
-        "15",
-        "27",
-        "21",
-        "3"
-      ],
-      "answer": 2,
-      "explanation": "Bracket: 6. Then 48 ÷ 6 × 4 = 32 and 3 × 6 = 18. 32 − 18 + 7 = 21.",
-      "source": "ai",
-      "archetype": "ssc-chsl-Q03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Unit digit of product of three powers; CHSL cyclicity"
+      }
     },
     {
       "id": "ssc-chsl-093",
@@ -3320,7 +2860,12 @@
       "explanation": "2 × ½ × ½ = ½ and tan² 60° = 3. Sum = 3½ = 7/2.",
       "source": "ai",
       "archetype": "ssc-chsl-Q24",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "2 sin30 cos60 + tan²60; CHSL standard angles"
+      }
     },
     {
       "id": "ssc-chsl-094",
@@ -3338,7 +2883,12 @@
       "explanation": "Take income 100: expenditure 75, savings 25. New income 120, expenditure 82.5, savings 37.5. Increase = 12.5/25 = 50%.",
       "source": "ai",
       "archetype": "ssc-chsl-Q05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Savings % change with income/expenditure rise; CHSL word problem"
+      }
     },
     {
       "id": "ssc-chsl-095",
@@ -3356,7 +2906,12 @@
       "explanation": "SP = 2400 × 0.875 = ₹2,100. CP = 2100/1.05 = ₹2,000.",
       "source": "ai",
       "archetype": "ssc-chsl-Q06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "CP from MP, discount and gain; CHSL"
+      }
     },
     {
       "id": "ssc-chsl-096",
@@ -3374,61 +2929,12 @@
       "explanation": "Gain = (18 − 15)/15 × 100 = 20%. (16⅔% wrongly divides by 18.)",
       "source": "ai",
       "archetype": "ssc-chsl-Q07",
-      "verified": false
-    },
-    {
-      "id": "ssc-chsl-097",
-      "section": "quant",
-      "topic": "Simple & Compound Interest",
-      "difficulty": "easy",
-      "question": "A sum of ₹6,000 amounts to ₹7,440 in 3 years at simple interest. What is the rate of interest per annum?",
-      "options": [
-        "7%",
-        "9%",
-        "6%",
-        "8%"
-      ],
-      "answer": 3,
-      "explanation": "SI = 1440. Rate = 1440 × 100/(6000 × 3) = 8%.",
-      "source": "ai",
-      "archetype": "ssc-chsl-Q08",
-      "verified": false
-    },
-    {
-      "id": "ssc-chsl-098",
-      "section": "quant",
-      "topic": "Mensuration",
-      "difficulty": "medium",
-      "question": "What is the volume of a right circular cone of radius 7 cm and height 12 cm? (Take π = 22/7)",
-      "options": [
-        "616 cm³",
-        "1848 cm³",
-        "308 cm³",
-        "462 cm³"
-      ],
-      "answer": 0,
-      "explanation": "V = ⅓πr²h = ⅓ × 22/7 × 49 × 12 = 616 cm³. (1848 cm³ is the cylinder's volume.)",
-      "source": "ai",
-      "archetype": "ssc-chsl-Q23",
-      "verified": false
-    },
-    {
-      "id": "ssc-chsl-099",
-      "section": "quant",
-      "topic": "Ratio & Proportion",
-      "difficulty": "easy",
-      "question": "₹5,400 is divided among A, B and C in the ratio 2 : 3 : 4. What is C's share?",
-      "options": [
-        "₹1,800",
-        "₹1,200",
-        "₹2,400",
-        "₹2,700"
-      ],
-      "answer": 2,
-      "explanation": "One part = 5400/9 = 600. C gets 4 × 600 = ₹2,400.",
-      "source": "ai",
-      "archetype": "ssc-chsl-Q10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "CP of 18 = SP of 15; CHSL profit with 16⅔% trap"
+      }
     },
     {
       "id": "ssc-chsl-100",
@@ -3446,7 +2952,12 @@
       "explanation": "Total increase = 8 × 2.5 = 20 kg, so the new person weighs 56 + 20 = 76 kg.",
       "source": "ai",
       "archetype": "ssc-chsl-Q12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Replacement average; CHSL"
+      }
     },
     {
       "id": "ssc-chsl-101",
@@ -3464,25 +2975,12 @@
       "explanation": "Combined rate = 1/12 + 1/20 = 8/60 = 2/15 per hour, so time = 15/2 = 7.5 hours.",
       "source": "ai",
       "archetype": "ssc-chsl-Q14",
-      "verified": false
-    },
-    {
-      "id": "ssc-chsl-102",
-      "section": "quant",
-      "topic": "Time, Speed & Distance",
-      "difficulty": "easy",
-      "question": "A train running at 54 km/h crosses a pole in 12 seconds. What is the length of the train?",
-      "options": [
-        "180 m",
-        "150 m",
-        "200 m",
-        "162 m"
-      ],
-      "answer": 0,
-      "explanation": "54 km/h = 15 m/s. Length = 15 × 12 = 180 m.",
-      "source": "ai",
-      "archetype": "ssc-chsl-Q15",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Two filling pipes; CHSL pipes"
+      }
     },
     {
       "id": "ssc-chsl-103",
@@ -3500,25 +2998,12 @@
       "explanation": "x³ + 1/x³ = (x + 1/x)³ − 3(x + 1/x) = 64 − 12 = 52.",
       "source": "ai",
       "archetype": "ssc-chsl-Q17",
-      "verified": false
-    },
-    {
-      "id": "ssc-chsl-104",
-      "section": "quant",
-      "topic": "Geometry",
-      "difficulty": "easy",
-      "question": "The angles of a triangle are in the ratio 2 : 3 : 4. What is the measure of the largest angle?",
-      "options": [
-        "60°",
-        "80°",
-        "40°",
-        "90°"
-      ],
-      "answer": 1,
-      "explanation": "2x + 3x + 4x = 180°, so x = 20°. Largest angle = 4 × 20° = 80°.",
-      "source": "ai",
-      "archetype": "ssc-chsl-Q19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "x+1/x=4 → x³+1/x³; CHSL algebra"
+      }
     },
     {
       "id": "ssc-chsl-105",
@@ -3536,7 +3021,12 @@
       "explanation": "(45 + 40) : (55 + 60) = 85 : 115 = 17 : 23.",
       "source": "ai",
       "archetype": "ssc-chsl-Q26",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Ratio of totals from text table; CHSL DI"
+      }
     },
     {
       "id": "ssc-chsl-106",
@@ -3554,7 +3044,12 @@
       "explanation": "The passage says that after the Green Revolution, high-yielding rice and wheat were promoted and millets slowly disappeared.",
       "source": "ai",
       "archetype": "ssc-chsl-E01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Factual RC on millets; CHSL"
+      }
     },
     {
       "id": "ssc-chsl-107",
@@ -3572,7 +3067,12 @@
       "explanation": "The passage traces how millets declined and are now being valued again, so 'The Return of an Old Grain' fits best.",
       "source": "ai",
       "archetype": "ssc-chsl-E02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Title RC; CHSL"
+      }
     },
     {
       "id": "ssc-chsl-108",
@@ -3590,7 +3090,12 @@
       "explanation": "'Hardy' crops can endure difficult conditions – robust. 'Delicate' is the opposite.",
       "source": "ai",
       "archetype": "ssc-chsl-E03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Contextual synonym 'hardy'; CHSL"
+      }
     },
     {
       "id": "ssc-chsl-109",
@@ -3608,7 +3113,12 @@
       "explanation": "The phrase is 'at home': keeping books at home.",
       "source": "ai",
       "archetype": "ssc-chsl-E04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Cloze preposition 'at home'; CHSL"
+      }
     },
     {
       "id": "ssc-chsl-110",
@@ -3626,61 +3136,12 @@
       "explanation": "'More likely to + verb' is the correct pattern; 'probable' and 'possible' cannot take a to-infinitive about a person, and 'capable' needs 'of'.",
       "source": "ai",
       "archetype": "ssc-chsl-E04",
-      "verified": false
-    },
-    {
-      "id": "ssc-chsl-111",
-      "section": "english",
-      "topic": "Synonyms",
-      "difficulty": "easy",
-      "question": "Select the most appropriate synonym of the given word.\nACCURATE",
-      "options": [
-        "Careless",
-        "Vague",
-        "Rough",
-        "Precise"
-      ],
-      "answer": 3,
-      "explanation": "Accurate means correct in every detail – precise.",
-      "source": "ai",
-      "archetype": "ssc-chsl-E07",
-      "verified": false
-    },
-    {
-      "id": "ssc-chsl-112",
-      "section": "english",
-      "topic": "Antonyms",
-      "difficulty": "easy",
-      "question": "Select the most appropriate antonym of the given word.\nGENEROUS",
-      "options": [
-        "Kind",
-        "Stingy",
-        "Liberal",
-        "Noble"
-      ],
-      "answer": 1,
-      "explanation": "Generous means willing to give freely; the opposite is stingy. 'Liberal' is a synonym.",
-      "source": "ai",
-      "archetype": "ssc-chsl-E08",
-      "verified": false
-    },
-    {
-      "id": "ssc-chsl-113",
-      "section": "english",
-      "topic": "Idioms & Phrases",
-      "difficulty": "medium",
-      "question": "Select the most appropriate meaning of the given idiom.\nTo beat around the bush",
-      "options": [
-        "To search a forest thoroughly",
-        "To avoid coming to the main point",
-        "To work hard in difficult conditions",
-        "To defeat an opponent easily"
-      ],
-      "answer": 1,
-      "explanation": "'Beat around the bush' means to talk indirectly and avoid the main issue.",
-      "source": "ai",
-      "archetype": "ssc-chsl-E09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Cloze 'more likely to' vs probable trap; CHSL"
+      }
     },
     {
       "id": "ssc-chsl-114",
@@ -3698,7 +3159,12 @@
       "explanation": "An extempore speech is made without preparation; a eulogy praises someone, a soliloquy is spoken to oneself.",
       "source": "ai",
       "archetype": "ssc-chsl-E10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Extempore vs soliloquy OWS; CHSL"
+      }
     },
     {
       "id": "ssc-chsl-115",
@@ -3716,7 +3182,12 @@
       "explanation": "The correct spelling is 'maintenance'.",
       "source": "ai",
       "archetype": "ssc-chsl-E11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Maintenance spelling with -ain trap; CHSL"
+      }
     },
     {
       "id": "ssc-chsl-116",
@@ -3734,7 +3205,12 @@
       "explanation": "'News' is an uncountable singular noun, so it takes 'was': 'The news about the floods was shocking.'",
       "source": "ai",
       "archetype": "ssc-chsl-E12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "News … were → was; CHSL agreement"
+      }
     },
     {
       "id": "ssc-chsl-117",
@@ -3752,7 +3228,12 @@
       "explanation": "'Since' is used with a point of time; with a period of time use 'for': 'for five years'.",
       "source": "ai",
       "archetype": "ssc-chsl-E13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Since five years → for; CHSL tense/prep error"
+      }
     },
     {
       "id": "ssc-chsl-118",
@@ -3770,7 +3251,12 @@
       "explanation": "In 'look forward to', 'to' is a preposition, so it is followed by a gerund: 'to meeting'.",
       "source": "ai",
       "archetype": "ssc-chsl-E14",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Look forward to meeting; CHSL gerund improvement"
+      }
     },
     {
       "id": "ssc-chsl-119",
@@ -3788,7 +3274,12 @@
       "explanation": "The verb 'accuse' takes the preposition 'of': accused of theft.",
       "source": "ai",
       "archetype": "ssc-chsl-E06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Accused of; CHSL preposition blank"
+      }
     },
     {
       "id": "ssc-chsl-120",
@@ -3806,7 +3297,12 @@
       "explanation": "Questions are reported with 'asked', in statement word order, with the tense backshifted (are doing → was doing) and 'here' changed to 'there'.",
       "source": "ai",
       "archetype": "ssc-chsl-E16",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Wh-question indirect speech with word-order trap; CHSL"
+      }
     }
   ]
 }

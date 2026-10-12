@@ -85,3 +85,5 @@ table{width:100%;border-collapse:collapse;font-size:.92rem}th,td{text-align:left
 .arch{margin:6px 0 10px;padding-left:18px;font-size:.9rem}.arch li{margin:3px 0}
 details summary{cursor:pointer;font-weight:600;margin:6px 0}
 .pyq{color:var(--ok);font-weight:600}.aitag{background:var(--brand2);color:var(--brand);border-radius:4px;padding:0 5px;font-size:.75rem}
+.fig{display:block;max-width:min(100%,360px);height:auto;margin:8px 0;background:#fff;border-radius:6px}
+.opt .fig{max-width:120px;margin:4px 0 0}

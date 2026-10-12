@@ -53,6 +53,10 @@ for (const file of files) {
       if (new Set(q.options.map(o => String(o).trim().toLowerCase())).size !== q.options.length) errs.push(`${where}: duplicate options`);
     }
     if (!q.question || !q.explanation) errs.push(`${where}: question/explanation missing`);
+    // figure questions: inline SVG only, no script or external references
+    const svgOk = v => typeof v === 'string' && /^<svg[\s>]/.test(v.trim()) && /<\/svg>\s*$/.test(v) && !/<script|\son\w+\s*=|href\s*=\s*["']?(?!#)|<foreignObject/i.test(v) && v.length < 20000;
+    if (q.figure !== undefined && !svgOk(q.figure)) errs.push(`${where}: figure must be a self-contained <svg> (no script/links, < 20 kB)`);
+    if (q.optionFigures !== undefined && (!Array.isArray(q.optionFigures) || q.optionFigures.length !== q.options?.length || !q.optionFigures.every(svgOk))) errs.push(`${where}: optionFigures must be one valid <svg> per option`);
     if (!['easy','medium','hard'].includes(q.difficulty)) errs.push(`${where}: bad difficulty`);
     if (q.verified) verified++;
     const a = archetypes.get(q.archetype);

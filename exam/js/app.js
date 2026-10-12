@@ -18,6 +18,9 @@ const fmtTime = s => { s = Math.max(0, Math.round(s)); const h = Math.floor(s / 
 const pct = x => Math.round(x * 100) + '%';
 const fmtDate = ms => new Date(ms).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' });
 const LETTERS = 'ABCDEFGH';
+// Figure-based questions carry inline SVG. It is shown through <img>, so even a
+// malformed figure can never run script on the page.
+const fig = svg => (svg ? `<img class="fig" alt="figure" src="data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}">` : '');
 const save = () => store.save(state);
 
 const CATEGORIES = {
@@ -283,8 +286,8 @@ async function viewTest() {
             <span class="muted">+${mk.correct} / ${mk.wrong}</span>
             ${q.questionHi ? `<button class="link" id="qlang">${showHi ? 'English' : 'हिंदी'}</button>` : ''}
           </div>
-          <div class="qtext">${esc(text).replace(/\n/g, '<br>')}</div>
-          <div class="opts">${order.map((oi, k) => `<label class="opt ${r.answer === oi ? 'sel' : ''}"><input type="radio" name="o" value="${oi}" ${r.answer === oi ? 'checked' : ''}><b>${LETTERS[k]}</b><span>${esc(opts[oi])}</span></label>`).join('')}</div>
+          <div class="qtext">${esc(text).replace(/\n/g, '<br>')}${fig(q.figure)}</div>
+          <div class="opts">${order.map((oi, k) => `<label class="opt ${r.answer === oi ? 'sel' : ''}"><input type="radio" name="o" value="${oi}" ${r.answer === oi ? 'checked' : ''}><b>${LETTERS[k]}</b><span>${esc(opts[oi])}${fig(q.optionFigures?.[oi])}</span></label>`).join('')}</div>
           <div class="qnav">
             <button class="btn alt" id="prev" ${run.current === 0 ? 'disabled' : ''}>← ${t('Previous', 'पिछला')}</button>
             <button class="btn alt" id="clear">${t('Clear', 'हटाएँ')}</button>
@@ -389,8 +392,8 @@ async function viewResult(id) {
       <div class="filter"><label><input type="checkbox" id="onlyWrong"> ${t('Show only wrong / skipped', 'केवल ग़लत / छोड़े हुए दिखाएँ')}</label></div>
       <ol class="review">${r.items.map(it => { const q = byId.get(it.id); if (!q) return ''; return `
         <li class="${it.correct ? 'right' : it.answer == null ? 'skip' : 'wrong'}">
-          <div class="qtext">${esc(q.question).replace(/\n/g, '<br>')}</div>
-          <ul>${(a.optionOrder?.[q.id] || q.options.map((_, i) => i)).map((i, k) => `<li class="${i === q.answer ? 'ans' : ''} ${i === it.answer && !it.correct ? 'mine' : ''}"><b>${LETTERS[k]}</b> ${esc(q.options[i])}</li>`).join('')}</ul>
+          <div class="qtext">${esc(q.question).replace(/\n/g, '<br>')}${fig(q.figure)}</div>
+          <ul>${(a.optionOrder?.[q.id] || q.options.map((_, i) => i)).map((i, k) => `<li class="${i === q.answer ? 'ans' : ''} ${i === it.answer && !it.correct ? 'mine' : ''}"><b>${LETTERS[k]}</b> ${esc(q.options[i])}${fig(q.optionFigures?.[i])}</li>`).join('')}</ul>
           <div class="expl"><b>${it.correct ? '✔ ' + t('Correct', 'सही') : it.answer == null ? '— ' + t('Not attempted', 'प्रयास नहीं') : '✘ ' + t('Wrong', 'ग़लत')}</b> · ${esc(q.topic)} · ${q.difficulty} · ${Math.round(it.timeSec)}s${q.relevance ? ` · <span class="pyq" title="${esc(q.relevance.note || '')}">${t('PYQ match', 'PYQ मिलान')} ${q.relevance.score}%</span>` : ''}${q.source === 'ai' ? ` · <span class="aitag">AI</span>` : ''}<br>${esc(q.explanation)}${archById.get(q.archetype) ? `<br><i>${t('PYQ pattern', 'PYQ पैटर्न')}: ${esc(archById.get(q.archetype).pattern)} (${esc(archById.get(q.archetype).years.join(', '))})</i>` : ''}</div>
         </li>`; }).join('')}</ol>
     </div>`);

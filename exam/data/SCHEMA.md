@@ -60,6 +60,8 @@ Questions must be ORIGINAL, written in the style/difficulty/topic mix of the las
       "topic": "Coding-Decoding",       // must match a trendAnalysis.topics[].topic in the same section
       "difficulty": "easy",             // easy | medium | hard
       "question": "Text. Use plain text; for maths use unicode (x², √, π, ≤) not LaTeX.",
+      "figure": "<svg …>…</svg>",       // optional: inline SVG for figure-based questions (no script/links, < 20 kB, viewBox set)
+      "optionFigures": ["<svg…>", …],    // optional: one SVG per option when the options are figures (options then hold short labels like "Figure 1")
       "options": ["A", "B", "C", "D"],  // exactly 4 unless the exam really uses another count
       "answer": 2,                      // 0-based index of the correct option
       "explanation": "Short worked solution showing why the answer is right.",

@@ -1689,24 +1689,6 @@
   },
   "questions": [
     {
-      "id": "ssc-cpo-001",
-      "section": "reasoning",
-      "topic": "Analogy",
-      "difficulty": "easy",
-      "question": "Select the option that is related to the third word in the same way as the second word is related to the first.\nPen : Write :: Knife : ?",
-      "options": [
-        "Sharp",
-        "Steel",
-        "Kitchen",
-        "Cut"
-      ],
-      "answer": 3,
-      "explanation": "A pen is used to write; a knife is used to cut.",
-      "verified": true,
-      "archetype": "ssc-cpo-R01",
-      "source": "curated"
-    },
-    {
       "id": "ssc-cpo-002",
       "section": "reasoning",
       "topic": "Analogy",
@@ -1722,7 +1704,12 @@
       "explanation": "Each letter moves 5 places forward: A→F, C→H, E→J. So M→R, O→T, Q→V.",
       "verified": true,
       "archetype": "ssc-cpo-R03",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "+5 shift letter-cluster analogy; CPO style"
+      }
     },
     {
       "id": "ssc-cpo-003",
@@ -1740,7 +1727,12 @@
       "explanation": "In BD, FH and JL there is a gap of one letter (+2). In NQ the gap is two letters (+3).",
       "verified": true,
       "archetype": "ssc-cpo-R06",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Odd letter-pair by +3 gap; CPO classification"
+      }
     },
     {
       "id": "ssc-cpo-004",
@@ -1758,7 +1750,12 @@
       "explanation": "Differences: 5, 10, 15, 20, so next is 25: 56 + 25 = 81.",
       "verified": true,
       "archetype": "ssc-cpo-R07",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Differences in AP (5,10,15…) series; CPO"
+      }
     },
     {
       "id": "ssc-cpo-005",
@@ -1776,43 +1773,12 @@
       "explanation": "Terms are n³ − n for n = 1, 2, 3, 4, 5: 0, 6, 24, 60, 120. Next: 6³ − 6 = 210.",
       "verified": true,
       "archetype": "ssc-cpo-R07",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-cpo-006",
-      "section": "reasoning",
-      "topic": "Coding-Decoding",
-      "difficulty": "medium",
-      "question": "If MONDAY is written as NPOEBZ in a certain code, how will FRIDAY be written in that code?",
-      "options": [
-        "GSJECZ",
-        "GSIEBZ",
-        "HSJEBZ",
-        "GSJEBZ"
-      ],
-      "answer": 3,
-      "explanation": "Each letter moves one place forward: F→G, R→S, I→J, D→E, A→B, Y→Z.",
-      "verified": true,
-      "archetype": "ssc-cpo-R09",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-cpo-007",
-      "section": "reasoning",
-      "topic": "Coding-Decoding",
-      "difficulty": "medium",
-      "question": "If PEN = 35 in a certain code, what is INK equal to in the same code?",
-      "options": [
-        "33",
-        "34",
-        "35",
-        "36"
-      ],
-      "answer": 1,
-      "explanation": "Sum of positions: P(16) + E(5) + N(14) = 35. I(9) + N(14) + K(11) = 34.",
-      "verified": true,
-      "archetype": "ssc-cpo-R10",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "n³−n series with 216 cube trap; CPO"
+      }
     },
     {
       "id": "ssc-cpo-008",
@@ -1830,7 +1796,12 @@
       "explanation": "P × Q: P is the father of Q. Q − R: Q is the brother of R, so R is also P's child. Hence P is the father of R.",
       "verified": true,
       "archetype": "ssc-cpo-R13",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Coded blood relation with brother/uncle trap; CPO"
+      }
     },
     {
       "id": "ssc-cpo-009",
@@ -1848,7 +1819,12 @@
       "explanation": "South 30 → (0, −30); left of South is East: 40 → (40, −30); left of East is North: 30 → (40, 0). He is 40 m East of the start.",
       "verified": true,
       "archetype": "ssc-cpo-R14",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Three-leg U walk net 40 m East; CPO direction"
+      }
     },
     {
       "id": "ssc-cpo-010",
@@ -1866,7 +1842,12 @@
       "explanation": "The engineers who are graduates need not be teachers, so I is not certain. 'Some graduates are engineers' does not make all engineers graduates, so II does not follow.",
       "verified": true,
       "archetype": "ssc-cpo-R15",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Undistributed middle syllogism 'neither'; CPO"
+      }
     },
     {
       "id": "ssc-cpo-011",
@@ -1884,7 +1865,12 @@
       "explanation": "Replace the signs: 12 × 3 + 40 ÷ 8 − 6 = 36 + 5 − 6 = 35.",
       "verified": true,
       "archetype": "ssc-cpo-R16",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Sign-substitution BODMAS; CPO"
+      }
     },
     {
       "id": "ssc-cpo-012",
@@ -1902,25 +1888,12 @@
       "explanation": "a * b = a² + b²: 4 + 9 = 13, 9 + 16 = 25. So 16 + 25 = 41.",
       "verified": true,
       "archetype": "ssc-cpo-R19",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-cpo-013",
-      "section": "reasoning",
-      "topic": "Order & Ranking",
-      "difficulty": "easy",
-      "question": "In a class of 45 students, Priya ranks 18th from the top. What is her rank from the bottom?",
-      "options": [
-        "28th",
-        "27th",
-        "29th",
-        "26th"
-      ],
-      "answer": 0,
-      "explanation": "45 − 18 + 1 = 28.",
-      "verified": true,
-      "archetype": "ssc-cpo-R21",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "a²+b² defined operation; CPO"
+      }
     },
     {
       "id": "ssc-cpo-014",
@@ -1938,7 +1911,12 @@
       "explanation": "Compare the third letters: Ga-l, Ga-m, Ga-r, Ga-t, Ga-z → Gallop, Gamble, Garden, Gather, Gaze = 3, 4, 2, 1, 5.",
       "verified": true,
       "archetype": "ssc-cpo-R22",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Ga- words dictionary order; CPO"
+      }
     },
     {
       "id": "ssc-cpo-015",
@@ -1956,7 +1934,12 @@
       "explanation": "Odd-day method: 1600 years → 0 odd days; 300 years → 1; 49 years (12 leap + 37 ordinary) → 12×2 + 37 = 61 → 5 odd days; 26 days of January → 5. Total = 11 → 4 odd days = Thursday.",
       "verified": true,
       "archetype": "ssc-cpo-R23",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "26 Jan 1950 was a Thursday; odd-day calendar item seen in SSC"
+      }
     },
     {
       "id": "ssc-cpo-016",
@@ -1974,7 +1957,12 @@
       "explanation": "Annie Besant presided over the Calcutta session of 1917. Sarojini Naidu (Kanpur, 1925) was the first Indian woman President.",
       "verified": true,
       "archetype": "ssc-cpo-G02",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "First woman INC president Annie Besant with Naidu trap; CPO"
+      }
     },
     {
       "id": "ssc-cpo-017",
@@ -1992,7 +1980,12 @@
       "explanation": "The Ghadar Party was founded in 1913 on the Pacific coast of the USA by Lala Har Dayal along with Sohan Singh Bhakna and others.",
       "verified": true,
       "archetype": "ssc-cpo-G02",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Ghadar Party–Har Dayal; CPO modern history"
+      }
     },
     {
       "id": "ssc-cpo-018",
@@ -2010,7 +2003,12 @@
       "explanation": "Lord Cornwallis introduced the Permanent Settlement (Zamindari system) in 1793.",
       "verified": true,
       "archetype": "ssc-cpo-G02",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Permanent Settlement–Cornwallis; CPO"
+      }
     },
     {
       "id": "ssc-cpo-019",
@@ -2028,25 +2026,12 @@
       "explanation": "Article 76 – Attorney General; 148 – CAG; 165 – Advocate General of a State; 124 – Supreme Court.",
       "verified": true,
       "archetype": "ssc-cpo-G03",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-cpo-020",
-      "section": "gk",
-      "topic": "Polity",
-      "difficulty": "easy",
-      "question": "Who appoints the Chief Election Commissioner of India?",
-      "options": [
-        "The Prime Minister",
-        "The Chief Justice of India",
-        "The Parliament",
-        "The President"
-      ],
-      "answer": 3,
-      "explanation": "The CEC and other Election Commissioners are appointed by the President (Article 324).",
-      "verified": true,
-      "archetype": "ssc-cpo-G05",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Article 76 Attorney General with CAG/Advocate General traps; CPO"
+      }
     },
     {
       "id": "ssc-cpo-021",
@@ -2064,7 +2049,12 @@
       "explanation": "The 73rd Amendment added Part IX (Panchayats) and the Eleventh Schedule; the 74th did the same for municipalities.",
       "verified": true,
       "archetype": "ssc-cpo-G04",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "73rd Amendment Panchayati Raj with 74th trap; CPO"
+      }
     },
     {
       "id": "ssc-cpo-022",
@@ -2082,7 +2072,12 @@
       "explanation": "Zoji La lies on the Srinagar–Leh highway. Nathu La is in Sikkim, Shipki La in Himachal Pradesh, Bomdi La in Arunachal Pradesh.",
       "verified": true,
       "archetype": "ssc-cpo-G06",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Zoji La Srinagar–Leh; CPO passes"
+      }
     },
     {
       "id": "ssc-cpo-023",
@@ -2100,97 +2095,12 @@
       "explanation": "Wular Lake in Jammu & Kashmir is the largest freshwater lake; Chilika is a brackish-water lagoon.",
       "verified": true,
       "archetype": "ssc-cpo-G06",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-cpo-024",
-      "section": "gk",
-      "topic": "Geography",
-      "difficulty": "easy",
-      "question": "The Sundarbans delta is formed mainly by which rivers?",
-      "options": [
-        "Godavari and Krishna",
-        "Mahanadi and Brahmani",
-        "Ganga and Brahmaputra",
-        "Narmada and Tapi"
-      ],
-      "answer": 2,
-      "explanation": "The Sundarbans lie in the Ganga–Brahmaputra (–Meghna) delta shared by India and Bangladesh.",
-      "verified": true,
-      "archetype": "ssc-cpo-G06",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-cpo-025",
-      "section": "gk",
-      "topic": "Economy",
-      "difficulty": "easy",
-      "question": "The financial year of the Government of India runs from:",
-      "options": [
-        "1 January to 31 December",
-        "1 July to 30 June",
-        "1 October to 30 September",
-        "1 April to 31 March"
-      ],
-      "answer": 3,
-      "explanation": "India's fiscal year begins on 1 April and ends on 31 March.",
-      "verified": true,
-      "archetype": "ssc-cpo-G10",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-cpo-026",
-      "section": "gk",
-      "topic": "Physics",
-      "difficulty": "medium",
-      "question": "In which of the following does sound travel the fastest?",
-      "options": [
-        "Water",
-        "Air",
-        "Steel",
-        "Vacuum"
-      ],
-      "answer": 2,
-      "explanation": "Sound travels fastest in solids (about 5,000+ m/s in steel), slower in water and slowest in air; it cannot travel in a vacuum.",
-      "verified": true,
-      "archetype": "ssc-cpo-G11",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-cpo-027",
-      "section": "gk",
-      "topic": "Chemistry",
-      "difficulty": "easy",
-      "question": "Which acid is mainly present in lemon?",
-      "options": [
-        "Acetic acid",
-        "Lactic acid",
-        "Tartaric acid",
-        "Citric acid"
-      ],
-      "answer": 3,
-      "explanation": "Lemons and other citrus fruits contain citric acid; vinegar has acetic acid and curd lactic acid.",
-      "verified": true,
-      "archetype": "ssc-cpo-G12",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-cpo-028",
-      "section": "gk",
-      "topic": "Biology",
-      "difficulty": "medium",
-      "question": "Malaria is caused by:",
-      "options": [
-        "Plasmodium (a protozoan)",
-        "A virus",
-        "A bacterium",
-        "A fungus"
-      ],
-      "answer": 0,
-      "explanation": "Malaria is caused by the protozoan parasite Plasmodium, transmitted by the female Anopheles mosquito.",
-      "verified": true,
-      "archetype": "ssc-cpo-G13",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Wular largest freshwater lake with Chilika trap; CPO"
+      }
     },
     {
       "id": "ssc-cpo-029",
@@ -2208,25 +2118,12 @@
       "explanation": "CRPF was raised on 27 July 1939 as the Crown Representative's Police and renamed CRPF by an Act of Parliament in 1949.",
       "verified": true,
       "archetype": "ssc-cpo-G19",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-cpo-030",
-      "section": "gk",
-      "topic": "Defence & Static GK",
-      "difficulty": "medium",
-      "question": "The Param Vir Chakra is awarded for:",
-      "options": [
-        "Distinguished service in peacetime",
-        "Outstanding achievement in sports",
-        "The highest degree of gallantry in the presence of the enemy",
-        "Gallantry away from the battlefield"
-      ],
-      "answer": 2,
-      "explanation": "The Param Vir Chakra is India's highest wartime gallantry award; the Ashoka Chakra is the highest peacetime gallantry award.",
-      "verified": true,
-      "archetype": "ssc-cpo-G19",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "CRPF raised as Crown Representative's Police; CPO defence static"
+      }
     },
     {
       "id": "ssc-cpo-031",
@@ -2244,25 +2141,12 @@
       "explanation": "Powers of 2 mod 5 cycle as 2, 4, 3, 1. 31 = 4 × 7 + 3, so the remainder is the 3rd term = 3.",
       "verified": true,
       "archetype": "ssc-cpo-Q01",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-cpo-032",
-      "section": "quant",
-      "topic": "Number System",
-      "difficulty": "medium",
-      "question": "How many factors does 72 have?",
-      "options": [
-        "10",
-        "8",
-        "9",
-        "12"
-      ],
-      "answer": 3,
-      "explanation": "72 = 2³ × 3². Number of factors = (3 + 1)(2 + 1) = 12.",
-      "verified": true,
-      "archetype": "ssc-cpo-Q02",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Remainder 2^31 mod 5 via cycle; CPO"
+      }
     },
     {
       "id": "ssc-cpo-033",
@@ -2280,7 +2164,12 @@
       "explanation": "Margin = 58% − 42% = 16% of valid votes = 2880 → total = 18,000.",
       "verified": true,
       "archetype": "ssc-cpo-Q04",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Election margin 16% = 2880; CPO"
+      }
     },
     {
       "id": "ssc-cpo-034",
@@ -2298,43 +2187,12 @@
       "explanation": "Gain % = (error/true weight given) × 100 = 100/900 × 100 = 11 1/9 %.",
       "verified": true,
       "archetype": "ssc-cpo-Q06",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-cpo-035",
-      "section": "quant",
-      "topic": "Simple & Compound Interest",
-      "difficulty": "medium",
-      "question": "What is the compound interest on ₹8,000 for 2 years at 5% per annum, compounded annually?",
-      "options": [
-        "₹820",
-        "₹800",
-        "₹840",
-        "₹8,820"
-      ],
-      "answer": 0,
-      "explanation": "Amount = 8000 × 1.05² = 8820; CI = ₹820.",
-      "verified": true,
-      "archetype": "ssc-cpo-Q08",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-cpo-036",
-      "section": "quant",
-      "topic": "Ratio & Proportion",
-      "difficulty": "easy",
-      "question": "A and B invest ₹24,000 and ₹36,000 respectively in a business for the same period. Out of a profit of ₹15,000, what is B's share?",
-      "options": [
-        "₹6,000",
-        "₹9,000",
-        "₹7,500",
-        "₹10,000"
-      ],
-      "answer": 1,
-      "explanation": "Ratio = 24 : 36 = 2 : 3. B's share = 15000 × 3/5 = ₹9,000.",
-      "verified": true,
-      "archetype": "ssc-cpo-Q09",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "False weight 900 g gain 11 1/9% with 10% trap; CPO"
+      }
     },
     {
       "id": "ssc-cpo-037",
@@ -2352,25 +2210,12 @@
       "explanation": "Milk = 40 L, water = 20 L. For 1 : 2, water must be 80 L, so add 60 L.",
       "verified": true,
       "archetype": "ssc-cpo-Q11",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-cpo-038",
-      "section": "quant",
-      "topic": "Time & Work",
-      "difficulty": "easy",
-      "question": "A and B together can do a work in 8 days; A alone can do it in 12 days. In how many days can B alone do it?",
-      "options": [
-        "20",
-        "16",
-        "18",
-        "24"
-      ],
-      "answer": 3,
-      "explanation": "B's one-day work = 1/8 − 1/12 = 1/24, so 24 days.",
-      "verified": true,
-      "archetype": "ssc-cpo-Q13",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Water to reverse 2:1 ratio; CPO mixture"
+      }
     },
     {
       "id": "ssc-cpo-039",
@@ -2388,25 +2233,12 @@
       "explanation": "Relative speed = 90 km/h = 25 m/s. Time = (150 + 100)/25 = 10 s.",
       "verified": true,
       "archetype": "ssc-cpo-Q15",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-cpo-040",
-      "section": "quant",
-      "topic": "Time, Speed & Distance",
-      "difficulty": "easy",
-      "question": "The speed of a boat in still water is 15 km/h and the speed of the stream is 3 km/h. How long will the boat take to travel 36 km downstream?",
-      "options": [
-        "2.5 hours",
-        "3 hours",
-        "2 hours",
-        "1.5 hours"
-      ],
-      "answer": 2,
-      "explanation": "Downstream speed = 18 km/h; time = 36/18 = 2 h.",
-      "verified": true,
-      "archetype": "ssc-cpo-Q16",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Two trains opposite directions; CPO"
+      }
     },
     {
       "id": "ssc-cpo-041",
@@ -2424,7 +2256,12 @@
       "explanation": "1/x = 1/(√3 + √2) = √3 − √2 (since (√3 + √2)(√3 − √2) = 1). So x + 1/x = 2√3.",
       "verified": true,
       "archetype": "ssc-cpo-Q18",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "x=√3+√2 → x+1/x surd; CPO"
+      }
     },
     {
       "id": "ssc-cpo-042",
@@ -2442,7 +2279,12 @@
       "explanation": "Hypotenuse = √(81 + 144) = 15 cm. The median to the hypotenuse is half of it = 7.5 cm.",
       "verified": true,
       "archetype": "ssc-cpo-Q19",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Median to hypotenuse half; CPO geometry"
+      }
     },
     {
       "id": "ssc-cpo-043",
@@ -2460,7 +2302,12 @@
       "explanation": "TSA = 2πr(r + h) = 2 × (22/7) × 7 × 17 = 44 × 17 = 748 cm².",
       "verified": true,
       "archetype": "ssc-cpo-Q23",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Cylinder TSA; CPO"
+      }
     },
     {
       "id": "ssc-cpo-044",
@@ -2478,25 +2325,12 @@
       "explanation": "sin θ = 3/5, cos θ = 4/5. (7/5)/(−1/5) = −7. (Or divide by cos θ: (3/4 + 1)/(3/4 − 1) = −7.)",
       "verified": true,
       "archetype": "ssc-cpo-Q25",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-cpo-045",
-      "section": "quant",
-      "topic": "Data Interpretation",
-      "difficulty": "medium",
-      "question": "Number of candidates who qualified from a centre: 2022 – 450, 2023 – 540, 2024 – 486, 2025 – 630. What is the percentage increase from 2022 to 2025?",
-      "options": [
-        "36%",
-        "45%",
-        "30%",
-        "40%"
-      ],
-      "answer": 3,
-      "explanation": "Increase = 630 − 450 = 180; 180/450 × 100 = 40%.",
-      "verified": true,
-      "archetype": "ssc-cpo-Q26",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "tanθ → (s+c)/(s−c) with sign trap; CPO"
+      }
     },
     {
       "id": "ssc-cpo-046",
@@ -2514,25 +2348,12 @@
       "explanation": "Meticulous means showing great attention to detail – painstaking.",
       "verified": true,
       "archetype": "ssc-cpo-E07",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-cpo-047",
-      "section": "english",
-      "topic": "Synonyms",
-      "difficulty": "easy",
-      "question": "Select the most appropriate synonym of the given word.\nVALIANT",
-      "options": [
-        "Cowardly",
-        "Weak",
-        "Brave",
-        "Cruel"
-      ],
-      "answer": 2,
-      "explanation": "Valiant means brave, courageous.",
-      "verified": true,
-      "archetype": "ssc-cpo-E07",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "METICULOUS→Painstaking; CPO vocab"
+      }
     },
     {
       "id": "ssc-cpo-048",
@@ -2550,7 +2371,12 @@
       "explanation": "Benevolent (well-meaning, kind) is opposite to malevolent (wishing harm).",
       "verified": true,
       "archetype": "ssc-cpo-E08",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "BENEVOLENT antonym Malevolent with synonym traps; CPO"
+      }
     },
     {
       "id": "ssc-cpo-049",
@@ -2568,7 +2394,12 @@
       "explanation": "'Bite the bullet' means to make oneself do something unpleasant or difficult bravely.",
       "verified": true,
       "archetype": "ssc-cpo-E09",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Bite the bullet; CPO idiom"
+      }
     },
     {
       "id": "ssc-cpo-050",
@@ -2586,7 +2417,12 @@
       "explanation": "Being on the horns of a dilemma means having to choose between two equally undesirable alternatives.",
       "verified": true,
       "archetype": "ssc-cpo-E09",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Horns of a dilemma; CPO idiom"
+      }
     },
     {
       "id": "ssc-cpo-051",
@@ -2604,25 +2440,12 @@
       "explanation": "Fratricide = killing a brother; patricide = father; regicide = king; genocide = a whole people.",
       "verified": true,
       "archetype": "ssc-cpo-E10",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-cpo-052",
-      "section": "english",
-      "topic": "One-word Substitution",
-      "difficulty": "easy",
-      "question": "Select the one-word substitute for the given phrase.\nGovernment by the people, usually through elected representatives",
-      "options": [
-        "Democracy",
-        "Autocracy",
-        "Monarchy",
-        "Oligarchy"
-      ],
-      "answer": 0,
-      "explanation": "Democracy is government by the people. Autocracy = rule by one person with absolute power; oligarchy = rule by a few.",
-      "verified": true,
-      "archetype": "ssc-cpo-E10",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Fratricide among -cide words; CPO OWS"
+      }
     },
     {
       "id": "ssc-cpo-053",
@@ -2640,7 +2463,12 @@
       "explanation": "The correct spelling is 'lieutenant'.",
       "verified": true,
       "archetype": "ssc-cpo-E11",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Lieutenant spelling, force-themed; CPO"
+      }
     },
     {
       "id": "ssc-cpo-054",
@@ -2658,7 +2486,12 @@
       "explanation": "'Police' is a plural noun, so it takes a plural verb: The police have arrested the culprit.",
       "verified": true,
       "archetype": "ssc-cpo-E12",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Police plural verb; CPO agreement"
+      }
     },
     {
       "id": "ssc-cpo-055",
@@ -2676,7 +2509,12 @@
       "explanation": "'No sooner' is followed by 'than', not 'when': No sooner did the bell ring than the students rushed out.",
       "verified": true,
       "archetype": "ssc-cpo-E13",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "No sooner … when → than; CPO"
+      }
     },
     {
       "id": "ssc-cpo-056",
@@ -2694,7 +2532,12 @@
       "explanation": "'Insist' takes the preposition 'on' followed by a gerund: insisted on going.",
       "verified": true,
       "archetype": "ssc-cpo-E14",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Insisted on going; CPO improvement"
+      }
     },
     {
       "id": "ssc-cpo-057",
@@ -2712,7 +2555,12 @@
       "explanation": "Simple future active (will complete) becomes 'will be completed' in the passive.",
       "verified": true,
       "archetype": "ssc-cpo-E15",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Future passive with future-perfect trap; CPO"
+      }
     },
     {
       "id": "ssc-cpo-058",
@@ -2730,43 +2578,12 @@
       "explanation": "An imperative (command) is reported with 'ordered + object + to-infinitive': ordered the constable to close the gate at once.",
       "verified": true,
       "archetype": "ssc-cpo-E16",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-cpo-059",
-      "section": "english",
-      "topic": "Cloze Test",
-      "difficulty": "medium",
-      "question": "Read the passage and select the most appropriate option for the numbered blank.\n\nCommunity policing is based on the idea that the police and the public are partners. When officers walk the same streets every day, residents begin to (1) ______ them and share information more freely. This trust, in turn, helps the police to (2) ______ crimes before they happen.\n\nSelect the most appropriate option for blank (1).",
-      "options": [
-        "trust",
-        "fear",
-        "avoid",
-        "ignore"
-      ],
-      "answer": 0,
-      "explanation": "The next sentence refers to 'This trust', so residents begin to trust the officers.",
-      "verified": true,
-      "archetype": "ssc-cpo-E04",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-cpo-060",
-      "section": "english",
-      "topic": "Cloze Test",
-      "difficulty": "easy",
-      "question": "Read the passage and select the most appropriate option for the numbered blank.\n\nCommunity policing is based on the idea that the police and the public are partners. When officers walk the same streets every day, residents begin to (1) ______ them and share information more freely. This trust, in turn, helps the police to (2) ______ crimes before they happen.\n\nSelect the most appropriate option for blank (2).",
-      "options": [
-        "commit",
-        "prevent",
-        "encourage",
-        "report"
-      ],
-      "answer": 1,
-      "explanation": "Acting 'before they happen' means the police can prevent crimes.",
-      "verified": true,
-      "archetype": "ssc-cpo-E04",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Imperative to 'ordered … to'; CPO narration"
+      }
     },
     {
       "id": "ssc-cpo-061",
@@ -2784,7 +2601,12 @@
       "explanation": "Rule: n² + 6. 144 + 6 = 150 and 225 + 6 = 231, so 81 + 6 = 87.",
       "source": "ai",
       "archetype": "ssc-cpo-R02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "n²+6 triple analogy with NOTE; exact SSC format"
+      }
     },
     {
       "id": "ssc-cpo-062",
@@ -2802,7 +2624,12 @@
       "explanation": "An odometer measures distance travelled; a hygrometer measures humidity.",
       "source": "ai",
       "archetype": "ssc-cpo-R01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Instrument:quantity hygrometer; CPO"
+      }
     },
     {
       "id": "ssc-cpo-063",
@@ -2820,7 +2647,12 @@
       "explanation": "Each letter moves +2: P→R, L→N, A→C, N→P. So S→U, H→J, O→Q, T→V.",
       "source": "ai",
       "archetype": "ssc-cpo-R03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "+2 word-cluster analogy; CPO"
+      }
     },
     {
       "id": "ssc-cpo-064",
@@ -2838,43 +2670,12 @@
       "explanation": "In the others the second number is the cube of the first. 6³ = 216, not 206.",
       "source": "ai",
       "archetype": "ssc-cpo-R05",
-      "verified": false
-    },
-    {
-      "id": "ssc-cpo-065",
-      "section": "reasoning",
-      "topic": "Classification",
-      "difficulty": "medium",
-      "question": "Three of the following four are alike in a certain way and one is different. Pick the odd one out.",
-      "options": [
-        "Kaziranga",
-        "Gir",
-        "Sundarbans",
-        "Chilika"
-      ],
-      "answer": 3,
-      "explanation": "Kaziranga, Gir and Sundarbans are national parks; Chilika is a brackish-water lagoon.",
-      "source": "ai",
-      "archetype": "ssc-cpo-R04",
-      "verified": false
-    },
-    {
-      "id": "ssc-cpo-066",
-      "section": "reasoning",
-      "topic": "Number & Letter Series",
-      "difficulty": "medium",
-      "question": "Select the number that will come in place of the question mark (?) in the following series.\n2, 5, 11, 23, 47, ?",
-      "options": [
-        "94",
-        "93",
-        "95",
-        "97"
-      ],
-      "answer": 2,
-      "explanation": "Each term = previous × 2 + 1: 47 × 2 + 1 = 95.",
-      "source": "ai",
-      "archetype": "ssc-cpo-R07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Number-pair cube rule with NOTE; CPO"
+      }
     },
     {
       "id": "ssc-cpo-067",
@@ -2892,7 +2693,12 @@
       "explanation": "Each letter moves +2: J→L, Q→S, V→X.",
       "source": "ai",
       "archetype": "ssc-cpo-R08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Three-letter clusters +2 each; CPO"
+      }
     },
     {
       "id": "ssc-cpo-068",
@@ -2910,7 +2716,12 @@
       "explanation": "The word is reversed and each letter moved +1: BRAVE → EVARB → FWBSC. SHIELD → DLEIHS → EMFJIT.",
       "source": "ai",
       "archetype": "ssc-cpo-R09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Reverse +1 coding with six letters; CPO"
+      }
     },
     {
       "id": "ssc-cpo-069",
@@ -2928,7 +2739,12 @@
       "explanation": "Code = sum of reverse alphabet positions (A = 26 … Z = 1). GOLD: 20 + 12 + 15 + 23 = 70; IRON: 18 + 9 + 12 + 13 = 52; STEEL: 8 + 7 + 22 + 22 + 15 = 74. (61 is the forward sum.)",
       "source": "ai",
       "archetype": "ssc-cpo-R10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Reverse-position sum coding; CPO hard coding"
+      }
     },
     {
       "id": "ssc-cpo-070",
@@ -2946,7 +2762,12 @@
       "explanation": "Interchanging × and ÷ gives 42 ÷ 6 + 8 × 3 − 11 = 7 + 24 − 11 = 20. The other swaps do not give 20.",
       "source": "ai",
       "archetype": "ssc-cpo-R17",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Interchange signs; exact SSC format"
+      }
     },
     {
       "id": "ssc-cpo-071",
@@ -2964,7 +2785,12 @@
       "explanation": "a # b = a² + ab + b²: 25 + 15 + 9 = 49, 49 + 14 + 4 = 67, 16 + 24 + 36 = 76. So 8 # 3 = 64 + 24 + 9 = 97.",
       "source": "ai",
       "archetype": "ssc-cpo-R19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "a²+b²+ab defined operation from three examples; CPO"
+      }
     },
     {
       "id": "ssc-cpo-072",
@@ -2982,25 +2808,12 @@
       "explanation": "P is the husband of Q, Q is the mother of R, and R is the brother of S, so S is also Q's child. P, Q's husband, is S's father.",
       "source": "ai",
       "archetype": "ssc-cpo-R13",
-      "verified": false
-    },
-    {
-      "id": "ssc-cpo-073",
-      "section": "reasoning",
-      "topic": "Venn Diagram",
-      "difficulty": "easy",
-      "question": "In a group of 60 people, 35 like tea, 30 like coffee and 10 like neither tea nor coffee. How many people like both tea and coffee?",
-      "options": [
-        "5",
-        "20",
-        "15",
-        "25"
-      ],
-      "answer": 2,
-      "explanation": "People who like at least one = 60 − 10 = 50. Both = 35 + 30 − 50 = 15.",
-      "source": "ai",
-      "archetype": "ssc-cpo-R25",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Coded blood relation # @ & %; CPO"
+      }
     },
     {
       "id": "ssc-cpo-074",
@@ -3018,25 +2831,12 @@
       "explanation": "Order: Margin, Marigold, Marine, Mariner, Maritime. The third word is Marine.",
       "source": "ai",
       "archetype": "ssc-cpo-R22",
-      "verified": false
-    },
-    {
-      "id": "ssc-cpo-075",
-      "section": "reasoning",
-      "topic": "Cubes & Dice",
-      "difficulty": "medium",
-      "question": "Three different positions of the same die show that the faces adjacent to the face bearing 3 include the pairs (1, 2), (2, 6) and (5, 1). Which number is on the face opposite to 3?",
-      "options": [
-        "6",
-        "4",
-        "5",
-        "1"
-      ],
-      "answer": 1,
-      "explanation": "Faces 1, 2, 5 and 6 are all adjacent to 3, so the face opposite 3 must be 4.",
-      "source": "ai",
-      "archetype": "ssc-cpo-R31",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Third word in Mar- dictionary order; CPO"
+      }
     },
     {
       "id": "ssc-cpo-076",
@@ -3054,7 +2854,12 @@
       "explanation": "Harisena, Samudragupta's court poet, composed it. Ravikirti wrote the Aihole inscription of Pulakeshin II; Banabhatta was Harsha's court poet.",
       "source": "ai",
       "archetype": "ssc-cpo-G01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Prayag Prashasti–Harisena; CPO ancient"
+      }
     },
     {
       "id": "ssc-cpo-077",
@@ -3072,7 +2877,12 @@
       "explanation": "The Indian Association was founded by Surendranath Banerjee and Ananda Mohan Bose in 1876.",
       "source": "ai",
       "archetype": "ssc-cpo-G02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Indian Association–Surendranath Banerjee; CPO"
+      }
     },
     {
       "id": "ssc-cpo-078",
@@ -3090,7 +2900,12 @@
       "explanation": "Bengal Sati Regulation XVII of 1829 was passed under Lord William Bentinck.",
       "source": "ai",
       "archetype": "ssc-cpo-G02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Sati abolition–Bentinck; CPO"
+      }
     },
     {
       "id": "ssc-cpo-079",
@@ -3108,25 +2923,12 @@
       "explanation": "Article 352 – National Emergency; 356 – President's Rule in a state; 360 – Financial Emergency.",
       "source": "ai",
       "archetype": "ssc-cpo-G03",
-      "verified": false
-    },
-    {
-      "id": "ssc-cpo-080",
-      "section": "gk",
-      "topic": "Polity",
-      "difficulty": "easy",
-      "question": "Who appoints the Comptroller and Auditor General (CAG) of India?",
-      "options": [
-        "The President",
-        "The Prime Minister",
-        "Parliament",
-        "The Chief Justice of India"
-      ],
-      "answer": 0,
-      "explanation": "Under Article 148, the CAG is appointed by the President by warrant under his hand and seal.",
-      "source": "ai",
-      "archetype": "ssc-cpo-G05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Article 352 national emergency with 356/360 traps; CPO"
+      }
     },
     {
       "id": "ssc-cpo-081",
@@ -3144,7 +2946,12 @@
       "explanation": "The Seventh Schedule distributes legislative subjects between the Union and the States.",
       "source": "ai",
       "archetype": "ssc-cpo-G04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Seventh Schedule lists; CPO"
+      }
     },
     {
       "id": "ssc-cpo-082",
@@ -3162,25 +2969,12 @@
       "explanation": "Nathu La on the Dongkya range links Sikkim with the Tibet Autonomous Region of China.",
       "source": "ai",
       "archetype": "ssc-cpo-G06",
-      "verified": false
-    },
-    {
-      "id": "ssc-cpo-083",
-      "section": "gk",
-      "topic": "Geography",
-      "difficulty": "medium",
-      "question": "Which state is the largest producer of coffee in India?",
-      "options": [
-        "Kerala",
-        "Tamil Nadu",
-        "Assam",
-        "Karnataka"
-      ],
-      "answer": 3,
-      "explanation": "Karnataka produces about 70% of India's coffee.",
-      "source": "ai",
-      "archetype": "ssc-cpo-G07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Nathu La–Tibet; CPO"
+      }
     },
     {
       "id": "ssc-cpo-084",
@@ -3198,61 +2992,12 @@
       "explanation": "Fiscal deficit = total expenditure − (revenue receipts + non-debt capital receipts), i.e. the government's borrowing requirement. The other options define revenue deficit, primary deficit and trade deficit.",
       "source": "ai",
       "archetype": "ssc-cpo-G10",
-      "verified": false
-    },
-    {
-      "id": "ssc-cpo-085",
-      "section": "gk",
-      "topic": "Physics",
-      "difficulty": "easy",
-      "question": "The blue colour of the clear sky is mainly due to which phenomenon of light?",
-      "options": [
-        "Reflection",
-        "Scattering",
-        "Refraction",
-        "Total internal reflection"
-      ],
-      "answer": 1,
-      "explanation": "Shorter blue wavelengths are scattered much more by air molecules (Rayleigh scattering).",
-      "source": "ai",
-      "archetype": "ssc-cpo-G11",
-      "verified": false
-    },
-    {
-      "id": "ssc-cpo-086",
-      "section": "gk",
-      "topic": "Chemistry",
-      "difficulty": "easy",
-      "question": "Brass is an alloy of which metals?",
-      "options": [
-        "Copper and tin",
-        "Iron and carbon",
-        "Copper and zinc",
-        "Aluminium and magnesium"
-      ],
-      "answer": 2,
-      "explanation": "Brass = copper + zinc; bronze = copper + tin; steel = iron + carbon.",
-      "source": "ai",
-      "archetype": "ssc-cpo-G12",
-      "verified": false
-    },
-    {
-      "id": "ssc-cpo-087",
-      "section": "gk",
-      "topic": "Biology",
-      "difficulty": "easy",
-      "question": "Which of the following diseases is caused by a virus?",
-      "options": [
-        "Typhoid",
-        "Tuberculosis",
-        "Cholera",
-        "Polio"
-      ],
-      "answer": 3,
-      "explanation": "Polio is caused by the poliovirus; typhoid, tuberculosis and cholera are bacterial diseases.",
-      "source": "ai",
-      "archetype": "ssc-cpo-G13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Fiscal deficit definition with revenue/primary traps; CPO"
+      }
     },
     {
       "id": "ssc-cpo-088",
@@ -3270,7 +3015,12 @@
       "explanation": "Rajaraja Chola I completed the temple around 1010 CE; it is part of the 'Great Living Chola Temples' World Heritage Site.",
       "source": "ai",
       "archetype": "ssc-cpo-G16",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Brihadeeswarar–Rajaraja I with Rajendra trap; CPO"
+      }
     },
     {
       "id": "ssc-cpo-089",
@@ -3288,25 +3038,12 @@
       "explanation": "The NSG commandos are known as 'Black Cats' because of their black uniforms.",
       "source": "ai",
       "archetype": "ssc-cpo-G19",
-      "verified": false
-    },
-    {
-      "id": "ssc-cpo-090",
-      "section": "gk",
-      "topic": "Current Affairs",
-      "difficulty": "medium",
-      "question": "Which was India's first space-based solar observatory mission, whose spacecraft reached its halo orbit around the Sun–Earth L1 point in January 2024?",
-      "options": [
-        "Chandrayaan-3",
-        "Gaganyaan",
-        "Aditya-L1",
-        "XPoSat"
-      ],
-      "answer": 2,
-      "explanation": "ISRO's Aditya-L1 was launched in September 2023 and inserted into a halo orbit around L1 on 6 January 2024.",
-      "source": "ai",
-      "archetype": "ssc-cpo-G17",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "NSG Black Cats; CPO defence"
+      }
     },
     {
       "id": "ssc-cpo-091",
@@ -3324,7 +3061,12 @@
       "explanation": "3² = 9 ≡ 1 (mod 8). 3⁴⁵ = (3²)²² × 3 ≡ 3 (mod 8).",
       "source": "ai",
       "archetype": "ssc-cpo-Q01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "3^45 mod 8 via 9≡1; CPO"
+      }
     },
     {
       "id": "ssc-cpo-092",
@@ -3342,7 +3084,12 @@
       "explanation": "LCM of 6, 9, 15 = 90, so the least such number is 90 + 4 = 94.",
       "source": "ai",
       "archetype": "ssc-cpo-Q02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "LCM + remainder; CPO"
+      }
     },
     {
       "id": "ssc-cpo-093",
@@ -3360,7 +3107,12 @@
       "explanation": "50000 × 1.1 × 0.9 = 49,500 (a net fall of 1%).",
       "source": "ai",
       "archetype": "ssc-cpo-Q03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "+10% −10% population; CPO"
+      }
     },
     {
       "id": "ssc-cpo-094",
@@ -3378,25 +3130,12 @@
       "explanation": "CPs are 4800/1.2 = ₹4,000 and 4800/0.8 = ₹6,000. Total CP = 10,000, total SP = 9,600, so loss = ₹400.",
       "source": "ai",
       "archetype": "ssc-cpo-Q06",
-      "verified": false
-    },
-    {
-      "id": "ssc-cpo-095",
-      "section": "quant",
-      "topic": "Profit & Loss",
-      "difficulty": "easy",
-      "question": "An article is marked at ₹1,500. It is sold after two successive discounts of 20% and 10%. What is its selling price?",
-      "options": [
-        "₹1,050",
-        "₹1,125",
-        "₹1,200",
-        "₹1,080"
-      ],
-      "answer": 3,
-      "explanation": "1500 × 0.8 × 0.9 = ₹1,080. (₹1,050 wrongly applies a single 30% discount.)",
-      "source": "ai",
-      "archetype": "ssc-cpo-Q05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Same SP ±20% loss in rupees; CPO"
+      }
     },
     {
       "id": "ssc-cpo-096",
@@ -3414,7 +3153,12 @@
       "explanation": "For 2 years, CI − SI = P(r/100)² = P × 0.0064 = 96, so P = ₹15,000.",
       "source": "ai",
       "archetype": "ssc-cpo-Q08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "CI−SI = P(r/100)² reverse; CPO"
+      }
     },
     {
       "id": "ssc-cpo-097",
@@ -3432,7 +3176,12 @@
       "explanation": "(4x + 6)/(7x + 6) = 2/3 → 12x + 18 = 14x + 12 → x = 3. Larger number = 7 × 3 = 21.",
       "source": "ai",
       "archetype": "ssc-cpo-Q10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Ratio after adding 6; CPO"
+      }
     },
     {
       "id": "ssc-cpo-098",
@@ -3450,7 +3199,12 @@
       "explanation": "By alligation: (54 − 50) : (50 − 42) = 4 : 8 = 1 : 2.",
       "source": "ai",
       "archetype": "ssc-cpo-Q11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Alligation of rice prices with reversed-ratio trap; CPO"
+      }
     },
     {
       "id": "ssc-cpo-099",
@@ -3468,7 +3222,12 @@
       "explanation": "Efficiencies 2 : 1; total work = 3 × 14 = 42 units. A alone: 42/2 = 21 days.",
       "source": "ai",
       "archetype": "ssc-cpo-Q13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Efficiency ratio work; CPO"
+      }
     },
     {
       "id": "ssc-cpo-100",
@@ -3486,7 +3245,12 @@
       "explanation": "Downstream speed = 15 km/h, upstream = 10 km/h. Stream speed = (15 − 10)/2 = 2.5 km/h.",
       "source": "ai",
       "archetype": "ssc-cpo-Q16",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Stream speed from down/up times; CPO"
+      }
     },
     {
       "id": "ssc-cpo-101",
@@ -3504,7 +3268,12 @@
       "explanation": "x³ + 1/x³ = (x + 1/x)³ − 3(x + 1/x) = 24√3 − 6√3 = 18√3.",
       "source": "ai",
       "archetype": "ssc-cpo-Q17",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "x+1/x=2√3 cube; CPO algebra"
+      }
     },
     {
       "id": "ssc-cpo-102",
@@ -3522,7 +3291,12 @@
       "explanation": "Opposite angles of a cyclic quadrilateral are supplementary: 5x + 30 = 180, x = 30. ∠A = 70°.",
       "source": "ai",
       "archetype": "ssc-cpo-Q20",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Cyclic quadrilateral opposite angles; CPO"
+      }
     },
     {
       "id": "ssc-cpo-103",
@@ -3540,7 +3314,12 @@
       "explanation": "s = 21. Area = √(21 × 8 × 7 × 6) = √7056 = 84 cm².",
       "source": "ai",
       "archetype": "ssc-cpo-Q22",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Heron 13-14-15; CPO"
+      }
     },
     {
       "id": "ssc-cpo-104",
@@ -3558,7 +3337,12 @@
       "explanation": "sin² 65° = cos² 25°, so the first two terms sum to 1; tan 30° × tan 60° = 1. Total = 2.",
       "source": "ai",
       "archetype": "ssc-cpo-Q24",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Complementary sin² + tan30 tan60; CPO"
+      }
     },
     {
       "id": "ssc-cpo-105",
@@ -3576,7 +3360,12 @@
       "explanation": "Total = 300. Education = 48/300 × 100 = 16%.",
       "source": "ai",
       "archetype": "ssc-cpo-Q26",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Share of expenditure %; CPO DI"
+      }
     },
     {
       "id": "ssc-cpo-106",
@@ -3594,7 +3383,12 @@
       "explanation": "The passage says they pose as bank officials, delivery agents or police and create a sense of urgency.",
       "source": "ai",
       "archetype": "ssc-cpo-E01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Factual RC cyber fraud; CPO"
+      }
     },
     {
       "id": "ssc-cpo-107",
@@ -3612,7 +3406,12 @@
       "explanation": "The passage says money can often be frozen if the complaint reaches the bank within the first few hours; the other options contradict it.",
       "source": "ai",
       "archetype": "ssc-cpo-E02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Inference RC; CPO"
+      }
     },
     {
       "id": "ssc-cpo-108",
@@ -3630,7 +3429,12 @@
       "explanation": "'By no means immune' means not protected – 'immune' here means resistant. 'Exposed' is the opposite.",
       "source": "ai",
       "archetype": "ssc-cpo-E03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Contextual synonym 'immune'; CPO"
+      }
     },
     {
       "id": "ssc-cpo-109",
@@ -3648,7 +3452,12 @@
       "explanation": "Showing unfair preference (favouritism) towards one group would lose public respect; the other qualities would not.",
       "source": "ai",
       "archetype": "ssc-cpo-E04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Cloze 'favouritism'; CPO"
+      }
     },
     {
       "id": "ssc-cpo-110",
@@ -3666,7 +3475,12 @@
       "explanation": "Officers who listen carefully settle (resolve) disputes before they turn violent.",
       "source": "ai",
       "archetype": "ssc-cpo-E04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Cloze 'resolve'; CPO"
+      }
     },
     {
       "id": "ssc-cpo-111",
@@ -3684,7 +3498,12 @@
       "explanation": "Candour is the quality of being open and honest – frankness. Deceit is its opposite.",
       "source": "ai",
       "archetype": "ssc-cpo-E07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "CANDOUR→Frankness; CPO"
+      }
     },
     {
       "id": "ssc-cpo-112",
@@ -3702,25 +3521,12 @@
       "explanation": "Obscure means unclear or hidden; its antonym is evident. The other options are synonyms.",
       "source": "ai",
       "archetype": "ssc-cpo-E08",
-      "verified": false
-    },
-    {
-      "id": "ssc-cpo-113",
-      "section": "english",
-      "topic": "Idioms & Phrases",
-      "difficulty": "medium",
-      "question": "Select the most appropriate meaning of the given idiom.\nTo turn a deaf ear",
-      "options": [
-        "To ignore a request or advice",
-        "To listen with great attention",
-        "To become hard of hearing",
-        "To speak in a low voice"
-      ],
-      "answer": 0,
-      "explanation": "To turn a deaf ear is to deliberately ignore what someone says.",
-      "source": "ai",
-      "archetype": "ssc-cpo-E09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "OBSCURE antonym with synonym traps; CPO"
+      }
     },
     {
       "id": "ssc-cpo-114",
@@ -3738,7 +3544,12 @@
       "explanation": "Oligarchy is rule by a few; monarchy by one ruler, democracy by the people, anarchy is the absence of government.",
       "source": "ai",
       "archetype": "ssc-cpo-E10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Oligarchy OWS; CPO"
+      }
     },
     {
       "id": "ssc-cpo-115",
@@ -3756,7 +3567,12 @@
       "explanation": "'Mathematics' is singular in meaning, so it takes 'is': 'Mathematics is my favourite subject.'",
       "source": "ai",
       "archetype": "ssc-cpo-E12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Mathematics is singular; CPO"
+      }
     },
     {
       "id": "ssc-cpo-116",
@@ -3774,7 +3590,12 @@
       "explanation": "When two people are compared, the comparative is used: 'the better suited', not 'the best suited'.",
       "source": "ai",
       "archetype": "ssc-cpo-E13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Of the two … best → better; CPO comparative"
+      }
     },
     {
       "id": "ssc-cpo-117",
@@ -3792,7 +3613,12 @@
       "explanation": "'Unless' already means 'if not', so another 'not' is wrong: 'Unless you work hard…'.",
       "source": "ai",
       "archetype": "ssc-cpo-E14",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Unless … do not double negative; CPO"
+      }
     },
     {
       "id": "ssc-cpo-118",
@@ -3810,7 +3636,12 @@
       "explanation": "'Was being + V3' is past continuous passive; the active form is 'was chasing'.",
       "source": "ai",
       "archetype": "ssc-cpo-E15",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Passive→active past continuous; CPO"
+      }
     },
     {
       "id": "ssc-cpo-119",
@@ -3828,7 +3659,12 @@
       "explanation": "A negative command is reported with 'ordered/told + object + not to + base verb'.",
       "source": "ai",
       "archetype": "ssc-cpo-E16",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Negative imperative → ordered not to; CPO"
+      }
     },
     {
       "id": "ssc-cpo-120",
@@ -3846,7 +3682,12 @@
       "explanation": "An inconsistent account (one that contradicts itself) would make the police doubt the story.",
       "source": "ai",
       "archetype": "ssc-cpo-E05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Inconsistent account blank; CPO"
+      }
     }
   ]
 }

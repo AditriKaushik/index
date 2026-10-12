@@ -1483,61 +1483,12 @@
       "explanation": "Digit sum of 457 = 16. The next multiple of 9 is 18, so add 2 (459 = 9 × 51).",
       "verified": true,
       "archetype": "ssc-mts-N02",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-mts-002",
-      "section": "numerical",
-      "topic": "HCF & LCM",
-      "difficulty": "medium",
-      "question": "What is the LCM of 12, 18 and 24?",
-      "options": [
-        "36",
-        "144",
-        "48",
-        "72"
-      ],
-      "answer": 3,
-      "explanation": "12 = 2²·3, 18 = 2·3², 24 = 2³·3. LCM = 2³ × 3² = 72.",
-      "verified": true,
-      "archetype": "ssc-mts-N03",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-mts-003",
-      "section": "numerical",
-      "topic": "Percentage",
-      "difficulty": "easy",
-      "question": "What is 15% of 480?",
-      "options": [
-        "68",
-        "75",
-        "64",
-        "72"
-      ],
-      "answer": 3,
-      "explanation": "480 × 15/100 = 72.",
-      "verified": true,
-      "archetype": "ssc-mts-N05",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-mts-004",
-      "section": "numerical",
-      "topic": "Profit & Loss",
-      "difficulty": "medium",
-      "question": "An article bought for ₹800 is sold for ₹920. What is the profit percentage?",
-      "options": [
-        "15%",
-        "12%",
-        "18%",
-        "20%"
-      ],
-      "answer": 0,
-      "explanation": "Profit = 120; 120/800 × 100 = 15%.",
-      "verified": true,
-      "archetype": "ssc-mts-N08",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Smallest addend for divisibility by 9 via digit sum; common MTS number item"
+      }
     },
     {
       "id": "ssc-mts-005",
@@ -1555,25 +1506,12 @@
       "explanation": "SI = 600. Rate = 600 × 100/(2500 × 3) = 8%.",
       "verified": true,
       "archetype": "ssc-mts-N09",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-mts-006",
-      "section": "numerical",
-      "topic": "Ratio & Proportion",
-      "difficulty": "easy",
-      "question": "₹840 is divided between two persons in the ratio 3 : 4. What is the larger share?",
-      "options": [
-        "₹360",
-        "₹420",
-        "₹480",
-        "₹400"
-      ],
-      "answer": 2,
-      "explanation": "Larger share = 840 × 4/7 = ₹480.",
-      "verified": true,
-      "archetype": "ssc-mts-N11",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Rate from SI amount; standard MTS SI item"
+      }
     },
     {
       "id": "ssc-mts-007",
@@ -1591,43 +1529,12 @@
       "explanation": "6 × 20 − 5 × 16 = 120 − 80 = 40 years.",
       "verified": true,
       "archetype": "ssc-mts-N13",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-mts-008",
-      "section": "numerical",
-      "topic": "Time & Work",
-      "difficulty": "medium",
-      "question": "A can finish a work in 10 days and B in 15 days. In how many days can they finish it working together?",
-      "options": [
-        "5",
-        "6",
-        "8",
-        "12.5"
-      ],
-      "answer": 1,
-      "explanation": "1/10 + 1/15 = 5/30 = 1/6, so 6 days.",
-      "verified": true,
-      "archetype": "ssc-mts-N14",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-mts-009",
-      "section": "numerical",
-      "topic": "Time, Speed & Distance",
-      "difficulty": "easy",
-      "question": "A speed of 54 km/h is equal to how many metres per second?",
-      "options": [
-        "15",
-        "18",
-        "12",
-        "20"
-      ],
-      "answer": 0,
-      "explanation": "54 × 5/18 = 15 m/s.",
-      "verified": true,
-      "archetype": "ssc-mts-N16",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Teacher's age added to average; very frequent in MTS"
+      }
     },
     {
       "id": "ssc-mts-010",
@@ -1645,25 +1552,12 @@
       "explanation": "2(l + b) = 46 → l + b = 23 → b = 8. Area = 15 × 8 = 120 cm².",
       "verified": true,
       "archetype": "ssc-mts-N20",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-mts-011",
-      "section": "numerical",
-      "topic": "Geometry",
-      "difficulty": "easy",
-      "question": "Two angles of a triangle are 48° and 67°. What is the third angle?",
-      "options": [
-        "75°",
-        "65°",
-        "55°",
-        "85°"
-      ],
-      "answer": 1,
-      "explanation": "180° − (48° + 67°) = 65°.",
-      "verified": true,
-      "archetype": "ssc-mts-N18",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Rectangle area from perimeter; MTS 2-D mensuration"
+      }
     },
     {
       "id": "ssc-mts-012",
@@ -1681,7 +1575,12 @@
       "explanation": "(a² − b²)/(a − b) = a + b = 0.25 + 0.15 = 0.4.",
       "verified": true,
       "archetype": "ssc-mts-N04",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "(a²−b²)/(a−b) decimal simplification; MTS staple"
+      }
     },
     {
       "id": "ssc-mts-013",
@@ -1699,61 +1598,12 @@
       "explanation": "Doubling means interest = P in 8 years, so rate = 12.5%. Four times needs interest = 3P, which takes 3 × 8 = 24 years.",
       "verified": true,
       "archetype": "ssc-mts-N09",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-mts-014",
-      "section": "reasoning",
-      "topic": "Analogy",
-      "difficulty": "easy",
-      "question": "Select the option that is related to the third word in the same way as the second word is related to the first.\nBird : Nest :: Bee : ?",
-      "options": [
-        "Hive",
-        "Den",
-        "Burrow",
-        "Stable"
-      ],
-      "answer": 0,
-      "explanation": "A bird lives in a nest; a bee lives in a hive.",
-      "verified": true,
-      "archetype": "ssc-mts-R01",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-mts-015",
-      "section": "reasoning",
-      "topic": "Analogy",
-      "difficulty": "easy",
-      "question": "Select the number that is related to the third number in the same way as the second is related to the first.\n5 : 25 :: 9 : ?",
-      "options": [
-        "72",
-        "90",
-        "18",
-        "81"
-      ],
-      "answer": 3,
-      "explanation": "25 = 5². So 9² = 81.",
-      "verified": true,
-      "archetype": "ssc-mts-R02",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-mts-016",
-      "section": "reasoning",
-      "topic": "Classification",
-      "difficulty": "easy",
-      "question": "Select the odd one out.",
-      "options": [
-        "Apple",
-        "Potato",
-        "Banana",
-        "Mango"
-      ],
-      "answer": 1,
-      "explanation": "Apple, banana and mango are fruits; potato is a vegetable (a stem tuber).",
-      "verified": true,
-      "archetype": "ssc-mts-R04",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Doubles in 8 years → 4× in 24 years with 32 trap; MTS SI"
+      }
     },
     {
       "id": "ssc-mts-017",
@@ -1771,7 +1621,12 @@
       "explanation": "Terms are n² + 1: 1+1, 4+1, 9+1, 16+1, 25+1, so next is 36 + 1 = 37.",
       "verified": true,
       "archetype": "ssc-mts-R07",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "n²+1 series; MTS series"
+      }
     },
     {
       "id": "ssc-mts-018",
@@ -1789,61 +1644,12 @@
       "explanation": "Consecutive odd-position letters: A(1)C(3), E(5)G(7), I(9)K(11), M(13)O(15), then Q(17)S(19).",
       "verified": true,
       "archetype": "ssc-mts-R08",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-mts-019",
-      "section": "reasoning",
-      "topic": "Coding-Decoding",
-      "difficulty": "medium",
-      "question": "If BOOK is written as CPPL in a certain code, how will WORD be written in that code?",
-      "options": [
-        "XPSF",
-        "VNQC",
-        "XPSE",
-        "XQSE"
-      ],
-      "answer": 2,
-      "explanation": "Each letter moves one step forward: W→X, O→P, R→S, D→E.",
-      "verified": true,
-      "archetype": "ssc-mts-R09",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-mts-020",
-      "section": "reasoning",
-      "topic": "Blood Relations",
-      "difficulty": "medium",
-      "question": "A is the father of B. C is the mother of A. How is C related to B?",
-      "options": [
-        "Mother",
-        "Aunt",
-        "Sister",
-        "Grandmother"
-      ],
-      "answer": 3,
-      "explanation": "C is the mother of B's father, i.e. B's (paternal) grandmother.",
-      "verified": true,
-      "archetype": "ssc-mts-R12",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-mts-021",
-      "section": "reasoning",
-      "topic": "Direction Sense",
-      "difficulty": "medium",
-      "question": "Mohan walks 5 km towards East and then 12 km towards North. How far is he from his starting point?",
-      "options": [
-        "13 km",
-        "17 km",
-        "7 km",
-        "12 km"
-      ],
-      "answer": 0,
-      "explanation": "Distance = √(5² + 12²) = √169 = 13 km.",
-      "verified": true,
-      "archetype": "ssc-mts-R14",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Alternate-letter pair series; MTS letter series"
+      }
     },
     {
       "id": "ssc-mts-022",
@@ -1861,7 +1667,12 @@
       "explanation": "Replace signs: 20 ÷ 4 × 3 + 6 − 2 = 5 × 3 + 6 − 2 = 15 + 4 = 19.",
       "verified": true,
       "archetype": "ssc-mts-R16",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Sign-substitution BODMAS; MTS"
+      }
     },
     {
       "id": "ssc-mts-023",
@@ -1879,25 +1690,12 @@
       "explanation": "7 + 9 − 1 = 15.",
       "verified": true,
       "archetype": "ssc-mts-R20",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-mts-024",
-      "section": "reasoning",
-      "topic": "Missing Number",
-      "difficulty": "medium",
-      "question": "Select the number that will come in place of the question mark (?).\n3, 12, 48, ?, 768",
-      "options": [
-        "192",
-        "144",
-        "196",
-        "180"
-      ],
-      "answer": 0,
-      "explanation": "Each term is multiplied by 4: 48 × 4 = 192 and 192 × 4 = 768 ✓.",
-      "verified": true,
-      "archetype": "ssc-mts-R18",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Front+back−1 queue count; MTS ranking"
+      }
     },
     {
       "id": "ssc-mts-025",
@@ -1915,7 +1713,12 @@
       "explanation": "100 = 7 × 14 + 2. Two days after Wednesday is Friday.",
       "verified": true,
       "archetype": "ssc-mts-R21",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Day after 100 days via odd days; MTS calendar"
+      }
     },
     {
       "id": "ssc-mts-026",
@@ -1933,61 +1736,12 @@
       "explanation": "The books that are pens are also pencils, so I follows. 'All pens are pencils' does not mean all pencils are pens, so II does not follow.",
       "verified": true,
       "archetype": "ssc-mts-R15",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-mts-027",
-      "section": "gk",
-      "topic": "History",
-      "difficulty": "easy",
-      "question": "Who is popularly known as the 'Iron Man of India'?",
-      "options": [
-        "Lal Bahadur Shastri",
-        "Subhas Chandra Bose",
-        "Sardar Vallabhbhai Patel",
-        "Bhagat Singh"
-      ],
-      "answer": 2,
-      "explanation": "Sardar Vallabhbhai Patel, who integrated the princely states after Independence, is called the Iron Man of India.",
-      "verified": true,
-      "archetype": "ssc-mts-G02",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-mts-028",
-      "section": "gk",
-      "topic": "History",
-      "difficulty": "medium",
-      "question": "In which year did Mahatma Gandhi begin the Dandi March?",
-      "options": [
-        "1930",
-        "1920",
-        "1942",
-        "1919"
-      ],
-      "answer": 0,
-      "explanation": "The Dandi (Salt) March began on 12 March 1930 from Sabarmati Ashram.",
-      "verified": true,
-      "archetype": "ssc-mts-G02",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-mts-029",
-      "section": "gk",
-      "topic": "History",
-      "difficulty": "medium",
-      "question": "Which Mughal emperor built the Red Fort in Delhi?",
-      "options": [
-        "Akbar",
-        "Aurangzeb",
-        "Humayun",
-        "Shah Jahan"
-      ],
-      "answer": 3,
-      "explanation": "Shah Jahan built the Red Fort (Lal Qila) when he shifted his capital to Shahjahanabad (completed 1648).",
-      "verified": true,
-      "archetype": "ssc-mts-G01",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Some-all syllogism with conversion trap; MTS"
+      }
     },
     {
       "id": "ssc-mts-030",
@@ -2005,7 +1759,12 @@
       "explanation": "Under Article 80, the President nominates 12 members with expertise in literature, science, art and social service.",
       "verified": true,
       "archetype": "ssc-mts-G05",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "12 nominated Rajya Sabha members; MTS polity"
+      }
     },
     {
       "id": "ssc-mts-031",
@@ -2023,7 +1782,12 @@
       "explanation": "Under Article 60, the oath is administered by the Chief Justice of India (or, in his absence, the senior-most Supreme Court judge).",
       "verified": true,
       "archetype": "ssc-mts-G05",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Oath to President by CJI with VP trap; MTS office item"
+      }
     },
     {
       "id": "ssc-mts-032",
@@ -2041,7 +1805,12 @@
       "explanation": "The Preamble describes India as a Sovereign Socialist Secular Democratic Republic.",
       "verified": true,
       "archetype": "ssc-mts-G04",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Preamble 'Republic' blank; MTS"
+      }
     },
     {
       "id": "ssc-mts-033",
@@ -2059,25 +1828,12 @@
       "explanation": "Article 17 abolishes untouchability and forbids its practice in any form.",
       "verified": true,
       "archetype": "ssc-mts-G03",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-mts-034",
-      "section": "gk",
-      "topic": "Geography",
-      "difficulty": "easy",
-      "question": "Which planet is known as the 'Red Planet'?",
-      "options": [
-        "Jupiter",
-        "Mars",
-        "Venus",
-        "Saturn"
-      ],
-      "answer": 1,
-      "explanation": "Mars looks red because of iron oxide on its surface.",
-      "verified": true,
-      "archetype": "ssc-mts-G08",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Article 17 untouchability; MTS article item"
+      }
     },
     {
       "id": "ssc-mts-035",
@@ -2095,7 +1851,12 @@
       "explanation": "Loktak Lake in Manipur has floating phumdis; Keibul Lamjao, the only floating national park, is on it.",
       "verified": true,
       "archetype": "ssc-mts-G06",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Loktak/phumdis–Manipur; MTS geography"
+      }
     },
     {
       "id": "ssc-mts-036",
@@ -2113,187 +1874,12 @@
       "explanation": "Indira Point on Great Nicobar Island is India's southernmost point; Kanyakumari is the southernmost point of the mainland.",
       "verified": true,
       "archetype": "ssc-mts-G06",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-mts-037",
-      "section": "gk",
-      "topic": "Economy",
-      "difficulty": "medium",
-      "question": "Where is the central office (headquarters) of the Reserve Bank of India located?",
-      "options": [
-        "Mumbai",
-        "New Delhi",
-        "Kolkata",
-        "Chennai"
-      ],
-      "answer": 0,
-      "explanation": "The RBI was set up in 1935 in Kolkata and moved its central office permanently to Mumbai in 1937.",
-      "verified": true,
-      "archetype": "ssc-mts-G09",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-mts-038",
-      "section": "gk",
-      "topic": "Physics",
-      "difficulty": "easy",
-      "question": "What is the SI unit of power?",
-      "options": [
-        "Watt",
-        "Joule",
-        "Newton",
-        "Pascal"
-      ],
-      "answer": 0,
-      "explanation": "Power is measured in watt (1 W = 1 J/s). Joule is the unit of work/energy.",
-      "verified": true,
-      "archetype": "ssc-mts-G11",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-mts-039",
-      "section": "gk",
-      "topic": "Chemistry",
-      "difficulty": "medium",
-      "question": "What is the pH value of pure water at 25 °C?",
-      "options": [
-        "0",
-        "14",
-        "7",
-        "5"
-      ],
-      "answer": 2,
-      "explanation": "Pure water is neutral, with pH 7 at 25 °C.",
-      "verified": true,
-      "archetype": "ssc-mts-G12",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-mts-040",
-      "section": "gk",
-      "topic": "Biology",
-      "difficulty": "easy",
-      "question": "Which of the following blood components starts the clotting of blood at a wound?",
-      "options": [
-        "Red blood cells",
-        "Lymphocytes",
-        "Monocytes",
-        "Platelets"
-      ],
-      "answer": 3,
-      "explanation": "Platelets (thrombocytes) gather at a wound and start clot formation.",
-      "verified": true,
-      "archetype": "ssc-mts-G13",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-mts-041",
-      "section": "gk",
-      "topic": "Biology",
-      "difficulty": "medium",
-      "question": "Deficiency of iodine in the diet causes which disease?",
-      "options": [
-        "Anaemia",
-        "Goitre",
-        "Rickets",
-        "Night blindness"
-      ],
-      "answer": 1,
-      "explanation": "Iodine is needed for thyroid hormones; its deficiency causes goitre (enlarged thyroid).",
-      "verified": true,
-      "archetype": "ssc-mts-G13",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-mts-042",
-      "section": "gk",
-      "topic": "Art & Culture",
-      "difficulty": "medium",
-      "question": "Bharatanatyam is a classical dance form that originated in which state?",
-      "options": [
-        "Kerala",
-        "Andhra Pradesh",
-        "Tamil Nadu",
-        "Odisha"
-      ],
-      "answer": 2,
-      "explanation": "Bharatanatyam originated in Tamil Nadu. Kathakali is from Kerala, Kuchipudi from Andhra Pradesh and Odissi from Odisha.",
-      "verified": true,
-      "archetype": "ssc-mts-G15",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-mts-043",
-      "section": "gk",
-      "topic": "Sports",
-      "difficulty": "easy",
-      "question": "How many players of each team are on the field in a game of field hockey?",
-      "options": [
-        "11",
-        "9",
-        "7",
-        "6"
-      ],
-      "answer": 0,
-      "explanation": "A field hockey team has 11 players on the field, including the goalkeeper.",
-      "verified": true,
-      "archetype": "ssc-mts-G18",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-mts-044",
-      "section": "english",
-      "topic": "Synonyms",
-      "difficulty": "easy",
-      "question": "Select the most appropriate synonym of the given word.\nBRAVE",
-      "options": [
-        "Fearful",
-        "Weak",
-        "Lazy",
-        "Courageous"
-      ],
-      "answer": 3,
-      "explanation": "Brave means courageous.",
-      "verified": true,
-      "archetype": "ssc-mts-E07",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-mts-045",
-      "section": "english",
-      "topic": "Synonyms",
-      "difficulty": "easy",
-      "question": "Select the most appropriate synonym of the given word.\nANCIENT",
-      "options": [
-        "Modern",
-        "Old",
-        "Recent",
-        "Fresh"
-      ],
-      "answer": 1,
-      "explanation": "Ancient means very old.",
-      "verified": true,
-      "archetype": "ssc-mts-E07",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-mts-046",
-      "section": "english",
-      "topic": "Antonyms",
-      "difficulty": "easy",
-      "question": "Select the most appropriate antonym of the given word.\nEXPAND",
-      "options": [
-        "Enlarge",
-        "Spread",
-        "Contract",
-        "Extend"
-      ],
-      "answer": 2,
-      "explanation": "Expand (grow larger) is opposite to contract (become smaller).",
-      "verified": true,
-      "archetype": "ssc-mts-E08",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Indira Point southernmost with Kanyakumari trap; MTS"
+      }
     },
     {
       "id": "ssc-mts-047",
@@ -2311,25 +1897,12 @@
       "explanation": "Humble means modest; its opposite is arrogant.",
       "verified": true,
       "archetype": "ssc-mts-E08",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-mts-048",
-      "section": "english",
-      "topic": "Idioms & Phrases",
-      "difficulty": "medium",
-      "question": "Select the most appropriate meaning of the idiom.\nOnce in a blue moon",
-      "options": [
-        "Very rarely",
-        "Every night",
-        "On a full-moon day",
-        "Very quickly"
-      ],
-      "answer": 0,
-      "explanation": "'Once in a blue moon' means very rarely.",
-      "verified": true,
-      "archetype": "ssc-mts-E09",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "HUMBLE antonym with Modest/Meek traps; MTS"
+      }
     },
     {
       "id": "ssc-mts-049",
@@ -2347,79 +1920,12 @@
       "explanation": "An atheist does not believe in God; a theist does.",
       "verified": true,
       "archetype": "ssc-mts-E10",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-mts-050",
-      "section": "english",
-      "topic": "Spelling Correction",
-      "difficulty": "easy",
-      "question": "Select the correctly spelt word.",
-      "options": [
-        "Beutiful",
-        "Beautiful",
-        "Beautifull",
-        "Beatiful"
-      ],
-      "answer": 1,
-      "explanation": "The correct spelling is 'beautiful'.",
-      "verified": true,
-      "archetype": "ssc-mts-E11",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-mts-051",
-      "section": "english",
-      "topic": "Error Spotting",
-      "difficulty": "medium",
-      "question": "The following sentence has been divided into parts. One of them may contain an error. Select the part that contains the error, or 'No error'.\nShe / don't like / coffee.",
-      "options": [
-        "She",
-        "don't like",
-        "coffee",
-        "No error"
-      ],
-      "answer": 1,
-      "explanation": "With a third-person singular subject, use 'doesn't': She doesn't like coffee.",
-      "verified": true,
-      "archetype": "ssc-mts-E12",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-mts-052",
-      "section": "english",
-      "topic": "Error Spotting",
-      "difficulty": "medium",
-      "question": "The following sentence has been divided into parts. One of them may contain an error. Select the part that contains the error, or 'No error'.\nHe is / the most tallest boy / in the class.",
-      "options": [
-        "He is",
-        "the most tallest boy",
-        "in the class",
-        "No error"
-      ],
-      "answer": 1,
-      "explanation": "Double superlative: 'most tallest' should be 'tallest'.",
-      "verified": true,
-      "archetype": "ssc-mts-E13",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-mts-053",
-      "section": "english",
-      "topic": "Fill in the Blanks",
-      "difficulty": "easy",
-      "question": "Select the most appropriate preposition to fill in the blank.\nThe book is ______ the table.",
-      "options": [
-        "since",
-        "into",
-        "on",
-        "of"
-      ],
-      "answer": 2,
-      "explanation": "Something resting on a surface is 'on' it.",
-      "verified": true,
-      "archetype": "ssc-mts-E06",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Atheist vs theist OWS; MTS"
+      }
     },
     {
       "id": "ssc-mts-054",
@@ -2437,7 +1943,12 @@
       "explanation": "First conditional: If + simple present, will + base verb.",
       "verified": true,
       "archetype": "ssc-mts-E06",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "First conditional 'will cancel'; MTS"
+      }
     },
     {
       "id": "ssc-mts-055",
@@ -2455,7 +1966,12 @@
       "explanation": "'Hour' begins with a vowel sound (silent h), so the article is 'an'.",
       "verified": true,
       "archetype": "ssc-mts-E06",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Article 'an hour'; MTS grammar blank"
+      }
     },
     {
       "id": "ssc-mts-056",
@@ -2473,79 +1989,12 @@
       "explanation": "'Know' is a stative verb (not used in continuous form), and an action continuing up to now takes the present perfect: I have known him for ten years.",
       "verified": true,
       "archetype": "ssc-mts-E14",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-mts-057",
-      "section": "english",
-      "topic": "Active & Passive Voice",
-      "difficulty": "medium",
-      "question": "Select the passive form of the given sentence.\nThe boy kicked the ball.",
-      "options": [
-        "The ball is kicked by the boy.",
-        "The ball has been kicked by the boy.",
-        "The ball was being kicked by the boy.",
-        "The ball was kicked by the boy."
-      ],
-      "answer": 3,
-      "explanation": "Simple past active 'kicked' becomes 'was kicked' in the passive.",
-      "verified": true,
-      "archetype": "ssc-mts-E15",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-mts-058",
-      "section": "english",
-      "topic": "Reading Comprehension",
-      "difficulty": "easy",
-      "question": "Read the passage and answer the question.\n\nRani lived in a small village near a forest. Every morning she walked two kilometres to fetch water from a well, because there was no tap in her house. One summer the well dried up. Rani and her friends met the village head and asked for help. Together, the villagers dug a pond to collect rainwater. When the monsoon came, the pond filled up, and nobody had to walk far for water again. Rani learned that people working together can solve problems that seem too big for one person.\n\nWhy did Rani walk two kilometres every morning?",
-      "options": [
-        "To fetch water from a well",
-        "To go to school",
-        "To collect wood from the forest",
-        "To meet the village head"
-      ],
-      "answer": 0,
-      "explanation": "She walked two kilometres to fetch water from a well because there was no tap in her house.",
-      "verified": true,
-      "archetype": "ssc-mts-E01",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-mts-059",
-      "section": "english",
-      "topic": "Reading Comprehension",
-      "difficulty": "easy",
-      "question": "Read the passage and answer the question.\n\nRani lived in a small village near a forest. Every morning she walked two kilometres to fetch water from a well, because there was no tap in her house. One summer the well dried up. Rani and her friends met the village head and asked for help. Together, the villagers dug a pond to collect rainwater. When the monsoon came, the pond filled up, and nobody had to walk far for water again. Rani learned that people working together can solve problems that seem too big for one person.\n\nWhat did the villagers make to solve the water problem?",
-      "options": [
-        "A new well",
-        "A water tank on a hill",
-        "A pond to collect rainwater",
-        "A pipeline from the river"
-      ],
-      "answer": 2,
-      "explanation": "Together, the villagers dug a pond to collect rainwater.",
-      "verified": true,
-      "archetype": "ssc-mts-E01",
-      "source": "curated"
-    },
-    {
-      "id": "ssc-mts-060",
-      "section": "english",
-      "topic": "Reading Comprehension",
-      "difficulty": "medium",
-      "question": "Read the passage and answer the question.\n\nRani lived in a small village near a forest. Every morning she walked two kilometres to fetch water from a well, because there was no tap in her house. One summer the well dried up. Rani and her friends met the village head and asked for help. Together, the villagers dug a pond to collect rainwater. When the monsoon came, the pond filled up, and nobody had to walk far for water again. Rani learned that people working together can solve problems that seem too big for one person.\n\nWhat is the main lesson of the passage?",
-      "options": [
-        "Wells always dry up in summer",
-        "People working together can solve big problems",
-        "Forests are dangerous places",
-        "Village heads solve every problem alone"
-      ],
-      "answer": 1,
-      "explanation": "The last sentence states that people working together can solve problems that seem too big for one person.",
-      "verified": true,
-      "archetype": "ssc-mts-E02",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Stative verb 'have known'; MTS improvement"
+      }
     },
     {
       "id": "ssc-mts-061",
@@ -2563,7 +2012,12 @@
       "explanation": "9999 ÷ 12 leaves remainder 3, so the largest multiple is 9999 − 3 = 9996.",
       "source": "ai",
       "archetype": "ssc-mts-N02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Largest 4-digit multiple of 12; MTS number"
+      }
     },
     {
       "id": "ssc-mts-062",
@@ -2581,7 +2035,12 @@
       "explanation": "Unit digits of powers of 2 repeat as 2, 4, 8, 6. 47 = 4 × 11 + 3, so the unit digit is 8.",
       "source": "ai",
       "archetype": "ssc-mts-N01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Unit digit of 2^47; MTS cyclicity"
+      }
     },
     {
       "id": "ssc-mts-063",
@@ -2599,61 +2058,12 @@
       "explanation": "LCM of 12, 15 and 20 = 60 minutes, so they next toll together at 10:00 a.m.",
       "source": "ai",
       "archetype": "ssc-mts-N03",
-      "verified": false
-    },
-    {
-      "id": "ssc-mts-064",
-      "section": "numerical",
-      "topic": "Simplification",
-      "difficulty": "easy",
-      "question": "What is the value of 3/4 + 5/6 − 7/12?",
-      "options": [
-        "1",
-        "7/12",
-        "5/6",
-        "1 1/12"
-      ],
-      "answer": 0,
-      "explanation": "With denominator 12: 9/12 + 10/12 − 7/12 = 12/12 = 1.",
-      "source": "ai",
-      "archetype": "ssc-mts-N04",
-      "verified": false
-    },
-    {
-      "id": "ssc-mts-065",
-      "section": "numerical",
-      "topic": "Percentage",
-      "difficulty": "easy",
-      "question": "If 30% of a number is 54, what is 45% of the same number?",
-      "options": [
-        "81",
-        "72",
-        "90",
-        "75"
-      ],
-      "answer": 0,
-      "explanation": "The number = 54/0.30 = 180. 45% of 180 = 81.",
-      "source": "ai",
-      "archetype": "ssc-mts-N05",
-      "verified": false
-    },
-    {
-      "id": "ssc-mts-066",
-      "section": "numerical",
-      "topic": "Profit & Loss",
-      "difficulty": "easy",
-      "question": "A shopkeeper buys a fan for ₹1,250 and sells it at a loss of 8%. What is the selling price of the fan?",
-      "options": [
-        "₹1,100",
-        "₹1,150",
-        "₹1,170",
-        "₹1,350"
-      ],
-      "answer": 1,
-      "explanation": "SP = 1250 × 0.92 = ₹1,150. (₹1,350 would be an 8% gain.)",
-      "source": "ai",
-      "archetype": "ssc-mts-N08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Bells toll together via LCM; MTS word problem"
+      }
     },
     {
       "id": "ssc-mts-067",
@@ -2671,7 +2081,12 @@
       "explanation": "SP = 800 × 0.85 = ₹680. CP = 680 ÷ (17/15) = ₹600.",
       "source": "ai",
       "archetype": "ssc-mts-N07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "CP from MP, discount and 13⅓% gain; MTS profit"
+      }
     },
     {
       "id": "ssc-mts-068",
@@ -2689,25 +2104,12 @@
       "explanation": "Amount = P(1 + 4 × 5/100) = 1.2P = 6600, so P = ₹5,500. (₹5,280 wrongly takes 20% of 6,600 off.)",
       "source": "ai",
       "archetype": "ssc-mts-N09",
-      "verified": false
-    },
-    {
-      "id": "ssc-mts-069",
-      "section": "numerical",
-      "topic": "Ratio & Proportion",
-      "difficulty": "easy",
-      "question": "The ratio of boys to girls in a class is 5 : 3. If there are 40 students in the class, how many girls are there?",
-      "options": [
-        "25",
-        "18",
-        "12",
-        "15"
-      ],
-      "answer": 3,
-      "explanation": "Girls = 3/8 × 40 = 15.",
-      "source": "ai",
-      "archetype": "ssc-mts-N11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Principal from SI amount; MTS"
+      }
     },
     {
       "id": "ssc-mts-070",
@@ -2725,25 +2127,12 @@
       "explanation": "Total = 90. After removing 20, total = 70 for 5 numbers, average = 14.",
       "source": "ai",
       "archetype": "ssc-mts-N13",
-      "verified": false
-    },
-    {
-      "id": "ssc-mts-071",
-      "section": "numerical",
-      "topic": "Time & Work",
-      "difficulty": "easy",
-      "question": "A can do a piece of work in 18 days and B can do it in 9 days. In how many days will they finish the work working together?",
-      "options": [
-        "13.5",
-        "8",
-        "6",
-        "4.5"
-      ],
-      "answer": 2,
-      "explanation": "Combined rate = 1/18 + 1/9 = 3/18 = 1/6, so 6 days.",
-      "source": "ai",
-      "archetype": "ssc-mts-N14",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Average after removing one number; MTS"
+      }
     },
     {
       "id": "ssc-mts-072",
@@ -2761,25 +2150,12 @@
       "explanation": "For equal distances, average speed = 2 × 30 × 20/(30 + 20) = 24 km/h (not the simple average 25).",
       "source": "ai",
       "archetype": "ssc-mts-N17",
-      "verified": false
-    },
-    {
-      "id": "ssc-mts-073",
-      "section": "numerical",
-      "topic": "Mensuration",
-      "difficulty": "easy",
-      "question": "What is the circumference of a circle of radius 14 cm? (Take π = 22/7)",
-      "options": [
-        "44 cm",
-        "616 cm",
-        "88 cm",
-        "176 cm"
-      ],
-      "answer": 2,
-      "explanation": "Circumference = 2πr = 2 × 22/7 × 14 = 88 cm. (616 cm² is the area.)",
-      "source": "ai",
-      "archetype": "ssc-mts-N20",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "To-and-fro harmonic average speed with 25 trap; MTS"
+      }
     },
     {
       "id": "ssc-mts-074",
@@ -2797,43 +2173,12 @@
       "explanation": "A carpenter works with wood; a tailor works with cloth. The needle is a tool, not the material.",
       "source": "ai",
       "archetype": "ssc-mts-R01",
-      "verified": false
-    },
-    {
-      "id": "ssc-mts-075",
-      "section": "reasoning",
-      "topic": "Analogy",
-      "difficulty": "easy",
-      "question": "Select the option that is related to the third number in the same way as the second number is related to the first number.\n7 : 56 :: 9 : ?",
-      "options": [
-        "81",
-        "72",
-        "99",
-        "90"
-      ],
-      "answer": 3,
-      "explanation": "Rule: n × (n + 1). 7 × 8 = 56, so 9 × 10 = 90.",
-      "source": "ai",
-      "archetype": "ssc-mts-R02",
-      "verified": false
-    },
-    {
-      "id": "ssc-mts-076",
-      "section": "reasoning",
-      "topic": "Classification",
-      "difficulty": "easy",
-      "question": "Three of the following four words are alike in a certain way and one is different. Pick the odd one out.",
-      "options": [
-        "Mango",
-        "Rose",
-        "Lotus",
-        "Jasmine"
-      ],
-      "answer": 0,
-      "explanation": "Rose, lotus and jasmine are flowers; mango is a fruit.",
-      "source": "ai",
-      "archetype": "ssc-mts-R04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Worker:material analogy; MTS"
+      }
     },
     {
       "id": "ssc-mts-077",
@@ -2851,61 +2196,12 @@
       "explanation": "23, 29 and 37 are prime numbers; 51 = 3 × 17 is not.",
       "source": "ai",
       "archetype": "ssc-mts-R05",
-      "verified": false
-    },
-    {
-      "id": "ssc-mts-078",
-      "section": "reasoning",
-      "topic": "Number & Letter Series",
-      "difficulty": "easy",
-      "question": "Select the number that will come next in the following series.\n3, 8, 15, 24, 35, ?",
-      "options": [
-        "46",
-        "49",
-        "48",
-        "50"
-      ],
-      "answer": 2,
-      "explanation": "The terms are n² − 1 for n = 2, 3, 4, 5, 6; next is 7² − 1 = 48 (differences 5, 7, 9, 11, 13).",
-      "source": "ai",
-      "archetype": "ssc-mts-R07",
-      "verified": false
-    },
-    {
-      "id": "ssc-mts-079",
-      "section": "reasoning",
-      "topic": "Number & Letter Series",
-      "difficulty": "easy",
-      "question": "Select the letter that will come next in the following series.\nC, F, I, L, ?",
-      "options": [
-        "O",
-        "N",
-        "P",
-        "M"
-      ],
-      "answer": 0,
-      "explanation": "Each letter moves +3: L + 3 = O.",
-      "source": "ai",
-      "archetype": "ssc-mts-R08",
-      "verified": false
-    },
-    {
-      "id": "ssc-mts-080",
-      "section": "reasoning",
-      "topic": "Coding-Decoding",
-      "difficulty": "easy",
-      "question": "In a certain code language, 'PAPER' is written as 'QBQFS'. How will 'GLASS' be written in that language?",
-      "options": [
-        "HMBST",
-        "HMBTT",
-        "FKZRR",
-        "HNBTT"
-      ],
-      "answer": 1,
-      "explanation": "Each letter is moved one place forward: G→H, L→M, A→B, S→T, S→T.",
-      "source": "ai",
-      "archetype": "ssc-mts-R09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Composite 51 among primes; MTS odd-number classic trap"
+      }
     },
     {
       "id": "ssc-mts-081",
@@ -2923,43 +2219,12 @@
       "explanation": "'pit' and 'sur' are common to both and stand for 'red' and 'apple'. So in the first sentence 'tom' means 'good'.",
       "source": "ai",
       "archetype": "ssc-mts-R11",
-      "verified": false
-    },
-    {
-      "id": "ssc-mts-082",
-      "section": "reasoning",
-      "topic": "Blood Relations",
-      "difficulty": "easy",
-      "question": "A is the son of B. C is the sister of A. D is the husband of B. How is C related to D?",
-      "options": [
-        "Sister",
-        "Daughter",
-        "Niece",
-        "Wife"
-      ],
-      "answer": 1,
-      "explanation": "C is a child of B (sister of B's son), and D is B's husband, so C is D's daughter.",
-      "source": "ai",
-      "archetype": "ssc-mts-R12",
-      "verified": false
-    },
-    {
-      "id": "ssc-mts-083",
-      "section": "reasoning",
-      "topic": "Direction Sense",
-      "difficulty": "easy",
-      "question": "Ravi walks 6 km towards West, then turns left and walks 8 km. How far is he now from his starting point?",
-      "options": [
-        "10 km",
-        "14 km",
-        "2 km",
-        "12 km"
-      ],
-      "answer": 0,
-      "explanation": "The two legs are perpendicular: √(6² + 8²) = 10 km.",
-      "source": "ai",
-      "archetype": "ssc-mts-R14",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Sentence coding by elimination; MTS"
+      }
     },
     {
       "id": "ssc-mts-084",
@@ -2977,7 +2242,12 @@
       "explanation": "36 ÷ 4 × 3 + 8 − 5 = 9 × 3 + 3 = 30.",
       "source": "ai",
       "archetype": "ssc-mts-R16",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Letter-for-sign BODMAS; MTS"
+      }
     },
     {
       "id": "ssc-mts-085",
@@ -2995,7 +2265,12 @@
       "explanation": "January has 31 days and February 2026 has 28: 59 days = 8 weeks + 3 days. Thursday + 3 = Sunday.",
       "source": "ai",
       "archetype": "ssc-mts-R21",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Day of 1 March from 1 Jan 2026 (correct calendar); MTS"
+      }
     },
     {
       "id": "ssc-mts-086",
@@ -3013,115 +2288,12 @@
       "explanation": "Mirror time = 11:60 − 2:15 = 9:45.",
       "source": "ai",
       "archetype": "ssc-mts-R23",
-      "verified": false
-    },
-    {
-      "id": "ssc-mts-087",
-      "section": "gk",
-      "topic": "History",
-      "difficulty": "easy",
-      "question": "Who founded the Mughal Empire in India after the First Battle of Panipat?",
-      "options": [
-        "Akbar",
-        "Babur",
-        "Humayun",
-        "Sher Shah Suri"
-      ],
-      "answer": 1,
-      "explanation": "Babur defeated Ibrahim Lodi at Panipat in 1526 and founded the Mughal Empire.",
-      "source": "ai",
-      "archetype": "ssc-mts-G01",
-      "verified": false
-    },
-    {
-      "id": "ssc-mts-088",
-      "section": "gk",
-      "topic": "History",
-      "difficulty": "easy",
-      "question": "Where did Gautama Buddha deliver his first sermon?",
-      "options": [
-        "Sarnath",
-        "Bodh Gaya",
-        "Kushinagar",
-        "Lumbini"
-      ],
-      "answer": 0,
-      "explanation": "The first sermon (Dhammachakkappavattana) was given at the Deer Park, Sarnath; Bodh Gaya – enlightenment, Kushinagar – death, Lumbini – birth.",
-      "source": "ai",
-      "archetype": "ssc-mts-G01",
-      "verified": false
-    },
-    {
-      "id": "ssc-mts-089",
-      "section": "gk",
-      "topic": "History",
-      "difficulty": "easy",
-      "question": "Who gave the slogan 'Jai Jawan, Jai Kisan'?",
-      "options": [
-        "Lal Bahadur Shastri",
-        "Jawaharlal Nehru",
-        "Indira Gandhi",
-        "Subhas Chandra Bose"
-      ],
-      "answer": 0,
-      "explanation": "Prime Minister Lal Bahadur Shastri gave the slogan in 1965.",
-      "source": "ai",
-      "archetype": "ssc-mts-G02",
-      "verified": false
-    },
-    {
-      "id": "ssc-mts-090",
-      "section": "gk",
-      "topic": "Polity",
-      "difficulty": "easy",
-      "question": "Which Article of the Constitution of India guarantees equality before the law and equal protection of the laws?",
-      "options": [
-        "Article 19",
-        "Article 21",
-        "Article 14",
-        "Article 32"
-      ],
-      "answer": 2,
-      "explanation": "Article 14 provides equality before law; 19 – freedoms, 21 – life and liberty, 32 – constitutional remedies.",
-      "source": "ai",
-      "archetype": "ssc-mts-G03",
-      "verified": false
-    },
-    {
-      "id": "ssc-mts-091",
-      "section": "gk",
-      "topic": "Polity",
-      "difficulty": "easy",
-      "question": "Who is the ex-officio Chairman of the Rajya Sabha?",
-      "options": [
-        "President of India",
-        "Speaker of the Lok Sabha",
-        "Prime Minister",
-        "Vice-President of India"
-      ],
-      "answer": 3,
-      "explanation": "Under Article 64, the Vice-President is the ex-officio Chairman of the Council of States.",
-      "source": "ai",
-      "archetype": "ssc-mts-G05",
-      "verified": false
-    },
-    {
-      "id": "ssc-mts-092",
-      "section": "gk",
-      "topic": "Polity",
-      "difficulty": "easy",
-      "question": "On which date did the Constitution of India come into force?",
-      "options": [
-        "26 November 1949",
-        "26 January 1950",
-        "15 August 1947",
-        "26 January 1949"
-      ],
-      "answer": 1,
-      "explanation": "It was adopted on 26 November 1949 and came into force on 26 January 1950 (Republic Day).",
-      "source": "ai",
-      "archetype": "ssc-mts-G04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Mirror time 11:60 rule; MTS"
+      }
     },
     {
       "id": "ssc-mts-093",
@@ -3139,25 +2311,12 @@
       "explanation": "The Satpura Range lies between the Narmada (north) and the Tapi (south).",
       "source": "ai",
       "archetype": "ssc-mts-G06",
-      "verified": false
-    },
-    {
-      "id": "ssc-mts-094",
-      "section": "gk",
-      "topic": "Geography",
-      "difficulty": "easy",
-      "question": "Which is the largest continent in the world by area?",
-      "options": [
-        "Africa",
-        "Asia",
-        "North America",
-        "Europe"
-      ],
-      "answer": 1,
-      "explanation": "Asia is the largest continent, about 30% of the world's land area.",
-      "source": "ai",
-      "archetype": "ssc-mts-G08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Satpura between Narmada and Tapi; MTS geography"
+      }
     },
     {
       "id": "ssc-mts-095",
@@ -3175,97 +2334,12 @@
       "explanation": "The Planning Commission was set up in March 1950; the First Five-Year Plan began in 1951. It was replaced by NITI Aayog in 2015.",
       "source": "ai",
       "archetype": "ssc-mts-G10",
-      "verified": false
-    },
-    {
-      "id": "ssc-mts-096",
-      "section": "gk",
-      "topic": "Physics",
-      "difficulty": "easy",
-      "question": "What is the SI unit of force?",
-      "options": [
-        "Joule",
-        "Pascal",
-        "Newton",
-        "Watt"
-      ],
-      "answer": 2,
-      "explanation": "Force is measured in newton; joule – energy, pascal – pressure, watt – power.",
-      "source": "ai",
-      "archetype": "ssc-mts-G11",
-      "verified": false
-    },
-    {
-      "id": "ssc-mts-097",
-      "section": "gk",
-      "topic": "Chemistry",
-      "difficulty": "easy",
-      "question": "Which metal is found in liquid form at room temperature?",
-      "options": [
-        "Sodium",
-        "Mercury",
-        "Aluminium",
-        "Zinc"
-      ],
-      "answer": 1,
-      "explanation": "Mercury is the only metal that is liquid at room temperature.",
-      "source": "ai",
-      "archetype": "ssc-mts-G12",
-      "verified": false
-    },
-    {
-      "id": "ssc-mts-098",
-      "section": "gk",
-      "topic": "Biology",
-      "difficulty": "easy",
-      "question": "Which organ of the human body produces insulin?",
-      "options": [
-        "Liver",
-        "Kidney",
-        "Pancreas",
-        "Spleen"
-      ],
-      "answer": 2,
-      "explanation": "Insulin is secreted by the beta cells of the islets of Langerhans in the pancreas.",
-      "source": "ai",
-      "archetype": "ssc-mts-G13",
-      "verified": false
-    },
-    {
-      "id": "ssc-mts-099",
-      "section": "gk",
-      "topic": "Biology",
-      "difficulty": "easy",
-      "question": "Which cell organelle contains chlorophyll in plant cells?",
-      "options": [
-        "Mitochondria",
-        "Nucleus",
-        "Ribosome",
-        "Chloroplast"
-      ],
-      "answer": 3,
-      "explanation": "Chlorophyll is located in the chloroplasts, where photosynthesis takes place.",
-      "source": "ai",
-      "archetype": "ssc-mts-G14",
-      "verified": false
-    },
-    {
-      "id": "ssc-mts-100",
-      "section": "gk",
-      "topic": "Art & Culture",
-      "difficulty": "easy",
-      "question": "Garba is a popular folk dance of which state?",
-      "options": [
-        "Gujarat",
-        "Rajasthan",
-        "Punjab",
-        "Maharashtra"
-      ],
-      "answer": 0,
-      "explanation": "Garba is performed in Gujarat, especially during Navratri.",
-      "source": "ai",
-      "archetype": "ssc-mts-G15",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Planning Commission 1950 with 1951 plan trap; MTS economy"
+      }
     },
     {
       "id": "ssc-mts-101",
@@ -3283,25 +2357,12 @@
       "explanation": "Qutb-ud-din Aibak began the Qutub Minar; Iltutmish completed the upper storeys.",
       "source": "ai",
       "archetype": "ssc-mts-G16",
-      "verified": false
-    },
-    {
-      "id": "ssc-mts-102",
-      "section": "gk",
-      "topic": "Sports",
-      "difficulty": "easy",
-      "question": "The term 'checkmate' is associated with which game?",
-      "options": [
-        "Carrom",
-        "Billiards",
-        "Badminton",
-        "Chess"
-      ],
-      "answer": 3,
-      "explanation": "Checkmate ends a game of chess when the king is attacked and cannot escape.",
-      "source": "ai",
-      "archetype": "ssc-mts-G18",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Qutub Minar started by Aibak with Iltutmish trap; MTS"
+      }
     },
     {
       "id": "ssc-mts-103",
@@ -3319,151 +2380,12 @@
       "explanation": "D. Gukesh beat Ding Liren in Singapore in December 2024, becoming world champion at 18.",
       "source": "ai",
       "archetype": "ssc-mts-G17",
-      "verified": false
-    },
-    {
-      "id": "ssc-mts-104",
-      "section": "english",
-      "topic": "Synonyms",
-      "difficulty": "easy",
-      "question": "Select the most appropriate synonym of the given word.\nHONEST",
-      "options": [
-        "Clever",
-        "Truthful",
-        "Lazy",
-        "Rude"
-      ],
-      "answer": 1,
-      "explanation": "Honest means truthful and sincere.",
-      "source": "ai",
-      "archetype": "ssc-mts-E07",
-      "verified": false
-    },
-    {
-      "id": "ssc-mts-105",
-      "section": "english",
-      "topic": "Synonyms",
-      "difficulty": "easy",
-      "question": "Select the most appropriate synonym of the given word.\nENORMOUS",
-      "options": [
-        "Tiny",
-        "Weak",
-        "Huge",
-        "Narrow"
-      ],
-      "answer": 2,
-      "explanation": "Enormous means very large – huge. 'Tiny' is the opposite.",
-      "source": "ai",
-      "archetype": "ssc-mts-E07",
-      "verified": false
-    },
-    {
-      "id": "ssc-mts-106",
-      "section": "english",
-      "topic": "Antonyms",
-      "difficulty": "easy",
-      "question": "Select the most appropriate antonym of the given word.\nARRIVE",
-      "options": [
-        "Depart",
-        "Reach",
-        "Enter",
-        "Come"
-      ],
-      "answer": 0,
-      "explanation": "Arrive means to reach a place; its opposite is depart.",
-      "source": "ai",
-      "archetype": "ssc-mts-E08",
-      "verified": false
-    },
-    {
-      "id": "ssc-mts-107",
-      "section": "english",
-      "topic": "Antonyms",
-      "difficulty": "easy",
-      "question": "Select the most appropriate antonym of the given word.\nFREQUENT",
-      "options": [
-        "Regular",
-        "Common",
-        "Usual",
-        "Rare"
-      ],
-      "answer": 3,
-      "explanation": "Frequent means happening often; the opposite is rare.",
-      "source": "ai",
-      "archetype": "ssc-mts-E08",
-      "verified": false
-    },
-    {
-      "id": "ssc-mts-108",
-      "section": "english",
-      "topic": "Idioms & Phrases",
-      "difficulty": "easy",
-      "question": "Select the most appropriate meaning of the given idiom.\nA piece of cake",
-      "options": [
-        "A small reward",
-        "Something very easy to do",
-        "A sweet dish served at parties",
-        "A very difficult task"
-      ],
-      "answer": 1,
-      "explanation": "'A piece of cake' means something very easy.",
-      "source": "ai",
-      "archetype": "ssc-mts-E09",
-      "verified": false
-    },
-    {
-      "id": "ssc-mts-109",
-      "section": "english",
-      "topic": "One-word Substitution",
-      "difficulty": "easy",
-      "question": "Select the option that can be used as a one-word substitute for the given group of words.\nOne who loves and supports his or her country",
-      "options": [
-        "Traitor",
-        "Patriot",
-        "Pilgrim",
-        "Tourist"
-      ],
-      "answer": 1,
-      "explanation": "A patriot loves and defends his or her country; a traitor betrays it.",
-      "source": "ai",
-      "archetype": "ssc-mts-E10",
-      "verified": false
-    },
-    {
-      "id": "ssc-mts-110",
-      "section": "english",
-      "topic": "Spelling Correction",
-      "difficulty": "easy",
-      "question": "Select the correctly spelt word.",
-      "options": [
-        "Knowledge",
-        "Knowlege",
-        "Knowladge",
-        "Nowledge"
-      ],
-      "answer": 0,
-      "explanation": "The correct spelling is 'knowledge'.",
-      "source": "ai",
-      "archetype": "ssc-mts-E11",
-      "verified": false
-    },
-    {
-      "id": "ssc-mts-111",
-      "section": "english",
-      "topic": "Error Spotting",
-      "difficulty": "easy",
-      "question": "The following sentence has been divided into parts. One of them may contain an error. Select the part that contains the error, or 'No error'.\nMy brother and I / goes to school / by bus every day",
-      "options": [
-        "My brother and I",
-        "goes to school",
-        "by bus every day",
-        "No error"
-      ],
-      "answer": 1,
-      "explanation": "A subject joined by 'and' is plural, so the verb should be 'go', not 'goes'.",
-      "source": "ai",
-      "archetype": "ssc-mts-E12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Gukesh Dec 2024 world title; recent CA asked in MTS 2025"
+      }
     },
     {
       "id": "ssc-mts-112",
@@ -3481,151 +2403,12 @@
       "explanation": "'Discuss' is a transitive verb and does not take 'about': 'We discussed the problem for an hour.'",
       "source": "ai",
       "archetype": "ssc-mts-E13",
-      "verified": false
-    },
-    {
-      "id": "ssc-mts-113",
-      "section": "english",
-      "topic": "Fill in the Blanks",
-      "difficulty": "easy",
-      "question": "Select the most appropriate option to fill in the blank.\nThe train arrived ______ 6 o'clock in the morning.",
-      "options": [
-        "on",
-        "in",
-        "of",
-        "at"
-      ],
-      "answer": 3,
-      "explanation": "'At' is used with a precise clock time.",
-      "source": "ai",
-      "archetype": "ssc-mts-E06",
-      "verified": false
-    },
-    {
-      "id": "ssc-mts-114",
-      "section": "english",
-      "topic": "Fill in the Blanks",
-      "difficulty": "easy",
-      "question": "Select the most appropriate option to fill in the blank.\nThe old man was too ______ to walk without a stick.",
-      "options": [
-        "strong",
-        "young",
-        "weak",
-        "quick"
-      ],
-      "answer": 2,
-      "explanation": "Needing a stick to walk implies he was weak.",
-      "source": "ai",
-      "archetype": "ssc-mts-E05",
-      "verified": false
-    },
-    {
-      "id": "ssc-mts-115",
-      "section": "english",
-      "topic": "Sentence Improvement",
-      "difficulty": "easy",
-      "question": "Select the most appropriate option that can substitute the bracketed part of the sentence.\nShe [did not went] to school yesterday.",
-      "options": [
-        "does not went",
-        "had not went",
-        "No substitution required",
-        "did not go"
-      ],
-      "answer": 3,
-      "explanation": "After the auxiliary 'did', the base form of the verb is used: 'did not go'.",
-      "source": "ai",
-      "archetype": "ssc-mts-E14",
-      "verified": false
-    },
-    {
-      "id": "ssc-mts-116",
-      "section": "english",
-      "topic": "Active & Passive Voice",
-      "difficulty": "easy",
-      "question": "Select the option that expresses the given sentence in passive voice.\nSita sings a song.",
-      "options": [
-        "A song was sung by Sita.",
-        "A song is sung by Sita.",
-        "A song is being sung by Sita.",
-        "A song has been sung by Sita."
-      ],
-      "answer": 1,
-      "explanation": "Simple present active becomes 'is/am/are + V3': 'A song is sung by Sita.'",
-      "source": "ai",
-      "archetype": "ssc-mts-E15",
-      "verified": false
-    },
-    {
-      "id": "ssc-mts-117",
-      "section": "english",
-      "topic": "Reading Comprehension",
-      "difficulty": "easy",
-      "question": "Read the passage and answer the question.\n\nArjun was a postman in a small hill town. Every morning he packed letters and parcels into his cloth bag and set off on foot, because the narrow paths were too steep for a vehicle. Rain or shine, he climbed from one village to the next. People waited eagerly for him, for he brought news from sons working in faraway cities and money orders that paid for food and school fees. Over the years Arjun learned the name of every family on his route. When he finally retired, the villagers gathered at the post office, gave him a warm shawl and thanked him for thirty years of faithful service.\n\nWhy did Arjun deliver the mail on foot?",
-      "options": [
-        "The paths were too steep for a vehicle",
-        "He did not know how to drive",
-        "The post office had no money for a vehicle",
-        "He enjoyed walking in the rain"
-      ],
-      "answer": 0,
-      "explanation": "The passage states that the narrow paths were too steep for a vehicle.",
-      "source": "ai",
-      "archetype": "ssc-mts-E01",
-      "verified": false
-    },
-    {
-      "id": "ssc-mts-118",
-      "section": "english",
-      "topic": "Reading Comprehension",
-      "difficulty": "easy",
-      "question": "Read the passage and answer the question.\n\nArjun was a postman in a small hill town. Every morning he packed letters and parcels into his cloth bag and set off on foot, because the narrow paths were too steep for a vehicle. Rain or shine, he climbed from one village to the next. People waited eagerly for him, for he brought news from sons working in faraway cities and money orders that paid for food and school fees. Over the years Arjun learned the name of every family on his route. When he finally retired, the villagers gathered at the post office, gave him a warm shawl and thanked him for thirty years of faithful service.\n\nWhich quality of Arjun is shown most clearly in the passage?",
-      "options": [
-        "Greed for money",
-        "Impatience with people",
-        "Dedication to his duty",
-        "Laziness"
-      ],
-      "answer": 2,
-      "explanation": "He delivered mail on foot in all weather for thirty years – 'faithful service' shows dedication.",
-      "source": "ai",
-      "archetype": "ssc-mts-E02",
-      "verified": false
-    },
-    {
-      "id": "ssc-mts-119",
-      "section": "english",
-      "topic": "Reading Comprehension",
-      "difficulty": "easy",
-      "question": "Read the passage and answer the question.\n\nArjun was a postman in a small hill town. Every morning he packed letters and parcels into his cloth bag and set off on foot, because the narrow paths were too steep for a vehicle. Rain or shine, he climbed from one village to the next. People waited eagerly for him, for he brought news from sons working in faraway cities and money orders that paid for food and school fees. Over the years Arjun learned the name of every family on his route. When he finally retired, the villagers gathered at the post office, gave him a warm shawl and thanked him for thirty years of faithful service.\n\nSelect the word from the passage that means 'with great interest and desire'.",
-      "options": [
-        "finally",
-        "eagerly",
-        "faithful",
-        "steep"
-      ],
-      "answer": 1,
-      "explanation": "'People waited eagerly for him' – eagerly means with keen interest and desire.",
-      "source": "ai",
-      "archetype": "ssc-mts-E03",
-      "verified": false
-    },
-    {
-      "id": "ssc-mts-120",
-      "section": "english",
-      "topic": "Cloze Test",
-      "difficulty": "easy",
-      "question": "Read the passage and select the most appropriate option for the numbered blank.\n\nWater is precious, and we must not (1) ______ it. Simple habits like closing the tap while brushing our teeth can (2) ______ many litres every day. Rainwater can also be collected (3) ______ rooftops and stored for later use.\n\nSelect the most appropriate option for blank (1).",
-      "options": [
-        "waste",
-        "keep",
-        "collect",
-        "store"
-      ],
-      "answer": 0,
-      "explanation": "The passage is about saving water, so 'we must not waste it' fits.",
-      "source": "ai",
-      "archetype": "ssc-mts-E04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "'Discussed about' redundancy; classic SSC error"
+      }
     }
   ]
 }
