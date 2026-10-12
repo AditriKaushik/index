@@ -956,7 +956,12 @@
       "explanation": "If B = 100, A = 125. B is less than A by 25/125 = 20%.",
       "verified": true,
       "archetype": "cmat-Q01",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "25% more -> 20% less, with 25% mirror trap; exact CMAT percentage-comparison item"
+      }
     },
     {
       "id": "cmat-002",
@@ -974,25 +979,12 @@
       "explanation": "CP = 540/0.9 = ₹600. SP for 15% gain = 600 × 1.15 = ₹690.",
       "verified": true,
       "archetype": "cmat-Q02",
-      "source": "curated"
-    },
-    {
-      "id": "cmat-003",
-      "section": "quant",
-      "topic": "Percentages, Profit-Loss & Interest",
-      "difficulty": "easy",
-      "question": "What is the simple interest on ₹8,000 at 12.5% per annum for 4 years?",
-      "options": [
-        "₹4,000",
-        "₹3,600",
-        "₹4,400",
-        "₹5,000"
-      ],
-      "answer": 0,
-      "explanation": "SI = 8,000 × 12.5 × 4 / 100 = ₹4,000.",
-      "verified": true,
-      "archetype": "cmat-Q03",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Loss 10% at 540 -> CP 600 -> 690 for 15% gain; standard CMAT profit-loss"
+      }
     },
     {
       "id": "cmat-004",
@@ -1010,7 +1002,12 @@
       "explanation": "Half-yearly rate 10% for 2 periods: 10,000 × 1.1² = 12,100. CI = ₹2,100.",
       "verified": true,
       "archetype": "cmat-Q03",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Half-yearly CI 10% x 2 -> 2100 with 2000/2200 traps; CMAT-typical"
+      }
     },
     {
       "id": "cmat-005",
@@ -1028,7 +1025,12 @@
       "explanation": "Multiply by 12: 6 : 4 : 3 (13 parts). One part = 7,800/13 = 600. B = 4 × 600 = ₹2,400.",
       "verified": true,
       "archetype": "cmat-Q04",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Fractional ratio 1/2:1/3:1/4 -> 6:4:3, B 2400; classic CMAT ratio"
+      }
     },
     {
       "id": "cmat-006",
@@ -1046,7 +1048,12 @@
       "explanation": "The middle number equals the average, 27; the numbers are 23, 25, 27, 29, 31. Largest = 31.",
       "verified": true,
       "archetype": "cmat-Q05",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Five consecutive odd numbers averaging 27, largest 31; quick and on-pattern"
+      }
     },
     {
       "id": "cmat-007",
@@ -1064,7 +1071,12 @@
       "explanation": "For equal distances, average speed = 2 × 40 × 60 / (40 + 60) = 4800/100 = 48 km/h.",
       "verified": true,
       "archetype": "cmat-Q06",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Harmonic-mean round trip 48 with 50 arithmetic-mean trap; faithful"
+      }
     },
     {
       "id": "cmat-008",
@@ -1082,25 +1094,12 @@
       "explanation": "Total work = 12 × 18 = 216 worker-days. 216/8 = 27 days.",
       "verified": true,
       "archetype": "cmat-Q07",
-      "source": "curated"
-    },
-    {
-      "id": "cmat-009",
-      "section": "quant",
-      "topic": "Algebra & Number System",
-      "difficulty": "easy",
-      "question": "If 3x − 2y = 7 and x + y = 9, what is the value of xy?",
-      "options": [
-        "15",
-        "18",
-        "20",
-        "24"
-      ],
-      "answer": 2,
-      "explanation": "From x + y = 9: 2x + 2y = 18. Adding to 3x − 2y = 7 gives 5x = 25, x = 5, y = 4. xy = 20.",
-      "verified": true,
-      "archetype": "cmat-Q08",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Man-days 12x18/8 = 27; straightforward CMAT work"
+      }
     },
     {
       "id": "cmat-010",
@@ -1118,25 +1117,12 @@
       "explanation": "LCM(12, 18, 30) = 180. Required number = 180 + 5 = 185.",
       "verified": true,
       "archetype": "cmat-Q08",
-      "source": "curated"
-    },
-    {
-      "id": "cmat-011",
-      "section": "quant",
-      "topic": "Geometry & Mensuration",
-      "difficulty": "easy",
-      "question": "The circumference of a circle is 44 cm. What is its area? (Take π = 22/7.)",
-      "options": [
-        "144 cm²",
-        "154 cm²",
-        "176 cm²",
-        "616 cm²"
-      ],
-      "answer": 1,
-      "explanation": "2πr = 44 → r = 7 cm. Area = (22/7) × 49 = 154 cm².",
-      "verified": true,
-      "archetype": "cmat-Q10",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "LCM(12,18,30)+5 = 185 with 180/365 traps; standard CMAT remainder-LCM"
+      }
     },
     {
       "id": "cmat-012",
@@ -1154,7 +1140,12 @@
       "explanation": "(450 − 300)/300 × 100 = 50%.",
       "verified": true,
       "archetype": "cmat-Q11",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Raw material vs salaries 150/300 -> 50% with 150% trap; small-table DI fits"
+      }
     },
     {
       "id": "cmat-013",
@@ -1172,7 +1163,12 @@
       "explanation": "Terms are n² − 1 for n = 2, 3, 4, 5, 6, so next is 7² − 1 = 48 (differences 5, 7, 9, 11, 13).",
       "verified": true,
       "archetype": "cmat-L01",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "n^2-1 series -> 48; typical CMAT number series"
+      }
     },
     {
       "id": "cmat-014",
@@ -1190,7 +1186,12 @@
       "explanation": "Positions 2, 5, 9, 14 increase by 3, 4, 5; next is 14 + 6 = 20, i.e. T.",
       "verified": true,
       "archetype": "cmat-L02",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Letter gaps +3,+4,+5,+6 -> T; matches L02"
+      }
     },
     {
       "id": "cmat-015",
@@ -1208,7 +1209,12 @@
       "explanation": "Each letter is shifted one place forward: A→B, P→Q, P→Q, L→M, E→F.",
       "verified": true,
       "archetype": "cmat-L03",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "+1 letter shift APPLE -> BQQMF with near-miss options; CMAT coding staple"
+      }
     },
     {
       "id": "cmat-016",
@@ -1226,25 +1232,12 @@
       "explanation": "'blue' is common to the first two → 'pa'; 'sea' common to the last two → 'ta'; 'is' common to first and third → 'la'. The remaining code in the first sentence, 'ka', is 'sky'.",
       "verified": true,
       "archetype": "cmat-L04",
-      "source": "curated"
-    },
-    {
-      "id": "cmat-017",
-      "section": "logical",
-      "topic": "Blood Relations & Directions",
-      "difficulty": "easy",
-      "question": "Pointing to a man, Rina said, \"He is the son of my grandfather's only son.\" How is the man related to Rina?",
-      "options": [
-        "Uncle",
-        "Cousin",
-        "Father",
-        "Brother"
-      ],
-      "answer": 3,
-      "explanation": "Her grandfather's only son is Rina's father; his son is Rina's brother.",
-      "verified": true,
-      "archetype": "cmat-L05",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Sentence coding: sky=ka by elimination; standard CMAT"
+      }
     },
     {
       "id": "cmat-018",
@@ -1262,7 +1255,12 @@
       "explanation": "South 10 m; a left turn while facing south points east (6 m); another left turn points north (10 m), cancelling the southward walk. He is 6 m east of the start.",
       "verified": true,
       "archetype": "cmat-L06",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "S10, E6, N10 -> 6 m east; CMAT direction item"
+      }
     },
     {
       "id": "cmat-019",
@@ -1280,7 +1278,12 @@
       "explanation": "Positions 1–5 from the left: P = 1, R = 3, T = 4. Q cannot be in 2 (next to P), so Q = 5 and S = 2.",
       "verified": true,
       "archetype": "cmat-L07",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "5-person row: P1, S2, R3, T4, Q5 -> S; unique, on-pattern"
+      }
     },
     {
       "id": "cmat-020",
@@ -1298,7 +1301,12 @@
       "explanation": "Neha is 17th from the top. Rank from bottom = 40 − 17 + 1 = 24.",
       "verified": true,
       "archetype": "cmat-L08",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Neha 17th from top -> 24th from bottom; CMAT ranking with off-by-one traps"
+      }
     },
     {
       "id": "cmat-021",
@@ -1316,7 +1324,12 @@
       "explanation": "'Some books are bags' converts to 'Some bags are books' (II follows). The books that are bags need not include any pens, so I does not necessarily follow.",
       "verified": true,
       "archetype": "cmat-L09",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "All pens books, some books bags -> only II (conversion); CMAT syllogism"
+      }
     },
     {
       "id": "cmat-022",
@@ -1334,7 +1347,12 @@
       "explanation": "All dogs are animals and no dog is a cat, so those animals that are dogs are not cats: I follows. Nothing prevents some other animals from being cats, so II does not follow.",
       "verified": true,
       "archetype": "cmat-L09",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "No cat dog, all dogs animals -> some animals not cats only; standard"
+      }
     },
     {
       "id": "cmat-023",
@@ -1352,7 +1370,12 @@
       "explanation": "An advertisement promising stronger teeth assumes people value that outcome (I). It does not assume other toothpastes actively weaken teeth (II).",
       "verified": true,
       "archetype": "cmat-L10",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Advertisement assumptions: I implicit, II extreme; CMAT L10 exact"
+      }
     },
     {
       "id": "cmat-024",
@@ -1370,7 +1393,12 @@
       "explanation": "Copper, iron and aluminium are elements (pure metals); brass is an alloy of copper and zinc.",
       "verified": true,
       "archetype": "cmat-L12",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Brass alloy among metals; classic odd-one-out"
+      }
     },
     {
       "id": "cmat-025",
@@ -1388,7 +1416,12 @@
       "explanation": "The passage says a firm 'can be profitable on paper while its money is tied up in unpaid invoices and unsold stock', leading to a cash shortage.",
       "verified": true,
       "archetype": "cmat-E01",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Cash-flow passage detail; CMAT RC is short business passages, good match"
+      }
     },
     {
       "id": "cmat-026",
@@ -1406,43 +1439,12 @@
       "explanation": "The passage notes that lighting was seen as a 'symbol of progress' and a matter of civic pride, in addition to being a convenience.",
       "verified": true,
       "archetype": "cmat-E02",
-      "source": "curated"
-    },
-    {
-      "id": "cmat-027",
-      "section": "language",
-      "topic": "Reading Comprehension",
-      "difficulty": "easy",
-      "question": "Read the passage and answer the question.\n\n\"Bamboo is technically a grass, not a tree. Some species can grow nearly a metre in a single day, and many reach full height within a few months. Because it regrows from its roots after cutting, bamboo can be harvested repeatedly without replanting, which makes it attractive as a sustainable building material.\"\n\nWhich feature of bamboo makes it a sustainable building material, according to the passage?",
-      "options": [
-        "It grows only in a few months of the year.",
-        "It is stronger than steel.",
-        "It regrows from its roots after being cut, so it need not be replanted.",
-        "It is a type of tree."
-      ],
-      "answer": 2,
-      "explanation": "The passage links sustainability to bamboo regrowing from its roots, allowing repeated harvest without replanting. It explicitly says bamboo is a grass, and says nothing about steel.",
-      "verified": true,
-      "archetype": "cmat-E01",
-      "source": "curated"
-    },
-    {
-      "id": "cmat-028",
-      "section": "language",
-      "topic": "Vocabulary (Synonyms, Antonyms, Idioms)",
-      "difficulty": "easy",
-      "question": "Choose the word most similar in meaning to BENEVOLENT.",
-      "options": [
-        "Proud",
-        "Lazy",
-        "Cruel",
-        "Kind"
-      ],
-      "answer": 3,
-      "explanation": "Benevolent means well-meaning and kindly.",
-      "verified": true,
-      "archetype": "cmat-E03",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "'as much a statement as a service' meaning; fits E02"
+      }
     },
     {
       "id": "cmat-029",
@@ -1460,7 +1462,12 @@
       "explanation": "Scarce means in short supply; its opposite is abundant. Rare, meagre and insufficient are close in meaning to scarce.",
       "verified": true,
       "archetype": "cmat-E04",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "SCARCE antonym abundant with synonym distractors; CMAT format"
+      }
     },
     {
       "id": "cmat-030",
@@ -1478,7 +1485,12 @@
       "explanation": "The idiom means to stay up late working or studying.",
       "verified": true,
       "archetype": "cmat-E05",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "'burn the midnight oil' idiom; standard"
+      }
     },
     {
       "id": "cmat-031",
@@ -1496,7 +1508,12 @@
       "explanation": "Omniscient = all-knowing; omnipotent = all-powerful; omnipresent = present everywhere; omnivorous = eating all kinds of food.",
       "verified": true,
       "archetype": "cmat-E05",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Omniscient vs omnipotent/omnipresent traps; good one-word substitution"
+      }
     },
     {
       "id": "cmat-032",
@@ -1514,7 +1531,12 @@
       "explanation": "'Senior' takes 'to', not 'than': 'senior to me'. So the error is in part B.",
       "verified": true,
       "archetype": "cmat-E06",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "'senior than' -> senior to; classic CMAT error spotting"
+      }
     },
     {
       "id": "cmat-033",
@@ -1532,7 +1554,12 @@
       "explanation": "Treating the committee as a single body, the singular verb 'has' and singular pronoun 'its' must agree; the other options mix singular and plural or misuse the verb form.",
       "verified": true,
       "archetype": "cmat-E07",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Committee has submitted its report; collective noun agreement traps"
+      }
     },
     {
       "id": "cmat-034",
@@ -1550,7 +1577,12 @@
       "explanation": "With the present perfect continuous and a point in time (2019), 'since' is correct; 'for' is used with a period of time.",
       "verified": true,
       "archetype": "cmat-E07",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "since 2019 vs for/from; easy preposition"
+      }
     },
     {
       "id": "cmat-035",
@@ -1568,7 +1600,12 @@
       "explanation": "Q (the start) → S (why customers returned) → P (growth within a few years) → R (today's position).",
       "verified": true,
       "archetype": "cmat-E08",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Soap-shop story QSPR chronology; CMAT PQRS arrangement"
+      }
     },
     {
       "id": "cmat-036",
@@ -1586,7 +1623,12 @@
       "explanation": "'Despite repeated warnings' and investing everything in one stock indicate he was unconcerned — complacent. Cautious, anxious and vigilant contradict his action.",
       "verified": true,
       "archetype": "cmat-E09",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "'Despite warnings ... complacent' contrast clue; faithful E09"
+      }
     },
     {
       "id": "cmat-037",
@@ -1604,7 +1646,12 @@
       "explanation": "Justice Surya Kant was sworn in as the 53rd CJI on 24 November 2025, succeeding Justice B. R. Gavai.",
       "verified": true,
       "archetype": "cmat-G01",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Surya Kant 53rd CJI Nov 2025 correct; CMAT appointment question"
+      }
     },
     {
       "id": "cmat-038",
@@ -1622,7 +1669,12 @@
       "explanation": "C. P. Radhakrishnan was elected the 15th Vice-President on 9 September 2025 after Jagdeep Dhankhar resigned in July 2025.",
       "verified": true,
       "archetype": "cmat-G01",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Radhakrishnan VP Sept 2025 correct; Dhankhar distractor apt"
+      }
     },
     {
       "id": "cmat-039",
@@ -1640,7 +1692,12 @@
       "explanation": "India beat South Africa in the final at Navi Mumbai on 2 November 2025 to win its first Women's World Cup.",
       "verified": true,
       "archetype": "cmat-G02",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "India won Women's WC 2025 (beat SA); correct, CMAT sports CA"
+      }
     },
     {
       "id": "cmat-040",
@@ -1658,7 +1715,12 @@
       "explanation": "Group Captain Shubhanshu Shukla flew on Axiom-4 (June–July 2025). Prasanth Nair was his backup; Rakesh Sharma flew to Salyut 7 in 1984.",
       "verified": true,
       "archetype": "cmat-G01",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Shukla first Indian on ISS with Gaganyaan-designate distractors; good CA"
+      }
     },
     {
       "id": "cmat-041",
@@ -1676,7 +1738,12 @@
       "explanation": "South Africa held the 2025 G20 presidency and hosted the leaders' summit in Johannesburg.",
       "verified": true,
       "archetype": "cmat-G02",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "South Africa hosted G20 2025; correct, simple"
+      }
     },
     {
       "id": "cmat-042",
@@ -1694,7 +1761,12 @@
       "explanation": "The GST Council merged the 12% and 28% slabs into a two-slab structure of 5% and 18% for most items, with a special higher rate for a few luxury/sin goods.",
       "verified": true,
       "archetype": "cmat-G03",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "GST 2.0 slabs 5% and 18% from 22 Sept 2025; current and precise"
+      }
     },
     {
       "id": "cmat-043",
@@ -1712,25 +1784,12 @@
       "explanation": "The ADB, founded in 1966, is headquartered in Mandaluyong, Metro Manila, Philippines.",
       "verified": true,
       "archetype": "cmat-G04",
-      "source": "curated"
-    },
-    {
-      "id": "cmat-044",
-      "section": "ga",
-      "topic": "Economy & Business",
-      "difficulty": "easy",
-      "question": "NITI Aayog was set up in 2015 to replace which body?",
-      "options": [
-        "Planning Commission",
-        "Reserve Bank of India",
-        "National Development Council",
-        "Finance Commission"
-      ],
-      "answer": 0,
-      "explanation": "NITI Aayog replaced the Planning Commission on 1 January 2015.",
-      "verified": true,
-      "archetype": "cmat-G03",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "ADB HQ Manila; CMAT HQ archetype"
+      }
     },
     {
       "id": "cmat-045",
@@ -1748,61 +1807,12 @@
       "explanation": "The 42nd Amendment (1976) inserted Part IVA (Article 51A) on Fundamental Duties, on the recommendation of the Swaran Singh Committee.",
       "verified": true,
       "archetype": "cmat-G05",
-      "source": "curated"
-    },
-    {
-      "id": "cmat-046",
-      "section": "ga",
-      "topic": "Polity & History",
-      "difficulty": "easy",
-      "question": "In which year did Mahatma Gandhi lead the Dandi March (Salt Satyagraha)?",
-      "options": [
-        "1930",
-        "1919",
-        "1920",
-        "1942"
-      ],
-      "answer": 0,
-      "explanation": "The Dandi March began on 12 March 1930 and reached Dandi on 6 April 1930.",
-      "verified": true,
-      "archetype": "cmat-G06",
-      "source": "curated"
-    },
-    {
-      "id": "cmat-047",
-      "section": "ga",
-      "topic": "Geography & Science",
-      "difficulty": "easy",
-      "question": "Which gas makes up the largest share of the Earth's atmosphere by volume?",
-      "options": [
-        "Carbon dioxide",
-        "Nitrogen",
-        "Oxygen",
-        "Argon"
-      ],
-      "answer": 1,
-      "explanation": "Nitrogen is about 78% of dry air by volume, oxygen about 21%.",
-      "verified": true,
-      "archetype": "cmat-G07",
-      "source": "curated"
-    },
-    {
-      "id": "cmat-048",
-      "section": "ga",
-      "topic": "Sports, Awards & Books",
-      "difficulty": "easy",
-      "question": "'Wings of Fire' is the autobiography of:",
-      "options": [
-        "Homi J. Bhabha",
-        "Vikram Sarabhai",
-        "C. V. Raman",
-        "A. P. J. Abdul Kalam"
-      ],
-      "answer": 3,
-      "explanation": "'Wings of Fire' (1999), co-written with Arun Tiwari, is Dr A. P. J. Abdul Kalam's autobiography.",
-      "verified": true,
-      "archetype": "cmat-G08",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Fundamental Duties via 42nd with 44th/86th traps; standard CMAT polity"
+      }
     },
     {
       "id": "cmat-049",
@@ -1820,7 +1830,12 @@
       "explanation": "Joseph Schumpeter developed the idea of creative destruction and saw the entrepreneur as an innovator.",
       "verified": true,
       "archetype": "cmat-I01",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Schumpeter creative destruction; core CMAT IE theorist question"
+      }
     },
     {
       "id": "cmat-050",
@@ -1838,7 +1853,12 @@
       "explanation": "Richard Cantillon (18th century) introduced the term, describing entrepreneurs as those who buy at certain prices and sell at uncertain ones. Say and Knight developed the idea later.",
       "verified": true,
       "archetype": "cmat-I01",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Cantillon introduced 'entrepreneur' with Knight/Say traps; exact IE archetype"
+      }
     },
     {
       "id": "cmat-051",
@@ -1856,7 +1876,12 @@
       "explanation": "McClelland's theory identifies a high need for achievement (n-Ach) as the key motive of entrepreneurs.",
       "verified": true,
       "archetype": "cmat-I01",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "McClelland need for achievement vs affiliation; frequent CMAT IE"
+      }
     },
     {
       "id": "cmat-052",
@@ -1874,25 +1899,12 @@
       "explanation": "An intrapreneur innovates and takes initiative inside an established company, using its resources.",
       "verified": true,
       "archetype": "cmat-I02",
-      "source": "curated"
-    },
-    {
-      "id": "cmat-053",
-      "section": "ie",
-      "topic": "Startup Ecosystem & Government Schemes",
-      "difficulty": "easy",
-      "question": "The Government of India launched the 'Startup India' initiative in which year?",
-      "options": [
-        "2014",
-        "2015",
-        "2018",
-        "2016"
-      ],
-      "answer": 3,
-      "explanation": "Startup India was launched on 16 January 2016.",
-      "verified": true,
-      "archetype": "cmat-I03",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Intrapreneur definition; common IE item"
+      }
     },
     {
       "id": "cmat-054",
@@ -1910,7 +1922,12 @@
       "explanation": "Start-ups are recognised by DPIIT, under the Ministry of Commerce and Industry, which makes them eligible for tax and other benefits.",
       "verified": true,
       "archetype": "cmat-I03",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "DPIIT grants startup recognition; CMAT IE scheme question"
+      }
     },
     {
       "id": "cmat-055",
@@ -1928,7 +1945,12 @@
       "explanation": "AIM was set up in 2016 as the Government of India's flagship innovation initiative under NITI Aayog.",
       "verified": true,
       "archetype": "cmat-I03",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "AIM under NITI Aayog; matches I03"
+      }
     },
     {
       "id": "cmat-056",
@@ -1946,7 +1968,12 @@
       "explanation": "Shishu covers loans up to ₹50,000; Kishore ₹50,000–₹5 lakh; Tarun ₹5–10 lakh; and Tarun Plus (added in 2024) ₹10–20 lakh.",
       "verified": true,
       "archetype": "cmat-I04",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "MUDRA Shishu up to 50,000 with Kishore/Tarun limits as traps; current"
+      }
     },
     {
       "id": "cmat-057",
@@ -1964,7 +1991,12 @@
       "explanation": "The term, coined by investor Aileen Lee in 2013, denotes a private start-up valued above US$1 billion.",
       "verified": true,
       "archetype": "cmat-I05",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Unicorn > US$1 bn; easy but frequent"
+      }
     },
     {
       "id": "cmat-058",
@@ -1982,7 +2014,12 @@
       "explanation": "An MVP lets a start-up validate its assumptions with minimum effort; the term was popularised by Eric Ries.",
       "verified": true,
       "archetype": "cmat-I06",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Lean Startup MVP; on-pattern"
+      }
     },
     {
       "id": "cmat-059",
@@ -2000,7 +2037,12 @@
       "explanation": "Under Section 53 of the Patents Act, 1970, the term of every patent is 20 years from the filing date.",
       "verified": true,
       "archetype": "cmat-I08",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Patent term 20 years; frequent IPR basic"
+      }
     },
     {
       "id": "cmat-060",
@@ -2018,7 +2060,12 @@
       "explanation": "Sachin Bansal and Binny Bansal founded Flipkart in Bengaluru in 2007. The others founded Snapdeal, Ola and Zomato respectively.",
       "verified": true,
       "archetype": "cmat-I09",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Flipkart founders with other startup founder pairs; I09 match"
+      }
     },
     {
       "id": "cmat-061",
@@ -2036,7 +2083,12 @@
       "explanation": "Required reduction = 20/(100 + 20) × 100 = 16 2/3%.",
       "source": "ai",
       "archetype": "cmat-Q01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Price +20% -> consumption cut 16 2/3% vs 20% trap; CMAT classic"
+      }
     },
     {
       "id": "cmat-062",
@@ -2054,7 +2106,12 @@
       "explanation": "On a cost of ₹100, marked price = ₹130 and selling price = ₹117. Profit = 17%.",
       "source": "ai",
       "archetype": "cmat-Q02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Markup 30% discount 10% -> 17%; CMAT staple"
+      }
     },
     {
       "id": "cmat-063",
@@ -2072,7 +2129,12 @@
       "explanation": "Interest = 2P in 16 years, so 2P = P × r × 16/100, giving r = 12.5%.",
       "source": "ai",
       "archetype": "cmat-Q03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "SI triple in 16 years -> 12.5%; straightforward"
+      }
     },
     {
       "id": "cmat-064",
@@ -2090,7 +2152,12 @@
       "explanation": "Make B common: A : B = 8 : 12 and B : C = 12 : 15, so A : B : C = 8 : 12 : 15.",
       "source": "ai",
       "archetype": "cmat-Q04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Chained ratio 8:12:15; CMAT ratio"
+      }
     },
     {
       "id": "cmat-065",
@@ -2108,7 +2175,12 @@
       "explanation": "New total = 25 × 35.4 = 885 kg; old total = 24 × 35 = 840 kg. Teacher = 45 kg.",
       "source": "ai",
       "archetype": "cmat-Q05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Teacher's weight 35+25x0.4 = 45; CMAT average-inclusion item"
+      }
     },
     {
       "id": "cmat-066",
@@ -2126,7 +2198,12 @@
       "explanation": "Speed = 240/16 = 15 m/s. To pass the platform it covers 240 + 360 = 600 m: 600/15 = 40 seconds.",
       "source": "ai",
       "archetype": "cmat-Q06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Train 240 m, pole 16 s -> platform 40 s; staple"
+      }
     },
     {
       "id": "cmat-067",
@@ -2144,7 +2221,12 @@
       "explanation": "Net rate = 1/10 − 1/15 = 1/30 of the tank per hour, so 30 hours.",
       "source": "ai",
       "archetype": "cmat-Q07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Fill 1/10 minus empty 1/15 -> 30 h; CMAT pipes"
+      }
     },
     {
       "id": "cmat-068",
@@ -2162,7 +2244,12 @@
       "explanation": "Let the number be 10a + b. a + b = 9 and (10b + a) − (10a + b) = 27 gives b − a = 3, so a = 3, b = 6: the number is 36.",
       "source": "ai",
       "archetype": "cmat-Q09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Digit sum 9, reversal +27 -> 36; exact Q09 pattern"
+      }
     },
     {
       "id": "cmat-069",
@@ -2180,7 +2267,12 @@
       "explanation": "Product of the numbers = HCF × LCM = 4,500. Other number = 4,500/60 = 75.",
       "source": "ai",
       "archetype": "cmat-Q08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "HCF x LCM / 60 = 75; standard"
+      }
     },
     {
       "id": "cmat-070",
@@ -2198,7 +2290,12 @@
       "explanation": "The diagonals bisect each other at right angles, so each side = √(8² + 15²) = 17 cm. Perimeter = 4 × 17 = 68 cm.",
       "source": "ai",
       "archetype": "cmat-Q10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Rhombus diagonals 16/30 -> side 17, perimeter 68; CMAT mensuration"
+      }
     },
     {
       "id": "cmat-071",
@@ -2216,7 +2313,12 @@
       "explanation": "Total = 120 + 150 + 90 + 180 + 60 = 600. D's share = 180/600 = 30%.",
       "source": "ai",
       "archetype": "cmat-Q11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "D share 180/600 = 30%; small-table DI"
+      }
     },
     {
       "id": "cmat-072",
@@ -2234,7 +2336,12 @@
       "explanation": "Central angle = 15% of 360° = 54°.",
       "source": "ai",
       "archetype": "cmat-Q12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Pie central angle 15% -> 54 deg; matches Q12"
+      }
     },
     {
       "id": "cmat-073",
@@ -2252,7 +2359,12 @@
       "explanation": "The terms are 1×2, 2×3, 3×4, 4×5, 5×6, so the next is 6×7 = 42 (differences 4, 6, 8, 10, 12).",
       "source": "ai",
       "archetype": "cmat-L01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "n(n+1) series -> 42; CMAT series"
+      }
     },
     {
       "id": "cmat-074",
@@ -2270,7 +2382,12 @@
       "explanation": "The first letter moves forward by 2 (A, C, E, G, I) and the second moves back by 2 (Z, X, V, T, R).",
       "source": "ai",
       "archetype": "cmat-L02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Pair series A/Z opposite movement -> IR; matches L02"
+      }
     },
     {
       "id": "cmat-075",
@@ -2288,7 +2405,12 @@
       "explanation": "Each letter is replaced by the next letter: C→D, H→I, A→B, I→J, R→S, giving DIBJS.",
       "source": "ai",
       "archetype": "cmat-L03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "+1 shift CHAIR -> DIBJS; repeats 015 mechanism"
+      }
     },
     {
       "id": "cmat-076",
@@ -2306,7 +2428,12 @@
       "explanation": "'tea' (sentences 1, 2) = kat; 'hot' (1, 3) = lo; 'cold' (2, 3) = ra. The remaining code in sentence 1, 'pin', stands for 'is'.",
       "source": "ai",
       "archetype": "cmat-L04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Three-sentence coding, is = pin; good elimination"
+      }
     },
     {
       "id": "cmat-077",
@@ -2324,7 +2451,12 @@
       "explanation": "The only son of Arun's father's mother is Arun's father himself. His daughter is Arun's sister.",
       "source": "ai",
       "archetype": "cmat-L05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Father's mother's only son = father -> sister; unambiguous blood relation"
+      }
     },
     {
       "id": "cmat-078",
@@ -2342,7 +2474,12 @@
       "explanation": "North → 90° clockwise → East → 180° anticlockwise → West → 45° clockwise → North-west.",
       "source": "ai",
       "archetype": "cmat-L06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Rotations N->E->W->NW; matches L06 degrees variant"
+      }
     },
     {
       "id": "cmat-079",
@@ -2360,7 +2497,12 @@
       "explanation": "Facing the centre, moving to a person's right is anticlockwise. Number seats anticlockwise from P = 0: Q = 2, T = 3, U = 4. R must be next to Q, so R = 1, and S = 5. Opposite Q (seat 2) is seat 5: S.",
       "source": "ai",
       "archetype": "cmat-L07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Six-seat circle: P0, R1, Q2, T3, U4, S5 -> S opposite Q; unique under either right convention"
+      }
     },
     {
       "id": "cmat-080",
@@ -2378,7 +2520,12 @@
       "explanation": "Sonu's position from the left = 35 − 18 + 1 = 18. Between positions 12 and 18 there are 18 − 12 − 1 = 5 students.",
       "source": "ai",
       "archetype": "cmat-L08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Row of 35: Sonu 18th both ends -> 5 between; CMAT ranking"
+      }
     },
     {
       "id": "cmat-081",
@@ -2396,7 +2543,12 @@
       "explanation": "The managers who are leaders are also speakers, so I follows. 'All leaders are speakers' does not imply that all speakers are leaders, so II does not follow.",
       "source": "ai",
       "archetype": "cmat-L09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Some managers leaders, all leaders speakers -> only I; standard"
+      }
     },
     {
       "id": "cmat-082",
@@ -2414,7 +2566,12 @@
       "explanation": "The pencils that are pens cannot be books, so some pencils are not books (I). Other pencils may or may not be books, so II does not follow.",
       "source": "ai",
       "archetype": "cmat-L09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "No book pen, some pens pencils -> only I; with 'either-or' trap"
+      }
     },
     {
       "id": "cmat-083",
@@ -2432,7 +2589,12 @@
       "explanation": "The scheme makes sense only if such students cannot otherwise afford coaching (I) and if coaching actually helps (II). Both are implicit.",
       "source": "ai",
       "archetype": "cmat-L10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Free coaching decision: both assumptions implicit; CMAT L10"
+      }
     },
     {
       "id": "cmat-084",
@@ -2450,7 +2612,12 @@
       "explanation": "An aviary is an enclosure where birds are kept; an aquarium is a tank where fish are kept. A pond is a natural habitat, not a place built for keeping fish.",
       "source": "ai",
       "archetype": "cmat-L11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Aviary:Aquarium with Pond trap; CMAT analogy"
+      }
     },
     {
       "id": "cmat-085",
@@ -2468,7 +2635,12 @@
       "explanation": "The passage says the private dairy set prices as it chose and that, through the cooperative, profits would come back to the farmers instead of a middleman. Operation Flood came later and replicated the model.",
       "source": "ai",
       "archetype": "cmat-E01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Amul cooperative passage factual question; Indian business context, CMAT RC style"
+      }
     },
     {
       "id": "cmat-086",
@@ -2486,7 +2658,12 @@
       "explanation": "The 'subtler cost' falls on new employees who missed the informal learning that experienced staff had already gained in person.",
       "source": "ai",
       "archetype": "cmat-E01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Remote work disadvantages new hires; fair CMAT inference"
+      }
     },
     {
       "id": "cmat-087",
@@ -2504,25 +2681,12 @@
       "explanation": "The passage traces millets' decline and revival and stresses their suitability for low water and high heat. The other titles focus on side issues or contradict the passage (rice needs more water).",
       "source": "ai",
       "archetype": "cmat-E02",
-      "verified": false
-    },
-    {
-      "id": "cmat-088",
-      "section": "language",
-      "topic": "Reading Comprehension",
-      "difficulty": "easy",
-      "question": "Read the passage and answer the question.\n\n\"In the Japanese art of kintsugi, broken pottery is mended with lacquer mixed with powdered gold. Rather than disguising the cracks, the repair highlights them, so that the object's history becomes part of its beauty. The practice reflects a wider idea: that damage and repair are not things to be hidden but part of an object's story.\"\n\nAs used in the passage, 'disguising' most nearly means:",
-      "options": [
-        "concealing",
-        "revealing",
-        "decorating",
-        "repairing"
-      ],
-      "answer": 0,
-      "explanation": "Kintsugi highlights cracks 'rather than' disguising them, so 'disguising' means hiding or concealing; 'revealing' is its opposite.",
-      "source": "ai",
-      "archetype": "cmat-E02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Millets title; matches E02 title question"
+      }
     },
     {
       "id": "cmat-089",
@@ -2540,7 +2704,12 @@
       "explanation": "Meticulous means showing great attention to detail—very careful.",
       "source": "ai",
       "archetype": "cmat-E03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "METICULOUS = careful with careless antonym trap"
+      }
     },
     {
       "id": "cmat-090",
@@ -2558,7 +2727,12 @@
       "explanation": "Transient means lasting only a short time; its opposite is permanent. The other three are synonyms.",
       "source": "ai",
       "archetype": "cmat-E04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "TRANSIENT antonym permanent; standard"
+      }
     },
     {
       "id": "cmat-091",
@@ -2576,7 +2750,12 @@
       "explanation": "'To bite the bullet' means to make oneself do something unpleasant or difficult that cannot be avoided.",
       "source": "ai",
       "archetype": "cmat-E05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "'bite the bullet' idiom; standard"
+      }
     },
     {
       "id": "cmat-092",
@@ -2594,7 +2773,12 @@
       "explanation": "The subject 'Each' is singular, so the verb should be 'has completed'. The error is in part B.",
       "source": "ai",
       "archetype": "cmat-E06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "'Each of the boys have' error in B; CMAT error spotting"
+      }
     },
     {
       "id": "cmat-093",
@@ -2612,7 +2796,12 @@
       "explanation": "A hypothetical condition uses the subjunctive 'were' in the if-clause and 'would' in the main clause.",
       "source": "ai",
       "archetype": "cmat-E07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Subjunctive 'If I were you, I would'; good correct-sentence item"
+      }
     },
     {
       "id": "cmat-094",
@@ -2630,7 +2819,12 @@
       "explanation": "'Accuse' takes the preposition 'of': accused of an act.",
       "source": "ai",
       "archetype": "cmat-E07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "'accused of'; preposition fill-in"
+      }
     },
     {
       "id": "cmat-095",
@@ -2648,7 +2842,12 @@
       "explanation": "Q gives the cause, P the result ('As a result'), S the consequence for fishermen of losing the fish, and R ('Today') the recovery.",
       "source": "ai",
       "archetype": "cmat-E08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "River pollution QPSR with cause-effect chain; CMAT PQRS"
+      }
     },
     {
       "id": "cmat-096",
@@ -2666,7 +2865,12 @@
       "explanation": "'Although' signals contrast with 'most profitable venture', so the early impression must have been negative: unpromising.",
       "source": "ai",
       "archetype": "cmat-E09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "'Although ... unpromising' contrast; faithful E09"
+      }
     },
     {
       "id": "cmat-097",
@@ -2684,7 +2888,12 @@
       "explanation": "Mark Carney succeeded Justin Trudeau as Liberal Party leader and Prime Minister in March 2025.",
       "source": "ai",
       "archetype": "cmat-G02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Carney sworn in March 2025 correct; Poilievre/Freeland plausible"
+      }
     },
     {
       "id": "cmat-098",
@@ -2702,7 +2911,12 @@
       "explanation": "South Africa held the G20 presidency in 2025 and hosted the leaders' summit in Johannesburg.",
       "source": "ai",
       "archetype": "cmat-G02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Johannesburg G20 2025; Cape Town plausible trap"
+      }
     },
     {
       "id": "cmat-099",
@@ -2720,7 +2934,12 @@
       "explanation": "The 2025 FIDE World Cup was held in Goa in November 2025.",
       "source": "ai",
       "archetype": "cmat-G01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "FIDE World Cup 2025 in Goa verified; good national CA"
+      }
     },
     {
       "id": "cmat-100",
@@ -2738,7 +2957,12 @@
       "explanation": "The four codes are the Code on Wages, the Industrial Relations Code, the Code on Social Security and the Occupational Safety, Health and Working Conditions Code. There is no 'Code on Minimum Pensions'.",
       "source": "ai",
       "archetype": "cmat-G01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Labour codes in force 21 Nov 2025; fake 'Code on Minimum Pensions' as NOT option, current"
+      }
     },
     {
       "id": "cmat-101",
@@ -2756,7 +2980,12 @@
       "explanation": "The New Development Bank is headquartered in Shanghai, China.",
       "source": "ai",
       "archetype": "cmat-G04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "NDB HQ Shanghai; CMAT HQ archetype"
+      }
     },
     {
       "id": "cmat-102",
@@ -2774,7 +3003,12 @@
       "explanation": "GDP estimates are compiled and released by the NSO under MoSPI.",
       "source": "ai",
       "archetype": "cmat-G03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "NSO releases GDP estimates; good institution question"
+      }
     },
     {
       "id": "cmat-103",
@@ -2792,7 +3026,12 @@
       "explanation": "The repo rate is the rate at which the Reserve Bank of India lends to banks under repurchase agreements, using government securities as collateral.",
       "source": "ai",
       "archetype": "cmat-G03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Repo rate definition; standard CMAT economy"
+      }
     },
     {
       "id": "cmat-104",
@@ -2810,7 +3049,12 @@
       "explanation": "Article 32 guarantees the right to move the Supreme Court. Article 226 gives High Courts writ powers, but it is not a Fundamental Right.",
       "source": "ai",
       "archetype": "cmat-G05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Art 32 constitutional remedies with 226 trap; standard"
+      }
     },
     {
       "id": "cmat-105",
@@ -2828,7 +3072,12 @@
       "explanation": "The first session in Bombay (1885) was presided over by Womesh Chunder Bonnerjee. A. O. Hume was a founder of the Congress.",
       "source": "ai",
       "archetype": "cmat-G06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "W. C. Bonnerjee first INC president; Hume trap"
+      }
     },
     {
       "id": "cmat-106",
@@ -2846,7 +3095,12 @@
       "explanation": "Gujarat has the longest coastline among Indian states.",
       "source": "ai",
       "archetype": "cmat-G07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Gujarat longest coastline; staple geography"
+      }
     },
     {
       "id": "cmat-107",
@@ -2864,7 +3118,12 @@
       "explanation": "Banu Mushtaq wrote 'Heart Lamp' in Kannada; Deepa Bhasthi translated it into English and shared the prize. Geetanjali Shree won in 2022 for 'Tomb of Sand'.",
       "source": "ai",
       "archetype": "cmat-G08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Banu Mushtaq with translator Deepa Bhasthi as trap; good books/awards item"
+      }
     },
     {
       "id": "cmat-108",
@@ -2882,7 +3141,12 @@
       "explanation": "India beat New Zealand in the final in Dubai in March 2025 to win the Champions Trophy.",
       "source": "ai",
       "archetype": "cmat-G08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "India won Champions Trophy 2025; correct"
+      }
     },
     {
       "id": "cmat-109",
@@ -2900,7 +3164,12 @@
       "explanation": "Israel Kirzner's theory centres on entrepreneurial alertness to unexploited opportunities. Schumpeter emphasised innovation and creative destruction; Knight, uncertainty-bearing.",
       "source": "ai",
       "archetype": "cmat-I01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Kirzner alertness; exact I01 theorist item"
+      }
     },
     {
       "id": "cmat-110",
@@ -2918,7 +3187,12 @@
       "explanation": "Knight distinguished measurable, insurable risk from true uncertainty, which cannot be insured; profit rewards bearing the latter.",
       "source": "ai",
       "archetype": "cmat-I01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Knight uninsurable uncertainty vs insurable risk; precise"
+      }
     },
     {
       "id": "cmat-111",
@@ -2936,7 +3210,12 @@
       "explanation": "Effectuation is means-driven: begin with existing means (identity, knowledge, networks) rather than with predicted goals and forecasts.",
       "source": "ai",
       "archetype": "cmat-I02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Effectuation bird-in-hand; CMAT IE has begun citing Sarasvathy"
+      }
     },
     {
       "id": "cmat-112",
@@ -2954,7 +3233,12 @@
       "explanation": "A social entrepreneur builds an enterprise mainly to solve a social problem; Grameen Bank used microcredit to fight poverty.",
       "source": "ai",
       "archetype": "cmat-I02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Yunus social entrepreneur; standard"
+      }
     },
     {
       "id": "cmat-113",
@@ -2972,7 +3256,12 @@
       "explanation": "The government declared 16 January National Startup Day in 2022, marking the launch date of Startup India in 2016.",
       "source": "ai",
       "archetype": "cmat-I03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "National Startup Day 16 January; frequent CMAT IE"
+      }
     },
     {
       "id": "cmat-114",
@@ -2990,7 +3279,12 @@
       "explanation": "Stand-Up India facilitates loans of ₹10 lakh–₹1 crore to at least one SC/ST borrower and one woman borrower per bank branch for greenfield enterprises.",
       "source": "ai",
       "archetype": "cmat-I04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Stand-Up India SC/ST and women borrowers; scheme detail on-pattern"
+      }
     },
     {
       "id": "cmat-115",
@@ -3008,7 +3302,12 @@
       "explanation": "The FFS is operated by the Small Industries Development Bank of India (SIDBI), which commits capital to SEBI-registered AIFs that in turn invest in start-ups.",
       "source": "ai",
       "archetype": "cmat-I04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "FFS managed by SIDBI; matches I04"
+      }
     },
     {
       "id": "cmat-116",
@@ -3026,7 +3325,12 @@
       "explanation": "Post-money valuation = 40 + 10 = ₹50 crore. Stake = 10/50 = 20%. Dividing by the pre-money value (10/40 = 25%) is the common mistake.",
       "source": "ai",
       "archetype": "cmat-I05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Pre-money 40 + 10 = 50 post -> 20% with 25% trap; I05 calculation"
+      }
     },
     {
       "id": "cmat-117",
@@ -3044,7 +3348,12 @@
       "explanation": "The canvas has nine blocks: customer segments, value propositions, channels, customer relationships, revenue streams, key resources, key activities, key partnerships and cost structure.",
       "source": "ai",
       "archetype": "cmat-I06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Business Model Canvas 9 blocks; I06"
+      }
     },
     {
       "id": "cmat-118",
@@ -3062,7 +3371,12 @@
       "explanation": "Darjeeling tea was the first product registered under the Geographical Indications of Goods Act, 1999, in 2004–05.",
       "source": "ai",
       "archetype": "cmat-I08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Darjeeling tea first GI; standard IPR"
+      }
     },
     {
       "id": "cmat-119",
@@ -3080,7 +3394,12 @@
       "explanation": "Rogers's categories: innovators 2.5%, early adopters 13.5%, early majority 34%, late majority 34% and laggards 16%.",
       "source": "ai",
       "archetype": "cmat-I07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Rogers early adopters 13.5%; innovation theory detail"
+      }
     },
     {
       "id": "cmat-120",
@@ -3098,7 +3417,12 @@
       "explanation": "Zomato Ltd was renamed Eternal Ltd in 2025; Zomato, Blinkit, District and Hyperpure became its businesses. Info Edge is a separate company and an early investor.",
       "source": "ai",
       "archetype": "cmat-I09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Zomato renamed Eternal Ltd (2025); current corporate fact"
+      }
     }
   ]
 }

@@ -135,3 +135,19 @@ test('msq and numerical questions are scored with partial and tolerance rules', 
   assert.deepEqual(marks({ m: { answer: [0, 1] } }), [-2, 0, 0]);
   assert.equal(canShuffle(e.questions[1]), false);
 });
+
+test('questions of one passage are served together as a set', () => {
+  const e = { ...exam, passages: [{ id: 'P', section: 'a', text: 'x' }],
+    questions: exam.questions.map(q => (['q1', 'q2', 'q4', 'q5'].includes(q.id) ? { ...q, passage: 'P' } : q)) };
+  for (const seed of [1, 2, 3, 4, 5]) {
+    const t = buildTest(e, 'custom', { sections: ['a'], count: 8 }, seed);
+    const ids = t.questionIds;
+    const inSet = ids.filter(id => ['q1', 'q2', 'q4', 'q5'].includes(id));
+    if (inSet.length) {
+      assert.equal(inSet.length, 4);
+      const pos = inSet.map(id => ids.indexOf(id));
+      assert.equal(Math.max(...pos) - Math.min(...pos), 3, 'set is contiguous');
+    }
+    assert.ok(Math.abs(ids.length - 8) <= 0);
+  }
+});

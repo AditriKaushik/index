@@ -20,6 +20,7 @@ const fmtDate = ms => new Date(ms).toLocaleDateString('en-IN', { day: 'numeric',
 const LETTERS = 'ABCDEFGH';
 // Figure-based questions carry inline SVG. It is shown through <img>, so even a
 // malformed figure can never run script on the page.
+const passageHtml = (exam, q) => { const p = q.passage && (exam.passages || []).find(x => x.id === q.passage); return p ? `<details class="passage" open><summary>${esc(p.title || 'Passage')}</summary><div>${esc(p.text).replace(/\n/g, '<br>')}${fig(p.figure)}</div></details>` : ''; };
 const fig = svg => (svg ? `<img class="fig" alt="figure" src="data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}">` : '');
 const save = () => store.save(state);
 
@@ -286,7 +287,7 @@ async function viewTest() {
             <span class="muted">+${mk.correct} / ${mk.wrong}</span>
             ${q.questionHi ? `<button class="link" id="qlang">${showHi ? 'English' : 'हिंदी'}</button>` : ''}
           </div>
-          <div class="qtext">${esc(text).replace(/\n/g, '<br>')}${fig(q.figure)}</div>
+          ${passageHtml(exam, q)}<div class="qtext">${esc(text).replace(/\n/g, '<br>')}${fig(q.figure)}</div>
           ${qType(q) === 'numerical'
             ? `<label class="nat">${t('Your answer (number)', 'आपका उत्तर (संख्या)')} <input id="nat" inputmode="decimal" autocomplete="off" value="${esc(r.answer ?? '')}"></label>`
             : `${qType(q) === 'msq' ? `<p class="muted">${t('One or more options may be correct.', 'एक या अधिक विकल्प सही हो सकते हैं।')}</p>` : ''}<div class="opts">${order.map((oi, k) => { const on = qType(q) === 'msq' ? (r.answer || []).includes(oi) : r.answer === oi; return `<label class="opt ${on ? 'sel' : ''}"><input type="${qType(q) === 'msq' ? 'checkbox' : 'radio'}" name="o" value="${oi}" ${on ? 'checked' : ''}><b>${LETTERS[k]}</b><span>${esc(opts[oi])}${fig(q.optionFigures?.[oi])}</span></label>`; }).join('')}</div>`}
@@ -403,7 +404,7 @@ async function viewResult(id) {
       <div class="filter"><label><input type="checkbox" id="onlyWrong"> ${t('Show only wrong / skipped', 'केवल ग़लत / छोड़े हुए दिखाएँ')}</label></div>
       <ol class="review">${r.items.map(it => { const q = byId.get(it.id); if (!q) return ''; return `
         <li class="${it.correct ? 'right' : it.answer == null ? 'skip' : 'wrong'}">
-          <div class="qtext">${esc(q.question).replace(/\n/g, '<br>')}${fig(q.figure)}</div>
+          ${passageHtml(exam, q)}<div class="qtext">${esc(q.question).replace(/\n/g, '<br>')}${fig(q.figure)}</div>
           ${qType(q) === 'numerical'
             ? `<ul><li class="ans">${t('Answer', 'उत्तर')}: ${esc(q.answer)}${q.tolerance ? ` (± ${esc(q.tolerance)})` : ''}</li>${it.answer != null && !it.correct ? `<li class="mine">${t('Your answer', 'आपका उत्तर')}: ${esc(it.answer)}</li>` : ''}</ul>`
             : `<ul>${(a.optionOrder?.[q.id] || q.options.map((_, i) => i)).map((i, k) => { const key = qType(q) === 'msq' ? q.answer.includes(i) : i === q.answer; const mine = qType(q) === 'msq' ? (it.answer || []).includes(i) : i === it.answer; return `<li class="${key ? 'ans' : ''} ${mine && !key ? 'mine' : ''}"><b>${LETTERS[k]}</b> ${esc(q.options[i])}${fig(q.optionFigures?.[i])}${mine ? ' ←' : ''}</li>`; }).join('')}</ul>`}

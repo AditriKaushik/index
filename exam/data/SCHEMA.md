@@ -53,7 +53,10 @@ Questions must be ORIGINAL, written in the style/difficulty/topic mix of the las
     "officialMock": "https://… or null",
     "notes": "Where previous papers / answer keys are officially published."
   },
-  "questions": [
+  "passages": [                         // optional: shared stimulus for a set of questions (RC passage, DI table, puzzle, caselet)
+    { "id": "cat-P01", "section": "varc", "title": "Passage 1", "text": "full text …", "figure": "<svg…> (optional)" }
+  ],
+  "questions": [                        // a question with "passage": "cat-P01" is always served together with the rest of its set
     {
       "id": "ssc-cgl-001",
       "section": "reasoning",           // must match a pattern.sections[].id

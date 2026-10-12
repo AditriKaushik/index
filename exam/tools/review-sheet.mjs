@@ -17,6 +17,6 @@ fs.writeFileSync(out, JSON.stringify({
   exam: `${e.name} — ${e.pattern.stage}`,
   timePerQuestionSec: Math.round(e.pattern.durationMinutes * 60 / e.pattern.totalQuestions),
   instructions: 'For each item: solve it yourself; give answer (0-based option index; for type "msq" an array of ALL correct indices; for type "numerical" the number), ambiguous (true if 0 or 2+ options correct, unclear or outdated), scores per data/RELEVANCE.md {archetype 0-30, syllabus 0-20, difficulty 0-20, wording 0-20, correctness 0-10} and a one-line note. Save as {"<question id>": {answer, ambiguous, scores, note}, ...}.',
-  items: todo.map(q => ({ id: q.id, section: q.section, topic: q.topic, difficulty: q.difficulty, claimedPattern: arch.get(q.archetype) || null, type: q.type || 'mcq', question: q.question, options: q.options, figure: q.figure, optionFigures: q.optionFigures })),
+  items: todo.map(q => ({ id: q.id, section: q.section, topic: q.topic, difficulty: q.difficulty, claimedPattern: arch.get(q.archetype) || null, type: q.type || 'mcq', passage: q.passage ? (e.passages || []).find(p => p.id === q.passage) : undefined, question: q.question, options: q.options, figure: q.figure, optionFigures: q.optionFigures })),
 }, null, 2));
 console.log(`${id}: ${todo.length} questions to review -> ${out}`);

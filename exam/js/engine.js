@@ -97,6 +97,31 @@ function pickSection(exam, sectionId, n, seen, rng, opts = {}) {
 
 const avgSecondsPerQuestion = exam => (exam.pattern.durationMinutes * 60) / exam.pattern.totalQuestions;
 
+// Questions that share a `passage` (RC passage, DI table, puzzle set) are
+// served as a whole set, as in the real paper. When a set is pulled in, the
+// same number of stand-alone questions of that section is dropped so the test
+// length stays about the same.
+function completeSets(exam, picked) {
+  const inTest = new Set(picked.map(q => q.id));
+  const added = {};
+  for (const q of picked.slice()) {
+    if (!q.passage) continue;
+    for (const sib of exam.questions) {
+      if (sib.passage === q.passage && !inTest.has(sib.id)) {
+        picked.push(sib); inTest.add(sib.id);
+        added[sib.section] = (added[sib.section] || 0) + 1;
+      }
+    }
+  }
+  for (const [sec, n] of Object.entries(added)) {
+    let drop = n;
+    for (let i = picked.length - 1; i >= 0 && drop > 0; i--) {
+      if (picked[i].section === sec && !picked[i].passage) { picked.splice(i, 1); drop--; }
+    }
+  }
+  return picked;
+}
+
 // Build a test. kinds:
 //   full   – mirrors the real pattern (scaled down evenly if the bank is small)
 //   custom – {sections?, topics?, count, difficulty}
@@ -166,9 +191,15 @@ export function buildTest(exam, kind, opts = {}, seed = Date.now()) {
     throw new Error(`unknown test kind ${kind}`);
   }
 
-  // keep sections in pattern order, as in the real paper
+  picked = completeSets(exam, picked);
+
+  // keep sections in pattern order, as in the real paper, and the questions of
+  // one passage / DI set together
   const secOrder = new Map(sections.map((s, i) => [s.id, i]));
-  picked.sort((a, b) => secOrder.get(a.section) - secOrder.get(b.section));
+  const firstPos = new Map();
+  picked.forEach((q, i) => { const k = q.passage ? `p:${q.passage}` : `q:${q.id}`; if (!firstPos.has(k)) firstPos.set(k, i); });
+  const groupPos = q => firstPos.get(q.passage ? `p:${q.passage}` : `q:${q.id}`);
+  picked.sort((a, b) => (secOrder.get(a.section) - secOrder.get(b.section)) || (groupPos(a) - groupPos(b)));
 
   const fullTime = kind === 'full' && !scaled;
   const durationSec = fullTime

@@ -39,6 +39,9 @@ for (const file of files) {
     archetypes.set(a.id, a);
   }
   req(archetypes.size > 0, 'pyqBlueprint.archetypes missing');
+  const passages = new Map((e.passages || []).map(p => [p.id, p]));
+  if (passages.size !== (e.passages || []).length) errs.push('duplicate passage id');
+  for (const p of passages.values()) if (!p.text || !secIds.has(p.section)) errs.push(`passage ${p.id}: needs text and a valid section`);
   const ids = new Set();
   let verified = 0, relevant = 0, scoreSum = 0, ai = 0;
   const perSec = {};
@@ -47,6 +50,7 @@ for (const file of files) {
     if (ids.has(q.id)) errs.push(`${where}: duplicate id`);
     ids.add(q.id);
     if (!secIds.has(q.section)) errs.push(`${where}: unknown section ${q.section}`);
+    if (q.passage !== undefined && (!passages.has(q.passage) || passages.get(q.passage).section !== q.section)) errs.push(`${where}: passage "${q.passage}" missing or in another section`);
     const type = q.type || 'mcq';
     if (!['mcq', 'msq', 'numerical'].includes(type)) errs.push(`${where}: unknown type ${type}`);
     if (type === 'numerical') {
