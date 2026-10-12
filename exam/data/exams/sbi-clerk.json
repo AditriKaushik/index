@@ -1041,7 +1041,12 @@
       "explanation": "Water, heat tolerance, poor soils and fresh attention are mentioned; pest resistance is not.",
       "verified": true,
       "archetype": "sbi-clerk-E02",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "NOT-stated with invented 'resistant to all pests' overstatement; good E02"
+      }
     },
     {
       "id": "sbi-clerk-003",
@@ -1079,7 +1084,12 @@
       "explanation": "A 'niche product' appeals to a small, specialised market — matching 'rarely seen on dinner plates'.",
       "verified": true,
       "archetype": "sbi-clerk-E04",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "'niche' in-context meaning; standard clerk vocab"
+      }
     },
     {
       "id": "sbi-clerk-005",
@@ -1193,7 +1203,12 @@
       "explanation": "'Elder' is not followed by 'than'; the correct form is 'older than'. Error in part B.",
       "verified": true,
       "archetype": "sbi-clerk-E08",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "'elder than' vs 'older than'; classic clerk trap"
+      }
     },
     {
       "id": "sbi-clerk-011",
@@ -1231,7 +1246,12 @@
       "explanation": "A proposal not consistent with policy is rejected. 'Not accordance with' is ungrammatical, and accepting/welcoming contradicts 'because it was not…'.",
       "verified": true,
       "archetype": "sbi-clerk-E10",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Double filler with 'accordance' half-fit trap; good"
+      }
     },
     {
       "id": "sbi-clerk-013",
@@ -1250,7 +1270,12 @@
       "explanation": "B (introduces Arjun) → A (what he noticed) → E (how bad it was) → C (his response) → D (result): BAECD.",
       "verified": true,
       "archetype": "sbi-clerk-E12",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Digital-literacy story jumble BAECD"
+      }
     },
     {
       "id": "sbi-clerk-014",
@@ -1269,7 +1294,12 @@
       "explanation": "Order: C – E – A – B – D. The last sentence is D.",
       "verified": true,
       "archetype": "sbi-clerk-E13",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Recipe-like jumble LAST sentence; clear markers"
+      }
     },
     {
       "id": "sbi-clerk-015",
@@ -1288,7 +1318,12 @@
       "explanation": "'Each of the players' is singular and the sense is passive: 'has been given'.",
       "verified": true,
       "archetype": "sbi-clerk-E17",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "'Each of the players has'; standard"
+      }
     },
     {
       "id": "sbi-clerk-016",
@@ -1421,7 +1456,12 @@
       "explanation": "2/5 × 3/4 × 2400 = 720; 720 ÷ 9 = 80.",
       "verified": true,
       "archetype": "sbi-clerk-Q11",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Fraction chain then divide"
+      }
     },
     {
       "id": "sbi-clerk-023",
@@ -1440,7 +1480,12 @@
       "explanation": "≈ 300 ÷ 12 × 8 + 50 = 25 × 8 + 50 = 250.",
       "verified": true,
       "archetype": "sbi-clerk-Q12",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Approximation; clerk standard"
+      }
     },
     {
       "id": "sbi-clerk-024",
@@ -1478,7 +1523,12 @@
       "explanation": "≈ 45% of 800 − 27 + 25 = 360 − 27 + 25 = 358.",
       "verified": true,
       "archetype": "sbi-clerk-Q12",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Approximation with %, cube, root"
+      }
     },
     {
       "id": "sbi-clerk-026",
@@ -1497,7 +1547,12 @@
       "explanation": "Each term = previous × 2 + 1: 79 × 2 + 1 = 159.",
       "verified": true,
       "archetype": "sbi-clerk-Q09",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "x2+1 series"
+      }
     },
     {
       "id": "sbi-clerk-027",
@@ -1535,7 +1590,12 @@
       "explanation": "Differences are −1³, −2³, −3³, −4³; next −5³ = −125: 900 − 125 = 775.",
       "verified": true,
       "archetype": "sbi-clerk-Q09",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Cube-difference decreasing series"
+      }
     },
     {
       "id": "sbi-clerk-029",
@@ -1573,7 +1633,12 @@
       "explanation": "(27 − 18)/18 × 100 = 50%.",
       "verified": true,
       "archetype": "sbi-clerk-Q01",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "%-increase single category"
+      }
     },
     {
       "id": "sbi-clerk-031",
@@ -1592,7 +1657,12 @@
       "explanation": "42 : 66 = 7 : 11.",
       "verified": true,
       "archetype": "sbi-clerk-Q02",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Cross-year ratio"
+      }
     },
     {
       "id": "sbi-clerk-032",
@@ -1611,7 +1681,12 @@
       "explanation": "2024 total = 42 + 60 + 18 + 24 = 144; 2025 total = 164. (164 − 144)/144 × 100 = 20/144 × 100 = 13 8/9%.",
       "verified": true,
       "archetype": "sbi-clerk-Q02",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Total %-change with close fractional options"
+      }
     },
     {
       "id": "sbi-clerk-033",
@@ -1649,7 +1724,12 @@
       "explanation": "CP = 1035/1.15 = ₹900. SP for 25% gain = 900 × 1.25 = ₹1,125.",
       "verified": true,
       "archetype": "sbi-clerk-Q14",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Gain% to new SP; standard"
+      }
     },
     {
       "id": "sbi-clerk-035",
@@ -1668,7 +1748,12 @@
       "explanation": "(3k + 9)/(5k + 9) = 3/4 → 12k + 36 = 15k + 27 → k = 3. Larger = 15.",
       "verified": true,
       "archetype": "sbi-clerk-Q18",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Ratio after adding constant"
+      }
     },
     {
       "id": "sbi-clerk-036",
@@ -1706,7 +1791,12 @@
       "explanation": "Average speed = 2 × 40 × 60/(40 + 60) = 4800/100 = 48 km/h.",
       "verified": true,
       "archetype": "sbi-clerk-Q20",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Round-trip average speed trap 50 vs 48"
+      }
     },
     {
       "id": "sbi-clerk-038",
@@ -1744,7 +1834,12 @@
       "explanation": "31 × 15 − 30 × 14 = 465 − 420 = 45 years.",
       "verified": true,
       "archetype": "sbi-clerk-Q26",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Teacher-included average"
+      }
     },
     {
       "id": "sbi-clerk-040",
@@ -1763,7 +1858,12 @@
       "explanation": "Seats 1–7 (left to right): J, G, vacant, L, H, K, I. Vacant = 3, L = 4, H = 5, I = 7 (seat 3 is vacant), K = 6; G is not at an end so G = 2 and J = 1.",
       "verified": true,
       "archetype": "sbi-clerk-R01",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "7-seat row with vacant seat, unique J G _ L H K I"
+      }
     },
     {
       "id": "sbi-clerk-041",
@@ -1782,7 +1882,12 @@
       "explanation": "Seats: J, G, vacant, L, H, K, I. Between G (2) and K (6) are seat 3 (vacant), L and H — two persons.",
       "verified": true,
       "archetype": "sbi-clerk-R01",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Persons between G and K counting vacancy trap (2)"
+      }
     },
     {
       "id": "sbi-clerk-042",
@@ -1801,7 +1906,12 @@
       "explanation": "Seats: J, G, vacant, L, H, K, I. Facing north, left means the lower-numbered seat; L (seat 4) is immediately left of H (seat 5).",
       "verified": true,
       "archetype": "sbi-clerk-R01",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Immediate left of H = L"
+      }
     },
     {
       "id": "sbi-clerk-043",
@@ -1820,7 +1930,12 @@
       "explanation": "Floors 1→5: C-White, E-Red, A-Pink, D-Blue, B-Green. A likes Pink.",
       "verified": true,
       "archetype": "sbi-clerk-R04",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "5-floor colour puzzle, unique"
+      }
     },
     {
       "id": "sbi-clerk-044",
@@ -1839,7 +1954,12 @@
       "explanation": "B is on 5, D (Blue) on 4, A on 3; C below E gives C on 1 and E on 2. Green is on an odd floor above A → floor 5 (B). A is not White, so A is Pink and C is White.",
       "verified": true,
       "archetype": "sbi-clerk-R04",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Colour on floor 1 = White"
+      }
     },
     {
       "id": "sbi-clerk-045",
@@ -1858,7 +1978,12 @@
       "explanation": "Floors 1→5: C, E, A, D, B. Between C (1) and D (4) are E and A — two persons.",
       "verified": true,
       "archetype": "sbi-clerk-R04",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Between C and D = 2"
+      }
     },
     {
       "id": "sbi-clerk-046",
@@ -1915,7 +2040,12 @@
       "explanation": "The tablets that are phones cannot be laptops, so I follows. II is only a possibility.",
       "verified": true,
       "archetype": "sbi-clerk-R11",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "No/Some 'Some tablets are not laptops'; standard"
+      }
     },
     {
       "id": "sbi-clerk-049",
@@ -1934,7 +2064,12 @@
       "explanation": "T > S ≥ R = Q gives T > Q; P < Q = R ≤ S gives P < S. Both follow.",
       "verified": true,
       "archetype": "sbi-clerk-R13",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Single-chain inequality both"
+      }
     },
     {
       "id": "sbi-clerk-050",
@@ -1953,7 +2088,12 @@
       "explanation": "N ≥ L > M > O gives N > O. K and N are both ≥ L, so no relation between them. Only I follows.",
       "verified": true,
       "archetype": "sbi-clerk-R13",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Branch inequality, K vs N undetermined"
+      }
     },
     {
       "id": "sbi-clerk-051",
@@ -1991,7 +2131,12 @@
       "explanation": "loan = te (1 & 2), approved = si (1 & 3), is = mu (2 & 3). In 'loan is pending', the remaining code po = pending.",
       "verified": true,
       "archetype": "sbi-clerk-R20",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Three-phrase coding; clerk standard"
+      }
     },
     {
       "id": "sbi-clerk-053",
@@ -2029,7 +2174,12 @@
       "explanation": "The only daughter of Neha's mother is Neha herself, so Neha is the man's mother.",
       "verified": true,
       "archetype": "sbi-clerk-R15",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Only daughter of my mother = herself; classic trap"
+      }
     },
     {
       "id": "sbi-clerk-055",
@@ -2067,7 +2217,12 @@
       "explanation": "Maximum when Amit is ahead of Sunil with 4 persons between: 12 + 4 + 18 = 34.",
       "verified": true,
       "archetype": "sbi-clerk-R21",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Max queue size with fixed gap; good trap"
+      }
     },
     {
       "id": "sbi-clerk-057",
@@ -2105,7 +2260,12 @@
       "explanation": "Only 6 (followed by %) and 9 (followed by &) qualify — two.",
       "verified": true,
       "archetype": "sbi-clerk-R22",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Numbers followed by symbol count"
+      }
     },
     {
       "id": "sbi-clerk-059",
@@ -2124,7 +2284,12 @@
       "explanation": "P–L (3 letters between in both: I, T, A and M, N, O) and I–L (2 between: T, A and J, K). Two pairs.",
       "verified": true,
       "archetype": "sbi-clerk-R24",
-      "source": "curated"
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "CAPITAL pairs (PL, IL) = 2"
+      }
     },
     {
       "id": "sbi-clerk-060",
@@ -2162,7 +2327,12 @@
       "explanation": "The passage describes how community radio serves villages and is trusted, and then explains that it struggles for money and needs steady funding.",
       "source": "ai",
       "archetype": "sbi-clerk-E01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Community radio main idea"
+      }
     },
     {
       "id": "sbi-clerk-062",
@@ -2219,7 +2389,12 @@
       "explanation": "'Steady funding' means funding that comes regularly and dependably; 'sudden', 'shaky' and 'temporary' are opposites.",
       "source": "ai",
       "archetype": "sbi-clerk-E04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "'steady' in context"
+      }
     },
     {
       "id": "sbi-clerk-065",
@@ -2314,7 +2489,12 @@
       "explanation": "'Police' is always plural in use: 'The police have arrested'. The error is in part A.",
       "source": "ai",
       "archetype": "sbi-clerk-E08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "'police has' plural noun; classic"
+      }
     },
     {
       "id": "sbi-clerk-070",
@@ -2333,7 +2513,12 @@
       "explanation": "'Prefer' is followed by 'to', not 'than': 'prefers tea to coffee'. The error is in part B.",
       "source": "ai",
       "archetype": "sbi-clerk-E08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "'prefer to'; classic"
+      }
     },
     {
       "id": "sbi-clerk-071",
@@ -2504,7 +2689,12 @@
       "explanation": "48 × 25 = 1,200; 1,200 ÷ 15 = 80; 80 + 64 = 144.",
       "source": "ai",
       "archetype": "sbi-clerk-Q11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "BODMAS 3-term"
+      }
     },
     {
       "id": "sbi-clerk-080",
@@ -2523,7 +2713,12 @@
       "explanation": "45% of 960 = 432; 22² = 484; 15 × 8 = 120. 432 − 484 + 120 = 68.",
       "source": "ai",
       "archetype": "sbi-clerk-Q11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "%, square, product mix; clerk standard"
+      }
     },
     {
       "id": "sbi-clerk-081",
@@ -2542,7 +2737,12 @@
       "explanation": "13² = 169 and 7³ = 343. (169 + 343) ÷ 8 = 512 ÷ 8 = 64.",
       "source": "ai",
       "archetype": "sbi-clerk-Q11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Square+cube divided"
+      }
     },
     {
       "id": "sbi-clerk-082",
@@ -2561,7 +2761,12 @@
       "explanation": "≈ 35% of 800 + 15 × 12 = 280 + 180 = 460.",
       "source": "ai",
       "archetype": "sbi-clerk-Q12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Approximation"
+      }
     },
     {
       "id": "sbi-clerk-083",
@@ -2580,7 +2785,12 @@
       "explanation": "≈ √1,444 × 6 − 120 ÷ 4 = 38 × 6 − 30 = 228 − 30 = 198.",
       "source": "ai",
       "archetype": "sbi-clerk-Q12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Approximation with root"
+      }
     },
     {
       "id": "sbi-clerk-084",
@@ -2599,7 +2809,12 @@
       "explanation": "25% of 1,152 = 288; ? = 288 ÷ 16 = 18.",
       "source": "ai",
       "archetype": "sbi-clerk-Q13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "? inside product equation"
+      }
     },
     {
       "id": "sbi-clerk-085",
@@ -2618,7 +2833,12 @@
       "explanation": "?² = 569 − 169 = 400, so ? = 20.",
       "source": "ai",
       "archetype": "sbi-clerk-Q13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "?² equation"
+      }
     },
     {
       "id": "sbi-clerk-086",
@@ -2637,7 +2857,12 @@
       "explanation": "Each term = previous × 3 − 6: 84 × 3 − 6 = 246.",
       "source": "ai",
       "archetype": "sbi-clerk-Q09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "x3-6 series"
+      }
     },
     {
       "id": "sbi-clerk-087",
@@ -2656,7 +2881,12 @@
       "explanation": "Differences are 1², 2², 3², 4², so next difference is 5² = 25: 31 + 25 = 56.",
       "source": "ai",
       "archetype": "sbi-clerk-Q09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Squares-difference series"
+      }
     },
     {
       "id": "sbi-clerk-088",
@@ -2675,7 +2905,12 @@
       "explanation": "Each term = previous × 2 + 1: 7, 15, 31, 63, 127, 255. 128 should be 127.",
       "source": "ai",
       "archetype": "sbi-clerk-Q10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "2n+1 wrong number"
+      }
     },
     {
       "id": "sbi-clerk-089",
@@ -2694,7 +2929,12 @@
       "explanation": "(650 − 520)/520 × 100 = 130/520 × 100 = 25%. (20% would be 130 as a share of 650.)",
       "source": "ai",
       "archetype": "sbi-clerk-Q01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "%-increase branch R"
+      }
     },
     {
       "id": "sbi-clerk-090",
@@ -2713,7 +2953,12 @@
       "explanation": "(380 − 342)/380 × 100 = 38/380 × 100 = 10%.",
       "source": "ai",
       "archetype": "sbi-clerk-Q01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "%-decrease with 11.1% trap"
+      }
     },
     {
       "id": "sbi-clerk-091",
@@ -2732,7 +2977,12 @@
       "explanation": "(540 + 342 + 650 + 360)/4 = 1,892/4 = 473.",
       "source": "ai",
       "archetype": "sbi-clerk-Q02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Average 2025"
+      }
     },
     {
       "id": "sbi-clerk-092",
@@ -2751,7 +3001,12 @@
       "explanation": "P = 450 + 540 = 990; S = 300 + 360 = 660. 990 : 660 = 3 : 2.",
       "source": "ai",
       "archetype": "sbi-clerk-Q02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Two-year ratio"
+      }
     },
     {
       "id": "sbi-clerk-093",
@@ -2770,7 +3025,12 @@
       "explanation": "SP of 12 pens = CP of 15 pens. Gain = 3 pens on a cost of 12 pens = 3/12 × 100 = 25%. (20% wrongly divides by 15.)",
       "source": "ai",
       "archetype": "sbi-clerk-Q14",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Gain in terms of articles"
+      }
     },
     {
       "id": "sbi-clerk-094",
@@ -2789,7 +3049,12 @@
       "explanation": "5k = 4k + 6 → k = 6. Boys = 5 × 6 = 30.",
       "source": "ai",
       "archetype": "sbi-clerk-Q18",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Ratio change after adding girls"
+      }
     },
     {
       "id": "sbi-clerk-095",
@@ -2808,7 +3073,12 @@
       "explanation": "A takes 30/1.5 = 20 days. Together: 1/20 + 1/30 = 5/60 = 1/12 → 12 days.",
       "source": "ai",
       "archetype": "sbi-clerk-Q19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Efficiency % to days"
+      }
     },
     {
       "id": "sbi-clerk-096",
@@ -2846,7 +3116,12 @@
       "explanation": "P = 2,700 × 100/(10 × 3) = ₹9,000. CI for 2 years = 9,000 × (1.21 − 1) = ₹1,890.",
       "source": "ai",
       "archetype": "sbi-clerk-Q22",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "SI to principal then CI"
+      }
     },
     {
       "id": "sbi-clerk-098",
@@ -2884,7 +3159,12 @@
       "explanation": "Milk = 30 L, water = 10 L. For 3 : 2, water must be 20 L, so 10 litres must be added.",
       "source": "ai",
       "archetype": "sbi-clerk-Q23",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Add water for ratio"
+      }
     },
     {
       "id": "sbi-clerk-100",
@@ -2903,7 +3183,12 @@
       "explanation": "Floor 1 to 6: C, F, A, E, B, D. D lives on the topmost floor.",
       "source": "ai",
       "archetype": "sbi-clerk-R04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "6-floor puzzle unique"
+      }
     },
     {
       "id": "sbi-clerk-101",
@@ -2922,7 +3207,12 @@
       "explanation": "Floor 1 to 6: C, F, A, E, B, D. F is on floor 2 and B on floor 5; A and E live between them.",
       "source": "ai",
       "archetype": "sbi-clerk-R04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Between F and B = 2"
+      }
     },
     {
       "id": "sbi-clerk-102",
@@ -2960,7 +3250,12 @@
       "explanation": "Clockwise from P: P, U, S, V, T, Q, R (for persons facing the centre, left is clockwise). Counting anticlockwise from T: V, S, U — U is third to the right of T.",
       "source": "ai",
       "archetype": "sbi-clerk-R03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "7-person circle unique"
+      }
     },
     {
       "id": "sbi-clerk-104",
@@ -2979,7 +3274,12 @@
       "explanation": "Clockwise from P: P, U, S, V, T, Q, R (for persons facing the centre, left is clockwise). V sits between S and T.",
       "source": "ai",
       "archetype": "sbi-clerk-R03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Between S and T = V"
+      }
     },
     {
       "id": "sbi-clerk-105",
@@ -2998,7 +3298,12 @@
       "explanation": "Clockwise from P: P, U, S, V, T, Q, R (for persons facing the centre, left is clockwise). From V, moving clockwise (to the left): T, Q — Q is second to the left of V.",
       "source": "ai",
       "archetype": "sbi-clerk-R03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Q is 2nd left of V"
+      }
     },
     {
       "id": "sbi-clerk-106",
@@ -3017,7 +3322,12 @@
       "explanation": "January – E, February – D, March – A, April – F, May – B, June – C. (C in April would force A into January, leaving no month before A for D.) B was born in May.",
       "source": "ai",
       "archetype": "sbi-clerk-R05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Jan-Jun month puzzle unique"
+      }
     },
     {
       "id": "sbi-clerk-107",
@@ -3036,7 +3346,12 @@
       "explanation": "January – E, February – D, March – A, April – F, May – B, June – C. (C in April would force A into January, leaving no month before A for D.) D and A were born between E (January) and F (April).",
       "source": "ai",
       "archetype": "sbi-clerk-R05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Between E and F = 2"
+      }
     },
     {
       "id": "sbi-clerk-108",
@@ -3055,7 +3370,12 @@
       "explanation": "All chairs are tables and no table is a bed, so no chair is a bed — I follows and II is false.",
       "source": "ai",
       "archetype": "sbi-clerk-R11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "All/No syllogism"
+      }
     },
     {
       "id": "sbi-clerk-109",
@@ -3074,7 +3394,12 @@
       "explanation": "Neither conclusion is definite on its own, but they form a complementary pair ('some' / 'no') about the same terms, so one of them must be true. Either I or II follows.",
       "source": "ai",
       "archetype": "sbi-clerk-R11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Complementary Some/No either-or"
+      }
     },
     {
       "id": "sbi-clerk-110",
@@ -3093,7 +3418,12 @@
       "explanation": "B ≥ C = D gives B ≥ D. E > D = C gives E > C. Both follow.",
       "source": "ai",
       "archetype": "sbi-clerk-R13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Inequality both"
+      }
     },
     {
       "id": "sbi-clerk-111",
@@ -3112,7 +3442,12 @@
       "explanation": "N > M > L ≥ K gives N > K. O ≤ M and L < M give no relation between O and L. Only I follows.",
       "source": "ai",
       "archetype": "sbi-clerk-R13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Inequality only I"
+      }
     },
     {
       "id": "sbi-clerk-112",
@@ -3150,7 +3485,12 @@
       "explanation": "green = pa (sentences 1 and 2), blue = ta (1 and 3), pink = na (2 and 3). The remaining code in sentence 2, 'ra', means 'yellow'.",
       "source": "ai",
       "archetype": "sbi-clerk-R20",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Three-phrase colour coding"
+      }
     },
     {
       "id": "sbi-clerk-114",
@@ -3226,7 +3566,12 @@
       "explanation": "Qualifying numbers: 9 (M 9 %), 2 (B 2 &) and 6 (D 6 $). 7 is preceded by # and 3 by @. Total = 3.",
       "source": "ai",
       "archetype": "sbi-clerk-R22",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Preceded-by-letter followed-by-symbol count"
+      }
     },
     {
       "id": "sbi-clerk-118",
@@ -3264,7 +3609,12 @@
       "explanation": "Only O–N qualifies (adjacent in the word and in the alphabet). No other pair matches.",
       "source": "ai",
       "archetype": "sbi-clerk-R24",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "MONEY pair count (ON)"
+      }
     },
     {
       "id": "sbi-clerk-120",

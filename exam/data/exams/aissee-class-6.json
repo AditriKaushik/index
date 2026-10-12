@@ -3709,6 +3709,240 @@
         "by": "independent-review",
         "note": "Harmanpreet Kaur captained 2025 WC win; correct current affairs"
       }
+    },
+    {
+      "id": "aissee-class-6-121",
+      "section": "language",
+      "topic": "Comprehension",
+      "difficulty": "easy",
+      "question": "Passage: Meera lives in a small village on the edge of the Thar Desert, where water is scarce. Until last year, her mother walked three kilometres every morning to fetch water from an old well. Then the village council built a large tank that collects rainwater from the rooftops of all the houses. During the monsoon the tank filled up, and the water lasted until the end of winter. Now Meera's mother no longer makes the long walk; she spends her mornings helping in the village school, and Meera has started teaching her younger brother to read.\n\nQuestion: How far did Meera's mother walk every morning to reach the old well?",
+      "options": [
+        "Two kilometres",
+        "Six kilometres",
+        "Three kilometres",
+        "Four kilometres"
+      ],
+      "answer": 2,
+      "explanation": "The passage says she 'walked three kilometres every morning to fetch water from an old well'. Six kilometres would be the round trip, which the passage does not state.",
+      "source": "ai",
+      "archetype": "aissee-class-6-L01",
+      "verified": false
+    },
+    {
+      "id": "aissee-class-6-122",
+      "section": "language",
+      "topic": "Comprehension",
+      "difficulty": "easy",
+      "question": "Passage: Meera lives in a small village on the edge of the Thar Desert, where water is scarce. Until last year, her mother walked three kilometres every morning to fetch water from an old well. Then the village council built a large tank that collects rainwater from the rooftops of all the houses. During the monsoon the tank filled up, and the water lasted until the end of winter. Now Meera's mother no longer makes the long walk; she spends her mornings helping in the village school, and Meera has started teaching her younger brother to read.\n\nQuestion: Why is Meera's mother now able to help in the village school?",
+      "options": [
+        "The village council gave her a job in the school",
+        "The old well dried up last year",
+        "Meera now fetches the water for the family",
+        "She no longer has to walk to the distant well for water"
+      ],
+      "answer": 3,
+      "explanation": "The rainwater tank supplies water close to home, so she 'no longer makes the long walk' and has her mornings free. The other options are not stated in the passage.",
+      "source": "ai",
+      "archetype": "aissee-class-6-L02",
+      "verified": false
+    },
+    {
+      "id": "aissee-class-6-123",
+      "section": "language",
+      "topic": "Vocabulary (Synonyms, Antonyms, Meanings)",
+      "difficulty": "easy",
+      "question": "What is the feminine form of 'horse'?",
+      "options": [
+        "Mare",
+        "Horsess",
+        "Colt",
+        "Pony"
+      ],
+      "answer": 0,
+      "explanation": "The female of a horse is a mare. A colt is a young male horse and a pony is a small breed of horse; 'horsess' is not a word.",
+      "source": "ai",
+      "archetype": "aissee-class-6-L05",
+      "verified": false
+    },
+    {
+      "id": "aissee-class-6-124",
+      "section": "language",
+      "topic": "Grammar (Nouns, Verbs, Tenses, Prepositions)",
+      "difficulty": "easy",
+      "question": "Fill in the blank: Ramesh is senior ___ me in school.",
+      "options": [
+        "than",
+        "to",
+        "from",
+        "over"
+      ],
+      "answer": 1,
+      "explanation": "Latin comparatives like senior, junior, superior and inferior take 'to', not 'than': senior to me.",
+      "source": "ai",
+      "archetype": "aissee-class-6-L06",
+      "verified": false
+    },
+    {
+      "id": "aissee-class-6-125",
+      "section": "language",
+      "topic": "Spelling, One-word & Sentence Formation",
+      "difficulty": "medium",
+      "question": "Choose the correctly spelt word.",
+      "options": [
+        "Enviroment",
+        "Envirnoment",
+        "Environmant",
+        "Environment"
+      ],
+      "answer": 3,
+      "explanation": "The correct spelling is 'environment' — the 'n' before '-ment' is often dropped by mistake (enviroment).",
+      "source": "ai",
+      "archetype": "aissee-class-6-L09",
+      "verified": false
+    },
+    {
+      "id": "aissee-class-6-126",
+      "section": "intelligence",
+      "topic": "Series",
+      "difficulty": "medium",
+      "question": "What comes next: 4, 9, 19, 39, 79, ?",
+      "options": [
+        "119",
+        "158",
+        "159",
+        "160"
+      ],
+      "answer": 2,
+      "explanation": "Each term = previous term × 2 + 1: 79 × 2 + 1 = 159. (Adding 40 gives the trap 119.)",
+      "source": "ai",
+      "archetype": "aissee-class-6-I04",
+      "verified": false
+    },
+    {
+      "id": "aissee-class-6-127",
+      "section": "intelligence",
+      "topic": "Coding-Decoding",
+      "difficulty": "easy",
+      "question": "In a certain code, BAD is written as 7. How is FACE written in that code?",
+      "options": [
+        "14",
+        "15",
+        "16",
+        "12"
+      ],
+      "answer": 1,
+      "explanation": "Each letter is replaced by its position in the alphabet and the values are added: B(2) + A(1) + D(4) = 7. So FACE = F(6) + A(1) + C(3) + E(5) = 15.",
+      "source": "ai",
+      "archetype": "aissee-class-6-I07",
+      "verified": false
+    },
+    {
+      "id": "aissee-class-6-128",
+      "section": "intelligence",
+      "topic": "Blood Relations",
+      "difficulty": "medium",
+      "question": "Pointing to a girl in a photograph, Ravi said, \"She is the daughter of the only son of my grandfather.\" How is the girl related to Ravi?",
+      "options": [
+        "Cousin",
+        "Niece",
+        "Sister",
+        "Aunt"
+      ],
+      "answer": 2,
+      "explanation": "The only son of Ravi's grandfather is Ravi's father. The father's daughter is Ravi's sister. 'Cousin' is the usual trap.",
+      "source": "ai",
+      "archetype": "aissee-class-6-I09",
+      "verified": false
+    },
+    {
+      "id": "aissee-class-6-129",
+      "section": "intelligence",
+      "topic": "Ranking & Order",
+      "difficulty": "easy",
+      "question": "In a row of 35 children, Kiran is 11th from the left end. What is her position from the right end?",
+      "options": [
+        "24th",
+        "25th",
+        "26th",
+        "23rd"
+      ],
+      "answer": 1,
+      "explanation": "Position from the right = 35 − 11 + 1 = 25th. (Forgetting to add 1 gives 24th.)",
+      "source": "ai",
+      "archetype": "aissee-class-6-I11",
+      "verified": false
+    },
+    {
+      "id": "aissee-class-6-130",
+      "section": "gk",
+      "topic": "Defence & Armed Forces",
+      "difficulty": "medium",
+      "question": "The Indian Military Academy (IMA), which trains officers for the Indian Army, is located at:",
+      "options": [
+        "Pune",
+        "Ezhimala",
+        "Chennai",
+        "Dehradun"
+      ],
+      "answer": 3,
+      "explanation": "IMA is at Dehradun, Uttarakhand. NDA is at Khadakwasla (Pune), the Indian Naval Academy at Ezhimala and the Officers Training Academy at Chennai.",
+      "source": "ai",
+      "archetype": "aissee-class-6-G09",
+      "verified": false
+    },
+    {
+      "id": "aissee-class-6-131",
+      "section": "gk",
+      "topic": "Defence & Armed Forces",
+      "difficulty": "medium",
+      "question": "The BrahMos supersonic cruise missile has been developed jointly by India and which country?",
+      "options": [
+        "Russia",
+        "Israel",
+        "France",
+        "United States"
+      ],
+      "answer": 0,
+      "explanation": "BrahMos is an India–Russia joint venture; its name comes from the Brahmaputra and Moskva rivers. India works with Israel on the Barak-8 missile, which is a common trap.",
+      "source": "ai",
+      "archetype": "aissee-class-6-G10",
+      "verified": false
+    },
+    {
+      "id": "aissee-class-6-132",
+      "section": "gk",
+      "topic": "Indian History & Culture",
+      "difficulty": "easy",
+      "question": "Who gave the slogan 'Jai Jawan Jai Kisan'?",
+      "options": [
+        "Jawaharlal Nehru",
+        "Lal Bahadur Shastri",
+        "Indira Gandhi",
+        "Sardar Vallabhbhai Patel"
+      ],
+      "answer": 1,
+      "explanation": "Prime Minister Lal Bahadur Shastri gave the slogan in 1965, during the war with Pakistan and a time of food shortage, to honour soldiers and farmers.",
+      "source": "ai",
+      "archetype": "aissee-class-6-G02",
+      "verified": false
+    },
+    {
+      "id": "aissee-class-6-133",
+      "section": "gk",
+      "topic": "Current Affairs",
+      "difficulty": "medium",
+      "question": "'Operation Sindoor', launched by the Indian armed forces in May 2025, was a response to the terror attack at:",
+      "options": [
+        "Pulwama",
+        "Uri",
+        "Pahalgam",
+        "Pathankot"
+      ],
+      "answer": 2,
+      "explanation": "Operation Sindoor (7 May 2025) struck terror camps in Pakistan and Pakistan-occupied Kashmir after the April 2025 attack on tourists at Pahalgam. Uri (2016) and Pulwama (2019) led to earlier strikes.",
+      "source": "ai",
+      "archetype": "aissee-class-6-G12",
+      "verified": false
     }
   ]
 }
