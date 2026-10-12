@@ -3705,7 +3705,12 @@
       "explanation": "C is between B and A (C is immediately right of B). D is opposite C, which leaves the seat immediately left of B and the seat between D and A for E and F. Since E is not B's neighbour, F sits immediately to the left of B.",
       "source": "ai",
       "archetype": "ssc-cpo-R27",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "6-person circular, 4 clues, unique arrangement (F left of B); CPO-level seating"
+      }
     },
     {
       "id": "ssc-cpo-122",
@@ -3723,25 +3728,12 @@
       "explanation": "Rule ×1 + 1, ×2 + 2, ×3 + 3, ×4 + 4, ×5 + 5: 4→5→12→39→160→805 (12 × 3 + 3 = 39; 39 × 4 + 4 = 160).",
       "source": "ai",
       "archetype": "ssc-cpo-R18",
-      "verified": false
-    },
-    {
-      "id": "ssc-cpo-123",
-      "section": "reasoning",
-      "topic": "Venn Diagram",
-      "difficulty": "easy",
-      "question": "In a colony, the newspaper readers are as follows: 20 read only Hindi papers, 18 only English, 9 only Urdu, 7 read Hindi and English but not Urdu, 5 read English and Urdu but not Hindi, 4 read Hindi and Urdu but not English, and 3 read all three. How many people read English papers but not Hindi papers?",
-      "options": [
-        "26",
-        "33",
-        "23",
-        "25"
-      ],
-      "answer": 2,
-      "explanation": "English but not Hindi = only English + (English and Urdu, not Hindi) = 18 + 5 = 23. Including the 3 who read all three (26) is the trap.",
-      "source": "ai",
-      "archetype": "ssc-cpo-R25",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "×n+n missing middle term series is exactly the CPO archetype"
+      }
     },
     {
       "id": "ssc-cpo-124",
@@ -3759,7 +3751,12 @@
       "explanation": "Suresh's father's only son is Suresh himself; his only sister's daughter is Suresh's niece.",
       "source": "ai",
       "archetype": "ssc-cpo-R12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "'Father's only son' = speaker trap; standard pointing-relation, slightly easy"
+      }
     },
     {
       "id": "ssc-cpo-125",
@@ -3777,7 +3774,12 @@
       "explanation": "SSB is the border guarding force for the Indo-Nepal and Indo-Bhutan borders. ITBP guards the China border and Assam Rifles the Myanmar border.",
       "source": "ai",
       "archetype": "ssc-cpo-G19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Border-guarding force (SSB: Nepal, Bhutan) is core CPO/CAPF GK"
+      }
     },
     {
       "id": "ssc-cpo-126",
@@ -3795,7 +3797,12 @@
       "explanation": "Yudh Abhyas is the India–US army exercise. Shakti is with France, INDRA with Russia and Dharma Guardian with Japan.",
       "source": "ai",
       "archetype": "ssc-cpo-G19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Joint exercise-country pairing (Yudh Abhyas/USA) is a regular CPO defence item"
+      }
     },
     {
       "id": "ssc-cpo-127",
@@ -3813,7 +3820,12 @@
       "explanation": "The Ashoka Chakra is the highest peacetime gallantry award; the Param Vir Chakra is the highest wartime award.",
       "source": "ai",
       "archetype": "ssc-cpo-G19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Highest peacetime gallantry award is asked in CPO; quite easy but faithful"
+      }
     },
     {
       "id": "ssc-cpo-128",
@@ -3831,7 +3843,12 @@
       "explanation": "Gopala was elected king around 750 CE and founded the Pala dynasty; Dharmapala founded Vikramashila university.",
       "source": "ai",
       "archetype": "ssc-cpo-G01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Dynasty founder (Gopala, Pala) with successor kings as distractors, standard SSC"
+      }
     },
     {
       "id": "ssc-cpo-129",
@@ -3849,7 +3866,12 @@
       "explanation": "Lord Dalhousie used the Doctrine of Lapse; Lord Wellesley introduced the Subsidiary Alliance.",
       "source": "ai",
       "archetype": "ssc-cpo-G02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Policy-to-Governor-General (Doctrine of Lapse) is a high-frequency SSC item"
+      }
     },
     {
       "id": "ssc-cpo-130",
@@ -3867,7 +3889,12 @@
       "explanation": "Article 324(5): the CEC can be removed only like a Supreme Court judge – by an address of both Houses on proved misbehaviour or incapacity.",
       "source": "ai",
       "archetype": "ssc-cpo-G05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "CEC removal like SC judge; other offices as distractors match CPO polity"
+      }
     },
     {
       "id": "ssc-cpo-131",
@@ -3885,25 +3912,12 @@
       "explanation": "Siachen, one of the longest non-polar glaciers, lies in the eastern Karakoram range.",
       "source": "ai",
       "archetype": "ssc-cpo-G06",
-      "verified": false
-    },
-    {
-      "id": "ssc-cpo-132",
-      "section": "gk",
-      "topic": "Geography",
-      "difficulty": "medium",
-      "question": "Which warm ocean current flows along the eastern coast of North America?",
-      "options": [
-        "Labrador Current",
-        "Gulf Stream",
-        "California Current",
-        "Humboldt Current"
-      ],
-      "answer": 1,
-      "explanation": "The Gulf Stream is a warm current off the eastern US coast. The Labrador and California currents are cold; the Humboldt flows off South America.",
-      "source": "ai",
-      "archetype": "ssc-cpo-G08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Glacier-range pairing (Siachen, Karakoram) is SSC Indian geography; easy-ish"
+      }
     },
     {
       "id": "ssc-cpo-133",
@@ -3921,7 +3935,12 @@
       "explanation": "Stainless steel contains iron with chromium (which resists rusting), nickel and a little carbon. Copper and zinc make brass.",
       "source": "ai",
       "archetype": "ssc-cpo-G12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Alloy composition (stainless steel) is a staple SSC chemistry question"
+      }
     },
     {
       "id": "ssc-cpo-134",
@@ -3939,7 +3958,12 @@
       "explanation": "The Modhera Sun Temple (1026–27 CE) was built under Bhima I of the Chaulukya (Solanki) dynasty.",
       "source": "ai",
       "archetype": "ssc-cpo-G16",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Modhera Sun Temple/Chaulukya with contemporaneous Rajput dynasties as traps, strong SSC culture item"
+      }
     },
     {
       "id": "ssc-cpo-135",
@@ -3957,7 +3981,12 @@
       "explanation": "The Commonwealth Games Federation General Assembly in Glasgow (November 2025) confirmed Ahmedabad as host of the centenary 2030 Games.",
       "source": "ai",
       "archetype": "ssc-cpo-G17",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "CWG 2030 to Ahmedabad (ratified 26 Nov 2025, verified) is a top 2025-26 CA item"
+      }
     },
     {
       "id": "ssc-cpo-136",
@@ -3975,7 +4004,12 @@
       "explanation": "∠BIC = 90° + ∠A/2 = 90° + 35° = 125°. (180° − 70° = 110° and 2 × 70° = 140° are common slips.)",
       "source": "ai",
       "archetype": "ssc-cpo-Q19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "∠BIC=90+A/2 incentre angle is an exact CPO geometry staple"
+      }
     },
     {
       "id": "ssc-cpo-137",
@@ -3993,7 +4027,12 @@
       "explanation": "Interior angles: 180(n − 2)/n and 180(2n − 2)/(2n). Ratio = (n − 2)/(n − 1) = 3/4 ⇒ n = 5.",
       "source": "ai",
       "archetype": "ssc-cpo-Q21",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Polygon side/interior-angle ratio problem; algebra n=5 checks; typical CPO"
+      }
     },
     {
       "id": "ssc-cpo-138",
@@ -4011,7 +4050,12 @@
       "explanation": "cos 55° = sin 35° and sin 55° = cos 35°, so the numerator is sin²35° + cos²35° = 1. tan 80° = cot 10°, so the denominator is cosec²10° − cot²10° = 1. Value = 1.",
       "source": "ai",
       "archetype": "ssc-cpo-Q24",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Complementary-angle simplification (cosec²10−tan²80=1) exactly the CPO trig format"
+      }
     },
     {
       "id": "ssc-cpo-139",
@@ -4029,7 +4073,12 @@
       "explanation": "1/x = 2 − √3, so x + 1/x = 4 and x² + 1/x² = 4² − 2 = 14.",
       "source": "ai",
       "archetype": "ssc-cpo-Q17",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "x=2+√3 reciprocal identity; 16/12/18 from ±2 slips, faithful"
+      }
     }
   ]
 }

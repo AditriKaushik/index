@@ -2324,7 +2324,12 @@
       "explanation": "A cardiologist treats diseases of the heart; a nephrologist treats diseases of the kidney. ('Nerves' is the look-alike trap for neurologist.)",
       "source": "ai",
       "archetype": "ssc-gd-R01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Specialist:organ analogy is a typical GD semantic pair"
+      }
     },
     {
       "id": "ssc-gd-122",
@@ -2342,7 +2347,12 @@
       "explanation": "Rule: n² − 4. 81 − 4 = 77, 49 − 4 = 45, so 144 − 4 = 140.",
       "source": "ai",
       "archetype": "ssc-gd-R02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "n²−4 triad analogy with the exact SSC NOTE wording"
+      }
     },
     {
       "id": "ssc-gd-123",
@@ -2360,7 +2370,12 @@
       "explanation": "Each letter is replaced by its opposite letter (A↔Z): C→X, F→U, I→R, L→O. So D→W, G→T, J→Q, M→N = WTQN.",
       "source": "ai",
       "archetype": "ssc-gd-R03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Opposite-letter cluster analogy; WTRN/WSQN one-letter slips are realistic"
+      }
     },
     {
       "id": "ssc-gd-124",
@@ -2378,7 +2393,12 @@
       "explanation": "In the others, second = first² + 1 (16 + 1, 36 + 1, 64 + 1). For (5, 24) it should be 26.",
       "source": "ai",
       "archetype": "ssc-gd-R05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Odd number-pair n²+1 vs n²−1, GD-typical classification"
+      }
     },
     {
       "id": "ssc-gd-125",
@@ -2396,7 +2416,12 @@
       "explanation": "ACE, GIK and MOQ follow +2, +2. SUX follows +2, +3.",
       "source": "ai",
       "archetype": "ssc-gd-R06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Odd letter cluster by +2 gaps; SUX breaks to +3, GD-level"
+      }
     },
     {
       "id": "ssc-gd-126",
@@ -2414,7 +2439,12 @@
       "explanation": "Differences are 1, 4, 9, 16, so the next difference is 25: 33 + 25 = 58.",
       "source": "ai",
       "archetype": "ssc-gd-R07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Differences of squares series (+1,+4,+9,+16,+25), standard GD"
+      }
     },
     {
       "id": "ssc-gd-127",
@@ -2432,7 +2462,12 @@
       "explanation": "First letters: A, B, D, G, K (+1, +2, +3, +4). Second letters: Z, Y, W, T, P (−1, −2, −3, −4). Answer KP.",
       "source": "ai",
       "archetype": "ssc-gd-R08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Two-letter series +1,+2,+3 / −1,−2,−3 increments; KQ/LP slip distractors"
+      }
     },
     {
       "id": "ssc-gd-128",
@@ -2450,7 +2485,12 @@
       "explanation": "The word is reversed and each letter is moved one step back: GARDEN → NEDRAG → MDCQZF. FLOWER → REWOLF → QDVNKE.",
       "source": "ai",
       "archetype": "ssc-gd-R09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Reverse-then-shift letter code; QDVNKF/QEVNKE one-letter traps"
+      }
     },
     {
       "id": "ssc-gd-129",
@@ -2468,7 +2508,12 @@
       "explanation": "Code = 2 × (sum of alphabet positions): CAT = 2 × 24 = 48, DOG = 2 × 26 = 52, COW = 2 × (3 + 15 + 23) = 82.",
       "source": "ai",
       "archetype": "ssc-gd-R10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Sum of positions ×2 coding, simple GD numeric code"
+      }
     },
     {
       "id": "ssc-gd-130",
@@ -2486,7 +2531,12 @@
       "explanation": "A and B are children of C, and D is C's father. A is male (brother), so A is D's grandson.",
       "source": "ai",
       "archetype": "ssc-gd-R12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Three-link chain; Grandson vs Granddaughter gender trap"
+      }
     },
     {
       "id": "ssc-gd-131",
@@ -2504,7 +2554,12 @@
       "explanation": "A is the sister of B and B is the father of C, so A is C's father's sister – C's aunt.",
       "source": "ai",
       "archetype": "ssc-gd-R13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Symbol-coded relation A×B+C → father's sister (aunt), GD style"
+      }
     },
     {
       "id": "ssc-gd-132",
@@ -2522,7 +2577,12 @@
       "explanation": "He ends 6 km East and 13 − 5 = 8 km South of the start. Distance = √(6² + 8²) = 10 km, towards the South-East.",
       "source": "ai",
       "archetype": "ssc-gd-R14",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "5-6-13 walk giving 6-8-10 triangle, SE direction; classic GD"
+      }
     },
     {
       "id": "ssc-gd-133",
@@ -2540,7 +2600,12 @@
       "explanation": "Swapping × and +: 12 + 4 × 18 ÷ 6 − 3 = 12 + 12 − 3 = 21.",
       "source": "ai",
       "archetype": "ssc-gd-R16",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "Sign-interchange with all four options checked; only ×/+ gives 21"
+      }
     },
     {
       "id": "ssc-gd-134",
@@ -2558,7 +2623,12 @@
       "explanation": "Pankaj is 12 + 8 = 20th from the top, so from the bottom he is 45 − 20 + 1 = 26th.",
       "source": "ai",
       "archetype": "ssc-gd-R19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Rank from bottom n−r+1 with 25/27 ±1 traps, GD-faithful"
+      }
     },
     {
       "id": "ssc-gd-135",
@@ -2576,7 +2646,12 @@
       "explanation": "10 Jan 2023 → 10 Jan 2024: 365 days (1 odd day). 10 Jan 2024 → 10 Jan 2025 includes 29 Feb 2024: 366 days (2 odd days). Tuesday + 3 = Friday.",
       "source": "ai",
       "archetype": "ssc-gd-R20",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Two-year odd-day count with leap 2024; Friday verified"
+      }
     },
     {
       "id": "ssc-gd-136",
@@ -2594,7 +2669,12 @@
       "explanation": "Mirror time = 11:60 − 8:40 = 3:20.",
       "source": "ai",
       "archetype": "ssc-gd-R22",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Clock mirror 11:60 subtraction; exact GD format"
+      }
     },
     {
       "id": "ssc-gd-137",
@@ -2612,7 +2692,12 @@
       "explanation": "The brothers Harihara I and Bukka Raya I of the Sangama dynasty founded Vijayanagara. Hasan Gangu founded the Bahmani kingdom.",
       "source": "ai",
       "archetype": "ssc-gd-G01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Vijayanagara founders, GD-level history"
+      }
     },
     {
       "id": "ssc-gd-138",
@@ -2630,7 +2715,12 @@
       "explanation": "Lord Curzon partitioned Bengal in 1905; it was annulled in 1911 under Lord Hardinge.",
       "source": "ai",
       "archetype": "ssc-gd-G02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Event-Viceroy (Bengal Partition/Curzon), frequent in GD"
+      }
     },
     {
       "id": "ssc-gd-139",
@@ -2648,7 +2738,12 @@
       "explanation": "Article 72 gives the President the pardoning power (Article 161 gives a similar power to Governors).",
       "source": "ai",
       "archetype": "ssc-gd-G03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Art 72 pardon with 74/61/123 near-presidential Articles"
+      }
     },
     {
       "id": "ssc-gd-140",
@@ -2666,7 +2761,12 @@
       "explanation": "Chilika Lake lies on the Odisha coast at the mouth of the Daya river. Pulicat Lake is on the Andhra Pradesh–Tamil Nadu border.",
       "source": "ai",
       "archetype": "ssc-gd-G06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Lake-state pairing (Chilika), easy but typical GD"
+      }
     },
     {
       "id": "ssc-gd-141",
@@ -2684,7 +2784,12 @@
       "explanation": "Mango showers help the early ripening of mangoes in Kerala and coastal Karnataka. Assam and West Bengal get 'Nor'westers' (Kalbaisakhi).",
       "source": "ai",
       "archetype": "ssc-gd-G07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Mango showers region is a recurring GD climate question"
+      }
     },
     {
       "id": "ssc-gd-142",
@@ -2702,7 +2807,12 @@
       "explanation": "The force was raised in 1835 as the Cachar Levy and was renamed Assam Rifles in 1917.",
       "source": "ai",
       "archetype": "ssc-gd-G19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Assam Rifles original name Cachar Levy; CAPF history fits GD's force-related GK"
+      }
     },
     {
       "id": "ssc-gd-143",
@@ -2720,7 +2830,12 @@
       "explanation": "'Duty unto Death' is the BSF motto. CRPF's motto is 'Service and Loyalty' and SSB's is 'Service, Security and Brotherhood'.",
       "source": "ai",
       "archetype": "ssc-gd-G19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "CAPF motto question (BSF), regularly seen in GD"
+      }
     },
     {
       "id": "ssc-gd-144",
@@ -2738,7 +2853,12 @@
       "explanation": "Methane is called marsh gas because it is produced by decaying vegetation in marshes.",
       "source": "ai",
       "archetype": "ssc-gd-G12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Common name of gas (marsh gas) is GD-level chemistry"
+      }
     },
     {
       "id": "ssc-gd-145",
@@ -2756,7 +2876,12 @@
       "explanation": "Typhoid is caused by the bacterium Salmonella typhi, spread through contaminated food and water.",
       "source": "ai",
       "archetype": "ssc-gd-G13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Disease-causative organism type; very standard GD biology"
+      }
     },
     {
       "id": "ssc-gd-146",
@@ -2774,7 +2899,12 @@
       "explanation": "India beat Pakistan by five wickets in the final at Dubai on 28 September 2025.",
       "source": "ai",
       "archetype": "ssc-gd-G18",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Asia Cup 2025 final vs Pakistan, prominent 2025 sports CA"
+      }
     },
     {
       "id": "ssc-gd-147",
@@ -2792,7 +2922,12 @@
       "explanation": "Pascal's law: pressure applied to an enclosed liquid is transmitted equally in all directions, which lets a small force lift a heavy load.",
       "source": "ai",
       "archetype": "ssc-gd-G11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Device-principle (hydraulic lift/Pascal) common GD physics"
+      }
     },
     {
       "id": "ssc-gd-148",
@@ -2810,7 +2945,12 @@
       "explanation": "7 has cycle 7, 9, 3, 1: 95 = 4 × 23 + 3 → 3. 3 has cycle 3, 9, 7, 1: 58 = 4 × 14 + 2 → 9. 3 × 9 = 27, unit digit 7.",
       "source": "ai",
       "archetype": "ssc-gd-M01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Unit digit by cyclicity of product; 1/9/3 adjacent cycle traps"
+      }
     },
     {
       "id": "ssc-gd-149",
@@ -2828,7 +2968,12 @@
       "explanation": "Required number = HCF(245 − 5, 1029 − 5) = HCF(240, 1024) = 16.",
       "source": "ai",
       "archetype": "ssc-gd-M03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "HCF with equal remainder (240,1024 → 16), textbook GD"
+      }
     },
     {
       "id": "ssc-gd-150",
@@ -2846,7 +2991,12 @@
       "explanation": "Innermost: 8 − 6 = 2; bracket: 15 − 2 = 13; then 48 ÷ 12 × 13 = 4 × 13 = 52; 52 + 6 = 58.",
       "source": "ai",
       "archetype": "ssc-gd-M04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "BODMAS bracket simplification; 52/70 from order slips"
+      }
     },
     {
       "id": "ssc-gd-151",
@@ -2864,7 +3014,12 @@
       "explanation": "If B = 100, A = 125. B is less by 25/125 × 100 = 20%.",
       "source": "ai",
       "archetype": "ssc-gd-M05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "'More than' vs 'less than' percent trap, GD favourite"
+      }
     },
     {
       "id": "ssc-gd-152",
@@ -2882,7 +3037,12 @@
       "explanation": "CP of 15 − SP of 15 = SP of 3 ⇒ CP of 15 = SP of 18. Loss% = loss/CP = (SP of 3)/(SP of 18) × 100 = 1/6 × 100 = 16⅔%. (Taking 3/15 = 20% is the trap.)",
       "source": "ai",
       "archetype": "ssc-gd-M08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Loss equal to SP of k articles; 20% is the standard wrong base"
+      }
     },
     {
       "id": "ssc-gd-153",
@@ -2900,7 +3060,12 @@
       "explanation": "1/2 : 1/3 : 1/4 = 6 : 4 : 3 (multiplying by 12). B's share = 1560 × 4/13 = ₹480.",
       "source": "ai",
       "archetype": "ssc-gd-M11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Fractional ratio share, LCM 12 → 6:4:3; GD-faithful"
+      }
     },
     {
       "id": "ssc-gd-154",
@@ -2918,7 +3083,12 @@
       "explanation": "Correct sum = 900 + (64 − 46) = 918. Correct average = 918 ÷ 20 = 45.9.",
       "source": "ai",
       "archetype": "ssc-gd-M13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Wrongly copied observation corrects average by 18/20; 44.1 sign trap"
+      }
     },
     {
       "id": "ssc-gd-155",
@@ -2936,7 +3106,12 @@
       "explanation": "Work in 4 days = 4 × (1/12 + 1/18) = 4 × 5/36 = 5/9. Remaining 4/9 is done by B in 4/9 × 18 = 8 days.",
       "source": "ai",
       "archetype": "ssc-gd-M14",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Together then one leaves; remaining work by B = 8 days"
+      }
     },
     {
       "id": "ssc-gd-156",
@@ -2954,7 +3129,12 @@
       "explanation": "Downstream 18 km/h: 36/18 = 2 h. Upstream 12 km/h: 36/12 = 3 h. Total 5 hours.",
       "source": "ai",
       "archetype": "ssc-gd-M17",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Boat downstream-and-back time; GD-level numbers"
+      }
     },
     {
       "id": "ssc-gd-157",
@@ -2972,7 +3152,12 @@
       "explanation": "(4/3)π × 6³ = π × 4² × h ⇒ 288 = 16h ⇒ h = 18 cm.",
       "source": "ai",
       "archetype": "ssc-gd-M19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Sphere recast into cylinder volume equation, standard GD mensuration"
+      }
     },
     {
       "id": "ssc-gd-158",
@@ -2990,7 +3175,12 @@
       "explanation": "The passage says its battalions are drawn from the central armed police forces.",
       "source": "ai",
       "archetype": "ssc-gd-E01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Factual RC detail stated directly; GD English level"
+      }
     },
     {
       "id": "ssc-gd-159",
@@ -3008,7 +3198,12 @@
       "explanation": "Experts say the first hours are most critical and local people usually save the most lives then; hence the training.",
       "source": "ai",
       "archetype": "ssc-gd-E01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Reason question answered by a passage sentence; literal distractors"
+      }
     },
     {
       "id": "ssc-gd-160",
@@ -3026,7 +3221,12 @@
       "explanation": "The passage describes the NDRF and stresses that trained, prepared communities are less vulnerable.",
       "source": "ai",
       "archetype": "ssc-gd-E02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Main-idea RC with over-extreme options, appropriate for GD"
+      }
     },
     {
       "id": "ssc-gd-161",
@@ -3044,7 +3244,12 @@
       "explanation": "'Vulnerable' means open or exposed to harm; 'well protected' is its opposite.",
       "source": "ai",
       "archetype": "ssc-gd-E03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Contextual meaning of 'vulnerable' with antonym trap"
+      }
     },
     {
       "id": "ssc-gd-162",
@@ -3062,7 +3267,12 @@
       "explanation": "One 'reduces the risk' of a disease. 'Deduct' and 'subtract' are used for amounts; 'decline' is intransitive here.",
       "source": "ai",
       "archetype": "ssc-gd-E04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "'reduce the risk' collocation vs deduct/subtract, GD cloze"
+      }
     },
     {
       "id": "ssc-gd-163",
@@ -3080,7 +3290,12 @@
       "explanation": "The collocation is 'an effect on' something.",
       "source": "ai",
       "archetype": "ssc-gd-E04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "'effect on' preposition cloze blank, classic"
+      }
     },
     {
       "id": "ssc-gd-164",
@@ -3098,7 +3313,12 @@
       "explanation": "The second clause contrasts with the excuse of having no time, so the connector 'but' is needed.",
       "source": "ai",
       "archetype": "ssc-gd-E04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Contrast connector 'but' in cloze"
+      }
     },
     {
       "id": "ssc-gd-165",
@@ -3116,7 +3336,12 @@
       "explanation": "'Instead of' means in place of: climbing stairs in place of taking the lift. 'Rather of' and 'despite of' are incorrect forms.",
       "source": "ai",
       "archetype": "ssc-gd-E04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "'instead of' vs 'rather' cloze, good trap for GD"
+      }
     },
     {
       "id": "ssc-gd-166",
@@ -3134,7 +3359,12 @@
       "explanation": "Vigilant means keeping careful watch – watchful. 'Careless' is the antonym; 'violent' and 'vigorous' are look-alikes.",
       "source": "ai",
       "archetype": "ssc-gd-E07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Synonym with Vigorous/Violent lookalikes; easy GD vocabulary"
+      }
     },
     {
       "id": "ssc-gd-167",
@@ -3152,7 +3382,12 @@
       "explanation": "Scarce means insufficient; its opposite is abundant. Rare, scanty and meagre are synonyms.",
       "source": "ai",
       "archetype": "ssc-gd-E08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Antonym with three synonyms as traps, exact GD design"
+      }
     },
     {
       "id": "ssc-gd-168",
@@ -3170,7 +3405,12 @@
       "explanation": "'Turn over a new leaf' means to start behaving in a better way.",
       "source": "ai",
       "archetype": "ssc-gd-E09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Common idiom with literal-reading distractors"
+      }
     },
     {
       "id": "ssc-gd-169",
@@ -3188,7 +3428,12 @@
       "explanation": "'A bolt from the blue' is something that happens completely unexpectedly; the first option is the literal reading.",
       "source": "ai",
       "archetype": "ssc-gd-E09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "'Bolt from the blue' with literal 'lightning' trap"
+      }
     },
     {
       "id": "ssc-gd-170",
@@ -3206,7 +3451,12 @@
       "explanation": "Bilingual = speaking two languages. A polyglot speaks many languages; bicameral refers to two legislative houses.",
       "source": "ai",
       "archetype": "ssc-gd-E10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Bilingual vs Polyglot/Bicameral OWS trap"
+      }
     },
     {
       "id": "ssc-gd-171",
@@ -3224,7 +3474,12 @@
       "explanation": "A pedestrian goes on foot. A pedlar sells goods; a pilgrim travels to a holy place; a passenger travels in a vehicle.",
       "source": "ai",
       "archetype": "ssc-gd-E10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Pedestrian vs Pedlar/Pilgrim OWS, GD-level"
+      }
     },
     {
       "id": "ssc-gd-172",
@@ -3242,7 +3497,12 @@
       "explanation": "The correct spelling is 'disappoint' – one 's' and double 'p'.",
       "source": "ai",
       "archetype": "ssc-gd-E11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Double-letter spelling variants of 'disappoint', GD exact"
+      }
     },
     {
       "id": "ssc-gd-173",
@@ -3260,7 +3520,12 @@
       "explanation": "Mathematics is the name of a subject and takes a singular verb: 'Mathematics is my favourite subject.'",
       "source": "ai",
       "archetype": "ssc-gd-E12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Subject-verb agreement with -ics singular noun"
+      }
     },
     {
       "id": "ssc-gd-174",
@@ -3278,7 +3543,12 @@
       "explanation": "'More cleverer' is a double comparative; it should be 'cleverer' (or 'more clever').",
       "source": "ai",
       "archetype": "ssc-gd-E13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Double comparative 'more cleverer' error spot"
+      }
     },
     {
       "id": "ssc-gd-175",
@@ -3296,7 +3566,12 @@
       "explanation": "Past perfect 'had left' is followed by the time clause 'when we reached'.",
       "source": "ai",
       "archetype": "ssc-gd-E06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Past perfect with 'when' conjunction blank"
+      }
     },
     {
       "id": "ssc-gd-176",
@@ -3314,7 +3589,12 @@
       "explanation": "Doctors 'prescribe' medicines. 'Proscribe' means forbid – a look-alike trap.",
       "source": "ai",
       "archetype": "ssc-gd-E05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "prescribed/proscribed confusable word blank"
+      }
     },
     {
       "id": "ssc-gd-177",
@@ -3332,7 +3612,12 @@
       "explanation": "Present perfect active becomes 'has been + V3' in the passive, and 'who' becomes 'by whom'.",
       "source": "ai",
       "archetype": "ssc-gd-E14",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Interrogative present-perfect passive with tense-shift distractors"
+      }
     }
   ]
 }

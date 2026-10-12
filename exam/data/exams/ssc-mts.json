@@ -2426,7 +2426,12 @@
       "explanation": "LCM(12, 15, 20) = 60. Required number = 60 + 7 = 67.",
       "source": "ai",
       "archetype": "ssc-mts-N03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "LCM+remainder (60+7); 53 and 127 realistic slips"
+      }
     },
     {
       "id": "ssc-mts-114",
@@ -2444,7 +2449,12 @@
       "explanation": "Reduction = 20/(100 + 20) × 100 = 16⅔%.",
       "source": "ai",
       "archetype": "ssc-mts-N05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Price-rise consumption cut r/(100+r); 20% naive trap"
+      }
     },
     {
       "id": "ssc-mts-115",
@@ -2462,7 +2472,12 @@
       "explanation": "Winning margin = 60% − 40% = 20% of total = 1,200 ⇒ total = 6,000.",
       "source": "ai",
       "archetype": "ssc-mts-N06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Election margin = 20% of votes, MTS word problem"
+      }
     },
     {
       "id": "ssc-mts-116",
@@ -2480,7 +2495,12 @@
       "explanation": "CP of 1 pen = 100/12, SP = 100/10. Profit% = (1/10 − 1/12)/(1/12) × 100 = 20%.",
       "source": "ai",
       "archetype": "ssc-mts-N08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Buy x for ₹/sell y for ₹ profit; 16⅔ wrong-base trap"
+      }
     },
     {
       "id": "ssc-mts-117",
@@ -2498,7 +2518,12 @@
       "explanation": "Amount = 8000 × 1.05² = ₹8,820; CI = 8,820 − 8,000 = ₹820. (₹800 is the simple interest.)",
       "source": "ai",
       "archetype": "ssc-mts-N10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "2-year CI with amount 8,820 as distractor, MTS-level"
+      }
     },
     {
       "id": "ssc-mts-118",
@@ -2516,7 +2541,12 @@
       "explanation": "Make B common: A : B = 9 : 12 and B : C = 12 : 14. So A : B : C = 9 : 12 : 14.",
       "source": "ai",
       "archetype": "ssc-mts-N12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Combining A:B and B:C ratios; MTS-faithful"
+      }
     },
     {
       "id": "ssc-mts-119",
@@ -2534,7 +2564,12 @@
       "explanation": "C's one-day work = 1/5 − 1/10 − 1/15 = (6 − 3 − 2)/30 = 1/30. So C alone takes 30 days.",
       "source": "ai",
       "archetype": "ssc-mts-N14",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Third worker from combined time, MTS time-work"
+      }
     },
     {
       "id": "ssc-mts-120",
@@ -2552,7 +2587,12 @@
       "explanation": "Distance = 180 + 120 = 300 m; speed = 300/15 = 20 m/s = 20 × 18/5 = 72 km/h. Using only the train length gives 43.2 km/h.",
       "source": "ai",
       "archetype": "ssc-mts-N16",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Train crossing platform with m/s→km/h; 43.2 from wrong length"
+      }
     },
     {
       "id": "ssc-mts-121",
@@ -2570,7 +2610,12 @@
       "explanation": "Third side = √(26² − 10²) = √576 = 24 cm. Area = ½ × 10 × 24 = 120 cm².",
       "source": "ai",
       "archetype": "ssc-mts-N18",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Pythagorean triple 10-24-26 area; MTS geometry"
+      }
     },
     {
       "id": "ssc-mts-122",
@@ -2588,7 +2633,12 @@
       "explanation": "Number of cubes = (9/3) × (12/3) × (15/3) = 3 × 4 × 5 = 60.",
       "source": "ai",
       "archetype": "ssc-mts-N21",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Cubes cut from cuboid volume ratio, MTS mensuration"
+      }
     },
     {
       "id": "ssc-mts-123",
@@ -2606,7 +2656,12 @@
       "explanation": "Rule: n³ + n. 216 + 6 = 222, 125 + 5 = 130, so 64 + 4 = 68.",
       "source": "ai",
       "archetype": "ssc-mts-R02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "n³+n number analogy with SSC NOTE text"
+      }
     },
     {
       "id": "ssc-mts-124",
@@ -2624,7 +2679,12 @@
       "explanation": "The letters move +1, +2, +3: B→C, D→F, F→I. So G→H, I→K, K→N = HKN.",
       "source": "ai",
       "archetype": "ssc-mts-R03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "+1,+2,+3 letter-cluster analogy; HKM one-off trap"
+      }
     },
     {
       "id": "ssc-mts-125",
@@ -2642,7 +2702,12 @@
       "explanation": "Kathakali, Bharatanatyam and Kuchipudi are classical dances; Bhangra is a folk dance of Punjab.",
       "source": "ai",
       "archetype": "ssc-mts-R04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Folk vs classical dance odd-one-out, typical MTS"
+      }
     },
     {
       "id": "ssc-mts-126",
@@ -2660,7 +2725,12 @@
       "explanation": "D–W, F–U and H–S are opposite-letter pairs (positions add up to 27). J's opposite is Q, not R.",
       "source": "ai",
       "archetype": "ssc-mts-R06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Opposite-letter pairs; JR breaks the pairing (JQ would fit)"
+      }
     },
     {
       "id": "ssc-mts-127",
@@ -2678,7 +2748,12 @@
       "explanation": "Letters are shifted alternately +1 and −1: M+1=N, O−1=N, T+1=U, H−1=G, E+1=F, R−1=Q. SISTER → T, H, T, S, F, Q.",
       "source": "ai",
       "archetype": "ssc-mts-R09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Alternating +1/−1 shift code, one-letter traps"
+      }
     },
     {
       "id": "ssc-mts-128",
@@ -2696,7 +2771,12 @@
       "explanation": "Kavita's mother's only brother is her maternal uncle; his son is Kavita's cousin.",
       "source": "ai",
       "archetype": "ssc-mts-R12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Maternal uncle's son = cousin, MTS relation"
+      }
     },
     {
       "id": "ssc-mts-129",
@@ -2714,7 +2794,12 @@
       "explanation": "North → (90° clockwise) East → (180° anticlockwise) West → (45° clockwise) North-West.",
       "source": "ai",
       "archetype": "ssc-mts-R14",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Rotation-angle direction question, MTS-level"
+      }
     },
     {
       "id": "ssc-mts-130",
@@ -2732,7 +2817,12 @@
       "explanation": "Swapping + and ×: 9 × 63 ÷ 7 + 5 − 8 = 81 + 5 − 8 = 78.",
       "source": "ai",
       "archetype": "ssc-mts-R17",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "Sign interchange; only +/× gives 78, all four checked"
+      }
     },
     {
       "id": "ssc-mts-131",
@@ -2750,7 +2840,12 @@
       "explanation": "Sunil is 35 − 15 + 1 = 21st from the left. Students between = 21 − 11 − 1 = 9.",
       "source": "ai",
       "archetype": "ssc-mts-R20",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Persons between two ranks with ±1 traps"
+      }
     },
     {
       "id": "ssc-mts-132",
@@ -2768,7 +2863,12 @@
       "explanation": "Doctors lie inside teachers, which are wholly separate from singers, so no doctor is a singer (I follows). II contradicts 'No teacher is a singer'.",
       "source": "ai",
       "archetype": "ssc-mts-R15",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "All/No syllogism; 'some singers are teachers' correctly rejected"
+      }
     },
     {
       "id": "ssc-mts-133",
@@ -2786,7 +2886,12 @@
       "explanation": "Akbar built the Buland Darwaza (c. 1575) to commemorate his victory over Gujarat.",
       "source": "ai",
       "archetype": "ssc-mts-G01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Monument-Mughal builder, easy MTS history"
+      }
     },
     {
       "id": "ssc-mts-134",
@@ -2804,7 +2909,12 @@
       "explanation": "Banabhatta, the court poet of Harsha, wrote Harshacharita and Kadambari. Harisena wrote the Prayag Prashasti.",
       "source": "ai",
       "archetype": "ssc-mts-G01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Classical book-author (Harshacharita/Bana) common in MTS"
+      }
     },
     {
       "id": "ssc-mts-135",
@@ -2822,7 +2932,12 @@
       "explanation": "After a mob set fire to a police station at Chauri Chaura (February 1922), Gandhi called off the movement.",
       "source": "ai",
       "archetype": "ssc-mts-G02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Event ending NCM (Chauri Chaura), frequent MTS item"
+      }
     },
     {
       "id": "ssc-mts-136",
@@ -2840,7 +2955,12 @@
       "explanation": "Article 16 deals with equality of opportunity in public employment. Article 14 is equality before law; Article 15 prohibits discrimination.",
       "source": "ai",
       "archetype": "ssc-mts-G03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "FR Article 16 with neighbouring 14/15/19"
+      }
     },
     {
       "id": "ssc-mts-137",
@@ -2858,7 +2978,12 @@
       "explanation": "The 42nd Amendment Act, 1976 added 'Socialist', 'Secular' and 'Integrity' to the Preamble.",
       "source": "ai",
       "archetype": "ssc-mts-G04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "42nd Amendment Preamble words, staple"
+      }
     },
     {
       "id": "ssc-mts-138",
@@ -2876,7 +3001,12 @@
       "explanation": "The CAG holds office for six years or until the age of 65, whichever is earlier.",
       "source": "ai",
       "archetype": "ssc-mts-G05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "CAG tenure with tenure/age combos as distractors"
+      }
     },
     {
       "id": "ssc-mts-139",
@@ -2894,7 +3024,12 @@
       "explanation": "It is called Tsangpo in Tibet, Dihang/Siang in Arunachal Pradesh and Jamuna in Bangladesh.",
       "source": "ai",
       "archetype": "ssc-mts-G06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "River alternate names (Tsangpo) frequent in MTS"
+      }
     },
     {
       "id": "ssc-mts-140",
@@ -2912,7 +3047,12 @@
       "explanation": "The troposphere, the lowest layer, contains almost all water vapour, so weather occurs there.",
       "source": "ai",
       "archetype": "ssc-mts-G08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Atmosphere layer for weather, easy MTS geography"
+      }
     },
     {
       "id": "ssc-mts-141",
@@ -2930,7 +3070,12 @@
       "explanation": "CRR is held as cash balance with the RBI. Keeping liquid assets such as gold and government securities with themselves is SLR.",
       "source": "ai",
       "archetype": "ssc-mts-G09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "CRR vs SLR concept trap, MTS banking"
+      }
     },
     {
       "id": "ssc-mts-142",
@@ -2948,7 +3093,12 @@
       "explanation": "The Second Plan (1956–61) followed the P. C. Mahalanobis model with emphasis on heavy industry. The First Plan used the Harrod–Domar model.",
       "source": "ai",
       "archetype": "ssc-mts-G10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Plan-model pairing (Mahalanobis/2nd), standard"
+      }
     },
     {
       "id": "ssc-mts-143",
@@ -2966,7 +3116,12 @@
       "explanation": "In myopia the image forms in front of the retina; a concave (diverging) lens corrects it. Hypermetropia is corrected with a convex lens.",
       "source": "ai",
       "archetype": "ssc-mts-G11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Eye-defect lens correction, MTS physics staple"
+      }
     },
     {
       "id": "ssc-mts-144",
@@ -2984,7 +3139,12 @@
       "explanation": "Bleaching powder is calcium oxychloride (CaOCl₂).",
       "source": "ai",
       "archetype": "ssc-mts-G12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Chemical name of bleaching powder with calcium-compound distractors"
+      }
     },
     {
       "id": "ssc-mts-145",
@@ -3002,7 +3162,12 @@
       "explanation": "Vitamin K is needed to make clotting factors such as prothrombin.",
       "source": "ai",
       "archetype": "ssc-mts-G13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Vitamin K clotting, MTS biology staple"
+      }
     },
     {
       "id": "ssc-mts-146",
@@ -3020,7 +3185,12 @@
       "explanation": "Transpiration is loss of water vapour, mainly through stomata. Guttation is loss of water as liquid drops.",
       "source": "ai",
       "archetype": "ssc-mts-G14",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Transpiration definition; guttation as fair trap"
+      }
     },
     {
       "id": "ssc-mts-147",
@@ -3038,7 +3208,12 @@
       "explanation": "Yakshagana is the theatre form of coastal Karnataka.",
       "source": "ai",
       "archetype": "ssc-mts-G15",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Dance-drama state (Yakshagana) common MTS culture"
+      }
     },
     {
       "id": "ssc-mts-148",
@@ -3056,7 +3231,12 @@
       "explanation": "Sultan Muhammad Quli Qutb Shah of the Qutb Shahi dynasty built the Charminar in 1591.",
       "source": "ai",
       "archetype": "ssc-mts-G16",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Charminar builder with Deccan rulers as distractors"
+      }
     },
     {
       "id": "ssc-mts-149",
@@ -3074,7 +3254,12 @@
       "explanation": "The 17th BRICS Summit was held in Rio de Janeiro, Brazil, in July 2025. Russia hosted the 16th summit (Kazan, 2024).",
       "source": "ai",
       "archetype": "ssc-mts-G17",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "17th BRICS summit host Brazil (Rio, July 2025), current"
+      }
     },
     {
       "id": "ssc-mts-150",
@@ -3092,7 +3277,12 @@
       "explanation": "19-year-old Divya Deshmukh beat Koneru Humpy in the final at Batumi, Georgia, and also became a Grandmaster.",
       "source": "ai",
       "archetype": "ssc-mts-G18",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Divya Deshmukh Women's World Cup July 2025 (verified), Humpy runner-up trap"
+      }
     },
     {
       "id": "ssc-mts-151",
@@ -3110,7 +3300,12 @@
       "explanation": "A 'bully' is used to start or restart play in field hockey.",
       "source": "ai",
       "archetype": "ssc-mts-G18",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Sports-term pairing (bully/hockey), easy MTS"
+      }
     },
     {
       "id": "ssc-mts-152",
@@ -3128,7 +3323,12 @@
       "explanation": "'The Guide' (1958) by R. K. Narayan won the Sahitya Akademi Award in 1960.",
       "source": "ai",
       "archetype": "ssc-mts-G19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Indian English novel-author, MTS books format"
+      }
     },
     {
       "id": "ssc-mts-153",
@@ -3146,7 +3346,12 @@
       "explanation": "The passage says many people believed the post office would soon become useless.",
       "source": "ai",
       "archetype": "ssc-mts-E01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Factual RC, answer stated verbatim"
+      }
     },
     {
       "id": "ssc-mts-154",
@@ -3164,7 +3369,12 @@
       "explanation": "It helps villagers receive money and pensions at their doorstep.",
       "source": "ai",
       "archetype": "ssc-mts-E01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Detail RC on IPPB with passage-word distractors"
+      }
     },
     {
       "id": "ssc-mts-155",
@@ -3182,7 +3392,12 @@
       "explanation": "The passage shows how the old postal service has adapted to modern times.",
       "source": "ai",
       "archetype": "ssc-mts-E02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Title question with one-sided options"
+      }
     },
     {
       "id": "ssc-mts-156",
@@ -3200,7 +3415,12 @@
       "explanation": "'Remotest villages' means the most distant or isolated villages.",
       "source": "ai",
       "archetype": "ssc-mts-E03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Contextual meaning of 'remotest'"
+      }
     },
     {
       "id": "ssc-mts-157",
@@ -3218,7 +3438,12 @@
       "explanation": "The fixed expression is 'home to': the trees are home to many birds.",
       "source": "ai",
       "archetype": "ssc-mts-E04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "'home to' preposition cloze"
+      }
     },
     {
       "id": "ssc-mts-158",
@@ -3236,7 +3461,12 @@
       "explanation": "'Prevent something from happening' is the correct pattern; 'avoid', 'refuse' and 'deny' do not take 'it from'.",
       "source": "ai",
       "archetype": "ssc-mts-E04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "'prevent … from' vs avoid/refuse cloze trap"
+      }
     },
     {
       "id": "ssc-mts-159",
@@ -3254,7 +3484,12 @@
       "explanation": "The two clauses contrast (cannot stop development / can plant trees), so 'but' is needed.",
       "source": "ai",
       "archetype": "ssc-mts-E04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Contrast connector cloze"
+      }
     },
     {
       "id": "ssc-mts-160",
@@ -3272,7 +3507,12 @@
       "explanation": "'Look after' means take care of. 'Take after' means resemble, and 'care' takes 'for', not 'after'.",
       "source": "ai",
       "archetype": "ssc-mts-E04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Phrasal 'look after' vs takes/cares cloze"
+      }
     },
     {
       "id": "ssc-mts-161",
@@ -3290,7 +3530,12 @@
       "explanation": "Abandon means to leave behind – desert. 'Dessert' is a look-alike; 'adopt' and 'retain' are opposites.",
       "source": "ai",
       "archetype": "ssc-mts-E07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Desert/Dessert spelling trap synonym"
+      }
     },
     {
       "id": "ssc-mts-162",
@@ -3308,7 +3553,12 @@
       "explanation": "Fragile means easily broken – delicate. 'Sturdy' is the opposite and 'fragrant' a look-alike.",
       "source": "ai",
       "archetype": "ssc-mts-E07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Fragile/Fragrant lookalike synonym"
+      }
     },
     {
       "id": "ssc-mts-163",
@@ -3326,7 +3576,12 @@
       "explanation": "The opposite of temporary is permanent; the other options are synonyms of temporary.",
       "source": "ai",
       "archetype": "ssc-mts-E08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Antonym with three synonyms as traps"
+      }
     },
     {
       "id": "ssc-mts-164",
@@ -3344,7 +3599,12 @@
       "explanation": "Genuine means real; its opposite is fake. Authentic and real are synonyms.",
       "source": "ai",
       "archetype": "ssc-mts-E08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Simple antonym, MTS-level"
+      }
     },
     {
       "id": "ssc-mts-165",
@@ -3362,7 +3622,12 @@
       "explanation": "The idiom means to attempt more than one can manage; 'to eat too quickly' is the literal reading.",
       "source": "ai",
       "archetype": "ssc-mts-E09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Idiom with literal 'eat' distractor"
+      }
     },
     {
       "id": "ssc-mts-166",
@@ -3380,7 +3645,12 @@
       "explanation": "'Hit the nail on the head' means to say or do exactly the right thing.",
       "source": "ai",
       "archetype": "ssc-mts-E09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Idiom with literal 'hurt oneself' distractor"
+      }
     },
     {
       "id": "ssc-mts-167",
@@ -3398,7 +3668,12 @@
       "explanation": "A bibliophile loves books. A bibliographer compiles lists of books; a philanthropist helps others.",
       "source": "ai",
       "archetype": "ssc-mts-E10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Bibliophile vs Bibliographer OWS trap"
+      }
     },
     {
       "id": "ssc-mts-168",
@@ -3416,7 +3691,12 @@
       "explanation": "The agenda lists items to be discussed; the minutes record what was discussed after the meeting.",
       "source": "ai",
       "archetype": "ssc-mts-E10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Agenda vs Minutes OWS trap"
+      }
     },
     {
       "id": "ssc-mts-169",
@@ -3434,7 +3714,12 @@
       "explanation": "The correct spelling is 'tomorrow' – one 'm' and double 'r'.",
       "source": "ai",
       "archetype": "ssc-mts-E11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Incorrectly spelt common word, MTS spelling format"
+      }
     },
     {
       "id": "ssc-mts-170",
@@ -3452,7 +3737,12 @@
       "explanation": "'Furniture' is an uncountable noun and takes a singular verb: 'is very old'.",
       "source": "ai",
       "archetype": "ssc-mts-E12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Uncountable 'furniture' takes singular verb"
+      }
     },
     {
       "id": "ssc-mts-171",
@@ -3470,7 +3760,12 @@
       "explanation": "In a first conditional the if-clause takes the simple present: 'If I get leave, I will visit…'.",
       "source": "ai",
       "archetype": "ssc-mts-E13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "No 'will' in if-clause, conditional error"
+      }
     },
     {
       "id": "ssc-mts-172",
@@ -3488,7 +3783,12 @@
       "explanation": "With 'neither…nor' the verb agrees with the nearer subject ('students', plural) and the time is past: 'were'.",
       "source": "ai",
       "archetype": "ssc-mts-E06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Neither-nor proximity agreement with plural"
+      }
     },
     {
       "id": "ssc-mts-173",
@@ -3506,7 +3806,12 @@
       "explanation": "Police 'register' a case (FIR). The other words do not collocate with 'case' in this sense.",
       "source": "ai",
       "archetype": "ssc-mts-E05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "'register a case' collocation"
+      }
     },
     {
       "id": "ssc-mts-174",
@@ -3524,7 +3829,12 @@
       "explanation": "'Prefer' is followed by 'to': I prefer tea to coffee.",
       "source": "ai",
       "archetype": "ssc-mts-E14",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "'prefer … to' improvement"
+      }
     },
     {
       "id": "ssc-mts-175",
@@ -3542,7 +3852,12 @@
       "explanation": "Of two past actions, the earlier one takes the past perfect: 'The bus had left before we reached'.",
       "source": "ai",
       "archetype": "ssc-mts-E14",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Past perfect for earlier past action"
+      }
     },
     {
       "id": "ssc-mts-176",
@@ -3560,7 +3875,12 @@
       "explanation": "Simple future active 'will check' becomes 'will be checked' in the passive.",
       "source": "ai",
       "archetype": "ssc-mts-E15",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Future passive with modal/tense distractors"
+      }
     }
   ]
 }

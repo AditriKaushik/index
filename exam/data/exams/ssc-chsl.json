@@ -3320,7 +3320,12 @@
       "explanation": "M is the wife of N, N is the father of P, and P is the sister of Q. So Q is also N's child and M is Q's mother.",
       "source": "ai",
       "archetype": "ssc-chsl-R13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Symbol-coded blood relation with 3 operators, typical CHSL; wife-of-father → mother"
+      }
     },
     {
       "id": "ssc-chsl-122",
@@ -3338,7 +3343,12 @@
       "explanation": "The erasers that are markers need not include any pen, so I does not follow definitely; but such an overlap is possible, so II follows.",
       "source": "ai",
       "archetype": "ssc-chsl-R15",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "All/Some with 'possibility' conclusion is the exact CHSL syllogism trap"
+      }
     },
     {
       "id": "ssc-chsl-123",
@@ -3356,25 +3366,12 @@
       "explanation": "Days after 26 Jan: 5 (Jan) + 28 + 31 + 30 + 31 + 30 + 31 + 31 + 30 + 2 = 249 = 35 weeks + 4 days. Monday + 4 = Friday.",
       "source": "ai",
       "archetype": "ssc-chsl-R22",
-      "verified": false
-    },
-    {
-      "id": "ssc-chsl-124",
-      "section": "reasoning",
-      "topic": "Venn Diagram",
-      "difficulty": "easy",
-      "question": "In a survey of students: 12 like only cricket, 15 like only football, 10 like only hockey, 8 like cricket and football but not hockey, 6 like football and hockey but not cricket, 5 like cricket and hockey but not football, and 4 like all three games. How many students like exactly two of the three games?",
-      "options": [
-        "23",
-        "19",
-        "15",
-        "27"
-      ],
-      "answer": 1,
-      "explanation": "Exactly two = 8 + 6 + 5 = 19. (Adding the 4 who like all three gives the trap 23.)",
-      "source": "ai",
-      "archetype": "ssc-chsl-R24",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Day-of-week from a reference date within a year; odd-day count 249≡4 → Friday, verified"
+      }
     },
     {
       "id": "ssc-chsl-125",
@@ -3392,7 +3389,12 @@
       "explanation": "Third number = (first)² + (second)²: 25 + 9 = 34, 36 + 4 = 40, so 16 + 49 = 65.",
       "source": "ai",
       "archetype": "ssc-chsl-R20",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Row rule a²+b² table; matches CHSL missing-number; 121=(4+7)² is a sound trap"
+      }
     },
     {
       "id": "ssc-chsl-126",
@@ -3410,7 +3412,12 @@
       "explanation": "Order from tallest: S > P > T > Q > R. The third tallest is T.",
       "source": "ai",
       "archetype": "ssc-chsl-R21",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Height comparison chain under ranking archetype; CHSL-level, 5 persons, single ordering"
+      }
     },
     {
       "id": "ssc-chsl-127",
@@ -3428,7 +3435,12 @@
       "explanation": "Swapping × and −: 56 ÷ 8 + 6 − 3 × 4 = 7 + 6 − 12 = 1.",
       "source": "ai",
       "archetype": "ssc-chsl-R17",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "Exact CHSL sign-interchange format; only ×/− works (7+6−12=1), checked all four"
+      }
     },
     {
       "id": "ssc-chsl-128",
@@ -3446,7 +3458,12 @@
       "explanation": "Each letter takes its reverse alphabet position (A = 26 … Z = 1): BAT = 25 + 26 + 7 = 58, DOG = 23 + 12 + 20 = 55, PEN = 11 + 22 + 13 = 46. Forward positions give the trap 35.",
       "source": "ai",
       "archetype": "ssc-chsl-R10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Reverse-alphabet-position sum code (BAT=58, DOG=55) is a common CHSL numeric coding"
+      }
     },
     {
       "id": "ssc-chsl-129",
@@ -3464,7 +3481,12 @@
       "explanation": "Iltutmish organised the iqta system, assigning revenue of territories to officers (iqtadars) in place of salary.",
       "source": "ai",
       "archetype": "ssc-chsl-G01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Iqta institutionalised by Iltutmish is a standard SSC Sultanate fact; early-Sultan distractors"
+      }
     },
     {
       "id": "ssc-chsl-130",
@@ -3482,7 +3504,12 @@
       "explanation": "Krishnadevaraya of the Tuluva dynasty wrote Amuktamalyada; Telugu literature flourished at his court with the Ashtadiggajas.",
       "source": "ai",
       "archetype": "ssc-chsl-G01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Book-to-Vijayanagara-ruler pairing is common in CHSL medieval history"
+      }
     },
     {
       "id": "ssc-chsl-131",
@@ -3500,7 +3527,12 @@
       "explanation": "Jyotirao Phule founded the Satyashodhak Samaj in Pune in 1873 to fight caste discrimination.",
       "source": "ai",
       "archetype": "ssc-chsl-G02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Founder-of-organisation (Satyashodhak/Phule) is a top-frequency SSC modern-history item"
+      }
     },
     {
       "id": "ssc-chsl-132",
@@ -3518,7 +3550,12 @@
       "explanation": "The 1909 Act, named after Secretary of State John Morley and Viceroy Lord Minto, introduced separate electorates for Muslims.",
       "source": "ai",
       "archetype": "ssc-chsl-G02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Act-to-popular-name is asked but this one is very well known; easy end of CHSL"
+      }
     },
     {
       "id": "ssc-chsl-133",
@@ -3536,7 +3573,12 @@
       "explanation": "Article 280 provides for a Finance Commission every five years. Article 275 is grants-in-aid and 266 the Consolidated Fund.",
       "source": "ai",
       "archetype": "ssc-chsl-G03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Article-number (280 Finance Commission) with 275/266/324 neighbours exactly as SSC sets"
+      }
     },
     {
       "id": "ssc-chsl-134",
@@ -3554,7 +3596,12 @@
       "explanation": "Fundamental Duties (Part IV-A) were inspired by the Constitution of the former USSR. DPSPs come from Ireland and judicial review from the USA.",
       "source": "ai",
       "archetype": "ssc-chsl-G05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Borrowed-feature source country is a recurring CHSL polity format"
+      }
     },
     {
       "id": "ssc-chsl-135",
@@ -3572,7 +3619,12 @@
       "explanation": "Under Article 110(3) the decision of the Speaker of the Lok Sabha on whether a Bill is a Money Bill is final.",
       "source": "ai",
       "archetype": "ssc-chsl-G05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Money Bill certification by Speaker is a staple SSC parliament question"
+      }
     },
     {
       "id": "ssc-chsl-136",
@@ -3590,25 +3642,12 @@
       "explanation": "Nagarjuna Sagar Dam lies on the Krishna river on the Telangana–Andhra Pradesh border.",
       "source": "ai",
       "archetype": "ssc-chsl-G06",
-      "verified": false
-    },
-    {
-      "id": "ssc-chsl-137",
-      "section": "gk",
-      "topic": "Geography",
-      "difficulty": "medium",
-      "question": "Laterite soil is formed mainly as a result of:",
-      "options": [
-        "intense leaching under high temperature and heavy rainfall",
-        "deposition of silt by rivers",
-        "weathering of basalt lava in a dry climate",
-        "accumulation of wind-blown sand"
-      ],
-      "answer": 0,
-      "explanation": "Heavy rain and high temperature leach away silica and lime, leaving iron and aluminium oxides – laterite. Basalt weathering gives black soil.",
-      "source": "ai",
-      "archetype": "ssc-chsl-G07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Dam-river pairing is standard CHSL geography; southern rivers as distractors"
+      }
     },
     {
       "id": "ssc-chsl-138",
@@ -3626,7 +3665,12 @@
       "explanation": "The Strait of Hormuz links the Persian Gulf to the Gulf of Oman. The Bab-el-Mandeb links the Red Sea to the Gulf of Aden.",
       "source": "ai",
       "archetype": "ssc-chsl-G08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Strait-connects-water-bodies is an SSC world-geography format; Hormuz is topical"
+      }
     },
     {
       "id": "ssc-chsl-139",
@@ -3644,7 +3688,12 @@
       "explanation": "NABARD is headquartered in Mumbai. Lucknow is the headquarters of SIDBI.",
       "source": "ai",
       "archetype": "ssc-chsl-G09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Institution headquarters (NABARD Mumbai) is a frequent CHSL banking item"
+      }
     },
     {
       "id": "ssc-chsl-140",
@@ -3662,7 +3711,12 @@
       "explanation": "NNP = GNP − depreciation. NDP is obtained by subtracting depreciation from GDP, not GNP.",
       "source": "ai",
       "archetype": "ssc-chsl-G10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "National-income aggregate definitions (GNP−Dep=NNP) asked often in CHSL economy"
+      }
     },
     {
       "id": "ssc-chsl-141",
@@ -3680,7 +3734,12 @@
       "explanation": "LPG (mainly butane and propane) is odourless; ethyl mercaptan is added so that leaks can be detected.",
       "source": "ai",
       "archetype": "ssc-chsl-G12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "LPG odorant (ethyl mercaptan) has appeared in SSC science; constituent gases as traps"
+      }
     },
     {
       "id": "ssc-chsl-142",
@@ -3698,7 +3757,12 @@
       "explanation": "B-lymphocytes (via plasma cells) produce antibodies. Neutrophils and monocytes are phagocytes; erythrocytes are red cells.",
       "source": "ai",
       "archetype": "ssc-chsl-G13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Antibody-producing WBC is a valid CHSL biology fact; 'Erythrocytes' is a weak off-category distractor"
+      }
     },
     {
       "id": "ssc-chsl-143",
@@ -3716,7 +3780,12 @@
       "explanation": "Nuakhai is the harvest festival of western Odisha, observed the day after Ganesh Chaturthi.",
       "source": "ai",
       "archetype": "ssc-chsl-G15",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Festival-to-state (Nuakhai, Odisha) is a frequent CHSL culture format; eastern-state distractors"
+      }
     },
     {
       "id": "ssc-chsl-144",
@@ -3734,7 +3803,12 @@
       "explanation": "Maharaja Sawai Pratap Singh commissioned the Hawa Mahal, designed by Lal Chand Ustad. Sawai Jai Singh II founded Jaipur.",
       "source": "ai",
       "archetype": "ssc-chsl-G16",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Monument builder (Hawa Mahal/Pratap Singh) with Jaipur rulers as distractors, standard SSC"
+      }
     },
     {
       "id": "ssc-chsl-145",
@@ -3752,7 +3826,12 @@
       "explanation": "C. P. Radhakrishnan won the vice-presidential election on 9 September 2025, defeating B. Sudershan Reddy, after Jagdeep Dhankhar's resignation.",
       "source": "ai",
       "archetype": "ssc-chsl-G17",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "VP election Sept 2025 (Radhakrishnan defeating Sudershan Reddy) is core 2025-26 CA; opponent as trap"
+      }
     },
     {
       "id": "ssc-chsl-146",
@@ -3770,7 +3849,12 @@
       "explanation": "India beat South Africa in the final at Navi Mumbai on 2 November 2025 to win their first Women's World Cup title.",
       "source": "ai",
       "archetype": "ssc-chsl-G18",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Women's WC 2025 final vs South Africa (2 Nov 2025, verified) is prime sports CA"
+      }
     },
     {
       "id": "ssc-chsl-147",
@@ -3788,7 +3872,12 @@
       "explanation": "'Tamas' (1974) is by Bhisham Sahni. Yashpal wrote 'Jhootha Sach', another Partition novel.",
       "source": "ai",
       "archetype": "ssc-chsl-G19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Hindi novel-author pairing (Tamas/Bhisham Sahni) is a classic CHSL books item"
+      }
     },
     {
       "id": "ssc-chsl-148",
@@ -3806,7 +3895,12 @@
       "explanation": "Rate 5% per half-year for 2 half-years: CI = 16000 × (1.05² − 1) = 16000 × 0.1025 = ₹1,640. (₹1,600 is the simple interest.)",
       "source": "ai",
       "archetype": "ssc-chsl-Q09",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Half-yearly CI for 1 year; 1600 (SI) and 1680 as realistic slips"
+      }
     },
     {
       "id": "ssc-chsl-149",
@@ -3824,7 +3918,12 @@
       "explanation": "(a + b + c)² = a² + b² + c² + 2(ab + bc + ca) ⇒ 144 = 50 + 2(ab + bc + ca) ⇒ ab + bc + ca = 47.",
       "source": "ai",
       "archetype": "ssc-chsl-Q18",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "(a+b+c)² identity, quick CHSL algebra; 94 (forgot ÷2) is the right trap"
+      }
     },
     {
       "id": "ssc-chsl-150",
@@ -3842,7 +3941,12 @@
       "explanation": "PT² = PA × PB ⇒ 144 = 8 × PB ⇒ PB = 18 cm, so AB = 18 − 8 = 10 cm.",
       "source": "ai",
       "archetype": "ssc-chsl-Q20",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Tangent-secant theorem PT²=PA·PB; 18 (PB) is the classic distractor"
+      }
     },
     {
       "id": "ssc-chsl-151",
@@ -3860,7 +3964,12 @@
       "explanation": "sec θ − tan θ = 1/3. Adding: sec θ = 5/3; subtracting: tan θ = 4/3. sin θ = tan θ / sec θ = 4/5.",
       "source": "ai",
       "archetype": "ssc-chsl-Q25",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "sec+tan=k conditional trig exactly as CHSL sets it; 3/5 and 4/3 are swap traps"
+      }
     },
     {
       "id": "ssc-chsl-152",
@@ -3878,7 +3987,12 @@
       "explanation": "Let the work take T days: (T − 5)/20 + T/30 = 1 ⇒ 3T − 15 + 2T = 60 ⇒ T = 15.",
       "source": "ai",
       "archetype": "ssc-chsl-Q13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "'A leaves k days before completion' is a standard CHSL time-work twist"
+      }
     },
     {
       "id": "ssc-chsl-153",
@@ -3896,7 +4010,12 @@
       "explanation": "Relative speed = 64 − 4 = 60 km/h = 50/3 m/s. Time = 240 ÷ (50/3) = 14.4 s.",
       "source": "ai",
       "archetype": "ssc-chsl-Q15",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Train overtaking man, same-direction relative speed with km/h→m/s; textbook CHSL"
+      }
     },
     {
       "id": "ssc-chsl-154",
@@ -3914,7 +4033,12 @@
       "explanation": "New area = 1.3 × 0.8 = 1.04 of the original, i.e. a 4% increase. (30 − 20 = 10% ignores the product term.)",
       "source": "ai",
       "archetype": "ssc-chsl-Q22",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Successive % change in area (x+y+xy/100) is frequent in CHSL mensuration"
+      }
     },
     {
       "id": "ssc-chsl-155",
@@ -3932,7 +4056,12 @@
       "explanation": "Water is uncountable, so 'a large quantity of water' is correct; 'a large number of' needs a countable noun and the idiom is 'a great deal', not 'a large deal'.",
       "source": "ai",
       "archetype": "ssc-chsl-E04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Cloze blank: uncountable 'quantity' vs 'number/many' collocation, CHSL style"
+      }
     },
     {
       "id": "ssc-chsl-156",
@@ -3950,7 +4079,12 @@
       "explanation": "'Make a difference' is the fixed collocation meaning to have a useful effect; the other near-synonyms do not collocate with 'make'.",
       "source": "ai",
       "archetype": "ssc-chsl-E04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Collocation 'make a real difference' with near-synonym distractors, true to CHSL cloze"
+      }
     },
     {
       "id": "ssc-chsl-157",
@@ -3968,7 +4102,12 @@
       "explanation": "'Ensure' means to make certain that something happens. 'Assure' needs a person as object, 'insure' relates to insurance and 'assume' means suppose.",
       "source": "ai",
       "archetype": "ssc-chsl-E04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "ensure/assure/insure confusable trio is a classic SSC cloze trap"
+      }
     },
     {
       "id": "ssc-chsl-158",
@@ -3986,7 +4125,12 @@
       "explanation": "'Comprise' is not followed by 'of': the committee comprises seven members (or 'consists of').",
       "source": "ai",
       "archetype": "ssc-chsl-E14",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "'comprises of' is a staple SSC sentence-improvement error"
+      }
     },
     {
       "id": "ssc-chsl-159",
@@ -4004,7 +4148,12 @@
       "explanation": "Meticulous means showing great attention to detail – painstaking. 'Careless' and 'hasty' are opposites; 'meretricious' is a look-alike meaning showy.",
       "source": "ai",
       "archetype": "ssc-chsl-E07",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Synonym with lookalike 'Meretricious' and antonyms as traps, typical CHSL vocabulary"
+      }
     }
   ]
 }

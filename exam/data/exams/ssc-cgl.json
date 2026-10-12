@@ -3701,7 +3701,12 @@
       "explanation": "After the interchange Meena takes Kavya's place, so Kavya's old place is 23rd from the left and 19th from the right. Total = 23 + 19 − 1 = 41.",
       "source": "ai",
       "archetype": "ssc-cgl-R21",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Interchange-position total-in-row is a recurring CGL ranking twist; 40/42 are the real ±1 traps"
+      }
     },
     {
       "id": "ssc-cgl-122",
@@ -3719,7 +3724,12 @@
       "explanation": "The father of Neha's brother is Neha's father; his only daughter is Neha herself. So the boy is Neha's son.",
       "source": "ai",
       "archetype": "ssc-cgl-R12",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Introduction chain where 'only daughter of my father' collapses to Neha; CGL style but on the short side for Tier 1"
+      }
     },
     {
       "id": "ssc-cgl-123",
@@ -3737,7 +3747,12 @@
       "explanation": "Third number = (first)² − (second)²: 49 − 9 = 40, 81 − 16 = 65, so 64 − 36 = 28. (Using (a + b) × 4 fits only row 1 and gives the trap 56.)",
       "source": "ai",
       "archetype": "ssc-cgl-R20",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Row rule a²−b² (=(a+b)(a−b)) table, faithful CGL missing-number; 48/56 plausible products"
+      }
     },
     {
       "id": "ssc-cgl-124",
@@ -3755,7 +3770,12 @@
       "explanation": "Gautami Balashri's Nasik prashasti praises her son Gautamiputra Satakarni, who defeated the Shaka ruler Nahapana and the Yavanas and Pahlavas.",
       "source": "ai",
       "archetype": "ssc-cgl-G01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Nasik prashasti/Gautamiputra Satakarni is a genuinely CGL-favoured ancient fact; Satavahana-only distractors well chosen"
+      }
     },
     {
       "id": "ssc-cgl-125",
@@ -3773,7 +3793,12 @@
       "explanation": "Alauddin Khalji fixed prices of commodities through his market reforms and introduced dagh (branding of horses) and huliya (descriptive roll of soldiers).",
       "source": "ai",
       "archetype": "ssc-cgl-G01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Alauddin market control + dagh is among the most repeated Sultanate items in CGL shifts"
+      }
     },
     {
       "id": "ssc-cgl-126",
@@ -3791,7 +3816,12 @@
       "explanation": "The Ilbert Bill, allowing Indian judges to try Europeans, was introduced in 1883 under Lord Ripon and provoked a European backlash.",
       "source": "ai",
       "archetype": "ssc-cgl-G02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Event-to-Viceroy (Ilbert Bill/Ripon) is a standard CGL modern-history format; adjacent viceroys as distractors"
+      }
     },
     {
       "id": "ssc-cgl-127",
@@ -3809,7 +3839,12 @@
       "explanation": "Jawaharlal Nehru presided over the 1929 Lahore session. Motilal Nehru presided in 1928 (Calcutta) and Patel in 1931 (Karachi).",
       "source": "ai",
       "archetype": "ssc-cgl-G02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "INC session president (Lahore 1929) asked repeatedly; slightly easy for CGL since Purna Swaraj cue is famous"
+      }
     },
     {
       "id": "ssc-cgl-128",
@@ -3827,7 +3862,12 @@
       "explanation": "Article 143 gives the President power to consult the Supreme Court. Article 123 is ordinances, 132 appellate jurisdiction and 136 special leave.",
       "source": "ai",
       "archetype": "ssc-cgl-G03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Exact Article-number format; 123/132/136 are classic near-number distractors"
+      }
     },
     {
       "id": "ssc-cgl-129",
@@ -3845,7 +3885,12 @@
       "explanation": "The 91st Amendment Act, 2003 capped the size of the Council of Ministers at 15% (Article 75(1A)) and strengthened anti-defection rules.",
       "source": "ai",
       "archetype": "ssc-cgl-G04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Amendment-to-provision (91st, 15% cap) appears in CGL polity; 86/92/97 are realistic amendment distractors"
+      }
     },
     {
       "id": "ssc-cgl-130",
@@ -3863,25 +3908,12 @@
       "explanation": "The Teesta rises in Sikkim, flows through north Bengal and joins the Brahmaputra (Jamuna) in Bangladesh.",
       "source": "ai",
       "archetype": "ssc-cgl-G06",
-      "verified": false
-    },
-    {
-      "id": "ssc-cgl-131",
-      "section": "gk",
-      "topic": "Geography",
-      "difficulty": "medium",
-      "question": "The strong westerly winds known as the 'Roaring Forties' blow between which latitudes?",
-      "options": [
-        "40° and 50° North",
-        "30° and 40° South",
-        "40° and 50° South",
-        "60° and 70° South"
-      ],
-      "answer": 2,
-      "explanation": "The Roaring Forties are westerlies between 40° and 50° South, where few land masses obstruct them.",
-      "source": "ai",
-      "archetype": "ssc-cgl-G08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "River-tributary question matches CGL Indian geography; Teesta-Brahmaputra is the textbook answer"
+      }
     },
     {
       "id": "ssc-cgl-132",
@@ -3899,25 +3931,12 @@
       "explanation": "Since 2016 the RBI targets 4% (±2%) inflation measured by the headline CPI (Combined).",
       "source": "ai",
       "archetype": "ssc-cgl-G10",
-      "verified": false
-    },
-    {
-      "id": "ssc-cgl-133",
-      "section": "gk",
-      "topic": "Physics",
-      "difficulty": "medium",
-      "question": "The twinkling of stars is due to:",
-      "options": [
-        "total internal reflection",
-        "dispersion of light",
-        "scattering of light",
-        "atmospheric refraction"
-      ],
-      "answer": 3,
-      "explanation": "Starlight passes through layers of air of varying density; continuous atmospheric refraction makes the star appear to twinkle.",
-      "source": "ai",
-      "archetype": "ssc-cgl-G11",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "RBI inflation-target measure (CPI-C) is a known CGL economy item; CPI-IW is a good trap"
+      }
     },
     {
       "id": "ssc-cgl-134",
@@ -3935,25 +3954,12 @@
       "explanation": "Cinnabar (HgS) is the ore of mercury. Galena is a lead ore, sphalerite (zinc blende) a zinc ore and cassiterite a tin ore.",
       "source": "ai",
       "archetype": "ssc-cgl-G12",
-      "verified": false
-    },
-    {
-      "id": "ssc-cgl-135",
-      "section": "gk",
-      "topic": "Biology",
-      "difficulty": "medium",
-      "question": "Which hormone, secreted by the adrenal medulla, is known as the 'fight or flight' hormone?",
-      "options": [
-        "Cortisol",
-        "Thyroxine",
-        "Adrenaline",
-        "Glucagon"
-      ],
-      "answer": 2,
-      "explanation": "The adrenal medulla secretes adrenaline (epinephrine) in emergencies. Cortisol comes from the adrenal cortex.",
-      "source": "ai",
-      "archetype": "ssc-cgl-G13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Ore-metal pairing (cinnabar) is a standard CGL chemistry format with sensible metal distractors"
+      }
     },
     {
       "id": "ssc-cgl-136",
@@ -3971,7 +3977,12 @@
       "explanation": "Sattriya was created by the Vaishnava saint Srimanta Sankardeva as part of the Ankiya Naat performed in the sattras (monasteries).",
       "source": "ai",
       "archetype": "ssc-cgl-G15",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Sattriya/Sankardeva dance-founder pairing is a frequent CGL culture question; Bhakti saints as distractors fit"
+      }
     },
     {
       "id": "ssc-cgl-137",
@@ -3989,7 +4000,12 @@
       "explanation": "Group Captain Shubhanshu Shukla was the pilot of Axiom Mission 4, launched on 25 June 2025, and spent about 18 days aboard the ISS.",
       "source": "ai",
       "archetype": "ssc-cgl-G17",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Ax-4/Shukla was a heavily asked 2025 CA item; Crew-10/Soyuz distractors are realistic"
+      }
     },
     {
       "id": "ssc-cgl-138",
@@ -4007,7 +4023,12 @@
       "explanation": "'Heart Lamp', a collection of Kannada short stories, was translated by Deepa Bhasthi; it was the first Kannada work to win the prize.",
       "source": "ai",
       "archetype": "ssc-cgl-G19",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "International Booker 2025 (Heart Lamp, Kannada) asked in 2025 CGL-type CA; South Indian language distractors good"
+      }
     },
     {
       "id": "ssc-cgl-139",
@@ -4025,7 +4046,12 @@
       "explanation": "A stoic endures pain and pleasure without showing feeling. A hedonist pursues pleasure; a cynic distrusts motives; a sceptic doubts.",
       "source": "ai",
       "archetype": "ssc-cgl-E10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Philosophy-type person OWS (Stoic vs Cynic/Hedonist/Sceptic) is exactly CGL's distractor style"
+      }
     },
     {
       "id": "ssc-cgl-140",
@@ -4043,7 +4069,12 @@
       "explanation": "When two things are compared, the comparative is used: 'the second is the better one'.",
       "source": "ai",
       "archetype": "ssc-cgl-E13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Comparative 'of the two … best' is a textbook CGL error-spotting trap"
+      }
     },
     {
       "id": "ssc-cgl-141",
@@ -4061,7 +4092,12 @@
       "explanation": "'Alleviate' means to lessen or ease; a scheme meant to help would ease hardships. 'Aggravate' means worsen; 'elevate' and 'allocate' do not collocate with hardships.",
       "source": "ai",
       "archetype": "ssc-cgl-E05",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Near-lookalike vocab blank (alleviate/elevate/allocate/aggravate) mirrors CGL fill-in design"
+      }
     }
   ]
 }
