@@ -2969,7 +2969,12 @@
       "explanation": "The passage describes why rooftop solar is spreading, why the spread is uneven, and how the gaps can be closed. The other titles pick up a single detail (loans, water tank, prices) or overstate it ('end of electricity bills').",
       "source": "ai",
       "archetype": "ibps-clerk-E01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "title question with partial-detail distractors (banks' loans, water tanks); faithful clerk RC"
+      }
     },
     {
       "id": "ibps-clerk-122",
@@ -2989,7 +2994,12 @@
       "explanation": "Paragraph 2 says the bill savings are often enough to cover the instalment. The passage says the decision is driven by bills, not climate; subsidies cover 'a part' of the charge; 'many states', not every state; poor equipment stops working 'within a few years', not 'always within a year'.",
       "source": "ai",
       "archetype": "ibps-clerk-E02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "true-statement Q with qualifier distortions (entire, every, always, mainly) - exact clerk trap style"
+      }
     },
     {
       "id": "ibps-clerk-123",
@@ -3009,7 +3019,12 @@
       "explanation": "Paragraph 3 lists tenants' short stay, owners' reluctance, small/shaded roofs and poor equipment. Nothing is said about electricity companies refusing to buy surplus power — in fact, paragraph 1 says households in many states receive credit for it.",
       "source": "ai",
       "archetype": "ibps-clerk-E02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "NOT-mentioned reason; option 0 is the invented one, other four from para 3; standard clerk RC"
+      }
     },
     {
       "id": "ibps-clerk-124",
@@ -3029,7 +3044,12 @@
       "explanation": "I follows from 'families living in rented homes rarely invest'. II follows from 'so that buyers know whom to trust'. III is not supported — the passage never links shared systems to subsidies.",
       "source": "ai",
       "archetype": "ibps-clerk-E03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "I and II inferable, III overstates (subsidies) - clean combination inference; slightly hard for clerk"
+      }
     },
     {
       "id": "ibps-clerk-125",
@@ -3049,7 +3069,12 @@
       "explanation": "Owners are 'reluctant' to spend, i.e. unwilling. 'Uncertain' and 'unable' are near misses (doubt, lack of ability), 'eager' is the opposite, 'unaware' is unrelated.",
       "source": "ai",
       "archetype": "ibps-clerk-E04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "reluctant=unwilling, eager antonym trap; easy vocab-in-context typical of clerk"
+      }
     },
     {
       "id": "ibps-clerk-126",
@@ -3069,7 +3094,12 @@
       "explanation": "'Uneven spread' means the spread differs from place to place; its opposite in this context is 'uniform'. 'Smooth' and 'flat' are opposites of 'uneven' only for a surface, which is not the sense used here.",
       "source": "ai",
       "archetype": "ibps-clerk-E04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "'uneven' spread antonym=uniform; smooth/flat are physical-sense distractors - in-context trap works, slight debate on 'smooth'"
+      }
     },
     {
       "id": "ibps-clerk-127",
@@ -3089,7 +3119,12 @@
       "explanation": "Customers get their passbooks 'updated' (entries printed). 'Upgraded', 'uploaded', 'uplifted' and 'upheld' are look-alike words that do not go with 'passbooks'.",
       "source": "ai",
       "archetype": "ibps-clerk-E06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "updated passbooks vs upgraded/uploaded look-alikes; exact clerk cloze collocation"
+      }
     },
     {
       "id": "ibps-clerk-128",
@@ -3109,7 +3144,12 @@
       "explanation": "As services move to apps, the monthly routine is slowly 'disappearing'. 'Displacing' and 'dismissing' need an object, and 'discouraging'/'disapproving' give the wrong sense.",
       "source": "ai",
       "archetype": "ibps-clerk-E06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "routine 'is slowly disappearing'; dis- look-alikes; fits clerk cloze"
+      }
     },
     {
       "id": "ibps-clerk-129",
@@ -3129,7 +3169,12 @@
       "explanation": "They depend on relatives to run their accounts, so they have stopped 'operating' them. They already have accounts, so 'opening' does not fit; the other words make no sense with 'accounts'.",
       "source": "ai",
       "archetype": "ibps-clerk-E06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "operating accounts vs opening/ordering/cooperating; banking collocation typical of IBPS clerk"
+      }
     },
     {
       "id": "ibps-clerk-130",
@@ -3149,7 +3194,12 @@
       "explanation": "One 'addresses' a problem, i.e. deals with it. 'Adapt' and 'adjust' need 'to', 'adopt' is used for plans or methods, and 'admit' a problem would mean confessing it.",
       "source": "ai",
       "archetype": "ibps-clerk-E06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "address a problem vs adapt/adopt/adjust - classic ad- look-alike trap"
+      }
     },
     {
       "id": "ibps-clerk-131",
@@ -3169,7 +3219,12 @@
       "explanation": "Training sessions have proved 'effective' in building confidence. 'Affective' (related to feelings), 'defective', 'effected' and 'infective' are look-alikes that do not fit.",
       "source": "ai",
       "archetype": "ibps-clerk-E06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "effective vs affective/effected - frequently tested confusable pair in clerk cloze"
+      }
     },
     {
       "id": "ibps-clerk-132",
@@ -3189,7 +3244,12 @@
       "explanation": "The fixed expression is 'feel left behind'. 'Held behind' and 'stayed behind' change the meaning, and 'feel lagged/fallen behind' is not idiomatic.",
       "source": "ai",
       "archetype": "ibps-clerk-E06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "'feel left behind' idiomatic collocation; easy but matches clerk cloze last blank"
+      }
     },
     {
       "id": "ibps-clerk-133",
@@ -3208,7 +3268,12 @@
       "explanation": "The sentence is already correct: customers complained that branches were crowded, so the bank extended the deadline. Every interchange produces nonsense (e.g. C–D: 'branches complained that the customers were too crowded').",
       "source": "ai",
       "archetype": "ibps-clerk-E15",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "word swap with 'No interchange required' correct; clerk 2024 format, sentence correct as given"
+      }
     },
     {
       "id": "ibps-clerk-134",
@@ -3228,7 +3293,12 @@
       "explanation": "Final arrangement (floor: person–colour): 8 F–Pink, 7 C–Blue, 6 H–White, 5 A–Green, 4 E–Black, 3 G–Yellow, 2 B–Orange, 1 D–Red. A (5) and B (2) give D on 1, E on 4, F on 8, C–H on 7–6. White is on 6 (H), so A on floor 5 lives immediately below.",
       "source": "ai",
       "archetype": "ibps-clerk-R04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "brute-forced unique: D1 B2 G3 E4 A5 H6 C7 F8; White=H6, below=A. 8-floor colour puzzle exactly clerk mains/prelims style"
+      }
     },
     {
       "id": "ibps-clerk-135",
@@ -3248,7 +3318,12 @@
       "explanation": "G is on floor 3, so the person who likes Black is on floor 4, which is E. (Arrangement: 8 F–Pink, 7 C–Blue, 6 H–White, 5 A–Green, 4 E–Black, 3 G–Yellow, 2 B–Orange, 1 D–Red.)",
       "source": "ai",
       "archetype": "ibps-clerk-R04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "E likes Black (floor 4) per unique solution; direct attribute question"
+      }
     },
     {
       "id": "ibps-clerk-136",
@@ -3268,7 +3343,12 @@
       "explanation": "Pink must be three floors from Green (floor 5), i.e. floor 2 or 8; floor 2 is ruled out because Orange must sit immediately above Red (only 2 above 1 is left). So Pink is on floor 8 (F). G is on floor 3; floors 4, 5, 6 and 7 lie between — four persons.",
       "source": "ai",
       "archetype": "ibps-clerk-R04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "G floor 3, Pink=F floor 8, four between; standard 'how many between' question"
+      }
     },
     {
       "id": "ibps-clerk-137",
@@ -3288,7 +3368,12 @@
       "explanation": "Arrangement: 8 F–Pink, 7 C–Blue, 6 H–White, 5 A–Green, 4 E–Black, 3 G–Yellow, 2 B–Orange, 1 D–Red. Only 'D – Red – 1' matches.",
       "source": "ai",
       "archetype": "ibps-clerk-R04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "D-Red-1 is the only correct triple; standard combination question"
+      }
     },
     {
       "id": "ibps-clerk-138",
@@ -3308,7 +3393,12 @@
       "explanation": "Yellow is on floor 3 (G) and Blue on floor 7 (C); the floor exactly midway is 5, where A lives.",
       "source": "ai",
       "archetype": "ibps-clerk-R04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Yellow floor3 Blue floor7, midway floor5=A; fine follow-up"
+      }
     }
   ],
   "passages": [

@@ -2703,7 +2703,12 @@
       "explanation": "The passage weighs the gains of telemedicine against its limits and concludes it works best as a tool in the hands of local health workers. The other options overstate one detail or contradict the passage (the grandson did consult a doctor by video).",
       "source": "ai",
       "archetype": "sbi-clerk-E01",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "central idea with overstated distractors (unnecessary, only obstacle, refuse); faithful SBI clerk RC"
+      }
     },
     {
       "id": "sbi-clerk-122",
@@ -2723,7 +2728,12 @@
       "explanation": "Paragraph 2 says a trip to a city hospital often means losing a day's wages. The consultation costs 'little or nothing' (not always free), some illnesses need a physical examination, and elderly patients prefer to wait for a visit to town.",
       "source": "ai",
       "archetype": "sbi-clerk-E02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "'may mean losing a day's wages' true; always/all distortions - exact qualifier-trap pattern"
+      }
     },
     {
       "id": "sbi-clerk-123",
@@ -2743,7 +2753,12 @@
       "explanation": "The passage actually says the medicines were available at the village centre itself; the other four limitations are stated in paragraph 3.",
       "source": "ai",
       "archetype": "sbi-clerk-E02",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "medicines-not-available contradicts para 1; NOT-given limitation, clean"
+      }
     },
     {
       "id": "sbi-clerk-124",
@@ -2763,7 +2778,12 @@
       "explanation": "I: 'where they are not [well trained], people soon lose faith'. III: the family avoided the journey to town by using the village centre. II overstates — weak internet 'can cut a consultation short', but nothing says most patients have stopped.",
       "source": "ai",
       "archetype": "sbi-clerk-E03",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "I and III inferable, II overstates ('most... stopped'); good combination inference"
+      }
     },
     {
       "id": "sbi-clerk-125",
@@ -2783,7 +2803,12 @@
       "explanation": "'Some illnesses cannot be judged without tests' means they cannot be assessed. 'Sentenced' (court) and 'criticised' are dictionary meanings that do not fit; 'guessed' is a near miss but means the opposite of a careful judgement.",
       "source": "ai",
       "archetype": "sbi-clerk-E04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "judged=assessed with legal 'sentenced' dictionary-sense distractor; easy vocab"
+      }
     },
     {
       "id": "sbi-clerk-126",
@@ -2803,7 +2828,12 @@
       "explanation": "To take readings 'accurately' is to take them correctly and exactly; the opposite is 'imprecisely'. 'Carefully' is close in meaning, not opposite.",
       "source": "ai",
       "archetype": "sbi-clerk-E04",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "accurately antonym imprecisely; carefully/honestly distractors; straightforward"
+      }
     },
     {
       "id": "sbi-clerk-127",
@@ -2823,7 +2853,12 @@
       "explanation": "With QR payments, the problem of loose change has largely 'disappeared'. The other verbs need an object and do not make sense with 'problem … has largely ___'.",
       "source": "ai",
       "archetype": "sbi-clerk-E06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "problem of loose change has disappeared; dis- look-alikes; SBI clerk cloze style"
+      }
     },
     {
       "id": "sbi-clerk-128",
@@ -2843,7 +2878,12 @@
       "explanation": "The payment record helps sellers 'prove' that they run a steady business. 'Disprove' gives the opposite sense; 'approve', 'improve' and 'reprove' (scold) are look-alikes.",
       "source": "ai",
       "archetype": "sbi-clerk-E06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "prove vs approve/improve/disprove/reprove - classic look-alike set"
+      }
     },
     {
       "id": "sbi-clerk-129",
@@ -2863,7 +2903,12 @@
       "explanation": "'Access to formal credit' is the correct collocation. 'Excess' and 'assess' are sound-alike traps; 'success' and 'process' do not take 'to credit'.",
       "source": "ai",
       "archetype": "sbi-clerk-E06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "no access to formal credit vs excess/assess; frequent look-alike in SBI clerk"
+      }
     },
     {
       "id": "sbi-clerk-130",
@@ -2883,7 +2928,12 @@
       "explanation": "'Check their accounts' takes a direct object. 'Look' and 'glance' need 'at', and 'notice/see their accounts to see' is not idiomatic.",
       "source": "ai",
       "archetype": "sbi-clerk-E06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "check their accounts; look/see need prepositions or wrong sense; fine"
+      }
     },
     {
       "id": "sbi-clerk-131",
@@ -2903,7 +2953,12 @@
       "explanation": "Sound-boxes help to 'curb' (restrain) cheating. 'Curve', 'carve', 'crave' and 'curl' are look-alike words with unrelated meanings.",
       "source": "ai",
       "archetype": "sbi-clerk-E06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "curb cheating vs curve/carve/crave/curl - typical sound-alike set"
+      }
     },
     {
       "id": "sbi-clerk-132",
@@ -2923,7 +2978,12 @@
       "explanation": "Awareness will be as 'important' as the technology itself. The other words look similar but do not make sense in the comparison.",
       "source": "ai",
       "archetype": "sbi-clerk-E06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "as important as; easy im- look-alikes; matches clerk level"
+      }
     },
     {
       "id": "sbi-clerk-133",
@@ -2943,7 +3003,12 @@
       "explanation": "Correct order: B E A F C D. B introduces Ravi and the tin box; every other sentence depends on it.",
       "source": "ai",
       "archetype": "sbi-clerk-E13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "order B-E-A-F-C-D; narrative jumble with clear opener B; SBI clerk para jumble"
+      }
     },
     {
       "id": "sbi-clerk-134",
@@ -2963,7 +3028,12 @@
       "explanation": "B (savings in a tin box) → E (flood soaks the shelves) → A (notes found damp when the box is opened) → F (bank exchanges some notes) → C ('the experience' leads him to open an account) → D (now earns interest). Third is A.",
       "source": "ai",
       "archetype": "sbi-clerk-E13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "third = A in B E A F C D; unique sequence"
+      }
     },
     {
       "id": "sbi-clerk-135",
@@ -2983,7 +3053,12 @@
       "explanation": "Order B E A F C D: 'The experience' in C refers to the loss described in F, and D ('Now his money earns interest') must follow the opening of the account in C. Fifth is C.",
       "source": "ai",
       "archetype": "sbi-clerk-E13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "fifth = C; unique sequence"
+      }
     },
     {
       "id": "sbi-clerk-136",
@@ -3003,7 +3078,12 @@
       "explanation": "Order B E A F C D. D describes the present outcome and closes the paragraph.",
       "source": "ai",
       "archetype": "sbi-clerk-E13",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "last = D (now earns interest); clear concluding sentence"
+      }
     },
     {
       "id": "sbi-clerk-137",
@@ -3022,7 +3102,12 @@
       "explanation": "'Neither of' takes a singular verb: 'Neither of the two cashiers was present'. The error is in part B.",
       "source": "ai",
       "archetype": "sbi-clerk-E08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "'Neither of... were' error in part B; textbook SBI clerk error-spotting rule"
+      }
     },
     {
       "id": "sbi-clerk-138",
@@ -3041,7 +3126,12 @@
       "explanation": "In indirect speech a wh-question is not introduced by 'that': 'The manager asked me why I had not submitted…'. The error is in part A.",
       "source": "ai",
       "archetype": "sbi-clerk-E08",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "'asked me that why' reported-speech error in A; common clerk error pattern"
+      }
     },
     {
       "id": "sbi-clerk-139",
@@ -3060,45 +3150,12 @@
       "explanation": "The sentence is correct: 'decided to waive', 'charges on loans' and 'above the age of seventy' are all standard usage.",
       "source": "ai",
       "archetype": "sbi-clerk-E08",
-      "verified": false
-    },
-    {
-      "id": "sbi-clerk-140",
-      "section": "english",
-      "topic": "Fillers (Single/Double)",
-      "difficulty": "easy",
-      "question": "Choose the pair of words that best fills both blanks.\nThe bank ______ its branch timings so that working people could ______ their transactions in the evening.",
-      "options": [
-        "reduced, finish",
-        "extended, avoid",
-        "shortened, complete",
-        "extended, complete",
-        "closed, begin"
-      ],
-      "answer": 3,
-      "explanation": "Longer timings let working people complete transactions in the evening. In each other pair one word breaks the logic: reduced/shortened/closed contradict 'in the evening', and 'avoid' contradicts the purpose.",
-      "source": "ai",
-      "archetype": "sbi-clerk-E10",
-      "verified": false
-    },
-    {
-      "id": "sbi-clerk-141",
-      "section": "english",
-      "topic": "Fillers (Single/Double)",
-      "difficulty": "easy",
-      "question": "Choose the pair of words that best fills both blanks.\nHeavy rain ______ the supply of vegetables to the city, and prices ______ sharply within a week.",
-      "options": [
-        "disrupted, rose",
-        "improved, rose",
-        "disrupted, fell",
-        "increased, dropped",
-        "affected, declined"
-      ],
-      "answer": 0,
-      "explanation": "Disrupted supply pushes prices up. 'Improved'/'increased' supply would not follow heavy rain, and 'fell'/'declined' contradict a supply disruption.",
-      "source": "ai",
-      "archetype": "sbi-clerk-E10",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "no-error sentence; legitimately correct; acceptable 'E' instance"
+      }
     },
     {
       "id": "sbi-clerk-142",
@@ -3117,7 +3174,12 @@
       "explanation": "A third-conditional sentence uses 'If + had + past participle … would have + past participle'. 'Had asked for' is already correct.",
       "source": "ai",
       "archetype": "sbi-clerk-E17",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "third-conditional correct as given; 'No replacement' key valid; phrase replacement SBI style"
+      }
     },
     {
       "id": "sbi-clerk-143",
@@ -3136,7 +3198,12 @@
       "explanation": "'Hardly … when' is the correct pair (not 'than', which goes with 'no sooner'). The simple past 'left' is right after 'had reached'.",
       "source": "ai",
       "archetype": "sbi-clerk-E17",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Hardly...when correction; most-tested inversion rule in SBI clerk"
+      }
     },
     {
       "id": "sbi-clerk-144",
@@ -3156,7 +3223,12 @@
       "explanation": "Stack from top: 8 T–Brown, 7 P–Grey, 6 W–Red, 5 R–Blue, 4 V–Green, 3 Q–White, 2 U–Yellow, 1 S–Black. Q must be at 3 (with V at 4, P at 7, T at 8; S at 1, U at 2; R–W at 5–6). Green is V (4); R at 5 is immediately above.",
       "source": "ai",
       "archetype": "sbi-clerk-R06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "unique solution S1 U2 Q3 V4 R5 W6 P7 T8; Green=V4, above=R. Box-stack puzzle exactly SBI clerk"
+      }
     },
     {
       "id": "sbi-clerk-145",
@@ -3176,7 +3248,12 @@
       "explanation": "Grey must be above Blue (5) but Red is at 6 and Brown must be immediately above Grey, so Grey is at 7 (P) and Brown at 8. U is at 2; positions 3, 4, 5 and 6 lie between — four boxes.",
       "source": "ai",
       "archetype": "sbi-clerk-R06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "U2 to Grey P7: four between; standard box-gap question"
+      }
     },
     {
       "id": "sbi-clerk-146",
@@ -3196,7 +3273,12 @@
       "explanation": "White must be two places from Blue (5), i.e. at 3 or 7; 7 is Grey, so White is at 3, which is Q. (Green at 4 is immediately above it.)",
       "source": "ai",
       "archetype": "sbi-clerk-R06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Q is White; direct attribute"
+      }
     },
     {
       "id": "sbi-clerk-147",
@@ -3216,7 +3298,12 @@
       "explanation": "Positions 1 and 2 (S and U) take Yellow and Black, with Yellow above Black, so S (1) is Black and U (2) is Yellow. Only 'S – Black' is correct.",
       "source": "ai",
       "archetype": "sbi-clerk-R06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "S-Black is the only correct pair; standard pair question"
+      }
     },
     {
       "id": "sbi-clerk-148",
@@ -3236,7 +3323,12 @@
       "explanation": "Original positions: P7, Q3, R5, S1, T8, U2, V4, W6. Alphabetical order would put P1, Q2, R3, S4, T5, U6, V7, W8 — no box keeps its position.",
       "source": "ai",
       "archetype": "sbi-clerk-R06",
-      "verified": false
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "alphabetical rearrangement - none stay; positions P7 Q3 R5 S1 T8 U2 V4 W6 vs 1-8; slightly unusual add-on but seen in SBI puzzles"
+      }
     }
   ],
   "passages": [
