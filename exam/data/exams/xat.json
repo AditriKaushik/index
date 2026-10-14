@@ -75,7 +75,7 @@
         "marks": 20
       }
     ],
-    "notes": "Part I (Decision Making, VALR, QA-DI; 75 questions) and Part II (GK; 20 questions) — reported as 170 + 10 minutes within the 3-hour slot. Part I: +1 / −0.25, plus −0.10 for every unattempted question beyond 8. GK has no negative marking and is not counted in the XAT percentile (XLRI uses it at the final-selection stage). The essay section was discontinued from XAT 2024. Options in XAT are usually five; this mock uses four. Section-wise question counts vary slightly by year."
+    "notes": "Part I (Decision Making, VALR, QA-DI; 75 questions) and Part II (GK; 20 questions) — reported as 170 + 10 minutes within the 3-hour slot. Part I: +1 / −0.25, plus −0.10 for every unattempted question beyond 8. GK has no negative marking and is not counted in the XAT percentile (XLRI uses it at the final-selection stage). Decision Making comes as caselets of 2–4 questions, VALR has long RC passages and a poem with 3–4 questions each, and QA-DI has DI sets of 3–4 questions; in this mock every such set is served together. The essay section was discontinued from XAT 2024. Options in XAT are usually five; this mock uses four. Section-wise question counts vary slightly by year."
   },
   "trendAnalysis": {
     "yearsAnalyzed": [
@@ -220,541 +220,717 @@
       }
     ]
   },
+  "pyqBlueprint": {
+    "yearsCovered": [
+      2024,
+      2025,
+      2026
+    ],
+    "method": "Compiled from memory-based papers and section-wise analyses of XAT 2024, XAT 2025 and XAT 2026 (held 7 Jan 2024, 5 Jan 2025 and 4 Jan 2026) by IMS, Career Launcher, TIME, Cracku, iQuanta and InsideIIM, located via web search; XLRI does not publish official papers and the full analyses could not be fetched, so recurring question types were consolidated from search snippets and the writer's own knowledge of the papers. Analyses agree on 21 DM, 26 VALR, 28 QA-DI and 20 GK questions, QA-DI as the toughest section (geometry-heavy, lengthy DI) and a poem-based item in VALR. Patterns are paraphrased; no actual question is reproduced. XAT uses five options; this mock keeps four.",
+    "archetypes": [
+      {
+        "id": "xat-D01",
+        "section": "dm",
+        "topic": "Ethical Dilemmas",
+        "pattern": "Employee discovers a safety/quality lapse that superiors want hidden; best option escalates through formal channels with evidence (not silence, not media leak, not quitting)",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 set per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "xat-D02",
+        "section": "dm",
+        "topic": "Ethical Dilemmas",
+        "pattern": "Conflict of interest, gifts or tainted funding; best option discloses, recuses or sets transparent conditions rather than outright rejection or quiet acceptance",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 set per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "xat-D03",
+        "section": "dm",
+        "topic": "Ethical Dilemmas",
+        "pattern": "Honesty vs loyalty/compassion: misreported numbers or rule-breaking by a sympathetic person; best option corrects the record while acting fairly",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 set per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "xat-D04",
+        "section": "dm",
+        "topic": "Business & Managerial Decisions",
+        "pattern": "Strategy/operations caselet (market segments, capacity, demand peaks) with 2–3 questions; choose the option that targets the actual constraint",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 sets per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "xat-D05",
+        "section": "dm",
+        "topic": "Business & Managerial Decisions",
+        "pattern": "Stakeholder trade-off under pressure from a large customer or cost cut; best option negotiates and protects compliance",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 set per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "xat-D06",
+        "section": "dm",
+        "topic": "Business & Managerial Decisions",
+        "pattern": "Numerical decision caselet with 2–3 questions: compare alternatives by profit/contribution under capacity or cost data and choose the best",
+        "years": [
+          2024,
+          2026
+        ],
+        "frequency": "1 set per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "xat-D07",
+        "section": "dm",
+        "topic": "Interpersonal & HR Situations",
+        "pattern": "Team conflict or a manager supervising former peers/friends; best first step is a private, fair conversation",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 set per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "xat-D08",
+        "section": "dm",
+        "topic": "Interpersonal & HR Situations",
+        "pattern": "Promotion, lay-off or performance decision balancing policy, fairness and individual circumstances",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 set per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "xat-D09",
+        "section": "dm",
+        "topic": "Analytical Decision Making (Rule-based Sets)",
+        "pattern": "Rule-based eligibility set (scholarship, hostel, reimbursement, loan rules) with 3 questions applying all clauses to different cases",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 set per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "xat-D10",
+        "section": "dm",
+        "topic": "Analytical Decision Making (Rule-based Sets)",
+        "pattern": "Allocation of people to posts/tasks under constraints; a conditional 'if X then where is Y' question",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "occasional",
+        "difficulty": "hard"
+      },
+      {
+        "id": "xat-V01",
+        "section": "valr",
+        "topic": "Reading Comprehension",
+        "pattern": "Dense philosophical/socio-economic passage of 450–600 words with 3–4 questions; author's main contention or central theme, distractors that adopt a view the author qualifies",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2–3 per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "xat-V02",
+        "section": "valr",
+        "topic": "Reading Comprehension",
+        "pattern": "Inference / author-would-agree / author's attitude on an abstract passage; options differ by degree",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "3–4 per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "xat-V03",
+        "section": "valr",
+        "topic": "Reading Comprehension",
+        "pattern": "Role of an example or detail, or 'all of the following EXCEPT' detail check",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "xat-V04",
+        "section": "valr",
+        "topic": "Reading Comprehension",
+        "pattern": "Weaken/undermine or identify the assumption behind the passage's argument",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "xat-V05",
+        "section": "valr",
+        "topic": "Critical Reasoning",
+        "pattern": "Identify the flaw (reversed causation, correlation taken as cause) or the assumption in a short argument",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "xat-V06",
+        "section": "valr",
+        "topic": "Critical Reasoning",
+        "pattern": "Strengthen/weaken a business claim with an option that rules in or rules out alternative explanations",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "xat-V07",
+        "section": "valr",
+        "topic": "Critical Reasoning",
+        "pattern": "Deductive conclusion from conditional statements about people in an organisation",
+        "years": [
+          2024,
+          2026
+        ],
+        "frequency": "occasional",
+        "difficulty": "medium"
+      },
+      {
+        "id": "xat-V08",
+        "section": "valr",
+        "topic": "Para Jumbles & Odd Sentence",
+        "pattern": "4–5 sentence para jumble with a historical or causal thread",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "xat-V09",
+        "section": "valr",
+        "topic": "Para Jumbles & Odd Sentence",
+        "pattern": "Odd sentence out where one sentence shares the topic but not the paragraph's thread",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "xat-V10",
+        "section": "valr",
+        "topic": "Vocabulary & Grammar",
+        "pattern": "Single/double blank vocabulary in a context sentence; logical consistency between the two blanks",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "xat-V11",
+        "section": "valr",
+        "topic": "Vocabulary & Grammar",
+        "pattern": "Choose the grammatically correct sentence (inversion with 'Hardly/Scarcely', agreement, tense)",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "xat-V12",
+        "section": "valr",
+        "topic": "Poem-based Questions",
+        "pattern": "Short poem (12–20 lines) followed by 2–3 questions: central idea, meaning of an image or line, and tone",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "xat-Q01",
+        "section": "qadi",
+        "topic": "Arithmetic",
+        "pattern": "Profit/discount on list price and percentage chains",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "xat-Q02",
+        "section": "qadi",
+        "topic": "Arithmetic",
+        "pattern": "Time-speed-distance: meetings, back-and-forth travel, relative speed",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "xat-Q03",
+        "section": "qadi",
+        "topic": "Arithmetic",
+        "pattern": "Work and pipes, including alternate-day work and a pipe closed midway",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "xat-Q04",
+        "section": "qadi",
+        "topic": "Arithmetic",
+        "pattern": "Mixtures and alligation (alloys, solutions)",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "xat-Q05",
+        "section": "qadi",
+        "topic": "Arithmetic",
+        "pattern": "Simple and compound interest (doubling, amounts in two years)",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "xat-Q06",
+        "section": "qadi",
+        "topic": "Algebra",
+        "pattern": "Algebraic identities: x + 1/x powers, a + b + c = 0 identities",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "xat-Q07",
+        "section": "qadi",
+        "topic": "Algebra",
+        "pattern": "Integer solutions: factor pairs, constrained non-negative solutions",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "xat-Q08",
+        "section": "qadi",
+        "topic": "Algebra",
+        "pattern": "Functions: functional equations, self-inverse functions, iterates",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "xat-Q09",
+        "section": "qadi",
+        "topic": "Algebra",
+        "pattern": "Progressions: AP/GP sums, infinite GP, Sₙ formula given",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "xat-Q10",
+        "section": "qadi",
+        "topic": "Geometry & Mensuration",
+        "pattern": "Triangle/polygon properties: angle bisector, circumradius, hexagon areas",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2 per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "xat-Q11",
+        "section": "qadi",
+        "topic": "Geometry & Mensuration",
+        "pattern": "Coordinate geometry: lines, distances, minimum areas",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "xat-Q12",
+        "section": "qadi",
+        "topic": "Geometry & Mensuration",
+        "pattern": "Mensuration of solids: cone/cylinder surface area and volume",
+        "years": [
+          2024,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "xat-Q13",
+        "section": "qadi",
+        "topic": "Number System",
+        "pattern": "Powers of primes in factorials, last digits and cyclicity",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "xat-Q14",
+        "section": "qadi",
+        "topic": "Number System",
+        "pattern": "HCF/LCM pairs and divisibility conditions",
+        "years": [
+          2025,
+          2026
+        ],
+        "frequency": "occasional",
+        "difficulty": "medium"
+      },
+      {
+        "id": "xat-Q15",
+        "section": "qadi",
+        "topic": "Permutation, Combination & Probability",
+        "pattern": "Arrangements and distributions with restrictions (non-adjacent, at least k each)",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "xat-Q16",
+        "section": "qadi",
+        "topic": "Permutation, Combination & Probability",
+        "pattern": "Probability with dice, balls or selections",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "xat-Q17",
+        "section": "qadi",
+        "topic": "Data Interpretation",
+        "pattern": "Table-based DI set (3–4 questions): growth, shares, margins and per-unit comparisons where the largest absolute value is the trap",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 set per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "xat-Q18",
+        "section": "qadi",
+        "topic": "Data Interpretation",
+        "pattern": "Caselet DI set (3–4 questions) with derived figures, what-if changes or overlapping categories",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 set per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "xat-G01",
+        "section": "gk",
+        "topic": "Current Affairs",
+        "pattern": "Appointments and heads of governments/institutions in the past year",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "3–4 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "xat-G02",
+        "section": "gk",
+        "topic": "Current Affairs",
+        "pattern": "Awards and prizes of the past year (Nobel, Booker, Peace)",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "xat-G03",
+        "section": "gk",
+        "topic": "Current Affairs",
+        "pattern": "International summits, chairships and sporting-event hosts",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "xat-G04",
+        "section": "gk",
+        "topic": "Business & Economy",
+        "pattern": "Economy and policy institutions: commissions, payment systems, budget announcements",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "xat-G05",
+        "section": "gk",
+        "topic": "Business & Economy",
+        "pattern": "Corporate news: mergers, joint ventures, brand ownership",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "xat-G06",
+        "section": "gk",
+        "topic": "Static GK (History, Geography, Polity)",
+        "pattern": "Static geography of India",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "xat-G07",
+        "section": "gk",
+        "topic": "Static GK (History, Geography, Polity)",
+        "pattern": "History and polity basics (battles, texts, constitutional provisions)",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "xat-G08",
+        "section": "gk",
+        "topic": "Science & Sports",
+        "pattern": "Science and sports facts linked to recent events",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "easy"
+      }
+    ]
+  },
   "resources": {
     "pyqAvailable": true,
     "officialPYQ": null,
     "officialMock": "https://xatonline.in",
     "notes": "XLRI publishes a free official mock test for registered candidates on xatonline.in shortly before the exam. Official answer keys/question papers are not routinely published; previous papers in circulation are memory-based reconstructions by coaching institutes."
   },
+  "passages": [
+    {
+      "id": "xat-P01",
+      "section": "dm",
+      "title": "Caselet: The retested batch",
+      "text": "Meera Iyer is the quality-assurance manager at the Nashik plant of Vardhan Pharma, a mid-sized maker of generic medicines. A batch of 4 lakh tablets of an antihypertensive drug, due to be shipped to an African government buyer in five days, failed its dissolution test: the tablets released the drug more slowly than the specification allows. The laboratory retested samples the next day and the batch passed.\n\nVardhan's standard operating procedure (SOP), approved by the regulator, allows a failed test to be replaced by a retest only if a documented investigation finds an assignable laboratory error — a faulty instrument, a wrong reagent, an analyst's mistake. The investigation so far has found no such error. Completing it would take about ten days.\n\nThe plant head, Sunil Batra, has asked Meera to sign the release. He points out that the retest passed comfortably, that the buyer has threatened to cancel the ₹40-crore contract if shipment is late, and that cancellation would mean laying off about 120 contract workers. The release requires Meera's signature; under the SOP, any disagreement about a release is to be referred to the corporate head of quality, Dr. Anand Rao."
+    },
+    {
+      "id": "xat-P02",
+      "section": "dm",
+      "title": "Caselet: Rasoi Rush",
+      "text": "Rasoi Rush is a cloud kitchen in Pune that sells two brands — a biryani brand and a North Indian thali brand — only through food-delivery apps. Its kitchen has six burners and two dum ovens. Between 8 pm and 10 pm, all burners are in continuous use, and the average time from order to delivery has risen over the last three months from 28 to 47 minutes. An analysis by the owner, Kavya, shows that riders typically wait 15–20 minutes at the counter for food; travel time has not changed. The brands' app ratings have fallen from 4.4 to 3.9, and the app now shows them lower in search results.\n\nBetween noon and 3 pm the kitchen runs at about 40 per cent of its capacity, and it is almost idle in the afternoon. Most dishes use a small number of base gravies and marinated meats which can be prepared in advance and stored safely for a day."
+    },
+    {
+      "id": "xat-P03",
+      "section": "dm",
+      "title": "Caselet: Promoted over a peer",
+      "text": "Nandini, a software engineer with six years' experience at an IT services firm, was recently made team lead of an eight-member team that builds payment systems for a large European bank. Prakash, who has eleven years' experience and is widely regarded as the team's best architect, had also hoped for the role. Their manager, Ritesh, chose Nandini because the bank had complained about missed deadlines and poor communication, and Nandini had earlier handled a difficult client well.\n\nSince the announcement, Prakash has questioned Nandini's estimates in front of the team, and twice told the bank's engineers in a joint call that a design \"still needs his approval\". Other team members have begun to take technical questions to Prakash rather than to Nandini. A major release is due in six weeks."
+    },
+    {
+      "id": "xat-P04",
+      "section": "dm",
+      "title": "Caselet: Clean river, tainted money",
+      "text": "Jaldhara is a Kanpur-based NGO that monitors pollution in a stretch of the Ganga and campaigns for cleaner industrial discharge. Its credibility rests on independent water-quality reports, published every quarter, which local media and the state pollution control board often cite.\n\nShubh Tanners, one of the larger tanneries on the stretch, was fined by the pollution control board last year for discharging untreated effluent. It has now offered Jaldhara ₹1.2 crore over three years from its CSR budget — about 40 per cent of Jaldhara's annual budget — to fund a mobile water-testing laboratory. Without new funding, Jaldhara will have to cut its testing locations from twelve to five.\n\nOne of Jaldhara's five board members, Mr. Saxena, is a paid environmental consultant to Shubh Tanners."
+    },
+    {
+      "id": "xat-P05",
+      "section": "dm",
+      "title": "Caselet: Beanstalk Roasters",
+      "text": "Beanstalk Roasters sells 2,000 kg of roasted coffee a month to its retail customers at ₹1,200 per kg. The variable cost of roasting and packing coffee is ₹700 per kg. Its roastery can process at most 2,600 kg a month. Retail demand will not grow in the near future.\n\nThe owner, Ashwin, is evaluating two proposals:\n(A) A supermarket chain will buy up to 800 kg a month at ₹950 per kg. Supplying it needs a separate packaging line costing ₹50,000 a month, whatever the quantity supplied.\n(B) A café run by Beanstalk itself. It would use 300 kg of Beanstalk coffee a month and is expected to bring in revenue of ₹6,00,000 a month; rent, staff and other café costs, excluding the coffee, would be ₹2,40,000 a month.\n\nCoffee supplied to the supermarket or the café costs the same ₹700 per kg to roast and pack."
+    },
+    {
+      "id": "xat-P06",
+      "section": "dm",
+      "title": "Caselet: Hostel allotment rules",
+      "text": "A business school allots rooms to its second-year students according to the following rules:\n\n1. Single rooms are allotted first to students with a documented medical need. The remaining single rooms are allotted in order of first-year CGPA rank.\n2. A student found guilty of a disciplinary violation in the first year is not eligible for a single room, except on medical grounds.\n3. A student holding a single room must give it up if she or he goes on an exchange term of more than eight weeks. On return, the student is placed in a double room unless a single room is vacant at that time.\n4. Married students may apply for family quarters, provided the spouse will live on campus for at least four months of the academic year. Family quarters are allotted in order of the date of application.\n\nThis year there are 10 single rooms. Three students have documented medical needs."
+    },
+    {
+      "id": "xat-P07",
+      "section": "dm",
+      "title": "Caselet: One store, two managers",
+      "text": "FreshKart, a grocery chain, is merging its two stores in Indore's Vijay Nagar area into one larger store, which will pilot the chain's new omnichannel model: customers will order online and collect in store or receive home delivery within two hours. The regional head, Rohini, must choose one of the two store managers to run the merged store; the merged store's manager will be judged mainly on the speed and accuracy of online-order fulfilment.\n\nGauri has managed one store for eight years. It met its sales targets in four of the last five quarters, and staff surveys rate her highly, but she has been slow to adopt the chain's digital tools. Harish has managed the other store for three years. His store missed its sales targets in three of the last five quarters, though it was loss-making when he took over and now breaks even. He led the chain's pilot of app-based inventory management and his store has the region's highest online-order accuracy.\n\nA store-manager position will fall vacant in FreshKart's Bhopal region in two months. Company policy does not allow two managers in one store."
+    },
+    {
+      "id": "xat-P08",
+      "section": "valr",
+      "title": "Passage: The rise of the meritocracy",
+      "text": "When the sociologist Michael Young coined the word \"meritocracy\" in 1958, he meant it as a warning. His book imagined a Britain in which intelligence plus effort had replaced birth as the basis of social rank, and it ended in revolt. The new elite, Young suggested, would be more secure in its privileges than any aristocracy, because it would believe it deserved them; and those at the bottom, stripped of the consolation that their position was an accident, would be left with the verdict that it was their fault. The irony of Young's later years was to watch his satirical coinage become a term of praise, invoked by politicians who wished to sound both fair and modern.\n\nThe case for selecting people by merit is, of course, a strong one. A surgeon should be chosen for skill, not for her family's name, and a society that wastes talent because of caste or class is both unjust and poorer than it need be. Young did not dispute this. His target was not the practice of appointing the competent to tasks that require competence, but the conversion of that practice into a comprehensive theory of desert — the belief that the distribution of rewards across a whole society can be justified by the distribution of merit, and that the successful have therefore earned everything they have.\n\nThat belief runs into two difficulties. The first concerns what merit is made of. The capacities that markets and examinations reward — a facility with abstractions, the ability to perform under timed conditions, the confidence to sell oneself — are themselves unevenly distributed by circumstances no one chooses: the books in a childhood home, the stability of a family, the luck of a good teacher. A system that rewards merit faithfully will therefore reproduce many of the inequalities it was meant to dissolve, and do so under a more flattering description. The second difficulty concerns what merit is worth. The value that a market places on a skill depends on what others happen to want and on how scarce the skill happens to be. A gifted programmer is paid many times more than a gifted nurse not because she is more meritorious in any deep sense, but because of the configuration of demand in which she happens to find herself.\n\nNone of this means merit should be abandoned as a principle of selection. It means that it cannot bear the moral weight that a meritocratic society asks it to bear. A society may reasonably choose its doctors by examination while declining to believe that the examination has revealed who deserves a good life. The danger Young identified was not competence in office but contempt in society: a winning class persuaded that its success is its own work, and a losing class persuaded of the same. Humility about the role of fortune, on this view, is not a sentimental addition to a fair system. It is what keeps a fair system from becoming a cruel one."
+    },
+    {
+      "id": "xat-P09",
+      "section": "valr",
+      "title": "Passage: Clock time and task time",
+      "text": "Before the factory, the historian E. P. Thompson argued, most working people did not measure their labour by the clock. A fisherman's day was set by the tides, a farmer's by the season and the weather, a weaver's by the length of the piece on the loom. Work was organised around tasks rather than hours: it began when the task required and ended when the task was done. Such \"task orientation\" could produce bouts of intense labour followed by idleness, and to an observer schooled in industrial discipline it looked irregular and even lazy. To those who lived by it, Thompson suggested, it seemed natural, because the rhythm of work was continuous with the rhythm of life.\n\nThe factory changed this not merely by introducing machines but by introducing the purchase of time. An employer who pays for hours, rather than for finished pieces, has an interest in ensuring that each purchased hour is fully used. Hence the bells, the clocking-in, the fines for lateness, the sermons on punctuality and the moral campaigns against the habit of taking \"Saint Monday\" off. Time ceased to be something one passed and became something one spent, wasted or saved. The new discipline, Thompson argued, had to be taught — and was resisted — for generations before it came to seem second nature.\n\nLater historians complicated the story. Merchants and monasteries had kept close track of time long before the factory; many pre-industrial workers were already paid by the day; and some factory workers retained considerable control over the pace of their work. The neat opposition between task and clock, critics argued, owed something to the romantic contrast between an organic past and a mechanical present. Yet the core of the argument survives these qualifications. What changed with industrial capitalism was not the existence of clocks but the generalisation of a particular relationship to them, in which an hour of a person's life became a commodity that could be bought, and its idle minutes a kind of theft.\n\nThe argument has acquired an unexpected relevance. Much contemporary work — in software, design, consulting and the gig economy — is again organised around tasks rather than hours, and many workers are paid for deliverables rather than attendance. To some this signals a liberation from the factory clock. Yet the old discipline has not so much disappeared as moved inside: the worker who is paid by the task, and whose tasks never quite end, must police her own hours, and the line between working time and living time, which the factory drew sharply, becomes blurred again — this time without the continuity of rhythm that once made task orientation feel natural."
+    },
+    {
+      "id": "xat-P10",
+      "section": "valr",
+      "title": "Poem: The Ferryman",
+      "text": "Read the poem below and answer the questions that follow.\n\nThe Ferryman\n\nHe has crossed this river forty years\nand never once arrived;\neach bank is only where he turns\nto take the other side.\n\nThe merchants pay him in small coins,\nthe pilgrims pay in prayer;\nhe does not ask what they will find\nor who will meet them there.\n\nThey call the bridge they plan upstream\na gift, a road, a gain;\nhe coils his rope and reads the sky\nand says it looks like rain.\n\nWhen it is built, he will not cross\nto see the farther shore —\nthe river kept him, and the river\nis what he crossed it for."
+    },
+    {
+      "id": "xat-P11",
+      "section": "qadi",
+      "title": "DI set: Electric two-wheeler makers",
+      "text": "The table below gives the revenue of five electric two-wheeler makers, A to E, in 2024 and 2025, together with the number of units each sold in 2025 and its net profit margin (net profit as a percentage of revenue) in 2025. Assume that these five firms make up the entire market.\n\nFirm A: revenue 2024 ₹1,200 crore, revenue 2025 ₹1,380 crore, units sold 2025: 115 thousand, net margin 2025: 6%\nFirm B: ₹900 crore, ₹1,170 crore, 90 thousand, 9%\nFirm C: ₹650 crore, ₹780 crore, 52 thousand, 12%\nFirm D: ₹400 crore, ₹560 crore, 40 thousand, 15%\nFirm E: ₹250 crore, ₹300 crore, 25 thousand, −4%",
+      "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 538 208\" width=\"538\" height=\"208\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\"><rect width=\"538\" height=\"208\" fill=\"#fff\"/><text x=\"269.0\" y=\"20\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"14\" fill=\"#000\">Electric two-wheeler makers</text><rect x=\"4\" y=\"34\" width=\"530\" height=\"28\" fill=\"#e8e8e8\"/><line x1=\"4\" y1=\"34\" x2=\"534\" y2=\"34\" stroke=\"#555\" stroke-width=\"1\"/><line x1=\"4\" y1=\"62\" x2=\"534\" y2=\"62\" stroke=\"#555\" stroke-width=\"1\"/><line x1=\"4\" y1=\"90\" x2=\"534\" y2=\"90\" stroke=\"#555\" stroke-width=\"1\"/><line x1=\"4\" y1=\"118\" x2=\"534\" y2=\"118\" stroke=\"#555\" stroke-width=\"1\"/><line x1=\"4\" y1=\"146\" x2=\"534\" y2=\"146\" stroke=\"#555\" stroke-width=\"1\"/><line x1=\"4\" y1=\"174\" x2=\"534\" y2=\"174\" stroke=\"#555\" stroke-width=\"1\"/><line x1=\"4\" y1=\"202\" x2=\"534\" y2=\"202\" stroke=\"#555\" stroke-width=\"1\"/><line x1=\"4\" y1=\"34\" x2=\"4\" y2=\"202\" stroke=\"#555\" stroke-width=\"1\"/><line x1=\"74\" y1=\"34\" x2=\"74\" y2=\"202\" stroke=\"#555\" stroke-width=\"1\"/><line x1=\"189\" y1=\"34\" x2=\"189\" y2=\"202\" stroke=\"#555\" stroke-width=\"1\"/><line x1=\"304\" y1=\"34\" x2=\"304\" y2=\"202\" stroke=\"#555\" stroke-width=\"1\"/><line x1=\"429\" y1=\"34\" x2=\"429\" y2=\"202\" stroke=\"#555\" stroke-width=\"1\"/><line x1=\"534\" y1=\"34\" x2=\"534\" y2=\"202\" stroke=\"#555\" stroke-width=\"1\"/><text x=\"39.0\" y=\"53.0\" text-anchor=\"middle\" fill=\"#000\" font-weight=\"bold\" font-size=\"13\">Firm</text><text x=\"131.5\" y=\"46.0\" text-anchor=\"middle\" fill=\"#000\" font-weight=\"bold\" font-size=\"12\">Revenue 2024</text><text x=\"131.5\" y=\"60.0\" text-anchor=\"middle\" fill=\"#000\" font-weight=\"bold\" font-size=\"12\">(₹ crore)</text><text x=\"246.5\" y=\"46.0\" text-anchor=\"middle\" fill=\"#000\" font-weight=\"bold\" font-size=\"12\">Revenue 2025</text><text x=\"246.5\" y=\"60.0\" text-anchor=\"middle\" fill=\"#000\" font-weight=\"bold\" font-size=\"12\">(₹ crore)</text><text x=\"366.5\" y=\"46.0\" text-anchor=\"middle\" fill=\"#000\" font-weight=\"bold\" font-size=\"12\">Units sold 2025</text><text x=\"366.5\" y=\"60.0\" text-anchor=\"middle\" fill=\"#000\" font-weight=\"bold\" font-size=\"12\">(thousand)</text><text x=\"481.5\" y=\"46.0\" text-anchor=\"middle\" fill=\"#000\" font-weight=\"bold\" font-size=\"12\">Net profit</text><text x=\"481.5\" y=\"60.0\" text-anchor=\"middle\" fill=\"#000\" font-weight=\"bold\" font-size=\"12\">margin 2025</text><text x=\"39.0\" y=\"81.0\" text-anchor=\"middle\" fill=\"#000\" font-size=\"13\">A</text><text x=\"131.5\" y=\"81.0\" text-anchor=\"middle\" fill=\"#000\" font-size=\"13\">1,200</text><text x=\"246.5\" y=\"81.0\" text-anchor=\"middle\" fill=\"#000\" font-size=\"13\">1,380</text><text x=\"366.5\" y=\"81.0\" text-anchor=\"middle\" fill=\"#000\" font-size=\"13\">115</text><text x=\"481.5\" y=\"81.0\" text-anchor=\"middle\" fill=\"#000\" font-size=\"13\">6%</text><text x=\"39.0\" y=\"109.0\" text-anchor=\"middle\" fill=\"#000\" font-size=\"13\">B</text><text x=\"131.5\" y=\"109.0\" text-anchor=\"middle\" fill=\"#000\" font-size=\"13\">900</text><text x=\"246.5\" y=\"109.0\" text-anchor=\"middle\" fill=\"#000\" font-size=\"13\">1,170</text><text x=\"366.5\" y=\"109.0\" text-anchor=\"middle\" fill=\"#000\" font-size=\"13\">90</text><text x=\"481.5\" y=\"109.0\" text-anchor=\"middle\" fill=\"#000\" font-size=\"13\">9%</text><text x=\"39.0\" y=\"137.0\" text-anchor=\"middle\" fill=\"#000\" font-size=\"13\">C</text><text x=\"131.5\" y=\"137.0\" text-anchor=\"middle\" fill=\"#000\" font-size=\"13\">650</text><text x=\"246.5\" y=\"137.0\" text-anchor=\"middle\" fill=\"#000\" font-size=\"13\">780</text><text x=\"366.5\" y=\"137.0\" text-anchor=\"middle\" fill=\"#000\" font-size=\"13\">52</text><text x=\"481.5\" y=\"137.0\" text-anchor=\"middle\" fill=\"#000\" font-size=\"13\">12%</text><text x=\"39.0\" y=\"165.0\" text-anchor=\"middle\" fill=\"#000\" font-size=\"13\">D</text><text x=\"131.5\" y=\"165.0\" text-anchor=\"middle\" fill=\"#000\" font-size=\"13\">400</text><text x=\"246.5\" y=\"165.0\" text-anchor=\"middle\" fill=\"#000\" font-size=\"13\">560</text><text x=\"366.5\" y=\"165.0\" text-anchor=\"middle\" fill=\"#000\" font-size=\"13\">40</text><text x=\"481.5\" y=\"165.0\" text-anchor=\"middle\" fill=\"#000\" font-size=\"13\">15%</text><text x=\"39.0\" y=\"193.0\" text-anchor=\"middle\" fill=\"#000\" font-size=\"13\">E</text><text x=\"131.5\" y=\"193.0\" text-anchor=\"middle\" fill=\"#000\" font-size=\"13\">250</text><text x=\"246.5\" y=\"193.0\" text-anchor=\"middle\" fill=\"#000\" font-size=\"13\">300</text><text x=\"366.5\" y=\"193.0\" text-anchor=\"middle\" fill=\"#000\" font-size=\"13\">25</text><text x=\"481.5\" y=\"193.0\" text-anchor=\"middle\" fill=\"#000\" font-size=\"13\">−4%</text></svg>"
+    },
+    {
+      "id": "xat-P12",
+      "section": "qadi",
+      "title": "DI set: Orders by channel",
+      "text": "An online retailer received 12,000 orders in March through three channels. 55% of the orders came through its app, 30% through its website and the rest through partner stores. The average order value was ₹800 for app orders, ₹1,100 for website orders and ₹1,500 for partner-store orders. 10% of app orders, 8% of website orders and 4% of partner-store orders were returned, and every returned order was refunded in full. Net revenue means the value of orders minus refunds. Assume that, within a channel, returned orders have the same average value as other orders."
+    }
+  ],
   "questions": [
-    {
-      "id": "xat-001",
-      "section": "dm",
-      "topic": "Ethical Dilemmas",
-      "difficulty": "medium",
-      "question": "Ritika, a quality engineer at a medical-device firm, discovers that a batch of blood-pressure monitors already shipped to hospitals gives readings that are off by up to 15 mmHg in certain conditions. Her manager says a recall would hurt the quarter's results and suggests quietly correcting the issue in the next batch. What should Ritika do?",
-      "options": [
-        "Post the details anonymously on social media to force the company to act.",
-        "Follow her manager's suggestion, since the next batch will be fixed.",
-        "Escalate the issue through the firm's formal quality/compliance channel, insisting that affected hospitals be informed and the batch be corrected or recalled.",
-        "Resign immediately without informing anyone."
-      ],
-      "answer": 2,
-      "explanation": "Patient safety is at stake and the faulty devices are already in use, so silence is unacceptable. Using formal internal channels first is both responsible and effective; going public first is premature and resignation does not protect patients.",
-      "verified": true
-    },
-    {
-      "id": "xat-002",
-      "section": "dm",
-      "topic": "Ethical Dilemmas",
-      "difficulty": "medium",
-      "question": "A procurement manager, Arun, is evaluating three vendors. One vendor, whose bid is the second-cheapest, sends him an expensive smartphone as a 'Diwali gift'. Company policy prohibits gifts above ₹1,000. Which is the most appropriate action?",
-      "options": [
-        "Disqualify all three vendors and restart the process.",
-        "Return the gift, inform his superior or the compliance team, and continue evaluating all bids on merit.",
-        "Accept the gift, since refusing it during a festival would be rude.",
-        "Keep the gift but make sure he still selects the cheapest vendor."
-      ],
-      "answer": 1,
-      "explanation": "Returning the gift and disclosing it keeps Arun within policy and protects the integrity of the process. Keeping it creates a conflict of interest; disqualifying the other vendors punishes those who did nothing wrong.",
-      "verified": true
-    },
-    {
-      "id": "xat-003",
-      "section": "dm",
-      "topic": "Ethical Dilemmas",
-      "difficulty": "hard",
-      "question": "A start-up's founder, Meera, learns that her best-performing salesperson inflated client numbers in a pitch deck to a large prospective customer. The deal has not yet been signed. The salesperson argues 'everyone rounds up' and that correcting it now will lose the deal. What should Meera do?",
-      "options": [
-        "Fire the salesperson publicly to set an example, without informing the customer.",
-        "Withdraw from the deal without explanation.",
-        "Let the deal close and correct the numbers later if the customer asks.",
-        "Correct the figures with the prospective customer before signing and address the misconduct with the salesperson."
-      ],
-      "answer": 3,
-      "explanation": "Signing on the basis of known false figures would be misrepresentation and would endanger trust and legal standing. Correcting before signing and dealing with the employee's conduct addresses both the external and internal problems.",
-      "verified": true
-    },
-    {
-      "id": "xat-004",
-      "section": "dm",
-      "topic": "Ethical Dilemmas",
-      "difficulty": "medium",
-      "question": "During an exam at a B-school, invigilator Prof. Das notices that a student who is also a scholarship holder has a sheet of formulae under his calculator. The student pleads that he forgot it was there and that losing the scholarship would force him to drop out. What should Prof. Das do?",
-      "options": [
-        "Ignore it out of sympathy for the student's financial situation.",
-        "Announce the incident to the whole class to deter others.",
-        "Tear up the student's answer script on the spot and expel him from the hall.",
-        "Confiscate the sheet, record the incident as per the institute's rules, and let the disciplinary committee decide after hearing the student."
-      ],
-      "answer": 3,
-      "explanation": "Due process — stopping the violation, documenting it and letting the designated committee decide after a hearing — balances fairness to other students with fairness to the accused. Ignoring it is unfair to others; on-the-spot punishment or public shaming bypasses due process.",
-      "verified": true
-    },
-    {
-      "id": "xat-005",
-      "section": "dm",
-      "topic": "Business & Managerial Decisions",
-      "difficulty": "medium",
-      "question": "A mid-sized FMCG company finds that its new snack has strong sales in metro cities but poor sales in small towns, where a cheaper local brand dominates. Distribution costs in small towns are high. The CEO wants to grow overall profit in the next year. Which is the best course of action?",
-      "options": [
-        "Cut the price sharply across all markets to beat the local brand.",
-        "Double the advertising budget in small towns immediately.",
-        "Focus resources on metros where the product is profitable, and test a smaller, lower-priced pack in a few small towns before expanding.",
-        "Withdraw the product from metros and concentrate on small towns."
-      ],
-      "answer": 2,
-      "explanation": "Concentrating on profitable markets protects margins, while a limited low-price pack test gathers evidence about small-town demand at low cost. A blanket price cut sacrifices metro margins; abandoning metros or spending heavily without evidence is risky.",
-      "verified": true
-    },
-    {
-      "id": "xat-006",
-      "section": "dm",
-      "topic": "Business & Managerial Decisions",
-      "difficulty": "hard",
-      "question": "A bus operator runs a route on which the average occupancy is 90% on weekdays and 35% on weekends. Each bus costs the same to run every day. The operator wants to improve profitability without reducing service quality for weekday commuters. Which is the most sensible option?",
-      "options": [
-        "Raise weekday fares sharply since demand is high.",
-        "Shut the route on weekdays.",
-        "Increase the number of weekday buses and keep weekend trips unchanged.",
-        "Reduce the number of weekend trips and offer weekend discount fares to raise occupancy on the remaining trips."
-      ],
-      "answer": 3,
-      "explanation": "Weekend trips are the loss-making part: cutting surplus weekend capacity and stimulating demand with discounts improves utilisation without touching weekday service. A sharp weekday hike risks losing commuters; adding weekday buses or closing weekdays does not address the weekend problem.",
-      "verified": true
-    },
-    {
-      "id": "xat-007",
-      "section": "dm",
-      "topic": "Business & Managerial Decisions",
-      "difficulty": "medium",
-      "question": "A software firm has a key client who accounts for 45% of its revenue. The client demands a 20% price cut, threatening to move to a competitor. The firm's margins on this client are currently 25%. What should the firm's management do first?",
-      "options": [
-        "Negotiate — explore a smaller discount linked to longer contract tenure or higher volume — while starting efforts to diversify the client base.",
-        "Accept the 20% cut immediately to avoid losing the client.",
-        "Lay off 20% of staff to protect margins before talking to the client.",
-        "Refuse any discount and let the client leave."
-      ],
-      "answer": 0,
-      "explanation": "Accepting would almost wipe out margins (25% → about 6%); refusing outright risks losing 45% of revenue. Negotiating a trade-off and reducing dependence on one client addresses both the immediate and the structural problem.",
-      "verified": true
-    },
-    {
-      "id": "xat-008",
-      "section": "dm",
-      "topic": "Business & Managerial Decisions",
-      "difficulty": "medium",
-      "question": "A hospital's emergency department is overcrowded every evening between 6 pm and 10 pm, while it is underused in the early morning. Most evening patients have non-critical conditions. What is the best way to reduce evening overcrowding?",
-      "options": [
-        "Close the emergency department in the early morning to save money.",
-        "Hire more doctors only for the early-morning shift.",
-        "Set up a triage desk and a separate fast-track area for non-critical cases during evening hours.",
-        "Turn away all non-critical patients in the evening."
-      ],
-      "answer": 2,
-      "explanation": "Triage with a fast-track stream handles the many non-critical evening cases efficiently without denying care; turning patients away is unsafe, and the morning options do nothing for evening crowding.",
-      "verified": true
-    },
-    {
-      "id": "xat-009",
-      "section": "dm",
-      "topic": "Interpersonal & HR Situations",
-      "difficulty": "medium",
-      "question": "Two team leads, Kabir and Sana, both claim credit for a successful product launch and have stopped cooperating. Their manager, Nisha, notices that the team is taking sides. What should Nisha do first?",
-      "options": [
-        "Ask the team to vote on who deserves credit.",
-        "Announce that only Kabir will lead future launches.",
-        "Meet both of them, acknowledge their specific contributions, and agree on how future joint work and credit will be handled.",
-        "Ignore the conflict, as it will resolve itself with time."
-      ],
-      "answer": 2,
-      "explanation": "The conflict is already affecting the team, so it cannot be ignored; a public vote or unilateral choice escalates it. Recognising both contributions and setting ground rules addresses the cause.",
-      "verified": true
-    },
-    {
-      "id": "xat-010",
-      "section": "dm",
-      "topic": "Interpersonal & HR Situations",
-      "difficulty": "medium",
-      "question": "Imran, a new graduate trainee, is consistently ten minutes late for morning meetings. His work quality is excellent. His supervisor learns that Imran drops his younger sister at school on the way, and the school opens only at 8:45 am, while meetings start at 9:00 am at an office 25 minutes away. What should the supervisor do?",
-      "options": [
-        "Ignore the issue completely because his work is good.",
-        "Issue a formal warning for repeated late-coming.",
-        "Ask him to make other arrangements for his sister immediately.",
-        "Discuss the situation with Imran and, if feasible, shift the meeting time or allow him to join the first part remotely."
-      ],
-      "answer": 3,
-      "explanation": "The cause is a genuine, structural constraint and the employee performs well; a reasonable accommodation after discussion keeps both performance and punctuality issues in view. A warning ignores context; doing nothing leaves the meeting problem unresolved.",
-      "verified": true
-    },
-    {
-      "id": "xat-011",
-      "section": "dm",
-      "topic": "Interpersonal & HR Situations",
-      "difficulty": "hard",
-      "question": "A manager, Leela, must choose one of two subordinates for a promotion. Ravi has higher sales figures, but several colleagues have complained about his aggressive behaviour. Pooja has slightly lower sales but is consistently rated highly by peers and clients for teamwork. The new role involves leading a team of eight. Whom should Leela promote, and why?",
-      "options": [
-        "Neither, to avoid upsetting either of them.",
-        "Ravi, but only after asking Pooja whether she objects.",
-        "Pooja, because the role is about leading a team and her teamwork record is more relevant than a small sales difference.",
-        "Ravi, because sales figures are the only objective measure."
-      ],
-      "answer": 2,
-      "explanation": "Promotion should match the demands of the new role. Leading eight people depends heavily on interpersonal skills, where Pooja is stronger and Ravi has complaints; the sales gap is small.",
-      "verified": true
-    },
-    {
-      "id": "xat-012",
-      "section": "dm",
-      "topic": "Analytical Decision Making (Rule-based Sets)",
-      "difficulty": "hard",
-      "question": "A foundation awards scholarships using these rules:\n(1) The applicant must have scored at least 75% in the qualifying exam.\n(2) Annual family income must be below ₹6 lakh; however, if the applicant is a first-generation graduate, income up to ₹8 lakh is acceptable.\n(3) The applicant must not be receiving any other scholarship.\nApplicants: Ajay — 78%, income ₹7 lakh, first-generation graduate, no other scholarship. Bina — 82%, income ₹5 lakh, receives a state scholarship. Chetan — 74%, income ₹3 lakh, no other scholarship. Dia — 76%, income ₹7.5 lakh, not first-generation, no other scholarship.\n\nWho is eligible?",
-      "options": [
-        "Only Ajay",
-        "Ajay and Bina",
-        "Ajay, Chetan and Dia",
-        "Ajay and Dia"
-      ],
-      "answer": 0,
-      "explanation": "Ajay: 78% ✓, ₹7 lakh allowed as first-generation ✓, no other scholarship ✓ → eligible. Bina fails rule 3; Chetan fails rule 1 (74%); Dia fails rule 2 (₹7.5 lakh without first-generation status). Only Ajay.",
-      "verified": true
-    },
-    {
-      "id": "xat-013",
-      "section": "dm",
-      "topic": "Analytical Decision Making (Rule-based Sets)",
-      "difficulty": "medium",
-      "question": "A company reimburses travel as follows:\n• Train travel is always reimbursed.\n• Air travel is reimbursed only if the journey exceeds 800 km, or if the employee is at manager level or above.\n• Taxi fares within the city are reimbursed up to ₹1,500 per trip; anything above is not reimbursed.\nNeha, an executive (below manager level), flew 650 km to a client meeting and took one city taxi costing ₹1,900. What amount of these two expenses is reimbursable?",
-      "options": [
-        "The full flight and the full taxi fare",
-        "Only ₹1,500 of the taxi fare; the flight is not reimbursable",
-        "Nothing at all",
-        "The full flight and ₹1,500 of the taxi fare"
-      ],
-      "answer": 1,
-      "explanation": "The flight (650 km, non-manager) meets neither air-travel condition. The taxi is reimbursed up to the ₹1,500 cap, so ₹1,500 is reimbursable.",
-      "verified": true
-    },
-    {
-      "id": "xat-014",
-      "section": "dm",
-      "topic": "Analytical Decision Making (Rule-based Sets)",
-      "difficulty": "hard",
-      "question": "A bank's loan policy:\n(i) The applicant must be aged 21–60.\n(ii) The proposed EMI must not exceed 40% of monthly income.\n(iii) Applicants with a credit score below 650 are rejected; those with 650–699 need a guarantor; those with 700 or above need no guarantor.\nMohan, aged 45, earns ₹80,000 a month, has a credit score of 680 and applies for a loan with an EMI of ₹30,000. He has a guarantor ready. What is the correct decision?",
-      "options": [
-        "Approve without a guarantor.",
-        "Reject, because the EMI exceeds 40% of his income.",
-        "Approve the loan with Mohan's guarantor.",
-        "Reject, because his credit score is below 700."
-      ],
-      "answer": 2,
-      "explanation": "Age 45 ✓. EMI ₹30,000 = 37.5% of ₹80,000 ≤ 40% ✓. Score 680 lies in 650–699, so a guarantor is required, and he has one. Hence approve with the guarantor.",
-      "verified": true
-    },
-    {
-      "id": "xat-015",
-      "section": "valr",
-      "topic": "Reading Comprehension",
-      "difficulty": "hard",
-      "question": "Read the passage and answer the question.\n\n\"We tend to think of freedom as the absence of constraint, as if the freest person were the one with the fewest rules. Yet the pianist who can improvise freely has spent years submitting to scales, and the speaker who can say anything has first accepted the rigid grammar of a language. Constraint, rightly chosen, is not the opposite of freedom but its precondition: it builds the capacities without which choice is empty.\"\n\nThe author's main contention is that:",
-      "options": [
-        "musicians are freer than other people",
-        "certain disciplines enlarge rather than diminish a person's real freedom",
-        "freedom is merely an illusion created by rules",
-        "all rules should be accepted without question"
-      ],
-      "answer": 1,
-      "explanation": "The examples of the pianist and the speaker support the claim that 'rightly chosen' constraint builds the capacities that make freedom meaningful. The author does not say freedom is an illusion or that all rules must be accepted.",
-      "verified": true
-    },
-    {
-      "id": "xat-016",
-      "section": "valr",
-      "topic": "Reading Comprehension",
-      "difficulty": "hard",
-      "question": "Read the passage and answer the question.\n\n\"Gift economies are often romanticised as systems of pure generosity. Anthropologists have long noted, however, that a gift creates an obligation: to accept, to reciprocate, and often to reciprocate more lavishly. The giver gains not wealth but standing. In this sense the gift is not the opposite of the market but a different way of keeping accounts—one denominated in honour rather than coin.\"\n\nWhich of the following would the author most likely agree with?",
-      "options": [
-        "Gift economies are free of any expectation of return.",
-        "Gift-giving can serve as a means of building status and social obligation.",
-        "Anthropologists have failed to study gift economies.",
-        "Markets are more honourable than gift economies."
-      ],
-      "answer": 1,
-      "explanation": "The author says gifts create obligations and that the giver gains 'standing' — a system of accounting 'in honour'. This rejects the 'pure generosity' view and makes no comparison of honour between markets and gifts.",
-      "verified": true
-    },
-    {
-      "id": "xat-017",
-      "section": "valr",
-      "topic": "Reading Comprehension",
-      "difficulty": "medium",
-      "question": "Read the passage and answer the question.\n\n\"Early photographs required exposures of many minutes, and so the streets in them appear eerily empty: carriages and pedestrians moved too quickly to register. Only a man who stopped to have his boots polished stood still long enough to be recorded. The camera, which we imagine as a faithful witness, was in its infancy a witness only to stillness.\"\n\nThe example of the man having his boots polished is used to show that:",
-      "options": [
-        "early cameras could record only subjects that remained still for a long time",
-        "early photographers deliberately avoided crowds",
-        "boot-polishing was a popular trade at the time",
-        "streets in the nineteenth century were usually empty"
-      ],
-      "answer": 0,
-      "explanation": "Because exposures took minutes, only stationary subjects appeared; the man appears because he stood still. The streets were not actually empty — moving people simply did not register.",
-      "verified": true
-    },
-    {
-      "id": "xat-018",
-      "section": "valr",
-      "topic": "Reading Comprehension",
-      "difficulty": "hard",
-      "question": "Read the passage and answer the question.\n\n\"The expert's advantage lies less in knowing more facts than in knowing which facts matter. A novice chess player sees thirty-two pieces; a master sees three or four meaningful patterns. This compression is a gift and a trap: it allows rapid judgement, but it also makes the expert slow to notice when a familiar-looking situation is in fact new.\"\n\nThe passage suggests that expertise:",
-      "options": [
-        "speeds judgement but can make one miss genuine novelty",
-        "consists mainly of memorising more facts than a novice",
-        "is irrelevant in games like chess",
-        "makes errors impossible in familiar situations"
-      ],
-      "answer": 0,
-      "explanation": "The author says compression is 'a gift and a trap': rapid judgement, but slowness to notice that a familiar-looking situation is new. The first sentence explicitly denies that expertise is mainly about more facts.",
-      "verified": true
-    },
-    {
-      "id": "xat-019",
-      "section": "valr",
-      "topic": "Reading Comprehension",
-      "difficulty": "medium",
-      "question": "Read the passage and answer the question.\n\n\"Cities that grew up around rivers often turned their backs on them during industrialisation, lining the banks with warehouses, drains and roads. Recent decades have seen a reversal: promenades, parks and cafés now crowd onto waterfronts once considered fit only for sewage. Yet the reclaimed riverbank is frequently priced beyond the reach of those who lived beside the river when it stank.\"\n\nThe final sentence of the passage introduces:",
-      "options": [
-        "a proposal to restore warehouses on riverbanks",
-        "a concern about who benefits from the revival of waterfronts",
-        "evidence that waterfront parks are unpopular",
-        "a reason why industrial cities ignored their rivers"
-      ],
-      "answer": 1,
-      "explanation": "After describing the revival, the author notes that the improved riverbank is often unaffordable for earlier residents — a concern about the distribution of benefits.",
-      "verified": true
-    },
-    {
-      "id": "xat-020",
-      "section": "valr",
-      "topic": "Reading Comprehension",
-      "difficulty": "hard",
-      "question": "Read the passage and answer the question.\n\n\"A rule that is never enforced does not merely fail; it teaches. It instructs everyone who observes its neglect that the institution's words and its intentions are different things. The cost is not limited to the rule in question: every other rule is quietly discounted as well.\"\n\nWhich of the following is the most appropriate inference from the passage?",
-      "options": [
-        "Unenforced rules can weaken the credibility of an institution's other rules.",
-        "Rules are effective only if they are written clearly.",
-        "Most people do not notice whether rules are enforced.",
-        "Institutions should have fewer rules."
-      ],
-      "answer": 0,
-      "explanation": "The passage says neglect of one rule leads people to 'discount' every other rule — a loss of credibility. It does not prescribe fewer rules or discuss clarity.",
-      "verified": true
-    },
-    {
-      "id": "xat-021",
-      "section": "valr",
-      "topic": "Reading Comprehension",
-      "difficulty": "medium",
-      "question": "Read the passage and answer the question.\n\n\"Folk remedies are frequently dismissed as superstition, and many deserve to be. But several modern medicines began as plants used by healers whose explanations were wrong even when their results were right. The task of science is neither to embrace tradition wholesale nor to dismiss it, but to test it.\"\n\nThe author's attitude towards folk remedies is best described as:",
-      "options": [
-        "open-minded but insistent on testing",
-        "uncritically admiring",
-        "indifferent",
-        "wholly dismissive"
-      ],
-      "answer": 0,
-      "explanation": "The author concedes that many deserve dismissal but notes some led to real medicines, concluding that tradition should be tested — neither embraced nor dismissed.",
-      "verified": true
-    },
-    {
-      "id": "xat-022",
-      "section": "valr",
-      "topic": "Reading Comprehension",
-      "difficulty": "hard",
-      "question": "Read the passage and answer the question.\n\n\"When a company boasts that its new product is 'disruptive', it usually means that it is popular. But disruption, in the stricter sense, describes something less flattering: a cheaper, initially inferior offering that established firms ignore because their best customers do not want it, until it improves enough to take those customers away.\"\n\nAccording to the passage, in the stricter sense, a disruptive product:",
-      "options": [
-        "is one that established firms quickly copy",
-        "is any product that becomes very popular",
-        "typically starts as a cheaper, lower-quality offering that incumbents overlook",
-        "is always superior to existing products from the start"
-      ],
-      "answer": 2,
-      "explanation": "The passage defines strict disruption as a cheaper, initially inferior offering ignored by established firms until it improves — not mere popularity or initial superiority.",
-      "verified": true
-    },
-    {
-      "id": "xat-023",
-      "section": "valr",
-      "topic": "Reading Comprehension",
-      "difficulty": "medium",
-      "question": "Read the passage and answer the question.\n\n\"Handwritten letters survive in archives in a way that emails seldom do. Historians of our era may therefore face an odd problem: not too little evidence, but too much of the wrong kind—billions of messages stored on servers that may be inaccessible, unreadable or deleted, alongside a thinning trickle of paper.\"\n\nWhat 'odd problem' does the passage anticipate for future historians?",
-      "options": [
-        "There will be no written records of the present era.",
-        "Evidence may be abundant in volume yet hard to access or preserve.",
-        "Emails contain no historically useful information.",
-        "Handwritten letters will be too numerous to study."
-      ],
-      "answer": 1,
-      "explanation": "The problem is 'not too little evidence, but too much of the wrong kind' — vast digital records that may be inaccessible or lost.",
-      "verified": true
-    },
-    {
-      "id": "xat-024",
-      "section": "valr",
-      "topic": "Critical Reasoning",
-      "difficulty": "medium",
-      "question": "\"Our firm's employee survey shows that staff who use the office gym report higher job satisfaction. So, to raise satisfaction, we should make gym use compulsory.\"\n\nWhich of the following identifies the main flaw in this reasoning?",
-      "options": [
-        "It assumes gym use causes satisfaction, when already-satisfied employees may simply be more likely to use the gym.",
-        "It ignores the cost of building a gym.",
-        "It relies on a survey of employees.",
-        "It assumes that all employees like exercise."
-      ],
-      "answer": 0,
-      "explanation": "A correlation between gym use and satisfaction is treated as causation; the direction may be reversed, or a third factor (e.g. flexible schedules) may explain both.",
-      "verified": true
-    },
-    {
-      "id": "xat-025",
-      "section": "valr",
-      "topic": "Critical Reasoning",
-      "difficulty": "hard",
-      "question": "\"Sales of umbrellas in the city rose by 40% this year. Therefore, it must have rained more this year than last year.\"\n\nWhich of the following, if true, most weakens the conclusion?",
-      "options": [
-        "Umbrella sales in the city have risen every year for a decade.",
-        "A popular retailer began selling umbrellas at half the usual price this year.",
-        "Rainfall is measured at several stations across the city.",
-        "Most umbrellas are bought during the monsoon months."
-      ],
-      "answer": 1,
-      "explanation": "A large price cut offers an alternative explanation for the rise in sales that has nothing to do with rainfall.",
-      "verified": true
-    },
-    {
-      "id": "xat-026",
-      "section": "valr",
-      "topic": "Para Jumbles & Odd Sentence",
-      "difficulty": "medium",
-      "question": "Arrange the sentences into a coherent paragraph.\n\n1. These marks, called 'hallmarks', guaranteed the purity of the metal to any buyer.\n2. In medieval London, goldsmiths had to bring their work to a guild hall to be tested.\n3. Today the word has come to mean any distinctive feature of a person or thing.\n4. If the item passed, it was stamped with a set of official marks.",
-      "options": [
-        "2143",
-        "2341",
-        "2413",
-        "4123"
-      ],
-      "answer": 2,
-      "explanation": "2 sets the scene (testing at the guild hall); 4 says what happened if the item passed; 1 names these marks and their purpose; 3 describes the word's modern extended meaning.",
-      "verified": true
-    },
-    {
-      "id": "xat-027",
-      "section": "valr",
-      "topic": "Critical Reasoning",
-      "difficulty": "medium",
-      "question": "\"The new metro line will reduce congestion on the city's main arterial road, because many commuters who now drive along it will switch to the metro.\"\n\nWhich of the following is an assumption on which the argument depends?",
-      "options": [
-        "The metro will be cheaper to build than widening the road.",
-        "Metro fares will be the lowest in the country.",
-        "The metro line connects the places that drivers on the arterial road actually travel between.",
-        "Everyone in the city owns a car."
-      ],
-      "answer": 2,
-      "explanation": "Drivers will switch only if the metro serves their actual journeys; if it did not, the predicted switch — and the congestion relief — would not follow. The other options are not required by the argument.",
-      "verified": true
-    },
-    {
-      "id": "xat-028",
-      "section": "valr",
-      "topic": "Para Jumbles & Odd Sentence",
-      "difficulty": "medium",
-      "question": "Five sentences are given. Four form a coherent paragraph. Identify the one that does NOT belong.\n\n1. Mangrove forests grow in the salty, oxygen-poor mud of tropical coastlines.\n2. Their tangled roots trap sediment and slow the force of incoming waves.\n3. As a result, coasts fringed by mangroves often suffer less damage during cyclones.\n4. Coral reefs are among the most biodiverse ecosystems on Earth.\n5. Mangroves also shelter juvenile fish, making them important to coastal fisheries.",
-      "options": [
-        "Sentence 3",
-        "Sentence 4",
-        "Sentence 5",
-        "Sentence 2"
-      ],
-      "answer": 1,
-      "explanation": "Sentences 1, 2, 3 and 5 describe mangroves and their protective and ecological roles. Sentence 4 abruptly switches to coral reefs.",
-      "verified": true
-    },
-    {
-      "id": "xat-029",
-      "section": "valr",
-      "topic": "Vocabulary & Grammar",
-      "difficulty": "medium",
-      "question": "Choose the word that best fills the blank.\n\n\"The CEO's ______ manner—she rarely spoke in meetings and never raised her voice—led new employees to underestimate her, until they saw how decisively she acted.\"",
-      "options": [
-        "bombastic",
-        "frivolous",
-        "garrulous",
-        "reticent"
-      ],
-      "answer": 3,
-      "explanation": "She 'rarely spoke' and was quiet, so 'reticent' (reserved) fits. 'Garrulous' and 'bombastic' mean talkative/pompous; 'frivolous' does not fit the description.",
-      "verified": true
-    },
-    {
-      "id": "xat-030",
-      "section": "valr",
-      "topic": "Vocabulary & Grammar",
-      "difficulty": "medium",
-      "question": "Identify the grammatically correct sentence.",
-      "options": [
-        "Each of the candidates has submitted the required documents.",
-        "Each of the candidates have submitted the required documents.",
-        "Each of the candidate has submitted the required documents.",
-        "Each of the candidates have submit the required documents."
-      ],
-      "answer": 0,
-      "explanation": "'Each' is singular and takes 'has'; 'of the' must be followed by the plural 'candidates'; the past participle is 'submitted'.",
-      "verified": true
-    },
-    {
-      "id": "xat-031",
-      "section": "valr",
-      "topic": "Poem-based Questions",
-      "difficulty": "hard",
-      "question": "Read the poem and answer the question.\n\n\"The old well in the courtyard\nhas forgotten the bucket and the rope;\nit keeps instead a circle of sky\nand, at noon, one burning coin of sun.\nChildren lean over and shout their names—\nthe well returns them, a little slower,\nas if it had to look them up.\"\n\nWhich of the following best describes the central idea of the poem?",
-      "options": [
-        "A disused well, no longer serving its practical purpose, has taken on a quieter, almost living presence.",
-        "The well is dangerous and should be sealed to protect children.",
-        "Water scarcity has made the village abandon its well.",
-        "Children have forgotten how to use a bucket and rope."
-      ],
-      "answer": 0,
-      "explanation": "The well 'has forgotten the bucket and the rope' (no longer used) but now 'keeps' sky and sun and 'returns' children's names as if remembering them — personification of a disused object with a new, gentle life. Nothing suggests danger or scarcity.",
-      "verified": true
-    },
-    {
-      "id": "xat-032",
-      "section": "qadi",
-      "topic": "Arithmetic",
-      "difficulty": "medium",
-      "question": "A shopkeeper sells two items for ₹1,200 each. On one he gains 20% and on the other he loses 20%. What is his overall result?",
-      "options": [
-        "Loss of 4%",
-        "Gain of 4%",
-        "Loss of 2%",
-        "No profit, no loss"
-      ],
-      "answer": 0,
-      "explanation": "Cost prices: 1,200/1.2 = 1,000 and 1,200/0.8 = 1,500; total CP 2,500, total SP 2,400. Loss = 100/2,500 = 4%.",
-      "verified": true
-    },
-    {
-      "id": "xat-033",
-      "section": "qadi",
-      "topic": "Arithmetic",
-      "difficulty": "medium",
-      "question": "Pipe A fills a tank in 12 hours and pipe B in 15 hours; pipe C empties the full tank in 20 hours. All three are opened together on an empty tank, and C is closed after 5 hours. How long does it take in all to fill the tank?",
-      "options": [
-        "7 hours 40 minutes",
-        "8 hours",
-        "9 hours",
-        "8 hours 20 minutes"
-      ],
-      "answer": 3,
-      "explanation": "Net rate of all three = 1/12 + 1/15 − 1/20 = (5 + 4 − 3)/60 = 1/10. In 5 hours: half full. A + B fill 9/60 = 3/20 per hour, so the remaining 1/2 takes 10/3 h = 3 h 20 min. Total 8 h 20 min.",
-      "verified": true
-    },
     {
       "id": "xat-034",
       "section": "qadi",
@@ -769,55 +945,14 @@
       ],
       "answer": 3,
       "explanation": "By the second meeting they have together covered 3 × 90 = 270 km, taking 270/45 = 6 hours. The cyclist from P has ridden 120 km: 90 km to Q and 30 km back, i.e. 60 km from P.",
-      "verified": true
-    },
-    {
-      "id": "xat-035",
-      "section": "qadi",
-      "topic": "Arithmetic",
-      "difficulty": "medium",
-      "question": "Alloy A contains copper and zinc in the ratio 3 : 2, and alloy B contains them in the ratio 1 : 3. In what ratio (by weight) must A and B be mixed so that the new alloy has equal amounts of copper and zinc?",
-      "options": [
-        "2 : 5",
-        "3 : 2",
-        "5 : 3",
-        "5 : 2"
-      ],
-      "answer": 3,
-      "explanation": "Copper fractions: A = 0.6, B = 0.25, target 0.5. By alligation, A : B = (0.5 − 0.25) : (0.6 − 0.5) = 0.25 : 0.10 = 5 : 2.",
-      "verified": true
-    },
-    {
-      "id": "xat-036",
-      "section": "qadi",
-      "topic": "Arithmetic",
-      "difficulty": "easy",
-      "question": "A sum of money doubles in 6 years at compound interest (compounded annually at a fixed rate). In how many years will it become eight times itself?",
-      "options": [
-        "12",
-        "24",
-        "36",
-        "18"
-      ],
-      "answer": 3,
-      "explanation": "8 = 2³, so it takes three doubling periods: 3 × 6 = 18 years.",
-      "verified": true
-    },
-    {
-      "id": "xat-037",
-      "section": "qadi",
-      "topic": "Algebra",
-      "difficulty": "medium",
-      "question": "If x + 1/x = 3, what is the value of x⁵ + 1/x⁵?",
-      "options": [
-        "123",
-        "117",
-        "126",
-        "129"
-      ],
-      "answer": 0,
-      "explanation": "x² + 1/x² = 9 − 2 = 7; x³ + 1/x³ = 27 − 9 = 18. Then x⁵ + 1/x⁵ = (x² + 1/x²)(x³ + 1/x³) − (x + 1/x) = 126 − 3 = 123.",
-      "verified": true
+      "verified": true,
+      "archetype": "xat-Q02",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Second meeting after turnaround at 60 km from P (3D total distance); good XAT TSD with 30/45 traps"
+      }
     },
     {
       "id": "xat-038",
@@ -833,7 +968,14 @@
       ],
       "answer": 0,
       "explanation": "(x − y)(x + y) = 45. Both factors must have the same parity; since 45 is odd, all its factor pairs are odd. Ordered factor pairs (a, b) with ab = 45: (1, 45), (3, 15), (5, 9), (9, 5), (15, 3), (45, 1) and their negatives — 12 pairs, each giving integer x = (a + b)/2, y = (b − a)/2. So 12.",
-      "verified": true
+      "verified": true,
+      "archetype": "xat-Q07",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "x^2-y^2=45 has 12 integer pairs incl. negatives, with 6 as the positive-only trap; strong XAT integer-solution item"
+      }
     },
     {
       "id": "xat-039",
@@ -849,7 +991,14 @@
       ],
       "answer": 2,
       "explanation": "x = 2: f(2) + 2f(1/2) = 6. x = 1/2: f(1/2) + 2f(2) = 3/2, so f(1/2) = 3/2 − 2f(2). Substituting: f(2) + 3 − 4f(2) = 6 → f(2) = −1.",
-      "verified": true
+      "verified": true,
+      "archetype": "xat-Q08",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "f(x)+2f(1/x)=3x -> f(2)=-1; typical XAT functional equation"
+      }
     },
     {
       "id": "xat-040",
@@ -865,39 +1014,14 @@
       ],
       "answer": 3,
       "explanation": "a/(1 − r) = 20 and a²/(1 − r²) = 100. Dividing: a/(1 + r) = 5. So 20(1 − r) = 5(1 + r) → r = 3/5, a = 20 × 2/5 = 8.",
-      "verified": true
-    },
-    {
-      "id": "xat-041",
-      "section": "qadi",
-      "topic": "Geometry & Mensuration",
-      "difficulty": "hard",
-      "question": "A triangle has sides 13 cm, 14 cm and 15 cm. What is the radius of its circumcircle?",
-      "options": [
-        "7.5 cm",
-        "8 cm",
-        "8.125 cm",
-        "8.5 cm"
-      ],
-      "answer": 2,
-      "explanation": "s = 21, area = √(21 × 8 × 7 × 6) = 84. R = abc/(4 × area) = (13 × 14 × 15)/336 = 2730/336 = 8.125 cm.",
-      "verified": true
-    },
-    {
-      "id": "xat-042",
-      "section": "qadi",
-      "topic": "Geometry & Mensuration",
-      "difficulty": "medium",
-      "question": "In a regular hexagon of side 6 cm, alternate vertices are joined to form a triangle. What is the area of this triangle?",
-      "options": [
-        "54√3 cm²",
-        "27√3 cm²",
-        "36√3 cm²",
-        "18√3 cm²"
-      ],
-      "answer": 1,
-      "explanation": "The distance between alternate vertices of a regular hexagon with side a is a√3 = 6√3. Equilateral-triangle area = (√3/4)(6√3)² = (√3/4)(108) = 27√3 cm² (exactly half the hexagon's 54√3).",
-      "verified": true
+      "verified": true,
+      "archetype": "xat-Q09",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Infinite GP sum 20 and squares 100 -> a=8; neat XAT-level progression"
+      }
     },
     {
       "id": "xat-043",
@@ -913,279 +1037,1682 @@
       ],
       "answer": 2,
       "explanation": "Line x/a + y/b = 1 with 2/a + 3/b = 1. By AM–GM, 1 = 2/a + 3/b ≥ 2√(6/(ab)), so ab ≥ 24 and the area ab/2 ≥ 12, with equality when 2/a = 3/b = 1/2, i.e. a = 4, b = 6.",
-      "verified": true
+      "verified": true,
+      "archetype": "xat-Q11",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Min intercept-triangle area through (2,3) = 12; classic XAT coordinate optimisation"
+      }
     },
     {
-      "id": "xat-044",
-      "section": "qadi",
-      "topic": "Number System",
-      "difficulty": "medium",
-      "question": "What is the highest power of 3 that divides 50! exactly?",
+      "id": "xat-065",
+      "section": "dm",
+      "topic": "Business & Managerial Decisions",
+      "difficulty": "hard",
+      "question": "A bakery sells 1,000 cakes a week at ₹400 each. The variable cost is ₹250 per cake and fixed costs are ₹90,000 a week. The owner is considering two options: (i) cut the price by 10%, which a survey suggests will raise weekly sales by 20%; or (ii) run an advertising campaign costing ₹20,000 a week, expected to raise sales by 15% at the current price. Which decision maximises weekly profit?",
       "options": [
-        "22",
-        "20",
-        "21",
-        "24"
-      ],
-      "answer": 0,
-      "explanation": "⌊50/3⌋ + ⌊50/9⌋ + ⌊50/27⌋ = 16 + 5 + 1 = 22.",
-      "verified": true
-    },
-    {
-      "id": "xat-045",
-      "section": "qadi",
-      "topic": "Number System",
-      "difficulty": "medium",
-      "question": "What are the last two digits of 7²⁰²⁶?",
-      "options": [
-        "01",
-        "49",
-        "07",
-        "43"
-      ],
-      "answer": 1,
-      "explanation": "7⁴ = 2401 ≡ 01 (mod 100). 2026 = 4 × 506 + 2, so 7²⁰²⁶ ≡ 7² = 49.",
-      "verified": true
-    },
-    {
-      "id": "xat-046",
-      "section": "qadi",
-      "topic": "Permutation, Combination & Probability",
-      "difficulty": "easy",
-      "question": "Two fair dice are thrown. What is the probability that the sum of the numbers shown is a prime number?",
-      "options": [
-        "1/3",
-        "5/12",
-        "7/18",
-        "1/2"
-      ],
-      "answer": 1,
-      "explanation": "Prime sums: 2 (1 way), 3 (2), 5 (4), 7 (6), 11 (2) = 15 outcomes out of 36 → 15/36 = 5/12.",
-      "verified": true
-    },
-    {
-      "id": "xat-047",
-      "section": "qadi",
-      "topic": "Permutation, Combination & Probability",
-      "difficulty": "medium",
-      "question": "In how many ways can 8 identical chocolates be distributed among 3 children so that each child gets at least 2?",
-      "options": [
-        "10",
-        "6",
-        "15",
-        "21"
-      ],
-      "answer": 1,
-      "explanation": "Give 2 to each first; 2 chocolates remain to be distributed freely among 3 children: C(2 + 2, 2) = 6.",
-      "verified": true
-    },
-    {
-      "id": "xat-048",
-      "section": "qadi",
-      "topic": "Data Interpretation",
-      "difficulty": "easy",
-      "question": "A company's sales (₹ lakh) by region and product are:\n\nRegion | P | Q | R\nNorth | 120 | 80 | 50\nSouth | 90 | 110 | 70\nEast | 60 | 40 | 100\nWest | 130 | 70 | 60\n\nIn which region does product R account for the largest share of that region's total sales?",
-      "options": [
-        "West",
-        "East",
-        "North",
-        "South"
-      ],
-      "answer": 1,
-      "explanation": "R's share: North 50/250 = 20%; South 70/270 ≈ 25.9%; East 100/200 = 50%; West 60/260 ≈ 23.1%. East.",
-      "verified": true
-    },
-    {
-      "id": "xat-049",
-      "section": "qadi",
-      "topic": "Data Interpretation",
-      "difficulty": "medium",
-      "question": "A company's sales (₹ lakh) by region and product are:\n\nRegion | P | Q | R\nNorth | 120 | 80 | 50\nSouth | 90 | 110 | 70\nEast | 60 | 40 | 100\nWest | 130 | 70 | 60\n\nApproximately what percentage of the company's total sales comes from product P?",
-      "options": [
-        "36.7%",
-        "38.5%",
-        "42.4%",
-        "40.8%"
+        "Cut the price, since it gives the larger increase in sales.",
+        "Cut the price by 10%.",
+        "Make no change, since both options reduce profit.",
+        "Run the advertising campaign."
       ],
       "answer": 3,
-      "explanation": "P total = 120 + 90 + 60 + 130 = 400. Company total = 250 + 270 + 200 + 260 = 980. 400/980 ≈ 40.8%.",
-      "verified": true
+      "explanation": "Current profit = 1,000 × 150 − 90,000 = ₹60,000. Price cut: 1,200 × (360 − 250) − 90,000 = ₹42,000. Advertising: 1,150 × 150 − 90,000 − 20,000 = ₹62,500. Advertising is the only option that raises profit.",
+      "source": "ai",
+      "archetype": "xat-D06",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Price cut gives 42,000 vs ads 62,500 vs current 60,000; XAT numerical DM with sales-volume trap"
+      }
     },
     {
-      "id": "xat-050",
+      "id": "xat-068",
+      "section": "dm",
+      "topic": "Business & Managerial Decisions",
+      "difficulty": "hard",
+      "question": "A factory makes two products. Product X earns a profit of ₹40 per unit and needs 2 machine-hours; product Y earns ₹50 per unit and needs 4 machine-hours. 400 machine-hours are available each week, and at most 150 units of X and 100 units of Y can be sold per week. Which weekly production plan maximises profit?",
+      "options": [
+        "50 units of X and 75 units of Y",
+        "150 units of X only",
+        "150 units of X and 25 units of Y",
+        "100 units of X and 50 units of Y"
+      ],
+      "answer": 2,
+      "explanation": "X earns ₹20 per machine-hour and Y ₹12.5, so make the maximum 150 X (300 hours) and use the remaining 100 hours for 25 Y: profit 6,000 + 1,250 = ₹7,250. The other plans give ₹6,500, ₹5,750 and ₹6,000.",
+      "source": "ai",
+      "archetype": "xat-D06",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Machine-hour constrained mix: X 150 + Y 25 = 7,250 beats others; contribution-per-hour XAT DM"
+      }
+    },
+    {
+      "id": "xat-071",
+      "section": "dm",
+      "topic": "Analytical Decision Making (Rule-based Sets)",
+      "difficulty": "hard",
+      "question": "A company's travel policy says: (1) Employees at grade M3 and above may fly business class on flights longer than 4 hours; all others fly economy. (2) Any employee may upgrade at his or her own cost. (3) International travel requires prior approval of the department head; if the employee is travelling with a client, approval of the CFO is also required. Rohit, at grade M2, will fly to Singapore (a 5.5-hour flight) with a client and wants the company to pay for business class. What is the correct position?",
+      "options": [
+        "The company will pay for business class, with approval from the CFO only.",
+        "The company will pay only for economy class, with approval from his department head only.",
+        "The company will pay for business class, with approval from his department head.",
+        "The company will pay only for economy class, and Rohit needs approval from both his department head and the CFO."
+      ],
+      "answer": 3,
+      "explanation": "Rule 1: as an M2, Rohit is entitled to economy regardless of flight length (he may upgrade at his own cost under rule 2). Rule 3: international travel with a client needs both the department head's and the CFO's approval.",
+      "source": "ai",
+      "archetype": "xat-D09",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "M2 economy only; client trip needs dept head and CFO; faithful XAT rule-application"
+      }
+    },
+    {
+      "id": "xat-097",
+      "section": "qadi",
+      "topic": "Algebra",
+      "difficulty": "hard",
+      "question": "How many ordered triples of positive odd integers (x, y, z) satisfy x + y + z = 15?",
+      "options": [
+        "28",
+        "36",
+        "21",
+        "0"
+      ],
+      "answer": 0,
+      "explanation": "Write x = 2a + 1, y = 2b + 1, z = 2c + 1 with a, b, c ≥ 0. Then 2(a + b + c) = 12, so a + b + c = 6, which has C(8, 2) = 28 non-negative solutions.",
+      "source": "ai",
+      "archetype": "xat-Q07",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Odd positive triples summing to 15 -> 28 via substitution; good XAT counting"
+      }
+    },
+    {
+      "id": "xat-121",
+      "section": "dm",
+      "topic": "Ethical Dilemmas",
+      "difficulty": "medium",
+      "passage": "xat-P01",
+      "question": "What should Meera do?",
+      "options": [
+        "Sign the release, since the retest passed comfortably and the SOP does allow a retest.",
+        "Approve the batch for the domestic market, where there is no deadline, and ship a later batch to the buyer.",
+        "Decline to sign, record the failed result and refer the disagreement to Dr. Rao as the SOP requires, while proposing ways to speed up the investigation.",
+        "Inform the drug regulator at once that the plant head is pressing her to release a failed batch."
+      ],
+      "answer": 2,
+      "explanation": "The SOP permits a retest to replace a failure only after an investigation finds a laboratory error, which has not happened, so signing (option 1) would breach the approved procedure. Option 2 sends the same doubtful batch to other patients. Going to the regulator (option 4) is premature when an internal escalation route exists and has not been tried. Option 3 follows the procedure, escalates through the right channel and still tries to address the deadline.",
+      "source": "ai",
+      "archetype": "xat-D01",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Pharma QA release vs SOP: escalate via SOP to corporate QA - XAT 2024-25 ethics caselet shape; 4 options vs XAT's 5"
+      }
+    },
+    {
+      "id": "xat-122",
+      "section": "dm",
+      "topic": "Ethical Dilemmas",
+      "difficulty": "hard",
+      "passage": "xat-P01",
+      "question": "Which of the following, if it happened, would most justify releasing the batch on time?",
+      "options": [
+        "A speeded-up investigation finds, before the shipping date, that the dissolution apparatus used in the first test was wrongly calibrated.",
+        "The retest result turns out to be well inside the specification limits.",
+        "The buyer confirms that it has accepted batches with similar test histories from other suppliers.",
+        "Sunil Batra agrees to give a written undertaking that he takes full responsibility for the release."
+      ],
+      "answer": 0,
+      "explanation": "Only an assignable laboratory error, documented by the investigation, allows the retest to replace the failure under the SOP. A wrongly calibrated instrument is exactly such an error. A comfortable retest (option 2), other suppliers' practices (option 3) and a personal undertaking (option 4) leave the SOP condition unmet.",
+      "source": "ai",
+      "archetype": "xat-D01",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Which fact justifies release: assignable lab error per SOP - good XAT 'most justify' twist"
+      }
+    },
+    {
+      "id": "xat-123",
+      "section": "dm",
+      "topic": "Ethical Dilemmas",
+      "difficulty": "hard",
+      "passage": "xat-P01",
+      "question": "Meera refers the matter to Dr. Rao, who, after a short call with Sunil Batra, instructs her to release the batch without waiting for the investigation. What is the most appropriate course for Meera?",
+      "options": [
+        "Release the batch, since the decision now rests with the corporate head of quality.",
+        "Record her objection in writing to Dr. Rao and, if the release goes ahead without a valid investigation, report it through the company's ethics or whistle-blower channel.",
+        "Send the test records to a newspaper so that public pressure stops the shipment.",
+        "Resign without stating her reasons, so that she is not associated with the release."
+      ],
+      "answer": 1,
+      "explanation": "Her signature would certify a release that breaches the approved SOP, so simple compliance (option 1) is not acceptable. Going to the media (option 3) skips the remaining internal remedies, and resigning silently (option 4) leaves the risk to patients unaddressed. Putting her dissent on record and using the formal ethics channel is the proportionate next step.",
+      "source": "ai",
+      "archetype": "xat-D01",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Superior overrides: record objection then whistle-blower channel; distractors (media, quit) are XAT-typical"
+      }
+    },
+    {
+      "id": "xat-124",
+      "section": "dm",
+      "topic": "Business & Managerial Decisions",
+      "difficulty": "medium",
+      "passage": "xat-P02",
+      "question": "Which of the following steps would best address the fall in Rasoi Rush's ratings?",
+      "options": [
+        "Offer a 20 per cent discount on orders placed between 8 pm and 10 pm to win back customers.",
+        "Hire additional delivery riders so that orders are picked up as soon as they are ready.",
+        "Launch a third brand to reduce dependence on the two existing brands.",
+        "Prepare base gravies and marinades in the idle afternoon hours so that each dinner order needs less burner time."
+      ],
+      "answer": 3,
+      "explanation": "Delays arise in the kitchen (riders wait 15–20 minutes at the counter), and the constraint is burner time at dinner. Moving preparation to idle afternoon hours relieves that constraint. A discount (option 1) adds demand at the bottleneck; more riders (option 2) do not speed up cooking; a third brand (option 3) adds load to the same kitchen.",
+      "source": "ai",
+      "archetype": "xat-D04",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Cloud-kitchen capacity: pre-prep in idle hours targets burner constraint - XAT operations DM"
+      }
+    },
+    {
+      "id": "xat-126",
+      "section": "dm",
+      "topic": "Business & Managerial Decisions",
+      "difficulty": "hard",
+      "passage": "xat-P02",
+      "question": "Kavya is also considering leasing a second kitchen in another part of Pune for ₹1.5 lakh a month. Which of the following information would be most useful for this decision?",
+      "options": [
+        "The number of dinner orders currently lost or delayed because of burner capacity, and the contribution each such order would earn.",
+        "The rent paid by other cloud kitchens in the proposed locality.",
+        "The number of competing cloud kitchens within three kilometres of the proposed site.",
+        "The average rating of restaurants that deliver to the proposed locality."
+      ],
+      "answer": 0,
+      "explanation": "A second kitchen is worth leasing only if the extra peak-hour orders it would serve earn more than its cost. The lost or delayed orders and their contribution measure exactly that benefit against the ₹1.5 lakh rent. The other items describe the market around the site but not whether the added capacity would pay for itself.",
+      "source": "ai",
+      "archetype": "xat-D04",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Information most useful for second-kitchen decision = lost orders x contribution; XAT info-needed item"
+      }
+    },
+    {
+      "id": "xat-127",
+      "section": "dm",
+      "topic": "Interpersonal & HR Situations",
+      "difficulty": "medium",
+      "passage": "xat-P03",
+      "question": "What should be Nandini's first step?",
+      "options": [
+        "Ask Ritesh to tell the team clearly that she, and not Prakash, is in charge.",
+        "Correct Prakash firmly the next time he questions her estimates in front of the team.",
+        "Hold a private conversation with Prakash, acknowledging his technical standing and agreeing on how decisions and client communication will be divided between them.",
+        "Assign Prakash to a separate internal project so that the release is not disrupted."
+      ],
+      "answer": 2,
+      "explanation": "The problem is a relationship and role-clarity issue with a valuable colleague, six weeks before a release that needs his expertise. A private conversation that recognises his standing and settles who does what addresses it directly without public confrontation (option 2), without appearing to need the manager's protection at the first step (option 1), and without sidelining the team's best architect (option 4).",
+      "source": "ai",
+      "archetype": "xat-D07",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Promoted over senior peer; private conversation first - matches XAT HR caselets, answer fairly obvious"
+      }
+    },
+    {
+      "id": "xat-128",
+      "section": "dm",
+      "topic": "Interpersonal & HR Situations",
+      "difficulty": "hard",
+      "passage": "xat-P03",
+      "question": "In the conversation, Prakash says he is upset because a previous manager had promised him the team-lead role two years ago. How should Nandini respond?",
+      "options": [
+        "Tell him that promises made by a previous manager have no bearing on the present decision.",
+        "Offer to share the team-lead role with him informally so that he does not feel slighted.",
+        "Promise to recommend him for the next team-lead opening if he cooperates on this release.",
+        "Suggest that he raise his career concerns with Ritesh, and offer him clear ownership of the release's technical architecture, including the architecture discussions with the bank."
+      ],
+      "answer": 3,
+      "explanation": "Nandini cannot undo the promotion or speak for the previous manager, so the career grievance belongs with Ritesh. She can, however, give Prakash real ownership where his strength lies, which also serves the release. Dismissing him (option 1) is needlessly cold; an informal shared lead (option 2) recreates the confusion; a conditional promise (option 3) is beyond her authority and looks like a bargain.",
+      "source": "ai",
+      "archetype": "xat-D07",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Response to old promise: route career issue to Ritesh and give architectural ownership; reasonable XAT nuance"
+      }
+    },
+    {
+      "id": "xat-129",
+      "section": "dm",
+      "topic": "Interpersonal & HR Situations",
+      "difficulty": "hard",
+      "passage": "xat-P03",
+      "question": "Three weeks later, Prakash, despite the agreement, sends a revised design directly to the bank without Nandini's review, contrary to the bank's agreed communication protocol. What should Nandini do?",
+      "options": [
+        "Write to the bank to withdraw the design and apologise for the breach of protocol.",
+        "Overlook it this time, since the release is close and the design may well be sound.",
+        "Raise it again privately with Prakash, record the breach, and inform Ritesh because the client relationship is now at risk.",
+        "Remove Prakash from all client communication with immediate effect."
+      ],
+      "answer": 2,
+      "explanation": "A private agreement has already been tried and broken, and the breach now touches the client, whose complaint about communication led to her appointment. Recording it and bringing in the manager is the appropriate escalation, while still speaking to Prakash first. Withdrawing the design (option 1) may embarrass the team needlessly before it is even reviewed; ignoring it (option 2) invites repetition; a unilateral ban (option 4) is a disproportionate jump.",
+      "source": "ai",
+      "archetype": "xat-D07",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Repeat breach: private talk + record + inform manager; graded escalation as XAT expects"
+      }
+    },
+    {
+      "id": "xat-130",
+      "section": "dm",
+      "topic": "Ethical Dilemmas",
+      "difficulty": "hard",
+      "passage": "xat-P04",
+      "question": "What is the best course of action for Jaldhara with respect to the offer?",
+      "options": [
+        "Reject the offer, since accepting money from a polluter would damage its credibility.",
+        "Accept the offer, on condition that the grant and its terms are publicly disclosed and that Shubh Tanners has no say over testing locations, methods or publication of results.",
+        "Accept the offer without publicity, so that the funding does not distract from its work.",
+        "Accept the offer only if Shubh Tanners first apologises publicly for last year's violation."
+      ],
+      "answer": 1,
+      "explanation": "Rejecting the grant (option 1) would cut testing from twelve locations to five, weakening the very monitoring that holds polluters to account. Quiet acceptance (option 3) is what would really damage credibility if discovered. An apology condition (option 4) does nothing to protect independence. Transparent acceptance with firewalls around testing and publication preserves both the work and its credibility.",
+      "source": "ai",
+      "archetype": "xat-D02",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Tainted CSR funding accepted with disclosure and independence conditions - classic XAT conflict-of-interest dilemma"
+      }
+    },
+    {
+      "id": "xat-131",
+      "section": "dm",
+      "topic": "Ethical Dilemmas",
+      "difficulty": "medium",
+      "passage": "xat-P04",
+      "question": "How should the board handle Mr. Saxena's position while it considers the offer?",
+      "options": [
+        "Have Mr. Saxena formally declare his interest and stay out of the discussion and vote on the offer.",
+        "Let Mr. Saxena take part fully, since his knowledge of the tannery will help the board judge the offer.",
+        "Ask Mr. Saxena to resign from the board before the offer is considered.",
+        "Postpone any decision until Mr. Saxena's consultancy contract with the tannery ends."
+      ],
+      "answer": 0,
+      "explanation": "A conflict of interest is normally managed by disclosure and recusal: the board keeps a member whose interest bears on only one decision, and the decision is untainted. Forcing a resignation (option 3) is excessive; full participation (option 2) taints the decision; postponing (option 4) may cost the grant for no gain.",
+      "source": "ai",
+      "archetype": "xat-D02",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Board member conflict: declare and recuse - correct but straightforward"
+      }
+    },
+    {
+      "id": "xat-132",
+      "section": "dm",
+      "topic": "Ethical Dilemmas",
+      "difficulty": "hard",
+      "passage": "xat-P04",
+      "question": "Jaldhara accepts the grant on the terms above. Eight months later, its new mobile laboratory finds that effluent from Shubh Tanners' outlet again exceeds permitted limits. What should Jaldhara do?",
+      "options": [
+        "Share the findings privately with Shubh Tanners and publish them only if the problem is not fixed within three months.",
+        "Return the remaining grant money before publishing the findings, to avoid any appearance of a conflict.",
+        "Leave the Shubh Tanners outlet out of the quarterly report while it reviews whether to continue the grant.",
+        "Inform Shubh Tanners in advance and publish the findings in the quarterly report, as it would for any other polluter."
+      ],
+      "answer": 3,
+      "explanation": "The grant was accepted on the promise that the funder would have no say over publication, and the reports are relied on by the media and the regulator. Treating the funder like any other polluter — with advance notice — keeps that promise. Delaying publication for the funder (option 1) or omitting it (option 3) is precisely the favour that would destroy credibility. Returning the money first (option 2) is unnecessary when the firewall has worked and would cut testing.",
+      "source": "ai",
+      "archetype": "xat-D02",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Publish violation by funder as for any polluter; tests independence clause; good follow-up"
+      }
+    },
+    {
+      "id": "xat-133",
+      "section": "dm",
+      "topic": "Business & Managerial Decisions",
+      "difficulty": "hard",
+      "passage": "xat-P05",
+      "question": "If Ashwin can take up only one of the two proposals, which should he choose, and by how much will it raise monthly profit?",
+      "options": [
+        "The supermarket deal, raising profit by ₹1,50,000.",
+        "The café, raising profit by ₹3,60,000.",
+        "The café, raising profit by ₹1,50,000.",
+        "The supermarket deal, raising profit by ₹1,00,000."
+      ],
+      "answer": 2,
+      "explanation": "Spare capacity is 2,600 − 2,000 = 600 kg, so the supermarket can get only 600 kg: 600 × (950 − 700) − 50,000 = ₹1,00,000 (supplying 800 kg would give the tempting ₹1,50,000, but capacity does not allow it, and diverting retail coffee earning ₹500/kg to earn ₹250/kg makes no sense). The café adds 6,00,000 − 2,40,000 − 300 × 700 = ₹1,50,000 (forgetting the coffee cost gives ₹3,60,000). So the café is better, by ₹1,50,000.",
+      "source": "ai",
+      "archetype": "xat-D06",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Contribution vs capacity: café ₹1.5L beats supermarket ₹1L (capacity-capped at 600 kg); XAT numeric DM"
+      }
+    },
+    {
+      "id": "xat-134",
+      "section": "dm",
+      "topic": "Business & Managerial Decisions",
+      "difficulty": "hard",
+      "passage": "xat-P05",
+      "question": "If Ashwin takes up both proposals, what is the maximum increase in monthly profit he can achieve?",
+      "options": [
+        "₹2,50,000",
+        "₹1,75,000",
+        "₹3,00,000",
+        "₹1,50,000"
+      ],
+      "answer": 1,
+      "explanation": "The café uses 300 kg, leaving 600 − 300 = 300 kg of spare capacity for the supermarket. Café: +₹1,50,000. Supermarket: 300 × 250 − 50,000 = +₹25,000. Total ₹1,75,000. Adding the stand-alone figures (1,50,000 + 1,00,000) ignores the shared capacity.",
+      "source": "ai",
+      "archetype": "xat-D06",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Both proposals within 600 kg spare: 1.5L + 25k = 1.75L; verified"
+      }
+    },
+    {
+      "id": "xat-135",
+      "section": "dm",
+      "topic": "Business & Managerial Decisions",
+      "difficulty": "hard",
+      "passage": "xat-P05",
+      "question": "With the café running, the supermarket offers ₹1,000 per kg if Beanstalk supplies exactly 800 kg a month. Ashwin can add 500 kg a month of roasting capacity by running a night shift at a fixed cost of ₹1,20,000 a month (variable cost unchanged). What should he do?",
+      "options": [
+        "Run the night shift and supply 800 kg a month at ₹1,000 per kg.",
+        "Supply 300 kg a month at ₹950 per kg without a night shift.",
+        "Drop the supermarket proposal, since the night shift costs more than the supermarket margin on the extra coffee.",
+        "Run the night shift and supply 600 kg a month at ₹950 per kg."
+      ],
+      "answer": 0,
+      "explanation": "Night shift + 800 kg at ₹1,000: 800 × 300 − 50,000 − 1,20,000 = ₹70,000. Without the shift, 300 kg at ₹950: ₹25,000. Night shift + 600 kg at ₹950 (option 4): 600 × 250 − 50,000 − 1,20,000 = −₹20,000. Dropping the deal gives ₹0. The night shift with 800 kg is best (capacity 3,100 = 2,000 + 300 + 800).",
+      "source": "ai",
+      "archetype": "xat-D06",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Night shift + 800 kg @1000 gives 70k vs 25k / -20k; verified, XAT-style what-if"
+      }
+    },
+    {
+      "id": "xat-136",
+      "section": "dm",
+      "topic": "Analytical Decision Making (Rule-based Sets)",
+      "difficulty": "medium",
+      "passage": "xat-P06",
+      "question": "Ankit, ranked 14th in first-year CGPA, was found guilty of a disciplinary violation in his first year. He is one of the three students with a documented medical need. What is his position?",
+      "options": [
+        "He is not eligible for a single room because of his disciplinary record.",
+        "He will get a single room only if fewer than 10 students without disciplinary records apply.",
+        "He will get a single room only if his CGPA rank is within the top 10.",
+        "He is entitled to a single room under the medical-need provision, despite his disciplinary record."
+      ],
+      "answer": 3,
+      "explanation": "Rule 2 makes an exception \"on medical grounds\", and rule 1 gives students with documented medical needs first claim on single rooms. With only three such students and ten rooms, Ankit gets a single room; his CGPA rank and the disciplinary bar do not apply to a medical allotment.",
+      "source": "ai",
+      "archetype": "xat-D09",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Rule set: medical-need exception overrides disciplinary bar; XAT rule-application set"
+      }
+    },
+    {
+      "id": "xat-138",
+      "section": "dm",
+      "topic": "Analytical Decision Making (Rule-based Sets)",
+      "difficulty": "hard",
+      "passage": "xat-P06",
+      "question": "One family quarter is left. Esha applied on 20 May; her spouse will live on campus for three months. Farhan applied on 25 May; his spouse will live on campus for the whole year. Dev applied on 1 June; his spouse will live on campus for five months. Who should be allotted the quarter?",
+      "options": [
+        "Esha",
+        "Dev",
+        "Esha and Farhan, by draw of lots",
+        "Farhan"
+      ],
+      "answer": 3,
+      "explanation": "Esha is ineligible under rule 4 because her spouse will stay less than four months. Of the eligible applicants, Farhan (25 May) applied before Dev (1 June), and allotment is by date of application, so Farhan gets the quarter. The length of the spouse's stay above four months does not create priority.",
+      "source": "ai",
+      "archetype": "xat-D09",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Family quarters: Esha fails 4-month spouse condition so Farhan by date; good clause interplay"
+      }
+    },
+    {
+      "id": "xat-139",
+      "section": "dm",
+      "topic": "Interpersonal & HR Situations",
+      "difficulty": "hard",
+      "passage": "xat-P07",
+      "question": "What should Rohini do?",
+      "options": [
+        "Appoint Harish to the merged store and offer Gauri the Bhopal position, with a suitable interim role until it falls vacant.",
+        "Appoint Harish to the merged store and let Gauri go, since only one manager is needed.",
+        "Ask both managers to apply for the merged store and decide after interviews by an external panel.",
+        "Appoint Gauri to the merged store, given her longer record of meeting sales targets and her standing with staff."
+      ],
+      "answer": 0,
+      "explanation": "The merged store will be judged on online-order fulfilment, where Harish has the stronger record; Gauri's strength in sales and staff relations does not match this mandate as closely. Letting Gauri go (option 2) wastes a valued manager when a vacancy is two months away, and an external interview process (option 3) only delays a decision the facts already support.",
+      "source": "ai",
+      "archetype": "xat-D08",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Choose manager by role mandate and redeploy other - XAT promotion/fairness caselet"
+      }
+    },
+    {
+      "id": "xat-142",
+      "section": "valr",
+      "topic": "Reading Comprehension",
+      "difficulty": "hard",
+      "passage": "xat-P08",
+      "question": "Which of the following best captures the main contention of the passage?",
+      "options": [
+        "Selection by merit is unjust because the capacities it rewards are distributed by unchosen circumstances.",
+        "Choosing people for tasks on the basis of merit is defensible, but treating merit as a full justification of how rewards are distributed in society is not.",
+        "Michael Young's warning about meritocracy has been proved right by the hostility between elites and the rest of society.",
+        "Markets reward skills according to demand and scarcity, so pay differences tell us nothing about the people who earn them."
+      ],
+      "answer": 1,
+      "explanation": "The author separates \"appointing the competent to tasks that require competence\", which is accepted, from \"a comprehensive theory of desert\", which runs into two difficulties and \"cannot bear the moral weight\". Option 1 rejects selection by merit, which the author explicitly keeps. Option 3 claims a vindication the passage does not report. Option 4 overstates one of the two difficulties.",
+      "source": "ai",
+      "archetype": "xat-V01",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Meritocracy (Young/Sandel-type) passage main contention - squarely XAT socio-philosophical RC"
+      }
+    },
+    {
+      "id": "xat-143",
+      "section": "valr",
+      "topic": "Reading Comprehension",
+      "difficulty": "hard",
+      "passage": "xat-P08",
+      "question": "The author would most likely agree with which of the following?",
+      "options": [
+        "A society that selects its doctors by examination is thereby committed to believing that those who fail the examination deserve less.",
+        "An examination system that is administered without any bias will remove the inequalities created by family background.",
+        "Belief that one's position is undeserved can make low status easier to bear than belief that one has earned it.",
+        "The pay gap between a programmer and a nurse shows that programmers contribute more to society than nurses."
+      ],
+      "answer": 2,
+      "explanation": "Young's point, endorsed in the passage, is that those at the bottom of a meritocracy lose \"the consolation that their position was an accident\" and are left with the verdict that it is their fault — i.e. believing low status undeserved is easier to bear. Option 1 is the opposite of \"declining to believe that the examination has revealed who deserves a good life\". Option 2 contradicts the claim that faithful reward of merit reproduces inequality. Option 4 contradicts the programmer–nurse example.",
+      "source": "ai",
+      "archetype": "xat-V02",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Would-agree: undeserved status easier to bear; subtle inference from Young's point"
+      }
+    },
+    {
+      "id": "xat-144",
+      "section": "valr",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "passage": "xat-P08",
+      "question": "The example of the programmer and the nurse is used in the passage to",
+      "options": [
+        "illustrate that the market value of a skill depends on demand and scarcity rather than on any deep difference in merit.",
+        "show that technical skills are valued more highly than caring skills in modern economies.",
+        "argue that nurses should be paid as much as programmers.",
+        "demonstrate that the capacities rewarded by markets are shaped by childhood circumstances."
+      ],
+      "answer": 0,
+      "explanation": "The example supports \"the second difficulty\", about what merit is worth: the programmer earns more \"because of the configuration of demand\". Option 2 restates the content without the point; option 3 is a prescription the author never makes; option 4 belongs to the first difficulty.",
+      "source": "ai",
+      "archetype": "xat-V03",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Role of programmer/nurse example; option 3 confuses with first objection - good trap"
+      }
+    },
+    {
+      "id": "xat-145",
+      "section": "valr",
+      "topic": "Reading Comprehension",
+      "difficulty": "hard",
+      "passage": "xat-P08",
+      "question": "Which of the following, if true, would most weaken the author's first objection to the meritocratic belief?",
+      "options": [
+        "Examination results correlate strongly with later performance in the jobs for which candidates are selected.",
+        "In countries with highly meritocratic school systems, the earnings of children are strongly related to those of their parents.",
+        "Most people in meritocratic societies believe that hard work, rather than luck, explains success.",
+        "Studies of adopted children find that their examination performance is unrelated to the income and education of the families that raised them."
+      ],
+      "answer": 3,
+      "explanation": "The first objection is that the capacities rewarded are shaped by unchosen circumstances, so rewarding them reproduces background inequality. If the performance of adopted children is unrelated to the circumstances of the families that raised them, the capacities that examinations reward are not being shaped by home environment, which undercuts the objection (option 4). Option 1 concerns selection, which the author accepts; option 2 supports the objection; option 3 is about beliefs, not the objection's truth.",
+      "source": "ai",
+      "archetype": "xat-V04",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Weaken first objection via adoption study; option 1 strengthens - XAT-faithful"
+      }
+    },
+    {
+      "id": "xat-146",
+      "section": "valr",
+      "topic": "Reading Comprehension",
+      "difficulty": "hard",
+      "passage": "xat-P09",
+      "question": "The central concern of the passage is",
+      "options": [
+        "to show that pre-industrial work was more humane than factory work because it followed natural rhythms.",
+        "to argue that later historians have refuted Thompson's account of how industrial time discipline arose.",
+        "to trace how the purchase of working time changed people's relationship to time, and to ask what that history implies for task-based work today.",
+        "to explain why employers in the industrial era imposed fines for lateness and campaigned against absenteeism."
+      ],
+      "answer": 2,
+      "explanation": "The passage sets out Thompson's thesis, accepts its core despite later qualifications, and applies it to contemporary task-based work. Option 1 takes on the \"romantic contrast\" the passage treats with caution. Option 2 contradicts \"the core of the argument survives\". Option 4 is a supporting detail.",
+      "source": "ai",
+      "archetype": "xat-V01",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Thompson time-discipline passage central concern; XAT historical-sociology RC"
+      }
+    },
+    {
+      "id": "xat-147",
+      "section": "valr",
+      "topic": "Reading Comprehension",
+      "difficulty": "hard",
+      "passage": "xat-P09",
+      "question": "Which of the following can be inferred from the passage about contemporary task-based work?",
+      "options": [
+        "It restores the natural rhythm of pre-industrial task orientation.",
+        "It frees workers from time discipline, since they are paid for results rather than hours.",
+        "It is less productive than work organised around hours, since tasks are never quite finished.",
+        "It can leave workers enforcing time discipline on themselves while the boundary between work and life weakens."
+      ],
+      "answer": 3,
+      "explanation": "The last paragraph says the old discipline has \"moved inside\": the task-paid worker \"must police her own hours\" and the line between working and living time \"becomes blurred again\". Option 1 is denied (\"without the continuity of rhythm\"). Option 2 is the view the author qualifies (\"to some this signals a liberation\"). Option 3 is about productivity, which the passage does not discuss.",
+      "source": "ai",
+      "archetype": "xat-V02",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Inference on gig work self-policing; distractors from 'liberation' view"
+      }
+    },
+    {
+      "id": "xat-148",
+      "section": "valr",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "passage": "xat-P09",
+      "question": "The passage mentions monasteries and merchants that kept close track of time in order to",
+      "options": [
+        "show that a strict sense of time existed before industrial capitalism, as part of the critics' qualification of Thompson.",
+        "argue that time discipline originated in religious institutions rather than in factories.",
+        "illustrate the irregular, task-oriented rhythm of pre-industrial work.",
+        "suggest that the factory clock was borrowed from commercial practice."
+      ],
+      "answer": 0,
+      "explanation": "They appear among the \"complications\" raised by later historians against the neat task-versus-clock opposition. The passage does not claim religious origins (option 2) or a borrowing (option 4), and they are counter-examples to irregular rhythms, not illustrations of them (option 3).",
+      "source": "ai",
+      "archetype": "xat-V03",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Function of merchants/monasteries detail as critics' qualification"
+      }
+    },
+    {
+      "id": "xat-149",
+      "section": "valr",
+      "topic": "Reading Comprehension",
+      "difficulty": "hard",
+      "passage": "xat-P09",
+      "question": "According to the passage, each of the following was part of the industrial-era effort to make every purchased hour productive EXCEPT",
+      "options": [
+        "fines for arriving late.",
+        "payment for finished pieces rather than for hours.",
+        "sermons on punctuality.",
+        "campaigns against taking Monday off."
+      ],
+      "answer": 1,
+      "explanation": "The passage lists bells, clocking-in, fines for lateness, sermons on punctuality and campaigns against \"Saint Monday\". Paying for finished pieces is presented as the contrasting arrangement — the employer who pays for hours, \"rather than for finished pieces\", is the one with the interest in time discipline.",
+      "source": "ai",
+      "archetype": "xat-V03",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "EXCEPT: piece-rate pay is opposite of hour-purchase; fair detail check"
+      }
+    },
+    {
+      "id": "xat-150",
+      "section": "valr",
+      "topic": "Poem-based Questions",
+      "difficulty": "hard",
+      "passage": "xat-P10",
+      "question": "Which of the following best expresses the central idea of the poem?",
+      "options": [
+        "The ferryman resents the bridge because it will take away his livelihood.",
+        "For the ferryman, meaning lies in the act of crossing itself rather than in any destination it leads to.",
+        "Travellers value the ferryman less than they will value the bridge that replaces him.",
+        "The ferryman is trapped by poverty in a job that has never let him see the world."
+      ],
+      "answer": 1,
+      "explanation": "\"Never once arrived\", \"each bank is only where he turns\" and the closing line — the river \"is what he crossed it for\" — locate his purpose in the crossing, not the shores. The poem shows no resentment (option 1; he answers talk of the bridge by remarking on the weather), passes no judgement on the travellers' valuation (option 3), and presents his staying as fidelity, not entrapment (option 4).",
+      "source": "ai",
+      "archetype": "xat-V12",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Short poem central idea - XAT 2024-26 poem format; option 0 literal-livelihood trap"
+      }
+    },
+    {
+      "id": "xat-151",
+      "section": "valr",
+      "topic": "Poem-based Questions",
+      "difficulty": "hard",
+      "passage": "xat-P10",
+      "question": "The lines \"he coils his rope and reads the sky / and says it looks like rain\" suggest that the ferryman",
+      "options": [
+        "is anxious that the weather will delay the building of the bridge.",
+        "does not understand what the planned bridge will mean for him.",
+        "turns calmly to the work and weather at hand rather than join the talk of the future bridge.",
+        "is warning the planners that the bridge will be washed away."
+      ],
+      "answer": 2,
+      "explanation": "Set against others' talk of the bridge as \"a gift, a road, a gain\", his attention to his rope and the sky shows quiet absorption in present work — neither anxiety (option 1) nor a prophecy (option 4). Nothing suggests he fails to understand (option 2); the last stanza shows he knows exactly what he will and will not do.",
+      "source": "ai",
+      "archetype": "xat-V12",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Image meaning of 'reads the sky'; good"
+      }
+    },
+    {
+      "id": "xat-152",
+      "section": "valr",
+      "topic": "Poem-based Questions",
+      "difficulty": "medium",
+      "passage": "xat-P10",
+      "question": "The tone of the poem towards the ferryman is best described as",
+      "options": [
+        "admiring and quietly respectful",
+        "pitying",
+        "ironic and dismissive",
+        "nostalgic and mournful"
+      ],
+      "answer": 0,
+      "explanation": "The poem dwells on his steadiness, his indifference to payment in coin or prayer, and his fidelity to the river, without lament or mockery. It does not pity him (he is not presented as a victim), mock him, or mourn a lost past — the bridge is still only planned.",
+      "source": "ai",
+      "archetype": "xat-V12",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Tone admiring/respectful vs nostalgic; mildly debatable but defensible"
+      }
+    },
+    {
+      "id": "xat-154",
+      "section": "valr",
+      "topic": "Critical Reasoning",
+      "difficulty": "hard",
+      "question": "\"Our company's employees who attended the voluntary leadership workshop were promoted at twice the rate of those who did not. The workshop clearly develops leadership ability, and we should make it compulsory for all employees.\"\n\nThe argument above assumes that",
+      "options": [
+        "employees who chose to attend the workshop were not already more likely to be promoted than those who did not.",
+        "the workshop is the only form of training the company offers.",
+        "promotions in the company are based only on leadership ability.",
+        "making the workshop compulsory will not increase its cost."
+      ],
+      "answer": 0,
+      "explanation": "Attendance was voluntary, so the attendees may have been more ambitious or already better regarded. The conclusion holds only if this self-selection does not explain the higher promotion rate. Options 2 and 4 are not needed for the conclusion; option 3 is too strong — promotions need not depend only on leadership for the workshop to help.",
+      "source": "ai",
+      "archetype": "xat-V05",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Self-selection assumption; standard CR"
+      }
+    },
+    {
+      "id": "xat-155",
+      "section": "valr",
+      "topic": "Critical Reasoning",
+      "difficulty": "hard",
+      "question": "A packaged-snacks company cut the price of its 100-gram chips pack from ₹30 to ₹25 in one state. In the following quarter, its revenue from the pack in that state rose by 12 per cent. The marketing head concluded that the price cut had expanded the market.\n\nWhich of the following, if true, would most strengthen this conclusion?",
+      "options": [
+        "The company's sales of its 200-gram pack in the state fell sharply in the same quarter.",
+        "A rival brand raised its prices in the state during the same quarter.",
+        "Total sales of chips in the state, across all brands, rose substantially, while the company's other pack sizes held steady.",
+        "The company advertised the 100-gram pack heavily in the state during the quarter."
+      ],
+      "answer": 2,
+      "explanation": "\"Expanded the market\" means new consumption, not shifting buyers between packs or brands. Total category sales rising while the company's other packs held steady rules out cannibalisation and supports expansion. Option 1 suggests cannibalisation; option 2 suggests buyers switched from the rival; option 4 offers an alternative cause.",
+      "source": "ai",
+      "archetype": "xat-V06",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Strengthen market expansion vs cannibalisation; business-flavoured as XAT likes"
+      }
+    },
+    {
+      "id": "xat-157",
+      "section": "valr",
+      "topic": "Critical Reasoning",
+      "difficulty": "medium",
+      "question": "In a company, every manager who has completed the compliance course is allowed to approve expenses. No one who is allowed to approve expenses is on the audit committee. Some members of the audit committee are managers.\n\nWhich of the following must be true?",
+      "options": [
+        "No manager is allowed to approve expenses.",
+        "Some people who are allowed to approve expenses have not completed the compliance course.",
+        "Every manager who is not on the audit committee has completed the compliance course.",
+        "Some managers have not completed the compliance course."
+      ],
+      "answer": 3,
+      "explanation": "Take a manager on the audit committee. If that manager had completed the course, he would be allowed to approve expenses, and so could not be on the audit committee — a contradiction. So that manager has not completed the course, and option 4 must be true. Options 1, 3 and 2 may or may not be true.",
+      "source": "ai",
+      "archetype": "xat-V07",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Deductive: audit-committee managers lack course - XAT conditional-logic item"
+      }
+    },
+    {
+      "id": "xat-158",
+      "section": "valr",
+      "topic": "Critical Reasoning",
+      "difficulty": "hard",
+      "question": "\"Over the last decade, the number of start-ups registered in the city has tripled, while the number of large manufacturing firms has fallen by a third. Evidently, the growth of start-ups has been drawing talent away from manufacturing and causing its decline.\"\n\nWhich of the following best describes a flaw in the argument?",
+      "options": [
+        "It relies on figures for a single city to draw a conclusion about the whole country.",
+        "It assumes that start-ups and manufacturing firms compete for customers.",
+        "It overlooks the possibility that people leaving declining manufacturing firms have been founding start-ups.",
+        "It fails to give the absolute number of start-ups registered in the city."
+      ],
+      "answer": 2,
+      "explanation": "The argument infers that start-up growth caused manufacturing decline from two simultaneous trends; the causation may run the other way, with displaced manufacturing staff founding start-ups. Option 1 misdescribes the argument (it concludes only about the city). Option 2 is not assumed (the argument is about talent, not customers). Option 4 does not affect the reasoning.",
+      "source": "ai",
+      "archetype": "xat-V05",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Reverse-causation flaw; adequate XAT-level flaw item"
+      }
+    },
+    {
+      "id": "xat-161",
+      "section": "valr",
+      "topic": "Vocabulary & Grammar",
+      "difficulty": "hard",
+      "question": "Choose the pair of words that best completes the sentence.\n\nThe committee's report was so ________ in its praise of the project that readers began to suspect it had been written to ________ the minister rather than to assess the scheme.",
+      "options": [
+        "measured … criticise",
+        "lavish … expose",
+        "grudging … please",
+        "fulsome … flatter"
+      ],
+      "answer": 3,
+      "explanation": "Praise excessive enough to arouse suspicion is \"fulsome\", and the suspected motive must fit that excess: to \"flatter\" the minister. \"Measured\" and \"grudging\" praise would not arouse that suspicion, and \"lavish … expose\" pairs excessive praise with an incompatible motive.",
+      "source": "ai",
+      "archetype": "xat-V10",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Double-blank vocab 'fulsome...flatter'; XAT vocab-in-context"
+      }
+    },
+    {
+      "id": "xat-163",
+      "section": "qadi",
+      "topic": "Data Interpretation",
+      "difficulty": "medium",
+      "passage": "xat-P11",
+      "question": "Which firm recorded the highest percentage growth in revenue from 2024 to 2025?",
+      "options": [
+        "B",
+        "D",
+        "C",
+        "A"
+      ],
+      "answer": 1,
+      "explanation": "Growth: A 180/1200 = 15%, B 270/900 = 30%, C 130/650 = 20%, D 160/400 = 40%, E 50/250 = 20%. D is highest; B has the largest absolute increase (₹270 crore), which is the trap.",
+      "source": "ai",
+      "archetype": "xat-Q17",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Table DI growth %, D 40%; SVG table rendered and matches text"
+      }
+    },
+    {
+      "id": "xat-164",
+      "section": "qadi",
+      "topic": "Data Interpretation",
+      "difficulty": "medium",
+      "passage": "xat-P11",
+      "question": "Which firm earned the highest net profit in 2025?",
+      "options": [
+        "D",
+        "A",
+        "B",
+        "C"
+      ],
+      "answer": 2,
+      "explanation": "Net profit = revenue × margin: A 82.8, B 105.3, C 93.6, D 84.0, E −12 (₹ crore). B is highest even though D has the highest margin and A the highest revenue.",
+      "source": "ai",
+      "archetype": "xat-Q17",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Net profit with A as largest-revenue trap; verified B=105.3"
+      }
+    },
+    {
+      "id": "xat-165",
+      "section": "qadi",
+      "topic": "Data Interpretation",
+      "difficulty": "medium",
+      "passage": "xat-P11",
+      "question": "Which firm had the highest average revenue per unit sold in 2025?",
+      "options": [
+        "C",
+        "D",
+        "B",
+        "A"
+      ],
+      "answer": 0,
+      "explanation": "Revenue per unit = (revenue in ₹ crore × 10⁷)/(units in thousand × 10³): A 1,380/115 → ₹1.2 lakh, B 1,170/90 → ₹1.3 lakh, C 780/52 → ₹1.5 lakh, D 560/40 → ₹1.4 lakh, E 300/25 → ₹1.2 lakh. C is highest, although A sells the most units and has the highest revenue.",
+      "source": "ai",
+      "archetype": "xat-Q17",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Revenue per unit C=15k; straightforward"
+      }
+    },
+    {
+      "id": "xat-166",
       "section": "qadi",
       "topic": "Data Interpretation",
       "difficulty": "hard",
-      "question": "A company's sales (₹ lakh) by region and product are:\n\nRegion | P | Q | R\nNorth | 120 | 80 | 50\nSouth | 90 | 110 | 70\nEast | 60 | 40 | 100\nWest | 130 | 70 | 60\n\nNext year, sales of every product rise by 10% in North and fall by 10% in East, while South and West are unchanged. Approximately what is the percentage change in the company's total sales?",
+      "passage": "xat-P11",
+      "question": "Which firm's share of the market by revenue fell by the largest number of percentage points from 2024 to 2025?",
       "options": [
-        "A decrease of about 0.5%",
-        "An increase of about 1%",
-        "An increase of about 0.5%",
-        "No change"
+        "C",
+        "E",
+        "B",
+        "A"
+      ],
+      "answer": 3,
+      "explanation": "Total revenue: 2024 ₹3,400 crore, 2025 ₹4,190 crore. Shares 2024 → 2025: A 35.29% → 32.94% (−2.35), B 26.47% → 27.92% (+1.45), C 19.12% → 18.62% (−0.50), D 11.76% → 13.37% (+1.60), E 7.35% → 7.16% (−0.19). A, despite the second-largest absolute revenue gain, lost the most share because it grew slower than the market (23.2%).",
+      "source": "ai",
+      "archetype": "xat-Q17",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Share-of-market fall in pp (A -2.36); harder XAT DI step"
+      }
+    },
+    {
+      "id": "xat-167",
+      "section": "qadi",
+      "topic": "Data Interpretation",
+      "difficulty": "medium",
+      "passage": "xat-P12",
+      "question": "Approximately what share of the retailer's net revenue in March came from the app?",
+      "options": [
+        "55%",
+        "48%",
+        "43%",
+        "40%"
       ],
       "answer": 2,
-      "explanation": "North +10% of 250 = +25; East −10% of 200 = −20. Net +5 on 980 ≈ +0.51%.",
-      "verified": true
+      "explanation": "Net revenue (₹ lakh): app 6,600 × 800 × 0.90 = 47.52; website 3,600 × 1,100 × 0.92 = 36.432; partner 1,800 × 1,500 × 0.96 = 25.92; total 109.872. App share = 47.52/109.872 ≈ 43%. 55% is the share of orders, not of net revenue.",
+      "source": "ai",
+      "archetype": "xat-Q18",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Net revenue share app 43%; verified"
+      }
     },
     {
-      "id": "xat-051",
-      "section": "gk",
-      "topic": "Current Affairs",
-      "difficulty": "easy",
-      "question": "Who has been the Governor of the Reserve Bank of India since December 2024?",
+      "id": "xat-168",
+      "section": "qadi",
+      "topic": "Data Interpretation",
+      "difficulty": "hard",
+      "passage": "xat-P12",
+      "question": "Suppose that in April the total number of orders is unchanged, but 10% of the orders that would have come through the app come through the website instead, with each channel's average order value and return rate unchanged. By how much would net revenue in April exceed that in March?",
       "options": [
-        "Shaktikanta Das",
-        "Sanjay Malhotra",
-        "Urjit Patel",
-        "Michael Patra"
+        "₹1,92,720",
+        "₹1,98,000",
+        "₹2,64,000",
+        "₹1,72,800"
       ],
-      "answer": 1,
-      "explanation": "Sanjay Malhotra took charge as the 26th RBI Governor on 11 December 2024, succeeding Shaktikanta Das.",
-      "verified": true
+      "answer": 0,
+      "explanation": "660 orders move from the app (net ₹800 × 0.90 = ₹720 each) to the website (net ₹1,100 × 0.92 = ₹1,012 each). Gain = 660 × (1,012 − 720) = 660 × 292 = ₹1,92,720. Ignoring returns gives 660 × 300 = ₹1,98,000.",
+      "source": "ai",
+      "archetype": "xat-Q18",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "What-if channel shift +₹1,92,720; verified"
+      }
     },
     {
-      "id": "xat-052",
-      "section": "gk",
-      "topic": "Current Affairs",
-      "difficulty": "medium",
-      "question": "The 2025 Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel was awarded for work on:",
+      "id": "xat-169",
+      "section": "qadi",
+      "topic": "Data Interpretation",
+      "difficulty": "hard",
+      "passage": "xat-P12",
+      "question": "How many additional partner-store orders (with the same average value and return rate) would the retailer have needed in March for net revenue from partner stores to equal net revenue from the website?",
       "options": [
-        "auction theory",
-        "behavioural finance",
-        "innovation-driven economic growth",
-        "poverty alleviation experiments"
+        "700",
+        "760",
+        "701",
+        "730"
+      ],
+      "answer": 3,
+      "explanation": "Shortfall = 36,43,200 − 25,92,000 = ₹10,51,200. Each partner order adds net ₹1,500 × 0.96 = ₹1,440. 10,51,200/1,440 = 730 orders. Ignoring returns (₹1,500 per order) gives about 701.",
+      "source": "ai",
+      "archetype": "xat-Q18",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Additional partner orders 730; verified, near-miss distractors 700/701"
+      }
+    },
+    {
+      "id": "xat-173",
+      "section": "qadi",
+      "topic": "Geometry & Mensuration",
+      "difficulty": "hard",
+      "question": "ABCD is a square of side 10 cm. E is the midpoint of BC and F is the midpoint of CD. AE and BF intersect at P. What is the area of triangle ABP?",
+      "options": [
+        "25 cm²",
+        "16 cm²",
+        "20 cm²",
+        "18 cm²"
       ],
       "answer": 2,
-      "explanation": "The 2025 prize went to Joel Mokyr, Philippe Aghion and Peter Howitt for explaining innovation-driven economic growth (including 'creative destruction').",
-      "verified": true
+      "explanation": "Take A(0, 0), B(10, 0), C(10, 10), D(0, 10); E(10, 5), F(5, 10). AE: (10t, 5t); BF: (10 − 5s, 10s). Solving, s = 0.4, t = 0.8, so P = (8, 4). Area ABP = ½ × 10 × 4 = 20 cm². (AE ⟂ BF, a useful check.)",
+      "source": "ai",
+      "archetype": "xat-Q10",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Midpoint-line intersection in square, area 20; coordinate approach, XAT-like"
+      }
     },
     {
-      "id": "xat-053",
-      "section": "gk",
-      "topic": "Current Affairs",
-      "difficulty": "medium",
-      "question": "Which country holds the chairship of BRICS in 2026?",
+      "id": "xat-177",
+      "section": "qadi",
+      "topic": "Geometry & Mensuration",
+      "difficulty": "hard",
+      "question": "Two circles of radii 9 cm and 4 cm touch each other externally, and both touch a straight line L. A third circle touches both these circles externally and also touches L, lying in the region between the two circles and L. What is the radius of the third circle?",
       "options": [
-        "South Africa",
-        "Brazil",
-        "Russia",
-        "India"
+        "1.5 cm",
+        "1.2 cm",
+        "1.44 cm",
+        "2 cm"
       ],
-      "answer": 3,
-      "explanation": "Brazil chaired BRICS in 2025 and handed over to India, which holds the BRICS chairship for 2026.",
-      "verified": true
+      "answer": 2,
+      "explanation": "For two circles of radii r₁, r₂ touching each other and a line, the length of the line between the points of contact is 2√(r₁r₂). For the small circle of radius r: 2√(9r) + 2√(4r) = 2√36 = 12 → 5√r = 6 → r = 36/25 = 1.44 cm.",
+      "source": "ai",
+      "archetype": "xat-Q10",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Three mutually tangent circles on a line, 1/√r rule -> 1.44; XAT geometry flavour"
+      }
     },
     {
-      "id": "xat-054",
-      "section": "gk",
-      "topic": "Current Affairs",
-      "difficulty": "easy",
-      "question": "The UN Climate Change Conference COP30 (November 2025) was hosted by which country?",
+      "id": "xat-179",
+      "section": "qadi",
+      "topic": "Algebra",
+      "difficulty": "hard",
+      "question": "How many ordered triples of non-negative integers (x, y, z) satisfy x + 2y + 3z = 12?",
       "options": [
-        "Azerbaijan",
-        "Brazil",
-        "United Arab Emirates",
-        "Egypt"
+        "16",
+        "19",
+        "21",
+        "25"
       ],
       "answer": 1,
-      "explanation": "COP30 was held in Belém, Brazil. The UAE hosted COP28 (2023), Azerbaijan COP29 (2024) and Egypt COP27 (2022).",
-      "verified": true
+      "explanation": "For each z, x + 2y = 12 − 3z has ⌊(12 − 3z)/2⌋ + 1 solutions: z = 0 → 7, z = 1 → 5, z = 2 → 4, z = 3 → 2, z = 4 → 1. Total 19.",
+      "source": "ai",
+      "archetype": "xat-Q07",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Non-negative solutions of x+2y+3z=12 = 19; XAT counting style"
+      }
     },
     {
-      "id": "xat-055",
+      "id": "xat-180",
+      "section": "qadi",
+      "topic": "Algebra",
+      "difficulty": "medium",
+      "question": "A function f satisfies f(x) + f(1 − x) = 2 for every real x. What is the value of f(1/10) + f(2/10) + f(3/10) + … + f(9/10)?",
+      "options": [
+        "10",
+        "8",
+        "9",
+        "4.5"
+      ],
+      "answer": 2,
+      "explanation": "Pair f(k/10) with f(1 − k/10): (1/10, 9/10), (2/10, 8/10), (3/10, 7/10), (4/10, 6/10) give 4 × 2 = 8. The middle term: x = 1/2 gives 2f(1/2) = 2, so f(1/2) = 1. Total 9.",
+      "source": "ai",
+      "archetype": "xat-Q08",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "f(x)+f(1-x)=2 sum with middle term f(1/2) trap (8 vs 9); XAT-like"
+      }
+    },
+    {
+      "id": "xat-182",
+      "section": "qadi",
+      "topic": "Arithmetic",
+      "difficulty": "hard",
+      "question": "A trader marks his goods 40% above cost price. During a sale he offers a discount of d% on the marked price and, in addition, gives one article free with every four articles bought. If he still makes a profit of 5%, what is d?",
+      "options": [
+        "5",
+        "10",
+        "7.5",
+        "6.25"
+      ],
+      "answer": 3,
+      "explanation": "Let cost price be 100 per article. For 5 articles (cost 500) he receives 4 × 140 × (1 − d/100). Profit 5%: 560(1 − d/100) = 525 → 1 − d/100 = 0.9375 → d = 6.25.",
+      "source": "ai",
+      "archetype": "xat-Q01",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Mark-up + discount + 'one free with four' -> d=6.25; XAT commerce arithmetic"
+      }
+    },
+    {
+      "id": "xat-183",
+      "section": "qadi",
+      "topic": "Arithmetic",
+      "difficulty": "hard",
+      "question": "Towns X and Y are 60 km apart. Asha leaves X for Y at 20 km/h. Half an hour later, Bilal leaves X for Y at 30 km/h; on reaching Y he immediately turns back towards X at the same speed. At what distance from X do they meet for the second time?",
+      "options": [
+        "50 km",
+        "30 km",
+        "56 km",
+        "54 km"
+      ],
+      "answer": 3,
+      "explanation": "First meeting: 20t = 30(t − 0.5) → t = 1.5 h, at 30 km. Bilal reaches Y at 0.5 + 2 = 2.5 h, when Asha is at 50 km. The 10-km gap closes at 50 km/h in 0.2 h, during which Asha covers 4 km: the second meeting is 54 km from X.",
+      "source": "ai",
+      "archetype": "xat-Q02",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Second meeting after overtaking and turnaround at 54 km; verified by simulation, 30 km distractor = first meeting"
+      }
+    },
+    {
+      "id": "xat-186",
+      "section": "qadi",
+      "topic": "Permutation, Combination & Probability",
+      "difficulty": "hard",
+      "question": "In how many ways can 3 squares be chosen from an 8 × 8 chessboard so that no two of the chosen squares lie in the same row or the same column?",
+      "options": [
+        "56,448",
+        "3,136",
+        "18,816",
+        "9,408"
+      ],
+      "answer": 2,
+      "explanation": "Choose 3 rows: C(8, 3) = 56; choose 3 columns: 56; match rows to columns: 3! = 6. Total 56 × 56 × 6 = 18,816. Omitting the 3! gives 3,136; treating the squares as ordered gives 56,448.",
+      "source": "ai",
+      "archetype": "xat-Q15",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "3 squares no shared row/column = C(8,3)²·3! = 18816; distractors from ordering errors"
+      }
+    },
+    {
+      "id": "xat-187",
+      "section": "gk",
+      "topic": "Current Affairs",
+      "difficulty": "easy",
+      "question": "Who took oath as the Chief Justice of India in November 2025?",
+      "options": [
+        "B. R. Gavai",
+        "Surya Kant",
+        "Vikram Nath",
+        "B. V. Nagarathna"
+      ],
+      "answer": 1,
+      "explanation": "Justice Surya Kant was sworn in as the 53rd Chief Justice of India on 24 November 2025, succeeding Justice B. R. Gavai. Justices Vikram Nath and B. V. Nagarathna are in the line of seniority for later terms.",
+      "source": "ai",
+      "archetype": "xat-G01",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "CJI Surya Kant (24 Nov 2025) - XAT appointments GK; window ageing for XAT 2027"
+      }
+    },
+    {
+      "id": "xat-188",
       "section": "gk",
       "topic": "Current Affairs",
       "difficulty": "medium",
-      "question": "Who became Chairperson of the Securities and Exchange Board of India (SEBI) in March 2025?",
+      "question": "Who was elected Vice-President of India in September 2025, following the resignation of Jagdeep Dhankhar?",
       "options": [
-        "Tuhin Kanta Pandey",
-        "Ajay Tyagi",
-        "Madhabi Puri Buch",
-        "U. K. Sinha"
+        "B. Sudershan Reddy",
+        "Harivansh Narayan Singh",
+        "C. P. Radhakrishnan",
+        "Om Birla"
+      ],
+      "answer": 2,
+      "explanation": "C. P. Radhakrishnan, then Governor of Maharashtra, won the September 2025 vice-presidential election against the opposition candidate B. Sudershan Reddy. Harivansh is Deputy Chairman of the Rajya Sabha and Om Birla is Lok Sabha Speaker.",
+      "source": "ai",
+      "archetype": "xat-G01",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "VP C. P. Radhakrishnan (Sept 2025); B. Sudershan Reddy as rival-candidate distractor"
+      }
+    },
+    {
+      "id": "xat-189",
+      "section": "gk",
+      "topic": "Current Affairs",
+      "difficulty": "medium",
+      "question": "Cardinal Robert Francis Prevost, elected Pope in May 2025 as the first pontiff from the United States, took which papal name?",
+      "options": [
+        "Leo XIV",
+        "Francis II",
+        "Benedict XVII",
+        "John Paul III"
       ],
       "answer": 0,
-      "explanation": "Tuhin Kanta Pandey, formerly Finance Secretary, took over as SEBI chairperson on 1 March 2025, succeeding Madhabi Puri Buch.",
-      "verified": true
+      "explanation": "Cardinal Prevost took the name Leo XIV on his election on 8 May 2025, succeeding Pope Francis.",
+      "source": "ai",
+      "archetype": "xat-G01",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Pope Leo XIV; verified, XAT-style world appointment"
+      }
     },
     {
-      "id": "xat-056",
+      "id": "xat-190",
       "section": "gk",
-      "topic": "Business & Economy",
-      "difficulty": "medium",
-      "question": "The Sixteenth Finance Commission, whose recommendations cover the period 2026–27 to 2030–31, is chaired by:",
+      "topic": "Current Affairs",
+      "difficulty": "hard",
+      "question": "Mark Carney, who became Prime Minister of Canada in 2025, had earlier served as governor of which two central banks?",
       "options": [
-        "Y. V. Reddy",
-        "N. K. Singh",
-        "Raghuram Rajan",
-        "Arvind Panagariya"
+        "Bank of Canada and the US Federal Reserve",
+        "Bank of England and the European Central Bank",
+        "Bank of England and the Bank for International Settlements",
+        "Bank of Canada and the Bank of England"
       ],
       "answer": 3,
-      "explanation": "Arvind Panagariya chairs the 16th Finance Commission; N. K. Singh chaired the 15th and Y. V. Reddy the 14th.",
-      "verified": true
+      "explanation": "Carney was Governor of the Bank of Canada (2008–13) and then the first non-Briton to be Governor of the Bank of England (2013–20). He became Liberal leader and Prime Minister in March 2025 and won the April 2025 election.",
+      "source": "ai",
+      "archetype": "xat-G01",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Carney: Bank of Canada and Bank of England; good business-GK angle"
+      }
     },
     {
-      "id": "xat-057",
+      "id": "xat-191",
       "section": "gk",
-      "topic": "Business & Economy",
-      "difficulty": "easy",
-      "question": "The Unified Payments Interface (UPI) was developed and is operated by:",
+      "topic": "Current Affairs",
+      "difficulty": "medium",
+      "question": "The 2025 Nobel Prize in Physics was awarded for the discovery of",
       "options": [
-        "National Payments Corporation of India (NPCI)",
-        "Reserve Bank of India directly",
-        "Ministry of Electronics and IT",
-        "State Bank of India"
+        "methods that generate attosecond pulses of light",
+        "foundational discoveries enabling machine learning with artificial neural networks",
+        "topological phase transitions in matter",
+        "macroscopic quantum-mechanical tunnelling and energy quantisation in an electric circuit"
+      ],
+      "answer": 3,
+      "explanation": "John Clarke, Michel Devoret and John Martinis won the 2025 physics prize for showing quantum tunnelling and quantised energy levels in a superconducting circuit — groundwork for superconducting qubits. The other options describe the 2023, 2024 and 2016 prizes.",
+      "source": "ai",
+      "archetype": "xat-G02",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Physics Nobel 2025 macroscopic quantum tunnelling; distractors from prior years"
+      }
+    },
+    {
+      "id": "xat-192",
+      "section": "gk",
+      "topic": "Current Affairs",
+      "difficulty": "medium",
+      "question": "Susumu Kitagawa, Richard Robson and Omar Yaghi shared the 2025 Nobel Prize in Chemistry for the development of",
+      "options": [
+        "metal–organic frameworks",
+        "computational protein design",
+        "quantum dots",
+        "click chemistry"
       ],
       "answer": 0,
-      "explanation": "UPI was developed by NPCI, an umbrella organisation for retail payments promoted by the RBI and the Indian Banks' Association.",
-      "verified": true
+      "explanation": "The 2025 chemistry prize recognised metal–organic frameworks (MOFs), porous crystalline materials used, for example, to capture carbon dioxide or harvest water from air. Protein design (2024), quantum dots (2023) and click chemistry (2022) were earlier prizes.",
+      "source": "ai",
+      "archetype": "xat-G02",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Chemistry Nobel 2025 MOFs; prior-year distractors"
+      }
     },
     {
-      "id": "xat-058",
+      "id": "xat-193",
       "section": "gk",
-      "topic": "Static GK (History, Geography, Polity)",
+      "topic": "Current Affairs",
+      "difficulty": "hard",
+      "question": "The 2025 Nobel Prize in Physiology or Medicine, awarded to Mary Brunkow, Fred Ramsdell and Shimon Sakaguchi, recognised discoveries concerning",
+      "options": [
+        "the discovery of microRNA and its role in gene regulation",
+        "peripheral immune tolerance and regulatory T cells",
+        "nucleoside base modifications that enabled mRNA vaccines",
+        "receptors for temperature and touch"
+      ],
+      "answer": 1,
+      "explanation": "The 2025 prize was for discoveries concerning peripheral immune tolerance — how regulatory T cells keep the immune system from attacking the body. The other options were the 2024, 2023 and 2021 prizes.",
+      "source": "ai",
+      "archetype": "xat-G02",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Medicine Nobel 2025 peripheral immune tolerance; prior-year distractors"
+      }
+    },
+    {
+      "id": "xat-194",
+      "section": "gk",
+      "topic": "Current Affairs",
+      "difficulty": "hard",
+      "question": "Which novel won the Booker Prize in 2025?",
+      "options": [
+        "Orbital by Samantha Harvey",
+        "The Loneliness of Sonia and Sunny by Kiran Desai",
+        "Flesh by David Szalay",
+        "Prophet Song by Paul Lynch"
+      ],
+      "answer": 2,
+      "explanation": "David Szalay's Flesh won the 2025 Booker Prize. Kiran Desai's novel was on the 2025 shortlist; Orbital and Prophet Song won in 2024 and 2023.",
+      "source": "ai",
+      "archetype": "xat-G02",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Booker 2025 Flesh by David Szalay; Kiran Desai shortlist distractor - good"
+      }
+    },
+    {
+      "id": "xat-195",
+      "section": "gk",
+      "topic": "Current Affairs",
       "difficulty": "medium",
-      "question": "Through how many Indian states does the Tropic of Cancer pass?",
+      "question": "Which actor was named for the Dadasaheb Phalke Award announced in September 2025?",
       "options": [
-        "Seven",
-        "Nine",
-        "Six",
-        "Eight"
+        "Mithun Chakraborty",
+        "Mohanlal",
+        "Rajinikanth",
+        "Kamal Haasan"
       ],
-      "answer": 3,
-      "explanation": "Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram — eight states.",
-      "verified": true
+      "answer": 1,
+      "explanation": "Malayalam actor Mohanlal was named for the Dadasaheb Phalke Award (for 2023), presented at the 71st National Film Awards. Mithun Chakraborty received the previous award and Rajinikanth the one for 2019.",
+      "source": "ai",
+      "archetype": "xat-G02",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Phalke Award to Mohanlal (Sept 2025)"
+      }
     },
     {
-      "id": "xat-059",
+      "id": "xat-196",
       "section": "gk",
-      "topic": "Static GK (History, Geography, Polity)",
-      "difficulty": "easy",
-      "question": "The ancient treatise on statecraft and economics, the Arthashastra, is traditionally attributed to:",
+      "topic": "Current Affairs",
+      "difficulty": "medium",
+      "question": "Who received the 59th Jnanpith Award, announced in 2025?",
       "options": [
-        "Banabhatta",
-        "Megasthenes",
-        "Kalidasa",
-        "Kautilya (Chanakya)"
+        "Gulzar",
+        "Damodar Mauzo",
+        "Vinod Kumar Shukla",
+        "Nilmani Phookan"
       ],
-      "answer": 3,
-      "explanation": "The Arthashastra is attributed to Kautilya, also known as Chanakya, adviser to Chandragupta Maurya.",
-      "verified": true
+      "answer": 2,
+      "explanation": "Hindi writer Vinod Kumar Shukla of Chhattisgarh received the 59th Jnanpith Award (for 2024). Gulzar shared the 58th; Damodar Mauzo and Nilmani Phookan received the 57th and 56th.",
+      "source": "ai",
+      "archetype": "xat-G02",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "59th Jnanpith Vinod Kumar Shukla; prior winners as distractors"
+      }
     },
     {
-      "id": "xat-060",
+      "id": "xat-197",
+      "section": "gk",
+      "topic": "Current Affairs",
+      "difficulty": "hard",
+      "question": "Under the arrangement agreed at COP30, where will the COP31 climate conference be held in November 2026?",
+      "options": [
+        "Adelaide, Australia",
+        "Belém, Brazil",
+        "Bonn, Germany",
+        "Antalya, Türkiye"
+      ],
+      "answer": 3,
+      "explanation": "Türkiye will host COP31 in Antalya, while Australia leads the negotiations as part of a compromise between the two bidders. Belém hosted COP30; Bonn hosts the intersessional meetings; Adelaide was Australia's proposed venue.",
+      "source": "ai",
+      "archetype": "xat-G03",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "COP31 in Antalya with Australia presiding over negotiations - verified via web"
+      }
+    },
+    {
+      "id": "xat-200",
       "section": "gk",
       "topic": "Science & Sports",
-      "difficulty": "easy",
-      "question": "In December 2024, D. Gukesh became the youngest undisputed World Chess Champion by defeating whom in the title match?",
+      "difficulty": "medium",
+      "question": "Who won the FIDE Women's World Cup in July 2025, earning the Grandmaster title in the process?",
       "options": [
-        "Magnus Carlsen",
-        "Fabiano Caruana",
-        "Ding Liren",
-        "Ian Nepomniachtchi"
+        "Koneru Humpy",
+        "Divya Deshmukh",
+        "Ju Wenjun",
+        "R. Vaishali"
+      ],
+      "answer": 1,
+      "explanation": "Divya Deshmukh beat Koneru Humpy in the tie-break of an all-Indian final in Batumi, Georgia, and the win also earned her the Grandmaster title.",
+      "source": "ai",
+      "archetype": "xat-G08",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "FIDE Women's World Cup 2025 Divya Deshmukh"
+      }
+    },
+    {
+      "id": "xat-201",
+      "section": "gk",
+      "topic": "Business & Economy",
+      "difficulty": "medium",
+      "question": "Under the GST rate rationalisation that took effect on 22 September 2025, most goods and services were placed in which two main slabs, alongside a special 40% rate for luxury and \"sin\" goods?",
+      "options": [
+        "5% and 18%",
+        "5% and 12%",
+        "12% and 18%",
+        "8% and 16%"
+      ],
+      "answer": 0,
+      "explanation": "The \"GST 2.0\" reform merged the earlier 5/12/18/28% structure into two main slabs of 5% and 18%, with a 40% rate for select luxury and sin goods.",
+      "source": "ai",
+      "archetype": "xat-G04",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "GST 2.0 slabs 5/18 + 40%; XAT business-economy GK core"
+      }
+    },
+    {
+      "id": "xat-202",
+      "section": "gk",
+      "topic": "Business & Economy",
+      "difficulty": "medium",
+      "question": "Four labour codes consolidating India's central labour laws were brought into force on 21 November 2025. Which of the following is NOT one of them?",
+      "options": [
+        "Code on Wages",
+        "Industrial Relations Code",
+        "Code on Social Security",
+        "Code on Minimum Employment Guarantee"
+      ],
+      "answer": 3,
+      "explanation": "The four codes are the Code on Wages, 2019; the Industrial Relations Code, 2020; the Code on Social Security, 2020; and the Occupational Safety, Health and Working Conditions Code, 2020. There is no \"Code on Minimum Employment Guarantee\".",
+      "source": "ai",
+      "archetype": "xat-G04",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Four labour codes (in force 21 Nov 2025, verified); NOT-one-of format"
+      }
+    },
+    {
+      "id": "xat-203",
+      "section": "gk",
+      "topic": "Business & Economy",
+      "difficulty": "hard",
+      "question": "The Income-tax Act, 2025, which replaced the Income-tax Act, 1961 with effect from 1 April 2026, replaces the twin concepts of \"previous year\" and \"assessment year\" with a single concept called",
+      "options": [
+        "tax year",
+        "fiscal year",
+        "income year",
+        "return year"
+      ],
+      "answer": 0,
+      "explanation": "The new Act uses a single \"tax year\" — the financial year in which income is earned — in place of the previous-year/assessment-year pair of the 1961 Act.",
+      "source": "ai",
+      "archetype": "xat-G04",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Income-tax Act 2025 'tax year' concept, verified; strong economy-GK item"
+      }
+    },
+    {
+      "id": "xat-204",
+      "section": "gk",
+      "topic": "Business & Economy",
+      "difficulty": "hard",
+      "question": "In the Reserve Bank of India's liquidity adjustment framework, which rate forms the floor of the interest-rate corridor around the policy repo rate?",
+      "options": [
+        "Fixed-rate reverse repo rate",
+        "Marginal Standing Facility rate",
+        "Bank rate",
+        "Standing Deposit Facility rate"
+      ],
+      "answer": 3,
+      "explanation": "Since April 2022 the Standing Deposit Facility (SDF), an uncollateralised deposit window, has been the floor of the corridor, replacing the fixed-rate reverse repo. The MSF rate (aligned with the bank rate) is the ceiling.",
+      "source": "ai",
+      "archetype": "xat-G04",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "SDF as LAF corridor floor - static banking GK XAT asks"
+      }
+    },
+    {
+      "id": "xat-205",
+      "section": "gk",
+      "topic": "Business & Economy",
+      "difficulty": "medium",
+      "question": "In 2025, Tata Motors completed a demerger that separated its businesses into two listed companies along which line?",
+      "options": [
+        "Jaguar Land Rover and the Indian operations",
+        "Electric vehicles and internal-combustion vehicles",
+        "Commercial vehicles and passenger vehicles",
+        "Vehicle manufacturing and vehicle financing"
       ],
       "answer": 2,
-      "explanation": "Gukesh beat China's Ding Liren 7.5–6.5 in Singapore in December 2024.",
-      "verified": true
+      "explanation": "The demerger, effective in October 2025, placed the commercial-vehicle business and the passenger-vehicle business (including electric vehicles and Jaguar Land Rover) in separate listed companies.",
+      "source": "ai",
+      "archetype": "xat-G05",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Tata Motors CV/PV demerger 2025; corporate-news archetype"
+      }
+    },
+    {
+      "id": "xat-207",
+      "section": "gk",
+      "topic": "Business & Economy",
+      "difficulty": "medium",
+      "question": "In October 2025, which company became the first in the world to reach a stock-market valuation of US$5 trillion?",
+      "options": [
+        "Microsoft",
+        "Apple",
+        "Nvidia",
+        "Alphabet"
+      ],
+      "answer": 2,
+      "explanation": "Nvidia crossed a US$5 trillion market capitalisation on 29 October 2025, driven by demand for its AI chips, a few months after becoming the first to cross US$4 trillion.",
+      "source": "ai",
+      "archetype": "xat-G05",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Nvidia first $5tn company (Oct 2025)"
+      }
+    },
+    {
+      "id": "xat-208",
+      "section": "gk",
+      "topic": "Static GK (History, Geography, Polity)",
+      "difficulty": "medium",
+      "question": "The Shompen, a particularly vulnerable tribal group often mentioned in debates over the Great Nicobar development project, live on which island?",
+      "options": [
+        "Great Nicobar",
+        "North Sentinel",
+        "Car Nicobar",
+        "Little Andaman"
+      ],
+      "answer": 0,
+      "explanation": "The Shompen are hunter-gatherers of the interior forests of Great Nicobar. North Sentinel is home to the Sentinelese, Little Andaman to the Onge, and Car Nicobar to the Nicobarese.",
+      "source": "ai",
+      "archetype": "xat-G06",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Shompen of Great Nicobar - static geography with current hook"
+      }
+    },
+    {
+      "id": "xat-209",
+      "section": "gk",
+      "topic": "Static GK (History, Geography, Polity)",
+      "difficulty": "hard",
+      "question": "Under the Constitution of India, the Chief Election Commissioner can be removed from office only",
+      "options": [
+        "by the President on the advice of the Prime Minister",
+        "in the manner and on the grounds on which a Supreme Court judge is removed",
+        "by a resolution of the Rajya Sabha passed by a two-thirds majority",
+        "on the recommendation of the selection committee that appointed him"
+      ],
+      "answer": 1,
+      "explanation": "Article 324(5) provides that the CEC shall not be removed except in like manner and on the like grounds as a judge of the Supreme Court — i.e. by an address of both Houses with a special majority on grounds of proved misbehaviour or incapacity. Other Election Commissioners can be removed on the CEC's recommendation.",
+      "source": "ai",
+      "archetype": "xat-G07",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "CEC removal like SC judge (Art 324(5)); static polity"
+      }
     }
   ]
 }

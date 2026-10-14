@@ -48,7 +48,7 @@ export function sectionMarking(exam, sectionId) {
   const ratio = m.correct ? m.wrong / m.correct : 0;
   // a section may override negative marking, e.g. SSC MTS Session I has none
   const wrong = typeof sec?.wrong === 'number' ? sec.wrong : +(correct * ratio).toFixed(4);
-  return { correct, wrong, unattempted: m.unattempted || 0 };
+  return { correct, wrong, unattempted: m.unattempted || 0, ...(typeof m.numericalWrong === 'number' ? { numericalWrong: m.numericalWrong } : {}), ...(typeof m.msqWrong === 'number' ? { msqWrong: m.msqWrong } : {}) };
 }
 
 // ---------- picking questions ----------
@@ -97,23 +97,65 @@ function pickSection(exam, sectionId, n, seen, rng, opts = {}) {
 
 const avgSecondsPerQuestion = exam => (exam.pattern.durationMinutes * 60) / exam.pattern.totalQuestions;
 
+// Questions that share a `passage` (RC passage, DI table, puzzle set) are
+// served as a whole set, as in the real paper. When a set is pulled in, the
+// same number of stand-alone questions of that section is dropped so the test
+// length stays about the same.
+function completeSets(exam, picked) {
+  const inTest = new Set(picked.map(q => q.id));
+  const added = {};
+  for (const q of picked.slice()) {
+    if (!q.passage) continue;
+    for (const sib of exam.questions) {
+      if (sib.passage === q.passage && !inTest.has(sib.id)) {
+        picked.push(sib); inTest.add(sib.id);
+        added[sib.section] = (added[sib.section] || 0) + 1;
+      }
+    }
+  }
+  for (const [sec, n] of Object.entries(added)) {
+    let drop = n;
+    for (let i = picked.length - 1; i >= 0 && drop > 0; i--) {
+      if (picked[i].section === sec && !picked[i].passage) { picked.splice(i, 1); drop--; }
+    }
+  }
+  return picked;
+}
+
 // Build a test. kinds:
 //   full   – mirrors the real pattern (scaled down evenly if the bank is small)
 //   custom – {sections?, topics?, count, difficulty}
 //   weak   – {weakTopics: [{section, topic, score}], count}
+// Options whose meaning depends on their position or on the other options
+// ("All of the above", "Both A and R …", "1 and 2 only", bare letters) stay in order.
+const FIXED_ORDER = /\b(all|none|both|neither)\b|\babove\b|\bonly\b|\band\b.*\d|^\(?[a-e1-5]\)?$|statement|assertion|reason|cannot be determined|data (is |are )?(in)?sufficient/i;
+// Figure options stay in order too: their explanations refer to "Figure 1…4".
+export const canShuffle = q => qType(q) !== 'numerical' && !q.optionFigures && !q.options.some(o => FIXED_ORDER.test(String(o).trim()));
+
+// Only questions an independent review scored ≥ MIN_RELEVANCE against the
+// exam's previous-year papers (and re-solved) may be served. See data/RELEVANCE.md.
+export const MIN_RELEVANCE = 90;
+export const servable = q => q.verified === true && (q.relevance?.score ?? 0) >= MIN_RELEVANCE;
+
 export function buildTest(exam, kind, opts = {}, seed = Date.now()) {
+  exam = { ...exam, questions: exam.questions.filter(servable) };
   const rng = makeRng(seed);
   const seen = new Set(opts.seenIds || []);
   let picked = [];
   let scaled = false;
+  let missing = [];
   const sections = exam.pattern.sections;
 
   if (kind === 'full') {
     const avail = sections.map(s => exam.questions.filter(q => q.section === s.id).length);
-    const scale = Math.min(1, ...sections.map((s, i) => (s.questions ? avail[i] / s.questions : 1)));
+    // a section with no approved questions yet is left out rather than
+    // shrinking the whole mock to one question per section
+    missing = sections.filter((s, i) => !avail[i]).map(s => s.id);
+    const scale = Math.min(1, ...sections.map((s, i) => (s.questions && avail[i] ? avail[i] / s.questions : 1)));
     scaled = scale < 1;
     sections.forEach(s => {
       const n = scaled ? Math.max(1, Math.round(s.questions * scale)) : s.questions;
+      if (missing.includes(s.id)) return;
       picked.push(...pickSection(exam, s.id, n, seen, rng));
     });
   } else if (kind === 'custom') {
@@ -150,9 +192,15 @@ export function buildTest(exam, kind, opts = {}, seed = Date.now()) {
     throw new Error(`unknown test kind ${kind}`);
   }
 
-  // keep sections in pattern order, as in the real paper
+  picked = completeSets(exam, picked);
+
+  // keep sections in pattern order, as in the real paper, and the questions of
+  // one passage / DI set together
   const secOrder = new Map(sections.map((s, i) => [s.id, i]));
-  picked.sort((a, b) => secOrder.get(a.section) - secOrder.get(b.section));
+  const firstPos = new Map();
+  picked.forEach((q, i) => { const k = q.passage ? `p:${q.passage}` : `q:${q.id}`; if (!firstPos.has(k)) firstPos.set(k, i); });
+  const groupPos = q => firstPos.get(q.passage ? `p:${q.passage}` : `q:${q.id}`);
+  picked.sort((a, b) => (secOrder.get(a.section) - secOrder.get(b.section)) || (groupPos(a) - groupPos(b)));
 
   const fullTime = kind === 'full' && !scaled;
   const durationSec = fullTime
@@ -162,15 +210,46 @@ export function buildTest(exam, kind, opts = {}, seed = Date.now()) {
   return {
     examId: exam.id,
     kind,
-    scaled,
+    scaled: scaled || missing.length > 0,
+    missingSections: missing,
     seed,
     createdAt: new Date().toISOString(),
     durationSec,
     questionIds: picked.map(q => q.id),
+    // shown option order per question (original indices), so the position of
+    // the correct answer can't be memorised across tests
+    optionOrder: Object.fromEntries(picked.filter(canShuffle).map(q => [q.id, shuffle(q.options.map((_, i) => i), rng)])),
   };
 }
 
 // ---------- scoring & analysis ----------
+// Question types:
+//   mcq (default) – answer: option index
+//   msq           – answer: array of option indices (one or more correct).
+//                   JEE Advanced rule: all correct → full; only correct options
+//                   but not all → +(full/4) per option chosen; any wrong → negative.
+//   numerical     – answer: number, optional tolerance (absolute, default 0.01)
+export const qType = q => q.type || 'mcq';
+export function isAnswered(q, a) {
+  if (a === null || a === undefined || a === '') return false;
+  return qType(q) === 'msq' ? Array.isArray(a) && a.length > 0 : true;
+}
+export function isCorrect(q, a) {
+  if (!isAnswered(q, a)) return false;
+  if (qType(q) === 'msq') return a.length === q.answer.length && q.answer.every(i => a.includes(i));
+  if (qType(q) === 'numerical') return Math.abs(Number(a) - q.answer) <= (q.tolerance ?? 0.01) + 1e-9;
+  return a === q.answer;
+}
+export function markAnswer(q, a, mk) {
+  const answered = isAnswered(q, a);
+  if (!answered) return { answered, ok: false, marks: mk.unattempted };
+  if (isCorrect(q, a)) return { answered, ok: true, marks: mk.correct };
+  if (qType(q) === 'msq' && a.every(i => q.answer.includes(i))) return { answered, ok: false, marks: +(mk.correct / 4 * a.length).toFixed(2) };
+  if (qType(q) === 'msq' && mk.msqWrong !== undefined) return { answered, ok: false, marks: mk.msqWrong };
+  if (qType(q) === 'numerical' && mk.numericalWrong !== undefined) return { answered, ok: false, marks: mk.numericalWrong };
+  return { answered, ok: false, marks: mk.wrong };
+}
+
 // responses: { [questionId]: { answer: number|null, timeSec: number, marked: bool } }
 export function scoreAttempt(exam, test, responses) {
   const byId = new Map(exam.questions.map(q => [q.id, q]));
@@ -182,9 +261,7 @@ export function scoreAttempt(exam, test, responses) {
   for (const q of qs) {
     const r = responses[q.id] || {};
     const mk = sectionMarking(exam, q.section);
-    const answered = r.answer !== null && r.answer !== undefined;
-    const ok = answered && r.answer === q.answer;
-    const marks = !answered ? mk.unattempted : ok ? mk.correct : mk.wrong;
+    const { answered, ok, marks } = markAnswer(q, r.answer, mk);
     score += marks; maxScore += mk.correct; timeSec += r.timeSec || 0;
     if (!answered) skipped++; else if (ok) correct++; else wrong++;
 

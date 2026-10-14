@@ -299,6 +299,731 @@
       }
     ]
   },
+  "pyqBlueprint": {
+    "yearsCovered": [
+      2023,
+      2024,
+      2025
+    ],
+    "method": "Compiled from shift-wise memory-based analyses of IBPS Clerk (CRP CSA) prelims 2023, 2024 and 2025 (4–5 Oct 2025 shifts) published by coaching sites (Time4Education, Physics Wallah, Adda247, Mahendras), cross-checked with the official IBPS prelims pattern. Patterns are paraphrased in our own words; no real question is reproduced.",
+    "archetypes": [
+      {
+        "id": "ibps-clerk-E01",
+        "section": "english",
+        "topic": "Reading Comprehension",
+        "pattern": "RC set (about 300–400 words, simple social/economic theme): identify the central idea or the most suitable title; distractors are partial details",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per RC set",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ibps-clerk-E02",
+        "section": "english",
+        "topic": "Reading Comprehension",
+        "pattern": "RC fact-check: 'Which of the following is true / NOT true according to the passage' — one option distorts a qualifier (some→most, may→will) or reverses cause and effect",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per RC set",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-clerk-E03",
+        "section": "english",
+        "topic": "Reading Comprehension",
+        "pattern": "RC inference with statements I, II, III and combination options (Only I / Only I and III …); the trap statement overstates what the passage says",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per RC set",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ibps-clerk-E04",
+        "section": "english",
+        "topic": "Reading Comprehension",
+        "pattern": "RC vocabulary-in-context: synonym or antonym of a word used in the passage, with distractors that are dictionary meanings not fitting the context",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per RC set",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ibps-clerk-E06",
+        "section": "english",
+        "topic": "Cloze Test",
+        "pattern": "Passage cloze with numbered blanks; five same-part-of-speech options where distractors are look-alike or collocation-breaking words",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "5–7 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-clerk-E08",
+        "section": "english",
+        "topic": "Error Detection",
+        "pattern": "Sentence split into parts (A)–(D) plus 'No error' (E); errors in subject–verb agreement, prepositions, pronouns, tense, comparatives, or inversion after negative adverbs",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "3–5 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-clerk-E10",
+        "section": "english",
+        "topic": "Fillers (Single/Double)",
+        "pattern": "Double filler: two blanks in one sentence, five word-pairs where one word of each wrong pair fits but the other does not",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "2–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-clerk-E11",
+        "section": "english",
+        "topic": "Fillers (Single/Double)",
+        "pattern": "Single filler: one blank, five words close in meaning; only one matches the tone/collocation of the sentence",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–3 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ibps-clerk-E12",
+        "section": "english",
+        "topic": "Para Jumbles / Sentence Rearrangement",
+        "pattern": "Para jumble of five or six sentences on one theme; choose the correct order (options are sequences); connectors like 'however', 'as a result' and pronouns fix the order",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "2–5 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-clerk-E13",
+        "section": "english",
+        "topic": "Para Jumbles / Sentence Rearrangement",
+        "pattern": "Para jumble asking which sentence comes FIRST / THIRD / LAST after rearrangement (options are sentence letters)",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–5 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-clerk-E15",
+        "section": "english",
+        "topic": "Word Swap / Word Usage",
+        "pattern": "Word swap: four highlighted words in a sentence; identify the pair whose interchange makes the sentence correct, or 'No interchange required'",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-clerk-E17",
+        "section": "english",
+        "topic": "Phrase Replacement / Sentence Improvement",
+        "pattern": "Phrase replacement: a highlighted phrase with a grammar/idiom error; choose the correct replacement, or 'No replacement required'",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "2–4 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-clerk-E19",
+        "section": "english",
+        "topic": "Vocabulary & Spelling",
+        "pattern": "Vocabulary & spelling: choose the correctly or incorrectly spelt word among five commonly confused spellings, or a simple synonym/antonym",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ibps-clerk-E20",
+        "section": "english",
+        "topic": "Sentence Connectors",
+        "pattern": "Connector: choose the word/phrase that joins two sentences without changing the meaning (cause, contrast, condition)",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–3 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ibps-clerk-Q01",
+        "section": "quant",
+        "topic": "Data Interpretation",
+        "pattern": "Table DI (5 rows × 2–3 columns): percentage increase/decrease of one entity between two years, or one entity as a percentage of another",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per DI set",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-clerk-Q02",
+        "section": "quant",
+        "topic": "Data Interpretation",
+        "pattern": "Table DI with a percentage column (e.g. share of a sub-category): compute derived values (sum, average, difference or ratio of derived quantities)",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "2–3 per DI set",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ibps-clerk-Q03",
+        "section": "quant",
+        "topic": "Data Interpretation",
+        "pattern": "Caselet DI: a paragraph giving a total and splits in ratios/percentages; questions combine two splits or ask what changes after a transfer",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 set (3–5 Qs) per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ibps-clerk-Q05",
+        "section": "quant",
+        "topic": "Data Interpretation",
+        "pattern": "Bar-graph / line-graph DI (values for 5–6 months or items given): average, ratio, and percentage more/less between two bars",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 set per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ibps-clerk-Q09",
+        "section": "quant",
+        "topic": "Number Series",
+        "pattern": "Missing number series built on differences of squares/cubes, alternate ×n +k, or ×n with increasing n",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "3–5 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-clerk-Q10",
+        "section": "quant",
+        "topic": "Number Series",
+        "pattern": "Wrong number series: one term breaks the ×/+ pattern; find it",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–5 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-clerk-Q11",
+        "section": "quant",
+        "topic": "Simplification & Approximation",
+        "pattern": "Exact simplification with BODMAS, percentages, fractions, squares and square roots; find '?'",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "5–10 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ibps-clerk-Q12",
+        "section": "quant",
+        "topic": "Simplification & Approximation",
+        "pattern": "Approximation: decimals close to whole numbers in %, ×, ÷, √ and powers; find the nearest value",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "3–5 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ibps-clerk-Q13",
+        "section": "quant",
+        "topic": "Simplification & Approximation",
+        "pattern": "Find the unknown placed inside the expression (? % of N, √?, ?² or a fraction of ?)",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "2–4 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ibps-clerk-Q14",
+        "section": "quant",
+        "topic": "Percentage & Profit-Loss",
+        "pattern": "Profit & loss with marked price, discount and cost price (single or successive discounts, 'had he sold for ₹x more')",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-clerk-Q15",
+        "section": "quant",
+        "topic": "Percentage & Profit-Loss",
+        "pattern": "Percentage word problem: income–expenditure–savings, successive percentage change, or one value as a percentage of another",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-clerk-Q17",
+        "section": "quant",
+        "topic": "Ratio & Ages",
+        "pattern": "Ages: present-age ratio with a condition some years before/after; find an age or sum of ages",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-clerk-Q18",
+        "section": "quant",
+        "topic": "Ratio & Ages",
+        "pattern": "Ratio & proportion: dividing an amount in a ratio, or changing a ratio by adding/removing a quantity",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ibps-clerk-Q19",
+        "section": "quant",
+        "topic": "Time & Work",
+        "pattern": "Time & work / pipes: efficiencies combined, one leaves after some days, or an emptying pipe",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-clerk-Q20",
+        "section": "quant",
+        "topic": "Speed, Time & Distance",
+        "pattern": "Trains crossing poles/platforms/each other, relative speed, or average speed of a round trip",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-clerk-Q21",
+        "section": "quant",
+        "topic": "Speed, Time & Distance",
+        "pattern": "Boats and streams: downstream/upstream speeds and times",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-clerk-Q22",
+        "section": "quant",
+        "topic": "Simple & Compound Interest",
+        "pattern": "Simple vs compound interest: CI–SI difference, amount at CI, or a sum split between two rates",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-clerk-Q23",
+        "section": "quant",
+        "topic": "Mixture & Alligation",
+        "pattern": "Mixture & alligation: mixing two varieties to a target price/ratio, or adding/replacing liquid",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-clerk-Q25",
+        "section": "quant",
+        "topic": "Mensuration",
+        "pattern": "Mensuration: rectangle/circle/cylinder area, perimeter or volume relationships",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-clerk-Q26",
+        "section": "quant",
+        "topic": "Average",
+        "pattern": "Average: one member removed/added or replaced, find the new average or the member's value",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ibps-clerk-R01",
+        "section": "reasoning",
+        "topic": "Puzzles & Seating Arrangement",
+        "pattern": "Linear row of 6–8 persons facing north (occasionally with a vacant seat); direct clues on ends and 'only n persons between'",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 set per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ibps-clerk-R03",
+        "section": "reasoning",
+        "topic": "Puzzles & Seating Arrangement",
+        "pattern": "Circular table (6–8 persons) facing the centre (or some outside); left/right relations and 'second to the left of' questions",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 set per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-clerk-R04",
+        "section": "reasoning",
+        "topic": "Puzzles & Seating Arrangement",
+        "pattern": "Floor-based puzzle (5–8 floors, sometimes two flats per floor) with a second attribute such as colour/city/fruit",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 set per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-clerk-R05",
+        "section": "reasoning",
+        "topic": "Puzzles & Seating Arrangement",
+        "pattern": "Scheduling puzzle: persons/events on days of the week or months (sometimes with dates 1xth/2xth); 'how many between' questions",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 set per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-clerk-R06",
+        "section": "reasoning",
+        "topic": "Puzzles & Seating Arrangement",
+        "pattern": "Box stacking: boxes placed one above another, with colour/item attribute and 'how many boxes between' clues",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 set per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-clerk-R07",
+        "section": "reasoning",
+        "topic": "Puzzles & Seating Arrangement",
+        "pattern": "Comparison puzzle: heights/weights/marks of 5–6 persons with 'more than only' clues; ask rank or a derived value",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 small set per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ibps-clerk-R11",
+        "section": "reasoning",
+        "topic": "Syllogism",
+        "pattern": "Syllogism with 2–3 statements and two conclusions, including 'possibility' conclusions; standard five options",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "2–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-clerk-R12",
+        "section": "reasoning",
+        "topic": "Syllogism",
+        "pattern": "Syllogism with 'Only a few' or 'No' statements where a definite 'All' conclusion is the trap",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-clerk-R13",
+        "section": "reasoning",
+        "topic": "Inequality",
+        "pattern": "Direct inequality: two or three combined statements, two conclusions to check",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "2–4 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ibps-clerk-R15",
+        "section": "reasoning",
+        "topic": "Blood Relations",
+        "pattern": "Blood relation chain or 'pointing to a photograph' statement; gender ambiguity is the usual trap",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-clerk-R17",
+        "section": "reasoning",
+        "topic": "Direction Sense",
+        "pattern": "Direction & distance: a person walks a path with left/right turns; find the shortest distance and direction from start",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ibps-clerk-R18",
+        "section": "reasoning",
+        "topic": "Direction Sense",
+        "pattern": "Point-based direction: several points given relative to each other; find direction/distance between two of them",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-clerk-R19",
+        "section": "reasoning",
+        "topic": "Coding-Decoding",
+        "pattern": "Letter coding: word coded by letter shifts / reversal / opposite letters; code a new word",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-clerk-R20",
+        "section": "reasoning",
+        "topic": "Coding-Decoding",
+        "pattern": "Sentence (Chinese) coding: three or four phrases coded in two-letter codes; find the code of a word by elimination",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-clerk-R21",
+        "section": "reasoning",
+        "topic": "Order & Ranking",
+        "pattern": "Order & ranking: positions from both ends of a row/class, total count, or persons between two people",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ibps-clerk-R22",
+        "section": "reasoning",
+        "topic": "Alphanumeric Series",
+        "pattern": "Alphanumeric-symbol arrangement: count elements satisfying a 'preceded by / followed by' condition, or find the nth element from an end",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "2–5 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-clerk-R23",
+        "section": "reasoning",
+        "topic": "Alphanumeric Series",
+        "pattern": "English alphabet positions: nth letter from left/right after rearrangement or reversal; letter-pair series",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-clerk-R24",
+        "section": "reasoning",
+        "topic": "Miscellaneous (Word/Number Based)",
+        "pattern": "Letter pairs in a word with as many letters between them as in the English alphabet",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ibps-clerk-R26",
+        "section": "reasoning",
+        "topic": "Miscellaneous (Word/Number Based)",
+        "pattern": "Number formation: digits of 3-digit numbers rearranged/operated on; find the resulting number or difference",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-clerk-R28",
+        "section": "reasoning",
+        "topic": "Classification (Odd One Out)",
+        "pattern": "Odd one out among numbers, words or letter groups",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–2 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ibps-clerk-R31",
+        "section": "reasoning",
+        "topic": "Direction Sense",
+        "pattern": "Direction after a sequence of clockwise/anticlockwise turns in degrees",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per paper",
+        "difficulty": "easy"
+      }
+    ]
+  },
   "resources": {
     "pyqAvailable": true,
     "officialPYQ": null,
@@ -321,7 +1046,14 @@
       ],
       "answer": 2,
       "explanation": "The passage says these materials 'absorb sunlight during the day and release it slowly at night'.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-clerk-E02",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Heat-island detail question; Clerk RC does ask cause lookups though passage is short (~150 words)"
+      }
     },
     {
       "id": "ibps-clerk-002",
@@ -338,7 +1070,14 @@
       ],
       "answer": 0,
       "explanation": "Electricity demand, air quality, outdoor workers and the elderly are mentioned; rainfall is not.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-clerk-E02",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "NOT-mentioned consequence with invented 'rainfall' option; matches E02 Clerk format"
+      }
     },
     {
       "id": "ibps-clerk-003",
@@ -355,92 +1094,14 @@
       ],
       "answer": 4,
       "explanation": "'Experts caution that…' means experts warn that…",
-      "verified": true
-    },
-    {
-      "id": "ibps-clerk-004",
-      "section": "english",
-      "topic": "Reading Comprehension",
-      "difficulty": "medium",
-      "question": "Read the passage and answer the question.\n\nCities are getting hotter faster than the countryside around them. Concrete, asphalt and glass absorb sunlight during the day and release it slowly at night, so urban neighbourhoods often stay several degrees warmer than nearby villages after sunset. This 'heat island' effect is not merely uncomfortable; it raises electricity demand for cooling, worsens air quality and can be deadly for outdoor workers and the elderly. Fortunately, some remedies are cheap. Painting roofs white reflects a large share of sunlight, and planting trees along streets provides both shade and cooling through evaporation. Several Indian cities have begun drafting heat action plans that combine such measures with early warnings and changes in working hours during heatwaves. Experts, however, caution that these plans succeed only when they are funded and enforced, not when they remain documents on a shelf.\n\nWhat is the experts' view of heat action plans?",
-      "options": [
-        "They are too expensive to implement",
-        "They are useful only in villages",
-        "They have already solved urban heat",
-        "They should replace early-warning systems",
-        "They work only when funded and enforced"
-      ],
-      "answer": 4,
-      "explanation": "The last sentence says the plans 'succeed only when they are funded and enforced'.",
-      "verified": true
-    },
-    {
-      "id": "ibps-clerk-005",
-      "section": "english",
-      "topic": "Reading Comprehension",
-      "difficulty": "easy",
-      "question": "Read the passage and answer the question.\n\nCities are getting hotter faster than the countryside around them. Concrete, asphalt and glass absorb sunlight during the day and release it slowly at night, so urban neighbourhoods often stay several degrees warmer than nearby villages after sunset. This 'heat island' effect is not merely uncomfortable; it raises electricity demand for cooling, worsens air quality and can be deadly for outdoor workers and the elderly. Fortunately, some remedies are cheap. Painting roofs white reflects a large share of sunlight, and planting trees along streets provides both shade and cooling through evaporation. Several Indian cities have begun drafting heat action plans that combine such measures with early warnings and changes in working hours during heatwaves. Experts, however, caution that these plans succeed only when they are funded and enforced, not when they remain documents on a shelf.\n\nWhich remedy does the passage say provides cooling through evaporation?",
-      "options": [
-        "Painting roofs white",
-        "Changing working hours",
-        "Issuing early warnings",
-        "Planting trees along streets",
-        "Using glass buildings"
-      ],
-      "answer": 3,
-      "explanation": "'Planting trees along streets provides both shade and cooling through evaporation.'",
-      "verified": true
-    },
-    {
-      "id": "ibps-clerk-006",
-      "section": "english",
-      "topic": "Cloze Test",
-      "difficulty": "easy",
-      "question": "Read the passage and choose the word that best fits the numbered blank.\n\nSaving money is easier when it becomes a (1) ______ rather than an occasional effort. Experts suggest setting aside a fixed amount as soon as the salary is (2) ______, instead of saving whatever is left at the end of the month. Automatic transfers to a recurring deposit can (3) ______ the temptation to spend.\n\nWhich word best fits blank (1)?",
-      "options": [
-        "accident",
-        "debate",
-        "burden",
-        "rumour",
-        "habit"
-      ],
-      "answer": 4,
-      "explanation": "'A habit rather than an occasional effort' — habit is the natural contrast to occasional.",
-      "verified": true
-    },
-    {
-      "id": "ibps-clerk-007",
-      "section": "english",
-      "topic": "Cloze Test",
-      "difficulty": "medium",
-      "question": "Read the passage and choose the word that best fits the numbered blank.\n\nSaving money is easier when it becomes a (1) ______ rather than an occasional effort. Experts suggest setting aside a fixed amount as soon as the salary is (2) ______, instead of saving whatever is left at the end of the month. Automatic transfers to a recurring deposit can (3) ______ the temptation to spend.\n\nWhich word best fits blank (2)?",
-      "options": [
-        "debited",
-        "credited",
-        "borrowed",
-        "refused",
-        "invested"
-      ],
-      "answer": 1,
-      "explanation": "One saves 'as soon as the salary is credited' (received in the account).",
-      "verified": true
-    },
-    {
-      "id": "ibps-clerk-008",
-      "section": "english",
-      "topic": "Cloze Test",
-      "difficulty": "easy",
-      "question": "Read the passage and choose the word that best fits the numbered blank.\n\nSaving money is easier when it becomes a (1) ______ rather than an occasional effort. Experts suggest setting aside a fixed amount as soon as the salary is (2) ______, instead of saving whatever is left at the end of the month. Automatic transfers to a recurring deposit can (3) ______ the temptation to spend.\n\nWhich word best fits blank (3)?",
-      "options": [
-        "increase",
-        "invite",
-        "reduce",
-        "celebrate",
-        "justify"
-      ],
-      "answer": 2,
-      "explanation": "Automatic transfers move money away before it can be spent, so they reduce the temptation to spend.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-clerk-E04",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Vocab-in-context 'caution'='warn'; 'doubt' as near trap; clerk standard"
+      }
     },
     {
       "id": "ibps-clerk-009",
@@ -457,7 +1118,14 @@
       ],
       "answer": 1,
       "explanation": "A period of time ('the last five years') takes 'for', not 'since'. The error is in part B ('since' should be 'for').",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-clerk-E08",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "'since' (in part B) should be 'for' with a period; frequent clerk error-spotting item"
+      }
     },
     {
       "id": "ibps-clerk-010",
@@ -474,24 +1142,14 @@
       ],
       "answer": 1,
       "explanation": "'Each of the…' is singular and takes 'was', so 'were asked' in part B is wrong.",
-      "verified": true
-    },
-    {
-      "id": "ibps-clerk-011",
-      "section": "english",
-      "topic": "Fillers (Single/Double)",
-      "difficulty": "easy",
-      "question": "Choose the option that best fills the blank.\nThe bank ______ its customers by SMS whenever a transaction is made.",
-      "options": [
-        "alert",
-        "alerting",
-        "alerts",
-        "have alerted",
-        "to alert"
-      ],
-      "answer": 2,
-      "explanation": "A singular subject ('The bank') with a habitual action takes the simple present 'alerts'.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-clerk-E08",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "'Each of ... were' agreement; standard clerk error item (labelled hard but easy)"
+      }
     },
     {
       "id": "ibps-clerk-012",
@@ -508,7 +1166,14 @@
       ],
       "answer": 1,
       "explanation": "Rain that damages crops is 'unseasonal', and it leaves farmers 'in distress'. Other pairs are illogical.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-clerk-E10",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Double filler unseasonal/distress; acceptable clerk pair though distractors weak"
+      }
     },
     {
       "id": "ibps-clerk-013",
@@ -525,7 +1190,14 @@
       ],
       "answer": 3,
       "explanation": "Order: B (start) – A (savings) – E ('also' a loan) – D (bought machines) – C (today). Fourth sentence is D.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-clerk-E13",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Story jumble asking FOURTH sentence (BAEDC); clerk-faithful"
+      }
     },
     {
       "id": "ibps-clerk-014",
@@ -542,7 +1214,14 @@
       ],
       "answer": 4,
       "explanation": "B introduces credit cards, E gives the benefit, C ('However') the drawback, D ('also') adds another difference, A ('Therefore') concludes: BECDA.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-clerk-E12",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Credit-card jumble with However/Therefore; clerk-faithful"
+      }
     },
     {
       "id": "ibps-clerk-015",
@@ -559,109 +1238,14 @@
       ],
       "answer": 0,
       "explanation": "Adjectives of Latin origin such as senior, junior and superior take 'to', not 'than': 'senior to me'.",
-      "verified": true
-    },
-    {
-      "id": "ibps-clerk-016",
-      "section": "english",
-      "topic": "Word Swap / Word Usage",
-      "difficulty": "medium",
-      "question": "Which pair of words should be interchanged to make the sentence meaningful?\nThe (A) cake baked a delicious (B) chef for the (C) guests at the (D) party.",
-      "options": [
-        "A–B",
-        "B–C",
-        "C–D",
-        "A–D",
-        "No interchange required"
-      ],
-      "answer": 0,
-      "explanation": "Swapping A and B: 'The chef baked a delicious cake for the guests at the party.'",
-      "verified": true
-    },
-    {
-      "id": "ibps-clerk-017",
-      "section": "english",
-      "topic": "Vocabulary & Spelling",
-      "difficulty": "easy",
-      "question": "Choose the correctly spelt word.",
-      "options": [
-        "Acommodate",
-        "Accomodate",
-        "Acomodate",
-        "Accommodate",
-        "Accommodete"
-      ],
-      "answer": 3,
-      "explanation": "The correct spelling has double 'c' and double 'm': Accommodate.",
-      "verified": true
-    },
-    {
-      "id": "ibps-clerk-018",
-      "section": "english",
-      "topic": "Sentence Connectors",
-      "difficulty": "easy",
-      "question": "Choose the connector that correctly joins the sentences: 'The roads were slippery. The bus driver drove carefully.'\n______ the roads were slippery, the bus driver drove carefully.",
-      "options": [
-        "Although",
-        "Unless",
-        "Since",
-        "Despite",
-        "Whereas"
-      ],
-      "answer": 2,
-      "explanation": "The first sentence is the reason for the second, so 'Since' fits. 'Although/Despite/Whereas' show contrast and 'Unless' a condition.",
-      "verified": true
-    },
-    {
-      "id": "ibps-clerk-019",
-      "section": "quant",
-      "topic": "Simplification & Approximation",
-      "difficulty": "easy",
-      "question": "18 × 12 ÷ 4 + 35 = ?",
-      "options": [
-        "85",
-        "87",
-        "89",
-        "91",
-        "93"
-      ],
-      "answer": 2,
-      "explanation": "18 × 12 = 216; 216 ÷ 4 = 54; 54 + 35 = 89.",
-      "verified": true
-    },
-    {
-      "id": "ibps-clerk-020",
-      "section": "quant",
-      "topic": "Simplification & Approximation",
-      "difficulty": "easy",
-      "question": "40% of 650 − 15% of 400 = ?",
-      "options": [
-        "200",
-        "190",
-        "180",
-        "210",
-        "220"
-      ],
-      "answer": 0,
-      "explanation": "260 − 60 = 200.",
-      "verified": true
-    },
-    {
-      "id": "ibps-clerk-021",
-      "section": "quant",
-      "topic": "Simplification & Approximation",
-      "difficulty": "easy",
-      "question": "(√729 + √196) × 3 = ?",
-      "options": [
-        "123",
-        "120",
-        "117",
-        "126",
-        "129"
-      ],
-      "answer": 0,
-      "explanation": "√729 = 27, √196 = 14; (27 + 14) × 3 = 123.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-clerk-E17",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "'senior to' idiom replacement; classic clerk item"
+      }
     },
     {
       "id": "ibps-clerk-022",
@@ -678,7 +1262,14 @@
       ],
       "answer": 4,
       "explanation": "3/4 × 5/6 × 1440 = 5/8 × 1440 = 900; ? = 1000 − 900 = 100.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-clerk-Q13",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Fraction-of-fraction with ? inside; matches Q13 clerk type"
+      }
     },
     {
       "id": "ibps-clerk-023",
@@ -695,24 +1286,14 @@
       ],
       "answer": 3,
       "explanation": "≈ 25 × 16 − 180 ÷ 6 = 400 − 30 = 370.",
-      "verified": true
-    },
-    {
-      "id": "ibps-clerk-024",
-      "section": "quant",
-      "topic": "Simplification & Approximation",
-      "difficulty": "medium",
-      "question": "? % of 840 = 252",
-      "options": [
-        "25",
-        "28",
-        "32",
-        "30",
-        "35"
-      ],
-      "answer": 3,
-      "explanation": "? = 252/840 × 100 = 30.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-clerk-Q12",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Approximation with near-integers; clerk standard"
+      }
     },
     {
       "id": "ibps-clerk-025",
@@ -729,7 +1310,14 @@
       ],
       "answer": 3,
       "explanation": "≈ 64% of 450 + √1024 × 7 = 288 + 32 × 7 = 288 + 224 = 512.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-clerk-Q12",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Approximation with % and root*number; clerk standard"
+      }
     },
     {
       "id": "ibps-clerk-026",
@@ -746,7 +1334,14 @@
       ],
       "answer": 2,
       "explanation": "Each term = previous × 2 + 1. 95 × 2 + 1 = 191.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-clerk-Q09",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "x2+1 series; easy clerk series"
+      }
     },
     {
       "id": "ibps-clerk-027",
@@ -763,7 +1358,14 @@
       ],
       "answer": 4,
       "explanation": "Differences are −1, −4, −9, −16 (squares); next −25: 90 − 25 = 65.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-clerk-Q09",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Square-difference decreasing series; clerk standard"
+      }
     },
     {
       "id": "ibps-clerk-028",
@@ -780,41 +1382,14 @@
       ],
       "answer": 0,
       "explanation": "Multipliers ×1, ×2, ×3, ×4, next ×5: 168 × 5 = 840.",
-      "verified": true
-    },
-    {
-      "id": "ibps-clerk-029",
-      "section": "quant",
-      "topic": "Data Interpretation",
-      "difficulty": "easy",
-      "question": "The number of savings accounts opened (in hundreds) by a bank branch in five months was: January 24, February 30, March 36, April 27, May 33.\n\nHow many accounts were opened in January, March and May together?",
-      "options": [
-        "8,700",
-        "9,000",
-        "9,300",
-        "9,600",
-        "9,900"
-      ],
-      "answer": 2,
-      "explanation": "24 + 36 + 33 = 93 hundred = 9,300.",
-      "verified": true
-    },
-    {
-      "id": "ibps-clerk-030",
-      "section": "quant",
-      "topic": "Data Interpretation",
-      "difficulty": "easy",
-      "question": "The number of savings accounts opened (in hundreds) by a bank branch in five months was: January 24, February 30, March 36, April 27, May 33.\n\nWhat is the average number of accounts opened per month?",
-      "options": [
-        "3,000",
-        "2,900",
-        "2,800",
-        "3,100",
-        "3,200"
-      ],
-      "answer": 0,
-      "explanation": "(24 + 30 + 36 + 27 + 33) = 150 hundred; 150/5 = 30 hundred = 3,000.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-clerk-Q09",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "xn increasing series; standard"
+      }
     },
     {
       "id": "ibps-clerk-031",
@@ -831,7 +1406,14 @@
       ],
       "answer": 0,
       "explanation": "(36 − 27)/36 × 100 = 25%.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-clerk-Q05",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Percent-less between bars; good trap with 25% vs 33.3%"
+      }
     },
     {
       "id": "ibps-clerk-032",
@@ -848,24 +1430,14 @@
       ],
       "answer": 1,
       "explanation": "(30 + 27) : (36 + 33) = 57 : 69 = 19 : 23.",
-      "verified": true
-    },
-    {
-      "id": "ibps-clerk-033",
-      "section": "quant",
-      "topic": "Percentage & Profit-Loss",
-      "difficulty": "easy",
-      "question": "An article bought for ₹800 is sold at a profit of 15%. What is its selling price?",
-      "options": [
-        "₹900",
-        "₹910",
-        "₹940",
-        "₹930",
-        "₹920"
-      ],
-      "answer": 4,
-      "explanation": "SP = 800 × 1.15 = ₹920.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-clerk-Q05",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Ratio of paired sums with 57:67 near-distractor"
+      }
     },
     {
       "id": "ibps-clerk-034",
@@ -882,7 +1454,14 @@
       ],
       "answer": 0,
       "explanation": "CP1 = 1200/1.2 = 1000; CP2 = 1200/0.8 = 1500. Total CP 2500, SP 2400 → loss 100 = 4% of 2500.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-clerk-Q14",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Equal SP +-x% loss; classic clerk P&L"
+      }
     },
     {
       "id": "ibps-clerk-035",
@@ -899,7 +1478,14 @@
       ],
       "answer": 3,
       "explanation": "F + S = 50 and F − 5 = 7(S − 5) → F = 7S − 30. 8S − 30 = 50 → S = 10, F = 40.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-clerk-Q17",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Father-son sum and past multiple; clerk ages"
+      }
     },
     {
       "id": "ibps-clerk-036",
@@ -916,7 +1502,14 @@
       ],
       "answer": 3,
       "explanation": "Total = 12 × 15 × 8 = 1440 man-hours. 20 men × 6 h = 120 per day → 1440/120 = 12 days.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-clerk-Q19",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Man-hours chain rule; clerk work"
+      }
     },
     {
       "id": "ibps-clerk-037",
@@ -933,7 +1526,14 @@
       ],
       "answer": 0,
       "explanation": "Speed = 240/12 = 20 m/s. Time = (240 + 360)/20 = 30 s.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-clerk-Q20",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Train pole to platform; clerk staple"
+      }
     },
     {
       "id": "ibps-clerk-038",
@@ -950,7 +1550,14 @@
       ],
       "answer": 1,
       "explanation": "P = 1440/(0.08 × 3) = ₹6,000. CI = 6000 × (1.1² − 1) = 6000 × 0.21 = ₹1,260.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-clerk-Q22",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "SI to principal then CI; clerk standard"
+      }
     },
     {
       "id": "ibps-clerk-039",
@@ -967,7 +1574,14 @@
       ],
       "answer": 4,
       "explanation": "Sum = 210; 210 − 30 = 180; 180/4 = 45.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-clerk-Q26",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Remove a member average; Q26"
+      }
     },
     {
       "id": "ibps-clerk-040",
@@ -984,7 +1598,14 @@
       ],
       "answer": 3,
       "explanation": "Bottom to top: S, P, U, R, Q, T. R is 4th, so S is 1st; Q–T must be 5th–6th (Q at 2nd would leave no place below it for P); U cannot be 2nd (adjacent to S), so U is 3rd and P 2nd. U is below R.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-clerk-R06",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "6-box stack, unique solution SPURQT"
+      }
     },
     {
       "id": "ibps-clerk-041",
@@ -1001,24 +1622,14 @@
       ],
       "answer": 2,
       "explanation": "Bottom to top: S, P, U, R, Q, T. Between P (2nd) and T (6th) are U, R and Q — three boxes.",
-      "verified": true
-    },
-    {
-      "id": "ibps-clerk-042",
-      "section": "reasoning",
-      "topic": "Puzzles & Seating Arrangement",
-      "difficulty": "medium",
-      "question": "Six boxes P, Q, R, S, T and U are placed one above another (position 1 is the bottom, 6 the top). R is placed fourth from the bottom. Only two boxes are placed between R and S. T is placed immediately above Q. U is not placed adjacent to S. P is placed somewhere below Q.\n\nWhich box is placed at the top?",
-      "options": [
-        "Q",
-        "R",
-        "T",
-        "U",
-        "P"
-      ],
-      "answer": 2,
-      "explanation": "Bottom to top: S, P, U, R, Q, T. T is at the top.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-clerk-R06",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Boxes between P and T = 3"
+      }
     },
     {
       "id": "ibps-clerk-043",
@@ -1035,7 +1646,14 @@
       ],
       "answer": 3,
       "explanation": "B is on Thursday, so D (three days away) is on Monday and A on Tuesday. F, E, C take Wednesday, Friday, Saturday in that order (F before E before C). F is on Wednesday.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-clerk-R05",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Mon-Sat scheduling, unique DAFBEC"
+      }
     },
     {
       "id": "ibps-clerk-044",
@@ -1052,7 +1670,14 @@
       ],
       "answer": 1,
       "explanation": "Order: D (Mon), A (Tue), F (Wed), B (Thu), E (Fri), C (Sat). Between A and E are F and B — two persons.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-clerk-R05",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Persons between A and E = 2"
+      }
     },
     {
       "id": "ibps-clerk-045",
@@ -1069,41 +1694,14 @@
       ],
       "answer": 1,
       "explanation": "Order: D, A, F, B, E, C. E attends on Friday, just before C on Saturday.",
-      "verified": true
-    },
-    {
-      "id": "ibps-clerk-046",
-      "section": "reasoning",
-      "topic": "Puzzles & Seating Arrangement",
-      "difficulty": "medium",
-      "question": "Among P, Q, R, S and T, each has a different height. Q is taller than only T. R is taller than Q but shorter than S. P is not the tallest. Who is the tallest?",
-      "options": [
-        "P",
-        "Q",
-        "R",
-        "S",
-        "T"
-      ],
-      "answer": 3,
-      "explanation": "T is the shortest and Q second shortest. Among P, R, S: S > R and P is not the tallest, so S is the tallest.",
-      "verified": true
-    },
-    {
-      "id": "ibps-clerk-047",
-      "section": "reasoning",
-      "topic": "Syllogism",
-      "difficulty": "easy",
-      "question": "Statements: All cats are dogs. All dogs are rats.\nConclusions: I. All cats are rats. II. Some rats are cats.",
-      "options": [
-        "Only I follows",
-        "Only II follows",
-        "Either I or II follows",
-        "Neither I nor II follows",
-        "Both I and II follow"
-      ],
-      "answer": 4,
-      "explanation": "Cats ⊂ dogs ⊂ rats, so all cats are rats (I) and therefore some rats are cats (II). Both follow.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-clerk-R05",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Immediately before C = E"
+      }
     },
     {
       "id": "ibps-clerk-048",
@@ -1120,7 +1718,14 @@
       ],
       "answer": 0,
       "explanation": "The pens that are pencils cannot be erasers, so I follows. There is no definite link between erasers and pens, so II does not follow.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-clerk-R11",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Some/No with 'Some pens are not erasers' follows; clerk standard"
+      }
     },
     {
       "id": "ibps-clerk-049",
@@ -1137,7 +1742,14 @@
       ],
       "answer": 4,
       "explanation": "M ≥ N > O = P gives M > P. Q ≥ P = O gives Q ≥ O. Both follow.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-clerk-R13",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Chain inequality both follow"
+      }
     },
     {
       "id": "ibps-clerk-050",
@@ -1154,24 +1766,14 @@
       ],
       "answer": 1,
       "explanation": "S ≤ T = U gives S ≤ U, so 'S < U' is not definite (I fails). T = U > V ≥ W gives T > W (II follows).",
-      "verified": true
-    },
-    {
-      "id": "ibps-clerk-051",
-      "section": "reasoning",
-      "topic": "Coding-Decoding",
-      "difficulty": "easy",
-      "question": "If 'PRINT' is coded as 'QSJOU', how is 'BLADE' coded?",
-      "options": [
-        "CMBFE",
-        "CMBEF",
-        "DMBEF",
-        "CLBEF",
-        "CMCEF"
-      ],
-      "answer": 1,
-      "explanation": "Each letter is moved one place forward: B→C, L→M, A→B, D→E, E→F = CMBEF.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-clerk-R13",
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "S<=U vs strict S<U trap; good"
+      }
     },
     {
       "id": "ibps-clerk-052",
@@ -1188,7 +1790,14 @@
       ],
       "answer": 4,
       "explanation": "Letters alternately move −1, +1: G−1=F, A+1=B, R−1=Q, D+1=E, E−1=D, N+1=O. MARKET → L, B, Q, L, D, U = LBQLDU.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-clerk-R19",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Alternating -1/+1 shift; acceptable letter coding"
+      }
     },
     {
       "id": "ibps-clerk-053",
@@ -1205,58 +1814,14 @@
       ],
       "answer": 0,
       "explanation": "The only son of Aman's paternal grandfather is Aman's father; his only daughter is Aman's sister.",
-      "verified": true
-    },
-    {
-      "id": "ibps-clerk-054",
-      "section": "reasoning",
-      "topic": "Blood Relations",
-      "difficulty": "medium",
-      "question": "P is the mother of Q. Q is the sister of R. R is the father of S. T is the wife of R. How is P related to S?",
-      "options": [
-        "Mother",
-        "Mother-in-law",
-        "Aunt",
-        "Grandmother",
-        "Sister"
-      ],
-      "answer": 3,
-      "explanation": "P is the mother of Q and R. R is S's father, so P is S's grandmother.",
-      "verified": true
-    },
-    {
-      "id": "ibps-clerk-055",
-      "section": "reasoning",
-      "topic": "Direction Sense",
-      "difficulty": "medium",
-      "question": "Sita is facing north. She turns 90° clockwise, then 180° anticlockwise and then 45° clockwise. Which direction is she facing now?",
-      "options": [
-        "North-East",
-        "South-West",
-        "North-West",
-        "West",
-        "South-East"
-      ],
-      "answer": 2,
-      "explanation": "North → 90° clockwise = East → 180° anticlockwise = West → 45° clockwise = North-West.",
-      "verified": true
-    },
-    {
-      "id": "ibps-clerk-056",
-      "section": "reasoning",
-      "topic": "Order & Ranking",
-      "difficulty": "medium",
-      "question": "Five friends scored different marks. A scored more than B but less than C. D scored less than B. E scored more than C. Who scored the second highest marks?",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "answer": 2,
-      "explanation": "Order: E > C > A > B > D. C is second highest.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-clerk-R15",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Pointing-to-woman puzzle, sister; clerk standard"
+      }
     },
     {
       "id": "ibps-clerk-057",
@@ -1273,7 +1838,14 @@
       ],
       "answer": 1,
       "explanation": "The 10th element from the left is 2; the 4th to its right is the 14th element, R.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-clerk-R22",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "nth from end in symbol arrangement; clerk standard"
+      }
     },
     {
       "id": "ibps-clerk-058",
@@ -1290,7 +1862,14 @@
       ],
       "answer": 2,
       "explanation": "In reverse order, position k holds the letter numbered 27 − k. 15 + 8 = 23rd position → letter number 4 = D.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-clerk-R23",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Reverse alphabet position; clerk R23 standard"
+      }
     },
     {
       "id": "ibps-clerk-059",
@@ -1307,24 +1886,1539 @@
       ],
       "answer": 1,
       "explanation": "5→6, 7→8, 2→1, 6→5, 4→3, 3→4, 6→5 gives 6815345. Only 5 appears twice, so one digit repeats.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-clerk-R26",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Digit operation and repeats; clerk misc type"
+      }
     },
     {
-      "id": "ibps-clerk-060",
-      "section": "reasoning",
-      "topic": "Classification (Odd One Out)",
+      "id": "ibps-clerk-061",
+      "section": "english",
+      "topic": "Reading Comprehension",
       "difficulty": "easy",
-      "question": "Find the odd one out: 27, 125, 196, 343, 1331",
+      "question": "Read the passage and answer the question.\n\nIn many Indian cities, residents depend on water tankers during the summer months, paying high prices for water that is often of doubtful quality. Yet the same cities receive heavy rain for a few months every year, most of which simply runs off roads into drains. Rooftop rainwater harvesting offers a simple way to capture some of this water. Rain falling on a roof is collected through pipes, filtered through layers of sand and gravel, and either stored in a tank or sent down a recharge pit to refill the groundwater below.\n\nThe cost of such a system is modest compared with what a family spends on tankers in a single dry season. In several housing societies that adopted it, borewells that had dried up began to yield water again within two or three years. However, the benefits depend on regular care. Filters clogged with leaves and silt can stop working, and pits that are not cleaned before the monsoon may overflow.\n\nExperts therefore say that rules making rainwater harvesting compulsory for new buildings are only a first step. Residents also need to understand how the systems work and who is responsible for maintaining them.\n\nWhich of the following best expresses the main idea of the passage?",
       "options": [
-        "27",
-        "125",
-        "1331",
-        "343",
-        "196"
+        "Rooftop rainwater harvesting is a low-cost way to ease urban water shortages, but it works only when the systems are maintained",
+        "Water tankers are the best solution to water shortages in Indian cities",
+        "Rainwater harvesting is too expensive for most families",
+        "Compulsory rules have already solved the water problem in cities",
+        "Borewells should be banned in housing societies"
+      ],
+      "answer": 0,
+      "explanation": "The passage explains how harvesting captures wasted rain cheaply and then stresses that regular maintenance and awareness are needed for it to work.",
+      "source": "ai",
+      "archetype": "ibps-clerk-E01",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Rainwater harvesting main idea with over-generalisation distractors"
+      }
+    },
+    {
+      "id": "ibps-clerk-062",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\nIn many Indian cities, residents depend on water tankers during the summer months, paying high prices for water that is often of doubtful quality. Yet the same cities receive heavy rain for a few months every year, most of which simply runs off roads into drains. Rooftop rainwater harvesting offers a simple way to capture some of this water. Rain falling on a roof is collected through pipes, filtered through layers of sand and gravel, and either stored in a tank or sent down a recharge pit to refill the groundwater below.\n\nThe cost of such a system is modest compared with what a family spends on tankers in a single dry season. In several housing societies that adopted it, borewells that had dried up began to yield water again within two or three years. However, the benefits depend on regular care. Filters clogged with leaves and silt can stop working, and pits that are not cleaned before the monsoon may overflow.\n\nExperts therefore say that rules making rainwater harvesting compulsory for new buildings are only a first step. Residents also need to understand how the systems work and who is responsible for maintaining them.\n\nAccording to the passage, what happened in some housing societies that adopted rainwater harvesting?",
+      "options": [
+        "They stopped receiving any rain during the monsoon",
+        "Their water bills doubled within a year",
+        "Borewells that had dried up began to yield water again within a few years",
+        "They were fined for not cleaning their pits",
+        "They started selling water to tankers"
+      ],
+      "answer": 2,
+      "explanation": "The second paragraph says that in several societies, dried-up borewells 'began to yield water again within two or three years'.",
+      "source": "ai",
+      "archetype": "ibps-clerk-E02",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Detail lookup on borewells"
+      }
+    },
+    {
+      "id": "ibps-clerk-063",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nIn many Indian cities, residents depend on water tankers during the summer months, paying high prices for water that is often of doubtful quality. Yet the same cities receive heavy rain for a few months every year, most of which simply runs off roads into drains. Rooftop rainwater harvesting offers a simple way to capture some of this water. Rain falling on a roof is collected through pipes, filtered through layers of sand and gravel, and either stored in a tank or sent down a recharge pit to refill the groundwater below.\n\nThe cost of such a system is modest compared with what a family spends on tankers in a single dry season. In several housing societies that adopted it, borewells that had dried up began to yield water again within two or three years. However, the benefits depend on regular care. Filters clogged with leaves and silt can stop working, and pits that are not cleaned before the monsoon may overflow.\n\nExperts therefore say that rules making rainwater harvesting compulsory for new buildings are only a first step. Residents also need to understand how the systems work and who is responsible for maintaining them.\n\nWhich of the following can be inferred from the passage?\nI. Most of the rain that falls on cities is currently wasted as run-off.\nII. Making harvesting compulsory for new buildings is, by itself, enough to solve the problem.\nIII. Buying water from tankers can be costly for families.",
+      "options": [
+        "Only I",
+        "Only II",
+        "Only I and III",
+        "Only II and III",
+        "All I, II and III"
+      ],
+      "answer": 2,
+      "explanation": "I follows from 'most of which simply runs off roads into drains'; III from 'paying high prices'. II is contradicted: experts call such rules 'only a first step'.",
+      "source": "ai",
+      "archetype": "ibps-clerk-E03",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "I/II/III inference with 'by itself enough' trap"
+      }
+    },
+    {
+      "id": "ibps-clerk-064",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\nIn many Indian cities, residents depend on water tankers during the summer months, paying high prices for water that is often of doubtful quality. Yet the same cities receive heavy rain for a few months every year, most of which simply runs off roads into drains. Rooftop rainwater harvesting offers a simple way to capture some of this water. Rain falling on a roof is collected through pipes, filtered through layers of sand and gravel, and either stored in a tank or sent down a recharge pit to refill the groundwater below.\n\nThe cost of such a system is modest compared with what a family spends on tankers in a single dry season. In several housing societies that adopted it, borewells that had dried up began to yield water again within two or three years. However, the benefits depend on regular care. Filters clogged with leaves and silt can stop working, and pits that are not cleaned before the monsoon may overflow.\n\nExperts therefore say that rules making rainwater harvesting compulsory for new buildings are only a first step. Residents also need to understand how the systems work and who is responsible for maintaining them.\n\nChoose the word most similar in meaning to 'modest' as used in the passage.",
+      "options": [
+        "shy",
+        "enormous",
+        "hidden",
+        "uncertain",
+        "small"
       ],
       "answer": 4,
-      "explanation": "27, 125, 343 and 1331 are cubes of odd numbers (3³, 5³, 7³, 11³); 196 (= 14²) is not a cube.",
-      "verified": true
+      "explanation": "Here 'modest' describes a cost, meaning small or moderate. 'Shy' is another sense of the word that does not fit the context; 'enormous' is the opposite.",
+      "source": "ai",
+      "archetype": "ibps-clerk-E04",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "'modest' with 'shy' dictionary-meaning trap; textbook E04"
+      }
+    },
+    {
+      "id": "ibps-clerk-067",
+      "section": "english",
+      "topic": "Cloze Test",
+      "difficulty": "easy",
+      "question": "Read the passage and choose the word that best fits the numbered blank.\n\nLearning to manage money is a skill that is rarely taught in schools. Many young people open their first bank account only after they start (1) ______, and they often learn about interest, loans and credit cards through costly mistakes. Some banks have now begun to (2) ______ free workshops in colleges, where students learn to make a monthly budget and to spot (3) ______ messages that try to steal their banking details.\n\nWhich word best fits blank (2)?",
+      "options": [
+        "attend",
+        "conduct",
+        "cancel",
+        "avoid",
+        "deny"
+      ],
+      "answer": 1,
+      "explanation": "Banks 'conduct' (organise) workshops in colleges. 'Attend' would make the banks the learners; 'cancel/avoid/deny' contradict 'where students learn'.",
+      "source": "ai",
+      "archetype": "ibps-clerk-E06",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "'conduct workshops' collocation vs 'attend'; good"
+      }
+    },
+    {
+      "id": "ibps-clerk-068",
+      "section": "english",
+      "topic": "Cloze Test",
+      "difficulty": "easy",
+      "question": "Read the passage and choose the word that best fits the numbered blank.\n\nLearning to manage money is a skill that is rarely taught in schools. Many young people open their first bank account only after they start (1) ______, and they often learn about interest, loans and credit cards through costly mistakes. Some banks have now begun to (2) ______ free workshops in colleges, where students learn to make a monthly budget and to spot (3) ______ messages that try to steal their banking details.\n\nWhich word best fits blank (3)?",
+      "options": [
+        "fraudulent",
+        "genuine",
+        "official",
+        "friendly",
+        "harmless"
+      ],
+      "answer": 0,
+      "explanation": "Messages that 'try to steal banking details' are fraudulent; the other adjectives describe safe messages.",
+      "source": "ai",
+      "archetype": "ibps-clerk-E06",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "'fraudulent messages'; clerk banking theme"
+      }
+    },
+    {
+      "id": "ibps-clerk-069",
+      "section": "english",
+      "topic": "Error Detection",
+      "difficulty": "easy",
+      "question": "Find the part of the sentence that has an error. If there is no error, choose 'E'.\nThe number of customers (A)/ who uses mobile banking (B)/ has increased sharply (C)/ over the last year. (D)/ No error (E)",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "answer": 1,
+      "explanation": "'Who' refers to 'customers' (plural), so the verb should be 'use'. The error is in part B. ('The number … has increased' is correct.)",
+      "source": "ai",
+      "archetype": "ibps-clerk-E08",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "'who uses' relative clause agreement; faithful clerk trap"
+      }
+    },
+    {
+      "id": "ibps-clerk-070",
+      "section": "english",
+      "topic": "Error Detection",
+      "difficulty": "easy",
+      "question": "Find the part of the sentence that has an error. If there is no error, choose 'E'.\nIf I was you, (A)/ I would open (B)/ a recurring deposit (C)/ without any delay. (D)/ No error (E)",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "answer": 0,
+      "explanation": "Imaginary conditions take the subjunctive 'were': 'If I were you'. The error is in part A.",
+      "source": "ai",
+      "archetype": "ibps-clerk-E08",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Subjunctive 'If I were'; standard"
+      }
+    },
+    {
+      "id": "ibps-clerk-071",
+      "section": "english",
+      "topic": "Fillers (Single/Double)",
+      "difficulty": "easy",
+      "question": "Choose the word that best fills the blank.\nThe doctor advised him to ______ from eating fried food for a few weeks.",
+      "options": [
+        "avoid",
+        "prevent",
+        "stop",
+        "quit",
+        "refrain"
+      ],
+      "answer": 4,
+      "explanation": "Only 'refrain' is used with 'from' + -ing in this sense ('refrain from eating'). 'Avoid eating', 'stop eating' and 'quit eating' do not take 'from'; 'prevent' needs an object.",
+      "source": "ai",
+      "archetype": "ibps-clerk-E11",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "'refrain from' vs 'avoid/stop' collocation; textbook E11"
+      }
+    },
+    {
+      "id": "ibps-clerk-074",
+      "section": "english",
+      "topic": "Para Jumbles / Sentence Rearrangement",
+      "difficulty": "medium",
+      "question": "Rearrange the sentences to form a meaningful paragraph and choose the LAST sentence.\nA. It is therefore wise to keep your phone's software updated.\nB. Mobile phones today store much of our personal and banking information.\nC. Software updates often fix security weaknesses that criminals could exploit.\nD. Losing such information to hackers can cause serious financial harm.\nE. Many people, however, ignore update alerts for months.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "answer": 0,
+      "explanation": "Order: B – D – C – E – A. Sentence A, beginning with 'therefore', draws the conclusion and comes last.",
+      "source": "ai",
+      "archetype": "ibps-clerk-E13",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "LAST-sentence jumble with however/therefore"
+      }
+    },
+    {
+      "id": "ibps-clerk-076",
+      "section": "english",
+      "topic": "Word Swap / Word Usage",
+      "difficulty": "easy",
+      "question": "Which pair of words should be interchanged to make the sentence meaningful?\nThe (A) clerk posted the (B) deadline to the (C) customer before the (D) letter.",
+      "options": [
+        "A–B",
+        "B–C",
+        "B–D",
+        "A–D",
+        "No interchange required"
+      ],
+      "answer": 2,
+      "explanation": "Swapping B and D: 'The clerk posted the letter to the customer before the deadline.'",
+      "source": "ai",
+      "archetype": "ibps-clerk-E15",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "deadline/letter swap; clerk standard"
+      }
+    },
+    {
+      "id": "ibps-clerk-079",
+      "section": "quant",
+      "topic": "Simplification & Approximation",
+      "difficulty": "easy",
+      "question": "35% of 840 + 18² − 25 × 6 = ?",
+      "options": [
+        "478",
+        "458",
+        "488",
+        "448",
+        "468"
+      ],
+      "answer": 4,
+      "explanation": "35% of 840 = 294; 18² = 324; 25 × 6 = 150. 294 + 324 − 150 = 468.",
+      "source": "ai",
+      "archetype": "ibps-clerk-Q11",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "3-term simplification with square; clerk standard"
+      }
+    },
+    {
+      "id": "ibps-clerk-080",
+      "section": "quant",
+      "topic": "Simplification & Approximation",
+      "difficulty": "easy",
+      "question": "(√576 + √289) × 4 − 64 = ?",
+      "options": [
+        "96",
+        "104",
+        "92",
+        "100",
+        "110"
+      ],
+      "answer": 3,
+      "explanation": "√576 = 24 and √289 = 17. (24 + 17) × 4 − 64 = 164 − 64 = 100.",
+      "source": "ai",
+      "archetype": "ibps-clerk-Q11",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Root-sum simplification"
+      }
+    },
+    {
+      "id": "ibps-clerk-081",
+      "section": "quant",
+      "topic": "Simplification & Approximation",
+      "difficulty": "easy",
+      "question": "3/8 of 1,280 − 2/5 of 650 = ?",
+      "options": [
+        "220",
+        "200",
+        "240",
+        "210",
+        "230"
+      ],
+      "answer": 0,
+      "explanation": "3/8 × 1,280 = 480 and 2/5 × 650 = 260. 480 − 260 = 220.",
+      "source": "ai",
+      "archetype": "ibps-clerk-Q11",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Fraction-of-number difference"
+      }
+    },
+    {
+      "id": "ibps-clerk-082",
+      "section": "quant",
+      "topic": "Simplification & Approximation",
+      "difficulty": "easy",
+      "question": "What approximate value should come in place of '?'\n24.98 × 18.03 + 399.9 ÷ 7.98 ≈ ?",
+      "options": [
+        "480",
+        "500",
+        "520",
+        "460",
+        "540"
+      ],
+      "answer": 1,
+      "explanation": "≈ 25 × 18 + 400 ÷ 8 = 450 + 50 = 500.",
+      "source": "ai",
+      "archetype": "ibps-clerk-Q12",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Approximation product+quotient"
+      }
+    },
+    {
+      "id": "ibps-clerk-083",
+      "section": "quant",
+      "topic": "Simplification & Approximation",
+      "difficulty": "easy",
+      "question": "What approximate value should come in place of '?'\n59.89% of 1,199.7 − 14.98² + √1,295.8 ≈ ?",
+      "options": [
+        "511",
+        "551",
+        "495",
+        "567",
+        "531"
+      ],
+      "answer": 4,
+      "explanation": "≈ 60% of 1,200 − 15² + √1,296 = 720 − 225 + 36 = 531.",
+      "source": "ai",
+      "archetype": "ibps-clerk-Q12",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Approximation with %, square, root"
+      }
+    },
+    {
+      "id": "ibps-clerk-085",
+      "section": "quant",
+      "topic": "Simplification & Approximation",
+      "difficulty": "easy",
+      "question": "√? × 12 + 46 = 214",
+      "options": [
+        "169",
+        "225",
+        "144",
+        "196",
+        "256"
+      ],
+      "answer": 3,
+      "explanation": "√? × 12 = 168 → √? = 14 → ? = 196.",
+      "source": "ai",
+      "archetype": "ibps-clerk-Q13",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "sqrt? inside equation; Q13"
+      }
+    },
+    {
+      "id": "ibps-clerk-086",
+      "section": "quant",
+      "topic": "Number Series",
+      "difficulty": "medium",
+      "question": "Find the next term: 3, 4, 12, 39, 103, ?",
+      "options": [
+        "228",
+        "216",
+        "232",
+        "222",
+        "240"
+      ],
+      "answer": 0,
+      "explanation": "Differences are 1³, 2³, 3³, 4³; next difference is 5³ = 125. 103 + 125 = 228.",
+      "source": "ai",
+      "archetype": "ibps-clerk-Q09",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Cube-difference series; clerk standard"
+      }
+    },
+    {
+      "id": "ibps-clerk-087",
+      "section": "quant",
+      "topic": "Number Series",
+      "difficulty": "medium",
+      "question": "Find the next term: 2, 3, 8, 27, 112, ?",
+      "options": [
+        "560",
+        "570",
+        "565",
+        "448",
+        "575"
+      ],
+      "answer": 2,
+      "explanation": "Pattern: ×1 + 1, ×2 + 2, ×3 + 3, ×4 + 4, so next = 112 × 5 + 5 = 565.",
+      "source": "ai",
+      "archetype": "ibps-clerk-Q09",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "xn+n series"
+      }
+    },
+    {
+      "id": "ibps-clerk-088",
+      "section": "quant",
+      "topic": "Number Series",
+      "difficulty": "medium",
+      "question": "Find the wrong number in the series: 15, 16, 20, 28, 45, 70",
+      "options": [
+        "20",
+        "45",
+        "16",
+        "28",
+        "70"
+      ],
+      "answer": 3,
+      "explanation": "Differences should be 1², 2², 3², 4², 5²: 15, 16, 20, 29, 45, 70. 28 should be 29.",
+      "source": "ai",
+      "archetype": "ibps-clerk-Q10",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Wrong term in square-difference series"
+      }
+    },
+    {
+      "id": "ibps-clerk-090",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "easy",
+      "question": "The number of two-wheeler loans disbursed by a bank branch in six months was: January – 240, February – 180, March – 300, April – 270, May – 210, June – 360.\n\nBy what percentage did the number of loans increase from February to March?",
+      "options": [
+        "60%",
+        "66⅔%",
+        "40%",
+        "50%",
+        "33⅓%"
+      ],
+      "answer": 1,
+      "explanation": "Increase = 300 − 180 = 120. 120/180 × 100 = 66⅔%. (40% is 120 as a percentage of 300 — the usual trap.)",
+      "source": "ai",
+      "archetype": "ibps-clerk-Q05",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "%-increase with 40% reversed trap"
+      }
+    },
+    {
+      "id": "ibps-clerk-091",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "easy",
+      "question": "The number of two-wheeler loans disbursed by a bank branch in six months was: January – 240, February – 180, March – 300, April – 270, May – 210, June – 360.\n\nWhat is the ratio of the loans disbursed in January and April together to those disbursed in May and June together?",
+      "options": [
+        "17 : 19",
+        "16 : 19",
+        "17 : 18",
+        "19 : 17",
+        "15 : 17"
+      ],
+      "answer": 0,
+      "explanation": "January + April = 510; May + June = 570. 510 : 570 = 17 : 19.",
+      "source": "ai",
+      "archetype": "ibps-clerk-Q05",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Ratio of paired sums"
+      }
+    },
+    {
+      "id": "ibps-clerk-092",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "easy",
+      "question": "The number of two-wheeler loans disbursed by a bank branch in six months was: January – 240, February – 180, March – 300, April – 270, May – 210, June – 360.\n\nThe number of loans disbursed in June is what percent more than that in April?",
+      "options": [
+        "25%",
+        "30%",
+        "35%",
+        "33⅓%",
+        "40%"
+      ],
+      "answer": 3,
+      "explanation": "(360 − 270)/270 × 100 = 90/270 × 100 = 33⅓%.",
+      "source": "ai",
+      "archetype": "ibps-clerk-Q05",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Percent-more 33.3% vs 25% trap"
+      }
+    },
+    {
+      "id": "ibps-clerk-093",
+      "section": "quant",
+      "topic": "Percentage & Profit-Loss",
+      "difficulty": "medium",
+      "question": "By selling an article for ₹1,380, a shopkeeper loses 8%. At what price should he sell it to gain 12%?",
+      "options": [
+        "₹1,656",
+        "₹1,680",
+        "₹1,700",
+        "₹1,620",
+        "₹1,546"
+      ],
+      "answer": 1,
+      "explanation": "CP = 1,380/0.92 = ₹1,500. SP for 12% gain = 1,500 × 1.12 = ₹1,680.",
+      "source": "ai",
+      "archetype": "ibps-clerk-Q14",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Loss% to gain% SP; clerk standard"
+      }
+    },
+    {
+      "id": "ibps-clerk-094",
+      "section": "quant",
+      "topic": "Ratio & Ages",
+      "difficulty": "easy",
+      "question": "The present ages of a mother and her daughter are in the ratio 8 : 3. After 6 years, the mother will be twice as old as the daughter. What is the daughter's present age?",
+      "options": [
+        "12 years",
+        "6 years",
+        "9 years",
+        "8 years",
+        "10 years"
+      ],
+      "answer": 2,
+      "explanation": "(8k + 6) = 2(3k + 6) → 2k = 6 → k = 3. Daughter = 3 × 3 = 9 years (mother 24).",
+      "source": "ai",
+      "archetype": "ibps-clerk-Q17",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Mother-daughter ratio ages"
+      }
+    },
+    {
+      "id": "ibps-clerk-095",
+      "section": "quant",
+      "topic": "Time & Work",
+      "difficulty": "medium",
+      "question": "15 men can complete a work in 24 days. They work for 8 days, after which 5 more men join them. In how many more days will the remaining work be completed?",
+      "options": [
+        "10",
+        "16",
+        "14",
+        "11",
+        "12"
+      ],
+      "answer": 4,
+      "explanation": "Total work = 15 × 24 = 360 man-days; done in 8 days = 120. Remaining 240 man-days with 20 men → 12 days.",
+      "source": "ai",
+      "archetype": "ibps-clerk-Q19",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Men join mid-way; clerk work"
+      }
+    },
+    {
+      "id": "ibps-clerk-096",
+      "section": "quant",
+      "topic": "Speed, Time & Distance",
+      "difficulty": "easy",
+      "question": "A train 180 m long running at 54 km/h crosses a platform in 20 seconds. What is the length of the platform?",
+      "options": [
+        "120 m",
+        "300 m",
+        "150 m",
+        "100 m",
+        "140 m"
+      ],
+      "answer": 0,
+      "explanation": "Speed = 54 × 5/18 = 15 m/s. Distance in 20 s = 300 m = train + platform → platform = 120 m.",
+      "source": "ai",
+      "archetype": "ibps-clerk-Q20",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Platform length from speed"
+      }
+    },
+    {
+      "id": "ibps-clerk-097",
+      "section": "quant",
+      "topic": "Simple & Compound Interest",
+      "difficulty": "medium",
+      "question": "What is the compound interest on ₹15,000 at 12% per annum for 2 years, compounded annually?",
+      "options": [
+        "₹3,600",
+        "₹3,906",
+        "₹3,716",
+        "₹3,840",
+        "₹3,816"
+      ],
+      "answer": 4,
+      "explanation": "Amount = 15,000 × 1.12² = 15,000 × 1.2544 = ₹18,816. CI = ₹3,816. (₹3,600 is the simple interest.)",
+      "source": "ai",
+      "archetype": "ibps-clerk-Q22",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "CI 2 yrs direct"
+      }
+    },
+    {
+      "id": "ibps-clerk-098",
+      "section": "quant",
+      "topic": "Average",
+      "difficulty": "easy",
+      "question": "The average weight of 24 students is 40 kg. When the teacher's weight is included, the average increases by 1 kg. What is the teacher's weight?",
+      "options": [
+        "41 kg",
+        "64 kg",
+        "66 kg",
+        "65 kg",
+        "60 kg"
+      ],
+      "answer": 3,
+      "explanation": "New total = 25 × 41 = 1,025; old total = 24 × 40 = 960. Teacher = 1,025 − 960 = 65 kg.",
+      "source": "ai",
+      "archetype": "ibps-clerk-Q26",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Teacher included average"
+      }
+    },
+    {
+      "id": "ibps-clerk-099",
+      "section": "quant",
+      "topic": "Mixture & Alligation",
+      "difficulty": "medium",
+      "question": "In what ratio must tea costing ₹180 per kg be mixed with tea costing ₹240 per kg so that the mixture costs ₹200 per kg?",
+      "options": [
+        "1 : 2",
+        "3 : 2",
+        "2 : 1",
+        "2 : 3",
+        "3 : 1"
+      ],
+      "answer": 2,
+      "explanation": "By alligation: (240 − 200) : (200 − 180) = 40 : 20 = 2 : 1.",
+      "source": "ai",
+      "archetype": "ibps-clerk-Q23",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Alligation ratio"
+      }
+    },
+    {
+      "id": "ibps-clerk-100",
+      "section": "reasoning",
+      "topic": "Puzzles & Seating Arrangement",
+      "difficulty": "easy",
+      "question": "Eight persons P, Q, R, S, T, U, V and W sit in a straight row, all facing north.\nS sits third from the left end. Only two persons sit between S and V. W sits immediately to the right of V. P sits at one of the extreme ends and only one person sits between P and V. Q sits immediately to the left of S. T sits immediately to the left of V. U is not an immediate neighbour of S.\n\nWho sits second to the right of R?",
+      "options": [
+        "T",
+        "V",
+        "W",
+        "S",
+        "U"
+      ],
+      "answer": 1,
+      "explanation": "Left to right: U, Q, S, R, T, V, W, P. Second to the right of R is V.",
+      "source": "ai",
+      "archetype": "ibps-clerk-R01",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "8-person linear row, unique UQSRTVWP"
+      }
+    },
+    {
+      "id": "ibps-clerk-101",
+      "section": "reasoning",
+      "topic": "Puzzles & Seating Arrangement",
+      "difficulty": "easy",
+      "question": "Eight persons P, Q, R, S, T, U, V and W sit in a straight row, all facing north.\nS sits third from the left end. Only two persons sit between S and V. W sits immediately to the right of V. P sits at one of the extreme ends and only one person sits between P and V. Q sits immediately to the left of S. T sits immediately to the left of V. U is not an immediate neighbour of S.\n\nHow many persons sit between U and T?",
+      "options": [
+        "Three",
+        "Two",
+        "Four",
+        "One",
+        "Five"
+      ],
+      "answer": 0,
+      "explanation": "U is 1st and T is 5th from the left; Q, S and R sit between them — three persons.",
+      "source": "ai",
+      "archetype": "ibps-clerk-R01",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Persons between U and T = 3"
+      }
+    },
+    {
+      "id": "ibps-clerk-103",
+      "section": "reasoning",
+      "topic": "Puzzles & Seating Arrangement",
+      "difficulty": "easy",
+      "question": "Seven persons A, B, C, D, E, F and G attend a training programme on seven different days of the same week, from Monday to Sunday.\nOnly three persons attend after D. G attends immediately before D. Only one person attends between G and E, and E attends before G. B attends on some day before D. Only one person attends between A and C. C does not attend on Friday.\n\nWho attends the training on Saturday?",
+      "options": [
+        "A",
+        "C",
+        "D",
+        "F",
+        "B"
+      ],
+      "answer": 3,
+      "explanation": "Monday – E, Tuesday – B, Wednesday – G, Thursday – D, Friday – A, Saturday – F, Sunday – C.",
+      "source": "ai",
+      "archetype": "ibps-clerk-R05",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Week scheduling, unique EBGDAFC"
+      }
+    },
+    {
+      "id": "ibps-clerk-104",
+      "section": "reasoning",
+      "topic": "Puzzles & Seating Arrangement",
+      "difficulty": "easy",
+      "question": "Seven persons A, B, C, D, E, F and G attend a training programme on seven different days of the same week, from Monday to Sunday.\nOnly three persons attend after D. G attends immediately before D. Only one person attends between G and E, and E attends before G. B attends on some day before D. Only one person attends between A and C. C does not attend on Friday.\n\nHow many persons attend between B and A?",
+      "options": [
+        "One",
+        "Three",
+        "Two",
+        "Four",
+        "None"
+      ],
+      "answer": 2,
+      "explanation": "B attends on Tuesday and A on Friday; G and D attend in between — two persons.",
+      "source": "ai",
+      "archetype": "ibps-clerk-R05",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Between B and A = 2"
+      }
+    },
+    {
+      "id": "ibps-clerk-106",
+      "section": "reasoning",
+      "topic": "Puzzles & Seating Arrangement",
+      "difficulty": "easy",
+      "question": "Six persons J, K, L, M, N and O are of different heights. K is taller than only two persons. J is taller than M but shorter than N. M is taller than K. O is shorter than L.\n\nWho is the second shortest person?",
+      "options": [
+        "L",
+        "K",
+        "O",
+        "M",
+        "J"
+      ],
+      "answer": 0,
+      "explanation": "Tallest to shortest: N, J, M, K, L, O. The second shortest is L.",
+      "source": "ai",
+      "archetype": "ibps-clerk-R07",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "6-person height comparison, unique OLKMJN"
+      }
+    },
+    {
+      "id": "ibps-clerk-107",
+      "section": "reasoning",
+      "topic": "Puzzles & Seating Arrangement",
+      "difficulty": "medium",
+      "question": "Six persons J, K, L, M, N and O are of different heights. K is taller than only two persons. J is taller than M but shorter than N. M is taller than K. O is shorter than L.\n\nIf the tallest person is 180 cm tall and K is 165 cm tall, which of the following can be J's height?",
+      "options": [
+        "182 cm",
+        "164 cm",
+        "178 cm",
+        "160 cm",
+        "181 cm"
+      ],
+      "answer": 2,
+      "explanation": "Order: N (180) > J > M > K (165). J must be between 165 cm and 180 cm (and above M), so only 178 cm is possible.",
+      "source": "ai",
+      "archetype": "ibps-clerk-R07",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Derived possible height range; faithful R07 'derived value'"
+      }
+    },
+    {
+      "id": "ibps-clerk-108",
+      "section": "reasoning",
+      "topic": "Syllogism",
+      "difficulty": "easy",
+      "question": "Statements: All pens are markers. Some markers are erasers.\nConclusions: I. Some pens are erasers. II. Some erasers are markers.",
+      "options": [
+        "Only I follows",
+        "Only II follows",
+        "Either I or II follows",
+        "Neither I nor II follows",
+        "Both I and II follow"
+      ],
+      "answer": 1,
+      "explanation": "Pens and erasers have no definite link, so I does not follow. 'Some markers are erasers' converts to 'Some erasers are markers', so II follows.",
+      "source": "ai",
+      "archetype": "ibps-clerk-R11",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "All/Some syllogism; standard"
+      }
+    },
+    {
+      "id": "ibps-clerk-109",
+      "section": "reasoning",
+      "topic": "Syllogism",
+      "difficulty": "medium",
+      "question": "Statements: Only a few cards are coins. All coins are notes.\nConclusions: I. Some cards are notes. II. All cards are notes.",
+      "options": [
+        "Only I follows",
+        "Only II follows",
+        "Either I or II follows",
+        "Neither I nor II follows",
+        "Both I and II follow"
+      ],
+      "answer": 0,
+      "explanation": "The cards that are coins are notes, so I follows. The cards that are not coins may or may not be notes, so the definite statement II does not follow.",
+      "source": "ai",
+      "archetype": "ibps-clerk-R12",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Only-a-few with All-trap; clerk-faithful"
+      }
+    },
+    {
+      "id": "ibps-clerk-110",
+      "section": "reasoning",
+      "topic": "Inequality",
+      "difficulty": "easy",
+      "question": "Statement: P ≥ Q > R = S ≤ T\nConclusions: I. P > S  II. T > R",
+      "options": [
+        "Only I follows",
+        "Only II follows",
+        "Either I or II follows",
+        "Neither I nor II follows",
+        "Both I and II follow"
+      ],
+      "answer": 0,
+      "explanation": "P ≥ Q > R = S gives P > S, so I follows. T ≥ S = R gives only T ≥ R, so II (T > R) does not follow.",
+      "source": "ai",
+      "archetype": "ibps-clerk-R13",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Inequality T>R not definite"
+      }
+    },
+    {
+      "id": "ibps-clerk-112",
+      "section": "reasoning",
+      "topic": "Coding-Decoding",
+      "difficulty": "medium",
+      "question": "In a certain code, 'BRANCH' is written as 'CQBMDG'. How is 'CREDIT' written in that code?",
+      "options": [
+        "DSFEJU",
+        "BQDCHS",
+        "DQFEJS",
+        "DQFCJS",
+        "CQFCJS"
+      ],
+      "answer": 3,
+      "explanation": "Letters are shifted alternately +1 and −1: B+1 = C, R−1 = Q, A+1 = B, N−1 = M, C+1 = D, H−1 = G. So CREDIT → D Q F C J S.",
+      "source": "ai",
+      "archetype": "ibps-clerk-R19",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Alternating +1/-1 coding"
+      }
+    },
+    {
+      "id": "ibps-clerk-113",
+      "section": "reasoning",
+      "topic": "Coding-Decoding",
+      "difficulty": "medium",
+      "question": "In a code language, 'save money daily' is written as 'la ki po', 'money grows daily' is written as 'po ri ki' and 'grows with time' is written as 'ri ne su'. What is the code for 'save'?",
+      "options": [
+        "ki",
+        "po",
+        "ri",
+        "ne",
+        "la"
+      ],
+      "answer": 4,
+      "explanation": "'money' and 'daily' are common to the first two sentences, so they take 'ki' and 'po'. The remaining code in the first sentence, 'la', means 'save'.",
+      "source": "ai",
+      "archetype": "ibps-clerk-R20",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Three-phrase sentence coding; clerk standard"
+      }
+    },
+    {
+      "id": "ibps-clerk-115",
+      "section": "reasoning",
+      "topic": "Direction Sense",
+      "difficulty": "easy",
+      "question": "Amit walks 20 m towards the east, turns right and walks 15 m, turns right again and walks 30 m, and then turns right and walks 15 m. How far and in which direction is he from his starting point?",
+      "options": [
+        "10 m, East",
+        "15 m, South",
+        "10 m, West",
+        "20 m, West",
+        "25 m, North"
+      ],
+      "answer": 2,
+      "explanation": "East 20, south 15, west 30, north 15. Net: 10 m to the west, with no north–south displacement.",
+      "source": "ai",
+      "archetype": "ibps-clerk-R17",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Walk-turn direction, 10 m West"
+      }
+    },
+    {
+      "id": "ibps-clerk-117",
+      "section": "reasoning",
+      "topic": "Alphanumeric Series",
+      "difficulty": "medium",
+      "question": "Study the arrangement:\nD 4 % K 7 R @ 9 B 2 # N 5 E $ 8 G & 3 H\nWhich element is 5th to the right of the 8th element from the left end?",
+      "options": [
+        "E",
+        "N",
+        "$",
+        "2",
+        "5"
+      ],
+      "answer": 4,
+      "explanation": "The 8th element from the left is 9. Counting 5 to its right: B, 2, #, N, 5 → 5.",
+      "source": "ai",
+      "archetype": "ibps-clerk-R22",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "nth from position in arrangement"
+      }
+    },
+    {
+      "id": "ibps-clerk-118",
+      "section": "reasoning",
+      "topic": "Alphanumeric Series",
+      "difficulty": "easy",
+      "question": "If the letters of the word 'PLANET' are arranged in alphabetical order from left to right, how many letters will remain in the same position?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "None",
+        "Four"
+      ],
+      "answer": 1,
+      "explanation": "PLANET → AELNPT. N (4th) and T (6th) stay in place — two letters.",
+      "source": "ai",
+      "archetype": "ibps-clerk-R23",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "PLANET alphabetic order positions"
+      }
+    },
+    {
+      "id": "ibps-clerk-121",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "easy",
+      "passage": "ibps-clerk-P01",
+      "question": "Which of the following is the most suitable title for the passage?",
+      "options": [
+        "The End of Electricity Bills in Indian Homes",
+        "Rooftop Solar: Growing Fast, but Not Yet for Everyone",
+        "Solar Loans: A New Business for Banks",
+        "How Falling Panel Prices Helped the Climate",
+        "Water Tanks and Solar Panels on Indian Roofs"
+      ],
+      "answer": 1,
+      "explanation": "The passage describes why rooftop solar is spreading, why the spread is uneven, and how the gaps can be closed. The other titles pick up a single detail (loans, water tank, prices) or overstate it ('end of electricity bills').",
+      "source": "ai",
+      "archetype": "ibps-clerk-E01",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "title question with partial-detail distractors (banks' loans, water tanks); faithful clerk RC"
+      }
+    },
+    {
+      "id": "ibps-clerk-122",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "passage": "ibps-clerk-P01",
+      "question": "According to the passage, which of the following is true?",
+      "options": [
+        "Most families install rooftop panels mainly to fight climate change.",
+        "Government subsidies pay the entire cost of small rooftop systems.",
+        "Every state allows households to send surplus power back to the grid.",
+        "For a typical household, the savings on the bill are often enough to cover the loan instalment.",
+        "Panels sold by unregistered vendors always stop working within a year."
+      ],
+      "answer": 3,
+      "explanation": "Paragraph 2 says the bill savings are often enough to cover the instalment. The passage says the decision is driven by bills, not climate; subsidies cover 'a part' of the charge; 'many states', not every state; poor equipment stops working 'within a few years', not 'always within a year'.",
+      "source": "ai",
+      "archetype": "ibps-clerk-E02",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "true-statement Q with qualifier distortions (entire, every, always, mainly) - exact clerk trap style"
+      }
+    },
+    {
+      "id": "ibps-clerk-123",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "passage": "ibps-clerk-P01",
+      "question": "Which of the following is NOT mentioned in the passage as a reason for the uneven spread of rooftop solar?",
+      "options": [
+        "Electricity companies refuse to buy surplus power from households.",
+        "Tenants may not stay long enough to recover the cost.",
+        "Many roofs in crowded areas are too small or too shaded.",
+        "Some buyers received poor-quality equipment from unregistered vendors.",
+        "House owners are unwilling to spend on a benefit their tenants will enjoy."
+      ],
+      "answer": 0,
+      "explanation": "Paragraph 3 lists tenants' short stay, owners' reluctance, small/shaded roofs and poor equipment. Nothing is said about electricity companies refusing to buy surplus power — in fact, paragraph 1 says households in many states receive credit for it.",
+      "source": "ai",
+      "archetype": "ibps-clerk-E02",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "NOT-mentioned reason; option 0 is the invented one, other four from para 3; standard clerk RC"
+      }
+    },
+    {
+      "id": "ibps-clerk-124",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "hard",
+      "passage": "ibps-clerk-P01",
+      "question": "Which of the following can be inferred from the passage?\nI. A family living in its own house is more likely to install rooftop panels than a family living in a rented house.\nII. Lists of approved vendors would help buyers avoid poor-quality equipment.\nIII. Shared systems on common roofs will remove the need for government subsidies.",
+      "options": [
+        "Only I",
+        "Only II",
+        "Only I and II",
+        "Only II and III",
+        "All I, II and III"
+      ],
+      "answer": 2,
+      "explanation": "I follows from 'families living in rented homes rarely invest'. II follows from 'so that buyers know whom to trust'. III is not supported — the passage never links shared systems to subsidies.",
+      "source": "ai",
+      "archetype": "ibps-clerk-E03",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "I and II inferable, III overstates (subsidies) - clean combination inference; slightly hard for clerk"
+      }
+    },
+    {
+      "id": "ibps-clerk-125",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "easy",
+      "passage": "ibps-clerk-P01",
+      "question": "Which of the following is most similar in meaning to the word 'reluctant' as used in the passage?",
+      "options": [
+        "uncertain",
+        "unable",
+        "eager",
+        "unaware",
+        "unwilling"
+      ],
+      "answer": 4,
+      "explanation": "Owners are 'reluctant' to spend, i.e. unwilling. 'Uncertain' and 'unable' are near misses (doubt, lack of ability), 'eager' is the opposite, 'unaware' is unrelated.",
+      "source": "ai",
+      "archetype": "ibps-clerk-E04",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "reluctant=unwilling, eager antonym trap; easy vocab-in-context typical of clerk"
+      }
+    },
+    {
+      "id": "ibps-clerk-126",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "passage": "ibps-clerk-P01",
+      "question": "Which of the following is most OPPOSITE in meaning to the word 'uneven' as used in the passage?",
+      "options": [
+        "smooth",
+        "flat",
+        "uniform",
+        "rapid",
+        "odd"
+      ],
+      "answer": 2,
+      "explanation": "'Uneven spread' means the spread differs from place to place; its opposite in this context is 'uniform'. 'Smooth' and 'flat' are opposites of 'uneven' only for a surface, which is not the sense used here.",
+      "source": "ai",
+      "archetype": "ibps-clerk-E04",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "'uneven' spread antonym=uniform; smooth/flat are physical-sense distractors - in-context trap works, slight debate on 'smooth'"
+      }
+    },
+    {
+      "id": "ibps-clerk-127",
+      "section": "english",
+      "topic": "Cloze Test",
+      "difficulty": "easy",
+      "passage": "ibps-clerk-P02",
+      "question": "Which word best fits blank (1)?",
+      "options": [
+        "upgraded",
+        "uploaded",
+        "updated",
+        "uplifted",
+        "upheld"
+      ],
+      "answer": 2,
+      "explanation": "Customers get their passbooks 'updated' (entries printed). 'Upgraded', 'uploaded', 'uplifted' and 'upheld' are look-alike words that do not go with 'passbooks'.",
+      "source": "ai",
+      "archetype": "ibps-clerk-E06",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "updated passbooks vs upgraded/uploaded look-alikes; exact clerk cloze collocation"
+      }
+    },
+    {
+      "id": "ibps-clerk-128",
+      "section": "english",
+      "topic": "Cloze Test",
+      "difficulty": "medium",
+      "passage": "ibps-clerk-P02",
+      "question": "Which word best fits blank (2)?",
+      "options": [
+        "disappearing",
+        "discouraging",
+        "disapproving",
+        "displacing",
+        "dismissing"
+      ],
+      "answer": 0,
+      "explanation": "As services move to apps, the monthly routine is slowly 'disappearing'. 'Displacing' and 'dismissing' need an object, and 'discouraging'/'disapproving' give the wrong sense.",
+      "source": "ai",
+      "archetype": "ibps-clerk-E06",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "routine 'is slowly disappearing'; dis- look-alikes; fits clerk cloze"
+      }
+    },
+    {
+      "id": "ibps-clerk-129",
+      "section": "english",
+      "topic": "Cloze Test",
+      "difficulty": "medium",
+      "passage": "ibps-clerk-P02",
+      "question": "Which word best fits blank (3)?",
+      "options": [
+        "opening",
+        "cooperating",
+        "opposing",
+        "ordering",
+        "operating"
+      ],
+      "answer": 4,
+      "explanation": "They depend on relatives to run their accounts, so they have stopped 'operating' them. They already have accounts, so 'opening' does not fit; the other words make no sense with 'accounts'.",
+      "source": "ai",
+      "archetype": "ibps-clerk-E06",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "operating accounts vs opening/ordering/cooperating; banking collocation typical of IBPS clerk"
+      }
+    },
+    {
+      "id": "ibps-clerk-130",
+      "section": "english",
+      "topic": "Cloze Test",
+      "difficulty": "medium",
+      "passage": "ibps-clerk-P02",
+      "question": "Which word best fits blank (4)?",
+      "options": [
+        "adapt",
+        "address",
+        "adopt",
+        "admit",
+        "adjust"
+      ],
+      "answer": 1,
+      "explanation": "One 'addresses' a problem, i.e. deals with it. 'Adapt' and 'adjust' need 'to', 'adopt' is used for plans or methods, and 'admit' a problem would mean confessing it.",
+      "source": "ai",
+      "archetype": "ibps-clerk-E06",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "address a problem vs adapt/adopt/adjust - classic ad- look-alike trap"
+      }
+    },
+    {
+      "id": "ibps-clerk-131",
+      "section": "english",
+      "topic": "Cloze Test",
+      "difficulty": "medium",
+      "passage": "ibps-clerk-P02",
+      "question": "Which word best fits blank (5)?",
+      "options": [
+        "affective",
+        "defective",
+        "effected",
+        "effective",
+        "infective"
+      ],
+      "answer": 3,
+      "explanation": "Training sessions have proved 'effective' in building confidence. 'Affective' (related to feelings), 'defective', 'effected' and 'infective' are look-alikes that do not fit.",
+      "source": "ai",
+      "archetype": "ibps-clerk-E06",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "effective vs affective/effected - frequently tested confusable pair in clerk cloze"
+      }
+    },
+    {
+      "id": "ibps-clerk-132",
+      "section": "english",
+      "topic": "Cloze Test",
+      "difficulty": "easy",
+      "passage": "ibps-clerk-P02",
+      "question": "Which word best fits blank (6)?",
+      "options": [
+        "held",
+        "left",
+        "lagged",
+        "fallen",
+        "stayed"
+      ],
+      "answer": 1,
+      "explanation": "The fixed expression is 'feel left behind'. 'Held behind' and 'stayed behind' change the meaning, and 'feel lagged/fallen behind' is not idiomatic.",
+      "source": "ai",
+      "archetype": "ibps-clerk-E06",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "'feel left behind' idiomatic collocation; easy but matches clerk cloze last blank"
+      }
+    },
+    {
+      "id": "ibps-clerk-133",
+      "section": "english",
+      "topic": "Word Swap / Word Usage",
+      "difficulty": "medium",
+      "question": "Which pair of the highlighted words should be interchanged to make the sentence meaningful?\nThe bank (A) extended the (B) deadline for updating KYC details after many (C) customers complained that the (D) branches were too crowded.",
+      "options": [
+        "A–B",
+        "A–C",
+        "B–D",
+        "C–D",
+        "No interchange required"
+      ],
+      "answer": 4,
+      "explanation": "The sentence is already correct: customers complained that branches were crowded, so the bank extended the deadline. Every interchange produces nonsense (e.g. C–D: 'branches complained that the customers were too crowded').",
+      "source": "ai",
+      "archetype": "ibps-clerk-E15",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "word swap with 'No interchange required' correct; clerk 2024 format, sentence correct as given"
+      }
+    },
+    {
+      "id": "ibps-clerk-134",
+      "section": "reasoning",
+      "topic": "Puzzles & Seating Arrangement",
+      "difficulty": "medium",
+      "passage": "ibps-clerk-P03",
+      "question": "Who lives immediately below the person who likes White?",
+      "options": [
+        "A",
+        "E",
+        "C",
+        "G",
+        "D"
+      ],
+      "answer": 0,
+      "explanation": "Final arrangement (floor: person–colour): 8 F–Pink, 7 C–Blue, 6 H–White, 5 A–Green, 4 E–Black, 3 G–Yellow, 2 B–Orange, 1 D–Red. A (5) and B (2) give D on 1, E on 4, F on 8, C–H on 7–6. White is on 6 (H), so A on floor 5 lives immediately below.",
+      "source": "ai",
+      "archetype": "ibps-clerk-R04",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "brute-forced unique: D1 B2 G3 E4 A5 H6 C7 F8; White=H6, below=A. 8-floor colour puzzle exactly clerk mains/prelims style"
+      }
+    },
+    {
+      "id": "ibps-clerk-135",
+      "section": "reasoning",
+      "topic": "Puzzles & Seating Arrangement",
+      "difficulty": "medium",
+      "passage": "ibps-clerk-P03",
+      "question": "Which colour does E like?",
+      "options": [
+        "White",
+        "Yellow",
+        "Black",
+        "Orange",
+        "Red"
+      ],
+      "answer": 2,
+      "explanation": "G is on floor 3, so the person who likes Black is on floor 4, which is E. (Arrangement: 8 F–Pink, 7 C–Blue, 6 H–White, 5 A–Green, 4 E–Black, 3 G–Yellow, 2 B–Orange, 1 D–Red.)",
+      "source": "ai",
+      "archetype": "ibps-clerk-R04",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "E likes Black (floor 4) per unique solution; direct attribute question"
+      }
+    },
+    {
+      "id": "ibps-clerk-136",
+      "section": "reasoning",
+      "topic": "Puzzles & Seating Arrangement",
+      "difficulty": "medium",
+      "passage": "ibps-clerk-P03",
+      "question": "How many persons live between G and the person who likes Pink?",
+      "options": [
+        "Two",
+        "Three",
+        "Five",
+        "Four",
+        "None"
+      ],
+      "answer": 3,
+      "explanation": "Pink must be three floors from Green (floor 5), i.e. floor 2 or 8; floor 2 is ruled out because Orange must sit immediately above Red (only 2 above 1 is left). So Pink is on floor 8 (F). G is on floor 3; floors 4, 5, 6 and 7 lie between — four persons.",
+      "source": "ai",
+      "archetype": "ibps-clerk-R04",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "G floor 3, Pink=F floor 8, four between; standard 'how many between' question"
+      }
+    },
+    {
+      "id": "ibps-clerk-137",
+      "section": "reasoning",
+      "topic": "Puzzles & Seating Arrangement",
+      "difficulty": "medium",
+      "passage": "ibps-clerk-P03",
+      "question": "Which of the following combinations (person – colour – floor) is correct?",
+      "options": [
+        "H – Blue – 6",
+        "B – Yellow – 2",
+        "D – Red – 1",
+        "F – Orange – 8",
+        "C – White – 7"
+      ],
+      "answer": 2,
+      "explanation": "Arrangement: 8 F–Pink, 7 C–Blue, 6 H–White, 5 A–Green, 4 E–Black, 3 G–Yellow, 2 B–Orange, 1 D–Red. Only 'D – Red – 1' matches.",
+      "source": "ai",
+      "archetype": "ibps-clerk-R04",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "D-Red-1 is the only correct triple; standard combination question"
+      }
+    },
+    {
+      "id": "ibps-clerk-138",
+      "section": "reasoning",
+      "topic": "Puzzles & Seating Arrangement",
+      "difficulty": "medium",
+      "passage": "ibps-clerk-P03",
+      "question": "Who lives exactly midway between the persons who like Yellow and Blue?",
+      "options": [
+        "E",
+        "H",
+        "G",
+        "A",
+        "B"
+      ],
+      "answer": 3,
+      "explanation": "Yellow is on floor 3 (G) and Blue on floor 7 (C); the floor exactly midway is 5, where A lives.",
+      "source": "ai",
+      "archetype": "ibps-clerk-R04",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Yellow floor3 Blue floor7, midway floor5=A; fine follow-up"
+      }
+    }
+  ],
+  "passages": [
+    {
+      "id": "ibps-clerk-P01",
+      "section": "english",
+      "title": "Reading comprehension: rooftop solar",
+      "text": "Read the following passage carefully and answer the questions given below it.\n\nAcross Indian towns, a growing number of families are installing solar panels on their rooftops. For most of them, the decision is not driven by concern for the climate but by a simpler calculation: electricity bills. A household that once paid a large sum every summer to run fans and coolers can now produce much of its own power during the day, and in many states it can send surplus electricity back to the grid and receive credit for it.\n\nThe cost of the panels has fallen sharply over the past decade, and government subsidies cover a part of the installation charge for small systems. Banks have also begun to offer loans for rooftop systems, which allows families to pay in monthly instalments rather than all at once. For a typical household, the savings on the bill are often enough to cover the instalment.\n\nYet the spread of rooftop solar has been uneven. Families living in rented homes rarely invest in panels, since they may not stay long enough to recover the cost, and owners are reluctant to spend on a benefit their tenants will enjoy. In crowded neighbourhoods, many roofs are too small or too shaded to hold a useful number of panels. Some buyers have also been disappointed by poor-quality equipment sold by unregistered vendors, which stops working well within a few years.\n\nExperts believe that these problems can be solved. Housing societies can install a shared system on a common roof and divide the benefit among members. Local electricity companies can maintain lists of approved vendors so that buyers know whom to trust. If such steps are taken, rooftop solar could become as ordinary in Indian homes as the water tank that already sits on most roofs."
+    },
+    {
+      "id": "ibps-clerk-P02",
+      "section": "english",
+      "title": "Cloze passage: senior citizens and digital banking",
+      "text": "Read the passage carefully. Each numbered blank has a question below it.\n\nFor many senior citizens, a visit to the bank branch was once a pleasant part of the month. They met familiar staff, (1) ______ their passbooks and chatted with other customers in the queue. As more services move to mobile apps, that routine is slowly (2) ______. Younger customers welcome the change because it saves time, but older people often find the small screens and frequent updates confusing. Some have stopped (3) ______ their accounts altogether and depend on relatives to do it for them, which leaves them open to misuse of their money.\n\nBanks have started to (4) ______ this problem in different ways. A few branches now keep a special counter for elderly customers, while others send staff to the homes of those who cannot travel. Simple training sessions, held in the local language, have also proved (5) ______ in building confidence. Technology should make banking easier for everyone, and no customer should feel (6) ______ behind simply because of age."
+    },
+    {
+      "id": "ibps-clerk-P03",
+      "section": "reasoning",
+      "title": "Puzzle: eight persons on eight floors",
+      "text": "Study the following information carefully and answer the questions given below.\n\nEight persons A, B, C, D, E, F, G and H live on eight different floors of a building. The lowermost floor is numbered 1 and the topmost floor is numbered 8. Each of them likes a different colour among Red, Blue, Green, Yellow, Pink, White, Black and Orange.\n\nA lives on an odd-numbered floor above floor 3. Only two persons live between A and B, and B lives below A. D lives immediately below B. The person who likes Yellow lives immediately above B. Only three persons live between E and F, and F lives above E. C lives immediately above H, and H lives on an even-numbered floor. The person who likes Black lives immediately above G. A likes Green. Only two persons live between the persons who like Pink and Green. The person who likes Blue lives on an odd-numbered floor immediately above the person who likes White. The person who likes Orange lives immediately above the person who likes Red."
     }
   ]
 }

@@ -288,6 +288,735 @@
       }
     ]
   },
+  "pyqBlueprint": {
+    "yearsCovered": [
+      2024,
+      2025
+    ],
+    "method": "Compiled from memory-based analyses of RBI Grade B (General) Phase I 2024 (Sept 2024) and 2025 (18 Oct 2025) published by coaching sites (Bankersadda, PracticeMock, C4S Courses, Mahendras), cross-checked against the official Phase I pattern (GA 80, Reasoning 60, English 30, Quant 30). GA archetypes are framed around recurring themes (RBI Act provisions, regulatory circulars, payment systems, schemes, reports) rather than specific current-affairs items. Patterns are paraphrased; no real question is reproduced.",
+    "archetypes": [
+      {
+        "id": "rbi-grade-b-E01",
+        "section": "english",
+        "topic": "Reading Comprehension",
+        "pattern": "RC set (450–600 words) on monetary policy, banking or the economy: central idea / author's main concern; distractors are partial or overstated claims",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1 per RC set",
+        "difficulty": "hard"
+      },
+      {
+        "id": "rbi-grade-b-E02",
+        "section": "english",
+        "topic": "Reading Comprehension",
+        "pattern": "RC fact-check: 'Which of the following is true / NOT true according to the passage' — one option distorts a qualifier (some→most, may→will) or reverses cause and effect",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per RC set",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rbi-grade-b-E03",
+        "section": "english",
+        "topic": "Reading Comprehension",
+        "pattern": "RC inference with statements I, II, III and combination options (Only I / Only I and III …); the trap statement overstates what the passage says",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1 per RC set",
+        "difficulty": "hard"
+      },
+      {
+        "id": "rbi-grade-b-E04",
+        "section": "english",
+        "topic": "Reading Comprehension",
+        "pattern": "RC vocabulary-in-context: synonym or antonym of a word used in the passage, with distractors that are dictionary meanings not fitting the context",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per RC set",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rbi-grade-b-E06",
+        "section": "english",
+        "topic": "Cloze Test",
+        "pattern": "Passage cloze with numbered blanks; five same-part-of-speech options where distractors are look-alike or collocation-breaking words",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "5–7 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rbi-grade-b-E08",
+        "section": "english",
+        "topic": "Error Detection",
+        "pattern": "Sentence split into parts (A)–(D) plus 'No error' (E); errors in subject–verb agreement, prepositions, pronouns, tense, comparatives, or inversion after negative adverbs",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "3–5 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rbi-grade-b-E09",
+        "section": "english",
+        "topic": "Error Detection",
+        "pattern": "Choose the grammatically correct (or incorrect) sentence among five similar sentences on one theme",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "0–5 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rbi-grade-b-E10",
+        "section": "english",
+        "topic": "Fillers",
+        "pattern": "Double filler: two blanks in one sentence, five word-pairs where one word of each wrong pair fits but the other does not",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "2–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rbi-grade-b-E11",
+        "section": "english",
+        "topic": "Fillers",
+        "pattern": "Single filler: one blank, five words close in meaning; only one matches the tone/collocation of the sentence",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1–3 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "rbi-grade-b-E12",
+        "section": "english",
+        "topic": "Para Jumbles / Sentence Rearrangement",
+        "pattern": "Para jumble of five or six sentences on one theme; choose the correct order (options are sequences); connectors like 'however', 'as a result' and pronouns fix the order",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "2–5 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rbi-grade-b-E13",
+        "section": "english",
+        "topic": "Para Jumbles / Sentence Rearrangement",
+        "pattern": "Para jumble asking which sentence comes FIRST / THIRD / LAST after rearrangement (options are sentence letters)",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1–5 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rbi-grade-b-E18",
+        "section": "english",
+        "topic": "Vocabulary & Idioms",
+        "pattern": "Standalone synonym/antonym of a moderately advanced word; distractors include words of the opposite sense",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1–3 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "rbi-grade-b-E22",
+        "section": "english",
+        "topic": "Vocabulary & Idioms",
+        "pattern": "Meaning of an idiom/phrasal verb used in a sentence; distractors are literal readings",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rbi-grade-b-Q01",
+        "section": "quant",
+        "topic": "Data Interpretation",
+        "pattern": "Table DI (5 rows × 2–3 columns): percentage increase/decrease of one entity between two years, or one entity as a percentage of another",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per DI set",
+        "difficulty": "hard"
+      },
+      {
+        "id": "rbi-grade-b-Q02",
+        "section": "quant",
+        "topic": "Data Interpretation",
+        "pattern": "Table DI on banking/corporate data (deposits, advances, revenue, expenditure %): derived ratios such as credit–deposit ratio, profit, or projected values after percentage growth",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "2–3 per DI set",
+        "difficulty": "hard"
+      },
+      {
+        "id": "rbi-grade-b-Q03",
+        "section": "quant",
+        "topic": "Data Interpretation",
+        "pattern": "Caselet DI: a paragraph giving a total and splits in ratios/percentages; questions combine two splits or ask what changes after a transfer",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1 set (3–5 Qs) per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "rbi-grade-b-Q04",
+        "section": "quant",
+        "topic": "Data Interpretation",
+        "pattern": "Pie-chart DI (shares in % or degrees of a total): find values, differences and ratios across sectors",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "0–1 set per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rbi-grade-b-Q05",
+        "section": "quant",
+        "topic": "Data Interpretation",
+        "pattern": "Bar/line-graph DI (values given for 5–6 categories or months): averages, ratios and percentage differences",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1 set per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rbi-grade-b-Q07",
+        "section": "quant",
+        "topic": "Quadratic Equations",
+        "pattern": "Two quadratic equations in x and y with integer/fraction roots; compare x and y using the five standard relations (> ≥ < ≤ / cannot be established)",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "3–5 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rbi-grade-b-Q09",
+        "section": "quant",
+        "topic": "Number Series",
+        "pattern": "Missing number series built on differences of squares/cubes, alternate ×n +k, or ×n with increasing n",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "3–5 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rbi-grade-b-Q12",
+        "section": "quant",
+        "topic": "Simplification & Approximation",
+        "pattern": "Approximation: decimals close to whole numbers in %, ×, ÷, √ and powers; find the nearest value",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "3–5 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "rbi-grade-b-Q14",
+        "section": "quant",
+        "topic": "Arithmetic Word Problems",
+        "pattern": "Arithmetic word problem on profit & loss / discount with two-step conditions",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rbi-grade-b-Q19",
+        "section": "quant",
+        "topic": "Arithmetic Word Problems",
+        "pattern": "Time & work / pipes: efficiencies combined, one leaves after some days, or an emptying pipe",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rbi-grade-b-Q20",
+        "section": "quant",
+        "topic": "Arithmetic Word Problems",
+        "pattern": "Trains crossing poles/platforms/each other, relative speed, or average speed of a round trip",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rbi-grade-b-Q22",
+        "section": "quant",
+        "topic": "Arithmetic Word Problems",
+        "pattern": "Arithmetic word problem combining SI and CI on related sums, or splitting a sum between two rates",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rbi-grade-b-R01",
+        "section": "reasoning",
+        "topic": "Puzzles & Seating Arrangement",
+        "pattern": "Linear row (7–9 persons, all facing one direction), sometimes with vacant seats or an attribute; 3–5 questions on positions, neighbours and 'how many between'",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1 set per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "rbi-grade-b-R03",
+        "section": "reasoning",
+        "topic": "Puzzles & Seating Arrangement",
+        "pattern": "Circular table (8 persons) with a second attribute such as profession or city; facing directions sometimes mixed",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1 set per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "rbi-grade-b-R04",
+        "section": "reasoning",
+        "topic": "Puzzles & Seating Arrangement",
+        "pattern": "Floor-based puzzle (5–8 floors, sometimes two flats per floor) with a second attribute such as colour/city/fruit",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1 set per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "rbi-grade-b-R05",
+        "section": "reasoning",
+        "topic": "Puzzles & Seating Arrangement",
+        "pattern": "Scheduling puzzle with months and two dates per month (or days and shifts); 30/31-day month clues",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1 set per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "rbi-grade-b-R06",
+        "section": "reasoning",
+        "topic": "Puzzles & Seating Arrangement",
+        "pattern": "Box stacking: boxes placed one above another, with colour/item attribute and 'how many boxes between' clues",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "0–1 set per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rbi-grade-b-R09",
+        "section": "reasoning",
+        "topic": "Puzzles & Seating Arrangement",
+        "pattern": "Year/age-based puzzle: birth years tied to ages computed from a reference year",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "0–1 set per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "rbi-grade-b-R10",
+        "section": "reasoning",
+        "topic": "Puzzles & Seating Arrangement",
+        "pattern": "Square/rectangular table with persons at corners facing the centre and at mid-sides facing outward",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "0–1 set per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "rbi-grade-b-R11",
+        "section": "reasoning",
+        "topic": "Syllogism",
+        "pattern": "Syllogism with 2–3 statements and two conclusions, including 'possibility' conclusions; standard five options",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "2–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rbi-grade-b-R12",
+        "section": "reasoning",
+        "topic": "Syllogism",
+        "pattern": "Syllogism with 'Only a few' or 'No' statements where a definite 'All' conclusion is the trap",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rbi-grade-b-R13",
+        "section": "reasoning",
+        "topic": "Inequality",
+        "pattern": "Direct inequality: two or three combined statements, two conclusions to check",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "2–4 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "rbi-grade-b-R15",
+        "section": "reasoning",
+        "topic": "Blood Relations",
+        "pattern": "Blood relation chain or 'pointing to a photograph' statement; gender ambiguity is the usual trap",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rbi-grade-b-R17",
+        "section": "reasoning",
+        "topic": "Direction Sense",
+        "pattern": "Direction & distance: a person walks a path with left/right turns; find the shortest distance and direction from start",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "rbi-grade-b-R18",
+        "section": "reasoning",
+        "topic": "Direction Sense",
+        "pattern": "Point-based direction: several points given relative to each other; find direction/distance between two of them",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rbi-grade-b-R19",
+        "section": "reasoning",
+        "topic": "Coding-Decoding",
+        "pattern": "Letter coding: word coded by letter shifts / reversal / opposite letters; code a new word",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rbi-grade-b-R20",
+        "section": "reasoning",
+        "topic": "Coding-Decoding",
+        "pattern": "Sentence (Chinese) coding: three or four phrases coded in two-letter codes; find the code of a word by elimination",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rbi-grade-b-R21",
+        "section": "reasoning",
+        "topic": "Miscellaneous (Series, Order & Ranking)",
+        "pattern": "Order & ranking within the miscellaneous block: positions from both ends, persons between two people",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "rbi-grade-b-R27",
+        "section": "reasoning",
+        "topic": "Data Sufficiency",
+        "pattern": "Data sufficiency with two statements on seating/coding/blood relation; standard five options",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "0–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rbi-grade-b-R29",
+        "section": "reasoning",
+        "topic": "Logical Reasoning (Statements, Assumptions, Inferences)",
+        "pattern": "Statement–assumption (implicit/not implicit), standard five options",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rbi-grade-b-R30",
+        "section": "reasoning",
+        "topic": "Logical Reasoning (Statements, Assumptions, Inferences)",
+        "pattern": "Statement–inference / course of action / cause–effect",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rbi-grade-b-R32",
+        "section": "reasoning",
+        "topic": "Miscellaneous (Series, Order & Ranking)",
+        "pattern": "Letter/number series in reasoning: find the missing term or next group",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "rbi-grade-b-G01",
+        "section": "ga",
+        "topic": "Banking & RBI (Policy, Regulation, Current Affairs)",
+        "pattern": "RBI Act/BR Act provisions and monetary-policy instruments (MPC, LAF corridor, CRR, SLR, OMO)",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "3–5 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rbi-grade-b-G02",
+        "section": "ga",
+        "topic": "Banking & RBI (Policy, Regulation, Current Affairs)",
+        "pattern": "Recent RBI regulatory frameworks and circulars (PCA, KYC, digital lending, ombudsman, deposit/nominee rules)",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "4–6 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rbi-grade-b-G03",
+        "section": "ga",
+        "topic": "Banking & RBI (Policy, Regulation, Current Affairs)",
+        "pattern": "Payment systems and digital currency (UPI, NPCI, RTGS/NEFT timings, e-Rupee)",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "2–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rbi-grade-b-G04",
+        "section": "ga",
+        "topic": "Banking & RBI (Policy, Regulation, Current Affairs)",
+        "pattern": "Banking terms and prudential norms (NPA, CRAR, Basel III buffers, LCR/NSFR)",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "2–4 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rbi-grade-b-G05",
+        "section": "ga",
+        "topic": "Indian Economy & Financial Sector",
+        "pattern": "Economy concepts and data sources (GDP, inflation indices, publishing agencies)",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "3–4 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rbi-grade-b-G06",
+        "section": "ga",
+        "topic": "Indian Economy & Financial Sector",
+        "pattern": "Financial-sector laws and market regulators (SARFAESI, IBC, SEBI/IRDAI/PFRDA roles)",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "2–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rbi-grade-b-G07",
+        "section": "ga",
+        "topic": "Indian Economy & Financial Sector",
+        "pattern": "External sector: forex, FDI routes, current account, exchange-rate terms",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rbi-grade-b-G08",
+        "section": "ga",
+        "topic": "Government Schemes & Fiscal Policy (Budget, Taxation, GST)",
+        "pattern": "Government schemes: launch year, eligibility, benefit amount, implementing agency",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "3–5 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rbi-grade-b-G09",
+        "section": "ga",
+        "topic": "Government Schemes & Fiscal Policy (Budget, Taxation, GST)",
+        "pattern": "Fiscal policy: budget terms, FRBM, Finance Commission, GST and direct-tax changes",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "2–4 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rbi-grade-b-G10",
+        "section": "ga",
+        "topic": "Financial Institutions & Rural Credit",
+        "pattern": "Development financial institutions and rural credit (NABARD, SIDBI, RRBs, KCC, SHG–bank linkage)",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "2–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rbi-grade-b-G11",
+        "section": "ga",
+        "topic": "International Organisations & Reports",
+        "pattern": "International organisations: headquarters, membership, flagship reports and their publishers",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "3–4 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rbi-grade-b-G12",
+        "section": "ga",
+        "topic": "Appointments, Committees & Commissions",
+        "pattern": "Heads of financial/international institutions and recent appointments",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "2–3 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "rbi-grade-b-G13",
+        "section": "ga",
+        "topic": "Appointments, Committees & Commissions",
+        "pattern": "Committees and commissions linked to banking/financial reforms and what they recommended",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rbi-grade-b-G15",
+        "section": "ga",
+        "topic": "Indian Economy & Financial Sector",
+        "pattern": "Financial-sector structure: priority-sector lending norms, NBFC regulation layers, payment-system institutions",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rbi-grade-b-G14",
+        "section": "ga",
+        "topic": "Static GK, Summits & Agreements",
+        "pattern": "Static GK on summits, groupings and agreements (G20/BRICS/COP presidencies and venues)",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "2–3 per paper",
+        "difficulty": "medium"
+      }
+    ]
+  },
   "resources": {
     "pyqAvailable": true,
     "officialPYQ": null,
@@ -310,41 +1039,14 @@
       ],
       "answer": 1,
       "explanation": "Section 45ZB provides for the constitution of the MPC; Section 45ZA deals with the inflation target.",
-      "verified": true
-    },
-    {
-      "id": "rbi-grade-b-002",
-      "section": "ga",
-      "topic": "Indian Economy & Financial Sector",
-      "difficulty": "easy",
-      "question": "Under the flexible inflation targeting framework that came into effect in 2016, the CPI inflation target set for the RBI was:",
-      "options": [
-        "4% with a tolerance band of ± 2%",
-        "2% ± 1%",
-        "5% ± 1%",
-        "6% with a tolerance band of ± 2%",
-        "3% ± 1.5%"
-      ],
-      "answer": 0,
-      "explanation": "The target was 4% CPI inflation with an upper tolerance of 6% and a lower tolerance of 2%.",
-      "verified": true
-    },
-    {
-      "id": "rbi-grade-b-003",
-      "section": "ga",
-      "topic": "Banking & RBI (Policy, Regulation, Current Affairs)",
-      "difficulty": "easy",
-      "question": "How many members does the RBI's Monetary Policy Committee have, and who has the casting vote in case of a tie?",
-      "options": [
-        "Six; the RBI Governor",
-        "Five; the Finance Minister",
-        "Seven; the senior-most external member",
-        "Six; the Deputy Governor in charge of monetary policy",
-        "Eight; the Chief Economic Adviser"
-      ],
-      "answer": 0,
-      "explanation": "The MPC has six members (three from RBI, three external); the Governor has a casting vote in a tie.",
-      "verified": true
+      "verified": true,
+      "archetype": "rbi-grade-b-G01",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "MPC under Sec 45ZB with 45ZA (target) as trap; RBI-Act section items do appear in Grade B GA"
+      }
     },
     {
       "id": "rbi-grade-b-004",
@@ -361,7 +1063,14 @@
       ],
       "answer": 0,
       "explanation": "SDF, a collateral-free liquidity absorption tool, replaced the fixed-rate reverse repo as the floor of the LAF corridor; the MSF is the ceiling.",
-      "verified": true
+      "verified": true,
+      "archetype": "rbi-grade-b-G01",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "SDF as LAF floor; RBI-relevant instrument"
+      }
     },
     {
       "id": "rbi-grade-b-005",
@@ -378,177 +1087,14 @@
       ],
       "answer": 0,
       "explanation": "CRR is prescribed under Section 42 of the RBI Act, 1934; SLR is under Section 24 of the Banking Regulation Act, 1949.",
-      "verified": true
-    },
-    {
-      "id": "rbi-grade-b-006",
-      "section": "ga",
-      "topic": "Banking & RBI (Policy, Regulation, Current Affairs)",
-      "difficulty": "easy",
-      "question": "A term loan is classified as a Non-Performing Asset when interest or instalment of principal remains overdue for more than:",
-      "options": [
-        "30 days",
-        "60 days",
-        "180 days",
-        "120 days",
-        "90 days"
-      ],
-      "answer": 4,
-      "explanation": "Under RBI's IRAC norms, a loan becomes an NPA when interest/principal is overdue for more than 90 days.",
-      "verified": true
-    },
-    {
-      "id": "rbi-grade-b-007",
-      "section": "ga",
-      "topic": "Indian Economy & Financial Sector",
-      "difficulty": "easy",
-      "question": "The SARFAESI Act, which lets secured creditors enforce security without court intervention, was enacted in which year?",
-      "options": [
-        "1993",
-        "1999",
-        "2016",
-        "2013",
-        "2002"
-      ],
-      "answer": 4,
-      "explanation": "The Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act was enacted in 2002.",
-      "verified": true
-    },
-    {
-      "id": "rbi-grade-b-008",
-      "section": "ga",
-      "topic": "Indian Economy & Financial Sector",
-      "difficulty": "medium",
-      "question": "For domestic scheduled commercial banks, the overall priority sector lending target is:",
-      "options": [
-        "40% of ANBC or CEOE, whichever is higher",
-        "25% of total deposits",
-        "18% of ANBC",
-        "50% of net worth",
-        "75% of ANBC"
-      ],
-      "answer": 0,
-      "explanation": "The overall PSL target is 40% of Adjusted Net Bank Credit or Credit Equivalent of Off-Balance Sheet Exposure, whichever is higher (18% is the agriculture sub-target).",
-      "verified": true
-    },
-    {
-      "id": "rbi-grade-b-009",
-      "section": "ga",
-      "topic": "Banking & RBI (Policy, Regulation, Current Affairs)",
-      "difficulty": "easy",
-      "question": "The Deposit Insurance and Credit Guarantee Corporation (DICGC) is a wholly owned subsidiary of:",
-      "options": [
-        "Reserve Bank of India",
-        "SBI",
-        "Ministry of Finance",
-        "NABARD",
-        "LIC"
-      ],
-      "answer": 0,
-      "explanation": "DICGC is a wholly owned subsidiary of the RBI.",
-      "verified": true
-    },
-    {
-      "id": "rbi-grade-b-010",
-      "section": "ga",
-      "topic": "Indian Economy & Financial Sector",
-      "difficulty": "easy",
-      "question": "The Unified Payments Interface (UPI) was developed by:",
-      "options": [
-        "Reserve Bank of India",
-        "IDRBT",
-        "State Bank of India",
-        "SEBI",
-        "National Payments Corporation of India"
-      ],
-      "answer": 4,
-      "explanation": "UPI was developed and is operated by NPCI; it was launched in 2016.",
-      "verified": true
-    },
-    {
-      "id": "rbi-grade-b-011",
-      "section": "ga",
-      "topic": "Appointments, Committees & Commissions",
-      "difficulty": "easy",
-      "question": "Who is the Governor of the Reserve Bank of India (as of 2026)?",
-      "options": [
-        "Shaktikanta Das",
-        "Michael Debabrata Patra",
-        "Urjit Patel",
-        "T. Rabi Sankar",
-        "Sanjay Malhotra"
-      ],
-      "answer": 4,
-      "explanation": "Sanjay Malhotra took charge as the 26th Governor of the RBI in December 2024.",
-      "verified": true
-    },
-    {
-      "id": "rbi-grade-b-012",
-      "section": "ga",
-      "topic": "International Organisations & Reports",
-      "difficulty": "easy",
-      "question": "The Bank for International Settlements (BIS) is headquartered in:",
-      "options": [
-        "Geneva",
-        "Paris",
-        "Washington, D.C.",
-        "Basel",
-        "Brussels"
-      ],
-      "answer": 3,
-      "explanation": "BIS, often called the central bank of central banks, is headquartered in Basel, Switzerland.",
-      "verified": true
-    },
-    {
-      "id": "rbi-grade-b-013",
-      "section": "ga",
-      "topic": "International Organisations & Reports",
-      "difficulty": "medium",
-      "question": "The 'World Economic Outlook' report is published by:",
-      "options": [
-        "World Bank",
-        "OECD",
-        "World Economic Forum",
-        "International Monetary Fund",
-        "UNCTAD"
-      ],
-      "answer": 3,
-      "explanation": "The IMF publishes the World Economic Outlook, usually in April and October.",
-      "verified": true
-    },
-    {
-      "id": "rbi-grade-b-014",
-      "section": "ga",
-      "topic": "Financial Institutions & Rural Credit",
-      "difficulty": "medium",
-      "question": "NABARD was established in which year?",
-      "options": [
-        "1969",
-        "1982",
-        "1975",
-        "1990",
-        "1992"
-      ],
-      "answer": 1,
-      "explanation": "NABARD was set up on 12 July 1982 on the recommendation of the CRAFICARD (Shivaraman) committee.",
-      "verified": true
-    },
-    {
-      "id": "rbi-grade-b-015",
-      "section": "ga",
-      "topic": "Financial Institutions & Rural Credit",
-      "difficulty": "medium",
-      "question": "The issued capital of a Regional Rural Bank is shared by the Central Government, the State Government and the sponsor bank in the ratio:",
-      "options": [
-        "40 : 20 : 40",
-        "35 : 15 : 50",
-        "50 : 35 : 15",
-        "50 : 15 : 35",
-        "33 : 33 : 34"
-      ],
-      "answer": 3,
-      "explanation": "Central Government 50%, State Government 15% and sponsor bank 35%.",
-      "verified": true
+      "verified": true,
+      "archetype": "rbi-grade-b-G01",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "CRR under Sec 42 RBI Act; standard"
+      }
     },
     {
       "id": "rbi-grade-b-016",
@@ -565,24 +1111,14 @@
       ],
       "answer": 4,
       "explanation": "The 16th Finance Commission was constituted in December 2023 under Dr Arvind Panagariya.",
-      "verified": true
-    },
-    {
-      "id": "rbi-grade-b-017",
-      "section": "ga",
-      "topic": "Government Schemes & Fiscal Policy (Budget, Taxation, GST)",
-      "difficulty": "medium",
-      "question": "The GST Council is a constitutional body under which Article?",
-      "options": [
-        "Article 246A",
-        "Article 269A",
-        "Article 112",
-        "Article 280",
-        "Article 279A"
-      ],
-      "answer": 4,
-      "explanation": "Article 279A (inserted by the 101st Amendment, 2016) provides for the GST Council. Article 280 deals with the Finance Commission.",
-      "verified": true
+      "verified": true,
+      "archetype": "rbi-grade-b-G13",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "16th FC chair Panagariya; FC report tabled 2026, current-relevant"
+      }
     },
     {
       "id": "rbi-grade-b-018",
@@ -599,7 +1135,14 @@
       ],
       "answer": 4,
       "explanation": "Four layers: Base, Middle, Upper and Top (the Top layer is ideally expected to remain empty).",
-      "verified": true
+      "verified": true,
+      "archetype": "rbi-grade-b-G15",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "SBR four layers; regulation-specific"
+      }
     },
     {
       "id": "rbi-grade-b-019",
@@ -616,58 +1159,14 @@
       ],
       "answer": 4,
       "explanation": "The revised PCA tracks capital, asset quality (net NPA) and leverage; profitability (return on assets) was dropped as a trigger.",
-      "verified": true
-    },
-    {
-      "id": "rbi-grade-b-020",
-      "section": "ga",
-      "topic": "Banking & RBI (Policy, Regulation, Current Affairs)",
-      "difficulty": "medium",
-      "question": "The RBI's Integrated Ombudsman Scheme, which follows a 'One Nation One Ombudsman' approach, was launched in:",
-      "options": [
-        "2021",
-        "2020",
-        "2019",
-        "2022",
-        "2023"
-      ],
-      "answer": 0,
-      "explanation": "The Reserve Bank – Integrated Ombudsman Scheme, 2021 was launched in November 2021.",
-      "verified": true
-    },
-    {
-      "id": "rbi-grade-b-021",
-      "section": "ga",
-      "topic": "Banking & RBI (Policy, Regulation, Current Affairs)",
-      "difficulty": "medium",
-      "question": "To curb digital fraud, the RBI directed banks to migrate their websites to which exclusive internet domain?",
-      "options": [
-        ".gov.in",
-        ".fin.in",
-        ".bank.in",
-        ".rbi.in",
-        ".bnk.in"
-      ],
-      "answer": 2,
-      "explanation": "Banks were asked to shift to the exclusive '.bank.in' domain (registered through IDRBT); '.fin.in' was proposed for other financial entities.",
-      "verified": true
-    },
-    {
-      "id": "rbi-grade-b-022",
-      "section": "ga",
-      "topic": "Banking & RBI (Policy, Regulation, Current Affairs)",
-      "difficulty": "hard",
-      "question": "In its June 2025 policy, the RBI announced a phased cut in the Cash Reserve Ratio to:",
-      "options": [
-        "3.5% of NDTL",
-        "4.5% of NDTL",
-        "4% of NDTL",
-        "2.5% of NDTL",
-        "3% of NDTL"
-      ],
-      "answer": 4,
-      "explanation": "The CRR was cut by 100 basis points, from 4% to 3% of NDTL, in four equal tranches during Sep–Nov 2025.",
-      "verified": true
+      "verified": true,
+      "archetype": "rbi-grade-b-G02",
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Revised PCA indicators with close distractors; Grade B-level"
+      }
     },
     {
       "id": "rbi-grade-b-023",
@@ -684,24 +1183,14 @@
       ],
       "answer": 3,
       "explanation": "The new Income-tax Act, 2025 takes effect from 1 April 2026 (tax year 2026-27).",
-      "verified": true
-    },
-    {
-      "id": "rbi-grade-b-024",
-      "section": "ga",
-      "topic": "Government Schemes & Fiscal Policy (Budget, Taxation, GST)",
-      "difficulty": "medium",
-      "question": "Under the GST rate rationalisation effective 22 September 2025, the two main GST slabs are:",
-      "options": [
-        "5% and 12%",
-        "12% and 18%",
-        "5% and 28%",
-        "5% and 18%",
-        "18% and 28%"
-      ],
-      "answer": 3,
-      "explanation": "The four-slab structure was replaced by two main slabs of 5% and 18%, with a special 40% rate for select luxury and sin goods.",
-      "verified": true
+      "verified": true,
+      "archetype": "rbi-grade-b-G09",
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Income-tax Act 2025 effective 1 April 2026; current and policy-relevant"
+      }
     },
     {
       "id": "rbi-grade-b-025",
@@ -718,7 +1207,14 @@
       ],
       "answer": 1,
       "explanation": "Clockwise from J (corner): J, O, L, Q, N, K, P, M. Corner-sitters face the centre (right = anticlockwise); side-sitters face outward (right = clockwise). K faces outward, so second to its right (clockwise) is M.",
-      "verified": true
+      "verified": true,
+      "archetype": "rbi-grade-b-R10",
+      "source": "curated",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Square table corners in/mid-sides out, unique; RBI R10 faithful"
+      }
     },
     {
       "id": "rbi-grade-b-026",
@@ -735,7 +1231,14 @@
       ],
       "answer": 2,
       "explanation": "Clockwise: J, O, L, Q, N, K, P, M. L sits at a corner facing the centre, so his left is clockwise — Q.",
-      "verified": true
+      "verified": true,
+      "archetype": "rbi-grade-b-R10",
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Left of out-facing L = Q"
+      }
     },
     {
       "id": "rbi-grade-b-027",
@@ -752,7 +1255,14 @@
       ],
       "answer": 4,
       "explanation": "Clockwise: J (corner), O, L (corner), Q, N (corner), K, P (corner), M. The side-sitters O, Q, K and M face away from the centre.",
-      "verified": true
+      "verified": true,
+      "archetype": "rbi-grade-b-R10",
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Outward-facing group O,Q,K,M"
+      }
     },
     {
       "id": "rbi-grade-b-028",
@@ -769,7 +1279,14 @@
       ],
       "answer": 3,
       "explanation": "Solution: C 1971 (55), E 1978 (48), A 1985 (41), G 1990 (36), D 1996 (30), F 2001 (25), B 2008 (18). G is 36.",
-      "verified": true
+      "verified": true,
+      "archetype": "rbi-grade-b-R09",
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Birth-year/age puzzle with 2026 reference, unique; RBI R09 faithful"
+      }
     },
     {
       "id": "rbi-grade-b-029",
@@ -786,7 +1303,14 @@
       ],
       "answer": 2,
       "explanation": "C + B = 73 with C older gives C–B = 55–18 or 48–25. A − D = 11 needs (41, 30) or (36, 25). D even and after G, G a multiple of 5, F after G, one person between G and E: only C 1971, E 1978, A 1985, G 1990, D 1996, F 2001, B 2008 works. E was born in 1978.",
-      "verified": true
+      "verified": true,
+      "archetype": "rbi-grade-b-R09",
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Born 1978 = E"
+      }
     },
     {
       "id": "rbi-grade-b-030",
@@ -803,7 +1327,14 @@
       ],
       "answer": 3,
       "explanation": "A was born in 1985 (41) and F in 2001 (25). 41 + 25 = 66.",
-      "verified": true
+      "verified": true,
+      "archetype": "rbi-grade-b-R09",
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Sum of ages A+F = 66"
+      }
     },
     {
       "id": "rbi-grade-b-031",
@@ -820,7 +1351,14 @@
       ],
       "answer": 1,
       "explanation": "Bottom to top: T, W, Q, V, P, S, U, R. R is at the top.",
-      "verified": true
+      "verified": true,
+      "archetype": "rbi-grade-b-R06",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "8-box stack unique; easier than RBI puzzles"
+      }
     },
     {
       "id": "rbi-grade-b-032",
@@ -837,7 +1375,14 @@
       ],
       "answer": 3,
       "explanation": "Bottom to top: T, W, Q, V, P, S, U, R. Between W (2) and U (7) are Q, V, P and S — four.",
-      "verified": true
+      "verified": true,
+      "archetype": "rbi-grade-b-R06",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Boxes between W and U = 4"
+      }
     },
     {
       "id": "rbi-grade-b-033",
@@ -854,7 +1399,14 @@
       ],
       "answer": 2,
       "explanation": "If T = 1, P = 5; boxes above V = boxes below P = 4, so V = 4 and Q = 3; W adjacent to Q is 2. R above U with one box between R and S gives S = 6, U = 7, R = 8. (T = 2 leads to a contradiction.) S is immediately above P.",
-      "verified": true
+      "verified": true,
+      "archetype": "rbi-grade-b-R06",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Above P = S"
+      }
     },
     {
       "id": "rbi-grade-b-034",
@@ -871,7 +1423,14 @@
       ],
       "answer": 0,
       "explanation": "Banks that are lenders are institutions and hence not brokers — I follows. No lender (an institution) can be a broker — II is false.",
-      "verified": true
+      "verified": true,
+      "archetype": "rbi-grade-b-R12",
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Only-a-few chain with 'Some banks are not brokers'"
+      }
     },
     {
       "id": "rbi-grade-b-035",
@@ -888,7 +1447,14 @@
       ],
       "answer": 0,
       "explanation": "Coins are notes, and notes that are not cheques may be drafts, so coins being drafts is possible — I follows. Some notes may be drafts, so II is not definite.",
-      "verified": true
+      "verified": true,
+      "archetype": "rbi-grade-b-R11",
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Possibility vs definite 'No' trap"
+      }
     },
     {
       "id": "rbi-grade-b-036",
@@ -905,7 +1471,14 @@
       ],
       "answer": 4,
       "explanation": "T > Q > R gives T > R; P ≥ Q ≥ U gives P ≥ U. Both follow.",
-      "verified": true
+      "verified": true,
+      "archetype": "rbi-grade-b-R13",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Two-statement inequality both follow; light for RBI"
+      }
     },
     {
       "id": "rbi-grade-b-037",
@@ -922,7 +1495,14 @@
       ],
       "answer": 0,
       "explanation": "G ≥ E > D = C > B gives G > B. F ≤ D = C gives only F ≤ C, so 'F < C' is not definite. Only I follows.",
-      "verified": true
+      "verified": true,
+      "archetype": "rbi-grade-b-R13",
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "F<=C vs strict F<C trap"
+      }
     },
     {
       "id": "rbi-grade-b-038",
@@ -939,7 +1519,14 @@
       ],
       "answer": 3,
       "explanation": "N is the child of Q and R. O and P are N's children. So R is P's grandmother.",
-      "verified": true
+      "verified": true,
+      "archetype": "rbi-grade-b-R15",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Family chain grandmother"
+      }
     },
     {
       "id": "rbi-grade-b-039",
@@ -956,41 +1543,14 @@
       ],
       "answer": 3,
       "explanation": "Take B = (0,0): A = (12,0), C = (12,5), D = (8,5), E = (8,−6). Distance = √(8² + 6²) = 10 m, towards the South-East.",
-      "verified": true
-    },
-    {
-      "id": "rbi-grade-b-040",
-      "section": "reasoning",
-      "topic": "Coding-Decoding",
-      "difficulty": "easy",
-      "question": "In a certain code language, 'policy rate cut' is written as 'mi ka lo', 'rate hike likely' as 'zo lo pa' and 'cut likely soon' as 'pa mi ru'. What is the code for 'policy'?",
-      "options": [
-        "mi",
-        "ka",
-        "lo",
-        "pa",
-        "zo"
-      ],
-      "answer": 1,
-      "explanation": "rate = lo (1 & 2), cut = mi (1 & 3), likely = pa (2 & 3). The remaining code in sentence 1, ka, means 'policy'.",
-      "verified": true
-    },
-    {
-      "id": "rbi-grade-b-041",
-      "section": "reasoning",
-      "topic": "Data Sufficiency",
-      "difficulty": "medium",
-      "question": "Six persons A, B, C, D, E and F sit in a row of six seats facing north. Who sits at the extreme right end?\nI. A sits third from the left end. B sits second to the right of A.\nII. C sits immediately to the right of B.",
-      "options": [
-        "The data in statement I alone are sufficient, but the data in statement II alone are not",
-        "The data in statement II alone are sufficient, but the data in statement I alone are not",
-        "The data in either statement I alone or statement II alone are sufficient",
-        "The data in both statements I and II together are not sufficient",
-        "The data in both statements I and II together are necessary"
-      ],
-      "answer": 4,
-      "explanation": "I alone gives A = 3, B = 5 but not who is at seat 6. II alone gives no seat numbers. Together, C = 6 — so both are needed.",
-      "verified": true
+      "verified": true,
+      "archetype": "rbi-grade-b-R18",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Point direction 10 m SE"
+      }
     },
     {
       "id": "rbi-grade-b-042",
@@ -1007,92 +1567,14 @@
       ],
       "answer": 0,
       "explanation": "The advertisement assumes zero charges will attract users (I is implicit). It does not assume that no competitor offers the same (II is not implicit).",
-      "verified": true
-    },
-    {
-      "id": "rbi-grade-b-043",
-      "section": "english",
-      "topic": "Reading Comprehension",
-      "difficulty": "easy",
-      "question": "Read the passage and answer the question.\n\nWhen a central bank raises interest rates, the effect on inflation is neither immediate nor uniform. Higher policy rates first feed into money-market rates and bond yields; bank lending rates adjust more slowly, depending on how loans are benchmarked and how much competition banks face for deposits. Households may postpone purchases of cars and homes, and firms may defer investment, but these decisions unfold over several quarters. Meanwhile, supply shocks — a failed harvest or a spike in global oil prices — can push prices up regardless of monetary policy. This is why most central banks target inflation over a medium-term horizon and try to anchor expectations through clear communication. If people believe the central bank will act to bring inflation back to target, they are less likely to demand large wage increases or raise prices pre-emptively, which itself makes the central bank's task easier.\n\nAccording to the passage, what adjusts first after a central bank raises its policy rate?",
-      "options": [
-        "Bank lending rates",
-        "Household consumption",
-        "Wages",
-        "Money-market rates and bond yields",
-        "Prices of food"
-      ],
-      "answer": 3,
-      "explanation": "'Higher policy rates first feed into money-market rates and bond yields; bank lending rates adjust more slowly.'",
-      "verified": true
-    },
-    {
-      "id": "rbi-grade-b-044",
-      "section": "english",
-      "topic": "Reading Comprehension",
-      "difficulty": "hard",
-      "question": "Read the passage and answer the question.\n\nWhen a central bank raises interest rates, the effect on inflation is neither immediate nor uniform. Higher policy rates first feed into money-market rates and bond yields; bank lending rates adjust more slowly, depending on how loans are benchmarked and how much competition banks face for deposits. Households may postpone purchases of cars and homes, and firms may defer investment, but these decisions unfold over several quarters. Meanwhile, supply shocks — a failed harvest or a spike in global oil prices — can push prices up regardless of monetary policy. This is why most central banks target inflation over a medium-term horizon and try to anchor expectations through clear communication. If people believe the central bank will act to bring inflation back to target, they are less likely to demand large wage increases or raise prices pre-emptively, which itself makes the central bank's task easier.\n\nWhy, according to the passage, do central banks target inflation over a medium-term horizon?",
-      "options": [
-        "Because inflation cannot be measured monthly",
-        "Because governments require it by law",
-        "Because policy effects take several quarters and supply shocks can raise prices regardless of policy",
-        "Because bond yields never respond to policy rates",
-        "Because wages are fixed for long periods"
-      ],
-      "answer": 2,
-      "explanation": "The passage explains the delays in transmission and the effect of supply shocks, and then says: 'This is why most central banks target inflation over a medium-term horizon.'",
-      "verified": true
-    },
-    {
-      "id": "rbi-grade-b-045",
-      "section": "english",
-      "topic": "Reading Comprehension",
-      "difficulty": "medium",
-      "question": "Read the passage and answer the question.\n\nWhen a central bank raises interest rates, the effect on inflation is neither immediate nor uniform. Higher policy rates first feed into money-market rates and bond yields; bank lending rates adjust more slowly, depending on how loans are benchmarked and how much competition banks face for deposits. Households may postpone purchases of cars and homes, and firms may defer investment, but these decisions unfold over several quarters. Meanwhile, supply shocks — a failed harvest or a spike in global oil prices — can push prices up regardless of monetary policy. This is why most central banks target inflation over a medium-term horizon and try to anchor expectations through clear communication. If people believe the central bank will act to bring inflation back to target, they are less likely to demand large wage increases or raise prices pre-emptively, which itself makes the central bank's task easier.\n\nWhat role does credible communication play, according to the passage?",
-      "options": [
-        "It makes interest rates unnecessary",
-        "It eliminates supply shocks",
-        "It anchors expectations and reduces pre-emptive wage and price increases",
-        "It speeds up bank lending rate changes",
-        "It raises demand for cars and homes"
-      ],
-      "answer": 2,
-      "explanation": "If people believe the central bank will act, 'they are less likely to demand large wage increases or raise prices pre-emptively'.",
-      "verified": true
-    },
-    {
-      "id": "rbi-grade-b-046",
-      "section": "english",
-      "topic": "Reading Comprehension",
-      "difficulty": "medium",
-      "question": "Read the passage and answer the question.\n\nWhen a central bank raises interest rates, the effect on inflation is neither immediate nor uniform. Higher policy rates first feed into money-market rates and bond yields; bank lending rates adjust more slowly, depending on how loans are benchmarked and how much competition banks face for deposits. Households may postpone purchases of cars and homes, and firms may defer investment, but these decisions unfold over several quarters. Meanwhile, supply shocks — a failed harvest or a spike in global oil prices — can push prices up regardless of monetary policy. This is why most central banks target inflation over a medium-term horizon and try to anchor expectations through clear communication. If people believe the central bank will act to bring inflation back to target, they are less likely to demand large wage increases or raise prices pre-emptively, which itself makes the central bank's task easier.\n\nChoose the expression closest in meaning to 'pre-emptively' as used in the passage.",
-      "options": [
-        "Reluctantly",
-        "In advance",
-        "Belatedly",
-        "Randomly",
-        "Secretly"
-      ],
-      "answer": 1,
-      "explanation": "Acting pre-emptively means acting in advance, before something (here, inflation) happens.",
-      "verified": true
-    },
-    {
-      "id": "rbi-grade-b-047",
-      "section": "english",
-      "topic": "Cloze Test",
-      "difficulty": "easy",
-      "question": "Choose the word that best fills the blank.\nThe government's decision to ______ the import duty on edible oils is expected to bring relief to consumers.",
-      "options": [
-        "raise",
-        "impose",
-        "double",
-        "reduce",
-        "introduce"
-      ],
-      "answer": 3,
-      "explanation": "Only a reduction in duty lowers prices and brings relief to consumers.",
-      "verified": true
+      "verified": true,
+      "archetype": "rbi-grade-b-R29",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Ad-assumption with exclusivity trap; RBI-faithful"
+      }
     },
     {
       "id": "rbi-grade-b-048",
@@ -1109,24 +1591,14 @@
       ],
       "answer": 1,
       "explanation": "With 'not only … but also', the verb agrees with the nearer subject 'the manager' (singular): 'was surprised'. Error in part B.",
-      "verified": true
-    },
-    {
-      "id": "rbi-grade-b-049",
-      "section": "english",
-      "topic": "Fillers",
-      "difficulty": "medium",
-      "question": "Choose the word that best fills the blank.\nThe minister's speech was so ______ that the audience lost interest within minutes.",
-      "options": [
-        "riveting",
-        "captivating",
-        "tedious",
-        "inspiring",
-        "gripping"
-      ],
-      "answer": 2,
-      "explanation": "Losing interest within minutes implies the speech was tedious (boring); the others mean the opposite.",
-      "verified": true
+      "verified": true,
+      "archetype": "rbi-grade-b-E08",
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Not only...but also proximity agreement"
+      }
     },
     {
       "id": "rbi-grade-b-050",
@@ -1143,24 +1615,14 @@
       ],
       "answer": 2,
       "explanation": "B (AI in lending) → D (capability) → E (benefit) → A ('however', privacy concern) → C ('therefore', regulation): BDEAC.",
-      "verified": true
-    },
-    {
-      "id": "rbi-grade-b-051",
-      "section": "english",
-      "topic": "Vocabulary & Idioms",
-      "difficulty": "easy",
-      "question": "Choose the meaning of the idiom 'to bite the bullet'.",
-      "options": [
-        "To face a difficult situation with courage",
-        "To act violently",
-        "To speak harshly",
-        "To avoid responsibility",
-        "To waste resources"
-      ],
-      "answer": 0,
-      "explanation": "'Bite the bullet' means to accept and face something unpleasant or difficult bravely.",
-      "verified": true
+      "verified": true,
+      "archetype": "rbi-grade-b-E12",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "AI lending jumble with however/therefore"
+      }
     },
     {
       "id": "rbi-grade-b-052",
@@ -1177,7 +1639,14 @@
       ],
       "answer": 1,
       "explanation": "Profits: P 50, Q 80, R 60, S 54, T 30 (₹ crore). Q is highest.",
-      "verified": true
+      "verified": true,
+      "archetype": "rbi-grade-b-Q02",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Highest profit from expenditure %"
+      }
     },
     {
       "id": "rbi-grade-b-053",
@@ -1194,7 +1663,14 @@
       ],
       "answer": 1,
       "explanation": "50 + 80 + 60 + 54 + 30 = ₹274 crore.",
-      "verified": true
+      "verified": true,
+      "archetype": "rbi-grade-b-Q02",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Total profit"
+      }
     },
     {
       "id": "rbi-grade-b-054",
@@ -1211,7 +1687,14 @@
       ],
       "answer": 2,
       "explanation": "Profit of S = 30% of 180 = 54; expenditure of P = 80% of 250 = 200. 54/200 × 100 = 27%.",
-      "verified": true
+      "verified": true,
+      "archetype": "rbi-grade-b-Q02",
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Cross-metric percent"
+      }
     },
     {
       "id": "rbi-grade-b-055",
@@ -1228,7 +1711,14 @@
       ],
       "answer": 1,
       "explanation": "Revenue = 400 × 1.15 = 460; expenditure = 340 × 1.10 = 374. Profit = 460 − 374 = ₹86 crore.",
-      "verified": true
+      "verified": true,
+      "archetype": "rbi-grade-b-Q02",
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Projected profit after differential growth; Q02 faithful"
+      }
     },
     {
       "id": "rbi-grade-b-056",
@@ -1245,7 +1735,14 @@
       ],
       "answer": 1,
       "explanation": "I: (x − 5)(x + 3) = 0 → x = 5, −3. II: (y + 3)(y + 5) = 0 → y = −3, −5. Every x is greater than or equal to every y (−3 = −3), so x ≥ y.",
-      "verified": true
+      "verified": true,
+      "archetype": "rbi-grade-b-Q07",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Shared root -3 -> x>=y"
+      }
     },
     {
       "id": "rbi-grade-b-057",
@@ -1262,7 +1759,14 @@
       ],
       "answer": 2,
       "explanation": "≈ 20² − 14 × 12 + 4³ = 400 − 168 + 64 = 296 (exact value ≈ 293.9, nearest option 296).",
-      "verified": true
+      "verified": true,
+      "archetype": "rbi-grade-b-Q12",
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Approximation with squares and cube"
+      }
     },
     {
       "id": "rbi-grade-b-058",
@@ -1279,24 +1783,14 @@
       ],
       "answer": 2,
       "explanation": "Differences are 1², 3², 5², 7²; next 9² = 81: 88 + 81 = 169.",
-      "verified": true
-    },
-    {
-      "id": "rbi-grade-b-059",
-      "section": "quant",
-      "topic": "Arithmetic Word Problems",
-      "difficulty": "medium",
-      "question": "₹20,000 is invested partly at 8% and partly at 12% simple interest per annum. If the total interest after one year is ₹2,000, how much was invested at 12%?",
-      "options": [
-        "₹8,000",
-        "₹9,000",
-        "₹10,000",
-        "₹11,000",
-        "₹12,000"
-      ],
-      "answer": 2,
-      "explanation": "0.08x + 0.12(20,000 − x) = 2,000 → 2,400 − 0.04x = 2,000 → x = 10,000 at 8%. So ₹10,000 at 12%.",
-      "verified": true
+      "verified": true,
+      "archetype": "rbi-grade-b-Q09",
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Odd-square differences series"
+      }
     },
     {
       "id": "rbi-grade-b-060",
@@ -1313,7 +1807,2530 @@
       ],
       "answer": 1,
       "explanation": "Per day (in 60ths): A 6, B 5, C 4. First 2 days: 2 × 15 = 30/60. Remaining 30/60 at 9/60 per day = 10/3 days. Total = 2 + 3⅓ = 5⅓ days.",
-      "verified": true
+      "verified": true,
+      "archetype": "rbi-grade-b-Q19",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "A leaves after 2 days, fraction total"
+      }
+    },
+    {
+      "id": "rbi-grade-b-061",
+      "section": "ga",
+      "topic": "Banking & RBI (Policy, Regulation, Current Affairs)",
+      "difficulty": "medium",
+      "question": "Under the RBI's Liquidity Adjustment Facility, the Marginal Standing Facility (MSF) rate serves as:",
+      "options": [
+        "The upper bound (ceiling) of the policy rate corridor",
+        "The lower bound (floor) of the policy rate corridor",
+        "The rate at which the RBI absorbs surplus liquidity overnight",
+        "The rate of interest paid on banks' CRR balances",
+        "The fixed reverse repo rate"
+      ],
+      "answer": 0,
+      "explanation": "MSF is the rate at which banks can borrow overnight against excess SLR securities in emergencies; it forms the ceiling of the LAF corridor, while the Standing Deposit Facility rate is the floor.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-G01",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "MSF as ceiling"
+      }
+    },
+    {
+      "id": "rbi-grade-b-062",
+      "section": "ga",
+      "topic": "Banking & RBI (Policy, Regulation, Current Affairs)",
+      "difficulty": "medium",
+      "question": "Banks in India maintain the Statutory Liquidity Ratio (SLR) under which provision?",
+      "options": [
+        "Section 42 of the RBI Act, 1934",
+        "Section 45ZB of the RBI Act, 1934",
+        "Section 24 of the Banking Regulation Act, 1949",
+        "Section 17 of the RBI Act, 1934",
+        "Section 35A of the Banking Regulation Act, 1949"
+      ],
+      "answer": 2,
+      "explanation": "SLR is prescribed under Section 24 of the Banking Regulation Act, 1949. Section 42 of the RBI Act covers CRR; Section 45ZB the MPC; Section 35A the RBI's power to give directions.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-G01",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "SLR under Sec 24 BR Act"
+      }
+    },
+    {
+      "id": "rbi-grade-b-063",
+      "section": "ga",
+      "topic": "Banking & RBI (Policy, Regulation, Current Affairs)",
+      "difficulty": "medium",
+      "question": "Which Basel III requirement obliges banks to hold enough high-quality liquid assets to meet net cash outflows over a 30-day stress period?",
+      "options": [
+        "Net Stable Funding Ratio (NSFR)",
+        "Leverage Ratio",
+        "Capital Conservation Buffer",
+        "Capital to Risk-weighted Assets Ratio (CRAR)",
+        "Liquidity Coverage Ratio (LCR)"
+      ],
+      "answer": 4,
+      "explanation": "The LCR covers a 30-day stress horizon. The NSFR looks at stable funding over one year; the leverage ratio and capital buffers concern capital, not liquidity.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-G04",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "LCR 30-day definition"
+      }
+    },
+    {
+      "id": "rbi-grade-b-064",
+      "section": "ga",
+      "topic": "Banking & RBI (Policy, Regulation, Current Affairs)",
+      "difficulty": "medium",
+      "question": "Under the Basel III capital framework as implemented by the RBI for scheduled commercial banks, the Capital Conservation Buffer (CCB) is:",
+      "options": [
+        "1% of risk-weighted assets",
+        "0.625% of risk-weighted assets",
+        "5.5% of risk-weighted assets",
+        "2.5% of risk-weighted assets",
+        "9% of risk-weighted assets"
+      ],
+      "answer": 3,
+      "explanation": "The CCB, to be held in Common Equity Tier 1, is 2.5% of RWAs (fully phased in from October 2021). 5.5% is the minimum CET1 ratio and 9% the minimum total CRAR in India.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-G04",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "CCB 2.5%"
+      }
+    },
+    {
+      "id": "rbi-grade-b-065",
+      "section": "ga",
+      "topic": "Banking & RBI (Policy, Regulation, Current Affairs)",
+      "difficulty": "medium",
+      "question": "Under the Banking Laws (Amendment) Act, 2025, a depositor can nominate up to how many persons for a deposit account?",
+      "options": [
+        "Two",
+        "Four",
+        "Three",
+        "Five",
+        "Six"
+      ],
+      "answer": 1,
+      "explanation": "The 2025 amendment allows up to four nominees for deposit accounts, either simultaneously (in specified shares) or successively.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-G02",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Four nominees under 2025 amendment (in force Nov 2025); recent enough"
+      }
+    },
+    {
+      "id": "rbi-grade-b-068",
+      "section": "ga",
+      "topic": "Indian Economy & Financial Sector",
+      "difficulty": "medium",
+      "question": "In India, the Wholesale Price Index (WPI) is compiled and released by:",
+      "options": [
+        "National Statistics Office (MoSPI)",
+        "Reserve Bank of India",
+        "Office of the Economic Adviser, DPIIT (Ministry of Commerce & Industry)",
+        "Labour Bureau",
+        "NITI Aayog"
+      ],
+      "answer": 2,
+      "explanation": "WPI is released by the Office of the Economic Adviser, DPIIT. The NSO compiles CPI and IIP; the Labour Bureau compiles CPI for industrial workers.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-G05",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "WPI by OEA DPIIT with NSO trap"
+      }
+    },
+    {
+      "id": "rbi-grade-b-081",
+      "section": "ga",
+      "topic": "Appointments, Committees & Commissions",
+      "difficulty": "medium",
+      "question": "The Urjit Patel Committee (2014) is best known for recommending:",
+      "options": [
+        "A flexible inflation-targeting framework with CPI inflation as the nominal anchor",
+        "Nationalisation of large private banks",
+        "Setting up payments banks and small finance banks",
+        "Merger of public sector banks into fewer large banks",
+        "The economic capital framework of the RBI"
+      ],
+      "answer": 0,
+      "explanation": "The Expert Committee to Revise and Strengthen the Monetary Policy Framework (Urjit Patel, 2014) recommended CPI-based flexible inflation targeting. The economic capital framework was the Bimal Jalan Committee (2019).",
+      "source": "ai",
+      "archetype": "rbi-grade-b-G13",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Urjit Patel committee FIT; committee archetype"
+      }
+    },
+    {
+      "id": "rbi-grade-b-083",
+      "section": "ga",
+      "topic": "Static GK, Summits & Agreements",
+      "difficulty": "medium",
+      "question": "Which country holds the chairship of BRICS for 2026?",
+      "options": [
+        "Brazil",
+        "South Africa",
+        "Russia",
+        "India",
+        "China"
+      ],
+      "answer": 3,
+      "explanation": "India took over the BRICS chairship for 2026 from Brazil, which chaired the grouping in 2025.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-G14",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "India BRICS chair 2026; current and topical"
+      }
+    },
+    {
+      "id": "rbi-grade-b-085",
+      "section": "reasoning",
+      "topic": "Puzzles & Seating Arrangement",
+      "difficulty": "hard",
+      "question": "Eight persons A, B, C, D, E, F, G and H sit around a circular table, all facing the centre. Each has a different profession — Banker, Doctor, Engineer, Lawyer, Pilot, Teacher, Writer and Chef.\nB is the Teacher and sits exactly opposite A. The Chef sits immediately to the right of B. The Doctor sits immediately to the right of the Chef. C is not the Chef. D sits second to the left of B. The Writer sits exactly opposite the Doctor. F sits immediately to the left of D. H is an immediate neighbour of B but is not the Chef. The Pilot sits immediately to the right of the Doctor. The Banker sits immediately to the left of the Teacher. F is not the Lawyer. E sits immediately to the right of C.\n\nWho is the Writer?",
+      "options": [
+        "H",
+        "D",
+        "F",
+        "E",
+        "G"
+      ],
+      "answer": 1,
+      "explanation": "Clockwise from A: A (Lawyer), E (Pilot), C (Doctor), G (Chef), B (Teacher), H (Banker), D (Writer), F (Engineer). Facing the centre, left is clockwise and right anticlockwise. D is the Writer.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-R03",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "8-person circle with professions, unique; RBI R03 faithful"
+      }
+    },
+    {
+      "id": "rbi-grade-b-086",
+      "section": "reasoning",
+      "topic": "Puzzles & Seating Arrangement",
+      "difficulty": "hard",
+      "question": "Eight persons A, B, C, D, E, F, G and H sit around a circular table, all facing the centre. Each has a different profession — Banker, Doctor, Engineer, Lawyer, Pilot, Teacher, Writer and Chef.\nB is the Teacher and sits exactly opposite A. The Chef sits immediately to the right of B. The Doctor sits immediately to the right of the Chef. C is not the Chef. D sits second to the left of B. The Writer sits exactly opposite the Doctor. F sits immediately to the left of D. H is an immediate neighbour of B but is not the Chef. The Pilot sits immediately to the right of the Doctor. The Banker sits immediately to the left of the Teacher. F is not the Lawyer. E sits immediately to the right of C.\n\nWho sits second to the left of the Pilot?",
+      "options": [
+        "G",
+        "C",
+        "B",
+        "A",
+        "F"
+      ],
+      "answer": 0,
+      "explanation": "Clockwise from A: A (Lawyer), E (Pilot), C (Doctor), G (Chef), B (Teacher), H (Banker), D (Writer), F (Engineer). Facing the centre, left is clockwise and right anticlockwise. The Pilot is E; moving clockwise: C, G — G is second to the left of E.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-R03",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "2nd left of Pilot = G"
+      }
+    },
+    {
+      "id": "rbi-grade-b-087",
+      "section": "reasoning",
+      "topic": "Puzzles & Seating Arrangement",
+      "difficulty": "hard",
+      "question": "Eight persons A, B, C, D, E, F, G and H sit around a circular table, all facing the centre. Each has a different profession — Banker, Doctor, Engineer, Lawyer, Pilot, Teacher, Writer and Chef.\nB is the Teacher and sits exactly opposite A. The Chef sits immediately to the right of B. The Doctor sits immediately to the right of the Chef. C is not the Chef. D sits second to the left of B. The Writer sits exactly opposite the Doctor. F sits immediately to the left of D. H is an immediate neighbour of B but is not the Chef. The Pilot sits immediately to the right of the Doctor. The Banker sits immediately to the left of the Teacher. F is not the Lawyer. E sits immediately to the right of C.\n\nWhat is the profession of A?",
+      "options": [
+        "Engineer",
+        "Banker",
+        "Pilot",
+        "Lawyer",
+        "Chef"
+      ],
+      "answer": 3,
+      "explanation": "Clockwise from A: A (Lawyer), E (Pilot), C (Doctor), G (Chef), B (Teacher), H (Banker), D (Writer), F (Engineer). Facing the centre, left is clockwise and right anticlockwise.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-R03",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "A is Lawyer"
+      }
+    },
+    {
+      "id": "rbi-grade-b-088",
+      "section": "reasoning",
+      "topic": "Puzzles & Seating Arrangement",
+      "difficulty": "hard",
+      "question": "Eight persons A, B, C, D, E, F, G and H sit around a circular table, all facing the centre. Each has a different profession — Banker, Doctor, Engineer, Lawyer, Pilot, Teacher, Writer and Chef.\nB is the Teacher and sits exactly opposite A. The Chef sits immediately to the right of B. The Doctor sits immediately to the right of the Chef. C is not the Chef. D sits second to the left of B. The Writer sits exactly opposite the Doctor. F sits immediately to the left of D. H is an immediate neighbour of B but is not the Chef. The Pilot sits immediately to the right of the Doctor. The Banker sits immediately to the left of the Teacher. F is not the Lawyer. E sits immediately to the right of C.\n\nHow many persons sit between the Banker and the Engineer when counted from the left of the Banker?",
+      "options": [
+        "Two",
+        "One",
+        "Three",
+        "None",
+        "Four"
+      ],
+      "answer": 1,
+      "explanation": "Clockwise from A: A (Lawyer), E (Pilot), C (Doctor), G (Chef), B (Teacher), H (Banker), D (Writer), F (Engineer). Facing the centre, left is clockwise and right anticlockwise. The Banker is H; moving to H's left (clockwise): D, then F (Engineer) — one person in between.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-R03",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Between Banker and Engineer from left = 1"
+      }
+    },
+    {
+      "id": "rbi-grade-b-089",
+      "section": "reasoning",
+      "topic": "Puzzles & Seating Arrangement",
+      "difficulty": "hard",
+      "question": "Eight persons P, Q, R, S, T, U, V and W have birthdays in four months — February, April, August and November — of the same year, on either the 11th or the 24th of the month. No two persons share a birthday.\nT's birthday is on the 11th of a month that has 30 days. Only three persons have birthdays between T and P, and P's birthday comes before T's. Q's birthday is immediately after T's. Only one person has a birthday between Q and W. R's birthday is in the same month as W's. V's birthday is in a month that has fewer than 30 days. U's birthday is on the 24th. S's birthday comes before V's.\n\nWhose birthday is on 24 April?",
+      "options": [
+        "P",
+        "V",
+        "U",
+        "W",
+        "R"
+      ],
+      "answer": 2,
+      "explanation": "Feb 11 – S, Feb 24 – V, Apr 11 – P, Apr 24 – U, Aug 11 – R, Aug 24 – W, Nov 11 – T, Nov 24 – Q. (T in April is impossible because P must come four places before T.)",
+      "source": "ai",
+      "archetype": "rbi-grade-b-R05",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Month+date puzzle with 30-day clue, unique; RBI R05"
+      }
+    },
+    {
+      "id": "rbi-grade-b-090",
+      "section": "reasoning",
+      "topic": "Puzzles & Seating Arrangement",
+      "difficulty": "hard",
+      "question": "Eight persons P, Q, R, S, T, U, V and W have birthdays in four months — February, April, August and November — of the same year, on either the 11th or the 24th of the month. No two persons share a birthday.\nT's birthday is on the 11th of a month that has 30 days. Only three persons have birthdays between T and P, and P's birthday comes before T's. Q's birthday is immediately after T's. Only one person has a birthday between Q and W. R's birthday is in the same month as W's. V's birthday is in a month that has fewer than 30 days. U's birthday is on the 24th. S's birthday comes before V's.\n\nHow many persons have birthdays between S and R?",
+      "options": [
+        "Two",
+        "Four",
+        "Five",
+        "One",
+        "Three"
+      ],
+      "answer": 4,
+      "explanation": "Feb 11 – S, Feb 24 – V, Apr 11 – P, Apr 24 – U, Aug 11 – R, Aug 24 – W, Nov 11 – T, Nov 24 – Q. (T in April is impossible because P must come four places before T.) V, P and U lie between S and R.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-R05",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Between S and R = 3"
+      }
+    },
+    {
+      "id": "rbi-grade-b-091",
+      "section": "reasoning",
+      "topic": "Puzzles & Seating Arrangement",
+      "difficulty": "medium",
+      "question": "Eight persons P, Q, R, S, T, U, V and W have birthdays in four months — February, April, August and November — of the same year, on either the 11th or the 24th of the month. No two persons share a birthday.\nT's birthday is on the 11th of a month that has 30 days. Only three persons have birthdays between T and P, and P's birthday comes before T's. Q's birthday is immediately after T's. Only one person has a birthday between Q and W. R's birthday is in the same month as W's. V's birthday is in a month that has fewer than 30 days. U's birthday is on the 24th. S's birthday comes before V's.\n\nWhose birthday is in the same month as P's?",
+      "options": [
+        "U",
+        "V",
+        "R",
+        "S",
+        "W"
+      ],
+      "answer": 0,
+      "explanation": "Feb 11 – S, Feb 24 – V, Apr 11 – P, Apr 24 – U, Aug 11 – R, Aug 24 – W, Nov 11 – T, Nov 24 – Q. (T in April is impossible because P must come four places before T.) P and U both have birthdays in April.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-R05",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Same month as P = U"
+      }
+    },
+    {
+      "id": "rbi-grade-b-092",
+      "section": "reasoning",
+      "topic": "Puzzles & Seating Arrangement",
+      "difficulty": "medium",
+      "question": "Eight persons P, Q, R, S, T, U, V and W have birthdays in four months — February, April, August and November — of the same year, on either the 11th or the 24th of the month. No two persons share a birthday.\nT's birthday is on the 11th of a month that has 30 days. Only three persons have birthdays between T and P, and P's birthday comes before T's. Q's birthday is immediately after T's. Only one person has a birthday between Q and W. R's birthday is in the same month as W's. V's birthday is in a month that has fewer than 30 days. U's birthday is on the 24th. S's birthday comes before V's.\n\nWhose birthday comes immediately before T's?",
+      "options": [
+        "R",
+        "Q",
+        "U",
+        "P",
+        "W"
+      ],
+      "answer": 4,
+      "explanation": "Feb 11 – S, Feb 24 – V, Apr 11 – P, Apr 24 – U, Aug 11 – R, Aug 24 – W, Nov 11 – T, Nov 24 – Q. (T in April is impossible because P must come four places before T.) W (24 August) comes immediately before T (11 November).",
+      "source": "ai",
+      "archetype": "rbi-grade-b-R05",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Before T = W"
+      }
+    },
+    {
+      "id": "rbi-grade-b-093",
+      "section": "reasoning",
+      "topic": "Syllogism",
+      "difficulty": "medium",
+      "question": "Statements: Some banks are NBFCs. All NBFCs are lenders. Only a few lenders are brokers.\nConclusions: I. Some banks are lenders. II. Some brokers are not lenders.",
+      "options": [
+        "Only I follows",
+        "Only II follows",
+        "Either I or II follows",
+        "Neither I nor II follows",
+        "Both I and II follow"
+      ],
+      "answer": 0,
+      "explanation": "Banks that are NBFCs are lenders, so I follows. 'Only a few lenders are brokers' says some lenders are not brokers; it says nothing definite about brokers outside lenders, so II does not follow.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-R11",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "'Some brokers are not lenders' reversal trap"
+      }
+    },
+    {
+      "id": "rbi-grade-b-094",
+      "section": "reasoning",
+      "topic": "Syllogism",
+      "difficulty": "medium",
+      "question": "Statements: Only a few rates are cuts. No cut is a hike. All hikes are pauses.\nConclusions: I. Some pauses are not cuts. II. Some rates are not hikes.",
+      "options": [
+        "Only I follows",
+        "Only II follows",
+        "Either I or II follows",
+        "Neither I nor II follows",
+        "Both I and II follow"
+      ],
+      "answer": 4,
+      "explanation": "Hikes are pauses and no hike is a cut, so the pauses that are hikes are not cuts — I follows. The rates that are cuts cannot be hikes, so II follows. Both follow.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-R12",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Only-a-few with No and All; both follow"
+      }
+    },
+    {
+      "id": "rbi-grade-b-095",
+      "section": "reasoning",
+      "topic": "Inequality",
+      "difficulty": "medium",
+      "question": "Statements: L ≥ M > N ≤ O; P < N; Q ≥ O\nConclusions: I. M > O  II. Q > P",
+      "options": [
+        "Only I follows",
+        "Only II follows",
+        "Either I or II follows",
+        "Neither I nor II follows",
+        "Both I and II follow"
+      ],
+      "answer": 1,
+      "explanation": "M > N ≤ O gives no relation between M and O, so I does not follow. Q ≥ O ≥ N > P gives Q > P, so II follows.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-R13",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Inequality only II"
+      }
+    },
+    {
+      "id": "rbi-grade-b-096",
+      "section": "reasoning",
+      "topic": "Coding-Decoding",
+      "difficulty": "hard",
+      "question": "In a certain code, each vowel in a word is replaced by the next letter of the English alphabet and each consonant by the previous letter, and then the letters are written in reverse order. How is 'CREDIT' written in this code?",
+      "options": [
+        "BQFCJS",
+        "SJCFQD",
+        "SJCFQB",
+        "TJCFQB",
+        "SKCFQB"
+      ],
+      "answer": 2,
+      "explanation": "C → B, R → Q, E → F, D → C, I → J, T → S gives BQFCJS; reversed: SJCFQB.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-R19",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Vowel/consonant shift then reverse; RBI-level coding"
+      }
+    },
+    {
+      "id": "rbi-grade-b-097",
+      "section": "reasoning",
+      "topic": "Blood Relations",
+      "difficulty": "medium",
+      "question": "A is the mother of B. B is married to C. D, who is unmarried, is the only brother of C. E is the son of B and C. F is the father of D. G is the wife of F. How is F related to B?",
+      "options": [
+        "Father",
+        "Grandfather",
+        "Brother-in-law",
+        "Father-in-law",
+        "Uncle"
+      ],
+      "answer": 3,
+      "explanation": "F is the father of D, and D is C's brother, so F is C's father. B is married to C, so F is B's father-in-law.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-R15",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Father-in-law chain with distractor info"
+      }
+    },
+    {
+      "id": "rbi-grade-b-099",
+      "section": "reasoning",
+      "topic": "Data Sufficiency",
+      "difficulty": "medium",
+      "question": "In which direction is point X with respect to point Y?\nI. X is 5 m north of point Z, and Z is 3 m west of Y.\nII. Y is 4 m south of point W, and W is 3 m east of X.",
+      "options": [
+        "The data in statement I alone are sufficient, but the data in statement II alone are not",
+        "The data in statement II alone are sufficient, but the data in statement I alone are not",
+        "The data in either statement I alone or statement II alone are sufficient",
+        "The data in both statements I and II together are not sufficient",
+        "The data in both statements I and II together are necessary"
+      ],
+      "answer": 2,
+      "explanation": "I: X = Y + (−3, 5) → North-West. II: W = X + (3, 0) and Y = W + (0, −4), so X = Y + (−3, 4) → North-West. Each statement alone is sufficient.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-R27",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Direction DS, either sufficient"
+      }
+    },
+    {
+      "id": "rbi-grade-b-100",
+      "section": "reasoning",
+      "topic": "Logical Reasoning (Statements, Assumptions, Inferences)",
+      "difficulty": "medium",
+      "question": "Statement: A bank's notice says, 'Open a deposit under our new savings scheme before 31 March to earn a higher rate of interest.'\nAssumptions: I. Some customers would like to earn a higher rate of interest. II. The bank expects some customers to open deposits before 31 March.",
+      "options": [
+        "Only assumption I is implicit",
+        "Only assumption II is implicit",
+        "Either I or II is implicit",
+        "Neither I nor II is implicit",
+        "Both I and II are implicit"
+      ],
+      "answer": 4,
+      "explanation": "The offer only makes sense if customers value higher interest (I) and if the bank expects some of them to act before the deadline (II). Both are implicit.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-R29",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Notice-based assumptions both implicit"
+      }
+    },
+    {
+      "id": "rbi-grade-b-101",
+      "section": "reasoning",
+      "topic": "Logical Reasoning (Statements, Assumptions, Inferences)",
+      "difficulty": "medium",
+      "question": "Statement: Cases of digital payment fraud have risen sharply in small towns over the past year.\nCourses of action: I. Banks should run fraud-awareness campaigns in local languages in these towns. II. Digital payments should be banned in small towns.\nWhich course(s) of action logically follow(s)?",
+      "options": [
+        "Only I follows",
+        "Only II follows",
+        "Either I or II follows",
+        "Neither I nor II follows",
+        "Both I and II follow"
+      ],
+      "answer": 0,
+      "explanation": "I addresses the problem practically. II is an extreme step that would hurt genuine users and does not follow.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-R30",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Course of action with extreme ban option"
+      }
+    },
+    {
+      "id": "rbi-grade-b-103",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "hard",
+      "question": "Read the passage and answer the question.\n\nFor decades, Indian households kept the bulk of their savings in bank deposits, gold and property. That pattern is changing. Monthly contributions to mutual funds through systematic investment plans have climbed steadily, and the number of individual investors with demat accounts has multiplied. Optimists see this as a sign of financial deepening: savings that once lay idle in gold or were locked into real estate are being channelled into companies that need capital to grow.\n\nThe shift, however, carries risks that are easy to overlook in a rising market. Many new investors have never experienced a prolonged downturn, and surveys suggest that a significant share expect returns far above what equities have historically delivered. If prices fall sharply, disappointed savers may withdraw in panic, crystallising losses and souring an entire generation on markets. Banks face a quieter challenge: as deposits grow more slowly than loans, they must either raise deposit rates, which squeezes their margins, or rely on costlier wholesale funding.\n\nNone of this argues for reversing the trend. A household sector that participates in capital markets can make an economy more resilient, provided participation rests on understanding rather than exuberance. Regulators have therefore emphasised suitability — ensuring that products sold to an investor match that person's needs and capacity to bear risk — alongside clearer disclosure of costs and past performance.\n\nWhich of the following best expresses the author's main argument?",
+      "options": [
+        "Households should return to bank deposits and gold because markets are too risky",
+        "The movement of household savings into markets is welcome, but it must rest on investor understanding while its side-effects on banks are managed",
+        "Rising mutual fund inflows have solved the funding problems of Indian banks",
+        "Regulators should restrict new investors from entering the equity market",
+        "Equity returns in India have always exceeded investors' expectations"
+      ],
+      "answer": 1,
+      "explanation": "The author calls the shift 'financial deepening', warns of investor over-optimism and bank funding pressure, and concludes that participation must rest on understanding — not that it should be reversed or restricted.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-E01",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Household-savings shift passage main argument; RBI-faithful theme and traps"
+      }
+    },
+    {
+      "id": "rbi-grade-b-104",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nFor decades, Indian households kept the bulk of their savings in bank deposits, gold and property. That pattern is changing. Monthly contributions to mutual funds through systematic investment plans have climbed steadily, and the number of individual investors with demat accounts has multiplied. Optimists see this as a sign of financial deepening: savings that once lay idle in gold or were locked into real estate are being channelled into companies that need capital to grow.\n\nThe shift, however, carries risks that are easy to overlook in a rising market. Many new investors have never experienced a prolonged downturn, and surveys suggest that a significant share expect returns far above what equities have historically delivered. If prices fall sharply, disappointed savers may withdraw in panic, crystallising losses and souring an entire generation on markets. Banks face a quieter challenge: as deposits grow more slowly than loans, they must either raise deposit rates, which squeezes their margins, or rely on costlier wholesale funding.\n\nNone of this argues for reversing the trend. A household sector that participates in capital markets can make an economy more resilient, provided participation rests on understanding rather than exuberance. Regulators have therefore emphasised suitability — ensuring that products sold to an investor match that person's needs and capacity to bear risk — alongside clearer disclosure of costs and past performance.\n\nAccording to the passage, what challenge do banks face as a result of the shift?",
+      "options": [
+        "Mutual funds have been allowed to accept deposits directly from the public",
+        "Households have started withdrawing gold from bank lockers",
+        "Regulators have capped the interest rates banks may pay on deposits",
+        "Deposits are growing more slowly than loans, forcing a choice between higher deposit rates and costlier wholesale funding",
+        "Banks are no longer allowed to distribute mutual fund products"
+      ],
+      "answer": 3,
+      "explanation": "Para 2: 'as deposits grow more slowly than loans, they must either raise deposit rates … or rely on costlier wholesale funding'.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-E02",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Bank challenge detail"
+      }
+    },
+    {
+      "id": "rbi-grade-b-105",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "hard",
+      "question": "Read the passage and answer the question.\n\nFor decades, Indian households kept the bulk of their savings in bank deposits, gold and property. That pattern is changing. Monthly contributions to mutual funds through systematic investment plans have climbed steadily, and the number of individual investors with demat accounts has multiplied. Optimists see this as a sign of financial deepening: savings that once lay idle in gold or were locked into real estate are being channelled into companies that need capital to grow.\n\nThe shift, however, carries risks that are easy to overlook in a rising market. Many new investors have never experienced a prolonged downturn, and surveys suggest that a significant share expect returns far above what equities have historically delivered. If prices fall sharply, disappointed savers may withdraw in panic, crystallising losses and souring an entire generation on markets. Banks face a quieter challenge: as deposits grow more slowly than loans, they must either raise deposit rates, which squeezes their margins, or rely on costlier wholesale funding.\n\nNone of this argues for reversing the trend. A household sector that participates in capital markets can make an economy more resilient, provided participation rests on understanding rather than exuberance. Regulators have therefore emphasised suitability — ensuring that products sold to an investor match that person's needs and capacity to bear risk — alongside clearer disclosure of costs and past performance.\n\nWhich of the following can be inferred from the passage?\nI. Some new investors may hold unrealistic expectations of equity returns.\nII. The author wants households to move their savings back to gold and property.\nIII. A sharp market fall could have a lasting effect on investor behaviour.",
+      "options": [
+        "Only I",
+        "Only II",
+        "Only I and III",
+        "Only II and III",
+        "All I, II and III"
+      ],
+      "answer": 2,
+      "explanation": "I follows from the survey finding; III from 'souring an entire generation on markets'. II contradicts 'None of this argues for reversing the trend'.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-E03",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "I/II/III with author-intent trap"
+      }
+    },
+    {
+      "id": "rbi-grade-b-106",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nFor decades, Indian households kept the bulk of their savings in bank deposits, gold and property. That pattern is changing. Monthly contributions to mutual funds through systematic investment plans have climbed steadily, and the number of individual investors with demat accounts has multiplied. Optimists see this as a sign of financial deepening: savings that once lay idle in gold or were locked into real estate are being channelled into companies that need capital to grow.\n\nThe shift, however, carries risks that are easy to overlook in a rising market. Many new investors have never experienced a prolonged downturn, and surveys suggest that a significant share expect returns far above what equities have historically delivered. If prices fall sharply, disappointed savers may withdraw in panic, crystallising losses and souring an entire generation on markets. Banks face a quieter challenge: as deposits grow more slowly than loans, they must either raise deposit rates, which squeezes their margins, or rely on costlier wholesale funding.\n\nNone of this argues for reversing the trend. A household sector that participates in capital markets can make an economy more resilient, provided participation rests on understanding rather than exuberance. Regulators have therefore emphasised suitability — ensuring that products sold to an investor match that person's needs and capacity to bear risk — alongside clearer disclosure of costs and past performance.\n\nWhat does 'crystallising' mean as used in the phrase 'crystallising losses'?",
+      "options": [
+        "Forming them into solid crystals",
+        "Making them definite by selling at a lower price",
+        "Hiding them from investors",
+        "Spreading them over several years",
+        "Recovering them fully"
+      ],
+      "answer": 1,
+      "explanation": "Selling in panic turns paper (notional) losses into actual, realised losses — the losses become definite. 'Forming crystals' is the literal, out-of-context meaning.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-E04",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "'crystallising losses' with literal-meaning trap; exactly E04"
+      }
+    },
+    {
+      "id": "rbi-grade-b-108",
+      "section": "english",
+      "topic": "Error Detection",
+      "difficulty": "medium",
+      "question": "Which of the following sentences is grammatically correct?",
+      "options": [
+        "The number of applicants have doubled since last year.",
+        "Not only the auditor but also the directors were present at the meeting.",
+        "Scarcely had the meeting begun than the power failed.",
+        "He, along with his partners, are responsible for the loss.",
+        "She has been working in the bank since five years."
+      ],
+      "answer": 1,
+      "explanation": "With 'not only … but also', the verb agrees with the nearer subject ('directors' → were). Errors in the others: 'the number … has'; 'scarcely … when'; 'He, along with … is'; 'for five years'.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-E09",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Choose correct sentence among classic errors"
+      }
+    },
+    {
+      "id": "rbi-grade-b-109",
+      "section": "english",
+      "topic": "Fillers",
+      "difficulty": "medium",
+      "question": "Choose the pair of words that best fills both blanks.\nThe new framework seeks to ______ innovation in digital lending while ______ borrowers against predatory practices.",
+      "options": [
+        "encourage, exposing",
+        "promote, abandoning",
+        "stifle, endangering",
+        "encourage, protecting",
+        "ignore, leaving"
+      ],
+      "answer": 3,
+      "explanation": "A regulatory framework would aim to encourage innovation while protecting borrowers; in every other pair at least one word contradicts the purpose stated by 'against predatory practices'.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-E10",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Double filler encourage/protecting"
+      }
+    },
+    {
+      "id": "rbi-grade-b-110",
+      "section": "english",
+      "topic": "Para Jumbles / Sentence Rearrangement",
+      "difficulty": "medium",
+      "question": "Rearrange the sentences to form a coherent paragraph and choose the FOURTH sentence.\nA. Persistent inflation of this kind can, over time, also drag down the external value of the currency.\nB. When a government runs persistent deficits, it may be tempted to finance them by printing money.\nC. Such monetisation increases the money supply faster than the output of goods and services.\nD. Central bank independence is designed precisely to remove this temptation.\nE. The result is rising inflation, which erodes the real value of savings.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "answer": 0,
+      "explanation": "Order: B (temptation) – C ('such monetisation') – E (result: inflation) – A ('persistent inflation of this kind', currency falls) – D (independence removes 'this temptation'). The fourth sentence is A.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-E13",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Monetisation jumble FOURTH sentence"
+      }
+    },
+    {
+      "id": "rbi-grade-b-111",
+      "section": "english",
+      "topic": "Vocabulary & Idioms",
+      "difficulty": "medium",
+      "question": "Choose the most appropriate meaning of the idiom used in the sentence.\nWith inflation still uncertain, the central bank decided to keep its powder dry.",
+      "options": [
+        "to avoid spending any money at all",
+        "to give up the fight against inflation",
+        "to remain prepared to act later rather than act now",
+        "to act hastily without waiting for data",
+        "to hide its intentions from the markets"
+      ],
+      "answer": 2,
+      "explanation": "'Keep one's powder dry' means to hold back while staying ready to act when needed.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-E22",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "'keep powder dry' in policy context; RBI idiom style"
+      }
+    },
+    {
+      "id": "rbi-grade-b-112",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "medium",
+      "question": "The table shows the deposits and advances (in ₹ thousand crore) of four banks in 2025, and the percentage of each bank's advances that went to MSMEs.\nBank | Deposits | Advances | MSME share of advances\nA | 400 | 320 | 15%\nB | 250 | 225 | 20%\nC | 360 | 270 | 25%\nD | 500 | 380 | 10%\n\nWhich bank has the highest credit–deposit ratio (advances as a percentage of deposits)?",
+      "options": [
+        "A",
+        "C",
+        "D",
+        "A and D (equal)",
+        "B"
+      ],
+      "answer": 4,
+      "explanation": "A = 80%, B = 90%, C = 75%, D = 76%. B has the highest ratio.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-Q02",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Credit-deposit ratio comparison; Q02 faithful"
+      }
+    },
+    {
+      "id": "rbi-grade-b-113",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "medium",
+      "question": "The table shows the deposits and advances (in ₹ thousand crore) of four banks in 2025, and the percentage of each bank's advances that went to MSMEs.\nBank | Deposits | Advances | MSME share of advances\nA | 400 | 320 | 15%\nB | 250 | 225 | 20%\nC | 360 | 270 | 25%\nD | 500 | 380 | 10%\n\nWhat is the ratio of MSME advances of bank A to MSME advances of bank B?",
+      "options": [
+        "15 : 16",
+        "4 : 3",
+        "3 : 4",
+        "16 : 15",
+        "32 : 25"
+      ],
+      "answer": 3,
+      "explanation": "A: 15% of 320 = 48; B: 20% of 225 = 45. 48 : 45 = 16 : 15.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-Q02",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "MSME advances ratio"
+      }
+    },
+    {
+      "id": "rbi-grade-b-115",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "hard",
+      "question": "The table shows the deposits and advances (in ₹ thousand crore) of four banks in 2025, and the percentage of each bank's advances that went to MSMEs.\nBank | Deposits | Advances | MSME share of advances\nA | 400 | 320 | 15%\nB | 250 | 225 | 20%\nC | 360 | 270 | 25%\nD | 500 | 380 | 10%\n\nIf in 2026 the deposits of every bank grow by 10% and the advances of every bank grow by 15%, what will be the approximate combined credit–deposit ratio of the four banks in 2026?",
+      "options": [
+        "82.7%",
+        "79.1%",
+        "85.2%",
+        "80.4%",
+        "87.3%"
+      ],
+      "answer": 0,
+      "explanation": "Advances = 1,195 × 1.15 = 1,374.25; deposits = 1,510 × 1.10 = 1,661. Ratio ≈ 82.7%. (79.1% is the 2025 ratio.)",
+      "source": "ai",
+      "archetype": "rbi-grade-b-Q02",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Projected combined CD ratio; strong RBI DI"
+      }
+    },
+    {
+      "id": "rbi-grade-b-116",
+      "section": "quant",
+      "topic": "Quadratic Equations",
+      "difficulty": "medium",
+      "question": "Solve and compare.\nI. 6x² − 7x + 2 = 0\nII. 12y² − 7y + 1 = 0",
+      "options": [
+        "x > y",
+        "x ≥ y",
+        "x < y",
+        "x ≤ y",
+        "x = y or the relationship cannot be established"
+      ],
+      "answer": 0,
+      "explanation": "I: (2x − 1)(3x − 2) = 0 → x = 1/2, 2/3. II: (3y − 1)(4y − 1) = 0 → y = 1/3, 1/4. Every x exceeds every y: x > y.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-Q07",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Fractional roots, x>y"
+      }
+    },
+    {
+      "id": "rbi-grade-b-117",
+      "section": "quant",
+      "topic": "Simplification & Approximation",
+      "difficulty": "medium",
+      "question": "What approximate value should come in place of '?'\n(24.98% of 3,199.7 + 14.02²) ÷ 9.98 ≈ ?",
+      "options": [
+        "90",
+        "110",
+        "120",
+        "80",
+        "100"
+      ],
+      "answer": 4,
+      "explanation": "≈ (25% of 3,200 + 14²) ÷ 10 = (800 + 196) ÷ 10 ≈ 99.6 ≈ 100.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-Q12",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Approximation"
+      }
+    },
+    {
+      "id": "rbi-grade-b-118",
+      "section": "quant",
+      "topic": "Number Series",
+      "difficulty": "medium",
+      "question": "Find the missing term: 8, 9, 20, 63, ?, 1285",
+      "options": [
+        "252",
+        "256",
+        "260",
+        "248",
+        "264"
+      ],
+      "answer": 1,
+      "explanation": "Pattern: ×1 + 1, ×2 + 2, ×3 + 3, ×4 + 4, ×5 + 5. 63 × 4 + 4 = 256, and 256 × 5 + 5 = 1,285 confirms it.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-Q09",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Missing middle term xn+n"
+      }
+    },
+    {
+      "id": "rbi-grade-b-119",
+      "section": "quant",
+      "topic": "Arithmetic Word Problems",
+      "difficulty": "hard",
+      "question": "Ravi invested a sum in scheme P at 10% per annum compound interest (compounded annually) for 2 years and twice that sum in scheme Q at 8% per annum simple interest for 2 years. If the total interest earned was ₹5,300, what was the sum invested in scheme P?",
+      "options": [
+        "₹12,000",
+        "₹8,000",
+        "₹9,500",
+        "₹10,000",
+        "₹11,000"
+      ],
+      "answer": 3,
+      "explanation": "Interest from P = 0.21x; from Q = 2x × 0.16 = 0.32x. 0.53x = 5,300 → x = ₹10,000.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-Q22",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "CI and SI on related sums; Q22 exact"
+      }
+    },
+    {
+      "id": "rbi-grade-b-121",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "hard",
+      "passage": "rbi-grade-b-P01",
+      "question": "Which of the following best captures the author's main concern in the passage?",
+      "options": [
+        "ECL will eliminate the boom-and-bust cycles of Indian banking.",
+        "ECL is an improvement on incurred-loss provisioning, but its benefits depend on sound data, models and supervision.",
+        "The incurred-loss approach should be retained because ECL relies too much on judgment.",
+        "Smaller lenders lack data and should therefore be exempted from ECL.",
+        "The one-time jump in provisions under ECL will wipe out the capital of most banks."
+      ],
+      "answer": 1,
+      "explanation": "The author supports the shift ('None of this is an argument for retaining the old system') but stresses that ECL is 'only as good as the data, models and governance behind it'. The other options overstate ('eliminate', 'wipe out'), reverse the author's view, or add a recommendation the passage never makes.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-E01",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "author's main concern on ECL with overstated distractors (eliminate, wipe out); matches RBI Gr B economy RC"
+      }
+    },
+    {
+      "id": "rbi-grade-b-122",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "passage": "rbi-grade-b-P01",
+      "question": "According to the passage, which of the following is true?",
+      "options": [
+        "Under ECL, every loan must be provided for over its entire remaining life from the day of disbursement.",
+        "International experience proves that forward-looking provisioning prevents banking crises.",
+        "Regulators usually require the entire transition impact of ECL to be absorbed in the first year.",
+        "Under the incurred-loss approach, provisions tend to rise sharply when the economy turns down.",
+        "Two banks with similar loan books will report nearly identical provisions under ECL."
+      ],
+      "answer": 3,
+      "explanation": "Paragraph 1: 'Provisions rise sharply just when the economy turns down'. Lifetime provisioning applies only to loans whose risk has increased significantly; experience offers 'some support', not proof; the impact is commonly spread over a few years; and similar banks 'may arrive at quite different provisions'.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-E02",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "true: provisions rise in downturn under incurred-loss; every/proves/identical distortions"
+      }
+    },
+    {
+      "id": "rbi-grade-b-123",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "hard",
+      "passage": "rbi-grade-b-P01",
+      "question": "Which of the following can be inferred from the passage?\nI. A bank that expands its loan book rapidly would have to make provisions earlier under ECL than under the incurred-loss approach.\nII. Smaller lenders will be required to adopt ECL before large banks do.\nIII. Some banks have so far invested in risk management mainly to satisfy regulatory requirements.",
+      "options": [
+        "Only I",
+        "Only II",
+        "Only I and II",
+        "Only II and III",
+        "Only I and III"
+      ],
+      "answer": 4,
+      "explanation": "I follows from 'a lender that grows its loan book aggressively … will be forced to recognise the risk' from the day of disbursement. III follows from risk-management capacity being 'treated as a mere compliance cost'. II has no basis — the passage only says smaller lenders often lack data.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-E03",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "I and III inferable (III from 'mere compliance cost'), II unsupported; good RBI-level inference"
+      }
+    },
+    {
+      "id": "rbi-grade-b-124",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "passage": "rbi-grade-b-P01",
+      "question": "Which of the following is closest in meaning to the word 'perverse' as used in the passage?",
+      "options": [
+        "counterproductive",
+        "wicked",
+        "stubborn",
+        "unlawful",
+        "irregular"
+      ],
+      "answer": 0,
+      "explanation": "The outcome is 'perverse' because a rule meant to be prudent ends up cutting lending when credit is most needed — i.e. counterproductive. 'Wicked' and 'stubborn' are dictionary senses of 'perverse' that do not fit an outcome.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-E04",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "perverse=counterproductive in context vs 'wicked' dictionary sense - exact vocab-in-context trap"
+      }
+    },
+    {
+      "id": "rbi-grade-b-125",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "passage": "rbi-grade-b-P01",
+      "question": "Which of the following is most OPPOSITE in meaning to the word 'scrutinise' as used in the passage?",
+      "options": [
+        "examine",
+        "inspect",
+        "question",
+        "survey",
+        "overlook"
+      ],
+      "answer": 4,
+      "explanation": "To 'scrutinise' is to examine closely; the opposite is 'overlook'. 'Examine', 'inspect' and 'survey' are near-synonyms, and 'question' is related in sense.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-E04",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "scrutinise antonym overlook; easy but in pattern"
+      }
+    },
+    {
+      "id": "rbi-grade-b-126",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "passage": "rbi-grade-b-P01",
+      "question": "Which of the following is NOT stated in the passage as a feature or consequence of the ECL framework?",
+      "options": [
+        "Provisions start rising when warning signs appear rather than after default.",
+        "Loans performing as expected carry provisions for losses likely in the next twelve months.",
+        "It allows banks to stop classifying overdue loans as non-performing.",
+        "Its first application usually requires a one-time jump in provisions.",
+        "Its outcomes depend heavily on models and the assumptions banks choose."
+      ],
+      "answer": 2,
+      "explanation": "The passage says nothing about ECL ending NPA classification; the remaining four statements appear in paragraphs 2 and 4.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-E02",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "NOT stated: stop classifying NPAs; others from para 2/4"
+      }
+    },
+    {
+      "id": "rbi-grade-b-127",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "passage": "rbi-grade-b-P02",
+      "question": "Which of the following best expresses the central idea of the passage?",
+      "options": [
+        "Digital lending should be stopped because it encourages consumption rather than asset creation.",
+        "Regulators have unfairly penalised responsible borrowers by raising capital requirements.",
+        "Easy digital credit has widened access but raised the risk of over-borrowing, calling for early regulation and better financial literacy.",
+        "India's household debt is too low by international standards and should be allowed to rise.",
+        "High interest rates fully compensate lenders for losses on small-ticket loans."
+      ],
+      "answer": 2,
+      "explanation": "The passage traces the benefits and risks of the unsecured-credit boom and ends by recommending timely regulation plus financial literacy. The other options are either extreme or present a view the author reports (critics, lenders' assumption) as the author's own.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-E01",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "central idea on unsecured credit; topical (risk-weight hike), RBI-style theme"
+      }
+    },
+    {
+      "id": "rbi-grade-b-128",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "passage": "rbi-grade-b-P02",
+      "question": "According to the passage, which of the following is true?",
+      "options": [
+        "Delinquencies in some small-ticket segments have risen faster than in the loan book as a whole.",
+        "Personal loans now account for a larger share of new household credit than home loans.",
+        "All lenders have tightened approvals for the smallest and riskiest loans.",
+        "India's household debt is high by international standards relative to national income.",
+        "Higher capital requirements have stopped credit growth in unsecured segments."
+      ],
+      "answer": 0,
+      "explanation": "Stated in paragraph 2. The passage says only that a 'growing share' is unsecured (not a larger share than home loans); 'some' lenders tightened; household debt is 'low by international standards'; the measures 'slow', not stop, credit growth.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-E02",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "'growing share' not 'larger than home loans' - fine qualifier trap"
+      }
+    },
+    {
+      "id": "rbi-grade-b-129",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "hard",
+      "passage": "rbi-grade-b-P02",
+      "question": "Which of the following can be inferred from the passage?\nI. A borrower who holds loans from several lenders may appear creditworthy to each lender individually.\nII. The author regards high interest rates as an adequate safeguard against losses even when many lenders serve the same borrowers.\nIII. More frequent credit reporting is meant to reduce the problem of lenders having incomplete information.",
+      "options": [
+        "Only I",
+        "Only III",
+        "Only I and III",
+        "Only II and III",
+        "All I, II and III"
+      ],
+      "answer": 2,
+      "explanation": "I follows from 'each lender sees only part of the picture'. III follows from reporting that 'helps each of them see a borrower's full obligations'. II is the opposite of the author's view — the assumption 'breaks down' in exactly that situation.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-E03",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "I and III inferable; II reverses author's view; clean"
+      }
+    },
+    {
+      "id": "rbi-grade-b-130",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "passage": "rbi-grade-b-P02",
+      "question": "Which of the following is closest in meaning to the word 'tips' as used in the passage?",
+      "options": [
+        "advises",
+        "rewards",
+        "warns",
+        "touches",
+        "pushes"
+      ],
+      "answer": 4,
+      "explanation": "A shock 'tips the borrower into default', i.e. pushes him over the edge. 'Advises' (a tip-off) and 'rewards' (a tip of money) are dictionary meanings that do not fit.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-E04",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "'tips into default'=pushes vs advises/warns dictionary senses; good in-context trap"
+      }
+    },
+    {
+      "id": "rbi-grade-b-131",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "passage": "rbi-grade-b-P02",
+      "question": "Which of the following is most OPPOSITE in meaning to the word 'prudent' as used in the passage?",
+      "options": [
+        "careful",
+        "reckless",
+        "judicious",
+        "modest",
+        "rigid"
+      ],
+      "answer": 1,
+      "explanation": "'Prudent' means sensible and cautious; its opposite is 'reckless'. 'Careful' and 'judicious' are synonyms; 'modest' and 'rigid' are unrelated.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-E04",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "prudent antonym reckless; judicious synonym trap; easy-ish"
+      }
+    },
+    {
+      "id": "rbi-grade-b-132",
+      "section": "english",
+      "topic": "Cloze Test",
+      "difficulty": "medium",
+      "passage": "rbi-grade-b-P03",
+      "question": "Which word best fits blank (1)?",
+      "options": [
+        "mandatory",
+        "manifesto",
+        "mainstay",
+        "mandate",
+        "magnitude"
+      ],
+      "answer": 3,
+      "explanation": "Inflation targeting gave monetary policy a clear 'mandate' (an assigned objective), which restores accountability. 'Mandatory' is an adjective; 'manifesto', 'mainstay' and 'magnitude' do not fit 'a clear ___' in this sense.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-E06",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "clear mandate vs mandatory/manifesto look-alikes; RBI-theme cloze"
+      }
+    },
+    {
+      "id": "rbi-grade-b-133",
+      "section": "english",
+      "topic": "Cloze Test",
+      "difficulty": "medium",
+      "passage": "rbi-grade-b-P03",
+      "question": "Which word best fits blank (2)?",
+      "options": [
+        "harbour",
+        "anchor",
+        "moor",
+        "dock",
+        "ballast"
+      ],
+      "answer": 1,
+      "explanation": "Central banks 'anchor' inflation expectations, i.e. keep them stable. 'Harbour' expectations means to hold them privately, and 'moor', 'dock' and 'ballast' are nautical near-misses with no such usage.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-E06",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "anchor inflation expectations - nautical-family distractors; nice monetary collocation"
+      }
+    },
+    {
+      "id": "rbi-grade-b-134",
+      "section": "english",
+      "topic": "Cloze Test",
+      "difficulty": "medium",
+      "passage": "rbi-grade-b-P03",
+      "question": "Which word best fits blank (3)?",
+      "options": [
+        "suspicious",
+        "suspected",
+        "subjective",
+        "susceptible",
+        "substantial"
+      ],
+      "answer": 3,
+      "explanation": "Food prices are 'highly susceptible to' weather shocks. The others are look-alikes: 'suspicious of', 'suspected', 'subjective' and 'substantial' do not take 'to weather shocks' in this sense.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-E06",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "susceptible to shocks vs suspicious/suspected; look-alikes"
+      }
+    },
+    {
+      "id": "rbi-grade-b-135",
+      "section": "english",
+      "topic": "Cloze Test",
+      "difficulty": "hard",
+      "passage": "rbi-grade-b-P03",
+      "question": "Which word best fits blank (4)?",
+      "options": [
+        "seep",
+        "seize",
+        "seek",
+        "sap",
+        "sieve"
+      ],
+      "answer": 0,
+      "explanation": "Persistent food inflation tends to 'seep into' (gradually spread into) broader expectations. 'Seize', 'seek', 'sap' and 'sieve' do not combine with 'into expectations'.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-E06",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "food inflation seeps into expectations; seize/seek/sap/sieve look-alikes"
+      }
+    },
+    {
+      "id": "rbi-grade-b-136",
+      "section": "english",
+      "topic": "Cloze Test",
+      "difficulty": "medium",
+      "passage": "rbi-grade-b-P03",
+      "question": "Which word best fits blank (5)?",
+      "options": [
+        "leeward",
+        "levy",
+        "lever",
+        "legacy",
+        "leeway"
+      ],
+      "answer": 4,
+      "explanation": "The band gives the central bank 'leeway' (room for manoeuvre) for supply shocks. 'Leeward' is a direction, 'levy' a tax, 'lever' a tool and 'legacy' an inheritance.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-E06",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "leeway for supply shocks vs leeward/levy; good confusable set"
+      }
+    },
+    {
+      "id": "rbi-grade-b-137",
+      "section": "english",
+      "topic": "Cloze Test",
+      "difficulty": "medium",
+      "passage": "rbi-grade-b-P03",
+      "question": "Which word best fits blank (6)?",
+      "options": [
+        "tolerable",
+        "tabulated",
+        "tolerated",
+        "toiled",
+        "tolled"
+      ],
+      "answer": 2,
+      "explanation": "Deviations should be explained and corrected 'rather than tolerated indefinitely' — the past participle parallels 'explained and corrected'. 'Tolerable' is an adjective; the rest do not make sense.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-E06",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "deviations tolerated indefinitely vs tolerable/tolled; grammatical-form trap"
+      }
+    },
+    {
+      "id": "rbi-grade-b-138",
+      "section": "english",
+      "topic": "Para Jumbles / Sentence Rearrangement",
+      "difficulty": "medium",
+      "passage": "rbi-grade-b-P04",
+      "question": "Which of the following will be the SECOND sentence after rearrangement?",
+      "options": [
+        "F",
+        "D",
+        "B",
+        "A",
+        "E"
+      ],
+      "answer": 3,
+      "explanation": "Correct order: C A F D B E. C introduces digital currencies; A ('such a currency') explains it is a direct claim on the central bank; F ('This makes it as safe as cash'); D ('The same feature, however') turns to a concern; B describes the bank-run risk; E ('this risk') gives the safeguard.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-E13",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "C-A-F-D-B-E; second A (such a currency follows C); clear CBDC theme jumble"
+      }
+    },
+    {
+      "id": "rbi-grade-b-139",
+      "section": "english",
+      "topic": "Para Jumbles / Sentence Rearrangement",
+      "difficulty": "medium",
+      "passage": "rbi-grade-b-P04",
+      "question": "Which of the following will be the FOURTH sentence after rearrangement?",
+      "options": [
+        "B",
+        "F",
+        "D",
+        "E",
+        "A"
+      ],
+      "answer": 2,
+      "explanation": "Order C A F D B E. 'The same feature' in D must follow the benefit described in F and precede the concern spelled out in B, so D is fourth.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-E13",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "fourth D ('same feature, however'); unique sequence"
+      }
+    },
+    {
+      "id": "rbi-grade-b-140",
+      "section": "english",
+      "topic": "Para Jumbles / Sentence Rearrangement",
+      "difficulty": "medium",
+      "passage": "rbi-grade-b-P04",
+      "question": "Which of the following will be the LAST (SIXTH) sentence after rearrangement?",
+      "options": [
+        "D",
+        "B",
+        "F",
+        "A",
+        "E"
+      ],
+      "answer": 4,
+      "explanation": "Order C A F D B E. E ('To guard against this risk') answers the deposit-flight risk in B and closes the paragraph.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-E13",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "last E (cap on holdings guards against B's risk); unique"
+      }
+    },
+    {
+      "id": "rbi-grade-b-141",
+      "section": "english",
+      "topic": "Error Detection",
+      "difficulty": "medium",
+      "question": "Which of the following sentences is grammatically INCORRECT?",
+      "options": [
+        "The committee, which had met thrice, was unable to reach a consensus.",
+        "Had the bank disclosed the losses earlier, investors would have reacted more calmly.",
+        "One of the main reasons for the slowdown are the decline in private investment.",
+        "Scarcely had the policy been announced when bond yields began to fall.",
+        "It is the quality of loans, not their quantity, that determines a bank's health."
+      ],
+      "answer": 2,
+      "explanation": "The subject is 'One', so the verb must be singular: 'One of the main reasons … is the decline'. The other sentences are correct (inverted conditional, 'Scarcely … when', cleft sentence).",
+      "source": "ai",
+      "archetype": "rbi-grade-b-E09",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "'One of the reasons ... are' wrong; other four correct incl. inversion; standard"
+      }
+    },
+    {
+      "id": "rbi-grade-b-142",
+      "section": "english",
+      "topic": "Error Detection",
+      "difficulty": "medium",
+      "question": "Which of the following sentences is grammatically correct?",
+      "options": [
+        "It is high time the regulator reviewed the rules on unsecured lending.",
+        "The governor, along with two deputy governors, were present at the press conference.",
+        "No sooner the rate cut was announced than the markets rallied.",
+        "The bank has been lending to small businesses since three decades.",
+        "Neither the borrower nor the guarantors was informed of the change."
+      ],
+      "answer": 0,
+      "explanation": "'It is high time + past tense' is correct. Errors: 'along with' does not make the subject plural (was present); 'No sooner had the rate cut been announced than'; 'for three decades'; with 'neither … nor' the verb agrees with the nearer subject 'guarantors' (were).",
+      "source": "ai",
+      "archetype": "rbi-grade-b-E09",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "'high time ... reviewed' only correct; along with/no sooner/since/neither-nor traps"
+      }
+    },
+    {
+      "id": "rbi-grade-b-143",
+      "section": "english",
+      "topic": "Fillers",
+      "difficulty": "medium",
+      "question": "Choose the pair of words that best fills both blanks.\nThe persistence of core inflation ______ the case for an early rate cut, even though headline inflation had ______ well below the target.",
+      "options": [
+        "strengthened, slipped",
+        "weakened, soared",
+        "bolstered, dipped",
+        "undermined, surged",
+        "weakened, slipped"
+      ],
+      "answer": 4,
+      "explanation": "Sticky core inflation weakens the case for a cut, 'even though' headline inflation has slipped below target. 'Strengthened/bolstered' reverse the logic; 'soared/surged … below the target' is contradictory.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-E10",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "weakened/slipped fits 'even though' contrast; 'strengthened, slipped' near-trap tests logic; RBI policy context"
+      }
+    },
+    {
+      "id": "rbi-grade-b-144",
+      "section": "english",
+      "topic": "Fillers",
+      "difficulty": "hard",
+      "question": "Choose the pair of words that best fills both blanks.\nThe finance ministry's decision to ______ its borrowing calendar eased fears of a supply glut in the bond market, and yields ______ by nearly ten basis points.",
+      "options": [
+        "expand, softened",
+        "trim, softened",
+        "trim, hardened",
+        "front-load, rose",
+        "defer, spiked"
+      ],
+      "answer": 1,
+      "explanation": "Trimming borrowing reduces bond supply, so yields soften (fall). 'Expand' would worsen the glut; 'hardened', 'rose' and 'spiked' contradict 'eased fears'.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-E10",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "trim borrowing -> yields softened; bond-market logic double filler, good RBI flavour"
+      }
+    },
+    {
+      "id": "rbi-grade-b-146",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "medium",
+      "passage": "rbi-grade-b-P05",
+      "question": "Which bank has the highest advances?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "answer": 2,
+      "explanation": "Advances (₹ '000 crore) = Deposits × C–D ratio: A 360, B 288, C 364, D 255, E 319. Bank C is highest (just ahead of A).",
+      "source": "ai",
+      "archetype": "rbi-grade-b-Q02",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "C advances 364 highest (A 360 close trap); simple but standard first DI question"
+      }
+    },
+    {
+      "id": "rbi-grade-b-147",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "hard",
+      "passage": "rbi-grade-b-P05",
+      "question": "The gross NPAs of bank C are approximately what percent more than the gross NPAs of bank A?",
+      "options": [
+        "13.2%",
+        "14.4%",
+        "15.0%",
+        "15.6%",
+        "16.8%"
+      ],
+      "answer": 3,
+      "explanation": "Gross NPAs: C = 364 × 4% = 14.56; A = 360 × 3.5% = 12.6. (14.56 − 12.6)/12.6 × 100 ≈ 15.6%.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-Q02",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "14.56 vs 12.6 => 15.6%; options tightly spaced like RBI DI"
+      }
+    },
+    {
+      "id": "rbi-grade-b-148",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "medium",
+      "passage": "rbi-grade-b-P05",
+      "question": "What is the ratio of the advances of bank B to the advances of bank D?",
+      "options": [
+        "96 : 85",
+        "85 : 96",
+        "32 : 25",
+        "24 : 17",
+        "16 : 15"
+      ],
+      "answer": 0,
+      "explanation": "B: 360 × 0.80 = 288; D: 300 × 0.85 = 255. 288 : 255 = 96 : 85.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-Q02",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "288:255=96:85 with reversed-ratio distractor"
+      }
+    },
+    {
+      "id": "rbi-grade-b-149",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "hard",
+      "passage": "rbi-grade-b-P05",
+      "question": "Next year the deposits of bank E grow by 10% and its C–D ratio rises to 75%. By how much (in ₹ '000 crore) will its advances increase?",
+      "options": [
+        "31.9",
+        "36.3",
+        "40.0",
+        "44.0",
+        "47.6"
+      ],
+      "answer": 3,
+      "explanation": "New deposits = 440 × 1.1 = 484; new advances = 484 × 0.75 = 363. Current advances = 440 × 0.725 = 319. Increase = 363 − 319 = 44.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-Q02",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "363-319=44.0; two-change projection, matches pattern"
+      }
+    },
+    {
+      "id": "rbi-grade-b-150",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "hard",
+      "passage": "rbi-grade-b-P05",
+      "question": "The total gross NPAs of the five banks are approximately what percent of their total advances?",
+      "options": [
+        "2.9%",
+        "3.0%",
+        "3.1%",
+        "3.3%",
+        "3.5%"
+      ],
+      "answer": 2,
+      "explanation": "Gross NPAs: 12.6 + 7.2 + 14.56 + 5.1 + 9.57 = 49.03; total advances = 360 + 288 + 364 + 255 + 319 = 1,586. 49.03/1,586 ≈ 3.09% ≈ 3.1%. (3.0% is the trap of simply averaging the five percentages.)",
+      "source": "ai",
+      "archetype": "rbi-grade-b-Q02",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "49.03/1586 = 3.09% -> 3.1%; approximate options close (3.0/3.1) but computation clear"
+      }
+    },
+    {
+      "id": "rbi-grade-b-151",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "medium",
+      "passage": "rbi-grade-b-P06",
+      "question": "What is the total number of men borrowers?",
+      "options": [
+        "762",
+        "774",
+        "786",
+        "798",
+        "810"
+      ],
+      "answer": 1,
+      "explanation": "Housing 480, Education 300, MSME 420. Women: housing 30% of 480 = 144; education 45% of 300 = 135; MSME 135 + 12 = 147. Women total 426, so men = 1,200 − 426 = 774.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-Q03",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "H480 E300 M420; women 144+135+147=426; men 774; consistent caselet"
+      }
+    },
+    {
+      "id": "rbi-grade-b-152",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "medium",
+      "passage": "rbi-grade-b-P06",
+      "question": "What is the total amount disbursed by the branch?",
+      "options": [
+        "₹198 crore",
+        "₹207 crore",
+        "₹213 crore",
+        "₹219 crore",
+        "₹225 crore"
+      ],
+      "answer": 1,
+      "explanation": "Housing 480 × 25 = 12,000 lakh; education 300 × 8 = 2,400 lakh; MSME 420 × 15 = 6,300 lakh. Total 20,700 lakh = ₹207 crore.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-Q03",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "120+24+63=₹207 cr; clean"
+      }
+    },
+    {
+      "id": "rbi-grade-b-153",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "medium",
+      "passage": "rbi-grade-b-P06",
+      "question": "Women MSME borrowers are what percent of all MSME borrowers?",
+      "options": [
+        "32%",
+        "35%",
+        "37.5%",
+        "40%",
+        "45%"
+      ],
+      "answer": 1,
+      "explanation": "Women MSME borrowers = 135 + 12 = 147; MSME borrowers = 7/12 of 720 = 420. 147/420 = 35%.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-Q03",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "147/420=35%"
+      }
+    },
+    {
+      "id": "rbi-grade-b-154",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "hard",
+      "passage": "rbi-grade-b-P06",
+      "question": "Housing loans account for approximately what percent of the total amount disbursed?",
+      "options": [
+        "40%",
+        "52%",
+        "55%",
+        "58%",
+        "62%"
+      ],
+      "answer": 3,
+      "explanation": "Housing amount = ₹120 crore out of ₹207 crore: 120/207 ≈ 57.97% ≈ 58%. (40% is the share of borrowers, not of amount.)",
+      "source": "ai",
+      "archetype": "rbi-grade-b-Q03",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "120/207=58%"
+      }
+    },
+    {
+      "id": "rbi-grade-b-155",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "medium",
+      "passage": "rbi-grade-b-P06",
+      "question": "Next year the number of housing borrowers rises by 25% and the number of education borrowers falls by 20%, while MSME borrowers remain unchanged. What will be the ratio of housing : education : MSME borrowers?",
+      "options": [
+        "10 : 5 : 7",
+        "10 : 4 : 7",
+        "8 : 5 : 7",
+        "5 : 2 : 4",
+        "12 : 5 : 7"
+      ],
+      "answer": 1,
+      "explanation": "Housing 480 × 1.25 = 600; education 300 × 0.8 = 240; MSME 420. 600 : 240 : 420 = 10 : 4 : 7.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-Q03",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "600:240:420=10:4:7; transfer/change question per pattern"
+      }
+    },
+    {
+      "id": "rbi-grade-b-156",
+      "section": "quant",
+      "topic": "Quadratic Equations",
+      "difficulty": "medium",
+      "question": "Solve the two equations and choose the correct relationship between x and y.\nI. 6x² − 13x + 6 = 0\nII. 3y² − 11y + 10 = 0",
+      "options": [
+        "x > y",
+        "x ≥ y",
+        "x < y",
+        "x ≤ y",
+        "x = y or the relationship cannot be established"
+      ],
+      "answer": 2,
+      "explanation": "I: (3x − 2)(2x − 3) = 0 → x = 2/3, 3/2. II: (3y − 5)(y − 2) = 0 → y = 5/3, 2. The larger x (1.5) is smaller than the smaller y (1.67), so x < y.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-Q07",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "x{2/3,3/2} < y{5/3,2}; standard quadratic comparison"
+      }
+    },
+    {
+      "id": "rbi-grade-b-157",
+      "section": "quant",
+      "topic": "Quadratic Equations",
+      "difficulty": "medium",
+      "question": "Solve the two equations and choose the correct relationship between x and y.\nI. 4x² + 7x + 3 = 0\nII. 5y² + 13y + 6 = 0",
+      "options": [
+        "x > y",
+        "x ≥ y",
+        "x < y",
+        "x ≤ y",
+        "x = y or the relationship cannot be established"
+      ],
+      "answer": 4,
+      "explanation": "I: (4x + 3)(x + 1) = 0 → x = −3/4, −1. II: (5y + 3)(y + 2) = 0 → y = −3/5, −2. x = −0.75 is greater than y = −2 but less than y = −0.6, so no relationship can be established.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-Q07",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "x{-1,-3/4}, y{-2,-3/5} overlap -> cannot be established; good negative-root trap"
+      }
+    },
+    {
+      "id": "rbi-grade-b-158",
+      "section": "quant",
+      "topic": "Quadratic Equations",
+      "difficulty": "medium",
+      "question": "Solve the two equations and choose the correct relationship between x and y.\nI. x² − 15x + 56 = 0\nII. 2y² − 21y + 54 = 0",
+      "options": [
+        "x > y",
+        "x ≥ y",
+        "x < y",
+        "x ≤ y",
+        "x = y or the relationship cannot be established"
+      ],
+      "answer": 0,
+      "explanation": "I: (x − 7)(x − 8) = 0 → x = 7, 8. II: (2y − 9)(y − 6) = 0 → y = 4.5, 6. Every x exceeds every y, so x > y.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-Q07",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "x{7,8} > y{4.5,6}"
+      }
+    },
+    {
+      "id": "rbi-grade-b-159",
+      "section": "quant",
+      "topic": "Quadratic Equations",
+      "difficulty": "hard",
+      "question": "Solve the two equations and choose the correct relationship between x and y.\nI. 3x² + 19x + 28 = 0\nII. y² + 8y + 16 = 0",
+      "options": [
+        "x > y",
+        "x ≥ y",
+        "x < y",
+        "x ≤ y",
+        "x = y or the relationship cannot be established"
+      ],
+      "answer": 1,
+      "explanation": "I: (3x + 7)(x + 4) = 0 → x = −7/3, −4. II: (y + 4)² = 0 → y = −4. x = −2.33 > −4 and x = −4 = y, so x ≥ y.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-Q07",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "x{-4,-7/3}, y=-4 double root -> x>=y; classic equal-root trap"
+      }
+    },
+    {
+      "id": "rbi-grade-b-160",
+      "section": "quant",
+      "topic": "Number Series",
+      "difficulty": "medium",
+      "question": "What will come in place of the question mark (?) in the following series?\n7, 8, 18, 57, 232, ?",
+      "options": [
+        "1160",
+        "1165",
+        "1170",
+        "1392",
+        "1157"
+      ],
+      "answer": 1,
+      "explanation": "Pattern: ×1 + 1, ×2 + 2, ×3 + 3, ×4 + 4, ×5 + 5. 232 × 5 + 5 = 1165.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-Q09",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "×n+n: 232×5+5=1165; exact RBI/IBPS series type"
+      }
+    },
+    {
+      "id": "rbi-grade-b-161",
+      "section": "quant",
+      "topic": "Number Series",
+      "difficulty": "medium",
+      "question": "What will come in place of the question mark (?) in the following series?\n5, 9, 25, 61, 125, ?",
+      "options": [
+        "189",
+        "205",
+        "216",
+        "225",
+        "245"
+      ],
+      "answer": 3,
+      "explanation": "Differences 4, 16, 36, 64 are 2², 4², 6², 8²; the next difference is 10² = 100, so 125 + 100 = 225.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-Q09",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "differences 2²,4²,6²,8²,10² -> 225"
+      }
+    },
+    {
+      "id": "rbi-grade-b-162",
+      "section": "quant",
+      "topic": "Number Series",
+      "difficulty": "hard",
+      "question": "What will come in place of the question mark (?) in the following series?\n16, 8, 12, 30, 105, ?",
+      "options": [
+        "420",
+        "446.5",
+        "472.5",
+        "490",
+        "525"
+      ],
+      "answer": 2,
+      "explanation": "Multipliers increase by 1: ×0.5, ×1.5, ×2.5, ×3.5, ×4.5. 105 × 4.5 = 472.5.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-Q09",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "×0.5,×1.5,...×4.5 -> 472.5; decimal multiplier series typical"
+      }
+    },
+    {
+      "id": "rbi-grade-b-163",
+      "section": "quant",
+      "topic": "Arithmetic Word Problems",
+      "difficulty": "hard",
+      "question": "A trader marks an article 40% above its cost price and allows two successive discounts of 10% and 5%. Had he instead allowed a single discount of 15%, he would have earned ₹42 less. What is the cost price of the article?",
+      "options": [
+        "₹5,400",
+        "₹6,000",
+        "₹6,400",
+        "₹7,000",
+        "₹8,400"
+      ],
+      "answer": 1,
+      "explanation": "Let CP = C, MP = 1.4C. Successive 10% and 5% = net 14.5% discount → SP = 1.4C × 0.855 = 1.197C. Single 15% → SP = 1.19C. Difference 0.007C = 42 → C = ₹6,000.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-Q14",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "0.855-0.85=0.005×1.4C=42 -> C=6000; two-step discount"
+      }
+    },
+    {
+      "id": "rbi-grade-b-164",
+      "section": "quant",
+      "topic": "Arithmetic Word Problems",
+      "difficulty": "medium",
+      "question": "Two trains of lengths 240 m and 160 m run on parallel tracks. When they move in the same direction, the faster train crosses the slower one in 40 seconds; when they move in opposite directions, they cross each other in 8 seconds. What is the speed of the faster train?",
+      "options": [
+        "84 km/h",
+        "90 km/h",
+        "96 km/h",
+        "102 km/h",
+        "108 km/h"
+      ],
+      "answer": 4,
+      "explanation": "Total length 400 m. Same direction: a − b = 400/40 = 10 m/s; opposite: a + b = 400/8 = 50 m/s. a = 30 m/s = 30 × 18/5 = 108 km/h.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-Q20",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "rel speeds 10 and 50 m/s -> 30 m/s=108 km/h"
+      }
+    },
+    {
+      "id": "rbi-grade-b-165",
+      "section": "quant",
+      "topic": "Arithmetic Word Problems",
+      "difficulty": "medium",
+      "question": "A sum of ₹22,800 is split into two parts. The first part is invested at 10% per annum compound interest (compounded annually) for 2 years, and the second at 12% per annum simple interest for 3 years. If the interest earned on both parts is equal, what is the first part?",
+      "options": [
+        "₹8,400",
+        "₹12,600",
+        "₹13,200",
+        "₹14,400",
+        "₹15,000"
+      ],
+      "answer": 3,
+      "explanation": "CI for 2 years at 10% = 21% of the first part; SI for 3 years at 12% = 36% of the second. 0.21a = 0.36b → a : b = 12 : 7. First part = 22,800 × 12/19 = ₹14,400 (check: 3,024 = 3,024).",
+      "source": "ai",
+      "archetype": "rbi-grade-b-Q22",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "0.21x=0.36(22800-x) -> 14400; SI/CI split"
+      }
+    },
+    {
+      "id": "rbi-grade-b-166",
+      "section": "ga",
+      "topic": "Banking & RBI (Policy, Regulation, Current Affairs)",
+      "difficulty": "medium",
+      "question": "After the RBI's Monetary Policy Committee cut the policy repo rate by 25 basis points to 5.25% in December 2025, the Standing Deposit Facility (SDF) rate and the Marginal Standing Facility (MSF) rate stood respectively at:",
+      "options": [
+        "5.25% and 5.75%",
+        "5.00% and 5.50%",
+        "5.00% and 5.25%",
+        "4.75% and 5.25%",
+        "5.50% and 5.00%"
+      ],
+      "answer": 1,
+      "explanation": "The LAF corridor is symmetric: SDF (floor) = repo − 25 bps = 5.00% and MSF (ceiling) = repo + 25 bps = 5.50%. The last option swaps floor and ceiling.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-G01",
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "verified Dec 5 2025: repo 5.25, SDF 5.00, MSF 5.50; LAF corridor item is core RBI GA"
+      }
+    },
+    {
+      "id": "rbi-grade-b-167",
+      "section": "ga",
+      "topic": "Banking & RBI (Policy, Regulation, Current Affairs)",
+      "difficulty": "hard",
+      "question": "In October 2025 the RBI announced that deposit insurance would move from a flat-rate premium to a risk-based premium. Under the flat-rate system being replaced, insured banks pay DICGC a premium of:",
+      "options": [
+        "10 paise per ₹100 of assessable deposits",
+        "15 paise per ₹100 of assessable deposits",
+        "12 paise per ₹1,000 of assessable deposits",
+        "12 paise per ₹100 of assessable deposits",
+        "5 paise per ₹100 of insured deposits"
+      ],
+      "answer": 3,
+      "explanation": "The uniform DICGC premium is 12 paise per ₹100 of assessable deposits (raised from 10 paise in 2020). The risk-based model lets sounder banks pay less, rewarding better risk management.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-G02",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "verified flat 12 paise/₹100 (now ceiling under RBP from Apr 2026); framing 'pay' slightly dated but key unambiguous"
+      }
+    },
+    {
+      "id": "rbi-grade-b-168",
+      "section": "ga",
+      "topic": "Banking & RBI (Policy, Regulation, Current Affairs)",
+      "difficulty": "hard",
+      "question": "Under the RBI's draft directions on the Expected Credit Loss (ECL) framework released in October 2025, scheduled commercial banks (other than small finance, payments and regional rural banks) are proposed to move to ECL-based provisioning from:",
+      "options": [
+        "1 April 2027",
+        "1 April 2026",
+        "1 October 2026",
+        "1 January 2027",
+        "1 April 2028"
+      ],
+      "answer": 0,
+      "explanation": "The draft proposes ECL-based provisioning from 1 April 2027, with banks allowed to spread the one-time impact on capital over a glide path of a few years.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-G02",
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "verified draft 7 Oct 2025 (final Apr 2026) effective 1 Apr 2027"
+      }
+    },
+    {
+      "id": "rbi-grade-b-169",
+      "section": "ga",
+      "topic": "Banking & RBI (Policy, Regulation, Current Affairs)",
+      "difficulty": "medium",
+      "question": "Under an Expected Credit Loss (ECL) framework of the kind proposed by the RBI, a loan whose credit risk has increased significantly since it was sanctioned, but which is not yet credit-impaired, is classified as:",
+      "options": [
+        "Stage 1, carrying 12-month expected credit loss",
+        "Stage 2, carrying 12-month expected credit loss",
+        "Stage 3, carrying 12-month expected credit loss",
+        "Stage 3, carrying no provision until default",
+        "Stage 2, carrying lifetime expected credit loss"
+      ],
+      "answer": 4,
+      "explanation": "Stage 1 = performing (12-month ECL); Stage 2 = significant increase in credit risk (lifetime ECL); Stage 3 = credit-impaired (lifetime ECL). The trap pairs Stage 2 with the 12-month horizon.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-G04",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Stage 2 = SICR, lifetime ECL; IFRS9-style concept, fits ECL current-affairs focus"
+      }
+    },
+    {
+      "id": "rbi-grade-b-170",
+      "section": "ga",
+      "topic": "Banking & RBI (Policy, Regulation, Current Affairs)",
+      "difficulty": "hard",
+      "question": "Which of the following correctly describes the RBI's Authentication Mechanisms for Digital Payment Transactions Directions, 2025, effective 1 April 2026?",
+      "options": [
+        "SMS-based OTP is made the only permitted second factor for all digital payments",
+        "Two-factor authentication is withdrawn for all domestic card-not-present payments",
+        "Two-factor authentication remains mandatory, with at least one dynamic factor, but issuers may use alternatives to SMS-based OTP",
+        "Biometric authentication is prohibited for UPI and card payments",
+        "Card networks, not issuers, are made solely responsible for choosing the authentication factor"
+      ],
+      "answer": 2,
+      "explanation": "The directions keep additional factor of authentication mandatory (one factor must be dynamic, i.e. unique to the transaction) while allowing issuers to adopt other factors such as biometrics, tokens or device binding instead of relying only on SMS OTP, and permit risk-based checks.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-G03",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "verified: 2FA mandatory, one dynamic factor, alternatives to SMS OTP; effective 1 Apr 2026"
+      }
+    },
+    {
+      "id": "rbi-grade-b-171",
+      "section": "ga",
+      "topic": "Banking & RBI (Policy, Regulation, Current Affairs)",
+      "difficulty": "medium",
+      "question": "Under the RBI's 2025 directions on lending against gold and silver collateral (effective 1 April 2026), the maximum loan-to-value (LTV) ratio for consumption loans with a total ticket size up to ₹2.5 lakh is:",
+      "options": [
+        "75%",
+        "80%",
+        "85%",
+        "90%",
+        "70%"
+      ],
+      "answer": 2,
+      "explanation": "The LTV is tiered: up to ₹2.5 lakh – 85%; above ₹2.5 lakh up to ₹5 lakh – 80%; above ₹5 lakh – 75%. 75% was the earlier uniform cap.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-G02",
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "verified tiered LTV 85% up to ₹2.5 lakh"
+      }
+    },
+    {
+      "id": "rbi-grade-b-172",
+      "section": "ga",
+      "topic": "Banking & RBI (Policy, Regulation, Current Affairs)",
+      "difficulty": "medium",
+      "question": "Under the RBI (Co-Lending Arrangements) Directions, 2025, which came into effect on 1 January 2026, each regulated entity in a co-lending arrangement must retain on its books at least what share of each individual loan?",
+      "options": [
+        "10%",
+        "20%",
+        "15%",
+        "25%",
+        "5%"
+      ],
+      "answer": 0,
+      "explanation": "The 2025 directions require each co-lender to retain a minimum 10% share of each loan. 20% was the minimum NBFC share under the 2020 bank–NBFC co-lending model that the new framework replaces and extends to all regulated entities.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-G02",
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "verified 10% minimum retention per RE, effective 1 Jan 2026"
+      }
+    },
+    {
+      "id": "rbi-grade-b-173",
+      "section": "ga",
+      "topic": "Indian Economy & Financial Sector",
+      "difficulty": "hard",
+      "question": "The RBI revised the priority sector lending target for Small Finance Banks, effective from 2025-26, to:",
+      "options": [
+        "75% of ANBC or CEOBSE, whichever is higher",
+        "40% of ANBC or CEOBSE, whichever is higher",
+        "50% of ANBC or CEOBSE, whichever is higher",
+        "65% of ANBC or CEOBSE, whichever is higher",
+        "60% of ANBC or CEOBSE, whichever is higher"
+      ],
+      "answer": 4,
+      "explanation": "The PSL target for SFBs was lowered from 75% to 60% of Adjusted Net Bank Credit (or credit equivalent of off-balance-sheet exposures, whichever is higher). 40% is the target for scheduled commercial banks.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-G15",
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "verified SFB PSL 75%->60% from FY2025-26 (circular June 2025)"
+      }
+    },
+    {
+      "id": "rbi-grade-b-174",
+      "section": "ga",
+      "topic": "Indian Economy & Financial Sector",
+      "difficulty": "hard",
+      "question": "In October 2025 the RBI permitted authorised dealer banks in India to extend loans in Indian rupees to non-residents in which group of neighbouring countries for cross-border trade transactions?",
+      "options": [
+        "Bangladesh, Nepal and Bhutan",
+        "Bhutan, Nepal and Sri Lanka",
+        "Sri Lanka, Maldives and Mauritius",
+        "Nepal, Bhutan and Myanmar",
+        "UAE, Oman and Saudi Arabia"
+      ],
+      "answer": 1,
+      "explanation": "As part of rupee-internationalisation measures announced in October 2025, AD banks and their overseas branches may lend in INR to persons resident in Bhutan, Nepal and Sri Lanka for cross-border trade.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-G07",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "verified Oct 1 2025 policy: INR loans to non-residents of Bhutan, Nepal, Sri Lanka"
+      }
+    },
+    {
+      "id": "rbi-grade-b-175",
+      "section": "ga",
+      "topic": "Indian Economy & Financial Sector",
+      "difficulty": "medium",
+      "question": "According to the National Statistics Office, India's real GDP grew by how much in the July–September quarter (Q2) of 2025-26?",
+      "options": [
+        "7.8%",
+        "7.4%",
+        "8.4%",
+        "8.2%",
+        "6.9%"
+      ],
+      "answer": 3,
+      "explanation": "Q2 FY26 growth was 8.2%, the fastest in six quarters. 7.8% was the Q1 (April–June 2025) figure — the usual trap.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-G05",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "verified NSO Q2 FY26 real GDP 8.2%; 7.8% (Q1) distractor"
+      }
+    },
+    {
+      "id": "rbi-grade-b-176",
+      "section": "ga",
+      "topic": "Indian Economy & Financial Sector",
+      "difficulty": "medium",
+      "question": "The new Consumer Price Index series released by the Ministry of Statistics and Programme Implementation from 2026, replacing the 2012-based series, uses which base year?",
+      "options": [
+        "2022",
+        "2024",
+        "2023",
+        "2020",
+        "2022-23"
+      ],
+      "answer": 1,
+      "explanation": "The revised all-India CPI uses 2024 = 100, based on the Household Consumption Expenditure Survey 2023-24. CPI uses a calendar base year; 2022-23 (a financial year) is the new base for the GDP and IIP series.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-G05",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "verified new CPI base 2024 released 12 Feb 2026; 2022-23 GDP-base distractor"
+      }
+    },
+    {
+      "id": "rbi-grade-b-177",
+      "section": "ga",
+      "topic": "Indian Economy & Financial Sector",
+      "difficulty": "medium",
+      "question": "The new series of India's national accounts (GDP) released by MoSPI in February 2026 has which base year?",
+      "options": [
+        "2011-12",
+        "2017-18",
+        "2020-21",
+        "2022-23",
+        "2023-24"
+      ],
+      "answer": 3,
+      "explanation": "The national accounts base year was revised from 2011-12 to 2022-23. (The new CPI series uses calendar year 2024 as base.)",
+      "source": "ai",
+      "archetype": "rbi-grade-b-G05",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "verified GDP base 2022-23 released 27 Feb 2026"
+      }
+    },
+    {
+      "id": "rbi-grade-b-178",
+      "section": "ga",
+      "topic": "Indian Economy & Financial Sector",
+      "difficulty": "medium",
+      "question": "The Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act, 2025 raised the foreign direct investment limit in Indian insurance companies to:",
+      "options": [
+        "100%",
+        "74%",
+        "49%",
+        "85%",
+        "26%"
+      ],
+      "answer": 0,
+      "explanation": "The 2025 amendment allows up to 100% FDI in insurance companies, up from 74% (set in 2021); the limit was 49% from 2015 and 26% earlier.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-G06",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "verified insurance FDI 74%->100% under SBSR Act 2025; historical-limit distractors"
+      }
+    },
+    {
+      "id": "rbi-grade-b-179",
+      "section": "ga",
+      "topic": "Government Schemes & Fiscal Policy (Budget, Taxation, GST)",
+      "difficulty": "medium",
+      "question": "The Viksit Bharat – Guarantee for Rozgar and Ajeevika Mission (Gramin) [VB-G RAM G] Act, 2025, which replaces MGNREGA, guarantees how many days of wage employment per rural household in a financial year?",
+      "options": [
+        "100 days",
+        "150 days",
+        "120 days",
+        "200 days",
+        "125 days"
+      ],
+      "answer": 4,
+      "explanation": "The new Act raises the statutory guarantee from MGNREGA's 100 days to 125 days of wage employment per rural household per year.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-G08",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "verified VB-G RAM G guarantees 125 days (vs 100 under MGNREGA)"
+      }
+    },
+    {
+      "id": "rbi-grade-b-180",
+      "section": "ga",
+      "topic": "Government Schemes & Fiscal Policy (Budget, Taxation, GST)",
+      "difficulty": "medium",
+      "question": "The Sixteenth Finance Commission, whose report was tabled in Parliament in February 2026, recommended the share of states in the divisible pool of central taxes for 2026-31 at:",
+      "options": [
+        "42%",
+        "40%",
+        "41%",
+        "32%",
+        "45%"
+      ],
+      "answer": 2,
+      "explanation": "The 16th Finance Commission (Chairman Arvind Panagariya) retained vertical devolution at 41%, the same as the 15th FC. 42% was the 14th FC's figure and 32% the 13th FC's.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-G09",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "verified 16th FC retained 41%; 42% (14th FC) distractor"
+      }
+    },
+    {
+      "id": "rbi-grade-b-181",
+      "section": "ga",
+      "topic": "Government Schemes & Fiscal Policy (Budget, Taxation, GST)",
+      "difficulty": "hard",
+      "question": "From 2026-27, the Union Government's fiscal consolidation is anchored primarily to which indicator?",
+      "options": [
+        "Fiscal deficit of 3% of GDP every year",
+        "Elimination of the revenue deficit",
+        "Central government debt-to-GDP ratio, targeted at about 50 ± 1% by 2030-31",
+        "Primary deficit of zero",
+        "Effective revenue deficit of 1.5% of GDP"
+      ],
+      "answer": 2,
+      "explanation": "The government shifted its fiscal anchor from the annual fiscal deficit to a declining path for central government debt, aiming at a debt-to-GDP ratio of about 50 ± 1% by March 2031.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-G09",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "verified debt-to-GDP anchor 50±1% by 2030-31; fiscal-policy GA core"
+      }
+    },
+    {
+      "id": "rbi-grade-b-182",
+      "section": "ga",
+      "topic": "Appointments, Committees & Commissions",
+      "difficulty": "medium",
+      "question": "Who took office in January 2026 as the President of the Asian Infrastructure Investment Bank (AIIB)?",
+      "options": [
+        "Zou Jiayi",
+        "Jin Liqun",
+        "Masato Kanda",
+        "Dilma Rousseff",
+        "Ajay Banga"
+      ],
+      "answer": 0,
+      "explanation": "Zou Jiayi succeeded founding President Jin Liqun at the Beijing-based AIIB. Masato Kanda heads the ADB, Dilma Rousseff the New Development Bank and Ajay Banga the World Bank.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-G12",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "verified Zou Jiayi assumed AIIB presidency 16 Jan 2026; Jin Liqun distractor"
+      }
+    },
+    {
+      "id": "rbi-grade-b-183",
+      "section": "ga",
+      "topic": "Static GK, Summits & Agreements",
+      "difficulty": "medium",
+      "question": "The 31st Conference of the Parties (COP31) to the UNFCCC in November 2026 is being held in:",
+      "options": [
+        "Belém, Brazil",
+        "Adelaide, Australia",
+        "Baku, Azerbaijan",
+        "Addis Ababa, Ethiopia",
+        "Antalya, Türkiye"
+      ],
+      "answer": 4,
+      "explanation": "Under the compromise reached at COP30, Türkiye hosts COP31 in Antalya while Australia leads the negotiations. Belém hosted COP30 (2025) and Baku COP29 (2024); Adelaide was Australia's proposed venue.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-G14",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "verified COP31 hosted in Antalya (Australia leads negotiations; Adelaide distractor still wrong as venue)"
+      }
+    },
+    {
+      "id": "rbi-grade-b-185",
+      "section": "ga",
+      "topic": "Static GK, Summits & Agreements",
+      "difficulty": "medium",
+      "question": "In January 2026, India announced the conclusion of negotiations on a free trade agreement with which partner, nearly two decades after talks first began?",
+      "options": [
+        "United Kingdom",
+        "European Free Trade Association (EFTA)",
+        "New Zealand",
+        "European Union",
+        "Oman"
+      ],
+      "answer": 3,
+      "explanation": "India and the EU concluded the FTA at their January 2026 summit in New Delhi; talks had begun in 2007. The UK CETA was signed in July 2025, the EFTA TEPA entered into force in October 2025, and the New Zealand and Oman deals were finalised in December 2025.",
+      "source": "ai",
+      "archetype": "rbi-grade-b-G14",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "verified India-EU FTA concluded 27 Jan 2026 after talks began 2007"
+      }
+    }
+  ],
+  "passages": [
+    {
+      "id": "rbi-grade-b-P01",
+      "section": "english",
+      "title": "Reading comprehension: expected credit loss provisioning",
+      "text": "Read the following passage carefully and answer the questions given below it.\n\nFor decades, banks in India have set aside money for bad loans only after the damage was visible. Under the incurred-loss approach, a loan is provided for once it has been overdue for ninety days and classified as non-performing. The logic is straightforward — banks should not be asked to provide for losses that have not yet happened — but the outcome has often been perverse. Provisions rise sharply just when the economy turns down, eating into capital at the very moment banks most need it to keep lending. Losses that were building up quietly in good times appear on balance sheets all at once, and lending contracts when credit is scarcest.\n\nThe expected credit loss (ECL) framework, which Indian regulators are preparing to introduce, attempts to reverse this sequence. Instead of waiting for a default, a bank must estimate, from the day it disburses a loan, the probability that the borrower will fail to pay and the loss it would suffer if that happened. Loans are placed in stages: those performing as expected carry a provision for losses likely in the next twelve months, while those whose credit risk has increased significantly must be provided for over their entire remaining life. Provisions thus begin to rise when warning signs appear, rather than after the borrower has stopped paying.\n\nSupporters argue that the change will make bank balance sheets more honest. A lender that grows its loan book aggressively in a boom will be forced to recognise the risk it is taking on, which should discourage reckless expansion. Because provisions are built up gradually, the shock of a downturn would also be smaller. International experience offers some support: banks that adopted forward-looking provisioning earlier tended to recognise problem loans sooner.\n\nThe transition, however, is far from painless. The first application of ECL usually requires a one-time jump in provisions, which can dent the capital of weaker banks; regulators commonly allow this impact to be spread over a few years for precisely this reason. More fundamentally, the framework depends heavily on models and judgment. Estimating the probability of default requires long, reliable data on borrower behaviour, which smaller lenders often do not possess. Two banks with similar loan books may arrive at quite different provisions simply because their assumptions differ, and a bank under pressure to report profits may be tempted to choose optimistic assumptions.\n\nNone of this is an argument for retaining the old system. It is, rather, a reminder that ECL provisioning will be only as good as the data, models and governance behind it. Supervisors will need to scrutinise not just the final numbers but the reasoning that produced them, and banks will need to invest in risk-management capacity that many have so far treated as a mere compliance cost. If they do, the reform could make Indian banking less prone to the boom-and-bust cycles that have repeatedly strained it."
+    },
+    {
+      "id": "rbi-grade-b-P02",
+      "section": "english",
+      "title": "Reading comprehension: the rise of unsecured household credit",
+      "text": "Read the following passage carefully and answer the questions given below it.\n\nOver the past few years, borrowing by Indian households has changed in both size and character. Where home loans once dominated, a growing share of new credit now takes the form of personal loans, credit-card balances and small-ticket loans offered at the click of a button. For many young earners, a loan approved within minutes on a phone is their first encounter with formal credit, and the convenience has undeniably widened access.\n\nThe speed that makes digital lending attractive, however, also makes it easy to borrow more than one can repay. Small loans are frequently taken to meet routine consumption rather than to build assets, and borrowers often hold several such loans from different lenders at the same time. Because each lender sees only part of the picture, the total burden on an individual can grow unnoticed until a single shock — a lost job or a medical bill — tips the borrower into default. Delinquencies in some small-ticket segments have already risen faster than in the loan book as a whole.\n\nLenders have responded in contrasting ways. Some have tightened approvals and cut back on the smallest, riskiest loans; others, chasing growth, have continued to lend on the assumption that high interest rates will compensate for higher losses. That assumption may hold for a single lender in good times, but it breaks down when many lenders serve the same over-stretched borrowers, since a default to one is soon followed by defaults to all.\n\nRegulators have therefore preferred to lean against the build-up early rather than wait for a crisis. Raising the capital that lenders must hold against unsecured consumer loans makes such lending costlier and nudges lenders to price risk more carefully. Requiring lenders to report credit information more frequently helps each of them see a borrower's full obligations. Such measures inevitably slow credit growth in the affected segments, and critics argue that they penalise responsible borrowers along with reckless ones.\n\nThe deeper issue is that household debt in India, though low by international standards when measured against national income, is concentrated among borrowers with modest and uncertain earnings. For them, what matters is not the aggregate ratio but the share of monthly income consumed by repayments. A prudent approach would combine timely regulation with better financial literacy, so that the gains of easy credit are not undone by its costs."
+    },
+    {
+      "id": "rbi-grade-b-P03",
+      "section": "english",
+      "title": "Cloze passage: the inflation-targeting framework",
+      "text": "Read the passage carefully. Each numbered blank has a question below it.\n\nSince 2016, India's monetary policy has been guided by a flexible inflation-targeting framework that asks the central bank to keep consumer price inflation within a band around a numerical target. The arrangement was designed to give monetary policy a clear (1) ______ after years in which multiple, sometimes conflicting, objectives had blurred accountability. By committing publicly to a target, the central bank sought to (2) ______ inflation expectations, which in turn shape wage demands and pricing decisions across the economy.\n\nThe framework has not been without its critics. Some argue that food prices, which are highly (3) ______ to weather shocks, account for so large a share of the consumer basket that monetary policy can do little to control them. Others counter that persistent food inflation tends to (4) ______ into broader expectations, and that ignoring it would erode the credibility the framework has painstakingly built. Most economists agree that the band around the target provides useful (5) ______ for supply shocks, allowing the central bank to look through temporary spikes. What matters, ultimately, is that deviations from the target are explained and corrected, rather than (6) ______ indefinitely."
+    },
+    {
+      "id": "rbi-grade-b-P04",
+      "section": "english",
+      "title": "Para jumble: sentences A–F",
+      "text": "The following six sentences A, B, C, D, E and F are given in a jumbled order. Rearrange them to form a coherent paragraph and answer the questions that follow.\n\nA. Unlike balances held in commercial bank accounts, such a currency would be a direct claim on the central bank itself.\nB. In times of stress, depositors might move funds en masse from banks into the digital currency, draining banks of the deposits they rely on to lend.\nC. Central banks around the world are experimenting with digital versions of their currencies.\nD. The same feature, however, raises a concern that has made policymakers wary of rapid adoption.\nE. To guard against this risk, many designs propose a cap on the amount any individual can hold.\nF. This makes it as safe as physical cash, while offering the convenience of electronic payment."
+    },
+    {
+      "id": "rbi-grade-b-P05",
+      "section": "quant",
+      "title": "DI: five banks, FY 2025-26",
+      "text": "Study the table carefully and answer the questions that follow.\n\nThe table gives the deposits (in ₹ '000 crore) of five banks A–E at the end of FY 2025-26, their credit–deposit (C–D) ratio, and their gross NPAs as a percentage of advances.\nAdvances = Deposits × C–D ratio; Gross NPAs = Advances × Gross NPA %.\n\nBank | Deposits (₹ '000 crore) | C–D ratio | Gross NPA (% of advances)\nA | 480 | 75% | 3.5%\nB | 360 | 80% | 2.5%\nC | 520 | 70% | 4.0%\nD | 300 | 85% | 2.0%\nE | 440 | 72.5% | 3.0%"
+    },
+    {
+      "id": "rbi-grade-b-P06",
+      "section": "quant",
+      "title": "Caselet DI: loans disbursed by a branch",
+      "text": "Read the information carefully and answer the questions that follow.\n\nA bank branch disbursed loans to 1,200 borrowers in a year under three schemes — Housing, Education and MSME. Each borrower took exactly one loan. 40% of the borrowers took housing loans, and the ratio of education borrowers to MSME borrowers was 5 : 7. Among housing borrowers, 30% were women; among education borrowers, 45% were women. The number of women MSME borrowers was 12 more than the number of women education borrowers. The average loan size was ₹25 lakh for housing, ₹8 lakh for education and ₹15 lakh for MSME loans."
     }
   ]
 }

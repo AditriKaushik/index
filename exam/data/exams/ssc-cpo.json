@@ -476,6 +476,1211 @@
       }
     ]
   },
+  "pyqBlueprint": {
+    "yearsCovered": [
+      2023,
+      2024,
+      2025
+    ],
+    "method": "Compiled from the commission's published question-paper/response-sheet format and from shift-wise memory-based papers and topic-wise analyses published by coaching sites (Testbook, Adda247, PW, Careers360 day-wise analyses) for the 2023–2025 cycles, cross-checked against the writer's own knowledge of SSC papers. Live web fetches during this round returned only summary pages (SSC barred public discussion of 2025 papers), so question-type detail relies mainly on prior knowledge of the papers; frequencies are approximate per-shift counts. Figure-based (non-verbal) archetypes are recorded but only text-renderable variants are used for generated questions.",
+    "archetypes": [
+      {
+        "id": "ssc-cpo-R01",
+        "section": "reasoning",
+        "topic": "Analogy",
+        "pattern": "Word-pair analogy (A : B :: C : ?) built on a semantic relation – worker : tool, product : raw material, organ : function, instrument : quantity measured, young one : animal; distractors are words of the same category that do not share the relation.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-cpo-R02",
+        "section": "reasoning",
+        "topic": "Analogy",
+        "pattern": "Number-pair/triad analogy where the second term comes from an arithmetic rule on the first (n² ± k, n³ ± k, ×k ± c, digit operations); often framed with two example pairs and a note to operate on whole numbers without splitting digits; distractors satisfy the rule for only one pair or come from ±1 slips.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-R03",
+        "section": "reasoning",
+        "topic": "Analogy",
+        "pattern": "Letter-cluster analogy (ABCD : EFGH :: ? ) where each letter moves by a fixed or alternating +/− shift or is replaced by its opposite letter (A↔Z); distractors differ in exactly one letter.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-R04",
+        "section": "reasoning",
+        "topic": "Classification",
+        "pattern": "Odd-one-out among four words/objects by category or property (three belong to one class, e.g. instruments, organs, rivers of one state); the trap is a surface feature shared by the odd item.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-cpo-R05",
+        "section": "reasoning",
+        "topic": "Classification",
+        "pattern": "Odd number / number-pair / triad out of four where three follow one arithmetic rule (squares, primes, (a, b, c) with c = a×b − k, divisibility); the odd option breaks the rule by a small margin.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-R06",
+        "section": "reasoning",
+        "topic": "Classification",
+        "pattern": "Odd letter-cluster out of four where three clusters have the same positional gaps (e.g. +2, +3 or opposite-letter pairs) and one breaks the gap pattern.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-R07",
+        "section": "reasoning",
+        "topic": "Number & Letter Series",
+        "pattern": "Number series with one missing/next term following a two-step rule (×k + c, alternating operations, differences forming squares/primes or their own series).",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-R08",
+        "section": "reasoning",
+        "topic": "Number & Letter Series",
+        "pattern": "Letter or alphanumeric cluster series (e.g. three-letter groups with each position advancing by its own increment, possibly mixed with numbers); find the next cluster; distractors shift one position wrongly.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-R09",
+        "section": "reasoning",
+        "topic": "Coding-Decoding",
+        "pattern": "Word → letter code by a positional rule (each letter shifted by +k/−k, alternate shifts, reversal then shift, or opposite letters); decode the rule from one example and encode a new word.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-R10",
+        "section": "reasoning",
+        "topic": "Coding-Decoding",
+        "pattern": "Word → number code from alphabet positions (sum of positions, sum × k, sum of reverse positions, number of letters × k); apply the rule to a new word; distractors use forward instead of reverse positions.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-R11",
+        "section": "reasoning",
+        "topic": "Coding-Decoding",
+        "pattern": "Sentence coding: two or three short sentences coded as groups of code words; identify the code of a given word by finding the common word/code between statements.",
+        "years": [
+          2023,
+          2024
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-cpo-R12",
+        "section": "reasoning",
+        "topic": "Blood Relations",
+        "pattern": "Verbal chain / introduction ('pointing to a photo…') blood relation: trace 3–4 links and name the relation; traps are gender assumptions and the paternal/maternal side.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-R13",
+        "section": "reasoning",
+        "topic": "Blood Relations",
+        "pattern": "Coded blood relations: symbols (A + B, A × B, A − B …) stand for relations; decode an expression to find how two people are related, or which expression makes a given relation true.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-R14",
+        "section": "reasoning",
+        "topic": "Direction Sense",
+        "pattern": "Walking path of 3–5 legs with left/right turns; find the shortest distance and/or direction from the start (often a Pythagorean triple); or the final facing direction after a sequence of left/right/clockwise turns; traps are direction after a 'right turn' and adding instead of subtracting legs.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-cpo-R15",
+        "section": "reasoning",
+        "topic": "Syllogism",
+        "pattern": "Two/three statements ('All/Some/No') with two conclusions; decide which follow, including 'Some … are not' and possibility-type conclusions; trap is reversing 'All A are B'.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-R16",
+        "section": "reasoning",
+        "topic": "Mathematical Operations",
+        "pattern": "Symbol substitution: '+' means '×', '−' means '÷' etc.; rewrite and evaluate an expression with BODMAS; distractors come from left-to-right evaluation.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-R17",
+        "section": "reasoning",
+        "topic": "Mathematical Operations",
+        "pattern": "Which two signs (or two numbers) must be interchanged to make a given equation correct; each option names a pair of signs to swap.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-R18",
+        "section": "reasoning",
+        "topic": "Missing Number",
+        "pattern": "Missing term inside a number sequence (often the middle term) built from a mixed rule such as ×1 + 1, ×2 + 2, ×3 + 3 … or alternating × and +; find the term that replaces '?'.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ssc-cpo-R19",
+        "section": "reasoning",
+        "topic": "Missing Number",
+        "pattern": "Defined-operation missing number: from two or three solved examples (a ★ b = …) infer the rule (a² + b², (a + b)², a×b + a …) and apply it; distractors fit just one example.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-R20",
+        "section": "reasoning",
+        "topic": "Missing Number",
+        "pattern": "Number grid / figure (given as rows): each row or column follows the same rule (e.g. third = first × second − k, or sum of squares); find the missing number.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ssc-cpo-R21",
+        "section": "reasoning",
+        "topic": "Order & Ranking",
+        "pattern": "Position from both ends: total in a row/class from two ranks, rank from the other end, persons between two people, or a short comparison chain (taller/older) to find who is at a rank; trap is ±1 counting.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-cpo-R22",
+        "section": "reasoning",
+        "topic": "Dictionary Order",
+        "pattern": "Arrange 5 words in dictionary order (common prefix, differing late letters) or find which word comes at a given position.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-cpo-R23",
+        "section": "reasoning",
+        "topic": "Calendar & Clock",
+        "pattern": "Calendar: day of the week for a date given a reference date (odd-days counting across leap years) or after n days.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-R24",
+        "section": "reasoning",
+        "topic": "Calendar & Clock",
+        "pattern": "Clock angle between the hands at a given time (30H − 5.5M) or time when hands coincide/are opposite.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-R25",
+        "section": "reasoning",
+        "topic": "Venn Diagram",
+        "pattern": "Overlapping groups described as counts in each region of a three-circle Venn diagram; find how many belong to an exact combination (e.g. both A and B but not C).",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-cpo-R26",
+        "section": "reasoning",
+        "topic": "Venn Diagram",
+        "pattern": "Choose the description of the Venn diagram that best represents three classes (one inside another, partial overlap, disjoint).",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-cpo-R27",
+        "section": "reasoning",
+        "topic": "Seating Arrangement & Puzzles",
+        "pattern": "Linear or circular seating of 5–7 persons with 4–6 clues (immediate neighbour, 'second to the left', ends); question asks who sits at a position or between two people.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ssc-cpo-R28",
+        "section": "reasoning",
+        "topic": "Mirror & Water Image",
+        "pattern": "Mirror image of a clock time or of an alphanumeric/number string (vertical mirror on the right); time question solved by 11:60 − time.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-cpo-R29",
+        "section": "reasoning",
+        "topic": "Paper Folding & Cutting",
+        "pattern": "A square sheet is folded once or twice and punched/cut; predict how it looks (number/position of holes) when unfolded.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-R30",
+        "section": "reasoning",
+        "topic": "Embedded & Counting Figures",
+        "pattern": "Count triangles/squares in a figure built from a square or triangle with diagonals and mid-lines.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-R31",
+        "section": "reasoning",
+        "topic": "Cubes & Dice",
+        "pattern": "Dice: from two or three positions of the same die, find the face opposite to a given face; or a painted cube cut into n³ small cubes – count cubes with 0/1/2/3 painted faces.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-G01",
+        "section": "gk",
+        "topic": "History",
+        "pattern": "Ancient and medieval India: dynasty founders, capitals, rulers' titles, Buddhist/Jain councils, Delhi Sultanate/Mughal/Vijayanagara rulers, battles with years and administrative reforms; distractors are rulers of the same or adjacent dynasty.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-G02",
+        "section": "gk",
+        "topic": "History",
+        "pattern": "Modern India and freedom struggle: founders of organisations/newspapers, INC sessions and presidents, movements with years, Governors-General and their acts.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-G03",
+        "section": "gk",
+        "topic": "Polity",
+        "pattern": "Article-number question: which Article deals with a given provision (FR, DPSP, office, emergency, finance); distractors are nearby Article numbers.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-G04",
+        "section": "gk",
+        "topic": "Polity",
+        "pattern": "Constitution-making, Preamble, amendments, schedules and parts with their subject matter (e.g. which Schedule/amendment added X); distractors are adjacent schedules/amendments.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-G05",
+        "section": "gk",
+        "topic": "Polity",
+        "pattern": "Constitutional/statutory offices: appointment, qualification (age), tenure, removal, oath, and borrowed features of the Constitution.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-G06",
+        "section": "gk",
+        "topic": "Geography",
+        "pattern": "Indian physical geography: rivers (origin, tributaries, states), lakes, passes, hills, national parks and their states.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-G07",
+        "section": "gk",
+        "topic": "Geography",
+        "pattern": "Soils, crops, minerals, climate and resources of India (which soil/crop/mineral/region; seasons and winds).",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-G08",
+        "section": "gk",
+        "topic": "Geography",
+        "pattern": "World/physical geography: atmosphere layers, ocean currents, straits, planets, latitudes and landforms.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-G09",
+        "section": "gk",
+        "topic": "Economy",
+        "pattern": "Banking and monetary policy: RBI instruments (repo, CRR, SLR), functions, institutions and their headquarters.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-G10",
+        "section": "gk",
+        "topic": "Economy",
+        "pattern": "Economic concepts and planning: GDP/GNP, deficits, inflation measures, Five-Year Plans, taxes, government schemes and their launch.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-G11",
+        "section": "gk",
+        "topic": "Physics",
+        "pattern": "Physics: SI units and instruments, and everyday phenomena (mirrors/lenses, dispersion, sound speed, heat, electricity).",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-cpo-G12",
+        "section": "gk",
+        "topic": "Chemistry",
+        "pattern": "Chemistry: common names/formulae of compounds, ores and alloys, acids in foods, pH, gases and periodic-table facts.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-cpo-G13",
+        "section": "gk",
+        "topic": "Biology",
+        "pattern": "Human biology: vitamins/minerals and deficiency diseases, organs and glands, blood, diseases and their causative agents.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-cpo-G14",
+        "section": "gk",
+        "topic": "Biology",
+        "pattern": "Plant biology and classification: tissues, photosynthesis, plant hormones, cell organelles, scientists behind classification.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-G15",
+        "section": "gk",
+        "topic": "Art & Culture",
+        "pattern": "Performing arts and festivals: classical/folk dances, festivals and fairs with their states, instruments and their maestros.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-G16",
+        "section": "gk",
+        "topic": "Art & Culture",
+        "pattern": "Temples, monuments and architectural styles with their builders/dynasties and locations.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ssc-cpo-G17",
+        "section": "gk",
+        "topic": "Current Affairs",
+        "pattern": "Recent national/international events of the last 1–2 years: summits and hosts, missions, schemes and major appointments.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–3 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-G18",
+        "section": "gk",
+        "topic": "Sports",
+        "pattern": "Sports: number of players, terms and trophies of a sport, venues, and recent Olympic/Asian Games/World Cup results involving India.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-cpo-G19",
+        "section": "gk",
+        "topic": "Defence & Static GK",
+        "pattern": "Defence/CAPF static GK: raising year, headquarters, mottos and borders guarded by forces, gallantry awards, missiles and military exercises.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-Q01",
+        "section": "quant",
+        "topic": "Number System",
+        "pattern": "Unit digit of a power/product or remainder of a large power on division (cyclicity); distractors are adjacent cycle values.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-Q02",
+        "section": "quant",
+        "topic": "Number System",
+        "pattern": "Divisibility and number properties: smallest digit/number to add or subtract for divisibility by 9, 11, 8, which number is divisible, count of factors, primes, or sum of numbers in a range.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-Q03",
+        "section": "quant",
+        "topic": "Percentage",
+        "pattern": "Basic/successive percentage: x% of a number, net effect of successive increases/decreases, or price rise vs consumption cut.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-cpo-Q04",
+        "section": "quant",
+        "topic": "Percentage",
+        "pattern": "Percentage word problems: election votes, pass-fail marks, salary spent/saved; find the total or the difference.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-Q05",
+        "section": "quant",
+        "topic": "Profit & Loss",
+        "pattern": "Marked price above cost with a discount (or successive discounts) – find profit % or marked price.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-Q06",
+        "section": "quant",
+        "topic": "Profit & Loss",
+        "pattern": "Cost/selling price relation: profit % from CP and SP, CP from SP and gain %, CP of x items = SP of y items, two articles sold at the same price, or false-weight dealers.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-Q07",
+        "section": "quant",
+        "topic": "Simple & Compound Interest",
+        "pattern": "Simple interest: find rate/time/principal from amounts, or the time to become n times.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-cpo-Q08",
+        "section": "quant",
+        "topic": "Simple & Compound Interest",
+        "pattern": "Compound interest for 2–3 years, CI − SI difference, or half-yearly compounding.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-Q09",
+        "section": "quant",
+        "topic": "Ratio & Proportion",
+        "pattern": "Divide an amount in a given (sometimes fractional) ratio, or find shares/partnership profit.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-cpo-Q10",
+        "section": "quant",
+        "topic": "Ratio & Proportion",
+        "pattern": "Ratio change: number added/subtracted to change a ratio, combined ratio A : B : C, or mean/third proportional.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-Q11",
+        "section": "quant",
+        "topic": "Mixture & Alligation",
+        "pattern": "Mixture: add water/replace part of a mixture to reach a new ratio, or alligation of two prices/concentrations.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ssc-cpo-Q12",
+        "section": "quant",
+        "topic": "Average",
+        "pattern": "Average: simple or consecutive-number averages, inclusion/exclusion/replacement of a member (teacher's age, wrong entry corrected), or overlap of first-k and last-k averages.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-Q13",
+        "section": "quant",
+        "topic": "Time & Work",
+        "pattern": "Two/three workers with individual days; together, one leaves after some days, or efficiency ratio problems.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-Q14",
+        "section": "quant",
+        "topic": "Time & Work",
+        "pattern": "Pipes and cisterns (filling and emptying pipes together) or men-days (M₁D₁ = M₂D₂) proportionality.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-Q15",
+        "section": "quant",
+        "topic": "Time, Speed & Distance",
+        "pattern": "Trains crossing a pole/platform/another train (same or opposite direction) with km/h ↔ m/s conversion.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-Q16",
+        "section": "quant",
+        "topic": "Time, Speed & Distance",
+        "pattern": "Average speed for to-and-fro journeys, relative speed/chase problems, or boats and streams.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-Q17",
+        "section": "quant",
+        "topic": "Algebra",
+        "pattern": "Reciprocal identities: given x ± 1/x = k, find x² + 1/x², x³ ± 1/x³ or x⁴ + 1/x⁴; distractors from sign slips.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ssc-cpo-Q18",
+        "section": "quant",
+        "topic": "Algebra",
+        "pattern": "Symmetric identities in a, b, c: (a + b + c)², a³ + b³ + c³ − 3abc, or a + b + c = 0 shortcuts; also surds like (√a ± √b).",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ssc-cpo-Q19",
+        "section": "quant",
+        "topic": "Geometry",
+        "pattern": "Triangle properties: angle at incentre/orthocentre, angle-bisector/median length, similarity ratios, Pythagorean right-triangle facts.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ssc-cpo-Q20",
+        "section": "quant",
+        "topic": "Geometry",
+        "pattern": "Circle theorems: chords intersecting, tangent length, angle in a semicircle, cyclic quadrilateral opposite angles.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ssc-cpo-Q21",
+        "section": "quant",
+        "topic": "Geometry",
+        "pattern": "Polygons and lines: interior/exterior angles, number of sides or diagonals, angles of a triangle with given ratios.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-Q22",
+        "section": "quant",
+        "topic": "Mensuration",
+        "pattern": "2-D mensuration: area/perimeter of rectangles, triangles (Heron's), circles and sectors, change in area with change in dimensions.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-Q23",
+        "section": "quant",
+        "topic": "Mensuration",
+        "pattern": "3-D mensuration: volume/surface area of cube, cuboid, cylinder, cone, sphere/hemisphere; melting and recasting.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-Q24",
+        "section": "quant",
+        "topic": "Trigonometry",
+        "pattern": "Standard-angle values and identity simplification (sin²θ + cos²θ, complementary angles like tan 10° tan 80°).",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-Q25",
+        "section": "quant",
+        "topic": "Trigonometry",
+        "pattern": "Conditional trigonometry: given sec θ + tan θ, tan θ = a/b or similar, find another ratio/expression.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ssc-cpo-Q26",
+        "section": "quant",
+        "topic": "Data Interpretation",
+        "pattern": "Small table/bar data (given in text) for 4–6 years or items: ratio, percentage increase, average or difference between categories.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 set per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-E01",
+        "section": "english",
+        "topic": "Reading Comprehension",
+        "pattern": "Factual RC question on a 150–250-word passage: answer is stated in the passage; distractors use passage words with altered meaning.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-cpo-E02",
+        "section": "english",
+        "topic": "Reading Comprehension",
+        "pattern": "Inference/main-idea/title RC question: choose the central theme or what the author implies.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-E03",
+        "section": "english",
+        "topic": "Reading Comprehension",
+        "pattern": "Vocabulary/tone in context: synonym/antonym of a word used in the passage or the author's tone.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-E04",
+        "section": "english",
+        "topic": "Cloze Test",
+        "pattern": "Cloze passage with five numbered blanks; each item tests contextual vocabulary, a connector or a preposition; distractors are near-synonyms that fail the collocation.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "5 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-E05",
+        "section": "english",
+        "topic": "Fill in the Blanks",
+        "pattern": "Single-sentence blank requiring the contextually correct word (collocation, near-synonym choice).",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-E06",
+        "section": "english",
+        "topic": "Fill in the Blanks",
+        "pattern": "Single-sentence blank testing grammar – prepositions, articles, tense, conjunctions.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-cpo-E07",
+        "section": "english",
+        "topic": "Synonyms",
+        "pattern": "Synonym of a standalone or underlined word (moderate CGL-level vocabulary); distractors include antonyms and look-alike words.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-E08",
+        "section": "english",
+        "topic": "Antonyms",
+        "pattern": "Antonym of a standalone or underlined word; the trap option is a synonym of the given word.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-E09",
+        "section": "english",
+        "topic": "Idioms & Phrases",
+        "pattern": "Meaning of a common idiom/phrase (or the idiom that fits a sentence); distractors are literal readings.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-E10",
+        "section": "english",
+        "topic": "One-word Substitution",
+        "pattern": "One-word substitute for a descriptive phrase (persons, -cide, -phobia, -archy words); distractors are related words of the same family.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-E11",
+        "section": "english",
+        "topic": "Spelling Correction",
+        "pattern": "Select the correctly (or incorrectly) spelt word among four look-alike spellings (double letters, ie/ei, -ance/-ence).",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-cpo-E12",
+        "section": "english",
+        "topic": "Error Spotting",
+        "pattern": "Sentence split into 3–4 segments; error in subject–verb agreement, pronoun or noun number (each/one of/neither…nor, uncountable nouns).",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-E13",
+        "section": "english",
+        "topic": "Error Spotting",
+        "pattern": "Sentence split into segments; error in tense sequence, preposition, comparative/superlative, or conjunction pairs (hardly…when, no sooner…than).",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ssc-cpo-E14",
+        "section": "english",
+        "topic": "Sentence Improvement",
+        "pattern": "Improve the bracketed/underlined part: tense, conditional, preposition or idiom usage; 'No improvement' sometimes an option.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-E15",
+        "section": "english",
+        "topic": "Active & Passive Voice",
+        "pattern": "Change active to passive (or vice versa) across tenses, including questions and modals; distractors change the tense.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-cpo-E16",
+        "section": "english",
+        "topic": "Direct & Indirect Speech",
+        "pattern": "Direct ↔ indirect speech: reporting verb change, backshift of tense, pronoun and time-word changes; imperatives with 'ordered/requested'.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      }
+    ]
+  },
   "resources": {
     "pyqAvailable": true,
     "officialPYQ": "https://ssc.gov.in",
@@ -483,22 +1688,6 @@
     "notes": "SSC publishes tentative answer keys with candidates' response sheets (question papers) on ssc.gov.in for a short window after Paper 1 and Paper 2; final keys after results. No permanent official PYQ archive; memory-based papers are compiled by coaching sites."
   },
   "questions": [
-    {
-      "id": "ssc-cpo-001",
-      "section": "reasoning",
-      "topic": "Analogy",
-      "difficulty": "easy",
-      "question": "Select the option that is related to the third word in the same way as the second word is related to the first.\nPen : Write :: Knife : ?",
-      "options": [
-        "Sharp",
-        "Steel",
-        "Kitchen",
-        "Cut"
-      ],
-      "answer": 3,
-      "explanation": "A pen is used to write; a knife is used to cut.",
-      "verified": true
-    },
     {
       "id": "ssc-cpo-002",
       "section": "reasoning",
@@ -513,7 +1702,14 @@
       ],
       "answer": 2,
       "explanation": "Each letter moves 5 places forward: A→F, C→H, E→J. So M→R, O→T, Q→V.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cpo-R03",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "+5 shift letter-cluster analogy; CPO style"
+      }
     },
     {
       "id": "ssc-cpo-003",
@@ -529,7 +1725,14 @@
       ],
       "answer": 1,
       "explanation": "In BD, FH and JL there is a gap of one letter (+2). In NQ the gap is two letters (+3).",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cpo-R06",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Odd letter-pair by +3 gap; CPO classification"
+      }
     },
     {
       "id": "ssc-cpo-004",
@@ -545,7 +1748,14 @@
       ],
       "answer": 3,
       "explanation": "Differences: 5, 10, 15, 20, so next is 25: 56 + 25 = 81.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cpo-R07",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Differences in AP (5,10,15…) series; CPO"
+      }
     },
     {
       "id": "ssc-cpo-005",
@@ -561,39 +1771,14 @@
       ],
       "answer": 0,
       "explanation": "Terms are n³ − n for n = 1, 2, 3, 4, 5: 0, 6, 24, 60, 120. Next: 6³ − 6 = 210.",
-      "verified": true
-    },
-    {
-      "id": "ssc-cpo-006",
-      "section": "reasoning",
-      "topic": "Coding-Decoding",
-      "difficulty": "medium",
-      "question": "If MONDAY is written as NPOEBZ in a certain code, how will FRIDAY be written in that code?",
-      "options": [
-        "GSJECZ",
-        "GSIEBZ",
-        "HSJEBZ",
-        "GSJEBZ"
-      ],
-      "answer": 3,
-      "explanation": "Each letter moves one place forward: F→G, R→S, I→J, D→E, A→B, Y→Z.",
-      "verified": true
-    },
-    {
-      "id": "ssc-cpo-007",
-      "section": "reasoning",
-      "topic": "Coding-Decoding",
-      "difficulty": "medium",
-      "question": "If PEN = 35 in a certain code, what is INK equal to in the same code?",
-      "options": [
-        "33",
-        "34",
-        "35",
-        "36"
-      ],
-      "answer": 1,
-      "explanation": "Sum of positions: P(16) + E(5) + N(14) = 35. I(9) + N(14) + K(11) = 34.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cpo-R07",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "n³−n series with 216 cube trap; CPO"
+      }
     },
     {
       "id": "ssc-cpo-008",
@@ -609,7 +1794,14 @@
       ],
       "answer": 2,
       "explanation": "P × Q: P is the father of Q. Q − R: Q is the brother of R, so R is also P's child. Hence P is the father of R.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cpo-R13",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Coded blood relation with brother/uncle trap; CPO"
+      }
     },
     {
       "id": "ssc-cpo-009",
@@ -625,7 +1817,14 @@
       ],
       "answer": 0,
       "explanation": "South 30 → (0, −30); left of South is East: 40 → (40, −30); left of East is North: 30 → (40, 0). He is 40 m East of the start.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cpo-R14",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Three-leg U walk net 40 m East; CPO direction"
+      }
     },
     {
       "id": "ssc-cpo-010",
@@ -641,7 +1840,14 @@
       ],
       "answer": 3,
       "explanation": "The engineers who are graduates need not be teachers, so I is not certain. 'Some graduates are engineers' does not make all engineers graduates, so II does not follow.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cpo-R15",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Undistributed middle syllogism 'neither'; CPO"
+      }
     },
     {
       "id": "ssc-cpo-011",
@@ -657,7 +1863,14 @@
       ],
       "answer": 2,
       "explanation": "Replace the signs: 12 × 3 + 40 ÷ 8 − 6 = 36 + 5 − 6 = 35.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cpo-R16",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Sign-substitution BODMAS; CPO"
+      }
     },
     {
       "id": "ssc-cpo-012",
@@ -673,23 +1886,14 @@
       ],
       "answer": 1,
       "explanation": "a * b = a² + b²: 4 + 9 = 13, 9 + 16 = 25. So 16 + 25 = 41.",
-      "verified": true
-    },
-    {
-      "id": "ssc-cpo-013",
-      "section": "reasoning",
-      "topic": "Order & Ranking",
-      "difficulty": "easy",
-      "question": "In a class of 45 students, Priya ranks 18th from the top. What is her rank from the bottom?",
-      "options": [
-        "28th",
-        "27th",
-        "29th",
-        "26th"
-      ],
-      "answer": 0,
-      "explanation": "45 − 18 + 1 = 28.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cpo-R19",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "a²+b² defined operation; CPO"
+      }
     },
     {
       "id": "ssc-cpo-014",
@@ -705,7 +1909,14 @@
       ],
       "answer": 2,
       "explanation": "Compare the third letters: Ga-l, Ga-m, Ga-r, Ga-t, Ga-z → Gallop, Gamble, Garden, Gather, Gaze = 3, 4, 2, 1, 5.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cpo-R22",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Ga- words dictionary order; CPO"
+      }
     },
     {
       "id": "ssc-cpo-015",
@@ -721,7 +1932,14 @@
       ],
       "answer": 3,
       "explanation": "Odd-day method: 1600 years → 0 odd days; 300 years → 1; 49 years (12 leap + 37 ordinary) → 12×2 + 37 = 61 → 5 odd days; 26 days of January → 5. Total = 11 → 4 odd days = Thursday.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cpo-R23",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "26 Jan 1950 was a Thursday; odd-day calendar item seen in SSC"
+      }
     },
     {
       "id": "ssc-cpo-016",
@@ -737,7 +1955,14 @@
       ],
       "answer": 1,
       "explanation": "Annie Besant presided over the Calcutta session of 1917. Sarojini Naidu (Kanpur, 1925) was the first Indian woman President.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cpo-G02",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "First woman INC president Annie Besant with Naidu trap; CPO"
+      }
     },
     {
       "id": "ssc-cpo-017",
@@ -753,7 +1978,14 @@
       ],
       "answer": 0,
       "explanation": "The Ghadar Party was founded in 1913 on the Pacific coast of the USA by Lala Har Dayal along with Sohan Singh Bhakna and others.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cpo-G02",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Ghadar Party–Har Dayal; CPO modern history"
+      }
     },
     {
       "id": "ssc-cpo-018",
@@ -769,7 +2001,14 @@
       ],
       "answer": 0,
       "explanation": "Lord Cornwallis introduced the Permanent Settlement (Zamindari system) in 1793.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cpo-G02",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Permanent Settlement–Cornwallis; CPO"
+      }
     },
     {
       "id": "ssc-cpo-019",
@@ -785,23 +2024,14 @@
       ],
       "answer": 1,
       "explanation": "Article 76 – Attorney General; 148 – CAG; 165 – Advocate General of a State; 124 – Supreme Court.",
-      "verified": true
-    },
-    {
-      "id": "ssc-cpo-020",
-      "section": "gk",
-      "topic": "Polity",
-      "difficulty": "easy",
-      "question": "Who appoints the Chief Election Commissioner of India?",
-      "options": [
-        "The Prime Minister",
-        "The Chief Justice of India",
-        "The Parliament",
-        "The President"
-      ],
-      "answer": 3,
-      "explanation": "The CEC and other Election Commissioners are appointed by the President (Article 324).",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cpo-G03",
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Article 76 Attorney General with CAG/Advocate General traps; CPO"
+      }
     },
     {
       "id": "ssc-cpo-021",
@@ -817,7 +2047,14 @@
       ],
       "answer": 2,
       "explanation": "The 73rd Amendment added Part IX (Panchayats) and the Eleventh Schedule; the 74th did the same for municipalities.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cpo-G04",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "73rd Amendment Panchayati Raj with 74th trap; CPO"
+      }
     },
     {
       "id": "ssc-cpo-022",
@@ -833,7 +2070,14 @@
       ],
       "answer": 1,
       "explanation": "Zoji La lies on the Srinagar–Leh highway. Nathu La is in Sikkim, Shipki La in Himachal Pradesh, Bomdi La in Arunachal Pradesh.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cpo-G06",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Zoji La Srinagar–Leh; CPO passes"
+      }
     },
     {
       "id": "ssc-cpo-023",
@@ -849,87 +2093,14 @@
       ],
       "answer": 0,
       "explanation": "Wular Lake in Jammu & Kashmir is the largest freshwater lake; Chilika is a brackish-water lagoon.",
-      "verified": true
-    },
-    {
-      "id": "ssc-cpo-024",
-      "section": "gk",
-      "topic": "Geography",
-      "difficulty": "easy",
-      "question": "The Sundarbans delta is formed mainly by which rivers?",
-      "options": [
-        "Godavari and Krishna",
-        "Mahanadi and Brahmani",
-        "Ganga and Brahmaputra",
-        "Narmada and Tapi"
-      ],
-      "answer": 2,
-      "explanation": "The Sundarbans lie in the Ganga–Brahmaputra (–Meghna) delta shared by India and Bangladesh.",
-      "verified": true
-    },
-    {
-      "id": "ssc-cpo-025",
-      "section": "gk",
-      "topic": "Economy",
-      "difficulty": "easy",
-      "question": "The financial year of the Government of India runs from:",
-      "options": [
-        "1 January to 31 December",
-        "1 July to 30 June",
-        "1 October to 30 September",
-        "1 April to 31 March"
-      ],
-      "answer": 3,
-      "explanation": "India's fiscal year begins on 1 April and ends on 31 March.",
-      "verified": true
-    },
-    {
-      "id": "ssc-cpo-026",
-      "section": "gk",
-      "topic": "Physics",
-      "difficulty": "medium",
-      "question": "In which of the following does sound travel the fastest?",
-      "options": [
-        "Water",
-        "Air",
-        "Steel",
-        "Vacuum"
-      ],
-      "answer": 2,
-      "explanation": "Sound travels fastest in solids (about 5,000+ m/s in steel), slower in water and slowest in air; it cannot travel in a vacuum.",
-      "verified": true
-    },
-    {
-      "id": "ssc-cpo-027",
-      "section": "gk",
-      "topic": "Chemistry",
-      "difficulty": "easy",
-      "question": "Which acid is mainly present in lemon?",
-      "options": [
-        "Acetic acid",
-        "Lactic acid",
-        "Tartaric acid",
-        "Citric acid"
-      ],
-      "answer": 3,
-      "explanation": "Lemons and other citrus fruits contain citric acid; vinegar has acetic acid and curd lactic acid.",
-      "verified": true
-    },
-    {
-      "id": "ssc-cpo-028",
-      "section": "gk",
-      "topic": "Biology",
-      "difficulty": "medium",
-      "question": "Malaria is caused by:",
-      "options": [
-        "Plasmodium (a protozoan)",
-        "A virus",
-        "A bacterium",
-        "A fungus"
-      ],
-      "answer": 0,
-      "explanation": "Malaria is caused by the protozoan parasite Plasmodium, transmitted by the female Anopheles mosquito.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cpo-G06",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Wular largest freshwater lake with Chilika trap; CPO"
+      }
     },
     {
       "id": "ssc-cpo-029",
@@ -945,23 +2116,14 @@
       ],
       "answer": 1,
       "explanation": "CRPF was raised on 27 July 1939 as the Crown Representative's Police and renamed CRPF by an Act of Parliament in 1949.",
-      "verified": true
-    },
-    {
-      "id": "ssc-cpo-030",
-      "section": "gk",
-      "topic": "Defence & Static GK",
-      "difficulty": "medium",
-      "question": "The Param Vir Chakra is awarded for:",
-      "options": [
-        "Distinguished service in peacetime",
-        "Outstanding achievement in sports",
-        "The highest degree of gallantry in the presence of the enemy",
-        "Gallantry away from the battlefield"
-      ],
-      "answer": 2,
-      "explanation": "The Param Vir Chakra is India's highest wartime gallantry award; the Ashoka Chakra is the highest peacetime gallantry award.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cpo-G19",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "CRPF raised as Crown Representative's Police; CPO defence static"
+      }
     },
     {
       "id": "ssc-cpo-031",
@@ -977,23 +2139,14 @@
       ],
       "answer": 1,
       "explanation": "Powers of 2 mod 5 cycle as 2, 4, 3, 1. 31 = 4 × 7 + 3, so the remainder is the 3rd term = 3.",
-      "verified": true
-    },
-    {
-      "id": "ssc-cpo-032",
-      "section": "quant",
-      "topic": "Number System",
-      "difficulty": "medium",
-      "question": "How many factors does 72 have?",
-      "options": [
-        "10",
-        "8",
-        "9",
-        "12"
-      ],
-      "answer": 3,
-      "explanation": "72 = 2³ × 3². Number of factors = (3 + 1)(2 + 1) = 12.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cpo-Q01",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Remainder 2^31 mod 5 via cycle; CPO"
+      }
     },
     {
       "id": "ssc-cpo-033",
@@ -1009,7 +2162,14 @@
       ],
       "answer": 0,
       "explanation": "Margin = 58% − 42% = 16% of valid votes = 2880 → total = 18,000.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cpo-Q04",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Election margin 16% = 2880; CPO"
+      }
     },
     {
       "id": "ssc-cpo-034",
@@ -1025,39 +2185,14 @@
       ],
       "answer": 2,
       "explanation": "Gain % = (error/true weight given) × 100 = 100/900 × 100 = 11 1/9 %.",
-      "verified": true
-    },
-    {
-      "id": "ssc-cpo-035",
-      "section": "quant",
-      "topic": "Simple & Compound Interest",
-      "difficulty": "medium",
-      "question": "What is the compound interest on ₹8,000 for 2 years at 5% per annum, compounded annually?",
-      "options": [
-        "₹820",
-        "₹800",
-        "₹840",
-        "₹8,820"
-      ],
-      "answer": 0,
-      "explanation": "Amount = 8000 × 1.05² = 8820; CI = ₹820.",
-      "verified": true
-    },
-    {
-      "id": "ssc-cpo-036",
-      "section": "quant",
-      "topic": "Ratio & Proportion",
-      "difficulty": "easy",
-      "question": "A and B invest ₹24,000 and ₹36,000 respectively in a business for the same period. Out of a profit of ₹15,000, what is B's share?",
-      "options": [
-        "₹6,000",
-        "₹9,000",
-        "₹7,500",
-        "₹10,000"
-      ],
-      "answer": 1,
-      "explanation": "Ratio = 24 : 36 = 2 : 3. B's share = 15000 × 3/5 = ₹9,000.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cpo-Q06",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "False weight 900 g gain 11 1/9% with 10% trap; CPO"
+      }
     },
     {
       "id": "ssc-cpo-037",
@@ -1073,23 +2208,14 @@
       ],
       "answer": 3,
       "explanation": "Milk = 40 L, water = 20 L. For 1 : 2, water must be 80 L, so add 60 L.",
-      "verified": true
-    },
-    {
-      "id": "ssc-cpo-038",
-      "section": "quant",
-      "topic": "Time & Work",
-      "difficulty": "easy",
-      "question": "A and B together can do a work in 8 days; A alone can do it in 12 days. In how many days can B alone do it?",
-      "options": [
-        "20",
-        "16",
-        "18",
-        "24"
-      ],
-      "answer": 3,
-      "explanation": "B's one-day work = 1/8 − 1/12 = 1/24, so 24 days.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cpo-Q11",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Water to reverse 2:1 ratio; CPO mixture"
+      }
     },
     {
       "id": "ssc-cpo-039",
@@ -1105,23 +2231,14 @@
       ],
       "answer": 1,
       "explanation": "Relative speed = 90 km/h = 25 m/s. Time = (150 + 100)/25 = 10 s.",
-      "verified": true
-    },
-    {
-      "id": "ssc-cpo-040",
-      "section": "quant",
-      "topic": "Time, Speed & Distance",
-      "difficulty": "easy",
-      "question": "The speed of a boat in still water is 15 km/h and the speed of the stream is 3 km/h. How long will the boat take to travel 36 km downstream?",
-      "options": [
-        "2.5 hours",
-        "3 hours",
-        "2 hours",
-        "1.5 hours"
-      ],
-      "answer": 2,
-      "explanation": "Downstream speed = 18 km/h; time = 36/18 = 2 h.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cpo-Q15",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Two trains opposite directions; CPO"
+      }
     },
     {
       "id": "ssc-cpo-041",
@@ -1137,7 +2254,14 @@
       ],
       "answer": 0,
       "explanation": "1/x = 1/(√3 + √2) = √3 − √2 (since (√3 + √2)(√3 − √2) = 1). So x + 1/x = 2√3.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cpo-Q18",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "x=√3+√2 → x+1/x surd; CPO"
+      }
     },
     {
       "id": "ssc-cpo-042",
@@ -1153,7 +2277,14 @@
       ],
       "answer": 0,
       "explanation": "Hypotenuse = √(81 + 144) = 15 cm. The median to the hypotenuse is half of it = 7.5 cm.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cpo-Q19",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Median to hypotenuse half; CPO geometry"
+      }
     },
     {
       "id": "ssc-cpo-043",
@@ -1169,7 +2300,14 @@
       ],
       "answer": 1,
       "explanation": "TSA = 2πr(r + h) = 2 × (22/7) × 7 × 17 = 44 × 17 = 748 cm².",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cpo-Q23",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Cylinder TSA; CPO"
+      }
     },
     {
       "id": "ssc-cpo-044",
@@ -1185,23 +2323,14 @@
       ],
       "answer": 2,
       "explanation": "sin θ = 3/5, cos θ = 4/5. (7/5)/(−1/5) = −7. (Or divide by cos θ: (3/4 + 1)/(3/4 − 1) = −7.)",
-      "verified": true
-    },
-    {
-      "id": "ssc-cpo-045",
-      "section": "quant",
-      "topic": "Data Interpretation",
-      "difficulty": "medium",
-      "question": "Number of candidates who qualified from a centre: 2022 – 450, 2023 – 540, 2024 – 486, 2025 – 630. What is the percentage increase from 2022 to 2025?",
-      "options": [
-        "36%",
-        "45%",
-        "30%",
-        "40%"
-      ],
-      "answer": 3,
-      "explanation": "Increase = 630 − 450 = 180; 180/450 × 100 = 40%.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cpo-Q25",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "tanθ → (s+c)/(s−c) with sign trap; CPO"
+      }
     },
     {
       "id": "ssc-cpo-046",
@@ -1217,23 +2346,14 @@
       ],
       "answer": 3,
       "explanation": "Meticulous means showing great attention to detail – painstaking.",
-      "verified": true
-    },
-    {
-      "id": "ssc-cpo-047",
-      "section": "english",
-      "topic": "Synonyms",
-      "difficulty": "easy",
-      "question": "Select the most appropriate synonym of the given word.\nVALIANT",
-      "options": [
-        "Cowardly",
-        "Weak",
-        "Brave",
-        "Cruel"
-      ],
-      "answer": 2,
-      "explanation": "Valiant means brave, courageous.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cpo-E07",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "METICULOUS→Painstaking; CPO vocab"
+      }
     },
     {
       "id": "ssc-cpo-048",
@@ -1249,7 +2369,14 @@
       ],
       "answer": 0,
       "explanation": "Benevolent (well-meaning, kind) is opposite to malevolent (wishing harm).",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cpo-E08",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "BENEVOLENT antonym Malevolent with synonym traps; CPO"
+      }
     },
     {
       "id": "ssc-cpo-049",
@@ -1265,7 +2392,14 @@
       ],
       "answer": 1,
       "explanation": "'Bite the bullet' means to make oneself do something unpleasant or difficult bravely.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cpo-E09",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Bite the bullet; CPO idiom"
+      }
     },
     {
       "id": "ssc-cpo-050",
@@ -1281,7 +2415,14 @@
       ],
       "answer": 2,
       "explanation": "Being on the horns of a dilemma means having to choose between two equally undesirable alternatives.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cpo-E09",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Horns of a dilemma; CPO idiom"
+      }
     },
     {
       "id": "ssc-cpo-051",
@@ -1297,23 +2438,14 @@
       ],
       "answer": 3,
       "explanation": "Fratricide = killing a brother; patricide = father; regicide = king; genocide = a whole people.",
-      "verified": true
-    },
-    {
-      "id": "ssc-cpo-052",
-      "section": "english",
-      "topic": "One-word Substitution",
-      "difficulty": "easy",
-      "question": "Select the one-word substitute for the given phrase.\nGovernment by the people, usually through elected representatives",
-      "options": [
-        "Democracy",
-        "Autocracy",
-        "Monarchy",
-        "Oligarchy"
-      ],
-      "answer": 0,
-      "explanation": "Democracy is government by the people. Autocracy = rule by one person with absolute power; oligarchy = rule by a few.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cpo-E10",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Fratricide among -cide words; CPO OWS"
+      }
     },
     {
       "id": "ssc-cpo-053",
@@ -1329,7 +2461,14 @@
       ],
       "answer": 1,
       "explanation": "The correct spelling is 'lieutenant'.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cpo-E11",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Lieutenant spelling, force-themed; CPO"
+      }
     },
     {
       "id": "ssc-cpo-054",
@@ -1345,7 +2484,14 @@
       ],
       "answer": 1,
       "explanation": "'Police' is a plural noun, so it takes a plural verb: The police have arrested the culprit.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cpo-E12",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Police plural verb; CPO agreement"
+      }
     },
     {
       "id": "ssc-cpo-055",
@@ -1361,7 +2507,14 @@
       ],
       "answer": 2,
       "explanation": "'No sooner' is followed by 'than', not 'when': No sooner did the bell ring than the students rushed out.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cpo-E13",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "No sooner … when → than; CPO"
+      }
     },
     {
       "id": "ssc-cpo-056",
@@ -1377,7 +2530,14 @@
       ],
       "answer": 0,
       "explanation": "'Insist' takes the preposition 'on' followed by a gerund: insisted on going.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cpo-E14",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Insisted on going; CPO improvement"
+      }
     },
     {
       "id": "ssc-cpo-057",
@@ -1393,7 +2553,14 @@
       ],
       "answer": 3,
       "explanation": "Simple future active (will complete) becomes 'will be completed' in the passive.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cpo-E15",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Future passive with future-perfect trap; CPO"
+      }
     },
     {
       "id": "ssc-cpo-058",
@@ -1409,39 +2576,1509 @@
       ],
       "answer": 2,
       "explanation": "An imperative (command) is reported with 'ordered + object + to-infinitive': ordered the constable to close the gate at once.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-cpo-E16",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Imperative to 'ordered … to'; CPO narration"
+      }
     },
     {
-      "id": "ssc-cpo-059",
+      "id": "ssc-cpo-061",
+      "section": "reasoning",
+      "topic": "Analogy",
+      "difficulty": "medium",
+      "question": "Select the option that is related to the third number in the same way as the second number is related to the first number and the sixth number is related to the fifth number.\n(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits.)\n12 : 150 :: 9 : ? :: 15 : 231",
+      "options": [
+        "87",
+        "90",
+        "84",
+        "93"
+      ],
+      "answer": 0,
+      "explanation": "Rule: n² + 6. 144 + 6 = 150 and 225 + 6 = 231, so 81 + 6 = 87.",
+      "source": "ai",
+      "archetype": "ssc-cpo-R02",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "n²+6 triple analogy with NOTE; exact SSC format"
+      }
+    },
+    {
+      "id": "ssc-cpo-062",
+      "section": "reasoning",
+      "topic": "Analogy",
+      "difficulty": "easy",
+      "question": "Select the option that is related to the third word in the same way as the second word is related to the first word.\nOdometer : Distance :: Hygrometer : ?",
+      "options": [
+        "Pressure",
+        "Temperature",
+        "Altitude",
+        "Humidity"
+      ],
+      "answer": 3,
+      "explanation": "An odometer measures distance travelled; a hygrometer measures humidity.",
+      "source": "ai",
+      "archetype": "ssc-cpo-R01",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Instrument:quantity hygrometer; CPO"
+      }
+    },
+    {
+      "id": "ssc-cpo-063",
+      "section": "reasoning",
+      "topic": "Analogy",
+      "difficulty": "medium",
+      "question": "Select the option that is related to the third letter-cluster in the same way as the second letter-cluster is related to the first letter-cluster.\nPLAN : RNCP :: SHOT : ?",
+      "options": [
+        "UIQV",
+        "TJQV",
+        "UJQV",
+        "UJRV"
+      ],
+      "answer": 2,
+      "explanation": "Each letter moves +2: P→R, L→N, A→C, N→P. So S→U, H→J, O→Q, T→V.",
+      "source": "ai",
+      "archetype": "ssc-cpo-R03",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "+2 word-cluster analogy; CPO"
+      }
+    },
+    {
+      "id": "ssc-cpo-064",
+      "section": "reasoning",
+      "topic": "Classification",
+      "difficulty": "medium",
+      "question": "Three of the following four number-pairs are alike in a certain way and one is different. Select the odd number-pair.\n(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits.)",
+      "options": [
+        "(3, 27)",
+        "(6, 206)",
+        "(4, 64)",
+        "(5, 125)"
+      ],
+      "answer": 1,
+      "explanation": "In the others the second number is the cube of the first. 6³ = 216, not 206.",
+      "source": "ai",
+      "archetype": "ssc-cpo-R05",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Number-pair cube rule with NOTE; CPO"
+      }
+    },
+    {
+      "id": "ssc-cpo-067",
+      "section": "reasoning",
+      "topic": "Number & Letter Series",
+      "difficulty": "medium",
+      "question": "Select the letter-cluster that will come next in the following series.\nDKP, FMR, HOT, JQV, ?",
+      "options": [
+        "LSX",
+        "LRX",
+        "KSX",
+        "LSW"
+      ],
+      "answer": 0,
+      "explanation": "Each letter moves +2: J→L, Q→S, V→X.",
+      "source": "ai",
+      "archetype": "ssc-cpo-R08",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Three-letter clusters +2 each; CPO"
+      }
+    },
+    {
+      "id": "ssc-cpo-068",
+      "section": "reasoning",
+      "topic": "Coding-Decoding",
+      "difficulty": "medium",
+      "question": "In a certain code language, 'BRAVE' is written as 'FWBSC'. How will 'SHIELD' be written in that language?",
+      "options": [
+        "DLEIHS",
+        "EMFJIT",
+        "TIJFME",
+        "EMFJHT"
+      ],
+      "answer": 1,
+      "explanation": "The word is reversed and each letter moved +1: BRAVE → EVARB → FWBSC. SHIELD → DLEIHS → EMFJIT.",
+      "source": "ai",
+      "archetype": "ssc-cpo-R09",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Reverse +1 coding with six letters; CPO"
+      }
+    },
+    {
+      "id": "ssc-cpo-069",
+      "section": "reasoning",
+      "topic": "Coding-Decoding",
+      "difficulty": "hard",
+      "question": "In a certain code language, 'GOLD' is coded as 70 and 'IRON' is coded as 52. How will 'STEEL' be coded in that language?",
+      "options": [
+        "74",
+        "61",
+        "72",
+        "76"
+      ],
+      "answer": 0,
+      "explanation": "Code = sum of reverse alphabet positions (A = 26 … Z = 1). GOLD: 20 + 12 + 15 + 23 = 70; IRON: 18 + 9 + 12 + 13 = 52; STEEL: 8 + 7 + 22 + 22 + 15 = 74. (61 is the forward sum.)",
+      "source": "ai",
+      "archetype": "ssc-cpo-R10",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Reverse-position sum coding; CPO hard coding"
+      }
+    },
+    {
+      "id": "ssc-cpo-070",
+      "section": "reasoning",
+      "topic": "Mathematical Operations",
+      "difficulty": "medium",
+      "question": "Which two mathematical signs should be interchanged to make the given equation correct?\n42 × 6 + 8 ÷ 3 − 11 = 20",
+      "options": [
+        "+ and −",
+        "× and −",
+        "÷ and +",
+        "× and ÷"
+      ],
+      "answer": 3,
+      "explanation": "Interchanging × and ÷ gives 42 ÷ 6 + 8 × 3 − 11 = 7 + 24 − 11 = 20. The other swaps do not give 20.",
+      "source": "ai",
+      "archetype": "ssc-cpo-R17",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Interchange signs; exact SSC format"
+      }
+    },
+    {
+      "id": "ssc-cpo-071",
+      "section": "reasoning",
+      "topic": "Missing Number",
+      "difficulty": "hard",
+      "question": "If 5 # 3 = 49, 7 # 2 = 67 and 4 # 6 = 76, then what is the value of 8 # 3?",
+      "options": [
+        "121",
+        "97",
+        "88",
+        "73"
+      ],
+      "answer": 1,
+      "explanation": "a # b = a² + ab + b²: 25 + 15 + 9 = 49, 49 + 14 + 4 = 67, 16 + 24 + 36 = 76. So 8 # 3 = 64 + 24 + 9 = 97.",
+      "source": "ai",
+      "archetype": "ssc-cpo-R19",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "a²+b²+ab defined operation from three examples; CPO"
+      }
+    },
+    {
+      "id": "ssc-cpo-072",
+      "section": "reasoning",
+      "topic": "Blood Relations",
+      "difficulty": "medium",
+      "question": "In a certain code language, 'A # B' means 'A is the brother of B', 'A @ B' means 'A is the mother of B', 'A & B' means 'A is the husband of B' and 'A % B' means 'A is the son of B'.\nIf P & Q @ R # S, how is P related to S?",
+      "options": [
+        "Uncle",
+        "Brother",
+        "Father",
+        "Grandfather"
+      ],
+      "answer": 2,
+      "explanation": "P is the husband of Q, Q is the mother of R, and R is the brother of S, so S is also Q's child. P, Q's husband, is S's father.",
+      "source": "ai",
+      "archetype": "ssc-cpo-R13",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Coded blood relation # @ & %; CPO"
+      }
+    },
+    {
+      "id": "ssc-cpo-074",
+      "section": "reasoning",
+      "topic": "Dictionary Order",
+      "difficulty": "easy",
+      "question": "Which of the following words will come third if they are arranged in the order in which they appear in an English dictionary?\nMarine, Mariner, Margin, Marigold, Maritime",
+      "options": [
+        "Marine",
+        "Mariner",
+        "Marigold",
+        "Maritime"
+      ],
+      "answer": 0,
+      "explanation": "Order: Margin, Marigold, Marine, Mariner, Maritime. The third word is Marine.",
+      "source": "ai",
+      "archetype": "ssc-cpo-R22",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Third word in Mar- dictionary order; CPO"
+      }
+    },
+    {
+      "id": "ssc-cpo-076",
+      "section": "gk",
+      "topic": "History",
+      "difficulty": "hard",
+      "question": "Who composed the Prayag Prashasti (Allahabad Pillar inscription) in praise of Samudragupta?",
+      "options": [
+        "Kalidasa",
+        "Banabhatta",
+        "Ravikirti",
+        "Harisena"
+      ],
+      "answer": 3,
+      "explanation": "Harisena, Samudragupta's court poet, composed it. Ravikirti wrote the Aihole inscription of Pulakeshin II; Banabhatta was Harsha's court poet.",
+      "source": "ai",
+      "archetype": "ssc-cpo-G01",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Prayag Prashasti–Harisena; CPO ancient"
+      }
+    },
+    {
+      "id": "ssc-cpo-077",
+      "section": "gk",
+      "topic": "History",
+      "difficulty": "medium",
+      "question": "Who founded the Indian Association in Calcutta in 1876 along with Ananda Mohan Bose?",
+      "options": [
+        "Dadabhai Naoroji",
+        "Pherozeshah Mehta",
+        "W. C. Bonnerjee",
+        "Surendranath Banerjee"
+      ],
+      "answer": 3,
+      "explanation": "The Indian Association was founded by Surendranath Banerjee and Ananda Mohan Bose in 1876.",
+      "source": "ai",
+      "archetype": "ssc-cpo-G02",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Indian Association–Surendranath Banerjee; CPO"
+      }
+    },
+    {
+      "id": "ssc-cpo-078",
+      "section": "gk",
+      "topic": "History",
+      "difficulty": "medium",
+      "question": "Which Governor-General abolished the practice of Sati in 1829?",
+      "options": [
+        "Lord Dalhousie",
+        "Lord William Bentinck",
+        "Lord Cornwallis",
+        "Lord Wellesley"
+      ],
+      "answer": 1,
+      "explanation": "Bengal Sati Regulation XVII of 1829 was passed under Lord William Bentinck.",
+      "source": "ai",
+      "archetype": "ssc-cpo-G02",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Sati abolition–Bentinck; CPO"
+      }
+    },
+    {
+      "id": "ssc-cpo-079",
+      "section": "gk",
+      "topic": "Polity",
+      "difficulty": "medium",
+      "question": "Under which Article of the Constitution of India can the President proclaim a National Emergency?",
+      "options": [
+        "Article 356",
+        "Article 360",
+        "Article 352",
+        "Article 365"
+      ],
+      "answer": 2,
+      "explanation": "Article 352 – National Emergency; 356 – President's Rule in a state; 360 – Financial Emergency.",
+      "source": "ai",
+      "archetype": "ssc-cpo-G03",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Article 352 national emergency with 356/360 traps; CPO"
+      }
+    },
+    {
+      "id": "ssc-cpo-081",
+      "section": "gk",
+      "topic": "Polity",
+      "difficulty": "medium",
+      "question": "Which Schedule of the Constitution of India contains the Union List, the State List and the Concurrent List?",
+      "options": [
+        "Seventh Schedule",
+        "Sixth Schedule",
+        "Ninth Schedule",
+        "Fifth Schedule"
+      ],
+      "answer": 0,
+      "explanation": "The Seventh Schedule distributes legislative subjects between the Union and the States.",
+      "source": "ai",
+      "archetype": "ssc-cpo-G04",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Seventh Schedule lists; CPO"
+      }
+    },
+    {
+      "id": "ssc-cpo-082",
+      "section": "gk",
+      "topic": "Geography",
+      "difficulty": "medium",
+      "question": "The Nathu La pass, located in Sikkim, connects India with which region?",
+      "options": [
+        "Nepal",
+        "Tibet (China)",
+        "Bhutan",
+        "Myanmar"
+      ],
+      "answer": 1,
+      "explanation": "Nathu La on the Dongkya range links Sikkim with the Tibet Autonomous Region of China.",
+      "source": "ai",
+      "archetype": "ssc-cpo-G06",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Nathu La–Tibet; CPO"
+      }
+    },
+    {
+      "id": "ssc-cpo-084",
+      "section": "gk",
+      "topic": "Economy",
+      "difficulty": "hard",
+      "question": "In government budgeting, 'fiscal deficit' refers to:",
+      "options": [
+        "Revenue expenditure minus revenue receipts",
+        "Fiscal deficit minus interest payments",
+        "Total expenditure minus total receipts excluding borrowings",
+        "Value of imports minus value of exports"
+      ],
+      "answer": 2,
+      "explanation": "Fiscal deficit = total expenditure − (revenue receipts + non-debt capital receipts), i.e. the government's borrowing requirement. The other options define revenue deficit, primary deficit and trade deficit.",
+      "source": "ai",
+      "archetype": "ssc-cpo-G10",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Fiscal deficit definition with revenue/primary traps; CPO"
+      }
+    },
+    {
+      "id": "ssc-cpo-088",
+      "section": "gk",
+      "topic": "Art & Culture",
+      "difficulty": "medium",
+      "question": "The Brihadeeswarar Temple at Thanjavur was built by which ruler?",
+      "options": [
+        "Rajaraja Chola I",
+        "Rajendra Chola I",
+        "Narasimhavarman I",
+        "Krishnadevaraya"
+      ],
+      "answer": 0,
+      "explanation": "Rajaraja Chola I completed the temple around 1010 CE; it is part of the 'Great Living Chola Temples' World Heritage Site.",
+      "source": "ai",
+      "archetype": "ssc-cpo-G16",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Brihadeeswarar–Rajaraja I with Rajendra trap; CPO"
+      }
+    },
+    {
+      "id": "ssc-cpo-089",
+      "section": "gk",
+      "topic": "Defence & Static GK",
+      "difficulty": "easy",
+      "question": "Which force is popularly known as the 'Black Cats'?",
+      "options": [
+        "Indo-Tibetan Border Police",
+        "National Security Guard",
+        "Central Industrial Security Force",
+        "Sashastra Seema Bal"
+      ],
+      "answer": 1,
+      "explanation": "The NSG commandos are known as 'Black Cats' because of their black uniforms.",
+      "source": "ai",
+      "archetype": "ssc-cpo-G19",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "NSG Black Cats; CPO defence"
+      }
+    },
+    {
+      "id": "ssc-cpo-091",
+      "section": "quant",
+      "topic": "Number System",
+      "difficulty": "medium",
+      "question": "What is the remainder when 3⁴⁵ is divided by 8?",
+      "options": [
+        "1",
+        "5",
+        "7",
+        "3"
+      ],
+      "answer": 3,
+      "explanation": "3² = 9 ≡ 1 (mod 8). 3⁴⁵ = (3²)²² × 3 ≡ 3 (mod 8).",
+      "source": "ai",
+      "archetype": "ssc-cpo-Q01",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "3^45 mod 8 via 9≡1; CPO"
+      }
+    },
+    {
+      "id": "ssc-cpo-092",
+      "section": "quant",
+      "topic": "Number System",
+      "difficulty": "medium",
+      "question": "What is the least number which, when divided by 6, 9 and 15, leaves a remainder of 4 in each case?",
+      "options": [
+        "94",
+        "90",
+        "184",
+        "64"
+      ],
+      "answer": 0,
+      "explanation": "LCM of 6, 9, 15 = 90, so the least such number is 90 + 4 = 94.",
+      "source": "ai",
+      "archetype": "ssc-cpo-Q02",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "LCM + remainder; CPO"
+      }
+    },
+    {
+      "id": "ssc-cpo-093",
+      "section": "quant",
+      "topic": "Percentage",
+      "difficulty": "easy",
+      "question": "The population of a town increases by 10% in the first year and decreases by 10% in the second year. If the present population is 50,000, what will it be after two years?",
+      "options": [
+        "50,000",
+        "49,500",
+        "50,500",
+        "49,000"
+      ],
+      "answer": 1,
+      "explanation": "50000 × 1.1 × 0.9 = 49,500 (a net fall of 1%).",
+      "source": "ai",
+      "archetype": "ssc-cpo-Q03",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "+10% −10% population; CPO"
+      }
+    },
+    {
+      "id": "ssc-cpo-094",
+      "section": "quant",
+      "topic": "Profit & Loss",
+      "difficulty": "hard",
+      "question": "A shopkeeper sells two watches for ₹4,800 each. On one he gains 20% and on the other he loses 20%. What is his overall gain or loss?",
+      "options": [
+        "Gain of ₹400",
+        "No profit, no loss",
+        "Loss of ₹400",
+        "Loss of ₹200"
+      ],
+      "answer": 2,
+      "explanation": "CPs are 4800/1.2 = ₹4,000 and 4800/0.8 = ₹6,000. Total CP = 10,000, total SP = 9,600, so loss = ₹400.",
+      "source": "ai",
+      "archetype": "ssc-cpo-Q06",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Same SP ±20% loss in rupees; CPO"
+      }
+    },
+    {
+      "id": "ssc-cpo-096",
+      "section": "quant",
+      "topic": "Simple & Compound Interest",
+      "difficulty": "medium",
+      "question": "The difference between the compound interest (compounded annually) and the simple interest on a sum for 2 years at 8% per annum is ₹96. What is the sum?",
+      "options": [
+        "₹15,000",
+        "₹12,000",
+        "₹16,000",
+        "₹18,000"
+      ],
+      "answer": 0,
+      "explanation": "For 2 years, CI − SI = P(r/100)² = P × 0.0064 = 96, so P = ₹15,000.",
+      "source": "ai",
+      "archetype": "ssc-cpo-Q08",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "CI−SI = P(r/100)² reverse; CPO"
+      }
+    },
+    {
+      "id": "ssc-cpo-097",
+      "section": "quant",
+      "topic": "Ratio & Proportion",
+      "difficulty": "medium",
+      "question": "Two numbers are in the ratio 4 : 7. If 6 is added to each number, the ratio becomes 2 : 3. What is the larger number?",
+      "options": [
+        "12",
+        "21",
+        "28",
+        "18"
+      ],
+      "answer": 1,
+      "explanation": "(4x + 6)/(7x + 6) = 2/3 → 12x + 18 = 14x + 12 → x = 3. Larger number = 7 × 3 = 21.",
+      "source": "ai",
+      "archetype": "ssc-cpo-Q10",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Ratio after adding 6; CPO"
+      }
+    },
+    {
+      "id": "ssc-cpo-098",
+      "section": "quant",
+      "topic": "Mixture & Alligation",
+      "difficulty": "hard",
+      "question": "In what ratio must rice costing ₹42 per kg be mixed with rice costing ₹54 per kg so that the mixture costs ₹50 per kg?",
+      "options": [
+        "2 : 1",
+        "2 : 3",
+        "1 : 2",
+        "3 : 4"
+      ],
+      "answer": 2,
+      "explanation": "By alligation: (54 − 50) : (50 − 42) = 4 : 8 = 1 : 2.",
+      "source": "ai",
+      "archetype": "ssc-cpo-Q11",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Alligation of rice prices with reversed-ratio trap; CPO"
+      }
+    },
+    {
+      "id": "ssc-cpo-099",
+      "section": "quant",
+      "topic": "Time & Work",
+      "difficulty": "medium",
+      "question": "A is twice as efficient as B. Working together, they finish a piece of work in 14 days. In how many days can A alone finish the work?",
+      "options": [
+        "21",
+        "28",
+        "42",
+        "18"
+      ],
+      "answer": 0,
+      "explanation": "Efficiencies 2 : 1; total work = 3 × 14 = 42 units. A alone: 42/2 = 21 days.",
+      "source": "ai",
+      "archetype": "ssc-cpo-Q13",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Efficiency ratio work; CPO"
+      }
+    },
+    {
+      "id": "ssc-cpo-100",
+      "section": "quant",
+      "topic": "Time, Speed & Distance",
+      "difficulty": "medium",
+      "question": "A boat covers 30 km downstream in 2 hours and the same distance upstream in 3 hours. What is the speed of the stream?",
+      "options": [
+        "5 km/h",
+        "12.5 km/h",
+        "3 km/h",
+        "2.5 km/h"
+      ],
+      "answer": 3,
+      "explanation": "Downstream speed = 15 km/h, upstream = 10 km/h. Stream speed = (15 − 10)/2 = 2.5 km/h.",
+      "source": "ai",
+      "archetype": "ssc-cpo-Q16",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Stream speed from down/up times; CPO"
+      }
+    },
+    {
+      "id": "ssc-cpo-101",
+      "section": "quant",
+      "topic": "Algebra",
+      "difficulty": "hard",
+      "question": "If x + 1/x = 2√3, what is the value of x³ + 1/x³?",
+      "options": [
+        "24√3",
+        "18√3",
+        "12√3",
+        "6√3"
+      ],
+      "answer": 1,
+      "explanation": "x³ + 1/x³ = (x + 1/x)³ − 3(x + 1/x) = 24√3 − 6√3 = 18√3.",
+      "source": "ai",
+      "archetype": "ssc-cpo-Q17",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "x+1/x=2√3 cube; CPO algebra"
+      }
+    },
+    {
+      "id": "ssc-cpo-102",
+      "section": "quant",
+      "topic": "Geometry",
+      "difficulty": "medium",
+      "question": "ABCD is a cyclic quadrilateral in which ∠A = (2x + 10)° and ∠C = (3x + 20)°. What is the measure of ∠A?",
+      "options": [
+        "70°",
+        "110°",
+        "60°",
+        "80°"
+      ],
+      "answer": 0,
+      "explanation": "Opposite angles of a cyclic quadrilateral are supplementary: 5x + 30 = 180, x = 30. ∠A = 70°.",
+      "source": "ai",
+      "archetype": "ssc-cpo-Q20",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Cyclic quadrilateral opposite angles; CPO"
+      }
+    },
+    {
+      "id": "ssc-cpo-103",
+      "section": "quant",
+      "topic": "Mensuration",
+      "difficulty": "medium",
+      "question": "The sides of a triangle are 13 cm, 14 cm and 15 cm. What is its area?",
+      "options": [
+        "91 cm²",
+        "72 cm²",
+        "96 cm²",
+        "84 cm²"
+      ],
+      "answer": 3,
+      "explanation": "s = 21. Area = √(21 × 8 × 7 × 6) = √7056 = 84 cm².",
+      "source": "ai",
+      "archetype": "ssc-cpo-Q22",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Heron 13-14-15; CPO"
+      }
+    },
+    {
+      "id": "ssc-cpo-104",
+      "section": "quant",
+      "topic": "Trigonometry",
+      "difficulty": "medium",
+      "question": "What is the value of sin² 25° + sin² 65° + tan 30° × tan 60°?",
+      "options": [
+        "1",
+        "3",
+        "2",
+        "3/2"
+      ],
+      "answer": 2,
+      "explanation": "sin² 65° = cos² 25°, so the first two terms sum to 1; tan 30° × tan 60° = 1. Total = 2.",
+      "source": "ai",
+      "archetype": "ssc-cpo-Q24",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Complementary sin² + tan30 tan60; CPO"
+      }
+    },
+    {
+      "id": "ssc-cpo-105",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "medium",
+      "question": "The annual expenditure (in ₹ thousand) of a family is: Food – 96, Rent – 72, Education – 48, Travel – 24, Others – 60. What percentage of the total expenditure is spent on Education?",
+      "options": [
+        "18%",
+        "20%",
+        "12%",
+        "16%"
+      ],
+      "answer": 3,
+      "explanation": "Total = 300. Education = 48/300 × 100 = 16%.",
+      "source": "ai",
+      "archetype": "ssc-cpo-Q26",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Share of expenditure %; CPO DI"
+      }
+    },
+    {
+      "id": "ssc-cpo-106",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\nDigital payments have made life remarkably convenient, but they have also opened the door to a new kind of crime. Fraudsters no longer need to break into a house; a single phone call or a cleverly worded message is often enough. Posing as bank officials, delivery agents or even police officers, they create a sense of urgency and persuade victims to share one-time passwords or to click on harmful links. Older citizens and first-time internet users are particularly vulnerable, but educated professionals are by no means immune. Experts insist that awareness is the strongest defence. Banks never ask customers to reveal their passwords, and genuine officials do not demand immediate payment over the phone. Victims are advised to report fraud at once on the national cyber-crime helpline 1930, because money can often be frozen if the complaint reaches the bank within the first few hours.\n\nAccording to the passage, how do fraudsters usually persuade their victims?",
+      "options": [
+        "By breaking into their houses at night",
+        "By posing as trusted officials and creating a sense of urgency",
+        "By offering them jobs in banks",
+        "By sending them free mobile phones"
+      ],
+      "answer": 1,
+      "explanation": "The passage says they pose as bank officials, delivery agents or police and create a sense of urgency.",
+      "source": "ai",
+      "archetype": "ssc-cpo-E01",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Factual RC cyber fraud; CPO"
+      }
+    },
+    {
+      "id": "ssc-cpo-107",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nDigital payments have made life remarkably convenient, but they have also opened the door to a new kind of crime. Fraudsters no longer need to break into a house; a single phone call or a cleverly worded message is often enough. Posing as bank officials, delivery agents or even police officers, they create a sense of urgency and persuade victims to share one-time passwords or to click on harmful links. Older citizens and first-time internet users are particularly vulnerable, but educated professionals are by no means immune. Experts insist that awareness is the strongest defence. Banks never ask customers to reveal their passwords, and genuine officials do not demand immediate payment over the phone. Victims are advised to report fraud at once on the national cyber-crime helpline 1930, because money can often be frozen if the complaint reaches the bank within the first few hours.\n\nWhich of the following can be inferred from the passage?",
+      "options": [
+        "Reporting a fraud quickly improves the chance of recovering the money",
+        "Only elderly people fall prey to online fraud",
+        "Banks often ask customers to share their passwords",
+        "Digital payments should be banned to stop fraud"
+      ],
+      "answer": 0,
+      "explanation": "The passage says money can often be frozen if the complaint reaches the bank within the first few hours; the other options contradict it.",
+      "source": "ai",
+      "archetype": "ssc-cpo-E02",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Inference RC; CPO"
+      }
+    },
+    {
+      "id": "ssc-cpo-108",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nDigital payments have made life remarkably convenient, but they have also opened the door to a new kind of crime. Fraudsters no longer need to break into a house; a single phone call or a cleverly worded message is often enough. Posing as bank officials, delivery agents or even police officers, they create a sense of urgency and persuade victims to share one-time passwords or to click on harmful links. Older citizens and first-time internet users are particularly vulnerable, but educated professionals are by no means immune. Experts insist that awareness is the strongest defence. Banks never ask customers to reveal their passwords, and genuine officials do not demand immediate payment over the phone. Victims are advised to report fraud at once on the national cyber-crime helpline 1930, because money can often be frozen if the complaint reaches the bank within the first few hours.\n\nSelect the most appropriate synonym of the word 'immune' as used in the passage.",
+      "options": [
+        "Exposed",
+        "Indifferent",
+        "Resistant",
+        "Ignorant"
+      ],
+      "answer": 2,
+      "explanation": "'By no means immune' means not protected – 'immune' here means resistant. 'Exposed' is the opposite.",
+      "source": "ai",
+      "archetype": "ssc-cpo-E03",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Contextual synonym 'immune'; CPO"
+      }
+    },
+    {
+      "id": "ssc-cpo-109",
       "section": "english",
       "topic": "Cloze Test",
       "difficulty": "medium",
-      "question": "Read the passage and select the most appropriate option for the numbered blank.\n\nCommunity policing is based on the idea that the police and the public are partners. When officers walk the same streets every day, residents begin to (1) ______ them and share information more freely. This trust, in turn, helps the police to (2) ______ crimes before they happen.\n\nSelect the most appropriate option for blank (1).",
+      "question": "Read the passage and select the most appropriate option for the numbered blank.\n\nA good police officer must be both firm and fair. Citizens are more likely to (1) ______ the law when they believe it is applied equally to all. An officer who loses his temper or shows (2) ______ towards one group quickly loses the public's respect. Patience, (3) ______, is as important as physical strength. Officers who listen carefully to complaints often (4) ______ disputes before they turn violent, and in doing so they (5) ______ the trust on which effective policing depends.\n\nSelect the most appropriate option for blank (2).",
       "options": [
-        "trust",
-        "fear",
-        "avoid",
-        "ignore"
+        "courtesy",
+        "honesty",
+        "favouritism",
+        "gratitude"
       ],
-      "answer": 0,
-      "explanation": "The next sentence refers to 'This trust', so residents begin to trust the officers.",
-      "verified": true
+      "answer": 2,
+      "explanation": "Showing unfair preference (favouritism) towards one group would lose public respect; the other qualities would not.",
+      "source": "ai",
+      "archetype": "ssc-cpo-E04",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Cloze 'favouritism'; CPO"
+      }
     },
     {
-      "id": "ssc-cpo-060",
+      "id": "ssc-cpo-110",
       "section": "english",
       "topic": "Cloze Test",
-      "difficulty": "easy",
-      "question": "Read the passage and select the most appropriate option for the numbered blank.\n\nCommunity policing is based on the idea that the police and the public are partners. When officers walk the same streets every day, residents begin to (1) ______ them and share information more freely. This trust, in turn, helps the police to (2) ______ crimes before they happen.\n\nSelect the most appropriate option for blank (2).",
+      "difficulty": "medium",
+      "question": "Read the passage and select the most appropriate option for the numbered blank.\n\nA good police officer must be both firm and fair. Citizens are more likely to (1) ______ the law when they believe it is applied equally to all. An officer who loses his temper or shows (2) ______ towards one group quickly loses the public's respect. Patience, (3) ______, is as important as physical strength. Officers who listen carefully to complaints often (4) ______ disputes before they turn violent, and in doing so they (5) ______ the trust on which effective policing depends.\n\nSelect the most appropriate option for blank (4).",
       "options": [
-        "commit",
-        "prevent",
-        "encourage",
-        "report"
+        "provoke",
+        "prolong",
+        "ignore",
+        "resolve"
+      ],
+      "answer": 3,
+      "explanation": "Officers who listen carefully settle (resolve) disputes before they turn violent.",
+      "source": "ai",
+      "archetype": "ssc-cpo-E04",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Cloze 'resolve'; CPO"
+      }
+    },
+    {
+      "id": "ssc-cpo-111",
+      "section": "english",
+      "topic": "Synonyms",
+      "difficulty": "medium",
+      "question": "Select the most appropriate synonym of the given word.\nCANDOUR",
+      "options": [
+        "Deceit",
+        "Frankness",
+        "Courage",
+        "Modesty"
       ],
       "answer": 1,
-      "explanation": "Acting 'before they happen' means the police can prevent crimes.",
-      "verified": true
+      "explanation": "Candour is the quality of being open and honest – frankness. Deceit is its opposite.",
+      "source": "ai",
+      "archetype": "ssc-cpo-E07",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "CANDOUR→Frankness; CPO"
+      }
+    },
+    {
+      "id": "ssc-cpo-112",
+      "section": "english",
+      "topic": "Antonyms",
+      "difficulty": "medium",
+      "question": "Select the most appropriate antonym of the given word.\nOBSCURE",
+      "options": [
+        "Evident",
+        "Vague",
+        "Hidden",
+        "Ambiguous"
+      ],
+      "answer": 0,
+      "explanation": "Obscure means unclear or hidden; its antonym is evident. The other options are synonyms.",
+      "source": "ai",
+      "archetype": "ssc-cpo-E08",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "OBSCURE antonym with synonym traps; CPO"
+      }
+    },
+    {
+      "id": "ssc-cpo-114",
+      "section": "english",
+      "topic": "One-word Substitution",
+      "difficulty": "medium",
+      "question": "Select the option that can be used as a one-word substitute for the given group of words.\nGovernment in which power rests with a small group of people",
+      "options": [
+        "Monarchy",
+        "Oligarchy",
+        "Democracy",
+        "Anarchy"
+      ],
+      "answer": 1,
+      "explanation": "Oligarchy is rule by a few; monarchy by one ruler, democracy by the people, anarchy is the absence of government.",
+      "source": "ai",
+      "archetype": "ssc-cpo-E10",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Oligarchy OWS; CPO"
+      }
+    },
+    {
+      "id": "ssc-cpo-115",
+      "section": "english",
+      "topic": "Error Spotting",
+      "difficulty": "medium",
+      "question": "The following sentence has been divided into parts. One of them may contain an error. Select the part that contains the error, or 'No error'.\nMathematics are / my favourite subject / at school",
+      "options": [
+        "Mathematics are",
+        "my favourite subject",
+        "at school",
+        "No error"
+      ],
+      "answer": 0,
+      "explanation": "'Mathematics' is singular in meaning, so it takes 'is': 'Mathematics is my favourite subject.'",
+      "source": "ai",
+      "archetype": "ssc-cpo-E12",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Mathematics is singular; CPO"
+      }
+    },
+    {
+      "id": "ssc-cpo-116",
+      "section": "english",
+      "topic": "Error Spotting",
+      "difficulty": "hard",
+      "question": "The following sentence has been divided into parts. One of them may contain an error. Select the part that contains the error, or 'No error'.\nOf the two candidates, / Ramesh is / the best suited for the post",
+      "options": [
+        "Of the two candidates,",
+        "Ramesh is",
+        "the best suited for the post",
+        "No error"
+      ],
+      "answer": 2,
+      "explanation": "When two people are compared, the comparative is used: 'the better suited', not 'the best suited'.",
+      "source": "ai",
+      "archetype": "ssc-cpo-E13",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Of the two … best → better; CPO comparative"
+      }
+    },
+    {
+      "id": "ssc-cpo-117",
+      "section": "english",
+      "topic": "Sentence Improvement",
+      "difficulty": "medium",
+      "question": "Select the most appropriate option that can substitute the bracketed part of the sentence.\nUnless you [do not work] hard, you will not pass the examination.",
+      "options": [
+        "will not work",
+        "did not work",
+        "No substitution required",
+        "work"
+      ],
+      "answer": 3,
+      "explanation": "'Unless' already means 'if not', so another 'not' is wrong: 'Unless you work hard…'.",
+      "source": "ai",
+      "archetype": "ssc-cpo-E14",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Unless … do not double negative; CPO"
+      }
+    },
+    {
+      "id": "ssc-cpo-118",
+      "section": "english",
+      "topic": "Active & Passive Voice",
+      "difficulty": "medium",
+      "question": "Select the option that expresses the given sentence in active voice.\nThe thief was being chased by the constable.",
+      "options": [
+        "The constable chased the thief.",
+        "The constable has been chasing the thief.",
+        "The constable was chasing the thief.",
+        "The constable is chasing the thief."
+      ],
+      "answer": 2,
+      "explanation": "'Was being + V3' is past continuous passive; the active form is 'was chasing'.",
+      "source": "ai",
+      "archetype": "ssc-cpo-E15",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Passive→active past continuous; CPO"
+      }
+    },
+    {
+      "id": "ssc-cpo-119",
+      "section": "english",
+      "topic": "Direct & Indirect Speech",
+      "difficulty": "hard",
+      "question": "Select the option that expresses the given sentence in indirect speech.\nThe inspector said to the guard, \"Do not let anyone enter the room.\"",
+      "options": [
+        "The inspector ordered the guard that do not let anyone enter the room.",
+        "The inspector told the guard not to let anyone entered the room.",
+        "The inspector said to the guard to not let anyone enter the room.",
+        "The inspector ordered the guard not to let anyone enter the room."
+      ],
+      "answer": 3,
+      "explanation": "A negative command is reported with 'ordered/told + object + not to + base verb'.",
+      "source": "ai",
+      "archetype": "ssc-cpo-E16",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Negative imperative → ordered not to; CPO"
+      }
+    },
+    {
+      "id": "ssc-cpo-120",
+      "section": "english",
+      "topic": "Fill in the Blanks",
+      "difficulty": "medium",
+      "question": "Select the most appropriate option to fill in the blank.\nThe suspect gave an ______ account of his whereabouts, which made the police doubt his story.",
+      "options": [
+        "inconsistent",
+        "accurate",
+        "honest",
+        "authentic"
+      ],
+      "answer": 0,
+      "explanation": "An inconsistent account (one that contradicts itself) would make the police doubt the story.",
+      "source": "ai",
+      "archetype": "ssc-cpo-E05",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Inconsistent account blank; CPO"
+      }
+    },
+    {
+      "id": "ssc-cpo-121",
+      "section": "reasoning",
+      "topic": "Seating Arrangement & Puzzles",
+      "difficulty": "hard",
+      "question": "Six friends A, B, C, D, E and F are sitting around a circular table, facing the centre. A sits second to the right of B. C sits immediately to the left of A. D sits opposite C. E is not an immediate neighbour of B.\nWho sits immediately to the left of B?",
+      "options": [
+        "F",
+        "E",
+        "D",
+        "C"
+      ],
+      "answer": 0,
+      "explanation": "C is between B and A (C is immediately right of B). D is opposite C, which leaves the seat immediately left of B and the seat between D and A for E and F. Since E is not B's neighbour, F sits immediately to the left of B.",
+      "source": "ai",
+      "archetype": "ssc-cpo-R27",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "6-person circular, 4 clues, unique arrangement (F left of B); CPO-level seating"
+      }
+    },
+    {
+      "id": "ssc-cpo-122",
+      "section": "reasoning",
+      "topic": "Missing Number",
+      "difficulty": "hard",
+      "question": "Select the number that will come in place of the question mark (?) in the following series.\n4, 5, 12, ?, 160, 805",
+      "options": [
+        "39",
+        "42",
+        "36",
+        "40"
+      ],
+      "answer": 0,
+      "explanation": "Rule ×1 + 1, ×2 + 2, ×3 + 3, ×4 + 4, ×5 + 5: 4→5→12→39→160→805 (12 × 3 + 3 = 39; 39 × 4 + 4 = 160).",
+      "source": "ai",
+      "archetype": "ssc-cpo-R18",
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "×n+n missing middle term series is exactly the CPO archetype"
+      }
+    },
+    {
+      "id": "ssc-cpo-124",
+      "section": "reasoning",
+      "topic": "Blood Relations",
+      "difficulty": "medium",
+      "question": "Pointing to a girl, Suresh said, \"She is the daughter of the only sister of my father's only son.\" How is the girl related to Suresh?",
+      "options": [
+        "Daughter",
+        "Niece",
+        "Sister",
+        "Cousin"
+      ],
+      "answer": 1,
+      "explanation": "Suresh's father's only son is Suresh himself; his only sister's daughter is Suresh's niece.",
+      "source": "ai",
+      "archetype": "ssc-cpo-R12",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "'Father's only son' = speaker trap; standard pointing-relation, slightly easy"
+      }
+    },
+    {
+      "id": "ssc-cpo-125",
+      "section": "gk",
+      "topic": "Defence & Static GK",
+      "difficulty": "medium",
+      "question": "The Sashastra Seema Bal (SSB) guards India's borders with which countries?",
+      "options": [
+        "Bangladesh and Myanmar",
+        "China and Nepal",
+        "Nepal and Bhutan",
+        "Pakistan and Bangladesh"
+      ],
+      "answer": 2,
+      "explanation": "SSB is the border guarding force for the Indo-Nepal and Indo-Bhutan borders. ITBP guards the China border and Assam Rifles the Myanmar border.",
+      "source": "ai",
+      "archetype": "ssc-cpo-G19",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Border-guarding force (SSB: Nepal, Bhutan) is core CPO/CAPF GK"
+      }
+    },
+    {
+      "id": "ssc-cpo-126",
+      "section": "gk",
+      "topic": "Defence & Static GK",
+      "difficulty": "medium",
+      "question": "'Yudh Abhyas' is a joint military exercise between India and which country?",
+      "options": [
+        "United States of America",
+        "France",
+        "Russia",
+        "Japan"
+      ],
+      "answer": 0,
+      "explanation": "Yudh Abhyas is the India–US army exercise. Shakti is with France, INDRA with Russia and Dharma Guardian with Japan.",
+      "source": "ai",
+      "archetype": "ssc-cpo-G19",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Joint exercise-country pairing (Yudh Abhyas/USA) is a regular CPO defence item"
+      }
+    },
+    {
+      "id": "ssc-cpo-127",
+      "section": "gk",
+      "topic": "Defence & Static GK",
+      "difficulty": "medium",
+      "question": "Which is India's highest peacetime gallantry award?",
+      "options": [
+        "Param Vir Chakra",
+        "Kirti Chakra",
+        "Shaurya Chakra",
+        "Ashoka Chakra"
+      ],
+      "answer": 3,
+      "explanation": "The Ashoka Chakra is the highest peacetime gallantry award; the Param Vir Chakra is the highest wartime award.",
+      "source": "ai",
+      "archetype": "ssc-cpo-G19",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Highest peacetime gallantry award is asked in CPO; quite easy but faithful"
+      }
+    },
+    {
+      "id": "ssc-cpo-128",
+      "section": "gk",
+      "topic": "History",
+      "difficulty": "medium",
+      "question": "Who was the founder of the Pala dynasty of Bengal?",
+      "options": [
+        "Dharmapala",
+        "Gopala",
+        "Devapala",
+        "Mahipala"
+      ],
+      "answer": 1,
+      "explanation": "Gopala was elected king around 750 CE and founded the Pala dynasty; Dharmapala founded Vikramashila university.",
+      "source": "ai",
+      "archetype": "ssc-cpo-G01",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Dynasty founder (Gopala, Pala) with successor kings as distractors, standard SSC"
+      }
+    },
+    {
+      "id": "ssc-cpo-129",
+      "section": "gk",
+      "topic": "History",
+      "difficulty": "medium",
+      "question": "The 'Doctrine of Lapse' was applied by which Governor-General to annex states such as Satara and Jhansi?",
+      "options": [
+        "Lord Wellesley",
+        "Lord William Bentinck",
+        "Lord Canning",
+        "Lord Dalhousie"
+      ],
+      "answer": 3,
+      "explanation": "Lord Dalhousie used the Doctrine of Lapse; Lord Wellesley introduced the Subsidiary Alliance.",
+      "source": "ai",
+      "archetype": "ssc-cpo-G02",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Policy-to-Governor-General (Doctrine of Lapse) is a high-frequency SSC item"
+      }
+    },
+    {
+      "id": "ssc-cpo-130",
+      "section": "gk",
+      "topic": "Polity",
+      "difficulty": "hard",
+      "question": "The Chief Election Commissioner of India can be removed from office only in the same manner and on the same grounds as:",
+      "options": [
+        "a judge of the Supreme Court",
+        "a member of the Union Public Service Commission",
+        "the Attorney General of India",
+        "the Governor of a State"
+      ],
+      "answer": 0,
+      "explanation": "Article 324(5): the CEC can be removed only like a Supreme Court judge – by an address of both Houses on proved misbehaviour or incapacity.",
+      "source": "ai",
+      "archetype": "ssc-cpo-G05",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "CEC removal like SC judge; other offices as distractors match CPO polity"
+      }
+    },
+    {
+      "id": "ssc-cpo-131",
+      "section": "gk",
+      "topic": "Geography",
+      "difficulty": "medium",
+      "question": "The Siachen Glacier lies in which mountain range?",
+      "options": [
+        "Pir Panjal",
+        "Zanskar",
+        "Karakoram",
+        "Dhauladhar"
+      ],
+      "answer": 2,
+      "explanation": "Siachen, one of the longest non-polar glaciers, lies in the eastern Karakoram range.",
+      "source": "ai",
+      "archetype": "ssc-cpo-G06",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Glacier-range pairing (Siachen, Karakoram) is SSC Indian geography; easy-ish"
+      }
+    },
+    {
+      "id": "ssc-cpo-133",
+      "section": "gk",
+      "topic": "Chemistry",
+      "difficulty": "medium",
+      "question": "Stainless steel is an alloy of iron mainly with:",
+      "options": [
+        "copper and zinc",
+        "tin and lead",
+        "chromium and nickel",
+        "aluminium and magnesium"
+      ],
+      "answer": 2,
+      "explanation": "Stainless steel contains iron with chromium (which resists rusting), nickel and a little carbon. Copper and zinc make brass.",
+      "source": "ai",
+      "archetype": "ssc-cpo-G12",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Alloy composition (stainless steel) is a staple SSC chemistry question"
+      }
+    },
+    {
+      "id": "ssc-cpo-134",
+      "section": "gk",
+      "topic": "Art & Culture",
+      "difficulty": "hard",
+      "question": "The Sun Temple at Modhera in Gujarat was built during the reign of Bhima I of which dynasty?",
+      "options": [
+        "Paramara",
+        "Chandela",
+        "Gurjara-Pratihara",
+        "Chaulukya (Solanki)"
+      ],
+      "answer": 3,
+      "explanation": "The Modhera Sun Temple (1026–27 CE) was built under Bhima I of the Chaulukya (Solanki) dynasty.",
+      "source": "ai",
+      "archetype": "ssc-cpo-G16",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Modhera Sun Temple/Chaulukya with contemporaneous Rajput dynasties as traps, strong SSC culture item"
+      }
+    },
+    {
+      "id": "ssc-cpo-135",
+      "section": "gk",
+      "topic": "Current Affairs",
+      "difficulty": "medium",
+      "question": "Which Indian city was confirmed in November 2025 as the host of the 2030 Commonwealth Games?",
+      "options": [
+        "Ahmedabad",
+        "New Delhi",
+        "Bhubaneswar",
+        "Hyderabad"
+      ],
+      "answer": 0,
+      "explanation": "The Commonwealth Games Federation General Assembly in Glasgow (November 2025) confirmed Ahmedabad as host of the centenary 2030 Games.",
+      "source": "ai",
+      "archetype": "ssc-cpo-G17",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "CWG 2030 to Ahmedabad (ratified 26 Nov 2025, verified) is a top 2025-26 CA item"
+      }
+    },
+    {
+      "id": "ssc-cpo-136",
+      "section": "quant",
+      "topic": "Geometry",
+      "difficulty": "hard",
+      "question": "In triangle ABC, I is the incentre. If ∠A = 70°, what is the measure of ∠BIC?",
+      "options": [
+        "110°",
+        "125°",
+        "140°",
+        "145°"
+      ],
+      "answer": 1,
+      "explanation": "∠BIC = 90° + ∠A/2 = 90° + 35° = 125°. (180° − 70° = 110° and 2 × 70° = 140° are common slips.)",
+      "source": "ai",
+      "archetype": "ssc-cpo-Q19",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "∠BIC=90+A/2 incentre angle is an exact CPO geometry staple"
+      }
+    },
+    {
+      "id": "ssc-cpo-137",
+      "section": "quant",
+      "topic": "Geometry",
+      "difficulty": "hard",
+      "question": "The numbers of sides of two regular polygons are in the ratio 1 : 2 and their interior angles are in the ratio 3 : 4. How many sides does the smaller polygon have?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "5"
+      ],
+      "answer": 3,
+      "explanation": "Interior angles: 180(n − 2)/n and 180(2n − 2)/(2n). Ratio = (n − 2)/(n − 1) = 3/4 ⇒ n = 5.",
+      "source": "ai",
+      "archetype": "ssc-cpo-Q21",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Polygon side/interior-angle ratio problem; algebra n=5 checks; typical CPO"
+      }
+    },
+    {
+      "id": "ssc-cpo-138",
+      "section": "quant",
+      "topic": "Trigonometry",
+      "difficulty": "medium",
+      "question": "What is the value of (sin 35° cos 55° + cos 35° sin 55°) ÷ (cosec² 10° − tan² 80°)?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "1/2"
+      ],
+      "answer": 1,
+      "explanation": "cos 55° = sin 35° and sin 55° = cos 35°, so the numerator is sin²35° + cos²35° = 1. tan 80° = cot 10°, so the denominator is cosec²10° − cot²10° = 1. Value = 1.",
+      "source": "ai",
+      "archetype": "ssc-cpo-Q24",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Complementary-angle simplification (cosec²10−tan²80=1) exactly the CPO trig format"
+      }
+    },
+    {
+      "id": "ssc-cpo-139",
+      "section": "quant",
+      "topic": "Algebra",
+      "difficulty": "hard",
+      "question": "If x = 2 + √3, what is the value of x² + 1/x²?",
+      "options": [
+        "16",
+        "12",
+        "14",
+        "18"
+      ],
+      "answer": 2,
+      "explanation": "1/x = 2 − √3, so x + 1/x = 4 and x² + 1/x² = 4² − 2 = 14.",
+      "source": "ai",
+      "archetype": "ssc-cpo-Q17",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "x=2+√3 reciprocal identity; 16/12/18 from ±2 slips, faithful"
+      }
     }
   ]
 }

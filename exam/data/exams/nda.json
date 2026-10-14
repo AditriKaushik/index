@@ -264,6 +264,760 @@
     "officialMock": null,
     "notes": "UPSC posts NDA question papers on upsc.gov.in (Previous Question Papers) after each exam. Official answer keys appear only after the final result of that cycle."
   },
+  "pyqBlueprint": {
+    "yearsCovered": [
+      2024,
+      2025,
+      2026
+    ],
+    "method": "Built from the official NDA & NA (I) and (II) question papers that UPSC publishes, and from post-exam topic-wise analyses (Careers360, SSBCrack, Doon Defence Dreamers, Target Classes) for 2024–2025. The NDA 1 2024 maths split, for example, was about 18 algebra, 10 matrices, 11 trigonometry, 15 analytical geometry, 22 calculus with DE, 5 vectors and 19 statistics & probability, and NDA 2 2025 again stressed calculus and trigonometry. 2026 is covered from memory-based analyses and the writer's own knowledge; full analysis pages could not be fetched, and WebSearch returned only summaries. Patterns are described in our own words.",
+    "archetypes": [
+      {
+        "id": "nda-M01",
+        "section": "maths",
+        "topic": "Algebra",
+        "pattern": "Complex numbers: powers of i, cube roots of unity ω, modulus/argument or simplifying a quotient; distractors are ±1, ±i or ω/ω².",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "3–4 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nda-M02",
+        "section": "maths",
+        "topic": "Algebra",
+        "pattern": "Quadratic equations: symmetric functions of roots (α+β, αβ, α³+β³, 1/α+1/β) or the condition for equal/real roots; trap is a sign error.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nda-M03",
+        "section": "maths",
+        "topic": "Algebra",
+        "pattern": "Sequences and series: nth term or sum of AP/GP/HP from two given terms; distractors from wrong index.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "3–4 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nda-M04",
+        "section": "maths",
+        "topic": "Algebra",
+        "pattern": "Permutations and combinations: arrangements of letters with repetition, digit-formation with divisibility, selections.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "3–4 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nda-M05",
+        "section": "maths",
+        "topic": "Algebra",
+        "pattern": "Binomial theorem: middle term, coefficient of x^k or term independent of x.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nda-M06",
+        "section": "maths",
+        "topic": "Algebra",
+        "pattern": "Sets and relations: cardinality of unions/intersections, classifying a relation as reflexive/symmetric/transitive.",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "2–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nda-M07",
+        "section": "maths",
+        "topic": "Algebra",
+        "pattern": "Logarithms and number bases: evaluate nested logs or convert between binary and decimal.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "nda-M08",
+        "section": "maths",
+        "topic": "Matrices & Determinants",
+        "pattern": "Determinant properties: |kA|, |adj A|, skew-symmetric/singular matrices, determinant value without full expansion.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "4–5 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nda-M09",
+        "section": "maths",
+        "topic": "Matrices & Determinants",
+        "pattern": "Matrix algebra: products, A² − kA, inverse, symmetric/skew-symmetric parts, Cayley–Hamilton shortcuts.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "3–5 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nda-M10",
+        "section": "maths",
+        "topic": "Trigonometry",
+        "pattern": "Exact values and identities: compound/multiple angles, products like sin15°cos15°, tan75° − tan15°.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "4–6 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nda-M11",
+        "section": "maths",
+        "topic": "Trigonometry",
+        "pattern": "Quadrant signs, trigonometric equations and principal values of inverse functions (trap: value outside principal range).",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "3–4 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nda-M12",
+        "section": "maths",
+        "topic": "Trigonometry",
+        "pattern": "Properties of triangles (cosine/sine rule) and heights & distances.",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "2–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nda-M13",
+        "section": "maths",
+        "topic": "Analytical Geometry (2D & 3D)",
+        "pattern": "Straight lines: distance between parallel lines, angle between lines, slope/intercept conditions.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "3–4 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nda-M14",
+        "section": "maths",
+        "topic": "Analytical Geometry (2D & 3D)",
+        "pattern": "Conics: eccentricity, foci, latus rectum of parabola/ellipse/hyperbola, circle centre and radius.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "4–5 per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "nda-M15",
+        "section": "maths",
+        "topic": "Analytical Geometry (2D & 3D)",
+        "pattern": "3D geometry: direction cosines, distance of a point from a plane, angle between planes/lines.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "4–5 per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "nda-M16",
+        "section": "maths",
+        "topic": "Differential Calculus",
+        "pattern": "Limits and continuity: standard limits (sin x/x, (1+a/x)^x, (e^x−1)/x) and value making a function continuous.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "3–4 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nda-M17",
+        "section": "maths",
+        "topic": "Differential Calculus",
+        "pattern": "Derivatives: chain, parametric, implicit and logarithmic differentiation.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "3–4 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nda-M18",
+        "section": "maths",
+        "topic": "Differential Calculus",
+        "pattern": "Applications: maxima/minima, increasing/decreasing intervals, slope of tangent.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "3–4 per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "nda-M19",
+        "section": "maths",
+        "topic": "Differential Calculus",
+        "pattern": "Real functions: domain, range and composition of functions.",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nda-M20",
+        "section": "maths",
+        "topic": "Integral Calculus & Differential Equations",
+        "pattern": "Definite integrals using properties (odd/even, King's property ∫f(a+b−x)).",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "3–4 per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "nda-M21",
+        "section": "maths",
+        "topic": "Integral Calculus & Differential Equations",
+        "pattern": "Indefinite integrals of standard forms (1/(x²+a²), substitution, by parts).",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nda-M22",
+        "section": "maths",
+        "topic": "Integral Calculus & Differential Equations",
+        "pattern": "Area bounded by curves (parabola–line, circle).",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "nda-M23",
+        "section": "maths",
+        "topic": "Integral Calculus & Differential Equations",
+        "pattern": "Differential equations: order and degree, integrating factor, solution of variable-separable/linear equations.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "3–4 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nda-M24",
+        "section": "maths",
+        "topic": "Vector Algebra",
+        "pattern": "Dot and cross products: perpendicularity condition, projection, area of parallelogram/triangle, |a×b|² + (a·b)².",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "4–6 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nda-M25",
+        "section": "maths",
+        "topic": "Statistics & Probability",
+        "pattern": "Classical probability with dice, coins and cards (union of events, 'at least one').",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "4–5 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nda-M26",
+        "section": "maths",
+        "topic": "Statistics & Probability",
+        "pattern": "Conditional probability, independent events and Bayes' theorem with two bags/urns.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "3–4 per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "nda-M27",
+        "section": "maths",
+        "topic": "Statistics & Probability",
+        "pattern": "Measures of central tendency and dispersion: effect of scaling/shifting on mean and variance, variance of natural numbers.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "4–5 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nda-M28",
+        "section": "maths",
+        "topic": "Statistics & Probability",
+        "pattern": "Binomial distribution parameters from mean and variance; correlation and regression coefficients.",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "2–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nda-E01",
+        "section": "gat-english",
+        "topic": "Vocabulary (Synonyms & Antonyms)",
+        "pattern": "Synonym of a word used in a sentence context; distractors include a look-alike word and an antonym.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "5 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "nda-E02",
+        "section": "gat-english",
+        "topic": "Vocabulary (Synonyms & Antonyms)",
+        "pattern": "Antonym of a word used in a sentence context; one distractor is a synonym.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "5 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "nda-E03",
+        "section": "gat-english",
+        "topic": "Spotting Errors",
+        "pattern": "Sentence split into parts (a)(b)(c) plus 'No error': subject–verb agreement traps (neither–nor, 'one of', collective nouns).",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "3–4 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nda-E04",
+        "section": "gat-english",
+        "topic": "Spotting Errors",
+        "pattern": "Spotting errors in prepositions, idiomatic usage, degrees of comparison or tense.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "3–4 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nda-E05",
+        "section": "gat-english",
+        "topic": "Sentence Improvement",
+        "pattern": "Replace the bold/underlined part (conditionals, 'senior to', subjunctive) or choose 'No improvement'.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "5 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nda-E06",
+        "section": "gat-english",
+        "topic": "Fill in the Blanks",
+        "pattern": "Preposition, phrasal verb or conjunction blank in a single sentence.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "3–4 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "nda-E07",
+        "section": "gat-english",
+        "topic": "Fill in the Blanks",
+        "pattern": "Vocabulary blank: pick the contextually apt word from near-synonyms.",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "3–4 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nda-E08",
+        "section": "gat-english",
+        "topic": "Ordering of Words/Sentences",
+        "pattern": "Arrange parts P, Q, R, S into a meaningful sentence; options are four permutations.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "5–6 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nda-E09",
+        "section": "gat-english",
+        "topic": "Reading Comprehension",
+        "pattern": "Short passage with a factual/inference question answered from a specific sentence.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "5 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nda-E10",
+        "section": "gat-english",
+        "topic": "Reading Comprehension",
+        "pattern": "Passage with main-idea, author's purpose or tone question.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "2–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nda-E11",
+        "section": "gat-english",
+        "topic": "Cloze Test",
+        "pattern": "Cloze passage: choose the word for a numbered blank (collocation/meaning).",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "5 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nda-G01",
+        "section": "gat-gk",
+        "topic": "Physics",
+        "pattern": "Numerical in mechanics (kinematics, kinetic energy, projectile height) solvable in one step.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "3–4 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nda-G02",
+        "section": "gat-gk",
+        "topic": "Physics",
+        "pattern": "Optics and waves phenomena (twinkling, rainbow, speed of sound in media).",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "3–4 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nda-G03",
+        "section": "gat-gk",
+        "topic": "Physics",
+        "pattern": "Electricity and magnetism: resistors in series/parallel, fuse, household circuits.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "3–4 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nda-G04",
+        "section": "gat-gk",
+        "topic": "Chemistry",
+        "pattern": "Common names and formulas of compounds (baking soda, plaster of Paris) and gases in daily use.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "3–4 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nda-G05",
+        "section": "gat-gk",
+        "topic": "Chemistry",
+        "pattern": "Physical vs chemical change, rusting, acids–bases and properties of elements.",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "2–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nda-G06",
+        "section": "gat-gk",
+        "topic": "General Science (Biology)",
+        "pattern": "Human physiology, nutrition and diseases (vitamins, hormones, blood groups, pathogens).",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "4–5 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "nda-G07",
+        "section": "gat-gk",
+        "topic": "General Science (Biology)",
+        "pattern": "Cell and plant biology (organelles, photosynthesis).",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "2 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "nda-G08",
+        "section": "gat-gk",
+        "topic": "History & Freedom Movement",
+        "pattern": "Freedom movement events and personalities (INA, Dandi March, NCM withdrawal).",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "5–6 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nda-G09",
+        "section": "gat-gk",
+        "topic": "History & Freedom Movement",
+        "pattern": "Ancient and medieval rulers and their titles/achievements.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "3–4 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nda-G10",
+        "section": "gat-gk",
+        "topic": "History & Freedom Movement",
+        "pattern": "Battles and colonial expansion (Plassey, Buxar, Panipat) and adversaries.",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "2–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nda-G11",
+        "section": "gat-gk",
+        "topic": "Geography",
+        "pattern": "Indian physical geography: rivers (rift valley, west-flowing), passes, straits, boundaries.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "5–6 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nda-G12",
+        "section": "gat-gk",
+        "topic": "Geography",
+        "pattern": "World geography and climatology (deserts, winds, ocean features).",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "4–5 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nda-G13",
+        "section": "gat-gk",
+        "topic": "Geography",
+        "pattern": "Earth and solar system (perihelion, International Date Line, seasons).",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "2–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nda-G14",
+        "section": "gat-gk",
+        "topic": "Indian Polity",
+        "pattern": "Constitutional articles and parts (emergency provisions, Fundamental Rights, Supreme Commander).",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "3–4 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "nda-G15",
+        "section": "gat-gk",
+        "topic": "Indian Polity",
+        "pattern": "Elections and offices: electoral college, qualifications and age limits.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "3–4 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "nda-G16",
+        "section": "gat-gk",
+        "topic": "Economy",
+        "pattern": "Basic economic concepts: direct/indirect taxes, inflation terms, banking basics.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "3–4 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nda-G17",
+        "section": "gat-gk",
+        "topic": "Current Events & Defence",
+        "pattern": "Defence training institutions, ranks and equivalent ranks across services.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "4–5 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "nda-G18",
+        "section": "gat-gk",
+        "topic": "Current Events & Defence",
+        "pattern": "Bilateral/multilateral military exercises and partner countries.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "4–6 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nda-G19",
+        "section": "gat-gk",
+        "topic": "Current Events & Defence",
+        "pattern": "Indigenous defence platforms and missiles (BrahMos, INS Vikrant, Tejas): type and developer.",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "4–6 per paper",
+        "difficulty": "medium"
+      }
+    ]
+  },
   "questions": [
     {
       "id": "nda-001",
@@ -279,23 +1033,14 @@
       ],
       "answer": 2,
       "explanation": "Since 1 + ω + ω² = 0: 1 + ω − ω² = −ω² − ω² = −2ω² and 1 − ω + ω² = −ω − ω = −2ω. Product = 4ω³ = 4.",
-      "verified": true
-    },
-    {
-      "id": "nda-002",
-      "section": "maths",
-      "topic": "Algebra",
-      "difficulty": "easy",
-      "question": "If α and β are the roots of x² − 5x + 6 = 0, then α³ + β³ equals:",
-      "options": [
-        "35",
-        "27",
-        "125",
-        "91"
-      ],
-      "answer": 0,
-      "explanation": "α + β = 5 and αβ = 6, so α³ + β³ = (α + β)³ − 3αβ(α + β) = 125 − 90 = 35. Check: the roots are 2 and 3, and 8 + 27 = 35.",
-      "verified": true
+      "verified": true,
+      "archetype": "nda-M01",
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "ω-product (1+ω−ω²)(1−ω+ω²)=4 is a recurring NDA item; distractors are powers of 2"
+      }
     },
     {
       "id": "nda-003",
@@ -311,7 +1056,14 @@
       ],
       "answer": 1,
       "explanation": "DEFENCE has 7 letters with E repeated 3 times, so the count is 7!/3! = 5040/6 = 840.",
-      "verified": true
+      "verified": true,
+      "archetype": "nda-M04",
+      "source": "curated",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "DEFENCE arrangements (E×3) is an exact NDA letter-permutation item with 7!/2! style distractors"
+      }
     },
     {
       "id": "nda-004",
@@ -327,55 +1079,14 @@
       ],
       "answer": 0,
       "explanation": "There are 11 terms, so the middle term is T₆ = ¹⁰C₅ · x⁵ · (1/x)⁵ = 252.",
-      "verified": true
-    },
-    {
-      "id": "nda-005",
-      "section": "maths",
-      "topic": "Algebra",
-      "difficulty": "easy",
-      "question": "If log₂(log₃ x) = 1, then x equals:",
-      "options": [
-        "3",
-        "6",
-        "8",
-        "9"
-      ],
-      "answer": 3,
-      "explanation": "log₃ x = 2¹ = 2, so x = 3² = 9.",
-      "verified": true
-    },
-    {
-      "id": "nda-006",
-      "section": "maths",
-      "topic": "Algebra",
-      "difficulty": "easy",
-      "question": "In an arithmetic progression, the 5th term is 11 and the 11th term is 23. The 20th term is:",
-      "options": [
-        "39",
-        "41",
-        "43",
-        "45"
-      ],
-      "answer": 1,
-      "explanation": "a + 4d = 11 and a + 10d = 23 give d = 2 and a = 3. T₂₀ = 3 + 19 × 2 = 41.",
-      "verified": true
-    },
-    {
-      "id": "nda-007",
-      "section": "maths",
-      "topic": "Algebra",
-      "difficulty": "easy",
-      "question": "If n(A) = 20, n(B) = 15 and n(A ∪ B) = 28, then n(A ∩ B) is:",
-      "options": [
-        "13",
-        "8",
-        "5",
-        "7"
-      ],
-      "answer": 3,
-      "explanation": "n(A ∩ B) = n(A) + n(B) − n(A ∪ B) = 20 + 15 − 28 = 7.",
-      "verified": true
+      "verified": true,
+      "archetype": "nda-M05",
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Middle term of (x+1/x)^10 = C(10,5) is classic NDA binomial"
+      }
     },
     {
       "id": "nda-008",
@@ -391,7 +1102,14 @@
       ],
       "answer": 0,
       "explanation": "|A| = 8 − 3 = 5. For an n × n matrix, |adj A| = |A|ⁿ⁻¹, so with n = 2 the value is 5¹ = 5.",
-      "verified": true
+      "verified": true,
+      "archetype": "nda-M08",
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "|adj A| = |A|^(n−1) with 25/125 traps is a faithful NDA determinant item"
+      }
     },
     {
       "id": "nda-009",
@@ -407,7 +1125,14 @@
       ],
       "answer": 2,
       "explanation": "|kA| = kⁿ|A| for an n × n matrix, so |2A| = 2³ × 4 = 32.",
-      "verified": true
+      "verified": true,
+      "archetype": "nda-M08",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "|kA| = k^n|A| with 8/16 traps is NDA-standard though easy"
+      }
     },
     {
       "id": "nda-010",
@@ -423,7 +1148,14 @@
       ],
       "answer": 1,
       "explanation": "sin 15° cos 15° = ½ sin 30° = ½ × ½ = 1/4.",
-      "verified": true
+      "verified": true,
+      "archetype": "nda-M10",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "sin15·cos15 is explicitly an NDA-style product value"
+      }
     },
     {
       "id": "nda-011",
@@ -439,7 +1171,14 @@
       ],
       "answer": 3,
       "explanation": "With a 3-4-5 triangle, |sin θ| = 3/5. Sine is negative in the third quadrant, so sin θ = −3/5.",
-      "verified": true
+      "verified": true,
+      "archetype": "nda-M11",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Third-quadrant sign trap is exactly NDA M11"
+      }
     },
     {
       "id": "nda-012",
@@ -455,7 +1194,14 @@
       ],
       "answer": 3,
       "explanation": "Pair tan θ with tan(90° − θ) = cot θ, so each pair has product 1. The middle term, tan 45°, is also 1, so the whole product is 1.",
-      "verified": true
+      "verified": true,
+      "archetype": "nda-M10",
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "tan1°…tan89° product is a well-known NDA item with 0/undefined traps"
+      }
     },
     {
       "id": "nda-013",
@@ -471,23 +1217,14 @@
       ],
       "answer": 1,
       "explanation": "Write the second line as 3x + 4y + 3 = 0. Distance = |−7 − 3| / √(3² + 4²) = 10/5 = 2.",
-      "verified": true
-    },
-    {
-      "id": "nda-014",
-      "section": "maths",
-      "topic": "Analytical Geometry (2D & 3D)",
-      "difficulty": "easy",
-      "question": "The eccentricity of the ellipse x²/25 + y²/16 = 1 is:",
-      "options": [
-        "4/5",
-        "3/4",
-        "3/5",
-        "5/3"
-      ],
-      "answer": 2,
-      "explanation": "a² = 25 and b² = 16, so e = √(1 − b²/a²) = √(9/25) = 3/5.",
-      "verified": true
+      "verified": true,
+      "archetype": "nda-M13",
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Parallel lines needing coefficient normalisation is an NDA trap item"
+      }
     },
     {
       "id": "nda-015",
@@ -503,7 +1240,14 @@
       ],
       "answer": 3,
       "explanation": "cos²α + cos²β + cos²γ = 1, so the sum of the sin² terms is 3 − 1 = 2.",
-      "verified": true
+      "verified": true,
+      "archetype": "nda-M15",
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Σsin² of direction angles = 2 is a repeated NDA item"
+      }
     },
     {
       "id": "nda-016",
@@ -519,7 +1263,14 @@
       ],
       "answer": 2,
       "explanation": "1 − cos 2x = 2 sin²x, so the limit is 2 · lim (sin x/x)² = 2.",
-      "verified": true
+      "verified": true,
+      "archetype": "nda-M16",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "(1−cos2x)/x² standard limit, NDA-type"
+      }
     },
     {
       "id": "nda-017",
@@ -535,39 +1286,14 @@
       ],
       "answer": 0,
       "explanation": "ln y = x ln x, so (1/y) dy/dx = ln x + 1 and dy/dx = xˣ(1 + ln x).",
-      "verified": true
-    },
-    {
-      "id": "nda-018",
-      "section": "maths",
-      "topic": "Differential Calculus",
-      "difficulty": "easy",
-      "question": "The maximum value of sin x + cos x is:",
-      "options": [
-        "2",
-        "1",
-        "1/√2",
-        "√2"
-      ],
-      "answer": 3,
-      "explanation": "sin x + cos x = √2 sin(x + 45°), whose maximum is √2.",
-      "verified": true
-    },
-    {
-      "id": "nda-019",
-      "section": "maths",
-      "topic": "Integral Calculus & Differential Equations",
-      "difficulty": "medium",
-      "question": "The value of ∫₀^(π/2) sin²x dx is:",
-      "options": [
-        "π/2",
-        "π/4",
-        "1",
-        "π/8"
-      ],
-      "answer": 1,
-      "explanation": "sin²x = (1 − cos 2x)/2, so the integral is [x/2 − sin 2x/4] from 0 to π/2 = π/4.",
-      "verified": true
+      "verified": true,
+      "archetype": "nda-M17",
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "d/dx x^x is a staple NDA log-differentiation item"
+      }
     },
     {
       "id": "nda-020",
@@ -583,7 +1309,14 @@
       ],
       "answer": 2,
       "explanation": "The curves meet at x = 0 and x = 1, and y = x lies above. Area = ∫₀¹ (x − x²) dx = 1/2 − 1/3 = 1/6 square unit.",
-      "verified": true
+      "verified": true,
+      "archetype": "nda-M22",
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Area between y=x² and y=x is an NDA M22 classic"
+      }
     },
     {
       "id": "nda-021",
@@ -599,7 +1332,14 @@
       ],
       "answer": 0,
       "explanation": "The highest derivative is d²y/dx², so the order is 2. That derivative appears to the power 3, so the degree is 3.",
-      "verified": true
+      "verified": true,
+      "archetype": "nda-M23",
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Order/degree with powered second derivative matches NDA"
+      }
     },
     {
       "id": "nda-022",
@@ -615,7 +1355,14 @@
       ],
       "answer": 2,
       "explanation": "The dot product must be zero: 2 − λ + 2 = 0, so λ = 4.",
-      "verified": true
+      "verified": true,
+      "archetype": "nda-M24",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Perpendicularity λ solve is NDA vector standard"
+      }
     },
     {
       "id": "nda-023",
@@ -631,23 +1378,14 @@
       ],
       "answer": 3,
       "explanation": "|a × b|² + (a · b)² = |a|²|b|²(sin²θ + cos²θ) = 9 × 16 = 144 (Lagrange's identity).",
-      "verified": true
-    },
-    {
-      "id": "nda-024",
-      "section": "maths",
-      "topic": "Statistics & Probability",
-      "difficulty": "easy",
-      "question": "Two fair dice are thrown together. The probability that the sum of the numbers is 9 is:",
-      "options": [
-        "1/6",
-        "5/36",
-        "1/12",
-        "1/9"
-      ],
-      "answer": 3,
-      "explanation": "The favourable outcomes are (3,6), (4,5), (5,4) and (6,3), so P = 4/36 = 1/9.",
-      "verified": true
+      "verified": true,
+      "archetype": "nda-M24",
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "|a×b|²+(a·b)² identity is a named NDA archetype"
+      }
     },
     {
       "id": "nda-025",
@@ -663,71 +1401,14 @@
       ],
       "answer": 0,
       "explanation": "The variance of 1, 2, …, n is (n² − 1)/12 = 99/12 = 8.25.",
-      "verified": true
-    },
-    {
-      "id": "nda-026",
-      "section": "maths",
-      "topic": "Statistics & Probability",
-      "difficulty": "easy",
-      "question": "If A and B are independent events with P(A) = 0.5 and P(B) = 0.4, then P(A ∪ B) is:",
-      "options": [
-        "0.9",
-        "0.7",
-        "0.2",
-        "0.6"
-      ],
-      "answer": 1,
-      "explanation": "P(A ∩ B) = 0.5 × 0.4 = 0.2, so P(A ∪ B) = 0.5 + 0.4 − 0.2 = 0.7.",
-      "verified": true
-    },
-    {
-      "id": "nda-027",
-      "section": "gat-english",
-      "topic": "Vocabulary (Synonyms & Antonyms)",
-      "difficulty": "easy",
-      "question": "Choose the word most nearly SAME in meaning to AUDACIOUS.",
-      "options": [
-        "Timid",
-        "Bold",
-        "Noisy",
-        "Careful"
-      ],
-      "answer": 1,
-      "explanation": "Audacious means daring or bold.",
-      "verified": true
-    },
-    {
-      "id": "nda-028",
-      "section": "gat-english",
-      "topic": "Vocabulary (Synonyms & Antonyms)",
-      "difficulty": "easy",
-      "question": "Choose the word most nearly SAME in meaning to METICULOUS.",
-      "options": [
-        "Careless",
-        "Hasty",
-        "Painstaking",
-        "Generous"
-      ],
-      "answer": 2,
-      "explanation": "Meticulous means showing great attention to detail, that is, painstaking.",
-      "verified": true
-    },
-    {
-      "id": "nda-029",
-      "section": "gat-english",
-      "topic": "Vocabulary (Synonyms & Antonyms)",
-      "difficulty": "medium",
-      "question": "Choose the word most nearly OPPOSITE in meaning to AMELIORATE.",
-      "options": [
-        "Improve",
-        "Soothe",
-        "Mend",
-        "Worsen"
-      ],
-      "answer": 3,
-      "explanation": "Ameliorate means to make better, so its opposite is worsen.",
-      "verified": true
+      "verified": true,
+      "archetype": "nda-M27",
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Variance of first n naturals (n²−1)/12 is an NDA favourite"
+      }
     },
     {
       "id": "nda-030",
@@ -743,7 +1424,14 @@
       ],
       "answer": 1,
       "explanation": "With 'neither … nor', the verb agrees with the nearer subject. 'Soldiers' is plural, so part B should read 'were aware of'.",
-      "verified": true
+      "verified": true,
+      "archetype": "nda-E03",
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Neither-nor proximity agreement is an exact NDA error-spotting trap"
+      }
     },
     {
       "id": "nda-031",
@@ -759,7 +1447,14 @@
       ],
       "answer": 0,
       "explanation": "'One of the best' takes a plural noun, so part A should read 'one of the best cadets'.",
-      "verified": true
+      "verified": true,
+      "archetype": "nda-E04",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "'one of the best cadet' plural trap is classic NDA"
+      }
     },
     {
       "id": "nda-032",
@@ -775,7 +1470,14 @@
       ],
       "answer": 0,
       "explanation": "An unreal present condition takes the subjunctive 'were': 'If I were the commander, I would …'. 'Had been' would need 'would have ordered'.",
-      "verified": true
+      "verified": true,
+      "archetype": "nda-E05",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Subjunctive 'If I were' sentence improvement is NDA-standard"
+      }
     },
     {
       "id": "nda-033",
@@ -791,7 +1493,14 @@
       ],
       "answer": 1,
       "explanation": "'Refrain' is followed by 'from'.",
-      "verified": true
+      "verified": true,
+      "archetype": "nda-E06",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "refrain from is standard NDA preposition blank"
+      }
     },
     {
       "id": "nda-034",
@@ -807,55 +1516,14 @@
       ],
       "answer": 3,
       "explanation": "'Hardly/Scarcely … when' is the correct correlative. 'No sooner' pairs with 'than'.",
-      "verified": true
-    },
-    {
-      "id": "nda-035",
-      "section": "gat-english",
-      "topic": "Ordering of Words/Sentences",
-      "difficulty": "easy",
-      "question": "Arrange the parts to form a meaningful sentence:\nP: is the key to\nQ: Discipline\nR: success\nS: in any profession",
-      "options": [
-        "QPRS",
-        "PQRS",
-        "QRPS",
-        "SPQR"
-      ],
-      "answer": 0,
-      "explanation": "Q-P-R-S gives 'Discipline is the key to success in any profession.'",
-      "verified": true
-    },
-    {
-      "id": "nda-036",
-      "section": "gat-english",
-      "topic": "Reading Comprehension",
-      "difficulty": "medium",
-      "question": "Read the passage and answer the question.\n'The monsoon is often called the true finance minister of India. Although agriculture's share in national output has declined, nearly half of the workforce still depends on farming, and much of the cultivated area lacks assured irrigation. A weak monsoon therefore depresses rural incomes, which in turn reduces the demand for industrial goods.'\nAccording to the passage, why does a weak monsoon hurt industry?",
-      "options": [
-        "Factories depend directly on rainwater",
-        "Lower rural incomes reduce the demand for industrial goods",
-        "Agriculture's share in output has increased",
-        "Irrigation has expanded to all farmland"
-      ],
-      "answer": 1,
-      "explanation": "The last sentence links a weak monsoon to lower rural incomes and hence lower demand for industrial goods. The other options are either not stated or contradict the passage.",
-      "verified": true
-    },
-    {
-      "id": "nda-037",
-      "section": "gat-gk",
-      "topic": "Physics",
-      "difficulty": "easy",
-      "question": "A body of mass 2 kg moves with a speed of 3 m/s. Its kinetic energy is:",
-      "options": [
-        "6 J",
-        "9 J",
-        "18 J",
-        "3 J"
-      ],
-      "answer": 1,
-      "explanation": "KE = ½mv² = ½ × 2 × 3² = 9 J.",
-      "verified": true
+      "verified": true,
+      "archetype": "nda-E06",
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Hardly…when with 'than' trap is an NDA staple"
+      }
     },
     {
       "id": "nda-038",
@@ -871,135 +1539,14 @@
       ],
       "answer": 3,
       "explanation": "Starlight is refracted by turbulent air layers whose refractive index keeps changing, so the apparent position and brightness of a star flicker.",
-      "verified": true
-    },
-    {
-      "id": "nda-039",
-      "section": "gat-gk",
-      "topic": "Physics",
-      "difficulty": "easy",
-      "question": "Three resistors of 6 Ω each are connected in parallel. Their equivalent resistance is:",
-      "options": [
-        "2 Ω",
-        "3 Ω",
-        "6 Ω",
-        "18 Ω"
-      ],
-      "answer": 0,
-      "explanation": "1/R = 1/6 + 1/6 + 1/6 = 1/2, so R = 2 Ω.",
-      "verified": true
-    },
-    {
-      "id": "nda-040",
-      "section": "gat-gk",
-      "topic": "Physics",
-      "difficulty": "easy",
-      "question": "In which of the following media does sound travel fastest?",
-      "options": [
-        "Air",
-        "Water",
-        "Steel",
-        "Vacuum"
-      ],
-      "answer": 2,
-      "explanation": "Sound travels fastest in solids such as steel (about 5,000 m/s), slower in water (about 1,500 m/s) and air (about 340 m/s). It cannot travel through a vacuum.",
-      "verified": true
-    },
-    {
-      "id": "nda-041",
-      "section": "gat-gk",
-      "topic": "Chemistry",
-      "difficulty": "easy",
-      "question": "The chemical name of baking soda is:",
-      "options": [
-        "Sodium carbonate",
-        "Sodium hydrogen carbonate",
-        "Calcium carbonate",
-        "Sodium chloride"
-      ],
-      "answer": 1,
-      "explanation": "Baking soda is sodium hydrogen carbonate (sodium bicarbonate), NaHCO₃. Washing soda is Na₂CO₃·10H₂O.",
-      "verified": true
-    },
-    {
-      "id": "nda-042",
-      "section": "gat-gk",
-      "topic": "Chemistry",
-      "difficulty": "easy",
-      "question": "Which gas is commonly filled in incandescent electric bulbs to prolong the life of the filament?",
-      "options": [
-        "Oxygen",
-        "Hydrogen",
-        "Argon",
-        "Chlorine"
-      ],
-      "answer": 2,
-      "explanation": "An inert gas such as argon (often mixed with nitrogen) slows evaporation of the tungsten filament and does not react with it.",
-      "verified": true
-    },
-    {
-      "id": "nda-043",
-      "section": "gat-gk",
-      "topic": "Chemistry",
-      "difficulty": "easy",
-      "question": "Rusting of iron requires the presence of:",
-      "options": [
-        "Both oxygen and moisture",
-        "Oxygen only",
-        "Moisture only",
-        "Nitrogen"
-      ],
-      "answer": 0,
-      "explanation": "Rust (hydrated iron(III) oxide) forms only when both oxygen and water are present.",
-      "verified": true
-    },
-    {
-      "id": "nda-044",
-      "section": "gat-gk",
-      "topic": "General Science (Biology)",
-      "difficulty": "easy",
-      "question": "Which vitamin is synthesised in the human skin on exposure to sunlight?",
-      "options": [
-        "Vitamin A",
-        "Vitamin C",
-        "Vitamin K",
-        "Vitamin D"
-      ],
-      "answer": 3,
-      "explanation": "Ultraviolet-B light converts 7-dehydrocholesterol in the skin into vitamin D₃.",
-      "verified": true
-    },
-    {
-      "id": "nda-045",
-      "section": "gat-gk",
-      "topic": "General Science (Biology)",
-      "difficulty": "easy",
-      "question": "Which blood group is known as the universal donor (for red cell transfusion)?",
-      "options": [
-        "O negative",
-        "AB positive",
-        "A positive",
-        "B negative"
-      ],
-      "answer": 0,
-      "explanation": "O-negative red cells carry no A, B or Rh(D) antigens, so they can be given to recipients of any group in an emergency.",
-      "verified": true
-    },
-    {
-      "id": "nda-046",
-      "section": "gat-gk",
-      "topic": "General Science (Biology)",
-      "difficulty": "easy",
-      "question": "Insulin is secreted by:",
-      "options": [
-        "Liver",
-        "Pancreas",
-        "Kidney",
-        "Thyroid"
-      ],
-      "answer": 1,
-      "explanation": "The beta cells of the islets of Langerhans in the pancreas secrete insulin.",
-      "verified": true
+      "verified": true,
+      "archetype": "nda-G02",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Twinkling = atmospheric refraction is a frequent NDA GAT item"
+      }
     },
     {
       "id": "nda-047",
@@ -1015,23 +1562,14 @@
       ],
       "answer": 1,
       "explanation": "Subhas Chandra Bose proclaimed the Azad Hind provisional government in Singapore on 21 October 1943 and led the Indian National Army.",
-      "verified": true
-    },
-    {
-      "id": "nda-048",
-      "section": "gat-gk",
-      "topic": "History & Freedom Movement",
-      "difficulty": "easy",
-      "question": "The Battle of Plassey (1757) was fought between the English East India Company and:",
-      "options": [
-        "Mir Qasim",
-        "Shuja-ud-Daula",
-        "Siraj-ud-Daulah",
-        "Tipu Sultan"
-      ],
-      "answer": 2,
-      "explanation": "Robert Clive defeated Siraj-ud-Daulah, the Nawab of Bengal, at Plassey in 1757.",
-      "verified": true
+      "verified": true,
+      "archetype": "nda-G08",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Azad Hind govt with Rash Behari distractor is NDA-style"
+      }
     },
     {
       "id": "nda-049",
@@ -1047,167 +1585,14 @@
       ],
       "answer": 3,
       "explanation": "C. Rajagopalachari succeeded Lord Mountbatten in June 1948 and held the post until it was abolished on 26 January 1950.",
-      "verified": true
-    },
-    {
-      "id": "nda-050",
-      "section": "gat-gk",
-      "topic": "History & Freedom Movement",
-      "difficulty": "easy",
-      "question": "In which year did Mahatma Gandhi undertake the Dandi March?",
-      "options": [
-        "1919",
-        "1922",
-        "1930",
-        "1942"
-      ],
-      "answer": 2,
-      "explanation": "The Dandi (Salt) March began from Sabarmati Ashram on 12 March 1930 and launched the Civil Disobedience Movement.",
-      "verified": true
-    },
-    {
-      "id": "nda-051",
-      "section": "gat-gk",
-      "topic": "Geography",
-      "difficulty": "easy",
-      "question": "The Palk Strait separates India from:",
-      "options": [
-        "Sri Lanka",
-        "Maldives",
-        "Myanmar",
-        "Indonesia"
-      ],
-      "answer": 0,
-      "explanation": "The Palk Strait lies between Tamil Nadu and northern Sri Lanka.",
-      "verified": true
-    },
-    {
-      "id": "nda-052",
-      "section": "gat-gk",
-      "topic": "Geography",
-      "difficulty": "easy",
-      "question": "The boundary line between India and Pakistan demarcated in 1947 is known as the:",
-      "options": [
-        "McMahon Line",
-        "Durand Line",
-        "Radcliffe Line",
-        "Maginot Line"
-      ],
-      "answer": 2,
-      "explanation": "The Radcliffe Line was drawn by Sir Cyril Radcliffe. The McMahon Line concerns India–China and the Durand Line Afghanistan–Pakistan.",
-      "verified": true
-    },
-    {
-      "id": "nda-053",
-      "section": "gat-gk",
-      "topic": "Geography",
-      "difficulty": "easy",
-      "question": "The Western Ghats are also known as the:",
-      "options": [
-        "Satpura",
-        "Aravalli",
-        "Nilgiri",
-        "Sahyadri"
-      ],
-      "answer": 3,
-      "explanation": "The Western Ghats are called the Sahyadri, especially in Maharashtra and Karnataka.",
-      "verified": true
-    },
-    {
-      "id": "nda-054",
-      "section": "gat-gk",
-      "topic": "Geography",
-      "difficulty": "easy",
-      "question": "The International Date Line roughly follows which meridian?",
-      "options": [
-        "0°",
-        "180°",
-        "90° E",
-        "66½° N"
-      ],
-      "answer": 1,
-      "explanation": "The International Date Line broadly follows the 180° meridian, with deviations to avoid splitting land areas.",
-      "verified": true
-    },
-    {
-      "id": "nda-055",
-      "section": "gat-gk",
-      "topic": "Indian Polity",
-      "difficulty": "easy",
-      "question": "Under the Constitution of India, the supreme command of the Defence Forces is vested in the:",
-      "options": [
-        "Prime Minister",
-        "Defence Minister",
-        "President",
-        "Chief of Defence Staff"
-      ],
-      "answer": 2,
-      "explanation": "Article 53(2) vests the supreme command of the Defence Forces in the President.",
-      "verified": true
-    },
-    {
-      "id": "nda-056",
-      "section": "gat-gk",
-      "topic": "Indian Polity",
-      "difficulty": "easy",
-      "question": "What is the minimum age required to become a member of the Lok Sabha?",
-      "options": [
-        "21 years",
-        "25 years",
-        "30 years",
-        "35 years"
-      ],
-      "answer": 1,
-      "explanation": "Article 84 requires a Lok Sabha member to be at least 25 years old (30 for the Rajya Sabha).",
-      "verified": true
-    },
-    {
-      "id": "nda-057",
-      "section": "gat-gk",
-      "topic": "Indian Polity",
-      "difficulty": "easy",
-      "question": "Fundamental Rights are contained in which Part of the Constitution of India?",
-      "options": [
-        "Part IV",
-        "Part II",
-        "Part IVA",
-        "Part III"
-      ],
-      "answer": 3,
-      "explanation": "Part III (Articles 12–35) covers Fundamental Rights. Part IV covers Directive Principles and Part IVA Fundamental Duties.",
-      "verified": true
-    },
-    {
-      "id": "nda-058",
-      "section": "gat-gk",
-      "topic": "Economy",
-      "difficulty": "easy",
-      "question": "Which of the following is a direct tax?",
-      "options": [
-        "Income tax",
-        "Goods and Services Tax",
-        "Customs duty",
-        "Excise duty"
-      ],
-      "answer": 0,
-      "explanation": "A direct tax is paid by the person on whom it is levied, as with income tax. GST, customs and excise are indirect taxes.",
-      "verified": true
-    },
-    {
-      "id": "nda-059",
-      "section": "gat-gk",
-      "topic": "Current Events & Defence",
-      "difficulty": "easy",
-      "question": "The Indian Military Academy, which trains officers for the Indian Army, is located at:",
-      "options": [
-        "Pune",
-        "Dehradun",
-        "Chennai",
-        "Ezhimala"
-      ],
-      "answer": 1,
-      "explanation": "IMA is at Dehradun. The NDA is at Khadakwasla (Pune), an OTA at Chennai and the Indian Naval Academy at Ezhimala.",
-      "verified": true
+      "verified": true,
+      "archetype": "nda-G08",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Rajaji as only Indian GG is a recurring NDA fact"
+      }
     },
     {
       "id": "nda-060",
@@ -1223,7 +1608,1992 @@
       ],
       "answer": 3,
       "explanation": "Colonel (Army) = Captain (Navy) = Group Captain (Air Force).",
-      "verified": true
+      "verified": true,
+      "archetype": "nda-G17",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Navy Captain = Army Colonel equivalence is a real NDA item"
+      }
+    },
+    {
+      "id": "nda-061",
+      "section": "maths",
+      "topic": "Algebra",
+      "difficulty": "medium",
+      "question": "If z = (1 + i)/(1 − i), then z¹⁰⁰ equals:",
+      "options": [
+        "−1",
+        "i",
+        "−i",
+        "1"
+      ],
+      "answer": 3,
+      "explanation": "(1 + i)/(1 − i) = (1 + i)²/2 = 2i/2 = i. Since i⁴ = 1 and 100 is a multiple of 4, i¹⁰⁰ = 1.",
+      "source": "ai",
+      "archetype": "nda-M01",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "((1+i)/(1−i))^100 is a classic NDA complex item"
+      }
+    },
+    {
+      "id": "nda-062",
+      "section": "maths",
+      "topic": "Algebra",
+      "difficulty": "medium",
+      "question": "If α and β are the roots of 2x² − 3x − 5 = 0, then 1/α + 1/β equals:",
+      "options": [
+        "3/5",
+        "−3/5",
+        "−5/3",
+        "5/3"
+      ],
+      "answer": 1,
+      "explanation": "α + β = 3/2 and αβ = −5/2. So 1/α + 1/β = (α + β)/αβ = (3/2)/(−5/2) = −3/5.",
+      "source": "ai",
+      "archetype": "nda-M02",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "1/α+1/β with sign trap fits M02"
+      }
+    },
+    {
+      "id": "nda-064",
+      "section": "maths",
+      "topic": "Algebra",
+      "difficulty": "medium",
+      "question": "How many 4-digit numbers divisible by 5 can be formed using the digits 1, 2, 3, 4, 5 without repetition?",
+      "options": [
+        "120",
+        "48",
+        "96",
+        "24"
+      ],
+      "answer": 3,
+      "explanation": "The units digit must be 5 (0 is not available). The other three places are filled from the remaining 4 digits in 4 × 3 × 2 = 24 ways.",
+      "source": "ai",
+      "archetype": "nda-M04",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Divisible-by-5 digit formation without repetition is NDA standard"
+      }
+    },
+    {
+      "id": "nda-065",
+      "section": "maths",
+      "topic": "Algebra",
+      "difficulty": "medium",
+      "question": "The coefficient of x⁴ in the expansion of (1 + 2x)⁶ is:",
+      "options": [
+        "240",
+        "60",
+        "160",
+        "480"
+      ],
+      "answer": 0,
+      "explanation": "The term is ⁶C₄ (2x)⁴ = 15 × 16 x⁴ = 240x⁴.",
+      "source": "ai",
+      "archetype": "nda-M05",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Coefficient of x⁴ in (1+2x)^6 with 60/480 traps is NDA-faithful"
+      }
+    },
+    {
+      "id": "nda-066",
+      "section": "maths",
+      "topic": "Algebra",
+      "difficulty": "medium",
+      "question": "Let R = {(1, 1), (2, 2), (3, 3), (1, 2)} be a relation on the set {1, 2, 3}. Then R is:",
+      "options": [
+        "An equivalence relation",
+        "Reflexive and transitive but not symmetric",
+        "Symmetric and transitive but not reflexive",
+        "Reflexive and symmetric but not transitive"
+      ],
+      "answer": 1,
+      "explanation": "All (a, a) are present, so R is reflexive. (1, 2) is in R but (2, 1) is not, so it is not symmetric. Every chain such as (1, 1),(1, 2) or (1, 2),(2, 2) gives (1, 2), which is in R, so it is transitive.",
+      "source": "ai",
+      "archetype": "nda-M06",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Relation property classification is NDA M06 style"
+      }
+    },
+    {
+      "id": "nda-067",
+      "section": "maths",
+      "topic": "Algebra",
+      "difficulty": "easy",
+      "question": "The binary number 101101 written in the decimal system is:",
+      "options": [
+        "43",
+        "53",
+        "45",
+        "41"
+      ],
+      "answer": 2,
+      "explanation": "101101₂ = 32 + 0 + 8 + 4 + 0 + 1 = 45.",
+      "source": "ai",
+      "archetype": "nda-M07",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Binary to decimal is an NDA staple"
+      }
+    },
+    {
+      "id": "nda-068",
+      "section": "maths",
+      "topic": "Matrices & Determinants",
+      "difficulty": "medium",
+      "question": "The value of the determinant of the matrix [[0, 2, −3], [−2, 0, 4], [3, −4, 0]] is:",
+      "options": [
+        "24",
+        "−24",
+        "12",
+        "0"
+      ],
+      "answer": 3,
+      "explanation": "The matrix is skew-symmetric (Aᵀ = −A) and of odd order 3. Then |A| = |Aᵀ| = |−A| = (−1)³|A|, so |A| = 0.",
+      "source": "ai",
+      "archetype": "nda-M08",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Odd-order skew-symmetric det = 0 is NDA trap item"
+      }
+    },
+    {
+      "id": "nda-069",
+      "section": "maths",
+      "topic": "Matrices & Determinants",
+      "difficulty": "medium",
+      "question": "If A = [[1, 2], [3, 4]], then A² − 5A equals (I is the 2 × 2 identity matrix):",
+      "options": [
+        "2I",
+        "−2I",
+        "I",
+        "The zero matrix"
+      ],
+      "answer": 0,
+      "explanation": "A² = [[7, 10], [15, 22]] and 5A = [[5, 10], [15, 20]], so A² − 5A = [[2, 0], [0, 2]] = 2I. (This also follows from the Cayley–Hamilton theorem, since A² − 5A − 2I = 0.)",
+      "source": "ai",
+      "archetype": "nda-M09",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Cayley-Hamilton A²−5A=2I is an exact NDA shortcut item"
+      }
+    },
+    {
+      "id": "nda-070",
+      "section": "maths",
+      "topic": "Trigonometry",
+      "difficulty": "medium",
+      "question": "The value of tan 75° − tan 15° is:",
+      "options": [
+        "2",
+        "2√3",
+        "√3",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "tan 75° = 2 + √3 and tan 15° = 2 − √3, so the difference is 2√3.",
+      "source": "ai",
+      "archetype": "nda-M10",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "tan75−tan15 = 2√3 is a known NDA value item"
+      }
+    },
+    {
+      "id": "nda-071",
+      "section": "maths",
+      "topic": "Trigonometry",
+      "difficulty": "medium",
+      "question": "The principal value of sin⁻¹(sin 2π/3) is:",
+      "options": [
+        "2π/3",
+        "−π/3",
+        "π/3",
+        "π/6"
+      ],
+      "answer": 2,
+      "explanation": "sin 2π/3 = √3/2. The principal range of sin⁻¹ is [−π/2, π/2], and the angle there with sine √3/2 is π/3. 2π/3 lies outside the range.",
+      "source": "ai",
+      "archetype": "nda-M11",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "sin⁻¹(sin 2π/3) principal range trap is exact NDA M11"
+      }
+    },
+    {
+      "id": "nda-072",
+      "section": "maths",
+      "topic": "Trigonometry",
+      "difficulty": "medium",
+      "question": "In a triangle ABC, a = 3, b = 5 and c = 7. The angle C is:",
+      "options": [
+        "60°",
+        "135°",
+        "150°",
+        "120°"
+      ],
+      "answer": 3,
+      "explanation": "cos C = (a² + b² − c²)/2ab = (9 + 25 − 49)/30 = −1/2, so C = 120°.",
+      "source": "ai",
+      "archetype": "nda-M12",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Cosine rule 3-5-7 triangle is NDA-typical"
+      }
+    },
+    {
+      "id": "nda-073",
+      "section": "maths",
+      "topic": "Analytical Geometry (2D & 3D)",
+      "difficulty": "medium",
+      "question": "The acute angle between the lines y = √3x + 5 and √3y = x + 2 is:",
+      "options": [
+        "30°",
+        "45°",
+        "60°",
+        "90°"
+      ],
+      "answer": 0,
+      "explanation": "The slopes are √3 (inclination 60°) and 1/√3 (inclination 30°), so the angle between the lines is 30°.",
+      "source": "ai",
+      "archetype": "nda-M13",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Angle between lines via inclinations is NDA standard"
+      }
+    },
+    {
+      "id": "nda-074",
+      "section": "maths",
+      "topic": "Analytical Geometry (2D & 3D)",
+      "difficulty": "medium",
+      "question": "The eccentricity of the hyperbola x²/16 − y²/9 = 1 is:",
+      "options": [
+        "4/5",
+        "5/4",
+        "5/3",
+        "3/4"
+      ],
+      "answer": 1,
+      "explanation": "e² = 1 + b²/a² = 1 + 9/16 = 25/16, so e = 5/4. (4/5 is the reciprocal, a common slip.)",
+      "source": "ai",
+      "archetype": "nda-M14",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Hyperbola eccentricity with 5/3 trap is NDA-typical"
+      }
+    },
+    {
+      "id": "nda-075",
+      "section": "maths",
+      "topic": "Analytical Geometry (2D & 3D)",
+      "difficulty": "medium",
+      "question": "The distance of the point (1, 2, 3) from the plane 2x − y + 2z + 4 = 0 is:",
+      "options": [
+        "8/3",
+        "4/3",
+        "10/3",
+        "2"
+      ],
+      "answer": 2,
+      "explanation": "Distance = |2(1) − 2 + 2(3) + 4|/√(4 + 1 + 4) = |10|/3 = 10/3.",
+      "source": "ai",
+      "archetype": "nda-M15",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Point-plane distance is a staple NDA 3D item"
+      }
+    },
+    {
+      "id": "nda-076",
+      "section": "maths",
+      "topic": "Differential Calculus",
+      "difficulty": "medium",
+      "question": "The value of lim(x→∞) (1 + 2/x)ˣ is:",
+      "options": [
+        "e",
+        "2e",
+        "e^(1/2)",
+        "e²"
+      ],
+      "answer": 3,
+      "explanation": "lim(x→∞) (1 + a/x)ˣ = eᵃ; here a = 2, so the limit is e².",
+      "source": "ai",
+      "archetype": "nda-M16",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "(1+2/x)^x → e² is NDA-standard"
+      }
+    },
+    {
+      "id": "nda-078",
+      "section": "maths",
+      "topic": "Differential Calculus",
+      "difficulty": "medium",
+      "question": "The function f(x) = x³ − 3x has a local maximum at:",
+      "options": [
+        "x = 1",
+        "x = −1",
+        "x = 0",
+        "x = √3"
+      ],
+      "answer": 1,
+      "explanation": "f′(x) = 3x² − 3 = 0 gives x = ±1. f″(x) = 6x is negative at x = −1, so there is a local maximum there (x = 1 gives a local minimum).",
+      "source": "ai",
+      "archetype": "nda-M18",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "x³−3x local max is NDA-typical"
+      }
+    },
+    {
+      "id": "nda-079",
+      "section": "maths",
+      "topic": "Integral Calculus & Differential Equations",
+      "difficulty": "hard",
+      "question": "The value of ∫₀^(π/2) sin x/(sin x + cos x) dx is:",
+      "options": [
+        "π/2",
+        "0",
+        "π/4",
+        "π"
+      ],
+      "answer": 2,
+      "explanation": "Call it I. Replacing x by π/2 − x gives I = ∫₀^(π/2) cos x/(cos x + sin x) dx. Adding, 2I = ∫₀^(π/2) 1 dx = π/2, so I = π/4.",
+      "source": "ai",
+      "archetype": "nda-M20",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "King's property sinx/(sinx+cosx) is an exact NDA M20 item"
+      }
+    },
+    {
+      "id": "nda-080",
+      "section": "maths",
+      "topic": "Integral Calculus & Differential Equations",
+      "difficulty": "easy",
+      "question": "∫ dx/(x² + 4) equals:",
+      "options": [
+        "tan⁻¹(x/2) + C",
+        "2 tan⁻¹(x/2) + C",
+        "(1/4) tan⁻¹(x/4) + C",
+        "(1/2) tan⁻¹(x/2) + C"
+      ],
+      "answer": 3,
+      "explanation": "∫ dx/(x² + a²) = (1/a) tan⁻¹(x/a) + C with a = 2.",
+      "source": "ai",
+      "archetype": "nda-M21",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Standard 1/(x²+a²) integral with coefficient traps is NDA"
+      }
+    },
+    {
+      "id": "nda-081",
+      "section": "maths",
+      "topic": "Integral Calculus & Differential Equations",
+      "difficulty": "medium",
+      "question": "The integrating factor of the differential equation dy/dx + y/x = x² (x > 0) is:",
+      "options": [
+        "x",
+        "1/x",
+        "eˣ",
+        "log x"
+      ],
+      "answer": 0,
+      "explanation": "IF = e^(∫(1/x)dx) = e^(log x) = x.",
+      "source": "ai",
+      "archetype": "nda-M23",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "IF of linear DE is NDA-standard"
+      }
+    },
+    {
+      "id": "nda-082",
+      "section": "maths",
+      "topic": "Vector Algebra",
+      "difficulty": "medium",
+      "question": "The area of the parallelogram whose adjacent sides are a = i + j and b = i − j + k is:",
+      "options": [
+        "√3",
+        "√6",
+        "6",
+        "2√3"
+      ],
+      "answer": 1,
+      "explanation": "a × b = i(1·1 − 0·(−1)) − j(1·1 − 0·1) + k(1·(−1) − 1·1) = i − j − 2k. Its magnitude is √(1 + 1 + 4) = √6.",
+      "source": "ai",
+      "archetype": "nda-M24",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Parallelogram area via cross product is NDA M24"
+      }
+    },
+    {
+      "id": "nda-083",
+      "section": "maths",
+      "topic": "Statistics & Probability",
+      "difficulty": "easy",
+      "question": "A card is drawn at random from a well-shuffled pack of 52 cards. The probability that it is a king or a heart is:",
+      "options": [
+        "17/52",
+        "1/4",
+        "4/13",
+        "1/13"
+      ],
+      "answer": 2,
+      "explanation": "P = (4 + 13 − 1)/52 = 16/52 = 4/13. The king of hearts must not be counted twice (that error gives 17/52).",
+      "source": "ai",
+      "archetype": "nda-M25",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "King-or-heart with 17/52 overlap trap is classic NDA"
+      }
+    },
+    {
+      "id": "nda-084",
+      "section": "maths",
+      "topic": "Statistics & Probability",
+      "difficulty": "hard",
+      "question": "Bag I contains 3 red and 2 black balls; Bag II contains 2 red and 3 black balls. A bag is chosen at random and a ball drawn from it is red. The probability that it came from Bag I is:",
+      "options": [
+        "1/2",
+        "2/5",
+        "3/10",
+        "3/5"
+      ],
+      "answer": 3,
+      "explanation": "P(red) = ½ × 3/5 + ½ × 2/5 = ½. By Bayes' theorem, P(Bag I | red) = (½ × 3/5)/(½) = 3/5.",
+      "source": "ai",
+      "archetype": "nda-M26",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Two-bag Bayes is an exact NDA M26 item"
+      }
+    },
+    {
+      "id": "nda-085",
+      "section": "maths",
+      "topic": "Statistics & Probability",
+      "difficulty": "medium",
+      "question": "The variance of a set of observations is 4. If each observation is multiplied by 3, the new variance is:",
+      "options": [
+        "36",
+        "12",
+        "4",
+        "7"
+      ],
+      "answer": 0,
+      "explanation": "Multiplying every observation by k multiplies the variance by k², so the new variance is 9 × 4 = 36.",
+      "source": "ai",
+      "archetype": "nda-M27",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Variance scaling ×9 with 12 trap is NDA-faithful"
+      }
+    },
+    {
+      "id": "nda-086",
+      "section": "maths",
+      "topic": "Statistics & Probability",
+      "difficulty": "medium",
+      "question": "For a binomial distribution, the mean is 4 and the variance is 3. The number of trials n is:",
+      "options": [
+        "12",
+        "16",
+        "8",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "np = 4 and npq = 3 give q = 3/4 and p = 1/4, so n = 4/(1/4) = 16.",
+      "source": "ai",
+      "archetype": "nda-M28",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Binomial n from mean/variance is NDA M28"
+      }
+    },
+    {
+      "id": "nda-087",
+      "section": "gat-english",
+      "topic": "Vocabulary (Synonyms & Antonyms)",
+      "difficulty": "easy",
+      "question": "Choose the word most nearly SAME in meaning to the word in capitals:\nGiven the bad weather, postponing the exercise was a PRUDENT decision.",
+      "options": [
+        "Hasty",
+        "Bold",
+        "Wise",
+        "Unusual"
+      ],
+      "answer": 2,
+      "explanation": "Prudent means showing good judgement and care for the future, i.e. wise.",
+      "source": "ai",
+      "archetype": "nda-E01",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Contextual synonym PRUDENT fits NDA format"
+      }
+    },
+    {
+      "id": "nda-088",
+      "section": "gat-english",
+      "topic": "Vocabulary (Synonyms & Antonyms)",
+      "difficulty": "easy",
+      "question": "Choose the word most nearly OPPOSITE in meaning to the word in capitals:\nThe spokesperson's reply was deliberately AMBIGUOUS.",
+      "options": [
+        "Vague",
+        "Lengthy",
+        "Polite",
+        "Clear"
+      ],
+      "answer": 3,
+      "explanation": "Ambiguous means open to more than one interpretation; its opposite is clear. 'Vague' is a near-synonym.",
+      "source": "ai",
+      "archetype": "nda-E02",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Contextual antonym with synonym distractor fits NDA"
+      }
+    },
+    {
+      "id": "nda-089",
+      "section": "gat-english",
+      "topic": "Spotting Errors",
+      "difficulty": "medium",
+      "question": "Identify the part of the sentence that contains an error.\nThe quality of the rations (A) / supplied to the troops (B) / have improved considerably. (C) / No error (D)",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 2,
+      "explanation": "The subject is 'the quality' (singular), not 'rations', so part C should read 'has improved considerably'.",
+      "source": "ai",
+      "archetype": "nda-E03",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "'quality of rations…have' agreement is NDA-faithful"
+      }
+    },
+    {
+      "id": "nda-090",
+      "section": "gat-english",
+      "topic": "Spotting Errors",
+      "difficulty": "medium",
+      "question": "Identify the part of the sentence that contains an error.\nHe did not know (A) / how to cope up (B) / with the sudden pressure. (C) / No error (D)",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 1,
+      "explanation": "The correct expression is 'cope with', not 'cope up with'. The error is in part B.",
+      "source": "ai",
+      "archetype": "nda-E04",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "'cope up' idiomatic error is a known NDA item"
+      }
+    },
+    {
+      "id": "nda-091",
+      "section": "gat-english",
+      "topic": "Sentence Improvement",
+      "difficulty": "medium",
+      "question": "Choose the best replacement for the underlined part. If none is needed, choose 'No improvement'.\n'He is senior than me in service.' (underlined: senior than me)",
+      "options": [
+        "senior to me",
+        "more senior than me",
+        "senior from me",
+        "No improvement"
+      ],
+      "answer": 0,
+      "explanation": "Latin comparatives such as senior, junior, superior and inferior take 'to', not 'than': 'senior to me'.",
+      "source": "ai",
+      "archetype": "nda-E05",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "'senior to' improvement is exactly named in NDA E05"
+      }
+    },
+    {
+      "id": "nda-092",
+      "section": "gat-english",
+      "topic": "Fill in the Blanks",
+      "difficulty": "easy",
+      "question": "Fill in the blank: The cadets were warned to abide ______ the rules of the academy.",
+      "options": [
+        "by",
+        "with",
+        "on",
+        "to"
+      ],
+      "answer": 0,
+      "explanation": "The phrasal verb is 'abide by', meaning to comply with.",
+      "source": "ai",
+      "archetype": "nda-E06",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "abide by preposition blank fits NDA"
+      }
+    },
+    {
+      "id": "nda-093",
+      "section": "gat-english",
+      "topic": "Ordering of Words/Sentences",
+      "difficulty": "medium",
+      "question": "Arrange the parts to form a meaningful sentence:\nP: before the monsoon\nQ: The engineers\nR: completed the bridge\nS: that connects the two villages",
+      "options": [
+        "QRPS",
+        "QRSP",
+        "RQSP",
+        "SQRP"
+      ],
+      "answer": 1,
+      "explanation": "Q-R-S-P gives 'The engineers completed the bridge that connects the two villages before the monsoon.' In QRPS the clause 'that connects the two villages' would wrongly describe the monsoon.",
+      "source": "ai",
+      "archetype": "nda-E08",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "PQRS with relative-clause placement is NDA-type"
+      }
+    },
+    {
+      "id": "nda-094",
+      "section": "gat-english",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n'Himalayan glaciers feed rivers that sustain hundreds of millions of people downstream. In recent decades many of these glaciers have been thinning and retreating, largely because of rising temperatures. In the short run, faster melting can actually increase the flow in some rivers during summer. Over a longer period, however, as the ice reserves shrink, the same rivers may carry less water in the dry months, precisely when farmers and cities need it most. Scientists therefore argue that planning for water storage and efficient use must begin now, while the rivers are still full.'\nAccording to the passage, why can the present increase in summer river flow be misleading?",
+      "options": [
+        "It shows that the glaciers are growing",
+        "It is caused mainly by heavier monsoon rain",
+        "It comes from shrinking ice reserves and may be followed by lower dry-season flows",
+        "It proves that storing water is unnecessary"
+      ],
+      "answer": 2,
+      "explanation": "The passage says faster melting raises flow only in the short run; as the ice shrinks, the rivers may carry less water in the dry months.",
+      "source": "ai",
+      "archetype": "nda-E09",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Inference RC on glacier melt fits NDA"
+      }
+    },
+    {
+      "id": "nda-095",
+      "section": "gat-english",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n'Himalayan glaciers feed rivers that sustain hundreds of millions of people downstream. In recent decades many of these glaciers have been thinning and retreating, largely because of rising temperatures. In the short run, faster melting can actually increase the flow in some rivers during summer. Over a longer period, however, as the ice reserves shrink, the same rivers may carry less water in the dry months, precisely when farmers and cities need it most. Scientists therefore argue that planning for water storage and efficient use must begin now, while the rivers are still full.'\nThe main purpose of the passage is to:",
+      "options": [
+        "describe the beauty of Himalayan rivers",
+        "argue that the glaciers will never melt completely",
+        "blame farmers for wasting water",
+        "urge early planning for water scarcity caused by glacier loss"
+      ],
+      "answer": 3,
+      "explanation": "The passage builds up to its last sentence: planning for storage and efficient use must begin now.",
+      "source": "ai",
+      "archetype": "nda-E10",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Main-purpose question fits NDA E10"
+      }
+    },
+    {
+      "id": "nda-098",
+      "section": "gat-gk",
+      "topic": "Physics",
+      "difficulty": "medium",
+      "question": "A rainbow is formed due to:",
+      "options": [
+        "Diffraction of sunlight by dust particles",
+        "Polarisation of sunlight by clouds",
+        "Refraction, dispersion and internal reflection of sunlight in raindrops",
+        "Interference of sunlight reflected from the ground"
+      ],
+      "answer": 2,
+      "explanation": "Sunlight is refracted and dispersed on entering a raindrop, reflected inside it and refracted again on leaving, which separates the colours.",
+      "source": "ai",
+      "archetype": "nda-G02",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Rainbow mechanism is a recurring NDA physics item"
+      }
+    },
+    {
+      "id": "nda-099",
+      "section": "gat-gk",
+      "topic": "Physics",
+      "difficulty": "medium",
+      "question": "A fuse wire used in household circuits should have:",
+      "options": [
+        "Low resistance and high melting point",
+        "High resistance and high melting point",
+        "Low resistance and low melting point",
+        "High resistance and low melting point"
+      ],
+      "answer": 3,
+      "explanation": "The fuse must heat up and melt quickly when excess current flows, so it is made of a high-resistance, low-melting-point alloy.",
+      "source": "ai",
+      "archetype": "nda-G03",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Fuse wire properties is NDA-typical"
+      }
+    },
+    {
+      "id": "nda-105",
+      "section": "gat-gk",
+      "topic": "History & Freedom Movement",
+      "difficulty": "medium",
+      "question": "Who commanded the Rani of Jhansi Regiment of the Indian National Army?",
+      "options": [
+        "Aruna Asaf Ali",
+        "Lakshmi Sahgal (Swaminathan)",
+        "Sarojini Naidu",
+        "Usha Mehta"
+      ],
+      "answer": 1,
+      "explanation": "Captain Lakshmi Swaminathan (later Sahgal) led the INA's women's regiment. Usha Mehta ran the Congress Radio during Quit India.",
+      "source": "ai",
+      "archetype": "nda-G08",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Lakshmi Sahgal Rani of Jhansi Regiment is NDA-type"
+      }
+    },
+    {
+      "id": "nda-106",
+      "section": "gat-gk",
+      "topic": "History & Freedom Movement",
+      "difficulty": "medium",
+      "question": "Which Gupta ruler was described by the historian V.A. Smith as the 'Napoleon of India'?",
+      "options": [
+        "Chandragupta II",
+        "Skandagupta",
+        "Samudragupta",
+        "Kumaragupta I"
+      ],
+      "answer": 2,
+      "explanation": "Smith gave this title to Samudragupta because of his extensive military campaigns recorded in the Prayag Prashasti.",
+      "source": "ai",
+      "archetype": "nda-G09",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Samudragupta 'Napoleon of India' recurs in NDA"
+      }
+    },
+    {
+      "id": "nda-108",
+      "section": "gat-gk",
+      "topic": "Geography",
+      "difficulty": "medium",
+      "question": "Which of the following rivers flows through a rift valley?",
+      "options": [
+        "Narmada",
+        "Godavari",
+        "Krishna",
+        "Kaveri"
+      ],
+      "answer": 0,
+      "explanation": "The Narmada (like the Tapi) flows westward through a rift valley between the Vindhya and Satpura ranges. The others are east-flowing.",
+      "source": "ai",
+      "archetype": "nda-G11",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Narmada rift valley is a recurring NDA item"
+      }
+    },
+    {
+      "id": "nda-109",
+      "section": "gat-gk",
+      "topic": "Geography",
+      "difficulty": "medium",
+      "question": "The Zoji La pass connects:",
+      "options": [
+        "Manali and Leh",
+        "Srinagar and Leh",
+        "Gangtok and Lhasa",
+        "Shimla and Kaza"
+      ],
+      "answer": 1,
+      "explanation": "Zoji La on the Srinagar–Leh highway links the Kashmir Valley with Ladakh.",
+      "source": "ai",
+      "archetype": "nda-G11",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Zoji La Srinagar-Leh fits NDA passes"
+      }
+    },
+    {
+      "id": "nda-111",
+      "section": "gat-gk",
+      "topic": "Geography",
+      "difficulty": "medium",
+      "question": "The Earth is closest to the Sun (perihelion) in:",
+      "options": [
+        "Early July",
+        "Late March",
+        "Late September",
+        "Early January"
+      ],
+      "answer": 3,
+      "explanation": "Perihelion falls around 3 January; aphelion around 4 July. This shows that seasons are caused by the tilt of the axis, not by distance from the Sun.",
+      "source": "ai",
+      "archetype": "nda-G13",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Perihelion early January is an NDA G13 item"
+      }
+    },
+    {
+      "id": "nda-113",
+      "section": "gat-gk",
+      "topic": "Indian Polity",
+      "difficulty": "medium",
+      "question": "The Vice-President of India is elected by an electoral college consisting of:",
+      "options": [
+        "Elected members of both Houses of Parliament and of the State Legislative Assemblies",
+        "All members of both Houses of Parliament",
+        "Elected members of the Lok Sabha only",
+        "Members of the Rajya Sabha only"
+      ],
+      "answer": 1,
+      "explanation": "Under Article 66, the Vice-President is elected by members of both Houses, including nominated members. State legislators take part only in the presidential election.",
+      "source": "ai",
+      "archetype": "nda-G15",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "VP electoral college incl. nominated members is a real NDA trap"
+      }
+    },
+    {
+      "id": "nda-117",
+      "section": "gat-gk",
+      "topic": "Current Events & Defence",
+      "difficulty": "easy",
+      "question": "Which rank in the Indian Air Force is equivalent to a Major in the Indian Army?",
+      "options": [
+        "Flight Lieutenant",
+        "Squadron Leader",
+        "Wing Commander",
+        "Group Captain"
+      ],
+      "answer": 1,
+      "explanation": "Major = Squadron Leader = Lieutenant Commander. Flight Lieutenant equals Captain, and Wing Commander equals Lieutenant Colonel.",
+      "source": "ai",
+      "archetype": "nda-G17",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Squadron Leader = Major equivalence is NDA G17"
+      }
+    },
+    {
+      "id": "nda-119",
+      "section": "gat-gk",
+      "topic": "Current Events & Defence",
+      "difficulty": "medium",
+      "question": "'Yudh Abhyas' is a joint military exercise between India and:",
+      "options": [
+        "Russia",
+        "France",
+        "Japan",
+        "United States of America"
+      ],
+      "answer": 3,
+      "explanation": "Yudh Abhyas is the India–US Army exercise. With Russia it is INDRA, with France Shakti and with Japan Dharma Guardian.",
+      "source": "ai",
+      "archetype": "nda-G18",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Yudh Abhyas India-US is NDA exercise style"
+      }
+    },
+    {
+      "id": "nda-120",
+      "section": "gat-english",
+      "topic": "Cloze Test",
+      "difficulty": "medium",
+      "question": "In the following passage there are five numbered blanks. Read it and choose the most appropriate word for blank (1).\n\n'Discipline is often ___(1)___ with harsh punishment, but in a well-run unit it is something quite different. It is the habit of doing the right thing even when no one is ___(2)___. A young cadet learns this not from lectures alone but from the example of those ___(3)___ him. When officers keep their word, arrive on time and share the hardships of their men, discipline grows almost ___(4)___. Where they fail to do so, no amount of drill can ___(5)___ for the loss of trust.'",
+      "options": [
+        "confided",
+        "confused",
+        "conferred",
+        "conformed"
+      ],
+      "answer": 1,
+      "explanation": "'Confused with' means wrongly identified as, which fits the contrast that follows ('it is something quite different'). The other words are look-alikes with unrelated meanings.",
+      "verified": true,
+      "archetype": "nda-E11",
+      "source": "ai",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "'confused with' collocation in a 5-blank military passage, as in NDA GAT cloze; con- look-alike options"
+      }
+    },
+    {
+      "id": "nda-121",
+      "section": "gat-english",
+      "topic": "Cloze Test",
+      "difficulty": "medium",
+      "question": "In the following passage there are five numbered blanks. Read it and choose the most appropriate word for blank (2).\n\n'Discipline is often ___(1)___ with harsh punishment, but in a well-run unit it is something quite different. It is the habit of doing the right thing even when no one is ___(2)___. A young cadet learns this not from lectures alone but from the example of those ___(3)___ him. When officers keep their word, arrive on time and share the hardships of their men, discipline grows almost ___(4)___. Where they fail to do so, no amount of drill can ___(5)___ for the loss of trust.'",
+      "options": [
+        "staring",
+        "glancing",
+        "watching",
+        "peeping"
+      ],
+      "answer": 2,
+      "explanation": "The set expression is 'even when no one is watching', meaning when there is no supervision. Staring, glancing and peeping describe ways of looking and do not fit the sense.",
+      "verified": true,
+      "archetype": "nda-E11",
+      "source": "ai",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "'no one is watching' - straightforward NDA cloze blank; near-synonym seeing verbs as distractors"
+      }
+    },
+    {
+      "id": "nda-122",
+      "section": "gat-english",
+      "topic": "Cloze Test",
+      "difficulty": "medium",
+      "question": "In the following passage there are five numbered blanks. Read it and choose the most appropriate word for blank (3).\n\n'Discipline is often ___(1)___ with harsh punishment, but in a well-run unit it is something quite different. It is the habit of doing the right thing even when no one is ___(2)___. A young cadet learns this not from lectures alone but from the example of those ___(3)___ him. When officers keep their word, arrive on time and share the hardships of their men, discipline grows almost ___(4)___. Where they fail to do so, no amount of drill can ___(5)___ for the loss of trust.'",
+      "options": [
+        "above",
+        "beneath",
+        "against",
+        "across"
+      ],
+      "answer": 0,
+      "explanation": "The next sentence speaks of officers, so the cadet learns from 'those above him', his seniors. 'Beneath' reverses the sense, and 'against' and 'across' make no sense here.",
+      "verified": true,
+      "archetype": "nda-E11",
+      "source": "ai",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "'those above him' fits; prepositions as cloze options are a bit thin vs NDA's usual vocabulary blanks"
+      }
+    },
+    {
+      "id": "nda-123",
+      "section": "gat-english",
+      "topic": "Cloze Test",
+      "difficulty": "medium",
+      "question": "In the following passage there are five numbered blanks. Read it and choose the most appropriate word for blank (4).\n\n'Discipline is often ___(1)___ with harsh punishment, but in a well-run unit it is something quite different. It is the habit of doing the right thing even when no one is ___(2)___. A young cadet learns this not from lectures alone but from the example of those ___(3)___ him. When officers keep their word, arrive on time and share the hardships of their men, discipline grows almost ___(4)___. Where they fail to do so, no amount of drill can ___(5)___ for the loss of trust.'",
+      "options": [
+        "grudgingly",
+        "reluctantly",
+        "artificially",
+        "naturally"
+      ],
+      "answer": 3,
+      "explanation": "When officers set a good example, discipline grows 'almost naturally', without force. The other options contradict the positive cause just described.",
+      "verified": true,
+      "archetype": "nda-E11",
+      "source": "ai",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Adverb blank decided by tone ('grows almost naturally'); antonymous distractors as in NDA"
+      }
+    },
+    {
+      "id": "nda-124",
+      "section": "gat-english",
+      "topic": "Cloze Test",
+      "difficulty": "medium",
+      "question": "In the following passage there are five numbered blanks. Read it and choose the most appropriate word for blank (5).\n\n'Discipline is often ___(1)___ with harsh punishment, but in a well-run unit it is something quite different. It is the habit of doing the right thing even when no one is ___(2)___. A young cadet learns this not from lectures alone but from the example of those ___(3)___ him. When officers keep their word, arrive on time and share the hardships of their men, discipline grows almost ___(4)___. Where they fail to do so, no amount of drill can ___(5)___ for the loss of trust.'",
+      "options": [
+        "retaliate",
+        "compensate",
+        "apologise",
+        "account"
+      ],
+      "answer": 1,
+      "explanation": "'Compensate for' means make up for, which fits 'no amount of drill can compensate for the loss of trust'. 'Account for' means explain, and the others do not fit.",
+      "verified": true,
+      "archetype": "nda-E11",
+      "source": "ai",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "'compensate for' vs 'account for' collocation trap - faithful NDA cloze item"
+      }
+    },
+    {
+      "id": "nda-125",
+      "section": "gat-english",
+      "topic": "Vocabulary (Synonyms & Antonyms)",
+      "difficulty": "easy",
+      "question": "Choose the word most nearly SAME in meaning to the word in capitals:\nThe general's CANDOUR during the press briefing surprised the journalists.",
+      "options": [
+        "Evasiveness",
+        "Grandeur",
+        "Frankness",
+        "Arrogance"
+      ],
+      "answer": 2,
+      "explanation": "Candour means openness and honesty in speech, i.e. frankness. 'Evasiveness' is the opposite and 'grandeur' only sounds similar.",
+      "verified": true,
+      "archetype": "nda-E01",
+      "source": "ai",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Sentence-context synonym with antonym distractor 'Evasiveness' - NDA E01 exactly"
+      }
+    },
+    {
+      "id": "nda-126",
+      "section": "gat-english",
+      "topic": "Vocabulary (Synonyms & Antonyms)",
+      "difficulty": "medium",
+      "question": "Choose the word most nearly SAME in meaning to the word in capitals:\nHis ALACRITY in accepting the dangerous assignment impressed his seniors.",
+      "options": [
+        "Eagerness",
+        "Reluctance",
+        "Alarm",
+        "Annoyance"
+      ],
+      "answer": 0,
+      "explanation": "Alacrity means brisk and cheerful readiness, i.e. eagerness. 'Reluctance' is the opposite, and 'alarm' is a look-alike.",
+      "verified": true,
+      "archetype": "nda-E01",
+      "source": "ai",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "ALACRITY with antonym 'Reluctance' and look-alike 'Alarm' - textbook NDA synonym"
+      }
+    },
+    {
+      "id": "nda-127",
+      "section": "gat-english",
+      "topic": "Vocabulary (Synonyms & Antonyms)",
+      "difficulty": "easy",
+      "question": "Choose the word most nearly OPPOSITE in meaning to the word in capitals:\nThe colonel's instructions to the patrol were always EXPLICIT.",
+      "options": [
+        "Clear",
+        "Exquisite",
+        "Brief",
+        "Implicit"
+      ],
+      "answer": 3,
+      "explanation": "Explicit means stated clearly and in detail; implicit means implied, not stated directly. 'Clear' is a synonym and 'exquisite' a look-alike.",
+      "verified": true,
+      "archetype": "nda-E02",
+      "source": "ai",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "EXPLICIT/IMPLICIT antonym with synonym 'Clear' planted and look-alike 'Exquisite'"
+      }
+    },
+    {
+      "id": "nda-128",
+      "section": "gat-english",
+      "topic": "Vocabulary (Synonyms & Antonyms)",
+      "difficulty": "medium",
+      "question": "Choose the word most nearly OPPOSITE in meaning to the word in capitals:\nThe regiment's reputation was BOLSTERED by its conduct during the floods.",
+      "options": [
+        "Strengthened",
+        "Undermined",
+        "Bolted",
+        "Advertised"
+      ],
+      "answer": 1,
+      "explanation": "Bolstered means supported or strengthened, so the opposite is undermined. 'Strengthened' is a synonym and 'bolted' a look-alike.",
+      "verified": true,
+      "archetype": "nda-E02",
+      "source": "ai",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "BOLSTERED antonym with synonym 'Strengthened' and look-alike 'Bolted' - matches E02"
+      }
+    },
+    {
+      "id": "nda-129",
+      "section": "gat-english",
+      "topic": "Spotting Errors",
+      "difficulty": "medium",
+      "question": "Identify the part of the sentence that contains an error.\nThe committee (A) / are divided in their opinions (B) / about the new training schedule. (C) / No error (D)",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 3,
+      "explanation": "A collective noun takes a plural verb when its members act or think as individuals. 'Divided in their opinions' shows that the members disagree, so 'are' and 'their' are correct. No error.",
+      "verified": true,
+      "archetype": "nda-E03",
+      "source": "ai",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Collective noun whose members disagree ('divided in their opinions') correctly takes plural - so No error"
+      }
+    },
+    {
+      "id": "nda-130",
+      "section": "gat-english",
+      "topic": "Spotting Errors",
+      "difficulty": "medium",
+      "question": "Identify the part of the sentence that contains an error.\nA large number of applicants (A) / was rejected (B) / at the medical examination stage. (C) / No error (D)",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 1,
+      "explanation": "'A number of' means 'many' and takes a plural verb: 'were rejected'. ('The number of' would take a singular verb.)",
+      "verified": true,
+      "archetype": "nda-E03",
+      "source": "ai",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "'A large number of ... were' agreement error - classic NDA spotting item"
+      }
+    },
+    {
+      "id": "nda-131",
+      "section": "gat-english",
+      "topic": "Spotting Errors",
+      "difficulty": "medium",
+      "question": "Identify the part of the sentence that contains an error.\nOf the two routes to the camp, (A) / the army engineers found (B) / the northern one the safest. (C) / No error (D)",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 2,
+      "explanation": "When two things are compared, the comparative is used: 'the safer'. The superlative 'safest' needs three or more.",
+      "verified": true,
+      "archetype": "nda-E04",
+      "source": "ai",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Comparative for two ('safer') - degree-of-comparison error as in NDA E04"
+      }
+    },
+    {
+      "id": "nda-132",
+      "section": "gat-english",
+      "topic": "Sentence Improvement",
+      "difficulty": "medium",
+      "question": "Choose the best replacement for the underlined part. If none is needed, choose 'No improvement'.\n'Unless you do not report by 0600 hours, you will lose your leave.' (underlined: Unless you do not report)",
+      "options": [
+        "Until you do not report",
+        "Unless you report",
+        "If you will not report",
+        "No improvement"
+      ],
+      "answer": 1,
+      "explanation": "'Unless' already means 'if not', so adding 'not' creates a double negative. The correct form is 'Unless you report …' (or 'If you do not report …').",
+      "verified": true,
+      "archetype": "nda-E05",
+      "source": "ai",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "'Unless ... not' double negative improvement - long-standing NDA/CDS staple"
+      }
+    },
+    {
+      "id": "nda-133",
+      "section": "gat-english",
+      "topic": "Sentence Improvement",
+      "difficulty": "medium",
+      "question": "Choose the best replacement for the underlined part. If none is needed, choose 'No improvement'.\n'It is high time we leave for the base.' (underlined: we leave)",
+      "options": [
+        "we will leave",
+        "we are leaving",
+        "we left",
+        "No improvement"
+      ],
+      "answer": 2,
+      "explanation": "'It is (high) time' is followed by the past subjunctive (simple past form) to show that the action is already due: 'It is high time we left'.",
+      "verified": true,
+      "archetype": "nda-E05",
+      "source": "ai",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "'It is high time + past tense' subjunctive - exactly the E05 archetype"
+      }
+    },
+    {
+      "id": "nda-134",
+      "section": "gat-english",
+      "topic": "Fill in the Blanks",
+      "difficulty": "easy",
+      "question": "Fill in the blank: The officer was accused ______ gross negligence of duty.",
+      "options": [
+        "with",
+        "for",
+        "about",
+        "of"
+      ],
+      "answer": 3,
+      "explanation": "'Accuse' takes 'of' (accused of negligence). 'Charge' takes 'with', which makes 'with' a tempting trap.",
+      "verified": true,
+      "archetype": "nda-E06",
+      "source": "ai",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "'accused of' preposition blank, standard NDA fill-in"
+      }
+    },
+    {
+      "id": "nda-135",
+      "section": "gat-english",
+      "topic": "Fill in the Blanks",
+      "difficulty": "medium",
+      "question": "Fill in the blank: The commander's speech was so ______ that even the exhausted soldiers felt inspired.",
+      "options": [
+        "soporific",
+        "stirring",
+        "stilted",
+        "staid"
+      ],
+      "answer": 1,
+      "explanation": "'Stirring' means rousing strong feeling, which fits 'felt inspired'. 'Soporific' means sleep-inducing, 'stilted' means stiff and unnatural, and 'staid' means dull.",
+      "verified": true,
+      "archetype": "nda-E07",
+      "source": "ai",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "'stirring' among s-word near-forms (soporific/stilted/staid) - good NDA vocabulary blank"
+      }
+    },
+    {
+      "id": "nda-136",
+      "section": "gat-english",
+      "topic": "Ordering of Words/Sentences",
+      "difficulty": "medium",
+      "question": "Arrange the parts to form a meaningful sentence:\nP: that the bridge would not survive\nQ: The engineers warned\nR: another heavy monsoon\nS: unless it was strengthened immediately",
+      "options": [
+        "QSPR",
+        "PRQS",
+        "QPRS",
+        "SQPR"
+      ],
+      "answer": 2,
+      "explanation": "Q-P-R-S: 'The engineers warned that the bridge would not survive another heavy monsoon unless it was strengthened immediately.' R is the object of 'survive' and must follow P directly.",
+      "verified": true,
+      "archetype": "nda-E08",
+      "source": "ai",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "PQRS sentence ordering with clear clause logic; matches NDA ordering format"
+      }
+    },
+    {
+      "id": "nda-137",
+      "section": "gat-english",
+      "topic": "Ordering of Words/Sentences",
+      "difficulty": "medium",
+      "question": "Arrange the parts to form a meaningful sentence:\nP: who had trained in the desert\nQ: found the mountain terrain\nR: The soldiers\nS: unexpectedly difficult",
+      "options": [
+        "RPQS",
+        "RQSP",
+        "PRQS",
+        "RSQP"
+      ],
+      "answer": 0,
+      "explanation": "R-P-Q-S: 'The soldiers who had trained in the desert found the mountain terrain unexpectedly difficult.' The relative clause P must come right after 'The soldiers'.",
+      "verified": true,
+      "archetype": "nda-E08",
+      "source": "ai",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Relative clause placement ordering; easy but typical of NDA"
+      }
+    },
+    {
+      "id": "nda-138",
+      "section": "gat-english",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n'When radar was first installed along the English coast in the late 1930s, many senior officers doubted its value. The early sets were bulky, unreliable and needed operators who could interpret faint flickers on a screen. What eventually made radar decisive was not the machine alone but the system built around it: trained observers, telephone links to control rooms, and commanders who trusted the information enough to act on it at once. A brilliant invention, the episode suggests, achieves little until people and procedures are organised to use it. The same lesson applies today to new technologies, from satellite imagery to artificial intelligence, whose promise is too often judged by the device rather than by the arrangements that surround it.'\nAccording to the passage, what finally made radar decisive?",
+      "options": [
+        "The small size and reliability of the early sets",
+        "The approval of senior officers in the 1930s",
+        "The genius of a single inventor",
+        "The trained people and communication system organised around it"
+      ],
+      "answer": 3,
+      "explanation": "The passage says radar became decisive because of 'the system built around it: trained observers, telephone links to control rooms, and commanders who trusted the information'. The early sets were bulky and unreliable.",
+      "verified": true,
+      "archetype": "nda-E09",
+      "source": "ai",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Factual RC answered from a specific sentence; distractors contradict passage - NDA E09"
+      }
+    },
+    {
+      "id": "nda-139",
+      "section": "gat-english",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n'When radar was first installed along the English coast in the late 1930s, many senior officers doubted its value. The early sets were bulky, unreliable and needed operators who could interpret faint flickers on a screen. What eventually made radar decisive was not the machine alone but the system built around it: trained observers, telephone links to control rooms, and commanders who trusted the information enough to act on it at once. A brilliant invention, the episode suggests, achieves little until people and procedures are organised to use it. The same lesson applies today to new technologies, from satellite imagery to artificial intelligence, whose promise is too often judged by the device rather than by the arrangements that surround it.'\nIt can be inferred that the author would judge a new military technology mainly by:",
+      "options": [
+        "how well people and procedures are organised to use it",
+        "how advanced the device itself is",
+        "how cheaply it can be manufactured",
+        "how quickly senior officers approve it"
+      ],
+      "answer": 0,
+      "explanation": "The author criticises judging technology 'by the device rather than by the arrangements that surround it', so he would judge it by how well it is organised and used.",
+      "verified": true,
+      "archetype": "nda-E09",
+      "source": "ai",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Inference about author's criterion drawn from last sentence; matches NDA inference style"
+      }
+    },
+    {
+      "id": "nda-140",
+      "section": "gat-english",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n'When radar was first installed along the English coast in the late 1930s, many senior officers doubted its value. The early sets were bulky, unreliable and needed operators who could interpret faint flickers on a screen. What eventually made radar decisive was not the machine alone but the system built around it: trained observers, telephone links to control rooms, and commanders who trusted the information enough to act on it at once. A brilliant invention, the episode suggests, achieves little until people and procedures are organised to use it. The same lesson applies today to new technologies, from satellite imagery to artificial intelligence, whose promise is too often judged by the device rather than by the arrangements that surround it.'\nThe main purpose of the passage is to:",
+      "options": [
+        "explain the technical working of early radar sets",
+        "criticise British officers of the 1930s",
+        "draw a general lesson about adopting new technology from the history of radar",
+        "argue that artificial intelligence is more important than radar"
+      ],
+      "answer": 2,
+      "explanation": "The radar story is used to make a wider point ('The same lesson applies today …'). Technical detail and criticism of officers are incidental, and AI is mentioned only as an example.",
+      "verified": true,
+      "archetype": "nda-E10",
+      "source": "ai",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Main-purpose RC with too-narrow/too-extreme distractors as in NDA E10"
+      }
+    },
+    {
+      "id": "nda-141",
+      "section": "gat-gk",
+      "topic": "Physics",
+      "difficulty": "medium",
+      "question": "A ball is thrown vertically upwards with a speed of 20 m/s. Taking g = 10 m/s², the total time for which it remains in the air and the maximum height it reaches are, respectively:",
+      "options": [
+        "2 s and 20 m",
+        "4 s and 20 m",
+        "4 s and 40 m",
+        "2 s and 40 m"
+      ],
+      "answer": 1,
+      "explanation": "Time to rise = u/g = 2 s, so the total time of flight = 4 s. Maximum height = u²/2g = 400/20 = 20 m. (2 s is only the time of ascent.)",
+      "verified": true,
+      "archetype": "nda-G01",
+      "source": "ai",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Vertical throw time & height - one-step kinematics as set in NDA GAT physics"
+      }
+    },
+    {
+      "id": "nda-142",
+      "section": "gat-gk",
+      "topic": "Physics",
+      "difficulty": "medium",
+      "question": "A car starts from rest and accelerates uniformly to 72 km/h in 10 s. The distance covered in this time is:",
+      "options": [
+        "200 m",
+        "360 m",
+        "100 m",
+        "50 m"
+      ],
+      "answer": 2,
+      "explanation": "72 km/h = 20 m/s, so a = 20/10 = 2 m/s². s = ½at² = ½ × 2 × 100 = 100 m. (360 results from forgetting to convert km/h to m/s.)",
+      "verified": true,
+      "archetype": "nda-G01",
+      "source": "ai",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "km/h to m/s conversion trap (360 m distractor) - typical NDA GAT numerical"
+      }
+    },
+    {
+      "id": "nda-143",
+      "section": "gat-gk",
+      "topic": "Physics",
+      "difficulty": "medium",
+      "question": "If the kinetic energy of a body increases by 44%, its linear momentum increases by:",
+      "options": [
+        "22%",
+        "44%",
+        "12%",
+        "20%"
+      ],
+      "answer": 3,
+      "explanation": "p = √(2mE), so p ∝ √E. New p = √1.44 × p = 1.2p, an increase of 20%. (22% wrongly halves 44%.)",
+      "verified": true,
+      "archetype": "nda-G01",
+      "source": "ai",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "p proportional to sqrt(KE) percentage trap (22% half-value distractor) - classic NDA item"
+      }
+    },
+    {
+      "id": "nda-144",
+      "section": "gat-gk",
+      "topic": "Physics",
+      "difficulty": "medium",
+      "question": "Consider the following statements:\n1. The sky appears blue because shorter wavelengths of sunlight are scattered more by air molecules.\n2. Red light is used for danger signals because it has the highest frequency in the visible spectrum and is scattered the most.\n3. The Sun looks reddish at sunrise because most of the blue light is scattered away over the longer path through the atmosphere.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 3 only",
+        "2 only",
+        "1 and 2 only",
+        "1, 2 and 3"
+      ],
+      "answer": 0,
+      "explanation": "Red has the longest wavelength (lowest frequency) of visible light and is scattered the least, so it can be seen from far away. That is why it is used for danger signals, so statement 2 is wrong.",
+      "verified": true,
+      "archetype": "nda-G02",
+      "source": "ai",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Scattering statements with false red-light frequency claim; NDA uses this statement format"
+      }
+    },
+    {
+      "id": "nda-145",
+      "section": "gat-gk",
+      "topic": "Physics",
+      "difficulty": "medium",
+      "question": "Three resistors of 6 Ω each are available. Which combination of all three gives an equivalent resistance of 9 Ω?",
+      "options": [
+        "All three in series",
+        "All three in parallel",
+        "Two in series and the third in parallel with them",
+        "Two in parallel and the third in series with them"
+      ],
+      "answer": 3,
+      "explanation": "Two 6 Ω in parallel = 3 Ω; adding 6 Ω in series gives 9 Ω. Series gives 18 Ω, all parallel 2 Ω, and (6 + 6) ∥ 6 = 4 Ω.",
+      "verified": true,
+      "archetype": "nda-G03",
+      "source": "ai",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Series-parallel combination of equal resistors - standard NDA GAT circuit question"
+      }
+    },
+    {
+      "id": "nda-146",
+      "section": "gat-gk",
+      "topic": "Chemistry",
+      "difficulty": "medium",
+      "question": "Consider the following pairs (Common name – Chemical formula):\n1. Washing soda – Na₂CO₃·10H₂O\n2. Bleaching powder – CaOCl₂\n3. Quicklime – Ca(OH)₂\n4. Gypsum – CaSO₄·2H₂O\nWhich of the pairs given above are correctly matched?",
+      "options": [
+        "1 and 2 only",
+        "2, 3 and 4 only",
+        "1, 2 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "answer": 2,
+      "explanation": "Quicklime is calcium oxide, CaO. Ca(OH)₂ is slaked lime. The other three pairs are correct.",
+      "verified": true,
+      "archetype": "nda-G04",
+      "source": "ai",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Common name-formula pairs with quicklime/slaked lime swap trap - matches G04"
+      }
+    },
+    {
+      "id": "nda-147",
+      "section": "gat-gk",
+      "topic": "Chemistry",
+      "difficulty": "medium",
+      "question": "Which of the following are chemical changes?\n1. Curdling of milk\n2. Dissolving sugar in water\n3. Rusting of iron\n4. Sublimation of camphor\n5. Burning of a magnesium ribbon\nSelect the correct answer using the code given below.",
+      "options": [
+        "1, 2 and 3 only",
+        "3, 4 and 5 only",
+        "2 and 4 only",
+        "1, 3 and 5 only"
+      ],
+      "answer": 3,
+      "explanation": "Curdling, rusting and burning form new substances. Dissolving sugar and the sublimation of camphor are physical changes that can be reversed.",
+      "verified": true,
+      "archetype": "nda-G05",
+      "source": "ai",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Physical vs chemical change list incl. sublimation trap - NDA G05 exactly"
+      }
+    },
+    {
+      "id": "nda-148",
+      "section": "gat-gk",
+      "topic": "General Science (Biology)",
+      "difficulty": "medium",
+      "question": "Consider the following pairs (Hormone – Gland that secretes it):\n1. Thyroxine – Thyroid\n2. Insulin – Pancreas\n3. Adrenaline – Pituitary\n4. Growth hormone – Pituitary\nWhich of the pairs given above are correctly matched?",
+      "options": [
+        "1, 2 and 4 only",
+        "1 and 3 only",
+        "2, 3 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "answer": 0,
+      "explanation": "Adrenaline is secreted by the adrenal medulla, not the pituitary. Insulin comes from the beta cells of the islets of Langerhans in the pancreas.",
+      "verified": true,
+      "archetype": "nda-G06",
+      "source": "ai",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Hormone-gland pairs with adrenaline-pituitary trap; frequent NDA biology pattern"
+      }
+    },
+    {
+      "id": "nda-149",
+      "section": "gat-gk",
+      "topic": "General Science (Biology)",
+      "difficulty": "medium",
+      "question": "Which of the following vitamins are water-soluble?\n1. Vitamin A\n2. Vitamin B₁₂\n3. Vitamin C\n4. Vitamin K\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 and 4 only",
+        "2 and 3 only",
+        "1, 2 and 3 only",
+        "3 only"
+      ],
+      "answer": 1,
+      "explanation": "The B-complex vitamins and vitamin C are water-soluble. Vitamins A, D, E and K are fat-soluble.",
+      "verified": true,
+      "archetype": "nda-G06",
+      "source": "ai",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Water- vs fat-soluble vitamins, code-based options as in NDA"
+      }
+    },
+    {
+      "id": "nda-150",
+      "section": "gat-gk",
+      "topic": "History & Freedom Movement",
+      "difficulty": "medium",
+      "question": "Arrange the following events in chronological order:\n1. Gandhi–Irwin Pact\n2. Arrival of the Simon Commission in India\n3. Purna Swaraj resolution at the Lahore Congress\n4. Chauri Chaura incident\nSelect the correct answer using the code given below.",
+      "options": [
+        "2-4-3-1",
+        "4-3-2-1",
+        "4-2-3-1",
+        "2-4-1-3"
+      ],
+      "answer": 2,
+      "explanation": "Chauri Chaura (February 1922) → Simon Commission arrives (February 1928) → Lahore session (December 1929) → Gandhi–Irwin Pact (March 1931).",
+      "verified": true,
+      "archetype": "nda-G08",
+      "source": "ai",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Chronology 1922-1928-1929-1931; NDA freedom-movement ordering format"
+      }
+    },
+    {
+      "id": "nda-151",
+      "section": "gat-gk",
+      "topic": "History & Freedom Movement",
+      "difficulty": "medium",
+      "question": "Which one of the following statements about the Indian National Army (INA) is NOT correct?",
+      "options": [
+        "The first INA was organised under Captain Mohan Singh with Japanese support",
+        "Rash Behari Bose handed over the leadership of the movement in East Asia to Subhas Chandra Bose in 1943",
+        "Bhulabhai Desai led the defence of the INA officers at their trials",
+        "The INA trials of 1945–46 were held at the Lahore Fort"
+      ],
+      "answer": 3,
+      "explanation": "The INA trials (Shah Nawaz Khan, P.K. Sahgal, G.S. Dhillon) were held at the Red Fort, Delhi. The other statements are correct.",
+      "verified": true,
+      "archetype": "nda-G08",
+      "source": "ai",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "INA trials held at Red Fort, not Lahore Fort; NOT-correct format fits NDA though a bit detailed"
+      }
+    },
+    {
+      "id": "nda-152",
+      "section": "gat-gk",
+      "topic": "History & Freedom Movement",
+      "difficulty": "medium",
+      "question": "Consider the following pairs (Ruler – Associated with):\n1. Harshavardhana – Authorship of the play Ratnavali\n2. Pulakeshin II – Hathigumpha inscription\n3. Kanishka – Fourth Buddhist Council\n4. Ashoka – Account of the Kalinga war in Major Rock Edict XIII\nWhich of the pairs given above are correctly matched?",
+      "options": [
+        "1, 3 and 4 only",
+        "2 and 3 only",
+        "1, 2 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "answer": 0,
+      "explanation": "The Hathigumpha inscription belongs to Kharavela of Kalinga. Pulakeshin II is known from the Aihole inscription (composed by Ravikirti). The other pairs are correct.",
+      "verified": true,
+      "archetype": "nda-G09",
+      "source": "ai",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Ruler-pairs with Hathigumpha (Kharavela) trap; Ratnavali detail slightly above NDA average"
+      }
+    },
+    {
+      "id": "nda-153",
+      "section": "gat-gk",
+      "topic": "History & Freedom Movement",
+      "difficulty": "medium",
+      "question": "Consider the following statements about the Anglo-Mysore Wars:\n1. The Second Anglo-Mysore War was ended by the Treaty of Madras.\n2. The Third Anglo-Mysore War ended with the Treaty of Seringapatam, under which Tipu Sultan ceded about half his territory.\n3. Tipu Sultan was killed during the Fourth Anglo-Mysore War in 1799.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 2 only",
+        "1 and 3 only",
+        "1, 2 and 3",
+        "2 and 3 only"
+      ],
+      "answer": 3,
+      "explanation": "The Treaty of Madras (1769) ended the First war; the Second war ended with the Treaty of Mangalore (1784). Statements 2 (1792) and 3 (1799) are correct.",
+      "verified": true,
+      "archetype": "nda-G10",
+      "source": "ai",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Treaty of Mangalore vs Madras trap; NDA asks Mysore wars but statement depth is CDS-like"
+      }
+    },
+    {
+      "id": "nda-154",
+      "section": "gat-gk",
+      "topic": "Geography",
+      "difficulty": "medium",
+      "question": "Which of the following are tributaries of the Godavari?\n1. Indravati\n2. Manjira\n3. Bhima\n4. Pranhita\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 and 3 only",
+        "2, 3 and 4 only",
+        "1, 2 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "answer": 2,
+      "explanation": "The Indravati, Manjira and Pranhita join the Godavari. The Bhima is a tributary of the Krishna.",
+      "verified": true,
+      "archetype": "nda-G11",
+      "source": "ai",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Godavari tributaries with Bhima (Krishna) trap - frequent NDA river question"
+      }
+    },
+    {
+      "id": "nda-155",
+      "section": "gat-gk",
+      "topic": "Geography",
+      "difficulty": "medium",
+      "question": "Consider the following statements:\n1. Duncan Passage separates Little Andaman from Car Nicobar.\n2. The Ten Degree Channel separates the Andaman group of islands from the Nicobar group.\n3. The Eight Degree Channel separates Minicoy from the Maldives.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "2 and 3 only",
+        "1 and 2 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 0,
+      "explanation": "Duncan Passage lies between Rutland Island (South Andaman) and Little Andaman. Little Andaman and Car Nicobar are separated by the Ten Degree Channel.",
+      "verified": true,
+      "archetype": "nda-G11",
+      "source": "ai",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Andaman channels/passages statements; Duncan Passage misplacement trap - NDA G11"
+      }
+    },
+    {
+      "id": "nda-156",
+      "section": "gat-gk",
+      "topic": "Geography",
+      "difficulty": "medium",
+      "question": "Consider the following pairs (Local wind – Region):\n1. Chinook – Eastern slopes of the Rockies\n2. Foehn – Alps\n3. Sirocco – Sahara towards the Mediterranean\n4. Harmattan – Australia\nWhich of the pairs given above are correctly matched?",
+      "options": [
+        "1 and 2 only",
+        "1, 2 and 3 only",
+        "2, 3 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "answer": 1,
+      "explanation": "The Harmattan is the dry, dusty north-easterly wind of West Africa (the 'doctor' of the Guinea coast). The other three pairs are correct.",
+      "verified": true,
+      "archetype": "nda-G12",
+      "source": "ai",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Local winds-region pairs with Harmattan misplaced; common NDA world geography item"
+      }
+    },
+    {
+      "id": "nda-157",
+      "section": "gat-gk",
+      "topic": "Indian Polity",
+      "difficulty": "medium",
+      "question": "Consider the following statements about a National Emergency under Article 352:\n1. It can be proclaimed on the grounds of war, external aggression or armed rebellion.\n2. The proclamation must be approved by both Houses of Parliament within one month by a special majority.\n3. During such an emergency, the enforcement of the rights under Articles 20 and 21 can be suspended.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 2 only",
+        "1 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 0,
+      "explanation": "Since the 44th Amendment (1978), the rights under Articles 20 and 21 cannot be suspended even during an emergency. That amendment also replaced 'internal disturbance' with 'armed rebellion' and required approval within one month by a special majority.",
+      "verified": true,
+      "archetype": "nda-G14",
+      "source": "ai",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Art 352 grounds/approval and Arts 20-21 non-suspension trap - matches G14 exactly"
+      }
+    },
+    {
+      "id": "nda-158",
+      "section": "gat-gk",
+      "topic": "Indian Polity",
+      "difficulty": "medium",
+      "question": "Consider the following statements about the election of the President of India:\n1. Nominated members of both Houses of Parliament take part in the election.\n2. Elected members of the Legislative Assemblies of Delhi and Puducherry take part in the election.\n3. Members of the State Legislative Councils take part in the election.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "1 and 3 only",
+        "2 only",
+        "2 and 3 only"
+      ],
+      "answer": 2,
+      "explanation": "Under Article 54 (read with the 70th Amendment), the electoral college has only the elected members of Parliament and of the State Legislative Assemblies, including those of Delhi and Puducherry. Nominated members and members of Legislative Councils do not vote.",
+      "verified": true,
+      "archetype": "nda-G15",
+      "source": "ai",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Presidential electoral college incl. Delhi/Puducherry and nominated/MLC exclusions - G15"
+      }
+    },
+    {
+      "id": "nda-159",
+      "section": "gat-gk",
+      "topic": "Economy",
+      "difficulty": "medium",
+      "question": "Consider the following statements about government budget deficits:\n1. Fiscal deficit is total expenditure minus revenue receipts and non-debt capital receipts.\n2. Primary deficit is fiscal deficit minus interest payments.\n3. Revenue deficit is the excess of total expenditure, including capital expenditure, over revenue receipts.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 1,
+      "explanation": "Revenue deficit is revenue expenditure minus revenue receipts and excludes capital expenditure, so statement 3 is wrong. Statements 1 and 2 are the standard definitions.",
+      "verified": true,
+      "archetype": "nda-G16",
+      "source": "ai",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Deficit definitions with revenue-deficit trap; valid, slightly heavier than usual NDA economy"
+      }
+    },
+    {
+      "id": "nda-160",
+      "section": "gat-gk",
+      "topic": "Current Events & Defence",
+      "difficulty": "medium",
+      "question": "Consider the following pairs (Joint exercise – Partner country of India):\n1. INDRA – Russia\n2. Ajeya Warrior – Australia\n3. Surya Kiran – Nepal\n4. Lamitiye – Seychelles\nWhich of the pairs given above are correctly matched?",
+      "options": [
+        "1 and 2 only",
+        "2, 3 and 4 only",
+        "1, 3 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "answer": 2,
+      "explanation": "Ajeya Warrior is the India–United Kingdom army exercise (with Australia it is AUSTRAHIND). INDRA (Russia), Surya Kiran (Nepal) and Lamitiye (Seychelles) are correct.",
+      "verified": true,
+      "archetype": "nda-G18",
+      "source": "ai",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Exercise-partner pairs; Ajeya Warrior is UK not Australia - NDA G18 pattern, current in 2026"
+      }
+    },
+    {
+      "id": "nda-161",
+      "section": "gat-gk",
+      "topic": "Current Events & Defence",
+      "difficulty": "medium",
+      "question": "Consider the following statements about indigenous defence platforms:\n1. Tejas is a light combat aircraft designed by the Aeronautical Development Agency and built by HAL.\n2. Prachand is a light combat helicopter built by HAL.\n3. Arjun is a main battle tank developed by DRDO's Combat Vehicles Research and Development Establishment.\n4. INS Arihant is an indigenous aircraft carrier.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 2 only",
+        "1, 2 and 3 only",
+        "2, 3 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "answer": 1,
+      "explanation": "INS Arihant is India's first indigenous nuclear-powered ballistic missile submarine (SSBN). The indigenous aircraft carrier is INS Vikrant. The other statements are correct.",
+      "verified": true,
+      "archetype": "nda-G19",
+      "source": "ai",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Indigenous platforms with INS Arihant (SSBN, not carrier) trap - NDA G19"
+      }
+    },
+    {
+      "id": "nda-162",
+      "section": "gat-gk",
+      "topic": "Current Events & Defence",
+      "difficulty": "medium",
+      "question": "Consider the following pairs (Missile – Type):\n1. Astra – Beyond-visual-range air-to-air missile\n2. Nag – Anti-ship cruise missile\n3. Akash – Surface-to-air missile\n4. Agni – Surface-to-surface ballistic missile\nWhich of the pairs given above are correctly matched?",
+      "options": [
+        "1, 3 and 4 only",
+        "1 and 2 only",
+        "2 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "answer": 0,
+      "explanation": "Nag is a third-generation fire-and-forget anti-tank guided missile, not an anti-ship missile. The other pairs are correct.",
+      "verified": true,
+      "archetype": "nda-G19",
+      "source": "ai",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Missile-type pairs with Nag anti-tank trap - very common NDA question"
+      }
     }
   ]
 }

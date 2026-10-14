@@ -20,7 +20,10 @@ const exams = fs.readdirSync(dir).filter(f => f.endsWith('.json')).sort().map(f 
     stage: e.pattern?.stage, durationMinutes: e.pattern?.durationMinutes, totalQuestions: e.pattern?.totalQuestions,
     questionCount: qs.length,
     hasHindi: qs.some(q => q.questionHi),
+    aiCount: qs.filter(q => q.source === 'ai').length,
+    archetypeCount: (e.pyqBlueprint?.archetypes || []).length,
     quality: {
+      pyqRelevance: qs.length ? Math.round(qs.reduce((s, q) => s + (q.relevance?.score || 0), 0) / qs.length) : 0,
       verified: qs.length ? Math.round(100 * qs.filter(q => q.verified).length / qs.length) : 0,
       relevance: qs.length ? Math.round(100 * relevant / qs.length) : 0,
     },

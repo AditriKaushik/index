@@ -43,7 +43,8 @@
     "marking": {
       "correct": 4,
       "wrong": -1,
-      "unattempted": 0
+      "unattempted": 0,
+      "numericalWrong": -1
     },
     "sections": [
       {
@@ -65,7 +66,7 @@
         "marks": 100
       }
     ],
-    "notes": "Each subject: Section A = 20 single-correct MCQs (+4/−1), Section B = 5 numerical-value questions (+4/−1, all compulsory since 2025). This mock bank covers the MCQ part only. Scores are normalised across shifts into NTA percentiles; best of the two sessions counts."
+    "notes": "Each subject: Section A = 20 single-correct MCQs (+4/−1) and Section B = 5 numerical-value questions with integer answers (+4/−1 — a wrong numerical answer also loses 1 mark; since 2025 all 5 are compulsory, with no choice). The mock bank contains both formats. Scores are normalised across shifts into NTA percentiles; best of the two sessions counts."
   },
   "trendAnalysis": {
     "yearsAnalyzed": [
@@ -497,6 +498,1472 @@
       }
     ]
   },
+  "pyqBlueprint": {
+    "yearsCovered": [
+      2024,
+      2025,
+      2026
+    ],
+    "method": "Compiled from the NTA's officially released JEE Main Paper 1 question papers and answer keys (Jan and Apr sessions 2024–2026) as summarised in public shift-wise analyses (Vedantu, Competishun, Careers360 chapter counts across all 2026 shifts). Web search confirmed chapter-level emphasis (3D/vectors, conics, coordination compounds, ray optics, electrostatics); the question-type patterns were then written from the drafter's own knowledge of the papers, because full paper PDFs could not be fetched. Archetypes describe recurring concept + format + trap in our own words. Section-B numerical-value questions use the same archetypes in integer-answer form.",
+    "archetypes": [
+      {
+        "id": "jee-main-P01",
+        "section": "physics",
+        "topic": "Units, Dimensions & Errors",
+        "pattern": "Dimensional formula of a constant or derived quantity (h, G, ε₀, μ₀, L/R, RC) or which pair shares dimensions; distractors change one exponent of M, L, T or A",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "jee-main-P02",
+        "section": "physics",
+        "topic": "Units, Dimensions & Errors",
+        "pattern": "Maximum percentage error in Q = aᵐbⁿ/cᵖ from given % errors; trap: subtracting the error of the denominator or ignoring powers",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 in about half the shifts",
+        "difficulty": "easy"
+      },
+      {
+        "id": "jee-main-P03",
+        "section": "physics",
+        "topic": "Kinematics",
+        "pattern": "Body thrown up/down from a tower or balloon: time to reach ground, height or velocity with g = 10 m/s²; trap is the sign of the initial velocity",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-P04",
+        "section": "physics",
+        "topic": "Kinematics",
+        "pattern": "Projectile on level ground: ratios of heights, ranges or times for two launch angles (often complementary); relation R = 4H cot θ",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 in most shifts",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-P05",
+        "section": "physics",
+        "topic": "Laws of Motion",
+        "pattern": "Static vs kinetic friction: applied force below limiting value so friction equals the applied force; block on rough incline/floor",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-P06",
+        "section": "physics",
+        "topic": "Laws of Motion",
+        "pattern": "Connected bodies over a pulley or in contact: acceleration and tension/contact force; distractors from using one mass instead of the total",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 in about half the shifts",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-P07",
+        "section": "physics",
+        "topic": "Work, Energy & Power",
+        "pattern": "Kinetic energy–momentum relation p = √(2mK); percentage change of K when p changes or vice versa",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 in about half the shifts",
+        "difficulty": "easy"
+      },
+      {
+        "id": "jee-main-P08",
+        "section": "physics",
+        "topic": "Work, Energy & Power",
+        "pattern": "Work by a position-dependent force F(x) via integration, or power delivered; distractor from evaluating F at one point",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-P09",
+        "section": "physics",
+        "topic": "Rotational Motion",
+        "pattern": "Rod/disc/ring released or rolling: energy conservation including rotational KE gives ω or end/centre speed",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-P10",
+        "section": "physics",
+        "topic": "Rotational Motion",
+        "pattern": "Moment of inertia using parallel/perpendicular-axis theorem for rod, ring, disc or combinations about non-central axes",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-P11",
+        "section": "physics",
+        "topic": "Rotational Motion",
+        "pattern": "Conservation of angular momentum (person on turntable, disc placed on disc): final ω or ratio of kinetic energies",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 in about half the shifts",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-P12",
+        "section": "physics",
+        "topic": "Gravitation",
+        "pattern": "Orbital/escape energy: energy to shift a satellite between orbits or to escape, expressed in m, g, R",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 in most shifts",
+        "difficulty": "hard"
+      },
+      {
+        "id": "jee-main-P13",
+        "section": "physics",
+        "topic": "Gravitation",
+        "pattern": "Variation of g with height and depth (compare points), satellite period ratios via Kepler’s third law",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-P14",
+        "section": "physics",
+        "topic": "Properties of Solids & Liquids",
+        "pattern": "Surface tension: excess pressure in drops/bubbles, coalescence of bubbles or drops, work done to form/split drops",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 in most shifts",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-P15",
+        "section": "physics",
+        "topic": "Properties of Solids & Liquids",
+        "pattern": "Young’s modulus: ratio of extensions for wires of different length/radius under same load; elastic energy; thermal stress",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 in most shifts",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-P16",
+        "section": "physics",
+        "topic": "Properties of Solids & Liquids",
+        "pattern": "Fluid flow: continuity + Bernoulli pressure difference, efflux speed, terminal velocity (Stokes’ law)",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 in about half the shifts",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-P17",
+        "section": "physics",
+        "topic": "Thermodynamics",
+        "pattern": "First law in isobaric/isochoric/isothermal processes: fraction of heat used as work or ΔU, using Cp and Cv",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-P18",
+        "section": "physics",
+        "topic": "Thermodynamics",
+        "pattern": "Carnot engine/refrigerator: efficiency, heat rejected, COP; adiabatic T–V/P–V relations",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-P19",
+        "section": "physics",
+        "topic": "Kinetic Theory of Gases",
+        "pattern": "rms/mean/most-probable speed scaling with T and M; degrees of freedom, Cv and γ of gas mixtures",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "jee-main-P20",
+        "section": "physics",
+        "topic": "Oscillations & Waves",
+        "pattern": "Stretched string or organ pipe: harmonic frequencies when tension, length or end conditions change",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "jee-main-P21",
+        "section": "physics",
+        "topic": "Oscillations & Waves",
+        "pattern": "SHM: energy at a displacement, time period of spring/pendulum combinations, phase relations",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-P22",
+        "section": "physics",
+        "topic": "Electrostatics",
+        "pattern": "Charge sharing between capacitors and energy loss; series/parallel combinations with dielectrics",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-P23",
+        "section": "physics",
+        "topic": "Electrostatics",
+        "pattern": "Field/potential of continuous distributions (ring, arc, rod, semicircle, sphere) at special points",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 in most shifts",
+        "difficulty": "hard"
+      },
+      {
+        "id": "jee-main-P24",
+        "section": "physics",
+        "topic": "Electrostatics",
+        "pattern": "Gauss’s law flux through a cube or part of a closed surface; work in moving charges; electrostatic potential energy",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-P25",
+        "section": "physics",
+        "topic": "Current Electricity",
+        "pattern": "Equivalent resistance and branch current in series–parallel networks with ideal/real cells",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-P26",
+        "section": "physics",
+        "topic": "Current Electricity",
+        "pattern": "Wheatstone/metre bridge/potentiometer balance; resistance change when a wire is stretched; drift velocity",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-P27",
+        "section": "physics",
+        "topic": "Magnetic Effects of Current & Magnetism",
+        "pattern": "Magnetic moment/field of rotating charged ring or disc, field at centre of loops and arcs",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 in about half the shifts",
+        "difficulty": "hard"
+      },
+      {
+        "id": "jee-main-P28",
+        "section": "physics",
+        "topic": "Magnetic Effects of Current & Magnetism",
+        "pattern": "Charged particle in uniform B: radius/period comparison for proton, deuteron, α-particle with same KE, V or momentum",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-P29",
+        "section": "physics",
+        "topic": "Magnetic Effects of Current & Magnetism",
+        "pattern": "Force between parallel currents, torque on a coil, conversion of galvanometer to ammeter/voltmeter (shunt/series resistance)",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-P30",
+        "section": "physics",
+        "topic": "Electromagnetic Induction & AC",
+        "pattern": "Series LCR: resonant frequency, impedance, power factor and average power",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-P31",
+        "section": "physics",
+        "topic": "Electromagnetic Induction & AC",
+        "pattern": "Motional emf of a rod on rails/rotating rod, induced current and retarding force; flux change in coils",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-P32",
+        "section": "physics",
+        "topic": "Electromagnetic Waves",
+        "pattern": "Plane EM wave: E₀ = cB₀, intensity/energy density, ordering of spectrum and uses",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "jee-main-P33",
+        "section": "physics",
+        "topic": "Ray & Wave Optics",
+        "pattern": "Lens maker’s formula: focal length/power change when lens is immersed in a liquid or combined with another lens",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 in most shifts",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-P34",
+        "section": "physics",
+        "topic": "Ray & Wave Optics",
+        "pattern": "YDSE: fringe width changes with medium/wavelength/slit spacing, positions of bright and dark fringes",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-P35",
+        "section": "physics",
+        "topic": "Ray & Wave Optics",
+        "pattern": "Prism minimum deviation, critical angle/TIR, apparent depth; mirror-formula image position",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-P36",
+        "section": "physics",
+        "topic": "Dual Nature of Matter & Radiation",
+        "pattern": "de Broglie wavelength of accelerated particles; photoelectric equation, stopping potential and threshold",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "jee-main-P37",
+        "section": "physics",
+        "topic": "Atoms & Nuclei",
+        "pattern": "Bohr model: wavelength ratios of series lines (Lyman/Balmer/Paschen), energy/radius of nth orbit for H-like ions",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-P38",
+        "section": "physics",
+        "topic": "Atoms & Nuclei",
+        "pattern": "Radioactivity: half-life/mean-life, fraction decayed; number of α and β decays in a chain; mass defect and binding energy",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "jee-main-P39",
+        "section": "physics",
+        "topic": "Semiconductor Electronics",
+        "pattern": "Combination of logic gates — truth table/output; diode and Zener circuits",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "jee-main-C01",
+        "section": "chemistry",
+        "topic": "Some Basic Concepts (Mole Concept)",
+        "pattern": "Stoichiometry from a balanced equation: mass/volume at STP of reactant or product, limiting reagent",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "jee-main-C02",
+        "section": "chemistry",
+        "topic": "Some Basic Concepts (Mole Concept)",
+        "pattern": "Concentration conversions: % w/w or density to molality/molarity/mole fraction",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 in most shifts",
+        "difficulty": "easy"
+      },
+      {
+        "id": "jee-main-C03",
+        "section": "chemistry",
+        "topic": "Atomic Structure",
+        "pattern": "Radial/angular nodes, allowed quantum-number sets, number of orbitals/electrons for given n, l, m",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "jee-main-C04",
+        "section": "chemistry",
+        "topic": "Atomic Structure",
+        "pattern": "Bohr energy/radius/velocity for H-like species; de Broglie and uncertainty relations",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 in most shifts",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-C05",
+        "section": "chemistry",
+        "topic": "Chemical Bonding",
+        "pattern": "Dipole moment (zero vs non-zero) from VSEPR geometry; count of polar molecules in a list",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-C06",
+        "section": "chemistry",
+        "topic": "Chemical Bonding",
+        "pattern": "MOT: bond order and magnetic behaviour of O₂, N₂, C₂ and their ions; ordering of bond order/length",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-C07",
+        "section": "chemistry",
+        "topic": "Chemical Bonding",
+        "pattern": "Hybridisation, shape and lone pairs of xenon fluorides, interhalogens and polyatomic ions",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-C08",
+        "section": "chemistry",
+        "topic": "Chemical Thermodynamics",
+        "pattern": "Spontaneity from ΔG = ΔH − TΔS (crossover temperature); ΔH − ΔU = ΔnRT",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-C09",
+        "section": "chemistry",
+        "topic": "Chemical Thermodynamics",
+        "pattern": "Hess’s law: enthalpy of formation/combustion from given enthalpies; bond-enthalpy calculations",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 in most shifts",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-C10",
+        "section": "chemistry",
+        "topic": "Solutions",
+        "pattern": "Colligative property with van’t Hoff factor for electrolytes/complexes (ΔTf, ΔTb, π)",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-C11",
+        "section": "chemistry",
+        "topic": "Solutions",
+        "pattern": "Raoult’s law: total vapour pressure and vapour-phase mole fraction for ideal binary mixtures",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 in about half the shifts",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-C12",
+        "section": "chemistry",
+        "topic": "Equilibrium",
+        "pattern": "pH of strong acid/base mixtures, buffers (Henderson equation) and salt hydrolysis",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "jee-main-C13",
+        "section": "chemistry",
+        "topic": "Equilibrium",
+        "pattern": "Ksp and solubility, common-ion effect; Kp–Kc and degree of dissociation",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-C14",
+        "section": "chemistry",
+        "topic": "Redox & Electrochemistry",
+        "pattern": "Nernst equation emf of a cell with given concentrations; ΔG° = −nFE°",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-C15",
+        "section": "chemistry",
+        "topic": "Redox & Electrochemistry",
+        "pattern": "Faraday’s laws (charge/mass deposited, n-factor from change in oxidation state); Kohlrausch law",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-C16",
+        "section": "chemistry",
+        "topic": "Chemical Kinetics",
+        "pattern": "First-order integrated law: time for x% completion vs half-life, fraction left after n half-lives",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-C17",
+        "section": "chemistry",
+        "topic": "Chemical Kinetics",
+        "pattern": "Order from initial-rate data / rate law; Arrhenius equation with k at two temperatures",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-C18",
+        "section": "chemistry",
+        "topic": "Classification & Periodicity",
+        "pattern": "Ordering of ionisation enthalpy, electron gain enthalpy, radii with the standard exceptions (N > O, Mg > Al, Cl > F)",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-C19",
+        "section": "chemistry",
+        "topic": "p-Block Elements",
+        "pattern": "Structure of oxoacids/oxides (P₄O₁₀, H₃PO₃, H₂S₂O₈, oxoacids of S/Cl): count of bonds, bridges, P–OH groups",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-C20",
+        "section": "chemistry",
+        "topic": "p-Block Elements",
+        "pattern": "Group trends: thermal stability/acidity of hydrides, inert-pair effect, oxidising power; correct order or statement",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-C21",
+        "section": "chemistry",
+        "topic": "d- & f-Block Elements",
+        "pattern": "Spin-only magnetic moment/colour of 3d ions; oxidation states",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "jee-main-C22",
+        "section": "chemistry",
+        "topic": "d- & f-Block Elements",
+        "pattern": "Stoichiometry/oxidation of KMnO₄ and K₂Cr₂O₇ in acid; lanthanoid contraction consequences",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 in most shifts",
+        "difficulty": "easy"
+      },
+      {
+        "id": "jee-main-C23",
+        "section": "chemistry",
+        "topic": "Coordination Compounds",
+        "pattern": "VBT/CFT: hybridisation, geometry and magnetic nature of a complex (strong vs weak field ligands)",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-C24",
+        "section": "chemistry",
+        "topic": "Coordination Compounds",
+        "pattern": "Counting geometrical/optical isomers of octahedral and square-planar complexes",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "jee-main-C25",
+        "section": "chemistry",
+        "topic": "Coordination Compounds",
+        "pattern": "CFSE in units of Δo, spin-only moment of complexes, IUPAC names",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-C26",
+        "section": "chemistry",
+        "topic": "Basic Principles of Organic Chemistry (GOC)",
+        "pattern": "Stability order of carbocations/radicals/carbanions via resonance, hyperconjugation and inductive effects",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-C27",
+        "section": "chemistry",
+        "topic": "Basic Principles of Organic Chemistry (GOC)",
+        "pattern": "Acidity/basicity order of substituted phenols, acids and amines (−I, −M, ortho effects)",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-C28",
+        "section": "chemistry",
+        "topic": "Basic Principles of Organic Chemistry (GOC)",
+        "pattern": "Qualitative/quantitative analysis of organic compounds (Lassaigne, Kjeldahl, Carius) and purification methods",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-C29",
+        "section": "chemistry",
+        "topic": "Hydrocarbons",
+        "pattern": "Ozonolysis products; Markovnikov vs peroxide (anti-Markovnikov) additions to alkenes",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "jee-main-C30",
+        "section": "chemistry",
+        "topic": "Hydrocarbons",
+        "pattern": "Aromaticity (Hückel rule), directive influence in electrophilic substitution, alkyne reactions",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 in most shifts",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-C31",
+        "section": "chemistry",
+        "topic": "Haloalkanes & Haloarenes",
+        "pattern": "Elimination (Saytzeff) vs substitution products; SN1/SN2 reactivity order of halides",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-C32",
+        "section": "chemistry",
+        "topic": "Alcohols, Phenols & Ethers",
+        "pattern": "Named reactions of phenol (Kolbe, Reimer–Tiemann), acidity of phenols, Lucas test, ether cleavage with HI",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-C33",
+        "section": "chemistry",
+        "topic": "Aldehydes, Ketones & Carboxylic Acids",
+        "pattern": "Distinguishing tests (iodoform, Tollens’, Fehling’s) — which compound gives which result",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-C34",
+        "section": "chemistry",
+        "topic": "Aldehydes, Ketones & Carboxylic Acids",
+        "pattern": "Named reactions: aldol, Cannizzaro, HVZ, Clemmensen/Wolff–Kishner — identify the product",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-C35",
+        "section": "chemistry",
+        "topic": "Amines",
+        "pattern": "Hinsberg test, basicity order of amines in water, diazonium salt conversions",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-C36",
+        "section": "chemistry",
+        "topic": "Biomolecules",
+        "pattern": "Reducing/non-reducing sugars, glycosidic linkages, vitamins and nucleic-acid bases",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "jee-main-C37",
+        "section": "chemistry",
+        "topic": "Principles of Practical Chemistry",
+        "pattern": "Salt analysis: flame colours, coloured precipitates for cations/anions, indicator choice in titration",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 in most shifts",
+        "difficulty": "easy"
+      },
+      {
+        "id": "jee-main-M01",
+        "section": "maths",
+        "topic": "Sets, Relations & Functions",
+        "pattern": "Domain/range of composite log/root/inverse-trig functions",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-M02",
+        "section": "maths",
+        "topic": "Sets, Relations & Functions",
+        "pattern": "Relations: checking reflexive/symmetric/transitive, counting relations or functions on small sets",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-M03",
+        "section": "maths",
+        "topic": "Complex Numbers",
+        "pattern": "Powers of i, (1 ± i)/(1 ∓ i) and cube roots of unity",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "jee-main-M04",
+        "section": "maths",
+        "topic": "Complex Numbers",
+        "pattern": "Locus and modulus–argument: max/min of |z| under |z − z₀| = r type conditions",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-M05",
+        "section": "maths",
+        "topic": "Quadratic Equations",
+        "pattern": "Symmetric functions of roots (α³ + β³, α⁴ + β⁴, α/β + β/α) and transformed equations",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-M06",
+        "section": "maths",
+        "topic": "Quadratic Equations",
+        "pattern": "Number of real roots of equations with |x| or reducible to quadratics",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 in most shifts",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-M07",
+        "section": "maths",
+        "topic": "Matrices & Determinants",
+        "pattern": "Properties |kA|, |adj A|, |adj(adj A)|, |A⁻¹| for n × n matrices",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-M08",
+        "section": "maths",
+        "topic": "Matrices & Determinants",
+        "pattern": "System of linear equations: λ, μ for unique / infinitely many / no solutions",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "jee-main-M09",
+        "section": "maths",
+        "topic": "Matrices & Determinants",
+        "pattern": "Matrix algebra: A² − kA + mI = O, powers of a matrix, symmetric/skew-symmetric parts",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-M10",
+        "section": "maths",
+        "topic": "Permutations & Combinations",
+        "pattern": "Arrangements of letters with repetition and restrictions (together/not together, vowels at even places), word rank",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-M11",
+        "section": "maths",
+        "topic": "Permutations & Combinations",
+        "pattern": "Selections with constraints (committee with at least k of a kind), distribution of objects",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 in most shifts",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-M12",
+        "section": "maths",
+        "topic": "Binomial Theorem",
+        "pattern": "Term independent of x or coefficient of xᵏ via the general term",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-M13",
+        "section": "maths",
+        "topic": "Binomial Theorem",
+        "pattern": "Remainder of large powers using binomial expansion; sums of binomial coefficients",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-M14",
+        "section": "maths",
+        "topic": "Sequences & Series",
+        "pattern": "Arithmetico-geometric sums Σk·xᵏ (finite or infinite), telescoping sums",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "jee-main-M15",
+        "section": "maths",
+        "topic": "Sequences & Series",
+        "pattern": "AP/GP terms and sums from two given conditions; AM–GM inequality",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-M16",
+        "section": "maths",
+        "topic": "Limits, Continuity & Differentiability",
+        "pattern": "Standard trigonometric/exponential limits, 0/0 and 1^∞ forms",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "jee-main-M17",
+        "section": "maths",
+        "topic": "Limits, Continuity & Differentiability",
+        "pattern": "Constants making a piecewise function continuous/differentiable; points of non-differentiability",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-M18",
+        "section": "maths",
+        "topic": "Applications of Derivatives",
+        "pattern": "Maxima/minima of geometric quantities; intervals of increase/decrease",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-M19",
+        "section": "maths",
+        "topic": "Integral Calculus",
+        "pattern": "Definite integral by King’s property ∫ₐᵇ f(x) dx = ∫ₐᵇ f(a + b − x) dx",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-M20",
+        "section": "maths",
+        "topic": "Integral Calculus",
+        "pattern": "Definite integrals with greatest-integer/modulus functions by splitting the interval",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "jee-main-M21",
+        "section": "maths",
+        "topic": "Integral Calculus",
+        "pattern": "Indefinite integral by substitution or partial fractions; identify the antiderivative",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-M22",
+        "section": "maths",
+        "topic": "Area under Curves",
+        "pattern": "Area between two curves (parabola–parabola, parabola–line) using intersection points",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-M23",
+        "section": "maths",
+        "topic": "Differential Equations",
+        "pattern": "Linear first-order DE with integrating factor and initial condition; value at a point",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-M24",
+        "section": "maths",
+        "topic": "Differential Equations",
+        "pattern": "Homogeneous or variable-separable DE; family/order–degree questions",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 in most shifts",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-M25",
+        "section": "maths",
+        "topic": "Straight Lines",
+        "pattern": "Distance between parallel lines, foot of perpendicular, angle bisectors, area of triangle",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "jee-main-M26",
+        "section": "maths",
+        "topic": "Circles",
+        "pattern": "Length of tangent, chord length, common chord, orthogonal circles",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-M27",
+        "section": "maths",
+        "topic": "Conic Sections",
+        "pattern": "Tangent to parabola/ellipse with given slope (c = a/m, c² = a²m² + b²)",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-M28",
+        "section": "maths",
+        "topic": "Conic Sections",
+        "pattern": "Eccentricity, latus rectum, foci of ellipse/hyperbola from given conditions",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-M29",
+        "section": "maths",
+        "topic": "3D Geometry",
+        "pattern": "Shortest distance between skew lines in vector or Cartesian form",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "jee-main-M30",
+        "section": "maths",
+        "topic": "3D Geometry",
+        "pattern": "Foot/image of a point in a plane or line, angle between line and plane, distance of point from plane",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-M31",
+        "section": "maths",
+        "topic": "Vector Algebra",
+        "pattern": "Magnitudes |a ± b|, dot/cross products and angle between vectors",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "jee-main-M32",
+        "section": "maths",
+        "topic": "Vector Algebra",
+        "pattern": "Scalar triple product: coplanarity condition, volume of parallelepiped; vector triple product",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-M33",
+        "section": "maths",
+        "topic": "Statistics",
+        "pattern": "Mean/variance after correcting, adding or transforming observations",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "jee-main-M34",
+        "section": "maths",
+        "topic": "Probability",
+        "pattern": "Bayes’ theorem with two urns/bags or a test with error rates",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-M35",
+        "section": "maths",
+        "topic": "Probability",
+        "pattern": "Addition/multiplication rules for independent events; binomial distribution probabilities",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "jee-main-M36",
+        "section": "maths",
+        "topic": "Trigonometry",
+        "pattern": "Number of solutions of a trigonometric equation in a given interval; max/min of trig expressions",
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      }
+    ]
+  },
   "resources": {
     "pyqAvailable": true,
     "officialPYQ": "https://jeemain.nta.nic.in",
@@ -504,22 +1971,6 @@
     "notes": "NTA posts each shift's question paper with provisional and final answer keys on jeemain.nta.nic.in after the exam (candidates can view their response sheets). Practice/mock tests are hosted by NTA (nta.ac.in, NTA mock test portal). Archive papers for 2019 onward are widely mirrored by coaching sites, but only the NTA copies are official."
   },
   "questions": [
-    {
-      "id": "jee-main-001",
-      "section": "physics",
-      "topic": "Units, Dimensions & Errors",
-      "difficulty": "easy",
-      "question": "Planck's constant has the same dimensions as which of the following quantities?",
-      "options": [
-        "Linear momentum",
-        "Angular momentum",
-        "Energy",
-        "Power"
-      ],
-      "answer": 1,
-      "explanation": "E = hν gives [h] = [E]/[ν] = ML²T⁻²/T⁻¹ = ML²T⁻¹. Angular momentum mvr has dimensions M·LT⁻¹·L = ML²T⁻¹, the same.",
-      "verified": true
-    },
     {
       "id": "jee-main-002",
       "section": "physics",
@@ -534,7 +1985,14 @@
       ],
       "answer": 3,
       "explanation": "Taking upward positive: −25 = 20t − 5t² ⇒ t² − 4t − 5 = 0 ⇒ (t − 5)(t + 1) = 0 ⇒ t = 5 s.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-P03",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Faithful tower-throw item; sign trap and -1 s root handled; typical 2024 Main numbers"
+      }
     },
     {
       "id": "jee-main-003",
@@ -550,23 +2008,14 @@
       ],
       "answer": 0,
       "explanation": "Limiting friction = μmg = 0.3 × 2 × 10 = 6 N. Since the applied 4 N is less than 6 N, the block stays at rest and static friction equals the applied force, 4 N.",
-      "verified": true
-    },
-    {
-      "id": "jee-main-004",
-      "section": "physics",
-      "topic": "Work, Energy & Power",
-      "difficulty": "easy",
-      "question": "A body of mass 2 kg has a kinetic energy of 100 J. Its linear momentum is",
-      "options": [
-        "20 kg m/s",
-        "10 kg m/s",
-        "40 kg m/s",
-        "14.1 kg m/s"
-      ],
-      "answer": 0,
-      "explanation": "p = √(2mK) = √(2 × 2 × 100) = √400 = 20 kg m/s.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-P05",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Classic Main static-friction trap (4 N < 6 N limiting) with 6 N distractor exactly as set"
+      }
     },
     {
       "id": "jee-main-005",
@@ -582,7 +2031,14 @@
       ],
       "answer": 0,
       "explanation": "Loss of PE = mgL/2 = ½(mL²/3)ω² ⇒ ω = √(3g/L). Speed of free end = ωL = √(3gL).",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-P09",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Hinged rod released from horizontal, end speed √(3gL) is a recurring Main item; good distractors"
+      }
     },
     {
       "id": "jee-main-006",
@@ -598,7 +2054,14 @@
       ],
       "answer": 3,
       "explanation": "Total energy in orbit r is −GMm/2r. ΔE = GMm/2(1/2R − 1/3R) = GMm/(12R). With GM = gR², ΔE = mgR/12.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-P12",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Orbit-transfer energy GMm/12R in mgR form matches Main gravitation PYQs closely"
+      }
     },
     {
       "id": "jee-main-007",
@@ -614,7 +2077,14 @@
       ],
       "answer": 1,
       "explanation": "In vacuum the inside pressure is 4T/r. Isothermal: Σ pV is conserved ⇒ (4T/r)(4πr³/3) ∝ r², so R² = 3² + 4² = 25 ⇒ R = 5 cm.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-P14",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Bubble coalescence in vacuum r²=r1²+r2² is a known Main question; 3-4-5 numbers faithful"
+      }
     },
     {
       "id": "jee-main-008",
@@ -630,7 +2100,14 @@
       ],
       "answer": 2,
       "explanation": "W = nRΔT and Q = nCpΔT = n(5R/2)ΔT. W/Q = R/(5R/2) = 2/5.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-P17",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Isobaric W/Q = R/Cp = 2/5 is a repeated Main 1-mark style item; distractors 3/5, 2/3 apt"
+      }
     },
     {
       "id": "jee-main-009",
@@ -646,23 +2123,14 @@
       ],
       "answer": 2,
       "explanation": "v_rms ∝ √T. Doubling speed needs 4T = 4 × 300 K = 1200 K = 927 °C.",
-      "verified": true
-    },
-    {
-      "id": "jee-main-010",
-      "section": "physics",
-      "topic": "Oscillations & Waves",
-      "difficulty": "easy",
-      "question": "A stretched string fixed at both ends has a fundamental frequency of 100 Hz. If its tension is increased by 44% (length unchanged), the new fundamental frequency is",
-      "options": [
-        "120 Hz",
-        "144 Hz",
-        "100 Hz",
-        "110 Hz"
-      ],
-      "answer": 0,
-      "explanation": "f ∝ √T, so f' = 100 × √1.44 = 100 × 1.2 = 120 Hz.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-P19",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "rms speed ×2 → T×4 with °C trap (1200 vs 927) mirrors Main KTG items"
+      }
     },
     {
       "id": "jee-main-011",
@@ -678,7 +2146,14 @@
       ],
       "answer": 1,
       "explanation": "Initial energy = ½ × 4×10⁻⁶ × 50² = 5 mJ. Common potential = 25 V; final energy = ½ × 8×10⁻⁶ × 25² = 2.5 mJ. Loss = 2.5 mJ.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-P22",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Charge sharing between identical capacitors, energy loss half, standard Main archetype"
+      }
     },
     {
       "id": "jee-main-012",
@@ -694,23 +2169,14 @@
       ],
       "answer": 1,
       "explanation": "For a semicircular arc with λ = Q/(πR), the horizontal components cancel and E = 2kλ/R = 2Q/(4πε₀·πR²) = Q/(2π²ε₀R²).",
-      "verified": true
-    },
-    {
-      "id": "jee-main-013",
-      "section": "physics",
-      "topic": "Current Electricity",
-      "difficulty": "medium",
-      "question": "Resistors of 4 Ω and 12 Ω are connected in parallel, and this combination is in series with a 1 Ω resistor across an ideal 10 V battery. The current through the 12 Ω resistor is",
-      "options": [
-        "1.875 A",
-        "2.5 A",
-        "0.83 A",
-        "0.625 A"
-      ],
-      "answer": 3,
-      "explanation": "Parallel resistance = 4×12/16 = 3 Ω; total = 4 Ω; I = 2.5 A. Voltage across parallel part = 7.5 V; current in 12 Ω = 7.5/12 = 0.625 A.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-P23",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Semicircular ring field Q/(2π²ε0R²) is a well-known Main PYQ form with factor-of-2 distractors"
+      }
     },
     {
       "id": "jee-main-014",
@@ -726,7 +2192,14 @@
       ],
       "answer": 2,
       "explanation": "A ring of radius r, width dr has charge dq = (Q/πR²)2πr dr and moment dM = (dq·ω/2π)πr² = (Qω/R²)r³ dr. Integrating 0 to R gives QωR²/4.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-P27",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Rotating charged disc moment QωR²/4 is an established Main PYQ; distractors by factor errors"
+      }
     },
     {
       "id": "jee-main-015",
@@ -742,23 +2215,14 @@
       ],
       "answer": 0,
       "explanation": "r = √(2mK)/(qB). For α: √(2·4m·K)/(2eB) = 2√(2mK)/(2eB) = √(2mK)/(eB), the same as for the proton. So the ratio is 1 : 1.",
-      "verified": true
-    },
-    {
-      "id": "jee-main-016",
-      "section": "physics",
-      "topic": "Electromagnetic Induction & AC",
-      "difficulty": "easy",
-      "question": "A series LCR circuit has L = 0.1 H and C = 10 μF. Its resonant angular frequency is",
-      "options": [
-        "100 rad/s",
-        "10⁴ rad/s",
-        "316 rad/s",
-        "1000 rad/s"
-      ],
-      "answer": 3,
-      "explanation": "ω₀ = 1/√(LC) = 1/√(0.1 × 10×10⁻⁶) = 1/√(10⁻⁶) = 1000 rad/s.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-P28",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Proton vs α same KE radius 1:1 is a frequently repeated Main question"
+      }
     },
     {
       "id": "jee-main-017",
@@ -774,39 +2238,14 @@
       ],
       "answer": 2,
       "explanation": "1/f ∝ (n_rel − 1). In air: 0.5; in water: 1.5/(4/3) − 1 = 0.125. So f_water = 20 × 0.5/0.125 = 80 cm.",
-      "verified": true
-    },
-    {
-      "id": "jee-main-018",
-      "section": "physics",
-      "topic": "Ray & Wave Optics",
-      "difficulty": "medium",
-      "question": "In a Young's double-slit experiment the fringe width is 1.2 mm in air. If the whole apparatus is immersed in water (refractive index 4/3), the fringe width becomes",
-      "options": [
-        "1.2 mm",
-        "1.6 mm",
-        "0.6 mm",
-        "0.9 mm"
-      ],
-      "answer": 3,
-      "explanation": "β = λD/d and the wavelength in water is λ/n, so β' = 1.2/(4/3) = 0.9 mm.",
-      "verified": true
-    },
-    {
-      "id": "jee-main-019",
-      "section": "physics",
-      "topic": "Dual Nature of Matter & Radiation",
-      "difficulty": "easy",
-      "question": "The de Broglie wavelength of an electron accelerated from rest through a potential difference of 100 V is approximately",
-      "options": [
-        "1.23 Å",
-        "12.3 Å",
-        "0.123 Å",
-        "0.39 Å"
-      ],
-      "answer": 0,
-      "explanation": "λ = 12.27/√V Å = 12.27/10 ≈ 1.23 Å.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-P33",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Lens immersed in water focal length ×4 → 80 cm, classic Main lens-maker question"
+      }
     },
     {
       "id": "jee-main-020",
@@ -822,23 +2261,14 @@
       ],
       "answer": 0,
       "explanation": "Lyman longest (2→1): 1/λ = R(3/4). Balmer longest (3→2): 1/λ = R(5/36). λ_L/λ_B = (5/36)/(3/4) = 5/27.",
-      "verified": true
-    },
-    {
-      "id": "jee-main-021",
-      "section": "chemistry",
-      "topic": "Some Basic Concepts (Mole Concept)",
-      "difficulty": "easy",
-      "question": "What volume of O₂ at STP (molar volume 22.4 L) is required for complete combustion of 4 g of methane?",
-      "options": [
-        "22.4 L",
-        "5.6 L",
-        "11.2 L",
-        "44.8 L"
-      ],
-      "answer": 2,
-      "explanation": "CH₄ + 2O₂ → CO₂ + 2H₂O. 4 g CH₄ = 0.25 mol, needing 0.5 mol O₂ = 11.2 L.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-P37",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Lyman/Balmer longest-wavelength ratio 5:27 with reciprocal distractor is a repeated Main item"
+      }
     },
     {
       "id": "jee-main-022",
@@ -854,23 +2284,14 @@
       ],
       "answer": 3,
       "explanation": "Angular nodes = l = 2; radial nodes = n − l − 1 = 4 − 2 − 1 = 1.",
-      "verified": true
-    },
-    {
-      "id": "jee-main-023",
-      "section": "chemistry",
-      "topic": "Chemical Bonding",
-      "difficulty": "medium",
-      "question": "Which of the following molecules has zero dipole moment?",
-      "options": [
-        "SF₄",
-        "NH₃",
-        "XeF₄",
-        "CHCl₃"
-      ],
-      "answer": 2,
-      "explanation": "XeF₄ is square planar (4 bond pairs, 2 lone pairs opposite each other), so bond dipoles cancel. SF₄ (see-saw), NH₃ (pyramidal) and CHCl₃ are polar.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-C03",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Radial/angular nodes of 4d; Main asks this, one-step formula"
+      }
     },
     {
       "id": "jee-main-024",
@@ -886,7 +2307,14 @@
       ],
       "answer": 2,
       "explanation": "From MO theory: O₂⁺ = 2.5, O₂ = 2, O₂⁻ = 1.5, O₂²⁻ = 1.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-C06",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "O2 species bond-order ordering, exactly the Main MOT archetype"
+      }
     },
     {
       "id": "jee-main-025",
@@ -902,7 +2330,14 @@
       ],
       "answer": 0,
       "explanation": "ΔG = ΔH − TΔS = 0 at T = ΔH/ΔS = (−40000)/(−100) = 400 K. Above 400 K, −TΔS dominates and ΔG > 0.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-C08",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Crossover T = ΔH/ΔS with unit trap (J vs kJ, 40 K / 4000 K distractors) – faithful"
+      }
     },
     {
       "id": "jee-main-026",
@@ -918,7 +2353,14 @@
       ],
       "answer": 1,
       "explanation": "K₄[Fe(CN)₆] → 4K⁺ + [Fe(CN)₆]⁴⁻, so i = 5. ΔT_f = iK_f m = 5 × 1.86 × 0.1 = 0.93 K.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-C10",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "K4[Fe(CN)6] i=5 ΔTf, typical Main van't Hoff question"
+      }
     },
     {
       "id": "jee-main-027",
@@ -934,7 +2376,14 @@
       ],
       "answer": 1,
       "explanation": "H⁺ = 10 mmol, OH⁻ = 5 mmol; excess H⁺ = 5 mmol in 100 mL = 0.05 M. pH = −log 0.05 = 1.30.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-C12",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Strong acid–base mixture pH with dilution trap; standard Main"
+      }
     },
     {
       "id": "jee-main-028",
@@ -950,7 +2399,14 @@
       ],
       "answer": 3,
       "explanation": "E = E° − (0.059/2) log([Zn²⁺]/[Cu²⁺]) = 1.10 − 0.0295 × log(0.01) = 1.10 + 0.059 = 1.159 V.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-C14",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Nernst for Daniell cell with sign trap (1.041 distractor) faithful to Main"
+      }
     },
     {
       "id": "jee-main-029",
@@ -966,7 +2422,14 @@
       ],
       "answer": 1,
       "explanation": "t(99.9%) = (2.303/k) log 1000 = 6.909/k; t½ = 0.693/k. Ratio ≈ 9.97 ≈ 10.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-C16",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "t99.9 ≈ 10 t½; repeatedly asked; 3.32/6.64 distractors from log mistakes"
+      }
     },
     {
       "id": "jee-main-030",
@@ -982,7 +2445,14 @@
       ],
       "answer": 3,
       "explanation": "B < Be because B's 2p electron is easier to remove than Be's 2s; O < N because N has a stable half-filled 2p³ configuration.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-C18",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "IE order with Be>B and N>O exceptions – exact Main periodicity pattern"
+      }
     },
     {
       "id": "jee-main-031",
@@ -998,23 +2468,14 @@
       ],
       "answer": 1,
       "explanation": "In P₄O₁₀ each P is bonded to one terminal O and three bridging O atoms; there are 6 bridging oxygens, i.e. six P–O–P linkages.",
-      "verified": true
-    },
-    {
-      "id": "jee-main-032",
-      "section": "chemistry",
-      "topic": "d- & f-Block Elements",
-      "difficulty": "easy",
-      "question": "The spin-only magnetic moment of Mn²⁺ (Z = 25) is approximately",
-      "options": [
-        "4.90 BM",
-        "3.87 BM",
-        "1.73 BM",
-        "5.92 BM"
-      ],
-      "answer": 3,
-      "explanation": "Mn²⁺ is 3d⁵ with 5 unpaired electrons: μ = √(5×7) = √35 ≈ 5.92 BM.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-C19",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "P4O10 bridging O count 6, a frequent Main structure question"
+      }
     },
     {
       "id": "jee-main-033",
@@ -1030,7 +2491,14 @@
       ],
       "answer": 0,
       "explanation": "Ni²⁺ is 3d⁸. Strong-field CN⁻ pairs the electrons, leaving one 3d orbital empty for dsp² hybridisation: square planar with no unpaired electrons.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-C23",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "[Ni(CN)4]2- dsp2 square planar diamagnetic; textbook VBT example, frequently asked"
+      }
     },
     {
       "id": "jee-main-034",
@@ -1046,7 +2514,14 @@
       ],
       "answer": 0,
       "explanation": "It has cis and trans forms; the cis form is chiral and exists as a pair of enantiomers, while trans is achiral. Total = 2 + 1 = 3.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-C24",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "[Co(en)2Cl2]+ stereoisomers 3, staple Main isomer count"
+      }
     },
     {
       "id": "jee-main-035",
@@ -1062,7 +2537,14 @@
       ],
       "answer": 2,
       "explanation": "The triphenylmethyl cation is delocalised over three benzene rings, giving far greater resonance stabilisation than the benzyl, allyl or tert-butyl cations.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-C26",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Trityl cation most stable; GOC staple, slightly easy"
+      }
     },
     {
       "id": "jee-main-036",
@@ -1078,23 +2560,14 @@
       ],
       "answer": 2,
       "explanation": "(CH₃)₂C=CH–CH₃ cleaves at the double bond to give (CH₃)₂C=O (propanone) and CH₃CHO (ethanal).",
-      "verified": true
-    },
-    {
-      "id": "jee-main-037",
-      "section": "chemistry",
-      "topic": "Haloalkanes & Haloarenes",
-      "difficulty": "medium",
-      "question": "The major product when 2-bromobutane is heated with alcoholic KOH is",
-      "options": [
-        "But-1-ene",
-        "But-2-ene",
-        "Butan-2-ol",
-        "Butane"
-      ],
-      "answer": 1,
-      "explanation": "Alcoholic KOH causes dehydrohalogenation; by Saytzeff's rule the more substituted alkene, but-2-ene, is the major product.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-C29",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Ozonolysis of 2-methylbut-2-ene to acetone+ethanal, standard Main product ID"
+      }
     },
     {
       "id": "jee-main-038",
@@ -1110,7 +2583,14 @@
       ],
       "answer": 2,
       "explanation": "Pentan-2-one has a CH₃CO– group (iodoform positive) and, being a ketone, does not reduce Tollens'. Ethanal gives both tests; propanal gives only Tollens'; pentan-3-one gives neither.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-C33",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Iodoform-positive but Tollens-negative ketone; good discriminating distractors (ethanal)"
+      }
     },
     {
       "id": "jee-main-039",
@@ -1126,23 +2606,14 @@
       ],
       "answer": 2,
       "explanation": "A primary amine forms N-ethylbenzenesulphonamide, which has an acidic N–H and dissolves in alkali. Secondary amines give alkali-insoluble products; tertiary amines do not react.",
-      "verified": true
-    },
-    {
-      "id": "jee-main-040",
-      "section": "chemistry",
-      "topic": "Biomolecules",
-      "difficulty": "easy",
-      "question": "Which of the following is a non-reducing sugar?",
-      "options": [
-        "Maltose",
-        "Sucrose",
-        "Lactose",
-        "Glucose"
-      ],
-      "answer": 1,
-      "explanation": "In sucrose the anomeric carbons of glucose (C1) and fructose (C2) are both used in the glycosidic bond, so it has no free hemiacetal group.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-C35",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Hinsberg: 1° amine sulphonamide alkali-soluble; faithful"
+      }
     },
     {
       "id": "jee-main-041",
@@ -1158,7 +2629,14 @@
       ],
       "answer": 1,
       "explanation": "We need (5x − x²)/4 ≥ 1 ⇒ x² − 5x + 4 ≤ 0 ⇒ (x − 1)(x − 4) ≤ 0 ⇒ 1 ≤ x ≤ 4 (the argument is then positive automatically).",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-M01",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Domain of √log quadratic giving [1,4] with open/closed interval traps – Main style"
+      }
     },
     {
       "id": "jee-main-042",
@@ -1174,23 +2652,14 @@
       ],
       "answer": 3,
       "explanation": "z = (1 + i)²/2 = 2i/2 = i. i²⁰²⁶ = i^(4×506 + 2) = i² = −1.",
-      "verified": true
-    },
-    {
-      "id": "jee-main-043",
-      "section": "maths",
-      "topic": "Quadratic Equations",
-      "difficulty": "medium",
-      "question": "If α and β are the roots of x² − 5x + 3 = 0, then α³ + β³ equals",
-      "options": [
-        "125",
-        "80",
-        "98",
-        "70"
-      ],
-      "answer": 1,
-      "explanation": "α + β = 5, αβ = 3. α³ + β³ = (α + β)³ − 3αβ(α + β) = 125 − 45 = 80.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-M03",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "((1+i)/(1−i))^2026 = −1 uses current-year exponent, typical Main"
+      }
     },
     {
       "id": "jee-main-044",
@@ -1206,7 +2675,14 @@
       ],
       "answer": 2,
       "explanation": "|2A| = 2³ × 4 = 32. For a 3×3 matrix, |adj B| = |B|², so |adj(2A)| = 32² = 1024.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-M07",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "|adj(2A)| = (2³·4)² = 1024 with scalar-power trap – faithful Main"
+      }
     },
     {
       "id": "jee-main-045",
@@ -1222,7 +2698,14 @@
       ],
       "answer": 2,
       "explanation": "Subtracting the second equation from the third: (λ − 3)z = μ − 10. Infinitely many solutions need 0·z = 0, i.e. λ = 3 and μ = 10 (the first two equations are independent).",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-M08",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "λ, μ for infinitely many solutions – exact Main archetype with ≠ distractors"
+      }
     },
     {
       "id": "jee-main-046",
@@ -1238,7 +2721,14 @@
       ],
       "answer": 3,
       "explanation": "Total = 6!/(3!2!) = 60. With NN as one block: 5!/3! = 20. Required = 60 − 20 = 40.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-M10",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "BANANA with N's not together 40 via complement – Main P&C style"
+      }
     },
     {
       "id": "jee-main-047",
@@ -1254,7 +2744,14 @@
       ],
       "answer": 0,
       "explanation": "T(r+1) = C(9, r) x^(2(9−r)) x^(−r) = C(9, r) x^(18−3r). 18 − 3r = 0 ⇒ r = 6; C(9, 6) = 84.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-M12",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Term independent of x in (x²+1/x)^9 = 84; standard general-term item"
+      }
     },
     {
       "id": "jee-main-048",
@@ -1270,39 +2767,14 @@
       ],
       "answer": 2,
       "explanation": "S = Σ k2ᵏ satisfies S = (n − 1)2ⁿ⁺¹ + 2 (check n = 1: 2; n = 2: 10). For n = 10: 9 × 2048 + 2 = 18434.",
-      "verified": true
-    },
-    {
-      "id": "jee-main-049",
-      "section": "maths",
-      "topic": "Limits, Continuity & Differentiability",
-      "difficulty": "easy",
-      "question": "The value of lim (x → 0) (1 − cos 2x)/(x tan x) is",
-      "options": [
-        "2",
-        "1",
-        "4",
-        "1/2"
-      ],
-      "answer": 0,
-      "explanation": "1 − cos 2x = 2 sin²x, so the expression = 2(sin x/x)(sin x/tan x) → 2 × 1 × 1 = 2.",
-      "verified": true
-    },
-    {
-      "id": "jee-main-050",
-      "section": "maths",
-      "topic": "Applications of Derivatives",
-      "difficulty": "medium",
-      "question": "The maximum area of a rectangle inscribed in a circle of radius 5 units is",
-      "options": [
-        "25 sq units",
-        "100 sq units",
-        "25√2 sq units",
-        "50 sq units"
-      ],
-      "answer": 3,
-      "explanation": "With half-sides a, b: a² + b² = 25, area = 4ab ≤ 2(a² + b²) = 50, with equality for a square of diagonal 10.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-M14",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Σk·2^k AGP closed form 18434 with near-miss distractors – Main-like"
+      }
     },
     {
       "id": "jee-main-051",
@@ -1318,7 +2790,14 @@
       ],
       "answer": 0,
       "explanation": "Let I be the integral. Replacing x by π/2 − x gives the same integral with cos x on top; adding, 2I = ∫ 1 dx = π/2, so I = π/4.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-M19",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "King's property sin/(sin+cos) = π/4; very well-known, easy for Main"
+      }
     },
     {
       "id": "jee-main-052",
@@ -1334,7 +2813,14 @@
       ],
       "answer": 1,
       "explanation": "[x²] = 0 on [0,1), 1 on [1,√2), 2 on [√2,√3), 3 on [√3,2). Integral = (√2 − 1) + 2(√3 − √2) + 3(2 − √3) = 5 − √2 − √3.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-M20",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "∫[x²] over 0..2 = 5−√2−√3, exact Main PYQ type with sign-swap distractors"
+      }
     },
     {
       "id": "jee-main-053",
@@ -1350,7 +2836,14 @@
       ],
       "answer": 0,
       "explanation": "They meet at (0,0) and (4,4). Area = ∫ from 0 to 4 of (2√x − x²/4) dx = 32/3 − 16/3 = 16/3.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-M22",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Area between y²=4x and x²=4y = 16/3 – classic Main"
+      }
     },
     {
       "id": "jee-main-054",
@@ -1366,7 +2859,14 @@
       ],
       "answer": 3,
       "explanation": "Integrating factor x: d(xy)/dx = x³ ⇒ xy = x⁴/4 + C. y(1) = 1 ⇒ C = 3/4. At x = 2: 2y = 4 + 3/4 ⇒ y = 19/8.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-M23",
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Linear DE with IF x and IC, y(2)=19/8 – Main style"
+      }
     },
     {
       "id": "jee-main-055",
@@ -1382,23 +2882,14 @@
       ],
       "answer": 1,
       "explanation": "Second line is 3x + 4y + 3 = 0. Distance = |−7 − 3|/√(9 + 16) = 10/5 = 2.",
-      "verified": true
-    },
-    {
-      "id": "jee-main-056",
-      "section": "maths",
-      "topic": "Conic Sections",
-      "difficulty": "medium",
-      "question": "The equation of the tangent to the parabola y² = 8x that is parallel to the line 2x − y + 5 = 0 is",
-      "options": [
-        "y = 2x + 2",
-        "y = 2x + 1",
-        "y = 2x − 1",
-        "y = 2x + 1/2"
-      ],
-      "answer": 1,
-      "explanation": "For y² = 4ax with a = 2, the tangent of slope m is y = mx + a/m. With m = 2: y = 2x + 1.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-M25",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Parallel lines distance with coefficient-normalisation trap – exactly Main's trap"
+      }
     },
     {
       "id": "jee-main-057",
@@ -1414,7 +2905,14 @@
       ],
       "answer": 2,
       "explanation": "b₁ × b₂ = (3, −1, −7), |b₁ × b₂| = √59. a₂ − a₁ = (1, 0, −1); dot product = 3 + 7 = 10. Distance = 10/√59.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-M29",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Skew-line shortest distance 10/√59 verified; Main 3D staple"
+      }
     },
     {
       "id": "jee-main-058",
@@ -1430,7 +2928,14 @@
       ],
       "answer": 3,
       "explanation": "|a + b|² = 9 + 16 + 2a·b = 25 ⇒ a·b = 0. Then |a − b|² = 25 ⇒ |a − b| = 5.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-M31",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Parallelogram law |a−b| = 5; Main-type but light"
+      }
     },
     {
       "id": "jee-main-059",
@@ -1446,23 +2951,1709 @@
       ],
       "answer": 3,
       "explanation": "Σx = 30, Σx² = 5(4 + 36) = 200. New Σx = 27, Σx² = 200 − 100 + 49 = 149. Variance = 149/5 − (5.4)² = 29.8 − 29.16 = 0.64.",
-      "verified": true
+      "verified": true,
+      "source": "curated",
+      "archetype": "jee-main-M33",
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Variance after replacing an observation (0.64) – frequent Main statistics PYQ"
+      }
     },
     {
-      "id": "jee-main-060",
+      "id": "jee-main-061",
+      "section": "physics",
+      "topic": "Units, Dimensions & Errors",
+      "difficulty": "easy",
+      "question": "The dimensional formula of the permittivity of free space ε₀ is",
+      "options": [
+        "[M⁻¹ L⁻³ T⁴ A²]",
+        "[M L³ T⁻⁴ A⁻²]",
+        "[M⁻¹ L⁻² T⁴ A²]",
+        "[M L T⁻² A⁻²]"
+      ],
+      "answer": 0,
+      "explanation": "From Coulomb’s law ε₀ = q²/(4πFr²) = (AT)²/([MLT⁻²][L²]) = [M⁻¹ L⁻³ T⁴ A²]. [M L T⁻² A⁻²] is the dimension of μ₀.",
+      "source": "ai",
+      "archetype": "jee-main-P01",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "ε0 dimensions with exponent-swap distractors – archetype exact"
+      }
+    },
+    {
+      "id": "jee-main-062",
+      "section": "physics",
+      "topic": "Units, Dimensions & Errors",
+      "difficulty": "easy",
+      "question": "A physical quantity is given by Q = a³b²/(c√d). The percentage errors in a, b, c and d are 1%, 2%, 3% and 4% respectively. The maximum percentage error in Q is",
+      "options": [
+        "10%",
+        "12%",
+        "14%",
+        "8%"
+      ],
+      "answer": 1,
+      "explanation": "Maximum error = 3(1) + 2(2) + 1(3) + ½(4) = 3 + 4 + 3 + 2 = 12%. Errors always add, even for quantities in the denominator.",
+      "source": "ai",
+      "archetype": "jee-main-P02",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Max % error with √d half-power trap – Main style"
+      }
+    },
+    {
+      "id": "jee-main-064",
+      "section": "physics",
+      "topic": "Laws of Motion",
+      "difficulty": "medium",
+      "question": "Blocks of mass 3 kg and 2 kg hang at the two ends of a light inextensible string passing over a smooth, massless pulley. The tension in the string is (g = 10 m/s²)",
+      "options": [
+        "20 N",
+        "30 N",
+        "12 N",
+        "24 N"
+      ],
+      "answer": 3,
+      "explanation": "a = (3 − 2)g/5 = 2 m/s². For the 2 kg block: T − 20 = 2 × 2, so T = 24 N (equivalently T = 2m₁m₂g/(m₁ + m₂) = 24 N).",
+      "source": "ai",
+      "archetype": "jee-main-P06",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Atwood tension 24 N; standard Main mechanics"
+      }
+    },
+    {
+      "id": "jee-main-066",
+      "section": "physics",
+      "topic": "Rotational Motion",
+      "difficulty": "medium",
+      "question": "The moment of inertia of a uniform circular disc of mass M and radius R about a tangent lying in the plane of the disc is",
+      "options": [
+        "3MR²/2",
+        "5MR²/4",
+        "3MR²/4",
+        "MR²/4"
+      ],
+      "answer": 1,
+      "explanation": "About a diameter I = MR²/4 (perpendicular-axis theorem). A tangent in the plane is parallel to a diameter at distance R: I = MR²/4 + MR² = 5MR²/4. (3MR²/2 is for a tangent perpendicular to the plane.)",
+      "source": "ai",
+      "archetype": "jee-main-P10",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Disc about in-plane tangent 5MR²/4, the classic Main parallel/perp-axis item"
+      }
+    },
+    {
+      "id": "jee-main-067",
+      "section": "physics",
+      "topic": "Rotational Motion",
+      "difficulty": "medium",
+      "question": "A person stands on a platform rotating freely about a vertical axis; the moment of inertia of the system is 6 kg m². When the person stretches out the arms, the moment of inertia becomes 8 kg m². The ratio of the final to the initial rotational kinetic energy is",
+      "options": [
+        "4 : 3",
+        "9 : 16",
+        "3 : 4",
+        "1 : 1"
+      ],
+      "answer": 2,
+      "explanation": "Angular momentum L is conserved and K = L²/(2I), so K_f/K_i = I_i/I_f = 6/8 = 3/4.",
+      "source": "ai",
+      "archetype": "jee-main-P11",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "KE ratio under L conservation 3:4 with inverse 4:3 distractor – faithful"
+      }
+    },
+    {
+      "id": "jee-main-068",
+      "section": "physics",
+      "topic": "Gravitation",
+      "difficulty": "medium",
+      "question": "At what height above the Earth’s surface is the acceleration due to gravity the same as at a depth of R/2 below the surface? (R = radius of the Earth)",
+      "options": [
+        "R/2",
+        "R",
+        "R/4",
+        "(√2 − 1)R"
+      ],
+      "answer": 3,
+      "explanation": "At depth R/2: g′ = g(1 − 1/2) = g/2. At height h: gR²/(R + h)² = g/2 ⇒ R + h = √2R ⇒ h = (√2 − 1)R.",
+      "source": "ai",
+      "archetype": "jee-main-P13",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "g at height equals g at depth R/2 → (√2−1)R; Main PYQ type"
+      }
+    },
+    {
+      "id": "jee-main-069",
+      "section": "physics",
+      "topic": "Properties of Solids & Liquids",
+      "difficulty": "medium",
+      "question": "Two wires A and B are made of the same material. A has length L and diameter d; B has length 2L and diameter 2d. They are stretched by the same load. The ratio of their extensions ΔL_A : ΔL_B is",
+      "options": [
+        "2 : 1",
+        "1 : 2",
+        "1 : 1",
+        "4 : 1"
+      ],
+      "answer": 0,
+      "explanation": "ΔL = FL/(AY) ∝ L/d². A: L/d²; B: 2L/(4d²) = L/(2d²). Ratio = 2 : 1.",
+      "source": "ai",
+      "archetype": "jee-main-P15",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Extension ratio L/d² 2:1 – staple Main elasticity"
+      }
+    },
+    {
+      "id": "jee-main-070",
+      "section": "physics",
+      "topic": "Properties of Solids & Liquids",
+      "difficulty": "medium",
+      "question": "Water flows steadily through a horizontal pipe. At a section of area A the speed is 2 m/s; at another section of area A/2 the pressure is lower. The pressure difference between the two sections is (density of water = 1000 kg/m³)",
+      "options": [
+        "2 kPa",
+        "6 kPa",
+        "8 kPa",
+        "12 kPa"
+      ],
+      "answer": 1,
+      "explanation": "Continuity: v₂ = 2 × 2 = 4 m/s. Bernoulli: ΔP = ½ρ(v₂² − v₁²) = ½ × 1000 × (16 − 4) = 6000 Pa = 6 kPa.",
+      "source": "ai",
+      "archetype": "jee-main-P16",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Continuity + Bernoulli ΔP = 6 kPa; standard"
+      }
+    },
+    {
+      "id": "jee-main-072",
+      "section": "physics",
+      "topic": "Kinetic Theory of Gases",
+      "difficulty": "easy",
+      "question": "A mixture contains 2 mol of helium and 1 mol of oxygen (treated as rigid diatomic). The molar heat capacity at constant volume of the mixture is",
+      "options": [
+        "2R",
+        "13R/6",
+        "7R/4",
+        "11R/6"
+      ],
+      "answer": 3,
+      "explanation": "Cv(mix) = (2 × 3R/2 + 1 × 5R/2)/(2 + 1) = (3R + 2.5R)/3 = 11R/6.",
+      "source": "ai",
+      "archetype": "jee-main-P19",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Cv of He+O2 mixture 11R/6 – recurring Main question"
+      }
+    },
+    {
+      "id": "jee-main-074",
+      "section": "physics",
+      "topic": "Electrostatics",
+      "difficulty": "medium",
+      "question": "A point charge q is placed at one corner of a cube. The electric flux through the whole surface of the cube is",
+      "options": [
+        "q/(6ε₀)",
+        "q/(8ε₀)",
+        "q/(24ε₀)",
+        "q/ε₀"
+      ],
+      "answer": 1,
+      "explanation": "Eight such cubes would enclose the charge symmetrically, so each cube receives one-eighth of the total flux q/ε₀, i.e. q/(8ε₀). (The three faces meeting at the corner carry no flux.)",
+      "source": "ai",
+      "archetype": "jee-main-P24",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Charge at cube corner q/8ε0; well-known, distractor q/24ε0 (one face) apt"
+      }
+    },
+    {
+      "id": "jee-main-075",
+      "section": "physics",
+      "topic": "Semiconductor Electronics",
+      "difficulty": "easy",
+      "question": "The output of an OR gate with inputs A and B is connected to one input of a NAND gate; the other input of the NAND gate is A. For which input combinations (A, B) is the final output 0?",
+      "options": [
+        "(0, 0) only",
+        "(1, 1) only",
+        "(1, 0) and (1, 1) only",
+        "(0, 1) and (1, 1) only"
+      ],
+      "answer": 2,
+      "explanation": "A NAND output is 0 only when both its inputs are 1, i.e. A = 1 and A + B = 1. With A = 1, A + B = 1 for any B, so (1, 0) and (1, 1).",
+      "source": "ai",
+      "archetype": "jee-main-P39",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Gate combination output table – Main logic gate archetype"
+      }
+    },
+    {
+      "id": "jee-main-076",
+      "section": "physics",
+      "topic": "Magnetic Effects of Current & Magnetism",
+      "difficulty": "medium",
+      "question": "A proton and a deuteron are accelerated from rest through the same potential difference and then enter a uniform magnetic field perpendicular to it. The ratio of the radii of their circular paths r_p : r_d is",
+      "options": [
+        "√2 : 1",
+        "1 : 2",
+        "1 : 1",
+        "1 : √2"
+      ],
+      "answer": 3,
+      "explanation": "r = mv/(qB) = √(2mqV)/(qB). Both have charge e, so r ∝ √m and r_p : r_d = √1 : √2 = 1 : √2.",
+      "source": "ai",
+      "archetype": "jee-main-P28",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "p vs d through same V, r∝√(m/q) 1:√2 – Main staple"
+      }
+    },
+    {
+      "id": "jee-main-077",
+      "section": "physics",
+      "topic": "Electromagnetic Induction & AC",
+      "difficulty": "medium",
+      "question": "A conducting rod of length 0.5 m slides at a constant 4 m/s on smooth rails perpendicular to a uniform magnetic field of 0.2 T. The rails are joined by a 2 Ω resistor; all other resistances are negligible. The external force needed to keep the rod moving uniformly is",
+      "options": [
+        "0.02 N",
+        "0.04 N",
+        "0.2 N",
+        "0.01 N"
+      ],
+      "answer": 0,
+      "explanation": "emf = BLv = 0.2 × 0.5 × 4 = 0.4 V; I = 0.4/2 = 0.2 A; F = BIL = 0.2 × 0.2 × 0.5 = 0.02 N.",
+      "source": "ai",
+      "archetype": "jee-main-P31",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Rod on rails force B²L²v/R = 0.02 N – Main style"
+      }
+    },
+    {
+      "id": "jee-main-079",
+      "section": "physics",
+      "topic": "Ray & Wave Optics",
+      "difficulty": "medium",
+      "question": "A ray passes through an equilateral glass prism of refractive index √2 in the position of minimum deviation. The angle of minimum deviation is",
+      "options": [
+        "45°",
+        "60°",
+        "30°",
+        "15°"
+      ],
+      "answer": 2,
+      "explanation": "n = sin((A + δ)/2)/sin(A/2) ⇒ sin((60° + δ)/2) = √2 × ½ = 1/√2 ⇒ (60° + δ)/2 = 45° ⇒ δ = 30°.",
+      "source": "ai",
+      "archetype": "jee-main-P35",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Prism min deviation 30° for μ=√2; standard Main optics"
+      }
+    },
+    {
+      "id": "jee-main-080",
+      "section": "physics",
+      "topic": "Atoms & Nuclei",
+      "difficulty": "easy",
+      "question": "The nucleus ²³⁸U (Z = 92) decays to ²⁰⁶Pb (Z = 82) through a series of α and β⁻ decays. The numbers of α and β⁻ particles emitted are respectively",
+      "options": [
+        "6 and 8",
+        "8 and 8",
+        "8 and 4",
+        "8 and 6"
+      ],
+      "answer": 3,
+      "explanation": "Mass number falls by 32 ⇒ 32/4 = 8 α. These lower Z by 16 to 76; to reach 82, Z must rise by 6 ⇒ 6 β⁻ decays.",
+      "source": "ai",
+      "archetype": "jee-main-P38",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "U-238→Pb-206 α,β count 8,6 – Main staple"
+      }
+    },
+    {
+      "id": "jee-main-082",
+      "section": "chemistry",
+      "topic": "Some Basic Concepts (Mole Concept)",
+      "difficulty": "easy",
+      "question": "The molality of a 20% (w/w) aqueous solution of NaOH is (Na = 23)",
+      "options": [
+        "5.0 m",
+        "6.25 m",
+        "4.0 m",
+        "2.5 m"
+      ],
+      "answer": 1,
+      "explanation": "100 g solution has 20 g NaOH (0.5 mol) in 80 g water. Molality = 0.5/0.080 = 6.25 mol kg⁻¹. (5.0 m results from dividing by 100 g instead of 80 g.)",
+      "source": "ai",
+      "archetype": "jee-main-C02",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Molality of 20% NaOH = 6.25 with mass-of-solution trap (5.0)"
+      }
+    },
+    {
+      "id": "jee-main-083",
+      "section": "chemistry",
+      "topic": "Principles of Practical Chemistry",
+      "difficulty": "easy",
+      "question": "An aqueous salt solution gives a yellow precipitate with potassium chromate in acetic acid, and the salt imparts an apple-green colour to the flame. The cation present is",
+      "options": [
+        "Ca²⁺",
+        "Sr²⁺",
+        "Ba²⁺",
+        "Pb²⁺"
+      ],
+      "answer": 2,
+      "explanation": "Ba²⁺ gives yellow BaCrO₄ and an apple-green flame. Ca²⁺ gives brick-red and Sr²⁺ crimson flames; Pb²⁺ gives yellow PbCrO₄ but no apple-green flame.",
+      "source": "ai",
+      "archetype": "jee-main-C37",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Ba2+ via chromate + apple-green flame; Main salt-analysis style"
+      }
+    },
+    {
+      "id": "jee-main-084",
+      "section": "chemistry",
+      "topic": "Chemical Bonding",
+      "difficulty": "medium",
+      "question": "The numbers of lone pairs of electrons on the xenon atom in XeF₂, XeF₄ and XeF₆ are respectively",
+      "options": [
+        "2, 3 and 1",
+        "3, 2 and 0",
+        "1, 2 and 3",
+        "3, 2 and 1"
+      ],
+      "answer": 3,
+      "explanation": "Xe has 8 valence electrons. XeF₂: (8 − 2)/2 = 3; XeF₄: (8 − 4)/2 = 2; XeF₆: (8 − 6)/2 = 1 lone pair.",
+      "source": "ai",
+      "archetype": "jee-main-C07",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Xe fluoride lone pairs 3,2,1 – Main staple"
+      }
+    },
+    {
+      "id": "jee-main-085",
+      "section": "chemistry",
+      "topic": "Chemical Bonding",
+      "difficulty": "medium",
+      "question": "Which of the following species has a bond order of 1.5 and is paramagnetic?",
+      "options": [
+        "O₂⁻",
+        "O₂",
+        "O₂²⁻",
+        "N₂⁻"
+      ],
+      "answer": 0,
+      "explanation": "O₂⁻ has 17 electrons: bond order (10 − 7)/2 = 1.5 with one unpaired π* electron. O₂ has bond order 2, O₂²⁻ has 1 (diamagnetic), N₂⁻ has 2.5.",
+      "source": "ai",
+      "archetype": "jee-main-C06",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "O2⁻ BO 1.5 paramagnetic, N2⁻ distractor (BO 2.5) good"
+      }
+    },
+    {
+      "id": "jee-main-086",
+      "section": "chemistry",
+      "topic": "Chemical Thermodynamics",
+      "difficulty": "medium",
+      "question": "Given standard enthalpies of formation (kJ mol⁻¹): CO₂(g) = −393.5, H₂O(l) = −285.8 and C₂H₅OH(l) = −277.7. The standard enthalpy of combustion of ethanol is",
+      "options": [
+        "−1922.1 kJ mol⁻¹",
+        "−1366.7 kJ mol⁻¹",
+        "−1080.9 kJ mol⁻¹",
+        "−957.3 kJ mol⁻¹"
+      ],
+      "answer": 1,
+      "explanation": "C₂H₅OH + 3O₂ → 2CO₂ + 3H₂O. ΔcH° = [2(−393.5) + 3(−285.8)] − (−277.7) = −1644.4 + 277.7 = −1366.7 kJ mol⁻¹.",
+      "source": "ai",
+      "archetype": "jee-main-C09",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Combustion enthalpy of ethanol by Hess = −1366.7 – Main thermochem style"
+      }
+    },
+    {
+      "id": "jee-main-087",
+      "section": "chemistry",
+      "topic": "Solutions",
+      "difficulty": "medium",
+      "question": "Benzene (P° = 75 torr) and toluene (P° = 25 torr) form an ideal solution in which the mole fraction of benzene is 0.4. The mole fraction of benzene in the vapour in equilibrium with it is approximately",
+      "options": [
+        "0.40",
+        "0.33",
+        "0.67",
+        "0.75"
+      ],
+      "answer": 2,
+      "explanation": "p_B = 0.4 × 75 = 30 torr; p_T = 0.6 × 25 = 15 torr; total 45 torr. y_B = 30/45 ≈ 0.67.",
+      "source": "ai",
+      "archetype": "jee-main-C11",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Vapour-phase mole fraction 0.67 with liquid-phase trap – Main archetype"
+      }
+    },
+    {
+      "id": "jee-main-088",
+      "section": "chemistry",
+      "topic": "Equilibrium",
+      "difficulty": "medium",
+      "question": "The solubility product of AgCl is 1.8 × 10⁻¹⁰ at 25 °C. Its molar solubility in 0.01 M NaCl solution is",
+      "options": [
+        "1.34 × 10⁻⁵ M",
+        "1.8 × 10⁻¹² M",
+        "1.8 × 10⁻⁶ M",
+        "1.8 × 10⁻⁸ M"
+      ],
+      "answer": 3,
+      "explanation": "Common-ion effect: s × 0.01 = 1.8 × 10⁻¹⁰ ⇒ s = 1.8 × 10⁻⁸ M. (1.34 × 10⁻⁵ M is the solubility in pure water.)",
+      "source": "ai",
+      "archetype": "jee-main-C13",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Common-ion solubility 1.8e-8 with pure-water distractor – faithful"
+      }
+    },
+    {
+      "id": "jee-main-090",
+      "section": "chemistry",
+      "topic": "Chemical Kinetics",
+      "difficulty": "medium",
+      "question": "For a reaction A + B → products, tripling [A] at constant [B] increases the initial rate 9 times, while doubling [B] at constant [A] leaves the rate unchanged. The rate law is",
+      "options": [
+        "rate = k[A]²[B]",
+        "rate = k[A]²",
+        "rate = k[A][B]",
+        "rate = k[A]³"
+      ],
+      "answer": 1,
+      "explanation": "3ˣ = 9 ⇒ order in A is 2; 2ʸ = 1 ⇒ order in B is 0. Rate = k[A]².",
+      "source": "ai",
+      "archetype": "jee-main-C17",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Initial-rate data to rate law k[A]²; standard"
+      }
+    },
+    {
+      "id": "jee-main-092",
+      "section": "chemistry",
+      "topic": "d- & f-Block Elements",
+      "difficulty": "easy",
+      "question": "In acidic medium, the number of moles of Fe²⁺ ions oxidised to Fe³⁺ by one mole of K₂Cr₂O₇ is",
+      "options": [
+        "3",
+        "5",
+        "2",
+        "6"
+      ],
+      "answer": 3,
+      "explanation": "Cr₂O₇²⁻ + 14H⁺ + 6e⁻ → 2Cr³⁺ + 7H₂O accepts 6 electrons; each Fe²⁺ gives one, so 6 mol Fe²⁺.",
+      "source": "ai",
+      "archetype": "jee-main-C22",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Dichromate oxidises 6 Fe2+; standard redox stoichiometry"
+      }
+    },
+    {
+      "id": "jee-main-093",
+      "section": "chemistry",
+      "topic": "Coordination Compounds",
+      "difficulty": "medium",
+      "question": "Which of the following complexes is paramagnetic?",
+      "options": [
+        "[CoF₆]³⁻",
+        "[Co(NH₃)₆]³⁺",
+        "[Fe(CN)₆]⁴⁻",
+        "[Ni(CO)₄]"
+      ],
+      "answer": 0,
+      "explanation": "F⁻ is a weak-field ligand, so Co³⁺ (d⁶) in [CoF₆]³⁻ is high spin with 4 unpaired electrons. [Co(NH₃)₆]³⁺ and [Fe(CN)₆]⁴⁻ are low-spin d⁶ (t₂g⁶) and [Ni(CO)₄] is d¹⁰ — all diamagnetic.",
+      "source": "ai",
+      "archetype": "jee-main-C23",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "High-spin [CoF6]3- paramagnetic vs low-spin distractors; standard"
+      }
+    },
+    {
+      "id": "jee-main-094",
+      "section": "chemistry",
+      "topic": "Coordination Compounds",
+      "difficulty": "medium",
+      "question": "Ignoring pairing energy, the crystal field stabilisation energy of the low-spin complex [Co(NH₃)₆]³⁺ is",
+      "options": [
+        "−0.4 Δo",
+        "−2.4 Δo",
+        "−1.6 Δo",
+        "−1.2 Δo"
+      ],
+      "answer": 1,
+      "explanation": "Co³⁺ is d⁶; low spin gives t₂g⁶e_g⁰. CFSE = 6 × (−0.4Δo) = −2.4Δo. (−0.4Δo is the high-spin value.)",
+      "source": "ai",
+      "archetype": "jee-main-C25",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Low-spin d6 CFSE −2.4Δo; standard"
+      }
+    },
+    {
+      "id": "jee-main-095",
+      "section": "chemistry",
+      "topic": "Basic Principles of Organic Chemistry (GOC)",
+      "difficulty": "medium",
+      "question": "The correct order of acidic strength of the following is",
+      "options": [
+        "m-nitrophenol > p-nitrophenol > phenol > p-cresol",
+        "phenol > p-nitrophenol > m-nitrophenol > p-cresol",
+        "p-nitrophenol > m-nitrophenol > phenol > p-cresol",
+        "p-cresol > phenol > m-nitrophenol > p-nitrophenol"
+      ],
+      "answer": 2,
+      "explanation": "The –NO₂ group stabilises phenoxide by −I and −M; the −M effect operates only from o/p positions, so p-nitro > m-nitro. The –CH₃ group (+I, hyperconjugation) destabilises phenoxide, so p-cresol is weaker than phenol.",
+      "source": "ai",
+      "archetype": "jee-main-C27",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Substituted phenol acidity ordering – Main archetype exact"
+      }
+    },
+    {
+      "id": "jee-main-100",
+      "section": "chemistry",
+      "topic": "Amines",
+      "difficulty": "medium",
+      "question": "The correct order of basic strength of the following in aqueous solution is",
+      "options": [
+        "(CH₃)₃N > (CH₃)₂NH > CH₃NH₂ > NH₃",
+        "CH₃NH₂ > (CH₃)₂NH > (CH₃)₃N > NH₃",
+        "NH₃ > CH₃NH₂ > (CH₃)₂NH > (CH₃)₃N",
+        "(CH₃)₂NH > CH₃NH₂ > (CH₃)₃N > NH₃"
+      ],
+      "answer": 3,
+      "explanation": "In water, basicity of methylamines balances +I effect, H-bonded solvation of the ammonium ion and steric hindrance: 2° > 1° > 3° > NH₃ (pK_b ≈ 3.27, 3.38, 4.22, 4.75).",
+      "source": "ai",
+      "archetype": "jee-main-C35",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Aqueous amine basicity 2°>1°>3°>NH3 – Main favourite"
+      }
+    },
+    {
+      "id": "jee-main-101",
+      "section": "maths",
+      "topic": "Sets, Relations & Functions",
+      "difficulty": "medium",
+      "question": "The number of reflexive relations on the set A = {1, 2, 3} is",
+      "options": [
+        "64",
+        "512",
+        "8",
+        "27"
+      ],
+      "answer": 0,
+      "explanation": "A relation is a subset of A × A (9 ordered pairs). Reflexive relations must contain the 3 pairs (a, a); the other 6 pairs are free: 2⁶ = 64.",
+      "source": "ai",
+      "archetype": "jee-main-M02",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Reflexive relations 2^6=64; Main counting-relations item"
+      }
+    },
+    {
+      "id": "jee-main-103",
+      "section": "maths",
+      "topic": "Quadratic Equations",
+      "difficulty": "medium",
+      "question": "If α and β are the roots of x² − 3x + 1 = 0, then α⁴ + β⁴ equals",
+      "options": [
+        "49",
+        "45",
+        "47",
+        "51"
+      ],
+      "answer": 2,
+      "explanation": "α + β = 3, αβ = 1. α² + β² = 9 − 2 = 7. α⁴ + β⁴ = (α² + β²)² − 2α²β² = 49 − 2 = 47.",
+      "source": "ai",
+      "archetype": "jee-main-M05",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "α⁴+β⁴ = 47 via squaring twice; standard"
+      }
+    },
+    {
+      "id": "jee-main-104",
+      "section": "maths",
+      "topic": "Trigonometry",
+      "difficulty": "medium",
+      "question": "The number of solutions of 2cos²x + 3 sin x = 3 in the interval [0, 2π] is",
+      "options": [
+        "2",
+        "4",
+        "1",
+        "3"
+      ],
+      "answer": 3,
+      "explanation": "2(1 − sin²x) + 3 sin x − 3 = 0 ⇒ 2sin²x − 3 sin x + 1 = 0 ⇒ sin x = 1 or ½. sin x = 1 gives π/2; sin x = ½ gives π/6 and 5π/6. Total 3.",
+      "source": "ai",
+      "archetype": "jee-main-M36",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Count of solutions (3) of trig equation in [0,2π] – Main style"
+      }
+    },
+    {
+      "id": "jee-main-105",
+      "section": "maths",
+      "topic": "Matrices & Determinants",
+      "difficulty": "medium",
+      "question": "If A is a 3 × 3 matrix with |A| = 3, then |adj(adj A)| equals",
+      "options": [
+        "81",
+        "27",
+        "9",
+        "243"
+      ],
+      "answer": 0,
+      "explanation": "For an n × n matrix, |adj(adj A)| = |A|^((n − 1)²). With n = 3: 3⁴ = 81.",
+      "source": "ai",
+      "archetype": "jee-main-M07",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "|adj(adj A)| = |A|^4 = 81 – Main favourite"
+      }
+    },
+    {
+      "id": "jee-main-107",
+      "section": "maths",
+      "topic": "Permutations & Combinations",
+      "difficulty": "medium",
+      "question": "The number of arrangements of all the letters of the word ORANGE in which the vowels occupy only the even positions is",
+      "options": [
+        "72",
+        "144",
+        "36",
+        "18"
+      ],
+      "answer": 2,
+      "explanation": "Vowels O, A, E go into the 3 even places in 3! ways; consonants R, N, G fill the 3 odd places in 3! ways: 6 × 6 = 36.",
+      "source": "ai",
+      "archetype": "jee-main-M10",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "ORANGE vowels at even places 36; standard"
+      }
+    },
+    {
+      "id": "jee-main-108",
+      "section": "maths",
+      "topic": "Permutations & Combinations",
+      "difficulty": "medium",
+      "question": "A committee of 5 is to be chosen from 6 men and 4 women so that it contains at least 2 women. The number of ways is",
+      "options": [
+        "192",
+        "120",
+        "246",
+        "186"
+      ],
+      "answer": 3,
+      "explanation": "Total C(10,5) = 252. Subtract 0 women: C(6,5) = 6, and exactly 1 woman: 4 × C(6,4) = 60. 252 − 66 = 186.",
+      "source": "ai",
+      "archetype": "jee-main-M11",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Committee with ≥2 women = 186; Main style with case-miss distractors"
+      }
+    },
+    {
+      "id": "jee-main-109",
+      "section": "maths",
+      "topic": "Binomial Theorem",
+      "difficulty": "medium",
+      "question": "The coefficient of x³ in the expansion of (2x − 1/x)⁷ is",
+      "options": [
+        "672",
+        "−672",
+        "280",
+        "−280"
+      ],
+      "answer": 0,
+      "explanation": "T_(r+1) = C(7,r)(2x)^(7−r)(−1/x)^r has power 7 − 2r = 3 ⇒ r = 2. Coefficient = C(7,2) × 2⁵ × (−1)² = 21 × 32 = 672.",
+      "source": "ai",
+      "archetype": "jee-main-M12",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Coefficient of x³ in (2x−1/x)^7 = 672 with sign trap"
+      }
+    },
+    {
+      "id": "jee-main-111",
+      "section": "maths",
+      "topic": "Sequences & Series",
+      "difficulty": "hard",
+      "question": "The sum of the infinite series 1/3 + 2/3² + 3/3³ + 4/3⁴ + … is",
+      "options": [
+        "1/2",
+        "1",
+        "3/4",
+        "4/3"
+      ],
+      "answer": 2,
+      "explanation": "Σ k xᵏ = x/(1 − x)² for |x| < 1. With x = 1/3: (1/3)/(4/9) = 3/4.",
+      "source": "ai",
+      "archetype": "jee-main-M14",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Σk/3^k = 3/4; AGP infinite sum standard"
+      }
+    },
+    {
+      "id": "jee-main-112",
+      "section": "maths",
+      "topic": "Differential Equations",
+      "difficulty": "medium",
+      "question": "If y = y(x) satisfies dy/dx + y = e⁻ˣ with y(0) = 1, then y(1) equals",
+      "options": [
+        "1/e",
+        "e",
+        "2e",
+        "2/e"
+      ],
+      "answer": 3,
+      "explanation": "Integrating factor eˣ: d(y eˣ)/dx = 1 ⇒ y eˣ = x + C. y(0) = 1 ⇒ C = 1, so y = (x + 1)e⁻ˣ and y(1) = 2/e.",
+      "source": "ai",
+      "archetype": "jee-main-M23",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Linear DE y(1)=2/e; Main style"
+      }
+    },
+    {
+      "id": "jee-main-113",
+      "section": "maths",
+      "topic": "Limits, Continuity & Differentiability",
+      "difficulty": "medium",
+      "question": "The function f(x) = ax + 1 for x ≤ 1 and f(x) = x² + b for x > 1 is differentiable at x = 1. Then a + b equals",
+      "options": [
+        "4",
+        "2",
+        "3",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "Differentiability: left derivative a = right derivative 2x at 1 = 2. Continuity: a + 1 = 1 + b ⇒ b = 2. So a + b = 4.",
+      "source": "ai",
+      "archetype": "jee-main-M17",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Differentiability constants a=2,b=2 – Main archetype"
+      }
+    },
+    {
+      "id": "jee-main-115",
+      "section": "maths",
+      "topic": "Integral Calculus",
+      "difficulty": "medium",
+      "question": "The value of ∫ from π/6 to π/3 of dx/(1 + √(tan x)) is",
+      "options": [
+        "π/6",
+        "π/4",
+        "π/12",
+        "π/3"
+      ],
+      "answer": 2,
+      "explanation": "Replacing x by π/2 − x gives √(tan x) → √(cot x); adding the two forms, 2I = ∫ 1 dx over [π/6, π/3] = π/6, so I = π/12.",
+      "source": "ai",
+      "archetype": "jee-main-M19",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "∫dx/(1+√tan x) over π/6..π/3 = π/12 – classic Main King's item"
+      }
+    },
+    {
+      "id": "jee-main-118",
+      "section": "maths",
+      "topic": "Conic Sections",
+      "difficulty": "medium",
+      "question": "The length of the latus rectum of the ellipse x²/a² + y²/b² = 1 (a > b) is half the length of its major axis. Its eccentricity is",
+      "options": [
+        "1/2",
+        "1/√2",
+        "√3/2",
+        "1/√3"
+      ],
+      "answer": 1,
+      "explanation": "2b²/a = a ⇒ b² = a²/2. e² = 1 − b²/a² = 1/2 ⇒ e = 1/√2.",
+      "source": "ai",
+      "archetype": "jee-main-M28",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Latus rectum half of major axis → e = 1/√2; Main style"
+      }
+    },
+    {
+      "id": "jee-main-120",
+      "section": "maths",
+      "topic": "Vector Algebra",
+      "difficulty": "medium",
+      "question": "The vectors î + ĵ + k̂, î + 2ĵ + 3k̂ and 2î + λĵ + 4k̂ are coplanar. Then λ equals",
+      "options": [
+        "2",
+        "−3",
+        "4",
+        "3"
+      ],
+      "answer": 3,
+      "explanation": "Coplanar ⇒ scalar triple product = 0: det[[1,1,1],[1,2,3],[2,λ,4]] = 1(8 − 3λ) − 1(4 − 6) + 1(λ − 4) = 6 − 2λ = 0 ⇒ λ = 3.",
+      "source": "ai",
+      "archetype": "jee-main-M32",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Coplanarity λ=3 via triple product; Main staple"
+      }
+    },
+    {
+      "id": "jee-main-121",
+      "section": "physics",
+      "topic": "Kinematics",
+      "difficulty": "medium",
+      "type": "numerical",
+      "question": "A ball projected from level ground is at the same height above the ground at t = 1 s and at t = 3 s after projection. Its horizontal displacement between these two instants is 30 m. Find the horizontal range of the ball in metres. (g = 10 m/s²) (Answer as an integer.)",
+      "answer": 60,
+      "tolerance": 0,
+      "explanation": "Equal heights at t₁, t₂ ⇒ t₁ + t₂ = 2u_y/g = 4 s ⇒ u_y = 20 m/s and time of flight T = 4 s. u_x = 30/(3 − 1) = 15 m/s. Range = 15 × 4 = 60 m.",
+      "source": "ai",
+      "archetype": "jee-main-P04",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Equal heights at 1 s and 3 s -> T=4 s, ux=15 -> R=60 m; typical Main integer projectile"
+      }
+    },
+    {
+      "id": "jee-main-122",
+      "section": "physics",
+      "topic": "Laws of Motion",
+      "difficulty": "medium",
+      "question": "Three blocks of masses 2 kg, 3 kg and 5 kg are placed in contact in a row on a rough horizontal floor (coefficient of kinetic friction 0.2 for each). A horizontal force of 50 N is applied to the 2 kg block, pushing the row. The contact force between the 3 kg and 5 kg blocks is (g = 10 m/s²)",
+      "options": [
+        "15 N",
+        "25 N",
+        "35 N",
+        "20 N"
+      ],
+      "answer": 1,
+      "explanation": "a = (50 − 0.2 × 10 × 10)/10 = 3 m/s². For the 5 kg block: N − 0.2 × 50 = 5 × 3 ⇒ N = 25 N. (Friction scales with mass, so the answer equals the smooth-floor value 50 × 5/10; 15 N forgets the friction on the 5 kg block.)",
+      "source": "ai",
+      "archetype": "jee-main-P06",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Three blocks with friction, contact force = 5a + μ·50 = 25 N; distractor 15 N ignores friction; Main-faithful"
+      }
+    },
+    {
+      "id": "jee-main-123",
+      "section": "physics",
+      "topic": "Work, Energy & Power",
+      "difficulty": "medium",
+      "type": "numerical",
+      "question": "A body of mass 2 kg, initially at rest on a smooth horizontal surface, is acted upon by a horizontal force F = 6t newton (t in seconds). Find the work done by the force in the first 2 s, in joules. (Answer as an integer.)",
+      "answer": 36,
+      "tolerance": 0,
+      "explanation": "a = F/m = 3t ⇒ v = 1.5t² ⇒ v(2) = 6 m/s. By the work–energy theorem W = ½ × 2 × 6² = 36 J.",
+      "source": "ai",
+      "archetype": "jee-main-P08",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "F=6t on 2 kg: v(2)=6 m/s, W=ΔKE=36 J; Main work-energy, time-dependent rather than F(x) variant"
+      }
+    },
+    {
+      "id": "jee-main-124",
+      "section": "physics",
+      "topic": "Rotational Motion",
+      "difficulty": "medium",
+      "question": "A solid sphere rolling without slipping on a horizontal floor with speed 5 m/s comes to a rough inclined plane and rolls up it without slipping. The maximum height it reaches above the floor is (g = 10 m/s²)",
+      "options": [
+        "1.75 m",
+        "1.25 m",
+        "1.875 m",
+        "2.50 m"
+      ],
+      "answer": 0,
+      "explanation": "Total KE = ½mv²(1 + 2/5) = 0.7mv². At the top all of it is mgh (static friction does no work): h = 0.7 × 25/10 = 1.75 m. (1.25 m ignores rotation; 1.875 m is for a disc; 2.5 m for a ring.)",
+      "source": "ai",
+      "archetype": "jee-main-P09",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Rolling sphere up incline h=7v^2/10g=1.75 m; distractor 1.25 m ignores rotation; Main classic"
+      }
+    },
+    {
+      "id": "jee-main-125",
+      "section": "physics",
+      "topic": "Gravitation",
+      "difficulty": "medium",
+      "type": "numerical",
+      "question": "A body is projected vertically upward from the surface of the earth (radius R) with speed √(3gR/2). Neglecting air resistance and the earth’s rotation, the maximum height it reaches above the surface is nR. Find n. (Answer as an integer.)",
+      "answer": 3,
+      "tolerance": 0,
+      "explanation": "½mv² − GMm/R = −GMm/(R + h) with GM = gR²: (3/4)gR − gR = −gR²/(R + h) ⇒ R + h = 4R ⇒ h = 3R. (Using h = v²/2g wrongly gives 0.75R.)",
+      "source": "ai",
+      "archetype": "jee-main-P12",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "v=√(3gR/2) -> h=3R via energy conservation; standard Main integer"
+      }
+    },
+    {
+      "id": "jee-main-126",
+      "section": "physics",
+      "topic": "Thermodynamics",
+      "difficulty": "medium",
+      "question": "An ideal (Carnot) refrigerator keeps its freezer compartment at −23 °C in a room at 27 °C and removes 500 J of heat from the freezer every second. The power drawn and the heat rejected to the room per second are respectively",
+      "options": [
+        "100 W and 600 J",
+        "100 W and 500 J",
+        "83.3 W and 583.3 J",
+        "600 W and 100 J"
+      ],
+      "answer": 0,
+      "explanation": "COP = T_L/(T_H − T_L) = 250/50 = 5 ⇒ W = 500/5 = 100 W. Heat rejected = Q_L + W = 600 J per second. (Using T_H/(T_H − T_L) = 6 gives 83.3 W.)",
+      "source": "ai",
+      "archetype": "jee-main-P18",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Carnot refrigerator COP=5, W=100 W, Q_H=600 J; Main thermodynamics"
+      }
+    },
+    {
+      "id": "jee-main-127",
+      "section": "physics",
+      "topic": "Oscillations & Waves",
+      "difficulty": "medium",
+      "type": "numerical",
+      "question": "A block of mass 2 kg attached to a spring of force constant 200 N/m oscillates on a smooth horizontal surface with amplitude 10 cm. Find its kinetic energy (in mJ) when it is 6 cm from the mean position. (Answer as an integer.)",
+      "answer": 640,
+      "tolerance": 0,
+      "explanation": "KE = ½k(A² − x²) = ½ × 200 × (0.01 − 0.0036) = 100 × 0.0064 = 0.64 J = 640 mJ.",
+      "source": "ai",
+      "archetype": "jee-main-P21",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "SHM KE = ½k(A²-x²) = 640 mJ; one-step but common Main numerical"
+      }
+    },
+    {
+      "id": "jee-main-128",
+      "section": "physics",
+      "topic": "Electrostatics",
+      "difficulty": "medium",
+      "question": "Charges +q, −q, +q and −q are placed in order at the four corners of a square of side a. With k = 1/(4πε₀), the electrostatic potential energy of the system is",
+      "options": [
+        "(4 − √2)kq²/a",
+        "−(4 + √2)kq²/a",
+        "(√2 − 4)kq²/a",
+        "(√2 − 2)kq²/a"
+      ],
+      "answer": 2,
+      "explanation": "Four adjacent pairs (unlike charges): 4 × (−kq²/a). Two diagonal pairs (like charges): 2 × kq²/(√2a) = √2kq²/a. U = (√2 − 4)kq²/a.",
+      "source": "ai",
+      "archetype": "jee-main-P24",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Alternating charges on square U=(√2-4)kq²/a; sign trap distractors; Main electrostatics PE"
+      }
+    },
+    {
+      "id": "jee-main-129",
+      "section": "physics",
+      "topic": "Current Electricity",
+      "difficulty": "medium",
+      "type": "numerical",
+      "question": "A potentiometer wire 4 m long has a resistance of 8 Ω. It is connected in series with a rheostat of 7 Ω and a driver cell of emf 2 V and internal resistance 1 Ω. Find the balancing length (in cm) for a cell of emf 0.6 V. (Answer as an integer.)",
+      "answer": 240,
+      "tolerance": 0,
+      "explanation": "Current = 2/(8 + 7 + 1) = 0.125 A. Potential gradient = 0.125 × 8/4 = 0.25 V/m. Balancing length = 0.6/0.25 = 2.4 m = 240 cm.",
+      "source": "ai",
+      "archetype": "jee-main-P26",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Potentiometer gradient 0.25 V/m with rheostat and internal r -> 240 cm; Main-faithful"
+      }
+    },
+    {
+      "id": "jee-main-130",
+      "section": "physics",
+      "topic": "Magnetic Effects of Current & Magnetism",
+      "difficulty": "medium",
+      "question": "A galvanometer of resistance 50 Ω gives full-scale deflection for a current of 2 mA. To convert it into a voltmeter of range 0–10 V and, separately, into an ammeter of range 0–1 A, one needs respectively",
+      "options": [
+        "5000 Ω in series; about 0.1 Ω in parallel",
+        "4950 Ω in series; about 0.1 Ω in parallel",
+        "4950 Ω in parallel; about 0.1 Ω in series",
+        "4950 Ω in series; about 0.2 Ω in parallel"
+      ],
+      "answer": 1,
+      "explanation": "Voltmeter: R = V/I_g − G = 10/0.002 − 50 = 4950 Ω in series. Ammeter: S = I_gG/(I − I_g) = 0.002 × 50/0.998 ≈ 0.1 Ω in parallel.",
+      "source": "ai",
+      "archetype": "jee-main-P29",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Galvanometer to voltmeter 4950 Ω series and ammeter ≈0.1 Ω shunt; exact Main archetype with 5000 Ω trap"
+      }
+    },
+    {
+      "id": "jee-main-131",
+      "section": "physics",
+      "topic": "Electromagnetic Induction & AC",
+      "difficulty": "medium",
+      "type": "numerical",
+      "question": "A series circuit of a 15 Ω resistor, a 0.1 H inductor and a 12.5 μF capacitor is connected to a 200 V (rms) source of angular frequency 1000 rad/s. Find the average power (in W) dissipated in the circuit. (Answer as an integer.)",
+      "answer": 960,
+      "tolerance": 0,
+      "explanation": "X_L = 1000 × 0.1 = 100 Ω, X_C = 1/(1000 × 12.5 × 10⁻⁶) = 80 Ω. Z = √(15² + 20²) = 25 Ω, I_rms = 8 A. P = I²R = 64 × 15 = 960 W.",
+      "source": "ai",
+      "archetype": "jee-main-P30",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "XL=100, XC=80, Z=25, I=8, P=I²R=960 W; Main LCR power"
+      }
+    },
+    {
+      "id": "jee-main-132",
+      "section": "physics",
+      "topic": "Atoms & Nuclei",
+      "difficulty": "medium",
+      "type": "numerical",
+      "question": "A nucleus of mass number 240 with binding energy per nucleon 7.6 MeV splits into two nuclei of mass number 120 each, with binding energy per nucleon 8.5 MeV. Find the energy released (in MeV). (Answer as an integer.)",
+      "answer": 216,
+      "tolerance": 0,
+      "explanation": "Energy released = BE(products) − BE(parent) = 240 × 8.5 − 240 × 7.6 = 240 × 0.9 = 216 MeV.",
+      "source": "ai",
+      "archetype": "jee-main-P38",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Fission energy 240×(8.5-7.6)=216 MeV; one-step Main binding-energy integer"
+      }
+    },
+    {
+      "id": "jee-main-133",
+      "section": "chemistry",
+      "topic": "Some Basic Concepts (Mole Concept)",
+      "difficulty": "medium",
+      "type": "numerical",
+      "question": "A 1.84 g mixture of CaCO₃ and MgCO₃ is heated strongly to constant mass, leaving 0.96 g of residue (CaO + MgO). Find the percentage by mass of CaCO₃ in the mixture (nearest integer). (Ca = 40, Mg = 24, C = 12, O = 16)",
+      "answer": 54,
+      "tolerance": 0,
+      "explanation": "Let x g CaCO₃ and (1.84 − x) g MgCO₃. Residue: (56/100)x + (40/84)(1.84 − x) = 0.96 ⇒ x = 1.00 g. Percentage = 1.00/1.84 × 100 = 54.3 ≈ 54.",
+      "source": "ai",
+      "archetype": "jee-main-C01",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "CaCO3/MgCO3 decomposition simultaneous equations give 1.00 g CaCO3 -> 54.3% -> 54; Main stoichiometry"
+      }
+    },
+    {
+      "id": "jee-main-134",
+      "section": "chemistry",
+      "topic": "Atomic Structure",
+      "difficulty": "medium",
+      "question": "According to the Bohr model, the ratio of the de Broglie wavelength of the electron in the second orbit of the hydrogen atom to that of the electron in the third orbit of Li²⁺ is",
+      "options": [
+        "2 : 1",
+        "1 : 2",
+        "4 : 3",
+        "2 : 3"
+      ],
+      "answer": 0,
+      "explanation": "λ = 2πr/n with r ∝ n²/Z ⇒ λ ∝ n/Z. H, n = 2: 2/1 = 2. Li²⁺, n = 3: 3/3 = 1. Ratio 2 : 1. (Taking λ ∝ r gives 4 : 3.)",
+      "source": "ai",
+      "archetype": "jee-main-C04",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "λ ∝ n/Z -> 2/1 : 3/3 = 2:1; Main Bohr/de Broglie ratio"
+      }
+    },
+    {
+      "id": "jee-main-135",
+      "section": "chemistry",
+      "topic": "Chemical Thermodynamics",
+      "difficulty": "medium",
+      "type": "numerical",
+      "question": "Using bond enthalpies (kJ mol⁻¹) C=C 610, C–C 350, H–H 436 and C–H 414, find the magnitude of the enthalpy change (in kJ mol⁻¹) for C₂H₄(g) + H₂(g) → C₂H₆(g). (Answer as an integer.)",
+      "answer": 132,
+      "tolerance": 0,
+      "explanation": "Bonds broken: C=C + H–H = 610 + 436 = 1046. Bonds formed: C–C + 2 C–H = 350 + 828 = 1178. ΔH = 1046 − 1178 = −132 kJ mol⁻¹; magnitude 132.",
+      "source": "ai",
+      "archetype": "jee-main-C09",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Bond enthalpy 1046-1178 -> |ΔH|=132 kJ; Main thermochemistry integer"
+      }
+    },
+    {
+      "id": "jee-main-136",
+      "section": "chemistry",
+      "topic": "Equilibrium",
+      "difficulty": "medium",
+      "question": "The solubility product of Ag₂CrO₄ at 298 K is 3.2 × 10⁻¹¹. The concentration of Ag⁺ ions in its saturated aqueous solution is",
+      "options": [
+        "2.0 × 10⁻⁴ M",
+        "4.0 × 10⁻⁴ M",
+        "5.7 × 10⁻⁶ M",
+        "8.0 × 10⁻⁴ M"
+      ],
+      "answer": 1,
+      "explanation": "Ksp = (2s)²s = 4s³ ⇒ s³ = 8 × 10⁻¹² ⇒ s = 2.0 × 10⁻⁴ M. [Ag⁺] = 2s = 4.0 × 10⁻⁴ M. (2.0 × 10⁻⁴ is s itself; 5.7 × 10⁻⁶ treats it as a 1:1 salt.)",
+      "source": "ai",
+      "archetype": "jee-main-C13",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Ag2CrO4 4s³=3.2e-11 -> s=2e-4, [Ag+]=4e-4 M; s-vs-2s trap, Main-faithful"
+      }
+    },
+    {
+      "id": "jee-main-137",
+      "section": "chemistry",
+      "topic": "Redox & Electrochemistry",
+      "difficulty": "medium",
+      "type": "numerical",
+      "question": "A current of 2.0 A is passed for 965 s through aqueous CuSO₄ using inert electrodes. Find the volume of O₂ (in mL at STP, 22.4 L mol⁻¹) liberated at the anode. (F = 96500 C mol⁻¹) (Answer as an integer.)",
+      "answer": 112,
+      "tolerance": 0,
+      "explanation": "Charge = 1930 C = 0.02 F. At the anode 2H₂O → O₂ + 4H⁺ + 4e⁻, so O₂ = 0.02/4 = 0.005 mol = 112 mL.",
+      "source": "ai",
+      "archetype": "jee-main-C15",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "1930 C -> 0.005 mol O2 -> 112 mL; Main Faraday integer"
+      }
+    },
+    {
+      "id": "jee-main-138",
+      "section": "chemistry",
+      "topic": "Chemical Kinetics",
+      "difficulty": "medium",
+      "question": "The rate constant of a reaction obeys log k = 14 − (1.25 × 10⁴ K)/T, with k in s⁻¹. The activation energy and the temperature at which k = 10⁴ s⁻¹ are respectively (R = 8.314 J K⁻¹ mol⁻¹)",
+      "options": [
+        "104 kJ mol⁻¹ and 1250 K",
+        "239 kJ mol⁻¹ and 1000 K",
+        "239 kJ mol⁻¹ and 1250 K",
+        "104 kJ mol⁻¹ and 893 K"
+      ],
+      "answer": 2,
+      "explanation": "log k = log A − Ea/(2.303RT) ⇒ Ea = 2.303 × 8.314 × 1.25 × 10⁴ J ≈ 239 kJ mol⁻¹ (forgetting 2.303 gives 104). k = 10⁴ ⇒ 4 = 14 − 1.25 × 10⁴/T ⇒ T = 1250 K.",
+      "source": "ai",
+      "archetype": "jee-main-C17",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Ea = 2.303R×1.25e4 ≈ 239 kJ, T=1250 K for k=10^4; Main Arrhenius log form"
+      }
+    },
+    {
+      "id": "jee-main-139",
+      "section": "chemistry",
+      "topic": "Coordination Compounds",
+      "difficulty": "medium",
+      "type": "numerical",
+      "question": "Find the total number of unpaired electrons in one ion each of [Fe(H₂O)₆]²⁺, [Mn(CN)₆]³⁻, [CoF₆]³⁻ and [Ni(NH₃)₆]²⁺. (Answer as an integer.)",
+      "answer": 12,
+      "tolerance": 0,
+      "explanation": "[Fe(H₂O)₆]²⁺: d⁶ high spin, 4. [Mn(CN)₆]³⁻: d⁴ low spin (t₂g⁴), 2. [CoF₆]³⁻: d⁶ high spin, 4. [Ni(NH₃)₆]²⁺: d⁸ (t₂g⁶e_g²), 2. Total 12.",
+      "source": "ai",
+      "archetype": "jee-main-C25",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Unpaired e: 4 (Fe2+ hs) + 2 (Mn3+ ls) + 4 (CoF6 3-) + 2 (Ni2+) = 12; Main coordination integer"
+      }
+    },
+    {
+      "id": "jee-main-140",
+      "section": "chemistry",
+      "topic": "d- & f-Block Elements",
+      "difficulty": "medium",
+      "question": "The number of moles of KMnO₄ required to oxidise one mole of iron(II) oxalate, FeC₂O₄, completely in acidic medium is",
+      "options": [
+        "1/5",
+        "2/5",
+        "1",
+        "3/5"
+      ],
+      "answer": 3,
+      "explanation": "Fe²⁺ → Fe³⁺ gives 1 e⁻ and C₂O₄²⁻ → 2CO₂ gives 2 e⁻: 3 e⁻ per FeC₂O₄. MnO₄⁻ → Mn²⁺ takes 5 e⁻ ⇒ 3/5 mol. (Counting only oxalate gives 2/5; only Fe²⁺ gives 1/5.)",
+      "source": "ai",
+      "archetype": "jee-main-C22",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "FeC2O4 loses 3 e (Fe2+ and C2O4 2-) -> 3/5 mol KMnO4; Main redox trap (1/5, 2/5)"
+      }
+    },
+    {
+      "id": "jee-main-141",
+      "section": "chemistry",
+      "topic": "Basic Principles of Organic Chemistry (GOC)",
+      "difficulty": "medium",
+      "type": "numerical",
+      "question": "In a Carius estimation, 0.25 g of an organic compound gave 0.47 g of AgBr. Find the percentage of bromine in the compound. (Ag = 108, Br = 80) (Answer as an integer.)",
+      "answer": 80,
+      "tolerance": 0,
+      "explanation": "Mass of Br = 0.47 × 80/188 = 0.20 g. Percentage = 0.20/0.25 × 100 = 80.",
+      "source": "ai",
+      "archetype": "jee-main-C28",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Carius Br% = 0.47×80/188/0.25 = 80%; Main quantitative-analysis integer"
+      }
+    },
+    {
+      "id": "jee-main-142",
+      "section": "chemistry",
+      "topic": "Hydrocarbons",
+      "difficulty": "medium",
+      "question": "Toluene is first oxidised with alkaline KMnO₄ followed by acidification, and the product is then nitrated with a mixture of conc. HNO₃ and conc. H₂SO₄. The major final product is",
+      "options": [
+        "p-nitrobenzoic acid",
+        "o-nitrotoluene",
+        "m-nitrotoluene",
+        "m-nitrobenzoic acid"
+      ],
+      "answer": 3,
+      "explanation": "Oxidation first converts –CH₃ (o/p-director) into –COOH, a deactivating meta-director, so nitration gives m-nitrobenzoic acid. Nitrating first and then oxidising would give mainly o- and p-nitrobenzoic acids — order of steps matters.",
+      "source": "ai",
+      "archetype": "jee-main-C30",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Toluene -> benzoic acid -> m-nitrobenzoic acid (COOH meta-director); Main directive-influence item"
+      }
+    },
+    {
+      "id": "jee-main-143",
+      "section": "chemistry",
+      "topic": "Basic Principles of Organic Chemistry (GOC)",
+      "difficulty": "medium",
+      "type": "numerical",
+      "question": "How many of the following liberate CO₂ from aqueous sodium hydrogencarbonate? Benzoic acid, phenol, picric acid, acetic acid, p-cresol, ethanol, benzenesulphonic acid, p-nitrophenol. (Answer as an integer.)",
+      "answer": 4,
+      "tolerance": 0,
+      "explanation": "Only acids stronger than H₂CO₃ (pKa ≈ 6.4) react: benzoic acid (4.2), picric acid (≈0.4), acetic acid (4.76), benzenesulphonic acid (strong) ⇒ 4. Phenol (10), p-cresol (10.3), ethanol (~16) and p-nitrophenol (7.1) do not.",
+      "source": "ai",
+      "archetype": "jee-main-C27",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "NaHCO3 test: benzoic, picric, acetic, benzenesulphonic = 4 (p-nitrophenol too weak); Main acidity count"
+      }
+    },
+    {
+      "id": "jee-main-144",
+      "section": "chemistry",
+      "topic": "Amines",
+      "difficulty": "medium",
+      "question": "p-Toluidine is treated with NaNO₂/HCl at 273 K to give X; X is warmed with H₃PO₂ to give Y; Y is oxidised with alkaline KMnO₄ and then acidified to give Z. Z is",
+      "options": [
+        "p-toluic acid",
+        "benzoic acid",
+        "terephthalic acid",
+        "p-aminobenzoic acid"
+      ],
+      "answer": 1,
+      "explanation": "X = p-methylbenzenediazonium chloride. H₃PO₂ replaces –N₂⁺ by H, so Y = toluene. Side-chain oxidation gives Z = benzoic acid. (p-Toluic acid would keep a substituent where the diazo group was.)",
+      "source": "ai",
+      "archetype": "jee-main-C35",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Diazotise, H3PO2 removes N2 -> toluene -> benzoic acid; Main diazonium sequence"
+      }
+    },
+    {
+      "id": "jee-main-145",
+      "section": "maths",
+      "topic": "Sets, Relations & Functions",
+      "difficulty": "medium",
+      "type": "numerical",
+      "question": "Find the number of onto functions from the set {1, 2, 3, 4, 5} to the set {a, b, c}. (Answer as an integer.)",
+      "answer": 150,
+      "tolerance": 0,
+      "explanation": "Inclusion–exclusion: 3⁵ − C(3, 1)2⁵ + C(3, 2)1⁵ = 243 − 96 + 3 = 150.",
+      "source": "ai",
+      "archetype": "jee-main-M02",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Onto functions 5->3 = 243-96+3 = 150; Main counting integer"
+      }
+    },
+    {
+      "id": "jee-main-146",
+      "section": "maths",
+      "topic": "Complex Numbers",
+      "difficulty": "medium",
+      "type": "numerical",
+      "question": "If z = (1 + i√3)/(1 − i), find the value of z²⁴. (Answer as an integer.)",
+      "answer": 4096,
+      "tolerance": 0,
+      "explanation": "1 + i√3 = 2e^(iπ/3), 1 − i = √2e^(−iπ/4) ⇒ z = √2e^(i7π/12). z²⁴ = 2¹² e^(i14π) = 4096.",
+      "source": "ai",
+      "archetype": "jee-main-M03",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "z = √2 e^{i7π/12}, z^24 = 2^12 = 4096; Main polar-form power"
+      }
+    },
+    {
+      "id": "jee-main-147",
+      "section": "maths",
+      "topic": "Quadratic Equations",
+      "difficulty": "medium",
+      "question": "If α and β are the roots of 2x² − 3x + 4 = 0, the quadratic equation whose roots are α² and β² is",
+      "options": [
+        "4x² − 7x + 16 = 0",
+        "4x² + 25x + 16 = 0",
+        "16x² + 7x + 4 = 0",
+        "4x² + 7x + 16 = 0"
+      ],
+      "answer": 3,
+      "explanation": "α + β = 3/2, αβ = 2. α² + β² = 9/4 − 4 = −7/4 and α²β² = 4. Equation: x² + (7/4)x + 4 = 0 ⇒ 4x² + 7x + 16 = 0.",
+      "source": "ai",
+      "archetype": "jee-main-M05",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "α²+β² = 9/4-4 = -7/4, α²β²=4 -> 4x²+7x+16=0; Main transformed-roots"
+      }
+    },
+    {
+      "id": "jee-main-148",
+      "section": "maths",
+      "topic": "3D Geometry",
+      "difficulty": "medium",
+      "question": "The distance of the point (1, 2, 3) from the plane x − y + z = 5, measured along a line parallel to x/2 = y/3 = z/(−6), is",
+      "options": [
+        "√3",
+        "3",
+        "7",
+        "3/7"
+      ],
+      "answer": 1,
+      "explanation": "Points on the line: (1 + 2t, 2 + 3t, 3 − 6t). In the plane: 2 − 7t = 5 ⇒ t = −3/7. Distance = |t|√(4 + 9 + 36) = (3/7)(7) = 3. (√3 is the perpendicular distance.)",
+      "source": "ai",
+      "archetype": "jee-main-M30",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Distance along direction (2,3,-6): t=-3/7, distance 7|t|=3; Main 3D classic"
+      }
+    },
+    {
+      "id": "jee-main-149",
+      "section": "maths",
+      "topic": "Permutations & Combinations",
+      "difficulty": "medium",
+      "question": "All the words (with or without meaning) formed by the letters of MASTER, each used once, are arranged in dictionary order. The rank of the word MASTER is",
+      "options": [
+        "257",
+        "256",
+        "258",
+        "240"
+      ],
+      "answer": 0,
+      "explanation": "Alphabetical order: A, E, M, R, S, T. Words starting with A or E: 2 × 5! = 240. Then M A _ _ _ _: before S come E and R: 2 × 3! = 12 (252). M A S _ _ _: letters E, R, T; before T come E, R: 2 × 2! = 4 (256). M A S T E R is next: rank 257.",
+      "source": "ai",
+      "archetype": "jee-main-M10",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Rank of MASTER in dictionary order = 257; exact Main word-rank archetype"
+      }
+    },
+    {
+      "id": "jee-main-150",
+      "section": "maths",
+      "topic": "Binomial Theorem",
+      "difficulty": "medium",
+      "type": "numerical",
+      "question": "Find the value of Σᵣ₌₀¹⁰ (r + 1)·¹⁰Cᵣ. (Answer as an integer.)",
+      "answer": 6144,
+      "tolerance": 0,
+      "explanation": "Σ r·¹⁰Cᵣ = 10 × 2⁹ = 5120 and Σ ¹⁰Cᵣ = 2¹⁰ = 1024. Sum = 6144.",
+      "source": "ai",
+      "archetype": "jee-main-M13",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Σ(r+1)C(10,r) = 10·2^9 + 2^10 = 6144; Main binomial sum"
+      }
+    },
+    {
+      "id": "jee-main-151",
+      "section": "maths",
+      "topic": "Limits, Continuity & Differentiability",
+      "difficulty": "medium",
+      "question": "The value of lim (x → 0) [(1 + tan x)/(1 + sin x)]^(1/x³) is",
+      "options": [
+        "1",
+        "e",
+        "√e",
+        "e²"
+      ],
+      "answer": 2,
+      "explanation": "1^∞ form: limit = e^L with L = lim (tan x − sin x)/[(1 + sin x)x³] = lim tan x(1 − cos x)/x³ = 1/2. Answer √e.",
+      "source": "ai",
+      "archetype": "jee-main-M16",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "1^∞ limit: (tan x - sin x)/x³ -> 1/2, answer √e; Main standard limit"
+      }
+    },
+    {
+      "id": "jee-main-152",
+      "section": "maths",
+      "topic": "Applications of Derivatives",
+      "difficulty": "medium",
+      "type": "numerical",
+      "question": "A right circular cylinder is inscribed in a sphere of radius 3√3. If V is the greatest possible volume of the cylinder, find V/π. (Answer as an integer.)",
+      "answer": 108,
+      "tolerance": 0,
+      "explanation": "With height h, radius² = R² − h²/4: V = π(R²h − h³/4). dV/dh = 0 ⇒ h = 2R/√3 = 6 ⇒ r² = 27 − 9 = 18 ⇒ V = π × 18 × 6 = 108π.",
+      "source": "ai",
+      "archetype": "jee-main-M18",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Cylinder in sphere R=3√3: h=6 (half 3), r²=18, V=108π; Main optimisation integer"
+      }
+    },
+    {
+      "id": "jee-main-153",
+      "section": "maths",
+      "topic": "Integral Calculus",
+      "difficulty": "medium",
+      "question": "The value of ∫ from −1 to 2 of (|x| + [x]) dx, where [x] is the greatest integer function, is",
+      "options": [
+        "3/2",
+        "7/2",
+        "1/2",
+        "5/2"
+      ],
+      "answer": 3,
+      "explanation": "∫₋₁²|x|dx = 1/2 + 2 = 5/2. ∫₋₁²[x]dx = (−1)(1) + 0(1) + 1(1) = 0. Total 5/2.",
+      "source": "ai",
+      "archetype": "jee-main-M20",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "∫|x| = 5/2 plus ∫[x] = -1+0+1 = 0 -> 5/2; Main GIF/modulus splitting"
+      }
+    },
+    {
+      "id": "jee-main-154",
+      "section": "maths",
+      "topic": "Area under Curves",
+      "difficulty": "medium",
+      "type": "numerical",
+      "question": "If A is the area of the region bounded by the parabola y = x² and the line y = 6 − x, find 6A. (Answer as an integer.)",
+      "answer": 125,
+      "tolerance": 0,
+      "explanation": "Intersections: x² = 6 − x ⇒ x = −3, 2. A = ∫₋₃²(6 − x − x²)dx = [6x − x²/2 − x³/3] from −3 to 2 = 22/3 + 27/2 = 125/6. So 6A = 125.",
+      "source": "ai",
+      "archetype": "jee-main-M22",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Area between y=x² and y=6-x on [-3,2] = 125/6 -> 125; Main area integer"
+      }
+    },
+    {
+      "id": "jee-main-155",
+      "section": "maths",
+      "topic": "Circles",
+      "difficulty": "hard",
+      "question": "A circle passes through the point (1, 1) and cuts both the circles x² + y² = 4 and x² + y² − 6x − 8y + 10 = 0 orthogonally. Its radius is",
+      "options": [
+        "4",
+        "√21",
+        "5",
+        "√29"
+      ],
+      "answer": 2,
+      "explanation": "Let x² + y² + 2gx + 2fy + c = 0. Orthogonal to x² + y² = 4: 0 = c − 4 ⇒ c = 4. Orthogonal to the second: 2g(−3) + 2f(−4) = c + 10 ⇒ 3g + 4f = −7. Through (1, 1): 2 + 2g + 2f + 4 = 0 ⇒ g + f = −3. So f = 2, g = −5; radius = √(25 + 4 − 4) = 5.",
+      "source": "ai",
+      "archetype": "jee-main-M26",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Orthogonality conditions give c=4, g=-5, f=2, radius 5; Main orthogonal-circle item"
+      }
+    },
+    {
+      "id": "jee-main-156",
       "section": "maths",
       "topic": "Probability",
       "difficulty": "medium",
-      "question": "Bag A has 3 red and 2 black balls; bag B has 2 red and 3 black balls. A bag is chosen at random and a ball drawn from it is red. The probability that it came from bag A is",
-      "options": [
-        "3/5",
-        "2/5",
-        "1/2",
-        "3/10"
-      ],
-      "answer": 0,
-      "explanation": "P(A|R) = (½ × 3/5)/(½ × 3/5 + ½ × 2/5) = 3/5.",
-      "verified": true
+      "type": "numerical",
+      "question": "A fair die is thrown n times. Find the least n for which the probability of getting at least one six exceeds 0.9. (Answer as an integer.)",
+      "answer": 13,
+      "tolerance": 0,
+      "explanation": "1 − (5/6)ⁿ > 0.9 ⇔ (5/6)ⁿ < 0.1 ⇔ n > ln 10/ln 1.2 ≈ 12.6 ⇒ n = 13. ((5/6)¹² ≈ 0.112, (5/6)¹³ ≈ 0.093.)",
+      "source": "ai",
+      "archetype": "jee-main-M35",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "1-(5/6)^n > 0.9 -> n=13; Main binomial probability integer"
+      }
     }
   ]
 }

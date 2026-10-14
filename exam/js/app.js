@@ -1,4 +1,4 @@
-import { buildTest, scoreAttempt, topicMastery, recommendations, sectionMarking } from './engine.js';
+import { servable, qType, isAnswered, buildTest, scoreAttempt, topicMastery, recommendations, sectionMarking } from './engine.js';
 import { PLAN, accessStatus, recordTestStart, grantPass, canRequestSupport, grantSupportPass } from './access.js';
 import * as store from './store.js';
 
@@ -18,6 +18,10 @@ const fmtTime = s => { s = Math.max(0, Math.round(s)); const h = Math.floor(s / 
 const pct = x => Math.round(x * 100) + '%';
 const fmtDate = ms => new Date(ms).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' });
 const LETTERS = 'ABCDEFGH';
+// Figure-based questions carry inline SVG. It is shown through <img>, so even a
+// malformed figure can never run script on the page.
+const passageHtml = (exam, q) => { const p = q.passage && (exam.passages || []).find(x => x.id === q.passage); return p ? `<details class="passage" open><summary>${esc(p.title || 'Passage')}</summary><div>${esc(p.text).replace(/\n/g, '<br>')}${fig(p.figure)}</div></details>` : ''; };
+const fig = svg => (svg ? `<img class="fig" alt="figure" src="data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}">` : '');
 const save = () => store.save(state);
 
 const CATEGORIES = {
@@ -96,7 +100,7 @@ async function viewHome(params) {
           <div class="row"><h3>${esc(e.name)}</h3>${statusBadge(e.notification)}</div>
           <div class="sub">${esc(hi() && e.nameHi ? e.nameHi : e.fullName)}</div>
           <div class="meta">${esc(e.conductingBody)} · ${esc(e.stage || '')}</div>
-          <div class="meta">${e.questionCount} ${t('practice questions', 'अभ्यास प्रश्न')} · ${t('relevance', 'प्रासंगिकता')} ${e.quality.relevance}%${e.hasHindi ? ' · हिंदी' : ''}</div>
+          <div class="meta">${e.questionCount} ${t('practice questions', 'अभ्यास प्रश्न')} · ${t('PYQ match', 'PYQ मिलान')} ${e.quality.pyqRelevance}%${e.hasHindi ? ' · हिंदी' : ''}</div>
         </a>`).join('') || `<p>${t('No exam found.', 'कोई परीक्षा नहीं मिली।')}</p>`}
     </div>`, 'home');
   document.getElementById('search').onsubmit = ev => { ev.preventDefault(); location.hash = `#/?q=${encodeURIComponent(new FormData(ev.target).get('q'))}${c ? '&c=' + c : ''}`; };
@@ -135,6 +139,10 @@ async function viewExam(id) {
   const verified = n ? Math.round(100 * e.questions.filter(q => q.verified).length / n) : 0;
   const keys = new Set(e.trendAnalysis.topics.map(x => `${x.section}|${x.topic}`));
   const relevance = n ? Math.round(100 * e.questions.filter(q => keys.has(`${q.section}|${q.topic}`)).length / n) : 0;
+  const pyq = n ? Math.round(e.questions.reduce((s, q) => s + (q.relevance?.score || 0), 0) / n) : 0;
+  const aiN = e.questions.filter(q => q.source === 'ai').length;
+  const arch = e.pyqBlueprint?.archetypes || [];
+  const emptySecs = secs.filter(s => !e.questions.some(q => q.section === s.id && servable(q)));
 
   shell(`
     <a href="#/" class="back">← ${t('All exams', 'सभी परीक्षाएँ')}</a>
@@ -167,7 +175,8 @@ async function viewExam(id) {
           <button class="btn" type="submit">${t('Start test', 'टेस्ट शुरू करें')}</button>
         </div>
       </form>
-      <p class="quality">✅ ${n} ${t('questions', 'प्रश्न')} · ${verified}% ${t('proof-read & verified', 'प्रूफ़-रीड व सत्यापित')} · ${relevance}% ${t('syllabus relevance', 'सिलेबस प्रासंगिकता')}</p>
+      ${emptySecs.length ? `<p class="muted">⚠️ ${t('Not in mocks yet (no question has passed the 90% PYQ review)', 'अभी मॉक में नहीं (किसी प्रश्न ने 90% PYQ समीक्षा पास नहीं की)')}: ${emptySecs.map(s => esc(s.name)).join(', ')}</p>` : ''}
+      <p class="quality">✅ ${n} ${t('questions', 'प्रश्न')} · ${verified}% ${t('proof-read & verified', 'प्रूफ़-रीड व सत्यापित')} · ${relevance}% ${t('syllabus relevance', 'सिलेबस प्रासंगिकता')} · ${t('PYQ match', 'PYQ मिलान')} ${pyq}% ${t('(every question ≥ 90%)', '(हर प्रश्न ≥ 90%)')}${aiN ? ` · ${aiN} ${t('AI-generated', 'AI-निर्मित')}` : ''}</p>
     </div>
 
     ${atts.length ? `<div class="card"><h2>${t('Your topic mastery', 'आपकी टॉपिक पकड़')}</h2>${masteryBars(mastery.slice(0, 12))}
@@ -191,6 +200,11 @@ async function viewExam(id) {
       ${secs.map(s => `<h3>${esc(s.name)}</h3><div class="bars">${topicsBySec(s).slice().sort((a, b) => b.weightage - a.weightage).map(x => `
         <div class="bar"><span class="lbl">${esc(x.topic)} <i class="trend ${esc(x.trend)}">${x.trend === 'rising' ? '▲' : x.trend === 'falling' ? '▼' : '■'}</i></span><span class="track"><span style="width:${Math.min(100, x.weightage)}%"></span></span><span class="val">${x.weightage}%</span></div>`).join('')}</div>`).join('')}
     </div>
+
+    ${arch.length ? `<div class="card"><h2>${t('Question patterns from previous papers', 'पिछले पेपरों के प्रश्न-पैटर्न')} (${esc((e.pyqBlueprint.yearsCovered || []).join(', '))})</h2>
+      <p class="muted">${t(`Every practice question is modelled on one of these ${arch.length} patterns seen in recent papers and scored ≥ 90% for PYQ match by an independent review.`, `हर अभ्यास प्रश्न हाल के पेपरों के इन ${arch.length} पैटर्न में से किसी एक पर आधारित है और स्वतंत्र समीक्षा में PYQ मिलान ≥ 90% पाया गया है।`)}</p>
+      ${secs.map(s => { const list = arch.filter(a => a.section === s.id); return list.length ? `<details><summary>${esc(s.name)} (${list.length})</summary><ul class="arch">${list.map(a => `<li><b>${esc(a.topic)}</b> — ${esc(a.pattern)} <span class="muted">(${esc((a.years || []).join(', '))}${a.frequency ? ' · ' + esc(a.frequency) : ''})</span></li>`).join('')}</ul></details>` : ''; }).join('')}
+    </div>` : ''}
 
     <div class="card"><h2>${t('Previous papers & official resources', 'पिछले पेपर व आधिकारिक संसाधन')}</h2>
       <p>${e.resources.pyqAvailable ? t('Previous-year papers are officially available.', 'पिछले वर्ष के पेपर आधिकारिक रूप से उपलब्ध हैं।') : t('Official previous-year papers are not published.', 'आधिकारिक पिछले पेपर प्रकाशित नहीं होते।')}</p>
@@ -257,8 +271,9 @@ async function viewTest() {
     const r = resp(q.id); r.visited = true;
     const text = showHi && q.questionHi ? q.questionHi : q.question;
     const opts = showHi && q.optionsHi ? q.optionsHi : q.options;
+    const order = run.optionOrder?.[q.id] || (opts || []).map((_, i) => i);
     const mk = sectionMarking(exam, q.section);
-    const answered = qs.filter(x => run.responses[x.id]?.answer != null).length;
+    const answered = qs.filter(x => isAnswered(x, run.responses[x.id]?.answer)).length;
     $app.innerHTML = `
       <div class="testbar">
         <b>${esc(exam.name)}</b>
@@ -272,8 +287,10 @@ async function viewTest() {
             <span class="muted">+${mk.correct} / ${mk.wrong}</span>
             ${q.questionHi ? `<button class="link" id="qlang">${showHi ? 'English' : 'हिंदी'}</button>` : ''}
           </div>
-          <div class="qtext">${esc(text).replace(/\n/g, '<br>')}</div>
-          <div class="opts">${opts.map((o, i) => `<label class="opt ${r.answer === i ? 'sel' : ''}"><input type="radio" name="o" value="${i}" ${r.answer === i ? 'checked' : ''}><b>${LETTERS[i]}</b><span>${esc(o)}</span></label>`).join('')}</div>
+          ${passageHtml(exam, q)}<div class="qtext">${esc(text).replace(/\n/g, '<br>')}${fig(q.figure)}</div>
+          ${qType(q) === 'numerical'
+            ? `<label class="nat">${t('Your answer (number)', 'आपका उत्तर (संख्या)')} <input id="nat" inputmode="decimal" autocomplete="off" value="${esc(r.answer ?? '')}"></label>`
+            : `${qType(q) === 'msq' ? `<p class="muted">${t('One or more options may be correct.', 'एक या अधिक विकल्प सही हो सकते हैं।')}</p>` : ''}<div class="opts">${order.map((oi, k) => { const on = qType(q) === 'msq' ? (r.answer || []).includes(oi) : r.answer === oi; return `<label class="opt ${on ? 'sel' : ''}"><input type="${qType(q) === 'msq' ? 'checkbox' : 'radio'}" name="o" value="${oi}" ${on ? 'checked' : ''}><b>${q.optionFigures ? k + 1 : LETTERS[k]}</b><span>${q.optionFigures ? '' : esc(opts[oi])}${fig(q.optionFigures?.[oi])}</span></label>`; }).join('')}</div>`}
           <div class="qnav">
             <button class="btn alt" id="prev" ${run.current === 0 ? 'disabled' : ''}>← ${t('Previous', 'पिछला')}</button>
             <button class="btn alt" id="clear">${t('Clear', 'हटाएँ')}</button>
@@ -283,18 +300,27 @@ async function viewTest() {
         </section>
         <aside class="palette">
           <div class="muted">${answered}/${qs.length} ${t('answered', 'उत्तर दिए')}</div>
-          ${exam.pattern.sections.filter(s => qs.some(x => x.section === s.id)).map(s => `<div class="psec">${esc(s.name)}</div><div class="pgrid">${qs.map((x, i) => x.section !== s.id ? '' : (() => { const rr = run.responses[x.id]; const cls = rr?.marked ? 'marked' : rr?.answer != null ? 'done' : rr?.visited ? 'seen' : ''; return `<button class="pq ${cls} ${i === run.current ? 'cur' : ''}" data-i="${i}">${i + 1}</button>`; })()).join('')}</div>`).join('')}
+          ${exam.pattern.sections.filter(s => qs.some(x => x.section === s.id)).map(s => `<div class="psec">${esc(s.name)}</div><div class="pgrid">${qs.map((x, i) => x.section !== s.id ? '' : (() => { const rr = run.responses[x.id]; const cls = rr?.marked ? 'marked' : isAnswered(x, rr?.answer) ? 'done' : rr?.visited ? 'seen' : ''; return `<button class="pq ${cls} ${i === run.current ? 'cur' : ''}" data-i="${i}">${i + 1}</button>`; })()).join('')}</div>`).join('')}
           <div class="legend"><span class="pq done"></span>${t('Answered', 'उत्तरित')} <span class="pq marked"></span>${t('Marked', 'मार्क')} <span class="pq seen"></span>${t('Not answered', 'अनुत्तरित')}</div>
         </aside>
       </div>`;
     const go = i => { tick(); run.current = Math.max(0, Math.min(qs.length - 1, i)); save(); draw(); };
-    $app.querySelectorAll('input[name=o]').forEach(inp => inp.onchange = () => { r.answer = +inp.value; save(); $app.querySelectorAll('.opt').forEach((l, i) => l.classList.toggle('sel', i === r.answer)); });
+    $app.querySelectorAll('input[name=o]').forEach(inp => inp.onchange = () => {
+      if (qType(q) === 'msq') {
+        const set = new Set(r.answer || []); inp.checked ? set.add(+inp.value) : set.delete(+inp.value);
+        r.answer = set.size ? [...set].sort((x, y) => x - y) : null;
+      } else r.answer = +inp.value;
+      save();
+      $app.querySelectorAll('.opt').forEach((l, k) => l.classList.toggle('sel', qType(q) === 'msq' ? (r.answer || []).includes(order[k]) : order[k] === r.answer));
+    });
+    const nat = document.getElementById('nat');
+    if (nat) nat.oninput = () => { const v = nat.value.trim(); r.answer = v !== '' && !isNaN(Number(v)) ? Number(v) : null; save(); };
     document.getElementById('prev').onclick = () => go(run.current - 1);
     document.getElementById('next').onclick = () => go(run.current + 1);
     document.getElementById('clear').onclick = () => { r.answer = null; save(); draw(); };
     document.getElementById('mark').onclick = () => { r.marked = !r.marked; go(r.marked ? run.current + 1 : run.current); };
     document.getElementById('submit').onclick = () => {
-      const left = qs.length - qs.filter(x => run.responses[x.id]?.answer != null).length;
+      const left = qs.length - qs.filter(x => isAnswered(x, run.responses[x.id]?.answer)).length;
       if (confirm(left ? t(`${left} questions unanswered. Submit anyway?`, `${left} प्रश्न अनुत्तरित हैं। फिर भी सबमिट करें?`) : t('Submit the test?', 'टेस्ट सबमिट करें?'))) finish();
     };
     const ql = document.getElementById('qlang'); if (ql) ql.onclick = () => { showHi = !showHi; draw(); };
@@ -310,7 +336,7 @@ async function viewTest() {
   const finish = () => {
     clearInterval(timerHandle); tick();
     const result = scoreAttempt(exam, run, run.responses);
-    const attempt = { id: run.id, examId: run.examId, examName: run.examName, kind: run.kind, scaled: run.scaled, questionIds: run.questionIds, responses: Object.fromEntries(Object.entries(run.responses).map(([k, v]) => [k, { answer: v.answer, timeSec: Math.round(v.timeSec) }])), result, finishedAt: Date.now() };
+    const attempt = { id: run.id, examId: run.examId, examName: run.examName, kind: run.kind, scaled: run.scaled, questionIds: run.questionIds, optionOrder: run.optionOrder, responses: Object.fromEntries(Object.entries(run.responses).map(([k, v]) => [k, { answer: v.answer, timeSec: Math.round(v.timeSec) }])), result, finishedAt: Date.now() };
     state.attempts.push(attempt);
     state.inProgress = null; save();
     location.hash = `#/result/${attempt.id}`;
@@ -338,6 +364,7 @@ async function viewResult(id) {
   const tips = recommendations(exam, r, mastery);
   const secName = sid => exam.pattern.sections.find(s => s.id === sid)?.name || sid;
   const byId = new Map(exam.questions.map(q => [q.id, q]));
+  const archById = new Map((exam.pyqBlueprint?.archetypes || []).map(a => [a.id, a]));
   const prev = all.filter(x => x.finishedAt < a.finishedAt && x.kind === a.kind).at(-1);
   const delta = prev ? Math.round((r.score / (r.maxScore || 1) - prev.result.score / (prev.result.maxScore || 1)) * 100) : null;
   const weakTopics = r.topics.map(x => ({ ...x, acc: x.total ? x.correct / x.total : 0 })).sort((p, q) => p.acc - q.acc);
@@ -377,9 +404,11 @@ async function viewResult(id) {
       <div class="filter"><label><input type="checkbox" id="onlyWrong"> ${t('Show only wrong / skipped', 'केवल ग़लत / छोड़े हुए दिखाएँ')}</label></div>
       <ol class="review">${r.items.map(it => { const q = byId.get(it.id); if (!q) return ''; return `
         <li class="${it.correct ? 'right' : it.answer == null ? 'skip' : 'wrong'}">
-          <div class="qtext">${esc(q.question).replace(/\n/g, '<br>')}</div>
-          <ul>${q.options.map((o, i) => `<li class="${i === q.answer ? 'ans' : ''} ${i === it.answer && !it.correct ? 'mine' : ''}"><b>${LETTERS[i]}</b> ${esc(o)}</li>`).join('')}</ul>
-          <div class="expl"><b>${it.correct ? '✔ ' + t('Correct', 'सही') : it.answer == null ? '— ' + t('Not attempted', 'प्रयास नहीं') : '✘ ' + t('Wrong', 'ग़लत')}</b> · ${esc(q.topic)} · ${q.difficulty} · ${Math.round(it.timeSec)}s<br>${esc(q.explanation)}</div>
+          ${passageHtml(exam, q)}<div class="qtext">${esc(q.question).replace(/\n/g, '<br>')}${fig(q.figure)}</div>
+          ${qType(q) === 'numerical'
+            ? `<ul><li class="ans">${t('Answer', 'उत्तर')}: ${esc(q.answer)}${q.tolerance ? ` (± ${esc(q.tolerance)})` : ''}</li>${it.answer != null && !it.correct ? `<li class="mine">${t('Your answer', 'आपका उत्तर')}: ${esc(it.answer)}</li>` : ''}</ul>`
+            : `<ul>${(a.optionOrder?.[q.id] || q.options.map((_, i) => i)).map((i, k) => { const key = qType(q) === 'msq' ? q.answer.includes(i) : i === q.answer; const mine = qType(q) === 'msq' ? (it.answer || []).includes(i) : i === it.answer; return `<li class="${key ? 'ans' : ''} ${mine && !key ? 'mine' : ''}"><b>${q.optionFigures ? k + 1 : LETTERS[k]}</b> ${q.optionFigures ? '' : esc(q.options[i])}${fig(q.optionFigures?.[i])}${mine ? ' ←' : ''}</li>`; }).join('')}</ul>`}
+          <div class="expl"><b>${it.correct ? '✔ ' + t('Correct', 'सही') : it.answer == null ? '— ' + t('Not attempted', 'प्रयास नहीं') : '✘ ' + t('Wrong', 'ग़लत')}</b> · ${esc(q.topic)} · ${q.difficulty} · ${Math.round(it.timeSec)}s${q.relevance ? ` · <span class="pyq" title="${esc(q.relevance.note || '')}">${t('PYQ match', 'PYQ मिलान')} ${q.relevance.score}%</span>` : ''}${q.source === 'ai' ? ` · <span class="aitag">AI</span>` : ''}<br>${esc(q.explanation)}${archById.get(q.archetype) ? `<br><i>${t('PYQ pattern', 'PYQ पैटर्न')}: ${esc(archById.get(q.archetype).pattern)} (${esc(archById.get(q.archetype).years.join(', '))})</i>` : ''}</div>
         </li>`; }).join('')}</ol>
     </div>`);
 

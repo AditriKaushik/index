@@ -462,6 +462,1185 @@
       }
     ]
   },
+  "pyqBlueprint": {
+    "yearsCovered": [
+      2023,
+      2024,
+      2025
+    ],
+    "method": "Compiled from the commission's published question-paper/response-sheet format and from shift-wise memory-based papers and topic-wise analyses published by coaching sites (Testbook, Adda247, PW, Careers360 day-wise analyses) for the 2023–2025 cycles, cross-checked against the writer's own knowledge of SSC papers. Live web fetches during this round returned only summary pages (SSC barred public discussion of 2025 papers), so question-type detail relies mainly on prior knowledge of the papers; frequencies are approximate per-shift counts. Figure-based (non-verbal) archetypes are recorded but only text-renderable variants are used for generated questions.",
+    "archetypes": [
+      {
+        "id": "ssc-chsl-R01",
+        "section": "reasoning",
+        "topic": "Analogy",
+        "pattern": "Word-pair analogy (A : B :: C : ?) built on a semantic relation – worker : tool, product : raw material, organ : function, instrument : quantity measured, young one : animal; distractors are words of the same category that do not share the relation.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-chsl-R02",
+        "section": "reasoning",
+        "topic": "Analogy",
+        "pattern": "Number-pair/triad analogy where the second term comes from an arithmetic rule on the first (n² ± k, n³ ± k, ×k ± c, digit operations); often framed with two example pairs and a note to operate on whole numbers without splitting digits; distractors satisfy the rule for only one pair or come from ±1 slips.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-R03",
+        "section": "reasoning",
+        "topic": "Analogy",
+        "pattern": "Letter-cluster analogy (ABCD : EFGH :: ? ) where each letter moves by a fixed or alternating +/− shift or is replaced by its opposite letter (A↔Z); distractors differ in exactly one letter.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-R04",
+        "section": "reasoning",
+        "topic": "Classification",
+        "pattern": "Odd-one-out among four words/objects by category or property (three belong to one class, e.g. instruments, organs, rivers of one state); the trap is a surface feature shared by the odd item.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-chsl-R05",
+        "section": "reasoning",
+        "topic": "Classification",
+        "pattern": "Odd number / number-pair / triad out of four where three follow one arithmetic rule (squares, primes, (a, b, c) with c = a×b − k, divisibility); the odd option breaks the rule by a small margin.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-R06",
+        "section": "reasoning",
+        "topic": "Classification",
+        "pattern": "Odd letter-cluster out of four where three clusters have the same positional gaps (e.g. +2, +3 or opposite-letter pairs) and one breaks the gap pattern.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-R07",
+        "section": "reasoning",
+        "topic": "Number & Letter Series",
+        "pattern": "Number series with one missing/next term following a two-step rule (×k + c, alternating operations, differences forming squares/primes or their own series).",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-R08",
+        "section": "reasoning",
+        "topic": "Number & Letter Series",
+        "pattern": "Letter or alphanumeric cluster series (e.g. three-letter groups with each position advancing by its own increment, possibly mixed with numbers); find the next cluster; distractors shift one position wrongly.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-R09",
+        "section": "reasoning",
+        "topic": "Coding-Decoding",
+        "pattern": "Word → letter code by a positional rule (each letter shifted by +k/−k, alternate shifts, reversal then shift, or opposite letters); decode the rule from one example and encode a new word.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-R10",
+        "section": "reasoning",
+        "topic": "Coding-Decoding",
+        "pattern": "Word → number code from alphabet positions (sum of positions, sum × k, sum of reverse positions, number of letters × k); apply the rule to a new word; distractors use forward instead of reverse positions.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-R11",
+        "section": "reasoning",
+        "topic": "Coding-Decoding",
+        "pattern": "Sentence coding: two or three short sentences coded as groups of code words; identify the code of a given word by finding the common word/code between statements.",
+        "years": [
+          2023,
+          2024
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-chsl-R12",
+        "section": "reasoning",
+        "topic": "Blood Relations",
+        "pattern": "Verbal chain / introduction ('pointing to a photo…') blood relation: trace 3–4 links and name the relation; traps are gender assumptions and the paternal/maternal side.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-R13",
+        "section": "reasoning",
+        "topic": "Blood Relations",
+        "pattern": "Coded blood relations: symbols (A + B, A × B, A − B …) stand for relations; decode an expression to find how two people are related, or which expression makes a given relation true.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-R14",
+        "section": "reasoning",
+        "topic": "Direction Sense",
+        "pattern": "Walking path of 3–5 legs with left/right turns; find the shortest distance and/or direction from the start (often a Pythagorean triple); or the final facing direction after a sequence of left/right/clockwise turns; traps are direction after a 'right turn' and adding instead of subtracting legs.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-chsl-R15",
+        "section": "reasoning",
+        "topic": "Syllogism",
+        "pattern": "Two/three statements ('All/Some/No') with two conclusions; decide which follow, including 'Some … are not' and possibility-type conclusions; trap is reversing 'All A are B'.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-R16",
+        "section": "reasoning",
+        "topic": "Mathematical Operations",
+        "pattern": "Symbol substitution: '+' means '×', '−' means '÷' etc.; rewrite and evaluate an expression with BODMAS; distractors come from left-to-right evaluation.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-R17",
+        "section": "reasoning",
+        "topic": "Mathematical Operations",
+        "pattern": "Which two signs (or two numbers) must be interchanged to make a given equation correct; each option names a pair of signs to swap.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-R18",
+        "section": "reasoning",
+        "topic": "Missing Number",
+        "pattern": "Missing term inside a number sequence (often the middle term) built from a mixed rule such as ×1 + 1, ×2 + 2, ×3 + 3 … or alternating × and +; find the term that replaces '?'.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ssc-chsl-R19",
+        "section": "reasoning",
+        "topic": "Missing Number",
+        "pattern": "Defined-operation missing number: from two or three solved examples (a ★ b = …) infer the rule (a² + b², (a + b)², a×b + a …) and apply it; distractors fit just one example.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-R20",
+        "section": "reasoning",
+        "topic": "Missing Number",
+        "pattern": "Number grid / figure (given as rows): each row or column follows the same rule (e.g. third = first × second − k, or sum of squares); find the missing number.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ssc-chsl-R21",
+        "section": "reasoning",
+        "topic": "Order & Ranking",
+        "pattern": "Position from both ends: total in a row/class from two ranks, rank from the other end, persons between two people, or a short comparison chain (taller/older) to find who is at a rank; trap is ±1 counting.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-chsl-R22",
+        "section": "reasoning",
+        "topic": "Calendar & Clock",
+        "pattern": "Calendar: day of the week for a date given a reference date (odd-days counting across leap years) or after n days.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-R23",
+        "section": "reasoning",
+        "topic": "Calendar & Clock",
+        "pattern": "Clock angle between the hands at a given time (30H − 5.5M) or time when hands coincide/are opposite.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-R24",
+        "section": "reasoning",
+        "topic": "Venn Diagram",
+        "pattern": "Overlapping groups described as counts in each region of a three-circle Venn diagram; find how many belong to an exact combination (e.g. both A and B but not C).",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-chsl-R25",
+        "section": "reasoning",
+        "topic": "Venn Diagram",
+        "pattern": "Choose the description of the Venn diagram that best represents three classes (one inside another, partial overlap, disjoint).",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-chsl-R26",
+        "section": "reasoning",
+        "topic": "Mirror & Water Image",
+        "pattern": "Mirror image of a clock time or of an alphanumeric/number string (vertical mirror on the right); time question solved by 11:60 − time.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-chsl-R27",
+        "section": "reasoning",
+        "topic": "Paper Folding & Cutting",
+        "pattern": "A square sheet is folded once or twice and punched/cut; predict how it looks (number/position of holes) when unfolded.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-R28",
+        "section": "reasoning",
+        "topic": "Embedded & Counting Figures",
+        "pattern": "Count triangles/squares in a figure built from a square or triangle with diagonals and mid-lines.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-R29",
+        "section": "reasoning",
+        "topic": "Pattern Completion",
+        "pattern": "Figure series / pattern completion: a shape rotates by a fixed angle or gains one element each step; choose the next figure.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-chsl-G01",
+        "section": "gk",
+        "topic": "History",
+        "pattern": "Ancient and medieval India: dynasty founders, capitals, rulers' titles, Buddhist/Jain councils, Delhi Sultanate/Mughal/Vijayanagara rulers, battles with years and administrative reforms; distractors are rulers of the same or adjacent dynasty.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-G02",
+        "section": "gk",
+        "topic": "History",
+        "pattern": "Modern India and freedom struggle: founders of organisations/newspapers, INC sessions and presidents, movements with years, Governors-General and their acts.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-G03",
+        "section": "gk",
+        "topic": "Polity",
+        "pattern": "Article-number question: which Article deals with a given provision (FR, DPSP, office, emergency, finance); distractors are nearby Article numbers.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-G04",
+        "section": "gk",
+        "topic": "Polity",
+        "pattern": "Constitution-making, Preamble, amendments, schedules and parts with their subject matter (e.g. which Schedule/amendment added X); distractors are adjacent schedules/amendments.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-G05",
+        "section": "gk",
+        "topic": "Polity",
+        "pattern": "Constitutional/statutory offices: appointment, qualification (age), tenure, removal, oath, and borrowed features of the Constitution.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-G06",
+        "section": "gk",
+        "topic": "Geography",
+        "pattern": "Indian physical geography: rivers (origin, tributaries, states), lakes, passes, hills, national parks and their states.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-G07",
+        "section": "gk",
+        "topic": "Geography",
+        "pattern": "Soils, crops, minerals, climate and resources of India (which soil/crop/mineral/region; seasons and winds).",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-G08",
+        "section": "gk",
+        "topic": "Geography",
+        "pattern": "World/physical geography: atmosphere layers, ocean currents, straits, planets, latitudes and landforms.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-G09",
+        "section": "gk",
+        "topic": "Economy",
+        "pattern": "Banking and monetary policy: RBI instruments (repo, CRR, SLR), functions, institutions and their headquarters.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-G10",
+        "section": "gk",
+        "topic": "Economy",
+        "pattern": "Economic concepts and planning: GDP/GNP, deficits, inflation measures, Five-Year Plans, taxes, government schemes and their launch.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-G11",
+        "section": "gk",
+        "topic": "Physics",
+        "pattern": "Physics: SI units and instruments, and everyday phenomena (mirrors/lenses, dispersion, sound speed, heat, electricity).",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-chsl-G12",
+        "section": "gk",
+        "topic": "Chemistry",
+        "pattern": "Chemistry: common names/formulae of compounds, ores and alloys, acids in foods, pH, gases and periodic-table facts.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-chsl-G13",
+        "section": "gk",
+        "topic": "Biology",
+        "pattern": "Human biology: vitamins/minerals and deficiency diseases, organs and glands, blood, diseases and their causative agents.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-chsl-G14",
+        "section": "gk",
+        "topic": "Biology",
+        "pattern": "Plant biology and classification: tissues, photosynthesis, plant hormones, cell organelles, scientists behind classification.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-G15",
+        "section": "gk",
+        "topic": "Art & Culture",
+        "pattern": "Performing arts and festivals: classical/folk dances, festivals and fairs with their states, instruments and their maestros.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-G16",
+        "section": "gk",
+        "topic": "Art & Culture",
+        "pattern": "Temples, monuments and architectural styles with their builders/dynasties and locations.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ssc-chsl-G17",
+        "section": "gk",
+        "topic": "Current Affairs",
+        "pattern": "Recent national/international events of the last 1–2 years: summits and hosts, missions, schemes and major appointments.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–3 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-G18",
+        "section": "gk",
+        "topic": "Sports",
+        "pattern": "Sports: number of players, terms and trophies of a sport, venues, and recent Olympic/Asian Games/World Cup results involving India.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-chsl-G19",
+        "section": "gk",
+        "topic": "Books, Authors & Awards",
+        "pattern": "Book–author matching (classical and contemporary, including autobiographies) and literary/national award facts.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-Q01",
+        "section": "quant",
+        "topic": "Number System",
+        "pattern": "Unit digit of a power/product or remainder of a large power on division (cyclicity); distractors are adjacent cycle values.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-Q02",
+        "section": "quant",
+        "topic": "Number System",
+        "pattern": "Divisibility and number properties: smallest digit/number to add or subtract for divisibility by 9, 11, 8, which number is divisible, count of factors, primes, or sum of numbers in a range.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-Q03",
+        "section": "quant",
+        "topic": "Simplification",
+        "pattern": "BODMAS simplification with fractions/decimals/brackets or 'value of ?' equations; distractors come from wrong operation order.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-chsl-Q04",
+        "section": "quant",
+        "topic": "Percentage",
+        "pattern": "Basic/successive percentage: x% of a number, net effect of successive increases/decreases, or price rise vs consumption cut.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-chsl-Q05",
+        "section": "quant",
+        "topic": "Percentage",
+        "pattern": "Percentage word problems: election votes, pass-fail marks, salary spent/saved; find the total or the difference.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-Q06",
+        "section": "quant",
+        "topic": "Profit & Loss",
+        "pattern": "Marked price above cost with a discount (or successive discounts) – find profit % or marked price.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-Q07",
+        "section": "quant",
+        "topic": "Profit & Loss",
+        "pattern": "Cost/selling price relation: profit % from CP and SP, CP from SP and gain %, CP of x items = SP of y items, two articles sold at the same price, or false-weight dealers.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-Q08",
+        "section": "quant",
+        "topic": "Simple & Compound Interest",
+        "pattern": "Simple interest: find rate/time/principal from amounts, or the time to become n times.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-chsl-Q09",
+        "section": "quant",
+        "topic": "Simple & Compound Interest",
+        "pattern": "Compound interest for 2–3 years, CI − SI difference, or half-yearly compounding.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-Q10",
+        "section": "quant",
+        "topic": "Ratio & Proportion",
+        "pattern": "Divide an amount in a given (sometimes fractional) ratio, or find shares/partnership profit.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-chsl-Q11",
+        "section": "quant",
+        "topic": "Ratio & Proportion",
+        "pattern": "Ratio change: number added/subtracted to change a ratio, combined ratio A : B : C, or mean/third proportional.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-Q12",
+        "section": "quant",
+        "topic": "Average",
+        "pattern": "Average: simple or consecutive-number averages, inclusion/exclusion/replacement of a member (teacher's age, wrong entry corrected), or overlap of first-k and last-k averages.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-Q13",
+        "section": "quant",
+        "topic": "Time & Work",
+        "pattern": "Two/three workers with individual days; together, one leaves after some days, or efficiency ratio problems.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-Q14",
+        "section": "quant",
+        "topic": "Time & Work",
+        "pattern": "Pipes and cisterns (filling and emptying pipes together) or men-days (M₁D₁ = M₂D₂) proportionality.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-Q15",
+        "section": "quant",
+        "topic": "Time, Speed & Distance",
+        "pattern": "Trains crossing a pole/platform/another train (same or opposite direction) with km/h ↔ m/s conversion.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-Q16",
+        "section": "quant",
+        "topic": "Time, Speed & Distance",
+        "pattern": "Average speed for to-and-fro journeys, relative speed/chase problems, or boats and streams.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-Q17",
+        "section": "quant",
+        "topic": "Algebra",
+        "pattern": "Reciprocal identities: given x ± 1/x = k, find x² + 1/x², x³ ± 1/x³ or x⁴ + 1/x⁴; distractors from sign slips.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ssc-chsl-Q18",
+        "section": "quant",
+        "topic": "Algebra",
+        "pattern": "Symmetric identities in a, b, c: (a + b + c)², a³ + b³ + c³ − 3abc, or a + b + c = 0 shortcuts; also surds like (√a ± √b).",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ssc-chsl-Q19",
+        "section": "quant",
+        "topic": "Geometry",
+        "pattern": "Triangle properties: angle at incentre/orthocentre, angle-bisector/median length, similarity ratios, Pythagorean right-triangle facts.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ssc-chsl-Q20",
+        "section": "quant",
+        "topic": "Geometry",
+        "pattern": "Circle theorems: chords intersecting, tangent length, angle in a semicircle, cyclic quadrilateral opposite angles.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ssc-chsl-Q21",
+        "section": "quant",
+        "topic": "Geometry",
+        "pattern": "Polygons and lines: interior/exterior angles, number of sides or diagonals, angles of a triangle with given ratios.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-Q22",
+        "section": "quant",
+        "topic": "Mensuration",
+        "pattern": "2-D mensuration: area/perimeter of rectangles, triangles (Heron's), circles and sectors, change in area with change in dimensions.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-Q23",
+        "section": "quant",
+        "topic": "Mensuration",
+        "pattern": "3-D mensuration: volume/surface area of cube, cuboid, cylinder, cone, sphere/hemisphere; melting and recasting.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-Q24",
+        "section": "quant",
+        "topic": "Trigonometry",
+        "pattern": "Standard-angle values and identity simplification (sin²θ + cos²θ, complementary angles like tan 10° tan 80°).",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-Q25",
+        "section": "quant",
+        "topic": "Trigonometry",
+        "pattern": "Conditional trigonometry: given sec θ + tan θ, tan θ = a/b or similar, find another ratio/expression.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ssc-chsl-Q26",
+        "section": "quant",
+        "topic": "Data Interpretation",
+        "pattern": "Small table/bar data (given in text) for 4–6 years or items: ratio, percentage increase, average or difference between categories.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 set per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-E01",
+        "section": "english",
+        "topic": "Reading Comprehension",
+        "pattern": "Factual RC question on a 150–250-word passage: answer is stated in the passage; distractors use passage words with altered meaning.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-chsl-E02",
+        "section": "english",
+        "topic": "Reading Comprehension",
+        "pattern": "Inference/main-idea/title RC question: choose the central theme or what the author implies.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-E03",
+        "section": "english",
+        "topic": "Reading Comprehension",
+        "pattern": "Vocabulary/tone in context: synonym/antonym of a word used in the passage or the author's tone.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-E04",
+        "section": "english",
+        "topic": "Cloze Test",
+        "pattern": "Cloze passage with five numbered blanks; each item tests contextual vocabulary, a connector or a preposition; distractors are near-synonyms that fail the collocation.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "5 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-E05",
+        "section": "english",
+        "topic": "Fill in the Blanks",
+        "pattern": "Single-sentence blank requiring the contextually correct word (collocation, near-synonym choice).",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-E06",
+        "section": "english",
+        "topic": "Fill in the Blanks",
+        "pattern": "Single-sentence blank testing grammar – prepositions, articles, tense, conjunctions.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-chsl-E07",
+        "section": "english",
+        "topic": "Synonyms",
+        "pattern": "Synonym of a standalone or underlined word (moderate CGL-level vocabulary); distractors include antonyms and look-alike words.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-E08",
+        "section": "english",
+        "topic": "Antonyms",
+        "pattern": "Antonym of a standalone or underlined word; the trap option is a synonym of the given word.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-E09",
+        "section": "english",
+        "topic": "Idioms & Phrases",
+        "pattern": "Meaning of a common idiom/phrase (or the idiom that fits a sentence); distractors are literal readings.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-E10",
+        "section": "english",
+        "topic": "One-word Substitution",
+        "pattern": "One-word substitute for a descriptive phrase (persons, -cide, -phobia, -archy words); distractors are related words of the same family.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-E11",
+        "section": "english",
+        "topic": "Spelling Correction",
+        "pattern": "Select the correctly (or incorrectly) spelt word among four look-alike spellings (double letters, ie/ei, -ance/-ence).",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ssc-chsl-E12",
+        "section": "english",
+        "topic": "Error Spotting",
+        "pattern": "Sentence split into 3–4 segments; error in subject–verb agreement, pronoun or noun number (each/one of/neither…nor, uncountable nouns).",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-E13",
+        "section": "english",
+        "topic": "Error Spotting",
+        "pattern": "Sentence split into segments; error in tense sequence, preposition, comparative/superlative, or conjunction pairs (hardly…when, no sooner…than).",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ssc-chsl-E14",
+        "section": "english",
+        "topic": "Sentence Improvement",
+        "pattern": "Improve the bracketed/underlined part: tense, conditional, preposition or idiom usage; 'No improvement' sometimes an option.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-E15",
+        "section": "english",
+        "topic": "Active & Passive Voice",
+        "pattern": "Change active to passive (or vice versa) across tenses, including questions and modals; distractors change the tense.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ssc-chsl-E16",
+        "section": "english",
+        "topic": "Direct & Indirect Speech",
+        "pattern": "Direct ↔ indirect speech: reporting verb change, backshift of tense, pronoun and time-word changes; imperatives with 'ordered/requested'.",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per shift",
+        "difficulty": "medium"
+      }
+    ]
+  },
   "resources": {
     "pyqAvailable": true,
     "officialPYQ": "https://ssc.gov.in",
@@ -469,22 +1648,6 @@
     "notes": "SSC publishes tentative answer keys with candidates' question papers and response sheets on ssc.gov.in (Answer Key section) for a short window after each Tier; it does not keep a permanent PYQ archive. Memory-based shift papers are compiled by coaching websites."
   },
   "questions": [
-    {
-      "id": "ssc-chsl-001",
-      "section": "reasoning",
-      "topic": "Analogy",
-      "difficulty": "easy",
-      "question": "Select the option that is related to the third word in the same way as the second word is related to the first word.\nDoctor : Hospital :: Teacher : ?",
-      "options": [
-        "Office",
-        "Court",
-        "Factory",
-        "School"
-      ],
-      "answer": 3,
-      "explanation": "A doctor works in a hospital; a teacher works in a school.",
-      "verified": true
-    },
     {
       "id": "ssc-chsl-002",
       "section": "reasoning",
@@ -499,39 +1662,14 @@
       ],
       "answer": 2,
       "explanation": "63 = 8² − 1. So 11² − 1 = 120.",
-      "verified": true
-    },
-    {
-      "id": "ssc-chsl-003",
-      "section": "reasoning",
-      "topic": "Classification",
-      "difficulty": "easy",
-      "question": "Select the odd one out.",
-      "options": [
-        "Mercury",
-        "Venus",
-        "Moon",
-        "Mars"
-      ],
-      "answer": 2,
-      "explanation": "Mercury, Venus and Mars are planets; the Moon is a natural satellite.",
-      "verified": true
-    },
-    {
-      "id": "ssc-chsl-004",
-      "section": "reasoning",
-      "topic": "Classification",
-      "difficulty": "medium",
-      "question": "Select the number that does not belong to the group.",
-      "options": [
-        "33",
-        "17",
-        "23",
-        "29"
-      ],
-      "answer": 0,
-      "explanation": "17, 23 and 29 are prime numbers; 33 = 3 × 11 is composite.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-chsl-R02",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "n²−1 number analogy with ±1 distractors; CHSL type though lacks the usual two-pair/NOTE framing"
+      }
     },
     {
       "id": "ssc-chsl-005",
@@ -547,7 +1685,14 @@
       ],
       "answer": 3,
       "explanation": "The terms are squares of consecutive prime numbers: 2², 3², 5², 7², 11², so next is 13² = 169.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-chsl-R07",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Squares of consecutive primes series; recurring CHSL series trick"
+      }
     },
     {
       "id": "ssc-chsl-006",
@@ -563,7 +1708,14 @@
       ],
       "answer": 3,
       "explanation": "Positions 2, 5, 9, 14 (differences +3, +4, +5). Next +6 → 20 = T.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-chsl-R08",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Single-letter series with +3,+4,+5 gaps; CHSL letter-series style"
+      }
     },
     {
       "id": "ssc-chsl-007",
@@ -579,23 +1731,14 @@
       ],
       "answer": 0,
       "explanation": "From the two words: R = 6, O = 8, S = 2, E = 1, C = 7, H = 3, A = 4, I = 5. SEARCH = S E A R C H = 2 1 4 6 7 3.",
-      "verified": true
-    },
-    {
-      "id": "ssc-chsl-008",
-      "section": "reasoning",
-      "topic": "Coding-Decoding",
-      "difficulty": "easy",
-      "question": "If CAT = 24 in a certain code, then what is DOG equal to in the same code?",
-      "options": [
-        "25",
-        "27",
-        "26",
-        "28"
-      ],
-      "answer": 2,
-      "explanation": "Sum of alphabetical positions: C(3) + A(1) + T(20) = 24. D(4) + O(15) + G(7) = 26.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-chsl-R10",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Letter-to-digit substitution from two code words; classic CHSL coding"
+      }
     },
     {
       "id": "ssc-chsl-009",
@@ -611,23 +1754,14 @@
       ],
       "answer": 1,
       "explanation": "Arun is a man and the only son of his father is Arun himself. So the woman is Arun's wife.",
-      "verified": true
-    },
-    {
-      "id": "ssc-chsl-010",
-      "section": "reasoning",
-      "topic": "Direction Sense",
-      "difficulty": "easy",
-      "question": "Neha is facing North. She turns 90° clockwise and then 180° anticlockwise. Which direction is she facing now?",
-      "options": [
-        "East",
-        "South",
-        "North",
-        "West"
-      ],
-      "answer": 3,
-      "explanation": "North → 90° clockwise → East → 180° anticlockwise → West.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-chsl-R12",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "'Only son of my father' self-reference trap; frequent CHSL blood relation"
+      }
     },
     {
       "id": "ssc-chsl-011",
@@ -643,7 +1777,14 @@
       ],
       "answer": 0,
       "explanation": "18 ÷ 3 × 4 + 6 − 5 = 6 × 4 + 6 − 5 = 24 + 1 = 25.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-chsl-R16",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Letter-for-sign substitution BODMAS; CHSL format"
+      }
     },
     {
       "id": "ssc-chsl-012",
@@ -659,23 +1800,14 @@
       ],
       "answer": 2,
       "explanation": "Pattern: ×1 + 1, ×2 + 2, ×3 + 3, ×4 + 4: 2→3→8→27→112. Next: 112 × 5 + 5 = 565.",
-      "verified": true
-    },
-    {
-      "id": "ssc-chsl-013",
-      "section": "reasoning",
-      "topic": "Order & Ranking",
-      "difficulty": "medium",
-      "question": "Ramesh is 12th from the top and 25th from the bottom in his class. How many students are there in the class?",
-      "options": [
-        "37",
-        "36",
-        "35",
-        "38"
-      ],
-      "answer": 1,
-      "explanation": "Total = 12 + 25 − 1 = 36.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-chsl-R18",
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "×n+n series 2,3,8,27,112; exact CHSL missing-term type"
+      }
     },
     {
       "id": "ssc-chsl-014",
@@ -691,7 +1823,14 @@
       ],
       "answer": 1,
       "explanation": "All roses lie inside 'flowers', which has no overlap with 'trees', so no rose is a tree (I follows) and II is false.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-chsl-R15",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "All-A-B / No-B-C syllogism with conversion trap; CHSL style"
+      }
     },
     {
       "id": "ssc-chsl-015",
@@ -707,7 +1846,14 @@
       ],
       "answer": 2,
       "explanation": "Angle = |30H − 5.5M| = |120 − 220| = 100°.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-chsl-R23",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "30H−5.5M clock angle at 4:40; standard CHSL clock item"
+      }
     },
     {
       "id": "ssc-chsl-016",
@@ -723,23 +1869,14 @@
       ],
       "answer": 0,
       "explanation": "Lord Mountbatten was the first Governor-General of independent India (1947–48); C. Rajagopalachari was the first and only Indian Governor-General.",
-      "verified": true
-    },
-    {
-      "id": "ssc-chsl-017",
-      "section": "gk",
-      "topic": "History",
-      "difficulty": "medium",
-      "question": "In which year did the Jallianwala Bagh massacre take place?",
-      "options": [
-        "1920",
-        "1916",
-        "1922",
-        "1919"
-      ],
-      "answer": 3,
-      "explanation": "It took place on 13 April 1919 in Amritsar, when troops under General Dyer fired on an unarmed gathering.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-chsl-G02",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "First Governor-General with Rajagopalachari trap; CHSL modern history"
+      }
     },
     {
       "id": "ssc-chsl-018",
@@ -755,39 +1892,14 @@
       ],
       "answer": 2,
       "explanation": "Bal Gangadhar Tilak wrote 'Gita Rahasya' during his imprisonment in Mandalay (1908–1914).",
-      "verified": true
-    },
-    {
-      "id": "ssc-chsl-019",
-      "section": "gk",
-      "topic": "Polity",
-      "difficulty": "easy",
-      "question": "How many Fundamental Duties are currently listed under Article 51A of the Constitution of India?",
-      "options": [
-        "10",
-        "11",
-        "12",
-        "9"
-      ],
-      "answer": 1,
-      "explanation": "The 42nd Amendment (1976) added 10 duties; the 86th Amendment (2002) added the 11th (education of children aged 6–14).",
-      "verified": true
-    },
-    {
-      "id": "ssc-chsl-020",
-      "section": "gk",
-      "topic": "Polity",
-      "difficulty": "medium",
-      "question": "Which Article of the Constitution of India provides the Right to Constitutional Remedies?",
-      "options": [
-        "Article 32",
-        "Article 21",
-        "Article 19",
-        "Article 14"
-      ],
-      "answer": 0,
-      "explanation": "Article 32 lets citizens move the Supreme Court for enforcement of Fundamental Rights; Dr B. R. Ambedkar called it the 'heart and soul' of the Constitution.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-chsl-G02",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Gita Rahasya–Tilak at Mandalay; typical CHSL book-author history"
+      }
     },
     {
       "id": "ssc-chsl-021",
@@ -803,23 +1915,14 @@
       ],
       "answer": 3,
       "explanation": "Article 84 sets the minimum age at 30 years for the Rajya Sabha and 25 years for the Lok Sabha.",
-      "verified": true
-    },
-    {
-      "id": "ssc-chsl-022",
-      "section": "gk",
-      "topic": "Geography",
-      "difficulty": "easy",
-      "question": "Which is the longest river flowing within India?",
-      "options": [
-        "Godavari",
-        "Yamuna",
-        "Narmada",
-        "Ganga"
-      ],
-      "answer": 3,
-      "explanation": "The Ganga (about 2,525 km) is the longest river in India; the Godavari is the longest of peninsular India.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-chsl-G05",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Rajya Sabha minimum age with 25/35 traps; CHSL office qualification"
+      }
     },
     {
       "id": "ssc-chsl-023",
@@ -835,103 +1938,14 @@
       ],
       "answer": 2,
       "explanation": "The Tropic of Cancer passes through Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram – not Odisha.",
-      "verified": true
-    },
-    {
-      "id": "ssc-chsl-024",
-      "section": "gk",
-      "topic": "Geography",
-      "difficulty": "medium",
-      "question": "Which type of soil is most suitable for growing cotton?",
-      "options": [
-        "Black soil",
-        "Alluvial soil",
-        "Laterite soil",
-        "Desert soil"
-      ],
-      "answer": 0,
-      "explanation": "Black (regur) soil retains moisture well and is ideal for cotton, hence also called black cotton soil.",
-      "verified": true
-    },
-    {
-      "id": "ssc-chsl-025",
-      "section": "gk",
-      "topic": "Economy",
-      "difficulty": "medium",
-      "question": "NITI Aayog replaced which body in January 2015?",
-      "options": [
-        "Finance Commission",
-        "Planning Commission",
-        "National Development Council",
-        "Inter-State Council"
-      ],
-      "answer": 1,
-      "explanation": "NITI Aayog was set up on 1 January 2015, replacing the Planning Commission (established 1950).",
-      "verified": true
-    },
-    {
-      "id": "ssc-chsl-026",
-      "section": "gk",
-      "topic": "Physics",
-      "difficulty": "easy",
-      "question": "Which instrument is used to measure atmospheric pressure?",
-      "options": [
-        "Hygrometer",
-        "Thermometer",
-        "Barometer",
-        "Anemometer"
-      ],
-      "answer": 2,
-      "explanation": "A barometer measures atmospheric pressure; a hygrometer measures humidity and an anemometer wind speed.",
-      "verified": true
-    },
-    {
-      "id": "ssc-chsl-027",
-      "section": "gk",
-      "topic": "Chemistry",
-      "difficulty": "easy",
-      "question": "Which gas is the most abundant in the Earth's atmosphere?",
-      "options": [
-        "Oxygen",
-        "Nitrogen",
-        "Argon",
-        "Carbon dioxide"
-      ],
-      "answer": 1,
-      "explanation": "Nitrogen makes up about 78% of dry air by volume; oxygen about 21%.",
-      "verified": true
-    },
-    {
-      "id": "ssc-chsl-028",
-      "section": "gk",
-      "topic": "Biology",
-      "difficulty": "medium",
-      "question": "People with which blood group are known as universal donors?",
-      "options": [
-        "AB positive",
-        "A positive",
-        "B negative",
-        "O negative"
-      ],
-      "answer": 3,
-      "explanation": "O negative red cells carry no A, B or Rh(D) antigens, so they can be given to recipients of any blood group. AB positive is the universal recipient.",
-      "verified": true
-    },
-    {
-      "id": "ssc-chsl-029",
-      "section": "gk",
-      "topic": "Art & Culture",
-      "difficulty": "medium",
-      "question": "Bihu is the major festival of which state?",
-      "options": [
-        "Assam",
-        "Odisha",
-        "Manipur",
-        "West Bengal"
-      ],
-      "answer": 0,
-      "explanation": "Bihu (Rongali, Kongali and Bhogali) is the main festival of Assam.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-chsl-G06",
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Tropic of Cancer state-exclusion question; frequent in CHSL 2023-24"
+      }
     },
     {
       "id": "ssc-chsl-030",
@@ -947,7 +1961,14 @@
       ],
       "answer": 2,
       "explanation": "'Gita Govinda' was composed by the 12th-century poet Jayadeva.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-chsl-G19",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Gita Govinda–Jayadeva with other Sanskrit poets as traps; CHSL literature"
+      }
     },
     {
       "id": "ssc-chsl-031",
@@ -963,7 +1984,14 @@
       ],
       "answer": 0,
       "explanation": "Test: (sum of digits at odd places) − (sum at even places) must be a multiple of 11. 918082: (9 + 8 + 8) − (1 + 0 + 2) = 22 ✓. 918083 gives 25 − 4 = 21, 918092 gives 26 − 3 = 23 and 918081 gives 25 − 2 = 23, none divisible by 11.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-chsl-Q02",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Which of four near-identical numbers is divisible by 11; CHSL divisibility"
+      }
     },
     {
       "id": "ssc-chsl-032",
@@ -979,7 +2007,14 @@
       ],
       "answer": 1,
       "explanation": "By BODMAS: 36 ÷ 4 = 9; 9 × 3 = 27; 2 × 5 = 10. So 27 + 15 − 10 = 32.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-chsl-Q03",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "BODMAS chain with left-to-right ÷×; CHSL simplification"
+      }
     },
     {
       "id": "ssc-chsl-033",
@@ -995,7 +2030,14 @@
       ],
       "answer": 3,
       "explanation": "Reduction = 25/(100 + 25) × 100 = 20%.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-chsl-Q04",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Price rise 25% → cut 20%; staple CHSL percentage"
+      }
     },
     {
       "id": "ssc-chsl-034",
@@ -1011,7 +2053,14 @@
       ],
       "answer": 0,
       "explanation": "CP = 1170 ÷ 1.17 = ₹1,000.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-chsl-Q07",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "CP from SP and gain 17%; CHSL profit"
+      }
     },
     {
       "id": "ssc-chsl-035",
@@ -1027,23 +2076,14 @@
       ],
       "answer": 2,
       "explanation": "Net = 20 + 10 − (20 × 10)/100 = 28%.",
-      "verified": true
-    },
-    {
-      "id": "ssc-chsl-036",
-      "section": "quant",
-      "topic": "Simple & Compound Interest",
-      "difficulty": "easy",
-      "question": "What is the simple interest on ₹5,000 at 8% per annum for 3 years?",
-      "options": [
-        "₹1,000",
-        "₹1,500",
-        "₹1,260",
-        "₹1,200"
-      ],
-      "answer": 3,
-      "explanation": "SI = 5000 × 8 × 3 / 100 = ₹1,200.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-chsl-Q06",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Equivalent of 20% and 10% discounts; CHSL, easy"
+      }
     },
     {
       "id": "ssc-chsl-037",
@@ -1059,23 +2099,14 @@
       ],
       "answer": 1,
       "explanation": "(3x − 9)/(5x − 9) = 12/23 → 69x − 207 = 60x − 108 → 9x = 99 → x = 11. Smaller number = 33. Check: 24/46 = 12/23 ✓.",
-      "verified": true
-    },
-    {
-      "id": "ssc-chsl-038",
-      "section": "quant",
-      "topic": "Average",
-      "difficulty": "easy",
-      "question": "What is the average of the first 10 natural numbers?",
-      "options": [
-        "5",
-        "5.5",
-        "6",
-        "10"
-      ],
-      "answer": 1,
-      "explanation": "Sum = 10 × 11 / 2 = 55; average = 55/10 = 5.5.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-chsl-Q11",
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Ratio after subtracting 9 → 12:23; CHSL ratio change"
+      }
     },
     {
       "id": "ssc-chsl-039",
@@ -1091,23 +2122,14 @@
       ],
       "answer": 0,
       "explanation": "For equal distances, average speed = 2xy/(x + y) = 2 × 40 × 60/100 = 48 km/h.",
-      "verified": true
-    },
-    {
-      "id": "ssc-chsl-040",
-      "section": "quant",
-      "topic": "Time & Work",
-      "difficulty": "easy",
-      "question": "12 men can complete a work in 15 days. In how many days will 20 men complete the same work?",
-      "options": [
-        "10",
-        "12",
-        "9",
-        "8"
-      ],
-      "answer": 2,
-      "explanation": "Total work = 12 × 15 = 180 man-days; 180 ÷ 20 = 9 days.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-chsl-Q16",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Harmonic mean to-and-fro average speed with 50 trap; CHSL"
+      }
     },
     {
       "id": "ssc-chsl-041",
@@ -1123,7 +2145,14 @@
       ],
       "answer": 3,
       "explanation": "x² + 1/x² = (x − 1/x)² + 2 = 18. x⁴ + 1/x⁴ = 18² − 2 = 322.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-chsl-Q17",
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "x−1/x → x⁴+1/x⁴ = 322; CHSL algebra with 324 trap"
+      }
     },
     {
       "id": "ssc-chsl-042",
@@ -1139,23 +2168,14 @@
       ],
       "answer": 2,
       "explanation": "Exterior angle = 180° − 140° = 40°; number of sides = 360°/40° = 9.",
-      "verified": true
-    },
-    {
-      "id": "ssc-chsl-043",
-      "section": "quant",
-      "topic": "Mensuration",
-      "difficulty": "medium",
-      "question": "What is the area of an equilateral triangle of side 8 cm?",
-      "options": [
-        "16√3 cm²",
-        "32√3 cm²",
-        "8√3 cm²",
-        "64√3 cm²"
-      ],
-      "answer": 0,
-      "explanation": "Area = (√3/4) × 8² = 16√3 cm².",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-chsl-Q19",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Regular polygon sides from interior angle; CHSL geometry"
+      }
     },
     {
       "id": "ssc-chsl-044",
@@ -1171,7 +2191,14 @@
       ],
       "answer": 1,
       "explanation": "1/4 + 1/4 + 1 = 3/2.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-chsl-Q24",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Standard-angle sum; CHSL trig"
+      }
     },
     {
       "id": "ssc-chsl-045",
@@ -1187,55 +2214,14 @@
       ],
       "answer": 3,
       "explanation": "Difference = 84 − 68 = 16. Percentage = 16/68 × 100 = 400/17 = 23 9/17 %.",
-      "verified": true
-    },
-    {
-      "id": "ssc-chsl-046",
-      "section": "english",
-      "topic": "Synonyms",
-      "difficulty": "easy",
-      "question": "Select the most appropriate synonym of the given word.\nCANDID",
-      "options": [
-        "Secretive",
-        "Cunning",
-        "Timid",
-        "Frank"
-      ],
-      "answer": 3,
-      "explanation": "Candid means honest and straightforward – frank.",
-      "verified": true
-    },
-    {
-      "id": "ssc-chsl-047",
-      "section": "english",
-      "topic": "Antonyms",
-      "difficulty": "easy",
-      "question": "Select the most appropriate antonym of the given word.\nTRANSPARENT",
-      "options": [
-        "Opaque",
-        "Clear",
-        "Lucid",
-        "Obvious"
-      ],
-      "answer": 0,
-      "explanation": "Transparent (see-through) is the opposite of opaque.",
-      "verified": true
-    },
-    {
-      "id": "ssc-chsl-048",
-      "section": "english",
-      "topic": "Idioms & Phrases",
-      "difficulty": "medium",
-      "question": "Select the most appropriate meaning of the idiom.\nA blessing in disguise",
-      "options": [
-        "A hidden enemy",
-        "A gift that is not wanted",
-        "Something that seems bad at first but turns out to be good",
-        "A person who pretends to be religious"
-      ],
-      "answer": 2,
-      "explanation": "A blessing in disguise is an apparent misfortune that later proves beneficial.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-chsl-Q26",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Marks table % more with fractional answer 23 9/17; CHSL DI"
+      }
     },
     {
       "id": "ssc-chsl-049",
@@ -1251,7 +2237,14 @@
       ],
       "answer": 1,
       "explanation": "Incorrigible = not able to be corrected. Invincible = cannot be defeated; indelible = cannot be erased.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-chsl-E10",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Incorrigible OWS with In- look-alikes; CHSL"
+      }
     },
     {
       "id": "ssc-chsl-050",
@@ -1267,7 +2260,14 @@
       ],
       "answer": 1,
       "explanation": "The correct spelling is 'necessary' (one 'c', double 's').",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-chsl-E11",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Neccessary misspelling; CHSL spelling"
+      }
     },
     {
       "id": "ssc-chsl-051",
@@ -1283,7 +2283,14 @@
       ],
       "answer": 1,
       "explanation": "The subject is 'One' (singular), so 'have gone' should be 'has gone'.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-chsl-E12",
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "One of my friends have → has; core CHSL agreement error"
+      }
     },
     {
       "id": "ssc-chsl-052",
@@ -1299,7 +2306,14 @@
       ],
       "answer": 1,
       "explanation": "'Information' is uncountable; it has no plural. Use 'much information' or 'a lot of information'.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-chsl-E12",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Uncountable 'informations'; CHSL noun error"
+      }
     },
     {
       "id": "ssc-chsl-053",
@@ -1315,7 +2329,14 @@
       ],
       "answer": 0,
       "explanation": "Latin comparatives such as senior, junior, superior and inferior take 'to', not 'than'.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-chsl-E14",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Senior to (Latin comparative); CHSL improvement"
+      }
     },
     {
       "id": "ssc-chsl-054",
@@ -1331,7 +2352,14 @@
       ],
       "answer": 2,
       "explanation": "Simple past interrogative 'Who wrote …?' becomes 'By whom was … written?' with question word order.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-chsl-E15",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Interrogative passive 'By whom was…'; CHSL"
+      }
     },
     {
       "id": "ssc-chsl-055",
@@ -1347,39 +2375,14 @@
       ],
       "answer": 3,
       "explanation": "Sentences beginning with 'Let us' (a proposal) are reported with 'suggested/proposed that … should'.",
-      "verified": true
-    },
-    {
-      "id": "ssc-chsl-056",
-      "section": "english",
-      "topic": "Fill in the Blanks",
-      "difficulty": "easy",
-      "question": "Select the most appropriate option to fill in the blank.\nShe has been working in this office ______ 2019.",
-      "options": [
-        "since",
-        "for",
-        "by",
-        "till"
-      ],
-      "answer": 0,
-      "explanation": "'Since' is used with a point of time in the perfect continuous tense; 'for' is used with a period of time.",
-      "verified": true
-    },
-    {
-      "id": "ssc-chsl-057",
-      "section": "english",
-      "topic": "Reading Comprehension",
-      "difficulty": "easy",
-      "question": "Read the passage and answer the question.\n\nThe Indian Railways introduced its first passenger train in 1853, running between Bombay and Thane. Since then the network has grown into one of the largest in the world. For millions of people, the railway is not just a means of transport but a lifeline that connects villages to cities, farms to markets and workers to factories. In recent years, the focus has shifted to modernisation: tracks are being electrified, stations redeveloped, and semi-high-speed trains introduced. Critics, however, argue that safety and punctuality deserve as much attention as speed, since a faster train is of little use if it does not arrive on time.\n\nBetween which places did India's first passenger train run?",
-      "options": [
-        "Howrah and Hooghly",
-        "Madras and Arcot",
-        "Delhi and Agra",
-        "Bombay and Thane"
-      ],
-      "answer": 3,
-      "explanation": "The passage says the first passenger train in 1853 ran between Bombay and Thane.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-chsl-E16",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Let us → suggested that they should; CHSL narration"
+      }
     },
     {
       "id": "ssc-chsl-058",
@@ -1395,7 +2398,14 @@
       ],
       "answer": 0,
       "explanation": "Critics argue that safety and punctuality deserve as much attention as speed.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-chsl-E02",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Critics' argument RC; CHSL"
+      }
     },
     {
       "id": "ssc-chsl-059",
@@ -1411,23 +2421,1739 @@
       ],
       "answer": 2,
       "explanation": "The railway is described as connecting villages, markets and workers – something people depend on, i.e. essential support.",
-      "verified": true
+      "verified": true,
+      "archetype": "ssc-chsl-E03",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Contextual meaning 'lifeline' with literal traps; CHSL"
+      }
     },
     {
-      "id": "ssc-chsl-060",
+      "id": "ssc-chsl-062",
+      "section": "reasoning",
+      "topic": "Analogy",
+      "difficulty": "easy",
+      "question": "Select the option that is related to the third number in the same way as the second number is related to the first number.\n(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits.)\n5 : 124 :: 7 : ?",
+      "options": [
+        "343",
+        "344",
+        "336",
+        "342"
+      ],
+      "answer": 3,
+      "explanation": "Rule: n³ − 1. 5³ − 1 = 124, so 7³ − 1 = 342.",
+      "source": "ai",
+      "archetype": "ssc-chsl-R02",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "n³−1 with NOTE and 343 trap; exact CHSL format"
+      }
+    },
+    {
+      "id": "ssc-chsl-063",
+      "section": "reasoning",
+      "topic": "Analogy",
+      "difficulty": "medium",
+      "question": "Select the option that is related to the third letter-cluster in the same way as the second letter-cluster is related to the first letter-cluster.\nBDF : HJL :: NPR : ?",
+      "options": [
+        "TVX",
+        "TUX",
+        "SVX",
+        "TVW"
+      ],
+      "answer": 0,
+      "explanation": "Each letter moves +6: B→H, D→J, F→L. So N→T, P→V, R→X.",
+      "source": "ai",
+      "archetype": "ssc-chsl-R03",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "+6 shift cluster analogy; CHSL letter analogy"
+      }
+    },
+    {
+      "id": "ssc-chsl-064",
+      "section": "reasoning",
+      "topic": "Classification",
+      "difficulty": "medium",
+      "question": "Three of the following four letter-clusters are alike in a certain way and one is different. Select the odd letter-cluster.",
+      "options": [
+        "BDF",
+        "GJL",
+        "KMO",
+        "PRT"
+      ],
+      "answer": 1,
+      "explanation": "BDF, KMO and PRT follow +2, +2. GJL follows +3, +2.",
+      "source": "ai",
+      "archetype": "ssc-chsl-R06",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Odd cluster by gap pattern +3+2; CHSL"
+      }
+    },
+    {
+      "id": "ssc-chsl-066",
+      "section": "reasoning",
+      "topic": "Classification",
+      "difficulty": "easy",
+      "question": "Three of the following four words are alike in a certain way and one is different. Pick the odd one out.",
+      "options": [
+        "Tabla",
+        "Sitar",
+        "Violin",
+        "Sarod"
+      ],
+      "answer": 0,
+      "explanation": "Sitar, violin and sarod are string instruments; the tabla is a percussion instrument.",
+      "source": "ai",
+      "archetype": "ssc-chsl-R04",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Percussion vs string instruments; CHSL classification"
+      }
+    },
+    {
+      "id": "ssc-chsl-068",
+      "section": "reasoning",
+      "topic": "Number & Letter Series",
+      "difficulty": "medium",
+      "question": "Select the letter-cluster that will come next in the following series.\nAB, DF, HK, MQ, ?",
+      "options": [
+        "SW",
+        "RX",
+        "TX",
+        "SX"
+      ],
+      "answer": 3,
+      "explanation": "First letters: A +3 D +4 H +5 M +6 S. Second letters: B +4 F +5 K +6 Q +7 X. Answer: SX.",
+      "source": "ai",
+      "archetype": "ssc-chsl-R08",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Two-letter cluster with growing gaps; CHSL"
+      }
+    },
+    {
+      "id": "ssc-chsl-070",
+      "section": "reasoning",
+      "topic": "Coding-Decoding",
+      "difficulty": "medium",
+      "question": "In a certain code language, 'MAT' is coded as 34 and 'SUN' is coded as 54. How will 'CUP' be coded in that language?",
+      "options": [
+        "41",
+        "38",
+        "40",
+        "42"
+      ],
+      "answer": 2,
+      "explanation": "Code = sum of alphabet positions: M13 + A1 + T20 = 34; S19 + U21 + N14 = 54; C3 + U21 + P16 = 40.",
+      "source": "ai",
+      "archetype": "ssc-chsl-R10",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Sum-of-positions code with two examples; CHSL"
+      }
+    },
+    {
+      "id": "ssc-chsl-071",
+      "section": "reasoning",
+      "topic": "Mathematical Operations",
+      "difficulty": "medium",
+      "question": "Which two mathematical signs should be interchanged to make the given equation correct?\n15 ÷ 6 × 4 + 3 − 5 = 18",
+      "options": [
+        "× and −",
+        "÷ and +",
+        "÷ and −",
+        "+ and −"
+      ],
+      "answer": 1,
+      "explanation": "Interchanging ÷ and + gives 15 + 6 × 4 ÷ 3 − 5 = 15 + 8 − 5 = 18. The other swaps give 13.5, −8.4 and 12.",
+      "source": "ai",
+      "archetype": "ssc-chsl-R17",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Interchange signs to balance equation; exact CHSL format"
+      }
+    },
+    {
+      "id": "ssc-chsl-072",
+      "section": "reasoning",
+      "topic": "Missing Number",
+      "difficulty": "medium",
+      "question": "If 3 @ 4 = 19, 5 @ 2 = 17 and 6 @ 3 = 27, then what is the value of 7 @ 4?",
+      "options": [
+        "35",
+        "32",
+        "41",
+        "39"
+      ],
+      "answer": 3,
+      "explanation": "a @ b = a × b + a + b: 12 + 7 = 19, 10 + 7 = 17, 18 + 9 = 27. So 7 @ 4 = 28 + 11 = 39.",
+      "source": "ai",
+      "archetype": "ssc-chsl-R19",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "ab+a+b defined operation; CHSL missing number"
+      }
+    },
+    {
+      "id": "ssc-chsl-073",
+      "section": "reasoning",
+      "topic": "Blood Relations",
+      "difficulty": "medium",
+      "question": "Pointing to a woman, Rohan said, \"Her mother is the only daughter of my mother.\" How is the woman related to Rohan?",
+      "options": [
+        "Niece",
+        "Sister",
+        "Daughter",
+        "Cousin"
+      ],
+      "answer": 0,
+      "explanation": "The only daughter of Rohan's mother is Rohan's sister. The woman is his sister's daughter, i.e. his niece.",
+      "source": "ai",
+      "archetype": "ssc-chsl-R12",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "'Only daughter of my mother' niece chain; CHSL"
+      }
+    },
+    {
+      "id": "ssc-chsl-074",
+      "section": "reasoning",
+      "topic": "Calendar & Clock",
+      "difficulty": "medium",
+      "question": "What is the angle between the hour hand and the minute hand of a clock at 3:20?",
+      "options": [
+        "30°",
+        "20°",
+        "25°",
+        "40°"
+      ],
+      "answer": 1,
+      "explanation": "Angle = |30H − 5.5M| = |90 − 110| = 20°.",
+      "source": "ai",
+      "archetype": "ssc-chsl-R23",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Clock angle at 3:20; CHSL"
+      }
+    },
+    {
+      "id": "ssc-chsl-075",
+      "section": "reasoning",
+      "topic": "Mirror & Water Image",
+      "difficulty": "easy",
+      "question": "A wall clock shows the time 4:25. What time will its image show in a plane mirror placed vertically in front of it?",
+      "options": [
+        "8:35",
+        "7:25",
+        "7:35",
+        "8:25"
+      ],
+      "answer": 2,
+      "explanation": "Mirror time = 11:60 − 4:25 = 7:35.",
+      "source": "ai",
+      "archetype": "ssc-chsl-R26",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Mirror time 11:60 rule; CHSL mirror clock"
+      }
+    },
+    {
+      "id": "ssc-chsl-076",
+      "section": "gk",
+      "topic": "History",
+      "difficulty": "medium",
+      "question": "Which Mughal emperor introduced the Mansabdari system of ranking officials?",
+      "options": [
+        "Babur",
+        "Humayun",
+        "Jahangir",
+        "Akbar"
+      ],
+      "answer": 3,
+      "explanation": "Akbar introduced the Mansabdari system, under which every officer held a rank (mansab).",
+      "source": "ai",
+      "archetype": "ssc-chsl-G01",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Mansabdari–Akbar; CHSL medieval history"
+      }
+    },
+    {
+      "id": "ssc-chsl-078",
+      "section": "gk",
+      "topic": "History",
+      "difficulty": "medium",
+      "question": "Who founded the 'Bahishkrit Hitakarini Sabha' in 1924 for the welfare of the depressed classes?",
+      "options": [
+        "Jyotirao Phule",
+        "B. R. Ambedkar",
+        "E. V. Ramasamy (Periyar)",
+        "Sree Narayana Guru"
+      ],
+      "answer": 1,
+      "explanation": "Dr B. R. Ambedkar founded the Bahishkrit Hitakarini Sabha in Bombay in 1924.",
+      "source": "ai",
+      "archetype": "ssc-chsl-G02",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Bahishkrit Hitakarini Sabha–Ambedkar; CHSL organisation founder"
+      }
+    },
+    {
+      "id": "ssc-chsl-079",
+      "section": "gk",
+      "topic": "Polity",
+      "difficulty": "medium",
+      "question": "Which Article of the Constitution of India provides for free and compulsory education for all children of the age of six to fourteen years as a Fundamental Right?",
+      "options": [
+        "Article 21A",
+        "Article 19",
+        "Article 29",
+        "Article 45"
+      ],
+      "answer": 0,
+      "explanation": "Article 21A, inserted by the 86th Amendment (2002), makes elementary education a Fundamental Right. Article 45 now deals with early childhood care.",
+      "source": "ai",
+      "archetype": "ssc-chsl-G03",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Article 21A RTE with Art 45 trap; CHSL article item"
+      }
+    },
+    {
+      "id": "ssc-chsl-080",
+      "section": "gk",
+      "topic": "Polity",
+      "difficulty": "medium",
+      "question": "The Eighth Schedule of the Constitution of India deals with:",
+      "options": [
+        "Forms of oaths and affirmations",
+        "Allocation of seats in the Rajya Sabha",
+        "Disqualification on grounds of defection",
+        "Languages recognised by the Constitution"
+      ],
+      "answer": 3,
+      "explanation": "The Eighth Schedule lists the 22 recognised languages; oaths – Third, Rajya Sabha seats – Fourth, anti-defection – Tenth Schedule.",
+      "source": "ai",
+      "archetype": "ssc-chsl-G04",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Eighth Schedule languages with other schedule traps; CHSL"
+      }
+    },
+    {
+      "id": "ssc-chsl-081",
+      "section": "gk",
+      "topic": "Geography",
+      "difficulty": "medium",
+      "question": "The Chambal river is a tributary of which river?",
+      "options": [
+        "Narmada",
+        "Son",
+        "Yamuna",
+        "Ghaghara"
+      ],
+      "answer": 2,
+      "explanation": "The Chambal rises in the Vindhyas near Mhow and joins the Yamuna in Uttar Pradesh.",
+      "source": "ai",
+      "archetype": "ssc-chsl-G06",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Chambal → Yamuna tributary; CHSL rivers"
+      }
+    },
+    {
+      "id": "ssc-chsl-087",
+      "section": "gk",
+      "topic": "Art & Culture",
+      "difficulty": "medium",
+      "question": "The 'Hornbill Festival' is celebrated every December in which state?",
+      "options": [
+        "Mizoram",
+        "Nagaland",
+        "Arunachal Pradesh",
+        "Sikkim"
+      ],
+      "answer": 1,
+      "explanation": "The Hornbill Festival is held at Kisama near Kohima, Nagaland, from 1 to 10 December.",
+      "source": "ai",
+      "archetype": "ssc-chsl-G15",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Hornbill Festival–Nagaland with NE-state traps; CHSL"
+      }
+    },
+    {
+      "id": "ssc-chsl-091",
+      "section": "quant",
+      "topic": "Number System",
+      "difficulty": "medium",
+      "question": "What is the unit digit of 3⁶⁵ × 6⁵⁹ × 7⁷¹?",
+      "options": [
+        "6",
+        "4",
+        "2",
+        "8"
+      ],
+      "answer": 1,
+      "explanation": "3⁶⁵: 65 = 4×16 + 1 → 3. 6⁵⁹ → 6. 7⁷¹: 71 = 4×17 + 3 → 3. 3 × 6 × 3 = 54 → unit digit 4.",
+      "source": "ai",
+      "archetype": "ssc-chsl-Q01",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Unit digit of product of three powers; CHSL cyclicity"
+      }
+    },
+    {
+      "id": "ssc-chsl-093",
+      "section": "quant",
+      "topic": "Trigonometry",
+      "difficulty": "medium",
+      "question": "What is the value of 2 sin 30° cos 60° + tan² 60°?",
+      "options": [
+        "3",
+        "5/2",
+        "4",
+        "7/2"
+      ],
+      "answer": 3,
+      "explanation": "2 × ½ × ½ = ½ and tan² 60° = 3. Sum = 3½ = 7/2.",
+      "source": "ai",
+      "archetype": "ssc-chsl-Q24",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "2 sin30 cos60 + tan²60; CHSL standard angles"
+      }
+    },
+    {
+      "id": "ssc-chsl-094",
+      "section": "quant",
+      "topic": "Percentage",
+      "difficulty": "medium",
+      "question": "A man spends 75% of his monthly income. If his income increases by 20% and his expenditure increases by 10%, by what percentage do his savings increase?",
+      "options": [
+        "30%",
+        "40%",
+        "50%",
+        "25%"
+      ],
+      "answer": 2,
+      "explanation": "Take income 100: expenditure 75, savings 25. New income 120, expenditure 82.5, savings 37.5. Increase = 12.5/25 = 50%.",
+      "source": "ai",
+      "archetype": "ssc-chsl-Q05",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Savings % change with income/expenditure rise; CHSL word problem"
+      }
+    },
+    {
+      "id": "ssc-chsl-095",
+      "section": "quant",
+      "topic": "Profit & Loss",
+      "difficulty": "medium",
+      "question": "The marked price of a watch is ₹2,400. The shopkeeper allows a discount of 12.5% and still gains 5%. What is the cost price of the watch?",
+      "options": [
+        "₹1,995",
+        "₹2,000",
+        "₹2,100",
+        "₹1,900"
+      ],
+      "answer": 1,
+      "explanation": "SP = 2400 × 0.875 = ₹2,100. CP = 2100/1.05 = ₹2,000.",
+      "source": "ai",
+      "archetype": "ssc-chsl-Q06",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "CP from MP, discount and gain; CHSL"
+      }
+    },
+    {
+      "id": "ssc-chsl-096",
+      "section": "quant",
+      "topic": "Profit & Loss",
+      "difficulty": "medium",
+      "question": "If the cost price of 18 articles is equal to the selling price of 15 articles, what is the gain percentage?",
+      "options": [
+        "20%",
+        "16⅔%",
+        "25%",
+        "18%"
+      ],
+      "answer": 0,
+      "explanation": "Gain = (18 − 15)/15 × 100 = 20%. (16⅔% wrongly divides by 18.)",
+      "source": "ai",
+      "archetype": "ssc-chsl-Q07",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "CP of 18 = SP of 15; CHSL profit with 16⅔% trap"
+      }
+    },
+    {
+      "id": "ssc-chsl-100",
+      "section": "quant",
+      "topic": "Average",
+      "difficulty": "medium",
+      "question": "The average weight of 8 persons increases by 2.5 kg when one of them, who weighs 56 kg, is replaced by a new person. What is the weight of the new person?",
+      "options": [
+        "72 kg",
+        "76 kg",
+        "78.5 kg",
+        "66 kg"
+      ],
+      "answer": 1,
+      "explanation": "Total increase = 8 × 2.5 = 20 kg, so the new person weighs 56 + 20 = 76 kg.",
+      "source": "ai",
+      "archetype": "ssc-chsl-Q12",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Replacement average; CHSL"
+      }
+    },
+    {
+      "id": "ssc-chsl-101",
+      "section": "quant",
+      "topic": "Time & Work",
+      "difficulty": "medium",
+      "question": "Pipe A can fill a tank in 12 hours and pipe B can fill it in 20 hours. If both pipes are opened together, in how many hours will the tank be filled?",
+      "options": [
+        "8 hours",
+        "16 hours",
+        "7.5 hours",
+        "6 hours"
+      ],
+      "answer": 2,
+      "explanation": "Combined rate = 1/12 + 1/20 = 8/60 = 2/15 per hour, so time = 15/2 = 7.5 hours.",
+      "source": "ai",
+      "archetype": "ssc-chsl-Q14",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Two filling pipes; CHSL pipes"
+      }
+    },
+    {
+      "id": "ssc-chsl-103",
+      "section": "quant",
+      "topic": "Algebra",
+      "difficulty": "medium",
+      "question": "If x + 1/x = 4, what is the value of x³ + 1/x³?",
+      "options": [
+        "64",
+        "76",
+        "48",
+        "52"
+      ],
+      "answer": 3,
+      "explanation": "x³ + 1/x³ = (x + 1/x)³ − 3(x + 1/x) = 64 − 12 = 52.",
+      "source": "ai",
+      "archetype": "ssc-chsl-Q17",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "x+1/x=4 → x³+1/x³; CHSL algebra"
+      }
+    },
+    {
+      "id": "ssc-chsl-105",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "medium",
+      "question": "Rice production (in lakh tonnes) of a state: 2021 – 45, 2022 – 50, 2023 – 40, 2024 – 55, 2025 – 60. What is the ratio of the total production in 2021 and 2023 to the total production in 2024 and 2025?",
+      "options": [
+        "23 : 17",
+        "9 : 11",
+        "17 : 23",
+        "17 : 21"
+      ],
+      "answer": 2,
+      "explanation": "(45 + 40) : (55 + 60) = 85 : 115 = 17 : 23.",
+      "source": "ai",
+      "archetype": "ssc-chsl-Q26",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Ratio of totals from text table; CHSL DI"
+      }
+    },
+    {
+      "id": "ssc-chsl-106",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\nFor centuries, millets such as jowar, bajra and ragi were staple foods across rural India. Hardy and quick to mature, they grow well in dry regions where rice and wheat struggle, and they need far less water and fertiliser. After the Green Revolution, however, high-yielding varieties of rice and wheat were promoted, and millets slowly disappeared from many plates. In recent years nutritionists have drawn attention to their value: millets are rich in fibre, iron and calcium, and they release sugar into the blood slowly. The United Nations declared 2023 the International Year of Millets at India's suggestion, and many state governments now include millets in school meals. Farmers, too, are rediscovering that a crop which survives a weak monsoon is a safer bet in a warming climate.\n\nAccording to the passage, why did millets disappear from many plates?",
+      "options": [
+        "High-yielding rice and wheat were promoted after the Green Revolution",
+        "They needed large amounts of fertiliser",
+        "They could not grow in dry regions",
+        "The United Nations discouraged their use"
+      ],
+      "answer": 0,
+      "explanation": "The passage says that after the Green Revolution, high-yielding rice and wheat were promoted and millets slowly disappeared.",
+      "source": "ai",
+      "archetype": "ssc-chsl-E01",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Factual RC on millets; CHSL"
+      }
+    },
+    {
+      "id": "ssc-chsl-107",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nFor centuries, millets such as jowar, bajra and ragi were staple foods across rural India. Hardy and quick to mature, they grow well in dry regions where rice and wheat struggle, and they need far less water and fertiliser. After the Green Revolution, however, high-yielding varieties of rice and wheat were promoted, and millets slowly disappeared from many plates. In recent years nutritionists have drawn attention to their value: millets are rich in fibre, iron and calcium, and they release sugar into the blood slowly. The United Nations declared 2023 the International Year of Millets at India's suggestion, and many state governments now include millets in school meals. Farmers, too, are rediscovering that a crop which survives a weak monsoon is a safer bet in a warming climate.\n\nWhich of the following is the most suitable title for the passage?",
+      "options": [
+        "The Heroes of the Green Revolution",
+        "The Return of an Old Grain",
+        "Why Rice Needs More Water",
+        "School Meals in India"
+      ],
+      "answer": 1,
+      "explanation": "The passage traces how millets declined and are now being valued again, so 'The Return of an Old Grain' fits best.",
+      "source": "ai",
+      "archetype": "ssc-chsl-E02",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Title RC; CHSL"
+      }
+    },
+    {
+      "id": "ssc-chsl-108",
+      "section": "english",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nFor centuries, millets such as jowar, bajra and ragi were staple foods across rural India. Hardy and quick to mature, they grow well in dry regions where rice and wheat struggle, and they need far less water and fertiliser. After the Green Revolution, however, high-yielding varieties of rice and wheat were promoted, and millets slowly disappeared from many plates. In recent years nutritionists have drawn attention to their value: millets are rich in fibre, iron and calcium, and they release sugar into the blood slowly. The United Nations declared 2023 the International Year of Millets at India's suggestion, and many state governments now include millets in school meals. Farmers, too, are rediscovering that a crop which survives a weak monsoon is a safer bet in a warming climate.\n\nSelect the most appropriate synonym of the word 'hardy' as used in the passage.",
+      "options": [
+        "Delicate",
+        "Rare",
+        "Costly",
+        "Robust"
+      ],
+      "answer": 3,
+      "explanation": "'Hardy' crops can endure difficult conditions – robust. 'Delicate' is the opposite.",
+      "source": "ai",
+      "archetype": "ssc-chsl-E03",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Contextual synonym 'hardy'; CHSL"
+      }
+    },
+    {
+      "id": "ssc-chsl-109",
+      "section": "english",
+      "topic": "Cloze Test",
+      "difficulty": "easy",
+      "question": "Read the passage and select the most appropriate option for the numbered blank.\n\nReading for pleasure is one of the best habits a child can (1) ______. A good story (2) ______ the imagination and teaches new words without any effort. Parents can help by keeping books (3) ______ home and by reading aloud at bedtime. Children who see adults reading are more (4) ______ to pick up a book themselves. Libraries, too, play an important (5) ______ by offering books free of cost.\n\nSelect the most appropriate option for blank (3).",
+      "options": [
+        "on",
+        "by",
+        "at",
+        "for"
+      ],
+      "answer": 2,
+      "explanation": "The phrase is 'at home': keeping books at home.",
+      "source": "ai",
+      "archetype": "ssc-chsl-E04",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Cloze preposition 'at home'; CHSL"
+      }
+    },
+    {
+      "id": "ssc-chsl-110",
       "section": "english",
       "topic": "Cloze Test",
       "difficulty": "medium",
-      "question": "Select the most appropriate option to fill in the blank.\nThe teacher asked the students to ______ their answers carefully before submitting the paper.",
+      "question": "Read the passage and select the most appropriate option for the numbered blank.\n\nReading for pleasure is one of the best habits a child can (1) ______. A good story (2) ______ the imagination and teaches new words without any effort. Parents can help by keeping books (3) ______ home and by reading aloud at bedtime. Children who see adults reading are more (4) ______ to pick up a book themselves. Libraries, too, play an important (5) ______ by offering books free of cost.\n\nSelect the most appropriate option for blank (4).",
       "options": [
-        "checking",
-        "check",
-        "checked",
-        "to check"
+        "likely",
+        "probable",
+        "possible",
+        "capable"
+      ],
+      "answer": 0,
+      "explanation": "'More likely to + verb' is the correct pattern; 'probable' and 'possible' cannot take a to-infinitive about a person, and 'capable' needs 'of'.",
+      "source": "ai",
+      "archetype": "ssc-chsl-E04",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Cloze 'more likely to' vs probable trap; CHSL"
+      }
+    },
+    {
+      "id": "ssc-chsl-114",
+      "section": "english",
+      "topic": "One-word Substitution",
+      "difficulty": "medium",
+      "question": "Select the option that can be used as a one-word substitute for the given group of words.\nA speech delivered without any previous preparation",
+      "options": [
+        "Eulogy",
+        "Soliloquy",
+        "Extempore",
+        "Monologue"
+      ],
+      "answer": 2,
+      "explanation": "An extempore speech is made without preparation; a eulogy praises someone, a soliloquy is spoken to oneself.",
+      "source": "ai",
+      "archetype": "ssc-chsl-E10",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Extempore vs soliloquy OWS; CHSL"
+      }
+    },
+    {
+      "id": "ssc-chsl-115",
+      "section": "english",
+      "topic": "Spelling Correction",
+      "difficulty": "easy",
+      "question": "Select the correctly spelt word.",
+      "options": [
+        "Maintenance",
+        "Maintainance",
+        "Maintenence",
+        "Mantenance"
+      ],
+      "answer": 0,
+      "explanation": "The correct spelling is 'maintenance'.",
+      "source": "ai",
+      "archetype": "ssc-chsl-E11",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Maintenance spelling with -ain trap; CHSL"
+      }
+    },
+    {
+      "id": "ssc-chsl-116",
+      "section": "english",
+      "topic": "Error Spotting",
+      "difficulty": "medium",
+      "question": "The following sentence has been divided into parts. One of them may contain an error. Select the part that contains the error, or 'No error'.\nThe news about the floods / were shocking / to everyone",
+      "options": [
+        "The news about the floods",
+        "were shocking",
+        "to everyone",
+        "No error"
       ],
       "answer": 1,
-      "explanation": "'Asked … to' must be followed by the base form of the verb: asked the students to check.",
-      "verified": true
+      "explanation": "'News' is an uncountable singular noun, so it takes 'was': 'The news about the floods was shocking.'",
+      "source": "ai",
+      "archetype": "ssc-chsl-E12",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "News … were → was; CHSL agreement"
+      }
+    },
+    {
+      "id": "ssc-chsl-117",
+      "section": "english",
+      "topic": "Error Spotting",
+      "difficulty": "medium",
+      "question": "The following sentence has been divided into parts. One of them may contain an error. Select the part that contains the error, or 'No error'.\nShe has been living / in Delhi / since five years",
+      "options": [
+        "She has been living",
+        "in Delhi",
+        "since five years",
+        "No error"
+      ],
+      "answer": 2,
+      "explanation": "'Since' is used with a point of time; with a period of time use 'for': 'for five years'.",
+      "source": "ai",
+      "archetype": "ssc-chsl-E13",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Since five years → for; CHSL tense/prep error"
+      }
+    },
+    {
+      "id": "ssc-chsl-118",
+      "section": "english",
+      "topic": "Sentence Improvement",
+      "difficulty": "medium",
+      "question": "Select the most appropriate option that can substitute the bracketed part of the sentence.\nI look forward [to meet] you next week.",
+      "options": [
+        "for meeting",
+        "to have met",
+        "No substitution required",
+        "to meeting"
+      ],
+      "answer": 3,
+      "explanation": "In 'look forward to', 'to' is a preposition, so it is followed by a gerund: 'to meeting'.",
+      "source": "ai",
+      "archetype": "ssc-chsl-E14",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Look forward to meeting; CHSL gerund improvement"
+      }
+    },
+    {
+      "id": "ssc-chsl-119",
+      "section": "english",
+      "topic": "Fill in the Blanks",
+      "difficulty": "easy",
+      "question": "Select the most appropriate option to fill in the blank.\nHe was accused ______ theft by his employer.",
+      "options": [
+        "for",
+        "with",
+        "about",
+        "of"
+      ],
+      "answer": 3,
+      "explanation": "The verb 'accuse' takes the preposition 'of': accused of theft.",
+      "source": "ai",
+      "archetype": "ssc-chsl-E06",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Accused of; CHSL preposition blank"
+      }
+    },
+    {
+      "id": "ssc-chsl-120",
+      "section": "english",
+      "topic": "Direct & Indirect Speech",
+      "difficulty": "medium",
+      "question": "Select the option that expresses the given sentence in indirect speech.\nHe said to me, \"What are you doing here?\"",
+      "options": [
+        "He asked me what was I doing there.",
+        "He asked me what I am doing here.",
+        "He asked me what I was doing there.",
+        "He told me what I was doing there."
+      ],
+      "answer": 2,
+      "explanation": "Questions are reported with 'asked', in statement word order, with the tense backshifted (are doing → was doing) and 'here' changed to 'there'.",
+      "source": "ai",
+      "archetype": "ssc-chsl-E16",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Wh-question indirect speech with word-order trap; CHSL"
+      }
+    },
+    {
+      "id": "ssc-chsl-121",
+      "section": "reasoning",
+      "topic": "Blood Relations",
+      "difficulty": "medium",
+      "question": "In a certain code language, 'A # B' means 'A is the sister of B', 'A $ B' means 'A is the father of B', 'A % B' means 'A is the wife of B' and 'A & B' means 'A is the son of B'.\nIf M % N $ P # Q, how is M related to Q?",
+      "options": [
+        "Aunt",
+        "Mother",
+        "Sister",
+        "Grandmother"
+      ],
+      "answer": 1,
+      "explanation": "M is the wife of N, N is the father of P, and P is the sister of Q. So Q is also N's child and M is Q's mother.",
+      "source": "ai",
+      "archetype": "ssc-chsl-R13",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Symbol-coded blood relation with 3 operators, typical CHSL; wife-of-father → mother"
+      }
+    },
+    {
+      "id": "ssc-chsl-122",
+      "section": "reasoning",
+      "topic": "Syllogism",
+      "difficulty": "medium",
+      "question": "Statements:\nAll pens are markers.\nSome markers are erasers.\nConclusions:\nI. Some pens are erasers.\nII. Some erasers being pens is a possibility.\nWhich conclusion(s) follow(s)?",
+      "options": [
+        "Only conclusion II follows",
+        "Both I and II follow",
+        "Neither I nor II follows",
+        "Only conclusion I follows"
+      ],
+      "answer": 0,
+      "explanation": "The erasers that are markers need not include any pen, so I does not follow definitely; but such an overlap is possible, so II follows.",
+      "source": "ai",
+      "archetype": "ssc-chsl-R15",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "All/Some with 'possibility' conclusion is the exact CHSL syllogism trap"
+      }
+    },
+    {
+      "id": "ssc-chsl-123",
+      "section": "reasoning",
+      "topic": "Calendar & Clock",
+      "difficulty": "medium",
+      "question": "If 26 January 2026 is a Monday, what day of the week will 2 October 2026 be?",
+      "options": [
+        "Thursday",
+        "Saturday",
+        "Friday",
+        "Wednesday"
+      ],
+      "answer": 2,
+      "explanation": "Days after 26 Jan: 5 (Jan) + 28 + 31 + 30 + 31 + 30 + 31 + 31 + 30 + 2 = 249 = 35 weeks + 4 days. Monday + 4 = Friday.",
+      "source": "ai",
+      "archetype": "ssc-chsl-R22",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Day-of-week from a reference date within a year; odd-day count 249≡4 → Friday, verified"
+      }
+    },
+    {
+      "id": "ssc-chsl-125",
+      "section": "reasoning",
+      "topic": "Missing Number",
+      "difficulty": "hard",
+      "question": "Select the number that will replace the question mark (?) in the following table. The same rule is followed in every row.\nRow 1: 5, 3, 34\nRow 2: 6, 2, 40\nRow 3: 4, 7, ?",
+      "options": [
+        "121",
+        "56",
+        "65",
+        "28"
+      ],
+      "answer": 2,
+      "explanation": "Third number = (first)² + (second)²: 25 + 9 = 34, 36 + 4 = 40, so 16 + 49 = 65.",
+      "source": "ai",
+      "archetype": "ssc-chsl-R20",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Row rule a²+b² table; matches CHSL missing-number; 121=(4+7)² is a sound trap"
+      }
+    },
+    {
+      "id": "ssc-chsl-126",
+      "section": "reasoning",
+      "topic": "Order & Ranking",
+      "difficulty": "easy",
+      "question": "Among five friends P, Q, R, S and T, Q is taller than R but shorter than T. P is taller than T but shorter than S. Who is the third tallest?",
+      "options": [
+        "P",
+        "Q",
+        "R",
+        "T"
+      ],
+      "answer": 3,
+      "explanation": "Order from tallest: S > P > T > Q > R. The third tallest is T.",
+      "source": "ai",
+      "archetype": "ssc-chsl-R21",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Height comparison chain under ranking archetype; CHSL-level, 5 persons, single ordering"
+      }
+    },
+    {
+      "id": "ssc-chsl-127",
+      "section": "reasoning",
+      "topic": "Mathematical Operations",
+      "difficulty": "medium",
+      "question": "Which two mathematical signs should be interchanged to make the given equation correct?\n56 ÷ 8 + 6 × 3 − 4 = 1",
+      "options": [
+        "÷ and ×",
+        "+ and −",
+        "× and −",
+        "÷ and +"
+      ],
+      "answer": 2,
+      "explanation": "Swapping × and −: 56 ÷ 8 + 6 − 3 × 4 = 7 + 6 − 12 = 1.",
+      "source": "ai",
+      "archetype": "ssc-chsl-R17",
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "Exact CHSL sign-interchange format; only ×/− works (7+6−12=1), checked all four"
+      }
+    },
+    {
+      "id": "ssc-chsl-128",
+      "section": "reasoning",
+      "topic": "Coding-Decoding",
+      "difficulty": "medium",
+      "question": "In a certain code language, 'BAT' is coded as 58 and 'DOG' is coded as 55. How will 'PEN' be coded in that language?",
+      "options": [
+        "35",
+        "44",
+        "48",
+        "46"
+      ],
+      "answer": 3,
+      "explanation": "Each letter takes its reverse alphabet position (A = 26 … Z = 1): BAT = 25 + 26 + 7 = 58, DOG = 23 + 12 + 20 = 55, PEN = 11 + 22 + 13 = 46. Forward positions give the trap 35.",
+      "source": "ai",
+      "archetype": "ssc-chsl-R10",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Reverse-alphabet-position sum code (BAT=58, DOG=55) is a common CHSL numeric coding"
+      }
+    },
+    {
+      "id": "ssc-chsl-129",
+      "section": "gk",
+      "topic": "History",
+      "difficulty": "medium",
+      "question": "The 'Iqta' system was institutionalised in the Delhi Sultanate by which ruler?",
+      "options": [
+        "Qutb-ud-din Aibak",
+        "Balban",
+        "Alauddin Khalji",
+        "Iltutmish"
+      ],
+      "answer": 3,
+      "explanation": "Iltutmish organised the iqta system, assigning revenue of territories to officers (iqtadars) in place of salary.",
+      "source": "ai",
+      "archetype": "ssc-chsl-G01",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Iqta institutionalised by Iltutmish is a standard SSC Sultanate fact; early-Sultan distractors"
+      }
+    },
+    {
+      "id": "ssc-chsl-130",
+      "section": "gk",
+      "topic": "History",
+      "difficulty": "medium",
+      "question": "The Telugu work 'Amuktamalyada' was written by which Vijayanagara ruler?",
+      "options": [
+        "Krishnadevaraya",
+        "Harihara I",
+        "Bukka I",
+        "Achyuta Deva Raya"
+      ],
+      "answer": 0,
+      "explanation": "Krishnadevaraya of the Tuluva dynasty wrote Amuktamalyada; Telugu literature flourished at his court with the Ashtadiggajas.",
+      "source": "ai",
+      "archetype": "ssc-chsl-G01",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Book-to-Vijayanagara-ruler pairing is common in CHSL medieval history"
+      }
+    },
+    {
+      "id": "ssc-chsl-131",
+      "section": "gk",
+      "topic": "History",
+      "difficulty": "medium",
+      "question": "Who founded the 'Satyashodhak Samaj' in 1873?",
+      "options": [
+        "M. G. Ranade",
+        "Jyotirao Phule",
+        "B. R. Ambedkar",
+        "Gopal Hari Deshmukh"
+      ],
+      "answer": 1,
+      "explanation": "Jyotirao Phule founded the Satyashodhak Samaj in Pune in 1873 to fight caste discrimination.",
+      "source": "ai",
+      "archetype": "ssc-chsl-G02",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Founder-of-organisation (Satyashodhak/Phule) is a top-frequency SSC modern-history item"
+      }
+    },
+    {
+      "id": "ssc-chsl-132",
+      "section": "gk",
+      "topic": "History",
+      "difficulty": "medium",
+      "question": "The Indian Councils Act of 1909 is popularly known as the:",
+      "options": [
+        "Montagu–Chelmsford Reforms",
+        "Pitt's India Act",
+        "Morley–Minto Reforms",
+        "Charter Act"
+      ],
+      "answer": 2,
+      "explanation": "The 1909 Act, named after Secretary of State John Morley and Viceroy Lord Minto, introduced separate electorates for Muslims.",
+      "source": "ai",
+      "archetype": "ssc-chsl-G02",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Act-to-popular-name is asked but this one is very well known; easy end of CHSL"
+      }
+    },
+    {
+      "id": "ssc-chsl-133",
+      "section": "gk",
+      "topic": "Polity",
+      "difficulty": "medium",
+      "question": "Which Article of the Constitution of India provides for the constitution of the Finance Commission?",
+      "options": [
+        "Article 275",
+        "Article 266",
+        "Article 324",
+        "Article 280"
+      ],
+      "answer": 3,
+      "explanation": "Article 280 provides for a Finance Commission every five years. Article 275 is grants-in-aid and 266 the Consolidated Fund.",
+      "source": "ai",
+      "archetype": "ssc-chsl-G03",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Article-number (280 Finance Commission) with 275/266/324 neighbours exactly as SSC sets"
+      }
+    },
+    {
+      "id": "ssc-chsl-134",
+      "section": "gk",
+      "topic": "Polity",
+      "difficulty": "medium",
+      "question": "The idea of Fundamental Duties in the Constitution of India was borrowed from the Constitution of which country?",
+      "options": [
+        "USSR (former)",
+        "USA",
+        "Ireland",
+        "Canada"
+      ],
+      "answer": 0,
+      "explanation": "Fundamental Duties (Part IV-A) were inspired by the Constitution of the former USSR. DPSPs come from Ireland and judicial review from the USA.",
+      "source": "ai",
+      "archetype": "ssc-chsl-G05",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Borrowed-feature source country is a recurring CHSL polity format"
+      }
+    },
+    {
+      "id": "ssc-chsl-135",
+      "section": "gk",
+      "topic": "Polity",
+      "difficulty": "medium",
+      "question": "Whose decision is final on whether a Bill is a Money Bill?",
+      "options": [
+        "The President",
+        "The Speaker of the Lok Sabha",
+        "The Union Finance Minister",
+        "The Chairman of the Rajya Sabha"
+      ],
+      "answer": 1,
+      "explanation": "Under Article 110(3) the decision of the Speaker of the Lok Sabha on whether a Bill is a Money Bill is final.",
+      "source": "ai",
+      "archetype": "ssc-chsl-G05",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Money Bill certification by Speaker is a staple SSC parliament question"
+      }
+    },
+    {
+      "id": "ssc-chsl-136",
+      "section": "gk",
+      "topic": "Geography",
+      "difficulty": "medium",
+      "question": "The Nagarjuna Sagar Dam is built across which river?",
+      "options": [
+        "Godavari",
+        "Tungabhadra",
+        "Krishna",
+        "Kaveri"
+      ],
+      "answer": 2,
+      "explanation": "Nagarjuna Sagar Dam lies on the Krishna river on the Telangana–Andhra Pradesh border.",
+      "source": "ai",
+      "archetype": "ssc-chsl-G06",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Dam-river pairing is standard CHSL geography; southern rivers as distractors"
+      }
+    },
+    {
+      "id": "ssc-chsl-138",
+      "section": "gk",
+      "topic": "Geography",
+      "difficulty": "medium",
+      "question": "The Strait of Hormuz connects the Persian Gulf with which water body?",
+      "options": [
+        "Red Sea",
+        "Gulf of Aden",
+        "Caspian Sea",
+        "Gulf of Oman"
+      ],
+      "answer": 3,
+      "explanation": "The Strait of Hormuz links the Persian Gulf to the Gulf of Oman. The Bab-el-Mandeb links the Red Sea to the Gulf of Aden.",
+      "source": "ai",
+      "archetype": "ssc-chsl-G08",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Strait-connects-water-bodies is an SSC world-geography format; Hormuz is topical"
+      }
+    },
+    {
+      "id": "ssc-chsl-139",
+      "section": "gk",
+      "topic": "Economy",
+      "difficulty": "medium",
+      "question": "Where is the headquarters of the National Bank for Agriculture and Rural Development (NABARD)?",
+      "options": [
+        "New Delhi",
+        "Mumbai",
+        "Lucknow",
+        "Kolkata"
+      ],
+      "answer": 1,
+      "explanation": "NABARD is headquartered in Mumbai. Lucknow is the headquarters of SIDBI.",
+      "source": "ai",
+      "archetype": "ssc-chsl-G09",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Institution headquarters (NABARD Mumbai) is a frequent CHSL banking item"
+      }
+    },
+    {
+      "id": "ssc-chsl-140",
+      "section": "gk",
+      "topic": "Economy",
+      "difficulty": "medium",
+      "question": "Gross National Product (GNP) minus depreciation is equal to:",
+      "options": [
+        "Net National Product",
+        "Gross Domestic Product",
+        "Personal Income",
+        "Net Domestic Product"
+      ],
+      "answer": 0,
+      "explanation": "NNP = GNP − depreciation. NDP is obtained by subtracting depreciation from GDP, not GNP.",
+      "source": "ai",
+      "archetype": "ssc-chsl-G10",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "National-income aggregate definitions (GNP−Dep=NNP) asked often in CHSL economy"
+      }
+    },
+    {
+      "id": "ssc-chsl-141",
+      "section": "gk",
+      "topic": "Chemistry",
+      "difficulty": "medium",
+      "question": "The smell noticed when LPG leaks comes from which compound added to it?",
+      "options": [
+        "Methane",
+        "Butane",
+        "Ethyl mercaptan",
+        "Propane"
+      ],
+      "answer": 2,
+      "explanation": "LPG (mainly butane and propane) is odourless; ethyl mercaptan is added so that leaks can be detected.",
+      "source": "ai",
+      "archetype": "ssc-chsl-G12",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "LPG odorant (ethyl mercaptan) has appeared in SSC science; constituent gases as traps"
+      }
+    },
+    {
+      "id": "ssc-chsl-142",
+      "section": "gk",
+      "topic": "Biology",
+      "difficulty": "medium",
+      "question": "Which type of white blood cells is mainly responsible for producing antibodies?",
+      "options": [
+        "Neutrophils",
+        "Monocytes",
+        "Erythrocytes",
+        "Lymphocytes"
+      ],
+      "answer": 3,
+      "explanation": "B-lymphocytes (via plasma cells) produce antibodies. Neutrophils and monocytes are phagocytes; erythrocytes are red cells.",
+      "source": "ai",
+      "archetype": "ssc-chsl-G13",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Antibody-producing WBC is a valid CHSL biology fact; 'Erythrocytes' is a weak off-category distractor"
+      }
+    },
+    {
+      "id": "ssc-chsl-143",
+      "section": "gk",
+      "topic": "Art & Culture",
+      "difficulty": "medium",
+      "question": "'Nuakhai', a festival to welcome the new rice crop, is mainly celebrated in which state?",
+      "options": [
+        "Odisha",
+        "Jharkhand",
+        "Assam",
+        "West Bengal"
+      ],
+      "answer": 0,
+      "explanation": "Nuakhai is the harvest festival of western Odisha, observed the day after Ganesh Chaturthi.",
+      "source": "ai",
+      "archetype": "ssc-chsl-G15",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Festival-to-state (Nuakhai, Odisha) is a frequent CHSL culture format; eastern-state distractors"
+      }
+    },
+    {
+      "id": "ssc-chsl-144",
+      "section": "gk",
+      "topic": "Art & Culture",
+      "difficulty": "hard",
+      "question": "The Hawa Mahal in Jaipur was built in 1799 by which ruler?",
+      "options": [
+        "Sawai Jai Singh II",
+        "Sawai Madho Singh I",
+        "Man Singh I",
+        "Sawai Pratap Singh"
+      ],
+      "answer": 3,
+      "explanation": "Maharaja Sawai Pratap Singh commissioned the Hawa Mahal, designed by Lal Chand Ustad. Sawai Jai Singh II founded Jaipur.",
+      "source": "ai",
+      "archetype": "ssc-chsl-G16",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Monument builder (Hawa Mahal/Pratap Singh) with Jaipur rulers as distractors, standard SSC"
+      }
+    },
+    {
+      "id": "ssc-chsl-145",
+      "section": "gk",
+      "topic": "Current Affairs",
+      "difficulty": "medium",
+      "question": "Who was elected Vice-President of India in September 2025?",
+      "options": [
+        "B. Sudershan Reddy",
+        "C. P. Radhakrishnan",
+        "Harivansh Narayan Singh",
+        "Om Birla"
+      ],
+      "answer": 1,
+      "explanation": "C. P. Radhakrishnan won the vice-presidential election on 9 September 2025, defeating B. Sudershan Reddy, after Jagdeep Dhankhar's resignation.",
+      "source": "ai",
+      "archetype": "ssc-chsl-G17",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "VP election Sept 2025 (Radhakrishnan defeating Sudershan Reddy) is core 2025-26 CA; opponent as trap"
+      }
+    },
+    {
+      "id": "ssc-chsl-146",
+      "section": "gk",
+      "topic": "Sports",
+      "difficulty": "medium",
+      "question": "India won the ICC Women's Cricket World Cup 2025 by defeating which team in the final?",
+      "options": [
+        "Australia",
+        "England",
+        "South Africa",
+        "New Zealand"
+      ],
+      "answer": 2,
+      "explanation": "India beat South Africa in the final at Navi Mumbai on 2 November 2025 to win their first Women's World Cup title.",
+      "source": "ai",
+      "archetype": "ssc-chsl-G18",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Women's WC 2025 final vs South Africa (2 Nov 2025, verified) is prime sports CA"
+      }
+    },
+    {
+      "id": "ssc-chsl-147",
+      "section": "gk",
+      "topic": "Books, Authors & Awards",
+      "difficulty": "medium",
+      "question": "Who wrote the Hindi novel 'Tamas', set against the backdrop of the Partition?",
+      "options": [
+        "Yashpal",
+        "Bhisham Sahni",
+        "Krishna Sobti",
+        "Kamleshwar"
+      ],
+      "answer": 1,
+      "explanation": "'Tamas' (1974) is by Bhisham Sahni. Yashpal wrote 'Jhootha Sach', another Partition novel.",
+      "source": "ai",
+      "archetype": "ssc-chsl-G19",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Hindi novel-author pairing (Tamas/Bhisham Sahni) is a classic CHSL books item"
+      }
+    },
+    {
+      "id": "ssc-chsl-148",
+      "section": "quant",
+      "topic": "Simple & Compound Interest",
+      "difficulty": "medium",
+      "question": "What is the compound interest on ₹16,000 for 1 year at 10% per annum, compounded half-yearly?",
+      "options": [
+        "₹1,600",
+        "₹1,620",
+        "₹1,680",
+        "₹1,640"
+      ],
+      "answer": 3,
+      "explanation": "Rate 5% per half-year for 2 half-years: CI = 16000 × (1.05² − 1) = 16000 × 0.1025 = ₹1,640. (₹1,600 is the simple interest.)",
+      "source": "ai",
+      "archetype": "ssc-chsl-Q09",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Half-yearly CI for 1 year; 1600 (SI) and 1680 as realistic slips"
+      }
+    },
+    {
+      "id": "ssc-chsl-149",
+      "section": "quant",
+      "topic": "Algebra",
+      "difficulty": "hard",
+      "question": "If a + b + c = 12 and a² + b² + c² = 50, what is the value of ab + bc + ca?",
+      "options": [
+        "94",
+        "47",
+        "37",
+        "52"
+      ],
+      "answer": 1,
+      "explanation": "(a + b + c)² = a² + b² + c² + 2(ab + bc + ca) ⇒ 144 = 50 + 2(ab + bc + ca) ⇒ ab + bc + ca = 47.",
+      "source": "ai",
+      "archetype": "ssc-chsl-Q18",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "(a+b+c)² identity, quick CHSL algebra; 94 (forgot ÷2) is the right trap"
+      }
+    },
+    {
+      "id": "ssc-chsl-150",
+      "section": "quant",
+      "topic": "Geometry",
+      "difficulty": "hard",
+      "question": "From an external point P, a tangent PT of length 12 cm is drawn to a circle. A secant through P meets the circle at A and B (A nearer to P) such that PA = 8 cm. What is the length of AB?",
+      "options": [
+        "10 cm",
+        "18 cm",
+        "9 cm",
+        "6 cm"
+      ],
+      "answer": 0,
+      "explanation": "PT² = PA × PB ⇒ 144 = 8 × PB ⇒ PB = 18 cm, so AB = 18 − 8 = 10 cm.",
+      "source": "ai",
+      "archetype": "ssc-chsl-Q20",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Tangent-secant theorem PT²=PA·PB; 18 (PB) is the classic distractor"
+      }
+    },
+    {
+      "id": "ssc-chsl-151",
+      "section": "quant",
+      "topic": "Trigonometry",
+      "difficulty": "hard",
+      "question": "If sec θ + tan θ = 3, what is the value of sin θ?",
+      "options": [
+        "3/5",
+        "3/4",
+        "4/3",
+        "4/5"
+      ],
+      "answer": 3,
+      "explanation": "sec θ − tan θ = 1/3. Adding: sec θ = 5/3; subtracting: tan θ = 4/3. sin θ = tan θ / sec θ = 4/5.",
+      "source": "ai",
+      "archetype": "ssc-chsl-Q25",
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "sec+tan=k conditional trig exactly as CHSL sets it; 3/5 and 4/3 are swap traps"
+      }
+    },
+    {
+      "id": "ssc-chsl-152",
+      "section": "quant",
+      "topic": "Time & Work",
+      "difficulty": "medium",
+      "question": "A and B can complete a work in 20 days and 30 days respectively. They start working together, but A leaves 5 days before the work is completed. In how many days is the whole work completed?",
+      "options": [
+        "14",
+        "15",
+        "12",
+        "16"
+      ],
+      "answer": 1,
+      "explanation": "Let the work take T days: (T − 5)/20 + T/30 = 1 ⇒ 3T − 15 + 2T = 60 ⇒ T = 15.",
+      "source": "ai",
+      "archetype": "ssc-chsl-Q13",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "'A leaves k days before completion' is a standard CHSL time-work twist"
+      }
+    },
+    {
+      "id": "ssc-chsl-153",
+      "section": "quant",
+      "topic": "Time, Speed & Distance",
+      "difficulty": "medium",
+      "question": "A train 240 m long, running at 64 km/h, overtakes a man walking at 4 km/h in the same direction. In how much time will it pass him?",
+      "options": [
+        "13.5 seconds",
+        "12.7 seconds",
+        "14.4 seconds",
+        "16 seconds"
+      ],
+      "answer": 2,
+      "explanation": "Relative speed = 64 − 4 = 60 km/h = 50/3 m/s. Time = 240 ÷ (50/3) = 14.4 s.",
+      "source": "ai",
+      "archetype": "ssc-chsl-Q15",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Train overtaking man, same-direction relative speed with km/h→m/s; textbook CHSL"
+      }
+    },
+    {
+      "id": "ssc-chsl-154",
+      "section": "quant",
+      "topic": "Mensuration",
+      "difficulty": "medium",
+      "question": "The length of a rectangle is increased by 30% and its breadth is decreased by 20%. What is the percentage change in its area?",
+      "options": [
+        "4% increase",
+        "10% increase",
+        "4% decrease",
+        "6% increase"
+      ],
+      "answer": 0,
+      "explanation": "New area = 1.3 × 0.8 = 1.04 of the original, i.e. a 4% increase. (30 − 20 = 10% ignores the product term.)",
+      "source": "ai",
+      "archetype": "ssc-chsl-Q22",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Successive % change in area (x+y+xy/100) is frequent in CHSL mensuration"
+      }
+    },
+    {
+      "id": "ssc-chsl-155",
+      "section": "english",
+      "topic": "Cloze Test",
+      "difficulty": "medium",
+      "question": "Read the passage and select the most appropriate option for the numbered blank.\n\nWater is the most precious resource we have, yet we often (1) ______ it as if it would never run out. In many cities, leaking pipes waste a large (2) ______ of treated water every day. Farmers, too, depend heavily (3) ______ groundwater, and wells that were once full are now drying up. Simple measures such as rainwater harvesting and drip irrigation can make a real (4) ______. If each of us is careful, we can (5) ______ that future generations do not face a crisis.\n\nSelect the most appropriate option for blank (2).",
+      "options": [
+        "number",
+        "deal",
+        "quantity",
+        "many"
+      ],
+      "answer": 2,
+      "explanation": "Water is uncountable, so 'a large quantity of water' is correct; 'a large number of' needs a countable noun and the idiom is 'a great deal', not 'a large deal'.",
+      "source": "ai",
+      "archetype": "ssc-chsl-E04",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Cloze blank: uncountable 'quantity' vs 'number/many' collocation, CHSL style"
+      }
+    },
+    {
+      "id": "ssc-chsl-156",
+      "section": "english",
+      "topic": "Cloze Test",
+      "difficulty": "medium",
+      "question": "Read the passage and select the most appropriate option for the numbered blank.\n\nWater is the most precious resource we have, yet we often (1) ______ it as if it would never run out. In many cities, leaking pipes waste a large (2) ______ of treated water every day. Farmers, too, depend heavily (3) ______ groundwater, and wells that were once full are now drying up. Simple measures such as rainwater harvesting and drip irrigation can make a real (4) ______. If each of us is careful, we can (5) ______ that future generations do not face a crisis.\n\nSelect the most appropriate option for blank (4).",
+      "options": [
+        "distinction",
+        "difference",
+        "variation",
+        "contrast"
+      ],
+      "answer": 1,
+      "explanation": "'Make a difference' is the fixed collocation meaning to have a useful effect; the other near-synonyms do not collocate with 'make'.",
+      "source": "ai",
+      "archetype": "ssc-chsl-E04",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Collocation 'make a real difference' with near-synonym distractors, true to CHSL cloze"
+      }
+    },
+    {
+      "id": "ssc-chsl-157",
+      "section": "english",
+      "topic": "Cloze Test",
+      "difficulty": "medium",
+      "question": "Read the passage and select the most appropriate option for the numbered blank.\n\nWater is the most precious resource we have, yet we often (1) ______ it as if it would never run out. In many cities, leaking pipes waste a large (2) ______ of treated water every day. Farmers, too, depend heavily (3) ______ groundwater, and wells that were once full are now drying up. Simple measures such as rainwater harvesting and drip irrigation can make a real (4) ______. If each of us is careful, we can (5) ______ that future generations do not face a crisis.\n\nSelect the most appropriate option for blank (5).",
+      "options": [
+        "assure",
+        "insure",
+        "assume",
+        "ensure"
+      ],
+      "answer": 3,
+      "explanation": "'Ensure' means to make certain that something happens. 'Assure' needs a person as object, 'insure' relates to insurance and 'assume' means suppose.",
+      "source": "ai",
+      "archetype": "ssc-chsl-E04",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "ensure/assure/insure confusable trio is a classic SSC cloze trap"
+      }
+    },
+    {
+      "id": "ssc-chsl-158",
+      "section": "english",
+      "topic": "Sentence Improvement",
+      "difficulty": "medium",
+      "question": "Select the most appropriate option to improve the bracketed part of the sentence.\nThe committee [comprises of] seven members.",
+      "options": [
+        "comprises",
+        "is comprising of",
+        "comprised with",
+        "No improvement"
+      ],
+      "answer": 0,
+      "explanation": "'Comprise' is not followed by 'of': the committee comprises seven members (or 'consists of').",
+      "source": "ai",
+      "archetype": "ssc-chsl-E14",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "'comprises of' is a staple SSC sentence-improvement error"
+      }
+    },
+    {
+      "id": "ssc-chsl-159",
+      "section": "english",
+      "topic": "Synonyms",
+      "difficulty": "medium",
+      "question": "Select the most appropriate synonym of the given word.\nMETICULOUS",
+      "options": [
+        "Careless",
+        "Meretricious",
+        "Painstaking",
+        "Hasty"
+      ],
+      "answer": 2,
+      "explanation": "Meticulous means showing great attention to detail – painstaking. 'Careless' and 'hasty' are opposites; 'meretricious' is a look-alike meaning showy.",
+      "source": "ai",
+      "archetype": "ssc-chsl-E07",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Synonym with lookalike 'Meretricious' and antonyms as traps, typical CHSL vocabulary"
+      }
     }
   ]
 }

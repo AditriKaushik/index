@@ -237,6 +237,640 @@
       }
     ]
   },
+  "pyqBlueprint": {
+    "yearsCovered": [
+      2023,
+      2024,
+      2025
+    ],
+    "method": "Compiled from shift-wise memory-based analyses of IBPS RRB Officer Scale-I prelims 2023 (Aug 2023), 2024 (Aug 2024) and 2025 (22–23 Nov 2025) published by coaching sites (Time4Education, Mahendras, Adda247, Physics Wallah), cross-checked with the official IBPS RRB pattern (40 reasoning + 40 quant in 45 minutes). Topic-wise counts for 2025 reasoning were less detailed, so some reasoning archetypes rely mainly on 2023–2024. Patterns are paraphrased; no real question is reproduced.",
+    "archetypes": [
+      {
+        "id": "ibps-rrb-po-Q01",
+        "section": "quant",
+        "topic": "Data Interpretation",
+        "pattern": "Table DI (5 rows × 2–3 columns): percentage increase/decrease of one entity between two years, or one entity as a percentage of another",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per DI set",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-rrb-po-Q02",
+        "section": "quant",
+        "topic": "Data Interpretation",
+        "pattern": "Table DI with a percentage column (e.g. share of a sub-category): compute derived values (sum, average, difference or ratio of derived quantities)",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "2–3 per DI set",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ibps-rrb-po-Q03",
+        "section": "quant",
+        "topic": "Data Interpretation",
+        "pattern": "Caselet DI on rural themes (cooperative members, farmers, milk collection): a total split by percentages/fractions, then sub-splits; combine or re-split after a change",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 set (3–5 Qs) per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ibps-rrb-po-Q04",
+        "section": "quant",
+        "topic": "Data Interpretation",
+        "pattern": "Pie-chart DI (shares in % or degrees of a total): find values, differences and ratios across sectors",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 set per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-rrb-po-Q05",
+        "section": "quant",
+        "topic": "Data Interpretation",
+        "pattern": "Bar/line-graph DI (values given for 5–6 categories or months): averages, ratios and percentage differences",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 set per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-rrb-po-Q07",
+        "section": "quant",
+        "topic": "Quadratic Equations",
+        "pattern": "Two quadratic equations in x and y with integer/fraction roots; compare x and y using the five standard relations (> ≥ < ≤ / cannot be established)",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "3–5 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-rrb-po-Q09",
+        "section": "quant",
+        "topic": "Number Series",
+        "pattern": "Missing number series built on differences of squares/cubes, alternate ×n +k, or ×n with increasing n",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "3–5 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-rrb-po-Q10",
+        "section": "quant",
+        "topic": "Number Series",
+        "pattern": "Wrong number series: one term breaks the ×/+ pattern; find it",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–5 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-rrb-po-Q11",
+        "section": "quant",
+        "topic": "Simplification & Approximation",
+        "pattern": "Exact simplification with BODMAS, percentages, fractions, squares and square roots; find '?'",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "5–10 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ibps-rrb-po-Q12",
+        "section": "quant",
+        "topic": "Simplification & Approximation",
+        "pattern": "Approximation: decimals close to whole numbers in %, ×, ÷, √ and powers; find the nearest value",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "3–5 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ibps-rrb-po-Q13",
+        "section": "quant",
+        "topic": "Simplification & Approximation",
+        "pattern": "Find the unknown placed inside the expression (? % of N, √?, ?² or a fraction of ?)",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "2–4 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ibps-rrb-po-Q14",
+        "section": "quant",
+        "topic": "Percentage & Profit-Loss",
+        "pattern": "Profit & loss with marked price, discount and cost price (single or successive discounts, 'had he sold for ₹x more')",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-rrb-po-Q15",
+        "section": "quant",
+        "topic": "Percentage & Profit-Loss",
+        "pattern": "Percentage word problem: income–expenditure–savings, successive percentage change, or one value as a percentage of another",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-rrb-po-Q16",
+        "section": "quant",
+        "topic": "Ratio, Partnership & Ages",
+        "pattern": "Partnership with unequal times or a mid-year change of capital; find a partner's share of profit",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-rrb-po-Q17",
+        "section": "quant",
+        "topic": "Ratio, Partnership & Ages",
+        "pattern": "Ages: present-age ratio with a condition some years before/after; find an age or sum of ages",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-rrb-po-Q18",
+        "section": "quant",
+        "topic": "Ratio, Partnership & Ages",
+        "pattern": "Ratio & proportion: dividing an amount in a ratio, or changing a ratio by adding/removing a quantity",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ibps-rrb-po-Q19",
+        "section": "quant",
+        "topic": "Time & Work",
+        "pattern": "Time & work / pipes: efficiencies combined, one leaves after some days, or an emptying pipe",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-rrb-po-Q20",
+        "section": "quant",
+        "topic": "Speed, Time & Distance (incl. Boats & Trains)",
+        "pattern": "Trains crossing poles/platforms/each other, relative speed, or average speed of a round trip",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-rrb-po-Q21",
+        "section": "quant",
+        "topic": "Speed, Time & Distance (incl. Boats & Trains)",
+        "pattern": "Boats and streams: downstream/upstream speeds and times",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-rrb-po-Q22",
+        "section": "quant",
+        "topic": "Simple & Compound Interest",
+        "pattern": "Simple vs compound interest: CI–SI difference, amount at CI, or a sum split between two rates",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-rrb-po-Q23",
+        "section": "quant",
+        "topic": "Mixture & Alligation",
+        "pattern": "Mixture & alligation: mixing two varieties to a target price/ratio, or adding/replacing liquid",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-rrb-po-Q24",
+        "section": "quant",
+        "topic": "Probability",
+        "pattern": "Probability with balls/cards/committees, using combinations",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-rrb-po-Q25",
+        "section": "quant",
+        "topic": "Mensuration",
+        "pattern": "Mensuration: rectangle/circle/cylinder area, perimeter or volume relationships",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-rrb-po-R01",
+        "section": "reasoning",
+        "topic": "Puzzles & Seating Arrangement",
+        "pattern": "Linear row (7–9 persons, all facing one direction), sometimes with vacant seats or an attribute; 3–5 questions on positions, neighbours and 'how many between'",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 set per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-rrb-po-R02",
+        "section": "reasoning",
+        "topic": "Puzzles & Seating Arrangement",
+        "pattern": "Linear arrangement with mixed directions (some face north, some south) or two parallel rows facing each other",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 set per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ibps-rrb-po-R03",
+        "section": "reasoning",
+        "topic": "Puzzles & Seating Arrangement",
+        "pattern": "Circular table (6–8 persons) facing the centre (or some outside); left/right relations and 'second to the left of' questions",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 set per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-rrb-po-R04",
+        "section": "reasoning",
+        "topic": "Puzzles & Seating Arrangement",
+        "pattern": "Floor-based puzzle (4–7 floors, sometimes two flats per floor such as flat X/flat Y) with persons and one attribute; 'who lives directly above/below' questions",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 set per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-rrb-po-R05",
+        "section": "reasoning",
+        "topic": "Puzzles & Seating Arrangement",
+        "pattern": "Scheduling puzzle: persons/events on days of the week or months (sometimes with dates 1xth/2xth); 'how many between' questions",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 set per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-rrb-po-R06",
+        "section": "reasoning",
+        "topic": "Puzzles & Seating Arrangement",
+        "pattern": "Box stacking: boxes placed one above another, with colour/item attribute and 'how many boxes between' clues",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 set per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-rrb-po-R07",
+        "section": "reasoning",
+        "topic": "Puzzles & Seating Arrangement",
+        "pattern": "Comparison puzzle: heights/weights/marks of 5–6 persons with 'more than only' clues; ask rank or a derived value",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 small set per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ibps-rrb-po-R11",
+        "section": "reasoning",
+        "topic": "Syllogism",
+        "pattern": "Syllogism with 2–3 statements and two conclusions, including 'possibility' conclusions; standard five options",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "2–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-rrb-po-R12",
+        "section": "reasoning",
+        "topic": "Syllogism",
+        "pattern": "Syllogism with 'Only a few' or 'No' statements where a definite 'All' conclusion is the trap",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-rrb-po-R13",
+        "section": "reasoning",
+        "topic": "Inequality",
+        "pattern": "Direct inequality: two or three combined statements, two conclusions to check",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "2–4 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ibps-rrb-po-R14",
+        "section": "reasoning",
+        "topic": "Inequality",
+        "pattern": "Inequality where the conclusions form a complementary pair (A > B / A = B) and the answer is 'Either I or II follows'",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-rrb-po-R15",
+        "section": "reasoning",
+        "topic": "Blood Relations",
+        "pattern": "Blood relation chain or 'pointing to a photograph' statement; gender ambiguity is the usual trap",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-rrb-po-R16",
+        "section": "reasoning",
+        "topic": "Blood Relations",
+        "pattern": "Coded blood relation: symbols (+, −, ×, ÷ or @, #) denote relations; decode an expression",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-rrb-po-R17",
+        "section": "reasoning",
+        "topic": "Direction Sense",
+        "pattern": "Direction & distance: a person walks a path with left/right turns; find the shortest distance and direction from start",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ibps-rrb-po-R18",
+        "section": "reasoning",
+        "topic": "Direction Sense",
+        "pattern": "Point-based direction: several points given relative to each other; find direction/distance between two of them",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-rrb-po-R19",
+        "section": "reasoning",
+        "topic": "Coding-Decoding",
+        "pattern": "Letter coding: word coded by letter shifts / reversal / opposite letters; code a new word",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-rrb-po-R20",
+        "section": "reasoning",
+        "topic": "Coding-Decoding",
+        "pattern": "Sentence (Chinese) coding: three or four phrases coded in two-letter codes; find the code of a word by elimination",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-rrb-po-R21",
+        "section": "reasoning",
+        "topic": "Order & Ranking",
+        "pattern": "Order & ranking: positions from both ends of a row/class, total count, or persons between two people",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ibps-rrb-po-R22",
+        "section": "reasoning",
+        "topic": "Alphanumeric Series",
+        "pattern": "Alphanumeric-symbol arrangement: count elements satisfying a 'preceded by / followed by' condition, or find the nth element from an end",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "2–5 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-rrb-po-R23",
+        "section": "reasoning",
+        "topic": "Alphanumeric Series",
+        "pattern": "English alphabet positions: nth letter from left/right after rearrangement or reversal; letter-pair series",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-rrb-po-R24",
+        "section": "reasoning",
+        "topic": "Miscellaneous (Word/Number Formation)",
+        "pattern": "Letter pairs in a word with as many letters between them as in the English alphabet",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ibps-rrb-po-R25",
+        "section": "reasoning",
+        "topic": "Miscellaneous (Word/Number Formation)",
+        "pattern": "Meaningful words formed from given letters of a word (each letter used once)",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per paper",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ibps-rrb-po-R26",
+        "section": "reasoning",
+        "topic": "Miscellaneous (Word/Number Formation)",
+        "pattern": "Number formation: digits of 3-digit numbers rearranged/operated on; find the resulting number or difference",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-rrb-po-R27",
+        "section": "reasoning",
+        "topic": "Data Sufficiency",
+        "pattern": "Data sufficiency with two statements on seating/coding/blood relation; standard five options",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–3 per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ibps-rrb-po-R31",
+        "section": "reasoning",
+        "topic": "Direction Sense",
+        "pattern": "Direction after a sequence of clockwise/anticlockwise turns in degrees",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per paper",
+        "difficulty": "easy"
+      }
+    ]
+  },
   "resources": {
     "pyqAvailable": true,
     "officialPYQ": null,
@@ -259,41 +893,14 @@
       ],
       "answer": 1,
       "explanation": "Clockwise from A: A, D, F, B, E, C (facing the centre, left = clockwise). B's immediate right (anticlockwise) is F.",
-      "verified": true
-    },
-    {
-      "id": "ibps-rrb-po-002",
-      "section": "reasoning",
-      "topic": "Puzzles & Seating Arrangement",
-      "difficulty": "medium",
-      "question": "Six friends A, B, C, D, E and F sit around a circular table, all facing the centre. B sits second to the left of D. E sits immediately to the left of B. A sits opposite B. C is not an immediate neighbour of D.\n\nWho sits opposite D?",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "E",
-        "F"
-      ],
-      "answer": 3,
-      "explanation": "Clockwise: A, D, F, B, E, C. D is in seat 2, so the seat opposite (seat 5) has E.",
-      "verified": true
-    },
-    {
-      "id": "ibps-rrb-po-003",
-      "section": "reasoning",
-      "topic": "Puzzles & Seating Arrangement",
-      "difficulty": "medium",
-      "question": "Six friends A, B, C, D, E and F sit around a circular table, all facing the centre. B sits second to the left of D. E sits immediately to the left of B. A sits opposite B. C is not an immediate neighbour of D.\n\nWho are the immediate neighbours of C?",
-      "options": [
-        "A and D",
-        "B and E",
-        "E and A",
-        "F and B",
-        "D and F"
-      ],
-      "answer": 2,
-      "explanation": "Clockwise: A, D, F, B, E, C. C sits between E and A.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-rrb-po-R03",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "6-person circle, unique ADFBEC; RRB PO-level though small"
+      }
     },
     {
       "id": "ibps-rrb-po-004",
@@ -310,7 +917,14 @@
       ],
       "answer": 0,
       "explanation": "Left to right (west to east): U (N), Q (S), S (N), P (S), T (N), R (S). Q, P and R face south — three.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-rrb-po-R02",
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Mixed-facing 6-person row, unique; R02 faithful"
+      }
     },
     {
       "id": "ibps-rrb-po-005",
@@ -327,7 +941,14 @@
       ],
       "answer": 2,
       "explanation": "Row (west→east): U (N), Q (S), S (N), P (S), T (N), R (S). Q faces south, so his right is towards the west — U.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-rrb-po-R02",
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Right of south-facing Q = U; orientation trap"
+      }
     },
     {
       "id": "ibps-rrb-po-006",
@@ -344,7 +965,14 @@
       ],
       "answer": 1,
       "explanation": "Row (west→east): U, Q, S, P, T, R. P sits between S and T.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-rrb-po-R02",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Between S and T = P"
+      }
     },
     {
       "id": "ibps-rrb-po-007",
@@ -361,7 +989,14 @@
       ],
       "answer": 2,
       "explanation": "G must be in March (January leaves no month for H; May would put L in June, which is I's). So H Feb, L Apr (Delhi), Agra in May. K before J gives K Jan (Goa), J May (Agra).",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-rrb-po-R05",
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Month+city scheduling with 31-day clue; unique"
+      }
     },
     {
       "id": "ibps-rrb-po-008",
@@ -378,7 +1013,14 @@
       ],
       "answer": 1,
       "explanation": "G travels in March, so H (immediately before G) travels in February.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-rrb-po-R05",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "H in February"
+      }
     },
     {
       "id": "ibps-rrb-po-009",
@@ -395,7 +1037,14 @@
       ],
       "answer": 1,
       "explanation": "Order: K (Jan, Goa), H (Feb, Leh), G (Mar, Pune), L (Apr, Delhi), J (May, Agra), I (Jun, Ooty). Between K and L: H and G — two.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-rrb-po-R05",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Between K and L = 2"
+      }
     },
     {
       "id": "ibps-rrb-po-010",
@@ -412,7 +1061,14 @@
       ],
       "answer": 1,
       "explanation": "Bottom to top: O, S, M, Q, N, R, P. S is second from the bottom.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-rrb-po-R06",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "7-box stack unique OSMQNRP"
+      }
     },
     {
       "id": "ibps-rrb-po-011",
@@ -429,92 +1085,14 @@
       ],
       "answer": 4,
       "explanation": "Bottom to top: O, S, M, Q, N, R, P. Between O (1) and N (5) are S, M and Q — three.",
-      "verified": true
-    },
-    {
-      "id": "ibps-rrb-po-012",
-      "section": "reasoning",
-      "topic": "Puzzles & Seating Arrangement",
-      "difficulty": "medium",
-      "question": "Seven boxes M, N, O, P, Q, R and S are kept one above another (position 1 is the bottom, 7 the top). Q is exactly in the middle of the stack. Only two boxes are between Q and P, and P is above Q. N is immediately below R, and R is above Q. Only one box is between M and N. S is above O.\n\nWhich box is placed immediately above Q?",
-      "options": [
-        "R",
-        "M",
-        "N",
-        "P",
-        "S"
-      ],
-      "answer": 2,
-      "explanation": "Q = 4, P = 7; N–R must be 5–6, so N is immediately above Q. M is 3 (two from N), and O, S take 1, 2.",
-      "verified": true
-    },
-    {
-      "id": "ibps-rrb-po-013",
-      "section": "reasoning",
-      "topic": "Puzzles & Seating Arrangement",
-      "difficulty": "medium",
-      "question": "Five students A, B, C, D and E scored different marks. B scored more than only two students. D scored more than B but less than A. E scored less than C. Who scored the second lowest marks?",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "answer": 2,
-      "explanation": "B is third from the top; A > D > B are the top three, and C > E are below B. Order: A, D, B, C, E — C is second lowest.",
-      "verified": true
-    },
-    {
-      "id": "ibps-rrb-po-014",
-      "section": "reasoning",
-      "topic": "Puzzles & Seating Arrangement",
-      "difficulty": "medium",
-      "question": "Four persons P, Q, R and S sit around a square table, one on each side, facing the centre. Q sits to the immediate right of P. S does not sit opposite Q. Who sits to the immediate left of P?",
-      "options": [
-        "Q",
-        "R",
-        "S",
-        "Cannot be determined",
-        "None of these"
-      ],
-      "answer": 1,
-      "explanation": "S is not opposite Q, so S is opposite P, and R is opposite Q. Q is on P's right, so R is on P's left.",
-      "verified": true
-    },
-    {
-      "id": "ibps-rrb-po-015",
-      "section": "reasoning",
-      "topic": "Puzzles & Seating Arrangement",
-      "difficulty": "easy",
-      "question": "Five persons V, W, X, Y and Z live on different floors of a five-storey building (floor 1 is the bottom). V lives on an even-numbered floor. W lives immediately above V. X lives on the top floor. Y lives on a floor below Z. Who lives on floor 4?",
-      "options": [
-        "V",
-        "W",
-        "Y",
-        "Z",
-        "X"
-      ],
-      "answer": 3,
-      "explanation": "X is on 5. V on 4 would put W on 5 (X's), so V = 2 and W = 3. Floors 1 and 4 remain; Y below Z → Y = 1, Z = 4.",
-      "verified": true
-    },
-    {
-      "id": "ibps-rrb-po-016",
-      "section": "reasoning",
-      "topic": "Syllogism",
-      "difficulty": "easy",
-      "question": "Statements: Some boxes are cartons. All cartons are bags.\nConclusions: I. Some boxes are bags. II. Some bags are cartons.",
-      "options": [
-        "Only I follows",
-        "Only II follows",
-        "Either I or II follows",
-        "Neither I nor II follows",
-        "Both I and II follow"
-      ],
-      "answer": 4,
-      "explanation": "Boxes that are cartons are bags (I). Since all cartons are bags, some bags are cartons (II). Both follow.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-rrb-po-R06",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Boxes between O and N = 3"
+      }
     },
     {
       "id": "ibps-rrb-po-017",
@@ -531,24 +1109,14 @@
       ],
       "answer": 4,
       "explanation": "Buses are trucks and no bus is a car, so some trucks are not cars (I). Vans are only linked to trucks; nothing stops all vans from being cars (II is possible). Both follow.",
-      "verified": true
-    },
-    {
-      "id": "ibps-rrb-po-018",
-      "section": "reasoning",
-      "topic": "Inequality",
-      "difficulty": "easy",
-      "question": "Statement: W > X ≥ Y > Z\nConclusions: I. W > Z  II. Y ≥ W",
-      "options": [
-        "Only I follows",
-        "Only II follows",
-        "Either I or II follows",
-        "Neither I nor II follows",
-        "Both I and II follow"
-      ],
-      "answer": 0,
-      "explanation": "W > X ≥ Y > Z gives W > Z; and W > Y, so II is false. Only I follows.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-rrb-po-R11",
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "No/All/Some with possibility conclusion; good RRB trap"
+      }
     },
     {
       "id": "ibps-rrb-po-019",
@@ -565,24 +1133,14 @@
       ],
       "answer": 4,
       "explanation": "K ≥ J > I > H ≥ G gives K > G and H < J. Both follow.",
-      "verified": true
-    },
-    {
-      "id": "ibps-rrb-po-020",
-      "section": "reasoning",
-      "topic": "Coding-Decoding",
-      "difficulty": "easy",
-      "question": "If 'CLOUD' is written as 'DMPVE' in a code, how is 'RAIN' written?",
-      "options": [
-        "SBIO",
-        "SCJO",
-        "QZHM",
-        "SBJO",
-        "TBJO"
-      ],
-      "answer": 3,
-      "explanation": "Each letter moves one place forward: R→S, A→B, I→J, N→O = SBJO.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-rrb-po-R13",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Three-statement inequality"
+      }
     },
     {
       "id": "ibps-rrb-po-021",
@@ -599,7 +1157,14 @@
       ],
       "answer": 0,
       "explanation": "Letters move +1, −1 alternately: W+1, A−1, T+1, E−1, R+1. FIELD → F+1 = G, I−1 = H, E+1 = F, L−1 = K, D+1 = E = GHFKE.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-rrb-po-R19",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Alternating +1/-1 code"
+      }
     },
     {
       "id": "ibps-rrb-po-022",
@@ -616,7 +1181,14 @@
       ],
       "answer": 1,
       "explanation": "M and N are children of P and O. Q is P's brother, so M is Q's niece.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-rrb-po-R15",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Niece chain; standard"
+      }
     },
     {
       "id": "ibps-rrb-po-023",
@@ -633,41 +1205,14 @@
       ],
       "answer": 4,
       "explanation": "Q + R: Q is R's father. R − S: R is S's wife. So Q is the father of S's wife — S's father-in-law.",
-      "verified": true
-    },
-    {
-      "id": "ibps-rrb-po-024",
-      "section": "reasoning",
-      "topic": "Direction Sense",
-      "difficulty": "easy",
-      "question": "Raj is facing east. He turns 135° anticlockwise. Which direction is he facing now?",
-      "options": [
-        "North-East",
-        "West",
-        "South-West",
-        "North-West",
-        "North"
-      ],
-      "answer": 3,
-      "explanation": "East → 90° anticlockwise = North → a further 45° = North-West.",
-      "verified": true
-    },
-    {
-      "id": "ibps-rrb-po-025",
-      "section": "reasoning",
-      "topic": "Direction Sense",
-      "difficulty": "easy",
-      "question": "A is 10 m north of B. C is 6 m east of B. D is 10 m north of C. How far and in which direction is D from A?",
-      "options": [
-        "6 m West",
-        "6 m East",
-        "10 m North",
-        "16 m East",
-        "8 m North-East"
-      ],
-      "answer": 1,
-      "explanation": "Take B = (0,0): A = (0,10), C = (6,0), D = (6,10). D is 6 m east of A.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-rrb-po-R16",
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Symbol-coded relation to father-in-law; R16 faithful"
+      }
     },
     {
       "id": "ibps-rrb-po-026",
@@ -684,7 +1229,14 @@
       ],
       "answer": 0,
       "explanation": "Rita's new place is Monika's old place: 22nd from the left and 17th from the right. Total = 22 + 17 − 1 = 38.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-rrb-po-R21",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Interchange-position total count"
+      }
     },
     {
       "id": "ibps-rrb-po-027",
@@ -701,7 +1253,14 @@
       ],
       "answer": 2,
       "explanation": "9th from the right = 27 − 9 = 18th letter = R. 5th to its left = 13th letter = M.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-rrb-po-R23",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Alphabet position from right then left"
+      }
     },
     {
       "id": "ibps-rrb-po-028",
@@ -718,7 +1277,14 @@
       ],
       "answer": 1,
       "explanation": "D (3 D @) and K (8 K %) qualify; F is followed by H and M has nothing after it. Two.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-rrb-po-R22",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Letters between number and symbol count"
+      }
     },
     {
       "id": "ibps-rrb-po-029",
@@ -735,24 +1301,14 @@
       ],
       "answer": 4,
       "explanation": "New numbers: 379, 248, 156, 249, 368. In descending order: 379, 368, 249, 248, 156. The second largest, 368, comes from 368.",
-      "verified": true
-    },
-    {
-      "id": "ibps-rrb-po-030",
-      "section": "reasoning",
-      "topic": "Data Sufficiency",
-      "difficulty": "medium",
-      "question": "How is J related to K?\nI. J is the brother of L, who is the daughter of K.\nII. K is the wife of M, who is the father of J.",
-      "options": [
-        "The data in statement I alone are sufficient, but the data in statement II alone are not",
-        "The data in statement II alone are sufficient, but the data in statement I alone are not",
-        "The data in either statement I alone or statement II alone are sufficient",
-        "The data in both statements I and II together are not sufficient",
-        "The data in both statements I and II together are necessary"
-      ],
-      "answer": 0,
-      "explanation": "From I: L is K's daughter and J is L's brother, so J is K's son — sufficient. From II: K is J's mother, but J's gender is unknown (son or daughter) — not sufficient.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-rrb-po-R26",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Digit-sort number formation"
+      }
     },
     {
       "id": "ibps-rrb-po-031",
@@ -769,7 +1325,14 @@
       ],
       "answer": 4,
       "explanation": "35% of 60 hundred = 21 hundred = 2,100.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-rrb-po-Q02",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Women count from % column"
+      }
     },
     {
       "id": "ibps-rrb-po-032",
@@ -786,7 +1349,14 @@
       ],
       "answer": 4,
       "explanation": "A men = 70% of 40 = 28; C men = 75% of 48 = 36. 28 : 36 = 7 : 9.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-rrb-po-Q02",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Men ratio from % column"
+      }
     },
     {
       "id": "ibps-rrb-po-033",
@@ -803,7 +1373,14 @@
       ],
       "answer": 0,
       "explanation": "(40 + 55 + 48 + 60 + 45) = 248 hundred; 248/5 = 49.6 hundred = 4,960.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-rrb-po-Q02",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Average farmers"
+      }
     },
     {
       "id": "ibps-rrb-po-034",
@@ -820,7 +1397,14 @@
       ],
       "answer": 3,
       "explanation": "A women = 12, E women = 18 → 30 hundred. 30/48 × 100 = 62.5%.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-rrb-po-Q02",
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Combined derived value as % of another"
+      }
     },
     {
       "id": "ibps-rrb-po-035",
@@ -837,7 +1421,14 @@
       ],
       "answer": 4,
       "explanation": "2025: 20% of 55 = 11 hundred. 2026: 66 × 30% = 19.8 hundred. Increase = 8.8 hundred = 880.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-rrb-po-Q02",
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Projected change with new %; good derived question"
+      }
     },
     {
       "id": "ibps-rrb-po-036",
@@ -854,7 +1445,14 @@
       ],
       "answer": 2,
       "explanation": "X = 4,800; Y + Z = 7,200 and Y − Z = 1,200 → Y = 4,200, Z = 3,000.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-rrb-po-Q03",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Milk cooperative caselet, RRB rural theme"
+      }
     },
     {
       "id": "ibps-rrb-po-037",
@@ -871,7 +1469,14 @@
       ],
       "answer": 4,
       "explanation": "Z = 3,000 litres × ₹42 = ₹1,26,000.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-rrb-po-Q03",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Payment to Z"
+      }
     },
     {
       "id": "ibps-rrb-po-038",
@@ -888,7 +1493,14 @@
       ],
       "answer": 0,
       "explanation": "X = 4,800 × 40 = ₹1,92,000; Y = 4,200 × 38 = ₹1,59,600. Ratio = 1920 : 1596 = 160 : 133.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-rrb-po-Q03",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Payment ratio with reversed distractor"
+      }
     },
     {
       "id": "ibps-rrb-po-039",
@@ -905,24 +1517,14 @@
       ],
       "answer": 2,
       "explanation": "Total = 1,92,000 + 1,59,600 + 1,26,000 = ₹4,77,600. 4,77,600/12,000 = ₹39.80.",
-      "verified": true
-    },
-    {
-      "id": "ibps-rrb-po-040",
-      "section": "quant",
-      "topic": "Simplification & Approximation",
-      "difficulty": "easy",
-      "question": "15% of 240 + 25% of 160 = ?",
-      "options": [
-        "72",
-        "74",
-        "76",
-        "78",
-        "80"
-      ],
-      "answer": 2,
-      "explanation": "36 + 40 = 76.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-rrb-po-Q03",
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Weighted average price"
+      }
     },
     {
       "id": "ibps-rrb-po-041",
@@ -939,7 +1541,14 @@
       ],
       "answer": 1,
       "explanation": "√1296 = 36; 36 ÷ 4 = 9; 9 × 7 = 63; 63 + 17 = 80.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-rrb-po-Q11",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Root-division-product chain"
+      }
     },
     {
       "id": "ibps-rrb-po-042",
@@ -956,7 +1565,14 @@
       ],
       "answer": 2,
       "explanation": "≈ 60% of 350 + 12 × 15 = 210 + 180 = 390.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-rrb-po-Q12",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Approximation %, product"
+      }
     },
     {
       "id": "ibps-rrb-po-043",
@@ -973,7 +1589,14 @@
       ],
       "answer": 1,
       "explanation": "Multipliers ×2, ×3, ×4, ×5, next ×6: 720 × 6 = 4320.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-rrb-po-Q09",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "xn increasing series"
+      }
     },
     {
       "id": "ibps-rrb-po-044",
@@ -990,7 +1613,14 @@
       ],
       "answer": 0,
       "explanation": "Differences 4, 9, 16, 25 (squares); next 36: 67 + 36 = 103.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-rrb-po-Q09",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Squares-difference series"
+      }
     },
     {
       "id": "ibps-rrb-po-045",
@@ -1007,7 +1637,14 @@
       ],
       "answer": 3,
       "explanation": "Differences should be consecutive primes 5, 7, 11, 13, 17: 5, 10, 17, 28, 41, 58. 29 should be 28.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-rrb-po-Q10",
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Prime-difference wrong number (29 vs 28); good"
+      }
     },
     {
       "id": "ibps-rrb-po-046",
@@ -1024,24 +1661,14 @@
       ],
       "answer": 0,
       "explanation": "×1 + 1, ×2 + 2, ×3 + 3, ×4 + 4, next ×5 + 5: 136 × 5 + 5 = 685.",
-      "verified": true
-    },
-    {
-      "id": "ibps-rrb-po-047",
-      "section": "quant",
-      "topic": "Quadratic Equations",
-      "difficulty": "easy",
-      "question": "Solve and compare.\nI. x² − 9x + 20 = 0\nII. y² − 5y + 6 = 0",
-      "options": [
-        "x > y",
-        "x ≥ y",
-        "x < y",
-        "x ≤ y",
-        "x = y or the relationship cannot be established"
-      ],
-      "answer": 0,
-      "explanation": "x = 4, 5; y = 2, 3. Every x is greater than every y: x > y.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-rrb-po-Q09",
+      "source": "curated",
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "xn+n series"
+      }
     },
     {
       "id": "ibps-rrb-po-048",
@@ -1058,7 +1685,14 @@
       ],
       "answer": 3,
       "explanation": "x = −6, −7; y = −5, −6. Each x is less than or equal to each y (−6 = −6), so x ≤ y.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-rrb-po-Q07",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Negative roots with overlap -> x<=y"
+      }
     },
     {
       "id": "ibps-rrb-po-049",
@@ -1075,41 +1709,14 @@
       ],
       "answer": 4,
       "explanation": "I: (3x − 2)(x − 4) = 0 → x = 2/3, 4. II: (2y − 3)(y − 4) = 0 → y = 1.5, 4. x = 4 > y = 1.5 but x = 2/3 < y = 1.5, so no definite relation.",
-      "verified": true
-    },
-    {
-      "id": "ibps-rrb-po-050",
-      "section": "quant",
-      "topic": "Percentage & Profit-Loss",
-      "difficulty": "easy",
-      "question": "60% of a number is 48 more than 40% of the same number. What is the number?",
-      "options": [
-        "200",
-        "220",
-        "260",
-        "240",
-        "280"
-      ],
-      "answer": 3,
-      "explanation": "20% of the number = 48 → number = 240.",
-      "verified": true
-    },
-    {
-      "id": "ibps-rrb-po-051",
-      "section": "quant",
-      "topic": "Percentage & Profit-Loss",
-      "difficulty": "medium",
-      "question": "An article marked at ₹2,500 is sold after two successive discounts of 20% and 10%. What is the selling price?",
-      "options": [
-        "₹1,750",
-        "₹1,875",
-        "₹1,850",
-        "₹1,800",
-        "₹1,900"
-      ],
-      "answer": 3,
-      "explanation": "2500 × 0.8 × 0.9 = ₹1,800.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-rrb-po-Q07",
+      "source": "curated",
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Fractional roots with common root -> CBE"
+      }
     },
     {
       "id": "ibps-rrb-po-052",
@@ -1126,24 +1733,14 @@
       ],
       "answer": 4,
       "explanation": "He gives 900 g for the price of 1000 g: profit = 100/900 × 100 = 11 1/9%.",
-      "verified": true
-    },
-    {
-      "id": "ibps-rrb-po-053",
-      "section": "quant",
-      "topic": "Ratio, Partnership & Ages",
-      "difficulty": "medium",
-      "question": "₹7,800 is divided among A, B and C in the ratio 1/2 : 1/3 : 1/4. What is C's share?",
-      "options": [
-        "₹1,600",
-        "₹2,000",
-        "₹1,800",
-        "₹2,400",
-        "₹3,600"
-      ],
-      "answer": 2,
-      "explanation": "Multiply by 12: 6 : 4 : 3 (total 13). C = 7,800 × 3/13 = ₹1,800.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-rrb-po-Q14",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "False-weight profit 11 1/9%"
+      }
     },
     {
       "id": "ibps-rrb-po-054",
@@ -1160,24 +1757,14 @@
       ],
       "answer": 0,
       "explanation": "3D + 8 = 2(D + 8) → D = 8, mother = 24 years.",
-      "verified": true
-    },
-    {
-      "id": "ibps-rrb-po-055",
-      "section": "quant",
-      "topic": "Time & Work",
-      "difficulty": "medium",
-      "question": "A is twice as efficient as B. Together they finish a job in 18 days. In how many days can A alone finish it?",
-      "options": [
-        "24",
-        "36",
-        "30",
-        "27",
-        "54"
-      ],
-      "answer": 3,
-      "explanation": "Let B do b per day, A 2b: 3b = 1/18 → b = 1/54, A = 1/27 → 27 days.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-rrb-po-Q17",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Mother-daughter multiple ages"
+      }
     },
     {
       "id": "ibps-rrb-po-056",
@@ -1194,7 +1781,14 @@
       ],
       "answer": 3,
       "explanation": "Downstream 36/18 = 2 h; upstream 36/12 = 3 h. Total 5 h.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-rrb-po-Q21",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Round trip in stream"
+      }
     },
     {
       "id": "ibps-rrb-po-057",
@@ -1211,58 +1805,1238 @@
       ],
       "answer": 0,
       "explanation": "(L + 200)/20 = (L + 400)/30 → 30L + 6000 = 20L + 8000 → L = 200 m.",
-      "verified": true
+      "verified": true,
+      "archetype": "ibps-rrb-po-Q20",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Platform vs bridge train length"
+      }
     },
     {
-      "id": "ibps-rrb-po-058",
+      "id": "ibps-rrb-po-061",
+      "section": "reasoning",
+      "topic": "Puzzles & Seating Arrangement",
+      "difficulty": "medium",
+      "question": "Eight persons A, B, C, D, E, F, G and H live in a four-storey building (floor 1 is the lowest and floor 4 the topmost). Each floor has two flats — flat X on the west and flat Y on the east — and flat X of every floor is directly above flat X of the floor below it (similarly for flat Y). Each flat has exactly one person.\nA lives in flat X on an even-numbered floor. F lives on the same floor as A. D lives immediately above A in the same type of flat. C lives in flat Y on an odd-numbered floor below F's floor. H lives immediately below B in the same type of flat. E lives below G.\n\nWho lives in flat X of floor 4?",
+      "options": [
+        "G",
+        "B",
+        "D",
+        "H",
+        "E"
+      ],
+      "answer": 0,
+      "explanation": "Floor 4: G (X), B (Y); floor 3: D (X), H (Y); floor 2: A (X), F (Y); floor 1: E (X), C (Y). G lives in flat X of floor 4.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-R04",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "4-floor two-flat puzzle, unique; RRB R04 faithful"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-062",
+      "section": "reasoning",
+      "topic": "Puzzles & Seating Arrangement",
+      "difficulty": "medium",
+      "question": "Eight persons A, B, C, D, E, F, G and H live in a four-storey building (floor 1 is the lowest and floor 4 the topmost). Each floor has two flats — flat X on the west and flat Y on the east — and flat X of every floor is directly above flat X of the floor below it (similarly for flat Y). Each flat has exactly one person.\nA lives in flat X on an even-numbered floor. F lives on the same floor as A. D lives immediately above A in the same type of flat. C lives in flat Y on an odd-numbered floor below F's floor. H lives immediately below B in the same type of flat. E lives below G.\n\nWho lives on the same floor as H?",
+      "options": [
+        "B",
+        "F",
+        "D",
+        "A",
+        "G"
+      ],
+      "answer": 2,
+      "explanation": "Floor 4: G (X), B (Y); floor 3: D (X), H (Y); floor 2: A (X), F (Y); floor 1: E (X), C (Y). D shares floor 3 with H.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-R04",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Same floor as H = D"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-063",
+      "section": "reasoning",
+      "topic": "Puzzles & Seating Arrangement",
+      "difficulty": "easy",
+      "question": "Eight persons A, B, C, D, E, F, G and H live in a four-storey building (floor 1 is the lowest and floor 4 the topmost). Each floor has two flats — flat X on the west and flat Y on the east — and flat X of every floor is directly above flat X of the floor below it (similarly for flat Y). Each flat has exactly one person.\nA lives in flat X on an even-numbered floor. F lives on the same floor as A. D lives immediately above A in the same type of flat. C lives in flat Y on an odd-numbered floor below F's floor. H lives immediately below B in the same type of flat. E lives below G.\n\nWho lives immediately below D?",
+      "options": [
+        "E",
+        "F",
+        "H",
+        "C",
+        "A"
+      ],
+      "answer": 4,
+      "explanation": "Floor 4: G (X), B (Y); floor 3: D (X), H (Y); floor 2: A (X), F (Y); floor 1: E (X), C (Y). A lives in flat X of floor 2, directly below D.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-R04",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Below D = A"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-064",
+      "section": "reasoning",
+      "topic": "Puzzles & Seating Arrangement",
+      "difficulty": "medium",
+      "question": "Eight persons A, B, C, D, E, F, G and H live in a four-storey building (floor 1 is the lowest and floor 4 the topmost). Each floor has two flats — flat X on the west and flat Y on the east — and flat X of every floor is directly above flat X of the floor below it (similarly for flat Y). Each flat has exactly one person.\nA lives in flat X on an even-numbered floor. F lives on the same floor as A. D lives immediately above A in the same type of flat. C lives in flat Y on an odd-numbered floor below F's floor. H lives immediately below B in the same type of flat. E lives below G.\n\nHow many persons live above C in flat Y?",
+      "options": [
+        "Two",
+        "One",
+        "Four",
+        "Three",
+        "None"
+      ],
+      "answer": 3,
+      "explanation": "Floor 4: G (X), B (Y); floor 3: D (X), H (Y); floor 2: A (X), F (Y); floor 1: E (X), C (Y). F, H and B live in flat Y above C — three persons.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-R04",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Persons above C in flat Y = 3"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-065",
+      "section": "reasoning",
+      "topic": "Puzzles & Seating Arrangement",
+      "difficulty": "medium",
+      "question": "Eight persons J, K, L, M, N, O, P and Q sit in a straight row from west to east. Some of them face north and some face south.\nJ sits third from the west end and faces north. K sits second to the right of J and faces south. P sits immediately to the left of K and faces the same direction as J. L sits second to the right of P and faces south. N sits immediately to the right of L. M sits at one of the extreme ends. Q is an immediate neighbour of M. The persons sitting at the two extreme ends face opposite directions. Q faces the direction opposite to M. O faces the same direction as P, while N faces the direction opposite to O.\n\nHow many persons face south?",
+      "options": [
+        "Three",
+        "Four",
+        "Five",
+        "Two",
+        "Six"
+      ],
+      "answer": 1,
+      "explanation": "West to east: M (N), Q (S), J (N), O (N), K (S), P (N), N (S), L (S). Q, K, N and L face south.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-R02",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "8-person mixed-facing row, unique; strong"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-066",
+      "section": "reasoning",
+      "topic": "Puzzles & Seating Arrangement",
+      "difficulty": "hard",
+      "question": "Eight persons J, K, L, M, N, O, P and Q sit in a straight row from west to east. Some of them face north and some face south.\nJ sits third from the west end and faces north. K sits second to the right of J and faces south. P sits immediately to the left of K and faces the same direction as J. L sits second to the right of P and faces south. N sits immediately to the right of L. M sits at one of the extreme ends. Q is an immediate neighbour of M. The persons sitting at the two extreme ends face opposite directions. Q faces the direction opposite to M. O faces the same direction as P, while N faces the direction opposite to O.\n\nWho sits second to the left of O?",
+      "options": [
+        "Q",
+        "K",
+        "M",
+        "J",
+        "P"
+      ],
+      "answer": 0,
+      "explanation": "West to east: M (N), Q (S), J (N), O (N), K (S), P (N), N (S), L (S). O faces north, so its left is west: J, then Q — Q is second to the left of O.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-R02",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "2nd left of O = Q"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-067",
+      "section": "reasoning",
+      "topic": "Puzzles & Seating Arrangement",
+      "difficulty": "hard",
+      "question": "Eight persons J, K, L, M, N, O, P and Q sit in a straight row from west to east. Some of them face north and some face south.\nJ sits third from the west end and faces north. K sits second to the right of J and faces south. P sits immediately to the left of K and faces the same direction as J. L sits second to the right of P and faces south. N sits immediately to the right of L. M sits at one of the extreme ends. Q is an immediate neighbour of M. The persons sitting at the two extreme ends face opposite directions. Q faces the direction opposite to M. O faces the same direction as P, while N faces the direction opposite to O.\n\nWho sits immediately to the right of N?",
+      "options": [
+        "L",
+        "K",
+        "O",
+        "P",
+        "Q"
+      ],
+      "answer": 3,
+      "explanation": "West to east: M (N), Q (S), J (N), O (N), K (S), P (N), N (S), L (S). N faces south, so its right is west: P.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-R02",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Right of south-facing N = P"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-068",
+      "section": "reasoning",
+      "topic": "Puzzles & Seating Arrangement",
+      "difficulty": "medium",
+      "question": "Eight persons J, K, L, M, N, O, P and Q sit in a straight row from west to east. Some of them face north and some face south.\nJ sits third from the west end and faces north. K sits second to the right of J and faces south. P sits immediately to the left of K and faces the same direction as J. L sits second to the right of P and faces south. N sits immediately to the right of L. M sits at one of the extreme ends. Q is an immediate neighbour of M. The persons sitting at the two extreme ends face opposite directions. Q faces the direction opposite to M. O faces the same direction as P, while N faces the direction opposite to O.\n\nWhich of the following pairs sits at the two extreme ends of the row?",
+      "options": [
+        "M, N",
+        "Q, L",
+        "M, L",
+        "J, L",
+        "M, P"
+      ],
+      "answer": 2,
+      "explanation": "West to east: M (N), Q (S), J (N), O (N), K (S), P (N), N (S), L (S). M (west end) and L (east end).",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-R02",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Extreme ends M, L"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-069",
+      "section": "reasoning",
+      "topic": "Puzzles & Seating Arrangement",
+      "difficulty": "medium",
+      "question": "Eight persons A, B, C, D, E, F, G and H have meetings on four days of a week — Monday, Tuesday, Thursday and Friday. On each of these days there are two meetings, one in the morning and one in the evening, and each person has exactly one meeting.\nB has a meeting in the morning on a day after Tuesday. Only two meetings are held between B's meeting and D's meeting, and D's meeting is after B's. G has a meeting on the same day as B. E has a meeting immediately before D. A has a meeting in the evening, and only two meetings are held between A's meeting and E's meeting. F has a meeting on the same day as A. C has a meeting before H.\n\nWho has a meeting on Thursday evening?",
+      "options": [
+        "B",
+        "G",
+        "E",
+        "A",
+        "H"
+      ],
+      "answer": 1,
+      "explanation": "Mon: C (morning), H (evening); Tue: F, A; Thu: B, G; Fri: E, D. G has the Thursday evening meeting.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-R05",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Day+morning/evening meetings, unique"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-070",
+      "section": "reasoning",
+      "topic": "Puzzles & Seating Arrangement",
+      "difficulty": "medium",
+      "question": "Eight persons A, B, C, D, E, F, G and H have meetings on four days of a week — Monday, Tuesday, Thursday and Friday. On each of these days there are two meetings, one in the morning and one in the evening, and each person has exactly one meeting.\nB has a meeting in the morning on a day after Tuesday. Only two meetings are held between B's meeting and D's meeting, and D's meeting is after B's. G has a meeting on the same day as B. E has a meeting immediately before D. A has a meeting in the evening, and only two meetings are held between A's meeting and E's meeting. F has a meeting on the same day as A. C has a meeting before H.\n\nHow many meetings are held between F's meeting and G's meeting?",
+      "options": [
+        "One",
+        "Three",
+        "Four",
+        "None",
+        "Two"
+      ],
+      "answer": 4,
+      "explanation": "Mon: C (morning), H (evening); Tue: F, A; Thu: B, G; Fri: E, D. A (Tue evening) and B (Thu morning) lie between F and G.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-R05",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Between F and G = 2"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-071",
+      "section": "reasoning",
+      "topic": "Puzzles & Seating Arrangement",
+      "difficulty": "easy",
+      "question": "Eight persons A, B, C, D, E, F, G and H have meetings on four days of a week — Monday, Tuesday, Thursday and Friday. On each of these days there are two meetings, one in the morning and one in the evening, and each person has exactly one meeting.\nB has a meeting in the morning on a day after Tuesday. Only two meetings are held between B's meeting and D's meeting, and D's meeting is after B's. G has a meeting on the same day as B. E has a meeting immediately before D. A has a meeting in the evening, and only two meetings are held between A's meeting and E's meeting. F has a meeting on the same day as A. C has a meeting before H.\n\nWho has a meeting on the same day as H?",
+      "options": [
+        "C",
+        "F",
+        "A",
+        "G",
+        "E"
+      ],
+      "answer": 0,
+      "explanation": "Mon: C (morning), H (evening); Tue: F, A; Thu: B, G; Fri: E, D. C and H both have meetings on Monday.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-R05",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Same day as H = C"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-072",
+      "section": "reasoning",
+      "topic": "Puzzles & Seating Arrangement",
+      "difficulty": "medium",
+      "question": "Eight persons A, B, C, D, E, F, G and H have meetings on four days of a week — Monday, Tuesday, Thursday and Friday. On each of these days there are two meetings, one in the morning and one in the evening, and each person has exactly one meeting.\nB has a meeting in the morning on a day after Tuesday. Only two meetings are held between B's meeting and D's meeting, and D's meeting is after B's. G has a meeting on the same day as B. E has a meeting immediately before D. A has a meeting in the evening, and only two meetings are held between A's meeting and E's meeting. F has a meeting on the same day as A. C has a meeting before H.\n\nWhose meeting is held immediately after A's meeting?",
+      "options": [
+        "G",
+        "F",
+        "H",
+        "E",
+        "B"
+      ],
+      "answer": 4,
+      "explanation": "Mon: C (morning), H (evening); Tue: F, A; Thu: B, G; Fri: E, D. After Tuesday evening (A) comes Thursday morning (B).",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-R05",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "After A = B"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-073",
+      "section": "reasoning",
+      "topic": "Puzzles & Seating Arrangement",
+      "difficulty": "easy",
+      "question": "Eight persons A, B, C, D, E, F, G and H sit around a circular table, all facing away from the centre.\nB sits third to the right of A. F sits immediately to the right of B. H sits second to the left of A. C is an immediate neighbour of both F and H. E is not an immediate neighbour of B. D sits second to the left of B.\n\nWho sits exactly opposite G?",
+      "options": [
+        "C",
+        "H",
+        "E",
+        "A",
+        "F"
+      ],
+      "answer": 1,
+      "explanation": "Clockwise from A: A, D, G, B, F, C, H, E. For persons facing away from the centre, right is clockwise. Opposite G (4 seats away) is H.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-R03",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "8-person circle facing outward, unique"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-074",
+      "section": "reasoning",
+      "topic": "Puzzles & Seating Arrangement",
+      "difficulty": "medium",
+      "question": "Eight persons A, B, C, D, E, F, G and H sit around a circular table, all facing away from the centre.\nB sits third to the right of A. F sits immediately to the right of B. H sits second to the left of A. C is an immediate neighbour of both F and H. E is not an immediate neighbour of B. D sits second to the left of B.\n\nWho sits second to the right of H?",
+      "options": [
+        "E",
+        "C",
+        "F",
+        "A",
+        "D"
+      ],
+      "answer": 3,
+      "explanation": "Clockwise from A: A, D, G, B, F, C, H, E. For persons facing away from the centre, right is clockwise. Moving clockwise from H: E, A — A is second to the right of H.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-R03",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "2nd right of H = A (outward-facing trap)"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-075",
+      "section": "reasoning",
+      "topic": "Puzzles & Seating Arrangement",
+      "difficulty": "medium",
+      "question": "Eight persons A, B, C, D, E, F, G and H sit around a circular table, all facing away from the centre.\nB sits third to the right of A. F sits immediately to the right of B. H sits second to the left of A. C is an immediate neighbour of both F and H. E is not an immediate neighbour of B. D sits second to the left of B.\n\nHow many persons sit between D and C when counted clockwise from D?",
+      "options": [
+        "Two",
+        "Four",
+        "Three",
+        "One",
+        "Five"
+      ],
+      "answer": 2,
+      "explanation": "Clockwise from A: A, D, G, B, F, C, H, E. For persons facing away from the centre, right is clockwise. Clockwise from D: G, B, F, then C — three persons in between.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-R03",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Clockwise count D to C = 3"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-076",
+      "section": "reasoning",
+      "topic": "Syllogism",
+      "difficulty": "medium",
+      "question": "Statements: All books are pages. Some pages are covers. No cover is a pen.\nConclusions: I. Some pages are not pens. II. Some books are covers.",
+      "options": [
+        "Only I follows",
+        "Only II follows",
+        "Either I or II follows",
+        "Neither I nor II follows",
+        "Both I and II follow"
+      ],
+      "answer": 0,
+      "explanation": "The pages that are covers cannot be pens, so I follows. Books and covers have no definite link, so II does not follow.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-R11",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Three-statement syllogism"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-077",
+      "section": "reasoning",
+      "topic": "Syllogism",
+      "difficulty": "medium",
+      "question": "Statements: Only a few rings are bands. No band is a chain.\nConclusions: I. All chains can be rings. II. Some bands are rings.",
+      "options": [
+        "Only I follows",
+        "Only II follows",
+        "Either I or II follows",
+        "Neither I nor II follows",
+        "Both I and II follow"
+      ],
+      "answer": 4,
+      "explanation": "'Only a few rings are bands' gives some rings are bands, so some bands are rings (II follows). The rings that are not bands may all be chains — nothing forbids all chains being rings, so I is a valid possibility. Both follow.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-R12",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Only-a-few with possibility"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-078",
+      "section": "reasoning",
+      "topic": "Inequality",
+      "difficulty": "easy",
+      "question": "Statements: P > Q ≥ R; S < R ≤ T; U ≥ T\nConclusions: I. Q > T  II. U > S",
+      "options": [
+        "Only I follows",
+        "Only II follows",
+        "Either I or II follows",
+        "Neither I nor II follows",
+        "Both I and II follow"
+      ],
+      "answer": 1,
+      "explanation": "Q ≥ R ≤ T gives no relation between Q and T, so I does not follow. U ≥ T ≥ R > S gives U > S, so II follows.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-R13",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Inequality only II"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-079",
+      "section": "reasoning",
+      "topic": "Inequality",
+      "difficulty": "medium",
+      "question": "Statements: A ≥ B > C ≥ D; E < D\nConclusions: I. C > D  II. C = D",
+      "options": [
+        "Only I follows",
+        "Only II follows",
+        "Either I or II follows",
+        "Neither I nor II follows",
+        "Both I and II follow"
+      ],
+      "answer": 2,
+      "explanation": "C ≥ D, so either C > D or C = D. Neither alone is certain, but one of them must be true: Either I or II follows.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-R14",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Complementary pair either-or"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-081",
+      "section": "reasoning",
+      "topic": "Coding-Decoding",
+      "difficulty": "medium",
+      "question": "In a code language, 'grow more crops' is written as 'ti la ro', 'crops need water' is written as 'ro mi ka' and 'more water daily' is written as 'ka la su'. What is the code for 'need'?",
+      "options": [
+        "ro",
+        "mi",
+        "ka",
+        "la",
+        "su"
+      ],
+      "answer": 1,
+      "explanation": "crops = ro (sentences 1 and 2), more = la (1 and 3), water = ka (2 and 3). The remaining code in sentence 2, 'mi', means 'need'.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-R20",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Three-phrase coding"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-083",
+      "section": "reasoning",
+      "topic": "Blood Relations",
+      "difficulty": "medium",
+      "question": "In a certain code, 'A $ B' means A is the son of B; 'A # B' means A is the sister of B; 'A * B' means A is the husband of B; and 'A @ B' means A is the mother of B.\nIf P # Q $ R * S, how is P related to S?",
+      "options": [
+        "Daughter",
+        "Sister",
+        "Niece",
+        "Mother",
+        "Daughter-in-law"
+      ],
+      "answer": 0,
+      "explanation": "Q $ R: Q is R's son. R * S: R is S's husband, so S is Q's mother. P # Q: P is Q's sister, so P is S's daughter.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-R16",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Coded relation daughter"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-086",
+      "section": "reasoning",
+      "topic": "Order & Ranking",
+      "difficulty": "easy",
+      "question": "In a row of children, A is 7th from the left end and B is 11th from the right end. When A and B interchange their positions, A becomes 15th from the left end. How many children are there in the row?",
+      "options": [
+        "24",
+        "25",
+        "26",
+        "21",
+        "33"
+      ],
+      "answer": 1,
+      "explanation": "After the swap A takes B's place, which is 15th from the left and 11th from the right. Total = 15 + 11 − 1 = 25.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-R21",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Interchange ranking"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-087",
+      "section": "reasoning",
+      "topic": "Alphanumeric Series",
+      "difficulty": "medium",
+      "question": "Study the arrangement:\nW 3 # E 8 @ K 1 L $ 6 R % 9 T 2 & P\nIf all the symbols are removed from the arrangement, which element will be 6th from the right end?",
+      "options": [
+        "L",
+        "R",
+        "9",
+        "6",
+        "1"
+      ],
+      "answer": 3,
+      "explanation": "Without symbols: W 3 E 8 K 1 L 6 R 9 T 2 P. Counting from the right: P, 2, T, 9, R, 6 — the 6th is 6.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-R22",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Remove symbols then position"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-088",
+      "section": "reasoning",
+      "topic": "Miscellaneous (Word/Number Formation)",
+      "difficulty": "medium",
+      "question": "Numbers: 472  815  369  624  953\nIf the digits of each number are arranged in descending order within the number, what is the sum of the digits of the second smallest number so formed?",
+      "options": [
+        "12",
+        "14",
+        "18",
+        "17",
+        "13"
+      ],
+      "answer": 4,
+      "explanation": "New numbers: 742, 851, 963, 642, 953. In ascending order: 642, 742, 851, 953, 963. The second smallest is 742, whose digit sum is 13.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-R26",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Descending digits, second smallest sum"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-089",
+      "section": "reasoning",
+      "topic": "Miscellaneous (Word/Number Formation)",
+      "difficulty": "easy",
+      "question": "If a meaningful English word can be formed using the 2nd, 4th, 5th and 7th letters of the word 'PLANETS' (each letter used once), what is the third letter of that word? If no word can be formed, answer X; if more than one word can be formed, answer Z.",
+      "options": [
+        "N",
+        "E",
+        "L",
+        "X",
+        "Z"
+      ],
+      "answer": 0,
+      "explanation": "The letters are L, N, E and S, which form only 'LENS'. Its third letter is N.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-R25",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "LENS formed from PLANETS letters"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-091",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "easy",
+      "question": "The table shows the number of tractors sold by five dealers in 2024 and 2025, and the percentage of the 2025 sales that were made on loan.\nDealer | 2024 | 2025 | Sold on loan (2025)\nP | 120 | 150 | 60%\nQ | 90 | 135 | 40%\nR | 160 | 144 | 75%\nS | 110 | 132 | 50%\nT | 140 | 168 | 25%\n\nWhat is the percentage increase in the number of tractors sold by dealer Q from 2024 to 2025?",
+      "options": [
+        "45%",
+        "33⅓%",
+        "50%",
+        "40%",
+        "55%"
+      ],
+      "answer": 2,
+      "explanation": "(135 − 90)/90 × 100 = 45/90 × 100 = 50%. (33⅓% is the increase as a share of 135.)",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-Q01",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "%-increase"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-092",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "easy",
+      "question": "The table shows the number of tractors sold by five dealers in 2024 and 2025, and the percentage of the 2025 sales that were made on loan.\nDealer | 2024 | 2025 | Sold on loan (2025)\nP | 120 | 150 | 60%\nQ | 90 | 135 | 40%\nR | 160 | 144 | 75%\nS | 110 | 132 | 50%\nT | 140 | 168 | 25%\n\nBy what percentage did dealer R's sales fall from 2024 to 2025?",
+      "options": [
+        "11.1%",
+        "10%",
+        "16%",
+        "9%",
+        "12.5%"
+      ],
+      "answer": 1,
+      "explanation": "(160 − 144)/160 × 100 = 16/160 × 100 = 10%.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-Q01",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "%-decrease with 11.1% trap"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-093",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "medium",
+      "question": "The table shows the number of tractors sold by five dealers in 2024 and 2025, and the percentage of the 2025 sales that were made on loan.\nDealer | 2024 | 2025 | Sold on loan (2025)\nP | 120 | 150 | 60%\nQ | 90 | 135 | 40%\nR | 160 | 144 | 75%\nS | 110 | 132 | 50%\nT | 140 | 168 | 25%\n\nHow many tractors were sold on loan by dealers P and R together in 2025?",
+      "options": [
+        "188",
+        "208",
+        "216",
+        "198",
+        "180"
+      ],
+      "answer": 3,
+      "explanation": "P: 60% of 150 = 90; R: 75% of 144 = 108. Total = 198.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-Q02",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Loan-sold derived sum"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-094",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "easy",
+      "question": "The table shows the number of tractors sold by five dealers in 2024 and 2025, and the percentage of the 2025 sales that were made on loan.\nDealer | 2024 | 2025 | Sold on loan (2025)\nP | 120 | 150 | 60%\nQ | 90 | 135 | 40%\nR | 160 | 144 | 75%\nS | 110 | 132 | 50%\nT | 140 | 168 | 25%\n\nWhat is the average number of tractors sold per dealer in 2024?",
+      "options": [
+        "120",
+        "128",
+        "124",
+        "132",
+        "118"
+      ],
+      "answer": 2,
+      "explanation": "(120 + 90 + 160 + 110 + 140)/5 = 620/5 = 124.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-Q02",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Average 2024"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-095",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "medium",
+      "question": "The table shows the number of tractors sold by five dealers in 2024 and 2025, and the percentage of the 2025 sales that were made on loan.\nDealer | 2024 | 2025 | Sold on loan (2025)\nP | 120 | 150 | 60%\nQ | 90 | 135 | 40%\nR | 160 | 144 | 75%\nS | 110 | 132 | 50%\nT | 140 | 168 | 25%\n\nWhat is the ratio of the tractors sold without a loan by dealer T in 2025 to those sold without a loan by dealer Q in 2025?",
+      "options": [
+        "14 : 9",
+        "9 : 14",
+        "7 : 5",
+        "3 : 2",
+        "16 : 9"
+      ],
+      "answer": 0,
+      "explanation": "T without loan = 75% of 168 = 126; Q without loan = 60% of 135 = 81. 126 : 81 = 14 : 9.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-Q02",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Ratio of derived non-loan sales"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-096",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "medium",
+      "question": "A village cooperative has 600 members: 45% are farmers, 30% are artisans and the rest are traders. Two-thirds of the farmers, 40% of the artisans and 60% of the traders have taken loans from the cooperative.\n\nHow many members have taken loans?",
+      "options": [
+        "332",
+        "352",
+        "318",
+        "360",
+        "342"
+      ],
+      "answer": 4,
+      "explanation": "Farmers 270 → 180 loans; artisans 180 → 72; traders 150 → 90. Total = 342.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-Q03",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Cooperative caselet loans total"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-097",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "medium",
+      "question": "A village cooperative has 600 members: 45% are farmers, 30% are artisans and the rest are traders. Two-thirds of the farmers, 40% of the artisans and 60% of the traders have taken loans from the cooperative.\n\nMembers without loans form what percentage of all members?",
+      "options": [
+        "57%",
+        "40%",
+        "43%",
+        "45%",
+        "42%"
+      ],
+      "answer": 2,
+      "explanation": "Without loans = 600 − 342 = 258. 258/600 × 100 = 43%.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-Q03",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "% without loans"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-098",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "medium",
+      "question": "A village cooperative has 600 members: 45% are farmers, 30% are artisans and the rest are traders. Two-thirds of the farmers, 40% of the artisans and 60% of the traders have taken loans from the cooperative.\n\nWhat is the ratio of farmers without loans to traders without loans?",
+      "options": [
+        "2 : 3",
+        "3 : 2",
+        "9 : 5",
+        "3 : 1",
+        "5 : 3"
+      ],
+      "answer": 1,
+      "explanation": "Farmers without loans = 270 − 180 = 90; traders without loans = 150 − 90 = 60. 90 : 60 = 3 : 2.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-Q03",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Ratio without loans"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-099",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "hard",
+      "question": "A village cooperative has 600 members: 45% are farmers, 30% are artisans and the rest are traders. Two-thirds of the farmers, 40% of the artisans and 60% of the traders have taken loans from the cooperative.\n\nIf 20 new artisans join the cooperative and all of them take loans, what percentage of the artisans will then have loans?",
+      "options": [
+        "46%",
+        "40%",
+        "50%",
+        "44%",
+        "48%"
+      ],
+      "answer": 0,
+      "explanation": "Artisans become 200, with loans 72 + 20 = 92. 92/200 × 100 = 46%.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-Q03",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Join-then-recompute %"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-100",
+      "section": "quant",
+      "topic": "Simplification & Approximation",
+      "difficulty": "easy",
+      "question": "√625 × 14 − 18% of 1,500 = ?",
+      "options": [
+        "70",
+        "90",
+        "100",
+        "80",
+        "60"
+      ],
+      "answer": 3,
+      "explanation": "√625 = 25; 25 × 14 = 350; 18% of 1,500 = 270. 350 − 270 = 80.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-Q11",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Root product minus %"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-101",
+      "section": "quant",
+      "topic": "Simplification & Approximation",
+      "difficulty": "easy",
+      "question": "What approximate value should come in place of '?'\n29.97 × 13.02 + 47.89% of 1,250.3 ≈ ?",
+      "options": [
+        "960",
+        "1,020",
+        "940",
+        "1,050",
+        "990"
+      ],
+      "answer": 4,
+      "explanation": "≈ 30 × 13 + 48% of 1,250 = 390 + 600 = 990.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-Q12",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Approximation"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-102",
+      "section": "quant",
+      "topic": "Simplification & Approximation",
+      "difficulty": "easy",
+      "question": "1,440 ÷ ? = 24% of 250",
+      "options": [
+        "20",
+        "30",
+        "16",
+        "24",
+        "36"
+      ],
+      "answer": 3,
+      "explanation": "24% of 250 = 60. 1,440 ÷ ? = 60 → ? = 24.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-Q13",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "? as divisor"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-103",
+      "section": "quant",
+      "topic": "Number Series",
+      "difficulty": "easy",
+      "question": "Find the next term: 9, 10, 14, 23, 39, ?",
+      "options": [
+        "64",
+        "60",
+        "62",
+        "65",
+        "56"
+      ],
+      "answer": 0,
+      "explanation": "Differences 1², 2², 3², 4², so next is 39 + 5² = 64.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-Q09",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Squares-difference series"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-104",
+      "section": "quant",
+      "topic": "Number Series",
+      "difficulty": "medium",
+      "question": "Find the next term: 3, 7, 23, 95, 479, ?",
+      "options": [
+        "2874",
+        "2883",
+        "2879",
+        "2395",
+        "2881"
+      ],
+      "answer": 2,
+      "explanation": "Pattern: ×2 + 1, ×3 + 2, ×4 + 3, ×5 + 4, so next = 479 × 6 + 5 = 2,879.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-Q09",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "xn+(n-1) series"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-106",
+      "section": "quant",
+      "topic": "Number Series",
+      "difficulty": "easy",
+      "question": "Find the wrong number in the series: 10, 12, 16, 24, 40, 74",
+      "options": [
+        "40",
+        "24",
+        "16",
+        "12",
+        "74"
+      ],
+      "answer": 4,
+      "explanation": "Differences should double: 2, 4, 8, 16, 32 → 10, 12, 16, 24, 40, 72. 74 is wrong.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-Q10",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Doubling-difference wrong term"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-107",
+      "section": "quant",
+      "topic": "Quadratic Equations",
+      "difficulty": "medium",
+      "question": "Solve and compare.\nI. x² + 9x + 20 = 0\nII. y² + 5y + 6 = 0",
+      "options": [
+        "x > y",
+        "x ≥ y",
+        "x < y",
+        "x ≤ y",
+        "x = y or the relationship cannot be established"
+      ],
+      "answer": 2,
+      "explanation": "I: (x + 4)(x + 5) = 0 → x = −4, −5. II: (y + 2)(y + 3) = 0 → y = −2, −3. Every x is less than every y: x < y.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-Q07",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Negative integer roots x<y"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-108",
+      "section": "quant",
+      "topic": "Quadratic Equations",
+      "difficulty": "medium",
+      "question": "Solve and compare.\nI. x² − 16 = 0\nII. y² − 9y + 20 = 0",
+      "options": [
+        "x > y",
+        "x ≥ y",
+        "x < y",
+        "x ≤ y",
+        "x = y or the relationship cannot be established"
+      ],
+      "answer": 3,
+      "explanation": "I: x = 4 or −4. II: (y − 4)(y − 5) = 0 → y = 4, 5. x is never greater than y and equals y when both are 4: x ≤ y.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-Q07",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Pure square x=+-4 with y root 4 -> x<=y"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-109",
+      "section": "quant",
+      "topic": "Quadratic Equations",
+      "difficulty": "medium",
+      "question": "Solve and compare.\nI. 2x² − 13x + 21 = 0\nII. 3y² − 7y + 2 = 0",
+      "options": [
+        "x > y",
+        "x ≥ y",
+        "x < y",
+        "x ≤ y",
+        "x = y or the relationship cannot be established"
+      ],
+      "answer": 0,
+      "explanation": "I: (2x − 7)(x − 3) = 0 → x = 3.5, 3. II: (3y − 1)(y − 2) = 0 → y = 1/3, 2. Every x is greater than every y: x > y.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-Q07",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Fraction roots x>y"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-110",
+      "section": "quant",
+      "topic": "Percentage & Profit-Loss",
+      "difficulty": "hard",
+      "question": "A shopkeeper sells an article at a profit of 20%. Had he bought it 10% cheaper and sold it for ₹18 less, he would have gained 25%. What is the cost price of the article?",
+      "options": [
+        "₹200",
+        "₹240",
+        "₹180",
+        "₹270",
+        "₹300"
+      ],
+      "answer": 1,
+      "explanation": "Let CP = c. SP = 1.2c. New CP = 0.9c and new SP = 1.25 × 0.9c = 1.125c. 1.2c − 1.125c = 18 → 0.075c = 18 → c = ₹240.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-Q14",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Bought cheaper/sold less P&L; RRB-standard"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-111",
+      "section": "quant",
+      "topic": "Percentage & Profit-Loss",
+      "difficulty": "medium",
+      "question": "An article marked at ₹1,600 is sold at a discount of 15%, and the seller still makes a profit of 13⅓%. What is the cost price?",
+      "options": [
+        "₹1,250",
+        "₹1,200",
+        "₹1,360",
+        "₹1,180",
+        "₹1,280"
+      ],
+      "answer": 1,
+      "explanation": "SP = 85% of 1,600 = ₹1,360. CP = 1,360 ÷ (17/15) = ₹1,200.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-Q14",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Discount with fractional profit"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-113",
+      "section": "quant",
+      "topic": "Ratio, Partnership & Ages",
+      "difficulty": "medium",
+      "question": "A and B start a business with capitals in the ratio 3 : 5. After 4 months A doubles his capital, while B keeps his unchanged. What is the ratio of their profits at the end of the year?",
+      "options": [
+        "3 : 5",
+        "5 : 6",
+        "1 : 1",
+        "6 : 5",
+        "4 : 5"
+      ],
+      "answer": 2,
+      "explanation": "A = 3 × 4 + 6 × 8 = 60; B = 5 × 12 = 60. Ratio = 1 : 1.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-Q16",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Capital doubled mid-year"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-114",
+      "section": "quant",
+      "topic": "Ratio, Partnership & Ages",
+      "difficulty": "medium",
+      "question": "The sum of the present ages of A and B is 54 years. Six years ago their ages were in the ratio 2 : 5. What is B's present age?",
+      "options": [
+        "36 years",
+        "30 years",
+        "18 years",
+        "32 years",
+        "40 years"
+      ],
+      "answer": 0,
+      "explanation": "Six years ago the sum was 54 − 12 = 42 = 7k → k = 6. B then = 30, so B now = 36 years.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-Q17",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Sum and past-ratio ages"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-115",
+      "section": "quant",
+      "topic": "Time & Work",
+      "difficulty": "medium",
+      "question": "A and B can do a piece of work in 12 days, B and C in 15 days, and C and A in 20 days. In how many days can A alone do it?",
+      "options": [
+        "24 days",
+        "20 days",
+        "60 days",
+        "40 days",
+        "30 days"
+      ],
+      "answer": 4,
+      "explanation": "2(A + B + C) = 1/12 + 1/15 + 1/20 = 12/60 → A + B + C = 1/10. A = 1/10 − 1/15 (B + C) = 1/30 → 30 days.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-Q19",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Pairwise work rates"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-116",
+      "section": "quant",
+      "topic": "Speed, Time & Distance (incl. Boats & Trains)",
+      "difficulty": "medium",
+      "question": "Two trains 150 m and 100 m long run on parallel tracks in the same direction at 72 km/h and 54 km/h. How long will the faster train take to cross the slower one completely?",
+      "options": [
+        "10 seconds",
+        "50 seconds",
+        "25 seconds",
+        "40 seconds",
+        "45 seconds"
+      ],
+      "answer": 1,
+      "explanation": "Relative speed = 72 − 54 = 18 km/h = 5 m/s. Distance = 150 + 100 = 250 m. Time = 50 s. (10 s wrongly adds the speeds.)",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-Q20",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Same-direction trains"
+      }
+    },
+    {
+      "id": "ibps-rrb-po-118",
       "section": "quant",
       "topic": "Simple & Compound Interest",
       "difficulty": "medium",
-      "question": "A sum of money doubles itself in 5 years at compound interest. In how many years will it become 8 times itself at the same rate?",
+      "question": "The compound interest on a sum for 2 years at 10% per annum, compounded annually, is ₹525. What is the simple interest on the same sum for the same period at the same rate?",
       "options": [
-        "10",
-        "12",
-        "15",
-        "20",
-        "25"
+        "₹500",
+        "₹525",
+        "₹475",
+        "₹550",
+        "₹450"
       ],
-      "answer": 2,
-      "explanation": "8 = 2³, so it takes 3 × 5 = 15 years.",
-      "verified": true
+      "answer": 0,
+      "explanation": "CI for 2 years = 0.21P = 525 → P = ₹2,500. SI = 2,500 × 10 × 2/100 = ₹500.",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-Q22",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "CI to SI"
+      }
     },
     {
-      "id": "ibps-rrb-po-059",
+      "id": "ibps-rrb-po-119",
       "section": "quant",
       "topic": "Mixture & Alligation",
-      "difficulty": "easy",
-      "question": "In what ratio must rice costing ₹40/kg be mixed with rice costing ₹55/kg so that the mixture is worth ₹45/kg?",
+      "difficulty": "medium",
+      "question": "A container holds 60 litres of milk. 6 litres are taken out and replaced with water, and this process is repeated once more. How much milk is now left in the container?",
       "options": [
-        "1 : 2",
-        "2 : 3",
-        "3 : 2",
-        "2 : 1",
-        "3 : 1"
+        "48 litres",
+        "50.4 litres",
+        "49.2 litres",
+        "48.6 litres",
+        "47.4 litres"
       ],
       "answer": 3,
-      "explanation": "By alligation: (55 − 45) : (45 − 40) = 10 : 5 = 2 : 1.",
-      "verified": true
-    },
-    {
-      "id": "ibps-rrb-po-060",
-      "section": "quant",
-      "topic": "Mensuration",
-      "difficulty": "easy",
-      "question": "The perimeter of a rectangle is 56 m and its length is 4 m more than its breadth. What is its area?",
-      "options": [
-        "180 m²",
-        "192 m²",
-        "196 m²",
-        "200 m²",
-        "208 m²"
-      ],
-      "answer": 1,
-      "explanation": "l + b = 28, l − b = 4 → l = 16, b = 12. Area = 192 m².",
-      "verified": true
+      "explanation": "Milk left = 60 × (1 − 6/60)² = 60 × 0.81 = 48.6 litres. (48 litres assumes pure milk is removed both times.)",
+      "source": "ai",
+      "archetype": "ibps-rrb-po-Q23",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Repeated replacement"
+      }
     }
   ]
 }

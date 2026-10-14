@@ -324,6 +324,603 @@
       }
     ]
   },
+  "pyqBlueprint": {
+    "yearsCovered": [
+      2019,
+      2025
+    ],
+    "method": "Only two Constable CBTs exist in the window: CEN 01/2018 (CBT Dec 2018–Feb 2019) and CEN RPF 02/2024 (CBT 2–18 Mar 2025); no Constable CBT was held in 2026, so the blueprint covers 2019 and 2025 (matching trendAnalysis.yearsAnalyzed). RRB barred sharing of live questions; web searches (Oct 2026) returned only shift-wise difficulty/good-attempt analyses (Adda247, PracticeMock, Careerpower, Prepp) without question-level detail, and WebFetch of papers was not possible. Question TYPES were described from the writer's own knowledge of the 2018–19 papers and the 2025 memory-based topic lists. All patterns are paraphrased.",
+    "archetypes": [
+      {
+        "id": "rpf-constable-G01",
+        "section": "ga",
+        "topic": "Current Affairs",
+        "pattern": "Sports results of the last year – tournament winners, medal tallies, players' home states",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "2–3 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rpf-constable-G02",
+        "section": "ga",
+        "topic": "Current Affairs",
+        "pattern": "National events – new laws, state firsts, mega events and their venues",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rpf-constable-G03",
+        "section": "ga",
+        "topic": "Current Affairs",
+        "pattern": "Appointments, summits and awards in the news",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rpf-constable-G04",
+        "section": "ga",
+        "topic": "History & Freedom Struggle",
+        "pattern": "Freedom struggle – INC sessions, leaders' titles and newspapers, commissions and incidents",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "2–3 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "rpf-constable-G05",
+        "section": "ga",
+        "topic": "History & Freedom Struggle",
+        "pattern": "Ancient and medieval rulers, dynasty founders and monuments",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "rpf-constable-G06",
+        "section": "ga",
+        "topic": "Indian Polity & Constitution",
+        "pattern": "Articles for rights/remedies/impeachment and constitutional heads – oath, appointment, powers",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rpf-constable-G07",
+        "section": "ga",
+        "topic": "Indian Polity & Constitution",
+        "pattern": "Parliament – composition, nominated members, age qualifications",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rpf-constable-G08",
+        "section": "ga",
+        "topic": "Geography",
+        "pattern": "Indian lakes, rivers, dams and national parks – state or river they belong to",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rpf-constable-G09",
+        "section": "ga",
+        "topic": "Geography",
+        "pattern": "World geography – oceans, continents, superlatives",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rpf-constable-G10",
+        "section": "ga",
+        "topic": "Economy",
+        "pattern": "Banks and financial institutions – headquarters and functions (RBI, NABARD)",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rpf-constable-G11",
+        "section": "ga",
+        "topic": "General Science",
+        "pattern": "Biology – photosynthesis, vitamins, blood and human body",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "2–3 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "rpf-constable-G12",
+        "section": "ga",
+        "topic": "General Science",
+        "pattern": "Physics/chemistry in daily life – metals, instruments, units",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "rpf-constable-G13",
+        "section": "ga",
+        "topic": "Art, Culture & Sports",
+        "pattern": "Dances, festivals and sports terms/team sizes",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "rpf-constable-G14",
+        "section": "ga",
+        "topic": "Static GK (Books, Awards, Days, Organisations)",
+        "pattern": "Important days, books and authors, founding years of organisations",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rpf-constable-G15",
+        "section": "ga",
+        "topic": "Computers & Railways Basics",
+        "pattern": "Computer basics – devices, abbreviations, memory",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "rpf-constable-G16",
+        "section": "ga",
+        "topic": "Computers & Railways Basics",
+        "pattern": "Railways and RPF basics – controlling ministry, RPF Act, railway facts",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "rpf-constable-M01",
+        "section": "maths",
+        "topic": "Number System",
+        "pattern": "Divisibility tests and least number to subtract/add for divisibility",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "rpf-constable-M02",
+        "section": "maths",
+        "topic": "Number System",
+        "pattern": "Primes in a range, sum of primes/consecutive numbers",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "rpf-constable-M03",
+        "section": "maths",
+        "topic": "Simplification, Decimals & Fractions",
+        "pattern": "BODMAS with decimals and fractions",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "2–3 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "rpf-constable-M04",
+        "section": "maths",
+        "topic": "LCM & HCF",
+        "pattern": "HCF × LCM product rule, lights/bells changing together",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "rpf-constable-M05",
+        "section": "maths",
+        "topic": "Percentage",
+        "pattern": "x% of a number, finding the number, \"A more than B → B less than A\"",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "rpf-constable-M06",
+        "section": "maths",
+        "topic": "Percentage",
+        "pattern": "Expenditure out of income in stages – find salary/savings",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rpf-constable-M07",
+        "section": "maths",
+        "topic": "Ratio & Proportion",
+        "pattern": "Ratio with a difference/addition condition – find the numbers or total",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rpf-constable-M08",
+        "section": "maths",
+        "topic": "Average",
+        "pattern": "Consecutive numbers, adding/removing a member and its effect on average",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rpf-constable-M09",
+        "section": "maths",
+        "topic": "Profit & Loss",
+        "pattern": "Profit % from CP/SP, buy-n-sell-at-price, successive discounts",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rpf-constable-M10",
+        "section": "maths",
+        "topic": "Simple & Compound Interest",
+        "pattern": "SI for years and months, doubling time; CI half-yearly",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rpf-constable-M11",
+        "section": "maths",
+        "topic": "Time & Work",
+        "pattern": "Two or three persons working together",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rpf-constable-M12",
+        "section": "maths",
+        "topic": "Time, Speed & Distance",
+        "pattern": "Speed conversion, train crossing a pole, late/early arrival with changed speed",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "2–3 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rpf-constable-M13",
+        "section": "maths",
+        "topic": "Mensuration",
+        "pattern": "Rectangle/circle perimeter and area (fencing cost), cuboid volume in litres",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rpf-constable-M14",
+        "section": "maths",
+        "topic": "Algebra & Geometry Basics",
+        "pattern": "Right triangles (Pythagoras, perpendicular), triangle angle sums with algebraic angles",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "hard"
+      },
+      {
+        "id": "rpf-constable-M15",
+        "section": "maths",
+        "topic": "Data Interpretation",
+        "pattern": "Small table of monthly/yearly figures – percentage change or average",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rpf-constable-R01",
+        "section": "reasoning",
+        "topic": "Analogies",
+        "pattern": "Word analogy – animal/young one, creature/dwelling, worker/tool",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "rpf-constable-R02",
+        "section": "reasoning",
+        "topic": "Analogies",
+        "pattern": "Number analogy – n(n+1), n³ ± 1, n² relations",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "rpf-constable-R03",
+        "section": "reasoning",
+        "topic": "Classification",
+        "pattern": "Odd word out from a category (units, crops, instruments)",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "rpf-constable-R04",
+        "section": "reasoning",
+        "topic": "Classification",
+        "pattern": "Odd number pair out (n : n³, n : n/2, etc.)",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "1 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "rpf-constable-R05",
+        "section": "reasoning",
+        "topic": "Number & Alphabet Series",
+        "pattern": "Number series with ×2, ×2 + 1 or doubling differences",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rpf-constable-R06",
+        "section": "reasoning",
+        "topic": "Number & Alphabet Series",
+        "pattern": "Letter-cluster series with fixed forward/backward steps",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rpf-constable-R07",
+        "section": "reasoning",
+        "topic": "Coding-Decoding",
+        "pattern": "Uniform letter shift (+k) coding of a word",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rpf-constable-R08",
+        "section": "reasoning",
+        "topic": "Coding-Decoding",
+        "pattern": "Opposite-letter (A↔Z, B↔Y) or reverse-order coding",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rpf-constable-R09",
+        "section": "reasoning",
+        "topic": "Mathematical Operations",
+        "pattern": "Symbol/letter substitution and BODMAS evaluation",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rpf-constable-R10",
+        "section": "reasoning",
+        "topic": "Blood Relations",
+        "pattern": "Short relation chains – how is A related to B",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rpf-constable-R11",
+        "section": "reasoning",
+        "topic": "Direction & Distance",
+        "pattern": "Two- or three-leg walks – shortest distance and direction",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "rpf-constable-R12",
+        "section": "reasoning",
+        "topic": "Syllogism",
+        "pattern": "Two statements with two conclusions (All/Some/No)",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rpf-constable-R13",
+        "section": "reasoning",
+        "topic": "Seating Arrangement & Puzzles",
+        "pattern": "Linear row of 5–6 people facing one direction",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rpf-constable-R14",
+        "section": "reasoning",
+        "topic": "Venn Diagrams",
+        "pattern": "Two-set counting (both/only/neither) and class-relationship diagrams",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "rpf-constable-R15",
+        "section": "reasoning",
+        "topic": "Statement–Conclusion & Assumptions",
+        "pattern": "Statement with two conclusions about a person/policy",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rpf-constable-R16",
+        "section": "reasoning",
+        "topic": "Order & Ranking",
+        "pattern": "Ranks from top/bottom or left/right – total count or position",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "easy"
+      },
+      {
+        "id": "rpf-constable-R17",
+        "section": "reasoning",
+        "topic": "Missing Number & Matrix",
+        "pattern": "Missing number in bracketed groups/rows with a² + b², a × b type rules",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "1–2 per shift",
+        "difficulty": "medium"
+      },
+      {
+        "id": "rpf-constable-R18",
+        "section": "reasoning",
+        "topic": "Non-verbal (Mirror Image, Embedded & Paper Folding)",
+        "pattern": "Mirror image of a clock/word and paper folding–punching (count holes); embedded figures in the figure-based shifts",
+        "years": [
+          2019,
+          2025
+        ],
+        "frequency": "3–4 per shift",
+        "difficulty": "medium"
+      }
+    ]
+  },
   "resources": {
     "pyqAvailable": true,
     "officialPYQ": null,
@@ -345,23 +942,14 @@
       ],
       "answer": 2,
       "explanation": "Gukesh Dommaraju is from Chennai, Tamil Nadu. He defeated Ding Liren in Singapore to win the title.",
-      "verified": true
-    },
-    {
-      "id": "rpf-constable-002",
-      "section": "ga",
-      "topic": "Current Affairs",
-      "difficulty": "easy",
-      "question": "India hosted the G20 Leaders' Summit in September 2023 in which city?",
-      "options": [
-        "Mumbai",
-        "Bengaluru",
-        "Hyderabad",
-        "New Delhi"
-      ],
-      "answer": 3,
-      "explanation": "The 18th G20 Leaders' Summit was held at Bharat Mandapam, New Delhi, on 9–10 September 2023.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-G01",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Gukesh home state - player-state archetype matches, but Dec 2024 event is getting old for 2026"
+      }
     },
     {
       "id": "rpf-constable-003",
@@ -377,23 +965,14 @@
       ],
       "answer": 0,
       "explanation": "India beat New Zealand by four wickets in the final at Dubai on 9 March 2025.",
-      "verified": true
-    },
-    {
-      "id": "rpf-constable-004",
-      "section": "ga",
-      "topic": "Current Affairs",
-      "difficulty": "hard",
-      "question": "How many medals in total did India win at the Paris 2024 Olympic Games?",
-      "options": [
-        "7",
-        "5",
-        "4",
-        "6"
-      ],
-      "answer": 3,
-      "explanation": "India won 6 medals – 1 silver (Neeraj Chopra) and 5 bronze (Manu Bhaker; Manu Bhaker & Sarabjot Singh; Swapnil Kusale; men's hockey team; Aman Sehrawat).",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-G01",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Champions Trophy 2025 winner - RPF sports result format"
+      }
     },
     {
       "id": "rpf-constable-005",
@@ -409,7 +988,14 @@
       ],
       "answer": 1,
       "explanation": "Uttarakhand implemented its Uniform Civil Code on 27 January 2025, the first state to enact such a law after Independence.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-G02",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Uttarakhand UCC Jan 2025 - RPF state-firsts archetype, Goa/Gujarat traps"
+      }
     },
     {
       "id": "rpf-constable-006",
@@ -425,7 +1011,14 @@
       ],
       "answer": 3,
       "explanation": "The first session was held in Bombay (Gokuldas Tejpal Sanskrit College) in December 1885 under W. C. Bonnerjee. It was originally planned for Poona but shifted due to a cholera outbreak.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-G04",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "First INC session Bombay 1885 - RPF freedom struggle"
+      }
     },
     {
       "id": "rpf-constable-007",
@@ -441,7 +1034,14 @@
       ],
       "answer": 1,
       "explanation": "Sardar Patel, India's first Deputy Prime Minister and Home Minister, integrated the princely states and is called the Iron Man of India.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-G04",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Iron Man of India Patel - leader-title item but very easy"
+      }
     },
     {
       "id": "rpf-constable-008",
@@ -457,7 +1057,14 @@
       ],
       "answer": 0,
       "explanation": "The Chauri Chaura incident (Gorakhpur district) took place on 4 February 1922; Gandhiji called off the movement soon after.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-G04",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Chauri Chaura 1922 - RPF incident-year"
+      }
     },
     {
       "id": "rpf-constable-009",
@@ -473,7 +1080,14 @@
       ],
       "answer": 0,
       "explanation": "The Governor is the constitutional (nominal) head of a State; real executive power lies with the Council of Ministers headed by the Chief Minister.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-G06",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Governor constitutional head - RPF easy polity, distractors weak"
+      }
     },
     {
       "id": "rpf-constable-010",
@@ -489,7 +1103,14 @@
       ],
       "answer": 1,
       "explanation": "Article 32 lets citizens move the Supreme Court for enforcement of Fundamental Rights; Dr Ambedkar called it the 'heart and soul' of the Constitution.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-G06",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Art 32 constitutional remedies - RPF Article staple"
+      }
     },
     {
       "id": "rpf-constable-011",
@@ -505,23 +1126,14 @@
       ],
       "answer": 1,
       "explanation": "Under Article 80, the President nominates 12 members with special knowledge of literature, science, art and social service.",
-      "verified": true
-    },
-    {
-      "id": "rpf-constable-012",
-      "section": "ga",
-      "topic": "Geography",
-      "difficulty": "easy",
-      "question": "Which is the largest ocean in the world?",
-      "options": [
-        "Pacific Ocean",
-        "Atlantic Ocean",
-        "Indian Ocean",
-        "Arctic Ocean"
-      ],
-      "answer": 0,
-      "explanation": "The Pacific is the largest and deepest ocean, covering about one-third of Earth's surface.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-G07",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "12 nominated Rajya Sabha members vs 2 Anglo-Indian trap - RPF parliament"
+      }
     },
     {
       "id": "rpf-constable-013",
@@ -537,7 +1149,14 @@
       ],
       "answer": 3,
       "explanation": "Loktak Lake in Manipur has floating phumdis; Keibul Lamjao, the only floating national park, is on it.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-G08",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Loktak phumdis Manipur - RPF lakes-state"
+      }
     },
     {
       "id": "rpf-constable-014",
@@ -553,7 +1172,14 @@
       ],
       "answer": 3,
       "explanation": "The Godavari, the longest river of peninsular India, is called Dakshin Ganga (Ganga of the South).",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-G08",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Dakshin Ganga Godavari vs Kaveri trap - RPF river epithets"
+      }
     },
     {
       "id": "rpf-constable-015",
@@ -569,23 +1195,14 @@
       ],
       "answer": 0,
       "explanation": "RBI was set up in 1935 at Calcutta; its central office moved permanently to Mumbai in 1937.",
-      "verified": true
-    },
-    {
-      "id": "rpf-constable-016",
-      "section": "ga",
-      "topic": "General Science",
-      "difficulty": "easy",
-      "question": "Which gas do green plants absorb from the atmosphere during photosynthesis?",
-      "options": [
-        "Oxygen",
-        "Carbon dioxide",
-        "Nitrogen",
-        "Hydrogen"
-      ],
-      "answer": 1,
-      "explanation": "Plants use CO₂ and water in the presence of sunlight and chlorophyll to make glucose, releasing oxygen.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-G10",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "RBI HQ Mumbai - RPF banking HQ, easy"
+      }
     },
     {
       "id": "rpf-constable-017",
@@ -601,7 +1218,14 @@
       ],
       "answer": 1,
       "explanation": "Vitamin C deficiency causes scurvy (bleeding gums). Rickets – vitamin D; beriberi – vitamin B1; night blindness – vitamin A.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-G11",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Vitamin C scurvy - RPF vitamin deficiency"
+      }
     },
     {
       "id": "rpf-constable-018",
@@ -617,7 +1241,14 @@
       ],
       "answer": 2,
       "explanation": "Platelets (thrombocytes) release clotting factors at a wound to start blood coagulation.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-G11",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Platelets clotting - RPF blood item"
+      }
     },
     {
       "id": "rpf-constable-019",
@@ -633,7 +1264,14 @@
       ],
       "answer": 0,
       "explanation": "Chlorophyll has a magnesium ion at the centre of its porphyrin ring; haemoglobin has iron.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-G11",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Mg in chlorophyll - RPF biology, labelled hard but standard"
+      }
     },
     {
       "id": "rpf-constable-020",
@@ -649,7 +1287,14 @@
       ],
       "answer": 2,
       "explanation": "'Bully' is the old method of starting/restarting play in hockey.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-G13",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "'Bully' hockey term - RPF sports terms"
+      }
     },
     {
       "id": "rpf-constable-021",
@@ -665,7 +1310,14 @@
       ],
       "answer": 1,
       "explanation": "Garba is performed in Gujarat, especially during Navratri.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-G13",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Garba Gujarat - very easy dance-state"
+      }
     },
     {
       "id": "rpf-constable-022",
@@ -681,7 +1333,14 @@
       ],
       "answer": 3,
       "explanation": "29 August is the birth anniversary of hockey legend Major Dhyan Chand (born 1905).",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-G14",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "National Sports Day Dhyan Chand - RPF important days"
+      }
     },
     {
       "id": "rpf-constable-023",
@@ -697,7 +1356,14 @@
       ],
       "answer": 3,
       "explanation": "The UN came into existence on 24 October 1945, observed as UN Day.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-G14",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "UN established 1945 with 1919 (League) trap - RPF founding years"
+      }
     },
     {
       "id": "rpf-constable-024",
@@ -713,7 +1379,14 @@
       ],
       "answer": 1,
       "explanation": "RPF is an armed force of the Union under the Railway Protection Force Act, 1957, administered by the Ministry of Railways.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-G16",
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "RPF under Ministry of Railways - RPF-specific basics archetype exact"
+      }
     },
     {
       "id": "rpf-constable-025",
@@ -729,7 +1402,14 @@
       ],
       "answer": 2,
       "explanation": "A keyboard feeds data into the computer; monitor, printer and speaker are output devices.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-G15",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Keyboard input device - RPF computer basics, trivial"
+      }
     },
     {
       "id": "rpf-constable-026",
@@ -745,7 +1425,14 @@
       ],
       "answer": 2,
       "explanation": "27 × 37 = 999, so 1000 leaves remainder 1. Subtract 1.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-M01",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Least to subtract for divisibility by 27 - RPF"
+      }
     },
     {
       "id": "rpf-constable-027",
@@ -761,7 +1448,14 @@
       ],
       "answer": 1,
       "explanation": "Primes: 11, 13, 17, 19, 23, 29. Sum = 112.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-M02",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Sum of primes 10-30 - RPF primes-in-range exact"
+      }
     },
     {
       "id": "rpf-constable-028",
@@ -777,7 +1471,14 @@
       ],
       "answer": 3,
       "explanation": "0.6 × 0.4 = 0.24 and 0.24 ÷ 0.3 = 0.8. Sum = 1.04.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-M03",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Decimal BODMAS with 0.32 (left-to-right) trap - RPF"
+      }
     },
     {
       "id": "rpf-constable-029",
@@ -793,7 +1494,14 @@
       ],
       "answer": 2,
       "explanation": "LCM = product ÷ HCF = 1620 ÷ 9 = 180.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-M04",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "LCM from product and HCF - RPF"
+      }
     },
     {
       "id": "rpf-constable-030",
@@ -809,7 +1517,14 @@
       ],
       "answer": 1,
       "explanation": "Let B = 100, A = 125. B is less by 25/125 × 100 = 20%.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-M05",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "A more than B → B less than A 20% - RPF exact"
+      }
     },
     {
       "id": "rpf-constable-031",
@@ -825,7 +1540,14 @@
       ],
       "answer": 2,
       "explanation": "Number = 72 × 100/40 = 180.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-M05",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Find number from x% - RPF easy, single step"
+      }
     },
     {
       "id": "rpf-constable-032",
@@ -841,7 +1563,14 @@
       ],
       "answer": 0,
       "explanation": "(3x + 9)/(5x + 9) = 3/4 ⇒ 12x + 36 = 15x + 27 ⇒ x = 3. Numbers are 9 and 15.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-M07",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Ratio change after adding 9 - RPF exact"
+      }
     },
     {
       "id": "rpf-constable-033",
@@ -857,7 +1586,14 @@
       ],
       "answer": 1,
       "explanation": "The middle number equals the average, 27. The numbers are 23, 25, 27, 29, 31.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-M08",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Consecutive odd numbers average - RPF"
+      }
     },
     {
       "id": "rpf-constable-034",
@@ -873,7 +1609,14 @@
       ],
       "answer": 2,
       "explanation": "New total = 31 × 40.5 = 1255.5 kg; old total = 1200 kg. Teacher = 55.5 kg.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-M08",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Teacher's weight included - RPF average classic"
+      }
     },
     {
       "id": "rpf-constable-035",
@@ -889,7 +1632,14 @@
       ],
       "answer": 0,
       "explanation": "Profit = 60; profit% = 60/400 × 100 = 15%.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-M09",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Direct profit % - RPF easy, 60% trap is absolute profit"
+      }
     },
     {
       "id": "rpf-constable-036",
@@ -905,7 +1655,14 @@
       ],
       "answer": 0,
       "explanation": "Single discount = 20 + 10 − (20 × 10)/100 = 28%. (100 → 80 → 72.)",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-M09",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Equivalent successive discount 28% - RPF"
+      }
     },
     {
       "id": "rpf-constable-037",
@@ -921,7 +1678,14 @@
       ],
       "answer": 2,
       "explanation": "To double, SI = P: P = P × 12.5 × T/100 ⇒ T = 100/12.5 = 8 years.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-M10",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "SI doubling 100/r - RPF"
+      }
     },
     {
       "id": "rpf-constable-038",
@@ -937,7 +1701,14 @@
       ],
       "answer": 0,
       "explanation": "Half-yearly rate = 10%, 2 periods. Amount = 10000 × 1.1² = ₹12,100. CI = ₹2,100.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-M10",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Half-yearly CI 1 year - RPF exact archetype"
+      }
     },
     {
       "id": "rpf-constable-039",
@@ -953,7 +1724,14 @@
       ],
       "answer": 3,
       "explanation": "1/10 + 1/15 = 5/30 = 1/6, so together they take 6 days.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-M11",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Two persons together - RPF work basic"
+      }
     },
     {
       "id": "rpf-constable-040",
@@ -969,7 +1747,14 @@
       ],
       "answer": 0,
       "explanation": "45 min = 3/4 h. Speed = 36 ÷ 3/4 = 48 km/h.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-M12",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Speed with minutes→hours conversion - RPF"
+      }
     },
     {
       "id": "rpf-constable-041",
@@ -985,7 +1770,14 @@
       ],
       "answer": 1,
       "explanation": "Perimeter = 2(40 + 25) = 130 m. Cost = 130 × 15 = ₹1,950.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-M13",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Fencing cost from perimeter, 1500 (forgot 2×) trap - RPF exact archetype"
+      }
     },
     {
       "id": "rpf-constable-042",
@@ -1001,7 +1793,14 @@
       ],
       "answer": 0,
       "explanation": "Hypotenuse = √(81 + 144) = 15 cm. Area = ½ × 9 × 12 = 54 = ½ × 15 × h ⇒ h = 108/15 = 7.2 cm.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-M14",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Altitude to hypotenuse ab/c - RPF right triangle, slightly above RPF level"
+      }
     },
     {
       "id": "rpf-constable-043",
@@ -1017,7 +1816,14 @@
       ],
       "answer": 3,
       "explanation": "A bird lives in a nest; a bee lives in a hive.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-R01",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Creature:dwelling Bee:Hive with Honey trap - RPF analogy exact"
+      }
     },
     {
       "id": "rpf-constable-044",
@@ -1033,7 +1839,14 @@
       ],
       "answer": 0,
       "explanation": "6 × 7 = 42, i.e. n × (n + 1). So 8 × 9 = 72.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-R02",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "n(n+1) analogy with n² trap - RPF"
+      }
     },
     {
       "id": "rpf-constable-045",
@@ -1049,7 +1862,14 @@
       ],
       "answer": 2,
       "explanation": "Wheat, rice and maize are cereal crops; mango is a fruit.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-R03",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Mango fruit among cereals - RPF odd-word, easy"
+      }
     },
     {
       "id": "rpf-constable-046",
@@ -1065,7 +1885,14 @@
       ],
       "answer": 2,
       "explanation": "In each pair the second number is the cube of the first: 3³ = 27, 4³ = 64, 5³ = 125. But 6³ = 216, not 206.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-R04",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "n:n³ odd pair 6-206 - RPF exact"
+      }
     },
     {
       "id": "rpf-constable-047",
@@ -1081,7 +1908,14 @@
       ],
       "answer": 2,
       "explanation": "Each term is doubled: 56 × 2 = 112.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-R05",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Pure ×2 series - easier than RPF series which add a twist"
+      }
     },
     {
       "id": "rpf-constable-048",
@@ -1097,7 +1931,14 @@
       ],
       "answer": 2,
       "explanation": "Differences are 1, 2, 4, 8, so the next difference is 16: 17 + 16 = 33.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-R05",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "×2−1 / doubling differences - RPF"
+      }
     },
     {
       "id": "rpf-constable-049",
@@ -1113,7 +1954,14 @@
       ],
       "answer": 2,
       "explanation": "Each letter moves 5 places forward: A→F→K→P, C→H→M→R, E→J→O→T.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-R06",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Letter cluster +5 - RPF"
+      }
     },
     {
       "id": "rpf-constable-050",
@@ -1129,7 +1977,14 @@
       ],
       "answer": 2,
       "explanation": "Each letter is moved two places forward: S→U, T→V, U→W, D→F, E→G, N→P, T→V.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-R07",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Uniform +2 coding 7-letter word - RPF exact"
+      }
     },
     {
       "id": "rpf-constable-051",
@@ -1145,7 +2000,14 @@
       ],
       "answer": 3,
       "explanation": "Each letter is replaced by its opposite letter (A↔Z, B↔Y, …; position p → 27 − p): M→N, O→L, T→G, H→S, E→V, R→I. So F→U, A→Z, T→G, H→S, E→V, R→I = UZGSVI.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-R08",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Opposite-letter coding - RPF exact archetype"
+      }
     },
     {
       "id": "rpf-constable-052",
@@ -1161,7 +2023,14 @@
       ],
       "answer": 3,
       "explanation": "36 ÷ 4 × 3 + 8 − 5 = 9 × 3 + 8 − 5 = 27 + 3 = 30.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-R09",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Letter-operator BODMAS - RPF"
+      }
     },
     {
       "id": "rpf-constable-053",
@@ -1177,7 +2046,14 @@
       ],
       "answer": 0,
       "explanation": "A is a daughter of C (being B's sister). D is C's father, so A is D's granddaughter.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-R10",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Short chain granddaughter - RPF relation"
+      }
     },
     {
       "id": "rpf-constable-054",
@@ -1193,7 +2069,14 @@
       ],
       "answer": 3,
       "explanation": "Shortest distance = √(4² + 3²) = √25 = 5 km.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-R11",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Two-leg 3-4-5 distance only - simplest form, RPF usually also asks direction"
+      }
     },
     {
       "id": "rpf-constable-055",
@@ -1209,7 +2092,14 @@
       ],
       "answer": 1,
       "explanation": "'Some erasers are sharpeners' converts to 'Some sharpeners are erasers' (II). The sharpeners may lie in the part of erasers outside pencils, so I is not certain.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-R12",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "All-Some syllogism with possibility trap - RPF"
+      }
     },
     {
       "id": "rpf-constable-056",
@@ -1225,7 +2115,14 @@
       ],
       "answer": 3,
       "explanation": "D = 1, E = 2, B = 4. C and A take 3 and 5; C is not at the right end, so C = 3 (middle) and A = 5.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-R13",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "5-person row - RPF"
+      }
     },
     {
       "id": "rpf-constable-057",
@@ -1241,7 +2138,14 @@
       ],
       "answer": 3,
       "explanation": "Both = 65 + 45 − 100 = 10.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-R14",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Both from total with no 'neither' - RPF counting"
+      }
     },
     {
       "id": "rpf-constable-058",
@@ -1257,7 +2161,14 @@
       ],
       "answer": 1,
       "explanation": "Total = 9 + 26 − 1 = 34.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-R16",
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "Rank top+bottom−1 with 35 trap - RPF exact"
+      }
     },
     {
       "id": "rpf-constable-059",
@@ -1273,7 +2184,14 @@
       ],
       "answer": 0,
       "explanation": "Third number = sum of squares of the first two: 4 + 9 = 13, 16 + 25 = 41, so 36 + 49 = 85.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-R17",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Bracket groups a²+b² - RPF exact"
+      }
     },
     {
       "id": "rpf-constable-060",
@@ -1289,7 +2207,1371 @@
       ],
       "answer": 1,
       "explanation": "I follows from the two given facts. Nothing is said about Ramesh's diet, so II does not follow.",
-      "verified": true
+      "source": "curated",
+      "archetype": "rpf-constable-R15",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Statement conclusion with irrelevant II - RPF"
+      }
+    },
+    {
+      "id": "rpf-constable-061",
+      "section": "ga",
+      "topic": "Current Affairs",
+      "difficulty": "medium",
+      "question": "Which team won the ICC World Test Championship final played at Lord's in June 2025?",
+      "options": [
+        "Australia",
+        "South Africa",
+        "India",
+        "New Zealand"
+      ],
+      "answer": 1,
+      "explanation": "South Africa, led by Temba Bavuma, defeated Australia by five wickets in the 2025 WTC final at Lord's.",
+      "source": "ai",
+      "archetype": "rpf-constable-G01",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "WTC 2025 South Africa - RPF sports result"
+      }
+    },
+    {
+      "id": "rpf-constable-063",
+      "section": "ga",
+      "topic": "Current Affairs",
+      "difficulty": "medium",
+      "question": "The Bharatiya Nyaya Sanhita, the Bharatiya Nagarik Suraksha Sanhita and the Bharatiya Sakshya Adhiniyam came into force on:",
+      "options": [
+        "1 January 2024",
+        "15 August 2024",
+        "1 July 2024",
+        "26 January 2025"
+      ],
+      "answer": 2,
+      "explanation": "The three new criminal laws replaced the IPC, CrPC and Indian Evidence Act with effect from 1 July 2024.",
+      "source": "ai",
+      "archetype": "rpf-constable-G02",
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "New criminal laws 1 July 2024 - RPF-relevant (policing) national event, highly likely asked"
+      }
+    },
+    {
+      "id": "rpf-constable-064",
+      "section": "ga",
+      "topic": "Current Affairs",
+      "difficulty": "easy",
+      "question": "The Maha Kumbh Mela of 2025 (January–February) was held at:",
+      "options": [
+        "Haridwar",
+        "Prayagraj",
+        "Ujjain",
+        "Nashik"
+      ],
+      "answer": 1,
+      "explanation": "The Maha Kumbh 2025 was held at the Triveni Sangam in Prayagraj, Uttar Pradesh, from 13 January to 26 February 2025.",
+      "source": "ai",
+      "archetype": "rpf-constable-G02",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Maha Kumbh 2025 Prayagraj - RPF mega-event venue"
+      }
+    },
+    {
+      "id": "rpf-constable-065",
+      "section": "ga",
+      "topic": "Current Affairs",
+      "difficulty": "medium",
+      "question": "Who took charge as Chairman of ISRO in January 2025?",
+      "options": [
+        "S. Somanath",
+        "K. Sivan",
+        "A. S. Kiran Kumar",
+        "V. Narayanan"
+      ],
+      "answer": 3,
+      "explanation": "Dr V. Narayanan, earlier Director of the Liquid Propulsion Systems Centre, succeeded S. Somanath as ISRO Chairman on 14 January 2025.",
+      "source": "ai",
+      "archetype": "rpf-constable-G03",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "ISRO chairman V. Narayanan Jan 2025 - RPF appointments"
+      }
+    },
+    {
+      "id": "rpf-constable-066",
+      "section": "ga",
+      "topic": "History & Freedom Struggle",
+      "difficulty": "easy",
+      "question": "Which freedom fighter started the newspaper 'Kesari'?",
+      "options": [
+        "Bal Gangadhar Tilak",
+        "Mahatma Gandhi",
+        "Annie Besant",
+        "Bipin Chandra Pal"
+      ],
+      "answer": 0,
+      "explanation": "Bal Gangadhar Tilak started Kesari (Marathi) and Mahratta (English) in 1881.",
+      "source": "ai",
+      "archetype": "rpf-constable-G04",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Kesari-Tilak - RPF newspapers"
+      }
+    },
+    {
+      "id": "rpf-constable-067",
+      "section": "ga",
+      "topic": "History & Freedom Struggle",
+      "difficulty": "easy",
+      "question": "The Simon Commission, which came to India in 1928, was boycotted mainly because:",
+      "options": [
+        "It proposed the partition of Bengal",
+        "It banned the Indian National Congress",
+        "It had no Indian member",
+        "It increased land revenue"
+      ],
+      "answer": 2,
+      "explanation": "All seven members of the Simon Commission were British, so Indians boycotted it with the slogan \"Simon Go Back\".",
+      "source": "ai",
+      "archetype": "rpf-constable-G04",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Simon Commission all-white - RPF commission reason"
+      }
+    },
+    {
+      "id": "rpf-constable-068",
+      "section": "ga",
+      "topic": "History & Freedom Struggle",
+      "difficulty": "easy",
+      "question": "Who founded the Maurya Empire?",
+      "options": [
+        "Ashoka",
+        "Bindusara",
+        "Chandragupta Maurya",
+        "Bimbisara"
+      ],
+      "answer": 2,
+      "explanation": "Chandragupta Maurya, guided by Chanakya, founded the Maurya Empire around 322 BCE. Bimbisara belonged to the Haryanka dynasty.",
+      "source": "ai",
+      "archetype": "rpf-constable-G05",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Founder of Maurya Empire - RPF, very easy"
+      }
+    },
+    {
+      "id": "rpf-constable-069",
+      "section": "ga",
+      "topic": "Indian Polity & Constitution",
+      "difficulty": "medium",
+      "question": "Which Article of the Constitution of India lays down the procedure for the impeachment of the President?",
+      "options": [
+        "Article 61",
+        "Article 52",
+        "Article 72",
+        "Article 356"
+      ],
+      "answer": 0,
+      "explanation": "Article 61 deals with impeachment of the President for violation of the Constitution. Article 52 creates the office, 72 gives pardoning power and 356 deals with President's Rule.",
+      "source": "ai",
+      "archetype": "rpf-constable-G06",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Art 61 impeachment - RPF Article exact"
+      }
+    },
+    {
+      "id": "rpf-constable-070",
+      "section": "ga",
+      "topic": "Indian Polity & Constitution",
+      "difficulty": "medium",
+      "question": "Who administers the oath of office to the Governor of a State?",
+      "options": [
+        "President of India",
+        "Chief Minister of the State",
+        "Chief Justice of India",
+        "Chief Justice of the High Court of that State"
+      ],
+      "answer": 3,
+      "explanation": "Under Article 159 the Governor takes oath before the Chief Justice of the concerned High Court (or the senior-most judge in his absence).",
+      "source": "ai",
+      "archetype": "rpf-constable-G06",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Governor's oath by HC CJ - RPF exact with CJI trap"
+      }
+    },
+    {
+      "id": "rpf-constable-071",
+      "section": "ga",
+      "topic": "Indian Polity & Constitution",
+      "difficulty": "medium",
+      "question": "What is the minimum age required to become a member of the Rajya Sabha?",
+      "options": [
+        "25 years",
+        "30 years",
+        "35 years",
+        "21 years"
+      ],
+      "answer": 1,
+      "explanation": "Article 84 prescribes a minimum age of 30 years for the Rajya Sabha and 25 years for the Lok Sabha.",
+      "source": "ai",
+      "archetype": "rpf-constable-G07",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Rajya Sabha min age 30 - RPF age qualifications"
+      }
+    },
+    {
+      "id": "rpf-constable-072",
+      "section": "ga",
+      "topic": "Geography",
+      "difficulty": "easy",
+      "question": "Gir National Park, the only natural home of the Asiatic lion, is located in:",
+      "options": [
+        "Gujarat",
+        "Rajasthan",
+        "Madhya Pradesh",
+        "Maharashtra"
+      ],
+      "answer": 0,
+      "explanation": "Gir National Park and Wildlife Sanctuary is in the Junagadh region of Gujarat.",
+      "source": "ai",
+      "archetype": "rpf-constable-G08",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Gir-Gujarat - RPF national park"
+      }
+    },
+    {
+      "id": "rpf-constable-073",
+      "section": "ga",
+      "topic": "Geography",
+      "difficulty": "medium",
+      "question": "The Bhakra Nangal Dam has been built on which river?",
+      "options": [
+        "Beas",
+        "Sutlej",
+        "Ravi",
+        "Chenab"
+      ],
+      "answer": 1,
+      "explanation": "The Bhakra Dam (Himachal Pradesh) and Nangal Dam (Punjab) are on the Sutlej river; the reservoir is Gobind Sagar.",
+      "source": "ai",
+      "archetype": "rpf-constable-G08",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Bhakra Nangal on Sutlej vs Beas trap - RPF dam-river"
+      }
+    },
+    {
+      "id": "rpf-constable-074",
+      "section": "ga",
+      "topic": "Geography",
+      "difficulty": "easy",
+      "question": "Which is the smallest continent in the world by area?",
+      "options": [
+        "Europe",
+        "Antarctica",
+        "South America",
+        "Australia"
+      ],
+      "answer": 3,
+      "explanation": "Australia is the smallest continent (about 7.7 million km²), followed by Europe.",
+      "source": "ai",
+      "archetype": "rpf-constable-G09",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Smallest continent Australia - easy superlative; Europe trap"
+      }
+    },
+    {
+      "id": "rpf-constable-075",
+      "section": "ga",
+      "topic": "Economy",
+      "difficulty": "medium",
+      "question": "NABARD mainly provides finance and support for:",
+      "options": [
+        "Foreign trade",
+        "Urban housing",
+        "Agriculture and rural development",
+        "Stock market regulation"
+      ],
+      "answer": 2,
+      "explanation": "The National Bank for Agriculture and Rural Development (1982) is the apex institution for agricultural and rural credit.",
+      "source": "ai",
+      "archetype": "rpf-constable-G10",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "NABARD function - RPF banking"
+      }
+    },
+    {
+      "id": "rpf-constable-076",
+      "section": "ga",
+      "topic": "General Science",
+      "difficulty": "easy",
+      "question": "People with which blood group are known as universal donors?",
+      "options": [
+        "AB",
+        "O",
+        "A",
+        "B"
+      ],
+      "answer": 1,
+      "explanation": "Group O red cells carry neither A nor B antigens, so they can be given to people of any ABO group. AB is the universal recipient.",
+      "source": "ai",
+      "archetype": "rpf-constable-G11",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Universal donor O - RPF blood"
+      }
+    },
+    {
+      "id": "rpf-constable-077",
+      "section": "ga",
+      "topic": "General Science",
+      "difficulty": "easy",
+      "question": "Which vitamin is produced in the human skin on exposure to sunlight?",
+      "options": [
+        "Vitamin A",
+        "Vitamin C",
+        "Vitamin K",
+        "Vitamin D"
+      ],
+      "answer": 3,
+      "explanation": "Ultraviolet rays of sunlight convert a cholesterol derivative in the skin into vitamin D.",
+      "source": "ai",
+      "archetype": "rpf-constable-G11",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Vitamin D sunlight - RPF vitamins"
+      }
+    },
+    {
+      "id": "rpf-constable-078",
+      "section": "ga",
+      "topic": "General Science",
+      "difficulty": "easy",
+      "question": "Which metal remains in the liquid state at room temperature?",
+      "options": [
+        "Mercury",
+        "Sodium",
+        "Aluminium",
+        "Lead"
+      ],
+      "answer": 0,
+      "explanation": "Mercury (melting point about −39 °C) is the only metal that is liquid at room temperature.",
+      "source": "ai",
+      "archetype": "rpf-constable-G12",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Mercury liquid metal - RPF daily chemistry"
+      }
+    },
+    {
+      "id": "rpf-constable-079",
+      "section": "ga",
+      "topic": "General Science",
+      "difficulty": "easy",
+      "question": "Which instrument is used to measure atmospheric pressure?",
+      "options": [
+        "Hygrometer",
+        "Ammeter",
+        "Barometer",
+        "Lactometer"
+      ],
+      "answer": 2,
+      "explanation": "A barometer measures atmospheric pressure; a hygrometer measures humidity, an ammeter current and a lactometer the purity of milk.",
+      "source": "ai",
+      "archetype": "rpf-constable-G12",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Barometer pressure - RPF instruments"
+      }
+    },
+    {
+      "id": "rpf-constable-080",
+      "section": "ga",
+      "topic": "Art, Culture & Sports",
+      "difficulty": "easy",
+      "question": "Kuchipudi is a classical dance form of which state?",
+      "options": [
+        "Tamil Nadu",
+        "Karnataka",
+        "Andhra Pradesh",
+        "Kerala"
+      ],
+      "answer": 2,
+      "explanation": "Kuchipudi takes its name from a village in the Krishna district of Andhra Pradesh.",
+      "source": "ai",
+      "archetype": "rpf-constable-G13",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Kuchipudi AP - RPF dance-state"
+      }
+    },
+    {
+      "id": "rpf-constable-081",
+      "section": "ga",
+      "topic": "Art, Culture & Sports",
+      "difficulty": "easy",
+      "question": "How many players of each team are on the court at a time in a standard Kabaddi match?",
+      "options": [
+        "7",
+        "6",
+        "11",
+        "9"
+      ],
+      "answer": 0,
+      "explanation": "Each Kabaddi team fields 7 players on court (with substitutes on the bench).",
+      "source": "ai",
+      "archetype": "rpf-constable-G13",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Kabaddi team size on court - RPF team-size archetype"
+      }
+    },
+    {
+      "id": "rpf-constable-082",
+      "section": "ga",
+      "topic": "Static GK (Books, Awards, Days, Organisations)",
+      "difficulty": "medium",
+      "question": "National Voters' Day is observed in India every year on:",
+      "options": [
+        "26 January",
+        "30 January",
+        "12 January",
+        "25 January"
+      ],
+      "answer": 3,
+      "explanation": "It marks the founding day of the Election Commission of India (25 January 1950) and has been observed since 2011.",
+      "source": "ai",
+      "archetype": "rpf-constable-G14",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "National Voters' Day 25 Jan with Republic Day trap - RPF important days"
+      }
+    },
+    {
+      "id": "rpf-constable-083",
+      "section": "ga",
+      "topic": "Static GK (Books, Awards, Days, Organisations)",
+      "difficulty": "easy",
+      "question": "Who wrote the Hindi novel 'Godan'?",
+      "options": [
+        "Jaishankar Prasad",
+        "Munshi Premchand",
+        "Harivansh Rai Bachchan",
+        "Mahadevi Verma"
+      ],
+      "answer": 1,
+      "explanation": "'Godan' (1936), a classic on the life of Indian peasants, was Premchand's last completed novel.",
+      "source": "ai",
+      "archetype": "rpf-constable-G14",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Godan-Premchand - RPF books-authors"
+      }
+    },
+    {
+      "id": "rpf-constable-084",
+      "section": "ga",
+      "topic": "Computers & Railways Basics",
+      "difficulty": "easy",
+      "question": "In computer terminology, what is the full form of 'URL'?",
+      "options": [
+        "Uniform Resource Locator",
+        "Universal Resource Link",
+        "Uniform Routing Locator",
+        "Universal Reference Locator"
+      ],
+      "answer": 0,
+      "explanation": "A URL (Uniform Resource Locator) is the address of a resource on the internet, e.g. a web page.",
+      "source": "ai",
+      "archetype": "rpf-constable-G15",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "URL full form - RPF computer abbreviations"
+      }
+    },
+    {
+      "id": "rpf-constable-085",
+      "section": "ga",
+      "topic": "Computers & Railways Basics",
+      "difficulty": "medium",
+      "question": "The Railway Protection Force Act, under which the RPF functions, was enacted by Parliament in:",
+      "options": [
+        "1966",
+        "1957",
+        "1985",
+        "1950"
+      ],
+      "answer": 1,
+      "explanation": "The RPF Act was passed in 1957. In 1985 an amendment declared the RPF an armed force of the Union; 1966 is the year of the Railway Property (Unlawful Possession) Act.",
+      "source": "ai",
+      "archetype": "rpf-constable-G16",
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "RPF Act 1957 - RPF-specific basics, exam asks this"
+      }
+    },
+    {
+      "id": "rpf-constable-086",
+      "section": "maths",
+      "topic": "Number System",
+      "difficulty": "easy",
+      "question": "Which of the following numbers is divisible by 11?",
+      "options": [
+        "64,532",
+        "38,519",
+        "91,827",
+        "82,544"
+      ],
+      "answer": 3,
+      "explanation": "Test for 11: (sum of digits in odd places) − (sum in even places) must be 0 or a multiple of 11. For 82544: (8 + 5 + 4) − (2 + 4) = 11 ✓. The others give 6, 8 and 21.",
+      "source": "ai",
+      "archetype": "rpf-constable-M01",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Divisibility by 11 among four numbers (verified 82544) - RPF"
+      }
+    },
+    {
+      "id": "rpf-constable-087",
+      "section": "maths",
+      "topic": "Number System",
+      "difficulty": "easy",
+      "question": "How many prime numbers are there between 40 and 70?",
+      "options": [
+        "6",
+        "8",
+        "7",
+        "5"
+      ],
+      "answer": 2,
+      "explanation": "The primes are 41, 43, 47, 53, 59, 61 and 67 – seven in all.",
+      "source": "ai",
+      "archetype": "rpf-constable-M02",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Count primes 40-70 - RPF primes in range"
+      }
+    },
+    {
+      "id": "rpf-constable-088",
+      "section": "maths",
+      "topic": "Simplification, Decimals & Fractions",
+      "difficulty": "easy",
+      "question": "Simplify: 2/3 + 5/6 − 3/4",
+      "options": [
+        "1/2",
+        "3/4",
+        "7/12",
+        "5/6"
+      ],
+      "answer": 1,
+      "explanation": "LCM of denominators = 12: 8/12 + 10/12 − 9/12 = 9/12 = 3/4.",
+      "source": "ai",
+      "archetype": "rpf-constable-M03",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Fraction add/subtract - RPF"
+      }
+    },
+    {
+      "id": "rpf-constable-089",
+      "section": "maths",
+      "topic": "Simplification, Decimals & Fractions",
+      "difficulty": "easy",
+      "question": "Simplify: 144 ÷ 12 × 3 − 5 + 18 ÷ 6",
+      "options": [
+        "4",
+        "28",
+        "37",
+        "34"
+      ],
+      "answer": 3,
+      "explanation": "144 ÷ 12 = 12; 12 × 3 = 36; 18 ÷ 6 = 3. So 36 − 5 + 3 = 34. (Doing 12 × 3 first and then 144 ÷ 36 gives the wrong value 4.)",
+      "source": "ai",
+      "archetype": "rpf-constable-M03",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "BODMAS ÷× order - RPF"
+      }
+    },
+    {
+      "id": "rpf-constable-090",
+      "section": "maths",
+      "topic": "LCM & HCF",
+      "difficulty": "medium",
+      "question": "Three traffic lights change after every 48 seconds, 72 seconds and 108 seconds respectively. If they change together at 8:20:00 a.m., when will they next change together?",
+      "options": [
+        "8:27:12 a.m.",
+        "8:28:12 a.m.",
+        "8:26:24 a.m.",
+        "8:24:12 a.m."
+      ],
+      "answer": 0,
+      "explanation": "LCM of 48, 72 and 108 = 2⁴ × 3³ = 432 seconds = 7 min 12 s. Next simultaneous change = 8:27:12 a.m.",
+      "source": "ai",
+      "archetype": "rpf-constable-M04",
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "Traffic lights LCM to clock time - RPF exact"
+      }
+    },
+    {
+      "id": "rpf-constable-091",
+      "section": "maths",
+      "topic": "Percentage",
+      "difficulty": "easy",
+      "question": "If 15% of a number is 54, what is 35% of the same number?",
+      "options": [
+        "108",
+        "144",
+        "126",
+        "162"
+      ],
+      "answer": 2,
+      "explanation": "Number = 54 × 100/15 = 360. 35% of 360 = 126.",
+      "source": "ai",
+      "archetype": "rpf-constable-M05",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "x% to y% of same number - RPF"
+      }
+    },
+    {
+      "id": "rpf-constable-092",
+      "section": "maths",
+      "topic": "Percentage",
+      "difficulty": "medium",
+      "question": "Ramesh spends 30% of his monthly salary on rent and 25% of the remaining amount on food. If he is left with ₹10,500, what is his monthly salary?",
+      "options": [
+        "₹18,000",
+        "₹22,500",
+        "₹20,000",
+        "₹24,000"
+      ],
+      "answer": 2,
+      "explanation": "Amount left = S × 0.70 × 0.75 = 0.525S = 10,500 → S = ₹20,000. (Subtracting 30% + 25% = 55% directly gives a wrong answer.)",
+      "source": "ai",
+      "archetype": "rpf-constable-M06",
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "Staged expenditure to salary - RPF exact archetype"
+      }
+    },
+    {
+      "id": "rpf-constable-093",
+      "section": "maths",
+      "topic": "Ratio & Proportion",
+      "difficulty": "medium",
+      "question": "The ratio of boys to girls in a class is 5 : 3. If there are 16 more boys than girls, what is the total number of students?",
+      "options": [
+        "64",
+        "48",
+        "40",
+        "80"
+      ],
+      "answer": 0,
+      "explanation": "Difference = 5 − 3 = 2 parts = 16 → 1 part = 8. Total = 8 parts = 64.",
+      "source": "ai",
+      "archetype": "rpf-constable-M07",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Ratio with difference to total - RPF"
+      }
+    },
+    {
+      "id": "rpf-constable-094",
+      "section": "maths",
+      "topic": "Average",
+      "difficulty": "medium",
+      "question": "The average of 7 numbers is 18. If the number 30 is removed, what is the average of the remaining numbers?",
+      "options": [
+        "15",
+        "17",
+        "18",
+        "16"
+      ],
+      "answer": 3,
+      "explanation": "Total = 7 × 18 = 126. After removing 30: 96 ÷ 6 = 16.",
+      "source": "ai",
+      "archetype": "rpf-constable-M08",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Average after removing a number - RPF"
+      }
+    },
+    {
+      "id": "rpf-constable-095",
+      "section": "maths",
+      "topic": "Profit & Loss",
+      "difficulty": "easy",
+      "question": "A shopkeeper buys 20 pens for ₹200 and sells them at ₹12 each. What is his profit percentage?",
+      "options": [
+        "16.67%",
+        "20%",
+        "12%",
+        "25%"
+      ],
+      "answer": 1,
+      "explanation": "CP = ₹200, SP = 20 × 12 = ₹240. Profit = 40/200 × 100 = 20%. (Dividing by SP gives 16.67%.)",
+      "source": "ai",
+      "archetype": "rpf-constable-M09",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Buy-n sell-at-price profit % - RPF, 16.67 (wrong base) trap"
+      }
+    },
+    {
+      "id": "rpf-constable-096",
+      "section": "maths",
+      "topic": "Simple & Compound Interest",
+      "difficulty": "medium",
+      "question": "What is the simple interest on ₹7,500 at 6% per annum for 2 years 6 months?",
+      "options": [
+        "₹1,125",
+        "₹900",
+        "₹1,350",
+        "₹1,050"
+      ],
+      "answer": 0,
+      "explanation": "Time = 2.5 years. SI = 7500 × 6 × 2.5/100 = ₹1,125.",
+      "source": "ai",
+      "archetype": "rpf-constable-M10",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "SI for years and months - RPF exact"
+      }
+    },
+    {
+      "id": "rpf-constable-097",
+      "section": "maths",
+      "topic": "Time & Work",
+      "difficulty": "medium",
+      "question": "A, B and C can complete a work in 10, 12 and 15 days respectively. In how many days can they complete it working together?",
+      "options": [
+        "5 days",
+        "4 days",
+        "6 days",
+        "3 days"
+      ],
+      "answer": 1,
+      "explanation": "One day's work = 1/10 + 1/12 + 1/15 = (6 + 5 + 4)/60 = 15/60 = 1/4. So they finish in 4 days.",
+      "source": "ai",
+      "archetype": "rpf-constable-M11",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Three workers together - RPF"
+      }
+    },
+    {
+      "id": "rpf-constable-098",
+      "section": "maths",
+      "topic": "Time, Speed & Distance",
+      "difficulty": "easy",
+      "question": "A train running at 90 km/h crosses a pole in 12 seconds. What is the length of the train?",
+      "options": [
+        "1080 m",
+        "250 m",
+        "360 m",
+        "300 m"
+      ],
+      "answer": 3,
+      "explanation": "90 km/h = 90 × 5/18 = 25 m/s. Length = 25 × 12 = 300 m. (Not converting units gives 1080.)",
+      "source": "ai",
+      "archetype": "rpf-constable-M12",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Train length crossing pole - RPF"
+      }
+    },
+    {
+      "id": "rpf-constable-099",
+      "section": "maths",
+      "topic": "Time, Speed & Distance",
+      "difficulty": "medium",
+      "question": "Walking at 4/5 of his usual speed, a man reaches his office 15 minutes late. What is his usual time to reach the office?",
+      "options": [
+        "75 minutes",
+        "45 minutes",
+        "60 minutes",
+        "50 minutes"
+      ],
+      "answer": 2,
+      "explanation": "At 4/5 of the speed he takes 5/4 of the usual time. Extra time = 1/4 of usual time = 15 min, so usual time = 60 minutes.",
+      "source": "ai",
+      "archetype": "rpf-constable-M12",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Late arrival with reduced speed fraction - RPF exact"
+      }
+    },
+    {
+      "id": "rpf-constable-100",
+      "section": "maths",
+      "topic": "Mensuration",
+      "difficulty": "medium",
+      "question": "A rectangular water tank is 6 m long, 4 m wide and 2.5 m deep. How many litres of water can it hold when full?",
+      "options": [
+        "6,000 litres",
+        "60,000 litres",
+        "600 litres",
+        "6,00,000 litres"
+      ],
+      "answer": 1,
+      "explanation": "Volume = 6 × 4 × 2.5 = 60 m³. Since 1 m³ = 1000 litres, capacity = 60,000 litres.",
+      "source": "ai",
+      "archetype": "rpf-constable-M13",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Cuboid tank in litres with ×1000 traps - RPF exact archetype"
+      }
+    },
+    {
+      "id": "rpf-constable-101",
+      "section": "maths",
+      "topic": "Algebra & Geometry Basics",
+      "difficulty": "medium",
+      "question": "The angles of a triangle are (2x)°, (3x + 10)° and (4x − 10)°. What is the measure of its largest angle?",
+      "options": [
+        "40°",
+        "80°",
+        "60°",
+        "70°"
+      ],
+      "answer": 3,
+      "explanation": "2x + 3x + 10 + 4x − 10 = 180 → 9x = 180 → x = 20. The angles are 40°, 70° and 70°, so the largest angle is 70°.",
+      "source": "ai",
+      "archetype": "rpf-constable-M14",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Algebraic triangle angles - RPF"
+      }
+    },
+    {
+      "id": "rpf-constable-102",
+      "section": "maths",
+      "topic": "Data Interpretation",
+      "difficulty": "medium",
+      "question": "The number of passengers (in thousands) using a train service in four months was: January 24, February 30, March 36, April 30. By what percentage did the number in March exceed that in January?",
+      "options": [
+        "50%",
+        "33.33%",
+        "12%",
+        "25%"
+      ],
+      "answer": 0,
+      "explanation": "Increase = 36 − 24 = 12 thousand on a base of 24 thousand: 12/24 × 100 = 50%. (Dividing by 36 gives 33.33%.)",
+      "source": "ai",
+      "archetype": "rpf-constable-M15",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Small passenger table % change - RPF DI-lite"
+      }
+    },
+    {
+      "id": "rpf-constable-103",
+      "section": "reasoning",
+      "topic": "Analogies",
+      "difficulty": "easy",
+      "question": "Select the option that is related to the third word in the same way as the second word is related to the first word.\nCow : Calf :: Horse : ?",
+      "options": [
+        "Kid",
+        "Cub",
+        "Foal",
+        "Puppy"
+      ],
+      "answer": 2,
+      "explanation": "The young one of a cow is a calf; the young one of a horse is a foal. (Kid – goat, cub – lion, puppy – dog.)",
+      "source": "ai",
+      "archetype": "rpf-constable-R01",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Animal:young one Horse:Foal - RPF exact"
+      }
+    },
+    {
+      "id": "rpf-constable-104",
+      "section": "reasoning",
+      "topic": "Analogies",
+      "difficulty": "easy",
+      "question": "Select the number that is related to the third number in the same way as the second number is related to the first number.\n3 : 28 :: 4 : ?",
+      "options": [
+        "64",
+        "17",
+        "65",
+        "63"
+      ],
+      "answer": 2,
+      "explanation": "3³ + 1 = 28. Similarly 4³ + 1 = 65.",
+      "source": "ai",
+      "archetype": "rpf-constable-R02",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "n³+1 analogy - RPF"
+      }
+    },
+    {
+      "id": "rpf-constable-105",
+      "section": "reasoning",
+      "topic": "Classification",
+      "difficulty": "easy",
+      "question": "Select the odd one out.",
+      "options": [
+        "Litre",
+        "Kilogram",
+        "Quintal",
+        "Tonne"
+      ],
+      "answer": 0,
+      "explanation": "Kilogram, quintal and tonne are units of mass; litre is a unit of volume.",
+      "source": "ai",
+      "archetype": "rpf-constable-R03",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Litre volume among mass units - RPF units odd-one"
+      }
+    },
+    {
+      "id": "rpf-constable-106",
+      "section": "reasoning",
+      "topic": "Classification",
+      "difficulty": "easy",
+      "question": "Select the odd number-pair.",
+      "options": [
+        "12 – 6",
+        "18 – 9",
+        "24 – 12",
+        "30 – 16"
+      ],
+      "answer": 3,
+      "explanation": "In the other pairs the second number is half of the first. Half of 30 is 15, not 16.",
+      "source": "ai",
+      "archetype": "rpf-constable-R04",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "n:n/2 odd pair is very easy; RPF pairs typically need some computation"
+      }
+    },
+    {
+      "id": "rpf-constable-107",
+      "section": "reasoning",
+      "topic": "Number & Alphabet Series",
+      "difficulty": "medium",
+      "question": "Which number will replace the question mark (?) in the following series?\n6, 9, 15, 27, 51, ?",
+      "options": [
+        "96",
+        "99",
+        "101",
+        "75"
+      ],
+      "answer": 1,
+      "explanation": "Differences double: +3, +6, +12, +24, +48. So 51 + 48 = 99.",
+      "source": "ai",
+      "archetype": "rpf-constable-R05",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Doubling differences series - RPF"
+      }
+    },
+    {
+      "id": "rpf-constable-108",
+      "section": "reasoning",
+      "topic": "Number & Alphabet Series",
+      "difficulty": "medium",
+      "question": "Select the letter-cluster that will come next in the following series.\nAYB, CWD, EUF, ?",
+      "options": [
+        "GSH",
+        "GTH",
+        "HSI",
+        "GSI"
+      ],
+      "answer": 0,
+      "explanation": "First letters: A, C, E, G (+2); middle letters: Y, W, U, S (−2); last letters: B, D, F, H (+2). Next = GSH.",
+      "source": "ai",
+      "archetype": "rpf-constable-R06",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Three-letter cluster forward/backward steps - RPF"
+      }
+    },
+    {
+      "id": "rpf-constable-109",
+      "section": "reasoning",
+      "topic": "Coding-Decoding",
+      "difficulty": "medium",
+      "question": "In a certain code language, PLANT is written as RNCPV. How will GREEN be written in that language?",
+      "options": [
+        "ISGGP",
+        "ITGGP",
+        "HTGGP",
+        "ITFFP"
+      ],
+      "answer": 1,
+      "explanation": "Each letter is moved 2 places forward: P→R, L→N, A→C, N→P, T→V. So G→I, R→T, E→G, E→G, N→P = ITGGP.",
+      "source": "ai",
+      "archetype": "rpf-constable-R07",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Uniform +2 coding - RPF"
+      }
+    },
+    {
+      "id": "rpf-constable-110",
+      "section": "reasoning",
+      "topic": "Coding-Decoding",
+      "difficulty": "medium",
+      "question": "In a certain code language, GOLD is written as TLOW. How will SILVER be written in that language?",
+      "options": [
+        "HRPEVI",
+        "GROEVI",
+        "HROFVI",
+        "HROEVI"
+      ],
+      "answer": 3,
+      "explanation": "Each letter is replaced by its opposite letter (A↔Z, B↔Y …; position p → 27 − p): G→T, O→L, L→O, D→W. So S→H, I→R, L→O, V→E, E→V, R→I = HROEVI.",
+      "source": "ai",
+      "archetype": "rpf-constable-R08",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Opposite-letter coding - RPF exact"
+      }
+    },
+    {
+      "id": "rpf-constable-111",
+      "section": "reasoning",
+      "topic": "Mathematical Operations",
+      "difficulty": "medium",
+      "question": "If '×' means '÷', '÷' means '+', '+' means '−' and '−' means '×', what is the value of the following expression?\n36 × 4 ÷ 5 − 3 + 10",
+      "options": [
+        "24",
+        "4",
+        "14",
+        "19"
+      ],
+      "answer": 2,
+      "explanation": "Substituting: 36 ÷ 4 + 5 × 3 − 10 = 9 + 15 − 10 = 14.",
+      "source": "ai",
+      "archetype": "rpf-constable-R09",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Symbol substitution BODMAS - RPF"
+      }
+    },
+    {
+      "id": "rpf-constable-112",
+      "section": "reasoning",
+      "topic": "Blood Relations",
+      "difficulty": "medium",
+      "question": "A's mother is the sister of B's father. How is A related to B?",
+      "options": [
+        "Nephew",
+        "Cousin",
+        "Brother",
+        "Uncle"
+      ],
+      "answer": 1,
+      "explanation": "A's mother is B's paternal aunt, so A is the child of B's aunt – B's cousin. (A's gender is not known, so 'nephew' or 'brother' cannot be right.)",
+      "source": "ai",
+      "archetype": "rpf-constable-R10",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Father's sister's child cousin - RPF short chain"
+      }
+    },
+    {
+      "id": "rpf-constable-113",
+      "section": "reasoning",
+      "topic": "Direction & Distance",
+      "difficulty": "easy",
+      "question": "Raman walks 20 m towards the north, then turns left and walks 15 m. How far and in which direction is he from his starting point?",
+      "options": [
+        "35 m, North-West",
+        "25 m, North-East",
+        "5 m, West",
+        "25 m, North-West"
+      ],
+      "answer": 3,
+      "explanation": "Turning left from north means walking west. He is 20 m north and 15 m west of the start: distance = √(20² + 15²) = 25 m, towards the North-West.",
+      "source": "ai",
+      "archetype": "rpf-constable-R11",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Two-leg walk 15-20-25 NW - RPF"
+      }
+    },
+    {
+      "id": "rpf-constable-114",
+      "section": "reasoning",
+      "topic": "Syllogism",
+      "difficulty": "medium",
+      "question": "Statements:\nAll doctors are graduates.\nNo graduate is illiterate.\nConclusions:\nI. No doctor is illiterate.\nII. Some graduates are doctors.\nWhich of the conclusions logically follow(s)?",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both conclusions I and II follow",
+        "Neither conclusion I nor II follows"
+      ],
+      "answer": 2,
+      "explanation": "Doctors lie inside graduates and no graduate is illiterate, so no doctor is illiterate (I). \"All doctors are graduates\" implies \"Some graduates are doctors\" (II). Both follow.",
+      "source": "ai",
+      "archetype": "rpf-constable-R12",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "All-No syllogism both follow - RPF"
+      }
+    },
+    {
+      "id": "rpf-constable-115",
+      "section": "reasoning",
+      "topic": "Seating Arrangement & Puzzles",
+      "difficulty": "medium",
+      "question": "Five persons A, B, C, D and E sit in a row facing north. C sits exactly in the middle. A sits to the immediate right of C. E sits at the extreme right end. B does not sit at the extreme left end. Who sits at the extreme left end?",
+      "options": [
+        "B",
+        "A",
+        "D",
+        "C"
+      ],
+      "answer": 2,
+      "explanation": "Positions from the left: C = 3, A = 4, E = 5. B and D take positions 1 and 2; B is not at the left end, so D = 1.",
+      "source": "ai",
+      "archetype": "rpf-constable-R13",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "5-person row - RPF"
+      }
+    },
+    {
+      "id": "rpf-constable-116",
+      "section": "reasoning",
+      "topic": "Venn Diagrams",
+      "difficulty": "easy",
+      "question": "In a village of 500 people, 300 speak Hindi and 250 speak Marathi. Every person speaks at least one of the two languages. How many people speak only Hindi?",
+      "options": [
+        "200",
+        "300",
+        "250",
+        "50"
+      ],
+      "answer": 2,
+      "explanation": "Both = 300 + 250 − 500 = 50. Only Hindi = 300 − 50 = 250.",
+      "source": "ai",
+      "archetype": "rpf-constable-R14",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Only Hindi from at-least-one data - RPF counting"
+      }
+    },
+    {
+      "id": "rpf-constable-117",
+      "section": "reasoning",
+      "topic": "Order & Ranking",
+      "difficulty": "medium",
+      "question": "In a class, Rita ranks 7th from the top. Gita is 5 ranks below Rita and is 21st from the bottom. How many students are there in the class?",
+      "options": [
+        "32",
+        "33",
+        "31",
+        "28"
+      ],
+      "answer": 0,
+      "explanation": "Gita's rank from the top = 7 + 5 = 12. Total = 12 + 21 − 1 = 32.",
+      "source": "ai",
+      "archetype": "rpf-constable-R16",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Rank chain to total - RPF"
+      }
+    },
+    {
+      "id": "rpf-constable-118",
+      "section": "reasoning",
+      "topic": "Missing Number & Matrix",
+      "difficulty": "medium",
+      "question": "Find the missing number.\n8 (40) 5\n9 (54) 6\n7 (?) 8",
+      "options": [
+        "15",
+        "63",
+        "48",
+        "56"
+      ],
+      "answer": 3,
+      "explanation": "The middle number is the product of the outer numbers: 8 × 5 = 40, 9 × 6 = 54, so 7 × 8 = 56.",
+      "source": "ai",
+      "archetype": "rpf-constable-R17",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Bracket product rule - RPF missing number"
+      }
+    },
+    {
+      "id": "rpf-constable-119",
+      "section": "reasoning",
+      "topic": "Non-verbal (Mirror Image, Embedded & Paper Folding)",
+      "difficulty": "medium",
+      "question": "A wall clock shows the time 8:25. What time will its image in a plane mirror (placed vertically) show?",
+      "options": [
+        "4:35",
+        "3:35",
+        "3:25",
+        "4:25"
+      ],
+      "answer": 1,
+      "explanation": "Mirror time = 11:60 − actual time = 11:60 − 8:25 = 3:35.",
+      "source": "ai",
+      "archetype": "rpf-constable-R18",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Mirror clock 8:25 → 3:35 - RPF"
+      }
+    },
+    {
+      "id": "rpf-constable-120",
+      "section": "reasoning",
+      "topic": "Non-verbal (Mirror Image, Embedded & Paper Folding)",
+      "difficulty": "medium",
+      "question": "A square sheet of paper is folded in half from top to bottom and then folded in half again from left to right. A single hole is punched through all the layers. How many holes will there be when the sheet is completely unfolded?",
+      "options": [
+        "4",
+        "2",
+        "8",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "Two folds make 4 layers. A punch through all layers makes one hole in each layer, i.e. 4 holes after unfolding.",
+      "source": "ai",
+      "archetype": "rpf-constable-R18",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Paper folded twice punched once → 4 holes - RPF folding-punching (text version of figure item)"
+      }
     }
   ]
 }

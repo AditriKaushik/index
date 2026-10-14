@@ -47,7 +47,8 @@
     "marking": {
       "correct": 3,
       "wrong": -1,
-      "unattempted": 0
+      "unattempted": 0,
+      "numericalWrong": 0
     },
     "sections": [
       {
@@ -69,7 +70,7 @@
         "marks": 66
       }
     ],
-    "notes": "Strict sectional timing: 40 minutes per section, fixed order VARC → DILR → QA, no switching. Mix of MCQs (+3/−1) and TITA (type-in-the-answer, +3/0, no negative marking). In this mock all TITA-type items (para-jumbles, numeric answers) are presented as 4-option MCQs. Scores are normalised across the three slots. Question count per section has varied slightly (66–68 total) between years."
+    "notes": "Strict sectional timing: 40 minutes per section, fixed order VARC → DILR → QA, no switching. Mix of MCQs (+3/−1) and TITA (type-in-the-answer, +3/0, no negative marking); in this mock TITA items — para-jumble orders, odd-sentence numbers and numeric answers — are typed in (numerical type) and carry no penalty when wrong. RC passages (4 per paper, roughly 450–600 words, 4 questions each) and DILR sets (4–5 questions on one caselet) are served as complete sets. Scores are normalised across the three slots. Question count per section has varied slightly (66–68 total) between years."
   },
   "trendAnalysis": {
     "yearsAnalyzed": [
@@ -228,653 +229,754 @@
       }
     ]
   },
+  "pyqBlueprint": {
+    "yearsCovered": [
+      2023,
+      2024,
+      2025
+    ],
+    "method": "Compiled from slot-wise memory-based analyses and solved-paper reviews of CAT 2023, 2024 and 2025 (IMS, TIME, Career Launcher, Cracku, Hitbullseye, iQuanta and InsideIIM write-ups found via web search); IIM Lucknow/IIM Kolkata/IIM Calcutta do not publish official papers, and the full analysis pages could not be fetched, so question types were consolidated from search snippets plus the writer's own knowledge of the three papers. Every pattern is described in our own words; no actual question is reproduced.",
+    "archetypes": [
+      {
+        "id": "cat-V01",
+        "section": "varc",
+        "topic": "Reading Comprehension",
+        "pattern": "450–600-word humanities/social-science/science passage with 4 questions; 'central idea / primary concern' question whose distractors seize a peripheral detail, over-generalise, or state the view the author argues against",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-V02",
+        "section": "varc",
+        "topic": "Reading Comprehension",
+        "pattern": "Inference / 'the author would most likely agree' question on an argumentative passage; wrong options are extreme versions of the author's claim or statements the passage leaves untested",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "3–4 per slot",
+        "difficulty": "hard"
+      },
+      {
+        "id": "cat-V03",
+        "section": "varc",
+        "topic": "Reading Comprehension",
+        "pattern": "Function question: why the author cites a particular example, analogy or closing sentence; traps describe the example's content instead of its role in the argument",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-V04",
+        "section": "varc",
+        "topic": "Reading Comprehension",
+        "pattern": "Strengthen/weaken a claim or explanation reported in the passage; the key option attacks the causal link (confounder, missing comparison), distractors support it or are irrelevant",
+        "years": [
+          2023,
+          2025
+        ],
+        "frequency": "≈1 per slot",
+        "difficulty": "hard"
+      },
+      {
+        "id": "cat-V05",
+        "section": "varc",
+        "topic": "Reading Comprehension",
+        "pattern": "Author's tone or attitude toward a trend or idea; options pair close adjectives (qualified scepticism vs outright hostility) so only a balanced reading fits",
+        "years": [
+          2023,
+          2024
+        ],
+        "frequency": "0–1 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-V06",
+        "section": "varc",
+        "topic": "Reading Comprehension",
+        "pattern": "Detail / 'all of the following EXCEPT' question checking which listed statement the passage does not support",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-V07",
+        "section": "varc",
+        "topic": "Reading Comprehension",
+        "pattern": "Meaning of a figurative phrase or key claim in context; distractors take the phrase literally or exaggerate it",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "≈1 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-V08",
+        "section": "varc",
+        "topic": "Para Jumbles",
+        "pattern": "4/5-sentence TITA para jumble (answer keyed in as the order of sentence numbers) built on chronology or contrast, with an opening general statement and a 'Yet/However' turn",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "2 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-V09",
+        "section": "varc",
+        "topic": "Para Jumbles",
+        "pattern": "4/5-sentence TITA para jumble locked by demonstratives ('such delays', 'those marks', 'the two groups') that cannot precede their referent; tempting orders break that chain",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per slot",
+        "difficulty": "hard"
+      },
+      {
+        "id": "cat-V10",
+        "section": "varc",
+        "topic": "Odd Sentence Out",
+        "pattern": "TITA odd sentence out: five jumbled sentences, four form a paragraph; key in the number of the sentence that shifts to a related but different subject",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-V11",
+        "section": "varc",
+        "topic": "Odd Sentence Out",
+        "pattern": "TITA odd sentence out where the odd sentence stays in the same broad area (same field, same era) but leaves the paragraph's specific thread",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "0–1 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-V12",
+        "section": "varc",
+        "topic": "Para Summary",
+        "pattern": "Para summary: choose the option that best captures the paragraph; distractors are too narrow, too extreme, or add a claim not in the text",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "2 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-D01",
+        "section": "dilr",
+        "topic": "Arrangements & Scheduling",
+        "pattern": "Linear row seating with distance clues ('exactly two between'), adjacency, end-seat and left/right order; ask who occupies a seat",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 set per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-D02",
+        "section": "dilr",
+        "topic": "Arrangements & Scheduling",
+        "pattern": "Circular seating with clockwise/anticlockwise and opposite-seat clues, single configuration to be deduced",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 set in two of three slots",
+        "difficulty": "hard"
+      },
+      {
+        "id": "cat-D03",
+        "section": "dilr",
+        "topic": "Arrangements & Scheduling",
+        "pattern": "DILR set (4–5 questions): scheduling people/items into days or slots with counting constraints (days per person, no three consecutive, pairs together on k days); some questions add an 'if …' condition",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 set per slot",
+        "difficulty": "hard"
+      },
+      {
+        "id": "cat-D04",
+        "section": "dilr",
+        "topic": "Arrangements & Scheduling",
+        "pattern": "Floors / ranking order with parity and gap clues; question asks what must be true when two arrangements survive",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "frequent",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-D05",
+        "section": "dilr",
+        "topic": "Tables & Data Interpretation",
+        "pattern": "Multi-year table of values for several entities; compare percentage growth where the largest absolute or one-year change is the trap",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 set per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-D06",
+        "section": "dilr",
+        "topic": "Tables & Data Interpretation",
+        "pattern": "Table needing a derived quantity (units × price, weighted share) before comparing; the raw-count leader is the trap",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "frequent",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-D07",
+        "section": "dilr",
+        "topic": "Tables & Data Interpretation",
+        "pattern": "DILR set: partially specified table (scores/ratings/sales grid with row and column totals, distinct-value or range rules); reconstruct entries, some questions TITA",
+        "years": [
+          2023,
+          2025
+        ],
+        "frequency": "≈1 set per paper",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-D08",
+        "section": "dilr",
+        "topic": "Games & Tournaments",
+        "pattern": "Round-robin league with win/draw/loss points; deduce results, minimum draws or what must be true from final points",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 set per paper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "cat-D09",
+        "section": "dilr",
+        "topic": "Games & Tournaments",
+        "pattern": "Seeded knockout bracket with 'upset' definition; reconstruct results from counts of upsets and known finalists",
+        "years": [
+          2023,
+          2024
+        ],
+        "frequency": "occasional",
+        "difficulty": "hard"
+      },
+      {
+        "id": "cat-D17",
+        "section": "dilr",
+        "topic": "Games & Tournaments",
+        "pattern": "Rule-based game played over rounds (players choose numbers/moves, scoring rule per round, restriction on repeating moves); reconstruct moves from final scores — 4–5 questions, some TITA",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "≈1 set in some slots",
+        "difficulty": "hard"
+      },
+      {
+        "id": "cat-D10",
+        "section": "dilr",
+        "topic": "Venn Diagrams & Set-based Puzzles",
+        "pattern": "Three-set survey data (pairwise and triple overlaps or 'exactly two' counts); find exactly-one / exactly-two regions",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 set per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-D11",
+        "section": "dilr",
+        "topic": "Venn Diagrams & Set-based Puzzles",
+        "pattern": "Maximum/minimum overlap of three sets under totals; requires the exactly-one/two/three counting identity",
+        "years": [
+          2023,
+          2025
+        ],
+        "frequency": "occasional",
+        "difficulty": "hard"
+      },
+      {
+        "id": "cat-D12",
+        "section": "dilr",
+        "topic": "Routes & Networks",
+        "pattern": "Weighted road network (one- or two-way); shortest route, often after a road is closed",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 set in some slots",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-D13",
+        "section": "dilr",
+        "topic": "Routes & Networks",
+        "pattern": "Count distinct routes in a grid or directed network, with blocked points or one-way links",
+        "years": [
+          2024,
+          2025
+        ],
+        "frequency": "occasional",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-D14",
+        "section": "dilr",
+        "topic": "Selection & Conditional Logic",
+        "pattern": "Choose a team/committee under if-then and cannot-both rules; count valid selections",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 set per slot",
+        "difficulty": "hard"
+      },
+      {
+        "id": "cat-D15",
+        "section": "dilr",
+        "topic": "Selection & Conditional Logic",
+        "pattern": "Approve/choose a fixed number of items under conditional rules; identify the item that must be chosen",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "frequent",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-D16",
+        "section": "dilr",
+        "topic": "Selection & Conditional Logic",
+        "pattern": "Selection under numeric thresholds (budget, credits, score cut-offs); find valid combinations or an item common to all",
+        "years": [
+          2023,
+          2025
+        ],
+        "frequency": "occasional",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-Q01",
+        "section": "qa",
+        "topic": "Percentages & Profit-Loss",
+        "pattern": "Mark-up, successive discounts and profit (sometimes with false weights); solve for discount or profit %",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1–2 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-Q02",
+        "section": "qa",
+        "topic": "Percentages & Profit-Loss",
+        "pattern": "Successive percentage changes or expenditure-consumption balance; reverse-calculate the base value",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per slot",
+        "difficulty": "easy"
+      },
+      {
+        "id": "cat-Q03",
+        "section": "qa",
+        "topic": "Ratio, Proportion & Mixtures",
+        "pattern": "Mixture replacement (remove-and-replace, repeated) and resulting ratio/quantity",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-Q04",
+        "section": "qa",
+        "topic": "Ratio, Proportion & Mixtures",
+        "pattern": "Ratio word problems: ages, partnership with changing capital × time",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-Q05",
+        "section": "qa",
+        "topic": "Time-Speed-Distance & Work",
+        "pattern": "Relative speed: trains crossing, races with lead by distance/time",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-Q06",
+        "section": "qa",
+        "topic": "Time-Speed-Distance & Work",
+        "pattern": "Work and efficiency: pairwise rates, efficiency multiples, alternate days, pipes",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-Q07",
+        "section": "qa",
+        "topic": "Time-Speed-Distance & Work",
+        "pattern": "Boats and streams / two-journey simultaneous equations",
+        "years": [
+          2023,
+          2024
+        ],
+        "frequency": "occasional",
+        "difficulty": "hard"
+      },
+      {
+        "id": "cat-Q08",
+        "section": "qa",
+        "topic": "Averages & Interest",
+        "pattern": "SI/CI relations: CI–SI difference, amounts in consecutive years",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per slot",
+        "difficulty": "easy"
+      },
+      {
+        "id": "cat-Q09",
+        "section": "qa",
+        "topic": "Averages & Interest",
+        "pattern": "Averages with replacement, inclusion or correction of entries",
+        "years": [
+          2023,
+          2025
+        ],
+        "frequency": "occasional",
+        "difficulty": "easy"
+      },
+      {
+        "id": "cat-Q10",
+        "section": "qa",
+        "topic": "Linear & Quadratic Equations",
+        "pattern": "Quadratic root relations (ratio of roots, symmetric functions α/β + β/α)",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-Q11",
+        "section": "qa",
+        "topic": "Linear & Quadratic Equations",
+        "pattern": "Integer/natural-number solutions of linear Diophantine equations or discriminant conditions",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-Q12",
+        "section": "qa",
+        "topic": "Inequalities & Functions",
+        "pattern": "Modulus equations/inequalities: count integer solutions, with the 'whole interval' trap",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-Q13",
+        "section": "qa",
+        "topic": "Inequalities & Functions",
+        "pattern": "Functions: composition, functional equations, max of min(f, g) type",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per slot",
+        "difficulty": "hard"
+      },
+      {
+        "id": "cat-Q14",
+        "section": "qa",
+        "topic": "Progressions & Series",
+        "pattern": "AP/GP: find terms or sums from two given sums/terms",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-Q15",
+        "section": "qa",
+        "topic": "Logarithms & Surds",
+        "pattern": "Logarithmic equations with domain check (extraneous root as trap)",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-Q16",
+        "section": "qa",
+        "topic": "Logarithms & Surds",
+        "pattern": "Surds and indices simplification / comparison",
+        "years": [
+          2023,
+          2024
+        ],
+        "frequency": "occasional",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-Q17",
+        "section": "qa",
+        "topic": "Geometry & Mensuration",
+        "pattern": "Triangle centres and radii: inradius, circumradius, incentre distances",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-Q18",
+        "section": "qa",
+        "topic": "Geometry & Mensuration",
+        "pattern": "Circle chords, tangent-secant power of a point, distance between chords",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-Q19",
+        "section": "qa",
+        "topic": "Geometry & Mensuration",
+        "pattern": "Mensuration: solids melted/recast, surface area and volume",
+        "years": [
+          2023,
+          2025
+        ],
+        "frequency": "occasional",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-Q20",
+        "section": "qa",
+        "topic": "Geometry & Mensuration",
+        "pattern": "Coordinate geometry: area of triangle/polygon from vertices, lines and intercepts",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-Q21",
+        "section": "qa",
+        "topic": "Number System",
+        "pattern": "Remainders using cyclicity, Fermat/Euler or aⁿ + bⁿ divisibility by a + b",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-Q22",
+        "section": "qa",
+        "topic": "Number System",
+        "pattern": "Factors: number/sum of divisors, odd/even/perfect-square divisors",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-Q23",
+        "section": "qa",
+        "topic": "Modern Maths (P&C, Probability, Sets)",
+        "pattern": "Permutations/arrangements with restrictions (digits, vowels together, repeated letters)",
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "frequency": "1 per slot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "cat-Q24",
+        "section": "qa",
+        "topic": "Modern Maths (P&C, Probability, Sets)",
+        "pattern": "Probability of sums/parity when drawing numbers or cards",
+        "years": [
+          2023,
+          2024
+        ],
+        "frequency": "occasional",
+        "difficulty": "medium"
+      }
+    ]
+  },
   "resources": {
     "pyqAvailable": true,
     "officialPYQ": null,
     "officialMock": "https://iimcat.ac.in",
     "notes": "IIMs publish an official mock test and the tutorial on iimcat.ac.in before the exam, and release candidate response sheets plus provisional answer keys (with an objection window) after the exam. A consolidated official question-paper archive is not maintained; full slot-wise papers circulate via memory-based/response-sheet reconstructions by coaching institutes."
   },
+  "passages": [
+    {
+      "id": "cat-P01",
+      "section": "varc",
+      "title": "Passage: Knowledge from testimony",
+      "text": "Most of what any of us believes about the world we have not checked. I have never measured the distance to the sun, examined the archival evidence for the date of a famous battle, or confirmed by experiment that the blood circulates. I believe these things because I was told them, by teachers, books and institutions whose reliability I am in no position to audit. Philosophers have long been uneasy about this dependence, and their unease has taken two broad forms.\n\nThe first, usually traced to Hume, holds that testimony can be a source of knowledge only derivatively. We are entitled to believe what others tell us, on this view, only to the extent that we have independent grounds — gathered through our own perception, memory and inference — for thinking that testimony of that kind tends to be true. Testimony is a conduit, not a spring; whatever warrant it carries must be paid for, eventually, in the coin of first-hand observation. The appeal of this 'reductionist' picture is that it honours an ideal of intellectual autonomy: the knower who accepts nothing she cannot, in principle, underwrite herself.\n\nThe difficulty is that the ledger never balances. A child learns the meanings of words — and so the very concepts with which she might later check a claim — by trusting the adults around her. Even an adult who sets out to verify the general reliability of, say, encyclopaedias would have to rely on testimony to learn which encyclopaedias exist, what their track record has been and how their errors were detected. The inductive base available to any single person is far too narrow to support the vast edifice of what she reasonably believes. If reductionism were true, almost all of us would know almost nothing.\n\nThe rival tradition, associated with Thomas Reid, treats our disposition to believe what we are told as a basic faculty, on a par with perception. Just as I am entitled to trust my eyes unless I have some reason to suspect them, I am entitled to accept testimony unless defeaters — signs of insincerity, incompetence or implausibility — are present. This 'anti-reductionist' view removes the impossible bookkeeping, but it purchases that relief at a price. It seems to license a kind of gullibility, sanctioning belief in whatever is asserted confidently enough until someone happens to object.\n\nIt may be that both camps have misdescribed the phenomenon by locating it in the individual. What makes it reasonable for me to believe a textbook claim about the circulation of the blood is not mainly anything I have done, nor merely an innate permission to trust, but the existence of a social structure — peer review, replication, professional sanction, the public correction of error — which filters claims before they reach me. My trust is reasonable because it is directed at a system that has been built to deserve it. This shift has an uncomfortable corollary. If the warrant for my beliefs resides largely outside my head, then the erosion of those institutions does not simply make certain sources less reliable; it quietly drains the justification from beliefs I continue to hold, without my noticing that anything has changed. Epistemic autonomy, on this account, is less a possession of the individual than an achievement of the communities that make individual trust safe."
+    },
+    {
+      "id": "cat-P02",
+      "section": "varc",
+      "title": "Passage: Reputation, courts and medieval trade",
+      "text": "For a long time economic historians told a tidy story about how long-distance trade became possible before the rise of the modern state. A merchant in eleventh-century Fustat who shipped goods to an agent in Palermo faced an obvious hazard: once the cargo was out of his sight, the agent could misreport prices, skim the proceeds or simply disappear. No court in Palermo, the story went, would reliably enforce a contract on behalf of a distant foreigner. What restrained the agent was instead a private coalition. Merchants who belonged to a close-knit network shared information about one another's conduct, and an agent caught cheating any member would be shunned by all. Because the future value of membership exceeded what could be gained from a single act of fraud, honesty was self-enforcing. Courts were unnecessary; reputation did the work.\n\nThe story was attractive for reasons that went beyond the archive. It offered an elegant demonstration that institutions need not be imposed from above, that cooperation could be sustained by self-interest alone, and it supplied a template for thinking about developing economies in which formal enforcement is weak. Informal networks, it suggested, were not a primitive substitute for law but an efficient solution in their own right.\n\nLater scholars who returned to the same letters found a messier picture. The merchants, it turned out, did use courts, drew up formal partnerships, deposited documents with notaries and threatened litigation when correspondence failed. Agents were by no means drawn exclusively from within the network, and the evidence that collective punishment of cheaters was ever systematically applied proved thin. Reputation mattered, but it operated alongside legal mechanisms rather than in place of them. The critics went further: the very fluidity that made the network attractive to the theory — merchants moving between associates as opportunity dictated — is hard to reconcile with the dense, closed membership on which multilateral punishment depends.\n\nIt would be a mistake, though, to read this revision as a simple victory of law over trust. Courts in this period were slow, costly and uncertain, and their judgments were difficult to enforce across jurisdictions. A merchant who sued a distant agent might win a verdict and recover nothing. What the litigants seem to have valued in legal procedure was frequently not coercion but documentation: a notarised contract created a public record that could be shown to third parties, so that formal institutions extended the reach of reputation rather than replacing it. Equally, reputational sanctions were credible partly because the threat of litigation stood behind them.\n\nThe broader lesson concerns how theories are tested against history. A model that explains an outcome by a single mechanism will tend, when it searches the archive, to find that mechanism; the letters that discuss reputation are vivid and quotable, while the routine traces of legal practice are easy to overlook. The danger is not that such a model is false but that its elegance comes to be treated as evidence for it. Institutions in the past, like institutions now, were seldom pure types. They were layered arrangements in which private and public enforcement leaned on each other, and their success depended less on any one device than on the way the devices were combined."
+    },
+    {
+      "id": "cat-P03",
+      "section": "varc",
+      "title": "Passage: The mirror test",
+      "text": "For half a century the mirror test has served as comparative psychology's most famous gatekeeper. An animal is marked, without its knowledge, on a part of its body it can see only in a reflection; if, on facing a mirror, it inspects or tries to remove the mark, it is credited with recognising the reflection as itself. Great apes pass, as do some dolphins, an elephant or two and the Eurasian magpie. Dogs, cats and most monkeys, by and large, do not. The test's appeal lies in its apparent cleanness: it asks a yes-or-no question and seems to answer it without any need to interpret the animal's inner life.\n\nThat cleanness has always been partly an illusion. A pass requires not one capacity but several: the animal must attend to mirrors at all, care about an anomaly on its body, and possess a repertoire of movements that allows it to investigate the mark. An animal that relies chiefly on smell, as dogs do, may simply find a visual image uninteresting; an animal for which grooming is not a natural response to a blemish has no obvious reason to touch it. Failures are therefore hard to read. Passes, it was long assumed, were not.\n\nThat assumption came under strain when a small reef fish, the cleaner wrasse, which makes its living removing parasites from other fish, was reported to scrape a coloured mark against the sea floor after viewing it in a mirror — and to ignore an identical mark it could not see. By the test's own criteria, the fish had passed. The reaction among researchers was instructive. Some concluded that self-recognition must be far more widespread than supposed; others concluded that the test must measure something less than self-recognition, since it could not be that a fish possessed a self-concept comparable to a chimpanzee's. Both responses accepted the result; they differed on which of their prior commitments to give up.\n\nThe second response deserves more sympathy than it is sometimes given, though not for the reason usually offered. The trouble is not that fish are too lowly to have selves, a judgement that begs the very question at issue. It is that the test was never validated as a measure of a self-concept in the first place. It was designed with primates in mind, calibrated on primates and interpreted through a picture of the self — reflective, unified, able to take itself as an object — that was itself derived from human introspection. A behaviour that tracks that capacity in apes may be produced by quite different machinery in a species whose ecology rewards close attention to marks on bodies.\n\nNone of this means the wrasse result should be dismissed. It means that a single behavioural criterion cannot carry the theoretical weight that has been placed on it. What the episode recommends is not a lower bar or a higher one but a plurality of tests, each fitted to the perceptual world and behavioural repertoire of the species examined, whose convergence — or failure to converge — would tell us more than any one of them could. Comparative cognition has often progressed by asking whether animals can do what we do. It may progress further by asking what, given the lives they lead, it would even mean for them to do it."
+    },
+    {
+      "id": "cat-P04",
+      "section": "varc",
+      "title": "Passage: Authenticity and the rebuilt shrine",
+      "text": "Every twenty years, in a ceremony that has been performed with few interruptions for some thirteen centuries, the principal buildings of the Ise shrine in Japan are dismantled and rebuilt on an adjacent plot, using fresh cypress and the same techniques. Visitors from Europe have often been puzzled by the custom. Is the shrine they see thirteen centuries old or a few years old? The question seems to admit of an answer only if one has already decided what makes a building the building it is — its material, its form or the unbroken practice that reproduces it.\n\nThe European conservation tradition, at least since the nineteenth century, has largely answered in favour of material. Its guiding horror is the restoration that replaces original fabric with conjectural copy, and its guiding virtue is the honesty with which later interventions are distinguished from what survives. A cathedral repaired with new stone is expected to show the joins. Behind this lies a conception of the monument as a document: an object whose value consists in the evidence it carries of the past, and which is falsified, like a forged charter, if its substance is silently renewed.\n\nIse suggests a different conception, in which what is transmitted is not an object but a competence. The carpenters who rebuild the shrine are the custodians of knowledge that exists only in their hands and must be exercised to survive; a building preserved untouched for a thousand years would preserve the form while losing the skill. On this view, the periodic destruction of the material is not a threat to authenticity but its condition. Authenticity resides in the continuity of a living practice rather than in the persistence of particular atoms.\n\nIt is tempting to turn this contrast into a parable about East and West, but the parable flatters both sides. Japanese practice has never been uniform — many temples are prized precisely for their ancient timbers — and European cities are full of buildings whose 'original' fabric is the product of repeated, unacknowledged repair. More importantly, the documentary conception has itself shifted. International conservation charters now concede that authenticity may be judged differently in different cultural contexts and that it can attach to traditions, techniques and settings as well as to materials. The concession was hard won, and its critics fear that it dissolves the concept: if anything that continues a tradition can count as authentic, the word risks ceasing to discriminate at all.\n\nThat fear is reasonable, but it misidentifies the danger. The question is not whether authenticity should be located in matter or in practice, as if one answer were correct everywhere, but what a particular community is trying to keep faith with. A medieval charter and a living craft make different claims on us, and a conservation ethic adequate to both must ask, case by case, what is being handed on and what would count as betraying it. Such an ethic is harder to codify than a rule about original fabric. It is also, perhaps, the only one that does not mistake the means of preservation for its end."
+    },
+    {
+      "id": "cat-P05",
+      "section": "dilr",
+      "title": "Set: Five-team league",
+      "text": "Five teams — A, B, C, D and E — played a single round-robin football tournament, in which every pair of teams met exactly once. A win earned 3 points, a draw 1 point and a loss 0 points. When the tournament ended, the following were known:\n\n1. No two teams finished with the same number of points.\n2. A finished first, B second, C third, D fourth and E fifth.\n3. Every team won at least one match."
+    },
+    {
+      "id": "cat-P06",
+      "section": "dilr",
+      "title": "Set: On-call roster",
+      "text": "A hospital roster puts exactly two of four doctors — A, B, C and D — on call on each day of a week, from Monday to Sunday. Over the week, A was on call on five days, and each of B, C and D on three days. The following are also known:\n\n1. No doctor was on call on three consecutive days. (Sunday and the following Monday are not considered consecutive.)\n2. B was on call on Monday and on Sunday.\n3. A and C were on call together on exactly two days."
+    },
+    {
+      "id": "cat-P07",
+      "section": "dilr",
+      "title": "Set: A four-round number game",
+      "text": "Three players — X, Y and Z — played a game of four rounds. In each round, each player secretly wrote one of the numbers 1, 2 or 3, and the numbers were then revealed together. In a round, a player scored the number he had written if no other player had written the same number in that round; otherwise he scored nothing in that round.\n\nNo player wrote the same number in two consecutive rounds. At the end of the four rounds, X had 10 points, Y had 6 points and Z had 4 points."
+    },
+    {
+      "id": "cat-P08",
+      "section": "dilr",
+      "title": "Set: Judges and dishes",
+      "text": "Four judges — W, X, Y and Z — each rated three dishes, P, Q and R, in a cooking contest. Every rating was an integer from 1 to 5, and no judge gave the same rating to two different dishes. The following are also known:\n\n1. The total ratings received by P, Q and R were 15, 12 and 9 respectively.\n2. The totals of the four judges (the sum of the three ratings each gave) were all different. W's total, 12, was the highest and Z's total, 6, was the lowest; X's total was higher than Y's.\n3. Each dish received a rating of 5 from at least one judge."
+    },
+    {
+      "id": "cat-P09",
+      "section": "dilr",
+      "title": "Set: Online courses",
+      "text": "Each of the 120 employees of a firm completed at least one of three online courses — Python, SQL and Excel. 70 employees completed Python, 60 completed SQL and 50 completed Excel. The number of employees who completed exactly two of the three courses was twice the number who completed all three. Each of the three groups of employees who completed exactly two courses (Python and SQL only; Python and Excel only; SQL and Excel only) had at least 5 members."
+    }
+  ],
   "questions": [
-    {
-      "id": "cat-001",
-      "section": "varc",
-      "topic": "Reading Comprehension",
-      "difficulty": "medium",
-      "question": "Read the passage and answer the question.\n\n\"City planners once treated street trees as ornaments, the first item to be cut when budgets tightened. Heat maps have changed that conversation. On a summer afternoon, a treeless asphalt street can be several degrees hotter than a shaded one a few hundred metres away, and the difference is felt most by people who cannot retreat into air-conditioned rooms. Trees, in this light, are less decoration than infrastructure—as essential as drains or streetlights—and their uneven distribution across neighbourhoods is a question of fairness, not taste.\"\n\nWhich of the following best captures the main point of the passage?",
-      "options": [
-        "Air-conditioning has made street trees unnecessary for most urban residents.",
-        "Street trees should be regarded as public infrastructure whose unequal distribution raises concerns of equity.",
-        "Heat maps are the most accurate tool available to city planners for measuring temperature.",
-        "Budget cuts are the primary reason cities have fewer trees than they did in the past."
-      ],
-      "answer": 1,
-      "explanation": "The passage moves from 'ornaments' to 'less decoration than infrastructure' and ends with distribution as 'a question of fairness'. The other options pick up peripheral details (heat maps, budgets) or contradict the passage (air-conditioning).",
-      "verified": true
-    },
-    {
-      "id": "cat-002",
-      "section": "varc",
-      "topic": "Reading Comprehension",
-      "difficulty": "medium",
-      "question": "Read the passage and answer the question.\n\n\"Before writing became common, communities preserved their histories in song, genealogy and proverb. Scholars once dismissed such oral records as unreliable, assuming that each retelling distorted the original. Yet studies of long-lived oral traditions show that certain elements—place names, sequences of rulers, descriptions of landscapes—can remain remarkably stable across centuries, precisely because they are embedded in fixed metres and repeated at communal rituals. What changes is the ornament; what persists is the scaffolding.\"\n\nIt can be inferred from the passage that the stability of some oral records is chiefly due to:",
-      "options": [
-        "the formal structures and ritual repetition in which they are embedded",
-        "the absence of any change in the stories over time",
-        "the fact that oral communities had fewer events to remember",
-        "the efforts of scholars who wrote the traditions down"
-      ],
-      "answer": 0,
-      "explanation": "The passage says the elements remain stable 'precisely because they are embedded in fixed metres and repeated at communal rituals'. It explicitly allows that the 'ornament' changes, so 'absence of any change' is wrong.",
-      "verified": true
-    },
-    {
-      "id": "cat-003",
-      "section": "varc",
-      "topic": "Reading Comprehension",
-      "difficulty": "hard",
-      "question": "Read the passage and answer the question.\n\n\"When a measure becomes the yardstick by which people are rewarded, people learn to move the measure rather than the thing it was meant to track. A hospital judged on waiting times may reclassify patients instead of treating them faster; a school judged on pass rates may steer weaker students away from examinations. None of this requires bad faith—only ordinary ingenuity applied to the wrong target. The lesson is not that numbers are useless, but that any single number, once it carries consequences, will gradually drift away from the reality it once reflected.\"\n\nThe author would most likely agree with which of the following?",
-      "options": [
-        "Distortion of indicators is mostly the result of deliberate dishonesty.",
-        "Hospitals are more prone than schools to manipulating their indicators.",
-        "Institutions should avoid tying high stakes to any single indicator.",
-        "Quantitative indicators should be abandoned in public administration."
-      ],
-      "answer": 2,
-      "explanation": "The author explicitly says 'numbers are not useless' (eliminating abandonment) and that distortion 'does not require bad faith'. The problem identified is 'any single number, once it carries consequences', which supports avoiding high stakes on one indicator. Nothing compares hospitals and schools.",
-      "verified": true
-    },
-    {
-      "id": "cat-004",
-      "section": "varc",
-      "topic": "Reading Comprehension",
-      "difficulty": "medium",
-      "question": "Read the passage and answer the question.\n\n\"Lists of 'untranslatable words' are perennially popular: a term for the melancholy of a rainy Sunday, another for the warmth of a shared meal. Such lists flatter our sense that each language guards a private world. But the very fact that the list-maker can explain each word in a sentence or two of English undercuts the claim. What is difficult is not translation but compression—finding a single word where another language would need a phrase. That is a fact about vocabulary, not a wall between minds.\"\n\nThe author's attitude towards the claim that some words are 'untranslatable' is best described as:",
-      "options": [
-        "nostalgic",
-        "enthusiastic",
-        "sceptical",
-        "indifferent"
-      ],
-      "answer": 2,
-      "explanation": "The author argues that the explanations themselves 'undercut the claim' and that the problem is compression, 'not a wall between minds' — a sceptical stance.",
-      "verified": true
-    },
-    {
-      "id": "cat-005",
-      "section": "varc",
-      "topic": "Reading Comprehension",
-      "difficulty": "hard",
-      "question": "Read the passage and answer the question.\n\n\"Fungal threads that link the roots of neighbouring trees have been celebrated as a 'forest internet' through which mother trees nurture their young and warn neighbours of danger. The image is appealing, and some experiments do show carbon and signalling chemicals moving between plants. But many of the most quoted findings come from a handful of small studies, some in greenhouse conditions, and the direction and size of transfers in real forests remain disputed. The danger is not that the metaphor is entirely false, but that its charm has outrun the evidence.\"\n\nWhich of the following statements is the author most likely to endorse?",
-      "options": [
-        "Greenhouse experiments are worthless for studying forests.",
-        "Mother trees have been conclusively shown to nurture their own seedlings.",
-        "Popular accounts of fungal networks claim more than current evidence can support.",
-        "Fungal networks play no role in moving substances between plants."
-      ],
-      "answer": 2,
-      "explanation": "The author concedes some transfer occurs ('not entirely false') but warns that 'its charm has outrun the evidence'. The second and fourth options are too absolute; the author questions the reach of greenhouse studies but does not call them worthless.",
-      "verified": true
-    },
-    {
-      "id": "cat-006",
-      "section": "varc",
-      "topic": "Reading Comprehension",
-      "difficulty": "medium",
-      "question": "Read the passage and answer the question.\n\n\"A map is never a neutral copy of the land. Every map chooses what to show and what to leave blank, which names to print and in which language, where to place the centre and how to bend a round earth onto a flat page. The colonial surveyor who marked a forest as 'unoccupied' was not merely recording a fact; he was preparing an argument about who could claim it. To read a map critically, then, is to ask not only 'Is this accurate?' but also 'Whose purposes does this accuracy serve?'\"\n\nThe example of the colonial surveyor is used primarily to:",
-      "options": [
-        "show that colonial maps were less accurate than modern ones",
-        "illustrate that mapping choices can carry political claims",
-        "argue that forests should never be shown on maps",
-        "explain the technical difficulty of projecting a sphere onto a plane"
-      ],
-      "answer": 1,
-      "explanation": "The surveyor's label 'unoccupied' is described as 'preparing an argument about who could claim it' — an illustration of the passage's thesis that maps embody choices and purposes. Accuracy comparisons and projection techniques are not the point of the example.",
-      "verified": true
-    },
-    {
-      "id": "cat-007",
-      "section": "varc",
-      "topic": "Reading Comprehension",
-      "difficulty": "easy",
-      "question": "Read the passage and answer the question.\n\n\"Musicians often say that the notes are only half of music; the rest is the silence between them. A pause before the final chord can create more tension than any added instrument, and a melody that never rests quickly becomes exhausting to hear. Beginners tend to fill every gap, fearing that silence will be heard as a mistake. Experienced performers learn to trust the rest, letting the listener lean forward into the space they have left.\"\n\nThe phrase 'trust the rest' most nearly means:",
-      "options": [
-        "take regular breaks during practice",
-        "have the confidence to use pauses deliberately",
-        "rely on the other musicians to play correctly",
-        "believe that the remaining notes will be easy"
-      ],
-      "answer": 1,
-      "explanation": "In context, 'rest' is the musical pause. Beginners 'fill every gap', while experienced performers allow the silence, i.e. use pauses with confidence.",
-      "verified": true
-    },
-    {
-      "id": "cat-008",
-      "section": "varc",
-      "topic": "Reading Comprehension",
-      "difficulty": "hard",
-      "question": "Read the passage and answer the question.\n\n\"Some economists argue that automation will not cause lasting unemployment because, historically, every wave of labour-saving machinery has eventually created more jobs than it destroyed. Displaced weavers and farmhands, they note, found work in factories and later in offices. The argument assumes that new tasks will keep appearing for which human labour is cheaper or better than machines.\"\n\nWhich of the following, if true, would most weaken the economists' argument?",
-      "options": [
-        "Office work today employs a larger share of the workforce than agriculture.",
-        "Current technologies are increasingly able to perform the very kinds of new tasks that previously absorbed displaced workers.",
-        "Many weavers who lost their jobs in the nineteenth century later found factory employment.",
-        "Some new industries have emerged in the last decade that employ large numbers of people."
-      ],
-      "answer": 1,
-      "explanation": "The argument rests on the assumption that new tasks will keep favouring humans. If machines can also do the new kinds of tasks, the historical pattern need not repeat. The other options support or are neutral to the argument.",
-      "verified": true
-    },
-    {
-      "id": "cat-009",
-      "section": "varc",
-      "topic": "Reading Comprehension",
-      "difficulty": "medium",
-      "question": "Read the passage and answer the question.\n\n\"Demands to return artefacts taken during colonial rule are often answered with the claim that great museums are 'universal', holding objects in trust for all humanity. The difficulty is that the trust was never offered by those whose heritage it holds. A guardianship one party declares on behalf of another, without consent, is hard to distinguish from possession. That does not mean every object must go back, but it does mean the burden of justification lies with those who wish to keep them.\"\n\nWhich of the following best describes the author's position?",
-      "options": [
-        "Universal museums are the best guardians of the world's heritage.",
-        "All artefacts acquired during colonial rule must be returned immediately.",
-        "The question of returning artefacts cannot be resolved by argument.",
-        "Museums holding contested artefacts must justify retaining them, though not every object must necessarily be returned."
-      ],
-      "answer": 3,
-      "explanation": "The author rejects the 'universal museum' defence as lacking consent but explicitly says 'that does not mean every object must go back'; the conclusion is that 'the burden of justification lies with those who wish to keep them'.",
-      "verified": true
-    },
-    {
-      "id": "cat-010",
-      "section": "varc",
-      "topic": "Reading Comprehension",
-      "difficulty": "medium",
-      "question": "Read the passage and answer the question.\n\n\"A language rarely dies because its speakers are forbidden to use it. More often it fades because parents conclude that their children will prosper more in another tongue. Each family's choice is reasonable; the sum of those choices is the silence of a language that took thousands of years to form. Revival efforts that rely only on school lessons therefore tend to struggle, because they do not alter the calculation that led parents to switch in the first place.\"\n\nAccording to the passage, school-based revival efforts often fail because they:",
-      "options": [
-        "begin only after the last fluent speaker has died",
-        "do not change the economic and social incentives that led families to abandon the language",
-        "teach the language using outdated methods",
-        "are usually banned by governments"
-      ],
-      "answer": 1,
-      "explanation": "The passage says such efforts 'do not alter the calculation that led parents to switch' — the perceived prospects of children in another language.",
-      "verified": true
-    },
-    {
-      "id": "cat-011",
-      "section": "varc",
-      "topic": "Reading Comprehension",
-      "difficulty": "hard",
-      "question": "Read the passage and answer the question.\n\n\"Students cramming through the night assume that the hours gained for study outweigh the hours lost to sleep. Laboratory work suggests otherwise. During deep sleep the brain appears to replay and reorganise the day's experiences, strengthening some connections and pruning others. Material learned and then 'slept on' is often recalled better than material learned without sleep, even when total study time is the same. The all-nighter, in short, may sacrifice exactly the process that turns study into memory.\"\n\nThe final sentence of the passage serves to:",
-      "options": [
-        "summarise the views of students who cram",
-        "question the reliability of laboratory studies",
-        "introduce a counter-argument to the research",
-        "draw a practical conclusion from the research described"
-      ],
-      "answer": 3,
-      "explanation": "After describing findings on sleep and recall, the last sentence ('in short') applies them to the all-nighter — a practical conclusion, not a counter-argument.",
-      "verified": true
-    },
-    {
-      "id": "cat-012",
-      "section": "varc",
-      "topic": "Reading Comprehension",
-      "difficulty": "medium",
-      "question": "Read the passage and answer the question.\n\n\"Forecasting the Indian monsoon was once a matter of statistical rules linking rainfall to distant signals such as snow cover or ocean temperatures. These rules worked until they did not: relationships that held for decades weakened as the climate itself shifted. Modern forecasters therefore lean increasingly on dynamical models that simulate the atmosphere and oceans from physical laws. The models are far from perfect, but their errors can at least be traced to causes, whereas a broken statistical link simply stops working without explanation.\"\n\nWhich of the following can be inferred from the passage?",
-      "options": [
-        "Snow cover has no connection with monsoon rainfall.",
-        "One advantage of dynamical models is that their failures can be diagnosed.",
-        "Statistical rules never produced useful monsoon forecasts.",
-        "Dynamical models now forecast the monsoon without error."
-      ],
-      "answer": 1,
-      "explanation": "The passage contrasts model errors that 'can be traced to causes' with statistical links that fail 'without explanation'. It says statistical rules worked for decades and that models are 'far from perfect', ruling out the other options.",
-      "verified": true
-    },
-    {
-      "id": "cat-013",
-      "section": "varc",
-      "topic": "Reading Comprehension",
-      "difficulty": "hard",
-      "question": "Read the passage and answer the question.\n\n\"We praise efficiency so habitually that it is easy to forget it is a ratio, not a virtue. Producing more with less is admirable only if the 'more' is worth having and the 'less' does not include things we should have valued—attention, care, the slow accumulation of skill. A craftsman who spends a week on a chair that a factory makes in an hour is inefficient by one measure and richly productive by another: he is making not only a chair but a craftsman.\"\n\nThe central claim of the passage is that:",
-      "options": [
-        "craftsmen are always more productive than factories",
-        "factory production should be replaced by handicraft",
-        "efficiency is valuable only relative to what is being produced and what is being given up",
-        "attention and care cannot be measured"
-      ],
-      "answer": 2,
-      "explanation": "The author calls efficiency 'a ratio, not a virtue', admirable only if the output is worthwhile and the inputs saved are not things we should value. The craftsman example illustrates that what counts as productive depends on what we measure; it does not argue for replacing factories.",
-      "verified": true
-    },
-    {
-      "id": "cat-014",
-      "section": "varc",
-      "topic": "Para Jumbles",
-      "difficulty": "medium",
-      "question": "The four sentences below, when properly sequenced, form a coherent paragraph. Choose the most logical order.\n\n1. Yet the same property that makes plastic so useful—its resistance to decay—is what makes it so troublesome once it is thrown away.\n2. Plastic became the defining material of the twentieth century because it was cheap, light and almost indestructible.\n3. A bottle discarded today may outlast not only its owner but several generations of that owner's descendants.\n4. Recycling was supposed to resolve this tension, but only a small fraction of all plastic ever made has actually been recycled.",
-      "options": [
-        "1324",
-        "2143",
-        "2314",
-        "2134"
-      ],
-      "answer": 3,
-      "explanation": "2 introduces plastic and its indestructibility; 1 ('Yet the same property') turns that into a problem; 3 illustrates how long discarded plastic lasts; 4 refers to 'this tension' and the failed remedy.",
-      "verified": true
-    },
-    {
-      "id": "cat-015",
-      "section": "varc",
-      "topic": "Para Jumbles",
-      "difficulty": "hard",
-      "question": "The four sentences below, when properly sequenced, form a coherent paragraph. Choose the most logical order.\n\n1. The first treats ability as a fixed quantity that must constantly be displayed and protected.\n2. Psychologists often describe two broad attitudes that people bring to learning.\n3. The second treats ability as something that grows with effort, so that a mistake becomes information rather than a verdict.\n4. Under such a view, every error feels like a judgement on one's worth and is therefore to be avoided.",
-      "options": [
-        "2143",
-        "1423",
-        "2134",
-        "2314"
-      ],
-      "answer": 0,
-      "explanation": "2 introduces 'two broad attitudes'; 1 describes 'the first'; 4 ('Under such a view') elaborates the first; 3 presents 'the second', contrasting mistakes as information with 4's 'judgement'.",
-      "verified": true
-    },
-    {
-      "id": "cat-016",
-      "section": "varc",
-      "topic": "Para Jumbles",
-      "difficulty": "medium",
-      "question": "The four sentences below, when properly sequenced, form a coherent paragraph. Choose the most logical order.\n\n1. They called the method 'dead reckoning': estimating position from speed, heading and the time elapsed.\n2. Small errors in any of those quantities, however, accumulated with every hour at sea.\n3. Before satellites, sailors far from land had to work out where they were using arithmetic alone.\n4. This is why a reliable marine clock was hailed as a triumph, for it removed the largest single source of error.",
-      "options": [
-        "1324",
-        "3142",
-        "3214",
-        "3124"
-      ],
-      "answer": 3,
-      "explanation": "3 sets the context; 1 names the method ('They' = sailors); 2 points out errors in 'those quantities' (speed, heading, time); 4 explains why an accurate clock solved the problem.",
-      "verified": true
-    },
-    {
-      "id": "cat-017",
-      "section": "varc",
-      "topic": "Odd Sentence Out",
-      "difficulty": "medium",
-      "question": "Five sentences are given below. Four of them form a coherent paragraph. Identify the sentence that does NOT belong.\n\n1. Honeybees communicate the location of food through a 'waggle dance' performed inside the hive.\n2. The angle of the dance relative to the vertical indicates the direction of the food relative to the sun.\n3. The duration of each waggle run conveys how far away the food lies.\n4. Bumblebees, by contrast, are larger and can fly at lower temperatures than honeybees.\n5. Foragers that follow the dance can then fly almost directly to the flowers.",
-      "options": [
-        "Sentence 5",
-        "Sentence 2",
-        "Sentence 4",
-        "Sentence 3"
-      ],
-      "answer": 2,
-      "explanation": "Sentences 1, 2, 3 and 5 explain how the waggle dance encodes and transmits the location of food. Sentence 4 shifts to the physical traits of bumblebees, which has nothing to do with communication.",
-      "verified": true
-    },
-    {
-      "id": "cat-018",
-      "section": "varc",
-      "topic": "Odd Sentence Out",
-      "difficulty": "medium",
-      "question": "Five sentences are given below. Four of them form a coherent paragraph. Identify the sentence that does NOT belong.\n\n1. A city's street pattern shapes how its residents move, meet and trade.\n2. Long, straight avenues favour fast traffic but often discourage people from lingering.\n3. Narrow, irregular lanes slow movement and tend to encourage chance encounters and small shops.\n4. Planners have therefore begun to treat street design as social policy and not merely as engineering.\n5. Many medieval towns were built on hilltops for reasons of defence.",
-      "options": [
-        "Sentence 3",
-        "Sentence 2",
-        "Sentence 5",
-        "Sentence 4"
-      ],
-      "answer": 2,
-      "explanation": "Sentences 1–4 argue that street design shapes social life and so is a policy matter. Sentence 5 about the defensive siting of medieval towns is off-topic.",
-      "verified": true
-    },
-    {
-      "id": "cat-019",
-      "section": "varc",
-      "topic": "Para Summary",
-      "difficulty": "medium",
-      "question": "Choose the option that best captures the essence of the passage.\n\n\"Public libraries are often described as warehouses of books whose usefulness is fading in a digital age. But visit one on a weekday and you will find job-seekers using computers, students who have no quiet place at home, elderly readers attending a reading circle and parents at a toddlers' story hour. The library survives not because of what it stores but because it is one of the few indoor public spaces where no one is required to buy anything.\"",
-      "options": [
-        "Libraries remain valuable mainly as free, non-commercial public spaces serving many needs, not merely as stores of books.",
-        "Digital technology has made public libraries obsolete.",
-        "Libraries should stop buying books and invest only in computers.",
-        "Elderly readers and toddlers are the main users of public libraries today."
-      ],
-      "answer": 0,
-      "explanation": "The passage rebuts the 'warehouse of books' view and concludes that the library's value lies in being a space 'where no one is required to buy anything', used by many groups.",
-      "verified": true
-    },
-    {
-      "id": "cat-020",
-      "section": "varc",
-      "topic": "Para Summary",
-      "difficulty": "hard",
-      "question": "Choose the option that best captures the essence of the passage.\n\n\"Genetic tests sold directly to consumers promise to reveal ancestry and disease risk from a few drops of saliva. The ancestry estimates, however, depend on reference databases that over-represent some populations, so the same sample can receive different answers from different companies. Risk scores, meanwhile, often express small shifts in probability that buyers read as destiny. The tests are not fraudulent, but their outputs are far less definite than their marketing implies.\"",
-      "options": [
-        "Ancestry results are reliable while disease-risk scores are not.",
-        "Reference databases for genetic tests represent all populations equally.",
-        "Consumer genetic tests are fraudulent and should be banned.",
-        "Consumer genetic tests give results that are less certain and more method-dependent than their marketing suggests."
-      ],
-      "answer": 3,
-      "explanation": "The passage explicitly says the tests are 'not fraudulent' but less definite than claimed, citing database bias (ancestry) and misread probabilities (risk). Both kinds of output are questioned.",
-      "verified": true
-    },
-    {
-      "id": "cat-021",
-      "section": "varc",
-      "topic": "Para Summary",
-      "difficulty": "medium",
-      "question": "Choose the option that best captures the essence of the passage.\n\n\"A cricket team that wins a close match by one run tends to analyse what went right, while a team that loses by one run dissects every mistake. Yet the two performances may have been almost identical. Judging decisions by outcomes alone rewards luck and punishes sound choices that happened to fail. Better teams review the quality of each decision given what was known at the time, regardless of the result.\"",
-      "options": [
-        "Teams should avoid reviewing matches they have won.",
-        "Teams that lose close matches usually make more mistakes than winning teams.",
-        "Decisions should be evaluated on their quality at the time they were made rather than solely on their outcomes.",
-        "Luck plays no part in the result of a cricket match."
-      ],
-      "answer": 2,
-      "explanation": "The core idea is that outcome-based judgement is misleading because of luck; decisions should be judged on the information available when they were made.",
-      "verified": true
-    },
-    {
-      "id": "cat-022",
-      "section": "dilr",
-      "topic": "Arrangements & Scheduling",
-      "difficulty": "medium",
-      "question": "Seven people—A, B, C, D, E, F and G—sit in a row in seats numbered 1 to 7 from left to right. 'Left of' means a lower seat number.\n• D sits in seat 4.\n• Exactly two people sit between A and D.\n• B sits immediately to the left of C.\n• E sits at one of the two ends.\n• F does not sit next to D.\n• G sits somewhere to the right of A, and F sits somewhere to the right of G.\n• B does not sit next to E.\n\nWho sits immediately to the right of D?",
-      "options": [
-        "G",
-        "C",
-        "E",
-        "F"
-      ],
-      "answer": 0,
-      "explanation": "|A − 4| = 3, so A is in seat 1 or 7; since G is right of A and F right of G, A = 1, and then E (an end) = 7. Seats 2, 3, 5, 6 remain for B, C, F, G. If B–C took 5–6, then G = 2 and F = 3, putting F next to D ✗. So B = 2, C = 3, G = 5, F = 6 (B is not next to E ✓). Seat 5, immediately right of D, is G.",
-      "verified": true
-    },
-    {
-      "id": "cat-023",
-      "section": "dilr",
-      "topic": "Arrangements & Scheduling",
-      "difficulty": "hard",
-      "question": "Eight people—P, Q, R, S, T, U, V and W—sit at equal spacing around a circular table, facing the centre. Directions below are stated as 'clockwise' or 'anticlockwise' when viewed from above.\n• Q sits directly opposite P.\n• R is the immediate clockwise neighbour of P.\n• S is the immediate anticlockwise neighbour of Q.\n• T sits directly opposite S.\n• U sits next to R.\n• V does not sit next to T.\n\nWho sits directly opposite U?",
-      "options": [
-        "V",
-        "P",
-        "T",
-        "W"
-      ],
-      "answer": 3,
-      "explanation": "Number seats 0–7 clockwise with P = 0. Then Q = 4, R = 1, S = 3, T = 7. U is next to R and seat 0 is taken, so U = 2. V and W take 5 and 6; V cannot be next to T (7), so V = 5 and W = 6. Opposite U (2) is seat 6, i.e. W.",
-      "verified": true
-    },
-    {
-      "id": "cat-024",
-      "section": "dilr",
-      "topic": "Arrangements & Scheduling",
-      "difficulty": "hard",
-      "question": "Six tasks—A, B, C, D, E and F—are to be done one at a time in six consecutive slots numbered 1 to 6.\n• C is in an even-numbered slot.\n• F is done immediately after A.\n• E is done later than both B and D.\n• B is done before D, but B and D are not in adjacent slots.\n• D is not in slot 1, and A is not in slot 5.\n• Exactly two tasks are done between A and C.\n\nWhich task is done in slot 4?",
-      "options": [
-        "B",
-        "E",
-        "C",
-        "D"
-      ],
-      "answer": 2,
-      "explanation": "A and F are consecutive and |A − C| = 3 with C even. Trying cases: C=2 → A=5 (forbidden). C=4 → A=1, F=2; then B, D, E fill 3, 5, 6; E must come after B and D, so E = 6, and B before D gives B = 3, D = 5 (B, D not adjacent ✓). C=6 → A=3, F=4, leaving B, D, E for 1, 2, 5: B=1, D=2 are adjacent ✗. So the order is A F B C D E, and slot 4 holds C.",
-      "verified": true
-    },
-    {
-      "id": "cat-025",
-      "section": "dilr",
-      "topic": "Arrangements & Scheduling",
-      "difficulty": "medium",
-      "question": "Six people—J, K, L, M, N and O—live on the six floors of a building, one per floor; floor 1 is the lowest and floor 6 the highest.\n• L lives on either the top or the bottom floor.\n• O lives on the floor immediately above K.\n• K lives above M, and M does not live on floor 1.\n• Exactly one floor separates J and N, and J lives above N.\n• N lives on an odd-numbered floor.\n• J and L do not live on adjacent floors.\n\nWho lives on floor 2?",
-      "options": [
-        "K",
-        "M",
-        "N",
-        "J"
-      ],
-      "answer": 1,
-      "explanation": "N is odd and J = N + 2. If L = 1, then N = 3, J = 5, leaving floors 2, 4, 6 for M, K, O — but O must be directly above K, impossible. So L = 6. N = 3, J = 5 would put J next to L, so N = 1, J = 3. Floors 2, 4, 5 go to M, K, O with O directly above K and K above M: M = 2, K = 4, O = 5. Hence M is on floor 2.",
-      "verified": true
-    },
-    {
-      "id": "cat-026",
-      "section": "dilr",
-      "topic": "Tables & Data Interpretation",
-      "difficulty": "easy",
-      "question": "The table shows annual revenue (₹ crore) of four companies.\n\nCompany | 2023 | 2024 | 2025\nAlpha | 400 | 460 | 552\nBeta | 500 | 540 | 567\nGamma | 300 | 360 | 396\nDelta | 600 | 630 | 693\n\nWhich company recorded the highest percentage growth in revenue in 2025 over 2024?",
-      "options": [
-        "Alpha",
-        "Delta",
-        "Beta",
-        "Gamma"
-      ],
-      "answer": 0,
-      "explanation": "Growth 2025 over 2024: Alpha 92/460 = 20%; Beta 27/540 = 5%; Gamma 36/360 = 10%; Delta 63/630 = 10%. Alpha is highest.",
-      "verified": true
-    },
-    {
-      "id": "cat-027",
-      "section": "dilr",
-      "topic": "Tables & Data Interpretation",
-      "difficulty": "medium",
-      "question": "The table shows annual revenue (₹ crore) of four companies.\n\nCompany | 2023 | 2024 | 2025\nAlpha | 400 | 460 | 552\nBeta | 500 | 540 | 567\nGamma | 300 | 360 | 396\nDelta | 600 | 630 | 693\n\nBy approximately what percentage did the combined revenue of the four companies grow in 2025 over 2024?",
-      "options": [
-        "9%",
-        "10%",
-        "11%",
-        "12%"
-      ],
-      "answer": 2,
-      "explanation": "Total 2024 = 460 + 540 + 360 + 630 = 1990. Total 2025 = 552 + 567 + 396 + 693 = 2208. Growth = 218/1990 ≈ 10.95% ≈ 11%.",
-      "verified": true
-    },
-    {
-      "id": "cat-028",
-      "section": "dilr",
-      "topic": "Tables & Data Interpretation",
-      "difficulty": "medium",
-      "question": "A firm sells two products. Units sold (in thousands) in each quarter of a year are:\n\nQuarter | Q1 | Q2 | Q3 | Q4\nProduct X | 12 | 15 | 18 | 15\nProduct Y | 20 | 18 | 22 | 20\n\nProduct X sells at ₹250 per unit and Product Y at ₹150 per unit throughout the year. In how many quarters did revenue from X exceed revenue from Y?",
-      "options": [
-        "3",
-        "1",
-        "2",
-        "4"
-      ],
-      "answer": 0,
-      "explanation": "Revenue (₹ thousand): Q1 X 3000, Y 3000 (equal, not exceeding); Q2 3750 vs 2700; Q3 4500 vs 3300; Q4 3750 vs 3000. X exceeds Y in Q2, Q3 and Q4 → 3 quarters.",
-      "verified": true
-    },
-    {
-      "id": "cat-029",
-      "section": "dilr",
-      "topic": "Tables & Data Interpretation",
-      "difficulty": "medium",
-      "question": "A college has five departments. The number of students and the percentage of girls in each are:\n\nDepartment | Students | Girls (%)\nArts | 400 | 60\nScience | 500 | 44\nCommerce | 300 | 50\nEngineering | 600 | 25\nLaw | 200 | 55\n\nWhat percentage of all students in the college are boys?",
-      "options": [
-        "54.5%",
-        "56.5%",
-        "55.5%",
-        "57.5%"
-      ],
-      "answer": 1,
-      "explanation": "Girls = 240 + 220 + 150 + 150 + 110 = 870 of 2000 students. Boys = 1130, i.e. 1130/2000 = 56.5%.",
-      "verified": true
-    },
-    {
-      "id": "cat-030",
-      "section": "dilr",
-      "topic": "Games & Tournaments",
-      "difficulty": "hard",
-      "question": "Four teams A, B, C and D played a single round-robin football tournament (each pair met once). A win earned 3 points, a draw 1 point and a loss 0. Final points: A 7, B 5, C 4, D 0.\n\nWhich of the following must be true?",
-      "options": [
-        "C and D drew their match.",
-        "C beat B.",
-        "B and C drew their match.",
-        "A beat B."
-      ],
-      "answer": 2,
-      "explanation": "Six matches give 18 points if none is drawn; each draw removes 1. Total = 16, so exactly 2 draws. D lost all three. A (7) = 2W 1D, B (5) = 1W 2D, C (4) = 1W 1D. Draw involvements total 4 = 2 draws, with B in both, so B drew with A and with C. Then A beat C and D, B beat D, C beat D.",
-      "verified": true
-    },
-    {
-      "id": "cat-031",
-      "section": "dilr",
-      "topic": "Games & Tournaments",
-      "difficulty": "medium",
-      "question": "Eight teams play a single round-robin tournament (every pair plays exactly once). A win gives 2 points, a loss 0, and there are no draws. At the end, all eight teams have different point totals.\n\nHow many points does the team finishing 4th have?",
-      "options": [
-        "6",
-        "7",
-        "10",
-        "8"
-      ],
-      "answer": 3,
-      "explanation": "There are C(8,2) = 28 matches, so 56 points in all. Scores are distinct even numbers between 0 and 14; there are exactly eight such values (0, 2, …, 14) and they sum to 56, so the scores are 14, 12, 10, 8, 6, 4, 2, 0. The 4th-placed team has 8.",
-      "verified": true
-    },
-    {
-      "id": "cat-032",
-      "section": "dilr",
-      "topic": "Games & Tournaments",
-      "difficulty": "hard",
-      "question": "Eight players seeded 1 (strongest) to 8 play a knockout tournament. Quarter-finals: 1 v 8, 4 v 5, 2 v 7, 3 v 6. Semi-finals: winner(1 v 8) v winner(4 v 5), and winner(2 v 7) v winner(3 v 6); the semi-final winners meet in the final. A match is an 'upset' if the higher-numbered seed wins. Seed 5 reached the final, and seed 6 won the tournament.\n\nWhat is the minimum possible number of upsets in the tournament?",
-      "options": [
-        "3",
-        "5",
-        "4",
-        "6"
-      ],
-      "answer": 1,
-      "explanation": "Seed 5 beat seed 4 (upset) and then beat the winner of 1 v 8: if 1 won, 5 beating 1 is an upset; if 8 won, that quarter-final was an upset — either way 1 more. Seed 6 beat 3 (upset) and then the winner of 2 v 7 — again exactly one upset either way. Final: 6 beat 5 (upset). Minimum = 2 + 1 + 1 + 1 = 5.",
-      "verified": true
-    },
-    {
-      "id": "cat-033",
-      "section": "dilr",
-      "topic": "Venn Diagrams & Set-based Puzzles",
-      "difficulty": "medium",
-      "question": "In a group of 200 students, 120 study French, 90 study German and 70 study Spanish. 40 study both French and German, 30 both German and Spanish, 35 both French and Spanish, and 15 study all three.\n\nHow many students study exactly one of these languages?",
-      "options": [
-        "100",
-        "125",
-        "190",
-        "115"
-      ],
-      "answer": 3,
-      "explanation": "Only French = 120 − 40 − 35 + 15 = 60; only German = 90 − 40 − 30 + 15 = 35; only Spanish = 70 − 30 − 35 + 15 = 20. Exactly one = 60 + 35 + 20 = 115.",
-      "verified": true
-    },
-    {
-      "id": "cat-034",
-      "section": "dilr",
-      "topic": "Venn Diagrams & Set-based Puzzles",
-      "difficulty": "hard",
-      "question": "In a survey of 100 people, 80 like tea, 75 like coffee and 70 like juice.\n\nWhat is the minimum number of people who must like all three drinks?",
-      "options": [
-        "25",
-        "20",
-        "30",
-        "45"
-      ],
-      "answer": 0,
-      "explanation": "People NOT liking tea, coffee and juice number at most 20, 25 and 30 respectively. Even if these groups are disjoint, at most 75 people miss at least one drink, so at least 100 − 75 = 25 like all three (equivalently 80 + 75 + 70 − 2×100 = 25).",
-      "verified": true
-    },
-    {
-      "id": "cat-035",
-      "section": "dilr",
-      "topic": "Venn Diagrams & Set-based Puzzles",
-      "difficulty": "medium",
-      "question": "Each of 60 employees knows at least one of Python, Java and SQL. 35 know Python, 30 know Java and 28 know SQL. Exactly 15 employees know exactly two of these.\n\nHow many employees know all three?",
-      "options": [
-        "9",
-        "6",
-        "12",
-        "15"
-      ],
-      "answer": 0,
-      "explanation": "Let x₁, x₂, x₃ be numbers knowing exactly one, two, three. x₁ + x₂ + x₃ = 60 and x₁ + 2x₂ + 3x₃ = 35 + 30 + 28 = 93. Subtracting: x₂ + 2x₃ = 33 → 15 + 2x₃ = 33 → x₃ = 9.",
-      "verified": true
-    },
-    {
-      "id": "cat-036",
-      "section": "dilr",
-      "topic": "Routes & Networks",
-      "difficulty": "medium",
-      "question": "Six towns A–F are connected by two-way roads with the following lengths (km): A–B 4, A–C 2, B–C 1, B–D 5, C–D 8, C–E 10, D–E 2, D–F 6, E–F 3. There are no other roads.\n\nWhat is the length of the shortest route from A to F?",
-      "options": [
-        "12 km",
-        "14 km",
-        "15 km",
-        "13 km"
-      ],
-      "answer": 3,
-      "explanation": "Shortest distances from A: C = 2, B = 3 (via C), D = 8 (via B), E = 10 (via D, or directly from C), F = min(8 + 6, 10 + 3) = 13. Route A–C–B–D–E–F = 2 + 1 + 5 + 2 + 3 = 13 km.",
-      "verified": true
-    },
-    {
-      "id": "cat-037",
-      "section": "dilr",
-      "topic": "Routes & Networks",
-      "difficulty": "medium",
-      "question": "A courier moves along a street grid whose intersections are at points (x, y) with x = 0, 1, 2, 3, 4 and y = 0, 1, 2, 3. He travels from (0, 0) to (4, 3) moving only east (x increases by 1) or north (y increases by 1) at each step. The intersection (2, 1) is closed and cannot be passed through.\n\nHow many different routes are possible?",
-      "options": [
-        "18",
-        "20",
-        "35",
-        "17"
-      ],
-      "answer": 3,
-      "explanation": "Without restriction: C(7, 3) = 35 routes. Routes through (2, 1): C(3, 1) × C(4, 2) = 3 × 6 = 18. Valid routes = 35 − 18 = 17.",
-      "verified": true
-    },
-    {
-      "id": "cat-038",
-      "section": "dilr",
-      "topic": "Selection & Conditional Logic",
-      "difficulty": "hard",
-      "question": "A team of five is to be chosen from four engineers (A, B, C, D) and four managers (P, Q, R, S), with at least two engineers and at least two managers.\n• A and P cannot both be chosen.\n• If B is chosen, Q must be chosen.\n• C and R must be chosen together or not at all.\n• D and S cannot both be chosen.\n\nHow many different teams are possible?",
-      "options": [
-        "5",
-        "6",
-        "7",
-        "8"
-      ],
-      "answer": 2,
-      "explanation": "Enumerating all 5-member teams satisfying the rules gives: {A,B,C,Q,R}, {A,C,D,Q,R}, {A,C,Q,R,S}, {B,C,D,Q,R}, {B,C,P,Q,R}, {B,C,Q,R,S}, {C,D,P,Q,R}. (Without C–R, two engineers and three managers or vice versa cannot be completed without breaking the A–P, B–Q or D–S rule.) Total = 7.",
-      "verified": true
-    },
-    {
-      "id": "cat-039",
-      "section": "dilr",
-      "topic": "Selection & Conditional Logic",
-      "difficulty": "medium",
-      "question": "A shop sells five different items priced ₹30, ₹45, ₹60, ₹75 and ₹90. A customer must buy exactly three different items, spending at most ₹180 in total, and at least one of the items must cost more than ₹70.\n\nIn how many ways can the customer choose the items?",
-      "options": [
-        "4",
-        "6",
-        "7",
-        "5"
-      ],
-      "answer": 3,
-      "explanation": "Valid sets: {30, 45, 75} = 150, {30, 45, 90} = 165, {30, 60, 75} = 165, {30, 60, 90} = 180, {45, 60, 75} = 180. Others either exceed ₹180 or ({30, 45, 60}) contain no item above ₹70. Total = 5.",
-      "verified": true
-    },
-    {
-      "id": "cat-040",
-      "section": "dilr",
-      "topic": "Selection & Conditional Logic",
-      "difficulty": "medium",
-      "question": "Exactly three of five projects—K, L, M, N and O—are to be approved.\n• If K is approved, L is not approved.\n• M is approved only if N is approved.\n• O is approved.\n• At least one of K and M is approved.\n\nWhich project must be approved?",
-      "options": [
-        "N",
-        "K",
-        "M",
-        "L"
-      ],
-      "answer": 0,
-      "explanation": "O is in, so two of K, L, M, N are chosen. Options with K: K cannot go with L; K with M needs N (too many); K with N → {K, N, O}. Options without K: M must be in, so N must be in → {M, N, O}. In both possible sets, N is approved; K, L and M are not forced.",
-      "verified": true
-    },
     {
       "id": "cat-041",
       "section": "qa",
@@ -889,135 +991,14 @@
       ],
       "answer": 1,
       "explanation": "SP = 1.4 × 0.9 × (1 − x/100) × CP = 1.134 CP → 1.26(1 − x/100) = 1.134 → 1 − x/100 = 0.9 → x = 10.",
-      "verified": true
-    },
-    {
-      "id": "cat-042",
-      "section": "qa",
-      "topic": "Percentages & Profit-Loss",
-      "difficulty": "easy",
-      "question": "The population of a town rose by 20% in the first year, fell by 25% in the second year and rose by 10% in the third year, reaching 29,700. What was the population at the start?",
-      "options": [
-        "27,000",
-        "30,000",
-        "31,500",
-        "33,000"
-      ],
-      "answer": 1,
-      "explanation": "Multiplier = 1.2 × 0.75 × 1.1 = 0.99. Initial = 29,700 / 0.99 = 30,000.",
-      "verified": true
-    },
-    {
-      "id": "cat-043",
-      "section": "qa",
-      "topic": "Ratio, Proportion & Mixtures",
-      "difficulty": "medium",
-      "question": "A vessel holds 60 litres of milk and water in the ratio 7 : 3. Twenty litres of the mixture are removed and replaced with water. What is the new ratio of milk to water?",
-      "options": [
-        "2 : 3",
-        "7 : 8",
-        "7 : 5",
-        "14 : 11"
-      ],
-      "answer": 1,
-      "explanation": "Initially milk 42 L, water 18 L. Removing 20 L (one-third) leaves milk 28, water 12. Adding 20 L water → 28 : 32 = 7 : 8.",
-      "verified": true
-    },
-    {
-      "id": "cat-044",
-      "section": "qa",
-      "topic": "Ratio, Proportion & Mixtures",
-      "difficulty": "medium",
-      "question": "The present ages of A and B are in the ratio 3 : 4. Six years ago the ratio was 3 : 5. What will be the sum of their ages five years from now?",
-      "options": [
-        "34",
-        "38",
-        "36",
-        "40"
-      ],
-      "answer": 1,
-      "explanation": "(3k − 6)/(4k − 6) = 3/5 → 15k − 30 = 12k − 18 → k = 4. Ages 12 and 16; in five years 17 + 21 = 38.",
-      "verified": true
-    },
-    {
-      "id": "cat-045",
-      "section": "qa",
-      "topic": "Time-Speed-Distance & Work",
-      "difficulty": "medium",
-      "question": "Two trains of lengths 180 m and 120 m cross each other in 10 seconds when moving in opposite directions, and the faster one overtakes the slower in 30 seconds when they move in the same direction. What is the speed of the faster train?",
-      "options": [
-        "54 km/h",
-        "72 km/h",
-        "60 km/h",
-        "90 km/h"
-      ],
-      "answer": 1,
-      "explanation": "Total length 300 m. Sum of speeds = 300/10 = 30 m/s; difference = 300/30 = 10 m/s. Faster = 20 m/s = 72 km/h.",
-      "verified": true
-    },
-    {
-      "id": "cat-046",
-      "section": "qa",
-      "topic": "Time-Speed-Distance & Work",
-      "difficulty": "medium",
-      "question": "A and B together can finish a job in 12 days, B and C together in 15 days, and C and A together in 20 days. In how many days can A alone finish it?",
-      "options": [
-        "30",
-        "24",
-        "36",
-        "40"
-      ],
-      "answer": 0,
-      "explanation": "2(a + b + c) = 1/12 + 1/15 + 1/20 = 12/60 = 1/5, so a + b + c = 1/10. a = 1/10 − 1/15 = 1/30 → 30 days.",
-      "verified": true
-    },
-    {
-      "id": "cat-047",
-      "section": "qa",
-      "topic": "Time-Speed-Distance & Work",
-      "difficulty": "hard",
-      "question": "A boat travels 30 km upstream and 44 km downstream in 10 hours. It travels 40 km upstream and 55 km downstream in 13 hours. What is the speed of the stream?",
-      "options": [
-        "2 km/h",
-        "4 km/h",
-        "3 km/h",
-        "5 km/h"
-      ],
-      "answer": 2,
-      "explanation": "Let u = 1/(upstream speed), d = 1/(downstream speed). 30u + 44d = 10 and 40u + 55d = 13. Multiply by 4 and 3: 120u + 176d = 40, 120u + 165d = 39 → 11d = 1, d = 1/11 → downstream 11 km/h. Then 30u = 6 → upstream 5 km/h. Stream = (11 − 5)/2 = 3 km/h.",
-      "verified": true
-    },
-    {
-      "id": "cat-048",
-      "section": "qa",
-      "topic": "Averages & Interest",
-      "difficulty": "easy",
-      "question": "The difference between compound interest (compounded annually) and simple interest on a sum for 2 years at 10% per annum is ₹150. What is the sum?",
-      "options": [
-        "₹12,000",
-        "₹18,000",
-        "₹15,000",
-        "₹20,000"
-      ],
-      "answer": 2,
-      "explanation": "For 2 years, CI − SI = P(r/100)² = P × 0.01 = 150 → P = ₹15,000.",
-      "verified": true
-    },
-    {
-      "id": "cat-049",
-      "section": "qa",
-      "topic": "Linear & Quadratic Equations",
-      "difficulty": "medium",
-      "question": "The roots of x² − 11x + k = 0 are in the ratio 5 : 6. What is k?",
-      "options": [
-        "24",
-        "28",
-        "36",
-        "30"
-      ],
-      "answer": 3,
-      "explanation": "Roots 5t and 6t: sum 11t = 11 → t = 1. Roots 5 and 6, so k = product = 30.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-Q01",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Mark-up 40%, discounts 10% & x%, profit 13.4% -> x=10; CAT-standard numbers and distractors"
+      }
     },
     {
       "id": "cat-050",
@@ -1033,7 +1014,14 @@
       ],
       "answer": 3,
       "explanation": "No real roots ⇔ k² − 64 < 0 ⇔ −8 < k < 8, i.e. k = −7, …, 7: 15 integers.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-Q11",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Discriminant k^2<64 -> 15 integers, off-by-one distractors 14/16/17; CAT-typical"
+      }
     },
     {
       "id": "cat-051",
@@ -1049,7 +1037,14 @@
       ],
       "answer": 1,
       "explanation": "For −3 ≤ x ≤ 2 the sum is 5 (valid). For x > 2: 2x + 1 ≤ 9 → x ≤ 4. For x < −3: −2x − 1 ≤ 9 → x ≥ −5. So −5 ≤ x ≤ 4: 10 integers.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-Q12",
+      "source": "curated",
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "|x-2|+|x+3|<=9 gives -5..4 = 10 integers; exact CAT modulus-count format"
+      }
     },
     {
       "id": "cat-052",
@@ -1065,87 +1060,14 @@
       ],
       "answer": 0,
       "explanation": "f(g(x)) = 2x² + 1; g(f(x)) = (2x + 3)² − 1 = 4x² + 12x + 8. Equating: 2x² + 12x + 7 = 0, discriminant 144 − 56 = 88 > 0, so both roots are real; sum = −12/2 = −6.",
-      "verified": true
-    },
-    {
-      "id": "cat-053",
-      "section": "qa",
-      "topic": "Progressions & Series",
-      "difficulty": "medium",
-      "question": "In an arithmetic progression, the sum of the first 10 terms is 155 and the sum of the first 20 terms is 610. What is the 25th term?",
-      "options": [
-        "71",
-        "77",
-        "80",
-        "74"
-      ],
-      "answer": 3,
-      "explanation": "5(2a + 9d) = 155 → 2a + 9d = 31; 10(2a + 19d) = 610 → 2a + 19d = 61. So d = 3, a = 2. T₂₅ = 2 + 24 × 3 = 74.",
-      "verified": true
-    },
-    {
-      "id": "cat-054",
-      "section": "qa",
-      "topic": "Logarithms & Surds",
-      "difficulty": "medium",
-      "question": "If log₂x + log₄x + log₁₆x = 7, what is x?",
-      "options": [
-        "16",
-        "8",
-        "32",
-        "64"
-      ],
-      "answer": 0,
-      "explanation": "log₄x = (log₂x)/2 and log₁₆x = (log₂x)/4. So (7/4)·log₂x = 7 → log₂x = 4 → x = 16.",
-      "verified": true
-    },
-    {
-      "id": "cat-055",
-      "section": "qa",
-      "topic": "Geometry & Mensuration",
-      "difficulty": "easy",
-      "question": "A right-angled triangle has legs of 20 cm and 21 cm. What is the radius of its inscribed circle?",
-      "options": [
-        "5 cm",
-        "7 cm",
-        "6 cm",
-        "8 cm"
-      ],
-      "answer": 2,
-      "explanation": "Hypotenuse = √(400 + 441) = 29. For a right triangle, r = (a + b − c)/2 = (20 + 21 − 29)/2 = 6 cm.",
-      "verified": true
-    },
-    {
-      "id": "cat-056",
-      "section": "qa",
-      "topic": "Geometry & Mensuration",
-      "difficulty": "hard",
-      "question": "In a circle of radius 13 cm, two parallel chords of lengths 24 cm and 10 cm lie on opposite sides of the centre. What is the distance between the chords?",
-      "options": [
-        "17 cm",
-        "7 cm",
-        "12 cm",
-        "19 cm"
-      ],
-      "answer": 0,
-      "explanation": "Distance of the 24 cm chord from centre = √(169 − 144) = 5; of the 10 cm chord = √(169 − 25) = 12. On opposite sides: 5 + 12 = 17 cm.",
-      "verified": true
-    },
-    {
-      "id": "cat-057",
-      "section": "qa",
-      "topic": "Geometry & Mensuration",
-      "difficulty": "medium",
-      "question": "A solid metal cylinder of radius 6 cm and height 8 cm is melted and recast into solid spheres of radius 2 cm each. How many spheres are obtained?",
-      "options": [
-        "24",
-        "30",
-        "27",
-        "36"
-      ],
-      "answer": 2,
-      "explanation": "Cylinder volume = π·36·8 = 288π. Sphere volume = (4/3)π·8 = 32π/3. Number = 288π ÷ (32π/3) = 27.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-Q13",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "f(g)=g(f) -> 2x^2+12x+7=0, sum -6; CAT functions style with sign trap"
+      }
     },
     {
       "id": "cat-058",
@@ -1161,23 +1083,14 @@
       ],
       "answer": 0,
       "explanation": "7² = 49 ≡ 10, 7⁴ ≡ 100 ≡ 9, 7⁶ ≡ 7⁴·7² ≡ 90 ≡ 12 ≡ −1, so 7¹² ≡ 1 (mod 13). 100 = 12·8 + 4, so 7¹⁰⁰ ≡ 7⁴ ≡ 9.",
-      "verified": true
-    },
-    {
-      "id": "cat-059",
-      "section": "qa",
-      "topic": "Number System",
-      "difficulty": "medium",
-      "question": "How many divisors of 720 are perfect squares?",
-      "options": [
-        "4",
-        "8",
-        "9",
-        "6"
-      ],
-      "answer": 3,
-      "explanation": "720 = 2⁴ · 3² · 5. A square divisor uses even exponents: 2 ∈ {0, 2, 4} (3 ways), 3 ∈ {0, 2} (2 ways), 5 ∈ {0} (1 way). Total 6.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-Q21",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "7^100 mod 13 via Fermat = 9; CAT remainder archetype"
+      }
     },
     {
       "id": "cat-060",
@@ -1193,7 +1106,1490 @@
       ],
       "answer": 0,
       "explanation": "Ending in 0: remaining three places from 5 digits in order = 5 × 4 × 3 = 60. Ending in 5: first digit from {1, 2, 3, 4} (cannot be 0) = 4 ways, then 4 × 3 = 12 for the middle → 48. Total 108.",
-      "verified": true
+      "verified": true,
+      "archetype": "cat-Q23",
+      "source": "curated",
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "4-digit distinct from 0-5 divisible by 5 = 108 with 0-case trap; CAT-typical"
+      }
+    },
+    {
+      "id": "cat-090",
+      "section": "dilr",
+      "topic": "Games & Tournaments",
+      "difficulty": "hard",
+      "question": "Five teams—A, B, C, D and E—played a single round-robin tournament, each pair meeting once. A win earned 2 points, a draw 1 point and a loss 0 points. The final points were: A 7, B 5, C 4, D 3, E 1.\n\nWhat is the minimum possible number of drawn matches in the tournament?",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "Every draw gives 1 point to each of two teams, so a team with an odd total has an odd number of draws. A, B, D and E have odd totals, so each drew at least once; that is at least 4 team-draws, i.e. at least 2 drawn matches. Two is achievable, e.g. draws A–E and B–D with A beating B, C, D; B beating C, E; C beating D, E; D beating E.",
+      "source": "ai",
+      "archetype": "cat-D08",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Min draws for 7/5/4/3/1 = 2 verified by full enumeration of 3^10 outcomes; faithful CAT tournament reasoning"
+      }
+    },
+    {
+      "id": "cat-091",
+      "section": "dilr",
+      "topic": "Games & Tournaments",
+      "difficulty": "hard",
+      "question": "Eight players seeded 1 (strongest) to 8 play a knockout tournament. Quarter-finals: 1 v 8, 4 v 5, 2 v 7, 3 v 6. Semi-finals: winner(1 v 8) v winner(4 v 5), and winner(2 v 7) v winner(3 v 6). A match is an 'upset' if the higher-numbered seed wins.\n• There were exactly three upsets in the tournament.\n• Seed 3 won the tournament.\n• Seed 1 reached the final.\n• Seed 2 lost its first match.\n\nWhich seed did the runner-up defeat in the semi-final?",
+      "options": [
+        "5",
+        "8",
+        "4",
+        "7"
+      ],
+      "answer": 0,
+      "explanation": "Seed 1 is the runner-up. Upsets so far: 7 beat 2 (QF) and 3 beat 1 (final). 3 beating 7 in the semi is not an upset, nor is 1 beating 8 or 1 beating 4/5 in the semi. The third upset must be 5 beating 4 in the quarter-final, so seed 1 beat seed 5 in the semi-final.",
+      "source": "ai",
+      "archetype": "cat-D09",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Bracket with 3 upsets, unique reconstruction (runner-up 1 beat 5) verified; mirrors CAT upset sets"
+      }
+    },
+    {
+      "id": "cat-101",
+      "section": "qa",
+      "topic": "Percentages & Profit-Loss",
+      "difficulty": "medium",
+      "question": "A shopkeeper marks his goods 50% above cost price, allows a discount of d% on the marked price, and also uses a false weight of 900 g in place of 1 kg. If his overall profit is 20%, what is d?",
+      "options": [
+        "30",
+        "28",
+        "25",
+        "20"
+      ],
+      "answer": 1,
+      "explanation": "Let 1 kg cost ₹100. He delivers 900 g (cost ₹90) and charges 150(1 − d/100). Profit 20% on ₹90 means selling price = ₹108, so 1 − d/100 = 108/150 = 0.72, d = 28.",
+      "source": "ai",
+      "archetype": "cat-Q01",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Mark-up 50%, false weight 900 g, profit 20% -> d=28; CAT-style false-weight combo"
+      }
+    },
+    {
+      "id": "cat-109",
+      "section": "qa",
+      "topic": "Linear & Quadratic Equations",
+      "difficulty": "medium",
+      "question": "How many ordered pairs of positive integers (x, y) satisfy 3x + 5y = 101?",
+      "options": [
+        "5",
+        "6",
+        "8",
+        "7"
+      ],
+      "answer": 3,
+      "explanation": "3x = 101 − 5y must be a positive multiple of 3, so 5y ≡ 101 ≡ 2 (mod 3), i.e. y ≡ 1 (mod 3). y = 1, 4, 7, 10, 13, 16, 19 (y = 19 gives x = 2; y = 22 makes x negative): 7 pairs.",
+      "source": "ai",
+      "archetype": "cat-Q11",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "3x+5y=101 has 7 positive solutions; signature CAT Diophantine count"
+      }
+    },
+    {
+      "id": "cat-110",
+      "section": "qa",
+      "topic": "Inequalities & Functions",
+      "difficulty": "medium",
+      "question": "For how many integer values of x is |x − 5| + |x + 1| = 6?",
+      "options": [
+        "6",
+        "2",
+        "7",
+        "Infinitely many"
+      ],
+      "answer": 2,
+      "explanation": "The sum of distances from x to 5 and to −1 equals the distance between them, 6, exactly when −1 ≤ x ≤ 5. The integers −1, 0, 1, 2, 3, 4, 5 give 7 values.",
+      "source": "ai",
+      "archetype": "cat-Q12",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "|x-5|+|x+1|=6 holds on whole [-1,5] = 7 integers, 'only 2' trap; exact CAT whole-interval trap"
+      }
+    },
+    {
+      "id": "cat-111",
+      "section": "qa",
+      "topic": "Inequalities & Functions",
+      "difficulty": "hard",
+      "question": "Let f(x) = min(2x + 3, 15 − x) for all real x. What is the maximum value of f(x)?",
+      "options": [
+        "12",
+        "9",
+        "15",
+        "11"
+      ],
+      "answer": 3,
+      "explanation": "2x + 3 increases and 15 − x decreases, so the minimum of the two is largest where they are equal: 2x + 3 = 15 − x gives x = 4 and f = 11.",
+      "source": "ai",
+      "archetype": "cat-Q13",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "max of min(2x+3,15-x) at x=4 gives 11; CAT functions archetype"
+      }
+    },
+    {
+      "id": "cat-117",
+      "section": "qa",
+      "topic": "Number System",
+      "difficulty": "medium",
+      "question": "What is the remainder when 17²³ + 23²³ is divided by 40?",
+      "options": [
+        "23",
+        "17",
+        "1",
+        "0"
+      ],
+      "answer": 3,
+      "explanation": "For odd n, aⁿ + bⁿ is divisible by a + b. Here a + b = 40, so the remainder is 0.",
+      "source": "ai",
+      "archetype": "cat-Q21",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "17^23+23^23 divisible by 40 (odd power a+b); CAT number-system archetype"
+      }
+    },
+    {
+      "id": "cat-121",
+      "section": "varc",
+      "topic": "Reading Comprehension",
+      "difficulty": "hard",
+      "passage": "cat-P01",
+      "question": "Which of the following best captures the central argument of the passage?",
+      "options": [
+        "Since no individual can verify most of what she believes, the ideal of intellectual autonomy should give way to a default entitlement to trust what others assert.",
+        "Testimony is a basic source of knowledge, like perception, but it needs to be supplemented by institutions that expose insincere or incompetent speakers.",
+        "Neither the demand for first-hand backing nor a default entitlement to trust adequately explains testimonial knowledge, whose justification rests largely on social structures that screen claims.",
+        "Reductionism fails because children acquire their concepts through trust, which shows that testimony is a more dependable source of knowledge than first-hand observation."
+      ],
+      "answer": 2,
+      "explanation": "The author rejects reductionism (the ledger never balances) and also finds anti-reductionism too permissive (it licenses gullibility), then relocates the warrant in institutions that filter claims. Option 1 is the Reid-style view the author criticises. Option 2 keeps Reid's \"basic faculty\" claim, which the author does not endorse, and narrows institutions to catching liars. Option 4 distorts the child example: it shows reductionism cannot work, not that testimony is more dependable than observation.",
+      "source": "ai",
+      "archetype": "cat-V01",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Epistemology-of-testimony RC central idea; distractors over-generalise (0) or adopt Reid's view (1) as in CAT 2024 philosophy passages"
+      }
+    },
+    {
+      "id": "cat-122",
+      "section": "varc",
+      "topic": "Reading Comprehension",
+      "difficulty": "hard",
+      "passage": "cat-P01",
+      "question": "The author would most likely agree with which of the following statements?",
+      "options": [
+        "A belief acquired through testimony is justified only if the hearer can name the institution that vetted it.",
+        "A person may become less justified in holding a belief she has not changed, if the institutions that vetted the belief decline.",
+        "Once institutional filters are in place, an individual's own scrutiny of what she is told becomes epistemically irrelevant.",
+        "The anti-reductionist view is mistaken chiefly because people rarely encounter defeaters in ordinary life."
+      ],
+      "answer": 1,
+      "explanation": "The last paragraph says the erosion of institutions \"quietly drains the justification from beliefs I continue to hold, without my noticing\" — exactly option 2. Option 1 demands something the author never requires (the hearer need not identify the filter). Option 3 is an extreme the author does not state. Option 4 invents a reason; the author's objection is that the view licenses gullibility.",
+      "source": "ai",
+      "archetype": "cat-V02",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "'Would agree' keyed on the eroding-institutions corollary; extreme distractors (0,2) mirror CAT inference traps"
+      }
+    },
+    {
+      "id": "cat-123",
+      "section": "varc",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "passage": "cat-P01",
+      "question": "The author mentions an adult who sets out to verify the reliability of encyclopaedias in order to",
+      "options": [
+        "contrast the adult's capacity for independent checking with a child's dependence on others.",
+        "suggest that reference works are less reliable than their readers commonly assume.",
+        "show that inductive reasoning cannot establish anything about the reliability of sources.",
+        "show that any attempt to back testimony with one's own investigation would itself have to rely on testimony."
+      ],
+      "answer": 3,
+      "explanation": "The example extends the child case (\"Even an adult…\"): checking encyclopaedias would require testimony about which exist and how their errors were found, so the reductionist's ledger cannot be balanced. Option 1 reverses its role (the adult is no better off). Option 2 is about the content of the example, not its role. Option 3 overstates: the author says the inductive base is too narrow, not that induction is useless.",
+      "source": "ai",
+      "archetype": "cat-V03",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Function-of-example question on the encyclopaedia case; a CAT staple, slightly easier than 2024 function items"
+      }
+    },
+    {
+      "id": "cat-125",
+      "section": "varc",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "passage": "cat-P02",
+      "question": "The passage is primarily concerned with",
+      "options": [
+        "arguing that medieval merchants relied on courts rather than on reputation to discipline their overseas agents.",
+        "explaining why informal networks can be an efficient substitute for law in economies where the state is weak.",
+        "criticising historians for preferring vivid, quotable letters to routine legal documents.",
+        "revising an influential account of medieval trade by showing that informal and formal enforcement supported each other."
+      ],
+      "answer": 3,
+      "explanation": "The passage presents the reputation-only story, reports the critics' evidence of legal practice, then refuses to see this as \"a simple victory of law over trust\", concluding that private and public enforcement \"leaned on each other\". Option 1 is the reading the author explicitly warns against. Option 2 is the original account being revised. Option 3 is a detail from the last paragraph, too narrow to be the primary concern.",
+      "source": "ai",
+      "archetype": "cat-V01",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Primary-concern question on the revisionist medieval-trade passage; options 0/1 are the classic one-sided traps"
+      }
+    },
+    {
+      "id": "cat-126",
+      "section": "varc",
+      "topic": "Reading Comprehension",
+      "difficulty": "hard",
+      "passage": "cat-P02",
+      "question": "Which of the following is most consistent with the account given in the fourth paragraph?",
+      "options": [
+        "Merchants who went to court cared less about their reputation than merchants who avoided litigation.",
+        "A merchant might have a contract notarised even if he did not expect a court to enforce it against a distant agent.",
+        "The threat of collective punishment was ineffective because merchants frequently changed their associates.",
+        "Courts were of little value to medieval merchants, since their verdicts could rarely be enforced across jurisdictions."
+      ],
+      "answer": 1,
+      "explanation": "The fourth paragraph says litigants valued legal procedure \"frequently not [for] coercion but documentation\": a notarised contract created a record that could be shown to third parties. So a merchant could want notarisation without expecting enforcement. Option 1 contradicts the complementarity described. Option 3 overstates the critics' point (fluidity is \"hard to reconcile\" with multilateral punishment; the passage does not say punishment was ineffective). Option 4 ignores the documentary value the paragraph stresses.",
+      "source": "ai",
+      "archetype": "cat-V02",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Paragraph-specific inference (notarised contract as documentation) - close to CAT 2023 econ-history RC"
+      }
+    },
+    {
+      "id": "cat-127",
+      "section": "varc",
+      "topic": "Reading Comprehension",
+      "difficulty": "hard",
+      "passage": "cat-P02",
+      "question": "Which of the following findings, if it came from the merchants' letters, would most seriously weaken the account described in the first paragraph?",
+      "options": [
+        "Courts in Palermo seldom ruled in favour of merchants from abroad.",
+        "Most agents were recruited from among the members of the merchants' own network.",
+        "Agents known to have cheated one member of the network continued to receive commissions from other members.",
+        "Letters discussing the honesty of particular agents far outnumber letters discussing lawsuits."
+      ],
+      "answer": 2,
+      "explanation": "The original account rests on multilateral punishment: a cheat of any member is shunned by all, which makes honesty self-enforcing. Evidence that known cheats kept getting business from other members attacks exactly that mechanism. Options 1, 2 and 4 are all consistent with, or supportive of, the original story (courts unreliable, closed membership, reputation as the main concern).",
+      "source": "ai",
+      "archetype": "cat-V04",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Weaken the reputation-coalition model: cheaters not shunned attacks the mechanism; good CAT-level weaken"
+      }
+    },
+    {
+      "id": "cat-128",
+      "section": "varc",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "passage": "cat-P02",
+      "question": "The final paragraph of the passage serves mainly to",
+      "options": [
+        "draw a methodological caution about how an elegant single-cause explanation can shape the evidence its proponents notice.",
+        "concede that the original account was correct in its essentials despite the evidence its critics produced.",
+        "argue that surviving archives are too fragmentary to settle debates about how past institutions worked.",
+        "suggest that modern institutions differ from medieval ones in combining private and public enforcement."
+      ],
+      "answer": 0,
+      "explanation": "The paragraph turns to \"how theories are tested against history\": a single-mechanism model tends to find its mechanism, and its elegance comes to be treated as evidence. Option 2 contradicts the revision the passage accepts. Option 3 goes beyond the text (the problem is selective attention, not fragmentary archives). Option 4 reverses the comparison: institutions \"in the past, like institutions now\" were layered.",
+      "source": "ai",
+      "archetype": "cat-V03",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Function of final paragraph (methodological caution); distractors plausible, CAT-faithful"
+      }
+    },
+    {
+      "id": "cat-129",
+      "section": "varc",
+      "topic": "Reading Comprehension",
+      "difficulty": "hard",
+      "passage": "cat-P03",
+      "question": "The author would most likely agree that a dog's failure in the mirror test",
+      "options": [
+        "shows that the dog lacks a self-concept comparable to that of the great apes.",
+        "proves that the test is invalid for every species other than the primates on which it was calibrated.",
+        "would turn into a pass if the test used an odour mark instead of a visual one.",
+        "is compatible with the dog's possessing some form of self-recognition that the test is not suited to detect."
+      ],
+      "answer": 3,
+      "explanation": "The second paragraph says failures are \"hard to read\" because a pass needs several capacities; a dog, relying on smell, \"may simply find a visual image uninteresting\". So failure does not rule out self-recognition. Option 1 is the inference the author rejects. Option 2 is far stronger than the author's claim. Option 3 asserts a definite outcome the author never predicts; she recommends species-fitted tests without saying what they would show.",
+      "source": "ai",
+      "archetype": "cat-V02",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Inference on dog's failure; option 2 over-commits to odour test - typical CAT trap"
+      }
+    },
+    {
+      "id": "cat-130",
+      "section": "varc",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "passage": "cat-P03",
+      "question": "The author describes the two reactions of researchers to the cleaner wrasse result primarily in order to",
+      "options": [
+        "show that an unexpected pass forced researchers to give up either a belief about which animals have selves or a belief about what the test measures.",
+        "suggest that researchers who doubted the result were motivated by prejudice against fish.",
+        "illustrate the disagreement over whether the wrasse had actually scraped off the mark.",
+        "demonstrate that self-recognition is more widespread in the animal kingdom than primatologists believed."
+      ],
+      "answer": 0,
+      "explanation": "The author notes that \"both responses accepted the result; they differed on which of their prior commitments to give up\" — the point of describing them. Option 2 confuses the later remark about question-begging with the purpose of the description, and no one doubted the result. Option 3 is wrong for the same reason. Option 4 states only one of the two reactions, which the author does not endorse.",
+      "source": "ai",
+      "archetype": "cat-V03",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Purpose of citing two researcher reactions; clean function item"
+      }
+    },
+    {
+      "id": "cat-131",
+      "section": "varc",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "passage": "cat-P03",
+      "question": "The passage suggests each of the following as a possible reason why an animal might fail the mirror test EXCEPT that the animal",
+      "options": [
+        "pays little attention to visual images in mirrors.",
+        "does not respond to a blemish on its body by grooming.",
+        "belongs to a species whose way of life rewards close attention to marks on bodies.",
+        "lacks movements suited to investigating a mark it has noticed."
+      ],
+      "answer": 2,
+      "explanation": "Options 1, 2 and 4 restate the three capacities listed in the second paragraph whose absence could cause a failure. Option 3 comes from the fourth paragraph, where an ecology that rewards attention to marks is offered as a reason a species (the wrasse) might pass without a primate-like self-concept — the opposite role.",
+      "source": "ai",
+      "archetype": "cat-V06",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "EXCEPT detail check (ecology rewarding mark attention is a pass-reason); fits CAT detail items, a bit easy"
+      }
+    },
+    {
+      "id": "cat-132",
+      "section": "varc",
+      "topic": "Reading Comprehension",
+      "difficulty": "hard",
+      "passage": "cat-P03",
+      "question": "The author's attitude towards the view that the mirror test measures something less than self-recognition is best described as",
+      "options": [
+        "unreserved endorsement, treating it as the only reasonable response to the wrasse result.",
+        "qualified support, accepting its conclusion while rejecting the justification usually given for it.",
+        "measured scepticism, regarding it as a defensive reaction that begs the question at issue.",
+        "cautious rejection, granting its premise while denying that it follows from the wrasse result."
+      ],
+      "answer": 1,
+      "explanation": "The author says the second response \"deserves more sympathy than it is sometimes given, though not for the reason usually offered\": the usual reason (fish are too lowly) begs the question, but the conclusion is supported by the fact that the test was never validated as a measure of a self-concept. Option 3 applies the \"begs the question\" charge to the view itself rather than to its usual justification. Options 1 and 4 misstate the degree of support.",
+      "source": "ai",
+      "archetype": "cat-V05",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Attitude question with paired adjectives ('qualified support' vs 'measured scepticism'), exactly CAT tone format"
+      }
+    },
+    {
+      "id": "cat-133",
+      "section": "varc",
+      "topic": "Reading Comprehension",
+      "difficulty": "hard",
+      "passage": "cat-P04",
+      "question": "Which of the following best expresses the main point of the passage?",
+      "options": [
+        "The rebuilding of Ise shows that authenticity lies in living traditions rather than in surviving material, a lesson European conservation has belatedly accepted.",
+        "European and Japanese approaches to conservation are fundamentally opposed because they reflect different cultural conceptions of the past.",
+        "Whether a renewed structure is authentic depends on what its tradition seeks to hand on, so neither material nor practice can serve as the criterion everywhere.",
+        "By extending authenticity to traditions and techniques, international charters have made the concept too broad to distinguish genuine monuments from spurious ones."
+      ],
+      "answer": 2,
+      "explanation": "The final paragraph rejects the matter-versus-practice question \"as if one answer were correct everywhere\" and asks what a community is trying to keep faith with, case by case. Option 1 makes practice the universal answer, which the author denies. Option 2 is the East-West \"parable\" the author says flatters both sides. Option 4 is the critics' fear, which the author calls reasonable but misdirected.",
+      "source": "ai",
+      "archetype": "cat-V01",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Main point of Ise authenticity passage; distractors each take one paragraph's view - CAT 2024 style"
+      }
+    },
+    {
+      "id": "cat-134",
+      "section": "varc",
+      "topic": "Reading Comprehension",
+      "difficulty": "hard",
+      "passage": "cat-P04",
+      "question": "In the context of the passage, an ethic that \"mistake[s] the means of preservation for its end\" would",
+      "options": [
+        "confuse the techniques used by conservators with the aesthetic qualities of the monuments they repair.",
+        "treat the retention of original material as valuable in itself rather than as one way of keeping faith with what a community wishes to pass on.",
+        "insist that a building be preserved for ever when its purpose is to be periodically replaced.",
+        "value the documentation of interventions more highly than the interventions themselves."
+      ],
+      "answer": 1,
+      "explanation": "The sentence contrasts a codifiable \"rule about original fabric\" with an ethic that asks what is being handed on. Keeping original material is a means; keeping faith with what is transmitted is the end. Option 3 reads the phrase only in terms of Ise and makes it a claim about building purpose. Options 1 and 4 import distinctions (aesthetics, documentation versus intervention) that the passage does not draw.",
+      "source": "ai",
+      "archetype": "cat-V07",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Meaning of closing phrase in context; good abstraction level"
+      }
+    },
+    {
+      "id": "cat-135",
+      "section": "varc",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "passage": "cat-P04",
+      "question": "The author observes that many Japanese temples are prized for their ancient timbers in order to",
+      "options": [
+        "show that the Ise custom is an exception that most Japanese builders have rejected.",
+        "suggest that Japanese conservation is gradually moving towards the European documentary model.",
+        "establish that the material conception of authenticity is in fact universal.",
+        "undermine the idea that the contrast between material and practice corresponds neatly to a contrast between European and Japanese culture."
+      ],
+      "answer": 3,
+      "explanation": "The remark is offered as evidence that \"Japanese practice has never been uniform\", alongside unacknowledged repair in Europe — both against turning the contrast into \"a parable about East and West\". Option 1 overstates (non-uniform, not rejected). Option 2 invents a trend. Option 3 is contradicted by the rest of the passage.",
+      "source": "ai",
+      "archetype": "cat-V03",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Role of Japanese-timbers detail in undercutting East/West parable; good CAT function item"
+      }
+    },
+    {
+      "id": "cat-136",
+      "section": "varc",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "passage": "cat-P04",
+      "question": "It can be inferred that a conservator committed to the \"documentary\" conception described in the passage would most likely object to",
+      "options": [
+        "stabilising a crumbling wall with modern mortar that is visibly different from the original.",
+        "displaying a surviving fragment of a fresco beside a clearly labelled modern reconstruction.",
+        "replacing a decayed carved panel with an exact replica without recording or marking that it is new.",
+        "leaving a damaged medieval charter unrestored so that its condition can be studied."
+      ],
+      "answer": 2,
+      "explanation": "On the documentary view a monument is \"falsified, like a forged charter, if its substance is silently renewed\", and later interventions must be distinguished from what survives. An unmarked, unrecorded replica is exactly such silent renewal. Options 1 and 2 show the joins, which the view requires; option 4 preserves the evidence untouched.",
+      "source": "ai",
+      "archetype": "cat-V02",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Application inference for documentary conservator; a little easy as option 2 is clearly flagged"
+      }
+    },
+    {
+      "id": "cat-137",
+      "section": "varc",
+      "topic": "Para Summary",
+      "difficulty": "medium",
+      "question": "The passage given below is followed by four summaries. Choose the option that best captures the essence of the passage.\n\nHistorians are often warned off counterfactuals as idle speculation: what would have happened had the monsoon not failed in a given year, or had a particular general survived a battle, is unknowable, and the professional historian deals in what happened. Yet every causal claim a historian makes is implicitly counterfactual. To say that a famine was caused by export policy rather than by drought is to say that, had the policy been different, the famine would have been less severe — a claim about a world that never existed. The choice, then, is not between using counterfactuals and avoiding them, but between using them openly, where their assumptions can be examined, and using them silently, where they cannot.",
+      "options": [
+        "Historians should abandon causal claims about events such as famines, since such claims depend on alternative worlds that cannot be known.",
+        "Counterfactual reasoning is legitimate in history only when it concerns policy choices rather than natural events such as drought.",
+        "Although counterfactuals are unknowable, historians rely on them because explicit speculation makes historical explanation more persuasive.",
+        "Because historical explanation necessarily rests on claims about what would otherwise have happened, historians should state such claims explicitly so that they can be scrutinised."
+      ],
+      "answer": 3,
+      "explanation": "The paragraph argues that causal claims are implicitly counterfactual, so the real choice is between explicit (examinable) and silent use. Option 1 draws the opposite conclusion. Option 2 adds a policy/nature distinction that the famine example does not make. Option 3 supplies a motive (persuasiveness) the passage never gives.",
+      "source": "ai",
+      "archetype": "cat-V12",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Para summary with too-extreme/too-narrow distractors, same format as CAT 2023-25 summary items"
+      }
+    },
+    {
+      "id": "cat-138",
+      "section": "varc",
+      "topic": "Para Summary",
+      "difficulty": "medium",
+      "question": "The passage given below is followed by four summaries. Choose the option that best captures the essence of the passage.\n\nLinguists who document an endangered language — recording its last fluent speakers, compiling a grammar and a dictionary — are sometimes said to be \"saving\" it. The metaphor misleads. A language survives not in an archive but in the decisions of parents about what to speak to their children, and those decisions respond to schools, markets and prestige far more than to the existence of a reference grammar. Documentation can preserve a record of a language and can supply materials to a community that decides to revive it; what it cannot do is supply the decision.",
+      "options": [
+        "Recording an endangered language preserves a resource that can aid a revival, but whether the language lives depends on choices to pass it on, which are shaped by social forces.",
+        "Documenting endangered languages is of little value, since a language survives only when parents choose to speak it to their children.",
+        "Endangered languages can be saved if linguists provide their communities with grammars and dictionaries before the last speakers die.",
+        "Parents abandon endangered languages mainly because schools and markets reward dominant languages, and linguists should campaign against these pressures."
+      ],
+      "answer": 0,
+      "explanation": "The paragraph grants documentation a real but limited role (a record and materials for revival) while locating survival in transmission decisions driven by schools, markets and prestige. Option 2 overstates by denying documentation any value. Option 3 is the \"saving\" metaphor the author rejects. Option 4 adds a prescription for linguists that the passage does not make.",
+      "source": "ai",
+      "archetype": "cat-V12",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Para summary on language documentation; option 1 'little value' over-states - real CAT trap"
+      }
+    },
+    {
+      "id": "cat-139",
+      "section": "varc",
+      "topic": "Para Summary",
+      "difficulty": "medium",
+      "question": "The passage given below is followed by four summaries. Choose the option that best captures the essence of the passage.\n\nEach prescription of an antibiotic is, for the patient who receives it, a reasonable bet: the drug will probably help and the harm it does to that patient is small. But each use also exerts selective pressure that favours resistant bacteria, and that cost is borne not by the patient or the prescriber but by everyone who will later need the drug to work. Resistance is thus less a medical failure than a problem of shared resources: an effective antibiotic is a common good depleted by individually rational use, and no amount of exhortation to individual doctors will substitute for arrangements that bring the collective cost into individual decisions.",
+      "options": [
+        "Doctors over-prescribe antibiotics because they underestimate the harm the drugs do to the individual patients who take them.",
+        "Since every prescription harms future patients, antibiotics should be reserved for cases in which a patient's life is at risk.",
+        "As the benefit of each antibiotic prescription goes to the patient while the cost of resistance is spread over everyone, curbing resistance needs institutional arrangements, not merely appeals to prescribers.",
+        "Antibiotic resistance is fundamentally a medical failure that can be overcome only by developing new drugs faster than bacteria adapt."
+      ],
+      "answer": 2,
+      "explanation": "The paragraph frames resistance as a commons problem — individually rational use depletes a shared good — and concludes that exhortation cannot replace arrangements that internalise the collective cost. Option 1 contradicts \"individually rational\" use. Option 2 offers a rule the passage never proposes. Option 4 contradicts \"less a medical failure\".",
+      "source": "ai",
+      "archetype": "cat-V12",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Antibiotic commons summary; correct but a little guessable vs CAT 2024 summaries"
+      }
+    },
+    {
+      "id": "cat-140",
+      "section": "varc",
+      "topic": "Para Summary",
+      "difficulty": "hard",
+      "question": "The passage given below is followed by four summaries. Choose the option that best captures the essence of the passage.\n\nDefenders of \"nudges\" — default options, reminder letters, rearranged cafeteria counters — argue that since every choice must be presented in some way, there is no neutral design to retreat to; the planner may as well arrange options to help people do what they themselves would endorse on reflection. Critics reply that the argument proves too little. That some framing is unavoidable does not settle who should choose it, and the standard of what people \"would endorse on reflection\" is supplied, in practice, by the very officials whose judgement is in question. The inevitability of influence does not by itself legitimise any particular use of it.",
+      "options": [
+        "Because every choice is framed in some way, nudges are unavoidable and should be designed to reflect people's considered preferences.",
+        "Even if choices cannot be presented neutrally, it does not follow that officials are entitled to frame them according to their own estimate of what people would endorse.",
+        "Nudges are illegitimate because they manipulate people into choices they would reject on reflection.",
+        "Critics of nudges deny that every choice must be framed and argue instead for neutral ways of presenting options."
+      ],
+      "answer": 1,
+      "explanation": "The paragraph reports the defenders' argument and then the critics' reply, which is its point: unavoidable framing does not settle who frames, and the \"reflective endorsement\" standard is supplied by the officials themselves. Option 1 is only the defenders' view. Option 3 is more extreme than the critics' claim. Option 4 misstates the critics, who accept that framing is unavoidable.",
+      "source": "ai",
+      "archetype": "cat-V12",
+      "verified": true,
+      "relevance": {
+        "score": 97,
+        "by": "independent-review",
+        "note": "Nudge summary where critic's view must be captured - hard, very CAT-like"
+      }
+    },
+    {
+      "id": "cat-141",
+      "section": "varc",
+      "topic": "Para Summary",
+      "difficulty": "medium",
+      "question": "The passage given below is followed by four summaries. Choose the option that best captures the essence of the passage.\n\nA map that recorded every feature of the terrain would be as large as the terrain and as useless. Cartographers therefore do not merely record; they decide what to leave out, and those decisions encode a purpose — navigation, taxation, military planning — that the finished map rarely announces. A map's authority comes from its appearance of neutral description, which is why its omissions are so easily mistaken for absences in the world itself. Reading a map well means asking not only whether it is accurate but for whom, and for what, it was drawn.",
+      "options": [
+        "Maps are unreliable because cartographers deliberately leave out features that would conflict with the interests of those who commission them.",
+        "Maps drawn for taxation or military planning tend to be less accurate than maps drawn for navigation.",
+        "The most useful maps are those that omit the most detail, since a complete map would be unusable.",
+        "Since every map is shaped by purposeful choices about what to omit, its apparent neutrality should not be taken at face value and its purpose should inform how it is read."
+      ],
+      "answer": 3,
+      "explanation": "The paragraph moves from the necessity of omission, to the purpose encoded in omissions, to the hidden nature of that purpose behind apparent neutrality, and ends with how to read maps. Option 1 turns purpose into deliberate concealment and calls maps unreliable, beyond the text. Option 2 compares accuracy across purposes, which the passage never does. Option 3 distorts the opening point into a ranking of maps.",
+      "source": "ai",
+      "archetype": "cat-V12",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Maps-and-purpose summary; distractors extreme/narrow; slightly easy"
+      }
+    },
+    {
+      "id": "cat-142",
+      "section": "varc",
+      "topic": "Para Jumbles",
+      "difficulty": "medium",
+      "question": "The 4 sentences given below, labelled 1 to 4, when properly sequenced, form a coherent paragraph. Decide on the proper order and key in the sequence of numbers as your answer (for example, 2143).\n\n1. It is therefore possible for such a table to reward exclusion and penalise inclusion while appearing merely to report results.\n2. League tables of schools typically rank institutions by the average examination score of their pupils.\n3. Such a ranking, however, says nothing about how a school arrived at its average.\n4. A school whose average rises may simply have admitted fewer weak pupils, while one whose average falls may have taken in more of them and supported them well.",
+      "type": "numerical",
+      "answer": 2341,
+      "explanation": "Sentence 2 introduces league tables; 3 (\"Such a ranking, however\") qualifies them; 4 illustrates how averages can move for the wrong reasons; 1 (\"therefore … such a table\") draws the conclusion. Order: 2341.",
+      "source": "ai",
+      "archetype": "cat-V09",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "4-sentence TITA PJ locked by 'Such a ranking'/'therefore'; matches CAT 2023-25 PJ format"
+      }
+    },
+    {
+      "id": "cat-144",
+      "section": "varc",
+      "topic": "Para Jumbles",
+      "difficulty": "medium",
+      "question": "The 4 sentences given below, labelled 1 to 4, when properly sequenced, form a coherent paragraph. Decide on the proper order and key in the sequence of numbers as your answer (for example, 2143).\n\n1. The placebo effect was long explained as a product of deception: the patient improves because she believes she is receiving an active drug.\n2. If so, the ethical objection that has kept placebos out of routine practice — that they require doctors to lie — may be weaker than supposed.\n3. On this account, it is the expectation of relief, not the substance itself, that does the work.\n4. That expectation, it now appears, can be produced even when patients are told openly that the pill they are taking is inert.",
+      "type": "numerical",
+      "answer": 1342,
+      "explanation": "Sentence 1 gives the traditional explanation; 3 (\"On this account\") draws out that expectation does the work; 4 (\"That expectation\") reports that it survives honest disclosure; 2 (\"If so\") states the ethical implication. Order: 1342.",
+      "source": "ai",
+      "archetype": "cat-V09",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "4-sentence TITA PJ on placebo; 'On this account'/'That expectation'/'If so' chain - CAT-faithful"
+      }
+    },
+    {
+      "id": "cat-146",
+      "section": "varc",
+      "topic": "Para Jumbles",
+      "difficulty": "medium",
+      "question": "The 4 sentences given below, labelled 1 to 4, when properly sequenced, form a coherent paragraph. Decide on the proper order and key in the sequence of numbers as your answer (for example, 2143).\n\n1. Firms adopted them on a vast scale, persuaded that chance encounters between colleagues would spark collaboration.\n2. Deprived of privacy, workers seem to have built invisible walls of their own, retreating into headphones and screens.\n3. Open-plan offices were sold on the promise that removing walls would bring colleagues together.\n4. Yet studies that tracked employees before and after such moves found that face-to-face interaction fell sharply while e-mail and messaging rose.",
+      "type": "numerical",
+      "answer": 3142,
+      "explanation": "Sentence 3 introduces open-plan offices (the referent of \"them\" in 1); 1 describes their adoption; 4 (\"Yet\") gives the contrary evidence; 2 explains it. Order: 3142.",
+      "source": "ai",
+      "archetype": "cat-V08",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "4-sentence PJ with 'Yet' contrast; standard CAT, medium-easy"
+      }
+    },
+    {
+      "id": "cat-148",
+      "section": "varc",
+      "topic": "Odd Sentence Out",
+      "difficulty": "hard",
+      "question": "Five jumbled sentences, labelled 1 to 5, are given below. Four of them can be put together to form a coherent paragraph. Identify the sentence that does not fit and key in its number as your answer.\n\n1. The first coins, struck in Lydia in the seventh century BCE, were lumps of electrum stamped with a lion's head.\n2. The Lydians were also credited by Herodotus with opening the first permanent retail shops.\n3. Because natural electrum varied in its gold content, the value of a lump could not be read from its weight alone.\n4. The stamp therefore guaranteed not purity so much as identity: it declared who stood behind the metal.\n5. That is why the issuer's mark, rather than the metal, became the real basis of the coin's value.",
+      "type": "numerical",
+      "answer": 2,
+      "explanation": "Sentences 1, 3, 4 and 5 trace why the stamp, not the metal, gave early coins their value. Sentence 2 stays with Lydia and its commerce but leaves that thread for a different \"first\".",
+      "source": "ai",
+      "archetype": "cat-V11",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Odd one out: Herodotus/shops stays in Lydia but leaves coin-value thread - good CAT-level subtlety"
+      }
+    },
+    {
+      "id": "cat-149",
+      "section": "varc",
+      "topic": "Odd Sentence Out",
+      "difficulty": "medium",
+      "question": "Five jumbled sentences, labelled 1 to 5, are given below. Four of them can be put together to form a coherent paragraph. Identify the sentence that does not fit and key in its number as your answer.\n\n1. Volunteers who count birds in their gardens each winter have produced some of the longest continuous records of bird populations anywhere.\n2. Their data are noisy, since observers differ in skill and effort, but the sheer number of observations allows much of that variation to be corrected statistically.\n3. Professional ornithologists, by contrast, increasingly rely on acoustic recorders that capture birdsong around the clock.\n4. Researchers now routinely model each observer's chance of missing a species and adjust the counts accordingly.\n5. As a result, trends detected in volunteer surveys have repeatedly been confirmed by smaller, more rigorous professional studies.",
+      "type": "numerical",
+      "answer": 3,
+      "explanation": "Sentences 1, 2, 4 and 5 describe volunteer bird counts, their noise, the statistical correction and its vindication. Sentence 3 stays in ornithology but turns to professional acoustic monitoring, which the paragraph never returns to.",
+      "source": "ai",
+      "archetype": "cat-V10",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Odd one out: acoustic recorders shifts from volunteer-count thread; CAT-faithful"
+      }
+    },
+    {
+      "id": "cat-150",
+      "section": "varc",
+      "topic": "Odd Sentence Out",
+      "difficulty": "medium",
+      "question": "Five jumbled sentences, labelled 1 to 5, are given below. Four of them can be put together to form a coherent paragraph. Identify the sentence that does not fit and key in its number as your answer.\n\n1. A central bank that announces an inflation target is betting that its words can do some of the work its interest rates would otherwise have to do.\n2. If firms and workers believe the target, they set prices and wages accordingly, and inflation drifts towards it with less need for painful rate rises.\n3. Credibility of this kind is built slowly, through years of acting on the target even when doing so is politically costly.\n4. Some economists argue that targeting the growth of nominal GDP instead would cushion economies better against supply shocks.\n5. It can, however, be lost quickly: a single episode of visible backtracking may undo a decade of patient signalling.",
+      "type": "numerical",
+      "answer": 4,
+      "explanation": "Sentences 1, 2, 3 and 5 develop the role of credibility in inflation targeting — how it works, how it is built and how it is lost. Sentence 4 stays in monetary policy but switches to an alternative target regime.",
+      "source": "ai",
+      "archetype": "cat-V11",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Odd one out: NGDP targeting shares field but breaks credibility thread; good"
+      }
+    },
+    {
+      "id": "cat-151",
+      "section": "dilr",
+      "topic": "Games & Tournaments",
+      "difficulty": "medium",
+      "passage": "cat-P05",
+      "question": "How many points did E score?",
+      "type": "numerical",
+      "answer": 3,
+      "explanation": "E won at least one match, so E ≥ 3. If E ≥ 4, the five different totals would be at least 4 + 5 + 6 + 7 + 8 = 30. But each match gives out 3 points (win) or 2 points (draw), so the grand total is 30 − (number of draws) ≤ 30. A total of 30 would mean no draws, making every team's total a multiple of 3; five different multiples of 3, each at least 4, add up to far more than 30. Hence E = 3.",
+      "source": "ai",
+      "archetype": "cat-D08",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Round-robin W/D/L league, verified 26 cases all give E=3; CAT 2023-24 tournament style"
+      }
+    },
+    {
+      "id": "cat-152",
+      "section": "dilr",
+      "topic": "Games & Tournaments",
+      "difficulty": "hard",
+      "passage": "cat-P05",
+      "question": "What is the maximum possible number of matches that ended in a draw?",
+      "type": "numerical",
+      "answer": 4,
+      "explanation": "Totals are at least 3, 4, 5, 6, 7 (sum 25), and the grand total is 30 − draws, so draws ≤ 5. Five draws would force totals of exactly A 7, B 6, C 5, D 4, E 3. Then E (3 points with a win) has no draws, D (4) has 1, C (5 = 1W + 2D) has 2, B (6) has 0 or 3, A (7) has 1 or 4. Team-draws must equal 2 × 5 = 10, which needs B = 3 and A = 4 draws; but A drawing all four matches includes a draw with E, who has none — impossible. Four draws is achievable: A–B, A–C, B–C and B–D drawn; A beat D and E, B beat E, C beat D, D beat E and E beat C, giving A 8, B 6, C 5, D 4, E 3. Hence 4.",
+      "source": "ai",
+      "archetype": "cat-D08",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Max draws under distinct points; brute force gives 4; good CAT difficulty"
+      }
+    },
+    {
+      "id": "cat-153",
+      "section": "dilr",
+      "topic": "Games & Tournaments",
+      "difficulty": "hard",
+      "passage": "cat-P05",
+      "question": "If A scored 10 points, which of the following must be true?",
+      "options": [
+        "C drew with D.",
+        "B beat E.",
+        "D beat E.",
+        "A drew with B."
+      ],
+      "answer": 0,
+      "explanation": "A = 10 means 3 wins and 1 draw; E = 3 has no draw and D = 4 has exactly one. With k draws, 30 − k = 10 + B + C + 4 + 3, so B + C = 13 − k, and B + C ≥ 6 + 5 gives k ≤ 2. If k = 1, that draw is A–D, so B and C have no draws and their totals are different multiples of 3 adding to 12 — impossible. So k = 2 and B + C = 11, i.e. B = 6, C = 5 (= 1 win + 2 draws). The four team-draws are A's one, D's one and C's two, so C drew with A and with D. Results such as B–E and D–E can go either way, and A beat B.",
+      "source": "ai",
+      "archetype": "cat-D08",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Conditional must-be-true (A=10 -> C drew D) verified over 3 cases"
+      }
+    },
+    {
+      "id": "cat-154",
+      "section": "dilr",
+      "topic": "Games & Tournaments",
+      "difficulty": "hard",
+      "passage": "cat-P05",
+      "question": "If exactly three matches ended in a draw, which pair of teams must have drawn their match?",
+      "options": [
+        "A and D",
+        "B and C",
+        "C and D",
+        "A and C"
+      ],
+      "answer": 3,
+      "explanation": "Grand total = 27, with E = 3 and D = 4, so A + B + C = 20 with A > B > C ≥ 5. (9, 6, 5) fails: A = 9 has no draws, so B would need 3 draws (with C, D, E), but E has none. So A 8 (2W 2D), B 7 (2W 1D), C 5 (1W 2D), D 4 (1 draw), E none. A's two draws are with two of B, C, D. If A drew with B and D, both would have used up their only draw and C could find no partners for its two draws. Hence A drew with C. (A–D, B–C and C–D can each go either way.)",
+      "source": "ai",
+      "archetype": "cat-D08",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Exactly 3 draws forces A-C draw (5 cases); CAT-faithful"
+      }
+    },
+    {
+      "id": "cat-155",
+      "section": "dilr",
+      "topic": "Games & Tournaments",
+      "difficulty": "medium",
+      "passage": "cat-P05",
+      "question": "Which of the following could NOT have happened in the tournament?",
+      "options": [
+        "A lost to C.",
+        "B lost to E.",
+        "D drew with E.",
+        "B drew with C."
+      ],
+      "answer": 2,
+      "explanation": "E scored exactly 3 points with at least one win, so E won once and lost three times — E drew no match, so D–E was not a draw. Each of the other results occurs in some valid table, e.g. A 9 (losing to C), B 7, C 6, D 4, E 3; or A 10, B 6 (losing to E), C 5, D 4, E 3; or A 9, B 7 (drawing with C), C 5, D 4, E 3.",
+      "source": "ai",
+      "archetype": "cat-D08",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Could-NOT-happen: D-E draw impossible; verified"
+      }
+    },
+    {
+      "id": "cat-156",
+      "section": "dilr",
+      "topic": "Arrangements & Scheduling",
+      "difficulty": "hard",
+      "passage": "cat-P06",
+      "question": "On which of the following days was A definitely on call?",
+      "options": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "answer": 2,
+      "explanation": "If A were off on Monday, A's five days would lie within the six consecutive days Tuesday–Sunday, and any five of six consecutive days include three in a row. So A is on call on Monday, and by the same argument on Sunday — on both days with B. A's other three days lie in Tuesday–Saturday, cannot include both Tuesday and Wednesday (Mon–Tue–Wed) or both Friday and Saturday (Fri–Sat–Sun), so they are one of Tue/Wed, one of Fri/Sat, and Thursday.",
+      "source": "ai",
+      "archetype": "cat-D03",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Roster scheduling, 8 schedules enumerated; A always on Mon/Thu/Sun - only Thu among options"
+      }
+    },
+    {
+      "id": "cat-157",
+      "section": "dilr",
+      "topic": "Arrangements & Scheduling",
+      "difficulty": "hard",
+      "passage": "cat-P06",
+      "question": "On how many days of the week were C and D on call together?",
+      "type": "numerical",
+      "answer": 1,
+      "explanation": "Let AB, AC, … be the number of days each pair is on call. A: AB + AC + AD = 5 with AC = 2, so AB + AD = 3. A must be on call on Monday and Sunday (five days out of six consecutive days would include three in a row), and B is on call on both, so AB ≥ 2. If AB = 3, B's days are all with A, AD = 0 and only one day lacks A, but 7 − 5 = 2 days lack A. So AB = 2, AD = 1. The two non-A days are pairs from B, C, D; B has one day left, C has one (3 − AC), D has two (3 − AD). The only split is BD on one day and CD on the other. So CD = 1.",
+      "source": "ai",
+      "archetype": "cat-D03",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "C&D together exactly 1 day in all 8 schedules; strong CAT DILR item"
+      }
+    },
+    {
+      "id": "cat-158",
+      "section": "dilr",
+      "topic": "Arrangements & Scheduling",
+      "difficulty": "hard",
+      "passage": "cat-P06",
+      "question": "If C was never on call on two consecutive days, which of the following must be true?",
+      "options": [
+        "D was on call on both Wednesday and Friday.",
+        "A was on call on Friday.",
+        "B and D were on call together on Wednesday.",
+        "C and D were on call together on Saturday."
+      ],
+      "answer": 0,
+      "explanation": "Only two complete rosters satisfy all the conditions with C on non-consecutive days: Mon AB, Tue AC, Wed BD, Thu AC, Fri AD, Sat CD, Sun AB; and Mon AB, Tue CD, Wed AD, Thu AC, Fri BD, Sat AC, Sun AB. D is on call on Wednesday and Friday in both. Each of the other statements holds in only one of them.",
+      "source": "ai",
+      "archetype": "cat-D03",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Conditional reduces to 2 schedules; only option 0 holds in both; claimed archetype D04 is a loose fit"
+      }
+    },
+    {
+      "id": "cat-159",
+      "section": "dilr",
+      "topic": "Arrangements & Scheduling",
+      "difficulty": "hard",
+      "passage": "cat-P06",
+      "question": "If B was on call on Saturday, which two doctors were on call on Wednesday?",
+      "options": [
+        "A and C",
+        "C and D",
+        "A and D",
+        "B and D"
+      ],
+      "answer": 1,
+      "explanation": "A is on call Monday and Sunday with B, and B's third day is its only day without A, shared with D (the two days without A are one BD and one CD). So Saturday is BD and A is off on Saturday; A's middle days are therefore Thursday, Friday and one of Tuesday/Wednesday, and the other of Tuesday/Wednesday is the CD day. A on Wednesday would give A Wednesday–Thursday–Friday, three in a row, so A is on Tuesday and Wednesday is C and D. Full roster: AB, AC, CD, AD, AC, BD, AB.",
+      "source": "ai",
+      "archetype": "cat-D03",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "B on Sat forces Wed = C,D; verified unique"
+      }
+    },
+    {
+      "id": "cat-160",
+      "section": "dilr",
+      "topic": "Arrangements & Scheduling",
+      "difficulty": "hard",
+      "passage": "cat-P06",
+      "question": "If A and D were on call together on Tuesday, which two doctors were on call on Saturday?",
+      "options": [
+        "A and C",
+        "B and D",
+        "C and D",
+        "A and D"
+      ],
+      "answer": 0,
+      "explanation": "A works Monday and Sunday with B, plus Thursday, one of Tuesday/Wednesday and one of Friday/Saturday; A and D share exactly one day, here Tuesday, so A's Thursday and Friday-or-Saturday days are both with C. The two days without A — Wednesday and the other of Friday/Saturday — are BD and CD. If A were on Friday, C would be on Thursday and Friday, so Saturday could not be CD (three in a row) and would be BD, making Wednesday CD and giving C Wednesday–Thursday–Friday — not allowed. So A is on Saturday (with C); Friday cannot be CD (C on Thursday, Friday, Saturday), so Friday is BD and Wednesday CD. Roster: AB, AD, CD, AC, BD, AC, AB — Saturday is A and C.",
+      "source": "ai",
+      "archetype": "cat-D03",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "A&D Tue forces Sat = A,C; verified"
+      }
+    },
+    {
+      "id": "cat-161",
+      "section": "dilr",
+      "topic": "Games & Tournaments",
+      "difficulty": "hard",
+      "passage": "cat-P07",
+      "question": "In how many of the four rounds did all three players score?",
+      "type": "numerical",
+      "answer": 3,
+      "explanation": "X cannot repeat a number in consecutive rounds, so X's best possible total is 3 + 2 + 3 + 2 = 10: X scored in every round, writing 3 and 2 alternately. In any round the points given out are 6 (all different), the lone number (1, 2 or 3) if exactly two players match, or 0. The 20 points over four rounds can only be 6 + 6 + 6 + 2. So three rounds had all three players scoring, and in the fourth only X scored (2 points).",
+      "source": "ai",
+      "archetype": "cat-D17",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Number-writing game, only 2 move sequences fit 10/6/4; very close to CAT 2022-24 rule-based games"
+      }
+    },
+    {
+      "id": "cat-162",
+      "section": "dilr",
+      "topic": "Games & Tournaments",
+      "difficulty": "hard",
+      "passage": "cat-P07",
+      "question": "In the round in which only one player scored, what number did Y write?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "Cannot be determined"
+      ],
+      "answer": 2,
+      "explanation": "In that round X scored 2, so X wrote 2 and Y and Z wrote the same number, 1 or 3. X alternates 2 and 3, so the zero round's neighbouring rounds are rounds in which X wrote 3; these are all-different rounds, so in each of them Y and Z wrote 1 and 2 in some order. If Y and Z had both written 1 in the zero round, then in the neighbouring round where X wrote 3, neither could write 1 — impossible, since one of them must. So Y (and Z) wrote 3.",
+      "source": "ai",
+      "archetype": "cat-D17",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Y wrote 3 in the single-scorer round in both solutions"
+      }
+    },
+    {
+      "id": "cat-163",
+      "section": "dilr",
+      "topic": "Games & Tournaments",
+      "difficulty": "hard",
+      "passage": "cat-P07",
+      "question": "If X wrote 2 in the first round, what number did Z write in the second round?",
+      "options": [
+        "1",
+        "3",
+        "Cannot be determined",
+        "2"
+      ],
+      "answer": 3,
+      "explanation": "X wrote 2, 3, 2, 3. The zero round (Y = Z = 3) is round 1 or 3. Y must total 6: Y gets 1 or 2 in each X = 3 round and 1 or 3 in the scoring X = 2 round, so Y scored 3 there plus 1 and 2. If round 1 were the zero round, round 3 would have Y 3, Z 1, and Z could not write 1 in rounds 2 or 4 (both adjacent to round 3), forcing Y to write 1 in both — Y = 5. So round 3 is the zero round, round 1 has Y 3, Z 1, and in round 2 Z cannot repeat 1, so Z wrote 2 (Y wrote 1).",
+      "source": "ai",
+      "archetype": "cat-D17",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "Conditional X=2 in R1 -> Z wrote 2 in R2; verified"
+      }
+    },
+    {
+      "id": "cat-164",
+      "section": "dilr",
+      "topic": "Games & Tournaments",
+      "difficulty": "medium",
+      "passage": "cat-P07",
+      "question": "How many times in all did Z write the number 1?",
+      "type": "numerical",
+      "answer": 2,
+      "explanation": "Z wrote 3 in the round where only X scored. In the scoring round where X wrote 2, Y and Z wrote 3 and 1, and Y took the 3 (Y needs 6 = 3 + 2 + 1), so Z wrote 1. In the two rounds where X wrote 3, Z wrote 2 once and 1 once (Z total 1 + 2 + 1 = 4). So Z wrote 1 twice.",
+      "source": "ai",
+      "archetype": "cat-D17",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Z wrote 1 twice in both solutions"
+      }
+    },
+    {
+      "id": "cat-165",
+      "section": "dilr",
+      "topic": "Games & Tournaments",
+      "difficulty": "medium",
+      "passage": "cat-P07",
+      "question": "Which of the following must be true?",
+      "options": [
+        "Y scored in every round.",
+        "Z scored in exactly two rounds.",
+        "In some round, two players wrote 1.",
+        "X never wrote 1."
+      ],
+      "answer": 3,
+      "explanation": "X scored 10 only by writing 3 and 2 alternately, so X never wrote 1. Y and Z both scored nothing in one round (so neither scored in every round), and each scored in the other three rounds (so Z scored in three rounds, not two). In the zero round the shared number was 3, and in other rounds all numbers were different, so no two players ever both wrote 1.",
+      "source": "ai",
+      "archetype": "cat-D17",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Must-be-true: X never wrote 1; others fail in some solution"
+      }
+    },
+    {
+      "id": "cat-166",
+      "section": "dilr",
+      "topic": "Tables & Data Interpretation",
+      "difficulty": "hard",
+      "passage": "cat-P08",
+      "question": "What was X's total?",
+      "type": "numerical",
+      "answer": 10,
+      "explanation": "All ratings add to 15 + 12 + 9 = 36, so X + Y = 36 − 12 − 6 = 18 with 12 > X > Y > 6: (11, 7) or (10, 8). Each dish has a 5 and no judge can give two 5s, so three different judges gave 5s. Z's 6 must be 1 + 2 + 3, so W, X and Y each gave one 5. A total of 7 containing a 5 would need the other two distinct ratings to add to 2 — impossible. So Y = 8 and X = 10.",
+      "source": "ai",
+      "archetype": "cat-D07",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Ratings grid with row/col totals and distinctness, 4 grids; X total always 10 - CAT table-reconstruction style"
+      }
+    },
+    {
+      "id": "cat-167",
+      "section": "dilr",
+      "topic": "Tables & Data Interpretation",
+      "difficulty": "medium",
+      "passage": "cat-P08",
+      "question": "Which judge gave dish R a rating of 5?",
+      "options": [
+        "W",
+        "X",
+        "Y",
+        "Z"
+      ],
+      "answer": 0,
+      "explanation": "R's total is 9, so besides its 5 the other three ratings add to 4, i.e. they are 1, 1 and 2. Since Z (1 + 2 + 3) has no 5, the three dishes' 5s come from W, X and Y, one each; W's total of 12 with a 5 must be 5 + 4 + 3, so W gave nothing below 3 — W's rating of R can only be the 5.",
+      "source": "ai",
+      "archetype": "cat-D07",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Only W gave R a 5 in every grid"
+      }
+    },
+    {
+      "id": "cat-168",
+      "section": "dilr",
+      "topic": "Tables & Data Interpretation",
+      "difficulty": "hard",
+      "passage": "cat-P08",
+      "question": "If W and X both rated dish P 4, what rating did Z give dish Q?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "5"
+      ],
+      "answer": 2,
+      "explanation": "W = 5 + 4 + 3 with R = 5, so W gave P 4 and Q 3. X = 10 with a 5 and P = 4 is 5 + 4 + 1; R's other ratings are only 1 or 2, so X gave R 1 and Q 5. P still needs its 5, which must come from Y (Z has no 5): Y = 5 + 2 + 1. Then Z's rating of P = 15 − 4 − 4 − 5 = 2, so Z gave Q and R the ratings 1 and 3; R cannot get 3, so Z gave Q a 3. (Check: Q = 3 + 5 + 1 + 3 = 12, R = 5 + 1 + 2 + 1 = 9.)",
+      "source": "ai",
+      "archetype": "cat-D07",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "W,X both rate P 4 -> Z rated Q 3; verified"
+      }
+    },
+    {
+      "id": "cat-169",
+      "section": "dilr",
+      "topic": "Tables & Data Interpretation",
+      "difficulty": "medium",
+      "passage": "cat-P08",
+      "question": "Which of the following CANNOT be true?",
+      "options": [
+        "X rated dish P 3.",
+        "Z rated dish R 3.",
+        "W rated dish Q 3.",
+        "Y rated dish Q 2."
+      ],
+      "answer": 1,
+      "explanation": "Apart from W's 5, dish R received only 1, 1 and 2, so no other judge gave R a 3. Each of the other statements holds in a valid table, e.g. W (4, 3, 5), X (3, 5, 2), Y (5, 2, 1), Z (3, 2, 1) for (P, Q, R).",
+      "source": "ai",
+      "archetype": "cat-D07",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "CANNOT-be-true: Z rated R 3 impossible; others occur"
+      }
+    },
+    {
+      "id": "cat-170",
+      "section": "dilr",
+      "topic": "Tables & Data Interpretation",
+      "difficulty": "hard",
+      "passage": "cat-P08",
+      "question": "What is the highest rating that Z could have given dish P?",
+      "type": "numerical",
+      "answer": 3,
+      "explanation": "Z's ratings are 1, 2 and 3, so Z's rating of P is at most 3, and 3 is possible: W (3, 4, 5), X (4, 5, 1), Y (5, 1, 2), Z (3, 2, 1) satisfies every condition (P 15, Q 12, R 9; totals 12, 10, 8, 6; a 5 for each dish).",
+      "source": "ai",
+      "archetype": "cat-D07",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Max Z rating for P = 3; TITA, CAT-faithful"
+      }
+    },
+    {
+      "id": "cat-171",
+      "section": "dilr",
+      "topic": "Venn Diagrams & Set-based Puzzles",
+      "difficulty": "medium",
+      "passage": "cat-P09",
+      "question": "How many employees completed all three courses?",
+      "type": "numerical",
+      "answer": 15,
+      "explanation": "Let n1, n2, n3 be the numbers completing exactly one, two and three courses. n1 + n2 + n3 = 120 and n1 + 2n2 + 3n3 = 70 + 60 + 50 = 180, so n2 + 2n3 = 60. With n2 = 2n3: 4n3 = 60, n3 = 15.",
+      "source": "ai",
+      "archetype": "cat-D11",
+      "verified": true,
+      "relevance": {
+        "score": 90,
+        "by": "independent-review",
+        "note": "Three-set identity gives all-three = 15; easier than CAT 2023-25 Venn DILR"
+      }
+    },
+    {
+      "id": "cat-172",
+      "section": "dilr",
+      "topic": "Venn Diagrams & Set-based Puzzles",
+      "difficulty": "hard",
+      "passage": "cat-P09",
+      "question": "What is the maximum possible number of employees who completed only Python?",
+      "type": "numerical",
+      "answer": 45,
+      "explanation": "All three = 15 and exactly two = 30. Only Python = 70 − 15 − (Python & SQL only) − (Python & Excel only). Each pair group is at least 5, so the two Python pairs are at least 5 each and only Python ≤ 70 − 15 − 10 = 45. Feasible: Python & SQL only 5, Python & Excel only 5, SQL & Excel only 20 gives only SQL 20 and only Excel 10, all non-negative, total 120.",
+      "source": "ai",
+      "archetype": "cat-D11",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Max only-Python 45 under min-5 pair constraints; verified by enumeration"
+      }
+    },
+    {
+      "id": "cat-173",
+      "section": "dilr",
+      "topic": "Venn Diagrams & Set-based Puzzles",
+      "difficulty": "hard",
+      "passage": "cat-P09",
+      "question": "What is the minimum possible number of employees who completed SQL but not Python?",
+      "options": [
+        "20",
+        "25",
+        "30",
+        "40"
+      ],
+      "answer": 1,
+      "explanation": "SQL but not Python = 60 − (Python & SQL only) − 15. Python & SQL only is at most 30 − 5 − 5 = 20, giving 60 − 20 − 15 = 25. Feasible: Python & SQL only 20, Python & Excel only 5, SQL & Excel only 5 → only Python 30, only SQL 20, only Excel 25 (total 120).",
+      "source": "ai",
+      "archetype": "cat-D10",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Min SQL-not-Python 25; verified"
+      }
+    },
+    {
+      "id": "cat-174",
+      "section": "dilr",
+      "topic": "Venn Diagrams & Set-based Puzzles",
+      "difficulty": "hard",
+      "passage": "cat-P09",
+      "question": "If the number of employees who completed only SQL equals the number who completed only Excel, what is the maximum possible number who completed SQL and Excel but not Python?",
+      "options": [
+        "6",
+        "15",
+        "10",
+        "20"
+      ],
+      "answer": 2,
+      "explanation": "Let x, y, z be Python & SQL only, Python & Excel only, SQL & Excel only (x + y + z = 30). Only SQL = 45 − x − z, only Excel = 35 − y − z; equality gives x = y + 10. Then 2y + 10 + z = 30, so z = 20 − 2y, and y ≥ 5 gives z ≤ 10. z = 10 (y = 5, x = 15) gives only SQL = only Excel = 20 and only Python = 35 — valid.",
+      "source": "ai",
+      "archetype": "cat-D10",
+      "verified": true,
+      "relevance": {
+        "score": 92,
+        "by": "independent-review",
+        "note": "Max SQL&Excel-only 10 under equal-only condition; verified"
+      }
+    },
+    {
+      "id": "cat-175",
+      "section": "dilr",
+      "topic": "Venn Diagrams & Set-based Puzzles",
+      "difficulty": "medium",
+      "passage": "cat-P09",
+      "question": "If the number of employees who completed only SQL equals the number who completed only Excel, and exactly 7 employees completed Python and Excel but not SQL, how many employees completed only Python?",
+      "options": [
+        "35",
+        "33",
+        "38",
+        "31"
+      ],
+      "answer": 3,
+      "explanation": "From the previous relations, x = y + 10 = 17 and z = 20 − 2y = 6. Only Python = 70 − 15 − 17 − 7 = 31. (Check: only SQL = 45 − 17 − 6 = 22 = only Excel = 35 − 7 − 6 = 22; total 31 + 22 + 22 + 17 + 7 + 6 + 15 = 120.)",
+      "source": "ai",
+      "archetype": "cat-D10",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "Only-Python fixed at 31; verified unique"
+      }
+    },
+    {
+      "id": "cat-176",
+      "section": "qa",
+      "topic": "Ratio, Proportion & Mixtures",
+      "difficulty": "hard",
+      "question": "A vessel contains 60 litres of pure milk. First, x litres are drawn off and replaced with water. Then 2x litres of the resulting mixture are drawn off and replaced with water. The vessel now contains 43.2 litres of milk. What is the value of x?",
+      "type": "numerical",
+      "answer": 6,
+      "explanation": "Milk left = 60(1 − x/60)(1 − 2x/60) = 43.2. With t = x/60: (1 − t)(1 − 2t) = 0.72 → 2t² − 3t + 0.28 = 0 → t = 0.1 or 1.4. t = 1.4 would mean drawing off more than the vessel holds, so t = 0.1 and x = 6.",
+      "source": "ai",
+      "archetype": "cat-Q03",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Remove-and-replace with x then 2x; quadratic with extraneous 84 rejected - CAT 2024 mixture style"
+      }
+    },
+    {
+      "id": "cat-178",
+      "section": "qa",
+      "topic": "Inequalities & Functions",
+      "difficulty": "medium",
+      "question": "A function f defined on the positive integers satisfies f(1) = 1 and f(m + n) = f(m) + f(n) + mn for all positive integers m and n. What is the value of f(20)?",
+      "type": "numerical",
+      "answer": 210,
+      "explanation": "Put n = 1: f(m + 1) = f(m) + 1 + m. So f(k) = 1 + 2 + … + k = k(k + 1)/2, and f(20) = 20 × 21/2 = 210.",
+      "source": "ai",
+      "archetype": "cat-Q13",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Functional equation f(m+n)=f(m)+f(n)+mn, TITA; CAT 2023-24 function style"
+      }
+    },
+    {
+      "id": "cat-179",
+      "section": "qa",
+      "topic": "Number System",
+      "difficulty": "hard",
+      "question": "How many divisors of 10! leave a remainder of 2 when divided by 4?",
+      "type": "numerical",
+      "answer": 30,
+      "explanation": "A number of the form 4k + 2 is 2 × (an odd number). 10! = 2⁸ × 3⁴ × 5² × 7, so such divisors are 2 × (odd divisor of 10!). Odd divisors of 10! = (4 + 1)(2 + 1)(1 + 1) = 30.",
+      "source": "ai",
+      "archetype": "cat-Q22",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Divisors of 10! that are 2 mod 4 (=2*odd divisor): neat CAT number-theory twist"
+      }
+    },
+    {
+      "id": "cat-180",
+      "section": "qa",
+      "topic": "Geometry & Mensuration",
+      "difficulty": "medium",
+      "question": "A right-angled triangle has an inradius of 3 cm and a circumradius of 7.5 cm. What is its area, in cm²?",
+      "type": "numerical",
+      "answer": 54,
+      "explanation": "Hypotenuse c = 2R = 15. For a right triangle r = (a + b − c)/2, so a + b = 21. a² + b² = 225, hence 2ab = 21² − 225 = 216 and area = ab/2 = 54 (the sides are 9, 12, 15).",
+      "source": "ai",
+      "archetype": "cat-Q17",
+      "verified": true,
+      "relevance": {
+        "score": 91,
+        "by": "independent-review",
+        "note": "In/circumradius of right triangle; standard but CAT-level TITA"
+      }
+    },
+    {
+      "id": "cat-181",
+      "section": "qa",
+      "topic": "Geometry & Mensuration",
+      "difficulty": "hard",
+      "question": "Two chords AB and CD of a circle intersect at right angles at a point P inside the circle. If AP = 4 cm, PB = 6 cm and CP = 3 cm, what is the radius of the circle?",
+      "options": [
+        "5√5/2 cm",
+        "√65/2 cm",
+        "5√2 cm",
+        "13/2 cm"
+      ],
+      "answer": 0,
+      "explanation": "By the intersecting-chords theorem, PD = (4 × 6)/3 = 8. For perpendicular chords, AP² + PB² + CP² + PD² = 4R², so 4R² = 16 + 36 + 9 + 64 = 125 and R = 5√5/2 cm. (Check with coordinates: P at the origin, A(−4, 0), B(6, 0), C(0, 3), D(0, −8); the centre is (1, −2.5), so R² = 5² + 2.5² = 31.25.)",
+      "source": "ai",
+      "archetype": "cat-Q18",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Perpendicular chords R^2=(sum of squares)/4 -> 5√5/2; CAT-style geometry"
+      }
+    },
+    {
+      "id": "cat-182",
+      "section": "qa",
+      "topic": "Geometry & Mensuration",
+      "difficulty": "hard",
+      "question": "What is the area of the region in the xy-plane defined by |x| + |y − 2| ≤ 3 and y ≥ 0?",
+      "type": "numerical",
+      "answer": 17,
+      "explanation": "|x| + |y − 2| ≤ 3 is a square (rhombus) centred at (0, 2) with vertices (±3, 2), (0, 5), (0, −1); its area is 2 × 3² = 18. The part below y = 0 is the triangle with vertices (0, −1), (−1, 0), (1, 0), of area 1. Required area = 18 − 1 = 17.",
+      "source": "ai",
+      "archetype": "cat-Q20",
+      "verified": true,
+      "relevance": {
+        "score": 96,
+        "by": "independent-review",
+        "note": "Area of |x|+|y-2|<=3 cut by y>=0 = 17; mirrors CAT 2023-24 modulus-region area items"
+      }
+    },
+    {
+      "id": "cat-184",
+      "section": "qa",
+      "topic": "Linear & Quadratic Equations",
+      "difficulty": "medium",
+      "question": "The roots of the equation x² − (k + 1)x + 2k = 0 differ by 3. What is the product of all possible values of k?",
+      "type": "numerical",
+      "answer": -8,
+      "explanation": "(α − β)² = (α + β)² − 4αβ = (k + 1)² − 8k = 9 → k² − 6k − 8 = 0. Its discriminant is positive, so both values of k are real, and their product is −8.",
+      "source": "ai",
+      "archetype": "cat-Q10",
+      "verified": true,
+      "relevance": {
+        "score": 93,
+        "by": "independent-review",
+        "note": "Roots differ by 3 -> k²-6k-8=0, product -8; CAT quadratic TITA"
+      }
+    },
+    {
+      "id": "cat-185",
+      "section": "qa",
+      "topic": "Progressions & Series",
+      "difficulty": "hard",
+      "question": "The 3rd, 7th and 17th terms of a non-constant arithmetic progression are, in that order, three consecutive terms of a geometric progression. What is the common ratio of the geometric progression?",
+      "options": [
+        "2",
+        "3/2",
+        "5/2",
+        "3"
+      ],
+      "answer": 2,
+      "explanation": "(a + 6d)² = (a + 2d)(a + 16d) → 36d² + 12ad = 32d² + 18ad → 4d² = 6ad → a = 2d/3 (d ≠ 0). The terms are 8d/3, 20d/3, 50d/3, so the ratio is 5/2.",
+      "source": "ai",
+      "archetype": "cat-Q14",
+      "verified": true,
+      "relevance": {
+        "score": 94,
+        "by": "independent-review",
+        "note": "AP terms forming GP, ratio 5/2; CAT 2023 progression style"
+      }
+    },
+    {
+      "id": "cat-186",
+      "section": "qa",
+      "topic": "Logarithms & Surds",
+      "difficulty": "medium",
+      "question": "What is the sum of all real values of x that satisfy log₍ₓ₋₁₎(x² − 5x + 7) = 1?",
+      "options": [
+        "6",
+        "2",
+        "5",
+        "4"
+      ],
+      "answer": 3,
+      "explanation": "x² − 5x + 7 = x − 1 → x² − 6x + 8 = 0 → x = 2 or 4. The base x − 1 must be positive and not 1: x = 2 makes the base 1, so it is rejected. Only x = 4 works (log₃3 = 1), so the sum is 4.",
+      "source": "ai",
+      "archetype": "cat-Q15",
+      "verified": true,
+      "relevance": {
+        "score": 95,
+        "by": "independent-review",
+        "note": "Log equation with base-1 extraneous root (x=2) as trap; sum 4 - CAT-faithful"
+      }
     }
   ]
 }
