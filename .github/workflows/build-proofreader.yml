@@ -1,0 +1,79 @@
+name: Build Test Proofreader extension
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'proofreader-extension/**'
+      - '.github/workflows/build-proofreader.yml'
+  pull_request:
+    paths:
+      - 'proofreader-extension/**'
+      - '.github/workflows/build-proofreader.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write   # to attach the ZIP to the proofreader-latest release
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Test the offline checks
+        run: node --test proofreader-extension/test/checks.test.mjs
+
+      - name: Check every file the manifest needs is there
+        working-directory: proofreader-extension
+        run: |
+          node -e "JSON.parse(require('fs').readFileSync('manifest.json','utf8'))"
+          for f in background.js checks.js content.js page.css popup.html popup.js icons/16.png icons/48.png icons/128.png; do
+            test -f "$f" || { echo "::error::missing $f"; exit 1; }
+          done
+          for f in *.js; do node --check "$f"; done
+
+      # Only what Chrome needs: no demo page or tests inside the extension.
+      - name: Package
+        run: |
+          mkdir -p dist
+          cd proofreader-extension
+          zip -r ../dist/test-proofreader.zip manifest.json *.js *.html page.css icons README.md
+          cd ..
+          unzip -l dist/test-proofreader.zip
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: test-proofreader
+          path: dist/test-proofreader.zip
+          if-no-files-found: error
+
+      # Rolling release: the download link never changes. Only from main, so
+      # nothing unreviewed is ever offered for install.
+      - name: Publish the rolling release
+        if: ${{ github.event_name != 'pull_request' && github.ref == 'refs/heads/main' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: proofreader-latest
+        run: |
+          {
+            echo "Test Proofreader Chrome extension, built from \`$GITHUB_SHA\`."
+            echo
+            echo "### [Download test-proofreader.zip](https://github.com/$GITHUB_REPOSITORY/releases/download/$TAG/test-proofreader.zip)"
+            echo
+            echo "Unzip it, open chrome://extensions, turn on Developer mode, click Load unpacked and pick the unzipped folder."
+            echo
+            echo "This tag always points at the newest build, so the link never changes."
+          } > "$RUNNER_TEMP/notes.md"
+
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release edit "$TAG" --notes-file "$RUNNER_TEMP/notes.md" --prerelease
+          else
+            gh release create "$TAG" --prerelease --target "$GITHUB_SHA" \
+              --title "Test Proofreader (latest build)" --notes-file "$RUNNER_TEMP/notes.md"
+          fi
+          gh release upload "$TAG" dist/test-proofreader.zip --clobber

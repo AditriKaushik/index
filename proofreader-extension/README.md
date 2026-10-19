@@ -21,11 +21,15 @@
 
 ## Install (5 मिनट, एक बार)
 
-1. इस repository का ZIP download करें (GitHub पर **Code → Download ZIP**) और unzip करें।
+1. यह ZIP download करें:
+   **https://github.com/AditriKaushik/index/releases/download/proofreader-latest/test-proofreader.zip**
+   और unzip करें (right-click → Extract All)। Unzip किया folder किसी पक्की जगह रखें — उसे delete न करें।
 2. Chrome में `chrome://extensions` खोलें।
 3. ऊपर दाएँ **Developer mode** on करें।
-4. **Load unpacked** दबाएँ और `proofreader-extension` folder चुनें।
+4. **Load unpacked** दबाएँ और unzip किया हुआ folder चुनें (जिसके अंदर `manifest.json` है)।
 5. Toolbar में puzzle (🧩) icon से **Test Proofreader** को pin कर लें।
+
+नया version आने पर: नया ZIP उसी folder में unzip करें, फिर `chrome://extensions` पर extension के ↻ (reload) icon को दबाएँ।
 
 ## Use कैसे करें
 
