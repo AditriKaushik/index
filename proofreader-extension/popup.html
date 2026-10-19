@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  :root { --bg:#fff; --fg:#1d2330; --muted:#667085; --line:#e4e7ec; --accent:#4f46e5; --accent-fg:#fff; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#151821; --fg:#e8eaf0; --muted:#98a2b3; --line:#2b3040; --accent:#818cf8; --accent-fg:#0b0d14; } }
+  body { margin:0; width:320px; font:13px/1.45 system-ui, "Noto Sans Devanagari", sans-serif; background:var(--bg); color:var(--fg); }
+  main { padding:14px; display:grid; gap:12px; }
+  h1 { font-size:15px; margin:0; }
+  p { margin:0; color:var(--muted); }
+  button.primary { width:100%; padding:10px; border:0; border-radius:8px; background:var(--accent); color:var(--accent-fg); font-weight:600; font-size:14px; cursor:pointer; }
+  details { border-top:1px solid var(--line); padding-top:10px; }
+  summary { cursor:pointer; font-weight:600; }
+  label { display:grid; gap:4px; margin-top:10px; font-size:12px; color:var(--muted); }
+  input, select { padding:7px 8px; border:1px solid var(--line); border-radius:6px; background:var(--bg); color:var(--fg); font:inherit; }
+  #saved { color:#12b76a; font-size:12px; min-height:16px; }
+  #err { color:#f04438; font-size:12px; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Test Proofreader</h1>
+  <p>Test page खोलें → Start दबाएँ → page को एक बार scroll करें (या Auto-scroll दबाएँ)। गलतियाँ तुरंत panel में दिखेंगी।</p>
+  <button class="primary" id="start">▶ Start on this page</button>
+  <div id="err"></div>
+  <details id="settings">
+    <summary>Settings (AI deep check)</summary>
+    <label>Claude API key
+      <input id="apiKey" type="password" placeholder="sk-ant-..." autocomplete="off">
+    </label>
+    <label>Model
+      <select id="model">
+        <option value="claude-opus-5-5">Claude Opus 5.5 (best)</option>
+        <option value="claude-sonnet-5-5">Claude Sonnet 5.5 (faster, cheaper)</option>
+        <option value="claude-haiku-5-5">Claude Haiku 5.5 (cheapest)</option>
+      </select>
+    </label>
+    <label>Thoroughness
+      <select id="effort">
+        <option value="medium">Medium</option>
+        <option value="high">High (recommended for maths)</option>
+        <option value="xhigh">Very high</option>
+      </select>
+    </label>
+    <label><span><input id="autoAi" type="checkbox"> Run AI check automatically after auto-scroll</span></label>
+    <div id="saved"></div>
+    <p>Key सिर्फ़ इसी browser में save होती है और सीधे api.anthropic.com को जाती है। Key यहाँ से लें: <a href="https://console.anthropic.com/settings/keys" target="_blank">console.anthropic.com</a></p>
+  </details>
+</main>
+<script src="popup.js"></script>
+</body>
+</html>
