@@ -1,0 +1,15 @@
+/* Injected into the scanned page. Highlights use the CSS Custom Highlight API,
+   so the page's own DOM (React/Angular apps) is never rewritten. */
+::highlight(pr-high)   { background-color: rgba(240, 68, 56, 0.30); text-decoration: underline wavy #d92d20; }
+::highlight(pr-medium) { background-color: rgba(247, 144, 9, 0.28); text-decoration: underline wavy #dc6803; }
+::highlight(pr-low)    { background-color: rgba(46, 144, 250, 0.22); text-decoration: underline dotted #1570ef; }
+::highlight(pr-focus)  { background-color: rgba(124, 58, 237, 0.45); }
+
+[data-pr-flag="high"]   { outline: 2px dashed #d92d20 !important; outline-offset: 2px; }
+[data-pr-flag="medium"] { outline: 2px dashed #dc6803 !important; outline-offset: 2px; }
+[data-pr-flag="low"]    { outline: 2px dashed #1570ef !important; outline-offset: 2px; }
+[data-pr-flash] { animation: pr-flash 1.4s ease-out 1; }
+@keyframes pr-flash {
+  0%, 40% { box-shadow: 0 0 0 4px rgba(124, 58, 237, 0.75); }
+  100%    { box-shadow: 0 0 0 4px rgba(124, 58, 237, 0); }
+}

@@ -43,6 +43,9 @@ jobs:
           cp -r exam/js _site/exam/
           cp exam/data/catalog.json _site/exam/data/
           cp -r exam/data/exams _site/exam/data/
+          # Test Proofreader: only the demo page to try the extension on.
+          mkdir -p _site/proofreader-extension
+          cp -r proofreader-extension/demo _site/proofreader-extension/
 
       # Belt and braces: refuse to deploy if anything server-side ever ends
       # up staged, so a future change to the copy step above cannot quietly
